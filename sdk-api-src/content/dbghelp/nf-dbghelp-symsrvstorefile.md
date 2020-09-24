@@ -59,7 +59,7 @@ Stores a file in the specified symbol store.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param SrvPath [in, optional]
 
@@ -142,7 +142,7 @@ If the function succeeds, the return value is a pointer to a null-terminated str
 						
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -154,5 +154,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>

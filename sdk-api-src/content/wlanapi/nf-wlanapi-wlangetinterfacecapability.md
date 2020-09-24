@@ -56,7 +56,7 @@ The <b>WlanGetInterfaceCapability</b> function retrieves the capabilities of an 
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
@@ -68,7 +68,7 @@ Reserved for future use.  Must be set to <b>NULL</b>.
 
 ### -param ppCapability [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_capability">WLAN_INTERFACE_CAPABILITY</a> structure that contains information about the capabilities of the specified interface.
+A <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_capability">WLAN_INTERFACE_CAPABILITY</a> structure that contains information about the capabilities of the specified interface.
 
 ## -returns
 
@@ -129,5 +129,4 @@ Various error codes.
 
 ## -remarks
 
-The caller is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function to free the memory allocated to <i>ppCapability</i>.
-
+The caller is responsible for calling the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function to free the memory allocated to <i>ppCapability</i>.

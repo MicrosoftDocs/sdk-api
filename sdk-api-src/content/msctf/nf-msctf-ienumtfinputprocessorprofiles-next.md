@@ -60,7 +60,7 @@ The <b>IEnumTfInputProcessorProfiles::Next</b> method obtains, from the current 
 
 ### -param pProfile [out]
 
-[out] Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_inputprocessorprofile">TF_INPUTPROCESSORPROFILE</a> structures. This array must be at least <i>ulCount</i> elements in size.
+[out] Pointer to an array of <a href="/windows/desktop/api/msctf/ns-msctf-tf_inputprocessorprofile">TF_INPUTPROCESSORPROFILE</a> structures. This array must be at least <i>ulCount</i> elements in size.
 
 ### -param pcFetch [out]
 
@@ -109,4 +109,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called when the channel has been opened and is ready for use, or when an error occurs when a channel is opened. The RemoteFX graphics services calls the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-open">IWRdsGraphicsChannel::Open</a> method to open a channel. You must call the <b>OnChannelOpened</b> method to notify the RemoteFX graphics services that the channel is open and ready for use, or if an error occurs.
+Called when the channel has been opened and is ready for use, or when an error occurs when a channel is opened. The RemoteFX graphics services calls the <a href="/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-open">IWRdsGraphicsChannel::Open</a> method to open a channel. You must call the <b>OnChannelOpened</b> method to notify the RemoteFX graphics services that the channel is open and ready for use, or if an error occurs.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ An <b>HRESULT</b> value that specifies the result of the open operation. If this
 
 ### -param pOpenContext [in]
 
-A user-defined interface pointer that is passed as the <i>pOpenContext</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-open">IWRdsGraphicsChannel::Open</a> method.
+A user-defined interface pointer that is passed as the <i>pOpenContext</i> parameter in the <a href="/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-open">IWRdsGraphicsChannel::Open</a> method.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-open">IWRdsGraphicsChannel::Open</a>
+<a href="/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-open">IWRdsGraphicsChannel::Open</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelevents">IWRdsGraphicsChannelEvents</a>
-
+<a href="/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelevents">IWRdsGraphicsChannelEvents</a>

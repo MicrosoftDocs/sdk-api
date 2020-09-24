@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetMode</b> macro retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getmode">MCIWNDM_GETMODE</a> message.
+The <b>MCIWndGetMode</b> macro retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-getmode">MCIWNDM_GETMODE</a> message.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ Size, in bytes, of the buffer.
 
 If the null-terminated string describing the mode is longer than the buffer, it is truncated.
 
-Not all devices can operate in every mode. For example, the MCIAVI device is a playback device; it doesn't support the recording mode. The following modes can be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getmode">MCIWNDM_GETMODE</a>:
+Not all devices can operate in every mode. For example, the MCIAVI device is a playback device; it doesn't support the recording mode. The following modes can be retrieved by using <a href="/windows/desktop/Multimedia/mciwndm-getmode">MCIWNDM_GETMODE</a>:
 
 <table>
 <tr>
@@ -111,5 +111,4 @@ Not all devices can operate in every mode. For example, the MCIAVI device is a p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getmode">MCIWNDM_GETMODE</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-getmode">MCIWNDM_GETMODE</a>

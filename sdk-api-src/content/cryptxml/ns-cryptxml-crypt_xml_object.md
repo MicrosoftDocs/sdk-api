@@ -80,15 +80,14 @@ Optional. A pointer to a null-terminated wide character string that contains the
 
 ### -field Manifest
 
-Optional. A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_references">CRYPT_XML_REFERENCES</a> structure that specifies an array of references.
+Optional. A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_references">CRYPT_XML_REFERENCES</a> structure that specifies an array of references.
 
 ### -field Encoded
 
-Optional. A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the XML part of the entire <b>Object</b> element.
+Optional. A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the XML part of the entire <b>Object</b> element.
 
 <div class="alert"><b>Note</b>  This field is empty when the <b>Object</b> element does not contain
     any elements.
     Applications can use the <b>CRYPT_XML_FLAG_ALWAYS_RETURN_ENCODED_OBJECT</b> flag
     to always receive an encoded <b>Object</b> element.</div>
 <div> </div>
-

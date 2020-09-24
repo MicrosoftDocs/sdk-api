@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Elements of the <b>TfGravity</b> enumeration specify the type of gravity associated with the anchor of an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object.
+Elements of the <b>TfGravity</b> enumeration specify the type of gravity associated with the anchor of an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object.
 
 ## -enum-fields
 
@@ -66,21 +66,20 @@ The anchor has forward gravity.
 
 ## -remarks
 
-For more information about anchor gravity, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>.
+For more information about anchor gravity, see <a href="/windows/desktop/TSF/ranges">Anchor Gravity</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
+<a href="/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-getgravity">ITfRange::GetGravity</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-getgravity">ITfRange::GetGravity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-setgravity">ITfRange::SetGravity</a>
-
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-setgravity">ITfRange::SetGravity</a>

@@ -58,7 +58,7 @@ Creates an icon or cursor from resource bits describing the icon.
 
 Type: <b>PBYTE</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
 
 ### -param dwResSize [in]
 
@@ -159,24 +159,24 @@ Type: <b>HICON</b>
 
 If the function succeeds, the return value is a handle to the icon or cursor.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
+The <a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>, <a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
 
-You should call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
+You should call <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-icons">Sharing Icon Resources</a>.
+For an example, see <a href="/windows/desktop/menurc/using-icons">Sharing Icon Resources</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 
@@ -184,31 +184,31 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a>
 
 
 
@@ -217,4 +217,3 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <b>Reference</b>
-

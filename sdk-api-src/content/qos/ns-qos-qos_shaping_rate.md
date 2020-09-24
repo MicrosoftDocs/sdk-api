@@ -62,7 +62,7 @@ The QOS object
 ### -field ObjectHdr
 
 The QOS object 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
 <b>QOS_SHAPING_RATE</b>.
 
 ### -field ShapingRate
@@ -71,9 +71,8 @@ Unsigned 32-bit integer that specifies the uniform traffic shaping rate in bytes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
-
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>

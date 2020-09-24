@@ -56,15 +56,15 @@ Retrieves a moniker for the object's client site. An object can force the assign
 
 ### -param dwAssign [in]
 
-Specifies whether to get a moniker only if one already exists, force assignment of a moniker, create a temporary moniker, or remove a moniker that has been assigned. In practice, you will usually request that the container force assignment of the moniker. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olegetmoniker">OLEGETMONIKER</a> enumeration.
+Specifies whether to get a moniker only if one already exists, force assignment of a moniker, create a temporary moniker, or remove a moniker that has been assigned. In practice, you will usually request that the container force assignment of the moniker. Possible values are taken from the <a href="/windows/desktop/api/oleidl/ne-oleidl-olegetmoniker">OLEGETMONIKER</a> enumeration.
 
 ### -param dwWhichMoniker [in]
 
-Specifies whether to return the container's moniker, the object's moniker relative to the container, or the object's full moniker. In practice, you will usually request the object's full moniker. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olewhichmk">OLEWHICHMK</a> enumeration.
+Specifies whether to return the container's moniker, the object's moniker relative to the container, or the object's full moniker. In practice, you will usually request the object's full moniker. Possible values are taken from the <a href="/windows/desktop/api/oleidl/ne-oleidl-olewhichmk">OLEWHICHMK</a> enumeration.
 
 ### -param ppmk [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to the moniker for the object's client site. If an error occurs, the implementation must set <i>ppmk</i> to <b>NULL</b>. Each time a container receives a call to <b>IOleClientSite::GetMoniker</b>, it must increase the reference count on the <i>ppmk</i> pointer it returns. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when it is finished with the pointer.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to the moniker for the object's client site. If an error occurs, the implementation must set <i>ppmk</i> to <b>NULL</b>. Each time a container receives a call to <b>IOleClientSite::GetMoniker</b>, it must increase the reference count on the <i>ppmk</i> pointer it returns. It is the caller's responsibility to call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when it is finished with the pointer.
 
 ## -returns
 
@@ -102,13 +102,12 @@ In some very specialized cases, an object may no longer need a moniker previousl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getmoniker">IOleClientSite::GetMoniker</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getmoniker">IOleClientSite::GetMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setmoniker">IOleObject::SetMoniker</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setmoniker">IOleObject::SetMoniker</a>

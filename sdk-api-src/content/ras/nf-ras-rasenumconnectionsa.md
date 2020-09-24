@@ -62,13 +62,13 @@ The
 ### -param arg1 [in, out]
 
 Pointer to a buffer that receives, on output, an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures, one for each RAS connection. 
+<a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures, one for each RAS connection. 
 
 
 
 
 On input, an application must set the <b>dwSize</b> member of the first 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
+<a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
 
 ### -param arg2 [in, out]
 
@@ -88,13 +88,13 @@ On output, the function sets this variable to the number of bytes required to en
 ### -param arg3 [out]
 
 Pointer to a variable that receives the number of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
+<a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -182,7 +182,7 @@ DWORD __cdecl wmain(){
 
 <b>Windows Me/98/95:  </b><b>RasEnumConnections</b>  enumerates a connection as <b>Active</b> as soon as it starts dialing.
 
-The most reliable way to enumerate and check for an active connection is to call <b>RasEnumConnections</b> or <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> to get a connection handle, then call <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a> to determine the actual connection state.
+The most reliable way to enumerate and check for an active connection is to call <b>RasEnumConnections</b> or <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> to get a connection handle, then call <a href="/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a> to determine the actual connection state.
 
 
 
@@ -195,21 +195,20 @@ The most reliable way to enumerate and check for an active connection is to call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

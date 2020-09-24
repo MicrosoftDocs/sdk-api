@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>IS_SPECIAL_COOKIE</b> macro determines whether an <b>MMC_COOKIE</b> value passed by MMC in a call to the snap-in's 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a> method is a special type of cookie.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a> method is a special type of cookie.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ A value of type <b>MMC_COOKIE</b> that you want to evaluate.
 
 ## -remarks
 
-You can use this macro to verify that the cookie passed by MMC in its call to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a> is one of the special values, and then handle the data object appropriately based on the specific value of the cookie (<b>MMC_MULTI_SELECT_COOKIE</b> or <b>MMC_WINDOW_COOKIE</b>).
-
+You can use this macro to verify that the cookie passed by MMC in its call to <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a> is one of the special values, and then handle the data object appropriately based on the specific value of the cookie (<b>MMC_MULTI_SELECT_COOKIE</b> or <b>MMC_WINDOW_COOKIE</b>).

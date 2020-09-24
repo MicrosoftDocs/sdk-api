@@ -108,7 +108,7 @@ The options for the function. This can be zero or a combination of the following
 
 #### SHGNLI_NOLNK (0x000000008)
 
-0x000000008. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
+0x000000008. <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
 
 
 
@@ -137,4 +137,3 @@ Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
 > [!NOTE]
 > The shellapi.h header defines SHGetNewLinkInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

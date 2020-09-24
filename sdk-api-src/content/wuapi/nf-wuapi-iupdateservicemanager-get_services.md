@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceCollection</a> of the services that are registered with WUA.
+Gets an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceCollection</a> of the services that are registered with WUA.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>

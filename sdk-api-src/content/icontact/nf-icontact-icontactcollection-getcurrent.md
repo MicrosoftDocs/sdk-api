@@ -56,7 +56,7 @@ Retrieves the current contact in the enumeration.
 
 ### -param ppContact [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
 
 If successful, contains the current contact.
 
@@ -68,13 +68,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-After reset, a call to <b>IContactCollection::GetCurrent</b> without first calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">IContactCollection::Next</a> will fail.
+After reset, a call to <b>IContactCollection::GetCurrent</b> without first calling <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">IContactCollection::Next</a> will fail.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactcollection">IContactCollection</a>
+<a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactcollection">IContactCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-reset">IContactCollection::Reset</a>
-
+<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-reset">IContactCollection::Reset</a>

@@ -49,9 +49,9 @@ api_name:
 
 ## -description
 
-The <b>DDPIXELFORMAT</b> structure describes the pixel format of a DirectDrawSurface object for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getpixelformat">IDirectDrawSurface7::GetPixelFormat</a> method.
+The <b>DDPIXELFORMAT</b> structure describes the pixel format of a DirectDrawSurface object for the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getpixelformat">IDirectDrawSurface7::GetPixelFormat</a> method.
 
-<div class="alert"><b>Note</b>  Rather than use this structure to decode files with the DirectDraw Surface (DDS) file format (.dds), you should use an alternative structure that does not rely on Ddraw.h. For more information about alternative structures for DDS, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddds/dx-graphics-dds">DDS</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  Rather than use this structure to decode files with the DirectDraw Surface (DDS) file format (.dds), you should use an alternative structure that does not rely on Ddraw.h. For more information about alternative structures for DDS, see <a href="/windows/desktop/direct3ddds/dx-graphics-dds">DDS</a>.</div><div> </div>
 
 ## -struct-fields
 

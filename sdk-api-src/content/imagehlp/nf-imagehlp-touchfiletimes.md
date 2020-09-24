@@ -61,14 +61,14 @@ A handle to the file of interest.
 ### -param pSystemTime [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If this parameter is <b>NULL</b>, the current system date and time is used.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If this parameter is <b>NULL</b>, the current system date and time is used.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -76,13 +76,12 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/image-help-library">Image Help Library Overview</a>
+<a href="/windows/desktop/Debug/image-help-library">Image Help Library Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>

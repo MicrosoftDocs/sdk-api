@@ -61,49 +61,48 @@ Sets the time-out parameters for all read and write operations on a specified co
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 ### -param lpCommTimeouts [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> structure that contains the new time-out values.
+<a href="/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> structure that contains the new time-out values.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommtimeouts">GetCommTimeouts</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getcommtimeouts">GetCommTimeouts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>

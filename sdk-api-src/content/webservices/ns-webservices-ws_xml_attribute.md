@@ -82,5 +82,4 @@ The namespace of the attribute.  In the example above, the namespace for the att
 
 ### -field value
 
-The value of the attribute.  In the example above the value for attribute "xmlns:a" is not used so it is <b>NULL</b>.  The value for the attribute "id" is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a> that refers to the value "5".
-
+The value of the attribute.  In the example above the value for attribute "xmlns:a" is not used so it is <b>NULL</b>.  The value for the attribute "id" is a <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a> that refers to the value "5".

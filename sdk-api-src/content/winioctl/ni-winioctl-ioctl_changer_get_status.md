@@ -86,10 +86,9 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 
-* [Device Management Control Codes](https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes)
+* [Device Management Control Codes](/windows/desktop/DevIO/device-management-control-codes)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure as the <b>SendMessage</b> <i>hWnd</i> parameter.
+Deprecated. Calls the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure as the <b>SendMessage</b> <i>hWnd</i> parameter.
 
 ## -parameters
 
@@ -78,4 +78,3 @@ Additional message-specific information.
 Type: <b>LRESULT</b>
 
 The return value specifies the result of the message processing; it depends on the message sent.
-

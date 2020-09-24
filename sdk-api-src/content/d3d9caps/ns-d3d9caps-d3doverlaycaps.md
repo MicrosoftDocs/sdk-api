@@ -165,9 +165,8 @@ The maximum overlay height after stretching.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9exoverlayextension-checkdeviceoverlaytype">IDirect3D9ExOverlayExtension::CheckDeviceOverlayType</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9exoverlayextension-checkdeviceoverlaytype">IDirect3D9ExOverlayExtension::CheckDeviceOverlayType</a>

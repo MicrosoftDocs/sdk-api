@@ -97,7 +97,7 @@ No more bindings.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -107,28 +107,27 @@ Each time the client calls the
 
 When all of the binding handles have been returned from the vector, the function returns a status of RPC_S_NO_MORE_BINDINGS and returns a <i>Binding</i> value of <b>NULL</b>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a> 
+The <a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> 
 	  operation allocates storage for the data referenced by the returned <i>Binding</i> parameter. When a client finishes with the binding handle, it should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> function to deallocate the storage. Each call to 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> function to deallocate the storage. Each call to 
 <b>RpcNsBindingSelect</b> requires a corresponding call to the 
 <b>RpcBindingFree</b> function.
 
 Clients can create their own select routines implementing application-specific selection criteria. In this case, 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a> provides access to the fields of a binding.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a> provides access to the fields of a binding.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>

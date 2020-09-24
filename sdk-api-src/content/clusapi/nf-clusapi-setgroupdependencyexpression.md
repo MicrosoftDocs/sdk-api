@@ -67,5 +67,4 @@ The dependency expression to set on the group.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.

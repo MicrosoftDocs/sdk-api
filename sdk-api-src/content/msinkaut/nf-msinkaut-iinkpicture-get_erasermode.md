@@ -65,9 +65,9 @@ This property is read/write.
 
 ## -remarks
 
-This property applies only when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode</a> property is set to Delete.
+This property applies only when the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode</a> property is set to Delete.
 
-For further details about this property, refer to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode">EraserMode</a> property, which has the same functionality.
+For further details about this property, refer to the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object's <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode">EraserMode</a> property, which has the same functionality.
 
 ## -see-also
 
@@ -75,5 +75,4 @@ For further details about this property, refer to the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
-
+<a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>

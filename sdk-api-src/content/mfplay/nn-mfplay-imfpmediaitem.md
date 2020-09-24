@@ -50,23 +50,23 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Note</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Represents a media item. A <i>media item</i> is an abstraction for a source of media data, such as a video file. Use this interface to get information about the source, or to change certain playback settings, such as the start and stop times. To get a pointer to this interface, call one of the following methods:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject">IMFPMediaPlayer::CreateMediaItemFromObject</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject">IMFPMediaPlayer::CreateMediaItemFromObject</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">IMFPMediaPlayer::CreateMediaItemFromURL</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">IMFPMediaPlayer::CreateMediaItemFromURL</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMediaItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMediaItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMediaItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMediaItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>IMFPMediaItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getcharacteristics">GetCharacteristics</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getcharacteristics">GetCharacteristics</a>
 </td>
 <td align="left" width="63%">
 Gets various flags that describe the media item.
@@ -90,7 +90,7 @@ Gets various flags that describe the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getduration">GetDuration</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getduration">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Gets the duration of the media item.
@@ -99,7 +99,7 @@ Gets the duration of the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getmediaplayer">GetMediaPlayer</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getmediaplayer">GetMediaPlayer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the MFPlay player object that created the media item.
@@ -108,7 +108,7 @@ Retrieves a pointer to the MFPlay player object that created the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getmetadata">GetMetadata</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getmetadata">GetMetadata</a>
 </td>
 <td align="left" width="63%">
 Gets a property store that contains metadata for the source. 
@@ -117,7 +117,7 @@ Gets a property store that contains metadata for the source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getnumberofstreams">GetNumberOfStreams</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getnumberofstreams">GetNumberOfStreams</a>
 </td>
 <td align="left" width="63%">
 Gets the number of streams (audio, video, and other) in the media item.
@@ -126,7 +126,7 @@ Gets the number of streams (audio, video, and other) in the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getobject">GetObject</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Gets the object that was used to create the media item.
@@ -135,7 +135,7 @@ Gets the object that was used to create the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getpresentationattribute">GetPresentationAttribute</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getpresentationattribute">GetPresentationAttribute</a>
 </td>
 <td align="left" width="63%">
 Queries the media item for a presentation attribute.
@@ -144,7 +144,7 @@ Queries the media item for a presentation attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getstartstopposition">GetStartStopPosition</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getstartstopposition">GetStartStopPosition</a>
 </td>
 <td align="left" width="63%">
 Gets the start and stop times for the media item.
@@ -153,7 +153,7 @@ Gets the start and stop times for the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getstreamattribute">GetStreamAttribute</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getstreamattribute">GetStreamAttribute</a>
 </td>
 <td align="left" width="63%">
 Queries the media item for a stream attribute.
@@ -162,7 +162,7 @@ Queries the media item for a stream attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getstreamselection">GetStreamSelection</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getstreamselection">GetStreamSelection</a>
 </td>
 <td align="left" width="63%">
 Queries whether a stream is selected to play.
@@ -171,7 +171,7 @@ Queries whether a stream is selected to play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-geturl">GetURL</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-geturl">GetURL</a>
 </td>
 <td align="left" width="63%">
 Gets the URL that was used to create the media item.
@@ -180,7 +180,7 @@ Gets the URL that was used to create the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getuserdata">GetUserData</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getuserdata">GetUserData</a>
 </td>
 <td align="left" width="63%">
 Gets the application-defined value stored in the media item.
@@ -189,7 +189,7 @@ Gets the application-defined value stored in the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-hasaudio">HasAudio</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-hasaudio">HasAudio</a>
 </td>
 <td align="left" width="63%">
 Queries whether the media item contains an audio stream.
@@ -198,7 +198,7 @@ Queries whether the media item contains an audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-hasvideo">HasVideo</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-hasvideo">HasVideo</a>
 </td>
 <td align="left" width="63%">
 Queries whether the media item contains a video stream.
@@ -207,7 +207,7 @@ Queries whether the media item contains a video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-isprotected">IsProtected</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-isprotected">IsProtected</a>
 </td>
 <td align="left" width="63%">
 Queries whether the media item contains protected content.
@@ -216,7 +216,7 @@ Queries whether the media item contains protected content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstartstopposition">SetStartStopPosition</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstartstopposition">SetStartStopPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the start and stop times for the media item.
@@ -225,7 +225,7 @@ Sets the start and stop times for the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamselection">SetStreamSelection</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamselection">SetStreamSelection</a>
 </td>
 <td align="left" width="63%">
 Selects or deselects a stream.
@@ -234,7 +234,7 @@ Selects or deselects a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamsink">SetStreamSink</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamsink">SetStreamSink</a>
 </td>
 <td align="left" width="63%">
 Sets a media sink for the media item.
@@ -243,7 +243,7 @@ Sets a media sink for the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setuserdata">SetUserData</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setuserdata">SetUserData</a>
 </td>
 <td align="left" width="63%">
 Sets an application-defined value that is stored in the media item.
@@ -254,9 +254,8 @@ Sets an application-defined value that is stored in the media item.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

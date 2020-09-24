@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Destroys a stub that was created by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imanagedactivationevents-createmanagedstub">CreateManagedStub</a>.
+Destroys a stub that was created by <a href="/windows/desktop/api/comsvcs/nf-comsvcs-imanagedactivationevents-createmanagedstub">CreateManagedStub</a>.
 
 ## -parameters
 
 ### -param pInfo [in]
 
-A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a> that describes the stub for a managed object.
+A pointer to <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a> that describes the stub for a managed object.
 
 ## -returns
 
@@ -64,5 +64,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedactivationevents">IManagedActivationEvents</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedactivationevents">IManagedActivationEvents</a>

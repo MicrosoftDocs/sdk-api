@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the automagic hints for a 
    LUN or LUN plex.
@@ -180,7 +180,7 @@ The provider configures LUN so that the drives that contribute to it can be phys
 
 The maximum size to which the LUN is expected to grow, in bytes. The value can be equal to, greater than, or 
       less than the value specified in <i>ullSizeInBytes</i> when the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method is called.
+      <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method is called.
       Some providers use this value to reserve space for the LUN. Providers that are unable to reserve space 
       typically ignore this parameter.
 
@@ -277,11 +277,11 @@ The rebuild priority for the LUN. The value can range from 0 (lowest priority) t
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method passes 
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method passes 
     this structure as a parameter to provide hints for creating a LUN. It is passed as a parameter in the 
     <b>ApplyHints</b> method on both the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslunplex">IVdsLunPlex</a> interfaces to apply a new set of hints to a 
+    <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a> and 
+    <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslunplex">IVdsLunPlex</a> interfaces to apply a new set of hints to a 
     LUN or LUN plex, respectively. Further, it is returned by the <b>QueryHints</b> method on both 
     the <b>IVdsLun</b> and 
     <b>IVdsLunPlex</b> interfaces to report hints currently applied 
@@ -294,25 +294,24 @@ Hints are not directives to implementers. While implementers are in general expe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-applyhints">IVdsLun::ApplyHints</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-applyhints">IVdsLun::ApplyHints</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-queryhints">IVdsLun::QueryHints</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-queryhints">IVdsLun::QueryHints</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-applyhints">IVdsLunPlex::ApplyHints</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-applyhints">IVdsLunPlex::ApplyHints</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryhints">IVdsLunPlex::QueryHints</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryhints">IVdsLunPlex::QueryHints</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
-
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>

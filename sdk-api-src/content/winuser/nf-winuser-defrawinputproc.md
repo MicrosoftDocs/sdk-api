@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Unlike <a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-defwindowproca">DefWindowProcA</a> and <a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-defwindowprocw">DefWindowProcW</a>, this function doesn't do any processing.
+Unlike <a href="/windows/win32/api/winuser/nf-winuser-defwindowproca">DefWindowProcA</a> and <a href="/windows/win32/api/winuser/nf-winuser-defwindowprocw">DefWindowProcW</a>, this function doesn't do any processing.
 
-<b>DefRawInputProc</b> only checks whether <b>cbSizeHeader</b>'s value corresponds to the expected size of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>.
+<b>DefRawInputProc</b> only checks whether <b>cbSizeHeader</b>'s value corresponds to the expected size of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ Ignored.
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> structure.
+The size, in bytes, of the <a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> structure.
 
 ## -returns
 
@@ -86,13 +86,12 @@ If successful, the function returns <b>0</b>. Otherwise it returns <b>-1</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
-
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>

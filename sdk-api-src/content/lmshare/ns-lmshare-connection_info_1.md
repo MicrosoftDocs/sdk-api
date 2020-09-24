@@ -129,7 +129,7 @@ In addition, one or both of the following values may be specified.
 </dl>
 </td>
 <td width="60%">
-Special share reserved for interprocess communication (IPC$) or remote administration of the server (ADMIN$). Can also refer to administrative shares such as C$, D$, E$, and so forth. For more information, see <a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>.
+Special share reserved for interprocess communication (IPC$) or remote administration of the server (ADMIN$). Can also refer to administrative shares such as C$, D$, E$, and so forth. For more information, see <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>.
 
 </td>
 </tr>
@@ -166,24 +166,23 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 ### -field coni1_netname
 
 Pointer to a string that specifies either the share name of the server's shared resource or the computername of the client. The value of this member depends on which name was specified as the <i>qualifier</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netconnectionenum">NetConnectionEnum</a> function. The name not specified in the <i>qualifier</i> parameter to 
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netconnectionenum">NetConnectionEnum</a> function. The name not specified in the <i>qualifier</i> parameter to 
 <b>NetConnectionEnum</b> is automatically supplied to <b>coni1_netname</b>.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netconnectionenum">NetConnectionEnum</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netconnectionenum">NetConnectionEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
-
+<a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>

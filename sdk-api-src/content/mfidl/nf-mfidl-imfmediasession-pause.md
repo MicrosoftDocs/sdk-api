@@ -114,15 +114,14 @@ The Media Session cannot pause while stopped.
 
 This method pauses the presentation clock.
 
-This method is asynchronous. When the operation completes, the Media Session sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionpaused">MESessionPaused</a> event.
+This method is asynchronous. When the operation completes, the Media Session sends an <a href="/windows/desktop/medfound/mesessionpaused">MESessionPaused</a> event.
 
 This method fails if the Media Session is stopped.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionpaused">MESessionPaused</a>
-
+<a href="/windows/desktop/medfound/mesessionpaused">MESessionPaused</a>

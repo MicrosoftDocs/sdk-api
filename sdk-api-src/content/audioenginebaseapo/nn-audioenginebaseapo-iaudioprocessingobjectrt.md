@@ -56,21 +56,20 @@ The <code>IAudioProcessingObjectRT</code> interface includes the following metho
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectrt-apoprocess">IAudioProcessingObjectRT::APOProcess</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectrt-apoprocess">IAudioProcessingObjectRT::APOProcess</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectrt-calcinputframes">IAudioProcessingObjectRT::CalcInputFrames</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectrt-calcinputframes">IAudioProcessingObjectRT::CalcInputFrames</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectrt-calcoutputframes">IAudioProcessingObjectRT::CalcOutputFrames</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectrt-calcoutputframes">IAudioProcessingObjectRT::CalcOutputFrames</a>
 
 
 </dd>
 </dl>
-

@@ -76,7 +76,7 @@ A handle to the window whose property list is to be changed.
 
 Type: <b>LPCTSTR</b>
 
-A null-terminated character string or an atom that identifies a string. If this parameter is an atom, it must have been created using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a> function. The atom, a 16-bit value, must be placed in the low-order word of <i>lpString</i>; the high-order word must be zero.
+A null-terminated character string or an atom that identifies a string. If this parameter is an atom, it must have been created using the <a href="/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a> function. The atom, a 16-bit value, must be placed in the low-order word of <i>lpString</i>; the high-order word must be zero.
 
 ## -returns
 
@@ -86,16 +86,16 @@ The return value identifies the specified data. If the data cannot be found in t
 
 ## -remarks
 
-The return value is the <i>hData</i> value that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a>; it is an application-defined value. Note, this function only destroys the association between the data and the window. If appropriate, the application must free the data handles associated with entries removed from a property list. The application can remove only those properties it has added. It must not remove properties added by other applications or by the system itself.
+The return value is the <i>hData</i> value that was passed to <a href="/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a>; it is an application-defined value. Note, this function only destroys the association between the data and the window. If appropriate, the application must free the data handles associated with entries removed from a property list. The application can remove only those properties it has added. It must not remove properties added by other applications or by the system itself.
 
 The <b>RemoveProp</b> function returns the data handle associated with the string so that the application can free the data associated with the handle.
 
-Starting with Windows Vista, <b>RemoveProp</b> is subject to the restrictions of User Interface Privilege Isolation (UIPI). A process can only call this function on a window belonging to a process of lesser or equal integrity level. When UIPI blocks property changes, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>5</b>.
+Starting with Windows Vista, <b>RemoveProp</b> is subject to the restrictions of User Interface Privilege Isolation (UIPI). A process can only call this function on a window belonging to a process of lesser or equal integrity level. When UIPI blocks property changes, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>5</b>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-window-properties">Deleting a Window Property</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-window-properties">Deleting a Window Property</a>.
 
 <div class="code"></div>
 
@@ -107,7 +107,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addatomw">AddAtom</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-addatomw">AddAtom</a>
 
 
 
@@ -115,7 +115,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpropa">GetProp</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getpropa">GetProp</a>
 
 
 
@@ -123,9 +123,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-properties">Window Properties</a>
-
+<a href="/windows/desktop/winmsg/window-properties">Window Properties</a>

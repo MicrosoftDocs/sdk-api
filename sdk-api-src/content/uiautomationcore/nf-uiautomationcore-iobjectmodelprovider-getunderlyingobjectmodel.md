@@ -56,13 +56,13 @@ Retrieves an interface used to access the underlying object model of the provide
 
 ### -param ppUnknown [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
 Receives an interface for accessing the underlying object model.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -72,5 +72,4 @@ Client applications can use the object model to directly access the content of t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iobjectmodelprovider">IObjectModelProvider</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iobjectmodelprovider">IObjectModelProvider</a>

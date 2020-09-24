@@ -64,7 +64,7 @@ A handle to the device context.
 
 ### -param lppt [in, out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures. The x- and y-coordinates contained in each <b>POINT</b> structure will be transformed.
+A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures. The x- and y-coordinates contained in each <b>POINT</b> structure will be transformed.
 
 ### -param c [in]
 
@@ -83,23 +83,22 @@ The <b>DPtoLP</b> function fails if the device coordinates exceed 27 bits, or if
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-coordinate-spaces-and-transformations">Using Coordinate Spaces and Transformations</a>.
+For an example, see <a href="/windows/desktop/gdi/using-coordinate-spaces-and-transformations">Using Coordinate Spaces and Transformations</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lptodp">LPtoDP</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-lptodp">LPtoDP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
-
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>

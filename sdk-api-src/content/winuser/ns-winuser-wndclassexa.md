@@ -56,10 +56,10 @@ api_name:
 
 ## -description
 
-Contains window class information. It is used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a> 
+Contains window class information. It is used with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> and <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a> 
 			functions. 
 
-The <b>WNDCLASSEX</b> structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure. There are two differences. <b>WNDCLASSEX</b> includes the <b>cbSize</b> member, which specifies the size of the structure, and the <b>hIconSm</b> member, which contains a handle to a small icon associated with the window class.
+The <b>WNDCLASSEX</b> structure is similar to the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure. There are two differences. <b>WNDCLASSEX</b> includes the <b>cbSize</b> member, which specifies the size of the structure, and the <b>hIconSm</b> member, which contains a handle to a small icon associated with the window class.
 
 ## -struct-fields
 
@@ -67,19 +67,19 @@ The <b>WNDCLASSEX</b> structure is similar to the <a href="https://docs.microsof
 
 Type: <b>UINT</b>
 
-The size, in bytes, of this structure. Set this member to <code>sizeof(WNDCLASSEX)</code>. Be sure to set this member before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a> function.
+The size, in bytes, of this structure. Set this member to <code>sizeof(WNDCLASSEX)</code>. Be sure to set this member before calling the <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a> function.
 
 ### -field style
 
 Type: <b>UINT</b>
 
-The class style(s). This member can be any combination of the <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-window-classes">Class Styles</a>.
+The class style(s). This member can be any combination of the <a href="/windows/desktop/winmsg/about-window-classes">Class Styles</a>.
 
 ### -field lpfnWndProc
 
 Type: <b>WNDPROC</b>
 
-A pointer to the window procedure. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>.
+A pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>.
 
 ### -field cbClsExtra
 
@@ -140,29 +140,29 @@ A handle to the class background brush. This member can be a handle to the brush
 <li>COLOR_WINDOWFRAME</li>
 <li>COLOR_WINDOWTEXT </li>
 </ul>
-The system automatically deletes class background brushes when the class is unregistered by using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterclassa">UnregisterClass</a>. An application should not delete these brushes. 
+The system automatically deletes class background brushes when the class is unregistered by using <a href="/windows/desktop/api/winuser/nf-winuser-unregisterclassa">UnregisterClass</a>. An application should not delete these brushes. 
 
 When this member is <b>NULL</b>, an application must paint its own background whenever it is requested to paint in its client area. To determine whether the background must be painted, an application can either process the 
-						<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message or test the 
-						<b>fErase</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure filled by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function.
+						<a href="/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message or test the 
+						<b>fErase</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure filled by the <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function.
 
 ### -field lpszMenuName
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a null-terminated character string that specifies the resource name of the class menu, as the name appears in the resource file. If you use an integer to identify the menu, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. If this member is <b>NULL</b>, windows belonging to this class have no default menu.
+Pointer to a null-terminated character string that specifies the resource name of the class menu, as the name appears in the resource file. If you use an integer to identify the menu, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. If this member is <b>NULL</b>, windows belonging to this class have no default menu.
 
 ### -field lpszClassName
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string or is an atom. If this parameter is an atom, it must be a class atom created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be in the low-order word of 
+A pointer to a null-terminated string or is an atom. If this parameter is an atom, it must be a class atom created by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be in the low-order word of 
 					<b>lpszClassName</b>; the high-order word must be zero. 
 					
 
-If <b>lpszClassName</b> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>, or any of the predefined control-class names. 
+If <b>lpszClassName</b> is a string, it specifies the window class name. The class name can be any name registered with <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>, or any of the predefined control-class names. 
 
-The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is greater than the maximum length, the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function will fail.
+The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is greater than the maximum length, the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function will fail.
 
 ### -field hIconSm
 
@@ -177,7 +177,7 @@ A handle to a small icon that is associated with the window class. If this membe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a>
 
 
 
@@ -185,18 +185,17 @@ A handle to a small icon that is associated with the window class. If this membe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterclassa">UnregisterClass</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-unregisterclassa">UnregisterClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines WNDCLASSEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -52,8 +52,8 @@ api_name:
 ## -description
 
 Releases the WMI namespace allocated by calls to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-createqueryresults">IGPMRSOP::CreateQueryResults</a> method and by calls to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getrsop">IGPM::GetRSOP</a> method.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-createqueryresults">IGPMRSOP::CreateQueryResults</a> method and by calls to the 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getrsop">IGPM::GetRSOP</a> method.
 
 ## -parameters
 
@@ -67,9 +67,8 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a>

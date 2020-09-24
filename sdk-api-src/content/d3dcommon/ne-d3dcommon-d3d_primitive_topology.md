@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Values that indicate how the pipeline interprets vertex data that is bound to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler stage</a>. These <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies">primitive topology values</a> determine how the vertex data is rendered on screen.
+Values that indicate how the pipeline interprets vertex data that is bound to the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler stage</a>. These <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies">primitive topology values</a> determine how the vertex data is rendered on screen.
 
 > [!NOTE]
 > For programming with Direct3D 10, this API has a type alias that begins `D3D10_` instead of `D3D_`. These Direct3D 10 type aliases are defined in `d3d10.h`, `d3d10misc.h`, and `d3d10shader.h`.
@@ -435,7 +435,7 @@ Interpret the vertex data as a patch list.
 
 ## -remarks
 
-Use the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-iasetprimitivetopology">ID3D11DeviceContext::IASetPrimitiveTopology</a> method and a value from <b>D3D_PRIMITIVE_TOPOLOGY</b> to bind a primitive topology to the input-assembler stage. Use the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-iagetprimitivetopology">ID3D11DeviceContext::IAGetPrimitiveTopology</a> method to retrieve the primitive topology for the input-assembler stage.
+Use the  <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-iasetprimitivetopology">ID3D11DeviceContext::IASetPrimitiveTopology</a> method and a value from <b>D3D_PRIMITIVE_TOPOLOGY</b> to bind a primitive topology to the input-assembler stage. Use the  <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-iagetprimitivetopology">ID3D11DeviceContext::IAGetPrimitiveTopology</a> method to retrieve the primitive topology for the input-assembler stage.
 
 The following diagram shows the various primitive types for a geometry shader object.
 
@@ -443,5 +443,4 @@ The following diagram shows the various primitive types for a geometry shader ob
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>

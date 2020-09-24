@@ -112,5 +112,4 @@ Can occur if <i>pTable</i> is NULL or if <i>tableIndex</i> does not point to a v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>
-
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>

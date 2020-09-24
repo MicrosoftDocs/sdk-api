@@ -109,17 +109,16 @@ The caller is out of memory or other system resources.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfile">IVssComponent::GetDifferencedFile</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfile">IVssComponent::GetDifferencedFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
-
+<a href="/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>

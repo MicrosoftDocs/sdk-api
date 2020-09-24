@@ -105,9 +105,8 @@ The call context does not support the interface specified by <i>riid</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
-
+<a href="/windows/desktop/com/security-in-com">Security in COM</a>

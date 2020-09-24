@@ -58,7 +58,7 @@ Invokes the standard <b>Convert</b> dialog box, allowing the user to change the 
 
 ### -param Arg1 [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
+Pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
 
 ## -returns
 
@@ -291,7 +291,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -302,7 +302,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -406,7 +406,7 @@ A string value (for example, <b>lpszUserType</b> or <b>lpszDefLabel</b>) was inv
 
 Note that you can change the type of all objects of a given class only when CF_CONVERTONLY is not specified.
 
-The convert command, which invokes this function, should only be made available to the user if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a> returns S_OK. 
+The convert command, which invokes this function, should only be made available to the user if <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a> returns S_OK. 
 
 
 
@@ -418,9 +418,8 @@ The convert command, which invokes this function, should only be made available 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a>
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a>
-
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a>

@@ -64,5 +64,4 @@ The time is determined by the age of the folder.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a>

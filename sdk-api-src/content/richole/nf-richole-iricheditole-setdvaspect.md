@@ -56,23 +56,22 @@ Sets the aspect that a rich edit control uses to draw an object. This call does 
 
 ### -param iob
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Index of the object whose aspect is to be set. If this parameter is REO_IOB_SELECTION, the aspect of the selected object is to be set.
 
 ### -param dvaspect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Aspect to use when drawing. The values are defined by OLE.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK on success, or a failure code otherwise. E_INVALIDARG is returned if the index is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
-
+<a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>

@@ -60,7 +60,7 @@ Specifies the CLSID of the tuning spaces to retrieve.
 
 ### -param NewColl [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces</a> interface pointer. The caller must release the interface.
+Address of a variable that receives an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces</a> interface pointer. The caller must release the interface.
 
 ## -returns
 
@@ -68,11 +68,10 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-The CLSID represents the object that implements the tuning space. The same object may implement several related tuning spaces. For example, ATSC Digital Antenna and ATSC Digital Cable are both supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsctuningspace-object">ATSCTuningSpace</a> object (CLSID_ATSCTuningSpace).
+The CLSID represents the object that implements the tuning space. The same object may implement several related tuning spaces. For example, ATSC Digital Antenna and ATSC Digital Cable are both supported by the <a href="/previous-versions/windows/desktop/mstv/atsctuningspace-object">ATSCTuningSpace</a> object (CLSID_ATSCTuningSpace).
 
-This method matches against the CLSID returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_clsid">ITuningSpace::get_CLSID</a> method. The returned collection might be empty; call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspaces-get_count">ITuningSpaces::get_Count</a> to determine how many tuning spaces were returned.
+This method matches against the CLSID returned by the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_clsid">ITuningSpace::get_CLSID</a> method. The returned collection might be empty; call <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspaces-get_count">ITuningSpaces::get_Count</a> to determine how many tuning spaces were returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>

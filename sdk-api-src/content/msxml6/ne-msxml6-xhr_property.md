@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines properties that you can assign to an outgoing HTTP request by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a> method.
+Defines properties that you can assign to an outgoing HTTP request by calling the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a> method.
 
 ## -enum-fields
 
@@ -77,7 +77,7 @@ Suppresses adding default headers to the HTTP request.
 
 ### -field XHR_PROP_REPORT_REDIRECT_STATUS
 
-Causes the HTTP stack to call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a> callback method with an interim redirecting status code.  The <b>OnHeadersAvailable</b> will be called again for additional redirects and the final destination status code.
+Causes the HTTP stack to call the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a> callback method with an interim redirecting status code.  The <b>OnHeadersAvailable</b> will be called again for additional redirects and the final destination status code.
 
 ### -field XHR_PROP_NO_CACHE
 
@@ -85,7 +85,7 @@ Suppresses cache reads and writes for the HTTP request.
 
 ### -field XHR_PROP_EXTENDED_ERROR
 
-Causes the HTTP stack to provide <b>HRESULTS</b> with the underlying Win32 error code to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> callback method in case of failure.
+Causes the HTTP stack to provide <b>HRESULTS</b> with the underlying Win32 error code to the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> callback method in case of failure.
 
 ### -field XHR_PROP_QUERY_STRING_UTF8
 
@@ -103,13 +103,12 @@ Suppresses certain certificate errors.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
-
+<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>

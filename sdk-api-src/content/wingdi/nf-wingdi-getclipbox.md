@@ -126,13 +126,12 @@ An error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
+<a href="/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
+<a href="/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
-

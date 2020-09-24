@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The 
-<b>MsiEnumProducts</b> function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine <a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">installation context</a> and advertisements are enumerated.
+<b>MsiEnumProducts</b> function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine <a href="/windows/desktop/Msi/installation-context">installation context</a> and advertisements are enumerated.
 
 ## -parameters
 
@@ -148,9 +148,8 @@ When making multiple calls to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
+<a href="/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
-
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>

@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Connects an <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential">IConnectableCredentialProviderCredential</a> object. This method is called after the user clicks the <b>Submit</b> button within the Pre-Logon-Access Provider screen and before <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">ICredentialProviderCredential::GetSerialization</a> is called.
+Connects an <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential">IConnectableCredentialProviderCredential</a> object. This method is called after the user clicks the <b>Submit</b> button within the Pre-Logon-Access Provider screen and before <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">ICredentialProviderCredential::GetSerialization</a> is called.
 
 ## -parameters
 
 ### -param pqcws [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-iquerycontinuewithstatus">IQueryContinueWithStatus</a>*</b>
+Type: <b><a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-iquerycontinuewithstatus">IQueryContinueWithStatus</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-iquerycontinuewithstatus">IQueryContinueWithStatus</a> object.
+A pointer to an <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-iquerycontinuewithstatus">IQueryContinueWithStatus</a> object.
 
 ## -returns
 
@@ -68,7 +68,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
- When Logon  UI calls this method, it passes a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-iquerycontinuewithstatus">IQueryContinueWithStatus</a> instance. This object is used to query if the credential provider should continue attempt to connect to the network and to display status messages to the user while attempting to connect. Robust credential providers should periodically call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iquerycontinue-querycontinue">QueryContinue</a> during attempts to connect to a network to be able to respond to user input.
+ When Logon  UI calls this method, it passes a pointer to an <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-iquerycontinuewithstatus">IQueryContinueWithStatus</a> instance. This object is used to query if the credential provider should continue attempt to connect to the network and to display status messages to the user while attempting to connect. Robust credential providers should periodically call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iquerycontinue-querycontinue">QueryContinue</a> during attempts to connect to a network to be able to respond to user input.
 
-After a successful call to <b>Connect</b>, the Logon UI displays a <b>Disconnect</b> button to the user. If the user clicks <b>Disconnect</b>, the Logon UI calls <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-disconnect">Disconnect</a> on every credential provider that implements <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential">IConnectableCredentialProviderCredential</a>.
-
+After a successful call to <b>Connect</b>, the Logon UI displays a <b>Disconnect</b> button to the user. If the user clicks <b>Disconnect</b>, the Logon UI calls <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-disconnect">Disconnect</a> on every credential provider that implements <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential">IConnectableCredentialProviderCredential</a>.

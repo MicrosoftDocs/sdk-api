@@ -190,10 +190,10 @@ This handle value has been terminated. pvStatusInformation contains the address 
 </td>
 <td width="60%">
 Used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a> to indicate it has created the new handle. This lets the application call 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> from another thread, if the connect is taking too long. The 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a> to indicate it has created the new handle. This lets the application call 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> from another thread, if the connect is taking too long. The 
 <i>lpvStatusInformation</i> parameter contains the address of an 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle.
+<a href="/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle.
 
 </td>
 </tr>
@@ -277,7 +277,7 @@ Waiting for the server to respond to a request. The
 <td width="60%">
 An HTTP request is about to automatically redirect the request. The 
 <i>lpvStatusInformation</i> parameter points to the new URL. At this point, the application can read any data returned by the server with the redirect response and can query the response headers. It can also cancel the operation by closing the handle. This callback is not made if the original request specified 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">INTERNET_FLAG_NO_AUTO_REDIRECT</a>.
+<a href="/windows/desktop/WinInet/api-flags">INTERNET_FLAG_NO_AUTO_REDIRECT</a>.
 
 </td>
 </tr>
@@ -289,7 +289,7 @@ An HTTP request is about to automatically redirect the request. The
 <td width="60%">
 An asynchronous operation has been completed. The 
 <i>lpvStatusInformation</i> parameter contains the address of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_async_result">INTERNET_ASYNC_RESULT</a> structure.
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_async_result">INTERNET_ASYNC_RESULT</a> structure.
 
 </td>
 </tr>
@@ -434,22 +434,21 @@ The callback function can be called in a thread context different from the threa
 <div> </div>
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/asynchronous-operation">Asynchronous Operation</a>
+<a href="/windows/desktop/WinInet/asynchronous-operation">Asynchronous Operation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/creating-status-callback-functions">Creating Status Callback Functions</a>
+<a href="/windows/desktop/WinInet/creating-status-callback-functions">Creating Status Callback Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_async_result">INTERNET_ASYNC_RESULT</a>
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_async_result">INTERNET_ASYNC_RESULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

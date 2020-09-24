@@ -52,19 +52,19 @@ api_name:
 
 The 
 <b>EnumerateGetNextService</b> function returns the next service entry in an enumeration started by 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>.
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>.
 
 ## -parameters
 
 ### -param EnumerationHandle [in]
 
 Handle that identifies the enumeration and specifies the subset of services on which the enumeration will operate. The handle is obtained from a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>.
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>.
 
 ### -param Service [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure that contains the next service in the enumeration. The services are returned in no particular order, and each service in the subset is returned only once.
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure that contains the next service in the enumeration. The services are returned in no particular order, and each service in the subset is returned only once.
 
 ## -returns
 
@@ -107,17 +107,16 @@ The operation failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

@@ -60,7 +60,7 @@ The <b>ITfUIElementSink::BeginUIElement</b> method is called when the UIElement 
 
 ### -param pbShow
 
-[in, out] Return <b>true</b> if the application does not draw the UIElement content and the text service draws its original UI content. Return <b>false</b> if the application draws the UIElement's content and stops the text service from drawing it. The application can get the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface by using <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-getuielement">ITfUIElementMgr::GetUIElement</a> and it can evaluate if it can handle the UIElement by QI with <b>IID_ITfCandidateListUIElement</b> or with other UIElement interfaces. The application can always return <b>FALSE</b> if it is unknown or it cannot be handled. In this case, the text service will not show any extra UI on the screen. This is a good way for some full screen applications. Alternatively, the application can return <b>TRUE</b> to use TextService's UI on some particular or unknown UIs.
+[in, out] Return <b>true</b> if the application does not draw the UIElement content and the text service draws its original UI content. Return <b>false</b> if the application draws the UIElement's content and stops the text service from drawing it. The application can get the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface by using <a href="/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-getuielement">ITfUIElementMgr::GetUIElement</a> and it can evaluate if it can handle the UIElement by QI with <b>IID_ITfCandidateListUIElement</b> or with other UIElement interfaces. The application can always return <b>FALSE</b> if it is unknown or it cannot be handled. In this case, the text service will not show any extra UI on the screen. This is a good way for some full screen applications. Alternatively, the application can return <b>TRUE</b> to use TextService's UI on some particular or unknown UIs.
 
 ## -returns
 
@@ -94,4 +94,3 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
-

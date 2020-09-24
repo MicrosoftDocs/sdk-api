@@ -52,19 +52,19 @@ api_name:
 
 ## -description
 
-The <b>GetCAProperty</b> method retrieves a property value for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). This method's functionality is identical to <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>. For information about this method, see <b>ICertAdmin2::GetCAProperty</b>.
+The <b>GetCAProperty</b> method retrieves a property value for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). This method's functionality is identical to <a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>. For information about this method, see <b>ICertAdmin2::GetCAProperty</b>.
 
 ## -parameters
 
 ### -param strConfig [in]
 
 Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 ### -param PropId [in]
 
 Specifies the property identifier. For information about this parameter, see the table in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>.
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>.
 
 ### -param PropIndex [in]
 
@@ -115,7 +115,7 @@ Binary data
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string data
+<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string data
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Binary data
 
 ### -param Flags [in]
 
-The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a>) and is ignored otherwise.
+The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains, or <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a>) and is ignored otherwise.
 
 <table>
 <tr>
@@ -226,14 +226,14 @@ Hexadecimal string with ASCII and address/offset
 
 A pointer to a <b>VARIANT</b> that receives the requested property value.
 
-When you have finished using the <b>VARIANT</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function.
+When you have finished using the <b>VARIANT</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function.
 
 ## -returns
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>Variant</b> that receives the requested property value.
@@ -244,9 +244,8 @@ The return value is a <b>Variant</b> that receives the requested property value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>

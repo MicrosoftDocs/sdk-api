@@ -61,7 +61,7 @@ Pointer to a null-terminated string that contains the object ID of the object to
 
 ### -param pValues [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that contains one or more property/value pairs to set. Existing values will be overwritten.
+Pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that contains one or more property/value pairs to set. Existing values will be overwritten.
 
 ### -param ppResults [out]
 
@@ -102,32 +102,31 @@ One or more properties could not be modified. Those that could not will have an 
 
 ## -remarks
 
-To delete a property, call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-delete">IPortableDeviceProperties::Delete</a>. A property can be deleted only if its WPD_PROPERTY_ATTRIBUTE_CAN_WRITE attribute is True. This attribute can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes">GetPropertyAttributes</a>.
+To delete a property, call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-delete">IPortableDeviceProperties::Delete</a>. A property can be deleted only if its WPD_PROPERTY_ATTRIBUTE_CAN_WRITE attribute is True. This attribute can be retrieved by calling <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes">GetPropertyAttributes</a>.
 
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties">IPortableDeviceProperties Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties">IPortableDeviceProperties Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-delete">IPortableDeviceProperties::Delete</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-delete">IPortableDeviceProperties::Delete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getvalues">IPortableDeviceProperties::GetValues</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getvalues">IPortableDeviceProperties::GetValues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>
+<a href="/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/writing-content-object-properties">Writing Content-Object Properties</a>
-
+<a href="/windows/desktop/wpd_sdk/writing-content-object-properties">Writing Content-Object Properties</a>

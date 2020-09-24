@@ -56,7 +56,7 @@ To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>, <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2">IBackgroundCopyJob2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>. <b>IBackgroundCopyJob4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob4</b> interface inherits from <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>, <a href="/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2">IBackgroundCopyJob2</a>, and <a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>. <b>IBackgroundCopyJob4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IBackgroundCopyJob4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getmaximumdownloadtime">GetMaximumDownloadTime</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getmaximumdownloadtime">GetMaximumDownloadTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum time that BITS will spend transferring the files in the job.
@@ -80,7 +80,7 @@ Retrieves the maximum time that BITS will spend transferring the files in the jo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getownerelevationstate">GetOwnerElevationState</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getownerelevationstate">GetOwnerElevationState</a>
 </td>
 <td align="left" width="63%">
 Get a value that determines if the token of the owner was elevated at the time they created or took ownership of the job.
@@ -89,7 +89,7 @@ Get a value that determines if the token of the owner was elevated at the time t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getownerintegritylevel">GetOwnerIntegrityLevel</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getownerintegritylevel">GetOwnerIntegrityLevel</a>
 </td>
 <td align="left" width="63%">
 Get the integrity level of the token of the owner that created or took ownership of the job.
@@ -98,7 +98,7 @@ Get the integrity level of the token of the owner that created or took ownership
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getpeercachingflags">GetPeerCachingFlags</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getpeercachingflags">GetPeerCachingFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves flags that determine if the files of the job can be cached and served to peers and if BITS can download content for the job from peers.
@@ -107,7 +107,7 @@ Retrieves flags that determine if the files of the job can be cached and served 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setmaximumdownloadtime">SetMaximumDownloadTime</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setmaximumdownloadtime">SetMaximumDownloadTime</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum time that BITS will spend transferring the files in the job.
@@ -116,7 +116,7 @@ Sets the maximum time that BITS will spend transferring the files in the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">SetPeerCachingFlags</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">SetPeerCachingFlags</a>
 </td>
 <td align="left" width="63%">
 Sets flags that determine if the files of the job can be cached and served to peers and if BITS can download content for the job from peers.
@@ -127,13 +127,12 @@ Sets flags that determine if the files of the job can be cached and served to pe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2">IBackgroundCopyJob2</a>
+<a href="/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2">IBackgroundCopyJob2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
-
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>

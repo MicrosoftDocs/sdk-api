@@ -70,9 +70,8 @@ The object cannot handle the call at this time. For example, an application migh
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-retryrejectedcall">IMessageFilter::RetryRejectedCall</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-retryrejectedcall">IMessageFilter::RetryRejectedCall</a>

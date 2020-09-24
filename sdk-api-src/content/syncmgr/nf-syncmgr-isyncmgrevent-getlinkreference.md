@@ -68,8 +68,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The link reference is executed when the user clicks on the hot link. When the user clicks the link, Sync Center calls <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">GetObject</a>, requesting the SYNCMGR_OBJECTID_EventLinkClick object for the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgreventlinkuioperation">ISyncMgrEventLinkUIOperation</a> interface. The object is initialized with an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrevent">ISyncMgrEvent</a> interface pointer that can be used by the <i>Run</i> method. If the handler does not support this object ID, Sync Center passes the link reference to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.
+The link reference is executed when the user clicks on the hot link. When the user clicks the link, Sync Center calls <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">GetObject</a>, requesting the SYNCMGR_OBJECTID_EventLinkClick object for the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgreventlinkuioperation">ISyncMgrEventLinkUIOperation</a> interface. The object is initialized with an <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrevent">ISyncMgrEvent</a> interface pointer that can be used by the <i>Run</i> method. If the handler does not support this object ID, Sync Center passes the link reference to <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.
             
 
-The event is expected to allocate the string buffer using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, which Sync Center uses to deallocate the string buffer.
-
+The event is expected to allocate the string buffer using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, which Sync Center uses to deallocate the string buffer.

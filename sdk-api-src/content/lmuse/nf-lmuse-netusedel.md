@@ -54,7 +54,7 @@ The
 				<b>NetUseDel</b> function ends a connection to a shared resource.
 
 You can also use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a> function to terminate a network connection.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a> function to terminate a network connection.
 
 ## -parameters
 
@@ -122,11 +122,11 @@ Close any open files and delete the connection.
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
-The <b>NetUseDel</b> function applies only to the Server Message Block (LAN Manager Workstation) client. The <b>NetUseDel</b> function does not support Distributed File System (DFS) shares or other network file systems. To terminate a connection to a share using a different network provider (WebDAV or a DFS share, for example), use the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a> function.
+The <b>NetUseDel</b> function applies only to the Server Message Block (LAN Manager Workstation) client. The <b>NetUseDel</b> function does not support Distributed File System (DFS) shares or other network file systems. To terminate a connection to a share using a different network provider (WebDAV or a DFS share, for example), use the <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a> function.
 
 
 No special group membership is required to call the 
@@ -134,23 +134,22 @@ No special group membership is required to call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/use-functions">Use Functions</a>
+<a href="/windows/desktop/NetMgmt/use-functions">Use Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>

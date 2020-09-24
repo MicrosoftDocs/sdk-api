@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IControlbar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IControlbar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IControlbar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IControlbar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IControlbar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-attach">Attach</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-attach">Attach</a>
 </td>
 <td align="left" width="63%">
 Associates a control with a control bar.
@@ -79,7 +79,7 @@ Associates a control with a control bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-create">Create</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates and returns a control.
@@ -88,7 +88,7 @@ Creates and returns a control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-detach">Detach</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-detach">Detach</a>
 </td>
 <td align="left" width="63%">
 Removes a control from a control bar.
@@ -96,4 +96,3 @@ Removes a control from a control bar.
 </td>
 </tr>
 </table>
-

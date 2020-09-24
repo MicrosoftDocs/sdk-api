@@ -59,7 +59,7 @@ Because Windows Management Instrumentation (WMI) is the server for this interfac
 ### -param strRestoreFromFile [in]
 
 Constant, null-terminated string of 16-bit Unicode characters that contains the file name of the file to be restored. The specified file should point to a file previously created with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestore-backup">IWbemBackupRestore::Backup</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestore-backup">IWbemBackupRestore::Backup</a>.
 
 ### -param lFlags [in]
 
@@ -98,4 +98,3 @@ pInt->Restore(
         WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN
       );
 ```
-

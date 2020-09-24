@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Configures the transaction services for the work that is done when calling either <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
+Configures the transaction services for the work that is done when calling either <a href="/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceTransactionConfig</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>. <b>IServiceTransactionConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceTransactionConfig</b> interface inherits from <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>. <b>IServiceTransactionConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IServiceTransactionConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfig-configurebyot">ConfigureBYOT</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfig-configurebyot">ConfigureBYOT</a>
 </td>
 <td align="left" width="63%">
 Enables you to configure the transaction that you use when you bring your own transaction.
@@ -80,17 +80,16 @@ Enables you to configure the transaction that you use when you bring your own tr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/bring-your-own-transaction--byot-">Bring Your Own Transaction (BYOT)</a>
+<a href="/windows/desktop/cossdk/bring-your-own-transaction--byot-">Bring Your Own Transaction (BYOT)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--transactions">COM+ Transactions</a>
+<a href="/windows/desktop/cossdk/com--transactions">COM+ Transactions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
+<a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>

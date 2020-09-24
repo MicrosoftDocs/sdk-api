@@ -56,7 +56,7 @@ Determines whether the debug output is turned on or off.
 
 ### -param Producer [in]
 
- A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the mute status.
+ A <a href="/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the mute status.
 
 ## -returns
 
@@ -69,5 +69,4 @@ Returns a Boolean value that specifies whether the debug output is turned on or 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-
+<a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>

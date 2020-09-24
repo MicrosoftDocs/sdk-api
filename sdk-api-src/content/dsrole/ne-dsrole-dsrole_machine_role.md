@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DSROLE_MACHINE_ROLE</b> enumeration is used with the <b>MachineRole</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a> structure to specify the computer role.
+The <b>DSROLE_MACHINE_ROLE</b> enumeration is used with the <b>MachineRole</b> member of the <a href="/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a> structure to specify the computer role.
 
 ## -enum-fields
 
@@ -82,9 +82,8 @@ The computer is a primary domain controller.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a>
+<a href="/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>

@@ -55,7 +55,7 @@ The <b>ICodecAPI</b> interface sets and retrieves settings on an encoder or deco
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICodecAPI</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICodecAPI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICodecAPI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICodecAPI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ICodecAPI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getallsettings">GetAllSettings</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getallsettings">GetAllSettings</a>
 </td>
 <td align="left" width="63%">
 Gets the codec's current settings and writes them to  a stream.
@@ -79,7 +79,7 @@ Gets the codec's current settings and writes them to  a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getdefaultvalue">GetDefaultValue</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getdefaultvalue">GetDefaultValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default value for a parameter, if one exists.
@@ -88,7 +88,7 @@ Retrieves the default value for a parameter, if one exists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange">GetParameterRange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange">GetParameterRange</a>
 </td>
 <td align="left" width="63%">
 Returns the valid range of values for a parameter.
@@ -97,7 +97,7 @@ Returns the valid range of values for a parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparametervalues">GetParameterValues</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getparametervalues">GetParameterValues</a>
 </td>
 <td align="left" width="63%">
 Returns the list of supported values for a given parameter.
@@ -106,7 +106,7 @@ Returns the list of supported values for a given parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getvalue">GetValue</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of a specified parameter.
@@ -115,7 +115,7 @@ Retrieves the current value of a specified parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-ismodifiable">IsModifiable</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-ismodifiable">IsModifiable</a>
 </td>
 <td align="left" width="63%">
 Queries whether a parameter can be changed.
@@ -124,7 +124,7 @@ Queries whether a parameter can be changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-issupported">IsSupported</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-issupported">IsSupported</a>
 </td>
 <td align="left" width="63%">
 Queries whether a given parameter is supported.
@@ -133,7 +133,7 @@ Queries whether a given parameter is supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">RegisterForEvent</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">RegisterForEvent</a>
 </td>
 <td align="left" width="63%">
 Registers the application to receive a specified event from the encoder.
@@ -142,7 +142,7 @@ Registers the application to receive a specified event from the encoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setalldefaults">SetAllDefaults</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-setalldefaults">SetAllDefaults</a>
 </td>
 <td align="left" width="63%">
 Returns all parameters to their default values.
@@ -151,7 +151,7 @@ Returns all parameters to their default values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setalldefaultswithnotify">SetAllDefaultsWithNotify</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-setalldefaultswithnotify">SetAllDefaultsWithNotify</a>
 </td>
 <td align="left" width="63%">
 Returns all parameters to their default values, and returns a list of the settings that have changed.
@@ -160,7 +160,7 @@ Returns all parameters to their default values, and returns a list of the settin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettings">SetAllSettings</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettings">SetAllSettings</a>
 </td>
 <td align="left" width="63%">
 Reads codec settings from a stream and sets them on the codec.
@@ -169,7 +169,7 @@ Reads codec settings from a stream and sets them on the codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettingswithnotify">SetAllSettingsWithNotify</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettingswithnotify">SetAllSettingsWithNotify</a>
 </td>
 <td align="left" width="63%">
 Loads encoder settings from a stream, sets them on the encoder, and returns a list of the settings that have changed.
@@ -178,7 +178,7 @@ Loads encoder settings from a stream, sets them on the encoder, and returns a li
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue">SetValue</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a parameter.
@@ -187,7 +187,7 @@ Sets the value of a parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setvaluewithnotify">SetValueWithNotify</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-setvaluewithnotify">SetValueWithNotify</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a parameter, and returns a list of other settings that have changed as a result.
@@ -196,7 +196,7 @@ Sets the value of a parameter, and returns a list of other settings that have ch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-unregisterforevent">UnregisterForEvent</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-unregisterforevent">UnregisterForEvent</a>
 </td>
 <td align="left" width="63%">
 Unregisters the application for a specified encoder event.
@@ -207,7 +207,7 @@ Unregisters the application for a specified encoder event.
 
 ## -remarks
 
-This interface defines a generic mechanism for setting properties on a codec (encoder or decoder). A <i>codec property</i> is a key/value pair, where the key is a GUID and the value is a <b>VARIANT</b>. The interpretation of the <b>VARIANT</b> data depends on the property GUID. For a list of codec property GUIDs, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
+This interface defines a generic mechanism for setting properties on a codec (encoder or decoder). A <i>codec property</i> is a key/value pair, where the key is a GUID and the value is a <b>VARIANT</b>. The interpretation of the <b>VARIANT</b> data depends on the property GUID. For a list of codec property GUIDs, see <a href="/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
 
 <h3><a id="Codec_Profiles"></a><a id="codec_profiles"></a><a id="CODEC_PROFILES"></a>Codec Profiles</h3>
 Codecs can optionally store profile and capability information in the system registry. This information enables applications to query the device during device enumeration. Default profiles are stored in the following registry key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
@@ -254,9 +254,8 @@ where {...} is a property GUID that the application can map into its user interf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/decoder-settings-for-windows-media-center-edition">Decoder Settings for Windows Media Center Edition</a>
+<a href="/windows/desktop/DirectShow/decoder-settings-for-windows-media-center-edition">Decoder Settings for Windows Media Center Edition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
-
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>

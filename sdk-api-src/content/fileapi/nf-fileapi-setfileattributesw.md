@@ -62,7 +62,7 @@ api_name:
 Sets the attributes for a file or directory.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfileattributestransacteda">SetFileAttributesTransacted</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-setfileattributestransacteda">SetFileAttributesTransacted</a> function.
 
 ## -parameters
 
@@ -74,9 +74,9 @@ The name of the file whose attributes are to be set.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>SetFileAttributesW</b>) and prepend 
        "\\\\?\\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>SetFileAttributesW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>SetFileAttributesW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
 <div> </div>
 
 ### -param dwFileAttributes [in]
@@ -199,14 +199,14 @@ A file that is being used for temporary storage. File systems avoid writing data
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The following table describes how to set the attributes that cannot be set using 
     <b>SetFileAttributes</b>. For a complete list of all file 
     attribute values and their descriptions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
+    <a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
 
 <table>
 <tr>
@@ -222,8 +222,8 @@ The following table describes how to set the attributes that cannot be set using
 </td>
 <td>
 To set a file's compression state, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_compression">FSCTL_SET_COMPRESSION</a> operation.
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_compression">FSCTL_SET_COMPRESSION</a> operation.
 
 </td>
 </tr>
@@ -248,8 +248,8 @@ Reserved; do not use.
 </td>
 <td>
 Files cannot be converted into directories. To create a directory, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a> or 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a> function.
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a> or 
+       <a href="/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a> function.
 
 </td>
 </tr>
@@ -262,9 +262,9 @@ Files cannot be converted into directories. To create a directory, use the
 </td>
 <td>
 To create an encrypted file, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function with the 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function with the 
        <b>FILE_ATTRIBUTE_ENCRYPTED</b> attribute. To convert an existing file into an encrypted 
-       file, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> function.
+       file, use the <a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> function.
 
 </td>
 </tr>
@@ -277,8 +277,8 @@ To create an encrypted file, use the
 </td>
 <td>
 To associate a reparse point with a file or directory, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_reparse_point">FSCTL_SET_REPARSE_POINT</a> operation.
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_reparse_point">FSCTL_SET_REPARSE_POINT</a> operation.
 
 </td>
 </tr>
@@ -291,8 +291,8 @@ To associate a reparse point with a file or directory, use the
 </td>
 <td>
 To set a file's sparse attribute, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse">FSCTL_SET_SPARSE</a> operation.
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse">FSCTL_SET_SPARSE</a> operation.
 
 </td>
 </tr>
@@ -370,7 +370,7 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/retrieving-and-changing-file-attributes">Retrieving and Changing File Attributes</a>.
+     <a href="/windows/desktop/FileIO/retrieving-and-changing-file-attributes">Retrieving and Changing File Attributes</a>.
 
 <div class="code"></div>
 
@@ -382,25 +382,24 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
+<a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfileattributestransacteda">SetFileAttributesTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setfileattributestransacteda">SetFileAttributesTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
-
+<a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>

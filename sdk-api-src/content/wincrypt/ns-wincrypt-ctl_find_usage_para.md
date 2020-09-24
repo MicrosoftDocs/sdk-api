@@ -55,8 +55,8 @@ api_name:
 ## -description
 
 The <b>CTL_FIND_USAGE_PARA</b> structure is a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a> structure and it is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a> structure and it is used by 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The size, in bytes, of this structure.
 
 ### -field SubjectUsage
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure that includes a sequence of object identifiers to be matched when finding a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL). 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure that includes a sequence of object identifiers to be matched when finding a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL). 
 
 
 
@@ -89,7 +89,7 @@ A CTL uses a <b>ListIdentifier</b> to distinguish among multiple CTLs created by
 ### -field pSigner
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure that specifies the CTL signer to be matched. Only the issuer and serial number from the <b>CERT_INFO</b> are used to match a signer. 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure that specifies the CTL signer to be matched. Only the issuer and serial number from the <b>CERT_INFO</b> are used to match a signer. 
 
 
 
@@ -97,25 +97,24 @@ A pointer to a
 Set <b>pSigner</b> to <b>NULL</b> to match any signer. To match CTLs that do not have any signers, set <b>pSigner</b> to CTL_FIND_NO_SIGNER_PTR.
 
 The CertEncodingType of the signer is obtained from the <i>dwMsgAndCertEncodingType</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>

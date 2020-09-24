@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-create">WM_CREATE</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> message. The derived class handles the message.
 
 ## -parameters
 
@@ -59,11 +59,10 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 
 Type: <b>tagCREATESTRUCTW*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

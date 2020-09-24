@@ -87,13 +87,12 @@ The method succeeded.
 
 ## -remarks
 
-For an item that is a shell object, this method will defer to the <b>IPropertyStore</b> object provided by the item if the property hasn't been set or updated using <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-setproperty">SetProperty</a>.
+For an item that is a shell object, this method will defer to the <b>IPropertyStore</b> object provided by the item if the property hasn't been set or updated using <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-setproperty">SetProperty</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-setproperty">SetProperty</a>
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-setproperty">SetProperty</a>

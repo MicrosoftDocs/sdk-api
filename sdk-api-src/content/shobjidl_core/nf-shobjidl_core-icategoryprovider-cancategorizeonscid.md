@@ -56,9 +56,9 @@ Determines whether a column can be used as a category.
 
 ### -param pscid [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
+Type: <b>const <a href="/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure that identifies the column. Valid only when S_OK is returned. The GUID contained in this structure is then passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-createcategory">ICategoryProvider::CreateCategory</a>.
+A pointer to a <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> structure that identifies the column. Valid only when S_OK is returned. The GUID contained in this structure is then passed to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-createcategory">ICategoryProvider::CreateCategory</a>.
 
 ## -returns
 
@@ -69,4 +69,3 @@ Returns S_OK if the column can be used as a category or S_FALSE if not.
 ## -remarks
 
 When using the System Folder View Object in Category view (<b>Show in Groups</b>), the titles of columns for which this method returns S_OK appear in the upper portion of the <b>Arrange Icons By</b> submenu.
-

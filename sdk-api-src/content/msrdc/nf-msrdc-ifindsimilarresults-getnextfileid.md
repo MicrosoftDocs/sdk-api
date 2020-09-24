@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the next valid similarity file ID in the file list that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-findsimilarfileid">ISimilarity::FindSimilarFileId</a> method.
+Retrieves the next valid similarity file ID in the file list that was returned by the <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-findsimilarfileid">ISimilarity::FindSimilarFileId</a> method.
 
 ## -parameters
 
@@ -70,5 +70,4 @@ This method can also return the following error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a>

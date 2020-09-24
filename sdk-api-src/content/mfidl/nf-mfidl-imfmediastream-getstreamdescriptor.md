@@ -57,7 +57,7 @@ Retrieves a stream descriptor for this media stream.
 
 ### -param ppStreamDescriptor [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamdescriptor">IMFStreamDescriptor</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamdescriptor">IMFStreamDescriptor</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -86,7 +86,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
+The media source's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -94,13 +94,12 @@ The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl
 
 ## -remarks
 
-Do not modify the stream descriptor. To change the presentation, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">IMFMediaSource::CreatePresentationDescriptor</a> and modify the presentation descriptor.
+Do not modify the stream descriptor. To change the presentation, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">IMFMediaSource::CreatePresentationDescriptor</a> and modify the presentation descriptor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediastream">IMFMediaStream</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediastream">IMFMediaStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
-
+<a href="/windows/desktop/medfound/media-sources">Media Sources</a>

@@ -52,7 +52,7 @@ api_name:
 
 Closes a dictionary file.
 
-This method closes the file associated to this <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object.
+This method closes the file associated to this <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ This method closes the file associated to this <a href="https://docs.microsoft.c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
-
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>

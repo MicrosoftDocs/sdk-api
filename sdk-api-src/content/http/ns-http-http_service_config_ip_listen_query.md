@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY</b> structure is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> to return a list of the Internet Protocol (IP) addresses to which the HTTP service binds.
+<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> to return a list of the Internet Protocol (IP) addresses to which the HTTP service binds.
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ The number of address structures in the <b>AddrList</b> array.
 ### -field AddrList
 
 An array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structures that contains IP addresses in either IPv4 or IPv6 form. To determine what form an address in the list has, cast it to a SOCKADDR and examine the <b>sa_family</b> element. If <b>sa_family</b> is equal to AF_INET, the address is in IPv4 form, or if it is equal to AF_INET6, the address is in IPv6 form.
+<a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structures that contains IP addresses in either IPv4 or IPv6 form. To determine what form an address in the list has, cast it to a SOCKADDR and examine the <b>sa_family</b> element. If <b>sa_family</b> is equal to AF_INET, the address is in IPv4 form, or if it is equal to AF_INET6, the address is in IPv6 form.
 
 ## -remarks
 
@@ -96,9 +96,8 @@ The <b>SOCKADDR_IN6</b> structure is exactly equivalent to <b>sockaddr_in6</b> b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Maintains a list of pooled objects, keyed by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>, that are used until the transaction completes.
+Maintains a list of pooled objects, keyed by <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>, that are used until the transaction completes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionResourcePool</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionResourcePool</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionResourcePool</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionResourcePool</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITransactionResourcePool</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionresourcepool-getresource">GetResource</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactionresourcepool-getresource">GetResource</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object from the list of pooled objects.
@@ -79,7 +79,7 @@ Retrieves an object from the list of pooled objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionresourcepool-putresource">PutResource</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactionresourcepool-putresource">PutResource</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the list of pooled objects.
@@ -91,9 +91,8 @@ Adds an object to the list of pooled objects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproperty">ITransactionProperty</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproperty">ITransactionProperty</a>

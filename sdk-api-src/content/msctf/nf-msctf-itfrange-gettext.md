@@ -56,7 +56,7 @@ The <b>ITfRange::GetText</b> method obtains the content covered by this range of
 
 ### -param ec [in]
 
-Edit cookie that identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Edit cookie that identifies the edit context obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param dwFlags [in]
 
@@ -158,23 +158,22 @@ The value of the <i>ec</i> parameter is an invalid cookie, or the caller does no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-tf--constants">TF_TF_* Constants</a>
+<a href="/windows/desktop/TSF/tf-tf--constants">TF_TF_* Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
-
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>

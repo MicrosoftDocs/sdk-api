@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the dimensions and style of a dialog box. This structure, always the first in a standard template for a dialog box, also specifies the number of controls in the dialog box and therefore specifies the number of subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate">DLGITEMTEMPLATE</a> structures in the template.
+Defines the dimensions and style of a dialog box. This structure, always the first in a standard template for a dialog box, also specifies the number of controls in the dialog box and therefore specifies the number of subsequent <a href="/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate">DLGITEMTEMPLATE</a> structures in the template.
 
 ## -struct-fields
 
@@ -58,10 +58,10 @@ Defines the dimensions and style of a dialog box. This structure, always the fir
 
 Type: <b>DWORD</b>
 
-The style of the dialog box. This member can be a combination of <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">window style values</a> (such as <b>WS_CAPTION</b> and <b>WS_SYSMENU</b>) and <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-box-styles">dialog box style values</a> (such as <b>DS_CENTER</b>).
+The style of the dialog box. This member can be a combination of <a href="/windows/desktop/winmsg/window-styles">window style values</a> (such as <b>WS_CAPTION</b> and <b>WS_SYSMENU</b>) and <a href="/windows/desktop/dlgbox/dialog-box-styles">dialog box style values</a> (such as <b>DS_CENTER</b>).
 
 If the style member includes the <b>DS_SETFONT</b> style, the header of the dialog box template contains additional data specifying the font to use for text in the client area and controls of the dialog box. The font data begins on the 
-						<b>WORD</b> boundary that follows the title array. The font data specifies a 16-bit point size value and a Unicode font name string. If possible, the system creates a font according to the specified values. Then the system sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a> message to the dialog box and to each control to provide a handle to the font. If <b>DS_SETFONT</b> is not specified, the dialog box template does not include the font data. 
+						<b>WORD</b> boundary that follows the title array. The font data specifies a 16-bit point size value and a Unicode font name string. If possible, the system creates a font according to the specified values. Then the system sends a <a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a> message to the dialog box and to each control to provide a handle to the font. If <b>DS_SETFONT</b> is not specified, the dialog box template does not include the font data. 
 
 The <b>DS_SHELLFONT</b> style is not supported in the <b>DLGTEMPLATE</b> header.
 
@@ -69,7 +69,7 @@ The <b>DS_SHELLFONT</b> style is not supported in the <b>DLGTEMPLATE</b> header.
 
 Type: <b>DWORD</b>
 
-The extended styles for a window. This member is not used to create dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">Extended Window Styles</a>.
+The extended styles for a window. This member is not used to create dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see <a href="/windows/desktop/winmsg/extended-window-styles">Extended Window Styles</a>.
 
 ### -field cdit
 
@@ -114,9 +114,9 @@ Following the class array is a title array that specifies a null-terminated Unic
 
 The 16-bit point size value and the typeface array follow the title array, but only if the 
 				<b>style</b> member specifies the DS_SETFONT style. The point size value
-specifies the point size of the font to use for the text in the dialog box and its controls. The typeface array is a null-terminated Unicode string specifying the name of the typeface for the font. When these values are specified, the system creates a font having the specified size and typeface (if possible) and sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a> message to the dialog box procedure and the control window procedures as it creates the dialog box and controls. 
+specifies the point size of the font to use for the text in the dialog box and its controls. The typeface array is a null-terminated Unicode string specifying the name of the typeface for the font. When these values are specified, the system creates a font having the specified size and typeface (if possible) and sends a <a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a> message to the dialog box procedure and the control window procedures as it creates the dialog box and controls. 
 
-Following the <b>DLGTEMPLATE</b> header in a standard dialog box template are one or more <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate">DLGITEMTEMPLATE</a> structures that define the dimensions and style of the controls in the dialog box. The 
+Following the <b>DLGTEMPLATE</b> header in a standard dialog box template are one or more <a href="/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate">DLGITEMTEMPLATE</a> structures that define the dimensions and style of the controls in the dialog box. The 
 				<b>cdit</b> member specifies the number of <b>DLGITEMTEMPLATE</b> structures in the template. These <b>DLGITEMTEMPLATE</b> structures must be aligned on 
 				<b>DWORD</b> boundaries.
 
@@ -126,7 +126,7 @@ The
 				<b>x</b>, 
 				<b>y</b>, 
 				<b>cx</b>, and 
-				<b>cy</b> members specify values in dialog box units. You can convert these values to screen units (pixels) by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a> function.
+				<b>cy</b> members specify values in dialog box units. You can convert these values to screen units (pixels) by using the <a href="/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a> function.
 
 ## -see-also
 
@@ -134,43 +134,43 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogindirecta">CreateDialogIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdialogindirecta">CreateDialogIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogindirectparama">CreateDialogIndirectParam</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdialogindirectparama">CreateDialogIndirectParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate">DLGITEMTEMPLATE</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate">DLGITEMTEMPLATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgitemtemplateex">DLGITEMTEMPLATEEX</a>
+<a href="/windows/desktop/dlgbox/dlgitemtemplateex">DLGITEMTEMPLATEEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex">DLGTEMPLATEEX</a>
+<a href="/windows/desktop/dlgbox/dlgtemplateex">DLGTEMPLATEEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirecta">DialogBoxIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dialogboxindirecta">DialogBoxIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
@@ -179,4 +179,3 @@ The
 
 
 <b>Reference</b>
-

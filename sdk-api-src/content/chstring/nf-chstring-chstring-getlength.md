@@ -53,17 +53,16 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetLength</b> method gets a count of the number of wide characters in this <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string. The count does not include a <b>NULL</b> terminator.
+The <b>GetLength</b> method gets a count of the number of wide characters in this <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string. The count does not include a <b>NULL</b> terminator.
 
 ## -parameters
 
 ## -returns
 
 Returns a count of the number of wide characters in the string, not the number of bytes.
-

@@ -56,7 +56,7 @@ The <b>NdrConformantStringBufferSize</b> function calculates the size of the buf
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the buffer. Structure is for internal use only; do not modify.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the buffer. Structure is for internal use only; do not modify.
 
 ### -param pMemory [in]
 
@@ -84,4 +84,3 @@ This function has no return values. If an error occurs, the function throws one 
 <td>An error occurred in RPC.</td>
 </tr>
 </table>
-

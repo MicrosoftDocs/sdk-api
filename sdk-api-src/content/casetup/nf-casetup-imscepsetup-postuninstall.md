@@ -60,5 +60,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>

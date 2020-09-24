@@ -58,13 +58,13 @@ The last four members of **NL_NETWORK_CONNECTIVITY_HINT** collectively work toge
 
 ### -field ConnectivityLevel
 
-Type: **[NL_NETWORK_CONNECTIVITY_LEVEL_HINT](/windows/win32/api/nldef/ne-nldef-nl_network_connectivity_level_hint)**
+Type: **[NL_NETWORK_CONNECTIVITY_LEVEL_HINT](./ne-nldef-nl_network_connectivity_level_hint.md)**
 
 The level of network connectivity.
 
 ### -field ConnectivityCost
 
-Type: **[NL_NETWORK_CONNECTIVITY_COST_HINT](/windows/win32/api/nldef/ne-nldef-nl_network_connectivity_cost_hint)**
+Type: **[NL_NETWORK_CONNECTIVITY_COST_HINT](./ne-nldef-nl_network_connectivity_cost_hint.md)**
 
 The usage charge for the network connection.
 
@@ -91,4 +91,3 @@ Type: **[BOOLEAN](/windows/win32/winprog/windows-data-types)**
 ## -see-also
 
 [How to manage metered network cost constraints](/previous-versions/windows/apps/jj835821(v=win.10))
-

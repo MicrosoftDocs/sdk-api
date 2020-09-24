@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Invoked by Microsoft Media Foundation to specify that no more HTTP requests will be created, and allows <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a> to free any internal resources.
+Invoked by Microsoft Media Foundation to specify that no more HTTP requests will be created, and allows <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a> to free any internal resources.
 
 ## -parameters
 
@@ -82,5 +82,4 @@ Successfully closed the session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>

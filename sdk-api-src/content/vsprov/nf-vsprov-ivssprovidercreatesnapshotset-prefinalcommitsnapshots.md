@@ -53,7 +53,7 @@ api_name:
 The 
    <b>PreFinalCommitSnapshots</b> 
    method enables providers to support 
-   <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> shadow 
+   <a href="/windows/desktop/VSS/vssgloss-a">auto-recover</a> shadow 
    copies. If the shadow copy has the <b>VSS_VOLSNAP_ATTR_AUTORECOVER</b> flag set in 
    the context, the volume can receive a large number of writes during the auto-recovery operation.
 
@@ -128,7 +128,7 @@ If any other value is returned, VSS will write an event to the event log and con
 ## -remarks
 
 This method was added to enable binary compatibility when the 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> feature was introduced in 
+    <a href="/windows/desktop/VSS/vssgloss-a">auto-recover</a> feature was introduced in 
     Windows Server 2003 with Service Pack 1 (SP1).
 
 <div class="alert"><b>Note</b>  For Windows Server 2003, it is recommended that hardware providers implement this method using 
@@ -147,5 +147,4 @@ VSS_ID     /* SnapshotSetId */
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>

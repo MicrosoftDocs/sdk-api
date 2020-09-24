@@ -125,5 +125,4 @@ The <b>NL_INTERFACE_OFFLOAD_ROD</b> structure is defined on Windows Vista and l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
-
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>

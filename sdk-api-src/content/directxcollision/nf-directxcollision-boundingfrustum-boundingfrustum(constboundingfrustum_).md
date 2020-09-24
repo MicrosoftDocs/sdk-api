@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an instance of [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
+Creates an instance of [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -parameters
 
@@ -65,6 +65,6 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 <a href="https://msdn.microsoft.com/3b278210-3d55-4a2b-879d-942e3bc9800c">Constructors</a>

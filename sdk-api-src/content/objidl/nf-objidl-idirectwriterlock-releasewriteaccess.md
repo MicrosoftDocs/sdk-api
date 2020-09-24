@@ -60,15 +60,14 @@ This method can return one of these values.
 
 ## -remarks
 
-The writer calls this method to release exclusive access to the storage object previously taken by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>.
+The writer calls this method to release exclusive access to the storage object previously taken by calling <a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>.
 
-After the writer calls this method, it is safe to allow readers to reopen the storage again until the next call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>.
+After the writer calls this method, it is safe to allow readers to reopen the storage again until the next call to <a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-havewriteaccess">IDirectWriterLock::HaveWriteAccess</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-havewriteaccess">IDirectWriterLock::HaveWriteAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>

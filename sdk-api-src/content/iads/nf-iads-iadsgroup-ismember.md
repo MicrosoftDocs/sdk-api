@@ -63,7 +63,7 @@ Pointer to a <b>VARIANT_BOOL</b> value that receives <b>VARIANT_TRUE</b> if the 
 
 ## -returns
 
-This method supports the standard return values, including <b>S_OK</b>. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values, including <b>S_OK</b>. For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -151,17 +151,16 @@ return hr;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup Property Methods</a>
+<a href="/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>

@@ -80,33 +80,32 @@ If the function fails, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-paintrgn">PaintRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-paintrgn">PaintRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
+<a href="/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
-
+<a href="/windows/desktop/gdi/regions">Regions Overview</a>

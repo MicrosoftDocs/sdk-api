@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-The <b>SetNamedSecurityInfo</b> function sets specified security information in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of a specified object. The caller identifies the object by name.
+The <b>SetNamedSecurityInfo</b> function sets specified security information in the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> of a specified object. The caller identifies the object by name.
 
 ## -parameters
 
@@ -69,20 +69,20 @@ A pointer to a <b>null</b>-terminated string that specifies the name of the obje
 
 
 For descriptions of the string formats for the different object types, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>.
+<a href="/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>.
 
 ### -param ObjectType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object named by the <i>pObjectName</i> parameter.
+A value of the <a href="/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object named by the <i>pObjectName</i> parameter.
 
 ### -param SecurityInfo [in]
 
 A set of 
-bit flags that indicate the type of security information to set. This parameter can be a combination of the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
+bit flags that indicate the type of security information to set. This parameter can be a combination of the <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
 ### -param psidOwner [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the owner of the object. If the caller does not have the <b>SeRestorePrivilege</b> constant (see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>), this <b>SID</b> must be contained in the caller's token, and must have the <b>SE_GROUP_OWNER</b> permission enabled. The <i>SecurityInfo</i> parameter must include the OWNER_SECURITY_INFORMATION flag. To set the owner, the caller must have WRITE_OWNER access to the object or have the SE_TAKE_OWNERSHIP_NAME privilege enabled. If you are not setting the owner <b>SID</b>, this parameter can be <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the owner of the object. If the caller does not have the <b>SeRestorePrivilege</b> constant (see <a href="/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>), this <b>SID</b> must be contained in the caller's token, and must have the <b>SE_GROUP_OWNER</b> permission enabled. The <i>SecurityInfo</i> parameter must include the OWNER_SECURITY_INFORMATION flag. To set the owner, the caller must have WRITE_OWNER access to the object or have the SE_TAKE_OWNERSHIP_NAME privilege enabled. If you are not setting the owner <b>SID</b>, this parameter can be <b>NULL</b>.
 
 ### -param psidGroup [in, optional]
 
@@ -108,8 +108,8 @@ If the function fails, it returns a nonzero error code defined in WinError.h.
 
 ## -remarks
 
- If you are setting the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) or any elements in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of an object, the system automatically propagates any inheritable <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) to existing child objects, according to the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace-inheritance-rules">rules of inheritance</a>.
+ If you are setting the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) or any elements in the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of an object, the system automatically propagates any inheritable <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) to existing child objects, according to the 
+<a href="/windows/desktop/SecAuthZ/ace-inheritance-rules">rules of inheritance</a>.
 
 You can use the <b>SetNamedSecurityInfo</b> function with the following types of objects:
 
@@ -125,14 +125,14 @@ You can use the <b>SetNamedSecurityInfo</b> function with the following types of
 </ul>
 The <b>SetNamedSecurityInfo</b> function does not reorder access-allowed or access-denied ACEs based on the preferred order. When propagating inheritable ACEs to existing child objects, <b>SetNamedSecurityInfo</b> puts inherited ACEs in order after all of the noninherited ACEs in the DACLs of the child objects.
 
-This function transfers information in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a>. The information transferred by this function is signed unless signing has been turned off for the system, but no encryption is performed.  
+This function transfers information in <a href="/windows/desktop/SecGloss/p-gly">plaintext</a>. The information transferred by this function is signed unless signing has been turned off for the system, but no encryption is performed.  
 
 When you update access rights of a folder indicated by an UNC   path, for example \\Test\TestFolder, the original inherited ACE is removed and the full volume path is not included.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/modifying-the-acls-of-an-object-in-c--">Modifying the ACLs of an Object</a> or <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/taking-object-ownership-in-c--">Taking Object Ownership</a>.
+For an example that uses this function, see <a href="/windows/desktop/SecAuthZ/modifying-the-acls-of-an-object-in-c--">Modifying the ACLs of an Object</a> or <a href="/windows/desktop/SecAuthZ/taking-object-ownership-in-c--">Taking Object Ownership</a>.
 
 <div class="code"></div>
 
@@ -144,41 +144,40 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
+<a href="/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>
-
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>

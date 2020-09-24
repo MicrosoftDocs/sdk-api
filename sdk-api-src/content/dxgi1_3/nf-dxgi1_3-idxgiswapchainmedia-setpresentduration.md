@@ -65,5 +65,4 @@ This method returns S_OK on success, or a DXGI error code on failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchainmedia">IDXGISwapChainMedia</a>
-
+<a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchainmedia">IDXGISwapChainMedia</a>

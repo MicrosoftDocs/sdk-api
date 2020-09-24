@@ -62,17 +62,16 @@ The streaming interface type is unknown; do not use this value.
 
 ### -field FsrmFileStreamingInterfaceType_ILockBytes
 
-Use an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface to stream the file.
+Use an <a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface to stream the file.
 
 ### -field FsrmFileStreamingInterfaceType_IStream
 
-Use an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to stream the file.
+Use an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to stream the file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilestreamingmode">FsrmFileStreamingMode</a>
+<a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilestreamingmode">FsrmFileStreamingMode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfilestreaminterface">IFsrmPropertyBag::GetFileStreamInterface</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfilestreaminterface">IFsrmPropertyBag::GetFileStreamInterface</a>

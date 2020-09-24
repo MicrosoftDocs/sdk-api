@@ -113,5 +113,4 @@ The manufacturer's suggestion of a capacity, in mWh, at which a warning battery 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a>
-
+<a href="/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a>

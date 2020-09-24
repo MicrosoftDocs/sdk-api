@@ -66,7 +66,7 @@ The port on the initiator HBA with which to associate the key. If this parameter
 
 ### -param AuthInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_information">IKE_AUTHENTICATION_INFORMATION</a> structure that contains the authentication method. Currently, only the IKE_AUTHENTICATION_PRESHARED_KEY_METHOD is supported.
+A pointer to a <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_information">IKE_AUTHENTICATION_INFORMATION</a> structure that contains the authentication method. Currently, only the IKE_AUTHENTICATION_PRESHARED_KEY_METHOD is supported.
 
 ### -param Persist [in]
 
@@ -78,14 +78,13 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsiikeinfoa">GetIscsiIKEInfo</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsiikeinfoa">GetIscsiIKEInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_information">IKE_AUTHENTICATION_INFORMATION</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_information">IKE_AUTHENTICATION_INFORMATION</a>
 
 ## -remarks
 
 > [!NOTE]
 > The iscsidsc.h header defines SetIScsiIKEInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

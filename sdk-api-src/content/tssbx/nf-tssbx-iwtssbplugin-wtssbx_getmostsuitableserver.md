@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a> interface is 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a> interface is 
     not supported  after Windows Server 2008 R2. Starting with Windows Server 2012 please use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a> interface.]
+    <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a> interface.]
 
 Returns the ID of the server to which Terminal Services Session Broker (TS Session Broker) should direct the incoming connection. The  redirection logic of  the plug-in determines the preferred server.
 
@@ -86,15 +86,14 @@ Returns <b>S_OK</b> if successful.
 
 Use <b>WTSSBX_GetMostSuitableServer</b>  to override the default load balancing logic of TS Session Broker. TS Session Broker calls this method after it runs its own load balancing logic. The <i>pMachineId</i>  parameter is initially set to the ID of the server provided by the load balancing logic of TS Session Broker. When you implement this method, your redirection logic can return this <i>pMachineId</i> or another one as appropriate.
 
-Whenever a server joins a farm in TS Session Broker, TS Session Broker calls the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_machinechangenotification">WTSSBX_MachineChangeNotification</a> method to notify the plug-in and provide a MachineId to identify the new server. When TS Session Broker calls <b>WTSSBX_GetMostSuitableServer</b>, the plug-in should return one of the IDs that TS Session Broker provided to the plug-in.  The plug-in should not return the ID of a server that is not in the farm.
+Whenever a server joins a farm in TS Session Broker, TS Session Broker calls the <a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_machinechangenotification">WTSSBX_MachineChangeNotification</a> method to notify the plug-in and provide a MachineId to identify the new server. When TS Session Broker calls <b>WTSSBX_GetMostSuitableServer</b>, the plug-in should return one of the IDs that TS Session Broker provided to the plug-in.  The plug-in should not return the ID of a server that is not in the farm.
 
 Your implementation of <b>WTSSBX_GetMostSuitableServer</b> must return <b>S_OK</b> immediately if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-
+<a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>

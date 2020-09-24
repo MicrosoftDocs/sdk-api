@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDrawRenderBuffer</b> macro notifies a rendering driver to draw the frames that have been passed to it. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-renderbuffer">ICM_DRAW_RENDERBUFFER</a> message.
+The <b>ICDrawRenderBuffer</b> macro notifies a rendering driver to draw the frames that have been passed to it. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-draw-renderbuffer">ICM_DRAW_RENDERBUFFER</a> message.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ This message is typically used to perform a seek operation when the driver must 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

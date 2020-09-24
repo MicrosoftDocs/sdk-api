@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite  (DVB-S) transmission. This interface extends the capabilities in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator">IDVBSLocator</a> interface to support the DVB-S, Second Generation (DVB-S2) specification, the Digital Satellite Equipment Control (DiSEqC) protocol, and low-noise block converters (LNBs).
+Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite  (DVB-S) transmission. This interface extends the capabilities in the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator">IDVBSLocator</a> interface to support the DVB-S, Second Generation (DVB-S2) specification, the Digital Satellite Equipment Control (DiSEqC) protocol, and low-noise block converters (LNBs).
 
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IDVBSLocator2)</code>.
-

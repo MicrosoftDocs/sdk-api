@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>acceptFilePKCS7</b> method accepts and processes a file that contains a PKCS #7 message containing a certificate. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+The <b>acceptFilePKCS7</b> method accepts and processes a file that contains a PKCS #7 message containing a certificate. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 ## -parameters
 
@@ -75,22 +75,22 @@ By default, the My, Ca, Root, and Request system stores are used to store the ce
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">MyStoreName</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">MyStoreName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">CAStoreName</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">CAStoreName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">RootStoreName</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">RootStoreName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a>
 </li>
 </ul>
 
 
 The <b>acceptFilePKCS7</b> method differs from 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a> only in that a file supplies the certificate.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a> only in that a file supplies the certificate.
 
 
 #### Examples
@@ -123,41 +123,40 @@ if (bstrFileName)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">CAStoreName</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_castorename">CAStoreName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">MyStoreName</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_mystorename">MyStoreName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">RootStoreName</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_rootstorename">RootStoreName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
-
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>

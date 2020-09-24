@@ -73,19 +73,19 @@ On output, the <b>Family</b> member in the <b>MIB_IPINTERFACE_ROW</b> structure 
 
 The <b>InitializeIpInterfaceEntry</b> function must be used to initialize the fields of a
     <b>MIB_IPINTERFACE_ROW</b> structure entry with default values.  An application can then change the
-    fields in the <b>MIB_IPINTERFACE_ROW</b> entry it wishes to modify, and then call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry">SetIpInterfaceEntry</a> function.
+    fields in the <b>MIB_IPINTERFACE_ROW</b> entry it wishes to modify, and then call the <a href="/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry">SetIpInterfaceEntry</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
@@ -93,9 +93,8 @@ The <b>InitializeIpInterfaceEntry</b> function must be used to initialize the fi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry">SetIpInterfaceEntry</a>
-
+<a href="/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry">SetIpInterfaceEntry</a>

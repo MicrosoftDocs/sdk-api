@@ -56,7 +56,7 @@ Switches into a given application domain (which the calling object must be bound
 
 ### -param pUnkAD [in]
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the application domain that you want to switch to. The object calling <b>DoCallback</b> must be bound to that application domain.
+Reference to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the application domain that you want to switch to. The object calling <b>DoCallback</b> must be bound to that application domain.
 
 ### -param __MIDL__IAppDomainHelper0001
 
@@ -72,5 +72,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iappdomainhelper">IAppDomainHelper</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iappdomainhelper">IAppDomainHelper</a>

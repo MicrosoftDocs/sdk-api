@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies an individual header that is mapped as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
+Specifies an individual header that is mapped as part of <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
 
 ## -struct-fields
 
@@ -64,4 +64,3 @@ The name of the HTTP header.
 
 A set of flags that control how headers are mapped.  
                     See <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_HTTP_HEADER_MAPPING_OPTIONS</a> for more information.
-

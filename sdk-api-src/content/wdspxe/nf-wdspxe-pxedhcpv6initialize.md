@@ -61,7 +61,7 @@ For more information about RELAY-FORW messages, developers should refer to the D
 ### -param pRequest [in]
 
 Address of a valid DHCPv6 packet received from the client in the 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
+      <a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
 
 ### -param cbRequest [in]
 
@@ -70,7 +70,7 @@ Length of the packet pointed to by the <i>pRequest</i> parameter.
 ### -param pReply [in, out]
 
 Pointer to a reply packet allocated with 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a> function.
+      the <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a> function.
 
 ### -param cbReply [in]
 
@@ -84,4 +84,3 @@ Address of a <b>ULONG</b> that on successful completion will receive the length 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
-

@@ -56,7 +56,7 @@ The <b>IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</b> function indicates whether the
 
 ### -param *ikeTraffic [in]
 
-Type: [IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)*</b>
+Type: [IKEEXT_TRAFFIC0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)*</b>
 
 Specifies the traffic for which keys should be set or retrieved.
 
@@ -74,23 +74,22 @@ Specifies the weight that this TIA should be given compared to any peers.
 
 ## -remarks
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister</a> to register this function pointer.
+Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister</a> to register this function pointer.
 
-If the TIA wants to dictate the keys, and its weight is higher than that of any peers, IPsec will subsequently call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_dictate_key0">IPSEC_KEY_MANAGER_DICTATE_KEY0</a>.
+If the TIA wants to dictate the keys, and its weight is higher than that of any peers, IPsec will subsequently call <a href="/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_dictate_key0">IPSEC_KEY_MANAGER_DICTATE_KEY0</a>.
 
 ## -see-also
 
-[IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)
+[IKEEXT_TRAFFIC0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_dictate_key0">IPSEC_KEY_MANAGER_DICTATE_KEY0</a>
+<a href="/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_dictate_key0">IPSEC_KEY_MANAGER_DICTATE_KEY0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister</a>
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
-
+<a href="/windows/desktop/FWP/fwp-functions">WFP  Functions</a>

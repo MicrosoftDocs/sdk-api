@@ -54,15 +54,15 @@ api_name:
 
 ## -description
 
-Calls the specified object's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method.
+Calls the specified object's <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method.
 
 ## -parameters
 
 ### -param punk [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the COM object whose <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method is to be called.
+A pointer to the COM object whose <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method is to be called.
 
 ### -param riid [in]
 
@@ -84,5 +84,4 @@ Returns <b>S_OK</b> if the site was successfully retrieved or a COM error code o
 
 ## -remarks
 
-This function calls the specified object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.  If successful, the function calls the interface's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method to obtain the site.
-
+This function calls the specified object's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method to obtain the <a href="/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.  If successful, the function calls the interface's <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method to obtain the site.

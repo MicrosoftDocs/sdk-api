@@ -56,11 +56,11 @@ The <b>PATHOBJ_bMoveTo</b> function sets the current position in a given path.
 
 ### -param ppo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure created by the driver.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure created by the driver.
 
 ### -param ptfx
 
-Pointer to a POINTFIX structure that specifies the new position. For a description of this data type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
+Pointer to a POINTFIX structure that specifies the new position. For a description of this data type, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ## -returns
 
@@ -68,13 +68,12 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
 ## -remarks
 
-This function should only be called with PATHOBJ structures created by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>.
+This function should only be called with PATHOBJ structures created by <a href="/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>

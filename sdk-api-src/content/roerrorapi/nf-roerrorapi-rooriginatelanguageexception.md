@@ -72,7 +72,7 @@ The <i>message</i> string should be localized.
 
 ### -param languageException [in]
 
-An error object that's apartment-agile, in-proc, and marshal-by-value across processes. This object should implement <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionstackbacktrace">ILanguageExceptionStackBackTrace</a> and <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptiontransform">ILanguageExceptionTransform</a> if necessary.
+An error object that's apartment-agile, in-proc, and marshal-by-value across processes. This object should implement <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionstackbacktrace">ILanguageExceptionStackBackTrace</a> and <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptiontransform">ILanguageExceptionTransform</a> if necessary.
 
 ## -returns
 
@@ -107,11 +107,10 @@ The  error message was reported successfully.
 
 ## -remarks
 
-The <b>RoOriginateLanguageException</b>  function behaves like <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a> but takes another parameter that stores extra information about the error. Language projections use this function to store exception information alongside the COM error information. Language projections need to create an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object that contains all the information necessary recreate it the exception a later point.
+The <b>RoOriginateLanguageException</b>  function behaves like <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a> but takes another parameter that stores extra information about the error. Language projections use this function to store exception information alongside the COM error information. Language projections need to create an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object that contains all the information necessary recreate it the exception a later point.
 
-The error object must be apartment-agile, in-proc, and marshal-by-value across processes. The reason for this restriction is that the thread from which the error object is originated may no longer exist, for example due to a <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> call, by the time the error information is retrieved.
+The error object must be apartment-agile, in-proc, and marshal-by-value across processes. The reason for this restriction is that the thread from which the error object is originated may no longer exist, for example due to a <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> call, by the time the error information is retrieved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>
-
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>

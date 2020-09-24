@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IWCNConnectNotify::ConnectSucceeded</b> callback method that indicates a successful <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
+The <b>IWCNConnectNotify::ConnectSucceeded</b> callback method that indicates a successful <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
 
 ## -parameters
 
@@ -60,15 +60,14 @@ The <b>IWCNConnectNotify::ConnectSucceeded</b> callback method that indicates a 
 
 ## -remarks
 
-Notification of  success does not implicitly indicate that the device is ready, as some devices reboot in order to apply settings provided during the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
+Notification of  success does not implicitly indicate that the device is ready, as some devices reboot in order to apply settings provided during the <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a> interface was used to obtain network settings from a device, then the network profile is immediately ready for use.
+If the <a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a> interface was used to obtain network settings from a device, then the network profile is immediately ready for use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
-
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>

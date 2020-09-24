@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IX509Extensions</b> interface defines the following methods and properties to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects.
+The <b>IX509Extensions</b> interface defines the following methods and properties to manage a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Extensions</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509Extensions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Extensions</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509Extensions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IX509Extensions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-add">Add</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> object to the collection.
+Adds an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> object to the collection.
 
 [WebEnabled]
 
@@ -81,28 +81,28 @@ Adds an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-ce
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-addrange">AddRange</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-addrange">AddRange</a>
 </td>
 <td align="left" width="63%">
-Adds a range of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects to the collection.
+Adds a range of <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-clear">Clear</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-clear">Clear</a>
 </td>
 <td align="left" width="63%">
-Removes all <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects from the collection.
+Removes all <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects from the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-remove">Remove</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-remove">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> object from the collection by index number.
+Removes an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> object from the collection by index number.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -128,12 +128,12 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-get_count">Count</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-get_count">Count</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects in the collection.
+Retrieves the number of <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects in the collection.
 
 [WebEnabled]
 
@@ -142,24 +142,24 @@ Retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-get_indexbyobjectid">IndexByObjectId</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-get_indexbyobjectid">IndexByObjectId</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves the index of an extension in the collection by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+Retrieves the index of an extension in the collection by <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-get_itembyindex">ItemByIndex</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensions-get_itembyindex">ItemByIndex</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> object from the collection by index number.
+Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> object from the collection by index number.
 
 [WebEnabled]
 
@@ -169,13 +169,12 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>

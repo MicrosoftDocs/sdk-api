@@ -70,7 +70,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -80,5 +80,4 @@ This adds the specified parent virtual hard disk to the head of the differencing
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>

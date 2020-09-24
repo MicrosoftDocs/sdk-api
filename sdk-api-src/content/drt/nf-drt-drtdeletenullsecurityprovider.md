@@ -56,13 +56,12 @@ The <b>DrtDeleteNullSecurityProvider</b> function deletes a null security provid
 
 ### -param pSecurityProvider [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a> structure specifying the security provider to delete.
+Pointer to a <a href="/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a> structure specifying the security provider to delete.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a>
+<a href="/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatenullsecurityprovider">DrtCreateNullSecurityProvider</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtcreatenullsecurityprovider">DrtCreateNullSecurityProvider</a>

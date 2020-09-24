@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AddInterface</b> method adds the specified interface to the list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts. To add the specified interface, AzMan calls the  <a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescript-addnameditem">AddNamedItem</a> method of the <a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescript">IActiveScript</a> interface.
+The <b>AddInterface</b> method adds the specified interface to the list of <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts. To add the specified interface, AzMan calls the  <a href="/scripting/winscript/reference/iactivescript-addnameditem">AddNamedItem</a> method of the <a href="/scripting/winscript/reference/iactivescript">IActiveScript</a> interface.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A string that contains the name used by scripts to call the interface specified 
 
 ### -param lInterfaceFlag [in]
 
-Flags sent to the <a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescript-addnameditem">AddNamedItem</a> method of the <a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescript">IActiveScript</a> interface. The <b>AddNamedItem</b> always behaves as if the <b>SCRIPTITEM_ISVISIBLE</b> flag is set, and the <b>SCRIPTITEM_ISPERSISTENT</b> flag is not set.
+Flags sent to the <a href="/scripting/winscript/reference/iactivescript-addnameditem">AddNamedItem</a> method of the <a href="/scripting/winscript/reference/iactivescript">IActiveScript</a> interface. The <b>AddNamedItem</b> always behaves as if the <b>SCRIPTITEM_ISVISIBLE</b> flag is set, and the <b>SCRIPTITEM_ISPERSISTENT</b> flag is not set.
 
 ### -param varInterface [in]
 
@@ -70,9 +70,8 @@ The ID of the interface to be added.
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazbizruleinterfaces">IAzBizRuleInterfaces</a>
-
+<a href="/windows/desktop/api/azroles/nn-azroles-iazbizruleinterfaces">IAzBizRuleInterfaces</a>

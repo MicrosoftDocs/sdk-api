@@ -51,9 +51,9 @@ api_name:
 ## -description
 
 Sets properties in the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> based on a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> from a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table.</a>.
+    <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> based on a 
+    <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> from a 
+    <a href="/previous-versions/windows/desktop/mscs/property-tables">property table.</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Cluster database key identifying the location of the properties to set.
 ### -param pPropertyTable [in]
 
 Pointer to an array of 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures describing the 
+      <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures describing the 
       properties to set.
 
 ### -param Reserved
@@ -73,7 +73,7 @@ Reserved.
 
 ### -param bAllowUnknownProperties [in]
 
-Indicates whether <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/unknown-properties">unknown properties</a> should be 
+Indicates whether <a href="/previous-versions/windows/desktop/mscs/unknown-properties">unknown properties</a> should be 
       accepted. This parameter is set to <b>TRUE</b> if they should be accepted, and 
       <b>FALSE</b> if not.
 
@@ -87,7 +87,7 @@ Size in bytes of the input buffer pointed to by <i>cbInPropertyList</i>.
 
 ### -param pOutParams [out, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a> to hold returned data. 
+Pointer to a <a href="/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a> to hold returned data. 
       If specified, parameters are only written if they differ from those in the input buffer.
 
 ## -returns
@@ -95,7 +95,7 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
        codes.
 
 <table>
@@ -147,7 +147,7 @@ The input buffer pointed to by <i>pInPropertyList</i> is
 <td width="60%">
 The syntax, format, or type of a property in the property table pointed to by 
         <i>pPropertyTable</i> is incorrect, or a property is 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/read-only-properties">read-only</a> and cannot be set.
+        <a href="/previous-versions/windows/desktop/mscs/read-only-properties">read-only</a> and cannot be set.
 
 </td>
 </tr>
@@ -157,37 +157,36 @@ The syntax, format, or type of a property in the property table pointed to by
 
 If a value specified in the property table already exists in the cluster database, the value is not written. 
     For information on forcing all values to be written, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetpropertytableex">ResUtilSetPropertyTableEx</a>.
+    <a href="/windows/desktop/api/resapi/nf-resapi-resutilsetpropertytableex">ResUtilSetPropertyTableEx</a>.
 
 Do not call <b>ResUtilSetPropertyTable</b> from the following resource DLL entry 
     point functions.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
 </li>
 </ul>
 <b>ResUtilSetPropertyTable</b> can be safely called from any other resource DLL 
     entry point function or from a worker thread. For more information, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+    <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetpropertytableex">ResUtilSetPropertyTableEx</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetpropertytableex">ResUtilSetPropertyTableEx</a>

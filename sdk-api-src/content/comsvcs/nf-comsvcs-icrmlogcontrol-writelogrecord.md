@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The CRM Worker and CRM Compensator use this method to write unstructured log records to the log. This method would typically be used by CRM components written in C++. Records are written lazily to the log and must be forced before they become durable. (See <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-forcelog">ICrmLogControl::ForceLog</a>.)
+The CRM Worker and CRM Compensator use this method to write unstructured log records to the log. This method would typically be used by CRM components written in C++. Records are written lazily to the log and must be forced before they become durable. (See <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-forcelog">ICrmLogControl::ForceLog</a>.)
 
 ## -parameters
 
@@ -111,7 +111,7 @@ A <b>NULL</b> pointer was provided as an argument.
 </dl>
 </td>
 <td width="60%">
-This method was called in the wrong state; either before <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
+This method was called in the wrong state; either before <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
 
 </td>
 </tr>
@@ -132,11 +132,10 @@ The transaction has aborted, most likely because of a transaction time-out.
 
 Unstructured records are simply a buffer of bytes. The method implements a gather capability by allowing sections of the specific CRM log record to be built up from an array of BLOBs, which is a structure containing a pointer to the data plus a count of the number of bytes. This reduces the copying of data, leading to only one copy directly from the CRM memory space into the buffer of the log manager.
 
-Unstructured and structured log records cannot be mixed; either <b>WriteLogRecord</b> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-writelogrecordvariants">WriteLogRecordVariants</a> can be called, but not both by the same CRM Worker or CRM Compensator.
+Unstructured and structured log records cannot be mixed; either <b>WriteLogRecord</b> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-writelogrecordvariants">WriteLogRecordVariants</a> can be called, but not both by the same CRM Worker or CRM Compensator.
 
 You should not include pointer types within datastructures contained in BLOBs in a log record. Object references are no longer valid during recovery phase because the CRM Compensator runs in a different process than that of the CRM Worker that wrote the log record. Including pointer types within BLOBs in a log record can cause an application to crash or corrupt itself during recovery.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>

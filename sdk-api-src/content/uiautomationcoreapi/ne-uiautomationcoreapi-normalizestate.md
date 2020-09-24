@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains values that specify the behavior of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetupdatedcache">UiaGetUpdatedCache</a>.
+Contains values that specify the behavior of <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetupdatedcache">UiaGetUpdatedCache</a>.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ Normalize against the condition in the cache request specified by pRequest.
 ### -field NormalizeState_Custom
 
 Normalize against the condition specified in pNormalizeCondition.
-

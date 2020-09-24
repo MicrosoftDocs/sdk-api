@@ -54,11 +54,11 @@ The <b>IWMMutualExclusion2</b> interface provides advanced configuration feature
 
 This interface supports both multiple languages and advanced mutual exclusion.
 
-An <b>IWMMutualExclusion2</b> interface is created for each mutual exclusion object created. To retrieve a pointer to an <b>IWMMutualExclusion2</b> interface, call the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> interface returned by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-createnewmutualexclusion">IWMProfile::CreateNewMutualExclusion</a>.
+An <b>IWMMutualExclusion2</b> interface is created for each mutual exclusion object created. To retrieve a pointer to an <b>IWMMutualExclusion2</b> interface, call the <b>QueryInterface</b> method of the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> interface returned by <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-createnewmutualexclusion">IWMProfile::CreateNewMutualExclusion</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMMutualExclusion2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a>. <b>IWMMutualExclusion2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMMutualExclusion2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a>. <b>IWMMutualExclusion2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMMutualExclusion2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addrecord">AddRecord</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addrecord">AddRecord</a>
 </td>
 <td align="left" width="63%">
 Adds a record to the mutual exclusion object. Records can hold groups of streams.
@@ -82,7 +82,7 @@ Adds a record to the mutual exclusion object. Records can hold groups of streams
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addstreamforrecord">AddStreamForRecord</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addstreamforrecord">AddStreamForRecord</a>
 </td>
 <td align="left" width="63%">
 Adds a stream to the list in a record.
@@ -91,7 +91,7 @@ Adds a stream to the list in a record.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getname">GetName</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name that has been assigned to the mutual exclusion object through a call to <b>SetName</b>.
@@ -100,7 +100,7 @@ Retrieves the name that has been assigned to the mutual exclusion object through
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getrecordcount">GetRecordCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getrecordcount">GetRecordCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of records that exist for the mutual exclusion object.
@@ -109,7 +109,7 @@ Retrieves the number of records that exist for the mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getrecordname">GetRecordName</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getrecordname">GetRecordName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name that has been assigned to a record through a call to <b>SetName</b>.
@@ -118,7 +118,7 @@ Retrieves the name that has been assigned to a record through a call to <b>SetNa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getstreamsforrecord">GetStreamsForRecord</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getstreamsforrecord">GetStreamsForRecord</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of all streams in a record.
@@ -127,7 +127,7 @@ Retrieves the list of all streams in a record.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-removerecord">RemoveRecord</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-removerecord">RemoveRecord</a>
 </td>
 <td align="left" width="63%">
 Removes a record from the mutual exclusion object.
@@ -136,7 +136,7 @@ Removes a record from the mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-removestreamforrecord">RemoveStreamForRecord</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-removestreamforrecord">RemoveStreamForRecord</a>
 </td>
 <td align="left" width="63%">
 Removes a stream from the list in a record.
@@ -145,7 +145,7 @@ Removes a stream from the list in a record.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setname">SetName</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setname">SetName</a>
 </td>
 <td align="left" width="63%">
 Assigns a name to the mutual exclusion object.
@@ -154,7 +154,7 @@ Assigns a name to the mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setrecordname">SetRecordName</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setrecordname">SetRecordName</a>
 </td>
 <td align="left" width="63%">
 Assigns a name to a record.
@@ -172,13 +172,13 @@ The following interface can be obtained by using the QueryInterface method of th
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList</a>
 </td>
 <td>IID_IWMStreamList</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a>
 </td>
 <td>IID_IWMMutualExclusion</td>
 </tr>
@@ -186,9 +186,8 @@ The following interface can be obtained by using the QueryInterface method of th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/mutual-exclusion-object">Mutual Exclusion Object</a>
-
+<a href="/windows/desktop/wmformat/mutual-exclusion-object">Mutual Exclusion Object</a>

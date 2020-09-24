@@ -56,7 +56,7 @@ The <b>WebSocketGetGlobalProperty</b> function  gets a single WebSocket property
 
 ### -param eType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_property">WEB_SOCKET_PROPERTY</a></b>
+Type: <b><a href="/windows/desktop/api/websocket/ns-websocket-web_socket_property">WEB_SOCKET_PROPERTY</a></b>
 
 A WebSocket property.
 
@@ -78,13 +78,12 @@ Type: <b>HRESULT</b>
 
 If the function succeeds, it returns <b>S_OK</b>.
 
-If the function fails, it returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+If the function fails, it returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_property">WEB_SOCKET_PROPERTY</a>
+<a href="/windows/desktop/api/websocket/ns-websocket-web_socket_property">WEB_SOCKET_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_property_type">WEB_SOCKET_PROPERTY_TYPE</a>
-
+<a href="/windows/desktop/api/websocket/ne-websocket-web_socket_property_type">WEB_SOCKET_PROPERTY_TYPE</a>

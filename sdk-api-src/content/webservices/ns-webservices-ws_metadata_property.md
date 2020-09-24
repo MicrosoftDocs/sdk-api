@@ -58,7 +58,7 @@ Specifies a metadata object setting.
 
 ### -field id
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_ID</a>.
+Identifies the <a href="/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_ID</a>.
 
 ### -field value
 
@@ -69,4 +69,3 @@ A pointer to the value to set.
 ### -field valueSize
 
 The size in bytes of the memory pointed to by value.
-

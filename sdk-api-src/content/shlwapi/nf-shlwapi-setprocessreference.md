@@ -67,19 +67,18 @@ Applications other than Windows Explorer and Internet Explorer that call this fu
 
 The interface pointer passed to <b>SetProcessReference</b> must reference a free-threaded object.
 
-Each time a component calls <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-getprocessreference">GetProcessReference</a>, the system calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method before returning the interface pointer to the calling component. The component then calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when processing is complete. The process that calls <b>SetProcessReference</b> must not terminate while the reference count of the provided interface pointer is nonzero.
+Each time a component calls <a href="/windows/desktop/api/shlwapi/nf-shlwapi-getprocessreference">GetProcessReference</a>, the system calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method before returning the interface pointer to the calling component. The component then calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when processing is complete. The process that calls <b>SetProcessReference</b> must not terminate while the reference count of the provided interface pointer is nonzero.
 
-For further information on how components use the process references, see <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-getprocessreference">GetProcessReference</a>.
+For further information on how components use the process references, see <a href="/windows/desktop/api/shlwapi/nf-shlwapi-getprocessreference">GetProcessReference</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-getprocessreference">GetProcessReference</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-getprocessreference">GetProcessReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetinstanceexplorer">SHSetInstanceExplorer</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetinstanceexplorer">SHSetInstanceExplorer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/apiindex/windows-apisets">Windows API Sets</a>
-
+<a href="/windows/desktop/apiindex/windows-apisets">Windows API Sets</a>

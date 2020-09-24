@@ -57,7 +57,7 @@ The <code>StopAt</code> method informs the pin when to stop delivering data.
 
 ### -param ptStop [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> value that specifies when the pin should stop delivering data. If the value is <b>MAXLONGLONG</b> (0x7FFFFFFFFFFFFFFF), the method cancels any previous stop request. If <i>psStop</i> is <b>NULL</b>, the pin stops immediately.
+Pointer to a <a href="/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> value that specifies when the pin should stop delivering data. If the value is <b>MAXLONGLONG</b> (0x7FFFFFFFFFFFFFFF), the method cancels any previous stop request. If <i>psStop</i> is <b>NULL</b>, the pin stops immediately.
 
 For preview pins, only the values <b>NULL</b> and <b>MAXLONGLONG</b> are valid, because preview pins do not time stamp the samples they deliver.
 
@@ -75,7 +75,7 @@ If the method succeeds, the return value is S_OK. Otherwise, returns an <b>HRESU
 
 ## -remarks
 
-If the <i>dwCookie</i> parameter is non-zero, the pin will send an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-stream-control-stopped">EC_STREAM_CONTROL_STOPPED</a> event when it stops delivering data. The first event parameter is a pointer to the pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface, and the second is the value of <i>dwCookie</i>. If <i>ptStop</i> is <b>NULL</b> or <b>MAXLONGLONG</b>, no event is sent, and the value of <i>dwCookie</i> is ignored.
+If the <i>dwCookie</i> parameter is non-zero, the pin will send an <a href="/windows/desktop/DirectShow/ec-stream-control-stopped">EC_STREAM_CONTROL_STOPPED</a> event when it stops delivering data. The first event parameter is a pointer to the pin's <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface, and the second is the value of <i>dwCookie</i>. If <i>ptStop</i> is <b>NULL</b> or <b>MAXLONGLONG</b>, no event is sent, and the value of <i>dwCookie</i> is ignored.
 
 In video capture, you would typically call this method on the capture filter's output pin and the multiplexer's input pin. The application should wait for the stop event from the multiplexer. This ensures that the capture filter sends the right number of frames, while guaranteeing that all frames reach the multiplexer. Also, set the <i>bSendExtra</i> parameter to <b>TRUE</b> for the capture pin, but <b>FALSE</b> for the multiplexer pin. This causes the capture filter to send one additional frame. The multiplexer relies on the time stamps from the capture pin, so if the extra frame is not sent, the multiplexer will wait indefinitely for the stop time. When the multiplexer receives the extra frame, it will discard it.
 
@@ -85,13 +85,12 @@ This method handles the following boundary conditions:
 <li>If the stop time falls between the start and stop times of a sample, the pin delivers that sample.</li>
 <li>If the start time equals the stop time, the pin delivers one sample.</li>
 </ul>
-<b>MAXLONGLONG</b> is the largest possible <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> value. In the base class library, it is also defined as the constant <b>MAX_TIME</b>.
+<b>MAXLONGLONG</b> is the largest possible <a href="/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> value. In the base class library, it is also defined as the constant <b>MAX_TIME</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl Interface</a>

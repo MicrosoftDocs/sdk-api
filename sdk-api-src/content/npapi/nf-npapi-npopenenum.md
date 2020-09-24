@@ -189,11 +189,11 @@ The bitmask may be zero to match all of the flags. This parameter may be ignored
 ### -param lpNetResource [in]
 
 Pointer to the container to perform the enumeration. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> could have been obtained through a previous <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> call, or constructed by the caller, or it can be <b>NULL</b>. If it is <b>NULL</b> or if the <b>lpRemoteName</b> field of the <b>NETRESOURCE</b> is <b>NULL</b>, the provider should enumerate the top level of its network. Note that this means a provider cannot use an <b>lpRemoteName</b> of <b>NULL</b> to represent any network resource. A caller would normally start off by calling <b>NPOpenEnum</b> with this parameter set to <b>NULL</b> and then use the returned results for further enumeration. If the calling program knows exactly the provider and remote path to enumerate from, it may build its own <b>NETRESOURCE</b> structure to pass in, filling in the <b>lpProvider</b> and <b>lpRemoteName</b> fields. Note that if <i>dwScope</i> is RESOURCE_CONNECTED or RESOURCE_CONTEXT, this parameter will be <b>NULL</b>.
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> could have been obtained through a previous <a href="/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> call, or constructed by the caller, or it can be <b>NULL</b>. If it is <b>NULL</b> or if the <b>lpRemoteName</b> field of the <b>NETRESOURCE</b> is <b>NULL</b>, the provider should enumerate the top level of its network. Note that this means a provider cannot use an <b>lpRemoteName</b> of <b>NULL</b> to represent any network resource. A caller would normally start off by calling <b>NPOpenEnum</b> with this parameter set to <b>NULL</b> and then use the returned results for further enumeration. If the calling program knows exactly the provider and remote path to enumerate from, it may build its own <b>NETRESOURCE</b> structure to pass in, filling in the <b>lpProvider</b> and <b>lpRemoteName</b> fields. Note that if <i>dwScope</i> is RESOURCE_CONNECTED or RESOURCE_CONTEXT, this parameter will be <b>NULL</b>.
 
 ### -param lphEnum [out]
 
-Pointer to a handle that can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> function. When you have finished using the handle, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npcloseenum">NPCloseEnum</a> function.
+Pointer to a handle that can be used by the <a href="/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> function. When you have finished using the handle, release the handle by calling the <a href="/windows/desktop/api/npapi/nf-npapi-npcloseenum">NPCloseEnum</a> function.
 
 ## -returns
 
@@ -249,4 +249,3 @@ The network is not present.
 </td>
 </tr>
 </table>
-

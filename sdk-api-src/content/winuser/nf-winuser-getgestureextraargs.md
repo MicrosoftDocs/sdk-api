@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves additional information about a gesture from its <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureinfo">GESTUREINFO</a> handle.
+Retrieves additional information about a gesture from its <a href="/windows/desktop/api/winuser/ns-winuser-gestureinfo">GESTUREINFO</a> handle.
 
 ## -parameters
 
 ### -param hGestureInfo [in]
 
-The handle to the gesture information that is passed in the <i>lParam</i> of a <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> message.
+The handle to the gesture information that is passed in the <i>lParam</i> of a <a href="/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> message.
 
 ### -param cbExtraArgs [in]
 
@@ -73,7 +73,7 @@ If the function succeeds, the return value is nonzero.
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -81,13 +81,12 @@ This function is reserved for future use and should only be used for testing. Wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtgfunctions">Functions</a>
+<a href="/windows/desktop/wintouch/mtgfunctions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>
-
+<a href="/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>

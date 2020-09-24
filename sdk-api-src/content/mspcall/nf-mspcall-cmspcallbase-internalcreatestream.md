@@ -52,42 +52,41 @@ api_name:
 
 The 
 <b>InternalCreateStream</b> method is called by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">CreateStream</a> to create a stream object (the caller does the argument checking). It should create and initialize the stream object (using 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-createstreamobject">CreateStreamObject</a>).
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">CreateStream</a> to create a stream object (the caller does the argument checking). It should create and initialize the stream object (using 
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-createstreamobject">CreateStreamObject</a>).
 
 ## -parameters
 
 ### -param dwMediaType
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types of call.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types of call.
 
 ### -param Direction
 
 Indicates 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">terminal direction</a>.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">terminal direction</a>.
 
 ### -param ppStream
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> object interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> object interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-internalcreatestream">CMSPCallMultiGraph::InternalCreateStream</a>
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-internalcreatestream">CMSPCallMultiGraph::InternalCreateStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">CreateStream</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">CreateStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-createstreamobject">CreateStreamObject</a>
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-createstreamobject">CreateStreamObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>

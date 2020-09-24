@@ -57,19 +57,19 @@ The
 
 ### -field st_mh
 
-Header for the corresponding Tspec object, expressed as  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a> structure.
+Header for the corresponding Tspec object, expressed as  <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a> structure.
 
 ### -field tspec_u
 
 #### gen_stspec
 
-Generic Tspec, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-gentspec">GenTspec</a> structure.
+Generic Tspec, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-gentspec">GenTspec</a> structure.
 
 
 
 #### qual_stspec
 
-Qualitative Tspec, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspec">QualTspec</a> structure.
+Qualitative Tspec, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspec">QualTspec</a> structure.
 
 ### -field gen_stspec
 
@@ -77,13 +77,12 @@ Qualitative Tspec, expressed as a <a href="https://docs.microsoft.com/previous-v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-gentspec">GenTspec</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-gentspec">GenTspec</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspec">QualTspec</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspec">QualTspec</a>

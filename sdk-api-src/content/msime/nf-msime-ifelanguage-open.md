@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Initializes the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
+Initializes the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
-This method must be called before any use of the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
+This method must be called before any use of the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ This method must be called before any use of the <a href="https://docs.microsoft
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
-
+<a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>

@@ -108,13 +108,12 @@ We recommend that the catalog URL specify the version as part of the path. For e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/catalog-compiler-for-type-1-online-stores">Catalog Compiler for Type 1 Online Stores</a>
+<a href="/windows/desktop/WMP/catalog-compiler-for-type-1-online-stores">Catalog Compiler for Type 1 Online Stores</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/music-catalog">Music Catalog</a>
-
+<a href="/windows/desktop/WMP/music-catalog">Music Catalog</a>

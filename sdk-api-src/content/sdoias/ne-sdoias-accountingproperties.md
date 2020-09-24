@@ -72,12 +72,12 @@ Specifies whether authentication packets are logged.
 ### -field PROPERTY_ACCOUNTING_LOG_OPEN_NEW_FREQUENCY
 
 Specifies how frequently a new log file is created. This property takes a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency">NEW_LOG_FILE_FREQUENCY</a> enumeration type.
+<a href="/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency">NEW_LOG_FILE_FREQUENCY</a> enumeration type.
 
 ### -field PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE
 
 Specifies a file size. The system creates a new log file if the current log file reaches this size, and the <b>PROPERTY_ACCOUNTING_LOG_OPEN_NEW_FREQUENCY</b> property is set to the value 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency">IAS_LOGGING_WHEN_FILE_SIZE_REACHES</a>.
+<a href="/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency">IAS_LOGGING_WHEN_FILE_SIZE_REACHES</a>.
 
 ### -field PROPERTY_ACCOUNTING_LOG_FILE_DIRECTORY
 
@@ -128,13 +128,12 @@ Not used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/oleautomation">Automation Types</a>
+<a href="/previous-versions/windows/desktop/automat/oleautomation">Automation Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency">NEW_LOG_FILE_FREQUENCY</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency">NEW_LOG_FILE_FREQUENCY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
-
+<a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>

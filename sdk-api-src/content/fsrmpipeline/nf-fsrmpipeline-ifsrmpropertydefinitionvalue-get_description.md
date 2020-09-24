@@ -52,8 +52,8 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmmgmtpropertyvalue">MSFT_FSRMMgmtPropertyValue</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmmgmtpropertyvalue">MSFT_FSRMMgmtPropertyValue</a> class.]
 
 Description of the classification property definition value.
 
@@ -63,9 +63,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinitionvalue">IFsrmPropertyDefinitionValue</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinitionvalue">IFsrmPropertyDefinitionValue</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmmgmtpropertyvalue">MSFT_FSRMMgmtPropertyValue</a>
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmmgmtpropertyvalue">MSFT_FSRMMgmtPropertyValue</a>

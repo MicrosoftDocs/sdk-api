@@ -56,7 +56,7 @@ The <b>GetEngineFormat</b> method retrieves the current data format of the offlo
 
 ### -param pDevice [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface.
+A pointer to an <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface.
 
 ### -param _bRequestDeviceFormat [in]
 
@@ -72,13 +72,12 @@ The <b>GetEngineFormat</b> method returns <b>S_OK</b> to indicate that it has co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-ihardwareaudioenginebase">IHardwareAudioEngineBase</a>
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-ihardwareaudioenginebase">IHardwareAudioEngineBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a>
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a>
 
 
 
 <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
-

@@ -66,7 +66,7 @@ The size, in bytes, of this structure.
 
 ### -field DUMMYUNIONNAME.hCryptProv
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) handle. This member is used when the <b>dwKeySpec</b> member contains <b>AT_KEYEXCHANGE</b> or <b>AT_SIGNATURE</b>.
+A <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) handle. This member is used when the <b>dwKeySpec</b> member contains <b>AT_KEYEXCHANGE</b> or <b>AT_SIGNATURE</b>.
 
 ### -field DUMMYUNIONNAME.hNCryptKey
 
@@ -124,13 +124,12 @@ Keys associated with a CNG CSP.  The handle to the CNG CSP is set in the <b>hNCr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>

@@ -65,19 +65,19 @@ The IID of the interface on the connection point container whose connection poin
 
 #### DIID_DWebBrowserEvents
 
-Value that indicates a member of the <a href="https://docs.microsoft.com/dotnet/api/shdocvw.dwebbrowserevents?view=dynamics-usd-3">DWebBrowserEvents</a> interface.
+Value that indicates a member of the <a href="/dotnet/api/shdocvw.dwebbrowserevents?view=dynamics-usd-3">DWebBrowserEvents</a> interface.
 
 
 
 #### DIID_DWebBrowserEvents2
 
-Value that indicates a member of the <a href="https://docs.microsoft.com/dotnet/api/shdocvw.dwebbrowserevents2?view=dynamics-usd-3">DWebBrowserEvents2</a> interface.
+Value that indicates a member of the <a href="/dotnet/api/shdocvw.dwebbrowserevents2?view=dynamics-usd-3">DWebBrowserEvents2</a> interface.
 
 
 
 #### IID_IPropertyNotifySink
 
-Value that indicates a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a> interface.
+Value that indicates a member of the <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a> interface.
 
 ### -param ppccp [out]
 
@@ -94,4 +94,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <b>IExpDispSupport::FindCIE4ConnectionPoint</b> was created specifically for use with Windows Internet Explorer 4.0.
-

@@ -59,7 +59,7 @@ Releases all Microsoft UI Automation resources that are held by all providers as
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -67,17 +67,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 A provider application should use this function to release UI Automation resources before shutting down.
 
-This function cannot be called in response to a call to the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-sendmessage">SendMessage</a> function. An application cannot make outbound Component Object Model (COM) calls in response to a call to <b>SendMessage</b>, and releasing a provider is typically an outbound COM call.  The <b>UiaDisconnectAllProviders</b> function returns RPC_E_CANTCALLOUT_ININPUTSYNCCALL if the function is called in response to a <b>SendMessage</b> call.  You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMessageEx</a> function to determine whether a particular message is being handled in response to a <b>SendMessage</b> call.
+This function cannot be called in response to a call to the <a href="/windows/desktop/DevNotes/-sendmessage">SendMessage</a> function. An application cannot make outbound Component Object Model (COM) calls in response to a call to <b>SendMessage</b>, and releasing a provider is typically an outbound COM call.  The <b>UiaDisconnectAllProviders</b> function returns RPC_E_CANTCALLOUT_ININPUTSYNCCALL if the function is called in response to a <b>SendMessage</b> call.  You can use the <a href="/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMessageEx</a> function to determine whether a particular message is being handled in response to a <b>SendMessage</b> call.
 
 For more information, see <a href="https://support.microsoft.com/kb/198996">BUG: RPC_E_CANTCALLOUT_ININPUTSYNCCALL Error When System Menu Is Shown in Taskbar</a> on the MSDN Support website.
 
-An application that calls <b>UiaDisconnectAllProviders</b> should not respond to a re-entrant <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message by returning a pointer to the provider that it is trying to disconnect.  If the application tries to disconnect a provider, but then calls the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiareturnrawelementprovider">UiaReturnRawElementProvider</a> function with that same provider during the disconnect attempt, the provider might not be fully disconnected.
+An application that calls <b>UiaDisconnectAllProviders</b> should not respond to a re-entrant <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message by returning a pointer to the provider that it is trying to disconnect.  If the application tries to disconnect a provider, but then calls the <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiareturnrawelementprovider">UiaReturnRawElementProvider</a> function with that same provider during the disconnect attempt, the provider might not be fully disconnected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-functions">Functions for Providers</a>
+<a href="/windows/desktop/WinAuto/uiauto-functions">Functions for Providers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiadisconnectprovider">UiaDisconnectProvider</a>
-
+<a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiadisconnectprovider">UiaDisconnectProvider</a>

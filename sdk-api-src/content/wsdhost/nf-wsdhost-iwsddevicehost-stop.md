@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sends a WS-Discovery <a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye</a> message and stops the host. After a host has been successfully stopped, it must be terminated with <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-terminate">IWSDDeviceHost::Terminate</a> before being released.
+Sends a WS-Discovery <a href="/windows/desktop/WsdApi/bye-message">Bye</a> message and stops the host. After a host has been successfully stopped, it must be terminated with <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-terminate">IWSDDeviceHost::Terminate</a> before being released.
 
 ## -parameters
 
@@ -106,5 +106,4 @@ Calling <b>Stop</b> is not necessary if the host has not been started.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

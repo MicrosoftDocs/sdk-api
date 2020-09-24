@@ -54,7 +54,7 @@ The <b>ITocParser</b> interface represents a TOC Parser object. It provides meth
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocParser</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocParser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocParser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocParser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITocParser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-addtoc">AddToc</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-addtoc">AddToc</a>
 </td>
 <td align="left" width="63%">
 Adds a table of contents to the TOC Parser object and assigns an index to the added table of contents.
@@ -78,7 +78,7 @@ Adds a table of contents to the TOC Parser object and assigns an index to the ad
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-commit">Commit</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Stores the current state of the TOC Parser object in its associated media file.
@@ -87,7 +87,7 @@ Stores the current state of the TOC Parser object in its associated media file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-gettocbyindex">GetTocByIndex</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-gettocbyindex">GetTocByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a table of contents, specified by an index, from the TOC Parser object.
@@ -96,7 +96,7 @@ Retrieves a table of contents, specified by an index, from the TOC Parser object
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-gettocbytype">GetTocByType</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-gettocbytype">GetTocByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves all tables of contents of a specified type from the TOC Parser object.
@@ -105,16 +105,16 @@ Retrieves all tables of contents of a specified type from the TOC Parser object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-gettoccount">GetTocCount</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-gettoccount">GetTocCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the number of tables of contents, of a specified <a href="https://docs.microsoft.com/windows/desktop/medfound/the-position-type-of-a-table-of-contents">position type</a>, in the TOC Parser object.
+Retrieves the number of tables of contents, of a specified <a href="/windows/desktop/medfound/the-position-type-of-a-table-of-contents">position type</a>, in the TOC Parser object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-init">Init</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-init">Init</a>
 </td>
 <td align="left" width="63%">
  Initializes the TOC Parser object and associates it with a media file.
@@ -123,7 +123,7 @@ Retrieves the number of tables of contents, of a specified <a href="https://docs
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264278(v=vs.85)">RemoveTocByIndex</a>
+<a href="/previous-versions/ee264278(v=vs.85)">RemoveTocByIndex</a>
 </td>
 <td align="left" width="63%">
 Removes a table of contents, specified by an index, from the TOC Parser object.
@@ -132,7 +132,7 @@ Removes a table of contents, specified by an index, from the TOC Parser object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-removetocbytype">RemoveTocByType</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-removetocbytype">RemoveTocByType</a>
 </td>
 <td align="left" width="63%">
 Removes all tables of contents of a specified type from the TOC Parser object.
@@ -143,9 +143,8 @@ Removes all tables of contents of a specified type from the TOC Parser object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
-
+<a href="/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>

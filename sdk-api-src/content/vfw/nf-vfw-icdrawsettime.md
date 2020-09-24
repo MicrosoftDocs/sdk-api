@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDrawSetTime</b> macro provides synchronization information to a rendering driver that handles the timing of drawing frames. The synchronization information is the sample number of the frame to draw. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-settime">ICM_DRAW_SETTIME</a> message.
+The <b>ICDrawSetTime</b> macro provides synchronization information to a rendering driver that handles the timing of drawing frames. The synchronization information is the sample number of the frame to draw. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-draw-settime">ICM_DRAW_SETTIME</a> message.
 
 ## -parameters
 
@@ -70,9 +70,8 @@ Use this message when the hardware performs its own asynchronous decompression, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

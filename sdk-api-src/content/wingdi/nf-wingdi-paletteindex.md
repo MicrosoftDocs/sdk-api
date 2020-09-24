@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PALETTEINDEX</b> macro accepts an index to a logical-color palette entry and returns a palette-entry specifier consisting of a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that specifies the color associated with the given index. An application using a logical palette can pass this specifier, instead of an explicit red, green, blue (RGB) value, to GDI functions that expect a color. This allows the function to use the color in the specified palette entry.
+The <b>PALETTEINDEX</b> macro accepts an index to a logical-color palette entry and returns a palette-entry specifier consisting of a <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that specifies the color associated with the given index. An application using a logical palette can pass this specifier, instead of an explicit red, green, blue (RGB) value, to GDI functions that expect a color. This allows the function to use the color in the specified palette entry.
 
 ## -parameters
 
@@ -60,21 +60,20 @@ An index to the palette entry containing the color to be used for a graphics ope
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-macros">Color Macros</a>
+<a href="/windows/desktop/gdi/color-macros">Color Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-palettergb">PALETTERGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-palettergb">PALETTERGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>

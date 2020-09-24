@@ -56,14 +56,14 @@ api_name:
 ## -description
 
 Cancels a registered wait operation issued by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function.
 
 ## -parameters
 
 ### -param WaitHandle [in]
 
 The wait handle. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function.
 
 ### -param CompletionEvent [in, optional]
 
@@ -80,7 +80,7 @@ If the caller provides this event and the function succeeds or the function fail
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -98,17 +98,16 @@ If <i>CompletionEvent</i> is a handle to an event provided by the caller, it is 
 <b>Windows XP:  </b>If <i>CompletionEvent</i> is a handle to an event provided by the caller and the function fails with  <b>ERROR_IO_PENDING</b>,  the caller should wait until the event is signaled to close the event. This behavior changed starting with Windows Vista.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
-
+<a href="/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>

@@ -56,11 +56,10 @@ Closes a  network interface enumeration handle.
 
 ### -param hNetInterfaceEnum [in]
 
-Handle to the node enumerator to close. This is a handle originally returned by the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusternetinterfaceopenenum">ClusterNetInterfaceOpenEnum</a> function.
+Handle to the node enumerator to close. This is a handle originally returned by the  <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusternetinterfaceopenenum">ClusterNetInterfaceOpenEnum</a> function.
 
 ## -returns
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
      If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.

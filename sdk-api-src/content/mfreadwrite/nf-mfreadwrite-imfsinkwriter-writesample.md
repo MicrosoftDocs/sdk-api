@@ -60,7 +60,7 @@ The zero-based index of the stream for this sample.
 
 ### -param pSample [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the sample.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the sample.
 
 ## -returns
 
@@ -97,17 +97,16 @@ The request is invalid.
 
 ## -remarks
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-beginwriting">IMFSinkWriter::BeginWriting</a> before calling this method. Otherwise, the method returns <b>MF_E_INVALIDREQUEST</b>.
+You must call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-beginwriting">IMFSinkWriter::BeginWriting</a> before calling this method. Otherwise, the method returns <b>MF_E_INVALIDREQUEST</b>.
 
-By default, the sink writer limits the rate of incoming data by blocking the calling thread inside the <b>WriteSample</b> method. This prevents the application from delivering samples too quickly. To disable this behavior, set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sink-writer-disable-throttling">MF_SINK_WRITER_DISABLE_THROTTLING</a> attribute when you create the sink writer.
+By default, the sink writer limits the rate of incoming data by blocking the calling thread inside the <b>WriteSample</b> method. This prevents the application from delivering samples too quickly. To disable this behavior, set the <a href="/windows/desktop/medfound/mf-sink-writer-disable-throttling">MF_SINK_WRITER_DISABLE_THROTTLING</a> attribute when you create the sink writer.
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
-
+<a href="/windows/desktop/medfound/sink-writer">Sink Writer</a>

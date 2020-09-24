@@ -82,5 +82,4 @@ This enumeration is numerically equivalent to the <b>COPP_ACP_Protection_Level</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>
-
+<a href="/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>

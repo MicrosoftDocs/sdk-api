@@ -70,9 +70,8 @@ The transaction has been rolled back.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/about-ktm">About KTM</a>
+<a href="/windows/desktop/Ktm/about-ktm">About KTM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/ktm-reference">KTM Reference</a>
-
+<a href="/windows/desktop/Ktm/ktm-reference">KTM Reference</a>

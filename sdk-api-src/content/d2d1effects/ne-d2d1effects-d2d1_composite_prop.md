@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/composite">Composite effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/composite">Composite effect</a>.
 
 ## -enum-fields
 
@@ -64,4 +64,3 @@ Type is D2D1_COMPOSITE_MODE.
 Default value is D2D1_COMPOSITE_MODE_SOURCE_OVER
 
 ### -field D2D1_COMPOSITE_PROP_FORCE_DWORD
-

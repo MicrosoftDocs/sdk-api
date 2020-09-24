@@ -57,7 +57,7 @@ The <code>SyncReadAligned</code> method performs a synchronous read. The method 
 
 ### -param pSample
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface of a media sample provided by the caller.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface of a media sample provided by the caller.
 
 ## -returns
 
@@ -109,13 +109,12 @@ Before calling this method, retrieve a media sample from the pin's allocator. Ti
 
 The start and stop positions should match the alignment that was decided when the pins connected. Otherwise, the method returns VFW_E_BADALIGN. If the agreed alignment is coarser than the actual alignment of the stream, the stop position might exceed the real duration. If so, the method rounds the stop position down to the actual alignment.
 
-This method performs an unbuffered read, so it might be faster than the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-syncread">IAsyncReader::SyncRead</a> method.
+This method performs an unbuffered read, so it might be faster than the <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-syncread">IAsyncReader::SyncRead</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>

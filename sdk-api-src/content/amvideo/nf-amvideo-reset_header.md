@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <code>RESET_HEADER</code> macro fills a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> with zeroes. You can also use this macro to clear just the <b>VIDEOINFOHEADER</b> portion of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
+The <code>RESET_HEADER</code> macro fills a <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> with zeroes. You can also use this macro to clear just the <b>VIDEOINFOHEADER</b> portion of a <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
 
 
 
@@ -60,9 +60,8 @@ This macro is equivalent to calling <b>ZeroMemory</b> with <code>sizeof(VIDEOINF
 
 ### -param pbmi
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
+Pointer to a <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
-
+<a href="/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>

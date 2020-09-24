@@ -100,7 +100,7 @@ The method was already called.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">IMFMediaSink::Shutdown</a> method was called.
+The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">IMFMediaSink::Shutdown</a> method was called.
 
 </td>
 </tr>
@@ -108,5 +108,4 @@ The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmp2dlna/nn-mfmp2dlna-imfdlnasinkinit">IMFDLNASinkInit</a>
-
+<a href="/windows/desktop/api/mfmp2dlna/nn-mfmp2dlna-imfdlnasinkinit">IMFDLNASinkInit</a>

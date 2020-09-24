@@ -57,13 +57,13 @@ Defines additional methods for examining  and modifying information about compon
 The <b>IVssComponentEx</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssComponentEx</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface, and pass 
+   interface, call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
+   <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface, and pass 
    the <b>IID_IVssComponentEx</b> constant as the interface identifier (IID) parameter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssComponentEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>. <b>IVssComponentEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssComponentEx</b> interface inherits from <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>. <b>IVssComponentEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IVssComponentEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getauthoritativerestore">GetAuthoritativeRestore</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getauthoritativerestore">GetAuthoritativeRestore</a>
 </td>
 <td align="left" width="63%">
 Determines whether a requester has marked the restore of a component as authoritative for a replicated data store.
@@ -87,25 +87,25 @@ Determines whether a requester has marked the restore of a component as authorit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getpostsnapshotfailuremsg">GetPostSnapshotFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getpostsnapshotfailuremsg">GetPostSnapshotFailureMsg</a>
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> failure message string that a writer has  set for a given component.
+Returns the <a href="/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> failure message string that a writer has  set for a given component.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getprepareforbackupfailuremsg">GetPrepareForBackupFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getprepareforbackupfailuremsg">GetPrepareForBackupFailureMsg</a>
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message string that a writer has  set for a given component.
+Returns the <a href="/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message string that a writer has  set for a given component.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getrestorename">GetRestoreName</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getrestorename">GetRestoreName</a>
 </td>
 <td align="left" width="63%">
 Obtains the logical name assigned to a component that is being restored.
@@ -114,7 +114,7 @@ Obtains the logical name assigned to a component that is being restored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getrollforward">GetRollForward</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getrollforward">GetRollForward</a>
 </td>
 <td align="left" width="63%">
 Obtains the roll-forward operation type for a component and obtains the restore point for a partial roll-forward operation.
@@ -123,19 +123,19 @@ Obtains the roll-forward operation type for a component and obtains the restore 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-setpostsnapshotfailuremsg">SetPostSnapshotFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-setpostsnapshotfailuremsg">SetPostSnapshotFailureMsg</a>
 </td>
 <td align="left" width="63%">
-Sets a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> failure message string for a component.
+Sets a <a href="/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> failure message string for a component.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-setprepareforbackupfailuremsg">SetPrepareForBackupFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-setprepareforbackupfailuremsg">SetPrepareForBackupFailureMsg</a>
 </td>
 <td align="left" width="63%">
-Sets a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message string for a component.
+Sets a <a href="/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message string for a component.
 
 </td>
 </tr>
@@ -143,5 +143,4 @@ Sets a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">Prepa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>

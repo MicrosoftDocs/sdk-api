@@ -97,5 +97,4 @@ The caller passed in an invalid pointer argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
-
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>

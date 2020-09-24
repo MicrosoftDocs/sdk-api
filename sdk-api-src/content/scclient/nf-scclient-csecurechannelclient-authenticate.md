@@ -68,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -96,12 +96,12 @@ Possible values include, but are not limited to, those in the following table.
 This method specifies which protocol method is to be used. That method is then called. In this version of Windows Media Device Manager, SAC_PROTOCOL_V1 must be used.
 
 
-<a href="/previous-versions/ms868504(v=msdn.10)">CSecureChannelClient::SetCertificate</a> and <a href="https://docs.microsoft.com/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a> must be called before <b>Authenticate</b>.
+<a href="/previous-versions/ms868504(v=msdn.10)">CSecureChannelClient::SetCertificate</a> and <a href="/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a> must be called before <b>Authenticate</b>.
 
 
 #### Examples
 
-The following C++ code authenticates the Windows Media Device Manager session and acquires an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a> interface.
+The following C++ code authenticates the Windows Media Device Manager session and acquires an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a> interface.
 
 
 ```cpp
@@ -161,9 +161,8 @@ HRESULT MyClass::Authenticate()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
+<a href="/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
-
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>

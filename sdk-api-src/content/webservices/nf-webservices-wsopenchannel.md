@@ -403,10 +403,10 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-If the open is successful, then the channel must be closed using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a>before it can be freed.
+If the open is successful, then the channel must be closed using <a href="/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a>before it can be freed.
             
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> to create the channel.
+Use <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> to create the channel.
             
 
 Once a channel has been opened to an endpoint, then all communication
@@ -420,4 +420,3 @@ The endpoint address and it's contents are not required after the
 
 Whether any IO actually happens during this call will depend on the
                 type of channel and its settings.
-

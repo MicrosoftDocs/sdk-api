@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capPaletteOpen</b> macro loads a new palette from a palette file and passes it to a capture driver. Palette files typically use the filename extension .PAL. A capture driver uses a palette when required by the specified digitized image format. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-pal-open">WM_CAP_PAL_OPEN</a> message.
+The <b>capPaletteOpen</b> macro loads a new palette from a palette file and passes it to a capture driver. Palette files typically use the filename extension .PAL. A capture driver uses a palette when required by the specified digitized image format. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-pal-open">WM_CAP_PAL_OPEN</a> message.
 
 ## -parameters
 
@@ -64,9 +64,8 @@ Pointer to a null-terminated string containing the palette filename.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

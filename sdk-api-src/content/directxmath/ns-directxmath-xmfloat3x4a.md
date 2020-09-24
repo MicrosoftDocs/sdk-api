@@ -48,11 +48,10 @@ A 3x4 column-major matrix containing 32-bit floating-point components aligned on
 
 ## -remarks
 
-You can load an [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) from an **XMFLOAT3X4A** by using [XMLoadFloat3x4A](/windows/win32/api/directxmath/nf-directxmath-xmloadfloat3x4a).
+You can load an [XMMATRIX](./ns-directxmath-xmmatrix.md) from an **XMFLOAT3X4A** by using [XMLoadFloat3x4A](./nf-directxmath-xmloadfloat3x4a.md).
 
-You can store an [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) into an **XMFLOAT3X4A** by using [XMStoreFloat3x4A](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat3x4a).
+You can store an [XMMATRIX](./ns-directxmath-xmmatrix.md) into an **XMFLOAT3X4A** by using [XMStoreFloat3x4A](./nf-directxmath-xmstorefloat3x4a.md).
 
 ## -see-also
 
 [DirectXMath Library structures](/windows/win32/dxmath/ovw-xnamath-reference-structures)
-

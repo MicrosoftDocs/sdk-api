@@ -65,7 +65,7 @@ A control pattern object.
 
 ### -param pRetVal [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 When this function returns, contains a value indicating whether the text container can have its contents selected and deselected.
 
@@ -73,7 +73,6 @@ This parameter is passed uninitialized.
 
 ## -returns
 
-Type: **[HRESULT](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[HRESULT](/windows/desktop/WinProg/windows-data-types)**
 
 Returns S_OK if successful or an error value otherwise.
-

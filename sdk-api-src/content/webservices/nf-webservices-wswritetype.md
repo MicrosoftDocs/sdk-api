@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Write a value of a given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> to XML according to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a>.
+Write a value of a given <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> to XML according to the <a href="/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a>.
 
 ## -parameters
 
@@ -69,12 +69,12 @@ The type of the value to serialize.
 ### -param typeDescription [in, optional]
 
 Additional information about the type.  Each type has a different description
-                    structure.  This may be <b>NULL</b>, depending on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>.
+                    structure.  This may be <b>NULL</b>, depending on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>.
 
 ### -param writeOption [in]
 
 Whether the value is required, and how the value is allocated.
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.
+                    See <a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.
                 
 
 This parameter must have one of the following values:
@@ -82,10 +82,10 @@ This parameter must have one of the following values:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_VALUE</a>.
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_VALUE</a>.
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_POINTER</a>.
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_POINTER</a>.
                 </li>
 </ul>
 
@@ -158,10 +158,9 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> for how to use this function to write values in elements and attributes.                
+See <a href="/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> for how to use this function to write values in elements and attributes.                
             
 
 If the API fails, the state of input writer becomes undefined. The only APIs that may be used on the writer
-        if this occurs are <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a> to return the writer to a usable state,
-        or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a> to free the writer.
-
+        if this occurs are <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a> to return the writer to a usable state,
+        or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a> to free the writer.

@@ -56,7 +56,7 @@ Creates a copy of the enumerator object.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts</a> interface pointer that receives the new enumerator.
 
 ## -returns
 
@@ -94,4 +94,3 @@ A memory allocation failure occurred.
 ## -see-also
 
 [IEnumTfContexts interface](nn-msctf-ienumtfcontexts.md), [ITfContext interface](nn-msctf-itfcontext.md)
-

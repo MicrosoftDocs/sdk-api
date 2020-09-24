@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Determines the type of COM security descriptor to get when calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetsystemsecuritypermissions">CoGetSystemSecurityPermissions</a>.
+Determines the type of COM security descriptor to get when calling <a href="/windows/desktop/api/objbase/nf-objbase-cogetsystemsecuritypermissions">CoGetSystemSecurityPermissions</a>.
 
 ## -enum-fields
 
@@ -74,5 +74,4 @@ Machine-wide access limits.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetsystemsecuritypermissions">CoGetSystemSecurityPermissions</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-cogetsystemsecuritypermissions">CoGetSystemSecurityPermissions</a>

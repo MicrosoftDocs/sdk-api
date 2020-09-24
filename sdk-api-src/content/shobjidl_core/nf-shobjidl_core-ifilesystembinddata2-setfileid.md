@@ -58,11 +58,10 @@ Sets the unique file identifier for the current file.
 
 Type: <b>LARGE_INTEGER</b>
 
-A unique file identifier for the current file.  <i>liFileID</i> is a value that is a concatenation of the values <i>nFileIndexHigh</i> and <i>nFileIndexlow</i>, noted in structure <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">_by_handle_file_information</a>.
+A unique file identifier for the current file.  <i>liFileID</i> is a value that is a concatenation of the values <i>nFileIndexHigh</i> and <i>nFileIndexlow</i>, noted in structure <a href="/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">_by_handle_file_information</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

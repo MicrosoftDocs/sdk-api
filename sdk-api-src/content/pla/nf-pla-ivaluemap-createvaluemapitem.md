@@ -56,7 +56,7 @@ Creates a value map item.
 
 ### -param Item [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a> interface that you use to define a name/value pair.
+An <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a> interface that you use to define a name/value pair.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>

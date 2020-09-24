@@ -50,29 +50,28 @@ api_name:
 
 ## -description
 
-Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getmonthcal">DTM_GETMONTHCAL</a> message explicitly.
+Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/dtm-getmonthcal">DTM_GETMONTHCAL</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control.
 
 ## -remarks
 
-DTP controls create a child month calendar control when the user clicks the drop-down arrow (<a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a> notification). When the month calendar is no longer needed, it is destroyed (a <a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a> notification is sent on destruction). So your application must not rely on a static handle to the DTP's child month calendar.
+DTP controls create a child month calendar control when the user clicks the drop-down arrow (<a href="/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a> notification). When the month calendar is no longer needed, it is destroyed (a <a href="/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a> notification is sent on destruction). So your application must not rely on a static handle to the DTP's child month calendar.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a>
+<a href="/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a>
+<a href="/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a>
 
 
 
 <b>Reference</b>
-

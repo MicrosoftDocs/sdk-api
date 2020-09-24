@@ -51,19 +51,19 @@ api_name:
 
 ## -description
 
-The <b>SetOption</b> method enables or disables an internal behavior flag on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter.
+The <b>SetOption</b> method enables or disables an internal behavior flag on the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter.
 
 ## -parameters
 
 ### -param flag [in]
 
-Specifies which behavior to modify, as a member of the [DVD_OPTION_FLAG](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) enumeration type.
+Specifies which behavior to modify, as a member of the [DVD_OPTION_FLAG](/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) enumeration type.
 
 ### -param fState [in]
 
 Specifies the new value of the option given in the <i>flag</i> parameter.
 
-[DVD_OPTION_FLAG](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) reference page.
+[DVD_OPTION_FLAG](/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) reference page.
           </div>
 <div> </div>
 
@@ -123,13 +123,12 @@ The following table shows the Annex J command name to which this method name cor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

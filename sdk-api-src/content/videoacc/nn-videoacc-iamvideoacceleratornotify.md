@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>IAMVideoAcceleratorNotify</b> interface is a callback interface used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator</a> interface. It enables the video renderer filter to communicate with the video decoder when configuring 
+The <b>IAMVideoAcceleratorNotify</b> interface is a callback interface used in conjunction with the <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator</a> interface. It enables the video renderer filter to communicate with the video decoder when configuring 
         
       DirectX Video Acceleration (DXVA) decoding.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoAcceleratorNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoAcceleratorNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoAcceleratorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoAcceleratorNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IAMVideoAcceleratorNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-getcreatevideoacceleratordata">GetCreateVideoAcceleratorData</a>
+<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-getcreatevideoacceleratordata">GetCreateVideoAcceleratorData</a>
 </td>
 <td align="left" width="63%">
 Gets information needed to create a video accelerator object.
@@ -81,7 +81,7 @@ Gets information needed to create a video accelerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-getuncompsurfacesinfo">GetUncompSurfacesInfo</a>
+<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-getuncompsurfacesinfo">GetUncompSurfacesInfo</a>
 </td>
 <td align="left" width="63%">
 Queries the decoder for the number of uncompressed surfaces to allocate and the pixel format.
@@ -90,7 +90,7 @@ Queries the decoder for the number of uncompressed surfaces to allocate and the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-setuncompsurfacesinfo">SetUncompSurfacesInfo</a>
+<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-setuncompsurfacesinfo">SetUncompSurfacesInfo</a>
 </td>
 <td align="left" width="63%">
 Notifies the decoder of how many uncompressed surfaces were created.
@@ -101,9 +101,8 @@ Notifies the decoder of how many uncompressed surfaces were created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-reference">DirectShow Reference</a>
+<a href="/windows/desktop/DirectShow/directshow-reference">DirectShow Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
-
+<a href="/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>

@@ -47,9 +47,6 @@ api_name:
  - EnumResTypeProcW
 ---
 
-# ENUMRESTYPEPROCW callback function
-
-
 ## -description
 
 An application-defined callback function used with the <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> and <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> functions. It receives resource types. The <b>ENUMRESTYPEPROC</b> type defines a pointer to this callback function. <i>EnumResTypeProc</i> is a placeholder for the application-defined function name.
@@ -64,22 +61,17 @@ A handle to the module whose executable file contains the resources for which th
 
 ### -param lpType
 
+Type: <b>LPTSTR</b>
+
+The type of resource for which the type is being enumerated. 
+
+Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given resource type. For standard resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
+
 ### -param lParam [in]
 
 Type: <b>LONG_PTR</b>
 
 An application-defined parameter passed to the <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> or <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> function. This parameter can be used in error checking. 
-
-
-#### - lpszType [in]
-
-Type: <b>LPTSTR</b>
-
-The type of resource for which the type is being enumerated. 
-
-Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given resource type. For standard resource types, see <a href="https://docs.microsoft.com/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section 
-
-below.
 
 ## -returns
 
@@ -93,11 +85,7 @@ If <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_
 
 An application must register this function by passing its address to the <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> or <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> function. 
 
-If the callback function returns <b>FALSE</b>, then <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> or <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> will stop enumeration and return <b>FALSE</b>. On Windows XP and earlier the value obtained from <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will be <b>ERROR_SUCCESS</b>; starting with Windows Vista, the last error value will be <b>ERROR_RESOURCE_ENUM_USER_STOP</b>.
-
-
-
-
+If the callback function returns <b>FALSE</b>, then <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> or <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> will stop enumeration and return <b>FALSE</b>. On Windows XP and earlier the value obtained from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will be <b>ERROR_SUCCESS</b>; starting with Windows Vista, the last error value will be <b>ERROR_RESOURCE_ENUM_USER_STOP</b>.
 
 > [!NOTE]
 > The libloaderapi.h header defines ENUMRESTYPEPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
@@ -125,4 +113,3 @@ If the callback function returns <b>FALSE</b>, then <a href="https://msdn.micros
 
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
-

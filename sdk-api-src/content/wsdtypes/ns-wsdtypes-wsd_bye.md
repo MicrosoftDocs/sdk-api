@@ -52,19 +52,18 @@ api_name:
 
 ## -description
 
-Represents a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye</a> message.
+Represents a <a href="/windows/desktop/WsdApi/bye-message">Bye</a> message.
 
 ## -struct-fields
 
 ### -field EndpointReference
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies either the sending or receiving endpoint of the Bye message.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies either the sending or receiving endpoint of the Bye message.
 
 ### -field Any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies content allowed by the XML <b>ANY</b> keyword.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye Message</a>
-
+<a href="/windows/desktop/WsdApi/bye-message">Bye Message</a>

@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <b>IGetCapabilitiesKey</b> interface enables an application to retrieve the capabilities of a software or hardware codec from the registry, without creating an instance of the encoder filter. The moniker for the codec filter exposes this interface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>.
+The <b>IGetCapabilitiesKey</b> interface enables an application to retrieve the capabilities of a software or hardware codec from the registry, without creating an instance of the encoder filter. The moniker for the codec filter exposes this interface. For more information, see <a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetCapabilitiesKey</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetCapabilitiesKey</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetCapabilitiesKey</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetCapabilitiesKey</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IGetCapabilitiesKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igetcapabilitieskey-getcapabilitieskey">GetCapabilitiesKey</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-igetcapabilitieskey-getcapabilitieskey">GetCapabilitiesKey</a>
 </td>
 <td align="left" width="63%">
 Gets a registry key that contains the capabilities information for the codec.
@@ -81,5 +81,4 @@ Gets a registry key that contains the capabilities information for the codec.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

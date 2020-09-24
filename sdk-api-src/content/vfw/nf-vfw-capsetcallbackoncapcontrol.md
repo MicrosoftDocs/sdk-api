@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capSetCallbackOnCapControl</b> macro sets a callback function in the application giving it precise recording control. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-capcontrol">WM_CAP_SET_CALLBACK_CAPCONTROL</a> message.
+The <b>capSetCallbackOnCapControl</b> macro sets a callback function in the application giving it precise recording control. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-capcontrol">WM_CAP_SET_CALLBACK_CAPCONTROL</a> message.
 
 ## -parameters
 
@@ -68,17 +68,16 @@ A single callback function is used to give the application precise control over 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-capcontrol">WM_CAP_SET_CALLBACK_CAPCONTROL</a>
+<a href="/windows/desktop/Multimedia/wm-cap-set-callback-capcontrol">WM_CAP_SET_CALLBACK_CAPCONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capcontrolcallback">capControlCallback</a>
-
+<a href="/windows/desktop/api/vfw/nc-vfw-capcontrolcallback">capControlCallback</a>

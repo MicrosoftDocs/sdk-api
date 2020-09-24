@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Used by Windows Store app browsers in Windows 8 to notify the location platform that an app has been suspended (disconnect) and restored (connect).
@@ -59,7 +59,7 @@ Most apps will not need to use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationPower</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationPower</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationPower</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationPower</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ILocationPower</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-connect-vb">Connect</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-connect-vb">Connect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has connected.
@@ -83,7 +83,7 @@ Notify the location platform that an app has connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-disconnect-vb">Disconnect</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-disconnect-vb">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has disconnected.
@@ -91,4 +91,3 @@ Notify the location platform that an app has disconnected.
 </td>
 </tr>
 </table>
-

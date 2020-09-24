@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-sessionflagutf8">WSMan.SessionFlagUTF8</a> method returns the value of the authentication flag <b>WSManFlagUTF8</b> for use in the <i>flags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
+The <a href="/windows/desktop/WinRM/wsman-sessionflagutf8">WSMan.SessionFlagUTF8</a> method returns the value of the authentication flag <b>WSManFlagUTF8</b> for use in the <i>flags</i> parameter of <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
-<b>WSManFlagUTF8</b> is a constant in the <b>__WSManSessionFlags</b> enumeration. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/other-session-constants">Other Session Constants</a>.
+<b>WSManFlagUTF8</b> is a constant in the <b>__WSManSessionFlags</b> enumeration. For more information, see <a href="/windows/desktop/WinRM/other-session-constants">Other Session Constants</a>.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-sessionflagutf8">WSMan.SessionFlagUTF8</a>
-
+<a href="/windows/desktop/WinRM/wsman-sessionflagutf8">WSMan.SessionFlagUTF8</a>

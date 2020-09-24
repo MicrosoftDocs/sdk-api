@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>GetDescriptor</b> method retrieves the descriptor, previously set by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>, of the entry.
+The <b>GetDescriptor</b> method retrieves the descriptor, previously set by a call to <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>, of the entry.
 
 ## -parameters
 
 ### -param pDescriptor [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_entry_descriptor">TOC_ENTRY_DESCRIPTOR</a> structure that receives the descriptor.
+Pointer to a <a href="/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_entry_descriptor">TOC_ENTRY_DESCRIPTOR</a> structure that receives the descriptor.
 
 ## -returns
 
@@ -82,9 +82,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>

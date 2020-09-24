@@ -64,14 +64,14 @@ The supplied CPU and GPU descriptor handles may come from different heaps, howev
         handle is copied into the range referred to by the GPU descriptor handle prior to execution using this binding
         table.
 
-The descriptor heap from which the handles are supplied must have type <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV</a>.
+The descriptor heap from which the handles are supplied must have type <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV</a>.
         Additionally, the heap referred to by the <b>GPUDescriptorHandle</b> must be a shader-visible descriptor heap.
 
 You must not delete the heap referred to by the GPU descriptor handle until all work referencing it has
         completed execution on the GPU. You may, however, reset or release the binding table itself as soon as the
-        dispatch has been recorded into the command list. Similar to the relationship between <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> and
-        <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandallocator">ID3D12CommandAllocator</a>, the [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable) doesn't own the underlying memory referenced by the descriptor
-        handles. Rather, the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a> does. Therefore, you're permitted to reset or release a DirectML binding table before work using the binding table has completed execution on the GPU.
+        dispatch has been recorded into the command list. Similar to the relationship between <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> and
+        <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandallocator">ID3D12CommandAllocator</a>, the [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable) doesn't own the underlying memory referenced by the descriptor
+        handles. Rather, the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a> does. Therefore, you're permitted to reset or release a DirectML binding table before work using the binding table has completed execution on the GPU.
 
 ## -parameters
 
@@ -106,4 +106,3 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 
 [IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice)
-

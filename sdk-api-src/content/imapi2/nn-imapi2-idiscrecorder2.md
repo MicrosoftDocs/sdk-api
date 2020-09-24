@@ -56,7 +56,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscRecorder2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDiscRecorder2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscRecorder2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDiscRecorder2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDiscRecorder2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-acquireexclusiveaccess">AcquireExclusiveAccess</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-acquireexclusiveaccess">AcquireExclusiveAccess</a>
 </td>
 <td align="left" width="63%">
 Acquires exclusive access to the device.
@@ -80,7 +80,7 @@ Acquires exclusive access to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-closetray">CloseTray</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-closetray">CloseTray</a>
 </td>
 <td align="left" width="63%">
 Closes the media tray.
@@ -89,7 +89,7 @@ Closes the media tray.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-disablemcn">DisableMcn</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-disablemcn">DisableMcn</a>
 </td>
 <td align="left" width="63%">
 Disables Media Change Notification for the device.
@@ -98,7 +98,7 @@ Disables Media Change Notification for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">EjectMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">EjectMedia</a>
 </td>
 <td align="left" width="63%">
 Ejects media from the device.
@@ -107,7 +107,7 @@ Ejects media from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">EnableMcn</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">EnableMcn</a>
 </td>
 <td align="left" width="63%">
 Enables Media Change Notification for the device.
@@ -116,7 +116,7 @@ Enables Media Change Notification for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_activediscrecorder">get_ActiveDiscRecorder</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_activediscrecorder">get_ActiveDiscRecorder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique identifier used to initialize the disc device.
@@ -125,7 +125,7 @@ Retrieves the unique identifier used to initialize the disc device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentfeaturepages">get_CurrentFeaturePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentfeaturepages">get_CurrentFeaturePages</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of features of the device that are marked as current.
@@ -134,7 +134,7 @@ Retrieves the list of features of the device that are marked as current.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentprofiles">get_CurrentProfiles</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentprofiles">get_CurrentProfiles</a>
 </td>
 <td align="left" width="63%">
 Retrieves all MMC profiles of the device that are marked as current.
@@ -143,7 +143,7 @@ Retrieves all MMC profiles of the device that are marked as current.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_devicecanloadmedia">get_DeviceCanLoadMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_devicecanloadmedia">get_DeviceCanLoadMedia</a>
 </td>
 <td align="left" width="63%">
 Determines if the device can eject and subsequently reload media.
@@ -152,7 +152,7 @@ Determines if the device can eject and subsequently reload media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">get_ExclusiveAccessOwner</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">get_ExclusiveAccessOwner</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the user that has exclusive access to the device.
@@ -161,7 +161,7 @@ Retrieves the name of the user that has exclusive access to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_legacydevicenumber">get_LegacyDeviceNumber</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_legacydevicenumber">get_LegacyDeviceNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves  the legacy device number for a CD or DVD device.
@@ -170,7 +170,7 @@ Retrieves  the legacy device number for a CD or DVD device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_productid">get_ProductId</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_productid">get_ProductId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the product ID of  the device.
@@ -179,7 +179,7 @@ Retrieves the product ID of  the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_productrevision">get_ProductRevision</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_productrevision">get_ProductRevision</a>
 </td>
 <td align="left" width="63%">
 Retrieves the product revision code of the device.
@@ -188,7 +188,7 @@ Retrieves the product revision code of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages">get_SupportedFeaturePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages">get_SupportedFeaturePages</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of features that the device supports.
@@ -197,7 +197,7 @@ Retrieves the list of features that the device supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedmodepages">get_SupportedModePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedmodepages">get_SupportedModePages</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of MMC mode pages that the device supports.
@@ -206,7 +206,7 @@ Retrieves the list of MMC mode pages that the device supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">get_SupportedProfiles</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">get_SupportedProfiles</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of MMC profiles that the device supports.
@@ -215,7 +215,7 @@ Retrieves the list of MMC profiles that the device supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_vendorid">get_VendorId</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_vendorid">get_VendorId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the vendor ID of the device.
@@ -224,7 +224,7 @@ Retrieves the vendor ID of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_volumename">get_VolumeName</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_volumename">get_VolumeName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique volume name associated with the device.
@@ -233,7 +233,7 @@ Retrieves the unique volume name associated with the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_volumepathnames">get_VolumePathNames</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_volumepathnames">get_VolumePathNames</a>
 </td>
 <td align="left" width="63%">
 Retrieves the drive letters and NTFS mount points for the device. 
@@ -242,7 +242,7 @@ Retrieves the drive letters and NTFS mount points for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">InitializeDiscRecorder</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">InitializeDiscRecorder</a>
 </td>
 <td align="left" width="63%">
 Associates the object with the specified disc device.
@@ -251,7 +251,7 @@ Associates the object with the specified disc device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-releaseexclusiveaccess">ReleaseExclusiveAccess</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-releaseexclusiveaccess">ReleaseExclusiveAccess</a>
 </td>
 <td align="left" width="63%">
 Releases exclusive access to the device.
@@ -264,11 +264,10 @@ Releases exclusive access to the device.
 
 To create the <b>MsftDiscRecorder2</b> object in a script, use IMAPI2.MsftDiscRecorder2 as the program identifier when calling <b>CreateObject</b>.
 
-To write data to media, you need to attach a recorder to a format writer, for example, to attach the recorder to a data writer, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_recorder">IDiscFormat2Data::put_Recorder</a> method.
+To write data to media, you need to attach a recorder to a format writer, for example, to attach the recorder to a data writer, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_recorder">IDiscFormat2Data::put_Recorder</a> method.
 
 Several properties of this interface return packet data defined by Multimedia Command (MMC). For information on the format of the packet data, see the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 ## -see-also
 
 IDiscRecorder2Ex
-

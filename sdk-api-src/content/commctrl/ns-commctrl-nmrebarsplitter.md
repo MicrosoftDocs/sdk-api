@@ -54,19 +54,18 @@ api_name:
 
 ## -description
 
-Contains information used to handle an <a href="https://docs.microsoft.com/windows/desktop/Controls/rbn-splitterdrag">RBN_SPLITTERDRAG</a> notification code.
+Contains information used to handle an <a href="/windows/desktop/Controls/rbn-splitterdrag">RBN_SPLITTERDRAG</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about this notification.
+An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about this notification.
 
 ### -field rcSizing
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 An <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that indicates the size the rebar will be after the drag operation completes.
-

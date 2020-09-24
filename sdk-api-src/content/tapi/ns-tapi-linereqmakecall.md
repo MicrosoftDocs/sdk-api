@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINEREQMAKECALL</b> structure describes a request initiated by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a> function.
 
 ## -struct-fields
 
@@ -81,9 +81,8 @@ The
 This structure may not be extended.
 
 The <b>szDestAddress</b> member contains the address of the remote party; the other members are useful for logging purposes. An application must use this structure to interpret the request buffer it received from 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a> with the LINEREQUESTMODE_MAKECALL request mode.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a> with the LINEREQUESTMODE_MAKECALL request mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>

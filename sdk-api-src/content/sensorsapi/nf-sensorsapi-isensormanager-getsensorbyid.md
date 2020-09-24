@@ -60,7 +60,7 @@ The ID of the sensor to retrieve.
 
 ### -param ppSensor [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface pointer that receives a pointer to the requested sensor. Will be <b>NULL</b> if the requested sensor cannot be found.
+Address of an <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface pointer that receives a pointer to the requested sensor. Will be <b>NULL</b> if the requested sensor cannot be found.
 
 ## -returns
 
@@ -120,9 +120,8 @@ NULL was passed in for ppSensor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/retrieving-a-sensor">Retrieving a Sensor Object</a>
-
+<a href="/windows/desktop/SensorsAPI/retrieving-a-sensor">Retrieving a Sensor Object</a>

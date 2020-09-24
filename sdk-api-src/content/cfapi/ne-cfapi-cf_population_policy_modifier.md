@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-Defines the population policy modifiers. This is a modifier that can be used with the primary policy: <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_population_policy_primary">CF_POPULATION_POLICY_PRIMARY</a>.
+Defines the population policy modifiers. This is a modifier that can be used with the primary policy: <a href="/windows/desktop/api/cfapi/ne-cfapi-cf_population_policy_primary">CF_POPULATION_POLICY_PRIMARY</a>.
 
 ## -enum-fields
 
 ### -field CF_POPULATION_POLICY_MODIFIER_NONE
 
 No policy modifier.
-

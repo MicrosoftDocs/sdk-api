@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Notifies the subscriber if a constructed object is created in an object pool. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog. A constructed object is derived from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstruct">IObjectConstruct</a> interface. Constructed objects can inherit parameter names from within other objects or libraries.
+Notifies the subscriber if a constructed object is created in an object pool. The events are published to the subscriber using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog. A constructed object is derived from the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstruct">IObjectConstruct</a> interface. Constructed objects can inherit parameter names from within other objects or libraries.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectConstructionEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectConstructionEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectConstructionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectConstructionEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComObjectConstructionEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectconstructionevents-onobjectconstruct">OnObjectConstruct</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectconstructionevents-onobjectconstruct">OnObjectConstruct</a>
 </td>
 <td align="left" width="63%">
 Generated when a constructed object is created.
@@ -80,9 +80,8 @@ Generated when a constructed object is created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
-
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

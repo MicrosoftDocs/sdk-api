@@ -56,7 +56,7 @@ The <b>DhcpServerQueryDnsRegCredentials</b> function retrieves the current Domai
 
 ### -param ServerIpAddress [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_SRV_HANDLE</a> that specifies the RPC binding to the DHCP server that will be queried.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_SRV_HANDLE</a> that specifies the RPC binding to the DHCP server that will be queried.
 
 ### -param UnameSize [in]
 
@@ -76,13 +76,12 @@ Pointer to a null-terminated Unicode string that contains the domain name for th
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 ## -remarks
 
-DNS credentials can be set on the DHCP server by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetdnsregcredentialsv5">DhcpServerSetDnsRegCredentialsV5</a> function.
+DNS credentials can be set on the DHCP server by calling the <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetdnsregcredentialsv5">DhcpServerSetDnsRegCredentialsV5</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetdnsregcredentialsv5">DhcpServerSetDnsRegCredentialsV5</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetdnsregcredentialsv5">DhcpServerSetDnsRegCredentialsV5</a>

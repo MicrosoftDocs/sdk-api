@@ -51,20 +51,20 @@ api_name:
 ## -description
 
 Adds an 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer to the batch list. This method calls <b>AddRef</b> on the <i>pUser</i> interface pointer. <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> is automatically called on each contained 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer when the batch object is destroyed.
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer to the batch list. This method calls <b>AddRef</b> on the <i>pUser</i> interface pointer. <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> is automatically called on each contained 
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer when the batch object is destroyed.
 
 When setting values on a quota user object in preparation for batch processing, specify <b>FALSE</b> for the <i>fWriteThrough</i> parameter in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotalimit">IDiskQuotaUser::SetQuotaLimit</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotathreshold">IDiskQuotaUser::SetQuotaThreshold</a> methods. This stores the values in memory without writing to disk. To write the changes to disk, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk">IDiskQuotaUserBatch::FlushToDisk</a> method.
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotalimit">IDiskQuotaUser::SetQuotaLimit</a> and 
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotathreshold">IDiskQuotaUser::SetQuotaThreshold</a> methods. This stores the values in memory without writing to disk. To write the changes to disk, call the 
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk">IDiskQuotaUserBatch::FlushToDisk</a> method.
 
 ## -parameters
 
 ### -param pUser [in]
 
 A pointer to the quota user object's 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface.
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface.
 
 ## -returns
 
@@ -123,13 +123,12 @@ An unexpected exception occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a>
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a>

@@ -70,7 +70,7 @@ The process identifier of the process of interest. A value of zero specifies the
 If the function succeeds, the return value is the version of the system on which the process expects to run. The high word of the return value contains the major version number. The low word of the return value contains the minor version number.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function fails if <i>ProcessId</i> is an invalid value.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function fails if <i>ProcessId</i> is an invalid value.
 
 ## -remarks
 
@@ -83,9 +83,8 @@ If this function is called from a 32-bit application running on WOW64, the speci
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
-
+<a href="/windows/desktop/ProcThread/child-processes">Processes</a>

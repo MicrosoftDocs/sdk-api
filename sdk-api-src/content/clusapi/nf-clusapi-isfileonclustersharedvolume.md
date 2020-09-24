@@ -69,9 +69,8 @@ A Unicode string that specifies the path of the cluster shared volume. The strin
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, 
-it returns one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+it returns one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>

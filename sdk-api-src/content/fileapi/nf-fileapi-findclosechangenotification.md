@@ -64,24 +64,24 @@ Stops change notification handle monitoring.
 ### -param hChangeHandle [in]
 
 A handle to a change notification handle created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 After the <b>FindCloseChangeNotification</b> function is called, the handle 
     specified by the <i>hChangeHandle</i> parameter cannot be used in subsequent calls to either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a> or 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a> or 
 <b>FindCloseChangeNotification</b> function.
 
 Change notifications can also be used in the 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>.
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -147,13 +147,12 @@ Application might experience false positives on CsvFs pause/resume.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
+<a href="/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a>

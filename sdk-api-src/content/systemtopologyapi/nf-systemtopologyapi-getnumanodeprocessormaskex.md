@@ -64,7 +64,7 @@ The node number.
 
 ### -param ProcessorMask [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that receives the processor mask for the specified node. A processor mask is a bit vector in which each bit represents a processor and whether it is in the node.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that receives the processor mask for the specified node. A processor mask is a bit vector in which each bit represents a processor and whether it is in the node.
 
 If the specified node has no processors configured, the <b>Mask</b> member is zero and the <b>Group</b> member is undefined.
 
@@ -76,29 +76,28 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The <b>GetNumaNodeProcessorMaskEx</b> function differs from <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a> in that it can retrieve the processor mask for a node regardless of the group the node belongs to. That is, the node does not have to be in the same group as the calling thread. The <b>GetNumaNodeProcessorMask</b> function can retrieve the processor mask only for nodes that are in the same group as the calling thread.
+The <b>GetNumaNodeProcessorMaskEx</b> function differs from <a href="/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a> in that it can retrieve the processor mask for a node regardless of the group the node belongs to. That is, the node does not have to be in the same group as the calling thread. The <b>GetNumaNodeProcessorMask</b> function can retrieve the processor mask only for nodes that are in the same group as the calling thread.
 
 To retrieve the highest numbered node in the system, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumahighestnodenumber">GetNumaHighestNodeNumber</a> function. Note that this number is not guaranteed to equal the total number of nodes in the system.
+<a href="/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumahighestnodenumber">GetNumaHighestNodeNumber</a> function. Note that this number is not guaranteed to equal the total number of nodes in the system.
 
 To ensure that all threads for your process run on the same node, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a> function with a process affinity mask that specifies processors in the same node.
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a> function with a process affinity mask that specifies processors in the same node.
 
-To compile an application that uses this function, set <b>_WIN32_WINNT</b> &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, set <b>_WIN32_WINNT</b> &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
+<a href="/windows/desktop/ProcThread/numa-support">NUMA Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
-
+<a href="/windows/desktop/ProcThread/processor-groups">Processor Groups</a>

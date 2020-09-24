@@ -56,7 +56,7 @@ api_name:
 
 Gets or sets IKEv2 tunnel configuration parameter for IKEv2 tunnel based demand dial interfaces. 
 
-Do not use the <b>ROUTER_IKEv2_IF_CUSTOM_CONFIG0</b> structure directly in your code; using <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-data-types">ROUTER_IKEv2_IF_CUSTOM_CONFIG</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
+Do not use the <b>ROUTER_IKEv2_IF_CUSTOM_CONFIG0</b> structure directly in your code; using <a href="/windows/desktop/RRAS/router-management-data-types">ROUTER_IKEv2_IF_CUSTOM_CONFIG</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
 
 ## -struct-fields
 
@@ -75,4 +75,3 @@ A value that specifies the configured certificate that will be sent to the peer 
 ### -field customPolicy
 
 A value that specifies the custom IKEv2 configurations that will be used during  the SA negotiation. If set to <b>NULL</b>, no custom IKEv2configuration is available.
-

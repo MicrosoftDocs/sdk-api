@@ -95,5 +95,4 @@ For both parameters, 1.0 represents normal speed. Fractional values are allowed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent2">IMSVidStreamBufferSourceEvent2 Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent2">IMSVidStreamBufferSourceEvent2 Interface</a>

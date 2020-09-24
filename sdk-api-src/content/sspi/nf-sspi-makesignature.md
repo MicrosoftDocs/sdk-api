@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>MakeSignature</b> function generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion. <b>MakeSignature</b> allows the application to choose between several cryptographic algorithms, if supported by the chosen mechanism. The <b>MakeSignature</b> function uses the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> referenced by the context handle.
+The <b>MakeSignature</b> function generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion. <b>MakeSignature</b> allows the application to choose between several cryptographic algorithms, if supported by the chosen mechanism. The <b>MakeSignature</b> function uses the <a href="/windows/desktop/SecGloss/s-gly">security context</a> referenced by the context handle.
 
-This function is not supported by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
+This function is not supported by the Schannel <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
 ## -parameters
 
@@ -62,17 +62,17 @@ A handle to the security context to use to sign the message.
 
 ### -param fQOP [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Package</a>-specific flags that indicate the quality of protection. A security package can use this parameter to enable the selection of cryptographic algorithms.
+<a href="/windows/desktop/SecGloss/s-gly">Package</a>-specific flags that indicate the quality of protection. A security package can use this parameter to enable the selection of cryptographic algorithms.
 
 When using the Digest SSP, this parameter must be set to zero.
 
 ### -param pMessage [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure. On input, the structure references one or more 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures that contain the message to be signed. The function does not process buffers with the SECBUFFER_READONLY_WITH_CHECKSUM  attribute.
+<a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure. On input, the structure references one or more 
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures that contain the message to be signed. The function does not process buffers with the SECBUFFER_READONLY_WITH_CHECKSUM  attribute.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure also references a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure of type SECBUFFER_TOKEN that receives the signature.
+The <a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure also references a <a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure of type SECBUFFER_TOKEN that receives the signature.
 
 When the Digest SSP is used as an HTTP authentication protocol, the buffers should be configured as follows.
 
@@ -122,7 +122,7 @@ URL.
 </td>
 <td width="60%">
 HEntity. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/input-buffers-for-the-digest-challenge-response">Input Buffers for the Digest Challenge Response</a>.
+<a href="/windows/desktop/SecAuthN/input-buffers-for-the-digest-challenge-response">Input Buffers for the Digest Challenge Response</a>.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ HEntity. For more information, see
 </dl>
 </td>
 <td width="60%">
-Empty. Receives the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">signature</a>.
+Empty. Receives the <a href="/windows/desktop/SecGloss/d-gly">signature</a>.
 
 </td>
 </tr>
@@ -155,8 +155,8 @@ When the Digest SSP is used as an SASL mechanism, the buffers should be configur
 </td>
 <td width="60%">
 Empty. Receives the signature. This buffer must be large enough to hold the largest possible signature. Determine the size required by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function and specifying SECPKG_ATTR_SIZES. Check the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a> structure member <b>cbMaxSignature</b>.
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function and specifying SECPKG_ATTR_SIZES. Check the returned 
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a> structure member <b>cbMaxSignature</b>.
 
 </td>
 </tr>
@@ -209,8 +209,8 @@ If the function fails, it returns one of the following error codes.
 </td>
 <td width="60%">
 The remote party requires a new handshake sequence or the application has just initiated a shutdown. Return to the negotiation loop and call 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> again. An empty input buffer is passed in the first call.
+<a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> or 
+<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> again. An empty input buffer is passed in the first call.
 
 </td>
 </tr>
@@ -243,7 +243,7 @@ The context handle specified by <i>phContext</i> is not valid.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/n-gly">nonce</a> count is out of sequence.
+The <a href="/windows/desktop/SecGloss/n-gly">nonce</a> count is out of sequence.
 
 </td>
 </tr>
@@ -254,7 +254,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/n-gly">nonce</a
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> (<i>phContext</i>) must be revalidated.
+The <a href="/windows/desktop/SecGloss/s-gly">security context</a> (<i>phContext</i>) must be revalidated.
 
 </td>
 </tr>
@@ -276,7 +276,7 @@ The nonce count is not numeric.
 </dl>
 </td>
 <td width="60%">
-The quality of protection negotiated between the client and server did not include <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">integrity</a> checking.
+The quality of protection negotiated between the client and server did not include <a href="/windows/desktop/SecGloss/i-gly">integrity</a> checking.
 
 </td>
 </tr>
@@ -284,25 +284,24 @@ The quality of protection negotiated between the client and server did not inclu
 
 ## -remarks
 
-The <b>MakeSignature</b> function generates a signature that is based on the message and the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
+The <b>MakeSignature</b> function generates a signature that is based on the message and the <a href="/windows/desktop/SecGloss/s-gly">session key</a> for the <a href="/windows/desktop/SecGloss/c-gly">context</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a> function verifies the messages signed by the <b>MakeSignature</b> function.
+The <a href="/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a> function verifies the messages signed by the <b>MakeSignature</b> function.
 
-If the transport application created the security context to support sequence detection and the caller provides a sequence number, the function includes this information in the signature. This protects against reply, insertion, and suppression of messages. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> incorporates the sequence number passed down from the transport application.
+If the transport application created the security context to support sequence detection and the caller provides a sequence number, the function includes this information in the signature. This protects against reply, insertion, and suppression of messages. The <a href="/windows/desktop/SecGloss/s-gly">security package</a> incorporates the sequence number passed down from the transport application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a>
-
+<a href="/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a>

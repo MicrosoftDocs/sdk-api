@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PROG_INVOKE_SETTING</b> enumeration indicates the initial setting of the function used to track the progress of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-treesetnamedsecurityinfoa">TreeSetNamedSecurityInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-treeresetnamedsecurityinfoa">TreeResetNamedSecurityInfo</a> function.
+The <b>PROG_INVOKE_SETTING</b> enumeration indicates the initial setting of the function used to track the progress of a call to the <a href="/windows/desktop/api/aclapi/nf-aclapi-treesetnamedsecurityinfoa">TreeSetNamedSecurityInfo</a> or <a href="/windows/desktop/api/aclapi/nf-aclapi-treeresetnamedsecurityinfoa">TreeResetNamedSecurityInfo</a> function.
 
 ## -enum-fields
 
@@ -84,4 +84,3 @@ Retry the tree operation.
 ### -field ProgressInvokePrePostError
 
 Invoke the progress function before and after applying security on the object and on the error.
-

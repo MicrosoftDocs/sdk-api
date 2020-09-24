@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptInstallDefaultContext</b> function installs a specific provider to be the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> provider for the specified algorithm.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptInstallDefaultContext</b> function installs a specific provider to be the default <a href="/windows/desktop/SecGloss/c-gly">context</a> provider for the specified algorithm.
 
 ## -parameters
 
 ### -param hCryptProv [in]
 
 The handle of the cryptographic service provider to be used as the default context. This handle is obtained by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
 
 ### -param dwDefaultType [in]
 
@@ -113,7 +113,7 @@ A set of flags that modify the behavior of this function. This can be zero or a 
 </dl>
 </td>
 <td width="60%">
-The provider handle specified by the <i>hCryptProv</i> parameter is released automatically when the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> or thread ends. If this flag is not specified, it is the caller's responsibility to release the provider handle by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function when the handle is no longer needed. The provider handle is not released if the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a> function is called before the process or thread exits.
+The provider handle specified by the <i>hCryptProv</i> parameter is released automatically when the <a href="/windows/desktop/SecGloss/p-gly">process</a> or thread ends. If this flag is not specified, it is the caller's responsibility to release the provider handle by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function when the handle is no longer needed. The provider handle is not released if the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a> function is called before the process or thread exits.
 
 </td>
 </tr>
@@ -135,20 +135,19 @@ This parameter is reserved for future use.
 
 ### -param phDefaultContext [out]
 
-The address of an <b>HCRYPTDEFAULTCONTEXT</b> variable that receives the default context handle. This handle is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a> function to uninstall the default context provider.
+The address of an <b>HCRYPTDEFAULTCONTEXT</b> variable that receives the default context handle. This handle is passed to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a> function to uninstall the default context provider.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero (TRUE). If the function fails, the return value is zero (FALSE). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The installed default context providers are stack ordered, thus when searching for a default context provider, the system starts with the most recently installed provider. The per-thread list of providers is searched before the per-process list of providers. After a match is found, the system does not continue to search for other matches.
 
-The installed provider handle must remain available for use until <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a> is called, or the thread or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> exits.
+The installed provider handle must remain available for use until <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a> is called, or the thread or <a href="/windows/desktop/SecGloss/p-gly">process</a> exits.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptuninstalldefaultcontext">CryptUninstallDefaultContext</a>

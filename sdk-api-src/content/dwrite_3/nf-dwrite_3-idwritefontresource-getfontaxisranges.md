@@ -52,9 +52,9 @@ Retrieves the value ranges of each axis.
 
 ### -param fontAxisRanges [out]
 
-Type: **[DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)\***
+Type: **[DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md)\***
 
-A pointer to an array of **DWRITE_FONT_AXIS_RANGE** structures into which **GetFontAxisRanges** writes the list of font axis value ranges. You're responsible for managing the size and the lifetime of this array. Call [GetFontAxisCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxiscount) to determine the size of array to allocate.
+A pointer to an array of **DWRITE_FONT_AXIS_RANGE** structures into which **GetFontAxisRanges** writes the list of font axis value ranges. You're responsible for managing the size and the lifetime of this array. Call [GetFontAxisCount](./nf-dwrite_3-idwritefontresource-getfontaxiscount.md) to determine the size of array to allocate.
 
 ### -param fontAxisRangeCount
 
@@ -77,4 +77,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 A non-varying axis has an empty range (*minValue* == *maxValue*).
 
 ## -see-also
-

@@ -56,7 +56,7 @@ Retrieves the registered event sink.
 
 ### -param ppsink [out]
 
-A pointer to a pointer to the event sink. See <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>.
+A pointer to a pointer to the event sink. See <a href="/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>.
 
 ## -returns
 
@@ -104,5 +104,4 @@ An unexpected error has occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>

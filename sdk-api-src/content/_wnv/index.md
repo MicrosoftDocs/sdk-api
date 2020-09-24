@@ -18,5 +18,4 @@ To develop Windows Network Virtualization, you need these headers:
  * [wnvapi.h](../wnvapi/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Network Virtualization](https://docs.microsoft.com/previous-versions/windows/desktop/wnv)
-
+* [Windows Network Virtualization](/previous-versions/windows/desktop/wnv)

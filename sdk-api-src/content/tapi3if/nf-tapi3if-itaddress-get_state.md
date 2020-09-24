@@ -58,7 +58,7 @@ The
 ### -param pAddressState [out]
 
 Pointer to a member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_state">ADDRESS_STATE</a>.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-address_state">ADDRESS_STATE</a>.
 
 ## -returns
 
@@ -106,13 +106,12 @@ The <i>pAddressState</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_state">ADDRESS_STATE</a>
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-address_state">ADDRESS_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>

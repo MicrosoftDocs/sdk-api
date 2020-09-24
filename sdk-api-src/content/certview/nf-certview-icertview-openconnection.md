@@ -58,20 +58,20 @@ The <b>OpenConnection</b> method establishes a connection with a Certificate Ser
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the Certificate Services server. The configuration string is in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the server's network name, and CANAME is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents a valid configuration string for the Certificate Services server. The configuration string is in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the server's network name, and CANAME is the common name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 ## -returns
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 Upon successful completion of this method, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a> object will have a connection to the Certificate Services server specified in the  <i>strConfig</i> parameter.
+<a href="/windows/desktop/api/certview/nn-certview-icertview">ICertView</a> object will have a connection to the Certificate Services server specified in the  <i>strConfig</i> parameter.
 
  To close the connection, call the <b>Release</b> function.
 
@@ -127,17 +127,16 @@ error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a>
-
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a>

@@ -68,5 +68,4 @@ The value of the element.
 
 ### -field MetadataBits
 
-A bit field representing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ne-xamlom-metadatabit">MetadataBit</a>s.
-
+A bit field representing <a href="/previous-versions/windows/desktop/api/xamlom/ne-xamlom-metadatabit">MetadataBit</a>s.

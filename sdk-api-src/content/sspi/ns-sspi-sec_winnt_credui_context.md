@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-Specifies unserialized credential information. The credential information can be serialized by passing it as the <b>rgbSerialization</b> member of a <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
+Specifies unserialized credential information. The credential information can be serialized by passing it as the <b>rgbSerialization</b> member of a <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure in a call to the <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
 
-The unserialized information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiunmarshalcreduicontext">SspiUnmarshalCredUIContext</a> function.
+The unserialized information can be obtained by calling the <a href="/windows/desktop/api/sspi/nf-sspi-sspiunmarshalcreduicontext">SspiUnmarshalCredUIContext</a> function.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ A handle to the credential context.
 
 ### -field UIInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure that specifies information for the credential prompt dialog box.
+A pointer to a <a href="/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure that specifies information for the credential prompt dialog box.
 
 ### -field dwAuthError
 
@@ -83,4 +83,3 @@ The opaque authentication identity data.
 ### -field TargetName
 
 The name of the target.
-

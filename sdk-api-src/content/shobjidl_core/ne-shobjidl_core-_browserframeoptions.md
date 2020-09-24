@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used with method <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibrowserframeoptions-getframeoptions">IBrowserFrameOptions::GetFrameOptions</a>.
+Used with method <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibrowserframeoptions-getframeoptions">IBrowserFrameOptions::GetFrameOptions</a>.
 
 ## -enum-fields
 
@@ -137,4 +137,3 @@ Return all values.
 ## -remarks
 
 These constants are defined in the Shobjidl.h file beginning in Windows Vista.
-

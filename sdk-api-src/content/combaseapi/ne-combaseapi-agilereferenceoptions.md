@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies options for the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function.
+Specifies options for the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ Marshaling happens on demand.  Use this option only in situations where it's kno
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>

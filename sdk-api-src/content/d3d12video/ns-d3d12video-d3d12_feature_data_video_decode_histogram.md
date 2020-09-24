@@ -64,7 +64,7 @@ The decode height of the source stream.
 
 ### -field DecodeFormat
 
-The [DXGI\_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) representing the decode format.
+The [DXGI\_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) representing the decode format.
 
 ### -field Components
 
@@ -82,4 +82,3 @@ The bit depth of the bin counter.  The counter is always stored in a 32-bit valu
 ## -remarks
 
 ## -see-also
-

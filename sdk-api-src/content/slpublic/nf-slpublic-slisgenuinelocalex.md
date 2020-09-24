@@ -66,7 +66,7 @@ If this parameter is not <b>NULL</b>, this function uses the value of this param
 
 ### -param pGenuineState [out]
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sl_genuine_state">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.  This function does not change the value of this parameter if the return value is any value other than <b>S_OK</b>.
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sl_genuine_state">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.  This function does not change the value of this parameter if the return value is any value other than <b>S_OK</b>.
 
 If this parameter is <b>NULL</b>, the function fails with a return value of <b>E_INVALIDARG</b>.
 
@@ -74,9 +74,8 @@ If this parameter is <b>NULL</b>, the function fails with a return value of <b>E
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 This function checks the <b>Tampered</b> flag of the license associated with the specified application and the SKU, if specified. If the license is not valid, or if the <b>Tampered</b> flag of either license is set, the installation is not considered genuine.
-

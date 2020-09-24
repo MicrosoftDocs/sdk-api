@@ -64,7 +64,7 @@ The original format string.
 
 ### -param pbTokCur [in]
 
-The tokenized format string from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vartokenizeformatstring">VarTokenizeFormatString</a>.
+The tokenized format string from <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vartokenizeformatstring">VarTokenizeFormatString</a>.
 
 ### -param dwFlags [in]
 
@@ -139,4 +139,3 @@ The argument could not be coerced to the specified type.
 ## -remarks
 
 The locale <i>lcid</i> controls the formatted output string.
-

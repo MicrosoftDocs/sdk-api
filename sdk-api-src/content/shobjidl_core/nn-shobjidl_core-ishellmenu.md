@@ -54,7 +54,7 @@ Exposes methods that interact with Shell menus such as the <b>Start</b> menu, an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellMenu</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellMenu</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellMenu</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellMenu</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,25 +69,25 @@ The <b>IShellMenu</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-getmenu">GetMenu</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-getmenu">GetMenu</a>
 </td>
 <td align="left" width="63%">
-Gets the menu information set by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenu">IShellMenu::SetMenu</a>.
+Gets the menu information set by calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenu">IShellMenu::SetMenu</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-getmenuinfo">GetMenuInfo</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-getmenuinfo">GetMenuInfo</a>
 </td>
 <td align="left" width="63%">
-Gets information from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a> method.
+Gets information from the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-getshellfolder">GetShellFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-getshellfolder">GetShellFolder</a>
 </td>
 <td align="left" width="63%">
 Gets the folder that the menu band is set to browse.
@@ -96,16 +96,16 @@ Gets the folder that the menu band is set to browse.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-getstate">GetState</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
-Gets a filled <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-smdata">SMDATA</a> structure.
+Gets a filled <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-smdata">SMDATA</a> structure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">Initialize</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a menu band.
@@ -114,7 +114,7 @@ Initializes a menu band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-invalidateitem">InvalidateItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-invalidateitem">InvalidateItem</a>
 </td>
 <td align="left" width="63%">
 Redraws an item in a menu band.
@@ -123,7 +123,7 @@ Redraws an item in a menu band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenu">SetMenu</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenu">SetMenu</a>
 </td>
 <td align="left" width="63%">
 Appends a static menu to the menu band.
@@ -132,7 +132,7 @@ Appends a static menu to the menu band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenutoolbar">SetMenuToolbar</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenutoolbar">SetMenuToolbar</a>
 </td>
 <td align="left" width="63%">
 Adds a menu to the menuband.
@@ -141,7 +141,7 @@ Adds a menu to the menuband.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setshellfolder">SetShellFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setshellfolder">SetShellFolder</a>
 </td>
 <td align="left" width="63%">
 Specifies the folder for the menu band to browse.
@@ -152,5 +152,4 @@ Specifies the folder for the menu band to browse.
 
 ## -remarks
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <i>rclsid</i> parameter set to CLSID_MenuBand and the <i>riid</i> parameter set to IID_IShellMenu. You must first initialize the interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>, and then initialize the menu band by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setshellfolder">IShellMenu::SetShellFolder</a>.
-
+To get a pointer to this interface, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <i>rclsid</i> parameter set to CLSID_MenuBand and the <i>riid</i> parameter set to IID_IShellMenu. You must first initialize the interface by calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>, and then initialize the menu band by calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setshellfolder">IShellMenu::SetShellFolder</a>.

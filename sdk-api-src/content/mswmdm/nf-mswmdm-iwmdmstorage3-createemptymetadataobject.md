@@ -57,7 +57,7 @@ The <b>CreateEmptyMetadataObject</b> method creates a new <b>IWMDMMetaData</b> i
 
 ### -param ppMetadata [out]
 
-Receives the new <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> interface. The caller must release this interface when done with it.
+Receives the new <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> interface. The caller must release this interface when done with it.
 
 ## -returns
 
@@ -68,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -175,17 +175,16 @@ HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation*
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3">IWMDMStorageControl3::Insert3</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3">IWMDMStorageControl3::Insert3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
-
+<a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
- The <b>LocalRevocationInformation</b> property gets or sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) of the local machine. This list provides additional revocation information, or supersedes information from the revocation provider configured by <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerclsid">ProviderCLSID</a>.
+ The <b>LocalRevocationInformation</b> property gets or sets the <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) of the local machine. This list provides additional revocation information, or supersedes information from the revocation provider configured by <a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerclsid">ProviderCLSID</a>.
 
 This property is read/write.
 
@@ -64,5 +64,4 @@ The CRL used for the <b>LocalRevocationInformation</b> property can be signed or
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

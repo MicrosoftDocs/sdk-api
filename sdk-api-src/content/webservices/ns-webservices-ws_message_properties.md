@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structures.
+Specifies a set of <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structures.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ An array of properties.  The number of elements in the array is specified
 ### -field propertyCount
 
 The number of elements in the properties array.
-

@@ -59,7 +59,7 @@ The length, in bytes, in the buffer to register.
 
 ## -returns
 
-If no error occurs, the **RIORegisterBuffer** function returns a registered buffer descriptor. Otherwise, a value of **RIO\_INVALID\_BUFFERID** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) function.
+If no error occurs, the **RIORegisterBuffer** function returns a registered buffer descriptor. Otherwise, a value of **RIO\_INVALID\_BUFFERID** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) function.
 
 
 
@@ -76,12 +76,12 @@ If several small, non-contiguous buffers are registered, the physical memory foo
 
 There is also a small amount of overhead in physical memory used for the buffer registration itself. So if there are many allocations aggregated into single larger allocation, the physical memory footprint may be reduced further by aggregating the buffer registrations as well. In this case the application may need to take extra care to ensure that the buffers are eventually deregistered, but not while any send or receive requests are outstanding.
 
-A portion of a registered buffer is passed to the [**RIOSend**](/windows/win32/winsock/riosend), [**RIOSendEx**](/windows/win32/winsock/riosendex), [**RIOReceive**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive), and [**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex) functions in the *pData* parameter for sending or receiving data.
+A portion of a registered buffer is passed to the [**RIOSend**](/windows/win32/winsock/riosend), [**RIOSendEx**](/windows/win32/winsock/riosendex), [**RIOReceive**](./nc-mswsock-lpfn_rioreceive.md), and [**RIOReceiveEx**](./nc-mswsock-lpfn_rioreceiveex.md) functions in the *pData* parameter for sending or receiving data.
 
-When the buffer identifier is no longer needed, call the [**RIODeregisterBuffer**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer) function to deregister the buffer identifier.
+When the buffer identifier is no longer needed, call the [**RIODeregisterBuffer**](./nc-mswsock-lpfn_rioderegisterbuffer.md) function to deregister the buffer identifier.
 
 > [!Note]  
-> The function pointer to the **RIORegisterBuffer** function must be obtained at run time by making a call to the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](/windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
+> The function pointer to the **RIORegisterBuffer** function must be obtained at run time by making a call to the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](./ns-mswsock-rio_extension_function_table.md) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
 
  
 
@@ -90,4 +90,3 @@ When the buffer identifier is no longer needed, call the [**RIODeregisterBuffer*
 **Windows 8.1** and **Windows Server 2012 R2**: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
 ## -see-also
-

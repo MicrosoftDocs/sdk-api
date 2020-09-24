@@ -97,5 +97,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828953(v=vs.85)">IStreamSelectorStatics</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh828953(v=vs.85)">IStreamSelectorStatics</a>

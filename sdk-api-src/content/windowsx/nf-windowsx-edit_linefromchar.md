@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the index of the line that contains the specified character index in a multiline edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-linefromchar">EM_LINEFROMCHAR</a> message explicitly.
+Gets the index of the line that contains the specified character index in a multiline edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-linefromchar">EM_LINEFROMCHAR</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,5 +68,4 @@ The zero-based index of the character from the beginning of the text in the cont
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-linefromchar">EM_LINEFROMCHAR</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-linefromchar">EM_LINEFROMCHAR</a>.

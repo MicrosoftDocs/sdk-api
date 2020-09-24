@@ -62,9 +62,8 @@ The extended error code for the latest error associated with the track.
 
 ## -remarks
 
-If the most recent error was associated with a track, this value will be the same <a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a> as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-error">IMFTimedTextNotify::Error</a> method.
+If the most recent error was associated with a track, this value will be the same <a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a> as returned by the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-error">IMFTimedTextNotify::Error</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>

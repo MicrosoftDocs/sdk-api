@@ -84,5 +84,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>

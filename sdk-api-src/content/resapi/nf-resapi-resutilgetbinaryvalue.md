@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns a binary value from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
+Returns a binary value from the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
 ## -parameters
 
@@ -75,7 +75,7 @@ Pointer to a <b>DWORD</b> in which the size in bytes of the buffer pointed to by
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -97,25 +97,24 @@ There was an error allocating memory for the value.
 
 ## -remarks
 
-The  <b>ResUtilGetBinaryValue</b> utility function takes care of allocating the necessary memory for the value and then calls the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>. When you are finished with the allocated memory, you must call the function  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release it.
+The  <b>ResUtilGetBinaryValue</b> utility function takes care of allocating the necessary memory for the value and then calls the  <a href="/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>. When you are finished with the allocated memory, you must call the function  <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetdwordvalue">ResUtilGetDwordValue</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetdwordvalue">ResUtilGetDwordValue</a>
 
 
 
-[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)
+[ResUtilGetExpandSzValue](./nf-resapi-resutilgetexpandszvalue.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszvalue">ResUtilGetMultiSzValue</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszvalue">ResUtilGetMultiSzValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetszvalue">ResUtilGetSzValue</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetszvalue">ResUtilGetSzValue</a>

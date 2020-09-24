@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Wrapper macro for use in <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_define_provider">TRACELOGGING_DEFINE_PROVIDER</a> to declare the
+Wrapper macro for use in <a href="/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_define_provider">TRACELOGGING_DEFINE_PROVIDER</a> to declare the
 GUID of the provider group that the provider is a member of.
 
 ## -parameters
@@ -109,4 +109,3 @@ The following code sample shows how to construct the  GUID:
 
 
 <pre class="syntax">TraceLoggingOptionGroup(0x3970f9cf, 0x2c0c, 0x4f11, 0xb1, 0xcc, 0xe3, 0xa1, 0xe9, 0x95, 0x88, 0x33);</pre>
-

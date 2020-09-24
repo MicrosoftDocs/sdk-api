@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>DSROLE_PRIMARY_DOMAIN_INFO_BASIC</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function to contain domain  data.
+The <b>DSROLE_PRIMARY_DOMAIN_INFO_BASIC</b> structure is used with the <a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function to contain domain  data.
 
 ## -struct-fields
 
 ### -field MachineRole
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_machine_role">DSROLE_MACHINE_ROLE</a> values that specifies the role of the computer.
+Contains one of the <a href="/windows/desktop/api/dsrole/ne-dsrole-dsrole_machine_role">DSROLE_MACHINE_ROLE</a> values that specifies the role of the computer.
 
 ### -field Flags
 
@@ -114,13 +114,12 @@ Contains the domain identifier. This member is valid only if the <b>Flags</b> me
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_machine_role">DSROLE_MACHINE_ROLE</a>
+<a href="/windows/desktop/api/dsrole/ne-dsrole-dsrole_machine_role">DSROLE_MACHINE_ROLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-structures">Directory Service Structures</a>
+<a href="/windows/desktop/AD/directory-service-structures">Directory Service Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>
-
+<a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>

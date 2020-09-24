@@ -96,9 +96,8 @@ The address in the <i>pUnderline</i> parameter is not valid. For example, it may
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_underline">IFont::put_Underline</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_underline">IFont::put_Underline</a>

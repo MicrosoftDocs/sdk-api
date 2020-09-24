@@ -78,5 +78,4 @@ The caller must have WRITE_DATA or WRITE_DAC access to the placeholder to be rev
 
 If the placeholder is not already fully hydrated at the time of the call, then the filter will send a FETCH_DATA callback to the sync provider  to hydrate the file.  If the file can’t be hydrated, the revert will fail.
 
-If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>.
-
+If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>.

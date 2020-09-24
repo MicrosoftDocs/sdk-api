@@ -74,13 +74,12 @@ Call this method to allocate a block of memory from the available pool.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator">IAMDevMemoryAllocator Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator">IAMDevMemoryAllocator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-free">IAMDevMemoryAllocator::Free</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-free">IAMDevMemoryAllocator::Free</a>

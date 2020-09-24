@@ -57,7 +57,7 @@ Notifies the input trust authority (ITA) that a requested action is about to be 
 
 ### -param pParam [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfinputtrustauthority_access_params">MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS</a> structure that contains parameters for the <b>BindAccess</b> action.
+Pointer to an <a href="/windows/desktop/api/mfidl/ns-mfidl-mfinputtrustauthority_access_params">MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS</a> structure that contains parameters for the <b>BindAccess</b> action.
 
 ## -returns
 
@@ -83,9 +83,8 @@ The method succeeded.
 
 ## -remarks
 
-Before calling this method, the Media Session calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-requestaccess">IMFInputTrustAuthority::RequestAccess</a> to request an action. The <b>BindAccess</b> method notifies the ITA that the action is definitely about to occur, so that the ITA can update its internal state as needed. If the method returns a failure code, the Media Session cancels the action.
+Before calling this method, the Media Session calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-requestaccess">IMFInputTrustAuthority::RequestAccess</a> to request an action. The <b>BindAccess</b> method notifies the ITA that the action is definitely about to occur, so that the ITA can update its internal state as needed. If the method returns a failure code, the Media Session cancels the action.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>

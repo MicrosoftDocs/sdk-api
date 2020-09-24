@@ -86,13 +86,12 @@ Loudness boosts the bass of low volume signals before they are recorded, to comp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_loudness">IAMAudioInputMixer::get_Loudness</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_loudness">IAMAudioInputMixer::get_Loudness</a>

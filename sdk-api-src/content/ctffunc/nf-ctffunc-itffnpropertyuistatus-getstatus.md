@@ -56,7 +56,7 @@ Obtains the status of a text service property UI.
 
 ### -param refguidProp [in]
 
-Specifies the property identifier. This can be a custom identifier or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">predefined property</a> identifiers.
+Specifies the property identifier. This can be a custom identifier or one of the <a href="/windows/desktop/TSF/predefined-properties">predefined property</a> identifiers.
 
 ### -param pdw [out]
 
@@ -125,10 +125,9 @@ The text service does not support this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnpropertyuistatus">ITfFnPropertyUIStatus</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnpropertyuistatus">ITfFnPropertyUIStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
+<a href="/windows/desktop/TSF/predefined-properties">Predefined Properties
       </a>
-

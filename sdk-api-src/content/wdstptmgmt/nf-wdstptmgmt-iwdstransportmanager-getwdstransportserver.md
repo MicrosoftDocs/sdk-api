@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an object of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface that can be used to manage a WDS transport server. The method confirms that the system can reach a WDS transport server with the specified name.
+Creates an object of the <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface that can be used to manage a WDS transport server. The method confirms that the system can reach a WDS transport server with the specified name.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The name of the WDS transport server to be represented by this object. This can 
 
 ### -param ppWdsTransportServer [out]
 
-A pointer to the object of the  <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface.
+A pointer to the object of the  <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportmanager">IWdsTransportManager</a>
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportmanager">IWdsTransportManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a>
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a>

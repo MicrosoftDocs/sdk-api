@@ -62,7 +62,7 @@ Handle to the input context.
 
 ### -param lpCompForm [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a> structure that contains the new position and other related information about the composition window.
+Pointer to a <a href="/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a> structure that contains the new position and other related information about the composition window.
 
 ## -returns
 
@@ -70,21 +70,20 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -remarks
 
-This function causes an <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setcompositionwindow">IMN_SETCOMPOSITIONWINDOW</a> command to be sent to the application.
+This function causes an <a href="/windows/desktop/Intl/imn-setcompositionwindow">IMN_SETCOMPOSITIONWINDOW</a> command to be sent to the application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a>
+<a href="/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setcompositionwindow">IMN_SETCOMPOSITIONWINDOW</a>
+<a href="/windows/desktop/Intl/imn-setcompositionwindow">IMN_SETCOMPOSITIONWINDOW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

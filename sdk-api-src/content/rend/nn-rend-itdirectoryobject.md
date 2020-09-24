@@ -55,24 +55,24 @@ provides similar functionality.]
 
 The 
 <b>ITDirectoryObject</b> interface is the common interface supported by all objects that can be added and deleted by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface. Changes made to this object will not take effect on the server until the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-modifydirectoryobject">ITDirectory::ModifyDirectoryObject</a> method is called. The following methods create the 
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface. Changes made to this object will not take effect on the server until the 
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-modifydirectoryobject">ITDirectory::ModifyDirectoryObject</a> method is called. The following methods create the 
 <b>ITDirectoryObject</b> interface:
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-ienumdirectoryobject-next">IEnumDirectoryObject::Next</a>
+<a href="/windows/desktop/api/rend/nf-rend-ienumdirectoryobject-next">IEnumDirectoryObject::Next</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_directoryobjects">ITDirectory::get_DirectoryObjects</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-get_directoryobjects">ITDirectory::get_DirectoryObjects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectoryobject">ITRendezvous::CreateDirectoryObject</a>
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectoryobject">ITRendezvous::CreateDirectoryObject</a>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectoryObject</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDirectoryObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectoryObject</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDirectoryObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,7 +87,7 @@ The <b>ITDirectoryObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-enumeratedialableaddrs">EnumerateDialableAddrs</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-enumeratedialableaddrs">EnumerateDialableAddrs</a>
 </td>
 <td align="left" width="63%">
 Enumerates dialable addresses.
@@ -96,7 +96,7 @@ Enumerates dialable addresses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_dialableaddrs">get_DialableAddrs</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_dialableaddrs">get_DialableAddrs</a>
 </td>
 <td align="left" width="63%">
 Gets a dialable address for this directory.
@@ -105,7 +105,7 @@ Gets a dialable address for this directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_name">get_Name</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets the name of this directory.
@@ -114,7 +114,7 @@ Gets the name of this directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_objecttype">get_ObjectType</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_objecttype">get_ObjectType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of this directory.
@@ -123,7 +123,7 @@ Gets the type of this directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_securitydescriptor">get_SecurityDescriptor</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_securitydescriptor">get_SecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Gets the security descriptor.
@@ -132,7 +132,7 @@ Gets the security descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-put_name">put_Name</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-put_name">put_Name</a>
 </td>
 <td align="left" width="63%">
 Sets the name of this directory.
@@ -141,7 +141,7 @@ Sets the name of this directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-put_securitydescriptor">put_SecurityDescriptor</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-put_securitydescriptor">put_SecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Sets the security descriptor.
@@ -149,4 +149,3 @@ Sets the security descriptor.
 </td>
 </tr>
 </table>
-

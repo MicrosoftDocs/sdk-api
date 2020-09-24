@@ -60,7 +60,7 @@ Returns a specified block of data from a .pif file.
 
 Type: <b>HANDLE</b>
 
-A handle to an application's properties. This parameter should be set to the value that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>.
+A handle to an application's properties. This parameter should be set to the value that is returned by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>.
 
 ### -param pszGroup [in, optional]
 
@@ -86,7 +86,7 @@ A null-terminated string that contains the property group name. It can be one of
 
 Type: <b>void*</b>
 
-When this function returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-propprg">PROPPRG</a> structure.
+When this function returns, contains a pointer to a <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-propprg">PROPPRG</a> structure.
 
 ### -param cbProps
 
@@ -108,7 +108,7 @@ Returns <b>NULL</b> if successful. If unsuccessful, the function returns the han
 
 ## -remarks
 
-If the block is a "named" block, it must be the name of a linked extension inside the .pif file. This can be any predefined name (such as, "WINDOWS 386 3.0") or the name of your own block. You can create your own named data blocks using <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_setproperties">PifMgr_SetProperties</a>. Named data can also be thought of as raw data, because it is returned to the calling application as it is, without translation.
+If the block is a "named" block, it must be the name of a linked extension inside the .pif file. This can be any predefined name (such as, "WINDOWS 386 3.0") or the name of your own block. You can create your own named data blocks using <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_setproperties">PifMgr_SetProperties</a>. Named data can also be thought of as raw data, because it is returned to the calling application as it is, without translation.
 
 The size of a named block can be determined by calling <b>PifMgr_GetProperties</b> with <i>cbProps</i> set to 0. No data is copied, but the size of the requested block is returned.
 
@@ -118,9 +118,8 @@ If you request an unnamed property block by setting the selector of the name par
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_closeproperties">PifMgr_CloseProperties</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_closeproperties">PifMgr_CloseProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>

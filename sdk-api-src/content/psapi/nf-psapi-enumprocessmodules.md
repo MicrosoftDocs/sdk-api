@@ -59,7 +59,7 @@ api_name:
 Retrieves a handle for each module in the specified process.
 
 To control whether a 64-bit application enumerates 32-bit modules, 64-bit modules, or both types of modules, use 
-    the <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocessmodulesex">EnumProcessModulesEx</a> function.
+    the <a href="/windows/desktop/api/psapi/nf-psapi-enumprocessmodulesex">EnumProcessModulesEx</a> function.
 
 ## -parameters
 
@@ -85,7 +85,7 @@ The number of bytes required to store all module handles in the <i>lphModule</i>
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -111,9 +111,9 @@ To determine how many modules were enumerated by the call to
 
 The <b>EnumProcessModules</b> function does not 
     retrieve handles for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> or similar  flags. 
-    For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
+    For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
 
-Do not call <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> on any of the handles returned 
+Do not call <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> on any of the handles returned 
     by this function. The information comes from a snapshot, so there are no resources to be freed.
 
 If this function is called from a 32-bit application running on WOW64, it can only enumerate the modules of a 
@@ -121,7 +121,7 @@ If this function is called from a 32-bit application running on WOW64, it can on
     <b>ERROR_PARTIAL_COPY</b> (299).
 
 To take a snapshot of specified processes and the heaps, modules, and threads used by these processes, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
+    <a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
@@ -145,28 +145,27 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/psapi/enumerating-all-processes">Enumerating All Processes</a> or 
-     <a href="https://docs.microsoft.com/windows/desktop/psapi/enumerating-all-modules-for-a-process">Enumerating All Modules for a Process</a>.
+     <a href="/windows/desktop/psapi/enumerating-all-processes">Enumerating All Processes</a> or 
+     <a href="/windows/desktop/psapi/enumerating-all-modules-for-a-process">Enumerating All Modules for a Process</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocessmodulesex">EnumProcessModulesEx</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-enumprocessmodulesex">EnumProcessModulesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/module-information">Module Information</a>
+<a href="/windows/desktop/psapi/module-information">Module Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>

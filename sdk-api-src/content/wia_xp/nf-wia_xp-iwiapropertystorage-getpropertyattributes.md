@@ -62,21 +62,21 @@ Specifies the number of property attributes to query.
 
 ### -param rgpspec [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a>[]</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a>[]</b>
 
-Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wiadeviceinfoprop">Device Information Property Constants</a>. Each constant in the array selects a property to query.
+Specifies an array of <a href="/windows/desktop/wia/-wia-wiadeviceinfoprop">Device Information Property Constants</a>. Each constant in the array selects a property to query.
 
 ### -param rgflags [out]
 
 Type: <b>ULONG[]</b>
 
-An array that receives a <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-property-attributes">property attribute descriptor</a> for each property specified in the <i>rgpspec</i> array. Each element in the array is one or more descriptor values combined with a bitwise <b>OR</b> operation.
+An array that receives a <a href="/windows/desktop/wia/-wia-property-attributes">property attribute descriptor</a> for each property specified in the <i>rgpspec</i> array. Each element in the array is one or more descriptor values combined with a bitwise <b>OR</b> operation.
 
 ### -param rgpropvar [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>[]</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>[]</b>
 
-An array that receives a <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-property-attributes">property attribute descriptor</a> for each property specified in the <i>pPROPSPEC</i> array. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
+An array that receives a <a href="/windows/desktop/wia/-wia-property-attributes">property attribute descriptor</a> for each property specified in the <i>pPROPSPEC</i> array. For more information, see <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
 ## -returns
 
@@ -111,7 +111,7 @@ This method returns one of the following values or a standard COM error code:
 </tr>
 <tr>
 <td>STG_E_INVALIDPARAMETER</td>
-<td>One or more parameters are invalid. One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a> structures contain invalid data.</td>
+<td>One or more parameters are invalid. One or more of the <a href="/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a> structures contain invalid data.</td>
 </tr>
 <tr>
 <td>STG_E_INVALIDPOINTER</td>
@@ -125,11 +125,11 @@ This method returns one of the following values or a standard COM error code:
 
 ## -remarks
 
-This method retrieves both property access rights and valid property values. Access rights report whether the property is readable, writeable, or both. Valid property values are specified as a range of values, a list of values, or a group of flag values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-property-attributes">Property Attributes</a>.
+This method retrieves both property access rights and valid property values. Access rights report whether the property is readable, writeable, or both. Valid property values are specified as a range of values, a list of values, or a group of flag values. For more information, see <a href="/windows/desktop/wia/-wia-property-attributes">Property Attributes</a>.
 
 If the property access rights flag has the <b>WIA_PROP_NONE</b> bit set, no legal value information is available for this property. Read only properties and properties with a binary data type are examples of properties that would have the <b>WIA_PROP_NONE</b> bit set.
 
-If the property has a range of valid values, they can be determined through the <i>rgpropvar</i> parameter upon completion of this method. The <i>ppvValidValues</i> parameter specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures. 
+If the property has a range of valid values, they can be determined through the <i>rgpropvar</i> parameter upon completion of this method. The <i>ppvValidValues</i> parameter specifies an array of <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures. 
 
 For example, if the property range is specified as VT_VECTOR | VT_UI4, range information can be retrieved through the structure member 
 
@@ -216,9 +216,8 @@ where <i>n</i> is the index number of the property that is inspected, and <i>fla
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a>
-
+<a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a>

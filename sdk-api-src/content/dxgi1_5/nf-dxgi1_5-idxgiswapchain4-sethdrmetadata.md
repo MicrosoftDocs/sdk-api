@@ -56,9 +56,9 @@ This method sets High Dynamic Range (HDR) and Wide Color Gamut (WCG)  header met
 
 ### -param Type [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_hdr_metadata_type">DXGI_HDR_METADATA_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_hdr_metadata_type">DXGI_HDR_METADATA_TYPE</a></b>
 
-Specifies one member of the  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_hdr_metadata_type">DXGI_HDR_METADATA_TYPE</a> enum.
+Specifies one member of the  <a href="/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_hdr_metadata_type">DXGI_HDR_METADATA_TYPE</a> enum.
 
 ### -param Size [in]
 
@@ -70,7 +70,7 @@ Specifies the size of <i>pMetaData</i>, in bytes.
 
 Type: <b>void*</b>
 
-Specifies a void pointer that references the metadata, if it exists. Refer to the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ns-dxgi1_5-dxgi_hdr_metadata_hdr10">DXGI_HDR_METADATA_HDR10</a> structure.
+Specifies a void pointer that references the metadata, if it exists. Refer to the <a href="/windows/desktop/api/dxgi1_5/ns-dxgi1_5-dxgi_hdr_metadata_hdr10">DXGI_HDR_METADATA_HDR10</a> structure.
 
 ## -returns
 
@@ -84,9 +84,8 @@ This method sets metadata to enable a monitor's output to be adjusted depending 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-5-improvements">DXGI 1.5 Improvements</a>
+<a href="/windows/desktop/direct3ddxgi/dxgi-1-5-improvements">DXGI 1.5 Improvements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgiswapchain4">IDXGISwapChain4</a>
-
+<a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgiswapchain4">IDXGISwapChain4</a>

@@ -58,25 +58,24 @@ Defines the data collector types.
 
 ### -field plaPerformanceCounter
 
-Collects performance counter data. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a> interface represents this data collector.
+Collects performance counter data. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a> interface represents this data collector.
 
 ### -field plaTrace
 
-Collects events from an event trace session. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a> interface represents this data collector.
+Collects events from an event trace session. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a> interface represents this data collector.
 
 ### -field plaConfiguration
 
-Collects computer configuration information. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a> interface represents this data collector.
+Collects computer configuration information. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a> interface represents this data collector.
 
 ### -field plaAlert
 
-Monitors performance counters and performs actions if the counter value crosses the specified threshold. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a> interface represents this data collector.
+Monitors performance counters and performs actions if the counter value crosses the specified threshold. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a> interface represents this data collector.
 
 ### -field plaApiTrace
 
-Logs API calls made by the process. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a> interface represents this data collector.
+Logs API calls made by the process. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a> interface represents this data collector.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_datacollectortype">IDataCollector::DataCollectorType</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_datacollectortype">IDataCollector::DataCollectorType</a>

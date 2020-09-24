@@ -74,8 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Controls will continue to be added to this visual group until you call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-endvisualgroup">IFileDialogCustomize::EndVisualGroup</a>.
+Controls will continue to be added to this visual group until you call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-endvisualgroup">IFileDialogCustomize::EndVisualGroup</a>.
               
 
 A visual group can be hidden and disabled like any other control, except that doing so affects all of the controls within it. Individual members of the visual group can also be hidden and disabled singly.
-

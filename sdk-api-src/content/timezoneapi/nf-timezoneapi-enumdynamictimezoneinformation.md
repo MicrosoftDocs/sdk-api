@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Enumerates <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> entries stored in the  registry. This information is used to support time zones that experience annual boundary changes due to daylight saving time adjustments. Use the information returned by this function when calling <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformationeffectiveyears">GetDynamicTimeZoneInformationEffectiveYears</a> to retrieve the specific range of years to pass to <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a>.
+Enumerates <a href="/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> entries stored in the  registry. This information is used to support time zones that experience annual boundary changes due to daylight saving time adjustments. Use the information returned by this function when calling <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformationeffectiveyears">GetDynamicTimeZoneInformationEffectiveYears</a> to retrieve the specific range of years to pass to <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a>.
 
 ## -parameters
 
 ### -param dwIndex [in]
 
-Index value that represents the location of a <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> entry.
+Index value that represents the location of a <a href="/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> entry.
 
 ### -param lpTimeZoneInformation [out]
 
@@ -100,9 +100,8 @@ while (dwResult != ERROR_NO_MORE_ITEMS);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a>
+<a href="/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformationeffectiveyears">GetDynamicTimeZoneInformationEffectiveYears</a>
-
+<a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformationeffectiveyears">GetDynamicTimeZoneInformationEffectiveYears</a>

@@ -83,7 +83,7 @@ The security call context collection represents a security call context, which p
 <td>The immediate caller of the object.</td>
 <td>"DirectCaller"
 </td>
-<td>A <a href="https://docs.microsoft.com/windows/desktop/cossdk/securityidentity">SecurityIdentity</a> object
+<td>A <a href="/windows/desktop/cossdk/securityidentity">SecurityIdentity</a> object
 </td>
 </tr>
 <tr>
@@ -92,7 +92,7 @@ The security call context collection represents a security call context, which p
 <td>The caller that originated the chain of calls to the object.</td>
 <td>"OriginalCaller"
 </td>
-<td>A <a href="https://docs.microsoft.com/windows/desktop/cossdk/securityidentity">SecurityIdentity</a> object
+<td>A <a href="/windows/desktop/cossdk/securityidentity">SecurityIdentity</a> object
 </td>
 </tr>
 <tr>
@@ -116,12 +116,11 @@ The security call context collection represents a security call context, which p
 </td>
 <td>The callers in the chain of calls that ends with the current call.</td>
 <td>"Callers"</td>
-<td>A <a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallers">SecurityCallers</a> object
+<td>A <a href="/windows/desktop/cossdk/securitycallers">SecurityCallers</a> object
 </td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>

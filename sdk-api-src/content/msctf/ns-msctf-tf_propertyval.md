@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>TF_PROPERTYVAL</b> structure contains property value data. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-next">IEnumTfPropertyValue::Next</a> method.
+The <b>TF_PROPERTYVAL</b> structure contains property value data. This structure is used with the <a href="/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-next">IEnumTfPropertyValue::Next</a> method.
 
 ## -struct-fields
 
 ### -field guidId
 
-A <b>GUID</b> that identifies the property type. This can be a custom identifier or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
+A <b>GUID</b> that identifies the property type. This can be a custom identifier or one of the <a href="/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
 
 ### -field varValue
 
@@ -64,11 +64,10 @@ A <b>VARIANT</b> that contains the value of the property specified by <b>guidId<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-next">IEnumTfPropertyValue::Next
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-next">IEnumTfPropertyValue::Next
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
+<a href="/windows/desktop/TSF/predefined-properties">Predefined Properties
       </a>
-

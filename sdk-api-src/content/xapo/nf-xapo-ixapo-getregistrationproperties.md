@@ -56,7 +56,7 @@ Returns the registration properties of an XAPO.
 
 ### -param ppRegistrationProperties
 
-Receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with; use <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> to free the structure.
+Receives a pointer to a <a href="/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with; use <a href="/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> to free the structure.
 
 ## -returns
 
@@ -69,5 +69,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
-
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>

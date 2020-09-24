@@ -54,7 +54,7 @@ Provides access to the HTTP headers used when transmitting messages via SOAP-ove
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDHttpMessageParameters</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>. <b>IWSDHttpMessageParameters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDHttpMessageParameters</b> interface inherits from <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>. <b>IWSDHttpMessageParameters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDHttpMessageParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-clear">Clear</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the HTTP headers used for SOAP-over-HTTP transmissions.
@@ -78,7 +78,7 @@ Clears the HTTP headers used for SOAP-over-HTTP transmissions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-getcontext">GetContext</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-getcontext">GetContext</a>
 </td>
 <td align="left" width="63%">
 Retrieves the private transmission context for the current transaction.
@@ -87,7 +87,7 @@ Retrieves the private transmission context for the current transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-getid">GetID</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-getid">GetID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transport ID for the current transaction.
@@ -96,7 +96,7 @@ Retrieves the transport ID for the current transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-getinboundhttpheaders">GetInboundHttpHeaders</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-getinboundhttpheaders">GetInboundHttpHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current HTTP headers used for incoming SOAP-over-HTTP transmissions.
@@ -105,7 +105,7 @@ Retrieves the current HTTP headers used for incoming SOAP-over-HTTP transmission
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-getoutboundhttpheaders">GetOutboundHttpHeaders</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-getoutboundhttpheaders">GetOutboundHttpHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current HTTP headers used for outbound SOAP-over-HTTP transmissions.
@@ -114,7 +114,7 @@ Retrieves the current HTTP headers used for outbound SOAP-over-HTTP transmission
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-setcontext">SetContext</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-setcontext">SetContext</a>
 </td>
 <td align="left" width="63%">
 Sets the private transmission context for the current transaction.
@@ -123,7 +123,7 @@ Sets the private transmission context for the current transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-setid">SetID</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-setid">SetID</a>
 </td>
 <td align="left" width="63%">
 Sets the transport ID for the current transaction.
@@ -132,7 +132,7 @@ Sets the transport ID for the current transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-setinboundhttpheaders">SetInboundHttpHeaders</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-setinboundhttpheaders">SetInboundHttpHeaders</a>
 </td>
 <td align="left" width="63%">
 Sets the HTTP headers used for incoming SOAP-over-HTTP transmissions.
@@ -141,7 +141,7 @@ Sets the HTTP headers used for incoming SOAP-over-HTTP transmissions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-setoutboundhttpheaders">SetOutboundHttpHeaders</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpmessageparameters-setoutboundhttpheaders">SetOutboundHttpHeaders</a>
 </td>
 <td align="left" width="63%">
 Sets the HTTP headers used for outbound SOAP-over-HTTP transmissions.
@@ -152,5 +152,4 @@ Sets the HTTP headers used for outbound SOAP-over-HTTP transmissions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>

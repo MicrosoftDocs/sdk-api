@@ -72,9 +72,8 @@ The values for the state bits are not currently defined.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>

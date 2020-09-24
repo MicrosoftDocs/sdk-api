@@ -66,9 +66,8 @@ Returns ERROR_SUCCESS upon successful completion.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6capicleanup">Dhcpv6CApiCleanup</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6capicleanup">Dhcpv6CApiCleanup</a>

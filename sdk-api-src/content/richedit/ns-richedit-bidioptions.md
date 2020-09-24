@@ -58,13 +58,13 @@ Contains bidirectional information about a rich edit control. This structure is 
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <b>BIDIOPTIONS</b> structure. The rich edit control checks the size of <b>cbSize</b> before sending an <a href="https://msdn.microsoft.com/055581c0-ae59-4601-a3e9-416705af429a">EM_GETBIDIOPTIONS</a> message.
 
 ### -field wMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 A set of mask bits that determine which of the <b>wEffects</b> flags will be set to 1 or 0 by the rich edit control. This approach eliminates the need to read the effects flags before changing them.
 
@@ -151,7 +151,7 @@ The BOE_UNICODEBIDI value is valid.
 
 ### -field wEffects
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 A set of flags that indicate the desired or current state of the effects flags. Obsolete bits are valid only for the bidirectional version of Rich Edit 1.0. 
                     
@@ -260,4 +260,3 @@ If this flag is 1, the Unicode Bidi Algorithm (UBA) is used for rich-text contro
 
 
 <a href="https://msdn.microsoft.com/b518e423-317a-4654-9d9f-c501028e2a0a">EM_SETBIDIOPTIONS</a>
-

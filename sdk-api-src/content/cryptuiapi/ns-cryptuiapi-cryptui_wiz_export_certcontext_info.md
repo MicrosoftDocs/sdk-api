@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</b> structure contains information that controls the operation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a> function when a certificate is the object being exported.
+The <b>CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</b> structure contains information that controls the operation of the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a> function when a certificate is the object being exported.
 
 ## -struct-fields
 
@@ -79,7 +79,7 @@ A value that indicates the export format of the certificate.  This member can be
 </dl>
 </td>
 <td width="60%">
-Export in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) format.
+Export in <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) format.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Export in Private Information Exchange (PFX) format.
 </dl>
 </td>
 <td width="60%">
-Export in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">Public Key Cryptography Standard</a> #7 (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a>) format.
+Export in <a href="/windows/desktop/SecGloss/p-gly">Public Key Cryptography Standard</a> #7 (<a href="/windows/desktop/SecGloss/p-gly">PKCS #7</a>) format.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Export in base 64 format.
 </dl>
 </td>
 <td width="60%">
-Export in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) format.
+Export in <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) format.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Export in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">ce
 </dl>
 </td>
 <td width="60%">
-Export in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) format.
+Export in <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) format.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Indicates whether the certificate chain should be exported in addition to the ce
 
 ### -field fExportPrivateKeys
 
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> should be exported in addition to the certificate. Contains nonzero to export the private key or zero to not export the private key.
+Indicates whether the <a href="/windows/desktop/SecGloss/p-gly">private key</a> should be exported in addition to the certificate. Contains nonzero to export the private key or zero to not export the private key.
 
 ### -field pwszPassword
 
@@ -149,15 +149,14 @@ A pointer to a null-terminated Unicode string that contains the password used to
 
 ### -field fStrongEncryption
 
-Indicates whether strong encryption should be used in the export process. Contains nonzero to use strong encryption or zero to use weak encryption. This must be nonzero if <b>dwExportFormat</b> is <b>CRYPTUI_WIZ_EXPORT_FORMAT_PFX</b>. If this is nonzero, the PFX <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> produced is not compatible with Internet Explorer 4.0 or earlier versions.
+Indicates whether strong encryption should be used in the export process. Contains nonzero to use strong encryption or zero to use weak encryption. This must be nonzero if <b>dwExportFormat</b> is <b>CRYPTUI_WIZ_EXPORT_FORMAT_PFX</b>. If this is nonzero, the PFX <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> produced is not compatible with Internet Explorer 4.0 or earlier versions.
 
 <b>Note</b>  We recommend that you set this to nonzero; otherwise, a substantially weaker encryption algorithm is used in the export process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_info">CRYPTUI_WIZ_EXPORT_INFO</a>
+<a href="/windows/desktop/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_info">CRYPTUI_WIZ_EXPORT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a>
-
+<a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a>

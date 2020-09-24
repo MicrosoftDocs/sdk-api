@@ -50,29 +50,28 @@ api_name:
 
 ## -description
 
-Sets the highlight state of a tab item. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-highlightitem">TCM_HIGHLIGHTITEM</a> message explicitly.
+Sets the highlight state of a tab item. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-highlightitem">TCM_HIGHLIGHTITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
 ### -param i
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Zero-based index of a tab control item.
 
 ### -param fHighlight
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Value specifying the highlight state to be set. If this value is nonzero, the tab is highlighted. If this value is zero, the tab is set to its default state.
 
 ## -remarks
 
 In Comctl32.dll version 6.0, this macro has no visible effect when a theme is active.
-

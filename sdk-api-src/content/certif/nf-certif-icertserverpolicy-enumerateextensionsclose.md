@@ -60,12 +60,12 @@ The <b>EnumerateExtensionsClose</b> method frees the resources connected with ex
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-All policy modules should call the <b>EnumerateExtensionsClose</b> method after calling the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionssetup">EnumerateExtensionsSetup</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensions">ICertServerPolicy::EnumerateExtensions</a> methods.
+All policy modules should call the <b>EnumerateExtensionsClose</b> method after calling the <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionssetup">EnumerateExtensionsSetup</a> and 
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensions">ICertServerPolicy::EnumerateExtensions</a> methods.
 
 
 #### Examples
@@ -84,13 +84,12 @@ if (FAILED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionssetup">ICertServerExit::EnumerateExtensionsSetup</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionssetup">ICertServerExit::EnumerateExtensionsSetup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensions">ICertServerPolicy::EnumerateExtensions</a>
-
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensions">ICertServerPolicy::EnumerateExtensions</a>

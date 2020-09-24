@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>DAD_DragMove</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragmove">ImageList_DragMove</a> instead.
+<p class="CCE_Message">[<b>DAD_DragMove</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragmove">ImageList_DragMove</a> instead.
       ]
 
 Moves the image that is being dragged during a drag-and-drop operation.
@@ -61,7 +61,7 @@ Moves the image that is being dragged during a drag-and-drop operation.
 
 ### -param pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The coordinates at which to display the drag image. The coordinates are relative to the upper-left corner of the window, not the client area.
 
@@ -70,4 +70,3 @@ The coordinates at which to display the drag image. The coordinates are relative
 Type: <b>BOOL</b>
 
 Returns nonzero if successful, or zero otherwise.
-

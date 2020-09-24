@@ -61,7 +61,7 @@ Boolean value specifying whether the call is being made before or after the over
 
 ### -param dwFlags [in]
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_overlay_notify_flags">AM_OVERLAY_NOTIFY_FLAGS</a> enumeration that specifies what is about to change or what changed.
+Value from the <a href="/windows/desktop/api/strmif/ne-strmif-_am_overlay_notify_flags">AM_OVERLAY_NOTIFY_FLAGS</a> enumeration that specifies what is about to change or what changed.
 
 ### -param bOldVisible [in]
 
@@ -126,9 +126,8 @@ The application should call this method once before the overlay-related change o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideocallback">IDDrawExclModeVideoCallback Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideocallback">IDDrawExclModeVideoCallback Interface</a>

@@ -74,5 +74,4 @@ Returns S_OK if successful, or an error value otherwise. In Windows Vista and l
 
 <div class="alert"><b>Note</b>  This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It is not available in later versions of Windows, including Windows Vista.</div>
 <div> </div>
-This function creates the requested object instance by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function and immediately releasing the returned object. The associated DLL is unloaded according to standard Component Object Model (COM) rules when it returns S_OK from its <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-dllcanunloadnow">DllCanUnloadNow</a> function.
-
+This function creates the requested object instance by calling the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function and immediately releasing the returned object. The associated DLL is unloaded according to standard Component Object Model (COM) rules when it returns S_OK from its <a href="/windows/desktop/api/combaseapi/nf-combaseapi-dllcanunloadnow">DllCanUnloadNow</a> function.

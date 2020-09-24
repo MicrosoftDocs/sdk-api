@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a> object that represents all the fax accounts on the fax server.
+Returns an <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a> object that represents all the fax accounts on the fax server.
 
 ## -parameters
 
 ### -param ppFaxAccounts [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a>**</b>
 
-The address of a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a> object.
+The address of a pointer to an <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a> object.
 
 ## -returns
 
@@ -69,9 +69,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountset">FaxAccountSet</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountset">FaxAccountSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountset">IFaxAccountSet</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountset">IFaxAccountSet</a>

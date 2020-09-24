@@ -56,7 +56,7 @@ Gets the namespaces that exist in the context.
 
 ### -param ppNamespaceIds [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> interface pointer that represents the collection of namespaces.
+An <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> interface pointer that represents the collection of namespaces.
 
 ## -returns
 
@@ -69,5 +69,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingscontext">ISettingsContext</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingscontext">ISettingsContext</a>

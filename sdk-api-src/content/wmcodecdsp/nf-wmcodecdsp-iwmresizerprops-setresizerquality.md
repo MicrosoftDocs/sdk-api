@@ -82,9 +82,8 @@ The method succeeded.
 
 ## -remarks
 
-This method is equivalent to setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-quality">MFPKEY_RESIZE_QUALITY</a> property.
+This method is equivalent to setting the <a href="/windows/desktop/medfound/mfpkey-resize-quality">MFPKEY_RESIZE_QUALITY</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>

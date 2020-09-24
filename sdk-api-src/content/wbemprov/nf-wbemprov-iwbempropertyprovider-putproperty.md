@@ -84,5 +84,4 @@ This method must return <b>WBEM_S_NO_ERROR</b> if the operation succeeds, or <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty">GetProperty</a>
-
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty">GetProperty</a>

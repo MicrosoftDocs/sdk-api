@@ -93,5 +93,4 @@ Method completed successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>

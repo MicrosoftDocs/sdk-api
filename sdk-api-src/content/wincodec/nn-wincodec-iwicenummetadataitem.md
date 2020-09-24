@@ -54,7 +54,7 @@ Exposes methods that provide enumeration services for individual metadata items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICEnumMetadataItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICEnumMetadataItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICEnumMetadataItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICEnumMetadataItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICEnumMetadataItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicenummetadataitem-clone">Clone</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicenummetadataitem-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the current <b>IWICEnumMetadataItem</b>.
@@ -78,7 +78,7 @@ Creates a copy of the current <b>IWICEnumMetadataItem</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicenummetadataitem-next">Next</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicenummetadataitem-next">Next</a>
 </td>
 <td align="left" width="63%">
 Advanced the current position in the enumeration.
@@ -87,7 +87,7 @@ Advanced the current position in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicenummetadataitem-reset">Reset</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicenummetadataitem-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current position to the beginning of the enumeration.
@@ -96,7 +96,7 @@ Resets the current position to the beginning of the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicenummetadataitem-skip">Skip</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicenummetadataitem-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips to given number of objects.
@@ -104,4 +104,3 @@ Skips to given number of objects.
 </td>
 </tr>
 </table>
-

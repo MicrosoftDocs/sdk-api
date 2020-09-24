@@ -53,13 +53,13 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>setPendingRequestInfo</b> method sets properties for a pending request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+The <b>setPendingRequestInfo</b> method sets properties for a pending request. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 ## -parameters
 
 ### -param lRequestID [in]
 
-An identifier for the request, as assigned by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>.
+An identifier for the request, as assigned by the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>.
 
 ### -param strCADNS [in]
 
@@ -79,5 +79,4 @@ The display name of the certification authority. The <i>strFriendlyName</i> para
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+<a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

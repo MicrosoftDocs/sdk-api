@@ -62,11 +62,11 @@ Sets information for the specified process.
 
 A handle to the process. This handle must have the <b>PROCESS_SET_INFORMATION</b> access 
       right. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+      <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param ProcessInformationClass [in]
 
-A member of the [PROCESS_INFORMATION_CLASS](/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_information_class) enumeration specifying the kind of information to set.
+A member of the [PROCESS_INFORMATION_CLASS](./ne-processthreadsapi-process_information_class.md) enumeration specifying the kind of information to set.
 
 ### -param ProcessInformation
 
@@ -106,7 +106,7 @@ If the <i>ProcessInformationClass</i> parameter is
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -117,7 +117,7 @@ To help improve system performance, applications should use the
     file indexing application might set a lower default priority for the process that performs the indexing task.
 
 **Memory priority** helps to determine how long pages remain in the 
-    <a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">working set</a> of a process before they are trimmed. A process's 
+    <a href="/windows/desktop/Memory/working-set">working set</a> of a process before they are trimmed. A process's 
     memory priority determines the default priority of the physical pages that are added to the process working set by 
     the threads of that process. When the memory manager trims the working set, it trims lower priority pages before 
     higher priority pages. This improves overall system performance because higher priority pages are less likely to 
@@ -203,7 +203,7 @@ SetProcessInformation(GetCurrentProcess(),
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation">GetProcessInformation</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation">GetProcessInformation</a>
 
 
 
@@ -211,9 +211,8 @@ SetProcessInformation(GetCurrentProcess(),
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
+<a href="/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetThreadInformation</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetThreadInformation</a>

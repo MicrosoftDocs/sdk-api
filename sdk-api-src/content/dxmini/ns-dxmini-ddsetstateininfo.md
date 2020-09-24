@@ -54,27 +54,26 @@ api_name:
 
 ## -description
 
-The DDSETSTATEININFO structure contains the surface and <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object information.
+The DDSETSTATEININFO structure contains the surface and <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object information.
 
 ## -struct-fields
 
 ### -field lpSurfaceData
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that contains the surface information.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that contains the surface information.
 
 ### -field lpVideoPortData
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a> structure that contains the VPE object information.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a> structure that contains the VPE object information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>

@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -remarks
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initialize">Initialize</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initializefromcurrenttime">InitializeFromCurrentTime</a> method to set the <b>BackedUpValue</b> property value.
+Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initialize">Initialize</a> method or the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initializefromcurrenttime">InitializeFromCurrentTime</a> method to set the <b>BackedUpValue</b> property value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a>

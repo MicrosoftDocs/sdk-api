@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SetWebCAInformation</b> method sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) information for the Certification Authority Web Enrollment role. You can use this method to enable certificate-related requests to a remote CA through a web interface.
+The <b>SetWebCAInformation</b> method sets the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) information for the Certification Authority Web Enrollment role. You can use this method to enable certificate-related requests to a remote CA through a web interface.
 
 ## -parameters
 
@@ -67,5 +67,4 @@ For more information about setup properties, see <a href="/windows/win32/api/cas
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

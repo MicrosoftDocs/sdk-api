@@ -187,15 +187,14 @@ The method succeeded.
 
 ## -remarks
 
-The method locks the Direct3D surface that contains the buffer. When you are done using the buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-releasebuffer">IDirectXVideoDecoder::ReleaseBuffer</a> to unlock the surface.
+The method locks the Direct3D surface that contains the buffer. When you are done using the buffer, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-releasebuffer">IDirectXVideoDecoder::ReleaseBuffer</a> to unlock the surface.
 
 This method might block if too many operations have been queued on the GPU. The method unblocks when a free buffer becomes available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
+<a href="/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>
-
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>

@@ -63,7 +63,7 @@ A pointer to the null-terminated unicode string name of the file for which a wra
 ### -param ppflb [out]
 
 A pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a>* pointer variable that receives the interface pointer to the new byte array wrapper object.
+<a href="/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a>* pointer variable that receives the interface pointer to the new byte array wrapper object.
 
 ## -returns
 
@@ -74,17 +74,16 @@ The <b>StgGetIFillLockBytesOnFile</b>  function can also return any file system 
 ## -remarks
 
 The moniker that manages the downloading of the file specified in <i>pwcsName</i> calls this function in the course of creating the asynchronous storage necessary to manage the asynchronous downloading of data. The moniker first creates a temporary file, then calls this function to create the wrapper object on that file. Finally, the moniker calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-stgopenasyncdocfileonifilllockbytes">StgOpenAsyncDocfileOnIFillLockBytes</a> to open the root storage of the compound file to be downloaded into the temporary file.
+<a href="/windows/desktop/api/objbase/nf-objbase-stgopenasyncdocfileonifilllockbytes">StgOpenAsyncDocfileOnIFillLockBytes</a> to open the root storage of the compound file to be downloaded into the temporary file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-stgopenasyncdocfileonifilllockbytes">StgOpenAsyncDocfileOnIFillLockBytes</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-stgopenasyncdocfileonifilllockbytes">StgOpenAsyncDocfileOnIFillLockBytes</a>

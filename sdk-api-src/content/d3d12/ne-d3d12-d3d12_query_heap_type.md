@@ -72,7 +72,7 @@ Indicates the heap is to contain stream output data. Refer to <a href="/windows/
 
 ### -field D3D12_QUERY_HEAP_TYPE_VIDEO_DECODE_STATISTICS
 
-Indicates the heap is to contain video decode statistics data. Refer to [D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_query_data_video_decode_statistics).
+Indicates the heap is to contain video decode statistics data. Refer to [D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS](../d3d12video/ns-d3d12video-d3d12_query_data_video_decode_statistics.md).
 
 Video decode statistics can only be queried from video decode command lists (<a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE</a>). See <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE_DECODE_STATISTICS</a> for more details.
 
@@ -80,7 +80,7 @@ Video decode statistics can only be queried from video decode command lists (<a 
 
 Indicates the heap is to contain timestamp queries emitted exclusively by copy command lists. Copy queue timestamps can only be queried from a copy command list, and a copy command list can not emit to a regular timestamp query Heap.
 
-Support for this query heap type is not universal. You must use <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> with [D3D12_FEATURE_D3D12_OPTIONS3](/windows/win32/api/d3d12/ne-d3d12-d3d12_feature) to determine whether the adapter supports copy queue timestamp queries.
+Support for this query heap type is not universal. You must use <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> with [D3D12_FEATURE_D3D12_OPTIONS3](./ne-d3d12-d3d12_feature.md) to determine whether the adapter supports copy queue timestamp queries.
 
 ## -remarks
 
@@ -89,4 +89,3 @@ This enum is used by the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_query_
 ## -see-also
 
 [Core enumerations](/windows/win32/direct3d12/direct3d-12-enumerations)
-

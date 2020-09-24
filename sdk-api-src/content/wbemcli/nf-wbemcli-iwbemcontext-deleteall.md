@@ -68,9 +68,8 @@ This method returns an <b>HRESULT</b>HRESULT indicating the status of the method
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-deletevalue">IWbemContext::DeleteValue</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-deletevalue">IWbemContext::DeleteValue</a>

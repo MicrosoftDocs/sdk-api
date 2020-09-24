@@ -70,7 +70,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-The audio stream has not been stopped. Stop the stream by calling <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">Stop</a>.
+The audio stream has not been stopped. Stop the stream by calling <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">Stop</a>.
 
 </td>
 </tr>
@@ -132,16 +132,15 @@ The media associated with the spatial audio stream uses an unsupported format.
 
 ## -remarks
 
-Resetting the audio stream flushes all pending data and resets the audio clock stream position to 0. Resetting the stream also causes all active <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> instances to be revoked.  
-    A subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start">Start</a> causes the stream to start from 0 position.  
+Resetting the audio stream flushes all pending data and resets the audio clock stream position to 0. Resetting the stream also causes all active <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> instances to be revoked.  
+    A subsequent call to <a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start">Start</a> causes the stream to start from 0 position.  
 
-The stream must have been previously stopped with a call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop">Stop</a> or the method will fail and return SPTLAUDCLNT_E_STREAM_NOT_STOPPED.
+The stream must have been previously stopped with a call to <a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop">Stop</a> or the method will fail and return SPTLAUDCLNT_E_STREAM_NOT_STOPPED.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
+<a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
 
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
-

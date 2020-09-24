@@ -57,7 +57,7 @@ The <code>GetServiceState</code> method indicates whether closed captioning is o
 
 ### -param lpState
 
-Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccstate">AM_LINE21_CCSTATE</a> enumeration.
+Pointer to a variable that receives a member of the <a href="/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccstate">AM_LINE21_CCSTATE</a> enumeration.
 
 ## -returns
 
@@ -94,13 +94,12 @@ Success
 
 ## -remarks
 
-By default, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> enables closed captioning.
+By default, the <a href="/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> enables closed captioning.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate">IAMLine21Decoder::SetServiceState</a>
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate">IAMLine21Decoder::SetServiceState</a>

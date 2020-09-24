@@ -72,5 +72,4 @@ This method returns an <b>HRESULT</b>, which identifies the status of the method
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemshutdown">IWbemShutdown</a>
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemshutdown">IWbemShutdown</a>

@@ -147,9 +147,8 @@ The requested control code is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-control-codes">Resource Control Codes</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-control-codes">Resource Control Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>

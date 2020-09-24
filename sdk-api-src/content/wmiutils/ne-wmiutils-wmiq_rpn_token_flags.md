@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains flags that describe query tokens used in the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a> method.
+Contains flags that describe query tokens used in the <a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a> method.
 
 ## -enum-fields
 
@@ -187,4 +187,3 @@ FROM clause contains a list of classes.
 ### -field WMIQ_RPN_FROM_MULTIPLE
 
 Reserved for future use.
-

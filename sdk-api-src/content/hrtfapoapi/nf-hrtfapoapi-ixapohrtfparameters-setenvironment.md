@@ -68,5 +68,4 @@ The environment represents distance-cue params.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
-
+<a href="/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>

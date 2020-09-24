@@ -83,15 +83,14 @@ The method succeeded.
 
 ## -remarks
 
-If this method returns <b>TRUE</b> in the <i>pfAutomatic</i> parameter, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-automaticenable">IMFContentEnabler::AutomaticEnable</a> method to perform the enabling action.
+If this method returns <b>TRUE</b> in the <i>pfAutomatic</i> parameter, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-automaticenable">IMFContentEnabler::AutomaticEnable</a> method to perform the enabling action.
 
-If this method returns <b>FALSE</b> in the <i>pfAutomatic</i> parameter, the application must use manual enabling. To do so, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenableurl">IMFContentEnabler::GetEnableURL</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabledata">IMFContentEnabler::GetEnableData</a> to get the URL and data needed for manual enabling.
+If this method returns <b>FALSE</b> in the <i>pfAutomatic</i> parameter, the application must use manual enabling. To do so, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenableurl">IMFContentEnabler::GetEnableURL</a> and <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabledata">IMFContentEnabler::GetEnableData</a> to get the URL and data needed for manual enabling.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
+<a href="/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>

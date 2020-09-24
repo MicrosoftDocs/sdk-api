@@ -57,11 +57,11 @@ The <b>Delete</b> method deletes one or more objects from the device.
 
 ### -param dwOptions [in]
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/delete-object-options">DELETE_OBJECT_OPTIONS</a> enumerators.
+One of the <a href="/windows/desktop/wpd_sdk/delete-object-options">DELETE_OBJECT_OPTIONS</a> enumerators.
 
 ### -param pObjectIDs [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to delete.
+Pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to delete.
 
 ### -param ppResults [in, out]
 
@@ -169,7 +169,7 @@ The object could not be deleted because it does not exist on the device.
 
 ## -remarks
 
-To see if recursive deletion is supported, call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions">IPortableDeviceCapabilities::GetCommandOptions</a>. If the retrieved <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface contains a property value called WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED with a <i>boolVal</i> value of True, the device supports recursive deletion.
+To see if recursive deletion is supported, call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions">IPortableDeviceCapabilities::GetCommandOptions</a>. If the retrieved <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface contains a property value called WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED with a <i>boolVal</i> value of True, the device supports recursive deletion.
       
 
 The following table lists the possible return codes that may appear in the collection at which <i>ppResults</i> points.
@@ -178,15 +178,14 @@ The following table lists the possible return codes that may appear in the colle
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/deleting-content-from-the-device">Deleting Content from the Device</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/deleting-content-from-the-device">Deleting Content from the Device</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/deleting-content-from-the-device">Deleting Content from the Device</a>
+<a href="/windows/desktop/wpd_sdk/deleting-content-from-the-device">Deleting Content from the Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>

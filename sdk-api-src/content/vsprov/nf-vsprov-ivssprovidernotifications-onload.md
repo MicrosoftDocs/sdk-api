@@ -121,9 +121,8 @@ An unexpected provider error occurred. If this is returned, the error must be de
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidernotifications">IVssProviderNotifications</a>
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidernotifications">IVssProviderNotifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onunload">OnUnload</a>
-
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onunload">OnUnload</a>

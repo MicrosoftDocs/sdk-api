@@ -56,7 +56,7 @@ The <b>NCryptFinalizeKey</b> function completes a CNG key storage key. The key c
 
 ### -param hKey [in]
 
-The handle of the key to complete. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey">NCryptCreatePersistedKey</a> function.
+The handle of the key to complete. This handle is obtained by calling the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey">NCryptCreatePersistedKey</a> function.
 
 ### -param dwFlags [in]
 
@@ -150,5 +150,4 @@ The <i>hKey</i> parameter is not valid.
 
 ## -remarks
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

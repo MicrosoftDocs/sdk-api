@@ -54,7 +54,7 @@ The <b>IFaxSecurity</b> configuration object is used by a fax client application
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxSecurity</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxSecurity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxSecurity</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxSecurity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,19 +70,19 @@ The <b>IFaxSecurity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-refresh-vb">Refresh</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-refresh-vb">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-refresh-vb">IFaxSecurity::Refresh</a> method refreshes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity">FaxSecurity</a> object information from the fax server.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-refresh-vb">IFaxSecurity::Refresh</a> method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity">FaxSecurity</a> object information from the fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-save-vb">Save</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-save-vb">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-save-vb">IFaxSecurity::Save</a> method saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity">FaxSecurity</a> object data.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-save-vb">IFaxSecurity::Save</a> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity">FaxSecurity</a> object data.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_descriptor">Descriptor</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_descriptor">Descriptor</a>
 
 
 </td>
@@ -106,14 +106,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_descriptor">Descriptor</a> property  represents the security descriptor for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a> object.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_descriptor">Descriptor</a> property  represents the security descriptor for a <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_informationtype">get_InformationType</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_informationtype">get_InformationType</a>
 
 
 </td>
@@ -122,14 +122,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_informationtype">IFaxSecurity::InformationType</a> property represents the security information type.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_informationtype">IFaxSecurity::InformationType</a> property represents the security information type.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-grantedrights-vb">GrantedRights</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-grantedrights-vb">GrantedRights</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-grantedrights-vb">IFaxSecurity::get_GrantedRights</a> property is a combination of the fax server access rights granted to the user referencing this property. For example, some users have permission to submit fax jobs with high priority while others have permission to submit jobs with normal or low priority only.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-grantedrights-vb">IFaxSecurity::get_GrantedRights</a> property is a combination of the fax server access rights granted to the user referencing this property. For example, some users have permission to submit fax jobs with high priority while others have permission to submit jobs with normal or low priority only.
 
 </td>
 </tr>
@@ -146,7 +146,6 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 ## -remarks
 
-Only an administrator with permissions can configure the security of the fax server. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a>.
+Only an administrator with permissions can configure the security of the fax server. For more information, see <a href="/windows/desktop/FWP/access-control">Access Control</a>.
 
-A default implementation of <b>IFaxSecurity</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity">FaxSecurity</a> object.
-
+A default implementation of <b>IFaxSecurity</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity">FaxSecurity</a> object.

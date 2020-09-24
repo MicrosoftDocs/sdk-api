@@ -111,9 +111,8 @@ The method succeeded.
 
 ## -remarks
 
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-registerforwhencurrent">IPMT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-registerforwhencurrent">IPMT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>

@@ -67,9 +67,8 @@ The log files are located in the Windows directory, and the file names are Setup
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
-
+<a href="/windows/desktop/SetupApi/overview">Overview</a>

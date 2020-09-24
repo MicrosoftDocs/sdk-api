@@ -95,13 +95,12 @@ where the last six bytes are randomly generated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
+<a href="/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getlogclientid">IWMReaderAdvanced2::GetLogClientID</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getlogclientid">IWMReaderAdvanced2::GetLogClientID</a>

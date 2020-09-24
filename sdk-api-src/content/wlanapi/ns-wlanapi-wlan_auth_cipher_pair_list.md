@@ -70,9 +70,8 @@ Contains the number of supported auth-cipher pairs.
 
 ### -field pAuthCipherPairList
 
-A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-auth-cipher-pair">DOT11_AUTH_CIPHER_PAIR</a> structure containing a list of auth-cipher pairs.
+A <a href="/windows/desktop/NativeWiFi/dot11-auth-cipher-pair">DOT11_AUTH_CIPHER_PAIR</a> structure containing a list of auth-cipher pairs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>

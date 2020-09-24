@@ -56,7 +56,7 @@ Gets operational information for items such as time-outs and data restrictions t
 
 ### -param requestDetails [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 ### -param flags [in]
 
@@ -106,9 +106,8 @@ Specifies the language locale of the data that was requested by the client.
 
 ### -param data [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies the result object.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies the result object.
 
 ## -returns
 
 The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an error code. The following are the most common error codes:
-

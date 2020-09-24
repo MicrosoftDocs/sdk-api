@@ -87,7 +87,7 @@ Returns S_OK if the proposed URL was already acceptable or was successfully corr
 
 ## -remarks
 
-The UrlFixup function recognizes the schemes specified by the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-url_scheme">URL_SCHEME</a> enumeration.
+The UrlFixup function recognizes the schemes specified by the <a href="/windows/desktop/api/shlwapi/ne-shlwapi-url_scheme">URL_SCHEME</a> enumeration.
 
 Priority is given to the first character in the protocol identifier section so <code>htp</code> will be converted to <code>http</code> instead of <code>ftp</code>.
 
@@ -150,4 +150,3 @@ htps:\\www.microsoft.com    http://www.microsoft.com
 http:someone@example.com    http://someone@example.com
                 
 ```
-

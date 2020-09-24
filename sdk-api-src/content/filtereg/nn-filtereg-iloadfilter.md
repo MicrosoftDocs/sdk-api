@@ -54,7 +54,7 @@ Defines methods and properties that are implemented by the FilterRegistration ob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILoadFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILoadFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILoadFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILoadFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ILoadFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilter"> LoadIFilter</a>
+<a href="/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilter"> LoadIFilter</a>
 </td>
 <td align="left" width="63%">
 Registers the filters that need to be mapped to the CLSID (CLSID_FilterRegistration), file name extensions, and MIME types that identify the content type.
@@ -78,7 +78,7 @@ Registers the filters that need to be mapped to the CLSID (CLSID_FilterRegistrat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilterfromstorage">LoadIFilterFromStorage</a>
+<a href="/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilterfromstorage">LoadIFilterFromStorage</a>
 </td>
 <td align="left" width="63%">
 This method is not implemented.
@@ -87,7 +87,7 @@ This method is not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilterfromstream">LoadIFilterFromStream</a>
+<a href="/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilterfromstream">LoadIFilterFromStream</a>
 </td>
 <td align="left" width="63%">
 This method is not implemented.
@@ -98,7 +98,7 @@ This method is not implemented.
 
 ## -remarks
 
-A filter, also known as a filter handler, is an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface.
+A filter, also known as a filter handler, is an implementation of the <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface.
 
 ## -see-also
 
@@ -106,17 +106,16 @@ A filter, also known as a filter handler, is an implementation of the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-ifilter-conceptual">Developing Filter Handlers</a>
+<a href="/windows/desktop/search/-search-ifilter-conceptual">Developing Filter Handlers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filtereg/ns-filtereg-filtered_data_sources">FILTERED_DATA_SOURCES</a>
+<a href="/windows/desktop/api/filtereg/ns-filtereg-filtered_data_sources">FILTERED_DATA_SOURCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
+<a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
 
 
 
 <b>Reference</b>
-

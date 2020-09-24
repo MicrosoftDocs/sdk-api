@@ -54,7 +54,7 @@ Provides notifications for changes to indexed items. Also provides notification 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchItemsChangedSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchItemsChangedSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchItemsChangedSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchItemsChangedSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISearchItemsChangedSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-onitemschanged">OnItemsChanged</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-onitemschanged">OnItemsChanged</a>
 </td>
 <td align="left" width="63%">
    
@@ -80,7 +80,7 @@ The <b>ISearchItemsChangedSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-startedmonitoringscope">StartedMonitoringScope</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-startedmonitoringscope">StartedMonitoringScope</a>
 </td>
 <td align="left" width="63%">
 Permits an index-managed notification source to add itself to a list of "monitored scopes".
@@ -89,7 +89,7 @@ Permits an index-managed notification source to add itself to a list of "monitor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-stoppedmonitoringscope">StoppedMonitoringScope</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-stoppedmonitoringscope">StoppedMonitoringScope</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -100,5 +100,4 @@ Not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
-
+<a href="/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>

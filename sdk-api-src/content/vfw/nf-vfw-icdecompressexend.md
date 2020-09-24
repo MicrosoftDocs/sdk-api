@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDecompressExEnd</b> macro notifies a video decompression driver to end decompression and free resources allocated for decompression. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex-end">ICM_DECOMPRESSEX_END</a> message.
+The <b>ICDecompressExEnd</b> macro notifies a video decompression driver to end decompression and free resources allocated for decompression. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-decompressex-end">ICM_DECOMPRESSEX_END</a> message.
 
 ## -parameters
 
@@ -60,16 +60,15 @@ Handle to a decompressor.
 
 ## -remarks
 
-The driver frees any resources allocated for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex-begin">ICM_DECOMPRESSEX_BEGIN</a> message.
+The driver frees any resources allocated for the <a href="/windows/desktop/Multimedia/icm-decompressex-begin">ICM_DECOMPRESSEX_BEGIN</a> message.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressexbegin">ICM_DECOMPRESSEX_BEGIN</a> and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex-end">ICM_DECOMPRESSEX_END</a> do not nest. If your driver receives <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex-begin">ICM_DECOMPRESSEX_BEGIN</a> before decompression is stopped with <b>ICM_DECOMPRESSEX_END</b>, it should restart decompression with new parameters.
+<a href="/windows/desktop/api/vfw/nf-vfw-icdecompressexbegin">ICM_DECOMPRESSEX_BEGIN</a> and <a href="/windows/desktop/Multimedia/icm-decompressex-end">ICM_DECOMPRESSEX_END</a> do not nest. If your driver receives <a href="/windows/desktop/Multimedia/icm-decompressex-begin">ICM_DECOMPRESSEX_BEGIN</a> before decompression is stopped with <b>ICM_DECOMPRESSEX_END</b>, it should restart decompression with new parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

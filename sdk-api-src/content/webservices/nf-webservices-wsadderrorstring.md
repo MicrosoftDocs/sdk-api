@@ -56,7 +56,7 @@ Adds a specified error string to the error object.
 
 ### -param error [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure representing the error object to which to add the string.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure representing the error object to which to add the string.
 
 ### -param string [in]
 
@@ -110,5 +110,4 @@ This function may return other errors not listed above.
 ## -remarks
 
 This function requires that the string be in the language specified by the LANGID of the 
-                error object.  You can retrieve this LANGID value by calling the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a>function with the WS_ERROR_PROPERTY_LANGID value of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.
-
+                error object.  You can retrieve this LANGID value by calling the  <a href="/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a>function with the WS_ERROR_PROPERTY_LANGID value of the <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.

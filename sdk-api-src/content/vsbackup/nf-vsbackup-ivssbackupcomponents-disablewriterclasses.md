@@ -125,7 +125,7 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -137,25 +137,24 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 If you have multiple running copies of the same writer, they will all have the same writer class identifier, but they will have different writer instance identifiers. Disabling a writer class causes all of the writer's instances to be disabled.
 
-If the <b>DisableWriterClasses</b> method and the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">IVssBackupComponents::EnableWriterClasses</a> method are never called, all writer classes are enabled.
+If the <b>DisableWriterClasses</b> method and the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">IVssBackupComponents::EnableWriterClasses</a> method are never called, all writer classes are enabled.
 
 After the first call to <b>DisableWriterClasses</b> returns, the writer classes that were specified in the <i>rgWriterClassId</i> array are disabled, and all other writer classes are enabled.
 
 If you call <b>DisableWriterClasses</b> more than once, each call adds the writers in the <i>rgWriterClassId</i> array to the list of disabled writers.
 
-If you call <b>DisableWriterClasses</b> one or more times and then call <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">EnableWriterClasses</a>, the first call to <b>EnableWriterClasses</b> cancels the effect of the calls to <b>DisableWriterClasses</b> and enables only the writers in the <i>rgWriterClassId</i> array.
+If you call <b>DisableWriterClasses</b> one or more times and then call <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">EnableWriterClasses</a>, the first call to <b>EnableWriterClasses</b> cancels the effect of the calls to <b>DisableWriterClasses</b> and enables only the writers in the <i>rgWriterClassId</i> array.
 
-If you call <b>DisableWriterClasses</b>, you must do so before calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> method. If you call <b>GatherWriterMetadata</b> first and then call <b>DisableWriterClasses</b>, the call to <b>DisableWriterClasses</b> has no effect. If you need to call <b>GatherWriterMetadata</b> first, to determine which writer classes to disable, you must call it from a different instance of the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface.
+If you call <b>DisableWriterClasses</b>, you must do so before calling the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> method. If you call <b>GatherWriterMetadata</b> first and then call <b>DisableWriterClasses</b>, the call to <b>DisableWriterClasses</b> has no effect. If you need to call <b>GatherWriterMetadata</b> first, to determine which writer classes to disable, you must call it from a different instance of the <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances">IVssBackupComponents::DisableWriterInstances</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances">IVssBackupComponents::DisableWriterInstances</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">IVssBackupComponents::EnableWriterClasses</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">IVssBackupComponents::EnableWriterClasses</a>

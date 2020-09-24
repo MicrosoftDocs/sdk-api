@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphostapp-lockprocess">IMFPMPHostApp::LockProcess</a>.
+Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmphostapp-lockprocess">IMFPMPHostApp::LockProcess</a>.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
+<a href="/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-
+<a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>

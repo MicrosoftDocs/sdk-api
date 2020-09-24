@@ -56,7 +56,7 @@ Gets the lower bound for any dimension of the specified safe array.
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param nDim [in]
 
@@ -109,4 +109,3 @@ The specified index is out of bounds.
 </td>
 </tr>
 </table>
-

@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Moves a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> from one 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> to another. The 
+Moves a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> from one 
+    <a href="/previous-versions/windows/desktop/mscs/groups">group</a> to another. The 
     <b>PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP</b> type defines a pointer to this function.
 
 ## -parameters
@@ -70,19 +70,19 @@ Handle of the group that should receive the resource identified by
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
 
 With the <b>ChangeClusterResourceGroup</b> 
     function, both the group that a resource currently belongs to and its new group must be owned by the same 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> regardless of the resource's state.
+    <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> regardless of the resource's state.
 
 Do not call <b>ChangeClusterResourceGroup</b> 
     from a resource DLL. For more information, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>. 
+    <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>. 
     If the resource identified by <i>hResource</i> has 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependencies</a>, all of the resources in its dependency 
+    <a href="/previous-versions/windows/desktop/mscs/resource-dependencies">dependencies</a>, all of the resources in its dependency 
     tree are moved to the group identified by <i>hGroup</i>. For example, in the situation shown 
     in the following diagram, changing resource B to group 2 will move the entire dependency tree (resources A, X, and 
     Y) .
@@ -90,18 +90,17 @@ Do not call <b>ChangeClusterResourceGroup</b>
 <img alt="" border="0" src="./images/resmove.png"/>
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
     can have additional destructive effects. For information on how LPC and RPC handles are created, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
+    <a href="/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>

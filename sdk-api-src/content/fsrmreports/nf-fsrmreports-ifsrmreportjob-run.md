@@ -56,7 +56,7 @@ Runs all the reports in the job.
 
 ### -param context [in]
 
-Specifies to which subdirectory the reports are written. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportgenerationcontext">FsrmReportGenerationContext</a> enumeration.
+Specifies to which subdirectory the reports are written. For possible values, see the <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportgenerationcontext">FsrmReportGenerationContext</a> enumeration.
 
 ## -returns
 
@@ -66,20 +66,19 @@ The method returns the following return values.
 
 Note that reports that run in the scheduled context remain in the queue for five minutes before they are run; reports that run in the other contexts remain in the queue for 30 seconds.
 
-If you call this method and the report job is already queued or running, the method returns an error. To determine the status of the job, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_runningstatus">IFsrmReportJob::RunningStatus</a> property.
+If you call this method and the report job is already queued or running, the method returns an error. To determine the status of the job, access the <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_runningstatus">IFsrmReportJob::RunningStatus</a> property.
 
 
 #### Examples
 
-For an example,  see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/running-a-report-job">Running a Report Job</a>.
+For an example,  see <a href="/previous-versions/windows/desktop/fsrm/running-a-report-job">Running a Report Job</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-waitforcompletion">IFsrmReportJob::WaitForCompletion</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-waitforcompletion">IFsrmReportJob::WaitForCompletion</a>

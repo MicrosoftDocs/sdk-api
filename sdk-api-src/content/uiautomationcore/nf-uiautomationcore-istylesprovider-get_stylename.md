@@ -63,5 +63,4 @@ The style name typically indicates the role of the element in the document, such
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-istylesprovider">IStylesProvider</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-istylesprovider">IStylesProvider</a>

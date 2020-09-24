@@ -121,5 +121,4 @@ Every DVD is authored differently. Some DVDs do not contain the firstPlay, video
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>

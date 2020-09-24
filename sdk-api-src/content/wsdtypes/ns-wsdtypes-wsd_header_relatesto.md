@@ -58,9 +58,8 @@ Represents a RelatesTo SOAP envelope header block, as specified by the WS-Addres
 
 ### -field RelationshipType
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that contains the relationship type as a qualified name.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that contains the relationship type as a qualified name.
 
 ### -field MessageID
 
 The identifier of the related message.
-

@@ -56,9 +56,9 @@ Retrieves the parent entity of this entity.
 
 ### -param pBaseEntity [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>**</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>**</b>
 
-Receives a pointer to the parent <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object, or <b>NULL</b> if there is no parent entity.
+Receives a pointer to the parent <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object, or <b>NULL</b> if there is no parent entity.
 
 ## -returns
 
@@ -99,4 +99,3 @@ The entity has no parent; <i>pBaseEntity</i> successfully set to <b>NULL</b>.
 ## -remarks
 
 Each entity derives from some other entity, except the entity named Entity, for which this method returns S_FALSE. The derived entity inherits all relationships from the base entity.
-

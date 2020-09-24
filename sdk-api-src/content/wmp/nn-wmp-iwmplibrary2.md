@@ -54,7 +54,7 @@ The <b>IWMPLibrary2</b> interface represents a media library.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibrary2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary</a>. <b>IWMPLibrary2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibrary2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary</a>. <b>IWMPLibrary2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPLibrary2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrary2-getiteminfo">getItemInfo</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary2-getiteminfo">getItemInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the <b>LibraryID</b> attribute.
@@ -80,9 +80,8 @@ Retrieves the value of the <b>LibraryID</b> attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Values used by <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a> to specify options for the extraction and display of the thumbnail image.
+Values used by <a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a> to specify options for the extraction and display of the thumbnail image.
 
 ## -enum-fields
 
@@ -108,7 +108,7 @@ Default. 0x00000000. Extract the thumbnail if it is not cached.
 
 ### -field WTS_APPSTYLE
 
-0x00002000. <b>Windows 8 and later</b>. Pass the <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ne-thumbcache-wts_contextflags">WTSCF_APPSTYLE</a> flag to <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailsettings-setcontext">IThumbnailSettings::SetContext</a>, if the provider supports it.
+0x00002000. <b>Windows 8 and later</b>. Pass the <a href="/windows/desktop/api/thumbcache/ne-thumbcache-wts_contextflags">WTSCF_APPSTYLE</a> flag to <a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailsettings-setcontext">IThumbnailSettings::SetContext</a>, if the provider supports it.
 
 ### -field WTS_WIDETHUMBNAILS
 
@@ -152,9 +152,8 @@ The following combinations are valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a>
+<a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailsettings-setcontext">IThumbnailSettings::SetContext</a>
-
+<a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailsettings-setcontext">IThumbnailSettings::SetContext</a>

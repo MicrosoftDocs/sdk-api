@@ -56,7 +56,7 @@ Creates an enumerator that contains the same enumeration state as the current on
 
 ### -param ppenum [out]
 
-Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a> interface on the enumeration object.
+Address of a pointer to the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a> interface on the enumeration object.
 
 ## -returns
 
@@ -64,5 +64,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>

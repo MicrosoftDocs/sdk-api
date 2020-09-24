@@ -51,19 +51,19 @@ api_name:
 ## -description
 
 The <b>IComponentData::CompareObjects</b> method enables a snap-in to compare two data objects acquired through 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">QueryDataObject</a>. Be aware that the data objects can be acquired from two different instances of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">QueryDataObject</a>. Be aware that the data objects can be acquired from two different instances of 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>.
 
 ## -parameters
 
 ### -param lpDataObjectA [in]
 
 A pointer to the first data object exposing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that is to be compared.
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that is to be compared.
 
 ### -param lpDataObjectB [in]
 
-A pointer to the second data object exposing an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that is to be compared.
+A pointer to the second data object exposing an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that is to be compared.
 
 ## -returns
 
@@ -71,13 +71,12 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>

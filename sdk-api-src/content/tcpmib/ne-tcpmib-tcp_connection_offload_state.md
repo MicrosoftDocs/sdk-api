@@ -75,7 +75,7 @@ The TCP connection is in the process of being uploaded back to the network stack
 
 ### -field TcpConnectionOffloadStateMax
 
-The maximum possible value for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ne-tcpmib-tcp_connection_offload_state">TCP_CONNECTION_OFFLOAD_STATE</a> enumeration type. This is not a legal value for the possible TCP connection offload state.
+The maximum possible value for the <a href="/previous-versions/windows/desktop/api/tcpmib/ne-tcpmib-tcp_connection_offload_state">TCP_CONNECTION_OFFLOAD_STATE</a> enumeration type. This is not a legal value for the possible TCP connection offload state.
 
 ## -remarks
 
@@ -85,25 +85,24 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row2">MIB_TCP6ROW2</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row2">MIB_TCP6ROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow2">MIB_TCPROW2</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow2">MIB_TCPROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>
-
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>

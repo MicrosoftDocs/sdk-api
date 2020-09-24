@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used to specify values that are used by <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a> to override current internet connection profile values in an RDP Child Session to support the simulation of specific metered internet connection conditions.
+Used to specify values that are used by <a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a> to override current internet connection profile values in an RDP Child Session to support the simulation of specific metered internet connection conditions.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Name for the simulated profile.
 
 ### -field cost
 
-The network cost. Possible values are defined by <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_cost">NLM_CONNECTION_COST</a>.
+The network cost. Possible values are defined by <a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_cost">NLM_CONNECTION_COST</a>.
 
 ### -field UsageInMegabytes
 
@@ -72,13 +72,12 @@ The data limit of the plan.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/child-sessions">Child Sessions (Windows)</a>
+<a href="/windows/desktop/TermServ/child-sessions">Child Sessions (Windows)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-clearsimulatedprofileinfo">ClearSimulatedProfileInfo</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-clearsimulatedprofileinfo">ClearSimulatedProfileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>
-
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>

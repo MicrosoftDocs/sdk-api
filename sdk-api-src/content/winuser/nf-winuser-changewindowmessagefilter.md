@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Using the 
 		<b>ChangeWindowMessageFilter</b> function is not recommended, as it has process-wide scope. 
-		Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex">ChangeWindowMessageFilterEx</a> function to 
+		Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex">ChangeWindowMessageFilterEx</a> function to 
 		control access to specific windows as needed.
 		<b>ChangeWindowMessageFilter</b> may not be supported in future versions of Windows.]
 
@@ -105,7 +105,7 @@ Removes the <i>message</i> from the filter. This has the effect of blocking the 
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
                     
 
@@ -120,5 +120,4 @@ Certain messages with a value less than <b>WM_USER</b> are required to pass thro
 
 Processes at or below <b>SECURITY_MANDATORY_LOW_RID</b> are not allowed to change the filter. If those processes call this function, it will fail.
 
-For more information on integrity levels, see <a href="https://msdn.microsoft.com/library/Bb250462.aspx">Understanding and Working in Protected Mode Internet Explorer</a>.
-
+For more information on integrity levels, see <a href="/previous-versions/windows/internet-explorer/ie-developer/">Understanding and Working in Protected Mode Internet Explorer</a>.

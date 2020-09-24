@@ -56,7 +56,7 @@ Retrieves the capabilities of the decoder based on the specified stream.
 
 ### -param pIStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 The stream to retrieve the decoder capabilities from.
 
@@ -64,7 +64,7 @@ The stream to retrieve the decoder capabilities from.
 
 Type: <b>DWORD*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapdecodercapabilities">WICBitmapDecoderCapabilities</a> of the decoder.
+The <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmapdecodercapabilities">WICBitmapDecoderCapabilities</a> of the decoder.
 
 ## -returns
 
@@ -74,5 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Custom decoder implementations should save the current position of the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, read whatever information is necessary in order to determine which capabilities it can provide for the supplied stream, and restore the stream position.
-
+Custom decoder implementations should save the current position of the specified <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, read whatever information is necessary in order to determine which capabilities it can provide for the supplied stream, and restore the stream position.

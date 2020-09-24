@@ -93,9 +93,8 @@ The named math function cannot be removed because it is not in the list of custo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-addfunctionname">AddFunctionName</a>
+<a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-addfunctionname">AddFunctionName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>

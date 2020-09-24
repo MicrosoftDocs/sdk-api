@@ -61,7 +61,7 @@ The
 
 ### -field dwTransportId
 
-A <b>DWORD</b> value that identifies the transport protocol type. Supported transport protocol types are listed on <a href="https://docs.microsoft.com/windows/desktop/RRAS/transport-identifiers">Transport Identifiers</a>.
+A <b>DWORD</b> value that identifies the transport protocol type. Supported transport protocol types are listed on <a href="/windows/desktop/RRAS/transport-identifiers">Transport Identifiers</a>.
 
 ### -field hTransport
 
@@ -73,13 +73,12 @@ A Unicode string that contains the name of the transport.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_iftransport_0">MPR_IFTRANSPORT_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_iftransport_0">MPR_IFTRANSPORT_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-
+<a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>

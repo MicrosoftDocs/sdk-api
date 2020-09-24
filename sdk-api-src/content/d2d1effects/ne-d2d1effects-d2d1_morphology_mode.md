@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The mode for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/morphology">Morphology effect</a>.
+The mode for the <a href="/windows/desktop/Direct2D/morphology">Morphology effect</a>.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ The maximum value from each RGB channel in the kernel is used.
 The minimum value from each RGB channel in the kernel is used.
 
 ### -field D2D1_MORPHOLOGY_MODE_FORCE_DWORD
-

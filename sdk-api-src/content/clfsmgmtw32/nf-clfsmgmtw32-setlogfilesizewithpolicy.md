@@ -89,7 +89,7 @@ If a minimum size policy is installed, one of the following occurs:<ul>
 </ul>
 
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-installlogpolicy">InstallLogPolicy</a>.
+For more information, see <a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-installlogpolicy">InstallLogPolicy</a>.
 
 </td>
 </tr>
@@ -143,28 +143,27 @@ A pointer to a valid ULONGLONG data variable, receives the number of containers 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-Containers are  created using the same security attributes as   the .blf file and are created within the context of the application, not the context of the owner of the .blf file. For more information about .blf files, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>. If containers are deleted, they are deleted using the security context of the calling application.
+Containers are  created using the same security attributes as   the .blf file and are created within the context of the application, not the context of the owner of the .blf file. For more information about .blf files, see <a href="/previous-versions/windows/desktop/clfs/log-types">Log Types</a>. If containers are deleted, they are deleted using the security context of the calling application.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/creating-a-log-file">Creating a Log File</a>.
+For an example that uses this function, see <a href="/previous-versions/windows/desktop/clfs/creating-a-log-file">Creating a Log File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/creating-a-log-file">Creating a Log File</a>
+<a href="/previous-versions/windows/desktop/clfs/creating-a-log-file">Creating a Log File</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-installlogpolicy">InstallLogPolicy</a>
+<a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-installlogpolicy">InstallLogPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>
-
+<a href="/previous-versions/windows/desktop/clfs/log-types">Log Types</a>

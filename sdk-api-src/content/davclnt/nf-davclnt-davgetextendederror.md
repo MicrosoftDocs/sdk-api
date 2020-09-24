@@ -78,7 +78,7 @@ A pointer to a variable that on input specifies the size, in Unicode characters,
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+If the function fails, the return value is a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -115,13 +115,12 @@ If you call  this function for a file handle whose previous I/O  operation was s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>

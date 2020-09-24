@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Loads 16-byte aligned data into the <b>x</b> and <b>y</b> components of an
-  <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+  <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 ## -parameters
 
@@ -65,9 +65,9 @@ Returns an <code>XMVECTORI</code> loaded with the data from the <i>pSource</i>pa
 
 ## -remarks
 
-The z and w components of the returned <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> will be initialized to 0.
+The z and w components of the returned <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> will be initialized to 0.
 
-To convert the loaded <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> into float values, use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectoruinttofloat">XMConvertVectorUIntToFloat</a> or <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectorinttofloat">XMConvertVectorIntToFloat</a>.
+To convert the loaded <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> into float values, use <a href="/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectoruinttofloat">XMConvertVectorUIntToFloat</a> or <a href="/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectorinttofloat">XMConvertVectorIntToFloat</a>.
 
 The following pseudocode shows you the operation of the function.
 
@@ -94,5 +94,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>

@@ -53,8 +53,8 @@ api_name:
 
 The 
 <b>GetFileRestoreStatus</b> method returns the status of a completed attempt to restore all the files of a selected component or component set as a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a> enumeration. (See 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and Logical Paths</a> for information on selecting components.)
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a> enumeration. (See 
+<a href="/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and Logical Paths</a> for information on selecting components.)
 
 Either a writer or a requester can call this method.
 
@@ -63,7 +63,7 @@ Either a writer or a requester can call this method.
 ### -param pStatus [out]
 
 The address of a caller-allocated variable that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a> enumeration value that specifies whether all files were successfully restored.
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a> enumeration value that specifies whether all files were successfully restored.
 
 ## -returns
 
@@ -126,7 +126,7 @@ The method was not called as part of a restore operation.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -135,16 +135,15 @@ The XML document is not valid. Check the event log for details. For more informa
 ## -remarks
 
 This method should be called only following a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event.
 
 The status returned is undefined if this method is applied to a component that has not been selected for restore by being added to the Backup Components via 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a>
-
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a>

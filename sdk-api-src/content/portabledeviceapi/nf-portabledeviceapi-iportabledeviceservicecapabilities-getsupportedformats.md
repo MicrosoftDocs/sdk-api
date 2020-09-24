@@ -56,7 +56,7 @@ The <b>GetSupportedFormats</b> method retrieves the formats supported by the  se
 
 ### -param ppFormats [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that receives the list of formats.
+The <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that receives the list of formats.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-supported-formats">Retrieving Supported Service Formats</a>
-
+<a href="/windows/desktop/wpd_sdk/retrieving-supported-formats">Retrieving Supported Service Formats</a>

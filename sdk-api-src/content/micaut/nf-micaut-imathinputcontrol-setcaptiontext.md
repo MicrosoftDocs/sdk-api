@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/customizing-the-math-input-control">Customizing the Math Input Control</a>
+<a href="/windows/desktop/tablet/customizing-the-math-input-control">Customizing the Math Input Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>

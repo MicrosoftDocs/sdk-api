@@ -68,5 +68,4 @@ The app package manifest is localized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackageeditor-updatepackagemanifest">UpdatePackageManifest</a>
-
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackageeditor-updatepackagemanifest">UpdatePackageManifest</a>

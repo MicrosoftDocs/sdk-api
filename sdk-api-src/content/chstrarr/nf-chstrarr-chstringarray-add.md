@@ -53,10 +53,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>Add</b> method adds a new element to the end of an 
@@ -75,7 +75,7 @@ If the <b>Add</b> method is successful, it returns the
 
 ## -remarks
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">SetSize</a> has been used with an nGrowBy value 
+If <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">SetSize</a> has been used with an nGrowBy value 
     greater than 1, then extra memory can be allocated. However, the upper bound increases by only one.
 
 
@@ -95,13 +95,12 @@ The following code example shows the use of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
+<a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-append">CHStringArray::Append</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-append">CHStringArray::Append</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-copy">CHStringArray::Copy</a>
-
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-copy">CHStringArray::Copy</a>

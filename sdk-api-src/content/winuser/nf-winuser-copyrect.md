@@ -78,7 +78,7 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-rectangles">Using Rectangles</a>.
+For an example, see <a href="/windows/desktop/gdi/using-rectangles">Using Rectangles</a>.
 
 <div class="code"></div>
 
@@ -88,17 +88,16 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
+<a href="/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
+<a href="/windows/desktop/gdi/rectangles">Rectangles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setrect">SetRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setrect">SetRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setrectempty">SetRectEmpty</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setrectempty">SetRectEmpty</a>

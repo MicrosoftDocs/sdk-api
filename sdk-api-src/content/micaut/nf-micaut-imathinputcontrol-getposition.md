@@ -82,9 +82,8 @@ This method returns the minimal possible width and height of the control if it i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition">SetPosition</a>
-
+<a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition">SetPosition</a>

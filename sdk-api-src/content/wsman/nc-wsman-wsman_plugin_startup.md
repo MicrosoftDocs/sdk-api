@@ -74,5 +74,4 @@ The context for the specific application initialization.  This context is passed
 
 ## -returns
 
-The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an error code.  If this method returns an error, the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shutdown">WSManPluginShutdown</a> entry point will not be called.
-
+The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an error code.  If this method returns an error, the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shutdown">WSManPluginShutdown</a> entry point will not be called.

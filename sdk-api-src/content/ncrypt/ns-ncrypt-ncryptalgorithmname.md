@@ -58,7 +58,7 @@ The <b>NCryptAlgorithmName</b> structure is used to contain information about a 
 
 ### -field pszName
 
-A pointer to a null-terminated Unicode string that contains the name of the algorithm. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
+A pointer to a null-terminated Unicode string that contains the name of the algorithm. This can be one of the standard <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
 
 ### -field dwClass
 
@@ -154,5 +154,4 @@ A set of flags that provide more information about the algorithm.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumalgorithms">NCryptEnumAlgorithms</a>
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumalgorithms">NCryptEnumAlgorithms</a>

@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Creates a duplicate <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a> collection.<div class="alert"><b>Note</b>  This method is not implemented in the FSRM library.</div>
+Creates a duplicate <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a> collection.<div class="alert"><b>Note</b>  This method is not implemented in the FSRM library.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param collection [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a> interface to a collection that is a duplicate of this collection.
+An <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a> interface to a collection that is a duplicate of this collection.
 
 ## -returns
 
@@ -65,5 +65,4 @@ The method returns the following return values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>

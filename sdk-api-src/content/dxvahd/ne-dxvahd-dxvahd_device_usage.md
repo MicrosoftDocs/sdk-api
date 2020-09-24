@@ -78,17 +78,16 @@ The graphics driver uses one of these enumeration constants as a hint when it cr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-dxvahd_createdevice">DXVAHD_CreateDevice</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-dxvahd_createdevice">DXVAHD_CreateDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-enumerations">Direct3D Video Enumerations</a>
+<a href="/windows/desktop/medfound/direct3d-video-enumerations">Direct3D Video Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

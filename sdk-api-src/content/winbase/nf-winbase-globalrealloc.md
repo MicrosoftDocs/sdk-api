@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Changes the size or attributes of a specified global memory object. The size can increase or decrease.
-<div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
+<div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
 </div><div> </div>
 
 ## -parameters
@@ -62,7 +62,7 @@ Changes the size or attributes of a specified global memory object. The size can
 ### -param hMem [in]
 
 A handle to the global memory object to be reallocated. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
 <b>GlobalReAlloc</b> function.
 
 ### -param dwBytes [in]
@@ -121,13 +121,13 @@ Causes the additional memory contents to be initialized to zero if the memory ob
 If the function succeeds, the return value is a handle to the reallocated memory object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If 
 <b>GlobalReAlloc</b> reallocates a movable object, the return value is a handle to the memory object. To convert the handle to a pointer, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> function.
 
 If 
 <b>GlobalReAlloc</b> reallocates a fixed object, the value of the handle returned is the address of the first byte of the memory block. To access the memory, a process can simply cast the return value to a pointer.
@@ -137,22 +137,21 @@ If
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
+<a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaldiscard">GlobalDiscard</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globaldiscard">GlobalDiscard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
-

@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Cipher info structure. This is returned by SECPKG_ATTR_CIPHER_INFO ulAttribute from the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes</a> (Schannel) function.
+Cipher info structure. This is returned by SECPKG_ATTR_CIPHER_INFO ulAttribute from the <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes</a> (Schannel) function.
 
 ## -struct-fields
 
@@ -119,4 +119,3 @@ The sz exchange.
 ### -field szHash [SZ_ALG_MAX_SIZE]
 
 The sz hash.
-

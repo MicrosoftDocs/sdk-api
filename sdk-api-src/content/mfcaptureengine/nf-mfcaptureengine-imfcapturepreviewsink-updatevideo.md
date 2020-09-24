@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Updates the video frame.  Call this method when the preview window receives a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> or <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-size">WM_SIZE</a> message.
+Updates the video frame.  Call this method when the preview window receives a <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> or <a href="/windows/desktop/winmsg/wm-size">WM_SIZE</a> message.
 
 ## -parameters
 
 ### -param pSrc [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that specifies the source rectangle. The source rectangle defines the area of the video frame that is displayed. If this parameter is <b>NULL</b>, the entire video frame is displayed.
+A pointer to an <a href="/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that specifies the source rectangle. The source rectangle defines the area of the video frame that is displayed. If this parameter is <b>NULL</b>, the entire video frame is displayed.
 
 ### -param pDst [in]
 
@@ -64,7 +64,7 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param pBorderClr [in]
 
-The border color. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro to create this value.
+The border color. Use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro to create this value.
 
 ## -returns
 
@@ -72,5 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturepreviewsink">IMFCapturePreviewSink</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturepreviewsink">IMFCapturePreviewSink</a>

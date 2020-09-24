@@ -57,7 +57,7 @@ Sets multiplexer options.
 
 ### -param dwFlags [in]
 
-Bitwise <b>OR</b> of zero or more members of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_multiplexerflags">MFASF_MULTIPLEXERFLAGS</a> enumeration. These flags specify which multiplexer options to use. For more information, see "Multiplexer Initialization and Leaky Bucket Settings" in <a href="https://docs.microsoft.com/windows/desktop/medfound/creating-the-multiplexer-object">Creating the Multiplexer Object</a>.
+Bitwise <b>OR</b> of zero or more members of the <a href="/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_multiplexerflags">MFASF_MULTIPLEXERFLAGS</a> enumeration. These flags specify which multiplexer options to use. For more information, see "Multiplexer Initialization and Leaky Bucket Settings" in <a href="/windows/desktop/medfound/creating-the-multiplexer-object">Creating the Multiplexer Object</a>.
 
 ## -returns
 
@@ -83,5 +83,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>

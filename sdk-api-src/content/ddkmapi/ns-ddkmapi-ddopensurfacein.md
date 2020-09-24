@@ -68,7 +68,7 @@ Specifies the DirectDrawSurface handle passed down from user mode.
 
 ### -field pfnSurfaceClose
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnSurfaceClose</a> callback function that is called when the surface becomes unusable.
+Points to a <a href="/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnSurfaceClose</a> callback function that is called when the surface becomes unusable.
 
 ### -field pContext
 
@@ -76,9 +76,8 @@ Contains a value that is passed if the <b>pfnSurfaceClose</b> callback function 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550711(v=vs.85)">DD_DXAPI_OPENSURFACE</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550711(v=vs.85)">DD_DXAPI_OPENSURFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

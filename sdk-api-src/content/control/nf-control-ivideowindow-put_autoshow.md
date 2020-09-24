@@ -128,13 +128,12 @@ By default, when the filter graph changes state to paused or running, the video 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_autoshow">IVideoWindow::get_AutoShow</a>
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_autoshow">IVideoWindow::get_AutoShow</a>

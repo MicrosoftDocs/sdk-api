@@ -65,7 +65,7 @@ Name (or IP address literal string) of the server to which a connection was atte
 
 ### -param netIsoError [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ne-networkisolation-netiso_error_type">NETISO_ERROR_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/networkisolation/ne-networkisolation-netiso_error_type">NETISO_ERROR_TYPE</a>*</b>
 
 The error that has occurred, indicating which network capability was missing and thus caused the failure.
 
@@ -77,5 +77,4 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ne-networkisolation-netiso_error_type">NETISO_ERROR_TYPE</a>
-
+<a href="/windows/desktop/api/networkisolation/ne-networkisolation-netiso_error_type">NETISO_ERROR_TYPE</a>

@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IWiaItem::EnumChildItems</b> method creates an enumerator object and passes back a pointer to its <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem">IEnumWiaItem</a> interface for non-empty folders in a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> tree of a Windows Image Acquisition (WIA) device.
+The <b>IWiaItem::EnumChildItems</b> method creates an enumerator object and passes back a pointer to its <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem">IEnumWiaItem</a> interface for non-empty folders in a <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> tree of a Windows Image Acquisition (WIA) device.
 
 ## -parameters
 
 ### -param ppIEnumWiaItem [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem">IEnumWiaItem</a>**</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem">IEnumWiaItem</a>**</b>
 
-Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem">IEnumWiaItem</a> interface that <b>IWiaItem::EnumChildItems</b> creates.
+Receives the address of a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem">IEnumWiaItem</a> interface that <b>IWiaItem::EnumChildItems</b> creates.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The WIA run-time system represents each WIA hardware device as a hierarchical tree of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects. The <b>IWiaItem::EnumChildItems</b> method enables applications to enumerate child items in the current item. However, it can only be applied to items that are folders. 
+The WIA run-time system represents each WIA hardware device as a hierarchical tree of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects. The <b>IWiaItem::EnumChildItems</b> method enables applications to enumerate child items in the current item. However, it can only be applied to items that are folders. 
 
-If the folder is not empty, it contains a subtree of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects. The <b>IWiaItem::EnumChildItems</b> method enumerates all of the items contained in the folder. It stores a pointer to an enumerator in the <i>ppIEnumWiaItem</i> parameter. Applications use the enumerator pointer to perform the enumeration of an object's child items.
+If the folder is not empty, it contains a subtree of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects. The <b>IWiaItem::EnumChildItems</b> method enumerates all of the items contained in the folder. It stores a pointer to an enumerator in the <i>ppIEnumWiaItem</i> parameter. Applications use the enumerator pointer to perform the enumeration of an object's child items.
 
-Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIEnumWiaItem</i> parameter.
-
+Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIEnumWiaItem</i> parameter.

@@ -60,7 +60,7 @@ The
 ### -param hLineApp
 
 Application handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. If an application has not yet called the 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. If an application has not yet called the 
 <b>lineInitializeEx</b> function, it can set the <i>hLineApp</i> parameter to zero.
 
 ### -param dwDeviceID
@@ -70,7 +70,7 @@ Device identifier for the line device upon which the call is intended to be dial
 ### -param dwAPIVersion
 
 Highest version of TAPI supported by the application (not necessarily the value negotiated by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a> on the line device indicated by <i>dwDeviceID</i>).
+<a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a> on the line device indicated by <i>dwDeviceID</i>).
 
 ### -param hwndOwner
 
@@ -91,12 +91,12 @@ LINEERR_BADDEVICEID, LINEERR_INVALPARAM, LINEERR_INCOMPATIBLEAPIVERSION, LINEERR
 In TAPI version 2.0 or later, it is possible for multiple instances of this dialog box to be opened. In TAPI versions earlier than 2.0, LINEERR_INUSE is returned if the dialog box is already displayed by another application (it cannot be open more than once). In these versions, TAPI brings the existing dialog box to the front, and the error indicates that any particulars related to the address passed in by the current application have not been handled, because that address was not processed by the function.
 
 The application must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> after this function to obtain any changes the user made to the telephony address translation parameters, and call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a> to obtain a dialable string based on the user's new selections.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> after this function to obtain any changes the user made to the telephony address translation parameters, and call 
+<a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a> to obtain a dialable string based on the user's new selections.
 
 If any function related to address translation (for example, 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>) returns LINEERR_INIFILECORRUPT, the application should call 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> or 
+<a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>) returns LINEERR_INIFILECORRUPT, the application should call 
 <b>lineTranslateDialog</b>. The 
 <b>lineTranslateDialog</b> function detects the errors and corrects them, and reports the action taken to the user.
 
@@ -109,25 +109,24 @@ If any function related to address translation (for example,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>

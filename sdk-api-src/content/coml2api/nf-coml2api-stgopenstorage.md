@@ -54,9 +54,9 @@ api_name:
 ## -description
 
 The <b>StgOpenStorage</b> function opens an existing root storage object in the file system. Use this function to open compound files. Do not use it to open directories, files, or summary catalogs. Nested storage objects can only be opened using their parent 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a> method.
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a> method.
 <div class="alert"><b>Note</b>  Applications should use the new function, 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>, instead of 
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>, instead of 
 <b>StgOpenStorage</b>, to take advantage of the enhanced  and Windows Structured Storage features. This function, 
 <b>StgOpenStorage</b>, still exists for compatibility with applications running on Windows 2000.</div><div> </div>
 
@@ -69,7 +69,7 @@ A pointer to the path of the <b>null</b>-terminated Unicode string file that con
 ### -param pstgPriority [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface that should be <b>NULL</b>. If not <b>NULL</b>, this parameter is used as described below in the Remarks section.
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface that should be <b>NULL</b>. If not <b>NULL</b>, this parameter is used as described below in the Remarks section.
 
 After <b>StgOpenStorage</b> returns, the storage object specified in <i>pStgPriority</i> may have been released and should no longer be used.
 
@@ -88,19 +88,19 @@ Indicates reserved for future use; must be zero.
 ### -param ppstgOpen [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>* pointer variable that receives the interface pointer to the opened storage.
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>* pointer variable that receives the interface pointer to the opened storage.
 
 ## -returns
 
 The <b>StgOpenStorage</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>.
+<a href="/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
+<a href="/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>.
 
 ## -remarks
 
 The 
 <b>StgOpenStorage</b> function opens the specified root storage object according to the access mode in the <i>grfMode</i> parameter, and, if successful, supplies an 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the opened storage object in the <i>ppstgOpen</i> parameter.
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the opened storage object in the <i>ppstgOpen</i> parameter.
 
 To support the simple mode for saving a storage object with no substorages, the 
 <b>StgOpenStorage</b> function accepts one of the following two flag combinations as valid modes in the <i>grfMode</i> parameter.
@@ -155,13 +155,12 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a>
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>

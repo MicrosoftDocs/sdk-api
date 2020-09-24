@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets and sets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ServerSelection</a> value that indicates the server to search for updates.
+Gets and sets a <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ServerSelection</a> value that indicates the server to search for updates.
 
 This property is read/write.
 
@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
- The site that is not a Windows Update site that is specified by the value of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serviceid">ServiceID</a> property is searched only if the value of the <b>ServerSelection</b> property is  ssOthers.
+ The site that is not a Windows Update site that is specified by the value of the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serviceid">ServiceID</a> property is searched only if the value of the <b>ServerSelection</b> property is  ssOthers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>

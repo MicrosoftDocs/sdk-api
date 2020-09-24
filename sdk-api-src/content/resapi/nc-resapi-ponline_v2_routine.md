@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Marks a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as available for use. The 
+    <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> as available for use. The 
     <b>PONLINE_V2_ROUTINE</b> type defines a pointer to this function.
 
 ## -parameters
@@ -64,9 +64,9 @@ A resource identifier for the resource to be made available.
 
 On input, <i>EventHandle</i> is <b>NULL</b>. On output, 
        <i>EventHandle</i> contains a handle to a non signaled 
-       <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-objects">synchronization object</a>. The 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> can signal this handle at any time to report 
-       a resource failure to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a>. 
+       <a href="/windows/desktop/Sync/synchronization-objects">synchronization object</a>. The 
+       <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> can signal this handle at any time to report 
+       a resource failure to the <a href="/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a>. 
        <i>EventHandle</i> can also be set to <b>NULL</b> on output, which indicates 
        that the resource does not support asynchronous event notifications.
 
@@ -144,7 +144,7 @@ The operation was successful, and the resource is online.
 </td>
 <td width="60%">
 The resource was arbitrated with some other systems, and one of the other systems won the arbitration. Only 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/q-gly">quorum-capable resources</a> return this 
+         <a href="/previous-versions/windows/desktop/mscs/q-gly">quorum-capable resources</a> return this 
          value.
 
 </td>
@@ -170,5 +170,4 @@ If the operation was not successful for other reasons,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>

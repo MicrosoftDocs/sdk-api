@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Notifies the object that it can write to its storage object. It does this by notifying the object that it can revert from NoScribble mode (in which it must not write to its storage object), to Normal mode (in which it can). The object enters NoScribble mode when it receives an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> call.
+Notifies the object that it can write to its storage object. It does this by notifying the object that it can revert from NoScribble mode (in which it must not write to its storage object), to Normal mode (in which it can). The object enters NoScribble mode when it receives an <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> call.
 
 ## -parameters
 
 ### -param pStgNew [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the new storage object, if different from the storage object prior to saving. This pointer can be <b>NULL</b> if the current storage object does not change during the save operation. If the object is in HandsOff mode, this parameter must be non-<b>NULL</b>.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the new storage object, if different from the storage object prior to saving. This pointer can be <b>NULL</b> if the current storage object does not change during the save operation. If the object is in HandsOff mode, this parameter must be non-<b>NULL</b>.
 
 ## -returns
 
@@ -107,7 +107,7 @@ The <i>pStgNew</i> parameter is not valid. Typically, this error occurs if <i>pS
 </dl>
 </td>
 <td width="60%">
-The object is in Normal mode, and there was no previous call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">IPersistStorage::HandsOffStorage</a>. 
+The object is in Normal mode, and there was no previous call to <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> or <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">IPersistStorage::HandsOffStorage</a>. 
 
 
 </td>
@@ -118,9 +118,9 @@ The object is in Normal mode, and there was no previous call to <a href="https:/
 
 This method notifies an object that it can revert to Normal mode and can once again write to its storage object. The object exits NoScribble mode or HandsOff mode.
 
-If the object is reverting from HandsOff mode, the pStgNew parameter must be non-<b>NULL</b>. In HandsOffFromNormal mode, this parameter is the new storage object that replaces the one that was revoked by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">IPersistStorage::HandsOffStorage</a> method. The data in the storage object is a copy of the data from the revoked storage object. In HandsOffAfterSave mode, the data is the same as the data that was most recently saved. It is not the same as the data in the revoked storage object.
+If the object is reverting from HandsOff mode, the pStgNew parameter must be non-<b>NULL</b>. In HandsOffFromNormal mode, this parameter is the new storage object that replaces the one that was revoked by the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">IPersistStorage::HandsOffStorage</a> method. The data in the storage object is a copy of the data from the revoked storage object. In HandsOffAfterSave mode, the data is the same as the data that was most recently saved. It is not the same as the data in the revoked storage object.
 
-If the object is reverting from NoScribble mode, the <i>pStgNew</i> parameter can be <b>NULL</b> or non-<b>NULL</b>. If <b>NULL</b>, the object once again has access to its storage object. If it is not <b>NULL</b>, the component object should simulate receiving a call to its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">HandsOffStorage</a> method. If the component object cannot simulate this call, its container must be prepared to actually call the <b>HandsOffStorage</b> method.
+If the object is reverting from NoScribble mode, the <i>pStgNew</i> parameter can be <b>NULL</b> or non-<b>NULL</b>. If <b>NULL</b>, the object once again has access to its storage object. If it is not <b>NULL</b>, the component object should simulate receiving a call to its <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">HandsOffStorage</a> method. If the component object cannot simulate this call, its container must be prepared to actually call the <b>HandsOffStorage</b> method.
 
 This method must recursively call any nested objects that are loaded or running.
 
@@ -128,5 +128,4 @@ If this method returns an error code, the object is not returned to Normal mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>

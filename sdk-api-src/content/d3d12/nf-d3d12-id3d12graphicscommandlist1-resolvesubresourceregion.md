@@ -58,7 +58,7 @@ Copy a region of a multisampled or compressed resource into a non-multisampled o
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 Destination resource. Must be created with the <b>D3D11_USAGE_DEFAULT</b> flag and must be single-sampled unless its to be resolved from a compressed resource (<b>D3D12_RESOLVE_MODE_DECOMPRESS</b>); in this case it must have the same sample count as the compressed source.
 
@@ -66,15 +66,15 @@ Destination resource. Must be created with the <b>D3D11_USAGE_DEFAULT</b> flag a
 
 Type: <b>UINT</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
-A zero-based index that identifies the destination subresource. Use <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12calcsubresource">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
+A zero-based index that identifies the destination subresource. Use <a href="/windows/desktop/direct3d12/d3d12calcsubresource">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
 
 ### -param DstX [in]
 
 Type: <b>UINT</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 The X coordinate of the left-most edge of the destination region. The width of the destination region is the same as the width of the source rect.
 
@@ -82,7 +82,7 @@ The X coordinate of the left-most edge of the destination region. The width of t
 
 Type: <b>UINT</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 The Y coordinate of the top-most edge of the destination region. The height of the destination region is the same as the height of the source rect.
 
@@ -90,7 +90,7 @@ The Y coordinate of the top-most edge of the destination region. The height of t
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 Source resource. Must be multisampled or compressed.
 
@@ -98,7 +98,7 @@ Source resource. Must be multisampled or compressed.
 
 Type: <b>UINT</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 A zero-based index that identifies the source subresource.
 
@@ -106,7 +106,7 @@ A zero-based index that identifies the source subresource.
 
 Type: <b>D3D12_RECT*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_opt_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_opt_</code>
 
 Specifies the rectangular region of the source resource to be resolved. Passing NULL for <i>pSrcRect</i> specifies that the entire subresource is to be resolved.
 
@@ -114,15 +114,15 @@ Specifies the rectangular region of the source resource to be resolved. Passing 
 
 Type: <b>DXGI_FORMAT</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 A DXGI_FORMAT that specifies how the source and destination resource formats are consolidated.
 
 ### -param ResolveMode [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resolve_mode">D3D12_RESOLVE_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resolve_mode">D3D12_RESOLVE_MODE</a></b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 Specifies the operation used to resolve the source samples.
 
@@ -132,9 +132,8 @@ When using the <b>D3D12_RESOLVE_MODE_MIN</b>, <b>D3D12_RESOLVE_MODE_MAX</b>, or 
 
 ## -remarks
 
-ResolveSubresourceRegion operates like <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource">ResolveSubresource</a> but allows for only part of a resource to be resolved and for source samples to be resolved in several ways. Partial resolves can be useful in multi-adapter scenarios; for example, when the rendered area has been partitioned across adapters, each adapter might only need to resolve the portion of a subresource that corresponds to its assigned partition.
+ResolveSubresourceRegion operates like <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource">ResolveSubresource</a> but allows for only part of a resource to be resolved and for source samples to be resolved in several ways. Partial resolves can be useful in multi-adapter scenarios; for example, when the rendered area has been partitioned across adapters, each adapter might only need to resolve the portion of a subresource that corresponds to its assigned partition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>

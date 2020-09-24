@@ -56,7 +56,7 @@ Terminates a composition.
 
 ### -param ecWrite [in]
 
-Contains an edit cookie that identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit context obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ## -returns
 
@@ -109,13 +109,12 @@ The edit context identified by <i>ecWrite</i> does not have a read/write lock.
 
 ## -remarks
 
-This method does not release the composition object, but the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a> methods will fail with E_UNEXPECTED after this method is called.
+This method does not release the composition object, but the <a href="/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a> methods will fail with E_UNEXPECTED after this method is called.
 
-Context owners should use the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionservices-terminatecomposition">ITFContextOwnerCompositionServices::TerminateComposition</a> method to terminate a composition.
+Context owners should use the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionservices-terminatecomposition">ITFContextOwnerCompositionServices::TerminateComposition</a> method to terminate a composition.
 
 This method causes the GUID_PROP_COMPOSING property to be removed from the text covered by the composition.
 
 ## -see-also
 
 [ITfContextOwnerCompositionServices::TerminateComposition](nf-msctf-itfcontextownercompositionservices-terminatecomposition.md), [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md)
-

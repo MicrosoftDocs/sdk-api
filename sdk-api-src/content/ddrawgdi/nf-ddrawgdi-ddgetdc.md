@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-ntgdiddgetdc">NtGdiDdGetDC</a> function and returns a Windows Graphics Device Interface (GDI) 
+Wrapper for the <a href="/windows/desktop/DevNotes/-dxgkernel-ntgdiddgetdc">NtGdiDdGetDC</a> function and returns a Windows Graphics Device Interface (GDI) 
    device context (DC) that represents the Microsoft DirectDraw surface indicated.
 
 
@@ -70,7 +70,7 @@ Pointer to the DirectDraw surface for which a DC is requested.
 
 ### -param pColorTable
 
-Optional pointer to a 256-entry array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures. If the color table is null, and the surface and display mode are both 8 bits per pixel, the DC shares the color table of the device.
+Optional pointer to a 256-entry array of <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures. If the color table is null, and the surface and display mode are both 8 bits per pixel, the DC shares the color table of the device.
 
 ## -returns
 
@@ -78,12 +78,11 @@ If successful, this function returns a valid <b>HDC</b>; otherwise it returns <b
 
 ## -remarks
 
-If both the surface and the current display mode are palletized at 8 bits per pixel, the DC can be given the special property that its color table is shared by the color table of the display device. Applications are advised to call <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> instead, which provides the same functionality in a manner independent of the operating system.
+If both the surface and the current display mode are palletized at 8 bits per pixel, the DC can be given the special property that its color table is shared by the color table of the display device. Applications are advised to call <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> instead, which provides the same functionality in a manner independent of the operating system.
 
 
-The returned DC must be freed by a call to <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-ntgdiddreleasedc">NtGdiDdReleaseDC</a> or <b>GdiEntry8</b>.
+The returned DC must be freed by a call to <a href="/windows/desktop/DevNotes/-dxgkernel-ntgdiddreleasedc">NtGdiDdReleaseDC</a> or <b>GdiEntry8</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-
+<a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>

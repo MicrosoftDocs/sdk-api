@@ -56,7 +56,7 @@ Obtains information about the balloon.
 
 ### -param pInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO</a> structure that receives the information about the balloon.
+Pointer to a <a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO</a> structure that receives the information about the balloon.
 
 ## -returns
 
@@ -93,10 +93,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemballoon">ITfLangBarItemBalloon</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemballoon">ITfLangBarItemBalloon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO
+<a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO
       </a>
-

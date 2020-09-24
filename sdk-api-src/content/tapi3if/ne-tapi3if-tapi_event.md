@@ -52,85 +52,85 @@ api_name:
 
 The 
 <b>TAPI_EVENT</b> enumeration is used to notify an application that a change has occurred in the TAPI object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method implementation uses members of this enumeration to indicate the type of object associated with the <b>IDispatch</b> pointer passed by TAPI.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method implementation uses members of this enumeration to indicate the type of object associated with the <b>IDispatch</b> pointer passed by TAPI.
 
 ## -enum-fields
 
 ### -field TE_TAPIOBJECT
 
 Change is in TAPI object itself. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent">ITTAPIObjectEvent</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent">ITTAPIObjectEvent</a>.
 
 ### -field TE_ADDRESS
 
 An Address object has changed. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent">ITAddressEvent</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent">ITAddressEvent</a>.
 
 ### -field TE_CALLNOTIFICATION
 
 A new communications session has appeared on the address and the TAPI DLL has created a new call object. This could be a result from an incoming session, a session handed off by another application, or a session being parked on the address. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a> and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>.
 
 ### -field TE_CALLSTATE
 
 The Call state has changed. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent">ITCallStateEvent</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent">ITCallStateEvent</a>.
 
 ### -field TE_CALLMEDIA
 
 The media associated with a call has changed. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>.
 
 ### -field TE_CALLHUB
 
 A CallHub object has changed. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>.
 
 ### -field TE_CALLINFOCHANGE
 
 The call information has changed. 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfochangeevent">ITCallInfoChangeEvent</a>.
+For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfochangeevent">ITCallInfoChangeEvent</a>.
 
 ### -field TE_PRIVATE
 
-A provider-specific private object has changed. The precise type of object referenced is implementation dependent. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Tapi/provider-specific-interfaces">Provider-Specific Interfaces</a>.
+A provider-specific private object has changed. The precise type of object referenced is implementation dependent. For more information, see <a href="/windows/desktop/Tapi/provider-specific-interfaces">Provider-Specific Interfaces</a>.
 
 ### -field TE_REQUEST
 
-A Request object has changed. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent">ITRequestEvent</a>.
+A Request object has changed. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent">ITRequestEvent</a>.
 
 ### -field TE_AGENT
 
-An Agent object has changed. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>.
+An Agent object has changed. For more information, see <a href="/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>.
 
 ### -field TE_AGENTSESSION
 
-An AgentSession object has changed. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent">ITAgentSessionEvent</a>.
+An AgentSession object has changed. For more information, see <a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent">ITAgentSessionEvent</a>.
 
 ### -field TE_QOSEVENT
 
-A QOS event has occurred. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>.
+A QOS event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>.
 
 ### -field TE_AGENTHANDLER
 
-An AgentHandler object has changed. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent">ITAgentHandlerEvent</a>.
+An AgentHandler object has changed. For more information, see <a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent">ITAgentHandlerEvent</a>.
 
 ### -field TE_ACDGROUP
 
-An ACDGroup object has changed. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent">ITACDGroupEvent</a>.
+An ACDGroup object has changed. For more information, see <a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent">ITACDGroupEvent</a>.
 
 ### -field TE_QUEUE
 
-A Queue object has changed. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent">ITQueueEvent</a>.
+A Queue object has changed. For more information, see <a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent">ITQueueEvent</a>.
 
 ### -field TE_DIGITEVENT
 
-A digit event has occurred. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent">ITDigitDetectionEvent</a>.
+A digit event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent">ITDigitDetectionEvent</a>.
 
 ### -field TE_GENERATEEVENT
 
-A digit generation event has occurred. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdigitgenerationevent">ITDigitGenerationEvent</a>.
+A digit generation event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitgenerationevent">ITDigitGenerationEvent</a>.
 
 ### -field TE_ASRTERMINAL
 
@@ -138,105 +138,104 @@ An Automatic Speech Recognition terminal event has occurred. Valid only for comp
 
 ### -field TE_TTSTERMINAL
 
-An event has occurred on a TTS terminal. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itttsterminalevent">ITTTSTerminalEvent</a>. Valid only for computers running on Windows XP and later.
+An event has occurred on a TTS terminal. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itttsterminalevent">ITTTSTerminalEvent</a>. Valid only for computers running on Windows XP and later.
 
 ### -field TE_FILETERMINAL
 
-An event has occurred on a file terminal. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itfileterminalevent">ITFileTerminalEvent</a>. Valid only for computers running on Windows XP and later.
+An event has occurred on a file terminal. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itfileterminalevent">ITFileTerminalEvent</a>. Valid only for computers running on Windows XP and later.
 
 ### -field TE_TONETERMINAL
 
-An event has occurred on a tone terminal. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittoneterminalevent">ITToneTerminalEvent</a>. Valid only for computers running on Windows XP and later.
+An event has occurred on a tone terminal. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittoneterminalevent">ITToneTerminalEvent</a>. Valid only for computers running on Windows XP and later.
 
 ### -field TE_PHONEEVENT
 
 A Phone object has changed. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent">ITPhoneEvent</a>. Valid only for computers running on Windows XP and later.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent">ITPhoneEvent</a>. Valid only for computers running on Windows XP and later.
 
 ### -field TE_TONEEVENT
 
 A tone event has been fired. Detection of in-band tones will be enabled or disabled. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittonedetectionevent">ITToneDetectionEvent</a>. Valid only for computers running on Windows XP and later.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittonedetectionevent">ITToneDetectionEvent</a>. Valid only for computers running on Windows XP and later.
 
 ### -field TE_GATHERDIGITS
 
 A gather digits event has been fired. Digits will be gathered on the current call. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdigitsgatheredevent">ITDigitsGatheredEvent</a>. Valid only for computers running on Windows XP and later.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitsgatheredevent">ITDigitsGatheredEvent</a>. Valid only for computers running on Windows XP and later.
 
 ### -field TE_ADDRESSDEVSPECIFIC
 
-An address device-specific event has occurred. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddressdevicespecificevent">ITAddressDeviceSpecificEvent</a>. Valid only for computers running on Windows XP and later.
+An address device-specific event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddressdevicespecificevent">ITAddressDeviceSpecificEvent</a>. Valid only for computers running on Windows XP and later.
 
 ### -field TE_PHONEDEVSPECIFIC
 
-A phone device-specific event has occurred. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddressdevicespecificevent">ITPhoneDeviceSpecificEvent</a>. Valid only for computers running on Windows XP and later.
+A phone device-specific event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddressdevicespecificevent">ITPhoneDeviceSpecificEvent</a>. Valid only for computers running on Windows XP and later.
 
 ## -remarks
 
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set the event filter mask to enable receiving events. If <b>ITTAPI::put_EventFilter</b> is not called, the application cannot receive events.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set the event filter mask to enable receiving events. If <b>ITTAPI::put_EventFilter</b> is not called, the application cannot receive events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent">ITACDGroupEvent</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent">ITACDGroupEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent">ITAddressEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent">ITAddressEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent">ITAgentHandlerEvent</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent">ITAgentHandlerEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent">ITAgentSessionEvent</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent">ITAgentSessionEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfochangeevent">ITCallInfoChangeEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfochangeevent">ITCallInfoChangeEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent">ITCallStateEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent">ITCallStateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent">ITQueueEvent</a>
+<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent">ITQueueEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent">ITRequestEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent">ITRequestEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent">ITTAPIObjectEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent">ITTAPIObjectEvent</a>

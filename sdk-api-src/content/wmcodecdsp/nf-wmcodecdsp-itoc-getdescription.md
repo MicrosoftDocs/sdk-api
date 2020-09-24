@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetDescription</b> method retrieves the description, set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setdescription">SetDescription</a>, of the table of contents.
+The <b>GetDescription</b> method retrieves the description, set by a previous call to <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setdescription">SetDescription</a>, of the table of contents.
 
 ## -parameters
 
@@ -97,5 +97,4 @@ The method returns this error code if <i>pwszDescription</i> is not <b>NULL</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>

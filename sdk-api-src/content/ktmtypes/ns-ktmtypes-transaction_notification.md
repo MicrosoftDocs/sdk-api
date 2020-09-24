@@ -64,7 +64,7 @@ The user-defined, opaque ID for this transaction.
 
 ### -field TransactionNotification
 
-The <a href="https://docs.microsoft.com/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a> value for this 
+The <a href="/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a> value for this 
       transaction.
 
 ### -field TmVirtualClock
@@ -81,25 +81,24 @@ Indicates the number of bytes for the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createenlistment">CreateEnlistment</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-createenlistment">CreateEnlistment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanager">GetNotificationResourceManager</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanager">GetNotificationResourceManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanagerasync">GetNotificationResourceManagerAsync</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanagerasync">GetNotificationResourceManagerAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-structures">Kernel Transaction Manager Structures</a>
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-structures">Kernel Transaction Manager Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a>
+<a href="/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a>
 
 
 
 <a href="/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
-

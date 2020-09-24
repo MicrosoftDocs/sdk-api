@@ -80,7 +80,7 @@ Total size of the performance data block, in bytes.
 
 ### -field HeaderLength
 
-Size of this structure, in bytes. You use the header length to find the first <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure in the performance data block.
+Size of this structure, in bytes. You use the header length to find the first <a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure in the performance data block.
 
 ### -field NumObjectTypes
 
@@ -96,15 +96,15 @@ Time when the system was monitored. This member is in Coordinated Universal Time
 
 ### -field PerfTime
 
-Performance-counter value, in counts, for the system being monitored. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a>.
+Performance-counter value, in counts, for the system being monitored. For more information, see <a href="/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a>.
 
 ### -field PerfFreq
 
-Performance-counter frequency, in counts per second, for the system being monitored. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a>.
+Performance-counter frequency, in counts per second, for the system being monitored. For more information, see <a href="/windows/desktop/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a>.
 
 ### -field PerfTime100nSec
 
-Performance-counter value, in 100 nanosecond units, for the system being monitored. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeasfiletime">GetSystemTimeAsFileTime</a>.
+Performance-counter value, in 100 nanosecond units, for the system being monitored. For more information, see <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeasfiletime">GetSystemTimeAsFileTime</a>.
 
 ### -field SystemNameLength
 
@@ -116,15 +116,14 @@ Offset from the beginning of this structure to the Unicode name of the computer 
 
 ## -remarks
 
-The performance data block is returned when a consumer calls <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a> to retrieve one or more performance objects. This structure is the first structure in the returned block. The next structure in the block is the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure, which defines a performance object. For details on the layout of the performance data block, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
+The performance data block is returned when a consumer calls <a href="/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a> to retrieve one or more performance objects. This structure is the first structure in the returned block. The next structure in the block is the <a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure, which defines a performance object. For details on the layout of the performance data block, see <a href="/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
-Consumers use <b>PerfTime</b>, <b>PerfFreq</b>, and <b>PerfTime100nSec</b> when calculating counter values unless the counter type contains the <b>PERF_OBJECT_TIMER</b> flag in which case the consumer uses the <b>PerfTime</b> and <b>PerfFreq</b> members of <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>.
+Consumers use <b>PerfTime</b>, <b>PerfFreq</b>, and <b>PerfTime100nSec</b> when calculating counter values unless the counter type contains the <b>PERF_OBJECT_TIMER</b> flag in which case the consumer uses the <b>PerfTime</b> and <b>PerfFreq</b> members of <a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>
+<a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>
-
+<a href="/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>

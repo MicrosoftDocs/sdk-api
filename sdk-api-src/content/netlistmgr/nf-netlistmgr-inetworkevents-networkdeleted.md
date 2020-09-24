@@ -64,5 +64,4 @@ Returns S_OK if the method succeeds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkevents">INetworkEvents</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkevents">INetworkEvents</a>

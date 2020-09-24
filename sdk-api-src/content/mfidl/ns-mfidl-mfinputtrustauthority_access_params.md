@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-bindaccess">IMFInputTrustAuthority::BindAccess</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-updateaccess">IMFInputTrustAuthority::UpdateAccess</a> method.
+Contains parameters for the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-bindaccess">IMFInputTrustAuthority::BindAccess</a> or <a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-updateaccess">IMFInputTrustAuthority::UpdateAccess</a> method.
 
 ## -struct-fields
 
@@ -90,5 +90,4 @@ Array of <a href="/windows/win32/api/mfidl/ns-mfidl-mfinputtrustauthority_access
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

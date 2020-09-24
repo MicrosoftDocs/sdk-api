@@ -58,7 +58,7 @@ Inserts text at the insertion point or selection.
 
 Specifies whether the <i>paStart</i> and <i>paEnd</i> parameters will contain the results of the text insertion.
 
-The <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
+The <a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
 
 <table>
 <tr>
@@ -160,24 +160,23 @@ The caller does not have a lock on the document.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/compositions">Compositions</a>
+<a href="/windows/desktop/TSF/compositions">Compositions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-ontextchange">ITextStoreAnchorSink::OnTextChange
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-ontextchange">ITextStoreAnchorSink::OnTextChange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
+<a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
-

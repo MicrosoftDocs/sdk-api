@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets the first day of the week for a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setfirstdayofweek">MCM_SETFIRSTDAYOFWEEK</a> message explicitly.
+Sets the first day of the week for a month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-setfirstdayofweek">MCM_SETFIRSTDAYOFWEEK</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
 ### -param iDay
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Value of type <b>int</b> that specifies which day is to be set as the first day of the week, where 0 is Monday, 1 is Tuesday, and so on.
 
 ## -remarks
 
 If the first day of the week is set to anything other than the default (LOCALE_IFIRSTDAYOFWEEK), the control will not automatically update first-day-of-the-week changes based on locale changes.
-

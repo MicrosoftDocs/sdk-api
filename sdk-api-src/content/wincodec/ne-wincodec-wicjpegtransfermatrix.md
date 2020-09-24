@@ -68,5 +68,4 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader">WICJpegFrameHeader</a>
-
+<a href="/windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader">WICJpegFrameHeader</a>

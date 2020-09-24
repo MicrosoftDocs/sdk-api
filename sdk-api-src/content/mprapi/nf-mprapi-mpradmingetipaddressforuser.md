@@ -75,7 +75,7 @@ On output, if RAS specified zero, the DLL allocates an IP address for the user. 
 ### -param bNotifyRelease [out]
 
 Pointer to a <b>BOOL</b> variable. If the DLL sets this variable to <b>TRUE</b>, RAS  calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a> when the user disconnects. Otherwise, RAS does not notify the DLL when this IP address is released.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a> when the user disconnects. Otherwise, RAS does not notify the DLL when this IP address is released.
 
 ## -returns
 
@@ -87,31 +87,30 @@ If the function returns anything other than NO_ERROR, RAS will terminate the con
 
 RAS supports multiple Administration DLLs. However, RAS calls 
 <b>MprAdminGetIpAddressForUser</b> only in the first DLL that implements and export it. RAS ignores implementations of these functions in the other DLLs. RAS checks the DLLs for these functions in the order in which they are listed in the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll-registry-setup">registry</a>.
+<a href="/windows/desktop/RRAS/ras-administration-dll-registry-setup">registry</a>.
 
 An administration DLL need not implement the 
 <b>MprAdminGetIpAddressForUser</b> function. However, if the DLL implements 
 <b>MprAdminGetIpAddressForUser</b>, it must also implement 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a>.
 
 Do not call any of the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-user-administration-functions">RAS User Administration Functions</a> from inside 
+<a href="/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a> or 
+<a href="/windows/desktop/RRAS/ras-user-administration-functions">RAS User Administration Functions</a> from inside 
 <b>MprAdminGetIpAddressForUser</b>. Calls to these functions will not return when made from within a callout function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
+<a href="/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
+<a href="/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

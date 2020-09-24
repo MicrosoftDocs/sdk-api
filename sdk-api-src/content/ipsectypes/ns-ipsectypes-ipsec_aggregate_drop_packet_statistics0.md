@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The [IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics1) is available.</div>
+The [IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics1) is available.</div>
 <div> </div>
 
 ## -struct-fields
@@ -95,5 +95,4 @@ Number of inbound IPsec secured packets that did not match any inbound IPsec tra
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

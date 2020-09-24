@@ -54,7 +54,7 @@ The <b>IWMDMDeviceSession</b> interface improves the efficiency of device operat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDeviceSession</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMDeviceSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDeviceSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMDeviceSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDMDeviceSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-beginsession">BeginSession</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-beginsession">BeginSession</a>
 </td>
 <td align="left" width="63%">
 Begins a device session.
@@ -78,7 +78,7 @@ Begins a device session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">EndSession</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">EndSession</a>
 </td>
 <td align="left" width="63%">
 Ends a device session.
@@ -89,5 +89,4 @@ Ends a device session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

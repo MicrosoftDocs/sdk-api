@@ -185,5 +185,4 @@ Allow only items in personal trust database.
 
 ### -field fCommercial
 
-BOOL flag. If <b>TRUE</b>, a signer has been verified by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as meeting certain minimum financial standards.
-
+BOOL flag. If <b>TRUE</b>, a signer has been verified by a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as meeting certain minimum financial standards.

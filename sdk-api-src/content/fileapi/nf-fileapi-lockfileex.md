@@ -64,7 +64,7 @@ Locks the specified file  for exclusive access  by the calling process. This fun
 ### -param hFile [in]
 
 A handle to the file. The handle must have been created with either the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+<a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ### -param dwFlags [in]
 
@@ -114,14 +114,14 @@ The high-order 32 bits of the length of the byte range to lock.
 ### -param lpOverlapped [in, out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that the function uses with the locking request. This structure, which is required, contains the file offset of the beginning of the lock range. You must initialize the <b>hEvent</b> member to a valid handle or zero.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that the function uses with the locking request. This structure, which is required, contains the file offset of the beginning of the lock range. You must initialize the <b>hEvent</b> member to a valid handle or zero.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -135,9 +135,9 @@ Locking a region of a file does not prevent reading from a mapped file view.
 
 The 
 <b>LockFileEx</b> function operates asynchronously if the file handle was opened for asynchronous I/O, unless the <b>LOCKFILE_FAIL_IMMEDIATELY</b> flag is specified. If an exclusive lock is requested for a range of a file that already has a shared or exclusive lock, the function returns the error <b>ERROR_IO_PENDING</b>. The system will signal the event specified in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure after the lock is granted. To determine when the lock has been granted, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure after the lock is granted. To determine when the lock has been granted, use the 
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function or one of the 
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a>. For more information, see <a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
 If the file handle was not opened for asynchronous I/O and the lock is not available, this call waits until the lock is granted or an error occurs, unless the <b>LOCKFILE_FAIL_IMMEDIATELY</b> flag is specified.
 
@@ -208,25 +208,24 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>

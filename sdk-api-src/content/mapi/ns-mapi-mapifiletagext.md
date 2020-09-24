@@ -58,31 +58,31 @@ A <b>MapiFileTagExt</b> structure specifies a message attachment's type at its c
 
 ### -field ulReserved
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
 Reserved; must be zero.
 
 ### -field cbTag
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
 The size, in bytes, of the value defined by the <b>lpTag</b> member.
 
 ### -field lpTag
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPBYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPBYTE</a></b>
 
 Pointer to an X.400 object identifier indicating the type of the attachment in its original form, for example "Microsoft Excel worksheet".
 
 ### -field cbEncoding
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
 The size, in bytes, of the value defined by the <b>lpEncoding</b> member.
 
 ### -field lpEncoding
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPBYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPBYTE</a></b>
 
 Pointer to an X.400 object identifier indicating the form in which the attachment is currently encoded, for example MacBinary, UUENCODE, or binary.
 
@@ -92,17 +92,16 @@ A <b>MapiFileTagExt</b> structure defines the type of an attached file for purpo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledesc">MapiFileDesc</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledesc">MapiFileDesc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledescw">MapiFileDescW</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledescw">MapiFileDescW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815513(v=office.12)">PidTagAttachEncoding Canonical Property</a>
+<a href="/previous-versions/office/developer/office-2007/cc815513(v=office.12)">PidTagAttachEncoding Canonical Property</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc765770(v=office.12)">PidTagAttachTag Canonical Property</a>
-
+<a href="/previous-versions/office/developer/office-2007/cc765770(v=office.12)">PidTagAttachTag Canonical Property</a>

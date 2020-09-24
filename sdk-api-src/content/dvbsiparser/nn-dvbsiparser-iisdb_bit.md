@@ -57,14 +57,14 @@ Implements methods that get information from an Integrated Services Digital Broa
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an BIT. Then:
 
 <ol>
-<li>Query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
+<li>Query the <a href="/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
+<li>Call the <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_BIT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_BIT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_BIT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_BIT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IISDB_BIT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getbroadcastviewpropriety">GetBroadcastViewPropriety</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getbroadcastviewpropriety">GetBroadcastViewPropriety</a>
 </td>
 <td align="left" width="63%">
 Gets a flag that indicates whether the content is appropriate for an age-based category of viewer from the BIT.
@@ -88,7 +88,7 @@ Gets a flag that indicates whether the content is appropriate for an age-based c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets a value that specifies the number of records in the BIT.
@@ -97,7 +97,7 @@ Gets a value that specifies the number of records in the BIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Gets the number of table descriptors in a BIT.
@@ -106,7 +106,7 @@ Gets the number of table descriptors in a BIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getoriginalnetworkid">GetOriginalNetworkId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getoriginalnetworkid">GetOriginalNetworkId</a>
 </td>
 <td align="left" width="63%">
 Gets an identifier for the network that originated the broadcast.
@@ -115,7 +115,7 @@ Gets an identifier for the network that originated the broadcast.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getrecordbroadcasterid">GetRecordBroadcasterId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getrecordbroadcasterid">GetRecordBroadcasterId</a>
 </td>
 <td align="left" width="63%">
 Gets a BIT record for a specific broadcaster.
@@ -124,7 +124,7 @@ Gets a BIT record for a specific broadcaster.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Gets the number of descriptors from the BIT.
@@ -133,7 +133,7 @@ Gets the number of descriptors from the BIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694293(v=vs.85)">GetRecordDescriptorByIndex</a>
+<a href="/previous-versions/windows/desktop/legacy/dd694293(v=vs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for a specified record
@@ -143,7 +143,7 @@ Returns a descriptor for a specified record
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Gets a descriptor from a record in a BIT
@@ -153,7 +153,7 @@ Gets a descriptor from a record in a BIT
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694295(v=vs.85)">GetTableDescriptorByIndex</a>
+<a href="/previous-versions/windows/desktop/legacy/dd694295(v=vs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a descriptor for a specific BIT subtable.
@@ -162,7 +162,7 @@ Gets a descriptor for a specific BIT subtable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-gettabledescriptorbytag">GetTableDescriptorByTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-gettabledescriptorbytag">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Gets a descriptor from a subtable in a BIT
@@ -172,7 +172,7 @@ Gets a descriptor from a subtable in a BIT
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getversionhash">GetVersionHash</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getversionhash">GetVersionHash</a>
 </td>
 <td align="left" width="63%">
 Gets a hash value for this instance of a BIT.
@@ -181,7 +181,7 @@ Gets a hash value for this instance of a BIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getversionnumber">GetVersionNumber</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the version number from the BIT.
@@ -190,7 +190,7 @@ Gets the version number from the BIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_bit-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object that supports this interface.
@@ -198,4 +198,3 @@ Initializes an object that supports this interface.
 </td>
 </tr>
 </table>
-

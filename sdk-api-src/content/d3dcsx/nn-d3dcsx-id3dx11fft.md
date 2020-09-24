@@ -55,7 +55,7 @@ Encapsulates forward and inverse FFTs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DX11FFT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DX11FFT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DX11FFT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DX11FFT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3DX11FFT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-attachbuffersandprecompute">AttachBuffersAndPrecompute</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-attachbuffersandprecompute">AttachBuffersAndPrecompute</a>
 </td>
 <td align="left" width="63%">
 Attaches buffers to an FFT context and performs any required precomputations.
@@ -79,7 +79,7 @@ Attaches buffers to an FFT context and performs any required precomputations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-forwardtransform">ForwardTransform</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-forwardtransform">ForwardTransform</a>
 </td>
 <td align="left" width="63%">
 Performs a forward FFT.
@@ -88,7 +88,7 @@ Performs a forward FFT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-getforwardscale">GetForwardScale</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-getforwardscale">GetForwardScale</a>
 </td>
 <td align="left" width="63%">
 Gets the scale for forward transforms.
@@ -97,7 +97,7 @@ Gets the scale for forward transforms.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-getinversescale">GetInverseScale</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-getinversescale">GetInverseScale</a>
 </td>
 <td align="left" width="63%">
 Get the scale for inverse transforms.
@@ -106,7 +106,7 @@ Get the scale for inverse transforms.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-inversetransform">InverseTransform</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-inversetransform">InverseTransform</a>
 </td>
 <td align="left" width="63%">
 Performs an inverse FFT.
@@ -115,7 +115,7 @@ Performs an inverse FFT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-setforwardscale">SetForwardScale</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-setforwardscale">SetForwardScale</a>
 </td>
 <td align="left" width="63%">
 Sets the scale used for forward transforms.
@@ -124,7 +124,7 @@ Sets the scale used for forward transforms.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-setinversescale">SetInverseScale</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-setinversescale">SetInverseScale</a>
 </td>
 <td align="left" width="63%">
 Sets the scale used for inverse transforms.
@@ -135,5 +135,4 @@ Sets the scale used for inverse transforms.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-interfaces">D3DCSX 11 Interfaces</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-interfaces">D3DCSX 11 Interfaces</a>

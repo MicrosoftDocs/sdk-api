@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Notifies the caller that the message has completed its use of either the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> structure that was supplied to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a>function, or of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> structure supplied to the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> function.
+Notifies the caller that the message has completed its use of either the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> structure that was supplied to <a href="/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a>function, or of the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> structure supplied to the  <a href="/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> function.
 
 ## -parameters
 
 ### -param *doneCallbackState [in]
 
-A pointer to <b>state</b> information passed to the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> function.
+A pointer to <b>state</b> information passed to the  <a href="/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> function.
                 
 
 This parameter can be used to specify a pointer to user-defined
@@ -68,11 +68,10 @@ This callback can be used as an indicator that the message object is no
                 longer using the reader or writer.
             
 
-The callback is specified when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a> or
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> is called.
+The callback is specified when <a href="/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a> or
+                <a href="/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> is called.
             
 
 The callback should assume that it is invoked as a 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_SHORT_CALLBACK</a>, since it will be invoked on the same 
-                thread that calls <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetmessage">WsResetMessage</a>.
-
+                <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_SHORT_CALLBACK</a>, since it will be invoked on the same 
+                thread that calls <a href="/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsresetmessage">WsResetMessage</a>.

@@ -67,21 +67,20 @@ If <b>EngLoadModule</b> succeeds, the return value is a handle to the module tha
 
 ## -remarks
 
-<b>EngLoadModule</b> loads a data file into system memory with read-only permission. To access the loaded module, the driver should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a> with the handle returned by this function.
+<b>EngLoadModule</b> loads a data file into system memory with read-only permission. To access the loaded module, the driver should call <a href="/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a> with the handle returned by this function.
 
 The file identified by <i>pwsz</i> must be located in the <i>%SystemRoot%\System32</i> directory or within a directory found in the directory hierarchy under <i>%SystemRoot%\System32</i>.
 
-To load a writable module, the driver should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>. Drivers that need to load an image as executable code should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a> instead of this function.
+To load a writable module, the driver should call <a href="/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>. Drivers that need to load an image as executable code should call <a href="/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a> instead of this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreemodule">EngFreeModule</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engfreemodule">EngFreeModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a>

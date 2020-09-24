@@ -51,20 +51,20 @@ api_name:
 ## -description
 
 The <b>CertStoreProvSetCTLProperty</b> callback function determines whether a property can be set on a CTL. It is called by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty">CertSetCTLContextProperty</a> before setting a CTL's property. It can also be called by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetctlcontextproperty">CertGetCTLContextProperty</a>, when getting a hash property that needs to be created and then persisted. This callback function does not set the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>'s property.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty">CertSetCTLContextProperty</a> before setting a CTL's property. It can also be called by 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetctlcontextproperty">CertGetCTLContextProperty</a>, when getting a hash property that needs to be created and then persisted. This callback function does not set the 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>'s property.
 
 ## -parameters
 
 ### -param hStoreProv [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
+A handle to a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 ### -param pCtlContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure.
 
 ### -param dwPropId [in]
 
@@ -84,13 +84,12 @@ Returns <b>TRUE</b> if the property can be set. Returns <b>FALSE</b> if the prop
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetctlcontextproperty">CertGetCTLContextProperty</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetctlcontextproperty">CertGetCTLContextProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty">CertSetCTLContextProperty</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty">CertSetCTLContextProperty</a>

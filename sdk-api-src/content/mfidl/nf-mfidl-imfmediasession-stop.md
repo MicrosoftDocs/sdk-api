@@ -101,9 +101,8 @@ The Media Session has been shut down.
 
 ## -remarks
 
-This method is asynchronous. When the operation completes, the Media Session sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionstopped">MESessionStopped</a> event.
+This method is asynchronous. When the operation completes, the Media Session sends an <a href="/windows/desktop/medfound/mesessionstopped">MESessionStopped</a> event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>

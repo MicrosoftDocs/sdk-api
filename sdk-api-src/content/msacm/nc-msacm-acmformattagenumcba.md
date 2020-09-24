@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>acmFormatTagEnumCallback</b> function specifies a callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function. The <b>acmFormatTagEnumCallback</b> name is a placeholder for an application-defined function name.
+The <b>acmFormatTagEnumCallback</b> function specifies a callback function used with the <a href="/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function. The <b>acmFormatTagEnumCallback</b> name is a placeholder for an application-defined function name.
 
 ## -parameters
 
@@ -62,15 +62,15 @@ Handle to the ACM driver identifier.
 
 ### -param paftd
 
-Pointer to an [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails) structure that contains the enumerated format tag details.
+Pointer to an [ACMFORMATTAGDETAILS](./nf-msacm-acmformattagdetails.md) structure that contains the enumerated format tag details.
 
 ### -param dwInstance
 
-Application-defined value specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function.
+Application-defined value specified in the <a href="/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function.
 
 ### -param fdwSupport
 
-Driver-support flags specific to the format tag. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure. This parameter can be a combination of the following values and indicates which operations the driver supports with the format tag.
+Driver-support flags specific to the format tag. These flags are identical to the [ACMDRIVERDETAILS](./nf-msacm-acmdriverdetails.md) structure. This parameter can be a combination of the following values and indicates which operations the driver supports with the format tag.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ Driver-support flags specific to the format tag. These flags are identical to th
 </tr>
 <tr>
 <td>ACMDRIVERDETAILS_SUPPORTF_HARDWARE</td>
-<td>Driver supports hardware input, output, or both of the specified format tag through a waveform-audio device. An application should use <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
+<td>Driver supports hardware input, output, or both of the specified format tag through a waveform-audio device. An application should use <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
 </tr>
 </table>
 
@@ -107,9 +107,9 @@ The callback function must return <b>TRUE</b> to continue enumeration or <b>FALS
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function will return MMSYSERR_NOERROR (zero) if no format tags are to be enumerated. Moreover, the callback function will not be called.
+The <a href="/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function will return MMSYSERR_NOERROR (zero) if no format tags are to be enumerated. Moreover, the callback function will not be called.
 
-The following functions should not be called from within the callback function: <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriveradd">acmDriverAdd</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverremove">acmDriverRemove</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a>.
+The following functions should not be called from within the callback function: <a href="/windows/desktop/api/msacm/nf-msacm-acmdriveradd">acmDriverAdd</a>, <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverremove">acmDriverRemove</a>, and <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a>.
 
 
 
@@ -120,9 +120,8 @@ The following functions should not be called from within the callback function: 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

@@ -56,7 +56,7 @@ The <b>Add</b> method adds a video renderer to the collection.
 
 ### -param pDB [in]
 
-Specifies a pointer to the video renderer's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a> interface.
+Specifies a pointer to the video renderer's <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a> interface.
 
 ## -returns
 
@@ -115,5 +115,4 @@ NULL pointer argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices Interface</a>

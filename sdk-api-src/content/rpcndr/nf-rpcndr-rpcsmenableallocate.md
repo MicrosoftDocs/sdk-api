@@ -88,27 +88,26 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 In cases where the stub memory management is not enabled by the server stub itself, applications call 
 <b>RpcSmEnableAllocate</b> to establish the stub memory–management environment. This environment must be established prior to making a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>. In OSF-compatibility (<b>/osf</b>) mode, for server manager code called from the stub, the memory-management environment may be established by the server stub itself by using pointer manipulation or the 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/enable-allocate">enable_allocate</a> attribute. In default (Microsoft-extended) mode, the environment is established only upon request by using the 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/enable-allocate">enable_allocate</a> attribute. Otherwise, call 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>. In OSF-compatibility (<b>/osf</b>) mode, for server manager code called from the stub, the memory-management environment may be established by the server stub itself by using pointer manipulation or the 
+<a href="/windows/desktop/Midl/enable-allocate">enable_allocate</a> attribute. In default (Microsoft-extended) mode, the environment is established only upon request by using the 
+<a href="/windows/desktop/Midl/enable-allocate">enable_allocate</a> attribute. Otherwise, call 
 <b>RpcSmEnableAllocate</b> before calling 
 <b>RpcSmAllocate</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/memory-management">Memory Management</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a>.
+<a href="/windows/desktop/Rpc/memory-management">Memory Management</a>, 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a>, and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a>
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a>

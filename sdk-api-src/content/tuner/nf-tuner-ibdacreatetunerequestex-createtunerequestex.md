@@ -56,11 +56,11 @@ Creates a new tuning  request for a tuning space. This method enables the caller
 
 ### -param TuneRequestIID [in]
 
-GUID that identifies the type of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> object expected by the caller. If this value is <b>NULL</b>, this method behaves the same as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">ITuningSpace::CreateTuneRequest</a> and creates an empty (uninitialized) <b>ITuneRequest</b> object.
+GUID that identifies the type of <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> object expected by the caller. If this value is <b>NULL</b>, this method behaves the same as <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">ITuningSpace::CreateTuneRequest</a> and creates an empty (uninitialized) <b>ITuneRequest</b> object.
 
 ### -param TuneRequest [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the new tuning request object. The caller must release the interface. If the <i>TuneRequestIID</i> argument is <b>NULL</b>, this address is set to <b>NULL</b> also.
+Address of a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the new tuning request object. The caller must release the interface. If the <i>TuneRequestIID</i> argument is <b>NULL</b>, this address is set to <b>NULL</b> also.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacreatetunerequestex">IBDACreateTuneRequestEx</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacreatetunerequestex">IBDACreateTuneRequestEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">ITuningSpace::CreateTuneRequest</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">ITuningSpace::CreateTuneRequest</a>

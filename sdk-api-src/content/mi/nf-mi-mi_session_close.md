@@ -56,7 +56,7 @@ Closes a session and releases all associated memory.
 
 ### -param session [in, out]
 
-Session handle returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
+Session handle returned from <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
 
 ### -param completionContext [in, optional]
 
@@ -72,9 +72,8 @@ Optional callback to make the session close asynchronous.  (If this value is <b>
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -remarks
 
 Closing a session will cause all operations that are currently running to be canceled.  Canceling operations will cause asynchronous operation callbacks to be called (with the final result of an MI_Operation_Get* function call's <i>moreResults</i> parameter equal to <b>MI_FALSE</b>, although more than one result may be delivered before this happens).  Not closing all operation handles that were created with the current session will cause the closing of the session to stop responding for synchronous calls and the asynchronous callback will not be called.  Operation and session handles not fully closed will cause the application handle to stop responding during shutdown.
-

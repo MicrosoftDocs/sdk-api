@@ -57,7 +57,7 @@ api_name:
 
 The 
 <b>addrinfoW</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function to hold host address information.
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function to hold host address information.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The
 Type: <b>int</b>
 
 Flags that indicate options used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function.
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function.
 
 
 Supported values for the <b>ai_flags</b> member are defined in the <i>Winsock2.h</i> header file and can be a combination of the options listed in the following table.
@@ -85,7 +85,7 @@ Supported values for the <b>ai_flags</b> member are defined in the <i>Winsock2.h
 </dl>
 </td>
 <td width="60%">
-The socket address will be used in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>function.
+The socket address will be used in a call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>function.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ The canonical name is returned in the first <b>ai_canonname</b> member.
 </dl>
 </td>
 <td width="60%">
-The <i>nodename</i> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function must be a numeric string.
+The <i>nodename</i> parameter passed to the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function must be a numeric string.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ If this bit is set, a request is made for IPv6 addresses and IPv4 addresses with
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> will resolve only if a global address is configured. The IPv6 and IPv4 loopback address is not considered a valid global address. This option is only supported on Windows Vista and  later.
+The <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> will resolve only if a global address is configured. The IPv6 and IPv4 loopback address is not considered a valid global address. This option is only supported on Windows Vista and  later.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip
 </dl>
 </td>
 <td width="60%">
-If the  <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> request for an IPv6 addresses fails, a name service request is made for IPv4 addresses and these addresses are converted to IPv4-mapped IPv6 address format.
+If the  <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> request for an IPv6 addresses fails, a name service request is made for IPv4 addresses and these addresses are converted to IPv4-mapped IPv6 address format.
 
 This option is supported on Windows Vista and later.
 
@@ -195,11 +195,11 @@ This option is only supported on Windows Vista and later for the <b>NS_EMAIL</b
 </dl>
 </td>
 <td width="60%">
-If a flat name (single label) is specified,  <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> will return the fully qualified domain name that the name eventually resolved to. The fully qualified domain name is returned in the <b>ai_canonname</b> member. 
+If a flat name (single label) is specified,  <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> will return the fully qualified domain name that the name eventually resolved to. The fully qualified domain name is returned in the <b>ai_canonname</b> member. 
 
 This is different than <b>AI_CANONNAME</b> bit flag that returns the canonical name registered in DNS which may be different than the fully qualified domain name  that the flat name resolved to. 
 
-Only one of the <b>AI_FQDN</b> and <b>AI_CANONNAME</b> bits can be set. The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function will fail if both flags are present with <b>EAI_BADFLAGS</b>.
+Only one of the <b>AI_FQDN</b> and <b>AI_CANONNAME</b> bits can be set. The <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function will fail if both flags are present with <b>EAI_BADFLAGS</b>.
 
 This option is supported on Windows 7,  Windows Server 2008 R2,   and later.
 
@@ -226,7 +226,7 @@ This option is supported on Windows 7, Windows Server 2008 R2,  and later.
 </dl>
 </td>
 <td width="60%">
-Disable the automatic International Domain Name encoding using Punycode in the name resolution functions called by the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function. 
+Disable the automatic International Domain Name encoding using Punycode in the name resolution functions called by the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function. 
 
 This option is supported on Windows 8, Windows Server 2012,   and later.
 
@@ -362,7 +362,7 @@ Supports datagrams, which are connectionless, unreliable buffers of a fixed (typ
 </dl>
 </td>
 <td width="60%">
-Provides a raw socket that allows an application to manipulate the next upper-layer protocol header. To manipulate the IPv4 header, the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IP_HDRINCL</a> socket option must be set on the socket.  To manipulate the IPv6 header, the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPV6_HDRINCL</a> socket option must be set on the socket.
+Provides a raw socket that allows an application to manipulate the next upper-layer protocol header. To manipulate the IPv4 header, the <a href="/windows/desktop/WinSock/ipproto-ip-socket-options">IP_HDRINCL</a> socket option must be set on the socket.  To manipulate the IPv6 header, the <a href="/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPV6_HDRINCL</a> socket option must be set on the socket.
 
 </td>
 </tr>
@@ -373,7 +373,7 @@ Provides a raw socket that allows an application to manipulate the next upper-la
 </dl>
 </td>
 <td width="60%">
-Provides a reliable message datagram. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>. 
+Provides a reliable message datagram. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>. 
 
 </td>
 </tr>
@@ -392,7 +392,7 @@ Provides a pseudo-stream packet based on datagrams.
  
 
 In Windows Sockets 2, new socket types were introduced. An application can dynamically discover the attributes of each available transport protocol through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
 
 In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DATAGRAM</b> and <b>SOCK_STREAM</b>.
 
@@ -469,7 +469,7 @@ The canonical name for the host.
 Type: <b>struct sockaddr*</b>
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">ADDRINFOW</a> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>ADDRINFOW</b> structure is specified in the <b>ai_addrlen</b> member.
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">ADDRINFOW</a> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>ADDRINFOW</b> structure is specified in the <b>ai_addrlen</b> member.
 
 ### -field ai_next
 
@@ -482,17 +482,17 @@ A pointer to the next structure in a linked list. This parameter is set to <b>NU
 
 The 
 <b>addrinfoW</b> structure is used by the 
-Unicode <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function to hold host address information.
+Unicode <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function to hold host address information.
 
- The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure is ANSI version of this structure used by the ANSI <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function.
+ The <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure is ANSI version of this structure used by the ANSI <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function.
 
-Macros in the <i>Ws2tcpip.h</i> header file define a <b>ADDRINFOT</b> structure and a mixed-case function name of <b>GetAddrInfo</b>. The <b>GetAddrInfo</b> function should be called with the <i>nodename</i> and <i>servname</i> parameters of a pointer of type  <b>TCHAR</b> and the <i>hints</i> and <i>res</i> parameters of a pointer of type <b>ADDRINFOT</b>. When UNICODE or _UNICODE is defined, <b>ADDRINFOT</b> is defined to the <b>addrinfoW</b> structure and <b>GetAddrInfo</b> is defined to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>, the Unicode version of this function. When UNICODE or _UNICODE is not defined, <b>ADDRINFOT</b> is defined to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure and <b>GetAddrInfo</b> is defined to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>, the ANSI version of this function.
+Macros in the <i>Ws2tcpip.h</i> header file define a <b>ADDRINFOT</b> structure and a mixed-case function name of <b>GetAddrInfo</b>. The <b>GetAddrInfo</b> function should be called with the <i>nodename</i> and <i>servname</i> parameters of a pointer of type  <b>TCHAR</b> and the <i>hints</i> and <i>res</i> parameters of a pointer of type <b>ADDRINFOT</b>. When UNICODE or _UNICODE is defined, <b>ADDRINFOT</b> is defined to the <b>addrinfoW</b> structure and <b>GetAddrInfo</b> is defined to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>, the Unicode version of this function. When UNICODE or _UNICODE is not defined, <b>ADDRINFOT</b> is defined to the <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure and <b>GetAddrInfo</b> is defined to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>, the ANSI version of this function.
 
-Upon a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>, a linked list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">ADDRINFOW</a> structures is returned in the <i>ppResult</i> parameter passed to the <b>GetAddrInfoW</b> function. The list can be processed by following the pointer provided in the <b>ai_next</b> member of each returned 
+Upon a successful call to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>, a linked list of 
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">ADDRINFOW</a> structures is returned in the <i>ppResult</i> parameter passed to the <b>GetAddrInfoW</b> function. The list can be processed by following the pointer provided in the <b>ai_next</b> member of each returned 
 <b>ADDRINFOW</b> structure until a <b>NULL</b> pointer is encountered. In each returned 
 <b>ADDRINFOW</b> structure, the <b>ai_family</b>, <b>ai_socktype</b>, and <b>ai_protocol</b> members correspond to respective arguments in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function call. Also, the <b>ai_addr</b> member in each returned 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>  or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function call. Also, the <b>ai_addr</b> member in each returned 
 <b>ADDRINFOW</b> structure points to a filled-in socket address structure, the length of which is specified in its <b>ai_addrlen</b> member.
 
 
@@ -685,33 +685,32 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>

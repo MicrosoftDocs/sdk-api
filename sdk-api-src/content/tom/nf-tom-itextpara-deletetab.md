@@ -64,7 +64,7 @@ Displacement, in floating-point points, at which a tab should be deleted.
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::DeleteTab</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::DeleteTab</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -130,11 +130,11 @@ The paragraph format object is attached to a range that has been deleted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-addtab">AddTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-addtab">AddTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
 
 
 
@@ -142,19 +142,19 @@ The paragraph format object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettabcount">GetTabCount</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-gettabcount">GetTabCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -162,9 +162,8 @@ The paragraph format object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -80,13 +80,12 @@ The item is displayed with a check box and that check box is checked. <b>ECS_CHE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/button-types-and-styles">Button Types</a>
+<a href="/windows/desktop/Controls/button-types-and-styles">Button Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getstate">IExplorerCommand::GetState</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getstate">IExplorerCommand::GetState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommandstate-getstate">IExplorerCommandState::GetState</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommandstate-getstate">IExplorerCommandState::GetState</a>

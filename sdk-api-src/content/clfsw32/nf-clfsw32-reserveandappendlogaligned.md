@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Reserves space for log buffers, or appends a log record  to the log, or both.  This function is like the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a> function, but <b>ReserveAndAppendLogAligned</b> aligns the  write entries of the record to the specified byte alignment.
+Reserves space for log buffers, or appends a log record  to the log, or both.  This function is like the <a href="/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a> function, but <b>ReserveAndAppendLogAligned</b> aligns the  write entries of the record to the specified byte alignment.
 
 ## -parameters
 
 ### -param pvMarshal [in]
 
-A pointer to a   marshaling context that  is allocated by using the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
+A pointer to a   marshaling context that  is allocated by using the <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
 
 ### -param rgWriteEntries [in, optional]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_write_entry">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.  
+A pointer to an array of <a href="/windows/desktop/api/clfs/ns-clfs-cls_write_entry">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.  
 
 This parameter is ignored if the <i>cWriteEntries</i> parameter is zero.
 
@@ -78,11 +78,11 @@ Specify 1 (one) for a simple concatenation. The <i>cbWriteEntryAlignment</i> par
 
 ### -param plsnUndoNext [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.
 
 ### -param plsnPrevious [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
 
 ### -param cReserveRecords [in]
 
@@ -94,7 +94,7 @@ A pointer to an array of reservation sizes for each record  that  the <i>cReserv
 
  This parameter is ignored if the <i>cReserveRecords</i> parameter is zero.    If a reservation size is negative, a reservation of that size is released.
 
-The actual space that is reserved for each record, including required overhead, is returned in the individual array elements on successful completion. These values can  be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-freereservedlog">FreeReservedLog</a>  function to adjust space that is reserved in the marshaling area.
+The actual space that is reserved for each record, including required overhead, is returned in the individual array elements on successful completion. These values can  be passed to the <a href="/windows/desktop/api/clfsw32/nf-clfsw32-freereservedlog">FreeReservedLog</a>  function to adjust space that is reserved in the marshaling area.
 
 ### -param fFlags [in]
 
@@ -155,11 +155,11 @@ Assigns no flags.
 
 ### -param plsn [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the LSN  of the appended record.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the LSN  of the appended record.
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. 
+A pointer to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
@@ -169,7 +169,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following list identifies the possible error codes:
+the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following list identifies the possible error codes:
 
 ## -remarks
 
@@ -179,25 +179,24 @@ If the <b>ReserveAndAppendLogAligned</b> function returns <b>ERROR_LOG_FILE_FULL
 <li>Free any unneeded reservations.</li>
 <li>Advance the base LSN or the log archive tail, or both, to recycle containers.</li>
 <li>Add containers to the log.</li>
-</ul>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-management-api">CLFS Management API</a> also provides a way to handle scenarios involving  full logs.
+</ul>The <a href="/previous-versions/windows/desktop/clfs/common-log-file-system-management-api">CLFS Management API</a> also provides a way to handle scenarios involving  full logs.
 
 If the <b>ReserveAndAppendLogAligned</b>  function is called with a valid <i>overlapped</i> structure and the log handle is created with the overlapped option, then if a call to this function fails with an error code of <b>ERROR_IO_PENDING</b>, a pointer to a valid read context  is  placed in the variable that is pointed to by the <i>ppvReadContext</i> parameter.
 
-To complete the log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by using  the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function or one of the synchronization <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
+To complete the log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by using  the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function or one of the synchronization <a href="/windows/desktop/Sync/wait-functions">Wait Functions</a>. For more information, see <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_write_entry">CLFS_WRITE_ENTRY</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_write_entry">CLFS_WRITE_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>

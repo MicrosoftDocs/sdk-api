@@ -57,7 +57,7 @@ Sets the volume level for a specified channel in the audio stream.
 
 ### -param dwIndex [in]
 
-Zero-based index of the audio channel. To get the number of channels, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getchannelcount">IMFAudioStreamVolume::GetChannelCount</a>.
+Zero-based index of the audio channel. To get the number of channels, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getchannelcount">IMFAudioStreamVolume::GetChannelCount</a>.
 
 ### -param fLevel [in]
 
@@ -87,9 +87,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume">IMFAudioStreamVolume</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume">IMFAudioStreamVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
-
+<a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>

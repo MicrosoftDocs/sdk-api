@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-Used with [IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle](/windows/win32/api/dxgi1_3/nf-dxgi1_3-idxgifactorymedia-createdecodeswapchainforcompositionsurfacehandle) to describe a decode swap chain.
+Used with [IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle](./nf-dxgi1_3-idxgifactorymedia-createdecodeswapchainforcompositionsurfacehandle.md) to describe a decode swap chain.
 
 ## -struct-fields
 
@@ -60,4 +60,3 @@ Can be 0, or a combination of **DXGI_SWAP_CHAIN_FLAG_FULLSCREEN_VIDEO** and/or *
 ## -see-also
 
 <a href="/windows/win32/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
-

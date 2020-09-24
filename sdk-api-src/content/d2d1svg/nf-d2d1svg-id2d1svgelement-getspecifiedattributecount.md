@@ -53,7 +53,7 @@ api_name:
 Returns the number of specified attributes on this element. Attributes are only considered specified if they are explicitly set on the element or present within an inline style. 
         Properties that receive their value through CSS inheritance are not considered specified. 
         An attribute can become specified if it is set through a method call. 
-        It can become unspecified if it is removed via <a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-removeattribute">RemoveAttribute</a>.
+        It can become unspecified if it is removed via <a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-removeattribute">RemoveAttribute</a>.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ Returns the number of specified attributes on this element.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>
-
+<a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>

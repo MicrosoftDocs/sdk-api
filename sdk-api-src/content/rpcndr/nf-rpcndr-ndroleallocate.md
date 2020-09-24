@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>NdrOleAllocate</b> function is used by RPC to allocate memory for an object interface. This function is a wrapper for the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function.
+The <b>NdrOleAllocate</b> function is used by RPC to allocate memory for an object interface. This function is a wrapper for the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ To return a pointer other than a void, use a type cast on the return value. The 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>

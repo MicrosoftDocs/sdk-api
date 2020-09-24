@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-The <b>ICategoryCollection</b> interface represents an ordered read-only list of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a> interfaces.
+The <b>ICategoryCollection</b> interface represents an ordered read-only list of <a href="/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a> interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

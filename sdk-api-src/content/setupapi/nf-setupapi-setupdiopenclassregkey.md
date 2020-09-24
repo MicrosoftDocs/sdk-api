@@ -66,7 +66,7 @@ The registry security access for the key to be opened. For information about reg
 
 If the function is successful, it returns a handle to an opened registry key where information about this setup class can be stored/retrieved. 
 
-If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -74,15 +74,14 @@ Depending on the value that is passed in the <i>samDesired</i> parameter, it mig
 
 This function does not create a registry key if it does not already exist.
 
-The handle returned from this function must be closed by calling <a href="https://msdn.microsoft.com/library/ms724837(VS.85).aspx">RegCloseKey</a>.
+The handle returned from this function must be closed by calling <a href="/windows/win32/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>.
 
-To open the interface class registry key or a specific interface class subkey, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopenclassregkeyexa">SetupDiOpenClassRegKeyEx</a>.
+To open the interface class registry key or a specific interface class subkey, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopenclassregkeyexa">SetupDiOpenClassRegKeyEx</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopenclassregkeyexa">SetupDiOpenClassRegKeyEx</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopenclassregkeyexa">SetupDiOpenClassRegKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>

@@ -56,7 +56,7 @@ Copies the external update binaries  to an update.
 
 ### -param pFiles [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> interface that contains the strings to be copied to an update.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> interface that contains the strings to be copied to an update.
 
 
 #### - ignoreDigests [in]
@@ -118,5 +118,4 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is  impleme
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate2">IWindowsDriverUpdate2</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate2">IWindowsDriverUpdate2</a>

@@ -54,7 +54,7 @@ Implement this interface to receive notifications of the current erase operation
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscFormat2EraseEvents</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscFormat2EraseEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscFormat2EraseEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscFormat2EraseEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>DDiscFormat2EraseEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2eraseevents-update">Update</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2eraseevents-update">Update</a>
 </td>
 <td align="left" width="63%">
 Implement this method to receive progress notification of the current erase operation.
@@ -80,5 +80,4 @@ Implement this method to receive progress notification of the current erase oper
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>

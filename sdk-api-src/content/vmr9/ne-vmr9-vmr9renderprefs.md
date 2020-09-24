@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <code>VMR9RenderPrefs</code> enumeration type specifies basic rendering preferences for the VMR-9. It is used with the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingprefs">IVMRFilterConfig9::GetRenderingPrefs</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingprefs">IVMRFilterConfig9::SetRenderingPrefs</a> methods.
+The <code>VMR9RenderPrefs</code> enumeration type specifies basic rendering preferences for the VMR-9. It is used with the <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingprefs">IVMRFilterConfig9::GetRenderingPrefs</a> and <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingprefs">IVMRFilterConfig9::SetRenderingPrefs</a> methods.
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ Bitwise <b>OR</b> of all flags; not used by applications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

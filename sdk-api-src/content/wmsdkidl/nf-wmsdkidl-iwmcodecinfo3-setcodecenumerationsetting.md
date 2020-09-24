@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>SetCodecEnumerationSetting</b> method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo</a>.
+The <b>SetCodecEnumerationSetting</b> method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo</a>.
 
 ## -parameters
 
@@ -80,7 +80,7 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 ### -param pszName [in]
 
@@ -109,7 +109,7 @@ Pointer to a wide-character null-terminated string containing the name of the en
 
 ### -param Type [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> value specifying the data type of the value in <i>pValue</i>.
+A <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> value specifying the data type of the value in <i>pValue</i>.
 
 ### -param pValue [in]
 
@@ -193,9 +193,8 @@ The return value of a call made to this method does not guarantee support of a c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-getcodecenumerationsetting">GetCodecEnumerationSetting</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-getcodecenumerationsetting">GetCodecEnumerationSetting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3">IWMCodecInfo3 Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3">IWMCodecInfo3 Interface</a>

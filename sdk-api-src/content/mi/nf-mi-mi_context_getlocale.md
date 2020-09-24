@@ -68,9 +68,8 @@ The returned locale.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -remarks
 
 There are two types of locale: UI and Data.  UI relates to the language of strings. Data relates to data formatting, such as date/time formats in strings and whether a decimal point or some other separator is used.
-

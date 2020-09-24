@@ -57,7 +57,7 @@ The <code>put_TVAudioMode</code> method sets the current TV audio mode.
 
 ### -param lMode [in]
 
-A [TVAudioMode](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tvaudiomode) enumeration value that identifies the audio mode.
+A [TVAudioMode](/windows/desktop/api/strmif/ne-strmif-tvaudiomode) enumeration value that identifies the audio mode.
 
 ## -returns
 
@@ -127,9 +127,8 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/directional-blur">Directional blur effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/directional-blur">Directional blur effect</a>.
 
 ## -enum-fields
 
@@ -80,7 +80,7 @@ The default value is 0.0f.
 The optimization mode. See Optimization modes for more info.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_directionalblur_optimization">D2D1_DIRECTIONALBLUR_OPTIMIZATION</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_directionalblur_optimization">D2D1_DIRECTIONALBLUR_OPTIMIZATION</a>.
 
 The default value is D2D1_DIRECTIONALBLUR_OPTIMIZATION_BALANCED.
 
@@ -89,9 +89,8 @@ The default value is D2D1_DIRECTIONALBLUR_OPTIMIZATION_BALANCED.
 The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 
 ### -field D2D1_DIRECTIONALBLUR_PROP_FORCE_DWORD
-

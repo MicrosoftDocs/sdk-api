@@ -60,7 +60,7 @@ The name of the payload file. The file name path must be relative to the root of
 
 ### -param inputStream [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of <i>fileName</i>.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of <i>fileName</i>.
 
 ### -param isDefaultApplicablePackage [in]
 
@@ -72,9 +72,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo2-getisdefaultapplicablepackage">GetIsDefaultApplicablePackage</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo2-getisdefaultapplicablepackage">GetIsDefaultApplicablePackage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter4">IAppxBundleWriter4</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter4">IAppxBundleWriter4</a>

@@ -54,23 +54,23 @@ Agents are the heart of a call center. They are responsible for receiving and pr
 <b>ITAgent</b> interface:
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagent-next">IEnumAgent::Next</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-ienumagent-next">IEnumAgent::Next</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_agent">ITAgentEvent::get_Agent</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_agent">ITAgentEvent::get_Agent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagent">ITAgentHandler::CreateAgent</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagent">ITAgentHandler::CreateAgent</a>
 
 
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a> for additional information.
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a> for additional information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,7 +85,7 @@ The <b>ITAgent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-createsession">CreateSession</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-createsession">CreateSession</a>
 </td>
 <td align="left" width="63%">
 Creates a new agent session.
@@ -94,7 +94,7 @@ Creates a new agent session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-createsessionwithpin">CreateSessionWithPIN</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-createsessionwithpin">CreateSessionWithPIN</a>
 </td>
 <td align="left" width="63%">
 Creates a new agent session, with Personal Identification Number (PIN).
@@ -103,7 +103,7 @@ Creates a new agent session, with Personal Identification Number (PIN).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-enumerateagentsessions">EnumerateAgentSessions</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-enumerateagentsessions">EnumerateAgentSessions</a>
 </td>
 <td align="left" width="63%">
 Enumerates the current agent sessions.
@@ -112,7 +112,7 @@ Enumerates the current agent sessions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_agentsessions">get_AgentSessions</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_agentsessions">get_AgentSessions</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of current agent sessions. This method is provided for Automation client applications, such as those written in Visual Basic.
@@ -121,7 +121,7 @@ Creates a collection of current agent sessions. This method is provided for Auto
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_id">get_ID</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_id">get_ID</a>
 </td>
 <td align="left" width="63%">
 Gets an agent's ID.
@@ -130,7 +130,7 @@ Gets an agent's ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>
 </td>
 <td align="left" width="63%">
 Gets the period (in seconds) for which the switch and/or implementation stores and calculates information.
@@ -139,7 +139,7 @@ Gets the period (in seconds) for which the switch and/or implementation stores a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofacdcalls">get_NumberOfACDCalls</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofacdcalls">get_NumberOfACDCalls</a>
 </td>
 <td align="left" width="63%">
 Gets the number of ACD calls handled by this agent across all sessions.
@@ -148,7 +148,7 @@ Gets the number of ACD calls handled by this agent across all sessions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofincomingcalls">get_NumberOfIncomingCalls</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofincomingcalls">get_NumberOfIncomingCalls</a>
 </td>
 <td align="left" width="63%">
 Gets the number of incoming non-ACD calls handled by this agent.
@@ -157,7 +157,7 @@ Gets the number of incoming non-ACD calls handled by this agent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofoutgoingcalls">get_NumberOfOutgoingCalls</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofoutgoingcalls">get_NumberOfOutgoingCalls</a>
 </td>
 <td align="left" width="63%">
 Gets the number of outgoing non-ACD calls handled by this agent.
@@ -166,7 +166,7 @@ Gets the number of outgoing non-ACD calls handled by this agent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_overallcallrate">get_OverallCallRate</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_overallcallrate">get_OverallCallRate</a>
 </td>
 <td align="left" width="63%">
 Gets the agent call rate across all sessions.
@@ -175,7 +175,7 @@ Gets the agent call rate across all sessions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">get_State</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">get_State</a>
 </td>
 <td align="left" width="63%">
 Gets the state of an agent session.
@@ -184,7 +184,7 @@ Gets the state of an agent session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalacdcalltime">get_TotalACDCallTime</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalacdcalltime">get_TotalACDCallTime</a>
 </td>
 <td align="left" width="63%">
 Gets the number of seconds spent on ACD calls by this agent, including wrap-up time.
@@ -193,7 +193,7 @@ Gets the number of seconds spent on ACD calls by this agent, including wrap-up t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalacdtalktime">get_TotalACDTalkTime</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalacdtalktime">get_TotalACDTalkTime</a>
 </td>
 <td align="left" width="63%">
 Gets the number of seconds spent talking in ACD calls by this agent (across all sessions).
@@ -202,7 +202,7 @@ Gets the number of seconds spent talking in ACD calls by this agent (across all 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalwrapuptime">get_TotalWrapUpTime</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalwrapuptime">get_TotalWrapUpTime</a>
 </td>
 <td align="left" width="63%">
 Gets the number of seconds spent on ACD wrap-up work by this agent.
@@ -211,7 +211,7 @@ Gets the number of seconds spent on ACD wrap-up work by this agent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_user">get_User</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_user">get_User</a>
 </td>
 <td align="left" width="63%">
 Gets the agent user name.
@@ -220,7 +220,7 @@ Gets the agent user name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_measurementperiod">put_MeasurementPeriod</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-put_measurementperiod">put_MeasurementPeriod</a>
 </td>
 <td align="left" width="63%">
 Sets the period (in seconds) for which the switch and/or implementation stores and calculates information.
@@ -229,7 +229,7 @@ Sets the period (in seconds) for which the switch and/or implementation stores a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">put_State</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">put_State</a>
 </td>
 <td align="left" width="63%">
 Sets the state of an agent session.
@@ -240,9 +240,8 @@ Sets the state of an agent session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -53,60 +53,59 @@ api_name:
 ## -description
 
 Defines the invocation schedule of the trigger within the <b>Type</b> member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure.
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure.
 
 ## -struct-fields
 
 ### -field Daily
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-daily">DAILY</a> structure that specifies the number of days between invocations of a task.
+<a href="/windows/desktop/api/mstask/ns-mstask-daily">DAILY</a> structure that specifies the number of days between invocations of a task.
 
 ### -field Weekly
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-weekly">WEEKLY</a> structure that specifies the number of weeks between invocations of a task, and day(s) of the week the task will run.
+<a href="/windows/desktop/api/mstask/ns-mstask-weekly">WEEKLY</a> structure that specifies the number of weeks between invocations of a task, and day(s) of the week the task will run.
 
 ### -field MonthlyDate
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-monthlydate">MONTHLYDATE</a> structure that specifies the month(s) and day(s) of the month a task will run.
+<a href="/windows/desktop/api/mstask/ns-mstask-monthlydate">MONTHLYDATE</a> structure that specifies the month(s) and day(s) of the month a task will run.
 
 ### -field MonthlyDOW
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-monthlydow">MONTHLYDOW</a> structure that specifies the day(s) of the year a task runs by month(s), week of month, and day(s) of week.
+<a href="/windows/desktop/api/mstask/ns-mstask-monthlydow">MONTHLYDOW</a> structure that specifies the day(s) of the year a task runs by month(s), week of month, and day(s) of week.
 
 ## -remarks
 
 The <b>TriggerType</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure defines which fields of this union are used.
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure defines which fields of this union are used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-daily">DAILY</a>
+<a href="/windows/desktop/api/mstask/ns-mstask-daily">DAILY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-monthlydate">MONTHLYDATE</a>
+<a href="/windows/desktop/api/mstask/ns-mstask-monthlydate">MONTHLYDATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-monthlydow">MONTHLYDOW</a>
+<a href="/windows/desktop/api/mstask/ns-mstask-monthlydow">MONTHLYDOW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type">Type</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type">Type</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-weekly">WEEKLY</a>
-
+<a href="/windows/desktop/api/mstask/ns-mstask-weekly">WEEKLY</a>

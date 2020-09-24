@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Tests whether two 3D vectors are equal, treating each component as an unsigned integer. In addition, this function returns a comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
+Tests whether two 3D vectors are equal, treating each component as an unsigned integer. In addition, this function returns a comparison value that can be examined using functions such as <a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Tests whether two 3D vectors are equal, treating each component as an unsigned i
 
 ## -returns
 
-Returns a comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
+Returns a comparison value that can be examined using functions such as <a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
 
 ## -remarks
 
@@ -83,9 +83,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector3-comparison">DirectXMath Library 3D Vector Comparison Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector3-comparison">DirectXMath Library 3D Vector Comparison Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector3equalint">XMVector3EqualInt</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector3equalint">XMVector3EqualInt</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets and sets a Boolean value that indicates whether future calls to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">BeginSearch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a> methods result in an automatic upgrade to Windows Update Agent (WUA). Currently, this property's valid value corresponds to the option that does not automatically upgrade  WUA.
+Gets and sets a Boolean value that indicates whether future calls to the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">BeginSearch</a> and <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a> methods result in an automatic upgrade to Windows Update Agent (WUA). Currently, this property's valid value corresponds to the option that does not automatically upgrade  WUA.
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>

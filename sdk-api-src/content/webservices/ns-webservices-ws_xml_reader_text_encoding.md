@@ -58,11 +58,10 @@ Used to indicate that the reader should interpret the bytes it reads as textual 
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_encoding">WS_XML_READER_ENCODING</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_encoding">WS_XML_READER_ENCODING</a>.
 
 ### -field charSet
 
-Indicates the text encoding of the bytes.  If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a> is specified then the reader will
+Indicates the text encoding of the bytes.  If <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a> is specified then the reader will
           determine the encoding of the document based on the first few bytes of the document.  If an xml declaration
           is present in the document, the reader will ensure that the encoding attribute coincides with this value.
-

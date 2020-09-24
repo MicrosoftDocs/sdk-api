@@ -57,7 +57,7 @@ Sets options for the stream selector.
 
 ### -param dwStreamSelectorFlags [in]
 
-Bitwise [MFASF_STREAMSELECTOR_FLAGS](/windows/win32/api/wmcontainer/ne-wmcontainer-mfasf_streamselector_flags) enumeration specifying the options to use.
+Bitwise [MFASF_STREAMSELECTOR_FLAGS](./ne-wmcontainer-mfasf_streamselector_flags.md) enumeration specifying the options to use.
 
 ## -returns
 
@@ -83,5 +83,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes the specified device from the list of devices that is returned by the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a> method.
+Removes the specified device from the list of devices that is returned by the <a href="/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a> method.
 
 ## -parameters
 
 ### -param device [in]
 
-A reference to an <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> that represents the device to remove from the list.
+A reference to an <a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> that represents the device to remove from the list.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>

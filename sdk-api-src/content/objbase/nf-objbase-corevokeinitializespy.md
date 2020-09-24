@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Revokes a registered implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> interface.
+Revokes a registered implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> interface.
 
 ## -parameters
 
@@ -69,17 +69,16 @@ This function can return the standard return value E_INVALIDARG, as well as S_OK
 
 ## -remarks
 
-<b>CoRevokeInitializeSpy</b> can only revoke cookies issued by previous calls to <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregisterinitializespy">CoRegisterInitializeSpy</a> that were executed on the current thread. Using a cookie from another thread, or one that corresponds to an already revoked registration, will return E_INVALIDARG.
+<b>CoRevokeInitializeSpy</b> can only revoke cookies issued by previous calls to <a href="/windows/desktop/api/objbase/nf-objbase-coregisterinitializespy">CoRegisterInitializeSpy</a> that were executed on the current thread. Using a cookie from another thread, or one that corresponds to an already revoked registration, will return E_INVALIDARG.
 
 
 
-It is unpredictable whether a call to <b>CoRevokeInitializeSpy</b> from within an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> method call will have an effect during the current top-level (non-nested) call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a>. The revocation will always have an effect after the current top-level call to <b>CoInitializeEx</b> or <b>CoUninitialize</b> returns.
+It is unpredictable whether a call to <b>CoRevokeInitializeSpy</b> from within an <a href="/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> method call will have an effect during the current top-level (non-nested) call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> or <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a>. The revocation will always have an effect after the current top-level call to <b>CoInitializeEx</b> or <b>CoUninitialize</b> returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregisterinitializespy">CoRegisterInitializeSpy</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coregisterinitializespy">CoRegisterInitializeSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>

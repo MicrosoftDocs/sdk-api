@@ -56,19 +56,19 @@ Requests the text host to create a timer with a specified time-out.
 
 ### -param idTimer [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Timer identifier.
 
 ### -param uTimeout [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Time-out in milliseconds.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return <b>TRUE</b> if the method succeeds. 
 
@@ -76,7 +76,7 @@ Return <b>FALSE</b> if the method fails.
 
 ## -remarks
 
-<i>idTimer</i> is used in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txkilltimer">ITextHost::TxKillTimer</a>.
+<i>idTimer</i> is used in <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txkilltimer">ITextHost::TxKillTimer</a>.
 
 ## -see-also
 
@@ -84,7 +84,7 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -92,9 +92,8 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txkilltimer">TxKillTimer</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txkilltimer">TxKillTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

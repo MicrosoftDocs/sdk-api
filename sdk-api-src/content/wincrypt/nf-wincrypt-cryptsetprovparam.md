@@ -52,14 +52,14 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetProvParam</b> function customizes the operations of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This function is commonly used to set a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> associated with a CSP to control access to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private keys</a> in that key container.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetProvParam</b> function customizes the operations of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This function is commonly used to set a <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> on the <a href="/windows/desktop/SecGloss/k-gly">key container</a> associated with a CSP to control access to the <a href="/windows/desktop/SecGloss/p-gly">private keys</a> in that key container.
 
 ## -parameters
 
 ### -param hProv [in]
 
 The handle of a CSP for which to set values. This handle must have already been created by using 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
 
 ### -param dwParam [in]
 
@@ -80,7 +80,7 @@ Specifies the parameter to set. This can be one of the following values.
 Set the window handle that the provider uses as the parent of any dialog boxes it creates. <i>pbData</i> contains a pointer to an <b>HWND</b> that contains the parent window handle.
 
 This parameter must be set before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> because many CSPs will display a user interface when <b>CryptAcquireContext</b> is called. You can pass <b>NULL</b> for the <i>hProv</i> parameter to set this window handle for all cryptographic contexts subsequently acquired within this <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> because many CSPs will display a user interface when <b>CryptAcquireContext</b> is called. You can pass <b>NULL</b> for the <i>hProv</i> parameter to set this window handle for all cryptographic contexts subsequently acquired within this <a href="/windows/desktop/SecGloss/p-gly">process</a>.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ This parameter must be set before calling
 </dl>
 </td>
 <td width="60%">
-Delete the ephemeral key associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encryption</a>, or verification context. This will free memory and clear registry settings associated with the key.
+Delete the ephemeral key associated with a <a href="/windows/desktop/SecGloss/h-gly">hash</a>, <a href="/windows/desktop/SecGloss/e-gly">encryption</a>, or verification context. This will free memory and clear registry settings associated with the key.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ This constant is not used.
 </dl>
 </td>
 <td width="60%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> on the key storage container. The <i>pbData</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security descriptor for the key storage container.
+Sets the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> on the key storage container. The <i>pbData</i> parameter is the address of a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security descriptor for the key storage container.
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ This constant is not used.
 </dl>
 </td>
 <td width="60%">
-For a smart card provider, sets the search string that is displayed to the user as a prompt to insert the smart card. This string is passed as the <b>lpstrSearchDesc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a> structure that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a> function. This string is used for the lifetime of the calling process.
+For a smart card provider, sets the search string that is displayed to the user as a prompt to insert the smart card. This string is passed as the <b>lpstrSearchDesc</b> member of the <a href="/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a> structure that is passed to the <a href="/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a> function. This string is used for the lifetime of the calling process.
 
 The <i>pbData</i> parameter is a pointer to a null-terminated Unicode string.
 
@@ -229,7 +229,7 @@ None of the Microsoft CSPs currently support using a hardware RNG.
 <td width="60%">
 Specifies the user certificate store for the smart card. This certificate store contains all of the user certificates that are stored on the smart card. The certificates in this store are encoded by using PKCS_7_ASN_ENCODING or X509_ASN_ENCODING encoding and should contain the <b>CERT_KEY_PROV_INFO_PROP_ID</b> property. 
 
-The <i>pbData</i> parameter is an <b>HCERTSTORE</b> variable that receives the handle of an in-memory certificate store. When this handle is no longer needed, the caller must close it by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
+The <i>pbData</i> parameter is an <b>HCERTSTORE</b> variable that receives the handle of an in-memory certificate store. When this handle is no longer needed, the caller must close it by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 <b>Windows Server 2003 and Windows XP:  </b>This parameter is not supported.
 
@@ -242,7 +242,7 @@ The <i>pbData</i> parameter is an <b>HCERTSTORE</b> variable that receives the h
 </dl>
 </td>
 <td width="60%">
-Specifies that an encrypted key exchange PIN is contained in <i>pbData</i>. The <i>pbData</i> parameter contains a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a>.
+Specifies that an encrypted key exchange PIN is contained in <i>pbData</i>. The <i>pbData</i> parameter contains a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a>.
 
 </td>
 </tr>
@@ -253,7 +253,7 @@ Specifies that an encrypted key exchange PIN is contained in <i>pbData</i>. The 
 </dl>
 </td>
 <td width="60%">
-Specifies that an encrypted signature PIN is contained in <i>pbData</i>. The <i>pbData</i> parameter contains a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a>.
+Specifies that an encrypted signature PIN is contained in <i>pbData</i>. The <i>pbData</i> parameter contains a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a>.
 
 </td>
 </tr>
@@ -292,11 +292,11 @@ A pointer to a data buffer that contains the value to be set as a provider param
 ### -param dwFlags [in]
 
 If <i>dwParam</i> contains <b>PP_KEYSET_SEC_DESCR</b>, <i>dwFlags</i> contains the <b>SECURITY_INFORMATION</b> applicable bit flags, as defined in the Platform SDK. Key-container security is handled by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfilesecuritya">GetFileSecurity</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a> and 
+<a href="/windows/desktop/api/winbase/nf-winbase-getfilesecuritya">GetFileSecurity</a>.
 
 These bit flags can be combined by using a bitwise-<b>OR</b> operation. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a>.
 
 If <i>dwParam</i> is <b>PP_USE_HARDWARE_RNG</b> or <b>PP_DELETEKEY</b>, <i>dwFlags</i> must be set to zero.
 
@@ -305,7 +305,7 @@ If <i>dwParam</i> is <b>PP_USE_HARDWARE_RNG</b> or <b>PP_DELETEKEY</b>, <i>dwFla
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by "NTE" are generated by the particular CSP being used. Error codes include the following.
 
@@ -321,7 +321,7 @@ The error codes prefaced by "NTE" are generated by the particular CSP being used
 </dl>
 </td>
 <td width="60%">
-The CSP context is currently being used by another <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a>.
+The CSP context is currently being used by another <a href="/windows/desktop/SecGloss/p-gly">process</a>.
 
 </td>
 </tr>
@@ -395,17 +395,16 @@ The function failed in some unexpected way.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>

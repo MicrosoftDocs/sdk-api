@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Frees a file name mapping object that was retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
+Frees a file name mapping object that was retrieved by the <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ Frees a file name mapping object that was retrieved by the <a href="https://docs
 Type: <b>HANDLE</b>
 
 A handle to the file name mapping object to be freed.
-

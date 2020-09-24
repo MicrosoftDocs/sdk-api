@@ -68,11 +68,10 @@ Returns TRUE if the format is supported.  Returns FALSE if the format is not sup
 
 ## -remarks
 
-You can use supported formats in the <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a> structure to create bitmaps and render targets.
+You can use supported formats in the <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a> structure to create bitmaps and render targets.
 
 Direct2D doesn't support all DXGI formats, even though they may have some level of Direct3D support by the hardware.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>

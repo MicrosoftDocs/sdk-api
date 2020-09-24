@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setbuttontext">PSM_SETBUTTONTEXT</a> message explicitly.
+Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="/windows/desktop/Controls/psm-setbuttontext">PSM_SETBUTTONTEXT</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard.
 
 ### -param dwButton
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One of the following values specifying the button whose text is set.
 
@@ -115,7 +115,6 @@ One of the following values specifying the button whose text is set.
 
 ### -param lpszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The text to set.
-

@@ -97,9 +97,8 @@ The <i>pfNullSOurceOrigin</i> parameter is an invalid pointer.
 
 ## -remarks
 
-The <i>pfNullSourceOrigin</i> parameter should be set to TRUE if <b>HasNullSourceOrigin</b> is invoked before <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a> has been invoked. For more information about the concept of origin in HTTP, see <a href="https://tools.ietf.org/html/rfc6454">RFC-6454</a>.
+The <i>pfNullSourceOrigin</i> parameter should be set to TRUE if <b>HasNullSourceOrigin</b> is invoked before <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a> has been invoked. For more information about the concept of origin in HTTP, see <a href="https://tools.ietf.org/html/rfc6454">RFC-6454</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

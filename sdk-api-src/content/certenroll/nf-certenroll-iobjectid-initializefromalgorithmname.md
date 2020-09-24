@@ -56,7 +56,7 @@ The <b>InitializeFromAlgorithmName</b> method initializes the object from an alg
 
 ### -param GroupId [in]
 
-An  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-objectidgroupid">ObjectIdGroupId</a> enumeration value that specifies the OID group to search. This can be any of the following algorithm groups:<ul>
+An  <a href="/windows/desktop/api/certenroll/ne-certenroll-objectidgroupid">ObjectIdGroupId</a> enumeration value that specifies the OID group to search. This can be any of the following algorithm groups:<ul>
 <li><b>XCN_CRYPT_HASH_ALG_OID_GROUP_ID</b></li>
 <li><b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b></li>
 <li><b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b></li>
@@ -71,14 +71,14 @@ An  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certen
 
 ### -param KeyFlags [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-objectidpublickeyflags">ObjectIdPublicKeyFlags</a> enumeration value that specifies whether to search for a signing or an encryption algorithm. This can be one of the following values:<ul>
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-objectidpublickeyflags">ObjectIdPublicKeyFlags</a> enumeration value that specifies whether to search for a signing or an encryption algorithm. This can be one of the following values:<ul>
 <li><b>XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG</b></li>
 <li><b>XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG</b></li>
 </ul>You can use either value to disambiguate among algorithms such as RSA that can be used to both encrypt and sign messages. You must also specify <b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b> in the <i>GroupId</i> parameter.
 
 ### -param AlgFlags [in]
 
-An  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-algorithmflags">AlgorithmFlags</a> enumeration value. This can be one of the following values:
+An  <a href="/windows/desktop/api/certenroll/ne-certenroll-algorithmflags">AlgorithmFlags</a> enumeration value. This can be one of the following values:
 
 <ul>
 <li><b>AlgorithmFlagsNone</b></li>
@@ -88,13 +88,13 @@ If you specify <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b> for the <i>GroupId</i> 
 
 ### -param strAlgorithmName [in]
 
-A <b>BSTR</b> variable that contains the name. You can specify a name, or an OID in dotted decimal format.  The method verifies that the format is consistent with the ASN.1 X.208 standard. For more information about CNG algorithm names, see <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a>.
+A <b>BSTR</b> variable that contains the name. You can specify a name, or an OID in dotted decimal format.  The method verifies that the format is consistent with the ASN.1 X.208 standard. For more information about CNG algorithm names, see <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a>.
 
 ## -returns
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -141,9 +141,8 @@ The object is already initialized.
 
 ## -remarks
 
-You can use the upper 16 bits of the <i>GroupId</i> parameter to specify the key size for algorithms that accept a variable bit length. For example, to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-<b>OR</b> combination on the shifted bit length and the <i>GroupId</i> value.
+You can use the upper 16 bits of the <i>GroupId</i> parameter to specify the key size for algorithms that accept a variable bit length. For example, to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-<b>OR</b> combination on the shifted bit length and the <i>GroupId</i> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a>

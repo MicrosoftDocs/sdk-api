@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>MSIPATCHSEQUENCEINFO</b> structure  is used by the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a> functions.
+The <b>MSIPATCHSEQUENCEINFO</b> structure  is used by the <a href="/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a> and <a href="/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a> functions.
 
 ## -struct-fields
 
@@ -118,18 +118,17 @@ Set to ERROR_SUCCESS or the corresponding Win32 error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a>
+<a href="/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a>
+<a href="/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msi.h header defines MSIPATCHSEQUENCEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

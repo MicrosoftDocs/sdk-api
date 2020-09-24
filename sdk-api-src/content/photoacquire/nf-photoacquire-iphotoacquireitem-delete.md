@@ -79,13 +79,12 @@ The method succeeded.
 
 ## -remarks
 
-To determine whether an item may be deleted, call <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-candelete">CanDelete</a> first.
+To determine whether an item may be deleted, call <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-candelete">CanDelete</a> first.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-candelete">IPhotoAcquireItem::CanDelete</a>
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-candelete">IPhotoAcquireItem::CanDelete</a>

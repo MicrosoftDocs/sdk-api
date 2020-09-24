@@ -55,19 +55,19 @@ api_name:
 The 
 <b>TcOpenInterface</b> function opens an interface. The 
 <b>TcOpenInterface</b> function identifies and opens an interface based on its text string, which is available from a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>. Once an interface is opened, the client must be prepared to receive notification regarding the open interface, through traffic control's use of the interface context.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>. Once an interface is opened, the client must be prepared to receive notification regarding the open interface, through traffic control's use of the interface context.
 
 ## -parameters
 
 ### -param pInterfaceName [in]
 
 Pointer to the text string identifying the interface to be opened. This text string is part of the information returned in a previous call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>.
 
 ### -param ClientHandle [in]
 
 Handle used by traffic control to identify the client, obtained through the <i>pClientHandle</i> parameter of the client's call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>.
 
 ### -param ClIfcCtx [in]
 
@@ -155,13 +155,12 @@ Use of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>

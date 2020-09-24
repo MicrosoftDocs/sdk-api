@@ -64,11 +64,11 @@ The number of elements in the array referenced by the <i>rgelt</i> parameter.
 
 Type: <b>LPITEMIDLIST*</b>
 
-The address of a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> pointers that receive the item identifiers. The implementation must allocate these item identifiers using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The calling application is responsible for freeing the item identifiers using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+The address of a pointer to an array of <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> pointers that receive the item identifiers. The implementation must allocate these item identifiers using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The calling application is responsible for freeing the item identifiers using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 					
                     
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures returned in the array are relative to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> being enumerated.
+The <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures returned in the array are relative to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> being enumerated.
 
 ### -param pceltFetched [out]
 
@@ -90,11 +90,10 @@ Returns a COM-defined error value otherwise.
 
 ## -remarks
 
-If this method returns a Component Object Model (COM) error code (as determined by the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macro), then no entries in the <i>rgelt</i> array are valid on exit. If this method returns a success code (such as S_OK or S_FALSE), then the <b>ULONG</b> pointed to by the <i>pceltFetched</i> parameter determines how many entries in the <i>rgelt</i> array are valid on exit.
+If this method returns a Component Object Model (COM) error code (as determined by the <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macro), then no entries in the <i>rgelt</i> array are valid on exit. If this method returns a success code (such as S_OK or S_FALSE), then the <b>ULONG</b> pointed to by the <i>pceltFetched</i> parameter determines how many entries in the <i>rgelt</i> array are valid on exit.
 
 The distinction is important in the case where <i>celt</i> &gt; 1. For example, if you pass <i>celt</i>=10 and there are only 3 elements left, *<i>pceltFetched</i> will be 3 and the method will return S_FALSE meaning that you reached the end of the file. The three fetched elements will be stored into <i>rgelt</i> and are valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>

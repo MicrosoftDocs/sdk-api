@@ -50,7 +50,7 @@ api_name:
 A 3x3 floating-point matrix.
 
 > [!NOTE]
-> See [Library internals](/windows/win32/dxmath/pg-xnamath-internals) for info about equivalent [D3DDECLTYPE](/windows/win32/direct3d9/d3ddecltype), [D3DFORMAT](/windows/win32/direct3d9/d3dformat), and [DXGI_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) objects.
+> See [Library internals](/windows/win32/dxmath/pg-xnamath-internals) for info about equivalent [D3DDECLTYPE](/windows/win32/direct3d9/d3ddecltype), [D3DFORMAT](/windows/win32/direct3d9/d3dformat), and [DXGI_FORMAT](../dxgiformat/ne-dxgiformat-dxgi_format.md) objects.
 
 ## -struct-fields
 
@@ -100,11 +100,10 @@ The scalar members of **XMFLOAT3X3** have names that follow the form *_\<row_num
 
 The member *m* is a 2-dimensional 3x3 array. It provides 0-based indexing of the structure's matrix. When accessing *m\[\<row_index\>, \<column_index\>\]*, *\<row_index\>* ranges from 0 to 2, and *\<column_index\>* ranges from 0 to 2.
 
-You can load an [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) from an **XMFLOAT3X3** by using [XMLoadFloat3x3](/windows/win32/api/directxmath/nf-directxmath-xmloadfloat3x3).
+You can load an [XMMATRIX](./ns-directxmath-xmmatrix.md) from an **XMFLOAT3X3** by using [XMLoadFloat3x3](./nf-directxmath-xmloadfloat3x3.md).
 
-You can store an [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) into an **XMFLOAT3X3** by using [XMStoreFloat3x3](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat3x3).
+You can store an [XMMATRIX](./ns-directxmath-xmmatrix.md) into an **XMFLOAT3X3** by using [XMStoreFloat3x3](./nf-directxmath-xmstorefloat3x3.md).
 
 ## -see-also
 
 [DirectXMath Library structures](/windows/win32/dxmath/ovw-xnamath-reference-structures)
-

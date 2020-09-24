@@ -62,19 +62,18 @@ The background color.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
- See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-getcellshading">ITextRow::GetCellShading</a> to see how the background color is used together with the foreground color.
+ See <a href="/windows/desktop/api/tom/nf-tom-itextrow-getcellshading">ITextRow::GetCellShading</a> to see how the background color is used together with the foreground color.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-getcellcolorback">ITextRow::GetCellColorBack</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrow-getcellcolorback">ITextRow::GetCellColorBack</a>

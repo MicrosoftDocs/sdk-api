@@ -93,7 +93,7 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 Type: <b>DWORD</b>
 
 The status of the connection. This element is not used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function. The following values are defined. 
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function. The following values are defined. 
 
 
 
@@ -194,7 +194,7 @@ The type of remote resource being accessed. This member can be one of the follow
 </td>
 <td width="60%">
 Matches the type of the server's shared resources. Wildcards can be used only with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function, and only when the <b>ui1_local</b> member is <b>NULL</b>. For more information, see the following Remarks section.
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function, and only when the <b>ui1_local</b> member is <b>NULL</b>. For more information, see the following Remarks section.
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ Interprocess communication (IPC).
 Type: <b>DWORD</b>
 
 The number of files, directories, and other processes that are open on the remote resource. This element is not used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function.
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function.
 
 ### -field ui1_usecount
 
@@ -246,29 +246,28 @@ The number of  explicit connections (redirection with a local device name) or im
 ## -remarks
 
 Specifying a <b>ui1_local</b> member that is <b>NULL</b> requests authentication with the server without redirecting a drive letter or a device. Future redirections involving the server while the same connection is in effect use the password specified by the <b>ui1_password</b> member in the initial call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function.
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/use-functions">Use Functions</a>
-
+<a href="/windows/desktop/NetMgmt/use-functions">Use Functions</a>

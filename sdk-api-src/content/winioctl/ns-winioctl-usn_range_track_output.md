@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Contains returned update sequence number (USN) from <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a> control code.
+Contains returned update sequence number (USN) from <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a> control code.
 
 ## -struct-fields
 
@@ -65,5 +65,4 @@ This structure is optional.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a>

@@ -64,9 +64,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-get_width">IMSVidRect::get_Width</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidrect-get_width">IMSVidRect::get_Width</a>

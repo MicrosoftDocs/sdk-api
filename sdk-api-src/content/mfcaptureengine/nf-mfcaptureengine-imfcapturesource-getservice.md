@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a pointer to the underlying <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a> object.
+Gets a pointer to the underlying <a href="/windows/desktop/medfound/source-reader">Source Reader</a> object.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The interface identifier (IID) of the interface being requested. The value must 
 
 ### -param ppUnknown [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -112,5 +112,4 @@ The capture source was not initialized. Possibly there is no capture device on t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>

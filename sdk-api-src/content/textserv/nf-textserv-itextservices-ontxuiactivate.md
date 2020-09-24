@@ -56,13 +56,13 @@ Informs the text services object that the control is now UI active.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The method always returns <b>S_OK</b>.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxinplaceactivate">ITextServices::OnTxInPlaceActivate</a> for a detailed description of activation.
+See <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxinplaceactivate">ITextServices::OnTxInPlaceActivate</a> for a detailed description of activation.
 
 ## -see-also
 
@@ -70,11 +70,11 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxinplaceactivate">OnTxInPlaceActivate</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxinplaceactivate">OnTxInPlaceActivate</a>
 
 
 
@@ -82,5 +82,4 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

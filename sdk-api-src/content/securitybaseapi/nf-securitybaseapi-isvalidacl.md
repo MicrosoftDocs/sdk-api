@@ -57,45 +57,44 @@ api_name:
 
 ## -description
 
-The <b>IsValidAcl</b> function validates an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
+The <b>IsValidAcl</b> function validates an <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 ## -parameters
 
 ### -param pAcl [in]
 
 A pointer to an
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure validated by this function. This value must not be <b>NULL</b>.
+      <a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure validated by this function. This value must not be <b>NULL</b>.
 
 ## -returns
 
 If the ACL is valid, the function returns nonzero.
       
 
-If the ACL is not valid, the function returns zero. There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the ACL is not valid, the function returns zero. There is no extended error information for this function; do not call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-This function checks the revision level of the ACL and verifies that the number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) specified in the <b>AceCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure fits the space specified by the <b>AclSize</b> member of the <b>ACL</b> structure.
+This function checks the revision level of the ACL and verifies that the number of <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) specified in the <b>AceCount</b> member of the <a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure fits the space specified by the <b>AclSize</b> member of the <b>ACL</b> structure.
 
 If <i>pAcl</i> is <b>NULL</b>, the application will fail with an access violation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation">GetAclInformation</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation">GetAclInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>

@@ -53,10 +53,10 @@ api_name:
 ## -description
 
 Defines the minimum and maximum number of items that may appear
-                when using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, 
+                when using <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, 
                 <b>WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING</b>,
                 or <b>WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</b> within
-                a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.  The constraint is only
+                a <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.  The constraint is only
                 enforced during deserialization.
 
 ## -struct-fields
@@ -68,4 +68,3 @@ The minimum number of elements that must appear.
 ### -field maxItemCount
 
 The maximum number of items that may appear.
-

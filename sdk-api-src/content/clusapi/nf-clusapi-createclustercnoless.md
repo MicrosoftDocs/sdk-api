@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates a cluster without <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">cluster name</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a>  resources. The allows you to create clusters that are domain joined but not managed by Active Directory, and clusters that are not members of a domain. <b>PCLUSAPI_CREATE_CLUSTER_CNOLESS</b> defines a pointer to this function.
+Creates a cluster without <a href="/previous-versions/windows/desktop/mscs/network-name">cluster name</a> and <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a>  resources. The allows you to create clusters that are domain joined but not managed by Active Directory, and clusters that are not members of a domain. <b>PCLUSAPI_CREATE_CLUSTER_CNOLESS</b> defines a pointer to this function.
 
 ## -parameters
 
 ### -param pConfig [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-create_cluster_config">CREATE_CLUSTER_CONFIG</a> structure that contains the cluster configuration.
+A pointer to the <a href="/windows/desktop/api/clusapi/ns-clusapi-create_cluster_config">CREATE_CLUSTER_CONFIG</a> structure that contains the cluster configuration.
 
 ### -param pfnProgressCallback [in, optional]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">ClusterSetupProgressCallback</a> callback function that receives the status of updates to the cluster.
+A pointer to the <a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">ClusterSetupProgressCallback</a> callback function that receives the status of updates to the cluster.
 
 ### -param pvCallbackArg [in, optional]
 
@@ -69,8 +69,8 @@ Callback function arguments for the <i>pfnProgressCallback</i> parameter.
 ## -returns
 
 A handle to the new cluster or <b>NULL</b>. A non <b>NULL</b> 
-      value does not indicate success (even if all nodes are added to the cluster, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> or 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource creation can fail). After a failure, you should check the parameters 
+      value does not indicate success (even if all nodes are added to the cluster, the <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> or 
+      <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource creation can fail). After a failure, you should check the parameters 
       passed through the   <i>pfnProgressCallback</i> parameter.
 
 <table>
@@ -86,7 +86,7 @@ A handle to the new cluster or <b>NULL</b>. A non <b>NULL</b>
 </td>
 <td width="60%">
 Less than a majority of nodes were successfully created. For more information about the error, call the 
-        function <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        function <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -98,5 +98,4 @@ To create clusters that are not domain joined, an non-domain account must have p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>

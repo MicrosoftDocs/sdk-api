@@ -52,18 +52,18 @@ api_name:
 
 The 
 <b>TcAddFlow</b> function adds a new flow on the specified interface. Note that the successful addition of a flow does not necessarily indicate a change in the way traffic is handled; traffic handling changes are effected by attaching a filter to the added flow, using the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
 
 Traffic control clients that have registered an <b>AddFlowComplete</b> handler (a mechanism for allowing traffic control to call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a> callback function in order to alert clients of completed flow additions) can expect a return value of ERROR_SIGNAL_PENDING. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/traffic-control-objects">Traffic Control Objects</a>.
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a> callback function in order to alert clients of completed flow additions) can expect a return value of ERROR_SIGNAL_PENDING. For more information, see 
+<a href="/previous-versions/windows/desktop/qos/traffic-control-objects">Traffic Control Objects</a>.
 
 ## -parameters
 
 ### -param IfcHandle [in]
 
 Handle associated with the interface on which the flow is to be added. This handle is obtained by a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
 
 ### -param ClFlowCtx [in]
 
@@ -110,7 +110,7 @@ The function executed without errors.
 </td>
 <td width="60%">
 The function is being executed asynchronously; the client will be called back through the client-exposed 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a> function when the flow has been added or when the process has been completed.
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a> function when the flow has been added or when the process has been completed.
 
 </td>
 </tr>
@@ -243,7 +243,7 @@ Bad length specified for the TC objects.
 </td>
 <td width="60%">
 Applies to Diffserv flows. Indicates that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a> object was passed with an invalid parameter.
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a> object was passed with an invalid parameter.
 
 </td>
 </tr>
@@ -255,7 +255,7 @@ Applies to Diffserv flows. Indicates that the
 </td>
 <td width="60%">
 Applies to Diffserv flows. Indicates that the QOS_DIFFSERV_RULE specified in 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a> already applies to an existing flow on the interface.
+<a href="/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a> already applies to an existing flow on the interface.
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ Applies to Diffserv flows. Indicates that the QOS_DIFFSERV_RULE specified in
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_shaping_rate">QOS_SHAPING_RATE</a> object was passed with an invalid <b>ShapingRate</b> member.
+<a href="/windows/desktop/api/qos/ns-qos-qos_shaping_rate">QOS_SHAPING_RATE</a> object was passed with an invalid <b>ShapingRate</b> member.
 
 </td>
 </tr>
@@ -299,13 +299,13 @@ The network cable is not plugged into the adapter.
 
 If the 
 <b>TcAddFlow</b> function returns ERROR_SIGNAL_PENDING, the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a> function will be called on a different thread than the thread that called the 
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a> function will be called on a different thread than the thread that called the 
 <b>TcAddFlow</b> function.
 
 Only the addition of a filter will affect traffic control. However, the addition of a flow will cause resources to be committed within traffic control components. This enables traffic control to prepare for handling traffic on the added flow.
 
 Traffic control may delete a flow for various reasons, including the inability to accommodate the flow due to bandwidth restrictions, and adjusted policy requirements. Clients are notified of deleted flows through the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a> callback function, with the TC_NOTIFY_FLOW_CLOSE event.
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a> callback function, with the TC_NOTIFY_FLOW_CLOSE event.
 
 <div class="alert"><b>Note</b>  Use of the 
 <b>TcAddFlow</b> function requires administrative privilege.</div>
@@ -313,21 +313,20 @@ Traffic control may delete a flow for various reasons, including the inability t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a>
+<a href="/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>

@@ -383,11 +383,10 @@ The values of the <i>QueryFlags</i> parameter may be combined to query for devic
 #### Examples
 
 For an example that uses this function, see 
-     <a href="https://docs.microsoft.com/windows/desktop/Power/using-the-device-power-api">Using the Device Power API</a>.
+     <a href="/windows/desktop/Power/using-the-device-power-api">Using the Device Power API</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/device-power-management">Device Power Management</a>
-
+<a href="/windows/desktop/Power/device-power-management">Device Power Management</a>

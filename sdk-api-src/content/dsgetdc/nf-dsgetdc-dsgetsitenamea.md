@@ -63,7 +63,7 @@ Pointer to a null-terminated string that specifies the name of the server to sen
 ### -param SiteName [out]
 
 Pointer to a variable that receives a pointer to a null-terminated string specifying the site location of this computer. This string is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
 ## -returns
 
@@ -84,17 +84,16 @@ The <b>DsGetSiteName</b> function does not require any particular access to the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
+<a href="/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsvalidatesubnetnamea">DsValidateSubnetName</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsvalidatesubnetnamea">DsValidateSubnetName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
-
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>

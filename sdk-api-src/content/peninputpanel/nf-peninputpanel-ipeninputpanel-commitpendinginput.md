@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Sends collected ink to the recognizer and posts the recognition result.
 
@@ -103,13 +103,13 @@ An unspecified error occurred.
 
 ## -remarks
 
-The writing pad sends the collected ink to the recognizer and clears the writing pad. The East Asian multibox sends recognized characters and clears multiboxes. The recognition result is sent to the control to which the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is attached.
+The writing pad sends the collected ink to the recognizer and clears the writing pad. The East Asian multibox sends recognized characters and clears multiboxes. The recognition result is sent to the control to which the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is attached.
 
-If there is no pending input or the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel">CurrentPanel</a> property is <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-paneltype">Keyboard</a>, <b>CommitPendingInput</b> does nothing. If the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is inactive, calling this method generates an error.
+If there is no pending input or the <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel">CurrentPanel</a> property is <a href="/windows/desktop/api/peninputpanel/ne-peninputpanel-paneltype">Keyboard</a>, <b>CommitPendingInput</b> does nothing. If the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is inactive, calling this method generates an error.
 
 Starting with Microsoft Windows XP Tablet PC Edition 2005, ink is recognized as the user is entering. Therefore, the <b>CommitPendingInput</b> function sends the already recognized text to the edit control; it does not force recognition to occur.
 
-Starting with Windows XP Tablet PC Edition 2005, if the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is inactive, <b>CommitPendingInput</b> does not generate an error, it simply returns.
+Starting with Windows XP Tablet PC Edition 2005, if the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is inactive, <b>CommitPendingInput</b> does not generate an error, it simply returns.
 
 ## -see-also
 
@@ -117,5 +117,4 @@ Starting with Windows XP Tablet PC Edition 2005, if the <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-
+<a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>

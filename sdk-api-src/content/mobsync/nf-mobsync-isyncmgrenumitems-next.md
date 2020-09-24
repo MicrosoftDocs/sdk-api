@@ -62,7 +62,7 @@ The number of items in the array.
 
 ### -param rgelt [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgritem">SYNCMGRITEM</a>*</b>
+Type: <b><a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgritem">SYNCMGRITEM</a>*</b>
 
 The address of array containing items.
 
@@ -81,4 +81,3 @@ Return S_OK if the method succeeds.
 ## -remarks
 
 E_NOTIMPL is not allowed as a return value. If an error value is returned, no entries in the <i>rgelt</i> array are valid on exit and require no release.
-

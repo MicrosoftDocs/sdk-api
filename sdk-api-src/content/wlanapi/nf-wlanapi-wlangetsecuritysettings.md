@@ -56,11 +56,11 @@ The <b>WlanGetSecuritySettings</b> function gets the security settings associate
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param SecurableObject [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object">WLAN_SECURABLE_OBJECT</a> value that specifies the object to which the security settings apply.
+A <a href="/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object">WLAN_SECURABLE_OBJECT</a> value that specifies the object to which the security settings apply.
 
 ### -param pValueType [out, optional]
 
@@ -87,7 +87,7 @@ The security settings were set by group policy.
 </dl>
 </td>
 <td width="60%">
-The security settings were set by the user. A user can set security settings by calling <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a>.
+The security settings were set by the user. A user can set security settings by calling <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a>.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The security settings were set by the user. A user can set security settings by 
 
 On input, this parameter must be <b>NULL</b>. 
 
-On output, this parameter receives a pointer to the security descriptor string that specifies the security settings for the object if the function call succeeds. For more information about this string, see <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a> function.
+On output, this parameter receives a pointer to the security descriptor string that specifies the security settings for the object if the function call succeeds. For more information about this string, see <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a> function.
 
 ### -param pdwGrantedAccess [out]
 
@@ -208,17 +208,16 @@ This function was called from an unsupported platform. This value will be return
 
 ## -remarks
 
-The caller is responsible for freeing the memory allocated to the security descriptor string pointed to by the <i>pstrCurrentSDDL</i> parameter if the function succeeds. When no longer needed, the memory for the security descriptor string should be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function and passing in the <i>pstrCurrentSDDL</i> parameter.
+The caller is responsible for freeing the memory allocated to the security descriptor string pointed to by the <i>pstrCurrentSDDL</i> parameter if the function succeeds. When no longer needed, the memory for the security descriptor string should be freed by calling <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function and passing in the <i>pstrCurrentSDDL</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-api-permissions">Native Wifi API Permissions</a>
+<a href="/windows/desktop/NativeWiFi/native-wifi-api-permissions">Native Wifi API Permissions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a>

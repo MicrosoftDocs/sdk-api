@@ -65,17 +65,16 @@ If routing protocol is shutting down asynchronously, the return value is ERROR_P
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>

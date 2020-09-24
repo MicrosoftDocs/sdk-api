@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>WINHTTP_AUTOPROXY_OPTIONS</b> structure is used to indicate to the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForURL</a> function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
+The <b>WINHTTP_AUTOPROXY_OPTIONS</b> structure is used to indicate to the <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForURL</a> function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
 
 ## -struct-fields
 
@@ -168,7 +168,7 @@ Disables querying Direct Access proxy settings for this request.
 <td width="60%">
 Executes the Web Proxy Auto-Discovery (WPAD) protocol in-process instead of delegating to an out-of-process WinHTTP AutoProxy Service, if available. This flag must be combined with one of the other flags.
 
-This option has no effect when passed to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
+This option has no effect when passed to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 
 <div class="alert"><b>Note</b>  This flag is deprecated.</div>
 <div> </div>
@@ -184,7 +184,7 @@ This option has no effect when passed to <a href="https://docs.microsoft.com/win
 <td width="60%">
 By default, WinHTTP is configured to fall back to auto-discover a proxy in-process. If this fallback behavior is undesirable in the event that an out-of-process discovery fails, it can be disabled using this flag.
 
-This option has no effect when passed to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
+This option has no effect when passed to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 
 
 <div class="alert"><b>Note</b>  This flag is available on Windows Server 2003 only.</div>
@@ -256,9 +256,8 @@ Reserved for future use; must be zero.
 
 Specifies whether the client's domain credentials should be automatically sent in response to an NTLM or Negotiate Authentication challenge when WinHTTP requests the PAC file.
 
-If this flag is TRUE, credentials should automatically be sent in response to an authentication challenge. If this flag is FALSE and authentication is required to download the PAC file, the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> function fails.
+If this flag is TRUE, credentials should automatically be sent in response to an authentication challenge. If this flag is FALSE and authentication is required to download the PAC file, the <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> function fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
-
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>

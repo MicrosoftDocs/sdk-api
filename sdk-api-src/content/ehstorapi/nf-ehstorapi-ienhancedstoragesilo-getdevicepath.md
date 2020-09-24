@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the path to the silo device node. The returned string is suitable for passing to <b>Windows System</b> APIs such as <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfacea">SetupDiOpenDeviceInterface</a>.
+Retrieves the path to the silo device node. The returned string is suitable for passing to <b>Windows System</b> APIs such as <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfacea">SetupDiOpenDeviceInterface</a>.
 
 ## -parameters
 
@@ -93,9 +93,8 @@ Device path string was retrieved successfully.
 
 ## -remarks
 
-The memory to contain the device path string is allocated by the Enhanced Storage API and must be freed  by passing the  returned pointer to <a href="https://msdn.microsoft.com/library/ms680722.aspx">CoTaskMemFree</a>.
+The memory to contain the device path string is allocated by the Enhanced Storage API and must be freed  by passing the  returned pointer to <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>

@@ -55,7 +55,7 @@ api_name:
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -65,7 +65,7 @@ The <b>DRMCreateEnablingBitsDecryptor</b> function creates a decryption object t
 
 ### -param hBoundLicense [in]
 
-A handle to a bound license object created by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>.
+A handle to a bound license object created by using <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>.
 
 ### -param wszRight [in, optional]
 
@@ -87,29 +87,28 @@ A pointer to the decrypting object.
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 A consuming application performs the following steps to decrypt content previously encrypted by a publishing application.<ol>
-<li>Retrieve an end-user license. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a> to retrieve the license if it already exists in the store. If function succeeds, go to step 2. If the license is not in the store, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a> followed by <b>DRMEnumerateLicense</b>.</li>
-<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a> to create a license that binds to one or more rights in the end-user license. The bound license includes a symmetric key that can be used for decryption.</li>
+<li>Retrieve an end-user license. Call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a> to retrieve the license if it already exists in the store. If function succeeds, go to step 2. If the license is not in the store, call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a> followed by <b>DRMEnumerateLicense</b>.</li>
+<li>Call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a> to create a license that binds to one or more rights in the end-user license. The bound license includes a symmetric key that can be used for decryption.</li>
 <li>Call <b>DRMCreateEnablingBitsDecryptor</b> to create an decrypting object associated with the bound right and content key.</li>
-<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmdecrypt">DRMDecrypt</a> to use the content key to decrypt the content.</li>
+<li>Call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmdecrypt">DRMDecrypt</a> to use the content key to decrypt the content.</li>
 </ol>
 
 
-Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a> function to close the decrypting object handle when you are finished with it. Both the decrypting object handle and the bound license handle must remain open until decryption is complete.
+Call the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a> function to close the decrypting object handle when you are finished with it. Both the decrypting object handle and the bound license handle must remain open until decryption is complete.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsencryptor">DRMCreateEnablingBitsEncryptor</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsencryptor">DRMCreateEnablingBitsEncryptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/decrypting-content">Decrypting Content</a>
-
+<a href="/previous-versions/windows/desktop/adrms_sdk/decrypting-content">Decrypting Content</a>

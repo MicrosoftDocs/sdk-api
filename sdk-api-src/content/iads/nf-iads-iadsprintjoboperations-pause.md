@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-The <b>IADsPrintJobOperations::Pause</b> method halts the processing of the current print job. Call the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintjoboperations-resume">IADsPrintJobOperations::Resume</a> method to continue the processing.
+The <b>IADsPrintJobOperations::Pause</b> method halts the processing of the current print job. Call the  <a href="/windows/desktop/api/iads/nf-iads-iadsprintjoboperations-resume">IADsPrintJobOperations::Resume</a> method to continue the processing.
 
 ## -parameters
 
 ## -returns
 
-This method supports standard return values. For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports standard return values. For other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintjoboperations">IADsPrintJobOperations</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsprintjoboperations">IADsPrintJobOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintjoboperations-resume">IADsPrintJobOperations::Resume</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsprintjoboperations-resume">IADsPrintJobOperations::Resume</a>

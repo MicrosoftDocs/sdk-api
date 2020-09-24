@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Frees the parameters that the <a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a> method returned.
+Frees the parameters that the <a href="/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a> method returned.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ A list of indexed resource qualifiers that declare the context under which the r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a>
+<a href="/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/ns-resourceindexer-indexedresourcequalifier">IndexedResourceQualifier</a>
-
+<a href="/windows/desktop/api/resourceindexer/ns-resourceindexer-indexedresourcequalifier">IndexedResourceQualifier</a>

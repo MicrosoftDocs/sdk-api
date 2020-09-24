@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Called by an  <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> to insert text into an app.
+Called by an  <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> to insert text into an app.
 
-<b>Request</b> is the only method that <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> can call. By calling this method with one of the <b>IMEPADREQ_*</b> request IDs, <b>IImePadApplet</b> can insert text into an app and can control IME's composition string in an  app.
+<b>Request</b> is the only method that <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> can call. By calling this method with one of the <b>IMEPADREQ_*</b> request IDs, <b>IImePadApplet</b> can insert text into an app and can control IME's composition string in an  app.
 
 ## -parameters
 
@@ -134,7 +134,7 @@ Gets the current composition string text.
 Gets information about the current composition string.
 
 <ul>
-<li><i>wParam</i>: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-imecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a> structure that receives the composition information.</li>
+<li><i>wParam</i>: Pointer to a <a href="/windows/desktop/api/imepad/ns-imepad-imecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a> structure that receives the composition information.</li>
 <li><i>lParam</i>: Not used. Must be set to 0.</li>
 </ul>
 </td>
@@ -203,10 +203,10 @@ Keeps the ImePad window visible.
 </dl>
 </td>
 <td width="60%">
-Causes <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to call the applet's <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">Notify</a> method asynchronously with a specific notification Id and user-defined data.
+Causes <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to call the applet's <a href="/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">Notify</a> method asynchronously with a specific notification Id and user-defined data.
 
 <ul>
-<li><i>wParam</i>: The notify code (<b>IMEPN_*</b>). See the Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> for the possible <b>IMEPN_*</b> codes.</li>
+<li><i>wParam</i>: The notify code (<b>IMEPN_*</b>). See the Remarks for <a href="/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> for the possible <b>IMEPN_*</b> codes.</li>
 <li><i>lParam</i>: User-defined data</li>
 </ul>
 </td>
@@ -330,7 +330,7 @@ Gets the current application IME's conversion status. For a complete list of con
 </dl>
 </td>
 <td width="60%">
-Gets <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>'s version information.
+Gets <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>'s version information.
 
 <ul>
 <li><i>wParam</i>: Address to receive Major version (<b>DWORD</b> *).</li>
@@ -529,13 +529,12 @@ These are the possible values that can be received via <i>wParam</i> when <i>req
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>
+<a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
+<a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-imecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a>
-
+<a href="/windows/desktop/api/imepad/ns-imepad-imecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a>

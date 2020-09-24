@@ -56,7 +56,7 @@ Requests information about the scroll bars supported by the text host.
 
 ### -param pdwScrollBar
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 The scroll bar. This parameter can be a combination of the following window styles related to scroll bars. 
 
@@ -119,15 +119,14 @@ Disables scroll bars instead of hiding them when they are not needed.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The return value is <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>

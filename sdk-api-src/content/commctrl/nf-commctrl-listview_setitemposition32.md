@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Moves an item to a specified position in a list-view control (in icon or small icon view). This macro differs from the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemposition">ListView_SetItemPosition</a> macro in that it uses 32-bit coordinates. You can use the <b>ListView_SetItemPosition32</b> macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemposition32">LVM_SETITEMPOSITION32</a> message explicitly.
+Moves an item to a specified position in a list-view control (in icon or small icon view). This macro differs from the <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setitemposition">ListView_SetItemPosition</a> macro in that it uses 32-bit coordinates. You can use the <b>ListView_SetItemPosition32</b> macro or send the <a href="/windows/desktop/Controls/lvm-setitemposition32">LVM_SETITEMPOSITION32</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -80,5 +80,4 @@ New vertical coordinates of the item.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
-
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>

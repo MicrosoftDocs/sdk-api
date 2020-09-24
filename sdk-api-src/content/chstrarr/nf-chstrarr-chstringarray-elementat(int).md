@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>ElementAt</b> method returns a temporary reference to the element pointer within the array.
@@ -63,11 +63,11 @@ The <b>ElementAt</b> method returns a temporary reference to the element pointer
 
 ### -param nIndex
 
-An integer index that is greater than or equal to zero and less than or equal to the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getupperbound">GetUpperBound</a>.
+An integer index that is greater than or equal to zero and less than or equal to the value returned by <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getupperbound">GetUpperBound</a>.
 
 ## -returns
 
-If the <b>ElementAt</b> method is successful, it returns a reference to the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string at the <i>nIndex</i> position in the <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> array.
+If the <b>ElementAt</b> method is successful, it returns a reference to the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string at the <i>nIndex</i> position in the <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> array.
 
 ## -remarks
 
@@ -76,23 +76,22 @@ Use the <b>ElementAt</b> method to implement the left-side assignment operator f
 
 #### Examples
 
-See the example for <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getsize">CHStringArray::GetSize</a>.
+See the example for <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getsize">CHStringArray::GetSize</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
+<a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getat(int)">CHStringArray::GetAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getat(int)">CHStringArray::GetAt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getdata">CHStringArray::GetData</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getdata">CHStringArray::GetData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">CHStringArray::SetAt</a>
-
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">CHStringArray::SetAt</a>

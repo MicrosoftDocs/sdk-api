@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enumerates the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependencies</a> of a specified  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> in the local <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to a dependency of a specified  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a>. The <b>PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY</b> type defines a pointer to this function.
+Enumerates the  <a href="/previous-versions/windows/desktop/mscs/resource-dependencies">dependencies</a> of a specified  <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> in the local <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to a dependency of a specified  <a href="/previous-versions/windows/desktop/mscs/resource-types">resource type</a>. The <b>PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -65,14 +65,14 @@ Null-terminated Unicode string specifying the resource type of the dependency to
 ## -returns
 
 If the operation succeeds, 
-the function returns a handle to one of the resources on which the resource specified by <i>lpszResourceName</i> depends. The caller is responsible for closing the handle by calling  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>.
+the function returns a handle to one of the resources on which the resource specified by <i>lpszResourceName</i> depends. The caller is responsible for closing the handle by calling  <a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>.
 
 If the operation fails, 
-the function returns <b>NULL</b>. For more information, call the function  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+the function returns <b>NULL</b>. For more information, call the function  <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The  <b>ResUtilGetResourceNameDependency</b>,  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependency">ResUtilGetResourceDependency</a>, and  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyname">ResUtilGetResourceDependencyByName</a> functions are very similar in that they all provide access to dependencies of a particular resource type. The following table summarizes the differences between the functions.
+The  <b>ResUtilGetResourceNameDependency</b>,  <a href="/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependency">ResUtilGetResourceDependency</a>, and  <a href="/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyname">ResUtilGetResourceDependencyByName</a> functions are very similar in that they all provide access to dependencies of a particular resource type. The following table summarizes the differences between the functions.
 
 <table>
 <tr>
@@ -82,14 +82,14 @@ The  <b>ResUtilGetResourceNameDependency</b>,  <a href="https://docs.microsoft.c
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependency">ResUtilGetResourceDependency</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependency">ResUtilGetResourceDependency</a>
 </td>
 <td>Resource handle</td>
 <td>No</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyname">ResUtilGetResourceDependencyByName</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyname">ResUtilGetResourceDependencyByName</a>
 </td>
 <td>Resource handle</td>
 <td>Yes</td>
@@ -102,12 +102,12 @@ The  <b>ResUtilGetResourceNameDependency</b>,  <a href="https://docs.microsoft.c
 </table>
  
 
-Do not call  <b>ResUtilGetResourceNameDependency</b> from any resource DLL entry point function.  <b>ResUtilGetResourceNameDependency</b> can safely be called from a worker thread. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>ResUtilGetResourceNameDependency</b> from any resource DLL entry point function.  <b>ResUtilGetResourceNameDependency</b> can safely be called from a worker thread. For more information, see  <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-As the following example illustrates, if you know that resource A depends on a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resource, you can use  <b>ResUtilGetResourceNameDependency</b> to obtain a handle to the dependency.
+As the following example illustrates, if you know that resource A depends on a  <a href="/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resource, you can use  <b>ResUtilGetResourceNameDependency</b> to obtain a handle to the dependency.
 
 
 ```cpp
@@ -123,25 +123,24 @@ HRESOURCE hResD = ResUtilGetResourceNameDependency(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfinddependentdiskresourcedriveletter">ResUtilFindDependentDiskResourceDriveLetter</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilfinddependentdiskresourcedriveletter">ResUtilFindDependentDiskResourceDriveLetter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependency">ResUtilGetResourceDependency</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependency">ResUtilGetResourceDependency</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyclass">ResUtilGetResourceDependencyByClass</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyclass">ResUtilGetResourceDependencyByClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyname">ResUtilGetResourceDependencyByName</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyname">ResUtilGetResourceDependencyByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependentipaddressprops">ResUtilGetResourceDependentIPAddressProps</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependentipaddressprops">ResUtilGetResourceDependentIPAddressProps</a>

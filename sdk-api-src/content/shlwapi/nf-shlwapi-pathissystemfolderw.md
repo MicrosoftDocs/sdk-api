@@ -66,7 +66,7 @@ A pointer to a null-terminated string of maximum length MAX_PATH that contains t
 
 Type: <b>DWORD</b>
 
-The file attributes to be compared. Used only if <i>pszPath</i> is <b>NULL</b>. In that case, the attributes passed in this value are compared with those that qualify a folder as a system folder. If the attributes are sufficient to make this a system folder, this function returns nonzero. These attributes are the attributes that are returned from <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>.
+The file attributes to be compared. Used only if <i>pszPath</i> is <b>NULL</b>. In that case, the attributes passed in this value are compared with those that qualify a folder as a system folder. If the attributes are sufficient to make this a system folder, this function returns nonzero. These attributes are the attributes that are returned from <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>.
 
 ## -returns
 
@@ -78,4 +78,3 @@ Returns nonzero if the <i>pszPath</i> or <i>dwAttrb</i> represent a system folde
 
 > [!NOTE]
 > The shlwapi.h header defines PathIsSystemFolder as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

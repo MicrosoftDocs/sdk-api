@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>IsCanonicalPixelFormat</b> method determines whether a specified pixel format is one of the canonical formats: <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat32bppARGB</a> or <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat64bppARGB</a>.
+The <b>IsCanonicalPixelFormat</b> method determines whether a specified pixel format is one of the canonical formats: <a href="/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat32bppARGB</a> or <a href="/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat64bppARGB</a>.
 
 ## -parameters
 
@@ -60,11 +60,10 @@ The <b>IsCanonicalPixelFormat</b> method determines whether a specified pixel fo
 
 Type: <b>PixelFormat</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> constant that specifies the pixel format to be tested.
+A <a href="/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> constant that specifies the pixel format to be tested.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-If the pixel format is <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat32bppARGB</a> or <b>PixelFormat64bppARGB</b>, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
-
+If the pixel format is <a href="/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat32bppARGB</a> or <b>PixelFormat64bppARGB</b>, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.

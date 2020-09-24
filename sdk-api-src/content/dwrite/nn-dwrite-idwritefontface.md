@@ -49,5 +49,4 @@ api_name:
 
 This interface exposes various font data such as metrics, names, and glyph outlines. It contains font face type, appropriate file references, and face identification data.
 
-This interface extends [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown).
-
+This interface extends [IUnknown](../unknwn/nn-unknwn-iunknown.md).

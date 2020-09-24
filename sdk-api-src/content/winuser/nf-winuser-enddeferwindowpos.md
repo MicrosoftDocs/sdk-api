@@ -64,7 +64,7 @@ Simultaneously updates the position and size of one or more windows in a single 
 Type: <b>HDWP</b>
 
 A handle to a multiple-window 
-					– position structure that contains size and position information for one or more windows. This internal structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a> function or by the most recent call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> function.
+					– position structure that contains size and position information for one or more windows. This internal structure is returned by the <a href="/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a> function or by the most recent call to the <a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> function.
 
 ## -returns
 
@@ -72,15 +72,15 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>EndDeferWindowPos</b> function sends the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> and <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanged">WM_WINDOWPOSCHANGED</a> messages to each window identified in the internal structure.
+The <b>EndDeferWindowPos</b> function sends the <a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> and <a href="/windows/desktop/winmsg/wm-windowposchanged">WM_WINDOWPOSCHANGED</a> messages to each window identified in the internal structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a>
 
 
 
@@ -88,7 +88,7 @@ The <b>EndDeferWindowPos</b> function sends the <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a>
 
 
 
@@ -96,13 +96,12 @@ The <b>EndDeferWindowPos</b> function sends the <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanged">WM_WINDOWPOSCHANGED</a>
+<a href="/windows/desktop/winmsg/wm-windowposchanged">WM_WINDOWPOSCHANGED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a>
+<a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

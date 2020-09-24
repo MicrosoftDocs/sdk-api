@@ -50,12 +50,12 @@ api_name:
 
 ## -description
 
-A  locking mechanism from a <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> factory that Direct2D 
+A  locking mechanism from a <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> factory that Direct2D 
           uses to control exclusive resource access in an app that is uses multiple threads.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Multithread</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1Multithread</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Multithread</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1Multithread</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1Multithread</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1multithread-enter">Enter</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1multithread-enter">Enter</a>
 </td>
 <td align="left" width="63%">
 Enters the Direct2D API critical section, if it exists. 
@@ -79,17 +79,17 @@ Enters the Direct2D API critical section, if it exists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1multithread-getmultithreadprotected">GetMultithreadProtected</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1multithread-getmultithreadprotected">GetMultithreadProtected</a>
 </td>
 <td align="left" width="63%">
-Returns whether the Direct2D factory was created with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE_MULTI_THREADED</a> flag.
+Returns whether the Direct2D factory was created with the <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE_MULTI_THREADED</a> flag.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1multithread-leave">Leave</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1multithread-leave">Leave</a>
 </td>
 <td align="left" width="63%">
 Leaves the Direct2D API critical section, if it exists.
@@ -100,19 +100,18 @@ Leaves the Direct2D API critical section, if it exists.
 
 ## -remarks
 
-You can get an <b>ID2D1Multithread</b> object by querying for it from an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> 
+You can get an <b>ID2D1Multithread</b> object by querying for it from an <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> 
         object.
       
 
-You should use this lock while doing any operation on a Direct3D/DXGI surface. <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> will wait on any call until you 
+You should use this lock while doing any operation on a Direct3D/DXGI surface. <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> will wait on any call until you 
         leave the critical section.
       
 
-<div class="alert"><b>Note</b>  Normal rendering is guarded automatically by an internal <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> lock.
+<div class="alert"><b>Note</b>  Normal rendering is guarded automatically by an internal <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> lock.
         </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>

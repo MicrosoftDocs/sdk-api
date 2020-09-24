@@ -56,13 +56,13 @@ api_name:
 
 The <b>WAVEFORMATEX</b> structure defines the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. For formats that require additional information, this structure is included as the first member in another structure, along with the additional information.
 
-Formats that support more than two channels or sample sizes of more than 16 bits can be described in a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure, which includes the <a href="/windows/win32/api/mmeapi/ns-mmeapi-waveformatex">WAVEFORMAT</a> structure.
+Formats that support more than two channels or sample sizes of more than 16 bits can be described in a <a href="/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure, which includes the <a href="/windows/win32/api/mmeapi/ns-mmeapi-waveformatex">WAVEFORMAT</a> structure.
 
 ## -struct-fields
 
 ### -field wFormatTag
 
-Waveform-audio format type. Format tags are registered with Microsoft Corporation for many compression algorithms. A complete list of format tags can be found in the Mmreg.h header file. For one- or two-channel PCM data, this value should be WAVE_FORMAT_PCM. When this structure is included in a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure, this value must be WAVE_FORMAT_EXTENSIBLE.
+Waveform-audio format type. Format tags are registered with Microsoft Corporation for many compression algorithms. A complete list of format tags can be found in the Mmreg.h header file. For one- or two-channel PCM data, this value should be WAVE_FORMAT_PCM. When this structure is included in a <a href="/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure, this value must be WAVE_FORMAT_EXTENSIBLE.
 
 ### -field nChannels
 
@@ -88,7 +88,7 @@ Bits per sample for the <b>wFormatTag</b> format type. If <b>wFormatTag</b> is W
 
 ### -field cbSize
 
-Size, in bytes, of extra format information appended to the end of the <b>WAVEFORMATEX</b> structure. This information can be used by non-PCM formats to store extra attributes for the <b>wFormatTag</b>. If no extra information is required by the <b>wFormatTag</b>, this member must be set to 0. For WAVE_FORMAT_PCM formats (and only WAVE_FORMAT_PCM formats), this member is ignored. When this structure is included in a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure, this value must be at least 22.
+Size, in bytes, of extra format information appended to the end of the <b>WAVEFORMATEX</b> structure. This information can be used by non-PCM formats to store extra attributes for the <b>wFormatTag</b>. If no extra information is required by the <b>wFormatTag</b>, this member must be set to 0. For WAVE_FORMAT_PCM formats (and only WAVE_FORMAT_PCM formats), this member is ignored. When this structure is included in a <a href="/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure, this value must be at least 22.
 
 ## -remarks
 
@@ -96,9 +96,8 @@ An example of a format that uses extra information is the Microsoft Adaptive Del
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
-
+<a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>

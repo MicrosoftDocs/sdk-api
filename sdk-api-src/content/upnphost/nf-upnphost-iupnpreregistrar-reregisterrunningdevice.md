@@ -58,7 +58,7 @@ The
 ### -param bstrDeviceIdentifier [in]
 
 Specifies the device identifier of the device. This must be the same identifier returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">IUPnPRegistrar::RegisterRunningDevice</a> in the <i>pbstrDeviceIdentifier</i> parameter.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">IUPnPRegistrar::RegisterRunningDevice</a> in the <i>pbstrDeviceIdentifier</i> parameter.
 
 ### -param bstrXMLDesc [in]
 
@@ -71,7 +71,7 @@ Specifies the <b>IUnknown</b> pointer to the device's device control object.
 ### -param bstrInitString [in]
 
 Identifies the initialization string specific to the device. This string is later passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">IUPnPDeviceControl::Initialize</a>.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">IUPnPDeviceControl::Initialize</a>.
 
 ### -param bstrResourcePath [in]
 
@@ -97,7 +97,7 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 </dl>
 </td>
 <td width="60%">
-The device has not been registered. Use <a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">RegisterRunningDevice</a> to register an unregistered device.
+The device has not been registered. Use <a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">RegisterRunningDevice</a> to register an unregistered device.
 
 </td>
 </tr>
@@ -171,10 +171,10 @@ A required element is missing.
 
 ## -remarks
 
-The client that invokes this method must be able to impersonate <a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService</a> to be able to complete the processing of this method.
+The client that invokes this method must be able to impersonate <a href="/windows/desktop/Services/localservice-account">LocalService</a> to be able to complete the processing of this method.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">IUPnPDeviceControl::Initialize</a> method is invoked when the first control or event request is received.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">IUPnPDeviceControl::Initialize</a> method is invoked when the first control or event request is received.
 
 The registration of this device does not persist across system boots.
 
@@ -183,25 +183,24 @@ Common errors that can occur when invoking this function include:
 
 <ul>
 <li>The necessary COM object was not found.</li>
-<li>There is no access to the COM object for <a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService</a>.</li>
+<li>There is no access to the COM object for <a href="/windows/desktop/Services/localservice-account">LocalService</a>.</li>
 <li>Subordinate COM interfaces.</li>
 <li>The XML description limits (see 
-<a href="https://docs.microsoft.com/windows/desktop/UPnP/creating-a-device-description">Creating a Device Description</a>).</li>
+<a href="/windows/desktop/UPnP/creating-a-device-description">Creating a Device Description</a>).</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">IUPnPRegistrar::RegisterRunningDevice</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">IUPnPRegistrar::RegisterRunningDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdevice">IUPnPRegistrar::UnregisterDevice</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdevice">IUPnPRegistrar::UnregisterDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpreregistrar">IUPnPReregistrar</a>
-
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpreregistrar">IUPnPReregistrar</a>

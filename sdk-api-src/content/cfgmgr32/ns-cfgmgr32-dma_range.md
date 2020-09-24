@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
@@ -68,9 +68,8 @@ The highest-numbered DMA channel that can be allocated to the device.
 
 ### -field DR_Flags
 
-One bit flag from [DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des) structure.
+One bit flag from [DMA_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des) structure.
 
 ## -see-also
 
-[DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)
-
+[DMA_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)

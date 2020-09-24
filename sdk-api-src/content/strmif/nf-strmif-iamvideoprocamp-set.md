@@ -57,7 +57,7 @@ The <b>Set</b> method sets video quality for a specified property.
 
 ### -param Property [in]
 
-The property to set, specified as a [VideoProcAmpProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampproperty) enumeration value.
+The property to set, specified as a [VideoProcAmpProperty](/windows/desktop/api/strmif/ne-strmif-videoprocampproperty) enumeration value.
 
 ### -param lValue [in]
 
@@ -65,7 +65,7 @@ The new value of the property.
 
 ### -param Flags [in]
 
-The desired control setting, specified as a [VideoProcAmpFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration
+The desired control setting, specified as a [VideoProcAmpFlags](/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration
           value.
 
 ## -returns
@@ -78,17 +78,16 @@ If the <i>pCapsFlags</i> parameter is <b>VideoProcAmp_Flags_Auto</b>, the <i>lVa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
+<a href="/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-get">IAMVideoProcAmp::Get</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-get">IAMVideoProcAmp::Get</a>

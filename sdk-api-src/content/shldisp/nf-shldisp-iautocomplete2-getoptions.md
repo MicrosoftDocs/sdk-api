@@ -58,7 +58,7 @@ Gets the current autocomplete options.
 
 Type: <b>DWORD*</b>
 
-One or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-autocompleteoptions">AUTOCOMPLETEOPTIONS</a> enumeration that indicate the options that are currently set.
+One or more flags from the <a href="/windows/desktop/api/shldisp/ne-shldisp-autocompleteoptions">AUTOCOMPLETEOPTIONS</a> enumeration that indicate the options that are currently set.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete2">IAutoComplete2</a>
+<a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete2">IAutoComplete2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-setoptions">IAutoComplete2::SetOptions</a>
-
+<a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-setoptions">IAutoComplete2::SetOptions</a>

@@ -70,17 +70,16 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -remarks
 
-This function causes an <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a> command to be sent to the application.
+This function causes an <a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a> command to be sent to the application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a>
+<a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

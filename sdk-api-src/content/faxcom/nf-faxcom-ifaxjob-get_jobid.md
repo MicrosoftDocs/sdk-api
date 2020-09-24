@@ -59,25 +59,24 @@ This property is read-only.
 
 ## -remarks
 
-You can use the <b>IFaxJob::get_JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxjob-get-displayname-vb">IFaxJob::get_DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
+You can use the <b>IFaxJob::get_JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxjob-get-displayname-vb">IFaxJob::get_DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjob">IFaxJob</a>
+<a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjob">IFaxJob</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxjob-get-displayname-vb">IFaxJob::get_DisplayName</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxjob-get-displayname-vb">IFaxJob::get_DisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>

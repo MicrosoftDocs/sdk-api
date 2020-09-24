@@ -62,13 +62,12 @@ A pointer to a buffer containing the item ID representing the desired item. The 
 
 ### -param ppItem [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a>**</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a>**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a> instance representing the sync item.
+When this method returns, contains the address of a pointer to an <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a> instance representing the sync item.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if the handler does not recognize the ID specified at <i>ppszItemID</i>.
-

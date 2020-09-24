@@ -54,7 +54,7 @@ Represents a 3D transformation that affects the offset of a visual along the x-a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTranslateTransform3D</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>. <b>IDCompositionTranslateTransform3D</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTranslateTransform3D</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>. <b>IDCompositionTranslateTransform3D</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionTranslateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setoffsetx">SetOffsetX</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setoffsetx">SetOffsetX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetX property of a 3D translation transform effect.
 
@@ -77,7 +77,7 @@ The <b>IDCompositionTranslateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setoffsety">SetOffsetY</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setoffsety">SetOffsetY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetY property of a 3D translation transform effect.
 
@@ -85,7 +85,7 @@ The <b>IDCompositionTranslateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setoffsetz">SetOffsetZ</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setoffsetz">SetOffsetZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetZ property of a 3D translation transform effect.
 
@@ -104,13 +104,12 @@ The effect is to offset the blending position of the visual's subtree by <i>x</i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>

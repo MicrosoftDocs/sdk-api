@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
 The ACTION_HEADER structure contains information about an action. This action is an extension to the standard transport interface.
 
@@ -94,7 +94,7 @@ Reserved.
 
 ## -remarks
 
-The scope of the action is determined by the <b>ncb_lsn</b> and <b>ncb_num</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure, as follows.
+The scope of the action is determined by the <b>ncb_lsn</b> and <b>ncb_num</b> members of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure, as follows.
 
 <table>
 <tr>
@@ -120,13 +120,12 @@ The scope of the action is determined by the <b>ncb_lsn</b> and <b>ncb_num</b> m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
+<a href="/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-
+<a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>

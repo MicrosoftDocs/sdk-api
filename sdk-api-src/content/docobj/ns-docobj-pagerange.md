@@ -66,5 +66,4 @@ The last page of the range. A special value, <b>PAGESET_TOLASTPAGE</b>, indicate
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-pageset">PAGESET</a>
-
+<a href="/windows/desktop/api/docobj/ns-docobj-pageset">PAGESET</a>

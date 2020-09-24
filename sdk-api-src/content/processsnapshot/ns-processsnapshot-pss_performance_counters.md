@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Holds performance counters returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssquerysnapshot">PssQuerySnapshot</a>.
+Holds performance counters returned by <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssquerysnapshot">PssQuerySnapshot</a>.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ The count of clock cycles spent for capture.
 
 ### -field TotalWallClockPeriod
 
-The count of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for capture.
+The count of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for capture.
 
 ### -field VaCloneCycleCount
 
@@ -68,7 +68,7 @@ The count of clock cycles spent for the capture of the VA clone.
 
 ### -field VaCloneWallClockPeriod
 
-The count of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture of the VA clone.
+The count of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture of the VA clone.
 
 ### -field VaSpaceCycleCount
 
@@ -76,7 +76,7 @@ The count of clock cycles spent for the capture of VA space information.
 
 ### -field VaSpaceWallClockPeriod
 
-The count of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture VA space information.
+The count of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture VA space information.
 
 ### -field AuxPagesCycleCount
 
@@ -84,7 +84,7 @@ The count of clock cycles spent for the capture of auxiliary page information.
 
 ### -field AuxPagesWallClockPeriod
 
-The count of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture of auxiliary page information.
+The count of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture of auxiliary page information.
 
 ### -field HandlesCycleCount
 
@@ -92,7 +92,7 @@ The count of clock cycles spent for the capture of handle information.
 
 ### -field HandlesWallClockPeriod
 
-The count of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture of handle information.
+The count of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture of handle information.
 
 ### -field ThreadsCycleCount
 
@@ -100,13 +100,12 @@ The count of clock cycles spent for the capture of thread information.
 
 ### -field ThreadsWallClockPeriod
 
-The count of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture of thread information.
+The count of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> units spent for the capture of thread information.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssquerysnapshot">PssQuerySnapshot</a> returns a <b>PSS_PERFORMANCE_COUNTERS</b> structure when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_query_information_class">PSS_QUERY_INFORMATION_CLASS</a> member that the caller provides it is  <b>PSS_QUERY_PERFORMANCE_COUNTERS</b>.
+<a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssquerysnapshot">PssQuerySnapshot</a> returns a <b>PSS_PERFORMANCE_COUNTERS</b> structure when the <a href="/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_query_information_class">PSS_QUERY_INFORMATION_CLASS</a> member that the caller provides it is  <b>PSS_QUERY_PERFORMANCE_COUNTERS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
-
+<a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>

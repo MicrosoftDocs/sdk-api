@@ -53,7 +53,7 @@ api_name:
 The <b>IEnumCERTVIEWATTRIBUTE</b> interface represents an attribute-enumeration sequence that contains the   certificate attributes for the current row of the row-enumeration sequence.
 
 The attribute-enumeration sequence is obtained by a call to 
-the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewattribute">IEnumCERTVIEWROW::EnumCertViewAttribute</a> method. After this enumeration sequence is obtained, the methods of the <b>IEnumCERTVIEWATTRIBUTE</b> interface can be used to perform the following tasks:<ul>
+the <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewattribute">IEnumCERTVIEWROW::EnumCertViewAttribute</a> method. After this enumeration sequence is obtained, the methods of the <b>IEnumCERTVIEWATTRIBUTE</b> interface can be used to perform the following tasks:<ul>
 <li>Navigate through the enumeration of certificate attributes.</li>
 <li>Retrieve the name and value of the attributes in the enumeration.</li>
 <li>Clone an exact copy of the certificate attribute object.</li>
@@ -66,7 +66,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWATTRIBUTE</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEnumCERTVIEWATTRIBUTE</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWATTRIBUTE</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEnumCERTVIEWATTRIBUTE</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,42 +81,42 @@ The <b>IEnumCERTVIEWATTRIBUTE</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-clone">Clone</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the attribute-enumeration sequence object in its current state.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-getname">GetName</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the current attribute in the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-getvalue">GetValue</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the current attribute in the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-next">Next</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-next">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next  attribute in the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-reset">Reset</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves to the beginning of the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-skip">Skip</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of attributes in the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
@@ -125,9 +125,8 @@ Skips a specified number of attributes in the attribute-enumeration sequence.</p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewattribute">IEnumCERTVIEWROW::EnumCertViewAttribute</a>
-
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewattribute">IEnumCERTVIEWROW::EnumCertViewAttribute</a>

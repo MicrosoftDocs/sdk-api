@@ -52,20 +52,20 @@ api_name:
 
 The 
 <b>phoneGetMessage</b> function returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a> for further details).
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a> for further details).
 
 ## -parameters
 
 ### -param hPhoneApp
 
 Handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>. The application must have set the PHONEINITIALIZEEXOPTION_USEEVENT option in the <b>dwOptions</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a> structure.
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>. The application must have set the PHONEINITIALIZEEXOPTION_USEEVENT option in the <b>dwOptions</b> member of the 
+<a href="/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a> structure.
 
 ### -param lpMessage
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage">PHONEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
+<a href="/windows/desktop/api/tapi/ns-tapi-phonemessage">PHONEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
 
 ### -param dwTimeout
 
@@ -80,23 +80,22 @@ PHONEERR_INVALAPPHANDLE, PHONEERR_OPERATIONFAILED, PHONEERR_INVALPOINTER, PHONEE
 ## -remarks
 
 If this function has been called with a nonzero timeout and the application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a> on another thread, this function returns immediately with PHONEERR_INVALAPPHANDLE.
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a> on another thread, this function returns immediately with PHONEERR_INVALAPPHANDLE.
 
 If the timeout expires (or was zero) and no message could be fetched from the queue, the function returns with the error PHONEERR_OPERATIONFAILED.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage">PHONEMESSAGE</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonemessage">PHONEMESSAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a>

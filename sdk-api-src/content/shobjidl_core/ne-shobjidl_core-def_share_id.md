@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Values that specify the folder being acted on by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isharingconfigurationmanager">ISharingConfigurationManager</a> interface.
+Values that specify the folder being acted on by methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isharingconfigurationmanager">ISharingConfigurationManager</a> interface.
 
 ## -enum-fields
 
 ### -field DEFSHAREID_USERS
 
-The <b>Users</b> folder (<a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_UserProfiles</a>). This folder is usually found at C:\Users.
+The <b>Users</b> folder (<a href="/windows/desktop/shell/knownfolderid">FOLDERID_UserProfiles</a>). This folder is usually found at C:\Users.
 
 ### -field DEFSHAREID_PUBLIC
 
-The <b>Public</b> folder (<a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_Public</a>). This folder is usually found at C:\Users\Public.
+The <b>Public</b> folder (<a href="/windows/desktop/shell/knownfolderid">FOLDERID_Public</a>). This folder is usually found at C:\Users\Public.
 
 ## -remarks
 
 In Windows Vista, an Server Message Block (SMB) share is created for both the <b>Users</b> and <b>Public</b> folders. As of Windows 7, the Public share is accessed through the Users share, so only <b>Users</b> is given an SMB share.
 
-When methods are called with the <b>DEFSHAREID_PUBLIC</b> value, the restrictions specified by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-share_role">SHARE_ROLE</a> value in that call apply to the <i>Everyone</i> access control entry (ACE).
+When methods are called with the <b>DEFSHAREID_PUBLIC</b> value, the restrictions specified by the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-share_role">SHARE_ROLE</a> value in that call apply to the <i>Everyone</i> access control entry (ACE).
 
-When methods are called with the <b>DEFSHAREID_USERS</b> value, the restrictions specified by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-share_role">SHARE_ROLE</a> value in that call apply to the <i>Authenticated Users</i> ACE.
-
+When methods are called with the <b>DEFSHAREID_USERS</b> value, the restrictions specified by the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-share_role">SHARE_ROLE</a> value in that call apply to the <i>Authenticated Users</i> ACE.

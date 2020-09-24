@@ -64,11 +64,11 @@ The name of the attribute.
 ### -field SYNTAX
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributesyntax">syntax</a> of the attribute.
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributesyntax">syntax</a> of the attribute.
 
 ### -field RESTRICTIONS
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributerestrictions">Restrictions</a> on how the attribute can be used.
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributerestrictions">Restrictions</a> on how the attribute can be used.
 
 ### -field DESCRIPTION
 
@@ -88,13 +88,12 @@ The attribute type for Vendor Specific Attributes (VSA).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributerestrictions">ATTRIBUTERESTRICTIONS</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributerestrictions">ATTRIBUTERESTRICTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributesyntax">ATTRIBUTESYNTAX</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributesyntax">ATTRIBUTESYNTAX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-getattributeinfo">ISdoDictionaryOld::GetAttributeInfo</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-getattributeinfo">ISdoDictionaryOld::GetAttributeInfo</a>

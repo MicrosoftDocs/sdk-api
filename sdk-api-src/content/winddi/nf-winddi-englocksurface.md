@@ -60,7 +60,7 @@ Handle to the surface to be locked.
 
 ## -returns
 
-<b>EngLockSurface</b> returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure if the function is successful. Otherwise, this function returns <b>NULL</b>.
+<b>EngLockSurface</b> returns a pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure if the function is successful. Otherwise, this function returns <b>NULL</b>.
 
 ## -remarks
 
@@ -68,13 +68,12 @@ This function gives drivers access to surfaces they create.
 
 The driver is responsible for unlocking the surface when it no longer needs it. Surfaces should be locked only for very short periods of time.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunlocksurface">EngUnlockSurface</a> function to unlock the surface.
+Use the <a href="/windows/desktop/api/winddi/nf-winddi-engunlocksurface">EngUnlockSurface</a> function to unlock the surface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunlocksurface">EngUnlockSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engunlocksurface">EngUnlockSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>

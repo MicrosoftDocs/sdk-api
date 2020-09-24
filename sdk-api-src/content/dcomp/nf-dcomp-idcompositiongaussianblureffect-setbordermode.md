@@ -56,7 +56,7 @@ Sets the mode used to calculate the border of the image.
 
 ### -param mode [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/gaussian-blur">D2D1_BORDER_MODE</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/gaussian-blur">D2D1_BORDER_MODE</a></b>
 
 The mode used to calculate the border of the image.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiongaussianblureffect">IDCompositionGaussianBlurEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiongaussianblureffect">IDCompositionGaussianBlurEffect</a>

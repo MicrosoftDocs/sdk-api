@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies whether a stream associated with an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> is an input or an output stream.
+Specifies whether a stream associated with an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> is an input or an output stream.
 
 ## -enum-fields
 
@@ -67,4 +67,3 @@ The sensor stream is an input stream.
 ### -field MFSensorStreamType_Output
 
 The sensor stream is an output stream.
-

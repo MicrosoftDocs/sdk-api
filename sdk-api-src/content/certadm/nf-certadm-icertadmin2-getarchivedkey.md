@@ -51,21 +51,21 @@ api_name:
 
 ## -description
 
-The <b>GetArchivedKey</b> method retrieves an archived key recovery <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
+The <b>GetArchivedKey</b> method retrieves an archived key recovery <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>. This method was first defined in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 ## -parameters
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) in the form <i>ComputerName</i>&#92;<i>CAName</i>, where <i>ComputerName</i> is the Certificate Services server's network name, and <i>CAName</i> is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents a valid configuration string for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) in the form <i>ComputerName</i>&#92;<i>CAName</i>, where <i>ComputerName</i> is the Certificate Services server's network name, and <i>CAName</i> is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>GetArchivedKey</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>GetArchivedKey</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param RequestId [in]
 
-Represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> ID in the Certificates Services database.
+Represents the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> ID in the Certificates Services database.
 
 ### -param Flags [in]
 
@@ -115,7 +115,7 @@ Binary
 
 ### -param pstrArchivedKey [out]
 
-A pointer to the string that represents the retrieved archived <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>. When you have finished using this string, it is the responsibility of the caller to free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to the string that represents the retrieved archived <a href="/windows/desktop/SecGloss/k-gly">key BLOB</a>. When you have finished using this string, it is the responsibility of the caller to free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
@@ -128,4 +128,3 @@ A string that contains the retrieved archived key BLOB.
 ## -remarks
 
 An archived key is encrypted in a PKCS #7 to the key recovery agent certificate or certificates, and is stored in the Certificate Services database in that form. This method retrieves the encrypted PKCS #7 from the Certificate Services database, wraps it in a signed PKCS #7 which contains the user certificate and chain, the key recovery agent certificate or certificates, and the certification authority's signing certificate and chain. An authenticated attribute contains a certificate used to uniquely identify the user certificate.
-

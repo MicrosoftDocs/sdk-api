@@ -49,7 +49,7 @@ Reads back the contents of a composition drawing surface (or a composition virt
 
 ### -param destinationResource [in]
 
-Type: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
+Type: **[IUnknown](../unknwn/nn-unknwn-iunknown.md)\***
 
 Represents the Direct3D texture that will receive the copy. You must have created this resource on the same Direct3D device as the one associated with the [CompositionGraphicsDevice](/uwp/api/Windows.UI.Composition.CompositionGraphicsDevice) that was used to create the source composition drawing surface (or composition virtual drawing surface).
 
@@ -67,7 +67,7 @@ The y-coordinate of an offset (into *destinationResource*) where the copy will 
 
 ### -param sourceRectangle [in]
 
-Type: **const [RECT](/windows/win32/api/windef/ns-windef-rect)\***
+Type: **const [RECT](../windef/ns-windef-rect.md)\***
 
 An optional pointer to a constant **RECT** representing the rectangle on the source surface to copy out. The rectangle can't exceed the bounds of the source surface. In order to have enough room to receive the requested pixels, the destination resource must have at least as many pixels as the *destinationOffsetX* and *Y* parameters plus the width/height of this rectangle.
 
@@ -81,20 +81,20 @@ Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
 ## -remarks
 
-To create a Direct2D or a Direct3D surface for use with [Windows.UI.Composition](/uwp/api/windows.ui.composition), you use the [composition drawing surface interoperation](/windows/win32/api/windows.ui.composition.interop/) interfaces. You can use the **CopySurface** method to read back the contents of a composition drawing surface (or a composition virtual drawing surface). **CopySurface** is a synchronous and instantaneous copy from one part of video memory to another; you don't need to call **Commit**.
+To create a Direct2D or a Direct3D surface for use with [Windows.UI.Composition](/uwp/api/windows.ui.composition), you use the [composition drawing surface interoperation](./index.md) interfaces. You can use the **CopySurface** method to read back the contents of a composition drawing surface (or a composition virtual drawing surface). **CopySurface** is a synchronous and instantaneous copy from one part of video memory to another; you don't need to call **Commit**.
 
-For any given composition drawing surface (or composition virtual drawing surface), your application can query for [ICompositionDrawingSurfaceInterop2](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2), and call **CopySurface** on that interface.
+For any given composition drawing surface (or composition virtual drawing surface), your application can query for [ICompositionDrawingSurfaceInterop2](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2.md), and call **CopySurface** on that interface.
 
-You can call **CopySurface** only when there are no pending updates to any surfaces belonging to the same [CompositionGraphicsDevice](/uwp/api/windows.ui.composition.compositiongraphicsdevice) as the source surface ([ICompositionDrawingSurfaceInterop::BeginDraw](/windows/win32/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop-begindraw) has the same requirement). It's also illegal to call **CopySurface** on a non-virtual composition drawing surface that has never been updated, as its pixel contents are undefined. For virtual surfaces, since they are sparsely allocated, it's possible to specify a source rectangle that intersects uninitialized regions of the surface. In that case, the call is legal, but the result of the copy for those uninitialized regions is undefined.
+You can call **CopySurface** only when there are no pending updates to any surfaces belonging to the same [CompositionGraphicsDevice](/uwp/api/windows.ui.composition.compositiongraphicsdevice) as the source surface ([ICompositionDrawingSurfaceInterop::BeginDraw](./nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop-begindraw.md) has the same requirement). It's also illegal to call **CopySurface** on a non-virtual composition drawing surface that has never been updated, as its pixel contents are undefined. For virtual surfaces, since they are sparsely allocated, it's possible to specify a source rectangle that intersects uninitialized regions of the surface. In that case, the call is legal, but the result of the copy for those uninitialized regions is undefined.
 
 > [!NOTE]
-> This interface is available on Windows 10, version 1903 (10.0; Build 18362), but it is not defined in the `windows.ui.composition.interop.h` header file for that version of the Windows Software Development Kit (SDK). If you first obtain a pointer to an [ICompositionDrawingSurfaceInterop](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop) interface, you can then query that (via [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void))) for a pointer to an [ICompositionDrawingSurfaceInterop2](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2) interface.
+> This interface is available on Windows 10, version 1903 (10.0; Build 18362), but it is not defined in the `windows.ui.composition.interop.h` header file for that version of the Windows Software Development Kit (SDK). If you first obtain a pointer to an [ICompositionDrawingSurfaceInterop](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop.md) interface, you can then query that (via [QueryInterface](../unknwn/nf-unknwn-iunknown-queryinterface(refiid_void).md)) for a pointer to an [ICompositionDrawingSurfaceInterop2](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2.md) interface.
 
 ## -see-also
 
-[ICompositionDrawingSurfaceInterop interface](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop)
+[ICompositionDrawingSurfaceInterop interface](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop.md)
 
-[ICompositionDrawingSurfaceInterop2 interface](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2)
+[ICompositionDrawingSurfaceInterop2 interface](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2.md)
 
 [Composition native interoperation overview](/windows/uwp/composition/composition-native-interop)
 
@@ -154,4 +154,3 @@ HRESULT CompressTexturePixels(_In_ ID3D11Texture2D* texture) 
     // ... 
 } 
 ```
-

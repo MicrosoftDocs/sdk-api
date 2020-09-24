@@ -53,7 +53,7 @@ api_name:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns the type of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>.
+Returns the type of a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>.
 
 ## -parameters
 
@@ -61,14 +61,14 @@ Returns the type of a <a href="https://docs.microsoft.com/previous-versions/wind
 
 A number representing the zero-based index of the target resource. <i>lObjIndex</i> is 
        restricted to the number that can be retrieved by calling 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
+       <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
 
 ### -param lpszResTypeName [out]
 
 Pointer to the type of the resource associated with <i>lObjIndex</i>. The 
        <i>lpResTypeName</i> parameter can be <b>NULL</b>, indicating that the 
        caller is requesting only the length of the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a>. Although declared as a 
+       <a href="/previous-versions/windows/desktop/mscs/resource-types">resource type</a>. Although declared as a 
        <b>BSTR</b>, this parameter is implemented as an <b>LPWSTR</b>.
 
 ### -param pcchResTypeName [in, out]
@@ -123,7 +123,7 @@ One or more of the parameters are invalid.
 <td width="60%">
 The buffer pointed to by <i>lpResTypeName</i> is too small to hold the requested 
          resource type. 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterresourceinfo-getresourcetypename">GetResourceTypeName</a> 
+         <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterresourceinfo-getresourcetypename">GetResourceTypeName</a> 
          returns the required number of characters in the content of <i>pcchResTypeName</i>.
 
 </td>
@@ -132,9 +132,8 @@ The buffer pointed to by <i>lpResTypeName</i> is too small to hold the requested
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
+<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>

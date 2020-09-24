@@ -56,27 +56,26 @@ Creates a buffer.
 
 ### -param Size [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Number of bytes in the blob.
 
 ### -param ppBlob [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
 
-The address of a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that is used to retrieve the buffer.
+The address of a pointer to the <a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that is used to retrieve the buffer.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
+Returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
 ## -remarks
 
-The latest D3dcompiler_nn.dll contains the <b>D3DCreateBlob</b> compiler function. Therefore, you are no longer required to create and use an arbitrary length data buffer by using the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createblob">D3D10CreateBlob</a> function that is contained in D3d10.dll.
+The latest D3dcompiler_nn.dll contains the <b>D3DCreateBlob</b> compiler function. Therefore, you are no longer required to create and use an arbitrary length data buffer by using the  <a href="/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createblob">D3D10CreateBlob</a> function that is contained in D3d10.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
-
+<a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>

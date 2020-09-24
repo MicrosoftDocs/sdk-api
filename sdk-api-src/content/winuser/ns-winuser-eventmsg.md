@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a> callback function.
+Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the <a href="/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a> callback function.
 
 ## -struct-fields
 
@@ -96,11 +96,11 @@ A handle to the window to which the message was posted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a>
 
 
 
@@ -108,5 +108,4 @@ A handle to the window to which the message was posted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>

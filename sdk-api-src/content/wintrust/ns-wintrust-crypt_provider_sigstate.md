@@ -108,5 +108,4 @@ Identifies the portion of the policy provider that  supports cryptographic polic
 
 ## -see-also
 
-[WINTRUST_SIGNATURE_SETTINGS](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings)
-
+[WINTRUST_SIGNATURE_SETTINGS](/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings)

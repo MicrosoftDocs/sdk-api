@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-Assigns the vector component data from one instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a> to the current instance of **XMUBYTEN4**.
+Assigns the vector component data from one instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a> to the current instance of **XMUBYTEN4**.
 
 This operator assigns the vector component data from one instance of **XMUBYTEN4** to the current instance of **XMUBYTEN4**.
 
@@ -67,5 +67,4 @@ The current instance of **XMUBYTEN4** whose vector component data has been updat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
-
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>

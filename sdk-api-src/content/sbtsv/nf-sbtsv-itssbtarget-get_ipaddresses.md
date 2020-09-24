@@ -73,13 +73,12 @@ If the number of external IP addresses is unknown, you can call this method with
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
+<a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
 
 
 
 <a href="/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint">TSSD_ConnectionPoint</a>
-

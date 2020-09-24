@@ -79,7 +79,7 @@ The message to be displayed in the shutdown dialog box. This parameter can be <b
 ### -param dwTimeout [in]
 
 The length of time that the shutdown dialog box should be displayed, in seconds. While this dialog box is displayed, shutdown can be stopped by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a> function. 
+<a href="/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a> function. 
 
 
 
@@ -88,7 +88,7 @@ If <i>dwTimeout</i> is not zero,
 <b>InitiateSystemShutdownEx</b> displays a dialog box on the specified computer. The dialog box displays the name of the user who called the function, displays the message specified by the <i>lpMessage</i> parameter, and prompts the user to log off. The dialog box beeps when it is created and remains on top of other windows in the system. The dialog box can be moved but not closed. A timer counts down the remaining time before shutdown.
 
 If <i>dwTimeout</i> is zero, the computer shuts down without displaying the dialog box, and the shutdown cannot be stopped by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>.
+<a href="/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>.
 
 <b>Windows Server 2003 and Windows XP with SP1:  </b>The time-out value is limited to MAX_SHUTDOWN_TIMEOUT seconds.
 
@@ -105,7 +105,7 @@ If this parameter is <b>TRUE</b>, the computer is to restart immediately after s
 ### -param dwReason [in]
 
 The reason for initiating the shutdown. This parameter must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-reason-codes">system shutdown reason codes</a>. 
+<a href="/windows/desktop/Shutdown/system-shutdown-reason-codes">system shutdown reason codes</a>. 
 
 
 
@@ -119,12 +119,12 @@ If this parameter is zero, the default is an undefined shutdown that is logged a
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To shut down the local computer, the calling thread must have the SE_SHUTDOWN_NAME privilege. To shut down a remote computer, the calling thread must have the SE_REMOTE_SHUTDOWN_NAME privilege on the remote computer. By default, users can enable the SE_SHUTDOWN_NAME privilege on the computer they are logged onto, and administrators can enable the SE_REMOTE_SHUTDOWN_NAME privilege on remote computers. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
+<a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 Common reasons for failure include an invalid or inaccessible computer name or insufficient privilege. The error ERROR_SHUTDOWN_IN_PROGRESS is returned if a shutdown is already in progress on the specified computer. The error ERROR_NOT_READY can be returned if fast-user switching is enabled but no user is logged on.
 
@@ -145,13 +145,12 @@ Note that calling this function with the value of the <i>bForceAppsClosed</i> pa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
+<a href="/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>
-
+<a href="/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>

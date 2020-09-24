@@ -74,15 +74,15 @@ Specifies why prompting for credentials is needed. A caller can pass this Window
 ### -param UserName [in, out]
 
 A pointer to a <b>null</b>-terminated string that contains the credential user name. If a nonzero-length string is specified for <i>pszUserName</i>, the user will be prompted only for the password. In the case of credentials other than user name/password, a marshaled format of the credential can be passed in. This string is created by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a>. 
+<a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a>. 
 
 
 
 
 This function writes the user-supplied name to this buffer, copying a maximum of <i>ulUserNameMaxChars</i> characters. The string in this format can be converted to the user name/password format by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUsername</a> function. The string in its marshaled format can be passed directly to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
+<a href="/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUsername</a> function. The string in its marshaled format can be passed directly to a <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
-If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUsername</a>. The subsequent results of <b>CredUIParseUsername</b> can  be passed only to a client-side authentication API such as <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> or the SSP API.
+If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to <a href="/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUsername</a>. The subsequent results of <b>CredUIParseUsername</b> can  be passed only to a client-side authentication API such as <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> or the SSP API.
 
 ### -param ulUserBufferSize [in]
 
@@ -101,9 +101,9 @@ A pointer to a <b>null</b>-terminated string that contains the password for the 
 
 
 
-This function writes the user-supplied password to this buffer, copying a maximum of <i>ulPasswordMaxChars</i> characters. If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to a client-side authentication function such as <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> or an SSP function.
+This function writes the user-supplied password to this buffer, copying a maximum of <i>ulPasswordMaxChars</i> characters. If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to a client-side authentication function such as <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> or an SSP function.
 
-When you have finished using the password, clear the password from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+When you have finished using the password, clear the password from memory by calling the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 ### -param ulPasswordBufferSize [in]
 
@@ -117,7 +117,7 @@ The maximum number of characters that can be copied to <i>pszPassword</i> includ
 
 ### -param pfSave [in, out]
 
-A pointer to a <b>BOOL</b> that specifies the initial state of the <b>Save</b> message and receives the state of the <b>Save</b> message after the user has responded to the command prompt. If <i>pfSave</i> is not <b>NULL</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> returns NO_ERROR, <i>pfSave</i> returns the state of the <b>Save</b> message. If the CREDUI_FLAGS_PERSIST flag is specified, the <b>Save</b> message is not displayed but is considered to be "y". If the CREDUI_FLAGS_DO_NOT_PERSIST flag is specified and CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX is not specified, the <b>Save</b> message is not displayed but is considered to be "n".
+A pointer to a <b>BOOL</b> that specifies the initial state of the <b>Save</b> message and receives the state of the <b>Save</b> message after the user has responded to the command prompt. If <i>pfSave</i> is not <b>NULL</b> and <a href="/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> returns NO_ERROR, <i>pfSave</i> returns the state of the <b>Save</b> message. If the CREDUI_FLAGS_PERSIST flag is specified, the <b>Save</b> message is not displayed but is considered to be "y". If the CREDUI_FLAGS_DO_NOT_PERSIST flag is specified and CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX is not specified, the <b>Save</b> message is not displayed but is considered to be "n".
 
 ### -param dwFlags [in]
 
@@ -171,7 +171,7 @@ Prompt for user name/password. If the <i>pszUserName</i> parameter is specified,
 </td>
 <td width="60%">
 Specifies that the caller will call 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiconfirmcredentialsa">CredUIConfirmCredentials</a> to determine whether the returned credentials are actually valid. This ensures that credentials that are not valid are not saved to the credential manager. Specify this flag unless CREDUI_FLAGS_DO_NOT_PERSIST is specified.
+<a href="/windows/desktop/api/wincred/nf-wincred-creduiconfirmcredentialsa">CredUIConfirmCredentials</a> to determine whether the returned credentials are actually valid. This ensures that credentials that are not valid are not saved to the credential manager. Specify this flag unless CREDUI_FLAGS_DO_NOT_PERSIST is specified.
 
 </td>
 </tr>
@@ -304,7 +304,7 @@ This status is returned for any of the flag combinations that are not valid.
 </dl>
 </td>
 <td width="60%">
-Either <i>pszTargetName</i> is <b>NULL</b>, the empty string, or longer than CREDUI_MAX_DOMAIN_LENGTH, or <i>pUiInfo</i> is not <b>NULL</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CredUI_INFO</a> structure pointed to did not meet one of the following requirements: 
+Either <i>pszTargetName</i> is <b>NULL</b>, the empty string, or longer than CREDUI_MAX_DOMAIN_LENGTH, or <i>pUiInfo</i> is not <b>NULL</b> and the <a href="/windows/desktop/api/wincred/ns-wincred-credui_infoa">CredUI_INFO</a> structure pointed to did not meet one of the following requirements: 
 
 <ul>
 <li>The <b>cbSize</b> member must be one.</li>
@@ -321,7 +321,7 @@ Either <i>pszTargetName</i> is <b>NULL</b>, the empty string, or longer than CRE
 </dl>
 </td>
 <td width="60%">
-The credential manager cannot be used. Typically, this error is handled by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa">CredUICmdLinePromptForCredentials</a> and passing in the CREDUI_FLAGS_DO_NOT_PERSIST flag.
+The credential manager cannot be used. Typically, this error is handled by calling <a href="/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa">CredUICmdLinePromptForCredentials</a> and passing in the CREDUI_FLAGS_DO_NOT_PERSIST flag.
 
 </td>
 </tr>
@@ -346,7 +346,7 @@ If CREDUI_FLAGS_DO_NOT_PERSIST is specified, either <i>pszTargetName</i> must be
 
 The CREDUI_FLAG_USERNAME_TARGET_CREDENTIALS and CREDUI_FLAGS_GENERIC_CREDENTIALS flags are mutually exclusive. If neither is specified, the credential is a domain credential.
 
-If CREDUI_FLAGS_GENERIC_CREDENTIALS is not specified or CREDUI_FLAGS_COMPLETE_USERNAME is specified, the typed name is <i>syntax checked</i>. Syntax checked means that the same rules are used as are implied by <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUserName</a>. If the typed name is not valid, the user is prompted for a valid one. If the domain portion of the typed name is missing, one will be supplied based on the target name.
+If CREDUI_FLAGS_GENERIC_CREDENTIALS is not specified or CREDUI_FLAGS_COMPLETE_USERNAME is specified, the typed name is <i>syntax checked</i>. Syntax checked means that the same rules are used as are implied by <a href="/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUserName</a>. If the typed name is not valid, the user is prompted for a valid one. If the domain portion of the typed name is missing, one will be supplied based on the target name.
 
 If CREDUI_FLAGS_GENERIC_CREDENTIALS is specified and CREDUI_FLAGS_VALIDATE_USERNAME is also specified, the typed name is syntax checked. If the typed name is not valid, the user is prompted for a valid one.
 
@@ -361,13 +361,13 @@ The CREDUI_FLAGS_REQUIRE_SMARTCARD and CREDUI_FLAGS_EXCLUDE_CERTIFICATES flags a
 Calling Modes
 
 <ul>
-<li>The caller will attempt to access the target resource, call credui (passing a description of the target resource and the failure status), call <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUserName</a>, access the target resource again, and then call <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiconfirmcredentialsa">CredUIConfirmCredentials</a>.</li>
+<li>The caller will attempt to access the target resource, call credui (passing a description of the target resource and the failure status), call <a href="/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUserName</a>, access the target resource again, and then call <a href="/windows/desktop/api/wincred/nf-wincred-creduiconfirmcredentialsa">CredUIConfirmCredentials</a>.</li>
 <li>The caller can prompt for credentials without accessing any resources by passing CREDUI_FLAGS_DO_NOT_PERSIST.</li>
 </ul>
 Target Information
 
 Target Information is  information about the location of the resource to be accessed. For a list of all potential target names for a resource, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>. <b>CredGetTargetInfo</b> returns information that was cached by the Negotiate, NTLM, or Kerberos authentication package when one of those packages was used to authenticate to the named target. <b>CredGetTargetInfo</b> returns some or all of the following names for the target:
+<a href="/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>. <b>CredGetTargetInfo</b> returns information that was cached by the Negotiate, NTLM, or Kerberos authentication package when one of those packages was used to authenticate to the named target. <b>CredGetTargetInfo</b> returns some or all of the following names for the target:
 
 <ul>
 <li>NetBIOS server name of the computer</li>
@@ -390,25 +390,24 @@ Credentials are stored in the credential manager based on target name. Each targ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiconfirmcredentialsa">CredUIConfirmCredentials</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-creduiconfirmcredentialsa">CredUIConfirmCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUserName</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUserName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CredUI_INFO</a>
+<a href="/windows/desktop/api/wincred/ns-wincred-credui_infoa">CredUI_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a>
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a>

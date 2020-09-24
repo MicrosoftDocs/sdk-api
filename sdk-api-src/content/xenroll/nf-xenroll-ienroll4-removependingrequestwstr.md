@@ -52,15 +52,14 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>removePendingRequestWStr</b> method removes a pending request from the client's request store.  This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
+The <b>removePendingRequestWStr</b> method removes a pending request from the client's request store.  This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ## -parameters
 
 ### -param thumbPrintBlob [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the thumbprint, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>, of the certificate data.
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the thumbprint, or <a href="/windows/desktop/SecGloss/h-gly">hash</a>, of the certificate data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

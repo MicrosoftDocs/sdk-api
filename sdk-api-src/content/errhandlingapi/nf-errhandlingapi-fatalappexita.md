@@ -92,9 +92,8 @@ An application calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fatalexit">FatalExit</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-fatalexit">FatalExit</a>

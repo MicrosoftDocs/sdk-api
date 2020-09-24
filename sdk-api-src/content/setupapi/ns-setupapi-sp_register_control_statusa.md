@@ -59,9 +59,9 @@ The
 <b>SP_REGISTER_CONTROL_STATUS</b> structure contains information about a file being registered or unregistered using the <b>RegisterDlls </b>INF directive to self-register DLLs on Windows 2000.
 
 When 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a> sends a 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a> notification to the callback routine, the caller must provide a pointer to a <b>SP_REGISTER_CONTROL_STATUS</b> structure in the <i>MsgHandler</i> parameter.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a> sends a 
+<a href="/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a> or 
+<a href="/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a> notification to the callback routine, the caller must provide a pointer to a <b>SP_REGISTER_CONTROL_STATUS</b> structure in the <i>MsgHandler</i> parameter.
 
 ## -struct-fields
 
@@ -73,7 +73,7 @@ Fully qualified path of the file being registered or unregistered.
 
 ### -field Win32Error
 
-For an SPFILENOTIFY_STARTREGISTRATION notification, this member is not used and should be set to NO_ERROR. For a SPFILENOTIFY_ENDREGISTRATION notification, set to a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+For an SPFILENOTIFY_STARTREGISTRATION notification, this member is not used and should be set to NO_ERROR. For a SPFILENOTIFY_ENDREGISTRATION notification, set to a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ### -field FailureCode
 
@@ -164,26 +164,25 @@ Size of the structure, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a>
+<a href="/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a>
+<a href="/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
+<a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SP_REGISTER_CONTROL_STATUS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

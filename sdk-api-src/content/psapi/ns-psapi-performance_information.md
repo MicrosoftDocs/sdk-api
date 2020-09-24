@@ -64,7 +64,7 @@ The size of this structure, in bytes.
 
 ### -field CommitTotal
 
-The number of pages currently committed by the system. Note that committing pages (using <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> with MEM_COMMIT) changes this value immediately; however, the physical memory is not charged until the pages are accessed.
+The number of pages currently committed by the system. Note that committing pages (using <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> with MEM_COMMIT) changes this value immediately; however, the physical memory is not charged until the pages are accessed.
 
 ### -field CommitLimit
 
@@ -116,9 +116,8 @@ The current number of threads.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getperformanceinfo">GetPerformanceInfo</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getperformanceinfo">GetPerformanceInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>

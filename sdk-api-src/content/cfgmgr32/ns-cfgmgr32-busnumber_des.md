@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The BUSNUMBER_DES structure is used for specifying either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The BUSNUMBER_DES structure is used for specifying either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the [BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range) array that is included in the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource) structure.
+The number of elements in the [BUSNUMBER_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range) array that is included in the [BUSNUMBER_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource) structure.
 
 ### -field BUSD_Type
 
@@ -104,13 +104,12 @@ Zero.
 
 ## -remarks
 
-The BUSNUMBER_DES structure is included as a member of the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource) structure.
+The BUSNUMBER_DES structure is included as a member of the [BUSNUMBER_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource) structure.
 
 ## -see-also
 
-[BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)
+[BUSNUMBER_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)
 
 
 
-[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)
-
+[BUSNUMBER_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)

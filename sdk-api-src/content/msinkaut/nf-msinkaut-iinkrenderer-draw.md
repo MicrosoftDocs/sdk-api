@@ -57,7 +57,7 @@ Draws ink strokes using the known device context.
 
 ### -param hDC [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd">hWnd</a> of the device context on which to draw.
+Specifies the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd">hWnd</a> of the device context on which to draw.
 
 ### -param Strokes [in]
 
@@ -101,7 +101,7 @@ A parameter contained an invalid pointer.
 </dl>
 </td>
 <td width="60%">
-The strokes parameter is associated with a different <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+The strokes parameter is associated with a different <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 </td>
 </tr>
@@ -159,13 +159,13 @@ The pen width is multiplied (or scaled) by the square root of the determinant of
 <div> </div>
 For example, consider that the pen width is 53, the square root of the determinant is 50, and the bounding box is (0,0,1000,1000). The pen width adjustment to the bounding box in each direction is calculated as (53*50)/2, and the right and bottom sides are incremented by one. This results in a rendered bounding box of (-1325,-1325,2326,2326).
 
-<div class="alert"><b>Note</b>  Use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-drawstroke">DrawStroke</a> method to draw a single stroke.</div>
+<div class="alert"><b>Note</b>  Use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-drawstroke">DrawStroke</a> method to draw a single stroke.</div>
 <div> </div>
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> forces the viewport and window origins to 0, 0. Any existing settings are saved and restored, but is not used by the <b>InkRenderer</b>. To perform scrolling, use the <b>InkRenderer</b> object's view and object transform methods.
+The <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> forces the viewport and window origins to 0, 0. Any existing settings are saved and restored, but is not used by the <b>InkRenderer</b>. To perform scrolling, use the <b>InkRenderer</b> object's view and object transform methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-drawstroke">DrawStroke Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-drawstroke">DrawStroke Method</a>
 
 
 
@@ -173,17 +173,16 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
+<a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

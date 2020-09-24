@@ -92,13 +92,12 @@ Method not implemented.
 ## -remarks
 
 This method releases the terminals and releases the Terminal Manager. It releases all unprocessed events, and calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-stop">Stop</a> on the global MSP thread object. When this function is called, no call should be alive. However, bugs in the application may keep calls or terminals around.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-stop">Stop</a> on the global MSP thread object. When this function is called, no call should be alive. However, bugs in the application may keep calls or terminals around.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
+<a href="/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

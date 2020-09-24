@@ -56,11 +56,11 @@ Sets the credentials for talking to the destination.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> structure that contains the destination options.
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> structure that contains the destination options.
 
 ### -param credentials [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_usercredentials">MI_UserCredentials</a> structure that contains the credentials used when communicating with the destination machine.
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_usercredentials">MI_UserCredentials</a> structure that contains the credentials used when communicating with the destination machine.
 
 ## -returns
 
@@ -69,4 +69,3 @@ This function returns MI_INLINE MI_Result.
 ## -remarks
 
 The credentials supported will vary depending on the destination, the protocol and the transport.  If dual-factor authentication is required this method can be called twice.  The default credentials will vary depending on the protocol and transport selected.
-

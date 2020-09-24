@@ -56,11 +56,11 @@ Returns current resource usage details, such as available memory or CPU usage.
 
 ### -param pPerfData [out]
 
-On success, pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_performance_data">XAUDIO2_PERFORMANCE_DATA</a> structure that is returned.
+On success, pointer to an <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_performance_data">XAUDIO2_PERFORMANCE_DATA</a> structure that is returned.
 
 ## -remarks
 
-For specific information on the statistics returned by <b>GetPerformanceData</b>, see the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_performance_data">XAUDIO2_PERFORMANCE_DATA</a> structure reference.
+For specific information on the statistics returned by <b>GetPerformanceData</b>, see the <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_performance_data">XAUDIO2_PERFORMANCE_DATA</a> structure reference.
 
 
 
@@ -69,5 +69,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a>
-
+<a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a>

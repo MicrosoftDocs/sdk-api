@@ -65,7 +65,7 @@ Pointer to an array of information IDs. This pointer cannot be <b>NULL</b>.
 
 ### -param pInfoValues [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of 
+Pointer to a <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of 
       information values.
 
 ## -returns
@@ -81,17 +81,16 @@ Although Server Data Objects (SDO) exposes this method, you do not need it in or
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeinfo">ATTRIBUTEINFO</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributeinfo">ATTRIBUTEINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>
+<a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
-
+<a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>

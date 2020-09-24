@@ -57,15 +57,14 @@ Returns the number of adapters on the system.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-A UINT value that denotes the number of adapters on the system at the time this <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> interface was instantiated.
+A UINT value that denotes the number of adapters on the system at the time this <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> interface was instantiated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier">GetAdapterIdentifier</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier">GetAdapterIdentifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>

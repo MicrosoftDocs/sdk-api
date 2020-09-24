@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Indicates whether the buffer precision is supported by the underlying Direct3D <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">device.</a>
+Indicates whether the buffer precision is supported by the underlying Direct3D <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">device.</a>
 
 ## -parameters
 
 ### -param bufferPrecision
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a></b>
 
 The buffer precision to check.
 
@@ -68,5 +68,4 @@ Returns TRUE if the buffer precision is supported.  Returns FALSE if the buffer 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>

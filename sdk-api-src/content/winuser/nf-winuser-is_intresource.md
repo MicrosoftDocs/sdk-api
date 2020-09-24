@@ -64,5 +64,4 @@ This macro checks whether all bits except the least 16 bits are zero. When true,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources Overview</a>
-
+<a href="/windows/desktop/menurc/resources">Resources Overview</a>

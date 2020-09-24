@@ -120,7 +120,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetqueuemeasurementperiod">lineSetQueueMeasurementPeriod</a> for error codes returned from this TAPI 2.1 function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetqueuemeasurementperiod">lineSetQueueMeasurementPeriod</a> for error codes returned from this TAPI 2.1 function.
 
 </td>
 </tr>
@@ -129,15 +129,14 @@ See
 ## -remarks
 
 The <b>ITQueue::put_MeasurementPeriod</b> method is a COM wrapper for the TAPI 2.1 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetqueuemeasurementperiod">lineSetQueueMeasurementPeriod</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetqueuemeasurementperiod">lineSetQueueMeasurementPeriod</a> function.
 
 This method will accept negative values for the measurement period, but this will normally result in unreliable statistics.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
+<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>

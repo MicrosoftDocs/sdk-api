@@ -63,16 +63,16 @@ Sets the specified waitable timer to the inactive state.
 ### -param hTimer [in]
 
 A handle to the timer object. The 
-[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw) or 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw) function returns this handle. The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
+[CreateWaitableTimer](./nf-synchapi-createwaitabletimerw.md) or 
+[OpenWaitableTimer](./nf-synchapi-openwaitabletimerw.md) function returns this handle. The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
+<a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -80,28 +80,27 @@ The
 <b>CancelWaitableTimer</b> function does not change the signaled state of the timer. It stops the timer before it can be set to the signaled state and cancels outstanding APCs. Therefore, threads performing a wait operation on the timer remain waiting until they time out or the timer is reactivated and its state is set to signaled. If the timer is already in the signaled state, it remains in that state.
 
 To reactivate the timer, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a> function.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a> function.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0400 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)
+[CreateWaitableTimer](./nf-synchapi-createwaitabletimerw.md)
 
 
 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)
+[OpenWaitableTimer](./nf-synchapi-openwaitabletimerw.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/waitable-timer-objects">Waitable Timer Objects</a>
-
+<a href="/windows/desktop/Sync/waitable-timer-objects">Waitable Timer Objects</a>

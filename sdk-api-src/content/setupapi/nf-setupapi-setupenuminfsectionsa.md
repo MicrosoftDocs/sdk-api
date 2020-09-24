@@ -84,18 +84,17 @@ Pointer to a location that receives the required size of the buffer pointed to b
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_NO_MORE_ITEMS</b> if the value of <b>EnumerationIndex</b> is greater than or equal to the number of sections names in the INF file.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_NO_MORE_ITEMS</b> if the value of <b>EnumerationIndex</b> is greater than or equal to the number of sections names in the INF file.
 
 ## -remarks
 
-This function can enumerate all unique section names in the INF file. If a section name appears more than once in an INF file, the function returns the name only once using a single enumeration index. To return all section names in the INF file, call the function beginning with an enumeration index of zero and then make repeated calls to the function while incrementing the index until the function returns  <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_NO_MORE_ITEMS</b>.  Your application should not rely on the section names being returned in any order based on the enumeration index.
+This function can enumerate all unique section names in the INF file. If a section name appears more than once in an INF file, the function returns the name only once using a single enumeration index. To return all section names in the INF file, call the function beginning with an enumeration index of zero and then make repeated calls to the function while incrementing the index until the function returns  <b>FALSE</b> and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_NO_MORE_ITEMS</b>.  Your application should not rely on the section names being returned in any order based on the enumeration index.
 
 
 
 
 > [!NOTE]
 > The setupapi.h header defines SetupEnumInfSections as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-An optional type description used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNIQUE_ID_TYPE</a> to specify constraints on the set of values
+An optional type description used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNIQUE_ID_TYPE</a> to specify constraints on the set of values
                 which can be deserialized.
 
 ## -struct-fields
@@ -66,4 +66,3 @@ The minimum number of characters.  This only pertains
 
 The maximum number of characters.  This only pertains
                     to the case where the unique ID is represented as a string.
-

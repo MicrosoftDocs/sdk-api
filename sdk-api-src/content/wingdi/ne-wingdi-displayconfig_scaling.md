@@ -76,7 +76,7 @@ Indicates that the caller requests a custom scaling that the caller cannot descr
 
 ### -field DISPLAYCONFIG_SCALING_PREFERRED
 
-Indicates that the caller does not have any preference for the scaling. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdisplayconfig">SetDisplayConfig</a> function will use the scaling value that was last saved in the database for the path. If such a scaling value does not exist, <b>SetDisplayConfig</b> will use the default scaling for the computer. For example, stretched (DISPLAYCONFIG_SCALING_STRETCHED) for tablet computers and aspect-ratio centered (DISPLAYCONFIG_SCALING_ASPECTRATIOCENTEREDMAX) for non-tablet computers.
+Indicates that the caller does not have any preference for the scaling. The <a href="/windows/desktop/api/winuser/nf-winuser-setdisplayconfig">SetDisplayConfig</a> function will use the scaling value that was last saved in the database for the path. If such a scaling value does not exist, <b>SetDisplayConfig</b> will use the default scaling for the computer. For example, stretched (DISPLAYCONFIG_SCALING_STRETCHED) for tablet computers and aspect-ratio centered (DISPLAYCONFIG_SCALING_ASPECTRATIOCENTEREDMAX) for non-tablet computers.
 
 ### -field DISPLAYCONFIG_SCALING_FORCE_UINT32
 
@@ -84,5 +84,4 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -remarks
 
-For more information about scaling, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/scaling-the-desktop-image">Scaling the Desktop Image</a>.
-
+For more information about scaling, see <a href="/windows-hardware/drivers/display/scaling-the-desktop-image">Scaling the Desktop Image</a>.

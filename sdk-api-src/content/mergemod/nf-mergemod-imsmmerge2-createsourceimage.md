@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>CreateSourceImage</b> method enables the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-createsourceimage">CreateSourceImage</a> method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.
+<a href="/windows/desktop/Msi/merge-createsourceimage">CreateSourceImage</a> method of the 
+<a href="/windows/desktop/Msi/merge-object">Merge</a> object.
 
 ## -parameters
 
@@ -75,5 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

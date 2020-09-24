@@ -62,25 +62,24 @@ Reference to the next node in the linked list of <b>WSD_PROBE_MATCH_LIST</b> str
 
 ### -field Element
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_match">WSD_PROBE_MATCH</a> structure that contains the ProbeMatch message referenced by this node.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_match">WSD_PROBE_MATCH</a> structure that contains the ProbeMatch message referenced by this node.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WsdApi/probe-message">Probe Message</a>
+<a href="/windows/desktop/WsdApi/probe-message">Probe Message</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WsdApi/probematches-message">ProbeMatches Message</a>
+<a href="/windows/desktop/WsdApi/probematches-message">ProbeMatches Message</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe">WSD_PROBE</a>
+<a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe">WSD_PROBE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_match">WSD_PROBE_MATCH</a>
+<a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_match">WSD_PROBE_MATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_matches">WSD_PROBE_MATCHES</a>
-
+<a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_matches">WSD_PROBE_MATCHES</a>

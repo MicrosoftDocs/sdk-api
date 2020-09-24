@@ -62,9 +62,8 @@ The assigned cursor ID.
 
 ### -field cursor
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-pointer_device_cursor_type">POINTER_DEVICE_CURSOR_TYPE</a> that the ID is mapped to.
+The <a href="/windows/desktop/api/winuser/ne-winuser-pointer_device_cursor_type">POINTER_DEVICE_CURSOR_TYPE</a> that the ID is mapped to.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>
-
+<a href="/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>

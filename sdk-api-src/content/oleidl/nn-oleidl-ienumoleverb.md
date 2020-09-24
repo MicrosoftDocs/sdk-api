@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Enumerates the different verbs available for an object in order of ascending verb number. An enumerator that implements the <b>IEnumOLEVERB</b> interface is returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>.
+Enumerates the different verbs available for an object in order of ascending verb number. An enumerator that implements the <b>IEnumOLEVERB</b> interface is returned by <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOLEVERB</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOLEVERB</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOLEVERB</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOLEVERB</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumOLEVERB</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ienumoleverb-clone">Clone</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ienumoleverb-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumerator that contains the same enumeration state as the current one.
@@ -78,7 +78,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ienumoleverb-next">Next</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ienumoleverb-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -87,7 +87,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ienumoleverb-reset">Reset</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ienumoleverb-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -96,7 +96,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ienumoleverb-skip">Skip</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ienumoleverb-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.
@@ -104,4 +104,3 @@ Skips over the specified number of items in the enumeration sequence.
 </td>
 </tr>
 </table>
-

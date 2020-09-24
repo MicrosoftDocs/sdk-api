@@ -62,7 +62,7 @@ The handle to the recognizer context.
 
 ### -param pGuid
 
-The property to set. Specify a predefined property globally unique identifier (GUID) or application-defined property GUID. For a list of predefined properties, see the recognition <a href="https://docs.microsoft.com/windows/desktop/tablet/property-guids">Property GUIDs</a>.
+The property to set. Specify a predefined property globally unique identifier (GUID) or application-defined property GUID. For a list of predefined properties, see the recognition <a href="/windows/desktop/tablet/property-guids">Property GUIDs</a>.
 
 ### -param cbSize
 
@@ -155,9 +155,8 @@ The <b>SetContextPropertyValue</b> function is optional.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getcontextpropertylist">GetContextPropertyList Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-getcontextpropertylist">GetContextPropertyList Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getcontextpropertyvalue">GetContextPropertyValue Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-getcontextpropertyvalue">GetContextPropertyValue Function</a>

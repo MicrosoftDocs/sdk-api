@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_ClientSpecifiedTarget</b> structure specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN) of the initial target when calling the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">QueryContextAttributes (Digest)</a> function.
+The <b>SecPkgContext_ClientSpecifiedTarget</b> structure specifies the <a href="/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN) of the initial target when calling the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">QueryContextAttributes (Digest)</a> function.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ The SPN of the initial target.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">QueryContextAttributes (Digest)</a>
-
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">QueryContextAttributes (Digest)</a>

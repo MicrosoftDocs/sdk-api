@@ -63,22 +63,22 @@ Use this function to write an event.
 ### -param RegHandle [in]
 
 Registration handle of the provider. The handle comes from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
 
 ### -param EventDescriptor [in]
 
 Metadata that identifies the event to write. For details, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
+      <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 ### -param UserDataCount [in]
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
+Number of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
       in <i>UserData</i>. The maximum number is 128.
 
 ### -param UserData [in, optional]
 
 The event data to write. Allocate a block of memory that contains one or more 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
+      <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
       parameter to <b>NULL</b> if <i>UserDataCount</i> is zero. The data must be 
       in the order specified in the manifest.
 
@@ -178,9 +178,9 @@ The real-time playback file is full. Events are not logged to the session until 
 Event data written with this function requires a manifest to consume the data.
 
 ETW decides based on the event descriptor if the event is written to a session (for details, see 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>).
+    <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>).
 
-If you call the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
+If you call the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
     function to specify an activity identifier for the event, 
     <b>EventWrite</b> retrieves the identifier from thread local 
     storage and includes it with the event.
@@ -189,15 +189,14 @@ If you call the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov
 #### Examples
 
 For an example that uses <b>EventWrite</b>, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/writing-manifest-based-events">Writing Manifest-based Events</a>.
+     <a href="/windows/desktop/ETW/writing-manifest-based-events">Writing Manifest-based Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritestring">EventWriteString</a>
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritestring">EventWriteString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
-
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>

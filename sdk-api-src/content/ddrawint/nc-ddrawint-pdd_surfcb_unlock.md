@@ -53,7 +53,7 @@ The <i>DdUnLock</i> callback function releases the lock held on the specified su
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_unlockdata">DD_UNLOCKDATA</a> structure that contains the information required to perform the lock release.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_unlockdata">DD_UNLOCKDATA</a> structure that contains the information required to perform the lock release.
 
 ## -returns
 
@@ -61,15 +61,14 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 ## -remarks
 
-The driver does not need to verify that the memory was previously locked down by <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a>, because DirectDraw does parameter validation before calling this routine. 
+The driver does not need to verify that the memory was previously locked down by <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a>, because DirectDraw does parameter validation before calling this routine. 
 
-<i>DdUnLock</i> can be called with a disabled <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a> function. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/managing-pdevs">Managing PDEVs</a> for more information.
+<i>DdUnLock</i> can be called with a disabled <a href="/windows-hardware/drivers/">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a> function. See <a href="/windows-hardware/drivers/display/managing-pdevs">Managing PDEVs</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_unlockdata">DD_UNLOCKDATA</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_unlockdata">DD_UNLOCKDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a>

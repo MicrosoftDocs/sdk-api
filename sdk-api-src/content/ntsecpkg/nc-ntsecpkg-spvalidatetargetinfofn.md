@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-Validates that the specified <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_targetinfo">SECPKG_TARGETINFO</a> structure represents a valid target.
+Validates that the specified <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_targetinfo">SECPKG_TARGETINFO</a> structure represents a valid target.
 
 ## -parameters
 
 ### -param ClientRequest [in, optional]
 
 A pointer to an opaque 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a> data structure that contains information about the LSA client's authentication request. A custom authentication package should pass in the value received during the client's call to the function, such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_call_package">LsaApCallPackage</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user">LsaApLogonUser</a>, that returns the output parameter.
+<a href="/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a> data structure that contains information about the LSA client's authentication request. A custom authentication package should pass in the value received during the client's call to the function, such as 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_call_package">LsaApCallPackage</a> or 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user">LsaApLogonUser</a>, that returns the output parameter.
 
 ### -param ProtocolSubmitBuffer [in]
 
@@ -75,7 +75,7 @@ The size, in bytes, of the <i>ProtocolSubmitBuffer</i> buffer.
 
 ### -param TargetInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_targetinfo">SECPKG_TARGETINFO</a> structure that specifies the target to validate.
+A pointer to a <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_targetinfo">SECPKG_TARGETINFO</a> structure that specifies the target to validate.
 
 ## -returns
 
@@ -88,10 +88,9 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 SSP/APs must implement the <b>SpValidateTargetInfo</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpValidateTargetInfo</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>

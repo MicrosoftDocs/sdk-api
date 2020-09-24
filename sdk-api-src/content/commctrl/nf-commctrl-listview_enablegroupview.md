@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Enables or disables whether the items in a list-view control display as a group. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-enablegroupview">LVM_ENABLEGROUPVIEW</a> message explicitly.
+Enables or disables whether the items in a list-view control display as a group. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-enablegroupview">LVM_ENABLEGROUPVIEW</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param fEnable
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>BOOL</b>
 <b>TRUE</b>
@@ -70,5 +70,4 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 ## -remarks
 
-To use <b>ListView_EnableGroupView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>ListView_EnableGroupView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

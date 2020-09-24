@@ -76,5 +76,4 @@ If the data is in stream format, the function returns the byte count.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Record Processing Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Record Processing Functions</a>

@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_Address</b> method gets a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface associated with this session.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface associated with this session.
 
 ## -parameters
 
 ### -param ppAddress [out]
 
 Pointer for 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>.
 
 ## -returns
 
@@ -108,14 +108,13 @@ The <i>ppAddress</i> parameter is not a valid pointer.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITAgentSession::get_Address</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITAgentSession::get_Address</b>. The application must call <b>Release</b> on the 
 <b>ITAddress</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>

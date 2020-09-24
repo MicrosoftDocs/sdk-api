@@ -52,14 +52,14 @@ api_name:
 
 ## -description
 
-Returns the current time as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+Returns the current time as a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 <div class="alert"><b>Note</b>  This function is provided for compatibility with 16-bit Windows.</div><div> </div>
 
 ## -parameters
 
 ### -param lpFileTime [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the current time.
+A pointer to the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the current time.
 
 ## -returns
 
@@ -67,9 +67,8 @@ This function returns S_OK to indicate success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-codosdatetimetofiletime">CoDosDateTimeToFileTime</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-codosdatetimetofiletime">CoDosDateTimeToFileTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cofiletimetodosdatetime">CoFileTimeToDosDateTime</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-cofiletimetodosdatetime">CoFileTimeToDosDateTime</a>

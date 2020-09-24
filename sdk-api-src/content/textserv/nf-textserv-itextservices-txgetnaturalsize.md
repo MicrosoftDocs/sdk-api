@@ -56,31 +56,31 @@ Allows a control to be resized so it fits its content appropriately.
 
 ### -param dwAspect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The aspect for the drawing. It can be any of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration.
+The aspect for the drawing. It can be any of the values from the <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration.
 
 ### -param hdcDraw
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 The device context into which drawing occurs.
 
 ### -param hicTargetDev
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 The device context for which text should be formatted (that is, for WYSIWYG).
 
 ### -param ptd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>*</b>
 
 More information on the target device.
 
 ### -param dwMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The type of fitting requested. It can be one of the following.
 
@@ -160,7 +160,7 @@ Resize the control so that it fits unindented  										content and trailing wh
 Resize the control to show an integral number of lines (no line is clipped). Format enough text to fill the width and height that is passed in, and then return a height that is rounded to the nearest line boundary.
 
 
-<div class="alert"><b>Note</b>  The passed and returned width and height correspond to the view rectangle. The host should adjust back to the client rectangle as needed. Because these values represent the extent of the text object, they are input and output in HIMETRIC coordinates (each HIMETRIC unit is .01 millimeter), and measuring does not include any zoom factor. For a discussion of the zoom factor, see <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>.</div>
+<div class="alert"><b>Note</b>  The passed and returned width and height correspond to the view rectangle. The host should adjust back to the client rectangle as needed. Because these values represent the extent of the text object, they are input and output in HIMETRIC coordinates (each HIMETRIC unit is .01 millimeter), and measuring does not include any zoom factor. For a discussion of the zoom factor, see <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>.</div>
 <div> </div>
 
 
@@ -176,23 +176,23 @@ Not supported.
 
 ### -param pwidth [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 The width for the fitting defined by <i>dwMode</i>.
 
 ### -param pheight [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 The height for the fitting defined by <i>dwMode</i>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, the return value is <b>S_OK</b>.
 
-If text services could not activate the object, the return value is one of the following <b>HRESULT</b> codes. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If text services could not activate the object, the return value is one of the following <b>HRESULT</b> codes. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -236,7 +236,7 @@ Insufficient memory.
 
 ## -remarks
 
-The first four parameters are similar to equivalent parameters in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a> and give the same information. In the case where the lines must be recalculated, it should use these values the same ways as in <b>ITextServices::TxDraw</b>.
+The first four parameters are similar to equivalent parameters in <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a> and give the same information. In the case where the lines must be recalculated, it should use these values the same ways as in <b>ITextServices::TxDraw</b>.
 
 The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host passes in the tentative width and height of the natural extent of the text object. The text services object compares these values against its current cached state, and if different, recalculate lines. Then, it computes and returns the natural size, as specified by <i>dwMode</i>.
 
@@ -246,11 +246,11 @@ The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>
+<a href="/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
@@ -262,13 +262,12 @@ The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">TxDraw</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">TxDraw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

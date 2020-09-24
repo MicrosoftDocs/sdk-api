@@ -83,9 +83,8 @@ You do not need to clear a topology before disposing of it. The <b>Clear</b> met
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

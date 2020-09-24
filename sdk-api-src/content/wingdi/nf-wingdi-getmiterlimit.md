@@ -76,17 +76,16 @@ The miter limit is used when drawing geometric lines that have miter joins.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/path-functions">Path Functions</a>
+<a href="/windows/desktop/gdi/path-functions">Path Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/paths">Paths Overview</a>
+<a href="/windows/desktop/gdi/paths">Paths Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a>

@@ -54,7 +54,7 @@ Exposes methods that notify Remote Desktop Connection Broker (RD Connection Bro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbProvisioningPluginNotifySink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbProvisioningPluginNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbProvisioningPluginNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbProvisioningPluginNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITsSbProvisioningPluginNotifySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-lockvirtualmachine">LockVirtualMachine</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-lockvirtualmachine">LockVirtualMachine</a>
 </td>
 <td align="left" width="63%">
 Lock VM
@@ -78,7 +78,7 @@ Lock VM
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onjobcancelled">OnJobCancelled</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onjobcancelled">OnJobCancelled</a>
 </td>
 <td align="left" width="63%">
 Job canceled notification
@@ -87,7 +87,7 @@ Job canceled notification
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onjobcompleted">OnJobCompleted</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onjobcompleted">OnJobCompleted</a>
 </td>
 <td align="left" width="63%">
 Job complete notification
@@ -96,7 +96,7 @@ Job complete notification
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onjobcreated">OnJobCreated</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onjobcreated">OnJobCreated</a>
 </td>
 <td align="left" width="63%">
 Job created notification
@@ -105,7 +105,7 @@ Job created notification
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onvirtualmachinehoststatuschanged">OnVirtualMachineHostStatusChanged</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onvirtualmachinehoststatuschanged">OnVirtualMachineHostStatusChanged</a>
 </td>
 <td align="left" width="63%">
 Virtual Machine Host status changed
@@ -114,7 +114,7 @@ Virtual Machine Host status changed
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onvirtualmachinestatuschanged">OnVirtualMachineStatusChanged</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onvirtualmachinestatuschanged">OnVirtualMachineStatusChanged</a>
 </td>
 <td align="left" width="63%">
 Virtual Machine status changed notification
@@ -125,9 +125,8 @@ Virtual Machine status changed notification
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

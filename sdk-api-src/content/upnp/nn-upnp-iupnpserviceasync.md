@@ -52,11 +52,11 @@ api_name:
 
 Use this interface to asynchronously query state variables and invoke actions on an instance of a service .
 
-This interface can be obtained through a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> off the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> object.
+This interface can be obtained through a <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> off the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPServiceAsync</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPServiceAsync</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPServiceAsync</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPServiceAsync</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IUPnPServiceAsync</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a>
 </td>
 <td align="left" width="63%">
 Invokes an action on a device in asynchronous mode.
@@ -80,7 +80,7 @@ Invokes an action on a device in asynchronous mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a>
 </td>
 <td align="left" width="63%">
 Initiates a request for the state variable value for a specific service in asynchronous mode.
@@ -89,7 +89,7 @@ Initiates a request for the state variable value for a specific service in async
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">BeginSCPDDownload</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">BeginSCPDDownload</a>
 </td>
 <td align="left" width="63%">
 Initiates asynchronous download of the Service Control Protocol Description (SCPD) document.
@@ -98,7 +98,7 @@ Initiates asynchronous download of the Service Control Protocol Description (SCP
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a>
 </td>
 <td align="left" width="63%">
 Initiates the registration of an application callback with the UPnP framework in asynchronous mode.
@@ -107,46 +107,46 @@ Initiates the registration of an application callback with the UPnP framework in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-cancelasyncoperation">CancelAsyncOperation</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-cancelasyncoperation">CancelAsyncOperation</a>
 </td>
 <td align="left" width="63%">
-Cancels any asynchronous operation initiated by the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a>, <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a>, <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">BeginSCPDDownload</a> methods.
+Cancels any asynchronous operation initiated by the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a>, <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a>, <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a>, or <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">BeginSCPDDownload</a> methods.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endinvokeaction">EndInvokeAction</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endinvokeaction">EndInvokeAction</a>
 </td>
 <td align="left" width="63%">
-Finalizes a <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a> operation and retrieves the resultant output arguments.
+Finalizes a <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a> operation and retrieves the resultant output arguments.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endquerystatevariable">EndQueryStateVariable</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endquerystatevariable">EndQueryStateVariable</a>
 </td>
 <td align="left" width="63%">
-Retrieves the service state variable value requested by <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a>.
+Retrieves the service state variable value requested by <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endscpddownload">EndSPCDDownload</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endscpddownload">EndSPCDDownload</a>
 </td>
 <td align="left" width="63%">
-Finalizes asynchronous download of the Service Control Protocol Description (SCPD) document initiated by <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">BeginSCPDDownload</a>. 
+Finalizes asynchronous download of the Service Control Protocol Description (SCPD) document initiated by <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">BeginSCPDDownload</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endsubscribetoevents">EndSubscribeToEvents</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endsubscribetoevents">EndSubscribeToEvents</a>
 </td>
 <td align="left" width="63%">
-Finalizes the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a> operation. 
+Finalizes the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a> operation. 
 
 </td>
 </tr>
@@ -154,5 +154,4 @@ Finalizes the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-up
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a>

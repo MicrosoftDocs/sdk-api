@@ -56,11 +56,11 @@ Called when a key up event occurs.
 
 ### -param wParam [in]
 
-The WPARAM of the key event. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
+The WPARAM of the key event. For more information about this parameter, see the <i>wParam</i> parameter in <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
 
 ### -param lParam [in]
 
-The LPARAM of the key event. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
+The LPARAM of the key event. For more information about this parameter, see the <i>lParam</i> parameter in <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
 
 ## -returns
 
@@ -68,10 +68,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
-
+<a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>

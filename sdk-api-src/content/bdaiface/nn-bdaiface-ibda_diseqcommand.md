@@ -54,7 +54,7 @@ Controls cable television satelite equipment, using Digital Satellite Equipment 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DiseqCommand</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DiseqCommand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DiseqCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DiseqCommand</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_DiseqCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-get_diseqresponse">get_DiseqResponse</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-get_diseqresponse">get_DiseqResponse</a>
 </td>
 <td align="left" width="63%">
 Gets the driver's response to a DiSEqC command.
@@ -79,7 +79,7 @@ Gets the driver's response to a DiSEqC command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_diseqlnbsource">put_DiseqLNBSource</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_diseqlnbsource">put_DiseqLNBSource</a>
 </td>
 <td align="left" width="63%">
 Sets the low-noise block (LNB) converter source.
@@ -89,7 +89,7 @@ Sets the low-noise block (LNB) converter source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_diseqrepeats">put_DiseqRepeats</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_diseqrepeats">put_DiseqRepeats</a>
 </td>
 <td align="left" width="63%">
 Enables or disables repeated DiSEqC commands.
@@ -99,7 +99,7 @@ Enables or disables repeated DiSEqC commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_diseqsendcommand">put_DiseqSendCommand</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_diseqsendcommand">put_DiseqSendCommand</a>
 </td>
 <td align="left" width="63%">
 Sends a DiSEqC command.
@@ -109,7 +109,7 @@ Sends a DiSEqC command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_disequsetoneburst">put_DiseqUseToneBurst</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_disequsetoneburst">put_DiseqUseToneBurst</a>
 </td>
 <td align="left" width="63%">
 Enables or disables Tone-Burst commands.
@@ -118,7 +118,7 @@ Enables or disables Tone-Burst commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_enablediseqcommands">put_EnableDiseqCommands</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_enablediseqcommands">put_EnableDiseqCommands</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the use of DiSEqC commands.
@@ -134,4 +134,3 @@ Depending on the cable television equipment in use, this interface can be used t
       
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_DiseqCommand)</code>.
-

@@ -52,7 +52,7 @@ api_name:
 
 Retrieves an upper bound on the number of bytes needed to marshal the call frame.
 
-Usually an interface proxy calls this method to learn how big a buffer is needed, allocates the buffer, and then calls the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-marshal">Marshal</a> method to carry out the marshalling.
+Usually an interface proxy calls this method to learn how big a buffer is needed, allocates the buffer, and then calls the <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-marshal">Marshal</a> method to carry out the marshalling.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A pointer to the <a href="/windows/win32/api/callobj/ns-callobj-callframe_marsha
 
 ### -param mshlflags [in]
 
-Indicates whether the data to be marshaled is to be transmitted back to the client process - the normal case - or written to a global table, where it can be retrieved by multiple clients. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
+Indicates whether the data to be marshaled is to be transmitted back to the client process - the normal case - or written to a global table, where it can be retrieved by multiple clients. For a list of values, see the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
 
 ### -param pcbBufferNeeded [out]
 
@@ -103,5 +103,4 @@ An unexpected error has occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[<b>SHFormatDateTime</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Produces a string representation of a time specified as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+Produces a string representation of a time specified as a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Produces a string representation of a time specified as a <a href="https://docs.
 
 Type: <b>const FILETIME UNALIGNED*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure whose time is to be converted to a string.
+A pointer to the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure whose time is to be converted to a string.
 
 ### -param pdwFlags [in, out, optional]
 
@@ -123,7 +123,7 @@ The long time was successfully formatted.
 
 #### FDTF_RELATIVE (0x00000010)
 
-0x00000010. If the FDTF_LONGDATE flag is set and the date in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure is the same date that <b>SHFormatDateTime</b> is called, then the day of the week (if present) is changed to "Today". If the date in the structure is the previous day, then the day of the week (if present) is changed to "Yesterday".
+0x00000010. If the FDTF_LONGDATE flag is set and the date in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure is the same date that <b>SHFormatDateTime</b> is called, then the day of the week (if present) is changed to "Today". If the date in the structure is the previous day, then the day of the week (if present) is changed to "Yesterday".
 
 Relative notation was used for the date.
 
@@ -188,7 +188,7 @@ The long time was successfully formatted.
 
 #### FDTF_RELATIVE (0x00000010)
 
-0x00000010. If the FDTF_LONGDATE flag is set and the date in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure is the same date that <b>SHFormatDateTime</b> is called, then the day of the week (if present) is changed to "Today". If the date in the structure is the previous day, then the day of the week (if present) is changed to "Yesterday".
+0x00000010. If the FDTF_LONGDATE flag is set and the date in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure is the same date that <b>SHFormatDateTime</b> is called, then the day of the week (if present) is changed to "Today". If the date in the structure is the previous day, then the day of the week (if present) is changed to "Yesterday".
 
 Relative notation was used for the date.
 
@@ -234,14 +234,13 @@ Returns the number of TCHARs written to the buffer, including the terminating nu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata">GetDateFormat</a>
+<a href="/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata">GetDateFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a>
+<a href="/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a>
 
 ## -remarks
 
 > [!NOTE]
 > The shlwapi.h header defines SHFormatDateTime as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

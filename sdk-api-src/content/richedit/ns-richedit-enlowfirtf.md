@@ -64,7 +64,7 @@ Specifies an <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0
 
 ### -field szControl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">CHAR</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">CHAR</a>*</b>
 
 The unsupported RTF keyword.
 
@@ -75,4 +75,3 @@ This structure is used with the <a href="https://msdn.microsoft.com/3b18320b-ebc
 ## -see-also
 
 <a href="https://msdn.microsoft.com/3b18320b-ebc3-44f2-a93c-e967a028c522">EN_LOWFIRTF</a>
-

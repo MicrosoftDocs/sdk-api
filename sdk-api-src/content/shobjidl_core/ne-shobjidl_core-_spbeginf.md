@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin">IActionProgress::Begin</a>, these constants specify certain UI operations that are to be enabled or disabled.
+Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin">IActionProgress::Begin</a>, these constants specify certain UI operations that are to be enabled or disabled.
 
 ## -enum-fields
 
@@ -77,9 +77,8 @@ Indicates that the UI should not include a <b>Cancel</b> button.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin">IActionProgress::Begin</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin">IActionProgress::Begin</a>

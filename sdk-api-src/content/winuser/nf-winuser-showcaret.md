@@ -69,26 +69,26 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 <b>ShowCaret</b> shows the caret only if the specified window owns the caret, the caret has a shape, and the caret has not been hidden two or more times in a row. If one or more of these conditions is not met, <b>ShowCaret</b> does nothing and returns <b>FALSE</b>. 
 
-Hiding is cumulative. If your application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a> five times in a row, it must also call <b>ShowCaret</b> five times before the caret reappears. 
+Hiding is cumulative. If your application calls <a href="/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a> five times in a row, it must also call <b>ShowCaret</b> five times before the caret reappears. 
 
 The system provides one caret per queue. A window should create a caret only when it has the keyboard focus or is active. The window should destroy the caret before losing the keyboard focus or becoming inactive. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-carets">Creating and Displaying a Caret</a>.
+For an example, see <a href="/windows/desktop/menurc/using-carets">Creating and Displaying a Caret</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
+<a href="/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -96,19 +96,19 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createcaret">CreateCaret</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createcaret">CreateCaret</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycaret">DestroyCaret</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroycaret">DestroyCaret</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcaretpos">GetCaretPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcaretpos">GetCaretPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a>
 
 
 
@@ -116,5 +116,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>

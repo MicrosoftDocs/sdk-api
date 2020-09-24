@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adds an ink stroke to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">RecognizerContext</a>.
+Adds an ink stroke to the <a href="/windows/desktop/tablet/inkrecognizercontext-class">RecognizerContext</a>.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The handle to the recognizer context.
 
 ### -param pPacketDesc
 
-Describes the contents of the packets. The description must match the contents of the packets in <i>pPacket</i>. If <b>NULL</b>, this function uses the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a> function.
+Describes the contents of the packets. The description must match the contents of the packets in <i>pPacket</i>. If <b>NULL</b>, this function uses the <a href="/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a> function.
 
 ### -param cbPacket
 
@@ -164,7 +164,7 @@ An invalid argument was received.
 
 ## -remarks
 
-The recognizer must return properties such as <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline">Baseline</a> in ink space coordinates rather than tablet coordinates.
+The recognizer must return properties such as <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline">Baseline</a> in ink space coordinates rather than tablet coordinates.
 
 It is recommended that your recognizer place a limit on the number of strokes per context and/or the points allowed in a given stroke. Limit input to 1024 strokes per context and 32767 points per stroke.
 
@@ -172,9 +172,8 @@ Strokes with zero points are not allowed. You should return E_FAIL in such a cas
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>
-
+<a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>

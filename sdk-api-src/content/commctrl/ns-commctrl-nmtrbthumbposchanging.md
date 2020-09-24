@@ -52,15 +52,15 @@ api_name:
 
 ## -description
 
-Contains information about a trackbar change notification. This message is sent with the <a href="https://docs.microsoft.com/windows/desktop/Controls/trbn-thumbposchanging">TRBN_THUMBPOSCHANGING</a> notification.
+Contains information about a trackbar change notification. This message is sent with the <a href="/windows/desktop/Controls/trbn-thumbposchanging">TRBN_THUMBPOSCHANGING</a> notification.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that describes the notification.
+A <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that describes the notification.
 
 ### -field dwPos
 
@@ -74,4 +74,3 @@ Type: <b>int</b>
 
 Type of movement as one of the following values: TB_LINEUP, TB_LINEDOWN, TB_PAGEUP, TB_PAGEDOWN, TB_THUMBPOSITION, TB_THUMBTRACK,
                 TB_TOP, TB_BOTTOM, or TB_ENDTRACK.
-

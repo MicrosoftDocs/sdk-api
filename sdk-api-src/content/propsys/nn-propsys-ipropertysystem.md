@@ -54,7 +54,7 @@ Exposes methods that get property descriptions, register and unregister property
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertySystem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertySystem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertySystem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertySystem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IPropertySystem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-enumeratepropertydescriptions">EnumeratePropertyDescriptions</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-enumeratepropertydescriptions">EnumeratePropertyDescriptions</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of the subsystem object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>, to obtain either the entire or a partial list of property descriptions in the system.
+Gets an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>, to obtain either the entire or a partial list of property descriptions in the system.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-formatfordisplay">FormatForDisplay</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-formatfordisplay">FormatForDisplay</a>
 </td>
 <td align="left" width="63%">
 Gets a formatted, Unicode string representation of a property value.
@@ -87,7 +87,7 @@ Gets a formatted, Unicode string representation of a property value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-formatfordisplayalloc">FormatForDisplayAlloc</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-formatfordisplayalloc">FormatForDisplayAlloc</a>
 </td>
 <td align="left" width="63%">
 Gets a string representation of a property value to an allocated memory buffer.
@@ -96,34 +96,34 @@ Gets a string representation of a property value to an allocated memory buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescription">GetPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescription">GetPropertyDescription</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of the subsystem object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, to obtain the property description for a given <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
+Gets an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, to obtain the property description for a given <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionbyname">GetPropertyDescriptionByName</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionbyname">GetPropertyDescriptionByName</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of the subsystem object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, to obtain the property description for a given canonical name.
+Gets an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, to obtain the property description for a given canonical name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring">GetPropertyDescriptionListFromString</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring">GetPropertyDescriptionListFromString</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of the subsystem object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
+Gets an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-refreshpropertyschema">RefreshPropertySchema</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-refreshpropertyschema">RefreshPropertySchema</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -132,7 +132,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-registerpropertyschema">RegisterPropertySchema</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-registerpropertyschema">RegisterPropertySchema</a>
 </td>
 <td align="left" width="63%">
 Informs the schema subsystem of the addition of a property description schema file.
@@ -141,7 +141,7 @@ Informs the schema subsystem of the addition of a property description schema fi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-unregisterpropertyschema">UnregisterPropertySchema</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-unregisterpropertyschema">UnregisterPropertySchema</a>
 </td>
 <td align="left" width="63%">
 Informs the schema subsystem of the removal of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local machine.
@@ -152,5 +152,4 @@ Informs the schema subsystem of the removal of a property description schema (.p
 
 ## -remarks
 
-Many of the exported APIs (such as <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescription">PSGetPropertyDescription</a>) are simply wrappers around the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a> methods. If your code calls a lot of these helper APIs in sequence, it may be worthwhile to instantiate a single <b>IPropertySystem</b> object, and call the methods directly, rather than calling the helper APIs. (To improve the performance, the helper APIs do obtain a cached instance of the <b>IPropertySystem</b> object.)
-
+Many of the exported APIs (such as <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertydescription">PSGetPropertyDescription</a>) are simply wrappers around the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a> methods. If your code calls a lot of these helper APIs in sequence, it may be worthwhile to instantiate a single <b>IPropertySystem</b> object, and call the methods directly, rather than calling the helper APIs. (To improve the performance, the helper APIs do obtain a cached instance of the <b>IPropertySystem</b> object.)

@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The top-level structure used to specify the security requirements for
-a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">channel</a> (on the client side) or a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">listener</a> (on the server side).
+a <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">channel</a> (on the client side) or a <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">listener</a> (on the server side).
 
 ## -struct-fields
 
@@ -70,8 +70,8 @@ The count of elements in the securityBindings array.
 ### -field properties
 
 The array of properties specifying the optional channel-wide security
-settings.  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a> in the array is a key-value
-pair and must use a key defined in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a>.  This field can be <b>NULL</b>,
+settings.  Each <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a> in the array is a key-value
+pair and must use a key defined in <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a>.  This field can be <b>NULL</b>,
 and if it is <b>NULL</b>, the default value will be used for each security
 channel setting.
 
@@ -85,4 +85,3 @@ The figure below illustrates the structure of a security description.
             
 
 <img alt="" src="images/SecurityDescription.png"/>
-

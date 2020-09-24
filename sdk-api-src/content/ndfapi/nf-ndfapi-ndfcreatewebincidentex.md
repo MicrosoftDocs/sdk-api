@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>NdfCreateWebIncidentEx</b> function diagnoses web connectivity problems concerning a specific URL.  This function allows for more control over the underlying diagnosis than the <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a> function.
+The <b>NdfCreateWebIncidentEx</b> function diagnoses web connectivity problems concerning a specific URL.  This function allows for more control over the underlying diagnosis than the <a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a> function.
 
 ## -parameters
 
@@ -137,5 +137,4 @@ One or more parameters are invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a>
-
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a>

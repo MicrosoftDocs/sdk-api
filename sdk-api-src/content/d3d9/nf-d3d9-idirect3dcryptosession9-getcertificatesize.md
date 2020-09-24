@@ -64,13 +64,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-To get the certificate, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getcertificate">IDirect3DCryptoSession9::GetCertificate</a>.
+To get the certificate, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getcertificate">IDirect3DCryptoSession9::GetCertificate</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
+<a href="/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>

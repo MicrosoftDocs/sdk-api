@@ -56,7 +56,7 @@ Retrieves an element within a containing element, based on a specified property 
 
 ### -param pStartAfter [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>*</b>
 
 The UI Automation provider of the element after which the search begins, or <b>NULL</b> to search all elements.
 
@@ -64,31 +64,31 @@ The UI Automation provider of the element after which the search begins, or <b>N
 
 Type: <b>PROPERTYID</b>
 
-The property identifier. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
+The property identifier. For a list of property IDs, see <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 ### -param value [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
 
 The value of the property.
 
 ### -param pFound [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>**</b>
 
 Receives a pointer to the UI Automation provider of the element.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-For virtual lists, the element returned may be a placeholder. <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivirtualizeditemprovider-realize">IVirtualizedItemProvider::Realize</a> can then be used to make the item fully available.
+For virtual lists, the element returned may be a placeholder. <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivirtualizeditemprovider-realize">IVirtualizedItemProvider::Realize</a> can then be used to make the item fully available.
 
-The method returns E_INVALIDARG if searching by the specified property is not supported. Most containers should support <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">UIA_NamePropertyId</a> and, if appropriate, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">UIA_AutomationIdPropertyId</a> and <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-control-pattern-propids">UIA_SelectionItemIsSelectedPropertyId</a>.
+The method returns E_INVALIDARG if searching by the specified property is not supported. Most containers should support <a href="/windows/desktop/WinAuto/uiauto-automation-element-propids">UIA_NamePropertyId</a> and, if appropriate, <a href="/windows/desktop/WinAuto/uiauto-automation-element-propids">UIA_AutomationIdPropertyId</a> and <a href="/windows/desktop/WinAuto/uiauto-control-pattern-propids">UIA_SelectionItemIsSelectedPropertyId</a>.
 
 If <i>propertyId</i> is 0, all items are a match. This value can be  used
 with <i>pStartAfter</i> equalling <b>NULL</b> to get the first item, and then to get successive
@@ -100,13 +100,12 @@ items. In this case, <i>value</i> should be VT_EMPTY.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iitemcontainerprovider">IItemContainerProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iitemcontainerprovider">IItemContainerProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>
+<a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>
 
 
 
 <b>Reference</b>
-

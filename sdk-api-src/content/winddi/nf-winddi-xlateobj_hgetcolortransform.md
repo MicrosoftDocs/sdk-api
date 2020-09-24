@@ -56,7 +56,7 @@ The <b>XLATEOBJ_hGetColorTransform</b> function returns the color transform for 
 
 ### -param pxlo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure whose color transform is being queried. The color transform was created in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure whose color transform is being queried. The color transform was created in a prior call to <a href="/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>.
 
 ## -returns
 
@@ -66,17 +66,16 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns
 
 <b>XLATEOBJ_hGetColorTransform</b> returns <b>NULL</b> when it is called in host ICM context or when ICM is disabled.
 
-The color transform for a brush is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-brushobj_hgetcolortransform">BRUSHOBJ_hGetColorTransform</a>.
+The color transform for a brush is obtained by calling <a href="/windows/desktop/api/winddi/nf-winddi-brushobj_hgetcolortransform">BRUSHOBJ_hGetColorTransform</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-brushobj_hgetcolortransform">BRUSHOBJ_hGetColorTransform</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-brushobj_hgetcolortransform">BRUSHOBJ_hGetColorTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>

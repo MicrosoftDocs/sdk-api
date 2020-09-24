@@ -69,9 +69,8 @@ The buffer memory is owned by the media sample object, and is automatically rele
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>

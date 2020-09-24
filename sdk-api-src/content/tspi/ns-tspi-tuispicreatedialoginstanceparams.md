@@ -61,7 +61,7 @@ Defines parameters for TAPI dialog operations.
 ### -field dwRequestID
 
 The <b>dwRequestID</b> passed to the service provider as a parameter in the asynchronous TSPI function with which the spontaneous UI is associated. TAPI uses this to identify the application in whose context the UI DLL is to be loaded and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a> function invoked.
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a> function invoked.
 
 ### -field hdDlgInst
 
@@ -69,7 +69,7 @@ The service provider's identifier for the association with the instance of the g
 
 ### -field htDlgInst
 
-TAPI writes into this member its identifier for the association that is created. This member is set to <b>NULL</b> if creating the association failed, in which case it is impossible for the service provider to create a dialog box spontaneously in the context of the target application. The service provider must use this identifier in messages to send data to the UI DLL (<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a>).
+TAPI writes into this member its identifier for the association that is created. This member is set to <b>NULL</b> if creating the association failed, in which case it is impossible for the service provider to create a dialog box spontaneously in the context of the target application. The service provider must use this identifier in messages to send data to the UI DLL (<a href="/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a>).
 
 ### -field lpszUIDLLName
 
@@ -78,7 +78,7 @@ Pointer to a <b>NULL</b>-terminated string specifying the fully qualified name o
 ### -field lpParams
 
 Pointer to a private parameter block to be conveyed to the UI DLL's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a> function. The service provider and UI DLL determine the contents of the parameter block. The transfer is unidirectional; the UI DLL is not able to modify the parameter block and return it to the service provider. Generally, this block instructs the UI DLL which dialog box to display, and contains the information to display (if necessary).
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a> function. The service provider and UI DLL determine the contents of the parameter block. The transfer is unidirectional; the UI DLL is not able to modify the parameter block and return it to the service provider. Generally, this block instructs the UI DLL which dialog box to display, and contains the information to display (if necessary).
 
 ### -field dwSize
 
@@ -86,9 +86,8 @@ The size, in bytes, of the parameter block.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a>
+<a href="/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a>

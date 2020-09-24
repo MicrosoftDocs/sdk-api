@@ -121,24 +121,23 @@ The ID of the object to open.
 
 ### -field DUMMYUNIONNAME.ExtendedFileId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
+A <a href="/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
        
 
 <b>Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:  </b>This member is not supported before Windows 8 and Windows Server 2012.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-file_id_type">FILE_ID_TYPE</a>
+<a href="/windows/desktop/api/winbase/ne-winbase-file_id_type">FILE_ID_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
+<a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>

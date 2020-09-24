@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Implemented by the <a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>. The sequencer source enables an application to create a sequence of topologies. To create the sequencer source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesequencersource">MFCreateSequencerSource</a>. For step-by-step instructions about how to create a playlist, see <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-create-a-playlist">How to Create a Playlist</a>.
+Implemented by the <a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>. The sequencer source enables an application to create a sequence of topologies. To create the sequencer source, call <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatesequencersource">MFCreateSequencerSource</a>. For step-by-step instructions about how to create a playlist, see <a href="/windows/desktop/medfound/how-to-create-a-playlist">How to Create a Playlist</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSequencerSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSequencerSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSequencerSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSequencerSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFSequencerSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">AppendTopology</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">AppendTopology</a>
 </td>
 <td align="left" width="63%">
 Adds a topology to the end of the queue of topologies.
@@ -79,7 +79,7 @@ Adds a topology to the end of the queue of topologies.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-deletetopology">DeleteTopology</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-deletetopology">DeleteTopology</a>
 </td>
 <td align="left" width="63%">
 Deletes a topology from the queue.
@@ -88,7 +88,7 @@ Deletes a topology from the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-getpresentationcontext">GetPresentationContext</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-getpresentationcontext">GetPresentationContext</a>
 </td>
 <td align="left" width="63%">
 Maps a presentation descriptor to its associated sequencer element identifier and topology.
@@ -97,7 +97,7 @@ Maps a presentation descriptor to its associated sequencer element identifier an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-updatetopology">UpdateTopology</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-updatetopology">UpdateTopology</a>
 </td>
 <td align="left" width="63%">
 Updates a topology in the queue.
@@ -106,7 +106,7 @@ Updates a topology in the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-updatetopologyflags">UpdateTopologyFlags</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-updatetopologyflags">UpdateTopologyFlags</a>
 </td>
 <td align="left" width="63%">
 Updates the flags for a topology in the queue.
@@ -117,9 +117,8 @@ Updates the flags for a topology in the queue.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
-
+<a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>

@@ -61,23 +61,23 @@ Contains information used to associate a completion port with a job. You can ass
 ### -field CompletionKey
 
 The value to use in the <i>dwCompletionKey</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> when messages are sent on behalf of the job.
+<a href="/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> when messages are sent on behalf of the job.
 
 ### -field CompletionPort
 
-The completion port to use in the <i>CompletionPort</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function when messages are sent on behalf of the job.
+The completion port to use in the <i>CompletionPort</i> parameter of the <a href="/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function when messages are sent on behalf of the job.
 
 <b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>Specify <b>NULL</b> to remove the association between the current completion port and the job.
 
 ## -remarks
 
 The system sends messages to the I/O completion port associated with a job when certain events occur. If the job is nested, the message is sent to every I/O completion port associated with any job in the parent job chain of the job that triggered the message. All messages are sent directly from the job as if the job had called the 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function. 
+<a href="/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function. 
 
 Note that, except for limits set with the <b>JobObjectNotificationLimitInformation</b> information class, messages are intended only as notifications and their delivery to the completion port is not guaranteed. The failure of a message to arrive at the completion port does not necessarily mean that the event did not occur. Notifications for limits set with <b>JobObjectNotificationLimitInformation</b> are guaranteed to arrive at the completion port. 
 
 A thread must monitor the completion port using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function to pick up the messages. The thread receives information in the <b>GetQueuedCompletionStatus</b> parameters shown in the following table.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function to pick up the messages. The thread receives information in the <b>GetQueuedCompletionStatus</b> parameters shown in the following table.
 
 <table>
 <tr>
@@ -205,7 +205,7 @@ The value of <i>lpOverlapped</i> is the identifier of the process added to the j
 <tr>
 <td>JOB_OBJECT_MSG_NOTIFICATION_LIMIT</td>
 <td>
-Indicates that a process associated with a job that has registered for resource limit notifications has exceeded one or more  limits. Use the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> function with JobObjectLimitViolationInformation to determine which limit was exceeded. 
+Indicates that a process associated with a job that has registered for resource limit notifications has exceeded one or more  limits. Use the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> function with JobObjectLimitViolationInformation to determine which limit was exceeded. 
 
 The value of <i>lpOverlapped</i> is the identifier of the process that has exceeded its limit. The system does not send this message if the process has not yet reported its process identifier.
 
@@ -232,13 +232,12 @@ You must be cautious when using the JOB_OBJECT_MSG_NEW_PROCESS and JOB_OBJECT_MS
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
+<a href="/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>. This interface enables clients of the autocomplete object to retrieve and set a number of options that control how autocompletion operates.
+Extends <a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>. This interface enables clients of the autocomplete object to retrieve and set a number of options that control how autocompletion operates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutoComplete2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>. <b>IAutoComplete2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutoComplete2</b> interface inherits from <a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>. <b>IAutoComplete2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAutoComplete2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-getoptions">GetOptions</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-getoptions">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the current autocomplete options.
@@ -78,7 +78,7 @@ Gets the current autocomplete options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-setoptions">SetOptions</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-setoptions">SetOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the current autocomplete options.
@@ -89,11 +89,10 @@ Sets the current autocomplete options.
 
 ## -remarks
 
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a> interface from which it inherits.
+This interface also provides the methods of the <a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a> interface from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 This interface is not usually implemented by applications. It is exposed by the Shell's autocomplete object.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Use this interface when you need to retrieve or set autocomplete options. The list of available options is given in the method references.
-

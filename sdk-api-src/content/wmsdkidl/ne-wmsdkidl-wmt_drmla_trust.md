@@ -74,5 +74,4 @@ When a <b>WMT_LICENSEURL_SIGNATURE_STATE</b> message is received in the <b>OnSta
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

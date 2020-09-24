@@ -60,5 +60,4 @@ void pointer to the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallbacklogging">IMFAsyncCallbackLogging</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallbacklogging">IMFAsyncCallbackLogging</a>

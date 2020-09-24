@@ -58,7 +58,7 @@ The <b>IPSEC_AUTH_TRANSFORM_ID0</b> structure is used to uniquely identify the h
 
 ### -field authType
 
-The type of the hash algorithm as specified by [IPSEC_AUTH_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type).
+The type of the hash algorithm as specified by [IPSEC_AUTH_TYPE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type).
 
 ### -field authConfig
 
@@ -155,9 +155,8 @@ AES data integrity and data origin authentication  algorithm, with 256-bit key.
 
 ## -remarks
 
-<b>IPSEC_AUTH_TRANSFORM_ID0</b> is a specific implementation of IPSEC_AUTH_TRANSFORM_ID. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_AUTH_TRANSFORM_ID0</b> is a specific implementation of IPSEC_AUTH_TRANSFORM_ID. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

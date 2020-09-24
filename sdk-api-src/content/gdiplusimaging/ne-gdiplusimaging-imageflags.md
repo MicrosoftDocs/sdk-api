@@ -52,8 +52,8 @@ api_name:
 ## -description
 
 The <b>ImageFlags</b> enumeration specifies the attributes of the pixel data contained in an 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object. The 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getflags">Image::GetFlags</a> method returns an element of this enumeration.
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object. The 
+			<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getflags">Image::GetFlags</a> method returns an element of this enumeration.
 
 ## -enum-fields
 
@@ -115,5 +115,4 @@ Specifies that the pixel data can be cached for faster access.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getflags">Image::GetFlags</a>
-
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getflags">Image::GetFlags</a>

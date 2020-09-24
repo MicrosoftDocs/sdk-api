@@ -67,25 +67,24 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The path, if it is to be drawn by <b>StrokePath</b>, must have been completed through a call to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>. Calling this function on a path for which <b>EndPath</b> has not been called will cause this function to fail and return zero.  Unlike other path drawing functions such as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-strokeandfillpath">StrokeAndFillPath</a>, <b>StrokePath</b> will not attempt to close the path by drawing a straight line from the first point on the path to the last point on the path.
+The path, if it is to be drawn by <b>StrokePath</b>, must have been completed through a call to <a href="/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>. Calling this function on a path for which <b>EndPath</b> has not been called will cause this function to fail and return zero.  Unlike other path drawing functions such as <a href="/windows/desktop/api/wingdi/nf-wingdi-strokeandfillpath">StrokeAndFillPath</a>, <b>StrokePath</b> will not attempt to close the path by drawing a straight line from the first point on the path to the last point on the path.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/path-functions">Path Functions</a>
+<a href="/windows/desktop/gdi/path-functions">Path Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/paths">Paths Overview</a>
-
+<a href="/windows/desktop/gdi/paths">Paths Overview</a>

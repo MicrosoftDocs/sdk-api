@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Gets or sets a value that indicates whether the pen input panel appears when focus is set on the attached control by using the pen.
 
@@ -67,7 +67,7 @@ This property is read/write.
 
 ## -remarks
 
-When the <b>AutoShow</b> property is set to <b>VARIANT_FALSE</b>, Tablet PC Input Panel does not show until the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible">Visible</a> property is set to <b>VARIANT_TRUE</b>. At this point, Tablet PC Input Panel is displayed but no hover target is shown.
+When the <b>AutoShow</b> property is set to <b>VARIANT_FALSE</b>, Tablet PC Input Panel does not show until the <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible">Visible</a> property is set to <b>VARIANT_TRUE</b>. At this point, Tablet PC Input Panel is displayed but no hover target is shown.
 
 ## -see-also
 
@@ -75,5 +75,4 @@ When the <b>AutoShow</b> property is set to <b>VARIANT_FALSE</b>, Tablet PC Inpu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-
+<a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>

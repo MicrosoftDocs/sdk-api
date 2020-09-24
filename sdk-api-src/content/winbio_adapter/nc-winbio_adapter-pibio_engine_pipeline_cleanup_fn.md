@@ -56,7 +56,7 @@ Called by the Windows Biometric Framework to give the Engine Adapter the chance 
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ## -returns
 
@@ -87,4 +87,3 @@ This method is called once, when a biometric unit is being torn down.
 The Engine Adapter should return <b>S_OK</b> if it doesn’t need to perform any cleanup at this point.
 
 This method executes in the context of an arbitrary RPC server thread.
-

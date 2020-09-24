@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Associates the specified input context with the specified window. By default, the operating system associates the default input context with each window as it is created.
-<div class="alert"><b>Note</b>  To specify a type of association, the application should use the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immassociatecontextex">ImmAssociateContextEx</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  To specify a type of association, the application should use the <a href="/windows/desktop/api/imm/nf-imm-immassociatecontextex">ImmAssociateContextEx</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -75,13 +75,12 @@ When associating an input context with a window, an application must remove the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immassociatecontextex">ImmAssociateContextEx</a>
+<a href="/windows/desktop/api/imm/nf-imm-immassociatecontextex">ImmAssociateContextEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

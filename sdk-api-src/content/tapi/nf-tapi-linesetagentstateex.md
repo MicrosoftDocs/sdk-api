@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>lineSetAgentStateEx</b> function sets the agent state associated with a particular agent handle. It generates a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_SETAGENTSTATEEX.
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_SETAGENTSTATEEX.
 
 ## -parameters
 
@@ -68,12 +68,12 @@ Identifier of the agent whose information is to be changed.
 ### -param dwAgentState
 
 New agent state. Must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ constants</a>, or zero to leave the agent state unchanged and modify only the next state.
+<a href="/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ constants</a>, or zero to leave the agent state unchanged and modify only the next state.
 
 ### -param dwNextAgentState
 
 Next agent state. Must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ constants</a> or zero.
+<a href="/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ constants</a> or zero.
 
 ## -returns
 
@@ -83,13 +83,12 @@ LINEERR_INVALAGENTSTATE, LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NO
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>
-
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>

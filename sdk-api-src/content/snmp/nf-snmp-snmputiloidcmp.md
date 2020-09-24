@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilOidCmp</b> function compares two object identifiers. This function is an element of the SNMP Utility API.
@@ -60,7 +60,7 @@ The
 ### -param pOid1 [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to compare.
+<a href="/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to compare.
 
 ### -param pOid2 [in]
 
@@ -75,17 +75,16 @@ The function returns a value greater than zero if <i>pOid1</i> is greater than <
 
 The 
 <b>SnmpUtilOidCmp</b> function calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidncmp">SnmpUtilOidNCmp</a> function.
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputiloidncmp">SnmpUtilOidNCmp</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidncmp">SnmpUtilOidNCmp</a>
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputiloidncmp">SnmpUtilOidNCmp</a>

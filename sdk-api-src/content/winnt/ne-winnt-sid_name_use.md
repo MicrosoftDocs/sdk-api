@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SID_NAME_USE</b> enumeration contains values that specify the type of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+The <b>SID_NAME_USE</b> enumeration contains values that specify the type of a <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 ## -enum-fields
 
@@ -102,17 +102,16 @@ A mandatory integrity label SID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
+<a href="/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a>

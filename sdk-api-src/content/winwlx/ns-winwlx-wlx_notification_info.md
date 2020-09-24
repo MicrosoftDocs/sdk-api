@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The WLX_NOTIFICATION_INFO structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-This structure stores information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> event.
+This structure stores information about a <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> event.
 
 ## -struct-fields
 
@@ -79,7 +79,7 @@ String that specifies the name of the domain the user is currently logged on to.
 ### -field WindowStation
 
 Specifies the name of the window station the user is currently logged on to. If the event occurs before a user logs on, this value is <b>NULL</b>. Note that most configurations use a single, default window station. Some applications, such as 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/about-terminal-services">About Terminal Services</a>, use multiple window stations.
+<a href="/windows/desktop/TermServ/about-terminal-services">About Terminal Services</a>, use multiple window stations.
 
 ### -field hToken
 
@@ -92,4 +92,3 @@ A handle to the desktop that is currently active.
 ### -field pStatusCallback
 
 Reserved for internal use.
-

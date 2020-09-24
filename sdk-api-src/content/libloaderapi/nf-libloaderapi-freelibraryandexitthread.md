@@ -59,17 +59,17 @@ api_name:
 ## -description
 
 Decrements the reference count of a loaded dynamic-link library (DLL) by one, then calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> to terminate the calling thread. The function does not return.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> to terminate the calling thread. The function does not return.
 
 ## -parameters
 
 ### -param hLibModule [in]
 
 A handle to the DLL module whose reference count the function decrements. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandleexa">GetModuleHandleEx</a> function returns this handle.
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or 
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandleexa">GetModuleHandleEx</a> function returns this handle.
 
-Do not call this function with a handle returned by either the <b>GetModuleHandleEx</b> function (with the GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT flag) or the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function, as they do not maintain a reference count for the module.
+Do not call this function with a handle returned by either the <b>GetModuleHandleEx</b> function (with the GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT flag) or the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function, as they do not maintain a reference count for the module.
 
 ### -param dwExitCode [in]
 
@@ -79,27 +79,26 @@ The exit code for the calling thread.
 
 The 
 <b>FreeLibraryAndExitThread</b> function allows threads that are executing within a DLL to safely free the DLL in which they are executing and terminate themselves. If they were to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> separately, a race condition would exist. The library could be unloaded before 
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a> and 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> separately, a race condition would exist. The library could be unloaded before 
 <b>ExitThread</b> is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls">DisableThreadLibraryCalls</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls">DisableThreadLibraryCalls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
+<a href="/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/run-time-dynamic-linking">Run-Time Dynamic Linking</a>
-
+<a href="/windows/desktop/Dlls/run-time-dynamic-linking">Run-Time Dynamic Linking</a>

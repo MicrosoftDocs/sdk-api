@@ -85,13 +85,12 @@ Parameters to the blend operations. The blend must use <b>D2D1_BLEND_BLEND_FACTO
 
 ## -remarks
 
-This description closely matches the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_blend_desc">D3D11_BLEND_DESC</a> struct with some omissions and the addition of the blend factor in the description.
+This description closely matches the <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_blend_desc">D3D11_BLEND_DESC</a> struct with some omissions and the addition of the blend factor in the description.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_blend">D2D1_BLEND</a>
+<a href="/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_blend">D2D1_BLEND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_blend_operation">D2D1_BLEND_OPERATION</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_blend_operation">D2D1_BLEND_OPERATION</a>

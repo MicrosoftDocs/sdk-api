@@ -98,5 +98,4 @@ RD Connection Broker only calls one plug-in when connecting a user to a resourc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>
-
+<a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>

@@ -102,7 +102,7 @@ The return value must be posted as the
 				<i>lParam</i> parameter of a DDE message; it must not be used for any other purpose. Once the return value is posted, the posting application need not perform any action to dispose of the 
 				<i>lParam</i> parameter. 
 
-Use <b>ReuseDDElParam</b> instead of <a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-freeddelparam">FreeDDElParam</a> if the 
+Use <b>ReuseDDElParam</b> instead of <a href="/windows/desktop/api/dde/nf-dde-freeddelparam">FreeDDElParam</a> if the 
 				<i>lParam</i> parameter will be reused in a responding message. <b>ReuseDDElParam</b> returns the 
 				<i>lParam</i> appropriate for reuse. 
 
@@ -111,7 +111,7 @@ This function allocates or frees
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
+<a href="/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -119,11 +119,11 @@ This function allocates or frees
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-freeddelparam">FreeDDElParam</a>
+<a href="/windows/desktop/api/dde/nf-dde-freeddelparam">FreeDDElParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-packddelparam">PackDDElParam</a>
+<a href="/windows/desktop/api/dde/nf-dde-packddelparam">PackDDElParam</a>
 
 
 
@@ -131,5 +131,4 @@ This function allocates or frees
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a>
-
+<a href="/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a>

@@ -53,7 +53,7 @@ api_name:
 Advances the reader in the input stream.  If the current node is an element, 
         all of the children of that element are skipped, and the reader is positioned 
         on the node following its end element.  Otherwise, the reader is positioned 
-        on the next node in the same manner as <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
+        on the next node in the same manner as <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
 
 ## -parameters
 
@@ -101,7 +101,6 @@ A quota was exceeded.
 ## -remarks
 
 If there is an error parsing the input, the function will return <b>WS_E_INVALID_FORMAT</b>.
-      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
-
+This function can fail for any of the reasons listed in <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.

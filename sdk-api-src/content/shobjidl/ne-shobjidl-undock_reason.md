@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Values that indicate the reason that a docked accessibility app window has been undocked. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservicecallback-undocked">IAccessibilityDockingServiceCallback::Undocked</a>.
+Values that indicate the reason that a docked accessibility app window has been undocked. Used by <a href="/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservicecallback-undocked">IAccessibilityDockingServiceCallback::Undocked</a>.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ The accessibility window was undocked because the screen resolution has changed.
 ### -field UR_MONITOR_DISCONNECT
 
 The monitor on which the accessibility window was docked has been disconnected.
-

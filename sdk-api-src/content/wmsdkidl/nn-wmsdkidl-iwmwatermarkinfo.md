@@ -56,7 +56,7 @@ An <b>IWMWatermarkInfo</b> interface exists for every writer object. To obtain a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWatermarkInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMWatermarkInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWatermarkInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMWatermarkInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMWatermarkInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwatermarkinfo-getwatermarkentry">GetWatermarkEntry</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwatermarkinfo-getwatermarkentry">GetWatermarkEntry</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about one available watermarking system.
@@ -80,7 +80,7 @@ Retrieves information about one available watermarking system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwatermarkinfo-getwatermarkentrycount">GetWatermarkEntryCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwatermarkinfo-getwatermarkentrycount">GetWatermarkEntryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of watermarking systems available.
@@ -89,13 +89,12 @@ Retrieves the total number of watermarking systems available.
 </tr>
 </table> 
 
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>.
+For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/writer-object">Writer Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/watermarking-support">Watermarking Support</a>
-
+<a href="/windows/desktop/wmformat/watermarking-support">Watermarking Support</a>

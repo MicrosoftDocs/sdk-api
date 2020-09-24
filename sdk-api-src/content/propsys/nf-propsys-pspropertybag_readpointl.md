@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Retrieves the property coordinates stored in a <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure of a specified property bag.
+Retrieves the property coordinates stored in a <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure of a specified property bag.
 
 ## -parameters
 
 ### -param propBag [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 ### -param propName [in]
 
@@ -68,9 +68,9 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a>*</b>
+Type: <b><a href="/previous-versions/dd162807(v=vs.85)">POINTL</a>*</b>
 
-When this function returns, contains a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that contains the property coordinates.
+When this function returns, contains a pointer to a <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that contains the property coordinates.
 
 ## -returns
 
@@ -84,5 +84,4 @@ The property bag property function API converts between window types and the <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertybag_writepointl">PSPropertyBag_WritePOINTL</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-pspropertybag_writepointl">PSPropertyBag_WritePOINTL</a>

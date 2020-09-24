@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">CreateSinkStub</a> method is 
+The <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">CreateSinkStub</a> method is 
     similar to the 
     <b>IUnsecuredApartment::CreateObjectStub</b> 
     and creates an object forwarder sink and performs access checks for receiving asynchronous calls from Windows 
@@ -60,8 +60,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-i
 
 WMI provides the Unsecapp.exe process to function as the separate process. You can host 
     Unsecapp.exe with a call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemunsecuredapartment">IWbemUnsecuredApartment</a> interface or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iunsecuredapartment">IUnsecuredApartment</a> interface in other versions of 
+    <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemunsecuredapartment">IWbemUnsecuredApartment</a> interface or 
+    <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iunsecuredapartment">IUnsecuredApartment</a> interface in other versions of 
     Windows. <b>IUnsecuredApartment</b> does not have any methods 
     that perform  access checking.
 
@@ -69,7 +69,7 @@ An access check means that Unsecapp.exe only allows the  account of the computer
     originally obtained the sink to invoke callbacks. When the registry key 
     <b>UnsecAppAccessControlDefault</b> is set to zero then Unsecapp.exe 
     does not perform access control on callbacks unless 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">CreateSinkStub</a> is called by an 
+    <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">CreateSinkStub</a> is called by an 
     application with the <i>dwFlag</i> parameter set to 
     <b>WBEM_FLAG_UNSECAPP_CHECK_ACCESS</b>. If the parameter is not present, which is the default, 
     then Unsecapp.exe reads the registry key value to determine whether to authenticate 
@@ -80,7 +80,7 @@ An access check means that Unsecapp.exe only allows the  account of the computer
 ### -param pSink [in]
 
 Pointer to the client's in-process implementation of 
-      <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
+      <a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
 
 ### -param dwFlags [in]
 
@@ -122,16 +122,16 @@ Reserved.
 ### -param ppStub [out]
 
 Receives a pointer to a substitute object to be used in asynchronous 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> calls. The user receives an 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer and must call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for 
+      <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> calls. The user receives an 
+      <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer and must call 
+      <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for 
       <b>IID_WbemObjectSink</b> before using this object in asynchronous 
       <b>IWbemServices</b> calls.
 
 ## -returns
 
 This method returns standard COM error codes for 
-       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. It returns 
+       <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. It returns 
        <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not 
        supported, the method returns <b>E_NOINTERFACE</b>.
 
@@ -142,25 +142,24 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 This method is provided to improve the security of asynchronous calls 
     from client applications. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>.
+    <a href="/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">IUnsecuredApartment::CreateObjectStub</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">IUnsecuredApartment::CreateObjectStub</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemunsecuredapartment">IWbemUnsecuredApartment</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemunsecuredapartment">IWbemUnsecuredApartment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/lowering-the-security-for-a-sink-in-a-separate-process">Lowering the Security for a Sink in a Separate Process</a>
+<a href="/windows/desktop/WmiSdk/lowering-the-security-for-a-sink-in-a-separate-process">Lowering the Security for a Sink in a Separate Process</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/performing-access-checks">Performing Access Checks</a>
+<a href="/windows/desktop/WmiSdk/performing-access-checks">Performing Access Checks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>
-
+<a href="/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>

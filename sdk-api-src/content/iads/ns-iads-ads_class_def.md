@@ -103,5 +103,4 @@ Flags that indicate the object of the class is a container when it is <b>TRUE</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>

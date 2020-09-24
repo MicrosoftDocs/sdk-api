@@ -59,7 +59,7 @@ Determines if a data object can be pasted, using a specified format, into the cu
 Type: <b>VARIANT*</b>
 
 The 
-					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to be pasted. However, the Clipboard contents are checked for pasting if any of the following are true: 
+					<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to be pasted. However, the Clipboard contents are checked for pasting if any of the following are true: 
 					
 
 <ul>
@@ -67,7 +67,7 @@ The
 <li><i>pVar</i>-&gt;punkVal is null </li>
 <li><i>pVar</i>-&gt;vt is not <b>VT_UNKNOWN</b></li>
 <li><i>pVar</i>-&gt;punkVal does not return an 
-							<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object when queried for one </li>
+							<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object when queried for one </li>
 </ul>
 
 ### -param Format
@@ -80,14 +80,14 @@ Clipboard format that is used. Zero represents the best format, which usually is
 
 Type: <b>long*</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that is <b>tomTrue</b> only if the data object identified by 
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that is <b>tomTrue</b> only if the data object identified by 
 					<i>pVar</i> can be pasted, using the specified format, into the range. This parameter can null.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-The method returns the following COM error codes. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns the following COM error codes. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -101,7 +101,7 @@ The method returns the following COM error codes. For more information on COM er
 </dl>
 </td>
 <td width="60%">
-The clipboard contents or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> can be pasted.
+The clipboard contents or <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> can be pasted.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The clipboard contents or <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-The clipboard contents or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> cannot be pasted.
+The clipboard contents or <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> cannot be pasted.
 
 </td>
 </tr>
@@ -124,11 +124,11 @@ The clipboard contents or <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-copy">Copy</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-copy">Copy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -136,5 +136,4 @@ The clipboard contents or <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -62,9 +62,9 @@ Pointer to the header in which to add the new block.
 ### -param dwInfoType [in]
 
 Specifies the type of block to add. The types available depend on the transport: 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IPv4</a>, <a href="https://docs.microsoft.com/windows/desktop/RRAS/ipv6-information-types-for-router-information-blocks">IPv6</a>, or <a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-information-types-for-router-information-blocks">IPX</a>.
+<a href="/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IPv4</a>, <a href="/windows/desktop/RRAS/ipv6-information-types-for-router-information-blocks">IPv6</a>, or <a href="/windows/desktop/RRAS/ipx-information-types-for-router-information-blocks">IPX</a>.
 
-<b>Windows Server 2008:  </b>If <i>dwInfoTYpe</i> contains <a href="https://docs.microsoft.com/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP_ROUTE_INFO</a>, <i>lpItemData</i> must point to a <a href="https://docs.microsoft.com/windows/desktop/RRAS/interface-route-info">INTERFACE_ROUTE_INFO</a> structure.
+<b>Windows Server 2008:  </b>If <i>dwInfoTYpe</i> contains <a href="/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP_ROUTE_INFO</a>, <i>lpItemData</i> must point to a <a href="/windows/desktop/RRAS/interface-route-info">INTERFACE_ROUTE_INFO</a> structure.
 
 ### -param dwItemSize [in]
 
@@ -112,7 +112,7 @@ The <i>lpHeader</i>, <i>lplpNewHeader</i>, or <i>lpItemData</i> parameter is <b>
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -121,25 +121,24 @@ The call failed. Use
 ## -remarks
 
 After adding an information block, obtain the new size of the information header by call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockquerysize">MprInfoBlockQuerySize</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockquerysize">MprInfoBlockQuerySize</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>
+<a href="/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockquerysize">MprInfoBlockQuerySize</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockquerysize">MprInfoBlockQuerySize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockremove">MprInfoBlockRemove</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockremove">MprInfoBlockRemove</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoduplicate">MprInfoDuplicate</a>
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoduplicate">MprInfoDuplicate</a>

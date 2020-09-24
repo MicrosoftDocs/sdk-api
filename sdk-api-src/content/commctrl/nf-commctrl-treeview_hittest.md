@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Determines the location of the specified point relative to the client area of a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-hittest">TVM_HITTEST</a> message explicitly.
+Determines the location of the specified point relative to the client area of a tree-view control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-hittest">TVM_HITTEST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -64,5 +64,4 @@ Handle to the tree-view control.
 
 Type: <b>LPTVHITTESTINFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvhittestinfo">TVHITTESTINFO</a> structure. When the message is sent, the <b>pt</b> member specifies the coordinates of the point to test. When the message returns, the <b>hItem</b> member is the handle to the item at the specified point or <b>NULL</b> if no item occupies the point. Also, when the message returns, the <b>flags</b> member is a hit test value that indicates the location of the specified point. For a list of hit test values, see the description of the <b>TVHITTESTINFO</b> structure.
-
+Pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-tvhittestinfo">TVHITTESTINFO</a> structure. When the message is sent, the <b>pt</b> member specifies the coordinates of the point to test. When the message returns, the <b>hItem</b> member is the handle to the item at the specified point or <b>NULL</b> if no item occupies the point. Also, when the message returns, the <b>flags</b> member is a hit test value that indicates the location of the specified point. For a list of hit test values, see the description of the <b>TVHITTESTINFO</b> structure.

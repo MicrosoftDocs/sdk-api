@@ -54,7 +54,7 @@ Enumerates the undo units on the undo or redo stack.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOleUndoUnits</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOleUndoUnits</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOleUndoUnits</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOleUndoUnits</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumOleUndoUnits</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumformatetc-clone">Clone</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ienumformatetc-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumerator that contains the same enumeration state as the current one.
@@ -78,7 +78,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumformatetc-next">Next</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ienumformatetc-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -87,7 +87,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumformatetc-reset">Reset</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ienumformatetc-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -96,7 +96,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumformatetc-skip">Skip</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ienumformatetc-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.
@@ -107,9 +107,8 @@ Skips over the specified number of items in the enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>

@@ -64,7 +64,7 @@ The name of the element to retrieve.
 
 ### -param pAny [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the <b>any</b> element that is the parent of the element to retrieve.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the <b>any</b> element that is the parent of the element to retrieve.
 
 ### -param ppszValue [out]
 
@@ -124,4 +124,3 @@ The method failed.
 </td>
 </tr>
 </table>
-

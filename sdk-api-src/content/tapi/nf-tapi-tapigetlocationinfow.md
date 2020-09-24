@@ -71,14 +71,13 @@ Returns zero if the request succeeds or a negative error number if an error occu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/assisted-telephony-services-reference">Assisted Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/assisted-telephony-services-reference">Assisted Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 ## -remarks
 
 > [!NOTE]
 > The tapi.h header defines tapiGetLocationInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

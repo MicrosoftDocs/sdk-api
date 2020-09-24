@@ -57,17 +57,16 @@ Get the expected resource usage.
 
 ### -param pUsage
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-usage">DXGI_USAGE</a>*</b>
+Type: <b><a href="/windows/desktop/direct3ddxgi/dxgi-usage">DXGI_USAGE</a>*</b>
 
-A pointer to a usage flag (see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-usage">DXGI_USAGE</a>). For Direct3D 10, a surface can be used as a shader input or a render-target output.
+A pointer to a usage flag (see <a href="/windows/desktop/direct3ddxgi/dxgi-usage">DXGI_USAGE</a>). For Direct3D 10, a surface can be used as a shader input or a render-target output.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
+Returns one of the following <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>
-
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>

@@ -77,9 +77,8 @@ The timestamp value of the module executable image, in <b>time_t</b> format.
 ### -field ModuleNameRva
 
 An RVA to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a> structure that specifies the name of the module.
+<a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a> structure that specifies the name of the module.
 
 ## -see-also
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module_list">MINIDUMP_UNLOADED_MODULE_LIST</a>
-

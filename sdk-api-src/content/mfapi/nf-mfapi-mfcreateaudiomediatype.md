@@ -62,7 +62,7 @@ Pointer to a <b>WAVEFORMATEX</b> structure that describes the audio format.
 
 ### -param ppIAudioMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfaudiomediatype">IMFAudioMediaType</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfaudiomediatype">IMFAudioMediaType</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -70,16 +70,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfaudiomediatype">IMFAudioMediaType</a> interface is deprecrated, so applications should avoid using this function. To create a media type from a <b>WAVEFORMATEX</b> structure, do the following:
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfaudiomediatype">IMFAudioMediaType</a> interface is deprecrated, so applications should avoid using this function. To create a media type from a <b>WAVEFORMATEX</b> structure, do the following:
       
 
 <ol>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a>. This function returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The returned media type object is initially empty.
+<li>Call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a>. This function returns a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The returned media type object is initially empty.
           </li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex">MFInitMediaTypeFromWaveFormatEx</a> to populate the media type from the <b>WAVEFORMATEX</b> structure.
+<li>Call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex">MFInitMediaTypeFromWaveFormatEx</a> to populate the media type from the <b>WAVEFORMATEX</b> structure.
           </li>
 </ol>
-Alternatively, you can call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a> and then set the media type attributes directly.
+Alternatively, you can call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a> and then set the media type attributes directly.
       
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -91,13 +91,12 @@ This function is available on the following platforms if the Windows Media Forma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/audio-media-types">Audio Media Types</a>
+<a href="/windows/desktop/medfound/audio-media-types">Audio Media Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

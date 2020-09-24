@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <code>IConfigAsfWriter2</code> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a> interface, which configures the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. The <code>IConfigAsfWriter2</code> interface provides additional methods to support the capabilities introduced in the Windows Media Format 9 Series SDK, such as two-pass encoding and support for interlaced output.
+The <code>IConfigAsfWriter2</code> interface extends the <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a> interface, which configures the <a href="/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. The <code>IConfigAsfWriter2</code> interface provides additional methods to support the capabilities introduced in the Windows Media Format 9 Series SDK, such as two-pass encoding and support for interlaced output.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAsfWriter2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a>. <b>IConfigAsfWriter2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAsfWriter2</b> interface inherits from <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a>. <b>IConfigAsfWriter2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IConfigAsfWriter2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-getparam">GetParam</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-getparam">GetParam</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of the specified filter configuration parameter.
@@ -78,7 +78,7 @@ Retrieves the current value of the specified filter configuration parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-resetmultipassstate">ResetMultiPassState</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-resetmultipassstate">ResetMultiPassState</a>
 </td>
 <td align="left" width="63%">
 Resets the filter when a preprocessing encoding pass is canceled before it is completed.
@@ -87,7 +87,7 @@ Resets the filter when a preprocessing encoding pass is canceled before it is co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-setparam">SetParam</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-setparam">SetParam</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the specified filter configuration parameter.
@@ -96,7 +96,7 @@ Sets the value of the specified filter configuration parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-streamnumfrompin">StreamNumFromPin</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-streamnumfrompin">StreamNumFromPin</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream number associated with the specified input pin.
@@ -107,9 +107,8 @@ Retrieves the stream number associated with the specified input pin.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
+<a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a>
-
+<a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a>

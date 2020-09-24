@@ -58,7 +58,7 @@ Saves a biometric logon credential for the current user. Starting with Windows 1
 
 ### -param Type [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-credential-type">WINBIO_CREDENTIAL_TYPE</a> value that specifies the credential type. Currently, this can be WINBIO_CREDENTIAL_PASSWORD.
+A <a href="/windows/desktop/SecBioMet/winbio-credential-type">WINBIO_CREDENTIAL_TYPE</a> value that specifies the credential type. Currently, this can be WINBIO_CREDENTIAL_PASSWORD.
 
 ### -param Credential [in]
 
@@ -70,7 +70,7 @@ Size, in bytes, of the value specified by the <i>Credential</i> parameter.
 
 ### -param Format [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-credential-format">WINBIO_CREDENTIAL_FORMAT</a> enumeration value that specifies the format of the credential. If the <i>Type</i> parameter is <b>WINBIO_CREDENTIAL_PASSWORD</b>, this  can be one of the following:
+A <a href="/windows/desktop/SecBioMet/winbio-credential-format">WINBIO_CREDENTIAL_FORMAT</a> enumeration value that specifies the format of the credential. If the <i>Type</i> parameter is <b>WINBIO_CREDENTIAL_PASSWORD</b>, this  can be one of the following:
 
 <table>
 <tr>
@@ -93,7 +93,7 @@ The credential is a plaintext <b>NULL</b>-terminated Unicode string.
 </dl>
 </td>
 <td width="60%">
-The credential was wrapped by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a>  function and packed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credpackauthenticationbuffera">CredPackAuthenticationBuffer</a> function. This is recommended.
+The credential was wrapped by using the <a href="/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a>  function and packed by using the <a href="/windows/desktop/api/wincred/nf-wincred-credpackauthenticationbuffera">CredPackAuthenticationBuffer</a> function. This is recommended.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ The credential was wrapped by using the <a href="https://docs.microsoft.com/wind
 </dl>
 </td>
 <td width="60%">
-The password credential was wrapped with <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a>.
+The password credential was wrapped with <a href="/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a>.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The password credential was wrapped with <a href="https://docs.microsoft.com/win
 
 ## -returns
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -169,7 +169,7 @@ Current administrative policy prohibits use of the credential provider.
 If the current user has an existing logon credential of the specified type, <b>WinBioSetCredential</b> will overwrite it.
 The function verifies both the user credential and interactive logon privileges and fails if verification fails. An event related to the logon attempt is placed in the event log.  Credentials for domain accounts can be saved only if permitted by Group Policy.
 
-You should call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> to securely zero the credential if you pass  <b>WINBIO_PASSWORD_PACKED</b> in the <i>Format</i> parameter.
+You should call <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> to securely zero the credential if you pass  <b>WINBIO_PASSWORD_PACKED</b> in the <i>Format</i> parameter.
 
 Only medium and higher  integrity processes can set credentials. If a lower integrity process attempts to set credentials, the function returns E_ACCESSDENIED.
 
@@ -473,13 +473,12 @@ e_Exit:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremoveallcredentials">WinBioRemoveAllCredentials</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioremoveallcredentials">WinBioRemoveAllCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremovealldomaincredentials">WinBioRemoveAllDomainCredentials</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioremovealldomaincredentials">WinBioRemoveAllDomainCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremovecredential">WinBioRemoveCredential</a>
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioremovecredential">WinBioRemoveCredential</a>

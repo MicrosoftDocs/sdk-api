@@ -97,34 +97,33 @@ Note: When a memory device context is created, it initially has a 1-by-1 monochr
 
 If an application sets the <i>nWidth</i> or <i>nHeight</i> parameters to zero, <b>CreateCompatibleBitmap</b> returns the handle to a 1-by-1 pixel, monochrome bitmap.
 
-If a DIB section, which is a bitmap created by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function, is selected into the device context identified by the <i>hdc</i> parameter, <b>CreateCompatibleBitmap</b> creates a DIB section.
+If a DIB section, which is a bitmap created by the <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function, is selected into the device context identified by the <i>hdc</i> parameter, <b>CreateCompatibleBitmap</b> creates a DIB section.
 
-When you no longer need the bitmap, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the bitmap, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/scaling-an-image">Scaling an Image</a>.
+For an example, see <a href="/windows/desktop/gdi/scaling-an-image">Scaling an Image</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

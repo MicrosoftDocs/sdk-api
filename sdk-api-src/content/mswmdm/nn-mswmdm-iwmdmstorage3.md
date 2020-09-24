@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IWMDMStorage3</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2</a> by exposing metadata.
+The <b>IWMDMStorage3</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2</a> by exposing metadata.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorage3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2</a>. <b>IWMDMStorage3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorage3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2</a>. <b>IWMDMStorage3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDMStorage3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject">CreateEmptyMetadataObject</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject">CreateEmptyMetadataObject</a>
 </td>
 <td align="left" width="63%">
 Creates an object that supports the <b>IWMDMMetaData</b> interface.
@@ -78,7 +78,7 @@ Creates an object that supports the <b>IWMDMMetaData</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata">GetMetadata</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata">GetMetadata</a>
 </td>
 <td align="left" width="63%">
 Retrieves the metadata associated with the storage.
@@ -87,7 +87,7 @@ Retrieves the metadata associated with the storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setenumpreference">SetEnumPreference</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setenumpreference">SetEnumPreference</a>
 </td>
 <td align="left" width="63%">
 Sets the preferred enumeration mode for the storage.
@@ -96,7 +96,7 @@ Sets the preferred enumeration mode for the storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata">SetMetadata</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata">SetMetadata</a>
 </td>
 <td align="left" width="63%">
 Sets metadata on the storage object.
@@ -107,17 +107,16 @@ Sets metadata on the storage object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

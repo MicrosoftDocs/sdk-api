@@ -64,9 +64,8 @@ The size, in bytes, of this structure.
 
 ### -field pStore
 
-A [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure that contains a catalog file store.
+A [CRYPTCATSTORE](/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure that contains a catalog file store.
 
 ### -field pMember
 
-A [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains a catalog member.
-
+A [CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains a catalog member.

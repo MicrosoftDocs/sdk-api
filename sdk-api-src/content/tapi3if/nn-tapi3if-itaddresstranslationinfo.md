@@ -52,11 +52,11 @@ api_name:
 
 The 
 <b>ITAddressTranslationInfo</b> interface is used to determine the address translation data. To obtain a pointer to it, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translateaddress">ITAddressTranslation::TranslateAddress</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translateaddress">ITAddressTranslation::TranslateAddress</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslationInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressTranslationInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslationInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressTranslationInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITAddressTranslationInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_currentcountrycode">get_CurrentCountryCode</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_currentcountrycode">get_CurrentCountryCode</a>
 </td>
 <td align="left" width="63%">
 Gets the current country/region code.
@@ -80,7 +80,7 @@ Gets the current country/region code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_destinationcountrycode">get_DestinationCountryCode</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_destinationcountrycode">get_DestinationCountryCode</a>
 </td>
 <td align="left" width="63%">
 Gets the country/region code for the call destination.
@@ -89,7 +89,7 @@ Gets the country/region code for the call destination.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_dialablestring">get_DialableString</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_dialablestring">get_DialableString</a>
 </td>
 <td align="left" width="63%">
 Gets a string that contains a number to be dialed.
@@ -98,7 +98,7 @@ Gets a string that contains a number to be dialed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_displayablestring">get_DisplayableString</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_displayablestring">get_DisplayableString</a>
 </td>
 <td align="left" width="63%">
 Gets a string that contains a displayable version of the number to be dialed.
@@ -107,7 +107,7 @@ Gets a string that contains a displayable version of the number to be dialed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_translationresults">get_TranslationResults</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_translationresults">get_TranslationResults</a>
 </td>
 <td align="left" width="63%">
 Gets the translated dialed number calling address.
@@ -118,17 +118,16 @@ Gets the translated dialed number calling address.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>

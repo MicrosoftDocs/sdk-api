@@ -55,7 +55,7 @@ Use the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoDictionaryOld</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdoDictionaryOld</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoDictionaryOld</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdoDictionaryOld</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISdoDictionaryOld</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-createattribute">CreateAttribute</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-createattribute">CreateAttribute</a>
 </td>
 <td align="left" width="63%">
 Creates a new attribute object.
@@ -79,7 +79,7 @@ Creates a new attribute object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-enumattributes">EnumAttributes</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-enumattributes">EnumAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the values of the specified attributes.
@@ -88,7 +88,7 @@ Retrieves the values of the specified attributes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-enumattributevalues">EnumAttributeValues</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-enumattributevalues">EnumAttributeValues</a>
 </td>
 <td align="left" width="63%">
 Retrieves the values of an enumerable attribute.
@@ -97,7 +97,7 @@ Retrieves the values of an enumerable attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-getattributeid">GetAttributeID</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-getattributeid">GetAttributeID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the specified attribute.
@@ -106,7 +106,7 @@ Retrieves the ID of the specified attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-getattributeinfo">GetAttributeInfo</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-getattributeinfo">GetAttributeInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the characteristics of the specified attribute.
@@ -117,15 +117,14 @@ Retrieves the characteristics of the specified attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data
+<a href="/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data
     Objects Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data
+<a href="/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data
     Objects Reference</a>
-

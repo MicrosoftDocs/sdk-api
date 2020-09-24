@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information for identifying the "hit zone" for a specified part of a tree item. The structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitempartrect">TVM_GETITEMPARTRECT</a> message and the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getitempartrect">TreeView_GetItemPartRect</a> macro.
+Contains information for identifying the "hit zone" for a specified part of a tree item. The structure is used with the <a href="/windows/desktop/Controls/tvm-getitempartrect">TVM_GETITEMPARTRECT</a> message and the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getitempartrect">TreeView_GetItemPartRect</a> macro.
 
 ## -struct-fields
 
@@ -73,4 +73,3 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 Type: <b>TVITEMPART</b>
 
 ID of the item part. This value must be <b>TVGIPR_BUTTON</b> (0x0001).
-

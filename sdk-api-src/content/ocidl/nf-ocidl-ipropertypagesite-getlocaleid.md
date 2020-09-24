@@ -56,7 +56,7 @@ Retrieves the locale identifier (an LCID) that a property page can use to adjust
 
 ### -param pLocaleID [out]
 
-A pointer to a variable that receives the locale identifier. See <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a>.
+A pointer to a variable that receives the locale identifier. See <a href="/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a>.
 
 ## -returns
 
@@ -93,13 +93,12 @@ The address in <i>pLocaleID</i> is not valid. For example, it may be <b>NULL</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-ocpfiparams">OCPFIPARAMS</a>
+<a href="/windows/desktop/api/olectl/ns-olectl-ocpfiparams">OCPFIPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>
-
+<a href="/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>

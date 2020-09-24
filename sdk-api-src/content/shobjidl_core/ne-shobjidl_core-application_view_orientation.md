@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Defines the set of display orientation modes for a window (app view). Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a> and 
-            <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>.
+Defines the set of display orientation modes for a window (app view). Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a> and 
+            <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>.
 
 ## -enum-fields
 
@@ -65,9 +65,8 @@ The window is in portrait orientation, with the display height greater than the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>

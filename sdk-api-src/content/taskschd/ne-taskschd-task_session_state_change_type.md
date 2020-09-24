@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines what kind of Terminal Server session state change you can use to trigger a task to start. These changes are used to specify the type of state change in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger">ISessionStateChangeTrigger</a> interface.
+Defines what kind of Terminal Server session state change you can use to trigger a task to start. These changes are used to specify the type of state change in the <a href="/windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger">ISessionStateChangeTrigger</a> interface.
 
 ## -enum-fields
 
@@ -82,9 +82,8 @@ Terminal Server session unlocked state change. For example, this state change ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger">ISessionStateChangeTrigger</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger">ISessionStateChangeTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>

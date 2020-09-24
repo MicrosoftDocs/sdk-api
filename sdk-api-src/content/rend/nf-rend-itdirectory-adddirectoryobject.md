@@ -55,7 +55,7 @@ provides similar functionality.]
 
 The 
 <b>AddDirectoryObject</b> method adds an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> object to the server. This may be a directory or a user machine mapping.
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> object to the server. This may be a directory or a user machine mapping.
 
 ## -parameters
 
@@ -102,7 +102,7 @@ The <i>pDirectoryObject</i> parameter is not a valid pointer.
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-connect">ITDirectory::Connect</a> method has not been invoked or did not succeed.
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-connect">ITDirectory::Connect</a> method has not been invoked or did not succeed.
 
 </td>
 </tr>
@@ -121,5 +121,4 @@ This method is not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>

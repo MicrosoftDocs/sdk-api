@@ -60,11 +60,10 @@ The <b>GetPixelFormatSize</b> method returns the number of bits per pixel used b
 
 Type: <b>PixelFormat</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> constant that specifies the pixel format to be tested.
+A <a href="/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> constant that specifies the pixel format to be tested.
 
 ## -returns
 
 Type: <b>UINT</b>
 
 This method returns the number of bits per pixel used by the specified pixel format.
-

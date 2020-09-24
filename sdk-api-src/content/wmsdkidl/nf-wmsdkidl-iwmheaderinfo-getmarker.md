@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>GetMarker</b> method returns the name and time of a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">marker</a>.
+The <b>GetMarker</b> method returns the name and time of a <a href="/windows/desktop/wmformat/wmformat-glossary">marker</a>.
 
 ## -parameters
 
@@ -148,29 +148,28 @@ The writer does not support markers, and returns E_NOTIMPL when this method is c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addmarker">IWMHeaderInfo::AddMarker</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addmarker">IWMHeaderInfo::AddMarker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarkercount">IWMHeaderInfo::GetMarkerCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarkercount">IWMHeaderInfo::GetMarkerCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removemarker">IWMHeaderInfo::RemoveMarker</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removemarker">IWMHeaderInfo::RemoveMarker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/markers">Markers</a>
-
+<a href="/windows/desktop/wmformat/markers">Markers</a>

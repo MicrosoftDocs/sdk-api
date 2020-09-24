@@ -75,5 +75,4 @@ Pointer to a <b>BOOL</b> variable into which the method writes the current state
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute Interface</a>

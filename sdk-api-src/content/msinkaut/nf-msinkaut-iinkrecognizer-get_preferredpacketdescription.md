@@ -65,13 +65,12 @@ This property is read-only.
 
 This property describes the contents of a packet and does not allow access to the data that the packet contains.
 
-This property lists the packet properties that the recognizer uses to complete recognition. For all of the Microsoft recognizers, the <b>PreferredPacketDescription</b> property refers to the data describing (x, y) coordinates within an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object. This data is represented by the X and Y fields of the <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">packet property</a> constants. A packet contains this point data as well as other data that is related to that stroke, such as the pressure of the pen that made the stroke, the angle of the pen, and so on. The Microsoft recognizers ignore pressure, tilt, and other packet properties.
+This property lists the packet properties that the recognizer uses to complete recognition. For all of the Microsoft recognizers, the <b>PreferredPacketDescription</b> property refers to the data describing (x, y) coordinates within an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object. This data is represented by the X and Y fields of the <a href="/windows/desktop/tablet/packetpropertyguids-constants">packet property</a> constants. A packet contains this point data as well as other data that is related to that stroke, such as the pressure of the pen that made the stroke, the angle of the pen, and so on. The Microsoft recognizers ignore pressure, tilt, and other packet properties.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
-
+<a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>

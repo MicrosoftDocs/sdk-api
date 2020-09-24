@@ -56,7 +56,7 @@ Notifies the text services object to set the cursor.
 
 ### -param dwDrawAspect [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Draw aspect can be one of the following values.
 
@@ -91,7 +91,7 @@ Renders the object to the <i>hdcDraw</i> device context as though it were printe
 
 ### -param lindex
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Not supported.
 
@@ -103,19 +103,19 @@ Information for drawing optimizations.
 
 ### -param ptd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>*</b>
 
 The target device.
 
 ### -param hdcDraw [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Rendering device context.
 
 ### -param hicTargetDev [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Target information context.
 
@@ -127,23 +127,23 @@ The control's client rectangle. The coordinates of the rectangle are in client c
 
 ### -param x [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 x position of cursor, in the client coordinates of the containing window.
 
 ### -param y [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 y position of cursor, in the client coordinates of the containing window.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, the return value is <b>S_OK</b>.
 
-If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -165,13 +165,13 @@ One or more illegal parameters.
 
 ## -remarks
 
-The text services object may remeasure as a result of this call to determine the correct cursor. The correct cursor is set through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">TxSetCursor</a>.
+The text services object may remeasure as a result of this call to determine the correct cursor. The correct cursor is set through <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">TxSetCursor</a>.
 
-The <i>lprcClient</i> parameter is the client rectangle of the view of the control over which the mouse cursor is positioned. The <i>lprcClient</i> parameter is in device coordinates of the containing window in the same way the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-size">WM_SIZE</a> message is. This may not be the view that was rendered last. Furthermore, if the control is in-place active, this may not be the current active view . As a consequence, the text services object should check this rectangle against its current cache's value and determine whether recalculating the lines is necessary or not. The zoom factor should be included in this computation. For a discussion of the zoom factor, see <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>.
+The <i>lprcClient</i> parameter is the client rectangle of the view of the control over which the mouse cursor is positioned. The <i>lprcClient</i> parameter is in device coordinates of the containing window in the same way the <a href="/windows/desktop/winmsg/wm-size">WM_SIZE</a> message is. This may not be the view that was rendered last. Furthermore, if the control is in-place active, this may not be the current active view . As a consequence, the text services object should check this rectangle against its current cache's value and determine whether recalculating the lines is necessary or not. The zoom factor should be included in this computation. For a discussion of the zoom factor, see <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>.
 
 This method should be called only for screen views of the control. Therefore the device context (DC) is not passed in, but should be assumed to be a screen DC.
 
-For more information, see the Remarks in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a>.
+For more information, see the Remarks in <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a>.
 
 ## -see-also
 
@@ -179,7 +179,7 @@ For more information, see the Remarks in <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
@@ -191,21 +191,20 @@ For more information, see the Remarks in <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">TxDraw</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">TxDraw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">TxSetCursor</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">TxSetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-size">WM_SIZE</a>
+<a href="/windows/desktop/winmsg/wm-size">WM_SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

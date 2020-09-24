@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Sets the process preferred UI languages for the application process. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
+Sets the process preferred UI languages for the application process. For more information, see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 ## -parameters
 
@@ -77,7 +77,7 @@ We recommend that you use MUI_LANGUAGE_NAME instead of MUI_LANGUAGE_ID.
 </dl>
 </td>
 <td width="60%">
-The input parameter language strings are in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
+The input parameter language strings are in <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The input parameter language strings are in <a href="https://docs.microsoft.com/
 </dl>
 </td>
 <td width="60%">
-The input parameter language strings are in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
+The input parameter language strings are in <a href="/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Pointer to the number of languages that has been set in the process language lis
 
 ## -returns
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return the following error code:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return the following error code:
 
 <ul>
 <li>ERROR_INVALID_PARAMETER. An invalid parameter is specified.</li>
@@ -116,7 +116,7 @@ If the process preferred UI languages list is empty or if the languages specifie
 
 Ideally, applications will call <b>SetProcessPreferredUILanguages</b> as soon as possible after launching.
 
-After this function returns, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getprocesspreferreduilanguages">GetProcessPreferredUILanguages</a> to verify and examine the resulting language list.
+After this function returns, the application can call <a href="/windows/desktop/api/winnls/nf-winnls-getprocesspreferreduilanguages">GetProcessPreferredUILanguages</a> to verify and examine the resulting language list.
 
 When MUI_LANGUAGE_ID is specified, the input parameter language strings must use hexadecimal language 
 
@@ -140,13 +140,12 @@ passed as "0409" and en as "0009".
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getprocesspreferreduilanguages">GetProcessPreferredUILanguages</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getprocesspreferreduilanguages">GetProcessPreferredUILanguages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
-
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>

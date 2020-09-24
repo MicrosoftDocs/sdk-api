@@ -78,7 +78,7 @@ A handle to the object to be selected. The specified object must have been creat
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmapindirect">CreateBitmapIndirect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmapindirect">CreateBitmapIndirect</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 Bitmaps can only be selected into memory DC's. A single bitmap cannot be selected into more than one DC at the same time.
@@ -92,7 +92,7 @@ Bitmaps can only be selected into memory DC's. A single bitmap cannot be selecte
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrushpt">CreateDIBPatternBrushPt</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrushpt">CreateDIBPatternBrushPt</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Bitmaps can only be selected into memory DC's. A single bitmap cannot be selecte
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
 
 
 </td>
@@ -116,7 +116,7 @@ Bitmaps can only be selected into memory DC's. A single bitmap cannot be selecte
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
 
 
 </td>
@@ -128,7 +128,7 @@ Bitmaps can only be selected into memory DC's. A single bitmap cannot be selecte
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-combinergn">CombineRgn</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createellipticrgn">CreateEllipticRgn</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createellipticrgnindirect">CreateEllipticRgnIndirect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createrectrgn">CreateRectRgn</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-combinergn">CombineRgn</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createellipticrgn">CreateEllipticRgn</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createellipticrgnindirect">CreateEllipticRgnIndirect</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createrectrgn">CreateRectRgn</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
 
 
 </td>
@@ -172,99 +172,98 @@ An application cannot select a single bitmap into more than one DC at a time.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/setting-the-pen-or-brush-color">Setting the Pen or Brush Color</a>.
+For an example, see <a href="/windows/desktop/gdi/setting-the-pen-or-brush-color">Setting the Pen or Brush Color</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-combinergn">CombineRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-combinergn">CombineRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmapindirect">CreateBitmapIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmapindirect">CreateBitmapIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createellipticrgn">CreateEllipticRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createellipticrgn">CreateEllipticRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createellipticrgnindirect">CreateEllipticRgnIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createellipticrgnindirect">CreateEllipticRgnIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createrectrgn">CreateRectRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createrectrgn">CreateRectRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectcliprgn">SelectClipRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectcliprgn">SelectClipRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>

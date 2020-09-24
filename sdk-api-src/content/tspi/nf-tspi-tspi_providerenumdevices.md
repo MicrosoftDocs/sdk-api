@@ -52,7 +52,7 @@ api_name:
 
 TAPI calls the 
 <b>TSPI_providerEnumDevices</b> function before 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> to determine the number of line and phone devices supported by the service provider.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> to determine the number of line and phone devices supported by the service provider.
 
 ## -parameters
 
@@ -75,14 +75,14 @@ An opaque <b>DWORD</b>-sized value that uniquely identifies this instance of thi
 ### -param lpfnLineCreateProc
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure supplied by TAPI. The service provider uses this function to send 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> messages when a new line device needs to be created.
+<a href="/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure supplied by TAPI. The service provider uses this function to send 
+<a href="/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> messages when a new line device needs to be created.
 
 ### -param lpfnPhoneCreateProc
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-phoneevent">PHONEEVENT</a> callback procedure supplied by TAPI. The service provider uses this function to send 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725256(v=vs.85)">PHONE_CREATE</a> messages when a new phone device needs to be created.
+<a href="/windows/desktop/api/tspi/nc-tspi-phoneevent">PHONEEVENT</a> callback procedure supplied by TAPI. The service provider uses this function to send 
+<a href="/previous-versions/windows/desktop/legacy/ms725256(v=vs.85)">PHONE_CREATE</a> messages when a new phone device needs to be created.
 
 ## -returns
 
@@ -95,25 +95,24 @@ LINEERR_NOMEM, LINEERR_OPERATIONFAILED.
 In previous versions of TAPI, implementation of this function was optional. Beginning with TAPI 2.0, implementation of this function is mandatory in all service providers. TAPI no longer checks Telephon.ini or the Registry at TAPI startup to determine the initial number of lines and phones supported by a service provider.
 
 A new device can appear prior to the completion of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> procedure. TAPI handles properly any _CREATE messages during the provider initialization.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> procedure. TAPI handles properly any _CREATE messages during the provider initialization.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-phoneevent">PHONEEVENT</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-phoneevent">PHONEEVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725256(v=vs.85)">PHONE_CREATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725256(v=vs.85)">PHONE_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>

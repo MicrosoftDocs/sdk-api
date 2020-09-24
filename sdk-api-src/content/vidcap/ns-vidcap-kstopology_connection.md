@@ -79,9 +79,8 @@ If the value of the <b>ToNode</b> field is KSFILTER_NODE, this field specifies t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_connectioninfo">IKsTopologyInfo::get_ConnectionInfo</a>
-
+<a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_connectioninfo">IKsTopologyInfo::get_ConnectionInfo</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DHCPV6_BIND_ELEMENT_ARRAY</b> structure specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contain DHCPv6 interface bindings.
+The <b>DHCPV6_BIND_ELEMENT_ARRAY</b> structure specifies an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contain DHCPv6 interface bindings.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Integer that contains the total number of elements in the array pointed to by <b
 
 ### -field Elements
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contains the DHCPv6 interface bindings.
+Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contains the DHCPv6 interface bindings.
 
 ### -field Elements.size_is
 
@@ -72,5 +72,4 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a>

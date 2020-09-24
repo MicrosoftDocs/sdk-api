@@ -58,7 +58,7 @@ Browses to a pointer to an item identifier list (PIDL)
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to a const <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (item identifier list) that specifies an object's location as the destination to navigate to. This parameter can be <b>NULL</b>. For more information, see Remarks.
+A pointer to a const <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (item identifier list) that specifies an object's location as the destination to navigate to. This parameter can be <b>NULL</b>. For more information, see Remarks.
 
 ### -param uFlags [in]
 
@@ -118,9 +118,8 @@ The parameter <i>pidl</i> may be <b>NULL</b> if the flags specified in <i>uFlags
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-browseobject">BrowseObject</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-browseobject">BrowseObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a>

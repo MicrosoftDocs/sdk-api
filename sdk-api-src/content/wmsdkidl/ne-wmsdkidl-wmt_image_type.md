@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>WMT_IMAGE_TYPE</b> enumeration type defines the types of images that can be used for banner ads. This type is used as the value of the <a href="https://docs.microsoft.com/windows/desktop/wmformat/bannerimagetype">BannerImageType</a> attribute.
+The <b>WMT_IMAGE_TYPE</b> enumeration type defines the types of images that can be used for banner ads. This type is used as the value of the <a href="/windows/desktop/wmformat/bannerimagetype">BannerImageType</a> attribute.
 
 ## -enum-fields
 
 ### -field WMT_IT_NONE
 
-There is no image. If a <a href="https://docs.microsoft.com/windows/desktop/wmformat/bannerimagedata">BannerImageData</a> attribute in the file, it will be ignored.
+There is no image. If a <a href="/windows/desktop/wmformat/bannerimagedata">BannerImageData</a> attribute in the file, it will be ignored.
 
 ### -field WMT_IT_BITMAP
 
@@ -72,5 +72,4 @@ The banner image uses GIF encoding.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

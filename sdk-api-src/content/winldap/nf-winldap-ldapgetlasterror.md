@@ -61,15 +61,14 @@ An LDAP error code.
 ## -remarks
 
 The <b>LdapGetLastError</b> function returns the LDAP error code for the last LDAP operation on the thread that is calling it. See 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for a list of possible error codes.
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for a list of possible error codes.
 
 Multithreading: The <b>LdapGetLastError</b> function is thread-safe.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
-
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>

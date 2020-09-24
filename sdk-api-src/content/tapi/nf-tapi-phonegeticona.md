@@ -79,11 +79,11 @@ PHONEERR_BADDEVICEID, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPOINTER, PHONEERR_
 
 The 
 <b>phoneGetIcon</b> function causes the provider to return a handle (in <i>lphIcon</i>) to an icon resource (obtained from 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>) associated with the specified phone. The icon handle is for a resource associated with the provider; the application must use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the phone open.
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>) associated with the specified phone. The icon handle is for a resource associated with the provider; the application must use 
+<a href="/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the phone open.
 
 The <i>lpszDeviceClass</i> parameter allows the provider to return different icons based on the type of service being referenced by the caller. The permitted strings are the same as for 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>. For example, if the phone supports the Comm API, passing "COMM" as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. The parameters "tapi/phone", "", or <b>NULL</b> can be used to request the icon for the phone service.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>. For example, if the phone supports the Comm API, passing "COMM" as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. The parameters "tapi/phone", "", or <b>NULL</b> can be used to request the icon for the phone service.
 
 For applications using a TAPI version earlier than 2.0, if the provider does not return an icon (whether because the given device class is invalid or the provider does not support icons), TAPI substitutes a generic  Telephony phone device icon. For applications using TAPI version 2.0 or later, TAPI substitutes the default phone icon only if the <i>lpszDeviceClass</i> parameter is "tapi/phone", "", or <b>NULL</b>. For any other device class, if the given device class is not valid or the provider does not support icons for the class, 
 <b>phoneGetIcon</b> returns PHONEERR_INVALDEVICECLASS.
@@ -97,13 +97,12 @@ For applications using a TAPI version earlier than 2.0, if the provider does not
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>

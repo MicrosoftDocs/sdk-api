@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the values used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onoverwrite">IFileDialogEvents::OnOverwrite</a> method to indicate an application's response to an overwrite request during a save operation using the common file dialog.
+Specifies the values used by the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onoverwrite">IFileDialogEvents::OnOverwrite</a> method to indicate an application's response to an overwrite request during a save operation using the common file dialog.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ The application has determined that the file should be returned from the dialog.
 ### -field FDEOR_REFUSE
 
 The application has determined that the file should not be returned from the dialog.
-

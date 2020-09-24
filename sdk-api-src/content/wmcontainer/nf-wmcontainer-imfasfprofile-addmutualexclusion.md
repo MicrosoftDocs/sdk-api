@@ -57,7 +57,7 @@ Adds a configured Advanced Systems Format (ASF) mutual exclusion object to the p
 
 ### -param pIMutex [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a> interface of a configured ASF mutual exclusion object.
+Pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a> interface of a configured ASF mutual exclusion object.
 
 ## -returns
 
@@ -83,25 +83,24 @@ The method succeeded.
 
 ## -remarks
 
-You can create a mutual exclusion object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createmutualexclusion">IMFASFProfile::CreateMutualExclusion</a> method.
+You can create a mutual exclusion object by calling the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createmutualexclusion">IMFASFProfile::CreateMutualExclusion</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
+<a href="/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusion">IMFASFProfile::GetMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusion">IMFASFProfile::GetMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">IMFASFProfile::RemoveMutualExclusion</a>
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">IMFASFProfile::RemoveMutualExclusion</a>

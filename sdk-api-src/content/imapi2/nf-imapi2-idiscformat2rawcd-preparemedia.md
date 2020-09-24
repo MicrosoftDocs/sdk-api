@@ -444,17 +444,16 @@ Value: 0x00AA0006
 
 ## -remarks
 
-Before calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_clientname">IDiscFormat2RawCD::put_ClientName</a> method. 
+Before calling this method, you must call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_clientname">IDiscFormat2RawCD::put_ClientName</a> method. 
 
-Also, you must call the <b>IDiscFormat2RawCD::PrepareMedia</b> method before calling either the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a> method. 
+Also, you must call the <b>IDiscFormat2RawCD::PrepareMedia</b> method before calling either the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a> or <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a> method. 
 
-After the write is complete or you cancel the write operation, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">IDiscFormat2RawCD::ReleaseMedia</a> method to release the lock.
+After the write is complete or you cancel the write operation, you must call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">IDiscFormat2RawCD::ReleaseMedia</a> method to release the lock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">IDiscFormat2RawCD::ReleaseMedia</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">IDiscFormat2RawCD::ReleaseMedia</a>

@@ -52,7 +52,7 @@ api_name:
 
 The 
 				<b>NetLocalGroupDelMember</b> function is obsolete. You should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupdelmembers">NetLocalGroupDelMembers</a> function instead.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupdelmembers">NetLocalGroupDelMembers</a> function instead.
 
 ## -parameters
 
@@ -67,4 +67,3 @@ TBD
 ### -param membersid
 
 TBD
-

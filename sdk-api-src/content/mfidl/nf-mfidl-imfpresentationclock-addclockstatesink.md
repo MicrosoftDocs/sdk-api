@@ -57,7 +57,7 @@ Registers an object to be notified whenever the clock starts, stops, or pauses, 
 
 ### -param pStateSink [in]
 
-Pointer to the object's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a> interface.
+Pointer to the object's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a> interface.
 
 ## -returns
 
@@ -83,13 +83,12 @@ The method succeeded.
 
 ## -remarks
 
-Before releasing the object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-removeclockstatesink">IMFPresentationClock::RemoveClockStateSink</a> to unregister the object for state-change notifications.
+Before releasing the object, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-removeclockstatesink">IMFPresentationClock::RemoveClockStateSink</a> to unregister the object for state-change notifications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

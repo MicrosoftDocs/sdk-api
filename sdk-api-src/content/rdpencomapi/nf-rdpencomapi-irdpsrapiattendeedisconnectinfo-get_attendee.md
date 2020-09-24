@@ -64,5 +64,4 @@ Applications can query properties, but any attempt to modify properties fails wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeedisconnectinfo">IRDPSRAPIAttendeeDisconnectInfo</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeedisconnectinfo">IRDPSRAPIAttendeeDisconnectInfo</a>

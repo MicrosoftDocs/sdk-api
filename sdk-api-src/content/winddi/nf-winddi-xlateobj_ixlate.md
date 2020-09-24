@@ -56,7 +56,7 @@ The <b>XLATEOBJ_iXlate</b> function translates a color index of the source palet
 
 ### -param pxlo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the source palette.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the source palette.
 
 ### -param iColor
 
@@ -68,5 +68,4 @@ The return value is an index into the destination palette if the function is suc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>

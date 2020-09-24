@@ -64,9 +64,8 @@ This method is used only by windowed visualizations. Windowless visualizations s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
+<a href="/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">IWMPEffects2::Create</a>
-
+<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">IWMPEffects2::Create</a>

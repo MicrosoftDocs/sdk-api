@@ -58,7 +58,7 @@ The
     of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures. The 
     <b>RdcSignaturePointer</b> structure is used as both input 
     and output by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
+    <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
     method.
 
 ## -struct-fields
@@ -71,7 +71,7 @@ Contains the number of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">
 ### -field m_Used
 
 When the structure is passed to the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
+      <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
       method, this member should be zero. On return this member will contain the number of 
       <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures that were filled.
 
@@ -81,7 +81,7 @@ Address of an array of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a>
 
 
 
@@ -89,5 +89,4 @@ Address of an array of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
-
+<a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>

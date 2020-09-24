@@ -57,15 +57,15 @@ Create a counter object for measuring GPU performance.
 
 ### -param pCounterDesc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a>*</b>
 
-Pointer to a counter description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a>).
+Pointer to a counter description (see <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a>).
 
 ### -param ppCounter [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11counter">ID3D11Counter</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11counter">ID3D11Counter</a>**</b>
 
-Address of a pointer to a counter (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11counter">ID3D11Counter</a>).
+Address of a pointer to a counter (see <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11counter">ID3D11Counter</a>).
 
 ## -returns
 
@@ -81,5 +81,4 @@ E_INVALIDARG is returned whenever an out-of-range well-known or device-dependent
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>

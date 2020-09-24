@@ -56,7 +56,7 @@ Closes a session object.
 
 ### -param session [in, out, optional]
 
-Specifies the session handle to close. This handle is returned by a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreatesession">WSManCreateSession</a> call.  This parameter cannot be NULL.
+Specifies the session handle to close. This handle is returned by a <a href="/windows/desktop/api/wsman/nf-wsman-wsmancreatesession">WSManCreateSession</a> call.  This parameter cannot be NULL.
 
 ### -param flags
 
@@ -69,4 +69,3 @@ This method returns zero on success. Otherwise, this method returns an error cod
 ## -remarks
 
 The <b>WSManCloseSession</b> method frees the memory associated with a session and closes all related operations before returning. This is a synchronous call.  All operations are explicitly canceled. It is recommended that all pending operations are either completed or explicitly canceled before calling this function.
-

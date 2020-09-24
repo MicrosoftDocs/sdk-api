@@ -57,9 +57,9 @@ Locks a rectangle on a surface.
 
 ### -param pLockedRect [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlocked-rect">D3DLOCKED_RECT</a>*</b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dlocked-rect">D3DLOCKED_RECT</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlocked-rect">D3DLOCKED_RECT</a> structure that describes the locked region.
+Pointer to a <a href="/windows/desktop/direct3d9/d3dlocked-rect">D3DLOCKED_RECT</a> structure that describes the locked region.
 
 ### -param pRect [in]
 
@@ -69,7 +69,7 @@ Pointer to a rectangle to lock. Specified by a pointer to a <a href="/windows/de
 
 ### -param Flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Combination of zero or more locking flags that describe the type of lock to perform. For this method, the valid flags are: 
     
@@ -82,7 +82,7 @@ Combination of zero or more locking flags that describe the type of lock to perf
 <li>D3DLOCK_NOSYSLOCK</li>
 <li>D3DLOCK_READONLY</li>
 </ul>
-You may not specify a subrect when using D3DLOCK_DISCARD. For a description of the flags, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlock">D3DLOCK</a>.
+You may not specify a subrect when using D3DLOCK_DISCARD. For a description of the flags, see <a href="/windows/desktop/direct3d9/d3dlock">D3DLOCK</a>.
 
 ## -returns
 
@@ -94,21 +94,20 @@ If the method fails, the return value can be D3DERR_INVALIDCALL or D3DERR_WASSTI
 
 ## -remarks
 
-If the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlock">D3DLOCK_DONOTWAIT</a> flag is specified and the driver cannot lock the surface immediately, <b>IDirect3DSurface9::LockRect</b> will return D3DERR_WASSTILLDRAWING so that an application can use the CPU cycles while waiting for the driver to lock the surface.
+If the <a href="/windows/desktop/direct3d9/d3dlock">D3DLOCK_DONOTWAIT</a> flag is specified and the driver cannot lock the surface immediately, <b>IDirect3DSurface9::LockRect</b> will return D3DERR_WASSTILLDRAWING so that an application can use the CPU cycles while waiting for the driver to lock the surface.
 
-The only lockable format for a depth-stencil surface is D3DFMT_D16_LOCKABLE. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>.
+The only lockable format for a depth-stencil surface is D3DFMT_D16_LOCKABLE. See <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>.
 
-For performance reasons, dirty regions are recorded only for level zero of a texture. Dirty regions are automatically recorded when <b>IDirect3DSurface9::LockRect</b> is called without <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlock">D3DLOCK_NO_DIRTY_UPDATE</a>    or D3DLOCK_READONLY. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture">IDirect3DDevice9::UpdateTexture</a> for more information.
+For performance reasons, dirty regions are recorded only for level zero of a texture. Dirty regions are automatically recorded when <b>IDirect3DSurface9::LockRect</b> is called without <a href="/windows/desktop/direct3d9/d3dlock">D3DLOCK_NO_DIRTY_UPDATE</a>    or D3DLOCK_READONLY. See <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture">IDirect3DDevice9::UpdateTexture</a> for more information.
 
 A multisample back buffer cannot be locked.
 
-This method cannot retrieve data from a surface that is is contained by a texture resource created with <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage">D3DUSAGE_RENDERTARGET</a> because such a texture must be assigned to D3DPOOL_DEFAULT memory and is therefore not lockable. In this case, use instead <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertargetdata">IDirect3DDevice9::GetRenderTargetData</a> to copy texture data from device memory to system memory.
+This method cannot retrieve data from a surface that is is contained by a texture resource created with <a href="/windows/desktop/direct3d9/d3dusage">D3DUSAGE_RENDERTARGET</a> because such a texture must be assigned to D3DPOOL_DEFAULT memory and is therefore not lockable. In this case, use instead <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertargetdata">IDirect3DDevice9::GetRenderTargetData</a> to copy texture data from device memory to system memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-unlockrect">IDirect3DSurface9::UnlockRect</a>
-
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-unlockrect">IDirect3DSurface9::UnlockRect</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IX509MachineEnrollmentFactory</b> interface can be used to create an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object on a webpage. This object cannot be created directly inside of a script.
+The <b>IX509MachineEnrollmentFactory</b> interface can be used to create an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object on a webpage. This object cannot be created directly inside of a script.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509MachineEnrollmentFactory</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509MachineEnrollmentFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509MachineEnrollmentFactory</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509MachineEnrollmentFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,14 +69,13 @@ The <b>IX509MachineEnrollmentFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509machineenrollmentfactory-createobject">CreateObject</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509machineenrollmentfactory-createobject">CreateObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object on a webpage.
+Creates an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object on a webpage.
 
 [WebEnabled]
 
 </td>
 </tr>
 </table>
-

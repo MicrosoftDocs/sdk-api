@@ -56,17 +56,16 @@ Fills the function descriptor structure for the function.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_function_desc">D3D12_FUNCTION_DESC</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_function_desc">D3D12_FUNCTION_DESC</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_function_desc">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
+A pointer to a <a href="/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_function_desc">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+Returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection">ID3D12FunctionReflection</a>
-
+<a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection">ID3D12FunctionReflection</a>

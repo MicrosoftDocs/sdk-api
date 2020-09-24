@@ -89,5 +89,4 @@ There is not enough memory to perform the specified operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a>

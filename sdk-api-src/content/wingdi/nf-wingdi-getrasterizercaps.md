@@ -58,7 +58,7 @@ The <b>GetRasterizerCaps</b> function returns flags indicating whether TrueType 
 
 ### -param lpraststat [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rasterizer_status">RASTERIZER_STATUS</a> structure that receives information about the rasterizer.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-rasterizer_status">RASTERIZER_STATUS</a> structure that receives information about the rasterizer.
 
 ### -param cjBytes [in]
 
@@ -74,23 +74,22 @@ If the function fails, the return value is zero.
 
 The <b>GetRasterizerCaps</b> function enables applications and printer drivers to determine whether TrueType fonts are installed.
 
-If the TT_AVAILABLE flag is set in the <b>wFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rasterizer_status">RASTERIZER_STATUS</a> structure, at least one TrueType font is installed. If the TT_ENABLED flag is set, TrueType is enabled for the system.
+If the TT_AVAILABLE flag is set in the <b>wFlags</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-rasterizer_status">RASTERIZER_STATUS</a> structure, at least one TrueType font is installed. If the TT_ENABLED flag is set, TrueType is enabled for the system.
 
-The actual number of bytes copied is either the member specified in the <i>cb</i> parameter or the length of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rasterizer_status">RASTERIZER_STATUS</a> structure, whichever is less.
+The actual number of bytes copied is either the member specified in the <i>cb</i> parameter or the length of the <a href="/windows/desktop/api/wingdi/ns-wingdi-rasterizer_status">RASTERIZER_STATUS</a> structure, whichever is less.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getoutlinetextmetricsa">GetOutlineTextMetrics</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getoutlinetextmetricsa">GetOutlineTextMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rasterizer_status">RASTERIZER_STATUS</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-rasterizer_status">RASTERIZER_STATUS</a>

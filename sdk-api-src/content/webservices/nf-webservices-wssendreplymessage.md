@@ -56,11 +56,11 @@ Sends a message which is a reply to a received message.
 
 ### -param channel [in]
 
-A pointer to the <b>Channel</b> object on which to send the reply Message.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> object.
+A pointer to the <b>Channel</b> object on which to send the reply Message.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> object.
 
 ### -param replyMessage [in]
 
-A pointer to the <b>Message</b> object for sending the reply.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
+A pointer to the <b>Message</b> object for sending the reply.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
                 
                 Message object state must be set to <b>WS_MESSAGE_STATE_EMPTY</b>  or
                   <b>WS_MESSAGE_STATE_INITIALIZED</b>.
@@ -72,19 +72,19 @@ A pointer to the <b>Message</b> object for sending the reply.  The pointer must 
 
 ### -param replyMessageDescription [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> object.  The <b>action</b> field of <b>WS_MESSAGE_DESCRIPTION</b> is used as the
+A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> object.  The <b>action</b> field of <b>WS_MESSAGE_DESCRIPTION</b> is used as the
                     <b>action</b> header for the reply message.  This field can be <b>NULL</b> if no action
                     is required.
                 
 
-The <b>bodyElementDescription</b>  field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the reply message.  This field may be 
-                    <b>NULL</b> if no body element is desired.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for information
+The <b>bodyElementDescription</b>  field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the reply message.  This field may be 
+                    <b>NULL</b> if no body element is desired.  See <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for information
                     about how the <b>bodyElementDescription</b> is used to serialize a value.
 
 ### -param writeOption [in]
 
 Determines whether the body element is required, and how the value is allocated.
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.
+                    See <a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.
 
 ### -param replyBodyValue
 
@@ -104,12 +104,12 @@ A pointer to a WS_MESSAGE object encapsulating the request message text.  This i
 
 ### -param asyncContext [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information about invoking the function asynchronously.  A <b>NULL</b> 
+A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information about invoking the function asynchronously.  A <b>NULL</b> 
                  value indicates a request for synchronous operation.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -269,6 +269,5 @@ This function may return other errors not listed above.
 ## -remarks
 
 The reply message will including correlation information as appropriate 
-                to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a>.  See <a href="https://docs.microsoft.com/windows/desktop/wsw/channel-layer-overview">Channel Layer Overview</a> 
+                to the <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a>.  See <a href="/windows/desktop/wsw/channel-layer-overview">Channel Layer Overview</a> 
                 for more information about correlating request reply messages.
-

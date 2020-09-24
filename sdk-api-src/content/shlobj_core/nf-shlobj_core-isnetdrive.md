@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a> instead.]
+<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a> or <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a> instead.]
 
 Tests whether a drive is a network drive.
 
@@ -107,4 +107,3 @@ The specified drive is a network drive that is disconnected or in an error state
 </td>
 </tr>
 </table>
-

@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>SYNCMGRINVOKEFLAGS</b> enumeration value specifies how the Sync Manager is to be invoked in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">ISyncMgrSynchronizeInvoke::UpdateItems</a> method.
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">ISyncMgrSynchronizeInvoke::UpdateItems</a> method.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ Indicates that the <b>Choice</b> dialog should be minimized by default.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">ISyncMgrSynchronizeInvoke::UpdateItems</a>
-
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">ISyncMgrSynchronizeInvoke::UpdateItems</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>ReceiveCanBlock</code> method determines whether calls to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">IMemInputPin::Receive</a> method might block.
+The <code>ReceiveCanBlock</code> method determines whether calls to the <a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">IMemInputPin::Receive</a> method might block.
 
 ## -parameters
 
@@ -94,9 +94,8 @@ If this method returns S_FALSE, calls to the <b>Receive</b> method are guarantee
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>

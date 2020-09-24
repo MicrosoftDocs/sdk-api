@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Determines the width of a specified string using the specified list-view control's current font. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getstringwidth">LVM_GETSTRINGWIDTH</a> message explicitly.
+Determines the width of a specified string using the specified list-view control's current font. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getstringwidth">LVM_GETSTRINGWIDTH</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param psz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 A pointer to a null-terminated string.
 
 ## -remarks
 
-The <b>ListView_GetStringWidth</b> macro returns the exact width, in pixels, of the specified string. If you use the returned string width as the column width in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setcolumnwidth">ListView_SetColumnWidth</a> macro, the string will be truncated. To retrieve the column width that can contain the string without truncating it, you must add padding to the returned string width.
-
+The <b>ListView_GetStringWidth</b> macro returns the exact width, in pixels, of the specified string. If you use the returned string width as the column width in a call to the <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setcolumnwidth">ListView_SetColumnWidth</a> macro, the string will be truncated. To retrieve the column width that can contain the string without truncating it, you must add padding to the returned string width.

@@ -61,7 +61,7 @@ Describes an entry from a list of the modules belonging to the specified process
 ### -field dwSize
 
 The size of the structure, in bytes. Before calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a> function, set this member to <code>sizeof(MODULEENTRY32)</code>. If you do not initialize <b>dwSize</b>, 
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a> function, set this member to <code>sizeof(MODULEENTRY32)</code>. If you do not initialize <b>dwSize</b>, 
 <b>Module32First</b> fails.
 
 ### -field th32ModuleID
@@ -107,15 +107,14 @@ The <b>modBaseAddr</b> and <b>hModule</b> members are valid only in the context 
 
 #### Examples
 
-For an example that uses <b>MODULEENTRY32</b>, see <a href="https://docs.microsoft.com/windows/desktop/ToolHelp/traversing-the-module-list">Traversing the Module List</a>.
+For an example that uses <b>MODULEENTRY32</b>, see <a href="/windows/desktop/ToolHelp/traversing-the-module-list">Traversing the Module List</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32next">Module32Next</a>
-
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-module32next">Module32Next</a>

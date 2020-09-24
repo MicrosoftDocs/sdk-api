@@ -55,7 +55,7 @@ Represents the information associated with local changes made to an item while w
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesChangeInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesChangeInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesChangeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesChangeInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOfflineFilesChangeInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-iscreatedoffline">IsCreatedOffline</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-iscreatedoffline">IsCreatedOffline</a>
 </td>
 <td align="left" width="63%">
 Determines whether an item was created in the Offline Files cache while working offline.
@@ -79,7 +79,7 @@ Determines whether an item was created in the Offline Files cache while working 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-isdeletedoffline">IsDeletedOffline</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-isdeletedoffline">IsDeletedOffline</a>
 </td>
 <td align="left" width="63%">
 Determines whether an item has been deleted from the Offline Files cache while working offline.
@@ -88,7 +88,7 @@ Determines whether an item has been deleted from the Offline Files cache while w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-isdirty">IsDirty</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-isdirty">IsDirty</a>
 </td>
 <td align="left" width="63%">
 Determines whether an item in the Offline Files cache has been modified.
@@ -97,7 +97,7 @@ Determines whether an item in the Offline Files cache has been modified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-islocallymodifiedattributes">IsLocallyModifiedAttributes</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-islocallymodifiedattributes">IsLocallyModifiedAttributes</a>
 </td>
 <td align="left" width="63%">
 Determines whether one or more of an item's attributes were modified while working offline.
@@ -106,7 +106,7 @@ Determines whether one or more of an item's attributes were modified while worki
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-islocallymodifieddata">IsLocallyModifiedData</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-islocallymodifieddata">IsLocallyModifiedData</a>
 </td>
 <td align="left" width="63%">
 Determines whether an item's data was modified while working offline.
@@ -115,7 +115,7 @@ Determines whether an item's data was modified while working offline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-islocallymodifiedtime">IsLocallyModifiedTime</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileschangeinfo-islocallymodifiedtime">IsLocallyModifiedTime</a>
 </td>
 <td align="left" width="63%">
 Determines whether one or more of an item's time values were modified while working offline.
@@ -126,5 +126,4 @@ Determines whether one or more of an item's time values were modified while work
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>

@@ -68,5 +68,4 @@ Application is ready.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_internal_state">SetInternalState</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_internal_state">SetInternalState</a>

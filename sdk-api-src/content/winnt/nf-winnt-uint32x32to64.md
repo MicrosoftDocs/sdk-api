@@ -71,9 +71,8 @@ Please note that the function's return value is a 64-bit value, not a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int32x32to64">Int32x32To64</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-int32x32to64">Int32x32To64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/large-integers">Large Integers</a>
-
+<a href="/windows/desktop/WinProg/large-integers">Large Integers</a>

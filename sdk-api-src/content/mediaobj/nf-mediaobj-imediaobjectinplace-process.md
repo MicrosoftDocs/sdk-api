@@ -127,5 +127,4 @@ If the DMO has no effect tail, this method returns S_TRUE or an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace">IMediaObjectInPlace Interface</a>
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace">IMediaObjectInPlace Interface</a>

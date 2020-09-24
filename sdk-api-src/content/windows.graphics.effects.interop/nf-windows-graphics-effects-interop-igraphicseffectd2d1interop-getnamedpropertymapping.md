@@ -68,7 +68,7 @@ When this method returns, this parameter will contain the index of the property.
 
 ### -param mapping [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/ne-windows-graphics-effects-interop-graphics_effect_property_mapping">GRAPHICS_EFFECT_PROPERTY_MAPPING</a>*</b>
+Type: <b><a href="/windows/desktop/api/windows.graphics.effects.interop/ne-windows-graphics-effects-interop-graphics_effect_property_mapping">GRAPHICS_EFFECT_PROPERTY_MAPPING</a>*</b>
 
 Indicates how a strongly-typed effect property maps to an underlying Direct2D effect property.
 
@@ -80,5 +80,4 @@ This method returns an HRESULT success or error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nn-windows-graphics-effects-interop-igraphicseffectd2d1interop">IGraphicsEffectD2D1Interop</a>
-
+<a href="/windows/desktop/api/windows.graphics.effects.interop/nn-windows-graphics-effects-interop-igraphicseffectd2d1interop">IGraphicsEffectD2D1Interop</a>

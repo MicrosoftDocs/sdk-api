@@ -63,7 +63,7 @@ api_name:
 Retrieves the path of the system directory. The system directory contains system files such as dynamic-link libraries and drivers.
 
 This function is provided primarily for compatibility. Applications should store code in the Program Files folder and persistent data in the Application Data folder in the user's profile. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">ShGetFolderPath</a>.
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">ShGetFolderPath</a>.
 
 ## -parameters
 
@@ -80,7 +80,7 @@ The maximum size of the buffer, in <b>TCHARs</b>.
 If the function succeeds, the return value is the length, in <b>TCHARs</b>, of the string copied to the buffer, not including the terminating null character. If the length is greater than the size of the buffer, the return value is the size of the buffer required to hold the path, including the terminating null character.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -90,7 +90,7 @@ Applications should not create files in the system directory. If the user is run
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-system-information">Getting System Information</a>.
+<a href="/windows/desktop/SysInfo/getting-system-information">Getting System Information</a>.
 
 <div class="code"></div>
 
@@ -102,18 +102,17 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
+<a href="/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
-

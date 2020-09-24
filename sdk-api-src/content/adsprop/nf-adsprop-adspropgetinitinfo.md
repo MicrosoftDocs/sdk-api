@@ -56,11 +56,11 @@ The <b>ADsPropGetInitInfo</b> function is used to obtain directory object data t
 
 ### -param hNotifyObj [in]
 
-The handle of the notification object. To obtain this handle, call <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropcreatenotifyobj">ADsPropCreateNotifyObj</a>.
+The handle of the notification object. To obtain this handle, call <a href="/windows/desktop/api/adsprop/nf-adsprop-adspropcreatenotifyobj">ADsPropCreateNotifyObj</a>.
 
 ### -param pInitParams [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-adspropinitparams">ADSPROPINITPARAMS</a> structure that receives the directory object data. The <b>dwSize</b> member of this structure must be entered before calling this function.
+Pointer to an <a href="/windows/desktop/api/adsprop/ns-adsprop-adspropinitparams">ADSPROPINITPARAMS</a> structure that receives the directory object data. The <b>dwSize</b> member of this structure must be entered before calling this function.
 
 ## -returns
 
@@ -70,7 +70,7 @@ Returns nonzero if successful or zero otherwise.
 
 The memory  for the <b>pwzCN</b> and <b>pWritableAttrs</b> members is allocated by the <b>ADsPropGetInitInfo</b> function. This memory is freed by the system after all property sheet objects are destroyed. The reference count for the interface pointer in <b>pDsObj</b> is not incremented by calling <b>ADsPropGetInitInfo</b>, so the interface must not be released by the caller.
 
-For multiple-selection property sheets, the system only binds to the first object in the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsobject">DSOBJECT</a> array. Because of this, <b>ADsPropGetInitInfo</b> only supplies the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a> and writable attributes for the first object in the array. The other objects in the array are not bound to.
+For multiple-selection property sheets, the system only binds to the first object in the <a href="/windows/desktop/api/dsclient/ns-dsclient-dsobject">DSOBJECT</a> array. Because of this, <b>ADsPropGetInitInfo</b> only supplies the <a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a> and writable attributes for the first object in the array. The other objects in the array are not bound to.
 
 
 #### Examples
@@ -103,9 +103,8 @@ HRESULT GetADsPageInfo(HWND hwndNotifyObject, ADSPROPINITPARAMS *pip)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-adspropinitparams">ADSPROPINITPARAMS</a>
+<a href="/windows/desktop/api/adsprop/ns-adsprop-adspropinitparams">ADSPROPINITPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropcreatenotifyobj">ADsPropCreateNotifyObj</a>
-
+<a href="/windows/desktop/api/adsprop/nf-adsprop-adspropcreatenotifyobj">ADsPropCreateNotifyObj</a>

@@ -72,11 +72,11 @@ If <b>GetName</b> fails or an empty string is returned in <i>ppszItemID</i>, the
 
 The ID retrieved by this method is available in the handler's folder UI as the System.DisplayName (PKEY_DisplayName) property.
 
-The item is responsible for allocating the string buffer pointed to by <i>ppszComment</i> through <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. Sync Center deallocates the string buffer through <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+The item is responsible for allocating the string buffer pointed to by <i>ppszComment</i> through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. Sync Center deallocates the string buffer through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
-Sync Center calls this method whenever the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a> method is called.
+Sync Center calls this method whenever the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a> method is called.
 
-In older Sync Manager implementations, this information was retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure.
+In older Sync Manager implementations, this information was retrieved through the <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure.
 
 
 #### Examples
@@ -95,4 +95,3 @@ STDMETHODIMP CMyDeviceSyncItem::GetName(__out LPWSTR *ppszName)
 }
 
 ```
-

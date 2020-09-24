@@ -86,7 +86,7 @@ The <i>pHrStatus</i> parameter is a pointer to an <b>HRESULT</b> value that indi
 <tr>
 <td>XACT_E_NOTRANSACTION
 </td>
-<td>No transactions were being used through <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
+<td>No transactions were being used through <a href="/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
 </td>
 </tr>
 <tr>
@@ -105,5 +105,4 @@ The <i>pHrStatus</i> parameter is a pointer to an <b>HRESULT</b> value that indi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionstatus">ITransactionStatus</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionstatus">ITransactionStatus</a>

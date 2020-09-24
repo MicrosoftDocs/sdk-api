@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that support the addition of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> objects to a frame. Implemented by the browser.
+Exposes methods that support the addition of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> objects to a frame. Implemented by the browser.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDockingWindowFrame</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IDockingWindowFrame</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDockingWindowFrame</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IDockingWindowFrame</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,28 +69,28 @@ The <b>IDockingWindowFrame</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-idockingwindowframe-addtoolbar">AddToolbar</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-idockingwindowframe-addtoolbar">AddToolbar</a>
 </td>
 <td align="left" width="63%">
-Adds the specified <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> object to the frame.
+Adds the specified <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> object to the frame.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-idockingwindowframe-findtoolbar">FindToolbar</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-idockingwindowframe-findtoolbar">FindToolbar</a>
 </td>
 <td align="left" width="63%">
-Finds the specified <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> object in the toolbar frame and returns an interface pointer to it.
+Finds the specified <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> object in the toolbar frame and returns an interface pointer to it.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-idockingwindowframe-removetoolbar">RemoveToolbar</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-idockingwindowframe-removetoolbar">RemoveToolbar</a>
 </td>
 <td align="left" width="63%">
-Removes the specified <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> from the toolbar frame.
+Removes the specified <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> from the toolbar frame.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Removes the specified <a href="https://docs.microsoft.com/windows/desktop/api/sh
 
 ## -remarks
 
-<b>IDockingWindowFrame</b> is derived from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. See the following topics for details on these methods also available to <b>IDockingWindowFrame</b> through that inheritance.
+<b>IDockingWindowFrame</b> is derived from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. See the following topics for details on these methods also available to <b>IDockingWindowFrame</b> through that inheritance.
 
 <table class="clsStd">
 <tr>
@@ -106,12 +106,12 @@ Removes the specified <a href="https://docs.microsoft.com/windows/desktop/api/sh
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-contextsensitivehelp">IOleWindow::ContextSensitiveHelp</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-contextsensitivehelp">IOleWindow::ContextSensitiveHelp</a>
 </td>
 </tr>
 </table>
@@ -122,4 +122,3 @@ You do not typically implement the <b>IDockingWindowFrame</b> interface. The She
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 You use <b>IDockingWindowFrame</b> to add, find, and remove docking window objects in a browser frame.
-

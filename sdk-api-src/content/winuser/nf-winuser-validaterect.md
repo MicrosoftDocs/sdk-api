@@ -73,29 +73,29 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function automatically validates the entire client area. Neither the <b>ValidateRect</b> nor <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a> function should be called if a portion of the update region must be validated before the next <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is generated.
+The <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function automatically validates the entire client area. Neither the <b>ValidateRect</b> nor <a href="/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a> function should be called if a portion of the update region must be validated before the next <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is generated.
 
-The system continues to generate <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages until the current update region is validated.
+The system continues to generate <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages until the current update region is validated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
@@ -103,9 +103,8 @@ The system continues to generate <a href="https://docs.microsoft.com/windows/des
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>
-
+<a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a>

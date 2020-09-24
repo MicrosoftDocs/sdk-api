@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicate flags used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">IExplorerPaneVisibility::GetPaneState</a> to get the current state of the given Windows Explorer pane.
+Indicate flags used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">IExplorerPaneVisibility::GetPaneState</a> to get the current state of the given Windows Explorer pane.
 
 ## -enum-fields
 
@@ -77,4 +77,3 @@ Ignore any persisted state from the user, but the user can still modify the stat
 ### -field EPS_FORCE
 
 Users cannot modify the state, that is, they do not have the ability to show or hide the given pane. This option implies EPS_INITIALSTATE.
-

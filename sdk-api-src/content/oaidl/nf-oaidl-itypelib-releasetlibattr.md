@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases the TLIBATTR originally obtained from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getlibattr">GetLibAttr</a>.
+Releases the TLIBATTR originally obtained from <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getlibattr">GetLibAttr</a>.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ The TLIBATTR to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>

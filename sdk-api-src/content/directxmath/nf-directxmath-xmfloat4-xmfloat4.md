@@ -53,7 +53,7 @@ api_name:
 Default constructor for <code>XMFLOAT4</code>.
     
 
-Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4">XMFLOAT4</a>.
+Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4">XMFLOAT4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -69,9 +69,8 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4">XMFLOAT4</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4">XMFLOAT4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(constfloat)">XMFLOAT4 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(constfloat)">XMFLOAT4 Constructors</a>

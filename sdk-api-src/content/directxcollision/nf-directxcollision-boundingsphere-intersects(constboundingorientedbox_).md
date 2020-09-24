@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Test the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) for intersection with a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Test the [BoundingSphere](./ns-directxcollision-boundingsphere.md) for intersection with a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ The <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">Bo
 
 ## -returns
 
-A boolean value indicating whether the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) intersects the specified <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+A boolean value indicating whether the [BoundingSphere](./ns-directxcollision-boundingsphere.md) intersects the specified <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
+[BoundingSphere](./ns-directxcollision-boundingsphere.md)
 
 
 
@@ -77,4 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

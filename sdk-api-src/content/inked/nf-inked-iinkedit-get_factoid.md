@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid</a> constant that a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object uses to constrain its search for the recognition result.
+Gets or sets the <a href="/windows/desktop/tablet/factoid-constants">Factoid</a> constant that a <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object uses to constrain its search for the recognition result.
 
 
 
@@ -65,21 +65,21 @@ This property is read/write.
 
 ## -remarks
 
-This property should only be changed if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
+This property should only be changed if the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
 
 To ensure that ink is recognized in the correct field context, set this property before processing the ink for the first time.
 
-A <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid</a> provides context for recognized ink in the context of a particular field. You specify a factoid if an input field is of a known type, for example, if the input field contains a date.
+A <a href="/windows/desktop/tablet/factoid-constants">Factoid</a> provides context for recognized ink in the context of a particular field. You specify a factoid if an input field is of a known type, for example, if the input field contains a date.
 
-This property takes or returns a string parameter and not a class object of the <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid</a> class. The members of this class are of type STRING. This method does not throw an error if you attempt to set this property to an invalid string value.
+This property takes or returns a string parameter and not a class object of the <a href="/windows/desktop/tablet/factoid-constants">Factoid</a> class. The members of this class are of type STRING. This method does not throw an error if you attempt to set this property to an invalid string value.
 
 <div class="alert"><b>Note</b>  All factoids are case sensitive.</div>
 <div> </div>
-For more information about factoids and how to use them, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-context-to-improve-accuracy">Using Context to Improve Accuracy</a>. For a list of supported factoids, see <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid Constants</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/supported-factoids-from-version-1">Supported Factoids from Version 1</a>.
+For more information about factoids and how to use them, see <a href="/windows/desktop/tablet/using-context-to-improve-accuracy">Using Context to Improve Accuracy</a>. For a list of supported factoids, see <a href="/windows/desktop/tablet/factoid-constants">Factoid Constants</a> and <a href="/windows/desktop/tablet/supported-factoids-from-version-1">Supported Factoids from Version 1</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
+<a href="/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
 
 
 
@@ -87,5 +87,4 @@ For more information about factoids and how to use them, see <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

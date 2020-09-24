@@ -56,51 +56,51 @@ Sets information in a compilation result.
 
 ### -param pSrcData [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
 
 A pointer to compiled shader data.
 
 ### -param SrcDataSize [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 The length of the compiled shader data that <i>pSrcData</i> points to.
 
 ### -param Part [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d-blob-part">D3D_BLOB_PART</a></b>
+Type: <b><a href="/windows/desktop/direct3dhlsl/d3d-blob-part">D3D_BLOB_PART</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d-blob-part">D3D_BLOB_PART</a>-typed value that specifies the part to set. Currently, you can update only private data; that is, <b>D3DSetBlobPart</b> currently only supports the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d-blob-part">D3D_BLOB_PRIVATE_DATA</a> value.
+A <a href="/windows/desktop/direct3dhlsl/d3d-blob-part">D3D_BLOB_PART</a>-typed value that specifies the part to set. Currently, you can update only private data; that is, <b>D3DSetBlobPart</b> currently only supports the <a href="/windows/desktop/direct3dhlsl/d3d-blob-part">D3D_BLOB_PRIVATE_DATA</a> value.
 
 ### -param Flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flags that indicate how to set the blob part. Currently, no flags are defined; therefore, set to zero.
 
 ### -param pPart [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
 
 A pointer to data to set in the compilation result.
 
 ### -param PartSize [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 The length of the data that <i>pPart</i> points to.
 
 ### -param ppNewShader [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
 
-A pointer to a buffer that receives the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface for the new shader in which the new part data is set.
+A pointer to a buffer that receives the <a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface for the new shader in which the new part data is set.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
+Returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
 ## -remarks
 
@@ -111,5 +111,4 @@ Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d1
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
-
+<a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>

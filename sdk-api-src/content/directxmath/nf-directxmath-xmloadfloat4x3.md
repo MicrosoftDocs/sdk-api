@@ -50,28 +50,28 @@ api_name:
 
 ## -description
 
-Loads an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> into an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
+Loads an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> into an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
 
 ## -parameters
 
 ### -param pSource [in]
 
-Address of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> structure to load. This parameter must point to cached
+Address of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> structure to load. This parameter must point to cached
         memory.
 
 ## -returns
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> loaded with the data from the <i>pSource</i> parameter.
+Returns an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> loaded with the data from the <i>pSource</i> parameter.
 
-This function performs a partial load of the returned <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>. See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-getting-started">Getting Started</a> for more information.
+This function performs a partial load of the returned <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>. See <a href="/windows/desktop/dxmath/pg-xnamath-getting-started">Getting Started</a> for more information.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> is a row-major form of the matrix. This function cannot be used to read column-major data since it assumes the last column is 0 0 0 1.
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> is a row-major form of the matrix. This function cannot be used to read column-major data since it assumes the last column is 0 0 0 1.
 
-The members of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> structure (<b>_11</b>, <b>_12</b>,
+The members of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> structure (<b>_11</b>, <b>_12</b>,
    <b>_13</b>, and so on) are loaded into the corresponding members of the
-   <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>. The remaining members of the returned
+   <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>. The remaining members of the returned
    <b>XMMATRIX</b> are 0.0f, except for <b>_44</b>, which is 1.0f.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
@@ -79,5 +79,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>

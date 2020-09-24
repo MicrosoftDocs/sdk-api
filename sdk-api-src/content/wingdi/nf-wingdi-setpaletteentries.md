@@ -70,7 +70,7 @@ The number of logical-palette entries to be set.
 
 ### -param pPalEntries [in]
 
-A pointer to the first member of an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures containing the RGB values and flags.
+A pointer to the first member of an array of <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures containing the RGB values and flags.
 
 ## -returns
 
@@ -80,31 +80,30 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
+An application can determine whether a device supports palette operations by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
-Even if a logical palette has been selected and realized, changes to the palette do not affect the physical palette in the surface. <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> must be called again to set the new logical palette into the surface.
+Even if a logical palette has been selected and realized, changes to the palette do not affect the physical palette in the surface. <a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> must be called again to set the new logical palette into the surface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
+<a href="/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getpaletteentries">GetPaletteEntries</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getpaletteentries">GetPaletteEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
+<a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>

@@ -70,7 +70,7 @@ Property ID of the  list from which to remove the entity specified by the <i>var
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-deleteoperation">DeleteOperation</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-deleteoperation">DeleteOperation</a> method
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-deletetask">DeleteTask</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-deletetask">DeleteTask</a> method
 
 </td>
 </tr>
@@ -99,4 +99,3 @@ Reserved for future use.
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

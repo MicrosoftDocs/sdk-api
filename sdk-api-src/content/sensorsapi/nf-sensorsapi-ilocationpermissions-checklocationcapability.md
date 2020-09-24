@@ -106,9 +106,8 @@ An invalid client thread was provided.
 
 <div class="alert"><b>Note</b>  <b>CheckLocationCapability</b> is available in Windows 8.</div>
 <div> </div>
-For more information on location settings in Windows 8 see <a href="https://docs.microsoft.com/previous-versions/windows">Location settings</a>.
+For more information on location settings in Windows 8 see <a href="/previous-versions/windows">Location settings</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions">ILocationPermissions</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions">ILocationPermissions</a>

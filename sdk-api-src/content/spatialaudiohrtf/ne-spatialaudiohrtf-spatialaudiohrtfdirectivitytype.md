@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the shape in which sound is emitted by an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
+Specifies the shape in which sound is emitted by an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ The sound is emitted in a cardioid shape.
 ### -field SpatialAudioHrtfDirectivity_Cone
 
 The sound is emitted in a cone shape.
-

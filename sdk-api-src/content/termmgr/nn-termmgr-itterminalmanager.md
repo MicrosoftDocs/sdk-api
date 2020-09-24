@@ -54,13 +54,13 @@ The
 <b>ITTerminalManager</b> interface is used by the MSP to create dynamic terminals.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager2">ITTerminalManager2</a> interface exposes methods that retrieve information about pluggable terminal classes registered in the current system. 
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager2">ITTerminalManager2</a> interface exposes methods that retrieve information about pluggable terminal classes registered in the current system. 
 <b>ITTerminalManager2</b> is derived from the 
 <b>ITTerminalManager</b> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminalManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminalManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ITTerminalManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager-createdynamicterminal">CreateDynamicTerminal</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager-createdynamicterminal">CreateDynamicTerminal</a>
 </td>
 <td align="left" width="63%">
 Create a dynamic terminal of a specified terminal class, media type, and direction.
@@ -84,7 +84,7 @@ Create a dynamic terminal of a specified terminal class, media type, and directi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager-getdynamicterminalclasses">GetDynamicTerminalClasses</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager-getdynamicterminalclasses">GetDynamicTerminalClasses</a>
 </td>
 <td align="left" width="63%">
 Gets list of terminal classes.
@@ -95,9 +95,8 @@ Gets list of terminal classes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager2">ITTerminalManager2</a>
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager2">ITTerminalManager2</a>

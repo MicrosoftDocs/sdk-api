@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Called by the registered application's handler before or after its 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a> operation is completed.
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a> operation is completed.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Called by the registered application's handler before or after its
 
 Type: <b>HRESULT</b>
 
-Whether the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a> was successful.
+Whether the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a> was successful.
 
 ## -returns
 
@@ -87,15 +87,14 @@ Call was completed successfully.
 
 ## -remarks
 
-It is acceptable for the registered application's handler to call this method before returning from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a> method.
+It is acceptable for the registered application's handler to call this method before returning from the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a> method.
 
-This method should not be called if the registered application's handler does not return a success code from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a> method.
+This method should not be called if the registered application's handler does not return a success code from the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a>
-
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a>

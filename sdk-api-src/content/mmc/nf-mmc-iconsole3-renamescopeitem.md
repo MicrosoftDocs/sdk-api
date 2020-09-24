@@ -71,9 +71,8 @@ For this method to succeed, the item put in rename mode must have the Rename ver
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole3">IConsole3</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole3">IConsole3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata2-renameresultitem">IResultData2::RenameResultItem</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata2-renameresultitem">IResultData2::RenameResultItem</a>

@@ -64,13 +64,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method authenticates the caller, using a private communication channel between the MFT and the object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock">IMFFieldOfUseMFTUnlock</a> interface. The details of the communication depend entirely on the implementation.
+This method authenticates the caller, using a private communication channel between the MFT and the object that implements the <a href="/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock">IMFFieldOfUseMFTUnlock</a> interface. The details of the communication depend entirely on the implementation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/field-of-use-restrictions">Field of Use Restrictions</a>
+<a href="/windows/desktop/medfound/field-of-use-restrictions">Field of Use Restrictions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock">IMFFieldOfUseMFTUnlock</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock">IMFFieldOfUseMFTUnlock</a>

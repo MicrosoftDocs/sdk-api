@@ -62,16 +62,16 @@ The error object containing the string.
 
 The zero-based index identifying the string to retrieve.  The first
                     error string (index 0) will be the string most recently added to the
-                    error object (using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsadderrorstring">WsAddErrorString</a>). When 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a> is presented in the 
+                    error object (using <a href="/windows/desktop/api/webservices/nf-webservices-wsadderrorstring">WsAddErrorString</a>). When 
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a> is presented in the 
                     error object, the corresponding error text will be available in the last index.
                 
 
-The number of errors can be retrieved using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_STRING_COUNT</a>.
+The number of errors can be retrieved using <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_STRING_COUNT</a>.
 
 ### -param string [out]
 
-The returned string.  The string is valid until <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a>or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> is called.
+The returned string.  The string is valid until <a href="/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a>or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> is called.
                 
 
 The string is not zero terminated.
@@ -112,5 +112,4 @@ This function may return other errors not listed above.
 ## -remarks
 
 The string is in the language specified by the LANGID property of
-                the error object.  This can be retrieved using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a>with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_LANGID</a>.
-
+                the error object.  This can be retrieved using <a href="/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a>with <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_LANGID</a>.

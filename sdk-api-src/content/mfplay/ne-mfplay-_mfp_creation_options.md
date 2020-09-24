@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
-Specifies options for the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a> function.
+Specifies options for the <a href="/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a> function.
 
 ## -enum-fields
 
@@ -64,13 +64,13 @@ Use the default creation options.
 
 ### -field MFP_OPTION_FREE_THREADED_CALLBACK
 
-If set, the MFPlay player object invokes the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a> callback on another thread, and not the thread that called the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a> function. Therefore, the callback must be thread safe.
+If set, the MFPlay player object invokes the application's <a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a> callback on another thread, and not the thread that called the <a href="/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a> function. Therefore, the callback must be thread safe.
 
-If this flag is not set, the player object invokes the callback on the same thread that calls <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a>. This thread must have a message loop. Internally, the player object creates a hidden window to dispatch the callback, similar to the mechanism used for single-threaded apartments (STAs) in COM.
+If this flag is not set, the player object invokes the callback on the same thread that calls <a href="/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a>. This thread must have a message loop. Internally, the player object creates a hidden window to dispatch the callback, similar to the mechanism used for single-threaded apartments (STAs) in COM.
 
 ### -field MFP_OPTION_NO_MMCSS
 
-Do not register the playback topology with the Multimedia Class Scheduler Service (MMCSS). By default, the MFPlay object registers the playback topology with MMCSS, which typically results in a better playback experience. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>.
+Do not register the playback topology with the Multimedia Class Scheduler Service (MMCSS). By default, the MFPlay object registers the playback topology with MMCSS, which typically results in a better playback experience. For more information, see <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>.
 
 ### -field MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION
 
@@ -84,5 +84,4 @@ The following <b>typedef</b> is defined for combining flags from this enumeratio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

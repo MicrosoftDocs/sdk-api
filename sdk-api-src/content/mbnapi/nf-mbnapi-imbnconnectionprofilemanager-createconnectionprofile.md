@@ -59,7 +59,7 @@ Creates a new connection profile for the device.
 
 ### -param xmlProfile [in]
 
-A null-terminated string that contains the profile data in XML format compliant with the <a href="https://docs.microsoft.com/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
+A null-terminated string that contains the profile data in XML format compliant with the <a href="/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
 
 ## -returns
 
@@ -129,12 +129,11 @@ The calling application specified the default profile flag in the XML data, howe
 
 ## -remarks
 
-This is a synchronous operation. If this function call is successful, then a new profile will be created and the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofilearrival">OnConnectionProfileArrival</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents">IMbnConnectionProfileManagerEvents</a> interface. 
+This is a synchronous operation. If this function call is successful, then a new profile will be created and the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofilearrival">OnConnectionProfileArrival</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents">IMbnConnectionProfileManagerEvents</a> interface. 
 
 
-If the icon file location is specified in the profile data then the Mobile Broadband service will copy the icon file from the specified location in its own store. A subsequent query on the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> object for the icon file location will return the file location where the Mobile Broadband service stored the icon file. Whenever a profile is deleted from the system, its icon file is also deleted from the system. The icon file should be in bmp file format file with 32x32 pixel dimensions.
+If the icon file location is specified in the profile data then the Mobile Broadband service will copy the icon file from the specified location in its own store. A subsequent query on the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> object for the icon file location will return the file location where the Mobile Broadband service stored the icon file. Whenever a profile is deleted from the system, its icon file is also deleted from the system. The icon file should be in bmp file format file with 32x32 pixel dimensions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>

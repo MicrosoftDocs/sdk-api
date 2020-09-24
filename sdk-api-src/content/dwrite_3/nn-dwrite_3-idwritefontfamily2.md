@@ -42,9 +42,8 @@ api_name:
 
 Represents a family of related fonts. **IDWriteFontFamily2** adds new facilities, including retrieving fonts by font axis values.
 
-This interface extends [IDWriteFontFamily1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily1).
+This interface extends [IDWriteFontFamily1](./nn-dwrite_3-idwritefontfamily1.md).
 
 ## -see-also
 
-[IDWriteFontFamily1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily1)
-
+[IDWriteFontFamily1](./nn-dwrite_3-idwritefontfamily1.md)

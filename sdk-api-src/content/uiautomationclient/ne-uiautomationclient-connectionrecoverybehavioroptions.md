@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains possible values for the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_connectionrecoverybehavior">ConnectionRecoveryBehavior</a> property, which indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
+Contains possible values for the <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_connectionrecoverybehavior">ConnectionRecoveryBehavior</a> property, which indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ Connection recovery is enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_connectionrecoverybehavior">ConnectionRecoveryBehavior</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_connectionrecoverybehavior">ConnectionRecoveryBehavior</a>

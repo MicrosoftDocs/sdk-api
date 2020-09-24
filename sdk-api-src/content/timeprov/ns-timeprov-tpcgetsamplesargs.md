@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 A structure that is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovcommand">TimeProvCommand</a> function.
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovcommand">TimeProvCommand</a> function.
 
 ## -struct-fields
 
 ### -field pbSampleBuf
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-timesample">TimeSample</a> structures.
+<a href="/windows/desktop/api/timeprov/ns-timeprov-timesample">TimeSample</a> structures.
 
 ### -field cbSampleBuf
 
@@ -74,9 +74,8 @@ The total number of samples available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovcommand">TimeProvCommand</a>
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovcommand">TimeProvCommand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-timesample">TimeSample</a>
-
+<a href="/windows/desktop/api/timeprov/ns-timeprov-timesample">TimeSample</a>

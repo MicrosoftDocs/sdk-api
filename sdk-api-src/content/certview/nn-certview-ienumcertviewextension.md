@@ -53,7 +53,7 @@ api_name:
 The <b>IEnumCERTVIEWEXTENSION</b> interface represents an extension-enumeration sequence that contains the  certificate extension data for the current row of the row-enumeration sequence.
 
  The extension-enumeration sequence is obtained by a call to the   
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewextension">IEnumCERTVIEWROW::EnumCertViewExtension</a> method. After this enumeration sequence is obtained, the methods of the <b>IEnumCERTVIEWEXTENSION</b> interface can be used to perform the following tasks:<ul>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewextension">IEnumCERTVIEWROW::EnumCertViewExtension</a> method. After this enumeration sequence is obtained, the methods of the <b>IEnumCERTVIEWEXTENSION</b> interface can be used to perform the following tasks:<ul>
 <li>Navigate the extension-enumeration sequence.</li>
 <li>Retrieve the name, value, and flags of the extension in the enumeration.</li>
 <li>Clone an exact copy of the extension-enumeration sequence.</li>
@@ -66,7 +66,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWEXTENSION</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEnumCERTVIEWEXTENSION</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWEXTENSION</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEnumCERTVIEWEXTENSION</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>IEnumCERTVIEWEXTENSION</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-clone">Clone</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the extension-enumeration sequence.
@@ -90,7 +90,7 @@ Creates a copy of the extension-enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getflags">GetFlags</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the policy and origin flags of the current extension in the extension-enumeration sequence.
@@ -99,7 +99,7 @@ Retrieves the policy and origin flags of the current extension in the extension-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getname">GetName</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the current extension in the extension-enumeration sequence.
@@ -108,7 +108,7 @@ Retrieves the name of the current extension in the extension-enumeration sequenc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getvalue">GetValue</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the current extension in the extension-enumeration sequence.
@@ -117,7 +117,7 @@ Retrieves the value of the current extension in the extension-enumeration sequen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-next">Next</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-next">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next extension in the extension-enumeration sequence.
@@ -126,7 +126,7 @@ Moves to the next extension in the extension-enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-reset">Reset</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves to the beginning of the extension-enumeration sequence.
@@ -135,7 +135,7 @@ Moves to the beginning of the extension-enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-skip">Skip</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of extensions in the extension-enumeration sequence.
@@ -146,9 +146,8 @@ Skips a specified number of extensions in the extension-enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewextension">IEnumCERTVIEWROW::IEnumCertViewExtension</a>
-
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewextension">IEnumCERTVIEWROW::IEnumCertViewExtension</a>

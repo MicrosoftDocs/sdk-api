@@ -82,7 +82,7 @@ If this function fails, the return value is <b>FALSE</b>.
 
 Given a device context, <b>GetICMProfile</b> will output, through the parameter <i>lpszFilename</i>, the path name of the file containing the color profile currently being used by the device context. It will also output, through the parameter <i>lpcbName</i>, the length of the string containing the path name.
 
-It is possible that the profile name returned by <b>GetICMProfile</b> will not be in the list of profiles returned by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>. The <b>EnumICMProfiles</b> function returns all color space profiles that are associated with a device context (DC) whose settings match that of the DC. If the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a> function is used to set the current profile, a profile may be associated with the DC that does not match its settings. For instance, the <b>SetICMProfile</b> function can be used to associate the device-independent sRGB profile with a DC. This profile will be used as the current WCS profile for that DC, and calls to <b>GetICMProfile</b> will return its file name. However, the profile will not appear in the list of profiles that is returned from <b>EnumICMProfiles</b>.
+It is possible that the profile name returned by <b>GetICMProfile</b> will not be in the list of profiles returned by <a href="/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>. The <b>EnumICMProfiles</b> function returns all color space profiles that are associated with a device context (DC) whose settings match that of the DC. If the <a href="/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a> function is used to set the current profile, a profile may be associated with the DC that does not match its settings. For instance, the <b>SetICMProfile</b> function can be used to associate the device-independent sRGB profile with a DC. This profile will be used as the current WCS profile for that DC, and calls to <b>GetICMProfile</b> will return its file name. However, the profile will not appear in the list of profiles that is returned from <b>EnumICMProfiles</b>.
 
 If this function is called before any calls to the <b>SetICMProfile</b> function, it can be used to get the default profile for a device context.
 
@@ -97,17 +97,16 @@ If this function is called before any calls to the <b>SetICMProfile</b> function
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
+<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>

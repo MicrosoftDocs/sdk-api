@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>get_CallHubs</b> method creates a collection of the currently available call hubs. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumeratecallhubs">EnumerateCallHubs</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumeratecallhubs">EnumerateCallHubs</a> method.
 
 ## -parameters
 
 ### -param pVariant [out]
 
 Pointer to <b>VARIANT</b> containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface pointers (CallHub objects).
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface pointers (CallHub objects).
 
 ## -returns
 
@@ -120,22 +120,21 @@ The <i>pVariant</i> parameter is not a valid pointer.
 ## -remarks
 
 TAPI calls the <b>Addref</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface returned by <b>ITTAPI::get_CallHubs</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface returned by <b>ITTAPI::get_CallHubs</b>. The application must call <b>Release</b> on the 
 <b>ITCallHub</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-
+<a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>

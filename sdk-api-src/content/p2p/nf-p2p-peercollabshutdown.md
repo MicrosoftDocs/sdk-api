@@ -81,7 +81,7 @@ There is not enough memory to support this operation.
 </dl>
 </td>
 <td width="60%">
-The application did not make a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabstartup">PeerCollabStartup</a>.
+The application did not make a previous call to <a href="/windows/desktop/api/p2p/nf-p2p-peercollabstartup">PeerCollabStartup</a>.
 
 </td>
 </tr>
@@ -93,9 +93,8 @@ A call to this function decreases the number of references to the Peer Collabora
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabstartup">PeerCollabStartup</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabstartup">PeerCollabStartup</a>

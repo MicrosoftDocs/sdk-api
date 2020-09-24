@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_LEAKY_BUCKET_PAIR </b>structure describes the buffering requirements for a VBR file. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/wmformat/asfleakybucketpairs">ASFLeakyBucketPairs</a> attribute.
+The <b>WM_LEAKY_BUCKET_PAIR </b>structure describes the buffering requirements for a VBR file. This structure is used with the <a href="/windows/desktop/wmformat/asfleakybucketpairs">ASFLeakyBucketPairs</a> attribute.
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ The <b>ASFLeakyBucketPairs</b> attribute gives a list of bit rates and correspon
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

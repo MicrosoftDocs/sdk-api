@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Event identifier codes describing events to be received or excluded by an event sink. Used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">IOfflineFilesEventsFilter::GetIncludedEvents</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getexcludedevents">IOfflineFilesEventsFilter::GetExcludedEvents</a> methods.
+Event identifier codes describing events to be received or excluded by an event sink. Used with the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">IOfflineFilesEventsFilter::GetIncludedEvents</a> and <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getexcludedevents">IOfflineFilesEventsFilter::GetExcludedEvents</a> methods.
 
 ## -enum-fields
 
@@ -78,99 +78,99 @@ This value is reserved for future use.
 
 ### -field OFFLINEFILES_EVENT_SYNCBEGIN
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncbegin">IOfflineFilesEvents::SyncBegin</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncbegin">IOfflineFilesEvents::SyncBegin</a> event method.
 
 ### -field OFFLINEFILES_EVENT_SYNCFILERESULT
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncfileresult">IOfflineFilesEvents::SyncFileResult</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncfileresult">IOfflineFilesEvents::SyncFileResult</a> event method.
 
 ### -field OFFLINEFILES_EVENT_SYNCCONFLICTRECADDED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecadded">IOfflineFilesEvents::SyncConflictRecAdded</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecadded">IOfflineFilesEvents::SyncConflictRecAdded</a> event method.
 
 ### -field OFFLINEFILES_EVENT_SYNCCONFLICTRECUPDATED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecupdated">IOfflineFilesEvents::SyncConflictRecUpdated</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecupdated">IOfflineFilesEvents::SyncConflictRecUpdated</a> event method.
 
 ### -field OFFLINEFILES_EVENT_SYNCCONFLICTRECREMOVED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecremoved">IOfflineFilesEvents::SyncConflictRecRemoved</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecremoved">IOfflineFilesEvents::SyncConflictRecRemoved</a> event method.
 
 ### -field OFFLINEFILES_EVENT_SYNCEND
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncend">IOfflineFilesEvents::SyncEnd</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncend">IOfflineFilesEvents::SyncEnd</a> event method.
 
 ### -field OFFLINEFILES_EVENT_BACKGROUNDSYNCBEGIN
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncbegin">IOfflineFilesEvents2::BackgroundSyncBegin</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncbegin">IOfflineFilesEvents2::BackgroundSyncBegin</a> event method.
 
 ### -field OFFLINEFILES_EVENT_BACKGROUNDSYNCEND
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncend">IOfflineFilesEvents2::BackgroundSyncEnd</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncend">IOfflineFilesEvents2::BackgroundSyncEnd</a> event method.
 
 ### -field OFFLINEFILES_EVENT_NETTRANSPORTARRIVED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-nettransportarrived">IOfflineFilesEvents::NetTransportArrived</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-nettransportarrived">IOfflineFilesEvents::NetTransportArrived</a> event method.
 
 ### -field OFFLINEFILES_EVENT_NONETTRANSPORTS
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-nonettransports">IOfflineFilesEvents::NoNetTransports</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-nonettransports">IOfflineFilesEvents::NoNetTransports</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMDISCONNECTED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemdisconnected">IOfflineFilesEvents::ItemDisconnected</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemdisconnected">IOfflineFilesEvents::ItemDisconnected</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMRECONNECTED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemreconnected">IOfflineFilesEvents::ItemReconnected</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemreconnected">IOfflineFilesEvents::ItemReconnected</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMAVAILABLEOFFLINE
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemavailableoffline">IOfflineFilesEvents::ItemAvailableOffline</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemavailableoffline">IOfflineFilesEvents::ItemAvailableOffline</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMNOTAVAILABLEOFFLINE
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemnotavailableoffline">IOfflineFilesEvents::ItemNotAvailableOffline</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemnotavailableoffline">IOfflineFilesEvents::ItemNotAvailableOffline</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMPINNED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itempinned">IOfflineFilesEvents::ItemPinned</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itempinned">IOfflineFilesEvents::ItemPinned</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMNOTPINNED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemnotpinned">IOfflineFilesEvents::ItemNotPinned</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemnotpinned">IOfflineFilesEvents::ItemNotPinned</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMMODIFIED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemmodified">IOfflineFilesEvents::ItemModified</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemmodified">IOfflineFilesEvents::ItemModified</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMADDEDTOCACHE
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemaddedtocache">IOfflineFilesEvents::ItemAddedToCache</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemaddedtocache">IOfflineFilesEvents::ItemAddedToCache</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMDELETEDFROMCACHE
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemdeletedfromcache">IOfflineFilesEvents::ItemDeletedFromCache</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemdeletedfromcache">IOfflineFilesEvents::ItemDeletedFromCache</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMRENAMED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemrenamed">IOfflineFilesEvents::ItemRenamed</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemrenamed">IOfflineFilesEvents::ItemRenamed</a> event method.
 
 ### -field OFFLINEFILES_EVENT_DATALOST
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-datalost">IOfflineFilesEvents::DataLost</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-datalost">IOfflineFilesEvents::DataLost</a> event method.
 
 ### -field OFFLINEFILES_EVENT_PING
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-ping">IOfflineFilesEvents::Ping</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-ping">IOfflineFilesEvents::Ping</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMRECONNECTBEGIN
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-itemreconnectbegin">IOfflineFilesEvents2::ItemReconnectBegin</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-itemreconnectbegin">IOfflineFilesEvents2::ItemReconnectBegin</a> event method.
 
 ### -field OFFLINEFILES_EVENT_ITEMRECONNECTEND
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-itemreconnectend">IOfflineFilesEvents2::ItemReconnectEnd</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-itemreconnectend">IOfflineFilesEvents2::ItemReconnectEnd</a> event method.
 
 ### -field OFFLINEFILES_EVENT_CACHEEVICTBEGIN
 
@@ -182,31 +182,31 @@ This value is reserved for future use.
 
 ### -field OFFLINEFILES_EVENT_POLICYCHANGEDETECTED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-policychangedetected">IOfflineFilesEvents2::PolicyChangeDetected</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-policychangedetected">IOfflineFilesEvents2::PolicyChangeDetected</a> event method.
 
 ### -field OFFLINEFILES_EVENT_PREFERENCECHANGEDETECTED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-preferencechangedetected">IOfflineFilesEvents2::PreferenceChangeDetected</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-preferencechangedetected">IOfflineFilesEvents2::PreferenceChangeDetected</a> event method.
 
 ### -field OFFLINEFILES_EVENT_SETTINGSCHANGESAPPLIED
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-settingschangesapplied">IOfflineFilesEvents2::SettingsChangesApplied</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-settingschangesapplied">IOfflineFilesEvents2::SettingsChangesApplied</a> event method.
 
 ### -field OFFLINEFILES_EVENT_TRANSPARENTCACHEITEMNOTIFY
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents3-transparentcacheitemnotify">IOfflineFilesEvents3::TransparentCacheItemNotify</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents3-transparentcacheitemnotify">IOfflineFilesEvents3::TransparentCacheItemNotify</a> event method.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported before Windows Server 2008 R2 and Windows 7.
 
 ### -field OFFLINEFILES_EVENT_PREFETCHFILEBEGIN
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents3-prefetchfilebegin">IOfflineFilesEvents3::PrefetchFileBegin</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents3-prefetchfilebegin">IOfflineFilesEvents3::PrefetchFileBegin</a> event method.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported before Windows Server 2008 R2 and Windows 7.
 
 ### -field OFFLINEFILES_EVENT_PREFETCHFILEEND
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents3-prefetchfileend">IOfflineFilesEvents3::PrefetchFileEnd</a> event method.
+Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents3-prefetchfileend">IOfflineFilesEvents3::PrefetchFileEnd</a> event method.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported before Windows Server 2008 R2 and Windows 7.
 
@@ -218,9 +218,8 @@ Represents the <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getexcludedevents">IOfflineFilesEventsFilter::GetExcludedEvents</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getexcludedevents">IOfflineFilesEventsFilter::GetExcludedEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">IOfflineFilesEventsFilter::GetIncludedEvents</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">IOfflineFilesEventsFilter::GetIncludedEvents</a>

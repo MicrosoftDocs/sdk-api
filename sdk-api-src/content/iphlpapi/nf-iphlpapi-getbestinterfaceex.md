@@ -57,7 +57,7 @@ The
 
 ### -param pDestAddr [in]
 
-The destination IPv6 or IPv4 address for which to retrieve the interface with the best route, in the form of a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
+The destination IPv6 or IPv4 address for which to retrieve the interface with the best route, in the form of a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
 
 ### -param pdwBestIfIndex [out]
 
@@ -115,7 +115,7 @@ The request is not supported. This error is returned if no IPv4 stack is on the 
 </td>
 <td width="60%">
 Use 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
+the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 
 ## -remarks
 
-The <b>GetBestInterfaceEx</b> function differs from the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterface">GetBestInterface</a> function in that it can be used with either IPv4 or IPv6 addresses.
+The <b>GetBestInterfaceEx</b> function differs from the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterface">GetBestInterface</a> function in that it can be used with either IPv4 or IPv6 addresses.
 
 The <b>Family</b> member of the sockaddr structure pointed to by the <i>pDestAddr</i> parameter must be set to one of the following values: <b>AF_INET</b> or <b>AF_INET6</b>. 
 
@@ -131,21 +131,20 @@ On Windows Vista and later, the <i>pdwBestIfIndex</i> parameter is treated inte
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterface">GetBestInterface</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterface">GetBestInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_best_if">MIB_BEST_IF</a>
+<a href="/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_best_if">MIB_BEST_IF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>

@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Values for the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_prop">D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA</a> property 
-        of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/highlights-and-shadows-effect">Highlights and Shadows effect</a>.
+Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_prop">D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA</a> property 
+        of the <a href="/windows/desktop/Direct2D/highlights-and-shadows-effect">Highlights and Shadows effect</a>.
 
 ## -enum-fields
 
@@ -64,4 +64,3 @@ Indicates the input image is in linear gamma space.
 Indicates the input image is sRGB gamma space.
 
 ### -field D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_FORCE_DWORD
-

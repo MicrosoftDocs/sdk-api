@@ -69,24 +69,23 @@ The number of constants that occupy a single shader slot (these constants appear
 
 ## -remarks
 
-Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/resource-binding-in-hlsl">Resource Binding in HLSL</a> for more information on shader registers and spaces. 
+Refer to <a href="/windows/desktop/direct3d12/resource-binding-in-hlsl">Resource Binding in HLSL</a> for more information on shader registers and spaces. 
 
-<b>D3D12_ROOT_CONSTANTS</b> is the data type of the <b>Constants</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter">D3D12_ROOT_PARAMETER</a>. 
-        Use a <b>D3D12_ROOT_CONSTANTS</b> when you set <b>D3D12_ROOT_PARAMETER</b>'s <b>SlotType</b> field to the D3D12_ROOT_PARAMETER_TYPE_32BIT_CONSTANTS member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_parameter_type">D3D12_ROOT_PARAMETER_TYPE</a>.
+<b>D3D12_ROOT_CONSTANTS</b> is the data type of the <b>Constants</b> member of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter">D3D12_ROOT_PARAMETER</a>. 
+        Use a <b>D3D12_ROOT_CONSTANTS</b> when you set <b>D3D12_ROOT_PARAMETER</b>'s <b>SlotType</b> field to the D3D12_ROOT_PARAMETER_TYPE_32BIT_CONSTANTS member of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_parameter_type">D3D12_ROOT_PARAMETER_TYPE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-root-constants">CD3DX12_ROOT_CONSTANTS</a>
+<a href="/windows/desktop/direct3d12/cd3dx12-root-constants">CD3DX12_ROOT_CONSTANTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/creating-a-root-signature">Creating a Root Signature</a>
+<a href="/windows/desktop/direct3d12/creating-a-root-signature">Creating a Root Signature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/using-constants-directly-in-the-root-signature">Using constants directly in the root signature</a>
-
+<a href="/windows/desktop/direct3d12/using-constants-directly-in-the-root-signature">Using constants directly in the root signature</a>

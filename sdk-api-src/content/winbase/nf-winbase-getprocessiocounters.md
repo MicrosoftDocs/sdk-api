@@ -61,27 +61,26 @@ Retrieves accounting information for all I/O operations performed by the specifi
 ### -param hProcess [in]
 
 A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+<a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access right.
 
 ### -param lpIoCounters [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-io_counters">IO_COUNTERS</a> structure that receives the I/O accounting information for the process.
+<a href="/windows/desktop/api/winnt/ns-winnt-io_counters">IO_COUNTERS</a> structure that receives the I/O accounting information for the process.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-io_counters">IO_COUNTERS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-io_counters">IO_COUNTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

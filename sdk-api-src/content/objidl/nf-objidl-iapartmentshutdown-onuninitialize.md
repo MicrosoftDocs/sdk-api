@@ -60,9 +60,8 @@ The apartment Identifier of the apartment that is shutting down
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown">IApartmentShutdown</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown">IApartmentShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown">RoRegisterForApartmentShutdown</a>
-
+<a href="/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown">RoRegisterForApartmentShutdown</a>

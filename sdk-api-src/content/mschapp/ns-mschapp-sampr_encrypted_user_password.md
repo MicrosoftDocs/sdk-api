@@ -64,9 +64,8 @@ An array contains an encrypted password. The contents of the array are calculate
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mschap/ms-chap-password-management-structures">MS-CHAP Password Management Structures</a>
+<a href="/previous-versions/windows/desktop/mschap/ms-chap-password-management-structures">MS-CHAP Password Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword2">MSChapSrvChangePassword2</a>
-
+<a href="/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword2">MSChapSrvChangePassword2</a>

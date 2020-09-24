@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>CreateMSPCall</b> method creates an MSP Call object. TAPI aggregates this onto the main Call object and exposes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> interface.
 
 ## -parameters
 
@@ -66,17 +66,17 @@ Reserved value – will be 0.
 ### -param dwMediaType [in]
 
 Indicates 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media types</a> required for the call.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media types</a> required for the call.
 
 ### -param pOuterUnknown [in]
 
 The pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the TAPI 3 call object. Since the MSP Call object is aggregated in the TAPI 3 call object, it needs to know the outer <b>IUnknown</b>.
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the TAPI 3 call object. Since the MSP Call object is aggregated in the TAPI 3 call object, it needs to know the outer <b>IUnknown</b>.
 
 ### -param ppStreamControl [out]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> interface for newly created call.
+Pointer to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer of 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> interface for newly created call.
 
 ## -returns
 
@@ -139,7 +139,7 @@ Insufficient memory exists to perform the operation.
 </td>
 <td width="60%">
 <i>dwMediaType</i> is not a valid 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
 
 </td>
 </tr>
@@ -147,9 +147,8 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
+<a href="/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

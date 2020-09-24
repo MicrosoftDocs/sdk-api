@@ -143,7 +143,7 @@ Success.
 
 ## -remarks
 
-After you call this method, you can either conform to the current format or attempt to change the format by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setformat">IDirectDrawMediaStream::SetFormat</a> method.
+After you call this method, you can either conform to the current format or attempt to change the format by calling the <a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setformat">IDirectDrawMediaStream::SetFormat</a> method.
 
 All of this method's parameters are optional; set any of them to <b>NULL</b> to indicate that you don't want to retrieve that information.
 
@@ -155,5 +155,4 @@ The DDSD_CAPS flag will return one of the values listed in the <b>DDSCAPS</b> st
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
-
+<a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>

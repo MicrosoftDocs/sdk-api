@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the currently selected item in a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setcursel">CB_SETCURSEL</a> message explicitly.
+Sets the currently selected item in a combo box. You can use this macro or send the <a href="/windows/desktop/Controls/cb-setcursel">CB_SETCURSEL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -65,4 +65,3 @@ A handle to the control.
 Type: <b>int</b>
 
 The zero-based index of the item to select, or –1 to clear the selection.
-

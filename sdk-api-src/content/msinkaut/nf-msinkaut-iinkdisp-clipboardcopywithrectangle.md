@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Copies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects that are contained within the known rectangle to the Clipboard.
+Copies the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects that are contained within the known rectangle to the Clipboard.
 
 ## -parameters
 
@@ -61,11 +61,11 @@ Specifies the rectangle that contains the strokes to copy to the Clipboard.
 
 ### -param ClipboardFormats [in, optional]
 
-Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats">InkClipboardFormats</a> enumeration value of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is <b>ICF_Default</b>.
+Optional. Specifies the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats">InkClipboardFormats</a> enumeration value of the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is <b>ICF_Default</b>.
 
 ### -param ClipboardModes [in, optional]
 
-Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">InkClipboardModes Enumeration</a> value of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object. The default value is <b>ICB_Default</b>.
+Optional. Specifies the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">InkClipboardModes Enumeration</a> value of the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object. The default value is <b>ICB_Default</b>.
 
 ### -param DataObject [out, retval]
 
@@ -119,21 +119,21 @@ An exception occurred inside the method.
 
 If the rectangle clips strokes, those strokes are clipped in the copied data.
 
-It may be useful to copy an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object to the Clipboard when you only want to copy the properties of the <b>InkDisp</b> object. To copy an <b>InkDisp</b> object to the Clipboard, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy">ClipboardCopy</a> method with the <i>strokes</i> parameter set to <b>NULL</b>.
+It may be useful to copy an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object to the Clipboard when you only want to copy the properties of the <b>InkDisp</b> object. To copy an <b>InkDisp</b> object to the Clipboard, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy">ClipboardCopy</a> method with the <i>strokes</i> parameter set to <b>NULL</b>.
 
-<div class="alert"><b>Caution</b>  To avoid potential memory leaks as a result of using the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">ICB_DelayedCopy</a> flag, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> method. This must be done before the application exits if the last call to the <b>ClipboardCopyWithRectangle</b> method used the <b>ICB_DelayedCopy</b> flag.</div>
+<div class="alert"><b>Caution</b>  To avoid potential memory leaks as a result of using the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">ICB_DelayedCopy</a> flag, you must call the <a href="/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a> or <a href="/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> method. This must be done before the application exits if the last call to the <b>ClipboardCopyWithRectangle</b> method used the <b>ICB_DelayedCopy</b> flag.</div>
 <div> </div>
-When <b>ClipboardCopyWithRectangle</b> is used in <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">ICB_Cut</a> mode, a stroke that gets split into two or more strokes is deleted and new strokes are added in its place.
+When <b>ClipboardCopyWithRectangle</b> is used in <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">ICB_Cut</a> mode, a stroke that gets split into two or more strokes is deleted and new strokes are added in its place.
 
-In addition, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-inkadded">InkAdded</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-inkdeleted">InkDeleted</a> events are generated based on the indices of the strokes. For example, if the strokes at indices 0,1,3,5, and 6 are to be deleted, two events will be generated; one for strokes with indices 0123 and one for strokes with indices 5 and 6. That is, one event for each contiguous set.
+In addition, the <a href="/windows/desktop/tablet/inkdisp-inkadded">InkAdded</a> and <a href="/windows/desktop/tablet/inkdisp-inkdeleted">InkDeleted</a> events are generated based on the indices of the strokes. For example, if the strokes at indices 0,1,3,5, and 6 are to be deleted, two events will be generated; one for strokes with indices 0123 and one for strokes with indices 5 and 6. That is, one event for each contiguous set.
 
-This also applies to <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-inkadded">InkAdded</a> events. An internal algorithm determines the indices of the newly added strokes in the stroke collection and this has an impact on how the <b>InkAdded</b> events are fired as described above.
+This also applies to <a href="/windows/desktop/tablet/inkdisp-inkadded">InkAdded</a> events. An internal algorithm determines the indices of the newly added strokes in the stroke collection and this has an impact on how the <b>InkAdded</b> events are fired as described above.
 
 If the strokes count is queried within the event handler, the result is the total number of strokes added by the whole operation including the strokes that have not yet generated events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy">ClipboardCopy Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy">ClipboardCopy Method</a>
 
 
 
@@ -141,17 +141,16 @@ If the strokes count is queried within the event handler, the result is the tota
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats">InkClipboardFormats Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats">InkClipboardFormats Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">InkClipboardModes Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">InkClipboardModes Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

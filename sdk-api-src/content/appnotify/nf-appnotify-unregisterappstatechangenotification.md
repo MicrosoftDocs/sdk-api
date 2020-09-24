@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Cancels a change notification registered through <a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a>.
+Cancels a change notification registered through <a href="/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a>.
 
 ## -parameters
 
 ### -param Registration [in, out]
 
-A pointer to the registration handle retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a> through its <i>Registration</i> parameter.
+A pointer to the registration handle retrieved by <a href="/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a> through its <i>Registration</i> parameter.
 
 ## -returns
 
@@ -66,5 +66,4 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a>
-
+<a href="/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a>

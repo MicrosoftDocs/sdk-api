@@ -56,7 +56,7 @@ Retrieves the destination context for the RPC channel.
 
 ### -param pdwDestContext [out]
 
-The destination context in which the interface is unmarshaled. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshctx">MSHCTX</a> enumeration.
+The destination context in which the interface is unmarshaled. Possible values come from the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-mshctx">MSHCTX</a> enumeration.
 
 ### -param ppvDestContext [out]
 
@@ -68,5 +68,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>

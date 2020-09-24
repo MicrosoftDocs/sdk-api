@@ -68,7 +68,7 @@ Texture coordinates outside the range [0.0, 1.0] are set to the texture color at
 
 ### -field D3D10_TEXTURE_ADDRESS_BORDER
 
-Texture coordinates outside the range [0.0, 1.0] are set to the border color specified in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_sampler_desc">D3D10_SAMPLER_DESC</a> or HLSL code.
+Texture coordinates outside the range [0.0, 1.0] are set to the border color specified in <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_sampler_desc">D3D10_SAMPLER_DESC</a> or HLSL code.
 
 ### -field D3D10_TEXTURE_ADDRESS_MIRROR_ONCE
 
@@ -76,5 +76,4 @@ Similar to D3D10_TEXTURE_ADDRESS_MIRROR and D3D10_TEXTURE_ADDRESS_CLAMP. Takes t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

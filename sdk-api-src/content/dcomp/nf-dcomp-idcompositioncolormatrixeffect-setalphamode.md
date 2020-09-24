@@ -56,7 +56,7 @@ Sets the alpha mode of the output for the color matrix effect.
 
 ### -param mode [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/color-matrix">D2D1_COLORMATRIX_ALPHA_MODE</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/color-matrix">D2D1_COLORMATRIX_ALPHA_MODE</a></b>
 
 The alpha mode of the output for the color matrix effect.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioncolormatrixeffect">IDCompositionColorMatrixEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioncolormatrixeffect">IDCompositionColorMatrixEffect</a>

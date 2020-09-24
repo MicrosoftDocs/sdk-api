@@ -45,9 +45,6 @@ api_name:
  - DxFlipOverlay
 ---
 
-# PDX_FLIPOVERLAY callback function
-
-
 ## -description
 
 The<i> DxFlipOverlay</i> callback function is called when a client of the video miniport driver wants to flip the overlay or when autoflipping is enabled.
@@ -56,21 +53,13 @@ The<i> DxFlipOverlay</i> callback function is called when a client of the video 
 
 ### -param Arg1
 
-### -param Arg2
-
-### -param Arg3
-
-#### - FlipOverlayInfo
-
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddflipoverlayinfo">DDFLIPOVERLAYINFO</a> structure that contains the flip information for the surface.
-
-
-#### - HwDeviceExtension
-
 Points to the miniport driver's device extension.
 
+### -param Arg2
 
-#### - lpOutput
+Points to the <a href="/windows/desktop/api/dxmini/ns-dxmini-ddflipoverlayinfo">DDFLIPOVERLAYINFO</a> structure that contains the flip information for the surface.
+
+### -param Arg3
 
 Reserved for system use.
 
@@ -84,5 +73,4 @@ If a hardware video port is not used and the client still wants the overlay to b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddflipoverlayinfo">DDFLIPOVERLAYINFO</a>
-
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddflipoverlayinfo">DDFLIPOVERLAYINFO</a>

@@ -56,7 +56,7 @@ Formats one unstructured log record into an array of viewable fields.
 
 ### -param CrmLogRec [in]
 
-The unstructured log record to be formatted, as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-crmlogrecordread">CrmLogRecordRead</a> structure.
+The unstructured log record to be formatted, as a <a href="/windows/desktop/api/comsvcs/ns-comsvcs-crmlogrecordread">CrmLogRecordRead</a> structure.
 
 ### -param pFormattedLogRecord [out]
 
@@ -108,5 +108,4 @@ The log record could not be formatted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>

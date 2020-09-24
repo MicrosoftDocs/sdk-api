@@ -113,7 +113,7 @@ NULL pointer argument.
 </dl>
 </td>
 <td width="60%">
-The graph is not built. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">Build</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">View</a> method on the Video Control.
+The graph is not built. Call the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">Build</a> or <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">View</a> method on the Video Control.
 
 </td>
 </tr>
@@ -140,18 +140,17 @@ The value returned by this method determines how the parameters are interpreted 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_length">IMSVidPlayback::get_Length</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_length">IMSVidPlayback::get_Length</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_currentposition">IMSVidPlayback::get_CurrentPosition</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_currentposition">IMSVidPlayback::get_CurrentPosition</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-put_currentposition">IMSVidPlayback::put_CurrentPosition</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-put_currentposition">IMSVidPlayback::put_CurrentPosition</a>
 </li>
 </ul>
-Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">IMSVidCtl::Build</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">IMSVidCtl::View</a> method before calling this method.
+Call the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">IMSVidCtl::Build</a> or <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">IMSVidCtl::View</a> method before calling this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>

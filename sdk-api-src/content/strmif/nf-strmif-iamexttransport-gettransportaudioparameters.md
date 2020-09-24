@@ -94,7 +94,7 @@ Specifies the audio parameter, whose value you want receive, as a <b>long</b> in
 
 ### -param pValue [out]
 
-Specifies a pointer to a <b>long</b> integer to receive the channel or channels set in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportaudioparameters">IAMExtTransport::SetTransportAudioParameters</a> method.
+Specifies a pointer to a <b>long</b> integer to receive the channel or channels set in the <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportaudioparameters">IAMExtTransport::SetTransportAudioParameters</a> method.
 
 ## -returns
 
@@ -102,9 +102,8 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>

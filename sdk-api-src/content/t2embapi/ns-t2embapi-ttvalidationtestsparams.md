@@ -99,9 +99,8 @@ Pointer to array of Unicode characters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtests">TTRunValidationTests</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtests">TTRunValidationTests</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparamsex">TTVALIDATIONTESTSPARAMSEX</a>
-
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparamsex">TTVALIDATIONTESTSPARAMSEX</a>

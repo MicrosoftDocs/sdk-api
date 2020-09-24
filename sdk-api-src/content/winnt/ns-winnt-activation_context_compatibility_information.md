@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
+The <b>ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</b> structure is used by the <a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ The number of compatibility elements defined in the application manifest.
 
 ### -field Elements
 
-This is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-compatibility_context_element">COMPATIBILITY_CONTEXT_ELEMENT</a> structures. Each structure describes one compatibility element in the application manifest.
+This is an array of <a href="/windows/desktop/api/winnt/ns-winnt-compatibility_context_element">COMPATIBILITY_CONTEXT_ELEMENT</a> structures. Each structure describes one compatibility element in the application manifest.
 
 ## -remarks
 
@@ -134,4 +134,3 @@ if (CtxCompatInfo != NULL)
         CtxCompatInfo = NULL;
 	 }
 </code></pre>
-

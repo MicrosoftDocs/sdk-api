@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Gets the index of the hot item. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-gethotitem">LVM_GETHOTITEM</a> message explicitly.
+Gets the index of the hot item. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-gethotitem">LVM_GETHOTITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
-

@@ -64,5 +64,4 @@ The SlowdownFactor is applied by artificially delaying the time it takes for a f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

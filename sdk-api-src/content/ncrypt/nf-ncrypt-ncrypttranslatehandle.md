@@ -187,7 +187,7 @@ A memory allocation failure occurred.
 
 This is a helper function intended to help applications and system components that currently use the CryptoAPI to make a graceful transition to using CNG.
 
-This function will only be successful if a CNG key storage provider is registered with a name or alias that is identical to the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) referred to by the <i>hLegacyProv</i> parameter.
+This function will only be successful if a CNG key storage provider is registered with a name or alias that is identical to the name of the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) referred to by the <i>hLegacyProv</i> parameter.
 
 This function will perform the following steps to translate the CSP handle into a CNG key handle:
 
@@ -197,5 +197,4 @@ This function will perform the following steps to translate the CSP handle into 
 <li>Obtain the name of the current key container in the CSP.</li>
 <li>Obtain the CryptoAPI key, translate it into a CNG key, and return it in the <i>phKey</i> parameter.</li>
 </ol>
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

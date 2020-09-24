@@ -53,9 +53,9 @@ api_name:
 The 
 <b>RegisterContext</b> function registers a helper context with NetShell. The 
 <b>RegisterContext</b> function should be called from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_start_fn">NS_HELPER_START_FN</a> entry point (the start function) passed to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registerhelper">RegisterHelper</a> function in the <b>pfnStart</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-ns_context_attributes">NS_CONTEXT_ATTRIBUTES</a> structure passed in its <i>pChildAttributes</i> parameter.
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_start_fn">NS_HELPER_START_FN</a> entry point (the start function) passed to the 
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registerhelper">RegisterHelper</a> function in the <b>pfnStart</b> member of the 
+<a href="/windows/desktop/api/netsh/ns-netsh-ns_context_attributes">NS_CONTEXT_ATTRIBUTES</a> structure passed in its <i>pChildAttributes</i> parameter.
 
 ## -parameters
 
@@ -71,13 +71,12 @@ For top-level helpers, the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-ns_context_attributes">NS_CONTEXT_ATTRIBUTES</a>
+<a href="/windows/desktop/api/netsh/ns-netsh-ns_context_attributes">NS_CONTEXT_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_start_fn">NS_HELPER_START_FN</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_start_fn">NS_HELPER_START_FN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registerhelper">RegisterHelper</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registerhelper">RegisterHelper</a>

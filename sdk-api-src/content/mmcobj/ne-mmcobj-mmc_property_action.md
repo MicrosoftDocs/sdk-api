@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>MMC_PROPERTY_ACTION</b> enumeration specifies the operations that can occur to a property contained in an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structure.
+<a href="/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structure.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ The property is being added.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-propertieschanged">ISnapinProperties::PropertiesChanged</a>
+<a href="/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-propertieschanged">ISnapinProperties::PropertiesChanged</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>
-
+<a href="/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>

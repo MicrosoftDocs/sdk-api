@@ -263,9 +263,9 @@ By default, numbers are followed by a right parenthesis, for example: 1). Howeve
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If <b>ITextPara::GetListType</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetListType</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -320,11 +320,11 @@ For an example of <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomListNu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getliststart">GetListStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getliststart">GetListStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -332,13 +332,12 @@ For an example of <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomListNu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setliststart">SetListStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setliststart">SetListStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

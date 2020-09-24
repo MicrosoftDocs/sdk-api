@@ -70,11 +70,10 @@ The zero-based index of the item to delete.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the item was successfully deleted; otherwise, <b>FALSE</b>.
 
 ## -remarks
 
-<b>DSA_DeleteItem</b> is not exported by name. To use it, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 326 from ComCtl32.dll to obtain a function pointer.
-
+<b>DSA_DeleteItem</b> is not exported by name. To use it, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 326 from ComCtl32.dll to obtain a function pointer.

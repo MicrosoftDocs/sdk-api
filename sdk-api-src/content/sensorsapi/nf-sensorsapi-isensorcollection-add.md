@@ -56,7 +56,7 @@ Adds a sensor to the collection.
 
 ### -param pSensor [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface for the sensor to add to the collection.
+Pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface for the sensor to add to the collection.
 
 ## -returns
 
@@ -94,5 +94,4 @@ The sensor collection already contains a sensor with the specified ID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>

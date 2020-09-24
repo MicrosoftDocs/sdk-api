@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Adds a string to a list in a combo box. If the combo box does not have the <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-addstring">CB_ADDSTRING</a> message explicitly.
+Adds a string to a list in a combo box. If the combo box does not have the <a href="/windows/desktop/Controls/combo-box-styles">CBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="/windows/desktop/Controls/cb-addstring">CB_ADDSTRING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param lpsz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The string to add.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-addstring">CB_ADDSTRING</a>.
-
+For more information, see <a href="/windows/desktop/Controls/cb-addstring">CB_ADDSTRING</a>.

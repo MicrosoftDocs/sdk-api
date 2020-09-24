@@ -126,9 +126,8 @@ The state of the type library is not valid for this operation.
 
 ## -remarks
 
-For more information on national language IDs, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/supporting-multiple-national-languages">Supporting Multiple National Languages</a> and the National Language Support (NLS) API.
+For more information on national language IDs, see <a href="/previous-versions/windows/desktop/automat/supporting-multiple-national-languages">Supporting Multiple National Languages</a> and the National Language Support (NLS) API.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>

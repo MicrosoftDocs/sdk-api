@@ -99,13 +99,12 @@ The gravity of the original is preserved in the new range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges</a>
+<a href="/windows/desktop/TSF/ranges">Ranges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
-
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>

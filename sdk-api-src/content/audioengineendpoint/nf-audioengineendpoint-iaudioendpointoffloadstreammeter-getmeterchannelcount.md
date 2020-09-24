@@ -64,5 +64,4 @@ The <b>GetMeterChannelCount</b> method returns <b>S_OK</b> to indicate that it h
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammeter">IAudioEndpointOffloadStreamMeter</a>
-
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammeter">IAudioEndpointOffloadStreamMeter</a>

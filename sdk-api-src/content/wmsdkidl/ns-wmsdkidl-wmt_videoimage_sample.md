@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This structure is no longer available for use as of the Windows Media Video 9 Image v2 codec. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2">WMT_VIDEOIMAGE_SAMPLE2</a>.]
+<p class="CCE_Message">[This structure is no longer available for use as of the Windows Media Video 9 Image v2 codec. Instead, use <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2">WMT_VIDEOIMAGE_SAMPLE2</a>.]
 
 The <b>WMT_VIDEOIMAGE_SAMPLE</b> structure describes a sample for a Video Image stream that uses the Windows Media Video 9 Image codec.
 
@@ -207,5 +207,4 @@ Not used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

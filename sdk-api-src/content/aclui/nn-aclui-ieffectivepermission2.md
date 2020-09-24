@@ -54,7 +54,7 @@ The <b>IEffectivePermission2</b> interface provides a way to determine effective
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEffectivePermission2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEffectivePermission2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEffectivePermission2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEffectivePermission2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEffectivePermission2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-ieffectivepermission2-computeeffectivepermissionwithsecondarysecurity">ComputeEffectivePermissionWithSecondarySecurity</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-ieffectivepermission2-computeeffectivepermissionwithsecondarysecurity">ComputeEffectivePermissionWithSecondarySecurity</a>
 </td>
 <td align="left" width="63%">
 Computes the effective permissions by using the secondary security for an object.
@@ -82,11 +82,10 @@ Computes the effective permissions by using the secondary security for an object
 
 The <b>IEffectivePermission2</b> interface should be implemented by resource managers that support dynamic access control or by resource managers where the effective access to an object is determined by more than one security check, for example, a security descriptor and a firewall. 
 
-The resource manager typically implements <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> before implementing <b>IEffectivePermission2</b> because <b>IEffectivePermission2</b> interprets the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-security_object">SECURITY_OBJECT</a> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity">GetSecondarySecurity</a> method.
+The resource manager typically implements <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> before implementing <b>IEffectivePermission2</b> because <b>IEffectivePermission2</b> interprets the <a href="/windows/desktop/api/aclui/ns-aclui-security_object">SECURITY_OBJECT</a> returned by the <a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity">GetSecondarySecurity</a> method.
 
-If the <b>IEffectivePermission2</b> interface is implemented, then the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a> interface is not used.
+If the <b>IEffectivePermission2</b> interface is implemented, then the <a href="/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a> interface is not used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a>
-
+<a href="/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a>

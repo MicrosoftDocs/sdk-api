@@ -82,5 +82,4 @@ Queries to determine whether the policy is to skip members of the local administ
 
 ## -remarks
 
-The <b>SAFER_POLICY_INFO_CLASS</b> enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-safergetpolicyinformation">SaferGetPolicyInformation</a> function.
-
+The <b>SAFER_POLICY_INFO_CLASS</b> enumeration type is used by the <a href="/windows/desktop/api/winsafer/nf-winsafer-safergetpolicyinformation">SaferGetPolicyInformation</a> function.

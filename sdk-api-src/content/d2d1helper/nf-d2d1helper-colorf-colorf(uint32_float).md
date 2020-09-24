@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Instantiates a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a> class that contains the specified RGB and alpha values.
+Instantiates a new instance of the <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a> class that contains the specified RGB and alpha values.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ The alpha value for the color to be constructed. An alpha channel value ranges f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
+<a href="/windows/desktop/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a>
-
+<a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a>

@@ -52,7 +52,7 @@ api_name:
 
 Deletes a share name from a server's list of shared resources, disconnecting all connections to the shared resource.
 
-The extended function <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedelex">NetShareDelEx</a> allows the caller  to specify a <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure.
+The extended function <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharedelex">NetShareDelEx</a> allows the caller  to specify a <a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a>, <a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a>, <a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a>, <a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>, or <a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure.
 
 ## -parameters
 
@@ -134,13 +134,13 @@ The share name does not exist.
 
 ## -remarks
 
-This function applies only to Server Message Block (SMB) shares. For other types of shares, such as Distributed File System (DFS) or WebDAV shares, use <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows Networking (WNet) functions</a>, which support all types of shares.
+This function applies only to Server Message Block (SMB) shares. For other types of shares, such as Distributed File System (DFS) or WebDAV shares, use <a href="/windows/desktop/WNet/windows-networking-functions">Windows Networking (WNet) functions</a>, which support all types of shares.
 
 Only members of the Administrators, Server Operators, or Power Users local group, or those with Server Operator group membership, can successfully delete file shares with a call to the 
 <b>NetShareDel</b> function. The Print Operator can delete printer shares.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileshare">IADsFileShare</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileshare">IADsFileShare</a>.
 
 
 #### Examples
@@ -184,23 +184,22 @@ void wmain( int argc, TCHAR *argv[ ])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedelex">NetShareDelEx</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharedelex">NetShareDelEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
-
+<a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>

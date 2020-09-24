@@ -60,7 +60,7 @@ An SP_UNREMOVEDEVICE_PARAMS structure corresponds to a DIF_UNREMOVE installation
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>.
+An install request header that contains the header size and the DIF code for the request. See <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>.
 
 ### -field Scope
 
@@ -72,17 +72,16 @@ The hardware profile ID for profile-specific changes. Zero specifies the current
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-unremove">DIF_UNREMOVE</a>
+<a href="/windows-hardware/drivers/install/dif-unremove">DIF_UNREMOVE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiunremovedevice">SetupDiUnremoveDevice</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiunremovedevice">SetupDiUnremoveDevice</a>

@@ -72,16 +72,15 @@ This function returns BOOL.
 
 ## -remarks
 
-To retry a subscription for all the event sources of a subscription, use the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecsavesubscription">EcSaveSubscription</a> function instead of calling <b>EcRetrySubscription</b> on each event source individually.
+To retry a subscription for all the event sources of a subscription, use the <a href="/windows/desktop/api/evcoll/nf-evcoll-ecsavesubscription">EcSaveSubscription</a> function instead of calling <b>EcRetrySubscription</b> on each event source individually.
 
 
 #### Examples
 
-For example code using the <b>EcRetrySubscription</b> function, see <a href="https://docs.microsoft.com/windows/desktop/WEC/retrying-an-event-collector-subscription">Retrying an Event Collector Subscription</a>.
+For example code using the <b>EcRetrySubscription</b> function, see <a href="/windows/desktop/WEC/retrying-an-event-collector-subscription">Retrying an Event Collector Subscription</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
-
+<a href="/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>

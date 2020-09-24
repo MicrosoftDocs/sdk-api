@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-Registers an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> interface, thereafter requiring OLE to call its wrapper methods around every call to the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> method.
+Registers an implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> interface, thereafter requiring OLE to call its wrapper methods around every call to the corresponding <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> method.
 
 ## -parameters
 
 ### -param pMallocSpy [in]
 
-A pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> implementation.
+A pointer to an instance of the <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> implementation.
 
 ## -returns
 
@@ -96,21 +96,20 @@ The object is already registered.
 
 ## -remarks
 
-The <b>CoRegisterMallocSpy</b> function registers the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object, which is used to debug calls to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> methods. The function calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the pointer <i>pMallocSpy</i> for the interface IID_IMallocSpy. This is to ensure that <i>pMallocSpy</i> really points to an implementation of <b>IMallocSpy</b>. By the rules of OLE, it is expected that a successful call to <b>QueryInterface</b> has added a reference (through the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method) to the <b>IMallocSpy</b> object. That is, <b>CoRegisterMallocSpy</b> does not directly call <b>AddRef</b> on <i>pMallocSpy</i>, but fully expects that the <b>QueryInterface</b> call will.
+The <b>CoRegisterMallocSpy</b> function registers the <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object, which is used to debug calls to <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> methods. The function calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the pointer <i>pMallocSpy</i> for the interface IID_IMallocSpy. This is to ensure that <i>pMallocSpy</i> really points to an implementation of <b>IMallocSpy</b>. By the rules of OLE, it is expected that a successful call to <b>QueryInterface</b> has added a reference (through the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method) to the <b>IMallocSpy</b> object. That is, <b>CoRegisterMallocSpy</b> does not directly call <b>AddRef</b> on <i>pMallocSpy</i>, but fully expects that the <b>QueryInterface</b> call will.
 
 
 
-When the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object is registered, whenever there is a call to one of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> methods, OLE first calls the corresponding <b>IMallocSpy</b> pre-method. Then, after executing the <b>IMalloc</b> method, OLE calls the corresponding <b>IMallocSpy</b> post-method. For example, whenever there is a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a>, from whatever source, OLE calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prealloc">IMallocSpy::PreAlloc</a>, calls <b>Alloc</b>, and after that allocation is completed, calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postalloc">IMallocSpy::PostAlloc</a>.
+When the <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object is registered, whenever there is a call to one of the <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> methods, OLE first calls the corresponding <b>IMallocSpy</b> pre-method. Then, after executing the <b>IMalloc</b> method, OLE calls the corresponding <b>IMallocSpy</b> post-method. For example, whenever there is a call to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a>, from whatever source, OLE calls <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prealloc">IMallocSpy::PreAlloc</a>, calls <b>Alloc</b>, and after that allocation is completed, calls <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postalloc">IMallocSpy::PostAlloc</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-corevokemallocspy">CoRevokeMallocSpy</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-corevokemallocspy">CoRevokeMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>

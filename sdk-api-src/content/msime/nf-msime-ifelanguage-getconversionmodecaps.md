@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the conversion mode capability of the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
+Gets the conversion mode capability of the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
 ## -parameters
 
@@ -217,7 +217,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_NONE</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_NONE</a>
 
 
 </td>
@@ -229,7 +229,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PLAURALCLAUSE</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PLAURALCLAUSE</a>
 
 
 </td>
@@ -241,7 +241,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_SINGLECONVERT</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_SINGLECONVERT</a>
 
 
 </td>
@@ -253,7 +253,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_AUTOMATIC</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_AUTOMATIC</a>
 
 
 </td>
@@ -265,7 +265,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PHRASEPREDICT</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PHRASEPREDICT</a>
 
 
 </td>
@@ -277,7 +277,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_CONVERSATION</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_CONVERSATION</a>
 
 
 </td>
@@ -310,5 +310,4 @@ Remove invisible chars (for example, the tone mark).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
-
+<a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>

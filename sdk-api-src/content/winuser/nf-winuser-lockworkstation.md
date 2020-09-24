@@ -60,7 +60,7 @@ Locks the workstation's display. Locking a workstation protects it from unauthor
 If the function succeeds, the return value is nonzero. Because the function executes asynchronously, a nonzero return value indicates that the operation has been initiated. It does not indicate whether the workstation has been successfully locked.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -69,17 +69,16 @@ The
 
 Common reasons the workstation might not be locked even if the function succeeds include the following: no user is logged on, the workstation is already locked, the process is not running on the interactive desktop, or the request is denied by the Graphical Identification and Authentication (GINA) DLL.
 
-This function has the same result as pressing Ctrl+Alt+Del and clicking <b>Lock Workstation</b>. To unlock the workstation, the user must log in. There is no function you can call to determine whether the workstation is locked. To receive notification when the user logs in, use the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification">WTSRegisterSessionNotification</a> function to receive <a href="https://docs.microsoft.com/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a> messages. You can use session notifications to track the desktop state so you know whether it is possible to interact with the user.
+This function has the same result as pressing Ctrl+Alt+Del and clicking <b>Lock Workstation</b>. To unlock the workstation, the user must log in. There is no function you can call to determine whether the workstation is locked. To receive notification when the user logs in, use the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification">WTSRegisterSessionNotification</a> function to receive <a href="/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a> messages. You can use session notifications to track the desktop state so you know whether it is possible to interact with the user.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/how-to-lock-the-workstation">How to Lock the Workstation</a>.
+<a href="/windows/desktop/Shutdown/how-to-lock-the-workstation">How to Lock the Workstation</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>
-
+<a href="/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>

@@ -56,41 +56,40 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>GetUserGeoID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultgeoname">GetUserDefaultGeoName</a>.
+<p class="CCE_Message">[<b>GetUserGeoID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultgeoname">GetUserDefaultGeoName</a>.
 
 ]
 
-Retrieves information about the geographical location of the user. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>.
+Retrieves information about the geographical location of the user. For more information, see <a href="/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>.
 
 ## -parameters
 
 ### -param GeoClass [in]
 
-Geographical location class to return. Possible values are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-sysgeoclass">SYSGEOCLASS</a> enumeration.
+Geographical location class to return. Possible values are defined by the <a href="/windows/desktop/api/winnls/ne-winnls-sysgeoclass">SYSGEOCLASS</a> enumeration.
 
 ## -returns
 
-Returns the geographical location identifier of the user if <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setusergeoid">SetUserGeoID</a> has been called before to set the identifier.
+Returns the geographical location identifier of the user if <a href="/windows/desktop/api/winnls/nf-winnls-setusergeoid">SetUserGeoID</a> has been called before to set the identifier.
 
 If no geographical location identifier has been set for the user, the function returns GEOID_NOT_AVAILABLE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultgeoname">GetUserDefaultGeoName</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultgeoname">GetUserDefaultGeoName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-sysgeoclass">SYSGEOCLASS</a>
+<a href="/windows/desktop/api/winnls/ne-winnls-sysgeoclass">SYSGEOCLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setusergeoid">SetUserGeoID</a>
-
+<a href="/windows/desktop/api/winnls/nf-winnls-setusergeoid">SetUserGeoID</a>

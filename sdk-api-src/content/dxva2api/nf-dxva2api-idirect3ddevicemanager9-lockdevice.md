@@ -56,7 +56,7 @@ Gives the caller exclusive access to the Direct3D device.
 
 ### -param hDevice [in]
 
-A handle to the Direct3D device. To get the device handle, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">IDirect3DDeviceManager9::OpenDeviceHandle</a>.
+A handle to the Direct3D device. To get the device handle, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">IDirect3DDeviceManager9::OpenDeviceHandle</a>.
 
 ### -param ppDevice [out]
 
@@ -106,7 +106,7 @@ The device handle is invalid.
 </dl>
 </td>
 <td width="60%">
-The Direct3D device manager was not initialized. The owner of the device must call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a>.
+The Direct3D device manager was not initialized. The owner of the device must call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a>.
               
 
 </td>
@@ -139,13 +139,13 @@ The specified handle is not a Direct3D device handle.
 
 ## -remarks
 
-When you are done using the Direct3D device, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-unlockdevice">IDirect3DDeviceManager9::UnlockDevice</a> to unlock to the device.
+When you are done using the Direct3D device, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-unlockdevice">IDirect3DDeviceManager9::UnlockDevice</a> to unlock to the device.
       
 
-If the method returns <b>DXVA2_E_NEW_VIDEO_DEVICE</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-closedevicehandle">IDirect3DDeviceManager9::CloseDeviceHandle</a> to close the handle and then call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">OpenDeviceHandle</a> again to get a new handle. The <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a> method invalidates all open device handles.
+If the method returns <b>DXVA2_E_NEW_VIDEO_DEVICE</b>, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-closedevicehandle">IDirect3DDeviceManager9::CloseDeviceHandle</a> to close the handle and then call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">OpenDeviceHandle</a> again to get a new handle. The <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a> method invalidates all open device handles.
       
 
-If <i>fBlock</i> is <b>TRUE</b>, this method can potentially deadlock. For example, it will deadlock if a thread calls <b>LockDevice</b> and then waits on another thread that calls <b>LockDevice</b>. It will also deadlock if a thread calls <b>LockDevice</b> twice without calling <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-unlockdevice">UnlockDevice</a> in between.
+If <i>fBlock</i> is <b>TRUE</b>, this method can potentially deadlock. For example, it will deadlock if a thread calls <b>LockDevice</b> and then waits on another thread that calls <b>LockDevice</b>. It will also deadlock if a thread calls <b>LockDevice</b> twice without calling <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-unlockdevice">UnlockDevice</a> in between.
       
 
 
@@ -200,9 +200,8 @@ HRESULT LockDevice(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
+<a href="/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>
-
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>

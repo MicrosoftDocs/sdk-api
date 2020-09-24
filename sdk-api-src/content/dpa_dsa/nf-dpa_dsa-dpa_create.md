@@ -70,5 +70,4 @@ Returns a handle to a DPA if successful, or <b>NULL</b> if the call fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_createex">DPA_CreateEx</a>
-
+<a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_createex">DPA_CreateEx</a>

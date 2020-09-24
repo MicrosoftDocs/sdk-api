@@ -53,34 +53,34 @@ api_name:
 
 Retrieves the symbol information for the next symbol.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility. Applications should use 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symnext">SymNext</a>.</div><div> </div>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symnext">SymNext</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param Symbol [in, out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
 <b>SymGetSymNext64</b> function requires that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure have valid data, presumably obtained from a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromaddr">SymGetSymFromAddr64</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromname">SymGetSymFromName64</a> function. This structure is filled with the symbol information for the next symbol in sequence by virtual address.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure have valid data, presumably obtained from a call to the 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromaddr">SymGetSymFromAddr64</a> or 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromname">SymGetSymFromName64</a> function. This structure is filled with the symbol information for the next symbol in sequence by virtual address.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -98,7 +98,7 @@ SymGetSymNextW64(
 
 
 This function supersedes the <b>SymGetSymNext</b> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymGetSymNext</b> is defined as follows in DbgHelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymGetSymNext</b> is defined as follows in DbgHelp.h. 
 
 
 ```cpp
@@ -124,25 +124,24 @@ SymGetSymNextW(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromaddr">SymGetSymFromAddr64</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromaddr">SymGetSymFromAddr64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromname">SymGetSymFromName64</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromname">SymGetSymFromName64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymprev">SymGetSymPrev64</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymprev">SymGetSymPrev64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>

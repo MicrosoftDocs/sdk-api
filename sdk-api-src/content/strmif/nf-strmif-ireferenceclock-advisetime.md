@@ -130,13 +130,12 @@ Failure.
 
 This method creates a one-shot advise request for the reference time <i>rtBaseTime</i> + <i>rtStreamTime</i>. The sum must be greater than zero and less than MAX_TIME, or the method returns E_INVALIDARG. At the requested time, the clock signals the event specified in the <i>hEvent</i> parameter.
 
-To cancel the notification before the time is reached, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-unadvise">Unadvise</a> method and pass the <i>pdwAdviseToken</i> value returned from this call. After the notification has occurred, the clock automatically clears it, so it is not necessary to call <b>Unadvise</b>. However, it is not an error to do so.
+To cancel the notification before the time is reached, call the <a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-unadvise">Unadvise</a> method and pass the <i>pdwAdviseToken</i> value returned from this call. After the notification has occurred, the clock automatically clears it, so it is not necessary to call <b>Unadvise</b>. However, it is not an error to do so.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>

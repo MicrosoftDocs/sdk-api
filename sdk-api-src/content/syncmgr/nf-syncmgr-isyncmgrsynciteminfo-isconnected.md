@@ -66,7 +66,7 @@ If an item is disconnected, it is not synchronized by Sync Center. Also, many of
 
 This value is available in the folder UI as the System.Sync.Connected (PKEY_Sync_Connected) property.
 
-Sync Center calls this method whenever the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> method is called.
+Sync Center calls this method whenever the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> method is called.
 
 
 #### Examples
@@ -83,4 +83,3 @@ STDMETHODIMP CMyDeviceSyncItem::IsConnected()
 }
 
 ```
-

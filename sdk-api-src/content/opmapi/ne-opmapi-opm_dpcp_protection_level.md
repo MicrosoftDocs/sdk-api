@@ -70,5 +70,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>
-
+<a href="/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>

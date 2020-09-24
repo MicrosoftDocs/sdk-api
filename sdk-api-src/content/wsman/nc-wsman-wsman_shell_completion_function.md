@@ -62,37 +62,36 @@ Represents user-defined context passed to the WinRM (WinRM) Client Shell
 ### -param flags
 
 Specifies one or more flags from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ne-wsman-wsmancallbackflags">WSManCallbackFlags</a> enumeration.
+      <a href="/windows/desktop/api/wsman/ne-wsman-wsmancallbackflags">WSManCallbackFlags</a> enumeration.
 
 ### -param *error [in]
 
-Defines the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_error">WSMAN_ERROR</a> structure, which is 
+Defines the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_error">WSMAN_ERROR</a> structure, which is 
       valid in the callback only.
 
 ### -param shell [in]
 
 Specifies the shell handle  associated with the user context.  The shell handle  must be closed by calling 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancloseshell">WSManCloseShell</a> method.
+      the <a href="/windows/desktop/api/wsman/nf-wsman-wsmancloseshell">WSManCloseShell</a> method.
 
 ### -param command [in, optional]
 
 Specifies the command handle associated with the user context. The command handle must be closed by calling 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> API method.
+      the <a href="/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> API method.
 
 ### -param operationHandle [in, optional]
 
 Defines the operation handle associated with the user context. The operation handle is valid only for 
       callbacks that are associated with 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a>, 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansendshellinput">WSManSendShellInput</a>, and 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansignalshell">WSManSignalShell</a> calls. This handle must be closed 
-      by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancloseoperation">WSManCloseOperation</a> 
+      <a href="/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a>, 
+      <a href="/windows/desktop/api/wsman/nf-wsman-wsmansendshellinput">WSManSendShellInput</a>, and 
+      <a href="/windows/desktop/api/wsman/nf-wsman-wsmansignalshell">WSManSignalShell</a> calls. This handle must be closed 
+      by calling the <a href="/windows/desktop/api/wsman/nf-wsman-wsmancloseoperation">WSManCloseOperation</a> 
       method.
 
 ### -param *data [in, optional]
 
 Defines the output data from the command or shell as a result of a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> call. For more 
+      <a href="/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> call. For more 
       information about the output data, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_receive_data_result">WSMAN_RECEIVE_DATA_RESULT</a> structure.
-
+      <a href="/windows/desktop/api/wsman/ns-wsman-wsman_receive_data_result">WSMAN_RECEIVE_DATA_RESULT</a> structure.

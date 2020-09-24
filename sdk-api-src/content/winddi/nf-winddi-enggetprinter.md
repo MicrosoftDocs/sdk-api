@@ -56,7 +56,7 @@ The <b>EngGetPrinter</b> function retrieves information about the specified prin
 
 ### -param hPrinter [in]
 
-Handle to the printer for which data should be retrieved. This is the handle that is passed as the <i>hDriver</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+Handle to the printer for which data should be retrieved. This is the handle that is passed as the <i>hDriver</i> parameter of <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param dwLevel [in]
 
@@ -133,7 +133,7 @@ Pointer to a memory location that receives the number of bytes copied if the fun
 
 ## -returns
 
-<b>EngGetPrinter</b> returns <b>TRUE</b> upon success; otherwise, it logs an error and returns <b>FALSE</b>. To get error information, call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetlasterror">EngGetLastError</a>.
+<b>EngGetPrinter</b> returns <b>TRUE</b> upon success; otherwise, it logs an error and returns <b>FALSE</b>. To get error information, call <a href="/windows/desktop/api/winddi/nf-winddi-enggetlasterror">EngGetLastError</a>.
 
 ## -remarks
 
@@ -141,5 +141,4 @@ The PRINTER_INFO_<i>X</i> structures are defined in the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>

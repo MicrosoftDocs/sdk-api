@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Uses <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a> to test whether the given token is a member of the local group with the specified RID.
+Uses <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a> to test whether the given token is a member of the local group with the specified RID.
 
 ## -parameters
 
@@ -74,5 +74,4 @@ Returns <b>TRUE</b> on success, <b>FALSE</b> on failure.
 
 ## -remarks
 
-This function wraps <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a> and only checks local groups.
-
+This function wraps <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a> and only checks local groups.

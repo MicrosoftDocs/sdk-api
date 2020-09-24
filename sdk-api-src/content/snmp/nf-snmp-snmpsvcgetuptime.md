@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpSvcGetUptime</b> function retrieves the number of centiseconds that the SNMP service has been running. This function is an element of the SNMP Utility API.
@@ -69,25 +69,24 @@ An extension agent should call the
 The SNMP extension agent DLL is encouraged to use the 
 <b>SnmpSvcGetUptime</b> function to retrieve the number of centiseconds that the SNMP service has been running. Extension agents should use 
 <b>SnmpSvcGetUptime</b> rather than calculate the uptime using the <i>dwUptimeReference</i> parameter. The service passes this parameter to the extension agent as the result of a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a> function. Because the <i>dwUptimeReference</i> parameter stores the elapsed time as a <b>DWORD</b> value in milliseconds, the time can wrap to zero and reflect an inaccurate time interval.
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a> function. Because the <i>dwUptimeReference</i> parameter stores the elapsed time as a <b>DWORD</b> value in milliseconds, the time can wrap to zero and reflect an inaccurate time interval.
 
 An extension agent that sends traps must initialize the <i>timeStamp</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensiontrap">SnmpExtensionTrap</a> function with the value returned by a call to the 
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensiontrap">SnmpExtensionTrap</a> function with the value returned by a call to the 
 <b>SnmpSvcGetUptime</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensiontrap">SnmpExtensionTrap</a>
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensiontrap">SnmpExtensionTrap</a>

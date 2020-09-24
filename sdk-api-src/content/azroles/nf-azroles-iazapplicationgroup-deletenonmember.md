@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>DeleteNonMember</b> method removes the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form from the list of  accounts that are refused membership in the application group.
+The <b>DeleteNonMember</b> method removes the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form from the list of  accounts that are refused membership in the application group.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ Reserved for future use.
 
 ## -remarks
 
-To view the list of SIDs of accounts that are refused membership in this application group in text form, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembers">NonMembers</a> property.
-
+To view the list of SIDs of accounts that are refused membership in this application group in text form, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembers">NonMembers</a> property.

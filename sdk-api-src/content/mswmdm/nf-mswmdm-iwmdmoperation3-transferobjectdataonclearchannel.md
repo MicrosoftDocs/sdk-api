@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>TransferObjectDataOnClearChannel</b> method is a more efficient implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
+The <b>TransferObjectDataOnClearChannel</b> method is a more efficient implementation of <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
 
 ## -parameters
 
@@ -117,5 +117,4 @@ If the application supports this method, it is called in preference to the <b>Tr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation3">IWMDMOperation3 Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation3">IWMDMOperation3 Interface</a>

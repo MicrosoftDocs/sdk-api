@@ -76,7 +76,7 @@ Suggested distance in <b>HIMETRIC</b> units that the container considers close. 
 ### -param pHitResult [out]
 
 A pointer to returned information about the hit expressed as the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a> enumeration values.
+       <a href="/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a> enumeration values.
 
 ## -returns
 
@@ -96,7 +96,7 @@ This method returns <b>S_OK</b> on success. Other possible return values include
 </td>
 <td width="60%">
 This method is not implemented for the requested aspect. Use 
-         <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT_CONTENT</a> instead.
+         <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT_CONTENT</a> instead.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ To support hit detection on non-rectangular objects, the container needs a relia
      whether a given location is inside one of its drawing aspects. This function is provided by 
      <b>IViewObjectEx::QueryHitPoint</b>.
 
-<div class="alert"><b>Note</b>  Because this method is part of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> 
+<div class="alert"><b>Note</b>  Because this method is part of the <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> 
      interface, the container can figure whether an mouse hit is over an object without having to necessarily launch 
      the server. If the hit happens to be inside the object, then it is likely that the object will be in-place 
      activated and the server started.</div>
@@ -119,7 +119,7 @@ Typically, the container first quickly determines whether a given location is wi
      confirmation that the location is actually inside the object. The hit location is passed in client coordinates of 
      the container window. Since the object may be inactive when this method is called, the bounding rectangle of the 
      object in the same coordinate system is also passed to this method, similarly to what happens in 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-oninactivesetcursor">IPointerInactive::OnInactiveSetCursor</a>.
+     <a href="/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-oninactivesetcursor">IPointerInactive::OnInactiveSetCursor</a>.
 
 Possible returned values include:
 
@@ -158,20 +158,19 @@ In the picture above, the points marked Hit, Close, and Transparent would all be
      and transparent is weaker than close, the line takes the hit.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-An object supporting <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> is required to 
+An object supporting <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> is required to 
       implement this method at least for the <b>DVASPECT_CONTENT</b> aspect. The object should 
       not take any other action in response to this method other than to return the information; there should be no 
       side-effects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a>
+<a href="/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-oninactivesetcursor">IPointerInactive::OnInactiveSetCursor</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-oninactivesetcursor">IPointerInactive::OnInactiveSetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>

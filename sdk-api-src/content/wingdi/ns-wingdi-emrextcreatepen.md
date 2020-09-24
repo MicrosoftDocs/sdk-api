@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMREXTCREATEPEN</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> enhanced metafile record. If the record contains a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure, it is followed by the bitmap bits that form a packed device-independent bitmap (DIB).
+The <b>EMREXTCREATEPEN</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> enhanced metafile record. If the record contains a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure, it is followed by the bitmap bits that form a packed device-independent bitmap (DIB).
 
 ## -struct-fields
 
@@ -68,11 +68,11 @@ Index to pen in handle table.
 
 ### -field offBmi
 
-Offset to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure, if any.
+Offset to <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure, if any.
 
 ### -field cbBmi
 
-Size of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure, if any.
+Size of <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure, if any.
 
 ### -field offBits
 
@@ -84,25 +84,24 @@ Size of brush bitmap bits, if any.
 
 ### -field elp
 
-Extended logical pen, including the <b>elpStyleEntry</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-extlogpen">EXTLOGPEN</a> structure.
+Extended logical pen, including the <b>elpStyleEntry</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-extlogpen">EXTLOGPEN</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-extlogpen">EXTLOGPEN</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-extlogpen">EXTLOGPEN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

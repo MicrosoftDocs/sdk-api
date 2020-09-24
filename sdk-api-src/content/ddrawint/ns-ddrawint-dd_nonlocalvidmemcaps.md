@@ -86,9 +86,8 @@ Specifies an array of DD_ROP_SPACE DWORDs containing the raster operations suppo
 
 On Microsoft Windows 2000 and later versions, the data structure is called DD_NONLOCALVIDMEMCAPS and on Windows 98/Me the data structure is called DDNONLOCALVIDMEMCAPS.
 
-Normally, the <b>dwNLVBCaps</b>, <b>dwNLVBCaps2</b>, <b>dwNFLBCKeyCaps</b>, <b>dwNLVBFXCaps</b>, and <b>dwNLVBRops</b> members contain a subset of the flags used in the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure that is relevant to nonlocal-to-local blitting. However, to allow flexibility for device driver writers, any of the flags in DDCORECAPS can be used.
+Normally, the <b>dwNLVBCaps</b>, <b>dwNLVBCaps2</b>, <b>dwNFLBCKeyCaps</b>, <b>dwNLVBFXCaps</b>, and <b>dwNLVBRops</b> members contain a subset of the flags used in the <a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure that is relevant to nonlocal-to-local blitting. However, to allow flexibility for device driver writers, any of the flags in DDCORECAPS can be used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
-
+<a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>

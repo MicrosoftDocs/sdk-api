@@ -68,9 +68,8 @@ Specifies the  quantization parameter delta for the specified region from the re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfsampleextension-roirectangle">MFSampleExtension_ROIRectangle</a>
+<a href="/windows/desktop/medfound/mfsampleextension-roirectangle">MFSampleExtension_ROIRectangle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

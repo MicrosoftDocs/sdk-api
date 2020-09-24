@@ -64,5 +64,4 @@ This method returns S_OK on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpauthparameters">IWSDHttpAuthParameters</a>
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpauthparameters">IWSDHttpAuthParameters</a>

@@ -67,7 +67,7 @@ Creates a name for a temporary file. If a unique file name is generated, an empt
 ### -param lpPathName [in]
 
 The directory path for the file name. Applications typically specify a period (.) for the current directory 
-       or the result of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a> function. The string 
+       or the result of the <a href="/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a> function. The string 
        cannot be longer than <b>MAX_PATH</b>–14 characters or
        <b>GetTempFileName</b> will fail. If this parameter is 
        <b>NULL</b>, the function fails.
@@ -99,7 +99,7 @@ If the function succeeds, the return value specifies the unique numeric value us
        number.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 The following is a possible return value.
@@ -171,10 +171,10 @@ Due to the algorithm used to generate file names,
     on <b>GUID</b>s.
 
 Temporary files whose names have been created by this function are not automatically deleted. To delete these 
-    files call <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>.
+    files call <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>.
 
 To avoid problems resulting when converting an ANSI string, an application should call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to create a temporary file.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to create a temporary file.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -240,27 +240,26 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
+     <a href="/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
-
+<a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>

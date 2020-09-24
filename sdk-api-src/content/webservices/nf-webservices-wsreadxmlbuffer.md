@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Reads the current node from a reader into a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
+Reads the current node from a reader into a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
 
 ## -parameters
 
@@ -116,13 +116,12 @@ A quota was exceeded.
 
 ## -remarks
 
-If the reader must be positioned at either <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_BOF</a>, or <b>WS_XML_NODE_TYPE_ELEMENT</b>.
+If the reader must be positioned at either <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_BOF</a>, or <b>WS_XML_NODE_TYPE_ELEMENT</b>.
       
 
-If the reader is positioned at <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_BOF</a>, then the entire document will be copied from the
+If the reader is positioned at <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_BOF</a>, then the entire document will be copied from the
         reader into the XML buffer.
       
 
-If the reader is positioned at <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_ELEMENT</a>, then the element and all its children will be
+If the reader is positioned at <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_ELEMENT</a>, then the element and all its children will be
         read into the XML buffer.
-

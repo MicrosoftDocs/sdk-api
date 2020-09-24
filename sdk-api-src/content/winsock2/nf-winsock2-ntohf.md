@@ -73,7 +73,7 @@ The
 <b>ntohf</b> function can be used to convert an IPv4 address in network byte order to the IPv4 address in host byte order. This function does not do any checking to determine if the <i>value</i> parameter is a valid IPv4 address.
 
 The <b>ntohf</b>function does not require that the Winsock DLL has previously been loaded with a successful 
-call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function.
+call to the <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
@@ -81,69 +81,68 @@ call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetptonw">InetPton</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetptonw">InetPton</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsahtonl">WSAHtonl</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsahtonl">WSAHtonl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsahtons">WSAHtons</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsahtons">WSAHtons</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsantohl">WSANtohl</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsantohl">WSANtohl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsantohs">WSANtohs</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsantohs">WSANtohs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-htond">htond</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-htond">htond</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-htonf">htonf</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-htonf">htonf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-htonl">htonl</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-htonl">htonl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-htonll">htonll</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-htonll">htonll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-htons">htons</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-htons">htons</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-ntohd">ntohd</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-ntohd">ntohd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-ntohll">ntohll</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-ntohll">ntohll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>

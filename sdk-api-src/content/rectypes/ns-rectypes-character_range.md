@@ -68,13 +68,12 @@ Specifies a range of Unicode points (characters).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getenabledunicoderanges">GetEnabledUnicodeRanges Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-getenabledunicoderanges">GetEnabledUnicodeRanges Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges Function</a>

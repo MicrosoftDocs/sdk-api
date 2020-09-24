@@ -123,9 +123,8 @@ If the security descriptor has not been set, this method will set <i>ppSecDes</i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-put_securitydescriptor">ITDirectoryObject::put_SecurityDescriptor</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-put_securitydescriptor">ITDirectoryObject::put_SecurityDescriptor</a>

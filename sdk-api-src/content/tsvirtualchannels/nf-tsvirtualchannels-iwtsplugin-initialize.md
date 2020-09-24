@@ -56,7 +56,7 @@ Used for the first call that is made from the client to the plug-in. Any plug-in
 
 ### -param pChannelMgr [in]
 
-Passed instance to the channel manager (<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager">IWTSVirtualChannelManager</a>) for the client.
+Passed instance to the channel manager (<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager">IWTSVirtualChannelManager</a>) for the client.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns <b>S_OK</b> if the call completes successfully. If the call fails, the p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsplugin">IWTSPlugin</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsplugin">IWTSPlugin</a>

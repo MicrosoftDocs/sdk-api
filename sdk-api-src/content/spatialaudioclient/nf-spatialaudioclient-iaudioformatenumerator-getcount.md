@@ -64,5 +64,4 @@ If the method succeeds, it returns S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-iaudioformatenumerator">IAudioFormatEnumerator</a>
-
+<a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-iaudioformatenumerator">IAudioFormatEnumerator</a>

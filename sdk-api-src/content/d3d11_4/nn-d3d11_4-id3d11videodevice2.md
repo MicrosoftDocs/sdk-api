@@ -41,9 +41,8 @@ Provides the video decoding and video processing capabilities of a Microsoft Dir
 
 ## -inheritance
 
-The **ID3D11VideoDevice2** interface inherits from [ID3D11VideoDevice1](/windows/win32/api/d3d11_1/nn-d3d11_1-id3d11videodevice1). Adds support for decode histograms.
+The **ID3D11VideoDevice2** interface inherits from [ID3D11VideoDevice1](../d3d11_1/nn-d3d11_1-id3d11videodevice1.md). Adds support for decode histograms.
 
 ## -remarks
 
 ## -see-also
-

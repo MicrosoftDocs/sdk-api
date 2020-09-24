@@ -56,7 +56,7 @@ The <b>PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET</b> callback function retrieves an 
 
 ### -param pPluginContext [in, optional]
 
-Pointer to an optional buffer defined by this provider and returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a> function. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information.
+Pointer to an optional buffer defined by this provider and returned by the <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a> function. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information.
 
 ### -param pIdentifier [in, optional]
 
@@ -106,9 +106,9 @@ Address that receives a pointer to an optional identifier that can be used durin
 
 If the function succeeds, return nonzero (<b>TRUE</b>).
 
-If the function fails, return zero (<b>FALSE</b>) and specify an appropriate error in the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function. Most errors are passed through Schannel unaltered but this behavior is not guaranteed. Some errors may be mapped to other errors.
+If the function fails, return zero (<b>FALSE</b>) and specify an appropriate error in the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function. Most errors are passed through Schannel unaltered but this behavior is not guaranteed. Some errors may be mapped to other errors.
 
-If an object cannot be returned for a given DNS name (<i>pNameBlob</i>) or identifier (<i>pIdentifier</i>), return <b>FALSE</b> and specify <b>CRYPT_E_OBJECT_LOCATOR_OBJECT_NOT_FOUND</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function.
+If an object cannot be returned for a given DNS name (<i>pNameBlob</i>) or identifier (<i>pIdentifier</i>), return <b>FALSE</b> and specify <b>CRYPT_E_OBJECT_LOCATOR_OBJECT_NOT_FOUND</b> in the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function.
 
 ## -remarks
 
@@ -129,9 +129,8 @@ Because many host names can be mapped to one object, your provider can use the <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_release">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE</a>
-
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_release">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE</a>

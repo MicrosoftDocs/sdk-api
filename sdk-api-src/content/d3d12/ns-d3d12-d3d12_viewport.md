@@ -80,9 +80,8 @@ Maximum depth of the viewport. Ranges between 0 and 1.
 
 ## -remarks
 
-Pass an array of these structures to the <i>pViewports</i> parameter  in a call to  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports">ID3D12GraphicsCommandList::RSSetViewports</a> to set viewports for the display.
+Pass an array of these structures to the <i>pViewports</i> parameter  in a call to  <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports">ID3D12GraphicsCommandList::RSSetViewports</a> to set viewports for the display.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

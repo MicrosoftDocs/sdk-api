@@ -60,7 +60,7 @@ Handle of the window that will be the owner of the domain browser dialog box.
 
 ### -param ppszTargetPath [out]
 
-Pointer to a Unicode string pointer that receives the path string of the domain selected in the domain browser. This memory must be freed when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. By default, this path takes the form "myDom.Fabrikam.com". If <i>dwFlags</i> contains the <b>DBDTF_RETURNFQDN</b> flag, the path takes the form "DC=myDom, DC=Fabrikam, DC=com".
+Pointer to a Unicode string pointer that receives the path string of the domain selected in the domain browser. This memory must be freed when it is no longer required by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. By default, this path takes the form "myDom.Fabrikam.com". If <i>dwFlags</i> contains the <b>DBDTF_RETURNFQDN</b> flag, the path takes the form "DC=myDom, DC=Fabrikam, DC=com".
 
 ### -param dwFlags [in]
 
@@ -102,9 +102,8 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
-
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Gets or sets the offset between the closest horizontal edge of the pen input panel  and the closest horizontal edge of the control to which it is attached.
 
@@ -67,13 +67,13 @@ This property is read/write.
 
 ## -remarks
 
-The default value is the equivalent of 1/16 inches in pixels, dependent on screen resolution settings. A value of 0 (zero) attaches the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object directly to the bottom of the control. A value of -1 places it 1 pixel above the control.
+The default value is the equivalent of 1/16 inches in pixels, dependent on screen resolution settings. A value of 0 (zero) attaches the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object directly to the bottom of the control. A value of -1 places it 1 pixel above the control.
 
-If the new position of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> causes the panel to appear outside the boundary of the screen working area, the panel is shifted toward the center of the working area so that the edges of the panel are adjacent to the nearest edges of the screen.
+If the new position of the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> causes the panel to appear outside the boundary of the screen working area, the panel is shifted toward the center of the working area so that the edges of the panel are adjacent to the nearest edges of the screen.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset">HorizontalOffset Property</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset">HorizontalOffset Property</a>
 
 
 
@@ -81,5 +81,4 @@ If the new position of the <a href="https://docs.microsoft.com/windows/desktop/t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-
+<a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>

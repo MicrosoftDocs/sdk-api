@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates a spoofed device scale factor, as a percent. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>
+Indicates a spoofed device scale factor, as a percent. Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>
 
 ## -enum-fields
 
@@ -104,9 +104,8 @@ Indicates a spoofed device scale factor, as a percent. Used by <a href="https://
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a>

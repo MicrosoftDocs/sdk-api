@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The fax service calls the <b>FaxDevShutdown</b> function to notify the fax service provider (FSP) that the service is about to unload the FSP's DLL. <b>FaxDevShutdown</b> releases the global resources allocated by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a> function.
+The fax service calls the <b>FaxDevShutdown</b> function to notify the fax service provider (FSP) that the service is about to unload the FSP's DLL. <b>FaxDevShutdown</b> releases the global resources allocated by the <a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a> function.
 
 Exporting the <b>FaxDevShutdown</b> function is optional.
 
@@ -70,13 +70,12 @@ The fax service always unloads the FSP's DLL, even if the FSP returns failure in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-functions">Fax Service Provider Functions</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-functions">Fax Service Provider Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a>
+<a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>

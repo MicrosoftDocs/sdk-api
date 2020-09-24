@@ -56,15 +56,15 @@ The <b>IADsPropertyList::PutPropertyItem</b> method updates the values for an it
 
 ### -param varData [in]
 
-New property values to be put in the property cache. This should contain the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer to the object which implements the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> that contain the modified property values.
+New property values to be put in the property cache. This should contain the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer to the object which implements the  <a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> that contain the modified property values.
 
 ## -returns
 
-This method supports the standard HRESULT return values, including S_OK. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard HRESULT return values, including S_OK. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-The  <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyentry-property-methods">IADsPropertyEntry::put_ControlCode</a> should be set to the desired modify / add / delete operation by using the proper  <a href="/windows/win32/api/iads/ne-iads-ads_property_operation_enum">ADS_PROPERTY_OPERATION_ENUM</a> value. After <b>PutPropertyItem</b> has been called, you must call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> to persist any changes in the directory store. The property values are not committed until the <b>IADs::SetInfo</b> method is called.
+The  <a href="/windows/desktop/ADSI/iadspropertyentry-property-methods">IADsPropertyEntry::put_ControlCode</a> should be set to the desired modify / add / delete operation by using the proper  <a href="/windows/win32/api/iads/ne-iads-ads_property_operation_enum">ADS_PROPERTY_OPERATION_ENUM</a> value. After <b>PutPropertyItem</b> has been called, you must call  <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> to persist any changes in the directory store. The property values are not committed until the <b>IADs::SetInfo</b> method is called.
 
 
 #### Examples
@@ -278,21 +278,20 @@ Fail:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
+<a href="/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

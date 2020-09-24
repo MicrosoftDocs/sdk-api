@@ -72,17 +72,16 @@ The fax server logs all events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxeventlogging-generaleventslevel-vb">IFaxEventLogging::get_GeneralEventsLevel</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxeventlogging-generaleventslevel-vb">IFaxEventLogging::get_GeneralEventsLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxeventlogging-inboundeventslevel-vb">IFaxEventLogging::get_InboundEventsLevel</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxeventlogging-inboundeventslevel-vb">IFaxEventLogging::get_InboundEventsLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxeventlogging-initeventslevel-vb">IFaxEventLogging::get_InitEventsLevel</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxeventlogging-initeventslevel-vb">IFaxEventLogging::get_InitEventsLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxeventlogging-outboundeventslevel-vb">IFaxEventLogging::get_OutboundEventsLevel</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxeventlogging-outboundeventslevel-vb">IFaxEventLogging::get_OutboundEventsLevel</a>

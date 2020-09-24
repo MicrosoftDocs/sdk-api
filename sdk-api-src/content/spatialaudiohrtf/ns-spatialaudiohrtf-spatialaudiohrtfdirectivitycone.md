@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Represents a cone-shaped directivity model for an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
+Represents a cone-shaped directivity model for an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 ## -struct-fields
 
 ### -field directivity
 
-A structure that expresses the direction in which sound is emitted by an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
+A structure that expresses the direction in which sound is emitted by an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 ### -field InnerAngle
 
@@ -65,4 +65,3 @@ The inner angle of the cone.
 ### -field OuterAngle
 
 The outer angle of the cone.
-

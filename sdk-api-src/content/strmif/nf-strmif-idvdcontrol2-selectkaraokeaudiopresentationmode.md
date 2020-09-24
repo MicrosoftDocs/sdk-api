@@ -57,7 +57,7 @@ The <code>SelectKaraokeAudioPresentationMode</code> method sends karaoke auxilia
 
 ### -param ulMode [in]
 
-Bitwise OR of [DVD_KARAOKE_DOWNMIX](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_downmix) enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
+Bitwise OR of [DVD_KARAOKE_DOWNMIX](/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_downmix) enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
 
 ## -returns
 
@@ -97,7 +97,7 @@ The audio decoder does not support downmixing.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is in an invalid domain.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is in an invalid domain.
 
 </td>
 </tr>
@@ -144,17 +144,16 @@ The following table shows the Annex J command name to which this method name cor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-karaoke-property-set">DVD Karaoke Property Set</a>
+<a href="/windows/desktop/DirectShow/dvd-karaoke-property-set">DVD Karaoke Property Set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

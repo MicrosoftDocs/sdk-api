@@ -81,13 +81,12 @@ Indicates a video steam.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink-get_sinkstreams">IMSVidGenericSink::get_SinkStreams</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink-get_sinkstreams">IMSVidGenericSink::get_SinkStreams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink-put_sinkstreams">IMSVidGenericSink::put_SinkStreams</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink-put_sinkstreams">IMSVidGenericSink::put_SinkStreams</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>

@@ -74,9 +74,8 @@ COM+ services without components.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a>
+<a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationsummary">ApplicationSummary</a>
-
+<a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationsummary">ApplicationSummary</a>

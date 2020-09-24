@@ -56,7 +56,7 @@ Retrieves the list of MMC mode pages that the device supports.
 
 ### -param value [out]
 
-List of MMC mode pages that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the mode page type value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
+List of MMC mode pages that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the mode page type value. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
 
 ## -returns
 
@@ -357,17 +357,16 @@ Value: 0xC0AA0201
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
 
 
 
 IMAPI_MODE_PAGE_TYPE
-

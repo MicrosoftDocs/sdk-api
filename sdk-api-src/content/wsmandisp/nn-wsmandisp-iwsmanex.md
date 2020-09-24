@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Extends the methods and properties of the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a> 
+Extends the methods and properties of the <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a> 
     interface to include creating 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> objects, methods that return 
+    <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> objects, methods that return 
     enumeration and session flag values, and a method to get extended error information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n"> IWSManEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>. <b> IWSManEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n"> IWSManEx</b> interface inherits from <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>. <b> IWSManEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,233 +72,233 @@ The <b> IWSManEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">CreateResourceLocator</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">CreateResourceLocator</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of an 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object.
+     <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagcredusernamepassword">IWSManEx.SessionFlagCredUsernamePassword</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagcredusernamepassword">IWSManEx.SessionFlagCredUsernamePassword</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagCredUsernamePassword</b> for use 
      in the <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagenablespnserverport">IWSManEx.SessionFlagEnableSPNServerPort</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagenablespnserverport">IWSManEx.SessionFlagEnableSPNServerPort</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagEnableSPNServerPort</b> for use 
      in the <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagnoencryption">IWSManEx.SessionFlagNoEncryption</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagnoencryption">IWSManEx.SessionFlagNoEncryption</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagNoEncryption</b> for use in the 
      <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagskipcacheck">IWSManEx.SessionFlagSkipCACheck</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagskipcacheck">IWSManEx.SessionFlagSkipCACheck</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the  authentication flag <b>WSManFlagSkipCACheck</b> for use in the 
      <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagskipcncheck">IWSManEx.SessionFlagSkipCNCheck</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagskipcncheck">IWSManEx.SessionFlagSkipCNCheck</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagSkipCNCheck</b> for use in the 
      <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusebasic">IWSManEx.SessionFlagUseBasic</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusebasic">IWSManEx.SessionFlagUseBasic</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagUseBasic</b> for use in the 
      <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createsession">IWSMan.CreateSession</a>. This method provides a more 
+     <a href="/windows/desktop/WinRM/wsman-createsession">IWSMan.CreateSession</a>. This method provides a more 
      efficient syntax for using the constant so that scripts are not required to set a constant value.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusedigest">IWSManEx.SessionFlagUseDigest</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusedigest">IWSManEx.SessionFlagUseDigest</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagUseDigest</b> for use in the 
      <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
+     <a href="/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
      efficient syntax for using the constant so that scripts are not required to set a constant value.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusenegotiate">IWSManEx.SessionFlagUseNegotiate</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusenegotiate">IWSManEx.SessionFlagUseNegotiate</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagUseNegotiate</b> for use in the 
      <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
+     <a href="/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
      efficient syntax for using the constant so that scripts are not required to set a constant value.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusenoauthentication">IWSManEx.SessionFlagUseNoAuthentication</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusenoauthentication">IWSManEx.SessionFlagUseNoAuthentication</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagUseNoAuthentication</b> for use 
      in the <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
+     <a href="/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
      efficient syntax for using the constant so that scripts are not required to set a constant value.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagutf8">IWSManEx.SessionFlagUTF8</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagutf8">IWSManEx.SessionFlagUTF8</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagUTF8</b> for use in the 
      <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
+     <a href="/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
      efficient syntax for using the constant so that scripts are not required to set a constant value.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusekerberos">IWSManEx.WSMan.SessionFlagUseKerberos</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-sessionflagusekerberos">IWSManEx.WSMan.SessionFlagUseKerberos</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagUseKerberos</b> for use in the 
      <i>flags</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
+     <a href="/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>. This method provides a more 
      efficient syntax for using the constant so that scripts are not required to set a constant value.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeep">IWSManEx::EnumerationFlagHierarchyDeep</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeep">IWSManEx::EnumerationFlagHierarchyDeep</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the enumeration constant <b>EnumerationFlagHierarchyDeep</b> for use 
      in the <i>flags</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeepbasepropsonly">IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeepbasepropsonly">IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the enumeration constant 
      <b>EnumerationFlagHierarchyDeepBasePropsOnly</b> for use in the 
      <i>flags</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchyshallow">IWSManEx::EnumerationFlagHierarchyShallow</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchyshallow">IWSManEx::EnumerationFlagHierarchyShallow</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the enumeration constant <b>EnumerationFlagHierarchyShallow</b> for 
      use in the <i>flags</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagnonxmltext">IWSManEx::EnumerationFlagNonXmlText</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagnonxmltext">IWSManEx::EnumerationFlagNonXmlText</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the enumeration constant <b>WSManFlagNonXmlText</b> for use in the 
      <i>flags</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagnonxmltext">IWSManEx::EnumerationFlagNonXmlText</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagnonxmltext">IWSManEx::EnumerationFlagNonXmlText</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the enumeration constant <b>WSManFlagNonXmlText</b> for use in the 
      <i>flags</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagreturnepr">IWSManEx::EnumerationFlagReturnEPR</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagreturnepr">IWSManEx::EnumerationFlagReturnEPR</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the enumeration constant <b>EnumerationFlagReturnEPR</b> for use in 
      the <i>flags</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobject">IWSManEx::EnumerationFlagReturnObject</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobject">IWSManEx::EnumerationFlagReturnObject</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the enumeration constant <b>EnumerationFlagReturnObject</b> for use 
      in the <i>flags</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobjectandepr">IWSManEx::EnumerationFlagReturnObjectAndEPR</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobjectandepr">IWSManEx::EnumerationFlagReturnObjectAndEPR</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the enumeration constant <b>EnumerationFlagReturnObjectAndEPR</b> 
      for use in the <i>flags</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+     <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-geterrormessage">IWSManEx::GetErrorMessage</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex-geterrormessage">IWSManEx::GetErrorMessage</a>
 </td>
 <td align="left" width="63%">
 Returns a formatted string containing the text of an error number.
@@ -309,13 +309,12 @@ Returns a formatted string containing the text of an error number.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman">WSMan</a>
+<a href="/windows/desktop/WinRM/wsman">WSMan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
-
+<a href="/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>

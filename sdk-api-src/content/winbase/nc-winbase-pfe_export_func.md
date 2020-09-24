@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>. The system calls 
+    <a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>. The system calls 
     <b>ExportCallback</b> one or more times, each time with a block 
     of the encrypted file's data, until it has received all of the file data. 
     <b>ExportCallback</b> writes the encrypted file's data to 
@@ -72,7 +72,7 @@ A pointer to a block of the encrypted file's data to be backed up. This block of
 ### -param pvCallbackContext [in, optional]
 
 A pointer to an application-defined and allocated context block. The application passes this pointer to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>, and 
+      <a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>, and 
       <b>ReadEncryptedFileRaw</b> passes this pointer to the 
       callback function so that it can have access to application-specific data. This data can be a structure and can 
       contain any data the application needs, such as the handle to the file that contains the backup copy of the 
@@ -88,7 +88,7 @@ If the function succeeds, it must set the return value to <b>ERROR_SUCCESS</b>.
 
 If the function fails, set the return value to a nonzero error code defined in WinError.h. For 
        example, if this function fails because an API that it calls fails, you can set the return value to the value 
-       returned by <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for the failed API.
+       returned by <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for the failed API.
 
 ## -remarks
 
@@ -97,29 +97,28 @@ You can use the application-defined context block for internal tracking of infor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pfe_import_func">ImportCallback</a>
+<a href="/windows/desktop/api/winbase/nc-winbase-pfe_import_func">ImportCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa">OpenEncryptedFileRaw</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa">OpenEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>

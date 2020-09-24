@@ -58,7 +58,7 @@ The <b>DownloadTrack</b> method instructs Windows Media Player to download or no
 
 ### -param cookie [in]
 
-A cookie that identifies a download session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-download">IWMPContentPartner::Download</a>.
+A cookie that identifies a download session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-download">IWMPContentPartner::Download</a>.
 
 ### -param bstrTrackURL [in]
 
@@ -70,7 +70,7 @@ The ID of the track in question.
 
 ### -param bstrDownloadParams [in]
 
-Data that the online store wants to associate with the track in question. Windows Media Player does not interpret this data; it is meaningful only to the online store. Windows Media player passes this data back to the online store when it calls <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-downloadtrackcomplete">IWMPContentPartner::DownloadTrackComplete</a>.
+Data that the online store wants to associate with the track in question. Windows Media Player does not interpret this data; it is meaningful only to the online store. Windows Media player passes this data back to the online store when it calls <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-downloadtrackcomplete">IWMPContentPartner::DownloadTrackComplete</a>.
 
 ### -param hrDownload [in]
 
@@ -100,19 +100,18 @@ The method succeeded.
 
 ## -remarks
 
-For an explanation of how the Player and the plug-in work together to download a set of tracks, see <a href="https://docs.microsoft.com/windows/desktop/WMP/downloading-media-content">Downloading Media Content</a>.
+For an explanation of how the Player and the plug-in work together to download a set of tracks, see <a href="/windows/desktop/WMP/downloading-media-content">Downloading Media Content</a>.
 
 This method must be called only after a license has been predelivered for the file. The file will be placed in the user's Music folder and automatically added to the library when downloading is complete.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-download">IWMPContentPartner::Download</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-download">IWMPContentPartner::Download</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-downloadtrackcomplete">IWMPContentPartner::DownloadTrackComplete</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-downloadtrackcomplete">IWMPContentPartner::DownloadTrackComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>

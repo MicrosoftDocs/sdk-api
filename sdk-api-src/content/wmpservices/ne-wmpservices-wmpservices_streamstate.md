@@ -68,9 +68,8 @@ The stream is playing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/dsp-plug-in-enumeration-types">DSP Plug-in Enumeration Types</a>
+<a href="/windows/desktop/WMP/dsp-plug-in-enumeration-types">DSP Plug-in Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpservices-getstreamstate">IWMPServices::GetStreamState</a>
-
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpservices-getstreamstate">IWMPServices::GetStreamState</a>

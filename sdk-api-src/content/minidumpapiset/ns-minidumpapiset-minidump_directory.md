@@ -61,7 +61,7 @@ Contains the information needed to access a specific data stream in a minidump f
 ### -field StreamType
 
 The type of data stream. This member can be one of the values in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a> enumeration.
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a> enumeration.
 
 ### -field Location
 
@@ -78,9 +78,8 @@ In this context, a data stream is a block of data within a minidump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpreaddumpstream">MiniDumpReadDumpStream</a>
-
+<a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpreaddumpstream">MiniDumpReadDumpStream</a>

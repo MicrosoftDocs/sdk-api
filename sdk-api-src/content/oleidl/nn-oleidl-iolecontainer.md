@@ -54,7 +54,7 @@ Enumerates objects in a compound document or lock a container in the running sta
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleContainer</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a>. <b>IOleContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleContainer</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a>. <b>IOleContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOleContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-enumobjects">EnumObjects</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-enumobjects">EnumObjects</a>
 </td>
 <td align="left" width="63%">
 Enumerates the objects in the current container.
@@ -78,7 +78,7 @@ Enumerates the objects in the current container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-lockcontainer">LockContainer</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-lockcontainer">LockContainer</a>
 </td>
 <td align="left" width="63%">
 Keeps the container for embedded objects running until explicitly released.
@@ -89,9 +89,8 @@ Keeps the container for embedded objects running until explicitly released.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a>

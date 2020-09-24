@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains possible values for the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-zoombyunit">IUIAutomationTransformPattern2::ZoomByUnit</a> method, which zooms the viewport of a control by the specified unit.
+Contains possible values for the <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-zoombyunit">IUIAutomationTransformPattern2::ZoomByUnit</a> method, which zooms the viewport of a control by the specified unit.
 
 ## -enum-fields
 
@@ -76,5 +76,4 @@ Increase zoom by a small increment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-zoombyunit">IUIAutomationTransformPattern2::ZoomByUnit</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern2-zoombyunit">IUIAutomationTransformPattern2::ZoomByUnit</a>

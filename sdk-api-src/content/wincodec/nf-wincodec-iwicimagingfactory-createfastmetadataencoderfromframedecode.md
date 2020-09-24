@@ -56,13 +56,13 @@ Creates a new instance of the fast metadata encoder based on the given image fra
 
 ### -param pIFrameDecoder [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a> to create the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicfastmetadataencoder">IWICFastMetadataEncoder</a> from.
+The <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a> to create the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicfastmetadataencoder">IWICFastMetadataEncoder</a> from.
 
 ### -param ppIFastEncoder [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicfastmetadataencoder">IWICFastMetadataEncoder</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicfastmetadataencoder">IWICFastMetadataEncoder</a>**</b>
 
 When this method returns, contains a pointer to a new fast metadata encoder.
 
@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-For a list of support metadata formats for fast metadata encoding, see <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>.
+For a list of support metadata formats for fast metadata encoding, see <a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>.
 
 
 #### Examples
@@ -119,21 +119,20 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
+<a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
+<a href="/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
+<a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">Writing Metadata</a>
-
+<a href="/windows/desktop/wic/-wic-about-metadata">Writing Metadata</a>

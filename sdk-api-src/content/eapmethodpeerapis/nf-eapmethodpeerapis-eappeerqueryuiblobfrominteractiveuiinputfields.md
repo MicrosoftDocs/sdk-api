@@ -72,7 +72,7 @@ A pointer to a BLOB that contains UI context data, represented as inner pointers
 
 ### -param pEapInteractiveUIData [in]
 
-Pointer that receives an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a> structure that contains configuration information for interactive user interface components raised on an EAP supplicant.
+Pointer that receives an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a> structure that contains configuration information for interactive user interface components raised on an EAP supplicant.
 
 ### -param pdwSizeOfDataFromInteractiveUI [out]
 
@@ -82,11 +82,11 @@ A pointer to a DWORD that specifies the size of the buffer pointed to by the <i>
 
   A pointer that receives a credentials BLOB that can be used in authentication.
                 The caller should free the inner pointers
-                using the function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreememory">EapPeerFreeMemory</a>, starting at the innermost pointer. If a non-NULL value is supplied for this parameter, meaning that an existing data BLOB is passed to it, the supplied data BLOB will be updated and returned in this parameter.
+                using the function <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreememory">EapPeerFreeMemory</a>, starting at the innermost pointer. If a non-NULL value is supplied for this parameter, meaning that an existing data BLOB is passed to it, the supplied data BLOB will be updated and returned in this parameter.
 
 ### -param ppEapError [out]
 
-A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
+A pointer to the address of an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 ### -param ppvReserved [in, out]
 
@@ -103,4 +103,3 @@ Reserved for future use. This parameter must be set to 0.
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
-

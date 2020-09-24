@@ -58,9 +58,8 @@ The <b>FaceRectInfoBlobHeader</b> structure describes the size and count informa
 
 ### -field Size
 
-Size of this header + all following <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-facerectinfo">FaceRectInfo</a> structures.
+Size of this header + all following <a href="/windows/desktop/api/mfapi/ns-mfapi-facerectinfo">FaceRectInfo</a> structures.
 
 ### -field Count
 
 Number of <b>FaceRectInfo</b> structures in the blob.
-

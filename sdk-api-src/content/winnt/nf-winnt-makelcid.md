@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a> from a <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> and a <a href="https://docs.microsoft.com/windows/desktop/Intl/sort-order-identifiers">sort order identifier</a>.
+Creates a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> from a <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> and a <a href="/windows/desktop/Intl/sort-order-identifiers">sort order identifier</a>.
 
 ## -parameters
 
 ### -param lgid
 
-Language identifier. This identifier is a combination of a primary language identifier and a sublanguage identifier and is usually created by using the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
+Language identifier. This identifier is a combination of a primary language identifier and a sublanguage identifier and is usually created by using the <a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
 
 ### -param srtid
 
@@ -64,21 +64,20 @@ Sort order identifier.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
+<a href="/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sortidfromlcid">SORTIDFROMLCID</a>
-
+<a href="/windows/desktop/api/winnt/nf-winnt-sortidfromlcid">SORTIDFROMLCID</a>

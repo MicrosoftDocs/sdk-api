@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Retrieves the current size of the specified global memory object, in bytes.
-<div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
+<div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
 </div><div> </div>
 
 ## -parameters
@@ -62,42 +62,41 @@ Retrieves the current size of the specified global memory object, in bytes.
 ### -param hMem [in]
 
 A handle to the global memory object. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is the size of the specified global memory object, in bytes.
 
 If the specified handle is not valid or if the object has been discarded, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The size of a memory block may be larger than the size requested when the memory was allocated.
 
 To verify that the specified object's memory block has not been discarded, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalflags">GlobalFlags</a> function before calling 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalflags">GlobalFlags</a> function before calling 
 <b>GlobalSize</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
+<a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalflags">GlobalFlags</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globalflags">GlobalFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
-

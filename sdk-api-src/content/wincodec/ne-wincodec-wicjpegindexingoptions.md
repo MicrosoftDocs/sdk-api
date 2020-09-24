@@ -56,7 +56,7 @@ Specifies the options for indexing a JPEG image.
 
 ### -field WICJpegIndexingOptionsGenerateOnDemand
 
-Index generation is deferred until <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a> is called on the image.
+Index generation is deferred until <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a> is called on the image.
 
 ### -field WICJpegIndexingOptionsGenerateOnLoad
 
@@ -68,5 +68,4 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>
-
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>

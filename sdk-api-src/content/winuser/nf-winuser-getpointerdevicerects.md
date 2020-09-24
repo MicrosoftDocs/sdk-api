@@ -73,9 +73,8 @@ The structure for retrieving the display resolution.
 
 ## -returns
 
-TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function for more information.
+TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>

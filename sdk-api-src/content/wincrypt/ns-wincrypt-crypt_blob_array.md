@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_BLOB_ARRAY</b> structure contains an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structures.
+The <b>CRYPT_BLOB_ARRAY</b> structure contains an array of <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structures.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ The number of elements in the <b>rgBlob</b> array.
 
 ### -field rgBlob
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structures that contains the data blobs.
-
+An array of <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structures that contains the data blobs.

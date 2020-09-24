@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the maximum time the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a> can run, in milliseconds, before terminating.
+This method sets the maximum time the <a href="/windows/desktop/TaskSchd/t">task</a> can run, in milliseconds, before terminating.
 
 ## -parameters
 
@@ -114,15 +114,14 @@ After setting the maximum run time, be sure to call <b>IPersistFile::Save</b> to
 
 #### Examples
 
-For an example of how to set the maximum run time, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-setting-maxruntime">C/C++ Code Example: Setting MaxRunTime</a>.
+For an example of how to set the maximum run time, see <a href="/windows/desktop/TaskSchd/c-c-code-example-setting-maxruntime">C/C++ Code Example: Setting MaxRunTime</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-getmaxruntime">IGetMaxRunTime</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itask-getmaxruntime">IGetMaxRunTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>

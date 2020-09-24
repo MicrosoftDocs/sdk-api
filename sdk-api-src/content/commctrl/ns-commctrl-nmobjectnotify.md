@@ -54,21 +54,21 @@ api_name:
 
 ## -description
 
-Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-getobject">TBN_GETOBJECT</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/tcn-getobject">TCN_GETOBJECT</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-getobject">PSN_GETOBJECT</a> notification codes.
+Contains information used with the <a href="/windows/desktop/Controls/tbn-getobject">TBN_GETOBJECT</a>, <a href="/windows/desktop/Controls/tcn-getobject">TCN_GETOBJECT</a>, and <a href="/windows/desktop/Controls/psn-getobject">PSN_GETOBJECT</a> notification codes.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about this notification.
+An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about this notification.
 
 ### -field iItem
 
 Type: <b>int</b>
 
-A control-specific item identifier. This value will comply to item identification standards for the control sending the notification. However, this member is not used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-getobject">PSN_GETOBJECT</a> notification code.
+A control-specific item identifier. This value will comply to item identification standards for the control sending the notification. However, this member is not used with the <a href="/windows/desktop/Controls/psn-getobject">PSN_GETOBJECT</a> notification code.
 
 ### -field piid
 
@@ -78,15 +78,14 @@ A pointer to an interface identifier of the requested object.
 
 ### -field pObject
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to an object provided by the window processing the notification code. The application processing the notification code sets this member.
 
 ### -field hResult
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 COM success or failure flags. The application processing the notification code sets this member.
 
 ### -field dwFlags
-

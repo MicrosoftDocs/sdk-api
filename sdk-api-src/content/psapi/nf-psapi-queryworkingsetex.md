@@ -61,11 +61,11 @@ Retrieves extended information about the pages at specific virtual addresses in 
 
 ### -param hProcess [in]
 
-A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access right. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param pv [in, out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a> structures. On input, each item in the array specifies a virtual address of interest. On output, each item in the array receives information about the corresponding virtual page.
+A pointer to an array of <a href="/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a> structures. On input, each item in the array specifies a virtual address of interest. On output, each item in the array receives information about the corresponding virtual page.
 
 ### -param cb [in]
 
@@ -75,11 +75,11 @@ The size of the <i>pv</i> buffer, in bytes.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-queryworkingset">QueryWorkingSet</a> function, which is limited to the working set of the target process, the <b>QueryWorkingSetEx</b> function can be used to query addresses that are not in the process working set but are still part of the process, such as AWE and large pages.
+Unlike the <a href="/windows/desktop/api/psapi/nf-psapi-queryworkingset">QueryWorkingSet</a> function, which is limited to the working set of the target process, the <b>QueryWorkingSetEx</b> function can be used to query addresses that are not in the process working set but are still part of the process, such as AWE and large pages.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and the library that a program must load.
 
@@ -89,15 +89,14 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/allocating-memory-from-a-numa-node">Allocating Memory from a NUMA Node</a>.
+For an example, see <a href="/windows/desktop/Memory/allocating-memory-from-a-numa-node">Allocating Memory from a NUMA Node</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a>
+<a href="/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/working-set-information">Working Set Information</a>
-
+<a href="/windows/desktop/psapi/working-set-information">Working Set Information</a>

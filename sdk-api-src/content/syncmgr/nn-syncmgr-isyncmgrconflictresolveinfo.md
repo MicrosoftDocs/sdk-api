@@ -54,7 +54,7 @@ Exposes methods that get and set information about sync manager conflict resolut
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictResolveInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictResolveInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictResolveInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictResolveInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrConflictResolveInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getitemchoice">GetItemChoice</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getitemchoice">GetItemChoice</a>
 </td>
 <td align="left" width="63%">
 Gets the index of an item that the user wants to keep.
@@ -78,7 +78,7 @@ Gets the index of an item that the user wants to keep.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getitemchoicecount">GetItemChoiceCount</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getitemchoicecount">GetItemChoiceCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of items that the user wants to keep.
@@ -87,7 +87,7 @@ Gets the number of items that the user wants to keep.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getiterationinfo">GetIterationInfo</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getiterationinfo">GetIterationInfo</a>
 </td>
 <td align="left" width="63%">
 Gets information about which conflict in a set of conflicts is being resolved.
@@ -96,7 +96,7 @@ Gets information about which conflict in a set of conflicts is being resolved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenterchoice">GetPresenterChoice</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenterchoice">GetPresenterChoice</a>
 </td>
 <td align="left" width="63%">
 Gets what kind of choice was made and whether to apply the choice to all subsequent conflicts in the set.
@@ -105,7 +105,7 @@ Gets what kind of choice was made and whether to apply the choice to all subsequ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenternextstep">GetPresenterNextStep</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenternextstep">GetPresenterNextStep</a>
 </td>
 <td align="left" width="63%">
 Gets what the presenter wants to do as the next step in the sync manager conflict resolution.
@@ -114,7 +114,7 @@ Gets what the presenter wants to do as the next step in the sync manager conflic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setitemchoices">SetItemChoices</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setitemchoices">SetItemChoices</a>
 </td>
 <td align="left" width="63%">
 Sets the array of indexes that represents which items the user wants to keep. This method is used when the user chooses to apply the same operation to all selected conflicts of the same type from the same handler.
@@ -123,7 +123,7 @@ Sets the array of indexes that represents which items the user wants to keep. Th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenterchoice">SetPresenterChoice</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenterchoice">SetPresenterChoice</a>
 </td>
 <td align="left" width="63%">
 Sets what kind of choice was made about a sync manager conflict resolution and whether to apply the choice to all subsequent conflicts in the set.
@@ -132,7 +132,7 @@ Sets what kind of choice was made about a sync manager conflict resolution and w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenternextstep">SetPresenterNextStep</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenternextstep">SetPresenterNextStep</a>
 </td>
 <td align="left" width="63%">
 Sets what the presenter wants to do as the next step in the sync manager conflict resolution.
@@ -140,4 +140,3 @@ Sets what the presenter wants to do as the next step in the sync manager conflic
 </td>
 </tr>
 </table>
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>.
+Performs operations required after calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>.
 
 ## -parameters
 
 ### -param cbActual [in]
 
-The number of bytes in the allocation, as returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a>.
+The number of bytes in the allocation, as returned by <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a>.
 
 ### -param fSpyed [in]
 
@@ -64,21 +64,20 @@ Indicates whether the block of memory was allocated while the current spy was ac
 
 ## -returns
 
-The value returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>, which is the size of the allocated block of memory, in bytes.
+The value returned by <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>, which is the size of the allocated block of memory, in bytes.
 
 ## -remarks
 
-The size determined by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a> is the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsize">HeapSize</a> function. This is the size originally requested. For example, a memory allocation request of 27 bytes returns an allocation of 32 bytes and <b>GetSize</b> returns 27.
+The size determined by <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a> is the value returned by the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapsize">HeapSize</a> function. This is the size originally requested. For example, a memory allocation request of 27 bytes returns an allocation of 32 bytes and <b>GetSize</b> returns 27.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-pregetsize">IMallocSpy::PreGetSize</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-pregetsize">IMallocSpy::PreGetSize</a>

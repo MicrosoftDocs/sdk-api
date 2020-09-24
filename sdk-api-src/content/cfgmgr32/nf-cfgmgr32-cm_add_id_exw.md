@@ -52,9 +52,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_idw">CM_Add_ID</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_idw">CM_Add_ID</a> instead.]
 
-The <b>CM_Add_ID_Ex</b> function appends a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a device instance's <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list, on either the local or a remote machine.
+The <b>CM_Add_ID_Ex</b> function appends a <a href="/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a device instance's <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list, on either the local or a remote machine.
 
 ## -parameters
 
@@ -114,19 +114,18 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-Each appended device ID is considered less compatible than IDs already existing in the specified list. For information about device IDs, hardware IDs, and compatible IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>. 
+Each appended device ID is considered less compatible than IDs already existing in the specified list. For information about device IDs, hardware IDs, and compatible IDs, see <a href="/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>. 
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
-For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>.
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>.
 
 Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_idw">CM_Add_ID</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_idw">CM_Add_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>

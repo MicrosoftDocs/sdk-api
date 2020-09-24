@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_KEYMODULE_STATISTICS0</b> structure contains various statistics specific to the keying module.
-[IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1) is available.</div><div> </div>
+[IKEEXT_KEYMODULE_STATISTICS1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -86,4 +86,3 @@ Current Quick Mode negotiation time.
 ### -field extendedModeNegotiationTime
 
 Current Extended Mode negotiation time.  This member is applicable for Authip only.
-

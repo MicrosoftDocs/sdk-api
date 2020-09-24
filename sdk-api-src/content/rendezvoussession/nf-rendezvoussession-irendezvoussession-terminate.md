@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Terminates the remote <a href="https://docs.microsoft.com/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
+Terminates the remote <a href="/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ Application data.
 ## -returns
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

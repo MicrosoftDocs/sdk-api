@@ -56,7 +56,7 @@ The <b>EngHangNotification</b> function notifies the system that a specified dev
 
 ### -param hdev
 
-Handle to the physical device that has stopped. This parameter is the GDI handle received by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> entry point.
+Handle to the physical device that has stopped. This parameter is the GDI handle received by the driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> entry point.
 
 ### -param Reserved
 
@@ -101,9 +101,8 @@ A driver should make this call any time it detects that the hardware is inoperab
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvresetdevice">DrvResetDevice</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvresetdevice">DrvResetDevice</a>

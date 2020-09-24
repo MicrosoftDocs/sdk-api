@@ -58,12 +58,12 @@ Enables an application to receive notification when an event is written to the s
 ### -param hEventLog [in]
 
 A handle to an event log. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>  function returns this handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>  function returns this handle.
 
 ### -param hEvent [in]
 
 A handle to a manual-reset or auto-reset event object. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create the event object.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create the event object.
 
 ## -returns
 
@@ -71,44 +71,43 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
 <b>NotifyChangeEventLog</b> function does not work with remote handles. If the <i>hEventLog</i> parameter is the handle to an event log on a remote computer, <b>NotifyChangeEventLog</b> returns zero, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_HANDLE</b>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_HANDLE</b>.
 
-If the thread is not waiting on the event when the system calls <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a>, the thread will not receive the notification. Therefore, you should create a separate thread to wait for notifications.
+If the thread is not waiting on the event when the system calls <a href="/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a>, the thread will not receive the notification. Therefore, you should create a separate thread to wait for notifications.
 
 The system will continue to notify you of changes until you close the handle to the event log. To close the event log, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deregistereventsource">DeregisterEventSource</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-deregistereventsource">DeregisterEventSource</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/EventLog/receiving-event-notification">Receiving Event Notification</a>.
+For an example, see <a href="/windows/desktop/EventLog/receiving-event-notification">Receiving Event Notification</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deregistereventsource">DeregisterEventSource</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-deregistereventsource">DeregisterEventSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
+<a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Enumerates through a 
    set of VDS objects of a given type. Objects can be providers, subsystems, controllers, LUNs, LUN plexes, drives, 
@@ -59,7 +59,7 @@ Enumerates through a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumVdsObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumVdsObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumVdsObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumVdsObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IEnumVdsObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-clone">Clone</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates an enumeration with the same state as the current enumeration.
@@ -83,7 +83,7 @@ Creates an enumeration with the same state as the current enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-next">Next</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-next">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next object in the enumeration, beginning from the current point.
@@ -92,7 +92,7 @@ Returns the next object in the enumeration, beginning from the current point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-reset">Reset</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration.
@@ -101,7 +101,7 @@ Resets to the beginning of the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-skip">Skip</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of objects in the enumeration.
@@ -112,13 +112,12 @@ Skips a specified number of objects in the enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/helper-objects">Helper Objects</a>
+<a href="/windows/desktop/VDS/helper-objects">Helper Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/working-with-enumeration-objects">Working with Enumeration Objects</a>
-
+<a href="/windows/desktop/VDS/working-with-enumeration-objects">Working with Enumeration Objects</a>

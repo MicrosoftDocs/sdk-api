@@ -59,7 +59,7 @@ Removes a stream from the stream priority list.
 
 ### -param dwStreamIndex [in]
 
-Index of the entry in the stream priority list to remove. Values range from zero, to one less than the stream count retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-getstreamcount">IMFASFStreamPrioritization::GetStreamCount</a>.
+Index of the entry in the stream priority list to remove. Values range from zero, to one less than the stream count retrieved by calling <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-getstreamcount">IMFASFStreamPrioritization::GetStreamCount</a>.
 
 ## -returns
 
@@ -89,5 +89,4 @@ When a stream is removed from the stream priority list, the index values of all 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamprioritization">IMFASFStreamPrioritization</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamprioritization">IMFASFStreamPrioritization</a>

@@ -58,38 +58,38 @@ Provides information about a single property of the event or filter.
 
 ### -field Flags
 
-Flags that indicate if the property is contained in a structure or array. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PROPERTY_FLAGS</a> enumeration.
+Flags that indicate if the property is contained in a structure or array. For possible values, see the <a href="/windows/desktop/api/tdh/ne-tdh-property_flags">PROPERTY_FLAGS</a> enumeration.
 
 ### -field NameOffset
 
-Offset to a null-terminated Unicode string that contains the name of the property. If this an event property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure. If this is a filter property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
+Offset to a null-terminated Unicode string that contains the name of the property. If this an event property, the offset is from the beginning of the <a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure. If this is a filter property, the offset is from the beginning of the <a href="/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
 
 ### -field nonStructType
 
-Use these members if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyStruct</a> flag in <b>Flags</b> is not set; otherwise, use the <b>structType</b> member.
+Use these members if the <a href="/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyStruct</a> flag in <b>Flags</b> is not set; otherwise, use the <b>structType</b> member.
 
 ### -field nonStructType.InType
 
-Data type of this property on input. For a description of these types, see Remarks in  <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-inputtype-complextype">InputType</a>.
+Data type of this property on input. For a description of these types, see Remarks in  <a href="/windows/desktop/WES/eventmanifestschema-inputtype-complextype">InputType</a>.
 
-For descriptions of these types, see <a href="https://docs.microsoft.com/windows/desktop/ETW/event-tracing-mof-qualifiers">Event Tracing MOF Qualifiers</a>.
+For descriptions of these types, see <a href="/windows/desktop/ETW/event-tracing-mof-qualifiers">Event Tracing MOF Qualifiers</a>.
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
 
 ### -field nonStructType.OutType
 
-Output format for this property. If the value is TDH_OUTTYPE_NULL, use the in type  as the output format. For a description of these types, see Remarks in <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-inputtype-complextype">InputType</a>.
+Output format for this property. If the value is TDH_OUTTYPE_NULL, use the in type  as the output format. For a description of these types, see Remarks in <a href="/windows/desktop/WES/eventmanifestschema-inputtype-complextype">InputType</a>.
 
-For descriptions of these types, see <a href="https://docs.microsoft.com/windows/desktop/ETW/event-tracing-mof-qualifiers">Event Tracing MOF Qualifiers</a>.
+For descriptions of these types, see <a href="/windows/desktop/ETW/event-tracing-mof-qualifiers">Event Tracing MOF Qualifiers</a>.
 
 ### -field nonStructType.MapNameOffset
 
-Offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure to a null-terminated Unicode string that contains the name of the map attribute value. You can pass this string to <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a> to retrieve information about the value map.
+Offset from the beginning of the <a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure to a null-terminated Unicode string that contains the name of the map attribute value. You can pass this string to <a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a> to retrieve information about the value map.
 
 ### -field structType
 
-Use these members if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyStruct</a> flag in <b>Flags</b> is set; otherwise, use the <b>nonStructType</b> member.
+Use these members if the <a href="/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyStruct</a> flag in <b>Flags</b> is set; otherwise, use the <b>nonStructType</b> member.
 
 ### -field structType.StructStartIndex
 
@@ -113,9 +113,9 @@ This value is not used for <b>customSchemaType</b>. For compatibility with decod
 
 ### -field customSchemaType.OutType
 
-Output format for this property. If the value is TDH_OUTTYPE_NULL, use the in type  as the output format. For a description of these types, see Remarks in <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-inputtype-complextype">InputType</a>.
+Output format for this property. If the value is TDH_OUTTYPE_NULL, use the in type  as the output format. For a description of these types, see Remarks in <a href="/windows/desktop/WES/eventmanifestschema-inputtype-complextype">InputType</a>.
 
-For descriptions of these types, see <a href="https://docs.microsoft.com/windows/desktop/ETW/event-tracing-mof-qualifiers">Event Tracing MOF Qualifiers</a>.
+For descriptions of these types, see <a href="/windows/desktop/ETW/event-tracing-mof-qualifiers">Event Tracing MOF Qualifiers</a>.
 
 ### -field customSchemaType.CustomSchemaOffset
 
@@ -127,7 +127,7 @@ Number of elements in the array. Note that this value is 1 for properties that a
 
 ### -field countPropertyIndex
 
-Zero-based index to the element of the property array that contains the number of elements in the array. Use this member if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyParamCount</a> flag in <b>Flags</b> is set; otherwise, use the <b>count</b> member.
+Zero-based index to the element of the property array that contains the number of elements in the array. Use this member if the <a href="/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyParamCount</a> flag in <b>Flags</b> is set; otherwise, use the <b>count</b> member.
 
 ### -field length
 
@@ -135,7 +135,7 @@ Size of the property, in bytes. Note that variable-sized types such as strings a
 
 ### -field lengthPropertyIndex
 
-Zero-based index to the element of the property array that contains the size value of this property. Use this member if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyParamLength</a> flag in <b>Flags</b> is set; otherwise, use the <b>length</b> member.
+Zero-based index to the element of the property array that contains the size value of this property. Use this member if the <a href="/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyParamLength</a> flag in <b>Flags</b> is set; otherwise, use the <b>length</b> member.
 
 ### -field Reserved
 
@@ -151,9 +151,8 @@ Filters do not support maps, structures, or arrays.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a>
+<a href="/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
-
+<a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>

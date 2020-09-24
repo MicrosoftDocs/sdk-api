@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/dpi-compensation">DPI compensation effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/dpi-compensation">DPI compensation effect</a>.
 
 ## -enum-fields
 
@@ -59,7 +59,7 @@ Identifiers for properties of the <a href="https://docs.microsoft.com/windows/de
 The interpolation mode the effect uses to scale the image.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_dpicompensation_interpolation_mode">D2D1_DPICOMPENSATION_INTERPOLATION_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_dpicompensation_interpolation_mode">D2D1_DPICOMPENSATION_INTERPOLATION_MODE</a>.
 
 The default value is D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR.
 
@@ -68,7 +68,7 @@ The default value is D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR.
 The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 
@@ -82,4 +82,3 @@ The type is FLOAT.
 The default value is 96.0f.
 
 ### -field D2D1_DPICOMPENSATION_PROP_FORCE_DWORD
-

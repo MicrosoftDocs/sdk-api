@@ -83,9 +83,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-To retrieve an IIS object, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> using the VT_DISPATCH member of the returned <b>VARIANT</b> for the interface to the IIS object (for example, IResponse for the Response object).
+To retrieve an IIS object, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> using the VT_DISPATCH member of the returned <b>VARIANT</b> for the interface to the IIS object (for example, IResponse for the Response object).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icontextproperties">IContextProperties</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextproperties">IContextProperties</a>

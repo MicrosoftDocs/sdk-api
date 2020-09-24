@@ -58,7 +58,7 @@ The <code>Seek</code> method seeks all of the media streams to a new position.
 
 ### -param SeekTime [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/stream-time">STREAM_TIME</a> value that specifies the new position.
+<a href="/windows/desktop/DirectShow/stream-time">STREAM_TIME</a> value that specifies the new position.
 
 ## -returns
 
@@ -95,9 +95,8 @@ Success.
 
 ## -remarks
 
-To determine whether the media streams support seeking, call the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getinformation">IMultiMediaStream::GetInformation</a> method.
+To determine whether the media streams support seeking, call the <a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getinformation">IMultiMediaStream::GetInformation</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>

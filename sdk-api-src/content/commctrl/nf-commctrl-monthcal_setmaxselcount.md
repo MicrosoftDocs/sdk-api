@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setmaxselcount">MCM_SETMAXSELCOUNT</a> message explicitly.
+Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-setmaxselcount">MCM_SETMAXSELCOUNT</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
 ### -param n
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value of type <b>int</b> that will be set to represent the maximum number of days that can be selected.
-

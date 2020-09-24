@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>GetCertificateExtensionFlags</b> method retrieves the  flags associated with the extension acquired by the most recent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>.
 
 ## -parameters
 
@@ -63,16 +63,16 @@ A pointer to a <b>LONG</b> variable that contains the extension flags.
 ## -returns
 
 <h3>C++</h3>
- If the method succeeds, the method returns S_OK, and the <i>pExtFlags</i> parameter contains the flags from the extension acquired by the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>.
+ If the method succeeds, the method returns S_OK, and the <i>pExtFlags</i> parameter contains the flags from the extension acquired by the most recent call to <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is the flags from the extension acquired by the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>.
+ The return value is the flags from the extension acquired by the most recent call to <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a> methods must be called before <b>GetCertificateExtensionFlags</b>. The <b>SetContext</b> method specifies which request is used as the current context, and the <b>GetCertificateExtension</b> method retrieves the extensions for the request.
+The <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> and <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a> methods must be called before <b>GetCertificateExtensionFlags</b>. The <b>SetContext</b> method specifies which request is used as the current context, and the <b>GetCertificateExtension</b> method retrieves the extensions for the request.
 
 Extensions can contain policy and origin flags. Policy flags provide information about the certificate extension. Policy flags can be set by the policy module. Origin flags indicate the module that set the certificate extension. Origin flags are only set by the server engine.
 
@@ -110,7 +110,7 @@ One of the following origin flags can also be returned.<table>
 <tr>
 <td>EXTENSION_ORIGIN_ADMIN</td>
 <td>The administrator set the extension. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-setcertificateextension">ICertAdmin::SetCertificateExtension</a>.</td>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-setcertificateextension">ICertAdmin::SetCertificateExtension</a>.</td>
 </tr>
 <tr>
 <td>EXTENSION_ORIGIN_SERVER</td>
@@ -123,7 +123,7 @@ One of the following origin flags can also be returned.<table>
 <tr>
 <td>EXTENSION_ORIGIN_IMPORTEDCERT</td>
 <td>The extension was extracted from an imported certificate (the certificate was passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-importcertificate">ICertAdmin::ImportCertificate</a>).</td>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-importcertificate">ICertAdmin::ImportCertificate</a>).</td>
 </tr>
 <tr>
 <td>EXTENSION_ORIGIN_PKCS7</td>
@@ -199,21 +199,20 @@ switch (ExtFlags & EXTENSION_ORIGIN_MASK)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-setcertificateextension">ICertAdmin::SetCertificateExtension</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-setcertificateextension">ICertAdmin::SetCertificateExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">ICertServerPolicy::GetCertificateExtension</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">ICertServerPolicy::GetCertificateExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getflags">IEnumCERTVIEWEXTENSION::GetFlags</a>
-
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getflags">IEnumCERTVIEWEXTENSION::GetFlags</a>

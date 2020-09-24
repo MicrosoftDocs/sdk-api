@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Allows a media source to create a <a href="https://docs.microsoft.com/windows/desktop/WinRT/reference">Windows Runtime</a> object in the <a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a> (PMP) process.
+Allows a media source to create a <a href="/windows/desktop/WinRT/reference">Windows Runtime</a> object in the <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a> (PMP) process.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPHostApp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPHostApp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPHostApp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPHostApp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFPMPHostApp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphostapp-activateclassbyid">ActivateClassById</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmphostapp-activateclassbyid">ActivateClassById</a>
 </td>
 <td align="left" width="63%">
 Runtime class of the Windows Runtime object to create.
@@ -78,7 +78,7 @@ Runtime class of the Windows Runtime object to create.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphostapp-lockprocess">LockProcess</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmphostapp-lockprocess">LockProcess</a>
 </td>
 <td align="left" width="63%">
 Blocks the PMP process from ending.
@@ -87,7 +87,7 @@ Blocks the PMP process from ending.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphostapp-unlockprocess">UnlockProcess</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmphostapp-unlockprocess">UnlockProcess</a>
 </td>
 <td align="left" width="63%">
 Decrements the lock count on the PMP process.
@@ -98,13 +98,12 @@ Decrements the lock count on the PMP process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
+<a href="/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-
+<a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>

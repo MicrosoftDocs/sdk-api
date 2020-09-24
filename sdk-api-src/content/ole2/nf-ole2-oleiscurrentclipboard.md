@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Determines whether the data object pointer previously placed on the clipboard by the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function is still on the clipboard.
+Determines whether the data object pointer previously placed on the clipboard by the <a href="/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function is still on the clipboard.
 
 ## -parameters
 
 ### -param pDataObj [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object containing clipboard data of interest, which the caller previously placed on the clipboard.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object containing clipboard data of interest, which the caller previously placed on the clipboard.
 
 ## -returns
 
@@ -87,13 +87,12 @@ The specified pointer is not on the clipboard.
 
 ## -remarks
 
-<b>OleIsCurrentClipboard</b> only works for the data object used in the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function. It cannot be called by the consumer of the data object to determine if the object that was on the clipboard at the previous <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegetclipboard">OleGetClipboard</a> call is still on the clipboard.
+<b>OleIsCurrentClipboard</b> only works for the data object used in the <a href="/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function. It cannot be called by the consumer of the data object to determine if the object that was on the clipboard at the previous <a href="/windows/desktop/api/ole2/nf-ole2-olegetclipboard">OleGetClipboard</a> call is still on the clipboard.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a>

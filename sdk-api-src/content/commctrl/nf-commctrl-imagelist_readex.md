@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Reads an image list from a stream, and returns an <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a> interface to the image list.
+Reads an image list from a stream, and returns an <a href="/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a> interface to the image list.
 
 ## -parameters
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A flag that specifies how the stream is read.
 
@@ -111,27 +111,26 @@ The address of a pointer to the interface for the image list if successful, <b>N
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_read">ImageList_Read</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_read">ImageList_Read</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_write">ImageList_Write</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_write">ImageList_Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_writeex">ImageList_WriteEx</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_writeex">ImageList_WriteEx</a>
 
 
 
 <b>Reference</b>
-

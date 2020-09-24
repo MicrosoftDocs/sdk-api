@@ -74,7 +74,7 @@ The name of the axis, specified as an array of characters.
 
 ## -remarks
 
-The <b>AXISINFO</b> structure contains the name of an axis in a multiple master font and also the minimum and maximum possible values for the axis. The length of the name is MM_MAX_AXES_NAMELEN, which equals 16. An application queries these values before setting its desired values in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a> array.
+The <b>AXISINFO</b> structure contains the name of an axis in a multiple master font and also the minimum and maximum possible values for the axis. The length of the name is MM_MAX_AXES_NAMELEN, which equals 16. An application queries these values before setting its desired values in the <a href="/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a> array.
 
 The PostScript Open Type Font does not support multiple master functionality.
 
@@ -89,17 +89,16 @@ For the ANSI version of this structure, <b>axAxisName</b> must be an array of by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>

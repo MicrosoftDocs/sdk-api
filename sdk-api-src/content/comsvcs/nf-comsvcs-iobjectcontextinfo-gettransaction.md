@@ -56,7 +56,7 @@ Retrieves a reference to the current transaction. You can use this reference to 
 
 ### -param pptrans [out]
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the transaction that is currently executing. You can then <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get the <b>ITransaction</b> interface for the current transaction.
+A reference to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the transaction that is currently executing. You can then <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get the <b>ITransaction</b> interface for the current transaction.
 
 ## -returns
 
@@ -94,5 +94,4 @@ The object is not executing in a transaction. The <i>pptrans</i> parameter is <b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>

@@ -74,5 +74,4 @@ Automatic Updates  automatically downloads updates, but  prompts users to approv
 
 ### -field aunlScheduledInstallation
 
-Automatic Updates  automatically installs updates according to the schedule that is specified by the user or by the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationday">IAutomaticUpdatesSettings.ScheduledInstallationDay</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationtime">IAutomaticUPdatesSettings.ScheduledInstallationTime</a> properties. This setting is the recommended setting.
-
+Automatic Updates  automatically installs updates according to the schedule that is specified by the user or by the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationday">IAutomaticUpdatesSettings.ScheduledInstallationDay</a> and <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationtime">IAutomaticUPdatesSettings.ScheduledInstallationTime</a> properties. This setting is the recommended setting.

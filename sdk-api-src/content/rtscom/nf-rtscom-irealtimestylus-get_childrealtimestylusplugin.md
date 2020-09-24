@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Gets or sets a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object as an asynchronous plug-in of the current <b>RealTimeStylus</b> object.
+Gets or sets a <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object as an asynchronous plug-in of the current <b>RealTimeStylus</b> object.
 
 
 
@@ -68,35 +68,34 @@ If there is no child RTS, getting the property returns S_OK with the <i>ppiRTS</
 
 <div class="alert"><b>Note</b>  If there is no child RTS, setting the property to <b>NULL</b> returns S_OK.</div>
 <div> </div>
-A child <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> cannot have another cascaded child <b>RealTimeStylus</b>.
+A child <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> cannot have another cascaded child <b>RealTimeStylus</b>.
 
 Plug-ins in the asynchronous collection cannot have children.
 
-If a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object is set as a child by using the <b>IRealTimeStylus::ChildRealTimeStylusPlugin Property</b> property, no other asynchronous plug-ins can be added to the parent <b>RealTimeStylus</b>. The depth and breadth of the chain is limited to one child <b>RealTimeStylus</b> object. A child <b>RealTimeStylus</b> can have asynchronous plug-ins.
+If a <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object is set as a child by using the <b>IRealTimeStylus::ChildRealTimeStylusPlugin Property</b> property, no other asynchronous plug-ins can be added to the parent <b>RealTimeStylus</b>. The depth and breadth of the chain is limited to one child <b>RealTimeStylus</b> object. A child <b>RealTimeStylus</b> can have asynchronous plug-ins.
 
-With the exception of <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylusasyncplugincount">IRealTimeStylus::GetStylusAsyncPluginCount Method</a>, the asynchronous plug-in methods, such as <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-addstylusasyncplugin">IRealTimeStylus::AddStylusAsyncPlugin Method</a>, return E_INVALIDOPERATION when called on a parent <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a>.
+With the exception of <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylusasyncplugincount">IRealTimeStylus::GetStylusAsyncPluginCount Method</a>, the asynchronous plug-in methods, such as <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-addstylusasyncplugin">IRealTimeStylus::AddStylusAsyncPlugin Method</a>, return E_INVALIDOPERATION when called on a parent <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylusasyncplugin">IRealTimeStylus::GetStylusAsyncPlugin Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylusasyncplugin">IRealTimeStylus::GetStylusAsyncPlugin Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removeallstylusasyncplugins">IRealTimeStylus::RemoveAllStylusAsyncPlugins Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removeallstylusasyncplugins">IRealTimeStylus::RemoveAllStylusAsyncPlugins Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusasyncplugin">IRealTimeStylus::RemoveStylusAsyncPlugin Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusasyncplugin">IRealTimeStylus::RemoveStylusAsyncPlugin Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

@@ -50,25 +50,25 @@ api_name:
 
 ## -description
 
-Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a>, <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>, and so forth, although it is not guaranteed to be.
+Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a>, <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>, and so forth, although it is not guaranteed to be.
 
 ## -parameters
 
 ### -param pdwWidth [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 The width, in client coordinates.
 
 ### -param pdwHeight [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 The height (in client coordinates).
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, the return value is an <b>HRESULT</b> code.
 
@@ -82,11 +82,11 @@ This method can free the host from the need to maintain the cached drawing size 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">OnTxSetCursor</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">OnTxSetCursor</a>
 
 
 
@@ -94,9 +94,8 @@ This method can free the host from the need to maintain the cached drawing size 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">TxDraw</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">TxDraw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

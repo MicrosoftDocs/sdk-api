@@ -87,7 +87,7 @@ Specifies the number of bits per pixel (bpp). For uncompressed formats, this val
 
 ### -field biCompression
 
-For compressed video and YUV formats, this member is a FOURCC code, specified as a <b>DWORD</b> in little-endian order. For example, YUYV video has the FOURCC 'VYUY' or 0x56595559. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/fourcc-codes">FOURCC Codes</a>.
+For compressed video and YUV formats, this member is a FOURCC code, specified as a <b>DWORD</b> in little-endian order. For example, YUYV video has the FOURCC 'VYUY' or 0x56595559. For more information, see <a href="/windows/desktop/DirectShow/fourcc-codes">FOURCC Codes</a>.
 
 For uncompressed RGB formats, the following values are possible:
 
@@ -121,7 +121,7 @@ Uncompressed RGB with color masks. Valid for 16-bpp and 32-bpp bitmaps.
 
 See Remarks for more information. Note that <b>BI_JPG</b> and <b>BI_PNG</b> are not valid video formats.
 
-For 16-bpp bitmaps, if <b>biCompression</b> equals <b>BI_RGB</b>, the format is always RGB 555. If <b>biCompression</b> equals <b>BI_BITFIELDS</b>, the format is either RGB 555 or RGB 565. Use the subtype GUID in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure to determine the specific RGB type.
+For 16-bpp bitmaps, if <b>biCompression</b> equals <b>BI_RGB</b>, the format is always RGB 555. If <b>biCompression</b> equals <b>BI_BITFIELDS</b>, the format is either RGB 555 or RGB 565. Use the subtype GUID in the <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure to determine the specific RGB type.
 
 ### -field biSizeImage
 
@@ -153,14 +153,14 @@ The <b>BITMAPINFOHEADER</b> structure may be followed by an array of palette ent
 <li>If <b>biCompression</b> equals <b>BI_BITFIELDS</b>, the bitmap uses three <b>DWORD</b> color masks (red, green, and blue, respectively), which specify the byte layout of the pixels. The 1 bits in each mask indicate the bits for that color within the pixel.</li>
 <li>If <b>biCompression</b> is a video FOURCC, the presence of a color table is implied by the video format. You should not assume that a color table exists when the bit depth is 8 bpp or less. However, some legacy components might assume that a color table is present. Therefore, if you are allocating a <b>BITMAPINFOHEADER</b> structure, it is recommended to allocate space for a color table when the bit depth is 8 bpp or less, even if the color table is not used.</li>
 </ul>
-When the <b>BITMAPINFOHEADER</b> is followed by a color table or a set of color masks, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure to reference the color table of the color masks. The <b>BITMAPINFO</b> structure is defined as follows:
+When the <b>BITMAPINFOHEADER</b> is followed by a color table or a set of color masks, you can use the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure to reference the color table of the color masks. The <b>BITMAPINFO</b> structure is defined as follows:
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct tagBITMAPINFO {
     BITMAPINFOHEADER bmiHeader;
     RGBQUAD          bmiColors[1];
 } BITMAPINFO;
 </code></pre>
-If you cast the <b>BITMAPINFOHEADER</b> to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>, the <b>bmiHeader</b> member refers to the <b>BITMAPINFOHEADER</b> and the <b>bmiColors</b> member refers to the first entry in the color table, or the first color mask.
+If you cast the <b>BITMAPINFOHEADER</b> to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>, the <b>bmiHeader</b> member refers to the <b>BITMAPINFOHEADER</b> and the <b>bmiColors</b> member refers to the first entry in the color table, or the first color mask.
 
 Be aware that if the bitmap uses a color table or color masks, then the size of the entire format structure (the <b>BITMAPINFOHEADER</b> plus the color information) is not equal to <code>sizeof(BITMAPINFOHEADER)</code> or <code>sizeof(BITMAPINFO)</code>. You must calculate the actual size for each instance.
 
@@ -171,31 +171,30 @@ For uncompressed RGB formats, the minimum stride is always the image width in by
 
 <code>stride = ((((biWidth * biBitCount) + 31) &amp; ~31) &gt;&gt; 3)</code>
 
-For YUV formats, there is no general rule for calculating the minimum stride. You must understand the rules for the particular YUV format. For a description of the most common YUV formats, see <a href="https://docs.microsoft.com/windows/desktop/medfound/recommended-8-bit-yuv-formats-for-video-rendering">Recommended 8-Bit YUV Formats for Video Rendering</a>.
+For YUV formats, there is no general rule for calculating the minimum stride. You must understand the rules for the particular YUV format. For a description of the most common YUV formats, see <a href="/windows/desktop/medfound/recommended-8-bit-yuv-formats-for-video-rendering">Recommended 8-Bit YUV Formats for Video Rendering</a>.
 
 Decoders and video sources should propose formats where biWidth is the width of the image in pixels. If the video renderer requires a surface stride that is larger than the default image stride, it modifies the proposed media type by setting the following values:
 
 <ul>
 <li>It sets <b>biWidth</b> equal to the surface stride in pixels.</li>
-<li>It sets the <b>rcTarget</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure equal to the image width, in pixels.</li>
+<li>It sets the <b>rcTarget</b> member of the <a href="/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> or <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure equal to the image width, in pixels.</li>
 </ul>
-Then the video renderer proposes the modified format by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the upstream pin. For more information about this mechanism, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>.
+Then the video renderer proposes the modified format by calling <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the upstream pin. For more information about this mechanism, see <a href="/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>.
 
 If there is padding in the image buffer, never dereference a pointer into the memory that has been reserved for the padding. If the image buffer has been allocated in video memory, the padding might not be readable memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER Structure</a>
+<a href="/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER2 Structure</a>
+<a href="/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER2 Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-video-frames">Working with Video Frames</a>
-
+<a href="/windows/desktop/DirectShow/working-with-video-frames">Working with Video Frames</a>

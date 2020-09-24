@@ -54,7 +54,7 @@ Defines a messaging object used by a fax client application to compose a fax doc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDocument2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>. <b>IFaxDocument2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDocument2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>. <b>IFaxDocument2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IFaxDocument2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument2-connectedsubmit2-vb">ConnectedSubmit2</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument2-connectedsubmit2-vb">ConnectedSubmit2</a>
 </td>
 <td align="left" width="63%">
-Submits one or more fax documents to the connected <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>. This method returns an array of fax job ID strings, one for each recipient of the fax.
+Submits one or more fax documents to the connected <a href="/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>. This method returns an array of fax job ID strings, one for each recipient of the fax.
 
 
 
@@ -83,7 +83,7 @@ Submits one or more fax documents to the connected <a href="https://docs.microso
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument2-submit2-vb">Submit2</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument2-submit2-vb">Submit2</a>
 </td>
 <td align="left" width="63%">
 Submits one or more documents to the fax service for processing.
@@ -105,7 +105,7 @@ Submits one or more documents to the fax service for processing.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument2-bodies-vb">Bodies</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument2-bodies-vb">Bodies</a>
 
 
 </td>
@@ -125,7 +125,7 @@ Provides a collection of one or more documents to the fax document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument2-submissionid-vb">SubmissionId</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument2-submissionid-vb">SubmissionId</a>
 
 
 </td>
@@ -146,13 +146,12 @@ Retrieves the submission identifier for the fax document. Every job in a given b
 
 ## -remarks
 
-A default implementation of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a> and <b>IFaxDocument2</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a> object.
+A default implementation of <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a> and <b>IFaxDocument2</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>

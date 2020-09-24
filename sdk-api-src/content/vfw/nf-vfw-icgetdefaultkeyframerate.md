@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICGetDefaultKeyFrameRate</b> macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getdefaultkeyframerate">ICM_GETDEFAULTKEYFRAMERATE</a> message.
+The <b>ICGetDefaultKeyFrameRate</b> macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-getdefaultkeyframerate">ICM_GETDEFAULTKEYFRAMERATE</a> message.
 
 ## -parameters
 
@@ -69,9 +69,8 @@ The <b>ICGetDefaultKeyFrameRate</b> macro returns the default key frame rate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

@@ -72,9 +72,8 @@ The process ID of the process from which the memory was allocated.
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shallocshared">SHAllocShared</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shallocshared">SHAllocShared</a>

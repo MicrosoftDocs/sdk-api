@@ -56,7 +56,7 @@ The <b>DrvEscape</b> function is used for retrieving information from a device t
 
 ### -param pso [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface to which the call is directed.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface to which the call is directed.
 
 ### -param iEsc [in]
 
@@ -84,7 +84,7 @@ The return value is dependent on the query specified by the <i>iEsc</i> paramete
 
 ## -remarks
 
-Drawing on the device is not allowed in this function. <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdrawescape">DrvDrawEscape</a> is to be used for specialized drawing support.
+Drawing on the device is not allowed in this function. <a href="/windows/desktop/api/winddi/nf-winddi-drvdrawescape">DrvDrawEscape</a> is to be used for specialized drawing support.
 
 GDI passes data directly from a (possibly malicious) client application to the driver, which means that the <b>DrvEscape</b> function must validate all input arguments. Specifically, this function must:
 
@@ -112,9 +112,8 @@ Microsoft reserves the range 0 to 0X10000 for its escape codes. Third-party vend
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdrawescape">DrvDrawEscape</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvdrawescape">DrvDrawEscape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>

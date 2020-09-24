@@ -55,7 +55,7 @@ The <b>IAMVideoControl</b> interface controls certain video capture operations s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAMVideoControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getcaps">GetCaps</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getcaps">GetCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the underlying hardware.
@@ -79,7 +79,7 @@ Retrieves the capabilities of the underlying hardware.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getcurrentactualframerate">GetCurrentActualFrameRate</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getcurrentactualframerate">GetCurrentActualFrameRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the actual frame rate at which the device is streaming. This method is used with devices, such as the Universal Serial Bus (USB) or cameras that use the IEEE 1394 serial standard, where the maximum frame rate can be limited by bandwidth availability. This is only available during video streaming.
@@ -88,7 +88,7 @@ Retrieves the actual frame rate at which the device is streaming. This method is
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getframeratelist">GetFrameRateList</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getframeratelist">GetFrameRateList</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of available frame rates.
@@ -97,7 +97,7 @@ Retrieves a list of available frame rates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getmaxavailableframerate">GetMaxAvailableFrameRate</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getmaxavailableframerate">GetMaxAvailableFrameRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum frame rate currently available based on bus bandwidth usage for connections such as USB and IEEE 1394 camera devices where the maximum frame rate can be limited by bandwidth availability.
@@ -106,7 +106,7 @@ Retrieves the maximum frame rate currently available based on bus bandwidth usag
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getmode">GetMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getmode">GetMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the video control mode of operation.
@@ -115,7 +115,7 @@ Retrieves the video control mode of operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-setmode">SetMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-setmode">SetMode</a>
 </td>
 <td align="left" width="63%">
 Sets the video control mode of operation.
@@ -126,9 +126,8 @@ Sets the video control mode of operation.
 
 ## -remarks
 
-For Windows Driver Model (WDM) devices, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-videocontrol">PROPSETID_VIDCAP_VIDEOCONTROL</a> property set. For more information, see the <a href="https://msdn.microsoft.com/library/ff554690(VS.85).aspx">Windows Driver Kit (WDK)</a> documentation.
+For Windows Driver Model (WDM) devices, the <a href="/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videocontrol">PROPSETID_VIDCAP_VIDEOCONTROL</a> property set. For more information, see the <a href="/windows-hardware/drivers/gettingstarted/">Windows Driver Kit (WDK)</a> documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

@@ -59,11 +59,11 @@ Retrieves the glyph indexes of the Unicode characters in a string according to e
 
 ### -param hdc [in]
 
-Optional. Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
+Optional. Handle to the device context. For more information, see <a href="/windows/desktop/Intl/caching">Caching</a>.
 
 ### -param psc [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
+Pointer to a <a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
 
 ### -param pwcInChars [in]
 
@@ -120,40 +120,39 @@ Returns S_OK if all Unicode code points are present in the font. The function re
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
+See <a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
-This function can be used to determine the characters in a run that are supported by the selected font. The application can scan the retrieved glyph buffer, looking for the default glyph to determine characters that are not available. The application should determine the default glyph index for the selected font by calling <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>.
+This function can be used to determine the characters in a run that are supported by the selected font. The application can scan the retrieved glyph buffer, looking for the default glyph to determine characters that are not available. The application should determine the default glyph index for the selected font by calling <a href="/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>.
 
 The return value for this function indicates the presence of any missing glyphs.
 
 <div class="alert"><b>Note</b>  The function assumes a 1:1 relationship between the elements in the input and output arrays. However, the function does not support this relationship for UTF-16 surrogate pairs. For a surrogate pair, the function does not retrieve the glyph index for the supplementary-plane character. Similarly, the function does not support Unicode Variation-Selector (VS) sequences, each of which consists of a Unicode graphic character followed by one of a set of VARIATION SELECTOR characters to select a particular glyph representation for that graphic character. For a VS sequence, the function retrieves the glyph index for the default glyph mapped by the cmap for the two characters, instead of the glyph index for the particular glyph for the VS sequence.</div>
 <div> </div>
-Some code points can be rendered by a combination of glyphs, as well as by a single glyph, for example, 00C9; LATIN CAPITAL LETTER E WITH ACUTE. In this case, if the font supports the capital E glyph and the acute glyph, but not a single glyph for 00C9, <b>ScriptGetCMap</b> shows that 00C9 is unsupported. To determine the font support for a string that contains these kinds of code points, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>. If the function returns S_OK, the application should check the output for missing glyphs.
+Some code points can be rendered by a combination of glyphs, as well as by a single glyph, for example, 00C9; LATIN CAPITAL LETTER E WITH ACUTE. In this case, if the font supports the capital E glyph and the acute glyph, but not a single glyph for 00C9, <b>ScriptGetCMap</b> shows that 00C9 is unsupported. To determine the font support for a string that contains these kinds of code points, the application can call <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>. If the function returns S_OK, the application should check the output for missing glyphs.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
+<a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
+<a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

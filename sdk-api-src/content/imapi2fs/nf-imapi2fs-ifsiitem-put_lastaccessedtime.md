@@ -103,9 +103,8 @@ CDFS (ISO 9660) sets the <i>LastAccessedTime</i> value to 0, as only the recordi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_lastaccessedtime">IFsiItem::get_LastAccessedTime</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_lastaccessedtime">IFsiItem::get_LastAccessedTime</a>

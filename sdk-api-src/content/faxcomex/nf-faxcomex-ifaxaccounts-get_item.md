@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccount">FaxAccount</a> object from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccounts">FaxAccounts</a> collection.
+Returns a <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccount">FaxAccount</a> object from a <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccounts">FaxAccounts</a> collection.
 
 ## -parameters
 
@@ -62,9 +62,9 @@ Type: <b>VARIANT</b>
 
 ### -param pFaxAccount [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>**</b>
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccount">FaxAccount</a> object.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccount">FaxAccount</a> object.
 
 ## -returns
 
@@ -74,9 +74,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccounts-item">Item</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccounts-item">Item</a>

@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsolePowerSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConsolePowerSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsolePowerSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConsolePowerSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IConsolePowerSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolepowersink-onpowerbroadcast">OnPowerBroadcast</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsolepowersink-onpowerbroadcast">OnPowerBroadcast</a>
 </td>
 <td align="left" width="63%">
 Handles 
@@ -82,9 +82,9 @@ WM_POWERBROADCAST messages.
 
 ## -remarks
 
-To receive power management notifications, your snap-in must use the <a href="https://msdn.microsoft.com/library/26k10xyy.aspx">AtlAdvise</a> function to associate an instance of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a> interface with your implementation of the 
-<b>IConsolePowerSink</b> interface. The following code example shows how to use the <a href="https://msdn.microsoft.com/library/26k10xyy.aspx">AtlAdvise</a> function.
+To receive power management notifications, your snap-in must use the <a href="/previous-versions/26k10xyy(v=vs.140)">AtlAdvise</a> function to associate an instance of the 
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a> interface with your implementation of the 
+<b>IConsolePowerSink</b> interface. The following code example shows how to use the <a href="/previous-versions/26k10xyy(v=vs.140)">AtlAdvise</a> function.
 
 
 #### Examples
@@ -104,9 +104,9 @@ hr = AtlAdvise(m_ipConsolePower,
 ```
 
 
-When your snap-in closes or no longer requires power management notifications, call the <a href="https://msdn.microsoft.com/library/7s2bbwhc.aspx">AtlUnadvise</a> function to terminate the connection between the 
+When your snap-in closes or no longer requires power management notifications, call the <a href="/previous-versions/7s2bbwhc(v=vs.140)">AtlUnadvise</a> function to terminate the connection between the 
 IConsolePower and 
-IConsolePowerSink interfaces. The following code example shows how to use the <a href="https://msdn.microsoft.com/library/7s2bbwhc.aspx">AtlUnadvise</a> function.
+IConsolePowerSink interfaces. The following code example shows how to use the <a href="/previous-versions/7s2bbwhc(v=vs.140)">AtlUnadvise</a> function.
 
 
 ```cpp
@@ -118,5 +118,4 @@ hr = AtlUnadvise(m_ipConsolePower,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a>

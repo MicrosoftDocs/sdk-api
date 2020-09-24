@@ -139,13 +139,12 @@ These entry identifiers have meaning only for the service provider. The messagin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
-
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>

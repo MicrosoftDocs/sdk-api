@@ -52,7 +52,7 @@ api_name:
 
 Applications that use Text Services Framework call <b>IAccServerDocMgr::OnDocumentFocus</b> to notify the Microsoft Active Accessibility run time when a document gets or loses focus. The store keeps this information so that clients can access the document that has focus.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters
@@ -65,11 +65,10 @@ An interface pointer to the document getting focus.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
 ## -remarks
 
 This can be null indicating that no document has focus.
-

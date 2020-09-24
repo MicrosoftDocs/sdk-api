@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sends a request to the Task Scheduler service to run the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
+Sends a request to the Task Scheduler service to run the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 ## -parameters
 
@@ -107,24 +107,23 @@ Not enough memory is available.
 <b>Run</b> returns before the work item actually starts running.
 
 To determine whether the work item is running, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getstatus">IScheduledWorkItem::GetStatus</a>.
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getstatus">IScheduledWorkItem::GetStatus</a>.
 
 
 #### Examples
 
-For an example of how to start a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/starting-a-task-example">Starting a Task Example</a>.
+For an example of how to start a task, see <a href="/windows/desktop/TaskSchd/starting-a-task-example">Starting a Task Example</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getstatus">IScheduledWorkItem::GetStatus</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getstatus">IScheduledWorkItem::GetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>

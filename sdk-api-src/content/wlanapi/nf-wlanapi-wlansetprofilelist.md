@@ -56,7 +56,7 @@ The <b>WlanSetProfileList</b> function sets the preference order of profiles for
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
@@ -96,7 +96,7 @@ If the function fails, the return value may be one of the following return codes
 <td width="60%">
 The caller does not have sufficient permissions to change the profile list.  
 
-Before <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilelist">WlanSetProfileList</a> performs an operation that changes the relative order of all-user profiles in the profile list  or moves an all-user profile to a lower position in the profile list,  <b>WlanSetProfileList</b> retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_all_user_profiles_order</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanSetProfileList</b> returns <b>ERROR_ACCESS_DENIED</b>.
+Before <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilelist">WlanSetProfileList</a> performs an operation that changes the relative order of all-user profiles in the profile list  or moves an all-user profile to a lower position in the profile list,  <b>WlanSetProfileList</b> retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_all_user_profiles_order</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanSetProfileList</b> returns <b>ERROR_ACCESS_DENIED</b>.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Various error codes.
 
 The <b>WlanSetProfileList</b> function sets the preference order of wireless LAN profiles for a given wireless interface.
 
-The profiles in the list must be a one-to-one match with the current profiles returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a> function.  The position of group policy profiles cannot be changed.
+The profiles in the list must be a one-to-one match with the current profiles returned by the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a> function.  The position of group policy profiles cannot be changed.
 
 All wireless LAN functions require an interface GUID for the wireless interface when performing profile operations. When a wireless interface is removed, its state is cleared from Wireless LAN Service (WLANSVC)  and no profile operations are possible.
 
@@ -166,13 +166,12 @@ The <b>WlanSetProfileList</b> function can fail with <b>ERROR_INVALID_PARAMETER<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>

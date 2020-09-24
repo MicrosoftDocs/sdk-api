@@ -59,7 +59,7 @@ Gets a pointer to an interface on the VBA object.
 ### -param riid [in]
 
 Specifies the interface to retrieve. Pass <b>IID_IVBFormat</b> to retrieve a pointer to 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nn-vbinterf-ivbformat">IVBFormat</a> interface.
+      the <a href="/windows/desktop/api/vbinterf/nn-vbinterf-ivbformat">IVBFormat</a> interface.
 
 ### -param ppvObj [out]
 
@@ -77,5 +77,4 @@ This method supports the standard return values <b>E_INVALIDARG</b>,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nn-vbinterf-igetvbaobject">IGetVBAObject</a>
-
+<a href="/windows/desktop/api/vbinterf/nn-vbinterf-igetvbaobject">IGetVBAObject</a>

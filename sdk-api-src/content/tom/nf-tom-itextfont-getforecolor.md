@@ -67,13 +67,13 @@ The foreground color. It can be one of the following values.
 <th>Meaning</th>
 </tr>
 <tr>
-<td>A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value</td>
+<td>A <a href="/windows/desktop/gdi/colorref">COLORREF</a> value</td>
 <td>The high-order byte is zero, and the three low-order bytes specify an RGB color. </td>
 </tr>
 <tr>
-<td>A value returned by <a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
+<td>A value returned by <a href="/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 </td>
-<td>The high-order byte is 1, and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> specifies the index of a logical-color palette entry.</td>
+<td>The high-order byte is 1, and the <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> specifies the index of a logical-color palette entry.</td>
 </tr>
 <tr>
 <td><b>tomAutocolor</b> (-9999997)</td>
@@ -85,7 +85,7 @@ The foreground color. It can be one of the following values.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ The font object is attached to a range that has been deleted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
@@ -126,7 +126,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -134,7 +134,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
+<a href="/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 
@@ -142,9 +142,8 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setforecolor">SetForeColor</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setforecolor">SetForeColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

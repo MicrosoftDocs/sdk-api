@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>RestoreDC</b> function restores a device context (DC) to the specified state. The DC is restored by popping state information off a stack created by earlier calls to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a> function.
+The <b>RestoreDC</b> function restores a device context (DC) to the specified state. The DC is restored by popping state information off a stack created by earlier calls to the <a href="/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a> function.
 
 ## -parameters
 
@@ -74,17 +74,16 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
- Each DC maintains a stack of saved states. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a> function pushes the current state of the DC onto its stack of saved states. That state can be restored only to the same DC from which it was created. After a state is restored, the saved state is destroyed and cannot be reused. Furthermore, any states saved after the restored state was created are also destroyed and cannot be used. In other words, the <b>RestoreDC</b> function pops the restored state (and any subsequent states) from the state information stack.
+ Each DC maintains a stack of saved states. The <a href="/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a> function pushes the current state of the DC onto its stack of saved states. That state can be restored only to the same DC from which it was created. After a state is restored, the saved state is destroyed and cannot be reused. Furthermore, any states saved after the restored state was created are also destroyed and cannot be used. In other words, the <b>RestoreDC</b> function pops the restored state (and any subsequent states) from the state information stack.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a>

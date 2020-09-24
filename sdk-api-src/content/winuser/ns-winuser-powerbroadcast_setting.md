@@ -53,15 +53,15 @@ api_name:
 ## -description
 
 Sent with a power setting event and contains data about the specific change. For more 
-    information, see <a href="https://docs.microsoft.com/windows/desktop/Power/registering-for-power-events">Registering for Power 
-    Events</a> and <a href="https://docs.microsoft.com/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>.
+    information, see <a href="/windows/desktop/Power/registering-for-power-events">Registering for Power 
+    Events</a> and <a href="/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>.
 
 ## -struct-fields
 
 ### -field PowerSetting
 
 Indicates the power setting for which this notification is being delivered. For more 
-    info, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>.
+    info, see <a href="/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>.
 
 ### -field DataLength
 
@@ -73,9 +73,8 @@ The new value of the power setting. The type and possible values for this member
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>
+<a href="/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/registering-for-power-events">Registering for Power Events</a>
-
+<a href="/windows/desktop/Power/registering-for-power-events">Registering for Power Events</a>

@@ -57,14 +57,14 @@ Implements methods that get information from an Integrated Services Digital Broa
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an NBIT. Then:
 
 <ol>
-<li>Query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
+<li>Query the <a href="/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
+<li>Call the <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_NBIT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_NBIT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_NBIT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_NBIT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IISDB_NBIT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets a value that specifies the number of records in the NBIT.
@@ -88,7 +88,7 @@ Gets a value that specifies the number of records in the NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getoriginalnetworkid">GetOriginalNetworkId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getoriginalnetworkid">GetOriginalNetworkId</a>
 </td>
 <td align="left" width="63%">
 Gets an identifier for the network that originated the broadcast.
@@ -97,7 +97,7 @@ Gets an identifier for the network that originated the broadcast.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Gets the number of descriptors from the NBIT.
@@ -106,7 +106,7 @@ Gets the number of descriptors from the NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecorddescriptionbodylocation">GetRecordDescriptionBodyLocation</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecorddescriptionbodylocation">GetRecordDescriptionBodyLocation</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates where the NBIT contents are described.
@@ -115,7 +115,7 @@ Gets a value that indicates where the NBIT contents are described.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694339(v=vs.85)">GetRecordDescriptorByIndex</a>
+<a href="/previous-versions/windows/desktop/legacy/dd694339(v=vs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for a specified record
@@ -125,7 +125,7 @@ Returns a descriptor for a specified record
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Gets a descriptor from a record in an NBIT
@@ -135,7 +135,7 @@ Gets a descriptor from a record in an NBIT
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordinformationid">GetRecordInformationId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordinformationid">GetRecordInformationId</a>
 </td>
 <td align="left" width="63%">
 Gets a value that identifies the type of information in the NBIT.
@@ -144,7 +144,7 @@ Gets a value that identifies the type of information in the NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordinformationtype">GetRecordInformationType</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordinformationtype">GetRecordInformationType</a>
 </td>
 <td align="left" width="63%">
 Gets a value that identifies the type of information obtained from the NBIT.
@@ -153,7 +153,7 @@ Gets a value that identifies the type of information obtained from the NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordkeys">GetRecordKeys</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordkeys">GetRecordKeys</a>
 </td>
 <td align="left" width="63%">
 Gets the key IDs from the NBIT.
@@ -162,7 +162,7 @@ Gets the key IDs from the NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordmessagesectionnumber">GetRecordMessageSectionNumber</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordmessagesectionnumber">GetRecordMessageSectionNumber</a>
 </td>
 <td align="left" width="63%">
 Gets a value that identifies a section within the NBIT.
@@ -171,7 +171,7 @@ Gets a value that identifies a section within the NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordnumberofkeys">GetRecordNumberOfKeys</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecordnumberofkeys">GetRecordNumberOfKeys</a>
 </td>
 <td align="left" width="63%">
 Gets the number of key IDs in the NBIT.
@@ -180,7 +180,7 @@ Gets the number of key IDs in the NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecorduserdefined">GetRecordUserDefined</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getrecorduserdefined">GetRecordUserDefined</a>
 </td>
 <td align="left" width="63%">
 Gets a broadcaster-defined value from the NBIT.
@@ -189,7 +189,7 @@ Gets a broadcaster-defined value from the NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getversionhash">GetVersionHash</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getversionhash">GetVersionHash</a>
 </td>
 <td align="left" width="63%">
 Gets a hash value for this instance of an NBIT.
@@ -198,7 +198,7 @@ Gets a hash value for this instance of an NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getversionnumber">GetVersionNumber</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the version number from the NBIT.
@@ -207,7 +207,7 @@ Gets the version number from the NBIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object that supports this interface.
@@ -215,4 +215,3 @@ Initializes an object that supports this interface.
 </td>
 </tr>
 </table>
-

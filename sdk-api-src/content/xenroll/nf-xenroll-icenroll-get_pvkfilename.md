@@ -66,7 +66,7 @@ api_name:
 
 The <b>PVKFileName</b> property sets or retrieves the name of the file that will contain exported keys.
 
-This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
@@ -78,33 +78,33 @@ The <b>PVKFileName</b> property affects the behavior of the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
 </li>
 </ul>
 
 
-Exporting functionality may not be supported by the  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). Historically, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> has exported the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to a .pvk file on a disk and removed the keys from the registry. By default, private keys are not generated for exportation, and many cryptographic service providers do not support exporting keys. However, if the CSP supports exporting private keys, specifying a non-NULL value for the <b>PVKFileName</b> property causes the private keys to be generated as exportable and the private and public keys to be written to the file specified by the <b>PVKFileName</b> property. The private key is removed from the CSP. The file name specified by the property can be any accessible file. By default, no .pvk file is generated, and the keys are not generated as exportable.
+Exporting functionality may not be supported by the  <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). Historically, <a href="/windows/desktop/SecGloss/a-gly">Authenticode</a> has exported the <a href="/windows/desktop/SecGloss/p-gly">private key</a> to a .pvk file on a disk and removed the keys from the registry. By default, private keys are not generated for exportation, and many cryptographic service providers do not support exporting keys. However, if the CSP supports exporting private keys, specifying a non-NULL value for the <b>PVKFileName</b> property causes the private keys to be generated as exportable and the private and public keys to be written to the file specified by the <b>PVKFileName</b> property. The private key is removed from the CSP. The file name specified by the property can be any accessible file. By default, no .pvk file is generated, and the keys are not generated as exportable.
 
 If the .pvk file already exists, the user is notified and prompted for permission to overwrite it.
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property also has a flag that controls whether the private key can be exported. Use care when using  the <b>GenKeyFlags</b> property and the <b>PVKFileName</b> property together. If the <b>PVKFileName</b> property is set first, the <b>GenKeyFlags</b> property is automatically set to CRYPT_EXPORTABLE. If the <b>GenKeyFlags</b> property is set (by using the <b>put_GenKeyFlags</b> function) without including the CRYPT_EXPORTABLE flag, then the <b>GenKeyFlags</b> will not be set to CRYPT_EXPORTABLE, and the generated keys will not be exportable. The following procedure demonstrates this:
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property also has a flag that controls whether the private key can be exported. Use care when using  the <b>GenKeyFlags</b> property and the <b>PVKFileName</b> property together. If the <b>PVKFileName</b> property is set first, the <b>GenKeyFlags</b> property is automatically set to CRYPT_EXPORTABLE. If the <b>GenKeyFlags</b> property is set (by using the <b>put_GenKeyFlags</b> function) without including the CRYPT_EXPORTABLE flag, then the <b>GenKeyFlags</b> will not be set to CRYPT_EXPORTABLE, and the generated keys will not be exportable. The following procedure demonstrates this:
 
 <ol>
-<li>Call <b>put_PVKFileName</b> to set the file name for the file that will receive the exported keys. The <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property is automatically set to CRYPT_EXPORTABLE.</li>
+<li>Call <b>put_PVKFileName</b> to set the file name for the file that will receive the exported keys. The <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property is automatically set to CRYPT_EXPORTABLE.</li>
 <li>Call <b>put_GenKeyFlags</b> with a value not set to CRYPT_EXPORTABLE, for example, zero.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> is no longer set to CRYPT_EXPORTABLE (the value that was automatically set in step one).</li>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> is no longer set to CRYPT_EXPORTABLE (the value that was automatically set in step one).</li>
 </ol>
 
 
-Any keys generated by following the previous steps will be not exportable. Therefore, it is recommended that the user set the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property before the <b>PVKFileName</b> property when they are used together.
+Any keys generated by following the previous steps will be not exportable. Therefore, it is recommended that the user set the <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property before the <b>PVKFileName</b> property when they are used together.
 
-Alternatively, the user could determine the current value of the CRYPT_EXPORTABLE bit in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property and then perform a bitwise-<b>OR</b> operation between this value and any changes that are made to the <b>GenKeyFlags</b> property to ensure that the bit is not wiped out. The user could also specifically set the CRYPT_EXPORTABLE bit when updating the <b>GenKeyFlags</b> property.
+Alternatively, the user could determine the current value of the CRYPT_EXPORTABLE bit in the <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_genkeyflags">GenKeyFlags</a> property and then perform a bitwise-<b>OR</b> operation between this value and any changes that are made to the <b>GenKeyFlags</b> property to ensure that the bit is not wiped out. The user could also specifically set the CRYPT_EXPORTABLE bit when updating the <b>GenKeyFlags</b> property.
 
 
 #### Examples
@@ -139,4 +139,3 @@ else
 if ( NULL != bstrNewPVKFile )
     SysFreeString( bstrNewPVKFile );
 ```
-

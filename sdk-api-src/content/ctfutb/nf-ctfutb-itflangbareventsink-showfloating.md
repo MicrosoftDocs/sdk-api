@@ -56,7 +56,7 @@ Called when [ITfLangBarMgr::ShowFloating](nf-ctfutb-itflangbarmgr-showfloating.m
 
 ### -param dwFlags [in]
 
-Contains the <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-sft--constants">TF_SFT_*</a> values passed to <b>ITfLangBarMgr::ShowFloating</b>.
+Contains the <a href="/windows/desktop/TSF/tf-sft--constants">TF_SFT_*</a> values passed to <b>ITfLangBarMgr::ShowFloating</b>.
 
 ## -returns
 
@@ -64,15 +64,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbareventsink">ITfLangBarEventSink</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbareventsink">ITfLangBarEventSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-showfloating">ITfLangBarMgr::ShowFloating
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-showfloating">ITfLangBarMgr::ShowFloating
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-sft--constants">TF_SFT_* Constants
+<a href="/windows/desktop/TSF/tf-sft--constants">TF_SFT_* Constants
       </a>
-

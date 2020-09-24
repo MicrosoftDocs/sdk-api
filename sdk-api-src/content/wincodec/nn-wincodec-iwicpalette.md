@@ -54,7 +54,7 @@ Exposes methods for accessing and building a color table, primarily for indexed 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPalette</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICPalette</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPalette</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICPalette</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICPalette</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-getcolorcount">GetColorCount</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-getcolorcount">GetColorCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of colors in the color table.
@@ -78,25 +78,25 @@ Retrieves the number of colors in the color table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-getcolors">GetColors</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-getcolors">GetColors</a>
 </td>
 <td align="left" width="63%">
-Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-getcolorcount">GetColorCount</a>.
+Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-getcolorcount">GetColorCount</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-gettype">GetType</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> that describes the palette. 
+Retrieves the <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> that describes the palette. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-hasalpha">HasAlpha</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-hasalpha">HasAlpha</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that describes whether the palette contains an alpha transparent color.
@@ -105,7 +105,7 @@ Retrieves a value that describes whether the palette contains an alpha transpare
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializecustom">InitializeCustom</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializecustom">InitializeCustom</a>
 </td>
 <td align="left" width="63%">
 Initializes a palette to the custom color entries provided.
@@ -114,7 +114,7 @@ Initializes a palette to the custom color entries provided.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializefrombitmap">InitializeFromBitmap</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializefrombitmap">InitializeFromBitmap</a>
 </td>
 <td align="left" width="63%">
 Initializes a palette using a computed optimized values based on the reference bitmap.
@@ -123,7 +123,7 @@ Initializes a palette using a computed optimized values based on the reference b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializefrompalette">InitializeFromPalette</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializefrompalette">InitializeFromPalette</a>
 </td>
 <td align="left" width="63%">
 Initialize the palette based on a given palette.
@@ -132,16 +132,16 @@ Initialize the palette based on a given palette.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializepredefined">InitializePredefined</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializepredefined">InitializePredefined</a>
 </td>
 <td align="left" width="63%">
-Initializes the palette to one of the pre-defined palettes specified by <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> and optionally adds a transparent color.
+Initializes the palette to one of the pre-defined palettes specified by <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> and optionally adds a transparent color.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-isblackwhite">IsBlackWhite</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-isblackwhite">IsBlackWhite</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that describes whether the palette is black and white.
@@ -150,7 +150,7 @@ Retrieves a value that describes whether the palette is black and white.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-isgrayscale">IsGrayscale</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-isgrayscale">IsGrayscale</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that describes whether a palette is grayscale.
@@ -161,10 +161,10 @@ Retrieves a value that describes whether a palette is grayscale.
 
 ## -remarks
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> is not <b>WICBitmapPaletteCustom</b>, then the colors are automatically generated based on the table above.  If the user subsequently changes a color palette entry the WICBitmapPalette is set to Custom by that action.
+If the <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> is not <b>WICBitmapPaletteCustom</b>, then the colors are automatically generated based on the table above.  If the user subsequently changes a color palette entry the WICBitmapPalette is set to Custom by that action.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializefrombitmap">InitializeFromBitmap</a>'s <i>fAddTransparentColor</i> parameter will add a transparent color to the end of the color collection if its size if less than 256, otherwise index 255 will be replaced with the transparent color.  If a pre-defined palette type is used, it will change to BitmapPaletteTypeCustom since it no longer matches the predefined palette.
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializefrombitmap">InitializeFromBitmap</a>'s <i>fAddTransparentColor</i> parameter will add a transparent color to the end of the color collection if its size if less than 256, otherwise index 255 will be replaced with the transparent color.  If a pre-defined palette type is used, it will change to BitmapPaletteTypeCustom since it no longer matches the predefined palette.
 
 The palette interface is an auxiliary imaging interface in that it does not directly concern bitmaps and pixels; rather it provides indexed color translation for indexed bitmaps. For an indexed pixel format with M bits per pixels: (The number of colors in the palette) greater than 2^M.
 
@@ -274,4 +274,3 @@ In this example code, <b>WICColor</b> is defined as a <b>UINT32</b> value with t
 
 <pre class="syntax" xml:space="preserve"><code>0xAARRGGBB</code></pre>
 The wincodec.h header type-defines <b>WICColor</b> as <b>UINT32</b>.
-

@@ -58,7 +58,7 @@ Gets the point at which the current drag-and-drop operation was initiated.
 
 ### -param ppt [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to a structure that, when this method returns successfully, receives the coordinates from which the current drag-and-drop operation was initiated.
 
@@ -67,4 +67,3 @@ A pointer to a structure that, when this method returns successfully, receives t
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if successful, <b>S_FALSE</b> if the view does not have a drag point, or an error value otherwise.
-

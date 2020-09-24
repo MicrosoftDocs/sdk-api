@@ -73,11 +73,11 @@ The size of the certificate data in bytes.
 
 ### -param SerialNumber [in]
 
-128-bit device identifier, stored in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure.
+128-bit device identifier, stored in a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure.
 
 ### -param ppDevice [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice</a> interface. This interface provides access to information about the registered device in the list that matches the other identifying parameters.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice</a> interface. This interface provides access to information about the registered device in the list that matches the other identifying parameters.
 
 ## -returns
 
@@ -129,11 +129,10 @@ The specified device is not registered.
 
 ## -remarks
 
-When your application receives messages from a device, you can use the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmmessageparser">IWMDRMMessageParser</a> interface to extract the device certificate and device identifier. You can identify the device by using that data as inputs to this method.
+When your application receives messages from a device, you can use the methods of the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmmessageparser">IWMDRMMessageParser</a> interface to extract the device certificate and device identifier. You can identify the device by using that data as inputs to this method.
 
 The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used in this release.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>

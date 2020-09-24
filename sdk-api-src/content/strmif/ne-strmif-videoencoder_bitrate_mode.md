@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>VIDEOENCODER_BITRATE_MODE</b> enumeration type defines the three types of bitrates supported by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> interface.
+The <b>VIDEOENCODER_BITRATE_MODE</b> enumeration type defines the three types of bitrates supported by the <a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> interface.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ The <b>ENCAPIPARAM_BITRATE</b> value is the expected (not guaranteed) average bi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a>

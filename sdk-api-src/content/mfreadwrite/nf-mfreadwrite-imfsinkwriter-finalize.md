@@ -62,21 +62,21 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Call this method after you send all of the input samples to the sink writer. The method performs any operations needed to create the final output from the media sink.
 
-If you provide a callback interface when you create the sink writer, this method completes asynchronously. When the operation completes, the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwritercallback-onfinalize">IMFSinkWriterCallback::OnFinalize</a> method of your callback is called. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sink-writer-async-callback">MF_SINK_WRITER_ASYNC_CALLBACK</a>.  Otherwise, if you do not provide a callback, the <b>Finalize</b> method blocks until the operation completes.
+If you provide a callback interface when you create the sink writer, this method completes asynchronously. When the operation completes, the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwritercallback-onfinalize">IMFSinkWriterCallback::OnFinalize</a> method of your callback is called. For more information, see <a href="/windows/desktop/medfound/mf-sink-writer-async-callback">MF_SINK_WRITER_ASYNC_CALLBACK</a>.  Otherwise, if you do not provide a callback, the <b>Finalize</b> method blocks until the operation completes.
 
-Internally, this method calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">IMFStreamSink::PlaceMarker</a> to place end-of-segment markers for each stream on the media sink. It also calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-beginfinalize">IMFFinalizableMediaSink::BeginFinalize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-endfinalize">EndFinalize</a> if the media sink supports the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imffinalizablemediasink">IMFFinalizableMediaSink</a> interface.
+Internally, this method calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">IMFStreamSink::PlaceMarker</a> to place end-of-segment markers for each stream on the media sink. It also calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-beginfinalize">IMFFinalizableMediaSink::BeginFinalize</a> and <a href="/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-endfinalize">EndFinalize</a> if the media sink supports the <a href="/windows/desktop/api/mfidl/nn-mfidl-imffinalizablemediasink">IMFFinalizableMediaSink</a> interface.
 
 After this method is called, the following methods will fail:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-placemarker">IMFSinkWriter::PlaceMarker</a>
+<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-placemarker">IMFSinkWriter::PlaceMarker</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-sendstreamtick">IMFSinkWriter::SendStreamTick</a>
+<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-sendstreamtick">IMFSinkWriter::SendStreamTick</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-writesample">IMFSinkWriter::WriteSample</a>
+<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-writesample">IMFSinkWriter::WriteSample</a>
 </li>
 </ul>
 If you do not call <b>Finalize</b>, the output from the media sink might be incomplete or invalid. For example, required file headers might be missing from the output file.
@@ -85,9 +85,8 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
-
+<a href="/windows/desktop/medfound/sink-writer">Sink Writer</a>

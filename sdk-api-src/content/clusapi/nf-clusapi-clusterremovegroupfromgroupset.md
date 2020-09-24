@@ -63,5 +63,4 @@ A handle to the group to remove.
 Returns <b>ERROR_SUCCESS</b>  if successful, or if the group was not currently a member of a collection.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.

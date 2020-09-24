@@ -56,7 +56,7 @@ Initializes an object from the stream where it was saved previously.
 
 ### -param pStm [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream from which the object should be loaded.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream from which the object should be loaded.
 
 ## -returns
 
@@ -104,11 +104,10 @@ The object was not loaded due to some reason other than a lack of memory.
 
 ## -remarks
 
-If the object has already been initialized with <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">IPersistStreamInit::InitNew</a>, then this method must return E_UNEXPECTED.
+If the object has already been initialized with <a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">IPersistStreamInit::InitNew</a>, then this method must return E_UNEXPECTED.
 
-This method loads an object from its associated stream. The seek pointer is set as it was in the most recent <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-save">IPersistStreamInit::Save</a> method. This method can seek and read from the stream, but cannot write to it.
+This method loads an object from its associated stream. The seek pointer is set as it was in the most recent <a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-save">IPersistStreamInit::Save</a> method. This method can seek and read from the stream, but cannot write to it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>

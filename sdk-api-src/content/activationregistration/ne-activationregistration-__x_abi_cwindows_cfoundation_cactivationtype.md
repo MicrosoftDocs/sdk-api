@@ -68,5 +68,4 @@ Specifies remote-process activation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>
-
+<a href="/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>

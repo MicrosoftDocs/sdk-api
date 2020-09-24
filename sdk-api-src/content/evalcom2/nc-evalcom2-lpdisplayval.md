@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>LPDISPLAYVAL</b> function specification defines a callback function prototype. The <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setdisplay">IValidate::SetDisplay</a> method enables an authoring tool to receive ICE status messages through the registered callback function.
+The <b>LPDISPLAYVAL</b> function specification defines a callback function prototype. The <a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setdisplay">IValidate::SetDisplay</a> method enables an authoring tool to receive ICE status messages through the registered callback function.
 
 ## -parameters
 
 ### -param pContext
 
-A pointer to an application context passed to the <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setdisplay">SetDisplay</a> method. 
+A pointer to an application context passed to the <a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setdisplay">SetDisplay</a> method. 
 
 This parameter can be used for error checking.
 
@@ -166,13 +166,12 @@ Validation was canceled. The callback function return <b>FALSE</b> to stop valid
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
+<a href="/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
+<a href="/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-
+<a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>

@@ -59,7 +59,7 @@ The <b>MsiDeterminePatchSequence</b> function takes a set of patch files, XML fi
 
 ### -param szProductCode [in]
 
-The product that is the target for the set of patches. The value must be the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product.
+The product that is the target for the set of patches. The value must be the <a href="/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product.
 
 ### -param szUserSid [in, optional]
 
@@ -113,7 +113,7 @@ The number of patches in the array.
 
 ### -param pPatchInfo [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures.
+Pointer to an array of <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures.
 
 ## -returns
 
@@ -252,7 +252,7 @@ The configuration data for a registered patch or product is invalid.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID specified is not registered.
+The <a href="/windows/desktop/Msi/productcode">ProductCode</a> GUID specified is not registered.
 
 </td>
 </tr>
@@ -274,7 +274,7 @@ Windows Installer version 3.0 is required to determine the best patch sequence. 
 </dl>
 </td>
 <td width="60%">
-This error can be returned if the function was called from a <a href="https://docs.microsoft.com/windows/desktop/Msi/custom-actions">custom action</a>  or if MSXML 3.0 is not installed.
+This error can be returned if the function was called from a <a href="/windows/desktop/Msi/custom-actions">custom action</a>  or if MSXML 3.0 is not installed.
 
 </td>
 </tr>
@@ -298,13 +298,13 @@ Users that do not have administrator privileges  can call this function only in 
 If this function is called from a custom action it fails and returns <b>ERROR_CALL_NOT_IMPLEMENTED</b>. The function requires MSXML version 3.0 to process XML and returns <b>ERROR_CALL_NOT_IMPLEMENTED</b> if MSXML 3.0 is not installed.
 
 
-The <b>MsiDeterminePatchSequence</b> function sets the <b>uStatus</b> and <b>dwOrder</b> members of each <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure pointed to by <i>pPatchInfo</i>. Each structure contains information about a particular patch.
+The <b>MsiDeterminePatchSequence</b> function sets the <b>uStatus</b> and <b>dwOrder</b> members of each <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure pointed to by <i>pPatchInfo</i>. Each structure contains information about a particular patch.
 
-If the function succeeds, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure of every patch that can be applied  to the product returns with a  <b>uStatus</b> of <b>ERROR_SUCCESS</b> and a <b>dwOrder</b> greater than or equal to zero. The values of <b>dwOrder</b>  greater than or equal to zero indicate the best application sequence for the patches starting with zero.
+If the function succeeds, the <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure of every patch that can be applied  to the product returns with a  <b>uStatus</b> of <b>ERROR_SUCCESS</b> and a <b>dwOrder</b> greater than or equal to zero. The values of <b>dwOrder</b>  greater than or equal to zero indicate the best application sequence for the patches starting with zero.
 
-If the function succeeds, patches excluded from the best patching sequence return a <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure with a <b>dwOrder</b> equal to -1.  In these cases, a <b>uStatus</b> field of  <b>ERROR_SUCCESS</b> indicates a patch that is  obsolete or superseded for the product.   A <b>uStatus</b> field of <b>ERROR_PATCH_TARGET_NOT_FOUND</b> indicates a patch that is inapplicable to the product.
+If the function succeeds, patches excluded from the best patching sequence return a <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure with a <b>dwOrder</b> equal to -1.  In these cases, a <b>uStatus</b> field of  <b>ERROR_SUCCESS</b> indicates a patch that is  obsolete or superseded for the product.   A <b>uStatus</b> field of <b>ERROR_PATCH_TARGET_NOT_FOUND</b> indicates a patch that is inapplicable to the product.
 
-If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure for every patch  returns a  <b>dwOrder</b> equal to -1.  In this case, the <b>uStatus</b> fields  can contain errors with more information about individual patches. For example, <b>ERROR_PATCH_NO_SEQUENCE</b> is returned for patches that have circular sequencing information.
+If the function fails, the <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure for every patch  returns a  <b>dwOrder</b> equal to -1.  In this case, the <b>uStatus</b> fields  can contain errors with more information about individual patches. For example, <b>ERROR_PATCH_NO_SEQUENCE</b> is returned for patches that have circular sequencing information.
 
 
 
@@ -315,17 +315,16 @@ If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a>
+<a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a>
+<a href="/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
-
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>

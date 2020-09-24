@@ -54,7 +54,7 @@ Enables callers to set or query the values of various properties that control ho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcOptions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRpcOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcoptions-query">Query</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-irpcoptions-query">Query</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of an RPC binding option property.
@@ -78,7 +78,7 @@ Retrieves the value of an RPC binding option property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcoptions-set">Set</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-irpcoptions-set">Set</a>
 </td>
 <td align="left" width="63%">
 Sets the value of an RPC binding option property.
@@ -118,4 +118,3 @@ Using this interface, callers can set or query the COMBND_RPCTIMEOUT property, w
 <td>Try to establish communications for the maximum time allowed by the protocol. This value favors reliability over performance.</td>
 </tr>
 </table>
-

@@ -54,14 +54,14 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_OID_FUNC_ENTRY</b> structure contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a pointer to its related function. It is used with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a>.
+The <b>CRYPT_OID_FUNC_ENTRY</b> structure contains an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a pointer to its related function. It is used with 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a>.
 
 ## -struct-fields
 
 ### -field pszOID
 
-If the high-order word of the OID is nonzero, <b>pszOID</b> is a pointer to either an OID string, such as "2.5.29.1" or an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> string, such as "file". If the high-order word of the OID is zero, the low-order word specifies the numeric identifier to be used as the object identifier.
+If the high-order word of the OID is nonzero, <b>pszOID</b> is a pointer to either an OID string, such as "2.5.29.1" or an <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> string, such as "file". If the high-order word of the OID is zero, the low-order word specifies the numeric identifier to be used as the object identifier.
 
 ### -field pvFuncAddr
 
@@ -69,5 +69,4 @@ The starting address of the function that the OID identifies.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a>

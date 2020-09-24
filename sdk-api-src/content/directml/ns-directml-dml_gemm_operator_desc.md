@@ -93,13 +93,13 @@ The transform to be applied to <i>BTensor</i>; either a transpose, or no transfo
 
 ### -field Alpha
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value of the scalar multiplier for the product of inputs <i>ATensor</i> and <i>BTensor</i>.
 
 ### -field Beta
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value of the scalar multiplier for the optional input <i>CTensor</i>.
 
@@ -108,4 +108,3 @@ The value of the scalar multiplier for the optional input <i>CTensor</i>.
 Type: **const [DML_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_operator_desc)\***
 
 An optional pointer to a constant [DML_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_operator_desc) containing the fused activation layer.
-

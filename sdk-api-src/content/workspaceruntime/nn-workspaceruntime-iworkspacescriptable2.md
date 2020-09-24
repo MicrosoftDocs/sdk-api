@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that manage RemoteApp and Desktop Connection credentials and connections. This interface is implemented by the RemoteApp and Desktop Connection runtime. These methods are called by custom clients that implement the <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
+Exposes methods that manage RemoteApp and Desktop Connection credentials and connections. This interface is implemented by the RemoteApp and Desktop Connection runtime. These methods are called by custom clients that implement the <a href="/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceScriptable2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable">IWorkspaceScriptable</a>. <b>IWorkspaceScriptable2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceScriptable2</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable">IWorkspaceScriptable</a>. <b>IWorkspaceScriptable2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWorkspaceScriptable2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable2-resourcedismissed">ResourceDismissed</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable2-resourcedismissed">ResourceDismissed</a>
 </td>
 <td align="left" width="63%">
 Alerts the user when a resource has been dismissed or is otherwise unavailable. 
@@ -78,7 +78,7 @@ Alerts the user when a resource has been dismissed or is otherwise unavailable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable2-startworkspaceex">StartWorkspaceEx</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable2-startworkspaceex">StartWorkspaceEx</a>
 </td>
 <td align="left" width="63%">
 Associates user credentials and certificates with a connection ID; also contains additional security and UI elements.
@@ -86,4 +86,3 @@ Associates user credentials and certificates with a connection ID; also contains
 </td>
 </tr>
 </table>
-

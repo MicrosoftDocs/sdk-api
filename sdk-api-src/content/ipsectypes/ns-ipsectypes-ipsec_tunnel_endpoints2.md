@@ -47,29 +47,46 @@ api_name:
  - IPSEC_TUNNEL_ENDPOINTS2
 ---
 
-# IPSEC_TUNNEL_ENDPOINTS2 structure
-
-
 ## -description
 
 The <b>IPSEC_TUNNEL_ENDPOINTS2</b> structure is used to store end points of a tunnel mode SA.
-[IPSEC_TUNNEL_ENDPOINTS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1) is available. For Windows Vista, [IPSEC_TUNNEL_ENDPOINTS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0) is available.</div><div> </div>
+[IPSEC_TUNNEL_ENDPOINTS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1) is available. For Windows Vista, [IPSEC_TUNNEL_ENDPOINTS0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0) is available.
 
 ## -struct-fields
 
 ### -field ipVersion
 
-Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
+Type: [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
 
 Specifies the IP version. In tunnel mode, this is the version of the outer header.
 
 ### -field localV4Address
 
+<b>Type: <b>UINT32</b>
+
+case(FWP_IP_VERSION_V4)
+
 ### -field localV6Address
+
+Type: <b>UINT8[16]</b>
+
+case(FWP_IP_VERSION_V6)
+
+switch_type(FWP_IP_VERSION), switch_is(ipVersion)
+
+Tagged union containing the remote tunnel end point address.
 
 ### -field remoteV4Address
 
+Type: <b>UINT32</b>
+
+case(FWP_IP_VERSION_V4)
+
 ### -field remoteV6Address
+
+Type: <b>UINT8[16]</b>
+
+case(FWP_IP_VERSION_V6)
 
 ### -field localIfLuid
 
@@ -91,60 +108,18 @@ The number of remote tunnel addresses.
 
 ### -field remoteAddresses
 
-Type: [IPSEC_TUNNEL_ENDPOINT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)*</b>
+Type: [IPSEC_TUNNEL_ENDPOINT0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)*</b>
 
- [size_is(numAddresses)]
+[size_is(numAddresses)]
 
 The remote tunnel end point address information.
 
+## -remarks
 
-#### - ( unnamed union )
-
-switch_type(FWP_IP_VERSION), switch_is(ipVersion)
-
-Tagged union containing the local tunnel end point address.
-
-
-
-#### localV4Address
-
-<b>Type: <b>UINT32</b>
-</b>
-case(FWP_IP_VERSION_V4)
-
-
-
-#### localV6Address
-
-<b>Type: <b>UINT8[16]</b>
-</b>
-case(FWP_IP_VERSION_V6)
-
-switch_type(FWP_IP_VERSION), switch_is(ipVersion)
-
-Tagged union containing the remote tunnel end point address.
-
-
-
-#### remoteV4Address
-
-<b>Type: <b>UINT32</b>
-</b>
-case(FWP_IP_VERSION_V4)
-
-
-
-#### remoteV6Address
-
-<b>Type: <b>UINT8[16]</b>
-</b>
-case(FWP_IP_VERSION_V6)
+For the unnamed union containing the local tunnel end point address, switch_type(FWP_IP_VERSION), switch_is(ipVersion).
 
 ## -see-also
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
+[FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform API structures</a>

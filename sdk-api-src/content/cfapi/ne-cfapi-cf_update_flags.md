@@ -80,7 +80,7 @@ Applicable to directories only. When specified, it marks the updated placeholder
 
 ### -field CF_UPDATE_FLAG_REMOVE_FILE_IDENTITY
 
-When specified, <i>FileIdentity</i> and <i>FileIdentityLength</i> in <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfupdateplaceholder">CfUpdatePlaceholder</a> are ignored and the platform will remove the existing file identity blob on the placeholder upon a successful update call.
+When specified, <i>FileIdentity</i> and <i>FileIdentityLength</i> in <a href="/windows/desktop/api/cfapi/nf-cfapi-cfupdateplaceholder">CfUpdatePlaceholder</a> are ignored and the platform will remove the existing file identity blob on the placeholder upon a successful update call.
 
 ### -field CF_UPDATE_FLAG_CLEAR_IN_SYNC
 
@@ -97,4 +97,3 @@ The platform removes all existing extrinsic properties on the placeholder.
 <b>Note</b>  This value is new for Windows 10, version 1803.
 
 The platform passes <b>CF_FS_METADATA</b> to the file system without any filtering; otherwise, the platform skips setting any fields whose value is 0.
-

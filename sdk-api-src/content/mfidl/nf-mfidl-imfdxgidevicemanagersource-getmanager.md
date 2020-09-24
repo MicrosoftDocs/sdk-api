@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> from the Microsoft Media Foundation video rendering sink.
+Gets the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> from the Microsoft Media Foundation video rendering sink.
 
 ## -parameters
 
 ### -param ppManager [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> object.
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> object.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfdxgidevicemanagersource">IMFDXGIDeviceManagerSource</a>
-
+<a href="/windows/desktop/medfound/imfdxgidevicemanagersource">IMFDXGIDeviceManagerSource</a>

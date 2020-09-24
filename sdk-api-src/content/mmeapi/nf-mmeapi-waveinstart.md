@@ -112,9 +112,8 @@ Calling this function when input is already started has no effect, and the funct
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

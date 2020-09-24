@@ -54,7 +54,7 @@ The IWMPEffects2 interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEffects2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects</a>. <b>IWMPEffects2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEffects2</b> interface inherits from <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects</a>. <b>IWMPEffects2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPEffects2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">Create</a>
+<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">Create</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to instantiate a visualization window.
@@ -78,7 +78,7 @@ Called by Windows Media Player to instantiate a visualization window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-destroy">Destroy</a>
+<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-destroy">Destroy</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to destroy a visualization window instantiated in the <b>Create</b> method.
@@ -87,7 +87,7 @@ Called by Windows Media Player to destroy a visualization window instantiated in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-notifynewmedia">NotifyNewMedia</a>
+<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-notifynewmedia">NotifyNewMedia</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to inform the visualization that a new media item has been loaded.
@@ -96,7 +96,7 @@ Called by Windows Media Player to inform the visualization that a new media item
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-onwindowmessage">OnWindowMessage</a>
+<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-onwindowmessage">OnWindowMessage</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to pass window messages to a visualization.
@@ -105,7 +105,7 @@ Called by Windows Media Player to pass window messages to a visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-renderwindowed">RenderWindowed</a>
+<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-renderwindowed">RenderWindowed</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to render a windowed visualization.
@@ -114,7 +114,7 @@ Called by Windows Media Player to render a windowed visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-setcore">SetCore</a>
+<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-setcore">SetCore</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to provide visualization access to the core Windows Media Player APIs.
@@ -125,9 +125,8 @@ Called by Windows Media Player to provide visualization access to the core Windo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/custom-visualization-programming-reference">Custom Visualization Programming Reference</a>
+<a href="/windows/desktop/WMP/custom-visualization-programming-reference">Custom Visualization Programming Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-
+<a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>

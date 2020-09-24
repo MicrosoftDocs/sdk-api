@@ -52,9 +52,9 @@ api_name:
 
 For queries related to evented variables, the 
 <b>LastTransportStatus</b> property specifies the HTTP status of the last 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-invokeaction">IUPnPService::InvokeAction</a> operation. For queries related to non-evented variables, the 
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-invokeaction">IUPnPService::InvokeAction</a> operation. For queries related to non-evented variables, the 
 <b>LastTransportStatus</b> property specifies the last 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-querystatevariable">IUPnPService::QueryStateVariable</a> operation, if the caller invoked a query for a non-evented variable.
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-querystatevariable">IUPnPService::QueryStateVariable</a> operation, if the caller invoked a query for a non-evented variable.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>

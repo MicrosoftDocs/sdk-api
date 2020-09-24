@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DSQUERYPARAMS</b> structure contains query  data used by the directory service query when searching the directory service. This structure is provided by the <a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-dsqueryparams">CFSTR_DSQUERYPARAMS</a> clipboard format by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> provided by the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a> method. The caller of <b>ICommonQuery::OpenQueryWindow</b> can use this to retrieve the filter, column data used by the result view when issuing a query against the server.
+The <b>DSQUERYPARAMS</b> structure contains query  data used by the directory service query when searching the directory service. This structure is provided by the <a href="/windows/desktop/AD/cfstr-dsqueryparams">CFSTR_DSQUERYPARAMS</a> clipboard format by the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> provided by the <a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a> method. The caller of <b>ICommonQuery::OpenQueryWindow</b> can use this to retrieve the filter, column data used by the result view when issuing a query against the server.
 
 ## -struct-fields
 
@@ -82,21 +82,20 @@ Reserved.
 
 ### -field aColumns
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/dsquery/ns-dsquery-dscolumn">DSCOLUMN</a> structures that contain the results of the query. The <b>iColumns</b> member specifies the number of elements in this array.
+Contains an array of <a href="/windows/desktop/api/dsquery/ns-dsquery-dscolumn">DSCOLUMN</a> structures that contain the results of the query. The <b>iColumns</b> member specifies the number of elements in this array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-dsqueryparams">CFSTR_DSQUERYPARAMS</a>
+<a href="/windows/desktop/AD/cfstr-dsqueryparams">CFSTR_DSQUERYPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsquery/ns-dsquery-dscolumn">DSCOLUMN</a>
+<a href="/windows/desktop/api/dsquery/ns-dsquery-dscolumn">DSCOLUMN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>
-
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>

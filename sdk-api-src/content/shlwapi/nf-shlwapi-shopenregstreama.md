@@ -59,7 +59,7 @@ api_name:
 Deprecated. Opens a registry value and supplies a stream that can be used to read from or write to the value.
 
             
-<div class="alert"><b>Note</b>  This function has been replaced by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shopenregstream2a">SHOpenRegStream2</a>. It is recommended that you use <b>SHOpenRegStream2</b> at all times.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been replaced by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shopenregstream2a">SHOpenRegStream2</a>. It is recommended that you use <b>SHOpenRegStream2</b> at all times.</div><div> </div>
 
 ## -parameters
 
@@ -107,22 +107,21 @@ Open the stream for both reading and writing.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer if successful; otherwise, <b>NULL</b>. A <b>NULL</b> value can be caused by several situations, including an invalid <i>hkey</i> or <i>pszSubkey</i>, or an inability to open the stream. 
+Returns an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer if successful; otherwise, <b>NULL</b>. A <b>NULL</b> value can be caused by several situations, including an invalid <i>hkey</i> or <i>pszSubkey</i>, or an inability to open the stream. 
 
                     
 
-<div class="alert"><b>Note</b>  In some situations, such as when the subkey named by <i>pszSubkey</i> does not exist or the caller does not have sufficient permissions to access the subkey, a zero-length stream is returned rather than a <b>NULL</b> value. <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shopenregstream2a">SHOpenRegStream2</a> returns <b>NULL</b> in all error situations and is the preferred function for that reason.</div>
+<div class="alert"><b>Note</b>  In some situations, such as when the subkey named by <i>pszSubkey</i> does not exist or the caller does not have sufficient permissions to access the subkey, a zero-length stream is returned rather than a <b>NULL</b> value. <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shopenregstream2a">SHOpenRegStream2</a> returns <b>NULL</b> in all error situations and is the preferred function for that reason.</div>
 <div> </div>
 
 ## -remarks
 
-The calling application is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method of the returned object when that <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object is no longer needed.
+The calling application is responsible for calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method of the returned object when that <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object is no longer needed.
 
 
 
 
 > [!NOTE]
 > The shlwapi.h header defines SHOpenRegStream as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

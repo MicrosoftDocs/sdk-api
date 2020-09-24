@@ -54,8 +54,8 @@ Initializes a client DLL's access to Remote Desktop Services virtual channels. T
     names of its virtual channels.
 
 Remote Desktop Services provides a pointer to a <b>VirtualChannelInit</b> function in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a> structure passed to 
-    your <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> entry point.
+    <a href="/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a> structure passed to 
+    your <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> entry point.
 
 ## -parameters
 
@@ -63,11 +63,11 @@ Remote Desktop Services provides a pointer to a <b>VirtualChannelInit</b> functi
 
 Pointer to a variable that receives a handle that identifies the client connection. Use this handle to 
       identify the client in subsequent calls to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function.
+      <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function.
 
 ### -param pChannel [in, out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a> 
+Pointer to an array of <a href="/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a> 
       structures. Each structure contains the name and initialization options of a virtual channel that the client 
       DLL will open. Note that the <b>VirtualChannelInit</b> call does not open these 
       virtual channels; it only reserves the names for use by this application.
@@ -83,7 +83,7 @@ Specifies the level of virtual channel support. Set this parameter to <b>VIRTUAL
 ### -param pChannelInitEventProc [in]
 
 Pointer to an application-defined 
-      <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-channel_init_event_fn">VirtualChannelInitEvent</a> function that 
+      <a href="/windows/desktop/api/cchannel/nc-cchannel-channel_init_event_fn">VirtualChannelInitEvent</a> function that 
       Remote Desktop Services calls to notify the client DLL of virtual channel events.
 
 ## -returns
@@ -95,13 +95,13 @@ If an error occurs, the function returns one of the following values.
 ## -remarks
 
 You can call the <b>VirtualChannelInit</b> function only from your 
-   <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> function. 
+   <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> function. 
    Calls to <b>VirtualChannelInit</b> at any other time fail.
 
 When <b>VirtualChannelInit</b> returns successfully, Remote Desktop Services has 
    registered the requested channels. However, Remote Desktop Services may not have completed other initialization. When 
    all initialization is complete, Remote Desktop Services calls your 
-   <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-channel_init_event_fn">VirtualChannelInitEvent</a> 
+   <a href="/windows/desktop/api/cchannel/nc-cchannel-channel_init_event_fn">VirtualChannelInitEvent</a> 
    callback function with the <b>CHANNEL_EVENT_INITIALIZED</b> event.
 
 You should not make assumptions about the number of available virtual channels before calling this function, 
@@ -109,20 +109,19 @@ You should not make assumptions about the number of available virtual channels b
    <b>CHANNEL_RC_TOO_MANY_CHANNELS</b> return code after calling this function.
 
 When <b>VirtualChannelInit</b> returns, the <b>options</b> member of each 
-   <a href="https://docs.microsoft.com/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a> structure includes 
+   <a href="/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a> structure includes 
    <b>CHANNEL_OPTION_INITIALIZED</b> if the channel was successfully initialized.
 
 The maximum number of channels per client session is <b>CHANNEL_MAX_COUNT</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a>
+<a href="/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a>
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-channel_init_event_fn">VirtualChannelInitEvent</a>
-
+<a href="/windows/desktop/api/cchannel/nc-cchannel-channel_init_event_fn">VirtualChannelInitEvent</a>

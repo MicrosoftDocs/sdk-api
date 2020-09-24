@@ -60,11 +60,11 @@ The <b>DHCP_CLIENT_FILTER_STATUS_INFO</b> structure defines information about th
 
 ### -field ClientIpAddress
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>type value that contains the DHCPv4 client's IPv4 address.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>type value that contains the DHCPv4 client's IPv4 address.
 
 ### -field SubnetMask
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP IP_MASK</a> type value that contains the DHCPv4 client's IPv4 subnet mask address.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP IP_MASK</a> type value that contains the DHCPv4 client's IPv4 subnet mask address.
 
 ### -field ClientHardwareAddress
 
@@ -80,11 +80,11 @@ Pointer to a null-terminated Unicode string that represents the description give
 
 ### -field ClientLeaseExpires
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the lease expiry time for the DHCPv4 client. This is UTC time represented in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the lease expiry time for the DHCPv4 client. This is UTC time represented in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
 
 ### -field OwnerHost
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information about the host machine (DHCPv4 server machine) that has provided a lease to the DHCPv4 client.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information about the host machine (DHCPv4 server machine) that has provided a lease to the DHCPv4 client.
 
 ### -field bClientType
 
@@ -220,11 +220,11 @@ The IPv4 address is in DOOMED state and is due to be deleted.
 
 ### -field Status
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-quarantinestatus">QuarantineStatus</a> enumeration that specifies possible health status values for the DHCPv4 client, as validated at the NAP server.
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-quarantinestatus">QuarantineStatus</a> enumeration that specifies possible health status values for the DHCPv4 client, as validated at the NAP server.
 
 ### -field ProbationEnds
 
-This is of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a>, containing the end time of the probation if the DHCPv4 client is on probation. For this time period, the DHCPv4 client has full access to the network.
+This is of type <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a>, containing the end time of the probation if the DHCPv4 client is on probation. For this time period, the DHCPv4 client has full access to the network.
 
 ### -field QuarantineCapable
 
@@ -298,4 +298,3 @@ The DHCPv4 client MAC address has a wildcard match in the deny list.
 </td>
 </tr>
 </table>
-

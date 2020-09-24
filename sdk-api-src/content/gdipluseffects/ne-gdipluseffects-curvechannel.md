@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>CurveChannel</b> enumeration specifies which color channels are affected by a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a> bitmap adjustment.
+The <b>CurveChannel</b> enumeration specifies which color channels are affected by a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a> bitmap adjustment.
 
 ## -enum-fields
 
@@ -70,4 +70,3 @@ Specifies that the color adjustment applies only to the green channel.
 ### -field CurveChannelBlue
 
 Specifies that the color adjustment applies only to the blue channel.
-

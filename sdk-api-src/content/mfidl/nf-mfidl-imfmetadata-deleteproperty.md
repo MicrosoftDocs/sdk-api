@@ -100,9 +100,8 @@ For a media source, deleting a property from the metadata collection does not ch
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-metadata">Media Metadata</a>
-
+<a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>

@@ -57,7 +57,7 @@ Obtains a message from the message queue and does not return until a message is 
 
 ### -param pMsg [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that receives message data.
+Pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that receives message data.
 
 ### -param hwnd [in]
 
@@ -114,13 +114,12 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmessagepump">ITfMessagePump</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmessagepump">ITfMessagePump</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
-
+<a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>

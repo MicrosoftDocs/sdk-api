@@ -58,7 +58,7 @@ Determines what options the conflict presenter will display.
 
 Type: <b>SYNCMGR_RESOLUTION_ABILITIES_FLAGS*</b>
 
-When this method returns, contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_abilities">SYNCMGR_RESOLUTION_ABILITIES</a> enumerated type.
+When this method returns, contains one of the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_abilities">SYNCMGR_RESOLUTION_ABILITIES</a> enumerated type.
 
 ## -returns
 
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The handler exposes how a conflict can be resolved by calling this method. The result of this method determines what options the conflict presenter displays, and as a result, how other methods in this interface are called.
-

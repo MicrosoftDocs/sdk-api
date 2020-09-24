@@ -54,16 +54,16 @@ api_name:
 
 ## -description
 
-The <b>CERT_QC_STATEMENT</b> structure represents a single statement in a sequence of one or more statements for inclusion in a  Qualified Certificate (QC) statements extension. This structure populates the <b>rgStatement</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_qc_statements_ext_info">CERT_QC_STATEMENTS_EXT_INFO</a> structure.
+The <b>CERT_QC_STATEMENT</b> structure represents a single statement in a sequence of one or more statements for inclusion in a  Qualified Certificate (QC) statements extension. This structure populates the <b>rgStatement</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_qc_statements_ext_info">CERT_QC_STATEMENTS_EXT_INFO</a> structure.
 
 ## -struct-fields
 
 ### -field pszStatementId
 
-A pointer to a string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the defined statement.
+A pointer to a string that contains the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the defined statement.
 
 
-The Wincrypt.h file defines the following <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for use with this member, but this member can be any OID as required by an application.
+The Wincrypt.h file defines the following <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for use with this member, but this member can be any OID as required by an application.
 
 
 
@@ -98,5 +98,4 @@ Secure Signature Creation Device
 
 ### -field StatementInfo
 
-An optional <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains additional information that qualifies the defined statement. The <b>pszStatementId</b> member defines the syntax of this parameter.
-
+An optional <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that contains additional information that qualifies the defined statement. The <b>pszStatementId</b> member defines the syntax of this parameter.

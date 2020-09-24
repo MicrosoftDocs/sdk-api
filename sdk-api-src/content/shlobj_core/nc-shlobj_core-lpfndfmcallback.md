@@ -58,9 +58,9 @@ Defines the prototype for the callback function that receives messages from the 
 
 ### -param *psf [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object the message applies to. This value can be <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object the message applies to. This value can be <b>NULL</b>.
 
 ### -param hwnd [in, optional]
 
@@ -70,10 +70,10 @@ The handle of the window that contains the view. This value can be <b>NULL</b>.
 
 ### -param *pdtobj [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> that represents the selection the context menu is based on. This value can be <b>NULL</b>.
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> that represents the selection the context menu is based on. This value can be <b>NULL</b>.
 
 ### -param uMsg
 
@@ -90,19 +90,19 @@ One of the following notifications.
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/registering-control-panel-items">DFM_MERGECONTEXTMENU</a>
+<a href="/windows/desktop/shell/registering-control-panel-items">DFM_MERGECONTEXTMENU</a>
 </td>
 <td>Sent by the default context menu implementation to allow <b>LPFNDFMCALLBACK</b> to add items to the menu.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/preview-handler-guidelines">DFM_INVOKECOMMAND</a>
+<a href="/windows/desktop/shell/preview-handler-guidelines">DFM_INVOKECOMMAND</a>
 </td>
 <td>Sent by the default context menu implementation to request <b>LPFNDFMCALLBACK</b> to invoke a menu command.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/library-ovw">DFM_GETDEFSTATICID</a>
+<a href="/windows/desktop/shell/library-ovw">DFM_GETDEFSTATICID</a>
 </td>
 <td>Sent by the default context menu implementation when the default menu command is being created, allowing an alternate choice to be made.</td>
 </tr>
@@ -143,4 +143,3 @@ The message was not handled.
 </td>
 </tr>
 </table>
-

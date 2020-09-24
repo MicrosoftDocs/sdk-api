@@ -74,14 +74,14 @@ Pointer to a null-terminated string that specifies a phone number that overrides
 ### -param lpInfo [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a> structure that specifies additional input and output parameters. The <b>dwSize</b> member of this structure must specify sizeof(<b>RASDIALDLG</b>). If an error occurs, the <b>dwError</b> member returns an error code; otherwise, it returns zero.
+<a href="/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a> structure that specifies additional input and output parameters. The <b>dwSize</b> member of this structure must specify sizeof(<b>RASDIALDLG</b>). If an error occurs, the <b>dwError</b> member returns an error code; otherwise, it returns zero.
 
 ## -returns
 
 If the function establishes a RAS connection, the return value is <b>TRUE</b>. Otherwise, the function should return <b>FALSE</b>.
 
 If an error occurs, <b>RasDialDlg</b> should set the <b>dwError</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a> structure to a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+<a href="/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a> structure to a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 ## -remarks
 
@@ -198,17 +198,16 @@ DWORD __cdecl wmain(){
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a>
+<a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

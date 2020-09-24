@@ -60,9 +60,8 @@ Dynamically adjusts the data replication topology of a network.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaconsistencycheck">DsReplicaConsistencyCheck</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaconsistencycheck">DsReplicaConsistencyCheck</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>

@@ -57,19 +57,19 @@ Retrieves the proxy information that the job uses to transfer the files.
 ### -param pProxyUsage [out]
 
 Specifies the proxy settings the job uses to transfer the files. For a list of proxy options, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
 
 ### -param pProxyList [out]
 
 Null-terminated string that contains one or more proxies to use to transfer files. The list is space-delimited. For details on the format of the string, see the Listing Proxy Servers section of 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppProxyList</i> when done.
+<a href="/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>. Call the 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppProxyList</i> when done.
 
 ### -param pProxyBypassList [out]
 
 Null-terminated string that contains an optional list of host names or IP addresses, or both, that were not routed through the proxy. The list is space-delimited. For details on the format of the string, see the Listing the Proxy Bypass section of 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppProxyBypassList</i> when done.
+<a href="/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>. Call the 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppProxyBypassList</i> when done.
 
 ## -returns
 
@@ -106,9 +106,8 @@ One or more of the parameters is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a>
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setproxysettings">IBackgroundCopyJob::SetProxySettings</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setproxysettings">IBackgroundCopyJob::SetProxySettings</a>

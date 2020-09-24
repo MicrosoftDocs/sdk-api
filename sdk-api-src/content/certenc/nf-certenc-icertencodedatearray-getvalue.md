@@ -68,20 +68,19 @@ A pointer to a <b>DATE</b> variable that receives the date.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the <b>DATE</b> value at the specified index.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodedatearray">ICertEncodeDateArray</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodedatearray">ICertEncodeDateArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-getcount">ICertEncodeDateArray::GetCount</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-getcount">ICertEncodeDateArray::GetCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-setvalue">ICertEncodeDateArray::SetValue</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-setvalue">ICertEncodeDateArray::SetValue</a>

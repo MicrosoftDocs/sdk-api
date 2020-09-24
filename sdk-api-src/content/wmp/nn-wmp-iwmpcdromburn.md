@@ -54,7 +54,7 @@ The <b>IWMPCdromBurn</b> interface provides methods to manage creating audio CDs
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPCdromBurn</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPCdromBurn</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPCdromBurn</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPCdromBurn</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPCdromBurn</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-erase">erase</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-erase">erase</a>
 </td>
 <td align="left" width="63%">
 Erases the current CD.
@@ -78,7 +78,7 @@ Erases the current CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnformat">get_burnFormat</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnformat">get_burnFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates the type of CD to burn.
@@ -87,7 +87,7 @@ Retrieves a value that indicates the type of CD to burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnplaylist">get_burnPlaylist</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnplaylist">get_burnPlaylist</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current playlist to burn to the CD.
@@ -96,7 +96,7 @@ Retrieves the current playlist to burn to the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnprogress">get_burnProgress</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnprogress">get_burnProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CD burning progress as percent complete.
@@ -105,7 +105,7 @@ Retrieves the CD burning progress as percent complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnstate">get_burnState</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnstate">get_burnState</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration value that indicates the current burn state.
@@ -114,7 +114,7 @@ Retrieves an enumeration value that indicates the current burn state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_label">get_label</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_label">get_label</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CD volume label string.
@@ -123,7 +123,7 @@ Retrieves the CD volume label string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-getiteminfo">getItemInfo</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-getiteminfo">getItemInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the specified attribute for the CD.
@@ -132,7 +132,7 @@ Retrieves the value of the specified attribute for the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-isavailable">isAvailable</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-isavailable">isAvailable</a>
 </td>
 <td align="left" width="63%">
 Provides information about the CD drive and media.
@@ -141,7 +141,7 @@ Provides information about the CD drive and media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat">put_burnFormat</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat">put_burnFormat</a>
 </td>
 <td align="left" width="63%">
 Specifies the type of CD to burn.
@@ -150,7 +150,7 @@ Specifies the type of CD to burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnplaylist">put_burnPlaylist</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnplaylist">put_burnPlaylist</a>
 </td>
 <td align="left" width="63%">
 Specifies the playlist to burn to CD.
@@ -159,7 +159,7 @@ Specifies the playlist to burn to CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_label">put_label</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_label">put_label</a>
 </td>
 <td align="left" width="63%">
 Specifies the label string for the CD volume.
@@ -168,7 +168,7 @@ Specifies the label string for the CD volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-refreshstatus">refreshStatus</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-refreshstatus">refreshStatus</a>
 </td>
 <td align="left" width="63%">
 Updates the status information for the current burn playlist.
@@ -177,7 +177,7 @@ Updates the status information for the current burn playlist.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-startburn">startBurn</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-startburn">startBurn</a>
 </td>
 <td align="left" width="63%">
 Burns the CD.
@@ -186,7 +186,7 @@ Burns the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-stopburn">stopBurn</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-stopburn">stopBurn</a>
 </td>
 <td align="left" width="63%">
 Stops the CD burning process.
@@ -197,5 +197,4 @@ Stops the CD burning process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

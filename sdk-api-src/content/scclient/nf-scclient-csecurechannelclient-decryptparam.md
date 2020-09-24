@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -97,25 +97,24 @@ Possible values include, but are not limited to, those in the following table.
 
 ## -remarks
 
-This is used by <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a> to decrypt data read from the device.
+This is used by <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a> to decrypt data read from the device.
 
 For robustness, before calling the <b>DecryptParam</b> method, components should copy the data to a temporary buffer and then use <b>DecryptParam</b> to decrypt the temporary buffer. Decryption is handled in-place in the buffer; the buffer does not need to be resized.
 
-For example code, see <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
+For example code, see <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a>
+<a href="/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

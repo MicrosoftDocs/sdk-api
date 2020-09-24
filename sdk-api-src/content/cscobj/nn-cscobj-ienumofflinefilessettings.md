@@ -55,7 +55,7 @@ Enumerates setting objects associated with the Offline Files service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOfflineFilesSettings</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOfflineFilesSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOfflineFilesSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOfflineFilesSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IEnumOfflineFilesSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilessettings-clone">Clone</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilessettings-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of the enumerator with the same enumeration state as the current one.
@@ -79,7 +79,7 @@ Creates a new instance of the enumerator with the same enumeration state as the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilessettings-next">Next</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilessettings-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next item in the enumeration and advances the enumerator.
@@ -88,7 +88,7 @@ Retrieves the next item in the enumeration and advances the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilessettings-reset">Reset</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilessettings-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration to the beginning.
@@ -97,7 +97,7 @@ Resets the enumeration to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilessettings-skip">Skip</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilessettings-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration.
@@ -108,5 +108,4 @@ Skips over the next specified number of elements in the enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>

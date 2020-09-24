@@ -57,7 +57,7 @@ The <b>MprAdminDeviceEnum</b>function is called to enumerate RAS capable devices
 ### -param hMprServer [in]
 
 Handle to the router on which to execute this call. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param dwLevel [in]
 
@@ -65,12 +65,12 @@ A DWORD value that describes the format in which the information is returned in 
 
 ### -param lplpbBuffer [out]
 
-On successful completion, an array of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a> structures that contains the RAS capable device information. Free this memory by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
+On successful completion, an array of <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a> structures that contains the RAS capable device information. Free this memory by calling 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
 ### -param lpdwTotalEntries [out]
 
-The number of entries of type <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a> in <i>lplpbBuffer</i>.
+The number of entries of type <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a> in <i>lplpbBuffer</i>.
 
 ## -returns
 
@@ -109,13 +109,12 @@ The <i>lplpbBuffer</i> or <i>lpdwTotalEntries</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

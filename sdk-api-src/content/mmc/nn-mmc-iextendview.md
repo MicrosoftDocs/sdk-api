@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendView</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IExtendView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendview-getviews">GetViews</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendview-getviews">GetViews</a>
 </td>
 <td align="left" width="63%">
 Returns the extended view information. MMC calls this method so that a view extension snap-in can add extended views to the result pane.
@@ -81,13 +81,12 @@ Returns the extended view information. MMC calls this method so that a view exte
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendview">IExtendView</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendview">IExtendView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iviewextensioncallback">IViewExtensionCallback</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iviewextensioncallback">IViewExtensionCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-extension-mechanism">View Extension Mechanism</a>
-
+<a href="/previous-versions/windows/desktop/mmc/view-extension-mechanism">View Extension Mechanism</a>

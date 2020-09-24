@@ -69,5 +69,4 @@ Object C-Type. Must be one of the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a>

@@ -95,16 +95,15 @@ The audio session is disconnected on the default audio device.
 ## -remarks
 
  Each audio session instance is identified by a unique string.  This  string represents a particular instance of the audio session and, unlike the session identifier, is unique across all instances. If there are two
-    instances of the application playing, they will have different session instance identifiers. The identifier retrieved by <b>GetSessionInstanceIdentifier</b> is different from the session  identifier, which is shared by all session instances. To get the session  identifier, call <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessionidentifier">IAudioSessionControl2::GetSessionIdentifier</a>.
+    instances of the application playing, they will have different session instance identifiers. The identifier retrieved by <b>GetSessionInstanceIdentifier</b> is different from the session  identifier, which is shared by all session instances. To get the session  identifier, call <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessionidentifier">IAudioSessionControl2::GetSessionIdentifier</a>.
 
 
-<b>GetSessionInstanceIdentifier</b> checks whether the session has been disconnected on the default device. It retrieves the identifier string that is cached by the audio client for the device. If the session instance identifier is not found, this method retrieves it from the audio engine. For example code about getting a session instance identifier, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/getting-ducking-events-from-a-communication-device">Getting Ducking Events from a Communication Device</a>.
+<b>GetSessionInstanceIdentifier</b> checks whether the session has been disconnected on the default device. It retrieves the identifier string that is cached by the audio client for the device. If the session instance identifier is not found, this method retrieves it from the audio engine. For example code about getting a session instance identifier, see <a href="/windows/desktop/CoreAudio/getting-ducking-events-from-a-communication-device">Getting Ducking Events from a Communication Device</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
-
+<a href="/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>

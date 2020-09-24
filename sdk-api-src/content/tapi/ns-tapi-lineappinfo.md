@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINEAPPINFO</b> structure contains information about the application that is currently running. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure can contain an array of 
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure can contain an array of 
 <b>LINEAPPINFO</b> structures.
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Size of the computer name string including the <b>null</b> terminator, in bytes.
 ### -field dwMachineNameOffset
 
 Offset from the beginning of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure to a string specifying the name of the computer on which the application is executing. The size of the field is specified by <b>dwMachineNameSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure to a string specifying the name of the computer on which the application is executing. The size of the field is specified by <b>dwMachineNameSize</b>.
 
 ### -field dwUserNameSize
 
@@ -77,7 +77,7 @@ Size of the user name string including the <b>null</b> terminator, in bytes.
 ### -field dwUserNameOffset
 
 Offset from the beginning of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure to a string specifying the user name under whose account the application is running. The size of the field is specified by <b>dwUserNameSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure to a string specifying the user name under whose account the application is running. The size of the field is specified by <b>dwUserNameSize</b>.
 
 ### -field dwModuleFilenameSize
 
@@ -86,8 +86,8 @@ Size of the module file name string, in bytes.
 ### -field dwModuleFilenameOffset
 
 Offset from the beginning of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> to a string specifying the module file name of the application. This string can be used in a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a> to perform a directed handoff to the application. The size of the field is specified by <b>dwModuleFilenameSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> to a string specifying the module file name of the application. This string can be used in a call to 
+<a href="/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a> to perform a directed handoff to the application. The size of the field is specified by <b>dwModuleFilenameSize</b>.
 
 ### -field dwFriendlyNameSize
 
@@ -96,9 +96,9 @@ Size of the display name string, in bytes.
 ### -field dwFriendlyNameOffset
 
 Offset from the beginning of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> to the string provided by the application to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>, which should be used in any display to the user. The size of the field is specified by <b>dwFriendlyNameSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> to the string provided by the application to 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a> or 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>, which should be used in any display to the user. The size of the field is specified by <b>dwFriendlyNameSize</b>.
 
 ### -field dwMediaModes
 
@@ -115,25 +115,24 @@ An address identifier is permanently associated with an address; the identifier 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetlinedevstatus">TSPI_lineGetLineDevStatus</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetlinedevstatus">TSPI_lineGetLineDevStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>

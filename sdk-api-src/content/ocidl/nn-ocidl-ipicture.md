@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Manages a picture object and its properties. Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles. As with the standard font object, the system provides a standard implementation of the picture object. Its primary interfaces are <b>IPicture</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>, the latter being derived from <b>IDispatch</b> to provide access to the picture's properties through Automation. A picture object is created with <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>.
+Manages a picture object and its properties. Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles. As with the standard font object, the system provides a standard implementation of the picture object. Its primary interfaces are <b>IPicture</b> and <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>, the latter being derived from <b>IDispatch</b> to provide access to the picture's properties through Automation. A picture object is created with <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>.
 
-The picture object also supports the outgoing interface <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a>, so a client can determine when picture properties change. Because the picture object supports at least one outgoing interface, it also implements <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a> and its associated interfaces for this purpose.
+The picture object also supports the outgoing interface <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a>, so a client can determine when picture properties change. Because the picture object supports at least one outgoing interface, it also implements <a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a> and its associated interfaces for this purpose.
 
-The picture object also supports <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> so that it can save and load itself from an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. An object that uses a picture object internally would normally save and load the picture as part of the object's own persistence handling. The function <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-oleloadpicture">OleLoadPicture</a> simplifies the creation of a picture object based on stream contents.
+The picture object also supports <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> so that it can save and load itself from an instance of <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. An object that uses a picture object internally would normally save and load the picture as part of the object's own persistence handling. The function <a href="/windows/desktop/api/olectl/nf-olectl-oleloadpicture">OleLoadPicture</a> simplifies the creation of a picture object based on stream contents.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPicture</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPicture</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPicture</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPicture</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IPicture</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_attributes">get_Attributes</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_attributes">get_Attributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current set of the picture's bit attributes.
@@ -82,7 +82,7 @@ Retrieves the current set of the picture's bit attributes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_curdc">get_CurDC</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_curdc">get_CurDC</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current device context into which this picture is selected.
@@ -91,7 +91,7 @@ Retrieves the current device context into which this picture is selected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_handle">get_Handle</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_handle">get_Handle</a>
 </td>
 <td align="left" width="63%">
 Retrieves a handle to the picture managed within this picture object.
@@ -100,7 +100,7 @@ Retrieves a handle to the picture managed within this picture object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_height">get_Height</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_height">get_Height</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current height of the picture in the picture object.
@@ -109,7 +109,7 @@ Retrieves the current height of the picture in the picture object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_hpal">get_hPal</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_hpal">get_hPal</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current palette of the picture.
@@ -118,7 +118,7 @@ Retrieves the current palette of the picture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_keeporiginalformat">get_KeepOriginalFormat</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_keeporiginalformat">get_KeepOriginalFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of the picture object's KeepOriginalFormat property.
@@ -127,7 +127,7 @@ Retrieves the current value of the picture object's KeepOriginalFormat property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_type">get_Type</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_type">get_Type</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current type of the picture.
@@ -136,7 +136,7 @@ Retrieves the current type of the picture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_width">get_Width</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_width">get_Width</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current width of the picture in the picture object.
@@ -145,7 +145,7 @@ Retrieves the current width of the picture in the picture object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-picturechanged">PictureChanged</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-picturechanged">PictureChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies the picture object that its picture resource changed.
@@ -154,7 +154,7 @@ Notifies the picture object that its picture resource changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-put_keeporiginalformat">put_KeepOriginalFormat</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-put_keeporiginalformat">put_KeepOriginalFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the picture object's KeepOriginalFormat property.
@@ -163,7 +163,7 @@ Sets the picture object's KeepOriginalFormat property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-render">Render</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-render">Render</a>
 </td>
 <td align="left" width="63%">
 Draws the specified portion of the picture onto the specified device context, positioned at the specified location.
@@ -172,7 +172,7 @@ Draws the specified portion of the picture onto the specified device context, po
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-saveasfile">SaveAsFile</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-saveasfile">SaveAsFile</a>
 </td>
 <td align="left" width="63%">
 Saves the picture's data into a stream in the same format that it would save itself into a file.
@@ -181,7 +181,7 @@ Saves the picture's data into a stream in the same format that it would save its
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-selectpicture">SelectPicture</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-selectpicture">SelectPicture</a>
 </td>
 <td align="left" width="63%">
 Selects a bitmap picture into a given device context, returning the device context in which the picture was previously selected as well as the picture's handle.
@@ -190,7 +190,7 @@ Selects a bitmap picture into a given device context, returning the device conte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-set_hpal">set_hPal</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-set_hpal">set_hPal</a>
 </td>
 <td align="left" width="63%">
 Sets the current palette of the picture.
@@ -230,7 +230,7 @@ Each property in the <b>IPicture</b> interface includes a <b>get_PropertyName</b
 <td>Type</td>
 <td><b>short</b></td>
 <td>R</td>
-<td>The type of picture (see <a href="https://docs.microsoft.com/windows/desktop/com/pictype-constants">PICTYPE</a>).
+<td>The type of picture (see <a href="/windows/desktop/com/pictype-constants">PICTYPE</a>).
 </td>
 </tr>
 <tr>
@@ -271,11 +271,10 @@ Each property in the <b>IPicture</b> interface includes a <b>get_PropertyName</b
  
 
 <h3><a id="OLE_Implementation"></a><a id="ole_implementation"></a><a id="OLE_IMPLEMENTATION"></a>OLE Implementation</h3>
-Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles. As with the standard font object, the system provides a standard implementation of the picture object. Its primary interfaces are <b>IPicture</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>. A picture object is created with <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> and supports both the <b>IPicture</b> and the <b>IPictureDisp</b> interfaces.
+Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles. As with the standard font object, the system provides a standard implementation of the picture object. Its primary interfaces are <b>IPicture</b> and <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>. A picture object is created with <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> and supports both the <b>IPicture</b> and the <b>IPictureDisp</b> interfaces.
 
-The OLE-provided picture object implements the complete semantics of the <b>IPicture</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a> interfaces.
+The OLE-provided picture object implements the complete semantics of the <b>IPicture</b> and <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a> interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>

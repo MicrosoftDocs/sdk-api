@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>CACertificate</b> property gets an X.509 certificate that has been encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and that is for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). The default implementations of <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> methods set this value.
+The <b>CACertificate</b> property gets an X.509 certificate that has been encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and that is for a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). The default implementations of <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a> and <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> methods set this value.
 
 This property is read-only.
 
@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-The <i>pVal</i> certificate corresponds to the certificate used in the <i>varCACert</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration">CreateCAConfiguration</a> method to create the configuration.
+The <i>pVal</i> certificate corresponds to the certificate used in the <i>varCACert</i> parameter of the <a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration">CreateCAConfiguration</a> method to create the configuration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPCAConfiguration</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPCAConfiguration</a>

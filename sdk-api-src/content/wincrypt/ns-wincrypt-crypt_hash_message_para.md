@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_HASH_MESSAGE_PARA</b> structure contains data for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing</a> messages.
+The <b>CRYPT_HASH_MESSAGE_PARA</b> structure contains data for <a href="/windows/desktop/SecGloss/h-gly">hashing</a> messages.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Size of this structure in bytes.
 
 ### -field dwMsgEncodingType
 
-Type of encoding used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Type of encoding used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -79,13 +79,13 @@ Currently defined encoding types are:
 
 This member is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to be used.Unless there is a strong reason for passing in a specific cryptographic provider in <b>hCryptProv</b>, pass zero to use the default RSA or DSS provider.
+<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to be used.Unless there is a strong reason for passing in a specific cryptographic provider in <b>hCryptProv</b>, pass zero to use the default RSA or DSS provider.
 
 This member's data type is <b>HCRYPTPROV</b>.
 
 ### -field HashAlgorithm
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> containing the algorithm for generating the hash of the message.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> containing the algorithm for generating the hash of the message.
 
 ### -field pvHashAuxInfo
 
@@ -93,17 +93,16 @@ Not currently used, and must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashmessage">CryptHashMessage</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashmessage">CryptHashMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagehash">CryptVerifyDetachedMessageHash</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagehash">CryptVerifyDetachedMessageHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagehash">CryptVerifyMessageHash</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagehash">CryptVerifyMessageHash</a>

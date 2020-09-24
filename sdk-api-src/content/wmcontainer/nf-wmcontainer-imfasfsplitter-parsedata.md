@@ -57,7 +57,7 @@ Sends packetized Advanced Systems Format (ASF) data to the ASF splitter for proc
 
 ### -param pIBuffer [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of a buffer object containing data to be parsed.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of a buffer object containing data to be parsed.
 
 ### -param cbBufferOffset [in]
 
@@ -109,7 +109,7 @@ The total value of <i>cbBufferOffset</i> and <i>cbLength</i> is greater than the
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-initialize">IMFASFSplitter::Initialize</a> method was not called or the call failed.
+The <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-initialize">IMFASFSplitter::Initialize</a> method was not called or the call failed.
 
 </td>
 </tr>
@@ -128,19 +128,18 @@ The splitter cannot process more input at this time.
 
 ## -remarks
 
-After using this method to parse data, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getnextsample">IMFASFSplitter::GetNextSample</a> to retrieve parsed media samples.
+After using this method to parse data, you must call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getnextsample">IMFASFSplitter::GetNextSample</a> to retrieve parsed media samples.
 
-If your ASF data contains variable-sized packets, you must set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfasfsplitter-packet-boundary-attribute">MFASFSPLITTER_PACKET_BOUNDARY</a> attribute on the buffers to indicate the sample boundaries, and the buffers cannot span multiple packets.
+If your ASF data contains variable-sized packets, you must set the <a href="/windows/desktop/medfound/mfasfsplitter-packet-boundary-attribute">MFASFSPLITTER_PACKET_BOUNDARY</a> attribute on the buffers to indicate the sample boundaries, and the buffers cannot span multiple packets.
 
-If the method returns ME_E_NOTACCEPTING, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getnextsample">GetNextSample</a> to get the output samples, or call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-flush">IMFASFSplitter::Flush</a> to clear the splitter.
+If the method returns ME_E_NOTACCEPTING, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getnextsample">GetNextSample</a> to get the output samples, or call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-flush">IMFASFSplitter::Flush</a> to clear the splitter.
 
 The splitter might hold a reference count on the input buffer. Therefore, do not write over the valid data in the buffer after calling this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
+<a href="/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>

@@ -57,7 +57,7 @@ The <code>InvokeAtStreamTime</code> method queues a method or property change fo
 
 ### -param pCmd [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand</a> interface pointer.
+Address of a variable that receives an <a href="/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand</a> interface pointer.
 
 ### -param time [in]
 
@@ -102,7 +102,7 @@ Use the <b>IDispatch::GetIDsOfNames</b> method to retrieve the DISPID for the <i
 
 #### Examples
 
-The following example queues an <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a> command for 3.0 seconds.
+The following example queues an <a href="/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a> command for 3.0 seconds.
 
 
 ```cpp
@@ -137,9 +137,8 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-iqueuecommand">IQueueCommand Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-iqueuecommand">IQueueCommand Interface</a>

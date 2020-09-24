@@ -68,18 +68,17 @@ LINEERR_INVALAPPHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_UNINITIA
 ## -remarks
 
 If this function is called when the application has lines open or calls active, the call handles are deleted and TAPI automatically performs the equivalent of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineclose">lineClose</a> on each open line. However, it is recommended that applications explicitly close all open lines before invoking 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineclose">lineClose</a> on each open line. However, it is recommended that applications explicitly close all open lines before invoking 
 <b>lineShutdown</b>. If shutdown is performed while asynchronous requests are outstanding, those requests are canceled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineclose">lineClose</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineclose">lineClose</a>

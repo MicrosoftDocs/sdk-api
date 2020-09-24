@@ -62,7 +62,7 @@ The control pattern object.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -70,4 +70,3 @@ Returns S_OK if successful or an error value otherwise.
 
 In a control that supports multiple selection, this function adds an item to the selection. In a single-selection control,
 it deselects the currently selected item and selects the specified item.
-

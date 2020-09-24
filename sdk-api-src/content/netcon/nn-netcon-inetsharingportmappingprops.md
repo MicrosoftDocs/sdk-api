@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>INetSharingPortMappingProps</b> interface provides methods that retrieve and set the properties of a network connection port mapping.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetSharingPortMappingProps</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingPortMappingProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetSharingPortMappingProps</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingPortMappingProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>INetSharingPortMappingProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_enabled">get_Enabled</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_enabled">get_Enabled</a>
 </td>
 <td align="left" width="63%">
 Retrieve the port mapping status.
@@ -81,7 +81,7 @@ Retrieve the port mapping status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_externalport">get_ExternalPort</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_externalport">get_ExternalPort</a>
 </td>
 <td align="left" width="63%">
 Retrieve the  external port for this port mapping.
@@ -90,7 +90,7 @@ Retrieve the  external port for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_internalport">get_InternalPort</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_internalport">get_InternalPort</a>
 </td>
 <td align="left" width="63%">
 Retrieve the internal port for this port mapping.
@@ -99,7 +99,7 @@ Retrieve the internal port for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_ipprotocol">get_IPProtocol</a>
+<a href="/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_ipprotocol">get_IPProtocol</a>
 </td>
 <td align="left" width="63%">
 Retrieve the IP protocol associated with this port mapping.
@@ -108,7 +108,7 @@ Retrieve the IP protocol associated with this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_name">get_Name</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieve the name for this port mapping.
@@ -117,7 +117,7 @@ Retrieve the name for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_options">get_Options</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_options">get_Options</a>
 </td>
 <td align="left" width="63%">
 Retrieve the options for this port mapping.
@@ -126,7 +126,7 @@ Retrieve the options for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_targetipaddress">get_TargetIPAddress</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_targetipaddress">get_TargetIPAddress</a>
 </td>
 <td align="left" width="63%">
 Retrieve the target IP address for this port mapping.
@@ -135,7 +135,7 @@ Retrieve the target IP address for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_targetname">get_TargetName</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmappingprops-get_targetname">get_TargetName</a>
 </td>
 <td align="left" width="63%">
 Retrieve the target name for this port mapping.
@@ -143,4 +143,3 @@ Retrieve the target name for this port mapping.
 </td>
 </tr>
 </table>
-

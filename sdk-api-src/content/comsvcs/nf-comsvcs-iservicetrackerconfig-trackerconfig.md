@@ -56,7 +56,7 @@ Configures the tracker property for the enclosed work.
 
 ### -param trackerConfig [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_trackerconfig">CSC_TrackerConfig</a> enumeration.
+A value from the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_trackerconfig">CSC_TrackerConfig</a> enumeration.
 
 ### -param szTrackerAppName [in]
 
@@ -76,5 +76,4 @@ Because no component is associated with this tracker property, tracker activity 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetrackerconfig">IServiceTrackerConfig</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetrackerconfig">IServiceTrackerConfig</a>

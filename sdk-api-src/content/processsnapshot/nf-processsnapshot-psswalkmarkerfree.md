@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Frees a walk marker created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalkmarkercreate">PssWalkMarkerCreate</a>.
+Frees a walk marker created by <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalkmarkercreate">PssWalkMarkerCreate</a>.
 
 ## -parameters
 
@@ -64,13 +64,12 @@ A handle to the walk marker.
 
 This function returns <b>ERROR_SUCCESS</b> on success.
 
-All error codes are defined in winerror.h. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
+All error codes are defined in winerror.h. Use <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
 
 ## -remarks
 
-If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalkmarkercreate">PssWalkMarkerCreate</a> used <b>AllocRoutine</b> of a custom allocator to create the walk marker, <b>PssWalkMarkerFree</b> uses the <b>FreeRoutine</b> of the allocator.
+If <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalkmarkercreate">PssWalkMarkerCreate</a> used <b>AllocRoutine</b> of a custom allocator to create the walk marker, <b>PssWalkMarkerFree</b> uses the <b>FreeRoutine</b> of the allocator.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
-
+<a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>

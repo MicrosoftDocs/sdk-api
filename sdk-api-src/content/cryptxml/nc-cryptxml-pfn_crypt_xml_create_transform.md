@@ -56,15 +56,15 @@ The  <i>PFN_CRYPT_XML_CREATE_TRANSFORM</i>  callback function creates a transfor
 
 ### -param *pTransform [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the transform to apply.
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the transform to apply.
 
 ### -param *pProviderIn [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure that specifies the data provider to use as input for the transform.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure that specifies the data provider to use as input for the transform.
 
 ### -param *pProviderOut [out]
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure to receive the data provider of the transform.
+A pointer to a  <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure to receive the data provider of the transform.
 
 ## -returns
 
@@ -77,4 +77,3 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 In the transform chain, the output of a transform is the input of the next transform in the chain.
 
  The implementation of the callback function is responsible for calling the  provider close function on the input transform to release the input provider.
-

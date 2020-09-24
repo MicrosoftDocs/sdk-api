@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>EjectDiskFromSADrive</b> function ejects the  media that is in a standalone removable 
@@ -293,7 +293,7 @@ The eject operation was successful.
 
 ## -remarks
 
-Although <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a> can, in some cases, be used to accomplish the same functionality, <b>EjectDiskFromSADrive</b> provides a convenient way to eject media from a standalone device, by specifying its drive name instead of its RSM name. In some cases it is the only way to overcome file system locks on the media in order to eject that media.
+Although <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a> can, in some cases, be used to accomplish the same functionality, <b>EjectDiskFromSADrive</b> provides a convenient way to eject media from a standalone device, by specifying its drive name instead of its RSM name. In some cases it is the only way to overcome file system locks on the media in order to eject that media.
 
 The 
 <b>EjectDiskFromSADrive</b> function returns to the application as soon as the eject request is queued, unless <b>NTMS_EJECT_IMMEDIATE</b> option is specified.
@@ -313,13 +313,12 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-injectntmsmedia">InjectNtmsMedia</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-injectntmsmedia">InjectNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>

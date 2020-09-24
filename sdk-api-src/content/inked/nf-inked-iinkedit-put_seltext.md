@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the selected text within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control (run time only).
+Gets or sets the selected text within the <a href="/windows/desktop/tablet/inkedit-control">InkEdit</a> control (run time only).
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 ## -remarks
 
-Setting <b>SelText</b> to a new value sets <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_sellength">SelLength</a> to 0 and replaces the selected text with the new string.
+Setting <b>SelText</b> to a new value sets <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_sellength">SelLength</a> to 0 and replaces the selected text with the new string.
 
 ## -see-also
 
@@ -71,5 +71,4 @@ Setting <b>SelText</b> to a new value sets <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

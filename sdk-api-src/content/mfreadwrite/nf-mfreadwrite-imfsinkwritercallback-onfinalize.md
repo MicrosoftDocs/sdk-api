@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Called when the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-finalize">IMFSinkWriter::Finalize</a> method completes.
+Called when the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-finalize">IMFSinkWriter::Finalize</a> method completes.
 
 ## -parameters
 
 ### -param hrStatus [in]
 
-The status code for the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-finalize">Finalize</a> operation. If the value is an error code, the output file might be invalid.
+The status code for the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-finalize">Finalize</a> operation. If the value is an error code, the output file might be invalid.
 
 ## -returns
 
@@ -68,9 +68,8 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback">IMFSinkWriterCallback</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback">IMFSinkWriterCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
-
+<a href="/windows/desktop/medfound/sink-writer">Sink Writer</a>

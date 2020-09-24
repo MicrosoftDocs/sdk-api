@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <b>EapCredential</b> structure contains information about the credentials type and the appropriate credentials. This is passed as an input to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob">EapPeerGetConfigBlobAndUserBlob</a> API.
+The <b>EapCredential</b> structure contains information about the credentials type and the appropriate credentials. This is passed as an input to the <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob">EapPeerGetConfigBlobAndUserBlob</a> API.
 
 ## -struct-fields
 
 ### -field credType
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a> for the  credentials passed in the <i>credentials</i> parameter.
+The <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a> for the  credentials passed in the <i>credentials</i> parameter.
 
 ### -field credData.switch_is
 
@@ -70,31 +70,30 @@ Structure that holds the pointer to the credential data.
 
 If <b>credType</b> is set to <b>EAP_EMPTY_CREDENTIAL</b>, specify a NULL value for credentials.
 
-If <b>credType</b> is set to  <b>EAP_USERNAME_PASSWORD_CREDENTIAL</b>, use an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a> structure to specify the username and password to use for the credentials. 
+If <b>credType</b> is set to  <b>EAP_USERNAME_PASSWORD_CREDENTIAL</b>, use an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a> structure to specify the username and password to use for the credentials. 
 
 If <b>credType</b> is set to <b>EAP_WINLOGON_CREDENTIAL</b>, specify a NULL value for credentials. 
 
-If <b>credType</b> is set to <b>EAP_CERTIFICATE_CREDENTIAL</b>, use an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a> structure for credentials to specify  the certificate hash and a password (in case the certificate is password protected). 
+If <b>credType</b> is set to <b>EAP_CERTIFICATE_CREDENTIAL</b>, use an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a> structure for credentials to specify  the certificate hash and a password (in case the certificate is password protected). 
 
-If <b>credType</b> is set to <b>EAP_SIM_CREDENTIAL</b>, use an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a> structure for credentials to specify the  ICC-ID of the selected SIM.
+If <b>credType</b> is set to <b>EAP_SIM_CREDENTIAL</b>, use an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a> structure for credentials to specify the  ICC-ID of the selected SIM.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>
+<a href="/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob">EapPeerGetConfigBlobAndUserBlob</a>
+<a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob">EapPeerGetConfigBlobAndUserBlob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a>
-
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a>

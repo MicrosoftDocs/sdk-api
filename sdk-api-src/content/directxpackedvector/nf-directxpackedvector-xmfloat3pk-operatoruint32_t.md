@@ -54,7 +54,7 @@ Returns an instance of <code>uint32_t</code> containing the components of the
 <code>XMFLOAT3PK</code> instance in a packed format.
 
 This operator returns an instance of <code>uint32_t</code> containing the components of the
-    <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a> instance in a packed format.
+    <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a> instance in a packed format.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
@@ -129,9 +129,8 @@ Bits 27-31 of the return value are the 5 bit <i>exponent</i> of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3pk-operators">XMFLOAT3PK Operators</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmfloat3pk-operators">XMFLOAT3PK Operators</a>

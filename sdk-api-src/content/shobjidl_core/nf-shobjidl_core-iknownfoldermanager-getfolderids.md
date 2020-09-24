@@ -56,15 +56,15 @@ Gets an array of all registered known folder IDs. This can be used in enumeratin
 
 ### -param ppKFId [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>**</b>
+Type: <b><a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>**</b>
 
-When this method returns, contains a pointer to an array of all <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values registered with the system. Use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free these resources when they are no longer needed.
+When this method returns, contains a pointer to an array of all <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values registered with the system. Use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free these resources when they are no longer needed.
 
 ### -param pCount [in, out]
 
 Type: <b>UINT*</b>
 
-When this method returns, contains a pointer to the number of <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values in the array at <i>ppKFId</i>. The [in] functionality of this parameter is not used.
+When this method returns, contains a pointer to the number of <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values in the array at <i>ppKFId</i>. The [in] functionality of this parameter is not used.
 
 ## -returns
 
@@ -76,13 +76,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The caller of this method must have User privileges.
 
-You can use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-stringfromclsid">StringFromCLSID</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-stringfromguid2">StringFromGUID2</a> to convert the retrieved <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values to strings.
+You can use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-stringfromclsid">StringFromCLSID</a> or <a href="/windows/desktop/api/combaseapi/nf-combaseapi-stringfromguid2">StringFromGUID2</a> to convert the retrieved <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values to strings.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

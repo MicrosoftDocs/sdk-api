@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_DH_PARAMETER_HEADER</b> structure is used to contain parameter header information for a Diffie-Hellman key. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_DH_PARAMETERS</a> property in the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function.
+The <b>BCRYPT_DH_PARAMETER_HEADER</b> structure is used to contain parameter header information for a Diffie-Hellman key. This structure is used with the <a href="/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_DH_PARAMETERS</a> property in the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function.
 
 ## -struct-fields
 
@@ -117,9 +117,8 @@ CopyMemory(pbTemp, rgbGenerator, pDHParamHeader->cbKeyLength);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>
-
+<a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>

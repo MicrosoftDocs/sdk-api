@@ -78,13 +78,12 @@ The remaining number of microseconds in the interval. (0-999999)
 
 ### -field __padding1
 
-Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.
+Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.
 
 ### -field __padding2
 
-Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.
+Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.
 
 ### -field __padding3
 
-Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.
-
+Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.

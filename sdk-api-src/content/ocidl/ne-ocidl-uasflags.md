@@ -58,11 +58,11 @@ Provides information about the parent undo unit.
 
 ### -field UAS_NORMAL
 
-The currently open parent undo unit is in a normal, unblocked state and can accept any new units added through calls to its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-open">Open</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-add">Add</a> methods.
+The currently open parent undo unit is in a normal, unblocked state and can accept any new units added through calls to its <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-open">Open</a> or <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-add">Add</a> methods.
 
 ### -field UAS_BLOCKED
 
-The currently open undo unit is blocked and will reject any undo units added through calls to its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-open">IOleParentUndoUnit::Open</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-add">IOleParentUndoUnit::Add</a> methods. The caller need not create any new units since they will just be rejected.
+The currently open undo unit is blocked and will reject any undo units added through calls to its <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-open">IOleParentUndoUnit::Open</a> or <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-add">IOleParentUndoUnit::Add</a> methods. The caller need not create any new units since they will just be rejected.
 
 ### -field UAS_NOPARENTENABLE
 
@@ -70,11 +70,10 @@ The currently open undo unit will accept new units, but the caller should act li
 
 ### -field UAS_MASK
 
-When checking for a normal state, use this value to mask unused bits in the <i>pdwState</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-getparentstate">IOleParentUndoUnit::GetParentState</a> method for future compatibility. For example:
+When checking for a normal state, use this value to mask unused bits in the <i>pdwState</i> parameter to the <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-getparentstate">IOleParentUndoUnit::GetParentState</a> method for future compatibility. For example:
 
 <pre class="syntax" xml:space="preserve"><code>fNormal = ((pdwState &amp; UAS_MASK) == UAS_NORMAL)</code></pre>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-getparentstate">IOleParentUndoUnit::GetParentState</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-getparentstate">IOleParentUndoUnit::GetParentState</a>

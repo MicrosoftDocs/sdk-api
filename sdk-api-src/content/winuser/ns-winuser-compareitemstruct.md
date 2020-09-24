@@ -56,49 +56,49 @@ api_name:
 
 Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
 
-Whenever an application adds a new item to an owner-drawn list box or combo box created with the <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_SORT</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/list-box-styles">LBS_SORT</a> style, the system sends the owner a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-compareitem">WM_COMPAREITEM</a> message. The <i>lParam</i> parameter of the message contains a long pointer to a <b>COMPAREITEMSTRUCT</b> structure. Upon receiving the message, the owner compares the two items and returns a value indicating which item sorts before the other.
+Whenever an application adds a new item to an owner-drawn list box or combo box created with the <a href="/windows/desktop/Controls/combo-box-styles">CBS_SORT</a> or <a href="/windows/desktop/Controls/list-box-styles">LBS_SORT</a> style, the system sends the owner a <a href="/windows/desktop/Controls/wm-compareitem">WM_COMPAREITEM</a> message. The <i>lParam</i> parameter of the message contains a long pointer to a <b>COMPAREITEMSTRUCT</b> structure. Upon receiving the message, the owner compares the two items and returns a value indicating which item sorts before the other.
 
 ## -struct-fields
 
 ### -field CtlType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An ODT_LISTBOX (owner-drawn list box) or ODT_COMBOBOX (an owner-drawn combo box).
 
 ### -field CtlID
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The identifier of the list box or combo box.
 
 ### -field hwndItem
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -field itemID1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index of the first item in the list box or combo box being compared. This member will be –1 if the item has not been inserted or when searching for a potential item in the list box or combo box.
 
 ### -field itemData1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
 
 Application-supplied data for the first item being compared. (This value was passed as the <i>lParam</i> parameter of the message that added the item to the list box or combo box.)
 
 ### -field itemID2
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index of the second item in the list box or combo box being compared.
 
 ### -field itemData2
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
 
 Application-supplied data for the second item being compared. This value was passed as the 
 					<i>lParam</i> parameter of the message that added the item to the list box or combo box. This member will be 
@@ -106,13 +106,13 @@ Application-supplied data for the second item being compared. This value was pas
 
 ### -field dwLocaleId
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The locale identifier. To create a locale identifier, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro.
+The locale identifier. To create a locale identifier, use the <a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/combo-boxes">Combo Boxes</a>
+<a href="/windows/desktop/Controls/combo-boxes">Combo Boxes</a>
 
 
 
@@ -120,7 +120,7 @@ The locale identifier. To create a locale identifier, use the <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a>
 
 
 
@@ -132,5 +132,4 @@ The locale identifier. To create a locale identifier, use the <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-compareitem">WM_COMPAREITEM</a>
-
+<a href="/windows/desktop/Controls/wm-compareitem">WM_COMPAREITEM</a>

@@ -68,27 +68,26 @@ If <b>EngLoadModuleForWrite</b> succeeds, the return value is a handle to the mo
 
 ## -remarks
 
-<b>EngLoadModuleForWrite</b> loads a data file into system memory with write permission. To access the loaded module, the driver should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a> with the handle returned by this function.
+<b>EngLoadModuleForWrite</b> loads a data file into system memory with write permission. To access the loaded module, the driver should call <a href="/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a> with the handle returned by this function.
 
 <b>EndLoadModuleForWrite</b> loads the file into memory that is the same size as the file when <i>cjSizeOfModule</i> is zero. If <i>cjSizeOfModule</i> is greater than zero, GDI extends or truncates the file to be exactly <i>cjSizeOfModule</i> bytes in size before loading it. No assumptions should be made about the contents of memory that extend beyond the file when <i>cjSizeOfModule</i> is greater than the file's original size.
 
 The file identified by <i>pwsz</i> must be located in the <i>%SystemRoot%\System32</i> directory or within a directory found in the directory hierarchy under <i>%SystemRoot%\System32</i>.
 
-To load a module with read-only permissions, the driver should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>. Drivers that need to load an image as executable code should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a> instead of this function.
+To load a module with read-only permissions, the driver should call <a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>. Drivers that need to load an image as executable code should call <a href="/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a> instead of this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreemodule">EngFreeModule</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engfreemodule">EngFreeModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a>

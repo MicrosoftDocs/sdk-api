@@ -18,5 +18,4 @@ To develop Debugging and authoring support, you need these headers:
  * [webapplication.h](../webapplication/index.md)
 
 For programming guidance for this technology, see:
-* [Debugging and authoring support](https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost)
-
+* [Debugging and authoring support](/previous-versions/windows/desktop/debug_wwahost)

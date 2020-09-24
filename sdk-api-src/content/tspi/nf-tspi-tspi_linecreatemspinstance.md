@@ -78,27 +78,26 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPOINTER, NOERROR
 ## -remarks
 
 The service provider should save the <i>htMSPLine</i> handle field, to be used when sending 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-sendmspdata">LINE_SENDMSPDATA</a> messages to TAPISRV.
+<a href="/windows/desktop/Tapi/line-sendmspdata">LINE_SENDMSPDATA</a> messages to TAPISRV.
 
 An MSP instance is associated with a particular application. If multiple applications are running, each TSP line may have multiple MSP instances.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-the-media-service-provider-msp-">About The Media Service Provider (MSP)</a>
+<a href="/windows/desktop/Tapi/about-the-media-service-provider-msp-">About The Media Service Provider (MSP)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosemspinstance">TSPI_lineCloseMSPInstance</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineclosemspinstance">TSPI_lineCloseMSPInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemspidentify">TSPI_lineMSPIdentify</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linemspidentify">TSPI_lineMSPIdentify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linereceivemspdata">TSPI_lineReceiveMSPData</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linereceivemspdata">TSPI_lineReceiveMSPData</a>

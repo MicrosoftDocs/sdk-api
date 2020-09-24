@@ -70,7 +70,7 @@ The capture stream to set. The value can be any of the following.
 </dl>
 </td>
 <td width="60%">
-The zero-based index of a stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
+The zero-based index of a stream. To get the number of streams, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The first audio stream.
 
 ### -param pMediaType [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface.
 
 ## -returns
 
@@ -148,9 +148,8 @@ The <i>dwSourceStreamIndex</i> parameter is invalid.
 
 ## -remarks
 
-This method sets the native output type on the capture device. The device must support the specified format. To get the list of available formats, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getavailabledevicemediatype">IMFCaptureSource::GetAvailableDeviceMediaType</a>.
+This method sets the native output type on the capture device. The device must support the specified format. To get the list of available formats, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getavailabledevicemediatype">IMFCaptureSource::GetAvailableDeviceMediaType</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>

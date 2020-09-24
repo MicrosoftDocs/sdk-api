@@ -108,7 +108,7 @@ When quoting is required, the RDN is quoted in accordance with the specification
 
 The input and output RDN values are not <b>NULL</b>-terminated strings.
 
-To revert changes made by this call, call the <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsunquoterdnvaluea">DsUnquoteRdnValue</a> function.
+To revert changes made by this call, call the <a href="/windows/desktop/api/dsparse/nf-dsparse-dsunquoterdnvaluea">DsUnquoteRdnValue</a> function.
 
 
 
@@ -119,9 +119,8 @@ To revert changes made by this call, call the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsunquoterdnvaluea">DsUnquoteRdnValue</a>
-
+<a href="/windows/desktop/api/dsparse/nf-dsparse-dsunquoterdnvaluea">DsUnquoteRdnValue</a>

@@ -64,18 +64,18 @@ Pointer to the array of tablet context identifiers
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-<b>IRealTimeStylus::GetAllTabletContextIds Method</b> method provides access to all the tablet context identifiers that are currently active. This method enables you to get these identifiers directly instead of caching data from <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusenabled">IStylusPlugin::RealTimeStylusEnabled Method</a> notifications.
+<b>IRealTimeStylus::GetAllTabletContextIds Method</b> method provides access to all the tablet context identifiers that are currently active. This method enables you to get these identifiers directly instead of caching data from <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusenabled">IStylusPlugin::RealTimeStylusEnabled Method</a> notifications.
 
-The scope of the TabletContextID property is limited to a given instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>; a Tablet object may have a different unique identifier for each instance of the <b>RealTimeStylus Class</b>.
+The scope of the TabletContextID property is limited to a given instance of the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>; a Tablet object may have a different unique identifier for each instance of the <b>RealTimeStylus Class</b>.
 
 
 #### Examples
 
-The following C++ example code gets all the tablet context identifiers and uses the first tablet context identifier to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object.
+The following C++ example code gets all the tablet context identifiers and uses the first tablet context identifier to get a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object.
 
 
 ```cpp
@@ -114,13 +114,12 @@ if (SUCCEEDED(g_pRealTimeStylus->GetAllTabletContextIds(&ulTcidCount, &pTcids)))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettabletfromtabletcontextid">IRealTimeStylus::GetTabletFromTabletContextId Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettabletfromtabletcontextid">IRealTimeStylus::GetTabletFromTabletContextId Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

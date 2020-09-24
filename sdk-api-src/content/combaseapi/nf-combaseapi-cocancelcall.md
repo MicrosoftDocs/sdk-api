@@ -134,13 +134,12 @@ The call was already canceled.
 
 ## -remarks
 
-<b>CoCancelCall</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcancelobject">CoGetCancelObject</a> and then <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel">ICancelMethodCalls::Cancel</a> on the cancel object for the call being executed.
+<b>CoCancelCall</b> calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcancelobject">CoGetCancelObject</a> and then <a href="/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel">ICancelMethodCalls::Cancel</a> on the cancel object for the call being executed.
 
 This function does not locate cancel objects for asynchronous calls.
 
-The object server can determine if the call has been canceled by periodically calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel">CoTestCancel</a>. If the call has been canceled, the object server should clean up and return control to the client.
+The object server can determine if the call has been canceled by periodically calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel">CoTestCancel</a>. If the call has been canceled, the object server should clean up and return control to the client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel">CoTestCancel</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel">CoTestCancel</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRFILLRGN</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-fillrgn">FillRgn</a> enhanced metafile record.
+The <b>EMRFILLRGN</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-fillrgn">FillRgn</a> enhanced metafile record.
 
 ## -struct-fields
 
@@ -76,21 +76,20 @@ Index of brush, in handle table.
 
 ### -field RgnData
 
-Buffer containing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
+Buffer containing <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-fillrgn">FillRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-fillrgn">FillRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a>

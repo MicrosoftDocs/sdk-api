@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-For possible values of <i>pVal</i>, see <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspadmin-get_ocspserviceproperties">OCSPServiceProperties</a> or <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerproperties">ProviderProperties</a>.
+For possible values of <i>pVal</i>, see <a href="/windows/desktop/api/certadm/nf-certadm-iocspadmin-get_ocspserviceproperties">OCSPServiceProperties</a> or <a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerproperties">ProviderProperties</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>

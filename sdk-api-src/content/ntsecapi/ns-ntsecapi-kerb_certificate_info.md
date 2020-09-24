@@ -64,5 +64,4 @@ The size, in bytes, of the <b>KERB_CERTIFICATE_INFO</b> structure including the 
 
 ### -field InfoType
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_certificate_info_type">KERB_CERTIFICATE_INFO_TYPE</a> 	enumeration that specifies the type of certificate information that is provided.
-
+A value of the <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_certificate_info_type">KERB_CERTIFICATE_INFO_TYPE</a> 	enumeration that specifies the type of certificate information that is provided.

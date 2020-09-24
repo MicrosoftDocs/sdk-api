@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -97,12 +97,12 @@ Possible values include, but are not limited to, those in the following table.
 
 ## -remarks
 
-Components should copy the data to a temporary buffer before calling <b>DecryptParam</b> and then decrypt the temporary buffer. This method only needs to be called for encrypted parameters. See <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a> for a table of methods that must use the message authentication code algorithm and encrypted parameters.
+Components should copy the data to a temporary buffer before calling <b>DecryptParam</b> and then decrypt the temporary buffer. This method only needs to be called for encrypted parameters. See <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a> for a table of methods that must use the message authentication code algorithm and encrypted parameters.
 
 
 #### Examples
 
-The following code shows a service provider's implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">IMDSPObject::Write</a> method, which requires a service provider to decrypt data sent to it.
+The following code shows a service provider's implementation of the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">IMDSPObject::Write</a> method, which requires a service provider to decrypt data sent to it.
 
 
 ```cpp
@@ -174,17 +174,16 @@ Error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a>
+<a href="/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a>
+<a href="/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
 <a href="/previous-versions/ms868509(v=msdn.10)">CSecureChannelServer::EncryptParam</a>
-

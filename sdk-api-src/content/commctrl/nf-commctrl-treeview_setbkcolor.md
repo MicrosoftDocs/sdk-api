@@ -50,24 +50,23 @@ api_name:
 
 ## -description
 
-Sets the background color of the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setbkcolor">TVM_SETBKCOLOR</a> message explicitly.
+Sets the background color of the control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-setbkcolor">TVM_SETBKCOLOR</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a tree-view control.
 
 ### -param clr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that contains the new background color. If this argument is -1, the control will revert to using the system color for the background color.
+<a href="/windows/desktop/gdi/colorref">COLORREF</a> value that contains the new background color. If this argument is -1, the control will revert to using the system color for the background color.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getbkcolor">TreeView_GetBkColor</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getbkcolor">TreeView_GetBkColor</a>

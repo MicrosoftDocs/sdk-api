@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Reset</b> method resets the enumerator 
-    so that <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject:Next</a> starts at the first 
+    so that <a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject:Next</a> starts at the first 
     enumerated object.
 
 ## -parameters
@@ -92,9 +92,8 @@ There was an internal error in the enumerator.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject:Next</a>
-
+<a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject:Next</a>

@@ -147,15 +147,14 @@ Value: 0xC0AA0210
 
 MCN is the CD-ROM device driver's method of detecting media change and state changes in the CD-ROM device. For example, when you change the media in a CD-ROM device, a MCN message is sent to trigger media features, such as Autoplay. To disable the features, call this method. 
 
-To enable notifications, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a> method. If the application crashes or closes unexpectedly, then MCN is automatically re-enabled by the driver.
+To enable notifications, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a> method. If the application crashes or closes unexpectedly, then MCN is automatically re-enabled by the driver.
 
-Note that DisableMcn increments a reference count each time it is called. The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">EnableMcn</a> method decrements the count. The device is enabled when the reference count is zero.
+Note that DisableMcn increments a reference count each time it is called. The <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">EnableMcn</a> method decrements the count. The device is enabled when the reference count is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a>

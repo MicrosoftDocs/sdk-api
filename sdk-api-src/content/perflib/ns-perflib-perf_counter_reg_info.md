@@ -64,7 +64,7 @@ A unique identifier for the performance counter within the counter set. A counte
 
 ### -field Type
 
-The type of the performance counter. For information about the predefined counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list. 
+The type of the performance counter. For information about the predefined counter types, see the Counter Types section of the <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list. 
 					
 
 
@@ -475,19 +475,18 @@ Reserved.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to <b>PERF_REG_COUNTERSET_STRUCT</b> gets a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a> block that
+The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to <b>PERF_REG_COUNTERSET_STRUCT</b> gets a <a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a> block that
 contains one or more <b>PERF_COUNTER_REG_INFO</b> structures.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to 
+The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to 
 <b>PERF_REG_COUNTER_STRUCT</b> gets a <b>PERF_COUNTER_REG_INFO</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a>
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a>

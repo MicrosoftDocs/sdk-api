@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>lineSetNumRings</b> function sets the number of rings that must occur before an incoming call is answered. This function can be used to implement a toll-saver-style function. It allows multiple independent applications to each register the number of rings. The function 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> returns the minimum number of rings requested. It can be used by the application that answers incoming calls to determine the number of rings it should wait before answering the call.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> returns the minimum number of rings requested. It can be used by the application that answers incoming calls to determine the number of rings it should wait before answering the call.
 
 ## -parameters
 
@@ -77,15 +77,15 @@ LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALADDRESSID, LINEER
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> and 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> and 
 <b>lineSetNumRings</b> functions, when used in combination, provide a mechanism to support the implementation of toll-saver features across multiple independent applications. If no application ever calls 
 <b>lineSetNumRings</b>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> returns 0xFFFFFFFF.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> returns 0xFFFFFFFF.
 
 An application that is the owner of a call in the <i>offering</i> state and that received a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>  <i>ringing</i> message should wait a number of rings equal to the number returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> before answering the call in order to honor the toll-saver settings across all applications. A separate LINE_LINEDEVSTATE <i>ringing</i> message is sent to the application for each ring cycle, so the application should count these messages. If this call disconnects before being answered, and another call comes in shortly thereafter, the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> message should allow the application to determine that ringing is related to the second call.
+<a href="/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>  <i>ringing</i> message should wait a number of rings equal to the number returned by 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> before answering the call in order to honor the toll-saver settings across all applications. A separate LINE_LINEDEVSTATE <i>ringing</i> message is sent to the application for each ring cycle, so the application should count these messages. If this call disconnects before being answered, and another call comes in shortly thereafter, the 
+<a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> message should allow the application to determine that ringing is related to the second call.
 
 If call classification is performed by TAPI by means of answering incoming calls of unknown media type and filtering the media stream, TAPI honors this number as well.
 
@@ -94,21 +94,20 @@ If call classification is performed by TAPI by means of answering incoming calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
+<a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
+<a href="/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a>

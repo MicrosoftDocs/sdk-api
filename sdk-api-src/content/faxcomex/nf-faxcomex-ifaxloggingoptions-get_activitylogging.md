@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>ActivityLogging</b> property retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> configuration object.
+The <b>ActivityLogging</b> property retrieves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> configuration object.
 
 This property is read-only.
 
@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxloggingoptions">FaxLoggingOptions</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxloggingoptions">FaxLoggingOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxloggingoptions">IFaxLoggingOptions</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxloggingoptions">IFaxLoggingOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-setting-logging-options">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-setting-logging-options">Visual Basic Example</a>

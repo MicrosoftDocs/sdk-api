@@ -18,5 +18,4 @@ To develop Interaction Context, you need these headers:
  * [interactioncontext.h](../interactioncontext/index.md)
 
 For programming guidance for this technology, see:
-* [Interaction Context](https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext)
-
+* [Interaction Context](/previous-versions/windows/desktop/input_intcontext)

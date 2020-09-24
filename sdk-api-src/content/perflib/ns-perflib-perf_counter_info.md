@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines information about a counter that a provider uses.  The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool automatically generates this structure based on the  schema you specify.
+Defines information about a counter that a provider uses.  The <a href="/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool automatically generates this structure based on the  schema you specify.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Identifier that uniquely identifies the counter within the counter set.
 
 ### -field Type
 
-Specifies the type of counter. For possible counter types, see <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Counter Types</a> in the Windows 2003 Deployment Guide.
+Specifies the type of counter. For possible counter types, see <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Counter Types</a> in the Windows 2003 Deployment Guide.
 
 ### -field Attrib
 
@@ -181,17 +181,16 @@ Scale factor to apply to the counter value. Valid values range from –10 throug
 
 ### -field Offset
 
-Byte offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> block to the counter value.
+Byte offset from the beginning of the <a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> block to the counter value.
 
 ## -remarks
 
-This structure is contained within a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_info">PERF_COUNTERSET_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> block.
+This structure is contained within a <a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_info">PERF_COUNTERSET_INFO</a> or <a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> block.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_info">PERF_COUNTERSET_INFO</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_info">PERF_COUNTERSET_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a>
-
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a>

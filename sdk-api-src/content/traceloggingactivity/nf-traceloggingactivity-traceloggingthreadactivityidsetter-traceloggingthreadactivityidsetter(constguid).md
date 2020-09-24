@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a> object.
+Creates a new <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a> object.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ A reference to the unique identifier that should be associated with this instanc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a>
-
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a>

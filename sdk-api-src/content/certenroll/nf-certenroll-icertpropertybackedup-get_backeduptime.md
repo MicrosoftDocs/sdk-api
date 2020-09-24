@@ -59,7 +59,7 @@ This property is read-only.
 
 ## -remarks
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initialize">Initialize</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initializefromcurrenttime">InitializeFromCurrentTime</a> method to set the <b>BackedUpTime</b> value.
+Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initialize">Initialize</a> method or the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertybackedup-initializefromcurrenttime">InitializeFromCurrentTime</a> method to set the <b>BackedUpTime</b> value.
 
 The date is stored as an 8-byte real value, representing a date between January 1, 1900 and December 31, 9999, inclusive. The value 2.0 represents January 1, 1900; 3.0 represents January 2, 1900. Adding 1 to the value increments the date by a day. The fractional part of the value represents the time of day. Therefore, 2.5 represents 12:00 on January 1, 1900; 3.25 represents 06:00 on January 2, 1900.
 
@@ -67,9 +67,8 @@ For dates between 1950 and 2049 inclusive, the date and time is encoded UTC-time
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a>

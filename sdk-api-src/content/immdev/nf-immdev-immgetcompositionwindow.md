@@ -61,7 +61,7 @@ Handle to the input context.
 
 ### -param lpCompForm [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a> structure in which the function retrieves information about the composition window.
+Pointer to a <a href="/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a> structure in which the function retrieves information about the composition window.
 
 ## -returns
 
@@ -69,13 +69,12 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a>
+<a href="/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

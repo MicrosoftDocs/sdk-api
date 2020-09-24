@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>ReverseFind</b> method searches a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string for the last match of a substring. This method is similar to the runtime function, wcsrchr.
+The <b>ReverseFind</b> method searches a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string for the last match of a substring. This method is similar to the runtime function, wcsrchr.
 
 ## -parameters
 
@@ -67,17 +67,16 @@ The character that the method searches for.
 
 ## -returns
 
-Returns the zero-based index of the last character in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string that matches the requested character. If the character is not found, the method returns a value of -1.
+Returns the zero-based index of the last character in the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string that matches the requested character. If the character is not found, the method returns a value of -1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+<a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">CHString::Find</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">CHString::Find</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">CHString::FindOneOf</a>
-
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">CHString::FindOneOf</a>

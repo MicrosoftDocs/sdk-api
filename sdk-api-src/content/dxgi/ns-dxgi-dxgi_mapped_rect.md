@@ -56,21 +56,20 @@ Describes a mapped rectangle that is used to access a surface.
 
 ### -field Pitch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 A value that describes the width, in bytes, of the surface.
 
 ### -field pBits
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
 
 A pointer to the image buffer of the surface.
 
 ## -remarks
 
-The <b>DXGI_MAPPED_RECT</b> structure is initialized by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgisurface-map">IDXGISurface::Map</a> method.
+The <b>DXGI_MAPPED_RECT</b> structure is initialized by the <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgisurface-map">IDXGISurface::Map</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>

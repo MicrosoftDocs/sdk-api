@@ -54,7 +54,7 @@ Encapsulates the methods and events  needed to model a DLNA Device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicDevice</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IBasicDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicDevice</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IBasicDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IBasicDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-add-connectionstatuschanged">add_ConnectionStatusChanged</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-add-connectionstatuschanged">add_ConnectionStatusChanged</a>
 </td>
 <td align="left" width="63%">
-Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
+Registers an event handler for the <a href="/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-canwakedevices">CanWakeDevices</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-canwakedevices">CanWakeDevices</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates if the device can wake.
@@ -87,7 +87,7 @@ Retrieves a value that indicates if the device can wake.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828873(v=vs.85)">ConnectionStatus</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828873(v=vs.85)">ConnectionStatus</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration value indicating whether the device is currently on-line, off-line or sleeping but wakeable.
@@ -96,7 +96,7 @@ Returns an enumeration value indicating whether the device is currently on-line,
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-description">Description</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-description">Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the device.
@@ -105,7 +105,7 @@ Retrieves a description of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-discoveredoncurrentnetwork">DiscoveredOnCurrentNetwork</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-discoveredoncurrentnetwork">DiscoveredOnCurrentNetwork</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates if the device is on the current network.
@@ -114,7 +114,7 @@ Retrieves a value that indicates if the device is on the current network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-friendlyname">FriendlyName</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-friendlyname">FriendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device’s friendly name.
@@ -123,16 +123,16 @@ Retrieves the device’s friendly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-icons">Icons</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-icons">Icons</a>
 </td>
 <td align="left" width="63%">
-Returns a vector of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828909(v=vs.85)">IDeviceIcon</a> interfaces.
+Returns a vector of <a href="/previous-versions/windows/desktop/legacy/hh828909(v=vs.85)">IDeviceIcon</a> interfaces.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-ipaddresses">IpAddresses</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-ipaddresses">IpAddresses</a>
 </td>
 <td align="left" width="63%">
 Returns a vector of IP addresses.
@@ -141,7 +141,7 @@ Returns a vector of IP addresses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-manufacturername">ManufacturerName</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-manufacturername">ManufacturerName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device’s manufacturer name.
@@ -150,7 +150,7 @@ Retrieves the device’s manufacturer name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-manufacturerurl">ManufacturerUrl</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-manufacturerurl">ManufacturerUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device’s manufacturer URL.
@@ -159,7 +159,7 @@ Retrieves the device’s manufacturer URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-modelname">ModelName</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-modelname">ModelName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device’s model name.
@@ -168,7 +168,7 @@ Retrieves the device’s model name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-modelnumber">ModelNumber</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-modelnumber">ModelNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device’s model number.
@@ -177,7 +177,7 @@ Retrieves the device’s model number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-modelurl">ModelUrl</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-modelurl">ModelUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device’s model URL.
@@ -186,7 +186,7 @@ Retrieves the device’s model URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-physicaladdresses">PhysicalAddresses</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-physicaladdresses">PhysicalAddresses</a>
 </td>
 <td align="left" width="63%">
 Returns a vector of physical addresses.
@@ -195,7 +195,7 @@ Returns a vector of physical addresses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-presentationurl">PresentationUrl</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-presentationurl">PresentationUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device’s presentation URL.
@@ -204,7 +204,7 @@ Retrieves the device’s presentation URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-remotestreamingurls">RemoteStreamingUrls</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-remotestreamingurls">RemoteStreamingUrls</a>
 </td>
 <td align="left" width="63%">
 Returns a vector of remote streaming URLs.
@@ -213,16 +213,16 @@ Returns a vector of remote streaming URLs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-remove-connectionstatuschanged">remove_ConnectionStatusChanged</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-remove-connectionstatuschanged">remove_ConnectionStatusChanged</a>
 </td>
 <td align="left" width="63%">
-Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
+Unregisters an event handler for the <a href="/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-serialnumber">SerialNumber</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-serialnumber">SerialNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device’s serial number.
@@ -231,7 +231,7 @@ Retrieves the device’s serial number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-type">Type</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-type">Type</a>
 </td>
 <td align="left" width="63%">
 Retreives an enumeration value indicating the device type of the DLNA device.
@@ -240,7 +240,7 @@ Retreives an enumeration value indicating the device type of the DLNA device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-uniquedevicename">UniqueDeviceName</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice-uniquedevicename">UniqueDeviceName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device’s unique device name (UDN).
@@ -251,5 +251,4 @@ Retrieves the device’s unique device name (UDN).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

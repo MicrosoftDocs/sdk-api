@@ -87,29 +87,28 @@ SENS calls this method to notify an application that a screen saver is stopped.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
+<a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isenslogon">ISensLogon</a>
+<a href="/windows/desktop/api/sensevts/nn-sensevts-isenslogon">ISensLogon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-displaylock">ISensLogon::DisplayLock</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-displaylock">ISensLogon::DisplayLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-displayunlock">ISensLogon::DisplayUnLock</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-displayunlock">ISensLogon::DisplayUnLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-startscreensaver">ISensLogon::StartScreenSaver</a>
-
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-startscreensaver">ISensLogon::StartScreenSaver</a>

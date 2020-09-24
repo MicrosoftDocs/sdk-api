@@ -55,13 +55,13 @@ api_name:
 
 ## -description
 
-The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/accessing-device-setup-class-properties">device setup class property</a>.
+The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="/windows-hardware/drivers/install/accessing-device-setup-class-properties">device setup class property</a>.
 
 ## -parameters
 
 ### -param ClassGuid [in]
 
-A pointer to the GUID that represents the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to retrieve a property.
+A pointer to the GUID that represents the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to retrieve a property.
 
 ### -param ulProperty [in]
 
@@ -85,19 +85,19 @@ Represents a REG_MULTI_SZ-typed list of strings, where each string contains the 
 
 #### CM_CRP_SECURITY
 
-Represents a value of type REG_BINARY that contains a variable-length, self-relative, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Represents a value of type REG_BINARY that contains a variable-length, self-relative, <a href="/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 
 
 #### CM_CRP_SECURITY_SDS
 
-Represents a string of type REG_SZ that contains a security descriptor in the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/sddl-for-device-objects">Security Descriptor Definition Language (SDDL)</a> format. 
+Represents a string of type REG_SZ that contains a security descriptor in the <a href="/windows-hardware/drivers/kernel/sddl-for-device-objects">Security Descriptor Definition Language (SDDL)</a> format. 
 
 
 
 #### CM_CRP_DEVTYPE
 
-Represents a value of type REG_DWORD that indicates the device type for the class. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>. 
+Represents a value of type REG_DWORD that indicates the device type for the class. For more information, see <a href="/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>. 
 
 
 
@@ -109,11 +109,11 @@ Represents a value of type REG_DWORD that indicates whether users can obtain exc
 
 #### CM_CRP_CHARACTERISTICS
 
-Represents a value of type DWORD that indicates the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> routine.
+Represents a value of type DWORD that indicates the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of the <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> routine.
 
 ### -param pulRegDataType [out, optional]
 
-A pointer to a variable of type ULONG that receives the REG_<i>Xxx</i> constant that represents the data type of the requested property. The REG_<i>Xxx</i> constants are defined in <i>Winnt.h</i> and are described in the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a> structure. This parameter is optional and can be set to <b>NULL</b>.
+A pointer to a variable of type ULONG that receives the REG_<i>Xxx</i> constant that represents the data type of the requested property. The REG_<i>Xxx</i> constants are defined in <i>Winnt.h</i> and are described in the <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a> structure. This parameter is optional and can be set to <b>NULL</b>.
 
 ### -param Buffer [out]
 
@@ -141,17 +141,16 @@ To determine the size, in bytes, of a property before attempting to retrieve the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_class_registry_propertyw">CM_Set_Class_Registry_Property</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_class_registry_propertyw">CM_Set_Class_Registry_Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassregistrypropertya">SetupDiGetClassRegistryProperty</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassregistrypropertya">SetupDiGetClassRegistryProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassregistrypropertya">SetupDiSetClassRegistryProperty</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassregistrypropertya">SetupDiSetClassRegistryProperty</a>

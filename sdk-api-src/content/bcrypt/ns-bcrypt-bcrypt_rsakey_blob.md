@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_RSAKEY_BLOB</b> structure is used as a header for an RSA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> in memory.
+The <b>BCRYPT_RSAKEY_BLOB</b> structure is used as a header for an RSA <a href="/windows/desktop/SecGloss/p-gly">public key</a> or <a href="/windows/desktop/SecGloss/p-gly">private key</a> <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> in memory.
 
 ## -struct-fields
 
@@ -119,14 +119,14 @@ The size, in bytes, of the second prime number of the key. This is only used for
 
 ## -remarks
 
-This structure is used as a header for a larger buffer. An RSA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_RSAPUBLIC_BLOB) has the following format in contiguous memory. All of the numbers following the structure are in big-endian format.
+This structure is used as a header for a larger buffer. An RSA <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_RSAPUBLIC_BLOB) has the following format in contiguous memory. All of the numbers following the structure are in big-endian format.
 
 <pre class="syntax" xml:space="preserve"><code>
 BCRYPT_RSAKEY_BLOB
 PublicExponent[cbPublicExp] // Big-endian.
 Modulus[cbModulus] // Big-endian.
 </code></pre>
-An RSA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_RSAPRIVATE_BLOB) has the following format in contiguous memory. All of the numbers following the structure are in big-endian format.
+An RSA <a href="/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_RSAPRIVATE_BLOB) has the following format in contiguous memory. All of the numbers following the structure are in big-endian format.
 
 <pre class="syntax" xml:space="preserve"><code>
 BCRYPT_RSAKEY_BLOB
@@ -151,13 +151,12 @@ PrivateExponent[cbModulus] // Big-endian.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a>
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>

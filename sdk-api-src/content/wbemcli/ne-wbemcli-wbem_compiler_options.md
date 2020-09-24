@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains option flags for <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a> methods.
+Contains option flags for <a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a> methods.
 
 ## -enum-fields
 
@@ -72,13 +72,12 @@ Contains option flags for <a href="https://docs.microsoft.com/windows/desktop/ap
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>

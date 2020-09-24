@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function. It serves as the starting address for a fiber. The <b>LPFIBER_START_ROUTINE</b> type defines a pointer to this callback function. 
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function. It serves as the starting address for a fiber. The <b>LPFIBER_START_ROUTINE</b> type defines a pointer to this callback function. 
 <b>FiberProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
@@ -61,17 +61,16 @@ An application-defined function used with the
 #### - lpParameter [in]
 
 The fiber data passed using the <i>lpParameter</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
+<a href="/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

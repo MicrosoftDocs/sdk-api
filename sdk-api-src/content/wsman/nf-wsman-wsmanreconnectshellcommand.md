@@ -56,7 +56,7 @@ Reconnects a previously disconnected command.
 
 ### -param commandHandle [in, out]
 
-Specifies the handle returned by a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanrunshellcommand">WSManRunShellCommand</a> call or a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanconnectshellcommand">WSManConnectShellCommand</a> call. This parameter cannot be NULL.
+Specifies the handle returned by a <a href="/windows/desktop/api/wsman/nf-wsman-wsmanrunshellcommand">WSManRunShellCommand</a> call or a <a href="/windows/desktop/api/wsman/nf-wsman-wsmanconnectshellcommand">WSManConnectShellCommand</a> call. This parameter cannot be NULL.
 
 ### -param flags
 
@@ -64,5 +64,4 @@ Reserved for future use. Must be set to zero.
 
 ### -param async [in]
 
-Defines an asynchronous structure which will contain an optional user context and a mandatory callback function. See the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a> structure for more information. This parameter cannot be NULL.
-
+Defines an asynchronous structure which will contain an optional user context and a mandatory callback function. See the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a> structure for more information. This parameter cannot be NULL.

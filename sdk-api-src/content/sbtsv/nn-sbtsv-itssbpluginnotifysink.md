@@ -54,7 +54,7 @@ Exposes methods that notify Remote Desktop Connection Broker (RD Connection Bro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbPluginNotifySink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>. <b>ITsSbPluginNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbPluginNotifySink</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>. <b>ITsSbPluginNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,19 +69,19 @@ The <b>ITsSbPluginNotifySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbpluginnotifysink-oninitialized">OnInitialized</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbpluginnotifysink-oninitialized">OnInitialized</a>
 </td>
 <td align="left" width="63%">
-Notifies RD Connection Broker that the plug-in has completed a call of <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-initialize">Initialize</a>.
+Notifies RD Connection Broker that the plug-in has completed a call of <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-initialize">Initialize</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbpluginnotifysink-onterminated">OnTerminated</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbpluginnotifysink-onterminated">OnTerminated</a>
 </td>
 <td align="left" width="63%">
-Notifies RD Connection Broker that the plug-in has completed a call of <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-terminate">Terminate</a>.
+Notifies RD Connection Broker that the plug-in has completed a call of <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-terminate">Terminate</a>.
 
 </td>
 </tr>
@@ -89,9 +89,8 @@ Notifies RD Connection Broker that the plug-in has completed a call of <a href=
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

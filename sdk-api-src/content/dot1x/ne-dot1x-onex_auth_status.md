@@ -84,25 +84,24 @@ Indicates the end of the range that specifies the possible values for 802.1X aut
 
 The <b>ONEX_AUTH_STATUS</b> enumerated type is used by the 802.1X module, a new wireless configuration component supported on Windows Vista and  later.  
 
-The <b>ONEX_AUTH_STATUS</b> specifies the possible values for the 802.1X authentication status. A value from this enumeration is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notifications  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure that contains a <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_status">ONEX_STATUS</a>  structure member in the <b>oneXStatus</b> structure member. The <b>ONEX_STATUS</b>  structure contains a <b>ONEX_AUTH_STATUS</b> enumeration value in the <b>authStatus</b> member.
+The <b>ONEX_AUTH_STATUS</b> specifies the possible values for the 802.1X authentication status. A value from this enumeration is returned  when  the <b>NotificationSource</b> member of the <a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notifications  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <a href="/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure that contains a <a href="/windows/desktop/api/dot1x/ns-dot1x-onex_status">ONEX_STATUS</a>  structure member in the <b>oneXStatus</b> structure member. The <b>ONEX_STATUS</b>  structure contains a <b>ONEX_AUTH_STATUS</b> enumeration value in the <b>authStatus</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-acm-architecture">About the ACM Architecture</a>
+<a href="/windows/desktop/NativeWiFi/about-the-acm-architecture">About the ACM Architecture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
+<a href="/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_status">ONEX_STATUS</a>
+<a href="/windows/desktop/api/dot1x/ns-dot1x-onex_status">ONEX_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
+<a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>

@@ -62,7 +62,7 @@ Specifies the name of the attribute. This name is either the Lightweight Directo
 ### -param pId [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">ATTRIBUTEID</a> that receives the ID of the specified attribute.
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributeid">ATTRIBUTEID</a> that receives the ID of the specified attribute.
 
 ## -returns
 
@@ -74,13 +74,12 @@ If the method fails, the return value is one of the following error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">ATTRIBUTEID</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributeid">ATTRIBUTEID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
-
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>

@@ -64,7 +64,7 @@ Reserved. Must be <b>NULL</b>.
 
 ### -param Namespaces [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> interface pointer whose methods can be used to access members of the collection.
+An <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> interface pointer whose methods can be used to access members of the collection.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It returns 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>

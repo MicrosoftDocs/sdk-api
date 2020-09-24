@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINEREQMEDIACALL</b> structure describes a request initiated by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a> function. This data structure is obsolete and should not be used.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a> function. This data structure is obsolete and should not be used.
 
 ## -struct-fields
 
@@ -102,5 +102,4 @@ The comment buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>

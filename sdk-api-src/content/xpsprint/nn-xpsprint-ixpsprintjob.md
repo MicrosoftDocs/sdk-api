@@ -56,7 +56,7 @@ Provides access to a print job that is currently in progress.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJob</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsPrintJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJob</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsPrintJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IXpsPrintJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-cancel">Cancel</a>
+<a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the print job.
@@ -80,7 +80,7 @@ Cancels the print job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">GetJobStatus</a>
+<a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">GetJobStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the current status of the print job.
@@ -91,9 +91,8 @@ Gets the current status of the print job.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
+<a href="/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-

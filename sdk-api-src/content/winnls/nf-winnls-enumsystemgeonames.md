@@ -60,7 +60,7 @@ The geographical location class for which to enumerate the available two-letter 
 
 ### -param geoEnumProc [in]
 
-Pointer to the application-defined callback function <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-geo_enumnameproc">Geo_EnumNameProc</a>. The <b>EnumSystemGeoNames</b> function calls this callback function for each of the two-letter ISO 3166-1 or numeric UN M.49 codes for geographical locations that are available on the operating system until callback function returns <b>FALSE</b>.
+Pointer to the application-defined callback function <a href="/windows/desktop/api/winnls/nc-winnls-geo_enumnameproc">Geo_EnumNameProc</a>. The <b>EnumSystemGeoNames</b> function calls this callback function for each of the two-letter ISO 3166-1 or numeric UN M.49 codes for geographical locations that are available on the operating system until callback function returns <b>FALSE</b>.
 
 ### -param data [in, optional]
 
@@ -68,7 +68,7 @@ Application-specific information to pass to the callback function that the <i>ge
 
 ## -returns
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <table>
 <tr>
@@ -105,17 +105,16 @@ For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeoid">EnumSystemGeoID</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemgeoid">EnumSystemGeoID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-geo_enumnameproc">Geo_EnumNameProc</a>
+<a href="/windows/desktop/api/winnls/nc-winnls-geo_enumnameproc">Geo_EnumNameProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

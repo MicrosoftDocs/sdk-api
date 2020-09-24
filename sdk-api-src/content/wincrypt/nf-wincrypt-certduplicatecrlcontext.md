@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>CertDuplicateCRLContext</b> function duplicates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context by incrementing its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>.
+The <b>CertDuplicateCRLContext</b> function duplicates a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context by incrementing its <a href="/windows/desktop/SecGloss/r-gly">reference count</a>.
 
 ## -parameters
 
 ### -param pCrlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure for which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure for which the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Currently, a copy is not made of the context, and the returned context is the sa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>

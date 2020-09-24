@@ -53,7 +53,7 @@ api_name:
 
 Determines whether an item is suspended.
 
-If an item is suspended and is a suspended root, it was suspended by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessuspend-suspendroot">IOfflineFilesSuspend::SuspendRoot</a> method.  If an item is suspended but is not a suspended root, its suspension was inherited from a suspended root.
+If an item is suspended and is a suspended root, it was suspended by using the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessuspend-suspendroot">IOfflineFilesSuspend::SuspendRoot</a> method.  If an item is suspended but is not a suspended root, its suspension was inherited from a suspended root.
 
 ## -parameters
 
@@ -71,5 +71,4 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessuspendinfo">IOfflineFilesSuspendInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessuspendinfo">IOfflineFilesSuspendInfo</a>

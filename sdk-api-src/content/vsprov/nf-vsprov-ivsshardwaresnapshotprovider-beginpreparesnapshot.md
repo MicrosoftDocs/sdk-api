@@ -67,7 +67,7 @@ Identifier of the shadow copy to be created.
 ### -param lContext [in]
 
 Shadow copy context for current shadow copy set as enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
+      <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
 
 ### -param lLunCount [in]
 
@@ -80,7 +80,7 @@ Pointer to array of <i>lLunCount</i> pointers to strings, each string containing
 
 ### -param rgLunInformation [in, out]
 
-Pointer to array of <i>lLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
+Pointer to array of <i>lLunCount</i><a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
        contributing to this shadow copy volume.
 
 ## -returns
@@ -200,9 +200,8 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>

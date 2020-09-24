@@ -54,7 +54,7 @@ Provides an asynchronous callback mechanism used by a credential provider to not
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICredentialProviderEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderevents-credentialschanged">CredentialsChanged</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderevents-credentialschanged">CredentialsChanged</a>
 </td>
 <td align="left" width="63%">
 Signals the Logon UI or Credential UI  that the enumerated list of credentials has changed.
@@ -88,9 +88,8 @@ Outside parties do not need to implement <b>ICredentialProviderEvents</b> themse
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-advise">ICredentialProvider::Advise</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-advise">ICredentialProvider::Advise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-unadvise">ICredentialProvider::UnAdvise</a>
-
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-unadvise">ICredentialProvider::UnAdvise</a>

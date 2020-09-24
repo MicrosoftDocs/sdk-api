@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the view transform that is used to render ink.
+Sets the <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the view transform that is used to render ink.
 
 ## -parameters
 
 ### -param ViewTransform [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the geometric transformation - rotation, scaling, shear, and reflection - values to use to transform the stroke coordinates within the ink space.
+The <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the geometric transformation - rotation, scaling, shear, and reflection - values to use to transform the stroke coordinates within the ink space.
 
 A <b>NULL</b> value for the <i>viewTransform</i> parameter correlates to the identity transform.
 
@@ -99,7 +99,7 @@ A parameter contained an invalid pointer.
 </dl>
 </td>
 <td width="60%">
-<i>viewTransform</i> does not point to a compatible <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
+<i>viewTransform</i> does not point to a compatible <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 </td>
 </tr>
@@ -125,15 +125,15 @@ View transformation occurs after object transformation.
 The pen width is calculated by multiplying the specified pen width (or default of 53, if unspecified) by the square root of the determinant of the view transform.
 
 It is problematic to call this method in response to SENT message.  Test whether you are processing a SENT message
-			  by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMesssageEx</a> and then POST the message to yourself if the message was SENT.
+			  by calling <a href="/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMesssageEx</a> and then POST the message to yourself if the message was SENT.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform">GetObjectTransform Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform">GetObjectTransform Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">GetViewTransform Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">GetViewTransform Method</a>
 
 
 
@@ -141,5 +141,4 @@ It is problematic to call this method in response to SENT message.  Test whether
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
-
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>

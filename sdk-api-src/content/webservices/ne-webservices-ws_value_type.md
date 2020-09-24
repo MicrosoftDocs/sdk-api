@@ -116,5 +116,4 @@ Used to indicate a GUID.
 
 ### -field WS_DURATION_VALUE_TYPE
 
-Used to indicate a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a>.
-
+Used to indicate a <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a>.

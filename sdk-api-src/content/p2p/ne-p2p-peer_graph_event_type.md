@@ -62,7 +62,7 @@ The peer graph   status has changed in some manner. For example, the node has sy
 
 ### -field PEER_GRAPH_EVENT_PROPERTY_CHANGED
 
-A field in the peer graph property structure has changed. This peer event does not generate  a specific piece of data for an application to retrieve. The application must use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetproperties">PeerGraphGetProperties</a> to obtain the updated structure.
+A field in the peer graph property structure has changed. This peer event does not generate  a specific piece of data for an application to retrieve. The application must use <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetproperties">PeerGraphGetProperties</a> to obtain the updated structure.
 
 ### -field PEER_GRAPH_EVENT_RECORD_CHANGED
 
@@ -82,7 +82,7 @@ Data has been received from a direct or neighbor connection.
 
 ### -field PEER_GRAPH_EVENT_CONNECTION_REQUIRED
 
-The peer graph has become unstable.  The client should call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a> on a new node. This peer event does not generate  a specific piece of data for an application to retrieve.
+The peer graph has become unstable.  The client should call <a href="/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a> on a new node. This peer event does not generate  a specific piece of data for an application to retrieve.
 
 ### -field PEER_GRAPH_EVENT_NODE_CHANGED
 
@@ -94,17 +94,16 @@ A specific  record type has been synchronized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration">PEER_GRAPH_EVENT_REGISTRATION</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration">PEER_GRAPH_EVENT_REGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetproperties">PeerGraphGetProperties</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetproperties">PeerGraphGetProperties</a>

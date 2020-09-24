@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>DecommissionNtmsMedia</b> function moves a side from the Available state to the Decommissioned state.
@@ -60,7 +60,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaId [in]
 
@@ -193,13 +193,12 @@ Media decommissioned by the
 <b>DecommissionNtmsMedia</b> function is recognized by RSM but the decommissioned media does not contain any data and is never again used.
 
 Only media that is in the Available state can be decommissioned. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/media-life-cycle">Media Life Cycle</a>.
+<a href="/previous-versions/windows/desktop/rsm/media-life-cycle">Media Life Cycle</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a>
+<a href="/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>

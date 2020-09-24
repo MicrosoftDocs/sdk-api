@@ -55,7 +55,7 @@ provides similar functionality.]
 
  The 
 <b>RenewAddress</b> method renews an address lease. Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">CreateLeaseInfo</a> to specify the parameters of the renewal request, and then call this method to make the request.
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">CreateLeaseInfo</a> to specify the parameters of the renewal request, and then call this method to make the request.
 
 ## -parameters
 
@@ -66,14 +66,14 @@ Reserved parameter. An application should pass in a value of 0.
 ### -param pRenewRequest [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a> object specifying the attributes of the requested renewal, such as which address(es) to renew. This is obtained by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">CreateLeaseInfo</a>.
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a> object specifying the attributes of the requested renewal, such as which address(es) to renew. This is obtained by calling 
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">CreateLeaseInfo</a>.
 
 ### -param ppRenewResponse [out]
 
 Pointer to an interface pointer that will be set to point to a new 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a> object. This interface can then be used to discover the attributes of the renewed lease. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> for more information.
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a> object. This interface can then be used to discover the attributes of the renewed lease. See 
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> for more information.
 
 ## -returns
 
@@ -132,5 +132,4 @@ Not enough memory to create the required objects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
-
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>

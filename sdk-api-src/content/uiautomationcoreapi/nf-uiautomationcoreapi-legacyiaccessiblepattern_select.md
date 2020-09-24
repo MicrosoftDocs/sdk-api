@@ -64,11 +64,10 @@ The <i>control pattern</i> object.
 
 Type: <b>long</b>
 
-Specifies which selection or focus operations are to be performed. This parameter must have a combination of the values described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selflag">SELFLAG Constants</a>.
+Specifies which selection or focus operations are to be performed. This parameter must have a combination of the values described in <a href="/windows/desktop/WinAuto/selflag">SELFLAG Constants</a>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
-

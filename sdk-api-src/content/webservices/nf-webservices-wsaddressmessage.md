@@ -50,27 +50,27 @@ api_name:
 
 ## -description
 
-Addresses a <a href="https://docs.microsoft.com/windows/desktop/wsw/message">message</a> to a specified <a href="https://docs.microsoft.com/windows/desktop/wsw/endpoint-address">endpoint address</a>.
+Addresses a <a href="/windows/desktop/wsw/message">message</a> to a specified <a href="/windows/desktop/wsw/endpoint-address">endpoint address</a>.
 
 ## -parameters
 
 ### -param message [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure respresenting the  message to be addressed.
+Pointer to a <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure respresenting the  message to be addressed.
 
 ### -param address [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> structure containing the endpoint  to which to address the message.
+Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> structure containing the endpoint  to which to address the message.
 
 <div class="alert"><b>Note</b>  Passing <b>NULL</b> to this parameter indicates that no headers are added to the message.  This provides
-                    a way to set the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_ID</a> to <b>WS_MESSAGE_PROPERTY_IS_ADDRESSED</b> 
+                    a way to set the <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_ID</a> to <b>WS_MESSAGE_PROPERTY_IS_ADDRESSED</b> 
                     without modifying the set of headers in the message.
                 </div>
 <div> </div>
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -143,8 +143,8 @@ This function can return other errors not listed above.
 
 ## -remarks
 
-If you do not address a message by calling  this function, the <a href="https://docs.microsoft.com/windows/desktop/wsw/channel">channel</a> automatically addresses the message with the
-                <a href="https://docs.microsoft.com/windows/desktop/wsw/endpoint-address">Endpoint Address</a> passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>.
+If you do not address a message by calling  this function, the <a href="/windows/desktop/wsw/channel">channel</a> automatically addresses the message with the
+                <a href="/windows/desktop/wsw/endpoint-address">Endpoint Address</a> passed to <a href="/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>.
 
 This function marks the message as addressed by setting
                 the  <b>WS_MESSAGE_PROPERTY_IS_ADDRESSED</b> property  to <b>TRUE</b>.
@@ -154,19 +154,18 @@ This function fails
                 if the message has already been addressed and returns <b>WS_E_INVALID_OPERATION</b>.
             
 
-If a non-<b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> is passed
+If a non-<b>NULL</b><a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> is passed
                 to the function,  the function performs the following
                 additional steps:
             
 
 <ul>
-<li>The header type is set to WS_TO_HEADER (see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> enumeration) and the address is set to the value of the <b>url</b>field of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.  If the URL length
-                is zero the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a>-specific 
+<li>The header type is set to WS_TO_HEADER (see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> enumeration) and the address is set to the value of the <b>url</b>field of <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.  If the URL length
+                is zero the <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a>-specific 
                 representation for an anonymous URL is set for the message.
                 </li>
-<li>Each header in the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> specified in the 
-                headers field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> is added to
+<li>Each header in the <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> specified in the 
+                headers field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> is added to
                 the message.  No headers are added if the buffer is <b>NULL</b>.
             </li>
 </ul>
-

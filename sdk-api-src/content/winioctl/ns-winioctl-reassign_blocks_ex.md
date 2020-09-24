@@ -56,7 +56,7 @@ api_name:
 Contains 
     disk block reassignment data. This is a variable length structure where the last member is an array of block 
     numbers to be reassigned. It is used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks_ex">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks_ex">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control 
     code.
 
 ## -struct-fields
@@ -80,19 +80,18 @@ An array of <b>Count</b> block numbers, one for each block to be reassigned.
 
 The <b>REASSIGN_BLOCKS_EX</b> structure supports drives 
     that have an 8-byte Logical Block Address (LBA), which is typically required for storage devices larger than 2 TB. 
-    The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks">REASSIGN_BLOCKS</a> structure used with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a> control code 
+    The <a href="/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks">REASSIGN_BLOCKS</a> structure used with the 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a> control code 
     supports devices with up to a 4-byte LBA should be used where possible.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks_ex">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks_ex">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks">REASSIGN_BLOCKS</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks">REASSIGN_BLOCKS</a>

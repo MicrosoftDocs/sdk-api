@@ -57,7 +57,7 @@ The <b>SetReferences</b> method sets the references contained in a storage that 
 
 ### -param dwRefs [in]
 
-Count of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a> interface pointers in <i>ppIWMDMStorage</i>. Zero is an acceptable value and clears all references from the storage. The storage itself is not deleted in this case.
+Count of <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a> interface pointers in <i>ppIWMDMStorage</i>. Zero is an acceptable value and clears all references from the storage. The storage itself is not deleted in this case.
 
 ### -param ppIWMDMStorage [in]
 
@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -84,13 +84,12 @@ The situation may arise where an <b>IWMDMStorage4</b> interface pointer correspo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/creating-a-playlist-on-the-device">Creating a Playlist on the Device</a>
+<a href="/windows/desktop/WMDM/creating-a-playlist-on-the-device">Creating a Playlist on the Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getreferences">IWMDMStorage4::GetReferences</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getreferences">IWMDMStorage4::GetReferences</a>

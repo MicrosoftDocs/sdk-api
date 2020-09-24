@@ -65,7 +65,7 @@ A handle to a reference device for the enhanced metafile. This parameter can be 
 
 ### -param lpFilename [in]
 
-A pointer to the file name for the enhanced metafile to be created. If this parameter is <b>NULL</b>, the enhanced metafile is memory based and its contents are lost when it is deleted by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function.
+A pointer to the file name for the enhanced metafile to be created. If this parameter is <b>NULL</b>, the enhanced metafile is memory based and its contents are lost when it is deleted by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function.
 
 ### -param lprc [in]
 
@@ -93,18 +93,18 @@ The string pointed to by the <i>lpDescription</i> parameter must contain a null 
 
 Applications use the device context created by this function to store a graphics picture in an enhanced metafile. The handle identifying this device context can be passed to any GDI function.
 
-After an application stores a picture in an enhanced metafile, it can display the picture on any output device by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a> function. When displaying the picture, the system uses the rectangle pointed to by the <i>lpRect</i> parameter and the resolution data from the reference device to position and scale the picture.
+After an application stores a picture in an enhanced metafile, it can display the picture on any output device by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a> function. When displaying the picture, the system uses the rectangle pointed to by the <i>lpRect</i> parameter and the resolution data from the reference device to position and scale the picture.
 
 The device context returned by this function contains the same default attributes associated with any new device context.
 
-Applications must use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a> function to convert an enhanced metafile to the older Windows metafile format.
+Applications must use the <a href="/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a> function to convert an enhanced metafile to the older Windows metafile format.
 
 The file name for the enhanced metafile should use the .emf extension.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/creating-an-enhanced-metafile">Creating an Enhanced Metafile</a>.
+For an example, see <a href="/windows/desktop/gdi/creating-an-enhanced-metafile">Creating an Enhanced Metafile</a>.
 
 <div class="code"></div>
 
@@ -116,37 +116,36 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/crea
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-closeenhmetafile">CloseEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-closeenhmetafile">CloseEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafiledescriptiona">GetEnhMetaFileDescription</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getenhmetafiledescriptiona">GetEnhMetaFileDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafileheader">GetEnhMetaFileHeader</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getenhmetafileheader">GetEnhMetaFileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
-

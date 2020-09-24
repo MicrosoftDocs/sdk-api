@@ -58,7 +58,7 @@ Called by the object application, allows an object's container to translate acce
 
 ### -param lpFrame [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a> interface to which the keystroke might be sent.
+Pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a> interface to which the keystroke might be sent.
 
 ### -param lpFrameInfo [in]
 
@@ -66,7 +66,7 @@ Pointer to an <a href="/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo">
 
 ### -param lpmsg [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure containing the keystroke.
+Pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure containing the keystroke.
 
 ## -returns
 
@@ -93,7 +93,7 @@ The object should continue processing this message.
 
 ## -remarks
 
-Object servers call <b>OleTranslateAccelerator</b> to allow the object's container to translate accelerator keystrokes according to the container's accelerator table, pointed to by <i>lpFrameInfo</i>. While a contained object is the active object, the object's server always has first chance at translating any messages received. If this is not desired, the server calls <b>OleTranslateAccelerator</b> to give the object's container a chance. If the keyboard input matches an accelerator found in the container-provided accelerator table, <b>OleTranslateAccelerator</b> passes the message and its command identifier on to the container through the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-translateaccelerator">IOleInPlaceFrame::TranslateAccelerator</a> method. This method returns S_OK if the keystroke is consumed; otherwise it returns S_FALSE.
+Object servers call <b>OleTranslateAccelerator</b> to allow the object's container to translate accelerator keystrokes according to the container's accelerator table, pointed to by <i>lpFrameInfo</i>. While a contained object is the active object, the object's server always has first chance at translating any messages received. If this is not desired, the server calls <b>OleTranslateAccelerator</b> to give the object's container a chance. If the keyboard input matches an accelerator found in the container-provided accelerator table, <b>OleTranslateAccelerator</b> passes the message and its command identifier on to the container through the <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-translateaccelerator">IOleInPlaceFrame::TranslateAccelerator</a> method. This method returns S_OK if the keystroke is consumed; otherwise it returns S_FALSE.
 
 
 
@@ -102,13 +102,12 @@ Accelerator tables for containers should be defined so they will work properly w
 <pre class="syntax" xml:space="preserve"><code>"char", wID, VIRTKEY, CONTROL</code></pre>
 This is the most common way to describe keyboard accelerators. Failure to do so can result in keystrokes being lost or sent to the wrong object during an in-place session.
 
-Objects can call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-isaccelerator">IsAccelerator</a> function to see whether the accelerator keystroke belongs to the object or the container.
+Objects can call the <a href="/windows/desktop/api/ole2/nf-ole2-isaccelerator">IsAccelerator</a> function to see whether the accelerator keystroke belongs to the object or the container.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-translateaccelerator">IOleInPlaceFrame::TranslateAccelerator</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-translateaccelerator">IOleInPlaceFrame::TranslateAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-isaccelerator">IsAccelerator</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-isaccelerator">IsAccelerator</a>

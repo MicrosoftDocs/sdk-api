@@ -123,7 +123,7 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -131,7 +131,7 @@ The system is out of memory.
 A server application calls 
 <b>RpcObjectSetType</b> to assign a type UUID to an object UUID. By default, the RPC run-time library automatically assigns all object UUIDs with the nil-type UUID. A server application that contains one implementation of an interface (one manager entry-point vector [EPV]) does not need to call 
 <b>RpcObjectSetType</b> provided that the server registered the interface with the nil-type UUID (see under 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>).
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>).
 
 A server application that contains multiple implementations of an interface (multiple manager EPVs—that is, multiple type UUIDs) calls 
 <b>RpcObjectSetType</b> once for each different object UUID/non-nil type UUID association the server supports. Associating each object with a type UUID tells the RPC run-time library which manager EPV (interface implementation) to use when the server receives a remote procedure call for a non-nil object UUID.
@@ -141,14 +141,13 @@ The RPC run-time library allows an application to set the type for an unlimited 
 <b>RpcObjectSetType</b> again, specifying a null value or a nil UUID for the <i>TypeUuid</i> parameter. This resets the object UUID/type UUID association to the default association of object UUID/nil-type UUID. A server cannot assign a type to the nil object UUID. The RPC run-time library automatically assigns the nil object UUID a nil-type UUID.
 
 For detailed information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/registering-interfaces">Registering Interfaces</a>.
+<a href="/windows/desktop/Rpc/registering-interfaces">Registering Interfaces</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/registering-interfaces">Registering
+<a href="/windows/desktop/Rpc/registering-interfaces">Registering
 		  Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>

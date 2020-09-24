@@ -56,11 +56,11 @@ Called during a context cleanup operation.
 
 ### -param ecWrite [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value that identifies the edit context cleaned up. The edit context is guaranteed to have a read/write lock.
+Contains a <a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value that identifies the edit context cleaned up. The edit context is guaranteed to have a read/write lock.
 
 ### -param pic [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface that represents the context cleaned up.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface that represents the context cleaned up.
 
 ## -returns
 
@@ -78,4 +78,3 @@ A context cleanup occurs when:
 ## -see-also
 
 [ITfCleanupContextSink interface](nn-msctf-itfcleanupcontextsink.md), [ITfContext interface](nn-msctf-itfcontext.md), [TfEditCookie](/windows/win32/tsf/tfeditcookie)
-

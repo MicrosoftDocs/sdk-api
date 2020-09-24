@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the background color for an image list. This function only works if you add an icon or use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_addmasked">ImageList_AddMasked</a> with a black and white bitmap. Without a mask, the entire image is drawn; hence the background color is not visible.
+Sets the background color for an image list. This function only works if you add an icon or use <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_addmasked">ImageList_AddMasked</a> with a black and white bitmap. Without a mask, the entire image is drawn; hence the background color is not visible.
 
 ## -parameters
 
@@ -62,13 +62,12 @@ A handle to the image list.
 
 ### -param clrBk [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 The background color to set. This parameter can be the CLR_NONE value; in that case, images are drawn transparently using the mask.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Returns the previous background color if successful, or CLR_NONE otherwise.
-

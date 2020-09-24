@@ -56,11 +56,11 @@ Creates a topology node.
 
 ### -param NodeType [in]
 
-The type of node to create, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_topology_type">MF_TOPOLOGY_TYPE</a> enumeration.
+The type of node to create, specified as a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mf_topology_type">MF_TOPOLOGY_TYPE</a> enumeration.
 
 ### -param ppNode [out]
 
-Receives a pointer to the node's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface. The caller must release the interface.
+Receives a pointer to the node's <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -68,25 +68,24 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/creating-output-nodes">Creating Output Nodes</a>
+<a href="/windows/desktop/medfound/creating-output-nodes">Creating Output Nodes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/creating-source-nodes">Creating Source Nodes</a>
+<a href="/windows/desktop/medfound/creating-source-nodes">Creating Source Nodes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/creating-transform-nodes">Creating Transform Nodes</a>
+<a href="/windows/desktop/medfound/creating-transform-nodes">Creating Transform Nodes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

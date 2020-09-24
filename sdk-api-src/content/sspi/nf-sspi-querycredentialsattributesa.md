@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credential</a>, such as the name associated with the credential. The information is valid for any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> created with the specified credential.
+Retrieves the <a href="/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="/windows/desktop/SecGloss/c-gly">credential</a>, such as the name associated with the credential. The information is valid for any <a href="/windows/desktop/SecGloss/s-gly">security context</a> created with the specified credential.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A handle of the credentials to be queried.
 
 ### -param ulAttribute [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> to query. This parameter can be any of the following attributes. 
+Specifies the <a href="/windows/desktop/SecGloss/a-gly">attribute</a> to query. This parameter can be any of the following attributes. 
 
 
 
@@ -81,7 +81,7 @@ Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly
 </dl>
 </td>
 <td width="60%">
-Returns the certificate thumbprint in a <i>pbuffer</i> of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_cert">SecPkgCredentials_Cert</a>.
+Returns the certificate thumbprint in a <i>pbuffer</i> of type <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_cert">SecPkgCredentials_Cert</a>.
 
 This attribute is only supported by Kerberos.
 
@@ -96,7 +96,7 @@ This attribute is only supported by Kerberos.
 </dl>
 </td>
 <td width="60%">
-Returns the name of a credential in a <i>pbuffer</i> of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>.
+Returns the name of a credential in a <i>pbuffer</i> of type <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>.
 
 This attribute is not supported by Schannel in WOW64 mode.
 
@@ -109,7 +109,7 @@ This attribute is not supported by Schannel in WOW64 mode.
 </dl>
 </td>
 <td width="60%">
-Returns the supported algorithms in a <i>pbuffer</i> of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>. All supported algorithms are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
+Returns the supported algorithms in a <i>pbuffer</i> of type <a href="/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>. All supported algorithms are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
 
 This attribute is supported only by Schannel.
 
@@ -122,7 +122,7 @@ This attribute is supported only by Schannel.
 </dl>
 </td>
 <td width="60%">
-Returns the cipher strengths in a <i>pbuffer</i> of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>.
+Returns the cipher strengths in a <i>pbuffer</i> of type <a href="/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>.
 
 This attribute is supported only by Schannel.
 
@@ -135,7 +135,7 @@ This attribute is supported only by Schannel.
 </dl>
 </td>
 <td width="60%">
-Returns the supported algorithms in a <i>pbuffer</i> of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>. All supported protocols are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
+Returns the supported algorithms in a <i>pbuffer</i> of type <a href="/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>. All supported protocols are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
 
 This attribute is supported only by Schannel.
 
@@ -176,7 +176,7 @@ The handle passed to the function is not valid.
 </dl>
 </td>
 <td width="60%">
-The specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> is not supported by Schannel. This return value will only be returned when the Schannel SSP is being used.
+The specified <a href="/windows/desktop/SecGloss/a-gly">attribute</a> is not supported by Schannel. This return value will only be returned when the Schannel SSP is being used.
 
 </td>
 </tr>
@@ -198,20 +198,20 @@ The memory that is available is not sufficient to complete the request.
 The <b>QueryCredentialsAttributes</b> function allows an application to determine several characteristics of a credential, including the name associated with the specified credentials.
 
 Querying the SECPKG_ATTR_CIPHER_STRENGTHS attribute returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a> structure. The cipher strength in this structure is the same as the cipher strength in the 
+<a href="/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a> structure. The cipher strength in this structure is the same as the cipher strength in the 
 <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure used when a credential was created.
 
 <div class="alert"><b>Note</b>  An application can find the system default cipher strength by querying this attribute with a default credential. A default credential is created by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> with a <b>NULL</b> <i>pAuthData</i> parameter.</div>
+<a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> with a <b>NULL</b> <i>pAuthData</i> parameter.</div>
 <div> </div>
 Querying the SECPKG_ATTR_SUPPORTED_ALGS attribute returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a> structure. The algorithms in this structure are compatible with those indicated in the <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure used when a credential was created.
+<a href="/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a> structure. The algorithms in this structure are compatible with those indicated in the <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure used when a credential was created.
 
 Querying the SECPKG_ATTR_SUPPORTED_PROTOCOLS attribute returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a> structure that contains a bit array compatible with the <i>grbitEnabledProtocols</i> field of the <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure.
+<a href="/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a> structure that contains a bit array compatible with the <i>grbitEnabledProtocols</i> field of the <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure.
 
-The caller must allocate the structure pointed to by the <i>pBuffer</i> parameter. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> allocates the buffer for any pointer returned in the <i>pBuffer</i> structure. The caller can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free any pointers allocated by the security package.
+The caller must allocate the structure pointed to by the <i>pBuffer</i> parameter. The <a href="/windows/desktop/SecGloss/s-gly">security package</a> allocates the buffer for any pointer returned in the <i>pBuffer</i> structure. The caller can call the 
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free any pointers allocated by the security package.
 
 
 
@@ -222,11 +222,11 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
@@ -234,21 +234,20 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>
+<a href="/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>
+<a href="/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>
+<a href="/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>

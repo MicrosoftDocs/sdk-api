@@ -66,17 +66,16 @@ Tasks compatible with the AT command can only have one time trigger.
 
 Tasks compatible with Task Scheduler 1.0 can only have a time trigger, a logon trigger, or a boot trigger, and the task can only have an executable action.
 
-For more information about task compatibility, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/what-s-new-in-task-scheduler">What's New in Task Scheduler</a> and <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/tasks">Tasks</a>.
+For more information about task compatibility, see <a href="/windows/desktop/TaskSchd/what-s-new-in-task-scheduler">What's New in Task Scheduler</a> and <a href="/windows/desktop/TaskSchd/tasks">Tasks</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_compatibility">TASK_COMPATIBILITY</a>
+<a href="/windows/desktop/api/taskschd/ne-taskschd-task_compatibility">TASK_COMPATIBILITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

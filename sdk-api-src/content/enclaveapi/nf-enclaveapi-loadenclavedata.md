@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Loads data into an  uninitialized enclave that you created by calling <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>.
+Loads data into an  uninitialized enclave that you created by calling <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>.
 
 ## -parameters
 
@@ -75,7 +75,7 @@ The size of the data that you want to load into the enclave, in bytes. This valu
 
 ### -param flProtect [in]
 
-The memory protection to use for the pages that you want to add to the enclave. For a list of memory protection values, see <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>. This value must not include the following constants:
+The memory protection to use for the pages that you want to add to the enclave. For a list of memory protection values, see <a href="/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>. This value must not include the following constants:
 
 <ul>
 <li><b>PAGE_GUARD</b></li>
@@ -118,9 +118,9 @@ An optional pointer to  a variable that receives an enclave error code that is a
 
 ## -returns
 
-If all of the data is loaded into the enclave successfully, the return value is nonzero. Otherwise, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If all of the data is loaded into the enclave successfully, the return value is nonzero. Otherwise, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>. The following error codes also apply for this function.
+For a list of common error codes, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>. The following error codes also apply for this function.
 
 <table>
 <tr>
@@ -142,15 +142,14 @@ The value of the <i>dwInfoLength</i> parameter did not match the value expected 
 
 ## -remarks
 
-To initialize the enclave after you load data into the enclave, call <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>.
+To initialize the enclave after you load data into the enclave, call <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>.
 
 <b>LoadEnclaveData</b> is only supported enclaves that have  the <b>ENCLAVE_TYPE_SGX</b> enclave type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
+<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
-
+<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>

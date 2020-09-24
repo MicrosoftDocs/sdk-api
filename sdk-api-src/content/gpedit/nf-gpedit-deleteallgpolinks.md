@@ -65,19 +65,18 @@ If the function succeeds, the return value is <b>S_OK</b>. Otherwise, the functi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-creategpolink">CreateGPOLink</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-creategpolink">CreateGPOLink</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-deletegpolink">DeleteGPOLink</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-deletegpolink">DeleteGPOLink</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
-

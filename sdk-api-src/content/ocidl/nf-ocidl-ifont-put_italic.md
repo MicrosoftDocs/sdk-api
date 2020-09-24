@@ -93,9 +93,8 @@ The font does not support an italic state. This value is not an error condition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">IFont::get_Italic</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">IFont::get_Italic</a>

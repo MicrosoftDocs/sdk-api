@@ -58,7 +58,7 @@ api_name:
 
 The <b>WLX_MPR_NOTIFY_INFO</b> structure provides identification and authentication information to network providers.
 
- Your <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL returns this information to Winlogon following a successful authentication. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> is responsible for freeing both the main structure and all strings pointed to from within the structure.
+ Your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL returns this information to Winlogon following a successful authentication. <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> is responsible for freeing both the main structure and all strings pointed to from within the structure.
 
 ## -struct-fields
 
@@ -89,7 +89,7 @@ A pointer to the plaintext password of the user account. If <b>pszOldPassword</b
 
 The string pointed to by <b>pszPassword</b> must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
 
- For information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+ For information about protecting passwords, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 ### -field pszOldPassword
 
@@ -99,4 +99,3 @@ A pointer to the plaintext old password of the user account whose password has j
 
 
 The string pointed to by <b>pszOldPassword</b> must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
-

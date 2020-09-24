@@ -61,7 +61,7 @@ Retrieves information about a communications error and reports the current statu
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 ### -param lpErrors [out, optional]
 
@@ -135,19 +135,19 @@ The following values are not supported:
 ### -param lpStat [out, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-comstat">COMSTAT</a> structure in which the device's status information is returned. If this parameter is <b>NULL</b>, no status information is returned.
+<a href="/windows/desktop/api/winbase/ns-winbase-comstat">COMSTAT</a> structure in which the device's status information is returned. If this parameter is <b>NULL</b>, no status information is returned.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If a communications port has been set up with a <b>TRUE</b> value for the <b>fAbortOnError</b> member of the setup 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure, the communications software will terminate all read and write operations on the communications port when a communications error occurs. No new read or write operations will be accepted until the application acknowledges the communications error by calling the 
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure, the communications software will terminate all read and write operations on the communications port when a communications error occurs. No new read or write operations will be accepted until the application acknowledges the communications error by calling the 
 <b>ClearCommError</b> function.
 
 The 
@@ -155,25 +155,24 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-comstat">COMSTAT</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-comstat">COMSTAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a>
-
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a>

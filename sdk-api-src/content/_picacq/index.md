@@ -18,5 +18,4 @@ To develop Picture Acquisition, you need these headers:
  * [photoacquire.h](../photoacquire/index.md)
 
 For programming guidance for this technology, see:
-* [Picture Acquisition](https://docs.microsoft.com/previous-versions/dd370838(v=vs.85))
-
+* [Picture Acquisition](/previous-versions/dd370838(v=vs.85))

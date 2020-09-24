@@ -44,7 +44,7 @@ Describes a DirectML operator that performs a max pooling function across the in
 
 Max pooling consists of computing the max on all values of a subset of the input tensor according to the kernel size, and then downsampling the data into the output tensor Y for further processing.
 
-**DML_MAX_POOLING1_OPERATOR_DESC** is an updated version of [DML_MAX_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc).
+**DML_MAX_POOLING1_OPERATOR_DESC** is an updated version of [DML_MAX_POOLING_OPERATOR_DESC](./ns-directml-dml_max_pooling_operator_desc.md).
 
 ## -struct-fields
 
@@ -100,5 +100,4 @@ A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-ty
 
 ## -see-also
 
-* [DML_MAX_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc)
-
+* [DML_MAX_POOLING_OPERATOR_DESC](./ns-directml-dml_max_pooling_operator_desc.md)

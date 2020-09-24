@@ -85,5 +85,4 @@ While this method can be implemented in any filter type (inclusion, exclusion) o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitemfilter">IOfflineFilesItemFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitemfilter">IOfflineFilesItemFilter</a>

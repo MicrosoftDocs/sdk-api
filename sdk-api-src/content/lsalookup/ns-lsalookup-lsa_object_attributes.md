@@ -55,9 +55,9 @@ api_name:
 ## -description
 
 The <b>LSA_OBJECT_ATTRIBUTES</b> structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaopenpolicy">LsaOpenPolicy</a> function to specify the attributes of the connection to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaopenpolicy">LsaOpenPolicy</a> function to specify the attributes of the connection to the <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
-When you call <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaopenpolicy">LsaOpenPolicy</a>, initialize the members of this structure to <b>NULL</b> or zero because the function does not use the information.
+When you call <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaopenpolicy">LsaOpenPolicy</a>, initialize the members of this structure to <b>NULL</b> or zero because the function does not use the information.
 
 ## -struct-fields
 
@@ -93,9 +93,8 @@ The <b>LSA_OBJECT_ATTRIBUTES</b> structure is defined in the LsaLookup.h header 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaopenpolicy">LsaOpenPolicy</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaopenpolicy">LsaOpenPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>

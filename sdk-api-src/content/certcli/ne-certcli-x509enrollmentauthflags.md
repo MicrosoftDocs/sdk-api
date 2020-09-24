@@ -72,5 +72,4 @@ Plaintext user name and password authentication.
 
 ### -field X509AuthCertificate
 
-A client authentication certificate (suitable for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure Sockets Layer protocol</a> (SSL) client authentication) that is installed locally and that has an associated private key.  This certificate is used by the server to verify the client's identity.
-
+A client authentication certificate (suitable for <a href="/windows/desktop/SecGloss/s-gly">Secure Sockets Layer protocol</a> (SSL) client authentication) that is installed locally and that has an associated private key.  This certificate is used by the server to verify the client's identity.

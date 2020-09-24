@@ -51,103 +51,103 @@ api_name:
 
 ## -description
 
-Enumerates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a>.
+Enumerates <a href="/previous-versions/windows/desktop/mscs/groups">group</a>
+<a href="/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a>.
 
 ## -enum-fields
 
 ### -field CLUSCTL_GROUP_UNKNOWN
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-unknown">CLUSCTL_GROUP_UNKNOWN</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-group-unknown">CLUSCTL_GROUP_UNKNOWN</a>.
 
 ### -field CLUSCTL_GROUP_GET_CHARACTERISTICS
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-characteristics">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-characteristics">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>.
 
 ### -field CLUSCTL_GROUP_GET_FLAGS
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-flags">CLUSCTL_GROUP_GET_FLAGS</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-flags">CLUSCTL_GROUP_GET_FLAGS</a>.
 
 ### -field CLUSCTL_GROUP_GET_NAME
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-name">CLUSCTL_GROUP_GET_NAME</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-name">CLUSCTL_GROUP_GET_NAME</a>.
 
 ### -field CLUSCTL_GROUP_GET_ID
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-id">CLUSCTL_GROUP_GET_ID</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-id">CLUSCTL_GROUP_GET_ID</a>.
 
 ### -field CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-enum-common-properties">CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-enum-common-properties">CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-ro-common-properties">CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-ro-common-properties">CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_GET_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-common-properties">CLUSCTL_GROUP_GET_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-common-properties">CLUSCTL_GROUP_GET_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_SET_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-set-common-properties">CLUSCTL_GROUP_SET_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-set-common-properties">CLUSCTL_GROUP_SET_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-validate-common-properties">CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-validate-common-properties">CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-enum-private-properties">CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-enum-private-properties">CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-ro-private-properties">CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-ro-private-properties">CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-private-properties">CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-private-properties">CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-set-private-properties">CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-set-private-properties">CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-validate-private-properties">CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-validate-private-properties">CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_GROUP_QUERY_DELETE
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-query-delete">CLUSCTL_GROUP_QUERY_DELETE</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-group-query-delete">CLUSCTL_GROUP_QUERY_DELETE</a>.
 
 ### -field CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-common-property-fmts">CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-common-property-fmts">CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS</a>.
 
 ### -field CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-private-property-fmts">CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-private-property-fmts">CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS</a>.
 
 ### -field CLUSCTL_GROUP_GET_FAILURE_INFO
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-failure-info">CLUSCTL_GROUP_GET_FAILURE_INFO</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-failure-info">CLUSCTL_GROUP_GET_FAILURE_INFO</a>.
 
 ### -field CLUSCTL_GROUP_GET_LAST_MOVE_TIME
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-last-move-time">CLUSCTL_GROUP_GET_LAST_MOVE_TIME</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-last-move-time">CLUSCTL_GROUP_GET_LAST_MOVE_TIME</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available until Windows Server 2016.
 
@@ -155,9 +155,8 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-control-codes">Group Control Codes</a>
-
+<a href="/previous-versions/windows/desktop/mscs/group-control-codes">Group Control Codes</a>

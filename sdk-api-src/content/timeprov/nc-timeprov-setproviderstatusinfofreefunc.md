@@ -51,20 +51,19 @@ api_name:
 ## -description
 
 Frees a 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a> structure.
+<a href="/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a> structure.
 
 ## -parameters
 
 ### -param *pspsi [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a> structure to be freed.
+<a href="/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a> structure to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a>
+<a href="/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a>
-
+<a href="/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a>

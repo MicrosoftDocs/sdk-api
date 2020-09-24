@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
+<p class="CCE_Message">[<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
 ]
 
@@ -109,16 +109,16 @@ An unspecified error occurred.
 <div class="alert"><b>Note</b>  In Windows 7, calling <b>SetInPlacePosition</b> will no longer use the <i>CorrectionPosition</i> parameter.
 		</div>
 <div> </div>
-Take the height of the correction comb in mind when deciding where to position the Input Panel in order to keep the Input Panel and correction comb on screen. The direction specified in the <i>position</i> parameter overrides the direction set using the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_preferredinplacedirection">ITextInputPanel::PreferredInPlaceDirection Property</a>.
+Take the height of the correction comb in mind when deciding where to position the Input Panel in order to keep the Input Panel and correction comb on screen. The direction specified in the <i>position</i> parameter overrides the direction set using the <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_preferredinplacedirection">ITextInputPanel::PreferredInPlaceDirection Property</a>.
 
-There are no restrictions on where the Input Panel can be positioned. It is the responsibility of the application developer to make sure the Input Panel does not go off the screen. The <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_inplaceboundingrectangle">ITextInputPanel::InPlaceBoundingRectangle Property</a>, <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popupcorrectionheight">ITextInputPanel::PopUpCorrectionHeight Property</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popdowncorrectionheight">ITextInputPanel::PopDownCorrectionHeight Property</a>, along with the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanging">ITextInputPanelEventSink::InPlaceSizeChanging Method</a>, can be used for this purpose.
+There are no restrictions on where the Input Panel can be positioned. It is the responsibility of the application developer to make sure the Input Panel does not go off the screen. The <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_inplaceboundingrectangle">ITextInputPanel::InPlaceBoundingRectangle Property</a>, <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popupcorrectionheight">ITextInputPanel::PopUpCorrectionHeight Property</a>, and <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popdowncorrectionheight">ITextInputPanel::PopDownCorrectionHeight Property</a>, along with the <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanging">ITextInputPanelEventSink::InPlaceSizeChanging Method</a>, can be used for this purpose.
 
 This method is synchronous. Positioning occurs before the method returns.
 
 
 #### Examples
 
-This C++ example implements an <code>EN_SETFOCUS</code> event handler for an Edit control, <code>IDC_EDIT3</code>. It first checks to if an <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object, <code>g_pTip</code>, has been created. If it exists, it reports the values of several <b>ITextInputPanel Interface</b> properties to debug output using the <b>TRACE</b> macro. It also sets the position of the Input Panel by calling the <b>ITextInputPanel::SetInPlacePosition Method</b>.
+This C++ example implements an <code>EN_SETFOCUS</code> event handler for an Edit control, <code>IDC_EDIT3</code>. It first checks to if an <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object, <code>g_pTip</code>, has been created. If it exists, it reports the values of several <b>ITextInputPanel Interface</b> properties to debug output using the <b>TRACE</b> macro. It also sets the position of the Input Panel by calling the <b>ITextInputPanel::SetInPlacePosition Method</b>.
 
 
 ```cpp
@@ -195,13 +195,12 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
+<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacehovertargetposition">ITextInputPanel::SetInPlaceHoverTargetPosition Method</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacehovertargetposition">ITextInputPanel::SetInPlaceHoverTargetPosition Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility">ITextInputPanel::SetInPlaceVisibility Method</a>
-
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility">ITextInputPanel::SetInPlaceVisibility Method</a>

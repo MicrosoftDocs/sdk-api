@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>IFrequencyMap</b> interface sets the frequency table used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a> filter.
+The <b>IFrequencyMap</b> interface sets the frequency table used by the <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a> filter.
 
-A frequency table is a list of broadcast or cable frequencies for a given country/region. The Network Provider uses a frequency table to find the next frequency when <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a> methods are called. On startup, the Network Provider loads a default frequency table. An application can use the <b>IFrequencyMap</b> interface to specify the user's country/region, which causes the Network Provider filter to load the corresponding frequency table. The application can also modify the current table, or provide a completely new table, using the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-put_frequencymapping">put_FrequencyMapping</a> method.
+A frequency table is a list of broadcast or cable frequencies for a given country/region. The Network Provider uses a frequency table to find the next frequency when <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a> methods are called. On startup, the Network Provider loads a default frequency table. An application can use the <b>IFrequencyMap</b> interface to specify the user's country/region, which causes the Network Provider filter to load the corresponding frequency table. The application can also modify the current table, or provide a completely new table, using the <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-put_frequencymapping">put_FrequencyMapping</a> method.
 
 Frequencies used by this interface are measured in units of kilohertz (kHz), and refer to the center frequency of each band. For more information, see "Terrestrial delivery system descriptor" in the ETSI EN 300 468 standard.
 
@@ -61,7 +61,7 @@ Frequencies used by this interface are measured in units of kilohertz (kHz), and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFrequencyMap</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrequencyMap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFrequencyMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrequencyMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IFrequencyMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_countrycode">get_CountryCode</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_countrycode">get_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Returns the country/region code that the Network Provider is currently using.
@@ -85,7 +85,7 @@ Returns the country/region code that the Network Provider is currently using.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_countrycodelist">get_CountryCodeList</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_countrycodelist">get_CountryCodeList</a>
 </td>
 <td align="left" width="63%">
 Returns a list of all the country/region codes for which the Network Provider has a frequency table.
@@ -94,7 +94,7 @@ Returns a list of all the country/region codes for which the Network Provider ha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_defaultfrequencymapping">get_DefaultFrequencyMapping</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_defaultfrequencymapping">get_DefaultFrequencyMapping</a>
 </td>
 <td align="left" width="63%">
 Returns the default frequency table for a given country/region code.
@@ -103,7 +103,7 @@ Returns the default frequency table for a given country/region code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_frequencymapping">get_FrequencyMapping</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_frequencymapping">get_FrequencyMapping</a>
 </td>
 <td align="left" width="63%">
 Returns the Network Provider filter's current frequency table.
@@ -112,7 +112,7 @@ Returns the Network Provider filter's current frequency table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-put_countrycode">put_CountryCode</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-put_countrycode">put_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Sets the country/region code.
@@ -121,7 +121,7 @@ Sets the country/region code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-put_frequencymapping">put_FrequencyMapping</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-put_frequencymapping">put_FrequencyMapping</a>
 </td>
 <td align="left" width="63%">
 Sets the frequency table.
@@ -136,5 +136,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

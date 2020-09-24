@@ -82,13 +82,12 @@ The method succeeded.
 
 ## -remarks
 
-This method exhibits specific behavior for remoted instances of the Windows Media Player control. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>.
+This method exhibits specific behavior for remoted instances of the Windows Media Player control. For more information, see <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_enableerrordialogs">IWMPSettings::get_enableErrorDialogs</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_enableerrordialogs">IWMPSettings::get_enableErrorDialogs</a>

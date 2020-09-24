@@ -56,7 +56,7 @@ Gets the color context information associated with the bitmap.
 
 ### -param colorContext [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>**</b>
 
 When this method returns, contains the address of a pointer to the  color context interface associated with the bitmap.
 
@@ -66,5 +66,4 @@ If the bitmap was created without specifying a color context, the returned conte
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>

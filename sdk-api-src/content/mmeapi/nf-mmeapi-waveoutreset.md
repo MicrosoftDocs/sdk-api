@@ -117,13 +117,12 @@ Specified device is synchronous and does not support pausing.
 
 ## -remarks
 
-After this function returns, the application can send new playback buffers to the device by calling <a href="https://docs.microsoft.com/previous-versions/dd743876(v=vs.85)">waveOutWrite</a>, or close the device by calling <a href="https://docs.microsoft.com/previous-versions/dd743856(v=vs.85)">waveOutClose</a>.
+After this function returns, the application can send new playback buffers to the device by calling <a href="/previous-versions/dd743876(v=vs.85)">waveOutWrite</a>, or close the device by calling <a href="/previous-versions/dd743856(v=vs.85)">waveOutClose</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

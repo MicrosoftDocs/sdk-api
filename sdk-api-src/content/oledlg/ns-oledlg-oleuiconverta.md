@@ -220,7 +220,7 @@ The CLSID of the object to be converted or activated. This member is set on inpu
 
 ### -field dvAspect
 
-Aspect of the object. This must be either DVASPECT_CONTENT or DVASPECT_ICON. If <b>dvAspect</b> is DVASPECT_ICON on input, then the <b>Display As Icon</b> box is checked and the object's icon is displayed. This member is set on input and output. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>.
+Aspect of the object. This must be either DVASPECT_CONTENT or DVASPECT_ICON. If <b>dvAspect</b> is DVASPECT_ICON on input, then the <b>Display As Icon</b> box is checked and the object's icon is displayed. This member is set on input and output. For more information, see <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>.
 
 ### -field wFormat
 
@@ -232,7 +232,7 @@ Data format of the object to be converted or activated.
 
 ### -field hMetaPict
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metafilepict">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
+The <a href="/windows/desktop/api/wingdi/ns-wingdi-metafilepict">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
 
 ### -field lpszUserType
 
@@ -240,7 +240,7 @@ Pointer to the User Type name of the object to be converted or activated. If thi
 
 ### -field fObjectsIconChanged
 
-<b>TRUE</b> if the object's icon changed. (that is, if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuichangeicona">OleUIChangeIcon</a> was called and not canceled.). This member is set on output.
+<b>TRUE</b> if the object's icon changed. (that is, if <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuichangeicona">OleUIChangeIcon</a> was called and not canceled.). This member is set on output.
 
 ### -field lpszDefLabel
 
@@ -256,14 +256,13 @@ Pointer to the list of CLSIDs to exclude from the list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuichangeicona">OleUIChangeIcon</a>
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuichangeicona">OleUIChangeIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiconverta">OleUIConvert</a>
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiconverta">OleUIConvert</a>
 
 ## -remarks
 
 > [!NOTE]
 > The oledlg.h header defines OLEUICONVERT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

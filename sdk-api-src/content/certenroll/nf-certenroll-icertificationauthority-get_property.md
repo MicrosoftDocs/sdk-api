@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplate-get_property">Property</a> method  retrieves a certification authority property value.
+The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplate-get_property">Property</a> method  retrieves a certification authority property value.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>

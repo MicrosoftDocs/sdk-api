@@ -60,7 +60,7 @@ MOUSE_INPUT_DATA contains one packet of mouse input data.
 
 ### -field UnitId
 
-Specifies the unit number of the mouse device. A mouse <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/nt-device-names">device name</a> has the format \Device\PointerPort<i>N</i>, where the suffix <i>N </i>is the unit number of the device. For example, a device, whose name is \Device\PointerPort0, has a unit number of zero, and a device, whose name is \Device\PointerPort1, has a unit number of one.
+Specifies the unit number of the mouse device. A mouse <a href="/windows-hardware/drivers/kernel/nt-device-names">device name</a> has the format \Device\PointerPort<i>N</i>, where the suffix <i>N </i>is the unit number of the device. For example, a device, whose name is \Device\PointerPort0, has a unit number of zero, and a device, whose name is \Device\PointerPort1, has a unit number of one.
 
 ### -field Flags
 
@@ -282,13 +282,12 @@ Specifies device-specific information.
 
 ## -remarks
 
-In response to <a href="https://docs.microsoft.com/previous-versions/ff542215(v=vs.85)">IRP_MJ_READ (Mouclass)</a> requests, Mouclass transfers zero or more <b>MOUSE_INPUT_DATA</b> structures from its internal data queue to the Microsoft Win32 subsystem buffer.
+In response to <a href="/previous-versions/ff542215(v=vs.85)">IRP_MJ_READ (Mouclass)</a> requests, Mouclass transfers zero or more <b>MOUSE_INPUT_DATA</b> structures from its internal data queue to the Microsoft Win32 subsystem buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff542215(v=vs.85)">IRP_MJ_READ (Mouclass)</a>
+<a href="/previous-versions/ff542215(v=vs.85)">IRP_MJ_READ (Mouclass)</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>
-
+<a href="/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>

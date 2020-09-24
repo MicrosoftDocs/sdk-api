@@ -103,7 +103,7 @@ Calling <b>CallNextHookEx</b> is optional, but it is highly recommended; otherwi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -111,9 +111,8 @@ Calling <b>CallNextHookEx</b> is optional, but it is highly recommended; otherwi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex">UnhookWindowsHookEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex">UnhookWindowsHookEx</a>

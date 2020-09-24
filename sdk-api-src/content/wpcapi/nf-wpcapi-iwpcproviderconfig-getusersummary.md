@@ -56,7 +56,7 @@ Retrieves the information for each user by using the Parental Controls Control P
 
 ### -param bstrSID [in]
 
-A string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the user whose settings you want to obtain.
+A string that contains the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the user whose settings you want to obtain.
 
 ### -param pbstrUserSummary [out]
 
@@ -66,7 +66,7 @@ A pointer to a string that contains the summary details for the user specified i
 
 If the method succeeds, the function returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
@@ -74,5 +74,4 @@ The user summary string is used to display information under each user in the Pa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderconfig">IWPCProviderConfig</a>
-
+<a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderconfig">IWPCProviderConfig</a>

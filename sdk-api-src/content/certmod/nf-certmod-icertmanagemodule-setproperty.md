@@ -58,13 +58,13 @@ The <b>SetProperty</b> method allows a module to set a property value.
 
 ### -param strConfig [in]
 
-Represents the configuration string for the Certificate Services server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as entered for the CA during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents the configuration string for the Certificate Services server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as entered for the CA during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 ### -param strStorageLocation [in]
 
 The location that provides storage for the property values, as described in the definition of <i>strStorageLocation</i> in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>.
+<a href="/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>.
 
 ### -param strPropertyName [in]
 
@@ -140,11 +140,11 @@ A value that is being assigned to the property specified by <i>strPropertyName</
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-This method is intended for future functionality. A minimal implementation is required, however, to meet the requirements of the <a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface.
+This method is intended for future functionality. A minimal implementation is required, however, to meet the requirements of the <a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface.
 
 
 #### Examples
@@ -173,13 +173,12 @@ HRESULT CCertManagePolicyModule::SetProperty(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>
+<a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>
-
+<a href="/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>

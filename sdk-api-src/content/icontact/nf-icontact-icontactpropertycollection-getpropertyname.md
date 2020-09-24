@@ -58,7 +58,7 @@ Retrieves the name for the current property in the enumeration.
 
 Type: <b>LPWSTR</b>
 
-On success, contains the name to use for querying on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactproperties">IContactProperties</a>. 
+On success, contains the name to use for querying on <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactproperties">IContactProperties</a>. 
 				EX: toplevel -or- toplevel/secondlevel[4]/thirdlevel.
 
 ### -param cchPropertyName [in]
@@ -108,4 +108,3 @@ Query is successful.
 </td>
 </tr>
 </table>
-

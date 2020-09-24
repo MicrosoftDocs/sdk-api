@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides functionality for the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a> to determine the capabilities of the content.
+Provides functionality for the <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a> to determine the capabilities of the content.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>IPlayToControlWithCapabilities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrolwithcapabilities-getcapabilities">GetCapabilities</a>
+<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrolwithcapabilities-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities information for the content.
@@ -80,9 +80,8 @@ Gets the capabilities information for the content.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a>
+<a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

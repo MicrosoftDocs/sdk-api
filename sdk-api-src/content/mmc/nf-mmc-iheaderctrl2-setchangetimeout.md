@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 The <b>IHeaderCtrl2::SetChangeTimeOut</b> sets the time-out interval between the time a change takes place in the filter attributes and the posting of an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a> filter change notification, which is sent to the snap-in's 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method.
+<a href="/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a> filter change notification, which is sent to the snap-in's 
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iheaderctrl2">IHeaderCtrl2</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iheaderctrl2">IHeaderCtrl2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>
-
+<a href="/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>

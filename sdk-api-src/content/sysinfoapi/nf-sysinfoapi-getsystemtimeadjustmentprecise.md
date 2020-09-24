@@ -74,19 +74,18 @@ A value of <b>FALSE</b> indicates that periodic, programmed time adjustment is b
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 This function is used in algorithms that  synchronize the time-of-day with another time source, using a programmed clock adjustment. To do this, the system computes the adjusted clock update frequency, and then this function allows the caller to obtain that value.
 
 
-<div class="alert"><b>Note</b>  <p class="note">For a complete code sample on how to enable system-time privileges, adjust the system clock, and display clock values, see  <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setsystemtimeadjustmentprecise">SetSystemTimeAdjustmentPrecise</a>.
+<div class="alert"><b>Note</b>  <p class="note">For a complete code sample on how to enable system-time privileges, adjust the system clock, and display clock values, see  <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setsystemtimeadjustmentprecise">SetSystemTimeAdjustmentPrecise</a>.
 
 </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setsystemtimeadjustmentprecise">SetSystemTimeAdjustmentPrecise</a>
-
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setsystemtimeadjustmentprecise">SetSystemTimeAdjustmentPrecise</a>

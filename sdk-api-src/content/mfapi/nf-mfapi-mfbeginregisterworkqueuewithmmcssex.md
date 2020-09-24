@@ -56,11 +56,11 @@ Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 
 ### -param dwWorkQueueId [in]
 
-The identifier of the work queue.  For private work queues, the identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function. For platform work queues, see <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queue-identifiers">Work Queue Identifiers</a>.
+The identifier of the work queue.  For private work queues, the identifier is returned by the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function. For platform work queues, see <a href="/windows/desktop/medfound/work-queue-identifiers">Work Queue Identifiers</a>.
 
 ### -param wszClass [in]
 
-The name of the MMCSS task. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/multimedia-class-scheduler-service">Multimedia Class Scheduler Service</a>.
+The name of the MMCSS task. For more information, see <a href="/windows/desktop/ProcThread/multimedia-class-scheduler-service">Multimedia Class Scheduler Service</a>.
 
 ### -param dwTaskId [in]
 
@@ -68,11 +68,11 @@ The unique task identifier. To obtain a new task identifier, set this value to z
 
 ### -param lPriority [in]
 
-The base relative priority for the work-queue threads. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avsetmmthreadpriority">AvSetMmThreadPriority</a>.
+The base relative priority for the work-queue threads. For more information, see <a href="/windows/desktop/api/avrt/nf-avrt-avsetmmthreadpriority">AvSetMmThreadPriority</a>.
 
 ### -param pDoneCallback [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
 
 ### -param pDoneState [in]
 
@@ -84,22 +84,21 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This function extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcss">MFBeginRegisterWorkQueueWithMMCSS</a> function by adding the <i>lPriority</i> parameter.
+This function extends the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcss">MFBeginRegisterWorkQueueWithMMCSS</a> function by adding the <i>lPriority</i> parameter.
 
-This function is asynchronous. When the operation completes, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfendregisterworkqueuewithmmcss">MFEndRegisterWorkQueueWithMMCSS</a> to complete the asynchronous request.
+This function is asynchronous. When the operation completes, the callback object's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfendregisterworkqueuewithmmcss">MFEndRegisterWorkQueueWithMMCSS</a> to complete the asynchronous request.
       
 
-To unregister the work queue from the MMCSS task, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfbeginunregisterworkqueuewithmmcss">MFBeginUnregisterWorkQueueWithMMCSS</a>.
+To unregister the work queue from the MMCSS task, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfbeginunregisterworkqueuewithmmcss">MFBeginUnregisterWorkQueueWithMMCSS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
+<a href="/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

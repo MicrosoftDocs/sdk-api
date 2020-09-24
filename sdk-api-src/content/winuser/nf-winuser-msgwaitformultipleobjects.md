@@ -61,7 +61,7 @@ api_name:
 Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects, which you specify using the <i>dwWakeMask</i> parameter.
 
 To enter an alertable wait state, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> function.
 
 ## -parameters
 
@@ -79,7 +79,7 @@ An array of object handles. For a list of the object types whose handles can be 
 If one of these handles is closed while the wait is still pending, the function's behavior is undefined.
 
 The handles must have the <b>SYNCHRONIZE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
+<a href="/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
 
 ### -param fWaitAll [in]
 
@@ -109,7 +109,7 @@ The input types for which an input event object handle will be added to the arra
 </dl>
 </td>
 <td width="60%">
-An input, <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a>, <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a>, or posted message is in the queue.
+An input, <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>, <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a>, <a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a>, or posted message is in the queue.
 
 This value is a combination of <b>QS_INPUT</b>, <b>QS_POSTMESSAGE</b>, <b>QS_TIMER</b>, <b>QS_PAINT</b>, and <b>QS_HOTKEY</b>.
 
@@ -137,7 +137,7 @@ This value is a combination of <b>QS_INPUT</b>, <b>QS_POSTMESSAGE</b>, <b>QS_TIM
 <td width="60%">
 A posted message is in the queue.
 
-This value is cleared when you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> without filtering messages.
+This value is cleared when you call <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> without filtering messages.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ This value is cleared when you call <a href="https://docs.microsoft.com/previous
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a> message is in the queue.
+A <a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a> message is in the queue.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ This value is a combination of <b>QS_MOUSE</b>, <b>QS_KEY</b>, and
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a>, or <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a> message is in the queue.
+A <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>, <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>, <a href="/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a>, or <a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a> message is in the queue.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYU
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message or mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on).
+A <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message or mouse-button message (<b>WM_LBUTTONUP</b>, <a href="/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on).
 
 This value is a combination of <b>QS_MOUSEMOVE</b> and <b>QS_MOUSEBUTTON</b>.
 
@@ -197,7 +197,7 @@ This value is a combination of <b>QS_MOUSEMOVE</b> and <b>QS_MOUSEBUTTON</b>.
 </dl>
 </td>
 <td width="60%">
-A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on).
+A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on).
 
 </td>
 </tr>
@@ -208,7 +208,7 @@ A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://docs.microsoft.com
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message is in the queue.
+A <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message is in the queue.
 
 </td>
 </tr>
@@ -219,7 +219,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is in the queue.
+A <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is in the queue.
 
 </td>
 </tr>
@@ -232,7 +232,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>
 <td width="60%">
 A posted message is in the queue.
 
-This value is cleared when you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, whether or not you are filtering messages.
+This value is cleared when you call <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, whether or not you are filtering messages.
 
 </td>
 </tr>
@@ -244,7 +244,7 @@ This value is cleared when you call <a href="https://docs.microsoft.com/previous
 </td>
 <td width="60%">
  A raw input message is in the queue. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>.
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>.
 
 </td>
 </tr>
@@ -266,7 +266,7 @@ A message sent by another thread or application is in the queue.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message is in the queue.
+A <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message is in the queue.
 
 </td>
 </tr>
@@ -301,16 +301,16 @@ If <i>bWaitAll</i> is <b>TRUE</b>, the return value indicates that the state of 
 </td>
 <td width="60%">
 New input of the type specified in the <i>dwWakeMask</i> parameter is available in the thread's input queue. Functions such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a> mark messages in the queue as old messages. Therefore, after you call one of these functions, a subsequent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a> will not return until new input of the specified type arrives. 
+<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>, and 
+<a href="/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a> mark messages in the queue as old messages. Therefore, after you call one of these functions, a subsequent call to 
+<a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a> will not return until new input of the specified type arrives. 
 
 
 
 
 This value is also returned upon the occurrence of a system event that requires the thread's action, such as foreground activation. Therefore, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a> can return even though no appropriate input is available and even if <i>dwWakeMask</i> is set to 0. If this occurs, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> to process the system event before trying the call to 
+<a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a> can return even though no appropriate input is available and even if <i>dwWakeMask</i> is set to 0. If this occurs, call <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> to process the system event before trying the call to 
 <b>MsgWaitForMultipleObjects</b> again.
 
 </td>
@@ -350,7 +350,7 @@ The time-out interval elapsed and the conditions specified by the <i>bWaitAll</i
 </td>
 <td width="60%">
 The function has failed. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -369,10 +369,10 @@ When <i>bWaitAll</i> is <b>TRUE</b>, the function's wait is completed only when 
 When <i>bWaitAll</i> is <b>FALSE</b>, this function checks the handles in the array in order starting with index 0, until one of the objects is signaled. If multiple objects become signaled, the function returns the index of the first handle in the array whose object was signaled.
 
 <b>MsgWaitForMultipleObjects</b> does not return if there is unread input of the specified type in the message queue after the thread has called a function to check the queue. This is because functions such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/id3dx10threadpump-getqueuestatus">GetQueueStatus</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a> check the queue and then change the state information for the queue so that the input is no longer considered new. A subsequent call to 
+<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>, 
+<a href="/windows/desktop/direct3d10/id3dx10threadpump-getqueuestatus">GetQueueStatus</a>, and 
+<a href="/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a> check the queue and then change the state information for the queue so that the input is no longer considered new. A subsequent call to 
 <b>MsgWaitForMultipleObjects</b> will not return until new input of the specified type arrives. The existing unread input (received prior to the last time the thread checked the queue) is ignored.
 
 The function modifies the state of some types of synchronization objects. Modification occurs only for the object or objects whose signaled state caused the function to return. For example, the count of a semaphore object is decreased by one. For more information, see the documentation for the individual synchronization objects.
@@ -391,17 +391,16 @@ The
 <li>Thread</li>
 <li>Waitable timer</li>
 </ul>
-The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> multiple times to get messages in different ranges.
+The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> multiple times to get messages in different ranges.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>
-
+<a href="/windows/desktop/Sync/wait-functions">Wait Functions</a>

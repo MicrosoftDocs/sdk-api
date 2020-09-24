@@ -58,7 +58,7 @@ The <code>get_CopyProtection</code> method determines whether copy protection is
 
 ### -param lVideoCopyProtection [out]
 
-Specifies a pointer to a <b>long</b> integer to receive the current copy protection level, as defined in the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level">AM_COPY_MACROVISION_LEVEL</a> enumeration.
+Specifies a pointer to a <b>long</b> integer to receive the current copy protection level, as defined in the <a href="/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level">AM_COPY_MACROVISION_LEVEL</a> enumeration.
 
 ## -returns
 
@@ -66,9 +66,8 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamanalogvideoencoder">IAMAnalogVideoEncoder Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideoencoder">IAMAnalogVideoEncoder Interface</a>

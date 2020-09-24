@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IWCNDevice::SetPassword</b> method configures the authentication method value, and if required, a password used for the pending session.  This method may  only be called prior to <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
+The <b>IWCNDevice::SetPassword</b> method configures the authentication method value, and if required, a password used for the pending session.  This method may  only be called prior to <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
 
 ## -parameters
 
@@ -134,13 +134,12 @@ The byte array is not <b>NULL</b>-terminated.  For example, if the password is a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
 
 
 
 <b>WCN_PASSWORD_TYPE</b>
-

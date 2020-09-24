@@ -87,9 +87,8 @@ The method succeeded.
 
 ## -remarks
 
-The modal dialog displayed by <b>DoModal</b> will have <b>OK</b> and <b>Cancel</b> buttons, whereas the <b>OK</b> and <b>Cancel</b> buttons of the modeless dialog displayed by <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> must be provided by the parent window.
+The modal dialog displayed by <b>DoModal</b> will have <b>OK</b> and <b>Cancel</b> buttons, whereas the <b>OK</b> and <b>Cancel</b> buttons of the modeless dialog displayed by <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> must be provided by the parent window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>

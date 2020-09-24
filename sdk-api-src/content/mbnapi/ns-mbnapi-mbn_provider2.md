@@ -45,39 +45,31 @@ api_name:
  - MBN_PROVIDER2
 ---
 
-# MBN_PROVIDER2 structure
-
-
 ## -description
 
 > [!IMPORTANT]
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
-The <b>MBN_PROVIDER2</b> structure represents a network service provider. It is used by many of the provider-specific methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a> interface and provides an extension to <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> to support multi-carrier. This extension contains the signal strength of each provider, which helps to determine which provider a user should connect to.
+The <b>MBN_PROVIDER2</b> structure represents a network service provider. It is used by many of the provider-specific methods of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a> interface and provides an extension to <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> to support multi-carrier. This extension contains the signal strength of each provider, which helps to determine which provider a user should connect to.
 
 ## -struct-fields
 
 ### -field provider
 
-Contains a single-carrier <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.
+Contains a single-carrier <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.
 
 ### -field cellularClass
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MBN_CELLULAR_CLASS</a> that specifies which cellular class the provider uses.
+Contains a <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MBN_CELLULAR_CLASS</a> that specifies which cellular class the provider uses.
 
 ### -field signalStrength
 
+Contains the signal quality received by the device as defined by <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalstrength">GetSignalStrength</a>.
+
 ### -field signalError
 
-### -field SignalError
-
-Contains the signal error rate as defined by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalerror">GetSignalError</a>.
-
-### -field SignalStrength
-
-Contains the signal quality received by the device as defined by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalstrength">GetSignalStrength</a>.
+Contains the signal error rate as defined by <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalerror">GetSignalError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a>
-
+<a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a>

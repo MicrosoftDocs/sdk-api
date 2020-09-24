@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves a list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs) trusted by the specified server.
+Retrieves a list of <a href="/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs) trusted by the specified server.
 
 ## -parameters
 
@@ -64,15 +64,14 @@ The number of elements in the <i>rgpCriteria</i> array.
 
 ### -param rgpCriteria [in, optional]
 
-A constant pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_criteria">CERT_SELECT_CRITERIA</a> structures that specify the criteria used to select certificate chains.
+A constant pointer to an array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_criteria">CERT_SELECT_CRITERIA</a> structures that specify the criteria used to select certificate chains.
 
 ### -param ppTrustedIssuers [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex">SecPkgContext_IssuerListInfoEx</a> structures that receive the CAs trusted by the server specified by the <i>pTargetName</i> parameter.
+A pointer to an array of <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex">SecPkgContext_IssuerListInfoEx</a> structures that receive the CAs trusted by the server specified by the <i>pTargetName</i> parameter.
 
 ## -returns
 
 If the function succeeds, return STATUS_SUCCESS.
 
 If the function fails, return an <b>NTSTATUS</b> code that indicates the reason it failed.
-

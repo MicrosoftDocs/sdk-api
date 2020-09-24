@@ -57,7 +57,7 @@ The <code>GetDVDTextLanguageInfo</code> method retrieves information about the t
 
 ### -param ulLangIndex [in]
 
-Zero-based index of the language to query. To find the number of text-string languages on the DVD, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextnumberoflanguages">IDvdInfo2::GetDVDTextNumberOfLanguages</a>.
+Zero-based index of the language to query. To find the number of text-string languages on the DVD, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextnumberoflanguages">IDvdInfo2::GetDVDTextNumberOfLanguages</a>.
 
 ### -param pulNumOfStrings [out]
 
@@ -69,7 +69,7 @@ Receives a <i>locale identifier</i> (LCID) that specifies the language in which 
 
 ### -param arg4 [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_textcharset">DVD_TextCharSet</a> enumeration. The value specifies the character set of the text string.
+Receives a member of the <a href="/windows/desktop/api/strmif/ne-strmif-dvd_textcharset">DVD_TextCharSet</a> enumeration. The value specifies the character set of the text string.
 
 ## -returns
 
@@ -128,21 +128,20 @@ An unexpected internal error occurred.
 
 ## -remarks
 
-To get a particular text string, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode">IDvdInfo2::GetDVDTextStringAsUnicode</a> or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasnative">IDvdInfo2::GetDVDTextStringAsNative</a>.
+To get a particular text string, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode">IDvdInfo2::GetDVDTextStringAsUnicode</a> or <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasnative">IDvdInfo2::GetDVDTextStringAsNative</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>
-
+<a href="/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>

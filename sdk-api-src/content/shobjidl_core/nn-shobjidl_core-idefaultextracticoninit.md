@@ -54,7 +54,7 @@ Exposes methods to set default icons associated with an object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDefaultExtractIconInit</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDefaultExtractIconInit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDefaultExtractIconInit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDefaultExtractIconInit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDefaultExtractIconInit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setdefaulticon">SetDefaultIcon</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setdefaulticon">SetDefaultIcon</a>
 </td>
 <td align="left" width="63%">
 Sets the default icon.
@@ -78,17 +78,17 @@ Sets the default icon.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setflags">SetFlags</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
-Sets GIL_XXX flags. See <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a>
+Sets GIL_XXX flags. See <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a>
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setkey">SetKey</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setkey">SetKey</a>
 </td>
 <td align="left" width="63%">
 Sets the registry key from which to load the "DefaultIcon" value.
@@ -97,7 +97,7 @@ Sets the registry key from which to load the "DefaultIcon" value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setnormalicon">SetNormalIcon</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setnormalicon">SetNormalIcon</a>
 </td>
 <td align="left" width="63%">
 Sets the normal icon.
@@ -106,7 +106,7 @@ Sets the normal icon.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setopenicon">SetOpenIcon</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setopenicon">SetOpenIcon</a>
 </td>
 <td align="left" width="63%">
 Sets the icon that allows containers to specify an "open" look.
@@ -115,7 +115,7 @@ Sets the icon that allows containers to specify an "open" look.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setshortcuticon">SetShortcutIcon</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultextracticoninit-setshortcuticon">SetShortcutIcon</a>
 </td>
 <td align="left" width="63%">
 Sets the icon for a shortcut to the object.
@@ -123,4 +123,3 @@ Sets the icon for a shortcut to the object.
 </td>
 </tr>
 </table>
-

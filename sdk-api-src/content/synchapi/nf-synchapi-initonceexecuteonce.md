@@ -65,7 +65,7 @@ A pointer to the one-time initialization structure.
 
 ### -param InitFn [in]
 
-A pointer to an application-defined <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nc-synchapi-pinit_once_fn">InitOnceCallback</a> function.
+A pointer to an application-defined <a href="/windows/desktop/api/synchapi/nc-synchapi-pinit_once_fn">InitOnceCallback</a> function.
 
 ### -param Parameter [in, optional]
 
@@ -80,39 +80,38 @@ A parameter that receives data stored with the one-time initialization structure
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-This function is used for synchronous one-time initialization. For asynchronous one-time initialization, use the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initoncebegininitialize">InitOnceBeginInitialize</a> function with the <b>INIT_ONCE_ASYNC</b> flag.
+This function is used for synchronous one-time initialization. For asynchronous one-time initialization, use the <a href="/windows/desktop/api/synchapi/nf-synchapi-initoncebegininitialize">InitOnceBeginInitialize</a> function with the <b>INIT_ONCE_ASYNC</b> flag.
 
 Only one thread at a time can execute the callback function specified by <i>InitFn</i>. Other threads that specify the same one-time initialization structure block until the callback finishes.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
 
 For an example that uses 
 this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/using-one-time-initialization">Using One-Time Initialization</a>.
+<a href="/windows/desktop/Sync/using-one-time-initialization">Using One-Time Initialization</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nc-synchapi-pinit_once_fn">InitOnceCallback</a>
+<a href="/windows/desktop/api/synchapi/nc-synchapi-pinit_once_fn">InitOnceCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceinitialize">InitOnceInitialize</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-initonceinitialize">InitOnceInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/one-time-initialization">One-Time Initialization</a>
+<a href="/windows/desktop/Sync/one-time-initialization">One-Time Initialization</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

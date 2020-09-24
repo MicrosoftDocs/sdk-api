@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Tests whether two resource handles represent the same  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The <b>PRESUTIL_RESOURCES_EQUAL</b> type defines a pointer to this function.
+Tests whether two resource handles represent the same  <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. The <b>PRESUTIL_RESOURCES_EQUAL</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -71,15 +71,14 @@ the function returns <b>FALSE</b>.
 
 ## -remarks
 
-The  <b>ResUtilResourcesEqual</b> utility function compares the two resources by retrieving their names. To retrieve the names,  <b>ResUtilResourcesEqual</b> passes the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-name">CLUSCTL_RESOURCE_GET_NAME</a> control code to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function. If the names are the same, the resources are equal.
+The  <b>ResUtilResourcesEqual</b> utility function compares the two resources by retrieving their names. To retrieve the names,  <b>ResUtilResourcesEqual</b> passes the  <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-name">CLUSCTL_RESOURCE_GET_NAME</a> control code to the  <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function. If the names are the same, the resources are equal.
 
-Do not pass LPC and RPC handles in the same function call. If you do, the call will raise an RPC exception and can result in additional destructive effects. For information on how LPC and RPC handles are created, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
+Do not pass LPC and RPC handles in the same function call. If you do, the call will raise an RPC exception and can result in additional destructive effects. For information on how LPC and RPC handles are created, see  <a href="/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and  <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-name">CLUSCTL_RESOURCE_GET_NAME</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-name">CLUSCTL_RESOURCE_GET_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>

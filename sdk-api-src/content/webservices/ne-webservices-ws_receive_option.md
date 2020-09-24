@@ -63,5 +63,4 @@ A message is required to be received.  If the channel does not have
 
 The message is not required to be received.  If the channel does not have any more
                     messages, the function will return <b>WS_S_END</b>.
-                (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
-
+                (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

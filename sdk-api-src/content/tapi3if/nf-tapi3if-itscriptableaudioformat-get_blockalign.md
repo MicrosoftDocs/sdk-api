@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_BlockAlign</b> method returns the value for the <b>nBlockAlign</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 ## -parameters
 
 ### -param pVal [out]
 
 Pointer to the value of the <b>nBlockAlign</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 ## -returns
 
@@ -96,9 +96,8 @@ The <i>pVal</i> argument is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat">ITScriptableAudioFormat</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat">ITScriptableAudioFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_blockalign">put_BlockAlign</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_blockalign">put_BlockAlign</a>

@@ -57,7 +57,7 @@ The <code>SetDefaultMonitor</code> method specifies the default monitor that all
 
 ### -param pGUID [in]
 
-Pointer to a [VMRGUID](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrguid) structure that identifies the monitor.
+Pointer to a [VMRGUID](/windows/desktop/api/strmif/ns-strmif-vmrguid) structure that identifies the monitor.
 
 ## -returns
 
@@ -127,7 +127,7 @@ The allocator-presenter has not been loaded.
 
 ## -remarks
 
-Use this method on a multi-monitor system to specify to the VMR the default DirectDraw device to use when connecting to an upstream filter. The default DirectDraw device can be overriden for a particular connection by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-setmonitor">SetMonitor</a> method.
+Use this method on a multi-monitor system to specify to the VMR the default DirectDraw device to use when connecting to an upstream filter. The default DirectDraw device can be overriden for a particular connection by the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-setmonitor">SetMonitor</a> method.
 
 The <b>pGUID</b> member of the VMRGUID structure must be either <b>NULL</b>, indicating the default DirectDraw device, or equal to the address of the <b>GUID</b> member of the <b>VMRGUID</b> structure. Otherwise, the method returns E_INVALIDARG.
 
@@ -135,17 +135,16 @@ If the specified GUID does not correspond to any monitor, the method return E_IN
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmonitorconfig">IVMRMonitorConfig Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmonitorconfig">IVMRMonitorConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getdefaultmonitor">IVMRMonitorConfig::GetDefaultMonitor</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getdefaultmonitor">IVMRMonitorConfig::GetDefaultMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

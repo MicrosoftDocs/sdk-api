@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Selects streams in an Advanced Systems Format (ASF) file, based on the mutual exclusion information in the ASF header. The ASF stream selector object exposes this interface. To create the ASF stream selector, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfstreamselector">MFCreateASFStreamSelector</a>.
+Selects streams in an Advanced Systems Format (ASF) file, based on the mutual exclusion information in the ASF header. The ASF stream selector object exposes this interface. To create the ASF stream selector, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfstreamselector">MFCreateASFStreamSelector</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFStreamSelector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFStreamSelector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFStreamSelector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFStreamSelector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFASFStreamSelector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-bitratetostepnumber">BitrateToStepNumber</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-bitratetostepnumber">BitrateToStepNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the index of a bandwidth step that is appropriate for a specified bit rate. This method is used for multiple bit rate (MBR) content.
@@ -79,7 +79,7 @@ Retrieves the index of a bandwidth step that is appropriate for a specified bit 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstep">GetBandwidthStep</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstep">GetBandwidthStep</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream numbers that apply to a bandwidth step. This method is used for MBR content.
@@ -88,7 +88,7 @@ Retrieves the stream numbers that apply to a bandwidth step. This method is used
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstepcount">GetBandwidthStepCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstepcount">GetBandwidthStepCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of bandwidth steps that exist for the content. This method is used for MBR content.
@@ -97,7 +97,7 @@ Retrieves the number of bandwidth steps that exist for the content. This method 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputcount">GetOutputCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputcount">GetOutputCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of outputs for the ASF content.
@@ -106,7 +106,7 @@ Retrieves the number of outputs for the ASF content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputfromstream">GetOutputFromStream</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputfromstream">GetOutputFromStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output number associated with a stream.
@@ -115,7 +115,7 @@ Retrieves the output number associated with a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutex">GetOutputMutex</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutex">GetOutputMutex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a mutual exclusion object for an output.
@@ -124,7 +124,7 @@ Retrieves a mutual exclusion object for an output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutexcount">GetOutputMutexCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutexcount">GetOutputMutexCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of mutual exclusion objects associated with an output.
@@ -133,7 +133,7 @@ Retrieves the number of mutual exclusion objects associated with an output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputoverride">GetOutputOverride</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputoverride">GetOutputOverride</a>
 </td>
 <td align="left" width="63%">
 Retrieves the manual output override selection that is set for a stream.
@@ -142,7 +142,7 @@ Retrieves the manual output override selection that is set for a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputstreamcount">GetOutputStreamCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputstreamcount">GetOutputStreamCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of streams associated with an output.
@@ -151,7 +151,7 @@ Retrieves the number of streams associated with an output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputstreamnumbers">GetOutputStreamNumbers</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputstreamnumbers">GetOutputStreamNumbers</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream numbers for all of the streams that are associated with an output.
@@ -160,7 +160,7 @@ Retrieves the stream numbers for all of the streams that are associated with an 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getstreamcount">GetStreamCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getstreamcount">GetStreamCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of streams that are in the ASF content.
@@ -169,7 +169,7 @@ Retrieves the number of streams that are in the ASF content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setoutputmutexselection">SetOutputMutexSelection</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setoutputmutexselection">SetOutputMutexSelection</a>
 </td>
 <td align="left" width="63%">
 Selects a mutual exclusion record to use for a mutual exclusion object associated with an output.
@@ -178,7 +178,7 @@ Selects a mutual exclusion record to use for a mutual exclusion object associate
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setoutputoverride">SetOutputOverride</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setoutputoverride">SetOutputOverride</a>
 </td>
 <td align="left" width="63%">
 Sets the selection status of an output, overriding other selection criteria.
@@ -187,7 +187,7 @@ Sets the selection status of an output, overriding other selection criteria.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setstreamselectorflags">SetStreamSelectorFlags</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setstreamselectorflags">SetStreamSelectorFlags</a>
 </td>
 <td align="left" width="63%">
 Sets options for the stream selector.
@@ -198,5 +198,4 @@ Sets options for the stream selector.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

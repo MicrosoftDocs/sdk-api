@@ -90,9 +90,8 @@ If Internet media sharing is allowed for the computer and a particular user has 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingservices">IWindowsMediaLibrarySharingServices</a>
+<a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingservices">IWindowsMediaLibrarySharingServices</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-get_computerinternetmediasharingallowedstate">IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState</a>
-
+<a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-get_computerinternetmediasharingallowedstate">IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState</a>

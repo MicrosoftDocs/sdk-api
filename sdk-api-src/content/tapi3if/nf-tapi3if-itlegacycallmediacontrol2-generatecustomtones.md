@@ -54,14 +54,14 @@ The
 <b>GenerateCustomTones</b> method generates the specified custom tone.
 
 This method is intended for C/C++ applications. Visual Basic and scripting applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a> method instead.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a> method instead.
 
 ## -parameters
 
 ### -param pToneList [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ns-tapi3if-tapi_customtone">TAPI_CUSTOMTONE</a> array that specifies the tones to generate.
+<a href="/windows/desktop/api/tapi3if/ns-tapi3if-tapi_customtone">TAPI_CUSTOMTONE</a> array that specifies the tones to generate.
 
 ### -param lNumTones [in]
 
@@ -78,13 +78,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method translates to a call to the TAPI 2.<i>x</i>
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ns-tapi3if-tapi_customtone">TAPI_CUSTOMTONE</a>
-
+<a href="/windows/desktop/api/tapi3if/ns-tapi3if-tapi_customtone">TAPI_CUSTOMTONE</a>

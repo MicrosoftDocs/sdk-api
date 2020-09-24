@@ -78,7 +78,7 @@ Pointer to a <b>DWORD</b> in which the API version number that was negotiated wi
 ### -param lpExtensionID
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>. If the service provider for the specified <i>dwDeviceID</i> parameter supports provider-specific extensions, this structure is filled with the extension identifier of these extensions when negotiation succeeds. This structure contains all zeros if the line provides no extensions. An application can ignore the returned parameter if it does not use extensions.
+<a href="/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>. If the service provider for the specified <i>dwDeviceID</i> parameter supports provider-specific extensions, this structure is filled with the extension identifier of these extensions when negotiation succeeds. This structure contains all zeros if the line provides no extensions. An application can ignore the returned parameter if it does not use extensions.
 
 ## -returns
 
@@ -92,34 +92,33 @@ The
 <b>phoneNegotiateAPIVersion</b> function is used to negotiate the API version number to use with the specified phone device. It returns the extension identifier supported by the phone device, or zeros if no extensions are provided.
 
 If the application wants to use the extensions defined by the returned extension identifier, it must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a> to negotiate the extension version to use.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a> to negotiate the extension version to use.
 
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a> to determine the number of phone devices present in the system. The device identifier specified by <i>dwDeviceID</i> varies from zero to one less than the number of phone devices present.
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a> to determine the number of phone devices present in the system. The device identifier specified by <i>dwDeviceID</i> varies from zero to one less than the number of phone devices present.
 
 The API version number negotiated is that under which TAPI can operate. If version ranges do not overlap, the application, API, or service-provider versions are incompatible and an error is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-versioning">TAPI Versioning</a>
+<a href="/windows/desktop/Tapi/tapi-versioning">TAPI Versioning</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a>

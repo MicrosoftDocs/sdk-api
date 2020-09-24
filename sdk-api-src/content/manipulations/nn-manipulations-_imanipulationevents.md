@@ -54,7 +54,7 @@ Handles manipulation and inertia events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">_IManipulationEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>_IManipulationEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">_IManipulationEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>_IManipulationEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -98,5 +98,4 @@ Handles the event when manipulation or inertia begins.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>
-
+<a href="/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>

@@ -116,5 +116,4 @@ The object is not initialized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>
-
+<a href="/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>

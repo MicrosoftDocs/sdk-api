@@ -84,5 +84,4 @@ Calls to <b>stopBackgroundProcessing</b> occur after calls to <b>startBackground
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2">IWMPSubscriptionService2 Interface</a>
-
+<a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2">IWMPSubscriptionService2 Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertEnumCTLsInStore</b> function retrieves the first or next <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. Used in a loop, this function can retrieve in sequence all CTL contexts in a certificate store.
+The <b>CertEnumCTLsInStore</b> function retrieves the first or next <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context in a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>. Used in a loop, this function can retrieve in sequence all CTL contexts in a certificate store.
 
 ## -parameters
 
@@ -61,16 +61,16 @@ Handle of a certificate store.
 ### -param pPrevCtlContext [in]
 
 A pointer to the previous 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure found. It must be <b>NULL</b> to get the first CTL in the store. Successive CTLs are enumerated by setting <i>pPrevCtlContext</i> to the pointer returned by a previous call. This function frees the <b>CTL_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter. The enumeration skips any CTLs previously deleted by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure found. It must be <b>NULL</b> to get the first CTL in the store. Successive CTLs are enumerated by setting <i>pPrevCtlContext</i> to the pointer returned by a previous call. This function frees the <b>CTL_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter. The enumeration skips any CTLs previously deleted by 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a>.
 
 ## -returns
 
 If the function succeeds, the return value is a pointer to a read-only 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>.
 
 If the function fails and a CTL is not found, the return value is <b>NULL</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 Some possible error codes follow.
 
@@ -106,32 +106,31 @@ The handle in the <i>hCertStore</i> parameter is not the same as that in the CTL
 ## -remarks
 
 The returned pointer is freed when passed as the <i>pPrevCtlContext</i> on a subsequent call. Otherwise, the pointer must be explicitly freed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>. A <i>pPrevCtlContext</i> that is not <b>NULL</b> is always freed by this function (through a call to <b>CertFreeCTLContext</b>), even for an error.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>. A <i>pPrevCtlContext</i> that is not <b>NULL</b> is always freed by this function (through a call to <b>CertFreeCTLContext</b>), even for an error.
 
 A duplicate can be made by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext">CertDuplicateCTLContext</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext">CertDuplicateCTLContext</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext">CertDuplicateCTLContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext">CertDuplicateCTLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>

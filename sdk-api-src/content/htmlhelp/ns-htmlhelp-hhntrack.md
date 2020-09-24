@@ -66,13 +66,12 @@ A multi-byte, zero-terminated string that specifies the current topic (before th
 
 ### -field idAction
 
-Specifies the action the user is about to take. This is an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/idaction-member">HHACT_</a> constant.
+Specifies the action the user is about to take. This is an <a href="/previous-versions/windows/desktop/htmlhelp/idaction-member">HHACT_</a> constant.
 
 ### -field phhWinType
 
-A pointer to the current <a href="https://docs.microsoft.com/windows/desktop/api/htmlhelp/ns-htmlhelp-hh_wintype">HH_WINTYPE</a> structure.
+A pointer to the current <a href="/windows/desktop/api/htmlhelp/ns-htmlhelp-hh_wintype">HH_WINTYPE</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/about-structures">About structures</a>
-
+<a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About structures</a>

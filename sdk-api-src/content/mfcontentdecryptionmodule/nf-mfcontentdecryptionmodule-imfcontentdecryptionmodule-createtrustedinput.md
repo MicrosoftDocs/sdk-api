@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Creates an [IMFTrustedInput](/windows/win32/api/mfidl/nn-mfidl-imftrustedinput) object that implements the decryption of content.
+Creates an [IMFTrustedInput](../mfidl/nn-mfidl-imftrustedinput.md) object that implements the decryption of content.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Returns S_OK on success.
 
 ## -remarks
 
-An implementation of a Content Decryption Module (CDM) may include an implementation of [IMFInputTrustAuthority](/windows/win32/api/mfidl/nn-mfidl-imfinputtrustauthority) obtained by calling **CreateTrustedInput**.
+An implementation of a Content Decryption Module (CDM) may include an implementation of [IMFInputTrustAuthority](../mfidl/nn-mfidl-imfinputtrustauthority.md) obtained by calling **CreateTrustedInput**.
 
 
 The following attributes are supported for **IMFInputTrustAuthority** decrypter.
@@ -76,5 +76,4 @@ The following attributes are supported for **IMFInputTrustAuthority** decrypter.
 
 ## -see-also
 
-[IMFTrustedInput](/windows/win32/api/mfidl/nn-mfidl-imftrustedinput)
-
+[IMFTrustedInput](../mfidl/nn-mfidl-imftrustedinput.md)

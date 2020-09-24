@@ -52,11 +52,11 @@ api_name:
 
 Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 
-To get a pointer to this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-dxvahd_createdevice">DXVAHD_CreateDevice</a> function.
+To get a pointer to this interface, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-dxvahd_createdevice">DXVAHD_CreateDevice</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXVAHD_Device</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_Device</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXVAHD_Device</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_Device</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDXVAHD_Device</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor">CreateVideoProcessor</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor">CreateVideoProcessor</a>
 </td>
 <td align="left" width="63%">
 Creates a DXVA-HD video processor.
@@ -80,7 +80,7 @@ Creates a DXVA-HD video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">CreateVideoSurface</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">CreateVideoSurface</a>
 </td>
 <td align="left" width="63%">
 Creates one or more Microsoft Direct3D video surfaces.
@@ -89,7 +89,7 @@ Creates one or more Microsoft Direct3D video surfaces.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">GetVideoProcessorCaps</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">GetVideoProcessorCaps</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of one or more DXVA-HD video processors.
@@ -98,7 +98,7 @@ Gets the capabilities of one or more DXVA-HD video processors.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">GetVideoProcessorCustomRates</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">GetVideoProcessorCustomRates</a>
 </td>
 <td align="left" width="63%">
 Gets a list of custom rates that a DXVA-HD video process supports. Custom rates are used for frame-rate conversion and inverse telecine (IVTC).
@@ -107,7 +107,7 @@ Gets a list of custom rates that a DXVA-HD video process supports. Custom rates 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">GetVideoProcessorDeviceCaps</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">GetVideoProcessorDeviceCaps</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of the DXVA-HD device.
@@ -116,7 +116,7 @@ Gets the capabilities of the DXVA-HD device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorfilterrange">GetVideoProcessorFilterRange</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorfilterrange">GetVideoProcessorFilterRange</a>
 </td>
 <td align="left" width="63%">
 Gets the range of values for an image filter that the DXVA-HD device supports.
@@ -127,7 +127,7 @@ Gets the range of values for an image filter that the DXVA-HD device supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorinputformats">GetVideoProcessorInputFormats</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorinputformats">GetVideoProcessorInputFormats</a>
 </td>
 <td align="left" width="63%">
 Gets a list of the input formats supported by the DXVA-HD device.
@@ -136,7 +136,7 @@ Gets a list of the input formats supported by the DXVA-HD device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessoroutputformats">GetVideoProcessorOutputFormats</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessoroutputformats">GetVideoProcessorOutputFormats</a>
 </td>
 <td align="left" width="63%">
 Gets a list of the input formats supported by the DXVA-HD device.
@@ -147,13 +147,12 @@ Gets a list of the input formats supported by the DXVA-HD device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
+<a href="/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

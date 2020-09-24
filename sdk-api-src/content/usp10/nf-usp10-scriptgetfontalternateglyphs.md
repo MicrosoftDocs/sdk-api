@@ -59,29 +59,29 @@ Retrieves a list of alternate glyphs for a specified character that can be acces
 
 ### -param hdc [in, optional]
 
-Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
+Handle to the device context. For more information, see <a href="/windows/desktop/Intl/caching">Caching</a>.
 
 ### -param psc [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure defining the script cache.
+Pointer to a <a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure defining the script cache.
 
 ### -param psa [in, optional]
 
-Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the array of alternate glyphs can be created with the correct scope.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the array of alternate glyphs can be created with the correct scope.
 
 Alternatively, the application can set this parameter to <b>NULL</b> to receive unfiltered results.
 
 ### -param tagScript [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the script tag associated with alternate glyphs.
+An <a href="/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the script tag associated with alternate glyphs.
 
 ### -param tagLangSys [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the language tag associated with alternate glyphs.
+An <a href="/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the language tag associated with alternate glyphs.
 
 ### -param tagFeature [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the feature tag associated with alternate glyphs.
+An <a href="/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the feature tag associated with alternate glyphs.
 
 ### -param wGlyphId [in]
 
@@ -113,20 +113,20 @@ When using alternate glyphs, the application first reshapes the original glyph w
 
 If an alternate glyph is used as the base glyph, no matching output list is found. The user interface uses the selected final form without providing the capability to choose another alternate.
 
-The operations of <b>ScriptGetFontAlternateGlyphs</b> can be emulated by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptsubstitutesingleglyph">ScriptSubstituteSingleGlyph</a>. The application should try parameters one by one while glyphs are substituted.
+The operations of <b>ScriptGetFontAlternateGlyphs</b> can be emulated by <a href="/windows/desktop/api/usp10/nf-usp10-scriptsubstitutesingleglyph">ScriptSubstituteSingleGlyph</a>. The application should try parameters one by one while glyphs are substituted.
 
-For shaping fonts with Uniscribe, <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshapeopentype">ScriptShapeOpenType</a> is preferred over the older <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> function.
+For shaping fonts with Uniscribe, <a href="/windows/desktop/api/usp10/nf-usp10-scriptshapeopentype">ScriptShapeOpenType</a> is preferred over the older <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> function.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>
+<a href="/windows/desktop/Intl/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a>
+<a href="/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a>
 
 
 
@@ -134,25 +134,24 @@ For shaping fonts with Uniscribe, <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
+<a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshapeopentype">ScriptShapeOpenType</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshapeopentype">ScriptShapeOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptsubstitutesingleglyph">ScriptSubstituteSingleGlyph</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptsubstitutesingleglyph">ScriptSubstituteSingleGlyph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

@@ -55,7 +55,7 @@ Establishes a one-way secure channel between two objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSecureChannel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSecureChannel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSecureChannel</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSecureChannel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFSecureChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsecurechannel-getcertificate">GetCertificate</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsecurechannel-getcertificate">GetCertificate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the client's certificate.
@@ -79,7 +79,7 @@ Retrieves the client's certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsecurechannel-setupsession">SetupSession</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsecurechannel-setupsession">SetupSession</a>
 </td>
 <td align="left" width="63%">
 Passes the encrypted session key to the client.
@@ -90,5 +90,4 @@ Passes the encrypted session key to the client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

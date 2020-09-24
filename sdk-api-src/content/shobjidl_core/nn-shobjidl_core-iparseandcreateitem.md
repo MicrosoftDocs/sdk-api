@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-When the **STR_PARSE_AND_CREATE_ITEM** [binding context](/windows/win32/shell/str-constants) is specified, this interface gets or sets the stored Shell items that [SHCreateItemFromParsingName](/windows/win32/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname) creates from a parsing name.
+When the **STR_PARSE_AND_CREATE_ITEM** [binding context](/windows/win32/shell/str-constants) is specified, this interface gets or sets the stored Shell items that [SHCreateItemFromParsingName](./nf-shobjidl_core-shcreateitemfromparsingname.md) creates from a parsing name.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseAndCreateItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IParseAndCreateItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseAndCreateItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IParseAndCreateItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,15 +69,14 @@ The <b>IParseAndCreateItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparseandcreateitem-getitem">GetItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparseandcreateitem-getitem">GetItem</a>
 </td>
-<td align="left" width="63%">Gets a stored Shell item that [SHCreateItemFromParsingName](/windows/win32/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname) created from a parsing name.</td>
+<td align="left" width="63%">Gets a stored Shell item that [SHCreateItemFromParsingName](./nf-shobjidl_core-shcreateitemfromparsingname.md) created from a parsing name.</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparseandcreateitem-setitem">SetItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparseandcreateitem-setitem">SetItem</a>
 </td>
-<td align="left" width="63%">Sets a Shell item that [SHCreateItemFromParsingName](/windows/win32/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname) created from a parsing name.</td>
+<td align="left" width="63%">Sets a Shell item that [SHCreateItemFromParsingName](./nf-shobjidl_core-shcreateitemfromparsingname.md) created from a parsing name.</td>
 </tr>
 </table>
-

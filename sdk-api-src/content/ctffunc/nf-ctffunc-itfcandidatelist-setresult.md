@@ -109,10 +109,9 @@ A typical reconversion operation would include the following operations.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a>
 
 
 
 <a href="/windows/win32/api/ctffunc/ne-ctffunc-tfcandidateresult">TfCandidateResult
       </a>
-

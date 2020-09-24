@@ -98,5 +98,4 @@ A <b>NULL</b> pointer was passed where a non-<b>NULL</b> pointer is expected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>

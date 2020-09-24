@@ -54,7 +54,7 @@ The <b>IPortableDeviceServiceCapabilities</b> interface retrieves information de
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceServiceCapabilities</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceServiceCapabilities</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceServiceCapabilities</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceServiceCapabilities</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPortableDeviceServiceCapabilities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-cancel">Cancel</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending operation.
@@ -78,7 +78,7 @@ Cancels a pending operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getcommandoptions">GetCommandOptions</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getcommandoptions">GetCommandOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the options of a command.
@@ -87,7 +87,7 @@ Retrieves the options of a command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventattributes">GetEventAttributes</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventattributes">GetEventAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes of an event.
@@ -96,7 +96,7 @@ Retrieves the attributes of an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventparameterattributes">GetEventParameterAttributes</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventparameterattributes">GetEventParameterAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes of an event parameter.
@@ -105,7 +105,7 @@ Retrieves the attributes of an event parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes">GetFormatAttributes</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes">GetFormatAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes of a format.
@@ -114,7 +114,7 @@ Retrieves the attributes of a format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatpropertyattributes">GetFormatPropertyAttributes</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatpropertyattributes">GetFormatPropertyAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes of a format property.
@@ -123,7 +123,7 @@ Retrieves the attributes of a format property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatrenderingprofiles">GetFormatRenderingProfiles</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatrenderingprofiles">GetFormatRenderingProfiles</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rendering profiles of a format.
@@ -132,7 +132,7 @@ Retrieves the rendering profiles of a format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getinheritedservices">GetInheritedServices</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getinheritedservices">GetInheritedServices</a>
 </td>
 <td align="left" width="63%">
 Retrieves the services having the specified inheritance type.
@@ -141,7 +141,7 @@ Retrieves the services having the specified inheritance type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodattributes">GetMethodAttributes</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodattributes">GetMethodAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes of a method.
@@ -150,7 +150,7 @@ Retrieves the attributes of a method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodparameterattributes">GetMethodParameterAttributes</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodparameterattributes">GetMethodParameterAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes of a method parameter.
@@ -159,7 +159,7 @@ Retrieves the attributes of a method parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedcommands">GetSupportedCommands</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedcommands">GetSupportedCommands</a>
 </td>
 <td align="left" width="63%">
 Retrieves the commands supported by the service.
@@ -168,7 +168,7 @@ Retrieves the commands supported by the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedevents">GetSupportedEvents</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedevents">GetSupportedEvents</a>
 </td>
 <td align="left" width="63%">
 Retrieves the events supported by the service.
@@ -177,7 +177,7 @@ Retrieves the events supported by the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedformatproperties">GetSupportedFormatProperties</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedformatproperties">GetSupportedFormatProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties supported by the service for the specified format.
@@ -186,7 +186,7 @@ Retrieves the properties supported by the service for the specified format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedformats">GetSupportedFormats</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedformats">GetSupportedFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the formats supported by the service.
@@ -195,7 +195,7 @@ Retrieves the formats supported by the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedmethods">GetSupportedMethods</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedmethods">GetSupportedMethods</a>
 </td>
 <td align="left" width="63%">
 Retrieves the methods supported by the service.
@@ -204,7 +204,7 @@ Retrieves the methods supported by the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedmethodsbyformat">GetSupportedMethodsByFormat</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedmethodsbyformat">GetSupportedMethodsByFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the methods supported by the service for the specified format.
@@ -212,4 +212,3 @@ Retrieves the methods supported by the service for the specified format.
 </td>
 </tr>
 </table>
-

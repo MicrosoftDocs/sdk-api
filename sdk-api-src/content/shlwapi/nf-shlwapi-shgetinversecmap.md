@@ -116,9 +116,8 @@ In this example, the value in 555 format is ((0x30 / 8) &lt;&lt; 10) + ((0x60 / 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhalftonepalette">CreateHalftonePalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createhalftonepalette">CreateHalftonePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getnearestcolor">GetNearestColor</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getnearestcolor">GetNearestColor</a>

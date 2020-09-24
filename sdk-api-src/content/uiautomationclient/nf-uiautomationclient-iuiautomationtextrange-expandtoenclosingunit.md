@@ -62,7 +62,7 @@ The text unit, such as line or paragraph.
 
 ## -returns
 
-Type: **[HRESULT](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[HRESULT](/windows/desktop/WinProg/windows-data-types)**
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
@@ -106,9 +106,8 @@ ExpandToEnclosingUnit respects both visible and hidden text.
 
 ### Range behavior when *unit* is `TextUnit::Format`
 
-`TextUnit::Format`, as a *unit* value, positions the boundary of a text range to expand or move the range based on shared text attributes (or format) of the text within the range. However, the `Format` text unit does not move or expand a text range across the boundary of an embedded object, such as an image or hyperlink. For more info, see [UI Automation Text Units](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-uiautomationtextunits) or [UI Automation Support for Textual Content](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview).
+`TextUnit::Format`, as a *unit* value, positions the boundary of a text range to expand or move the range based on shared text attributes (or format) of the text within the range. However, the `Format` text unit does not move or expand a text range across the boundary of an embedded object, such as an image or hyperlink. For more info, see [UI Automation Text Units](/windows/desktop/WinAuto/uiauto-uiautomationtextunits) or [UI Automation Support for Textual Content](/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview).
 
 ## -see-also
 
-[IUIAutomationTextRange interface](nn-uiautomationclient-iuiautomationtextrange.md), [UI Automation Support for Textual Content](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview)
-
+[IUIAutomationTextRange interface](nn-uiautomationclient-iuiautomationtextrange.md), [UI Automation Support for Textual Content](/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview)

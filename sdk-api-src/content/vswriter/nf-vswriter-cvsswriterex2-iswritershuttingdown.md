@@ -65,10 +65,9 @@ The writer implementation should call this method periodically during long-runni
 
 <ol>
 <li>Log an error to the Application Event Log event. This is optional, but recommended.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">SetWriterFailure</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">SetWriterFailureEx</a>, passing a non-retryable error code for the <i>hr</i> or <i>hrWriter</i> parameter.</li>
+<li>Call <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">SetWriterFailure</a> or <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">SetWriterFailureEx</a>, passing a non-retryable error code for the <i>hr</i> or <i>hrWriter</i> parameter.</li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex2">CVssWriterEx2</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex2">CVssWriterEx2</a>

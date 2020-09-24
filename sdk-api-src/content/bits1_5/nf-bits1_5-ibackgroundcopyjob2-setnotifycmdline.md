@@ -114,9 +114,9 @@ The <i>pProgram</i> or <i>pParameters</i> string is too long.
 ## -remarks
 
 BITS calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function to launch the program.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function to launch the program.
 
-Your program should return an exit code of zero. If your program does not return an exit code of zero, BITS checks the state of the job. If the program did not cancel or complete the job, BITS calls the program again after the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setminimumretrydelay">minimum retry delay</a> specified for the job expires.
+Your program should return an exit code of zero. If your program does not return an exit code of zero, BITS checks the state of the job. If the program did not cancel or complete the job, BITS calls the program again after the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setminimumretrydelay">minimum retry delay</a> specified for the job expires.
 
 <b>BITS 1.5 and earlier:  </b>BITS calls the program only once. 
 
@@ -126,38 +126,37 @@ If your program requires job related information, you must pass this information
 
 You should include the full path to the program. If any of the arguments in <i>pParameters</i> include a path that uses long file names, such as the module name, use quotes around the path.
 
-If the program you want to execute uses the reply or download file, the program must call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete</a> method to make the files available to the client.
+If the program you want to execute uses the reply or download file, the program must call the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete</a> method to make the files available to the client.
 
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a> method to specify when to execute the program. You can request command line execution only for job error or transferred events, not job modification events. Note that BITS still executes the command line even if you call the 
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a> method to specify when to execute the program. You can request command line execution only for job error or transferred events, not job modification events. Note that BITS still executes the command line even if you call the 
 <b>SetNotifyCmdLine</b> method after the event occurs.
 
 If the BITS job is in a service account context (ie, networkservice/localsystem/localservice), no form of command-line callback will execute. 
 
 If you call both the <b>SetNotifyCmdLine</b> method 
-and the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method, BITS will execute the command line only if the notification interface becomes invalid or the notification method that BITS calls returns a failure  code. For example, if the notification method that BITS calls returns a E_FAIL, BITS will execute the command line. However, if the notification method returns <b>S_OK</b>, BITS will not execute the command line. If the  notification method and command line execution request both fail, BITS will send the notification again after the minimum retry period expires. 
+and the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method, BITS will execute the command line only if the notification interface becomes invalid or the notification method that BITS calls returns a failure  code. For example, if the notification method that BITS calls returns a E_FAIL, BITS will execute the command line. However, if the notification method returns <b>S_OK</b>, BITS will not execute the command line. If the  notification method and command line execution request both fail, BITS will send the notification again after the minimum retry period expires. 
 
 Note that calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-takeownership">IBackgroundCopyJob::TakeOwnership</a> method removes command line notification from the job.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-takeownership">IBackgroundCopyJob::TakeOwnership</a> method removes command line notification from the job.
 
 
 #### Examples
 
 For an example that calls the 
 <b>SetNotifyCmdLine</b> method, see 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/registering-to-execute-a-program">Registering to Execute a Program</a>.
+<a href="/windows/desktop/Bits/registering-to-execute-a-program">Registering to Execute a Program</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getnotifycmdline">IBackgroundCopyJob2::GetNotifyCmdLine</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getnotifycmdline">IBackgroundCopyJob2::GetNotifyCmdLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>

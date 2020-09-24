@@ -57,14 +57,14 @@ The <b>GetFormatCapability</b> method retrieves information from a device about 
 
 ### -param format [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-formatcode">WMDM_FORMATCODE</a>
+<a href="/windows/desktop/WMDM/wmdm-formatcode">WMDM_FORMATCODE</a>
 
 
 Enumerated value representing inquired format.
 
 ### -param pFormatSupport [out]
 
-Returned <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-format-capability">WMDM_FORMAT_CAPABILITY</a> structure containing the values or ranges of values supported for each aspect of a particular object format.
+Returned <a href="/windows/desktop/WMDM/wmdm-format-capability">WMDM_FORMAT_CAPABILITY</a> structure containing the values or ranges of values supported for each aspect of a particular object format.
 
 ## -returns
 
@@ -75,43 +75,42 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
 This method can be called for any of the supported formats. The list of supported formats are represented by <b>g_wszWMDMFormatsSupported</b> device property.
 
-For a particular format, this method should return all configurations of supported properties (for example, combinations of bit rate and sample rate). This information is expressed as a format capability. For detailed information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-format-capability">WMDM_FORMAT_CAPABILITY</a>.
+For a particular format, this method should return all configurations of supported properties (for example, combinations of bit rate and sample rate). This information is expressed as a format capability. For detailed information, see <a href="/windows/desktop/WMDM/wmdm-format-capability">WMDM_FORMAT_CAPABILITY</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice3">IMDSPDevice3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice3">IMDSPDevice3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-getproperty">IMDSPDevice3::GetProperty</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-getproperty">IMDSPDevice3::GetProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-enum-prop-valid-values-form">WMDM_ENUM_PROP_VALID_VALUES_FORM</a>
+<a href="/windows/desktop/WMDM/wmdm-enum-prop-valid-values-form">WMDM_ENUM_PROP_VALID_VALUES_FORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-format-capability">WMDM_FORMAT_CAPABILITY</a>
+<a href="/windows/desktop/WMDM/wmdm-format-capability">WMDM_FORMAT_CAPABILITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-prop-config">WMDM_PROP_CONFIG</a>
+<a href="/windows/desktop/WMDM/wmdm-prop-config">WMDM_PROP_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-prop-desc">WMDM_PROP_DESC</a>
+<a href="/windows/desktop/WMDM/wmdm-prop-desc">WMDM_PROP_DESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-prop-values-enum">WMDM_PROP_VALUES_ENUM</a>
+<a href="/windows/desktop/WMDM/wmdm-prop-values-enum">WMDM_PROP_VALUES_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-prop-values-range">WMDM_PROP_VALUES_RANGE</a>
-
+<a href="/windows/desktop/WMDM/wmdm-prop-values-range">WMDM_PROP_VALUES_RANGE</a>

@@ -56,15 +56,15 @@ api_name:
 
 The 
 <b>SetupQueryInfVersionInformation</b> function returns INF file version information from an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure to a buffer.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure to a buffer.
 
 ## -parameters
 
 ### -param InfInformation [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure previously returned from a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a> function.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure previously returned from a call to the 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a> function.
 
 ### -param InfIndex [in]
 
@@ -85,18 +85,18 @@ Size of the buffer pointed to by the <i>ReturnBuffer</i> parameter, in character
 ### -param RequiredSize [in, out]
 
 If not <b>NULL</b>, pointer to a variable that receives the size required for the buffer pointed to by the <i>ReturnBuffer</i> parameter, in characters. This number includes the <b>null</b> terminator. If <i>ReturnBuffer</i> is specified and the actual size is larger than the value specified by <i>ReturnBufferSize</i>, the function fails and a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
 
 ## -returns
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>ReturnBufferSize</i> of zero, the function puts the buffer size needed to hold the specified data into the variable pointed to by <i>RequiredSize</i>. If the function succeeds in this, the return value is a nonzero value. Otherwise, the return value is zero and extended error information can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>ReturnBufferSize</i> of zero, the function puts the buffer size needed to hold the specified data into the variable pointed to by <i>RequiredSize</i>. If the function succeeds in this, the return value is a nonzero value. Otherwise, the return value is zero and extended error information can be obtained by calling <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If 
 <b>SetupQueryInfVersionInformation</b> is called on a legacy INF file , then version information is generated from the legacy INF file in the following manner:
@@ -107,7 +107,7 @@ If
 <li>If the value of the FileType key of the legacy INF file is MICROSOFT_FILE, then the Provider key value is set to "Microsoft".</li>
 </ol>
 The following table summarizes how the information is translated before it is passed into the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure.
 
 <table>
 <tr>
@@ -151,17 +151,16 @@ FileType = MICROSOFT_FILE</code></pre>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueryinffileinformationa">SetupQueryInfFileInformation</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueryinffileinformationa">SetupQueryInfFileInformation</a>

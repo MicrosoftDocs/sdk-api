@@ -60,11 +60,11 @@ This value must be set to <b>NULL</b>.
 
 ### -param dwRights [in]
 
-<b>DWORD</b> indicating the desired operation. Set to one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_rights">WMT_RIGHTS</a> enumeration type, indicating the operation that is performed on this file. If multiple operations are being performed, <i>dwRights</i> must consist of multiple values from <b>WMT_RIGHTS</b> combined by using the bitwise <b>OR</b> operator.
+<b>DWORD</b> indicating the desired operation. Set to one of the values from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_rights">WMT_RIGHTS</a> enumeration type, indicating the operation that is performed on this file. If multiple operations are being performed, <i>dwRights</i> must consist of multiple values from <b>WMT_RIGHTS</b> combined by using the bitwise <b>OR</b> operator.
 
 ### -param ppReader [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader</a> interface of the newly created reader object.
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader</a> interface of the newly created reader object.
 
 ## -returns
 
@@ -101,27 +101,26 @@ The function is unable to allocate memory for the new object.
 
 ## -remarks
 
-After this object has been created, you can modify the rights that will be requested for the next file opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty">IWMDRMReader::SetDRMProperty</a> with the <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-rights">DRM_Rights</a> property. Note that when using this property, the rights are specified as strings, not as <b>DWORD</b> values.
+After this object has been created, you can modify the rights that will be requested for the next file opened by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty">IWMDRMReader::SetDRMProperty</a> with the <a href="/windows/desktop/wmformat/drm-rights">DRM_Rights</a> property. Note that when using this property, the rights are specified as strings, not as <b>DWORD</b> values.
 
 The <i>dwRights</i> parameter may be set to 0 when reading non-DRM content. If <i>dwRights</i> is set to 0 and you open a protected file, you can access license related metadata, but you cannot read data from any streams in the file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
+<a href="/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-properties">DRM Properties</a>
+<a href="/windows/desktop/wmformat/drm-properties">DRM Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-drm-support">Enabling DRM Support</a>
+<a href="/windows/desktop/wmformat/enabling-drm-support">Enabling DRM Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
+<a href="/windows/desktop/wmformat/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
-
+<a href="/windows/desktop/wmformat/reader-object">Reader Object</a>

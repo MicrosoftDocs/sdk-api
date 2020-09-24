@@ -88,7 +88,7 @@ The end of the memory range described by the function table.
 This function returns zero on success. (More detail).
 
 See 
-      <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55">http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx</a> 
+      <a href="/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55">http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx</a> 
       for a list of <b>NTSTATUS</b> values.
 
 ## -remarks
@@ -96,4 +96,3 @@ See
 The function table can grow as code is added to the memory region. The entries in the table must be sorted. 
      This table is used for dispatching exceptions through runtime-generated code and for collecting stack 
      backtraces.
-

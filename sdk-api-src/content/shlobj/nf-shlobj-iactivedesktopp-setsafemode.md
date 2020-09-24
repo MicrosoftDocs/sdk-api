@@ -80,9 +80,8 @@ Returns S_OK if successful, or an error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp">IActiveDesktopP</a>
+<a href="/windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp">IActiveDesktopP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
-
+<a href="/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>

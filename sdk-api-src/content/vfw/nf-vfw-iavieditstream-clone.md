@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Clone</b> method duplicates a stream. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-editstreamclone">EditStreamClone</a> function.
+The <b>Clone</b> method duplicates a stream. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-editstreamclone">EditStreamClone</a> function.
 
 ## -parameters
 
@@ -82,9 +82,8 @@ HRESULT Clone(PAVISTREAM *ppResult);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request.  Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginsendrequest">BeginSendRequest</a> method.
+Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request.  Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginsendrequest">BeginSendRequest</a> method.
 
 ## -parameters
 
@@ -97,5 +97,4 @@ There is insufficient memory to complete the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

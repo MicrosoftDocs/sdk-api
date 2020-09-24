@@ -60,7 +60,7 @@ This function temporarily blocks backups for the current user.
 
 ### -param Pipe [in]
 
-The communication channel handle returned by an earlier <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
+The communication channel handle returned by an earlier <a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
 
 ## -returns
 
@@ -68,23 +68,22 @@ The communication channel handle returned by an earlier <a href="https://docs.mi
 
 ## -remarks
 
-This function instructs the File History Service to not perform backups for the current user until the <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceunblockbackup">FhServiceUnblockBackup</a> function is called or the communication channel with the File History Service is closed by calling <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceclosepipe">FhServiceClosePipe</a>.
+This function instructs the File History Service to not perform backups for the current user until the <a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceunblockbackup">FhServiceUnblockBackup</a> function is called or the communication channel with the File History Service is closed by calling <a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceclosepipe">FhServiceClosePipe</a>.
 
-Call this function prior to performing File History configuration reassociation to ensure that File History configuration and data files are not currently in use. (Otherwise, the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a> method may fail.)
+Call this function prior to performing File History configuration reassociation to ensure that File History configuration and data files are not currently in use. (Otherwise, the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a> method may fail.)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceclosepipe">FhServiceClosePipe</a>
+<a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceclosepipe">FhServiceClosePipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
+<a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceunblockbackup">FhServiceUnblockBackup</a>
+<a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceunblockbackup">FhServiceUnblockBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a>
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a>

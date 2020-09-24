@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the search folder as a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
+Gets the search folder as a <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interface pointer specified in <i>riid</i>.
+The <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interface pointer specified in <i>riid</i>.
 
 ## -returns
 
@@ -74,13 +74,12 @@ Returns a success value if successful, or an error value otherwise.
 
 ## -remarks
 
-When the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> is enumerated, it returns the search results.
+When the retrieved <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> is enumerated, it returns the search results.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory">ISearchFolderItemFactory</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory">ISearchFolderItemFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromidlist">SHCreateItemFromIDList</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromidlist">SHCreateItemFromIDList</a>

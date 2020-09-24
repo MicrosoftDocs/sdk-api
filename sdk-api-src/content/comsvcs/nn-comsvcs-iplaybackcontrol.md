@@ -54,7 +54,7 @@ Enables participation in the abnormal handling of server-side playback errors an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlaybackControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPlaybackControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlaybackControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPlaybackControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPlaybackControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iplaybackcontrol-finalclientretry">FinalClientRetry</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iplaybackcontrol-finalclientretry">FinalClientRetry</a>
 </td>
 <td align="left" width="63%">
 Informs the client-side exception handling component that all Message Queuing attempts to deliver the message to the server were rejected. The message ended up on the client-side Xact dead letter queue.
@@ -78,7 +78,7 @@ Informs the client-side exception handling component that all Message Queuing at
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iplaybackcontrol-finalserverretry">FinalServerRetry</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iplaybackcontrol-finalserverretry">FinalServerRetry</a>
 </td>
 <td align="left" width="63%">
 Informs the server-side Exception_CLSID implementation that all attempts to play back the deferred activation have failed. The message is about to be moved to the final resting queue.
@@ -89,9 +89,8 @@ Informs the server-side Exception_CLSID implementation that all attempts to play
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--queued-components">COM+ Queued Components</a>
+<a href="/windows/desktop/cossdk/com--queued-components">COM+ Queued Components</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imessagemover">IMessageMover</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imessagemover">IMessageMover</a>

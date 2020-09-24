@@ -62,7 +62,7 @@ The <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_qu
 
 ### -param pOptionValue [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 Receives a pointer to the specified option value. For more information, see <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>.
 
@@ -71,4 +71,3 @@ Receives a pointer to the specified option value. For more information, see <a h
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

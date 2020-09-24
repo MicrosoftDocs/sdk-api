@@ -81,9 +81,8 @@ In some telephony environments, the switch or service provider can assign a uniq
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-support">CallHub Tracking</a>
+<a href="/windows/desktop/Tapi/callhub-support">CallHub Tracking</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallhubtrackinginfo">LINECALLHUBTRACKINGINFO</a>
-
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallhubtrackinginfo">LINECALLHUBTRACKINGINFO</a>

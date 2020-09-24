@@ -56,7 +56,7 @@ Retrieves a clerk collection object, which is a snapshot of the current state of
 
 ### -param pClerks [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a> pointer to a clerks collection object.
+An <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a> pointer to a clerks collection object.
 
 ## -returns
 
@@ -104,5 +104,4 @@ Recovery of the CRM log file is still in progress.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitor">ICrmMonitor</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitor">ICrmMonitor</a>

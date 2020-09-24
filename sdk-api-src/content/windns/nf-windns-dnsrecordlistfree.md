@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>DnsRecordListFree</b> function frees memory allocated for DNS records obtained using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function.
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ A specifier of how the record list should be freed. The only type currently supp
 
 The 
 <b>DnsRecordListFree</b> function can be used to free memory allocated from query results obtained using a 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function call; it cannot free memory allocated for DNS record lists created manually.
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function call; it cannot free memory allocated for DNS record lists created manually.
 
 ## -see-also
 
 <a href="/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a>
-

@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>FWPM_NET_EVENT_HEADER3</b> structure contains information common to all events.
-[FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) is available.</div><div> </div>
+[FWPM_NET_EVENT_HEADER0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -192,7 +192,7 @@ The IP version being used.
 
 ### -field ipProtocol
 
-The IP protocol specified as an IPPROTO value. See the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> reference topic for more information on possible protocol values.
+The IP protocol specified as an IPPROTO value. See the <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> reference topic for more information on possible protocol values.
 
 ### -field localAddrV4
 
@@ -262,17 +262,16 @@ The EDP remote server used for name-based policy.
 
 ## -see-also
 
-[FWP_AF](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)
+[FWP_AF](../fwptypes/ne-fwptypes-fwp_af.md)
 
 
 
-[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
+[FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
-
+[FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)

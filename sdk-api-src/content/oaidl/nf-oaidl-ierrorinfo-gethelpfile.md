@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method returns the fully qualified path of the Help file that describes the current error. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ierrorinfo-gethelpcontext">IErrorInfo::GetHelpContext</a> should be used to find the Help context ID for the error in the Help file.
+This method returns the fully qualified path of the Help file that describes the current error. <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ierrorinfo-gethelpcontext">IErrorInfo::GetHelpContext</a> should be used to find the Help context ID for the error in the Help file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>

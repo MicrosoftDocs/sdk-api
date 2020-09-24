@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_TRANSPORT_POLICY2</b> structure  stores the quick mode negotiation policy for transport mode IPsec.
-[IPSEC_TRANSPORT_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy0) is available. </div><div> </div>
+[IPSEC_TRANSPORT_POLICY0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy0) is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ Type: <b>UINT32</b>
 
 ### -field ipsecProposals
 
-Type: [IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)*</b>
+Type: [IPSEC_PROPOSAL0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)*</b>
 
 Array of quick mode proposals.
 
@@ -172,29 +172,28 @@ Timeout in seconds, after which the IPsec security association (SA) should stop 
 
 ### -field saIdleTimeout
 
-Type: [IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)</b>
+Type: [IPSEC_SA_IDLE_TIMEOUT0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)</b>
 
 The SA idle timeout in IPsec policy.
 
 ### -field emPolicy
 
-Type: [IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)*</b>
+Type: [IKEEXT_EM_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)*</b>
 
 The AuthIP extended mode authentication policy.
 
 ## -see-also
 
-[IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)
+[IKEEXT_EM_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)
 
 
 
-[IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)
+[IPSEC_PROPOSAL0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)
 
 
 
-[IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)
+[IPSEC_SA_IDLE_TIMEOUT0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

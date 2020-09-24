@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Called when an <b>Open</b> button drop-down list customized through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-enableopendropdown">EnableOpenDropDown</a> or a <b>Tools</b> menu is about to display its contents.
+Called when an <b>Open</b> button drop-down list customized through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-enableopendropdown">EnableOpenDropDown</a> or a <b>Tools</b> menu is about to display its contents.
 
 ## -parameters
 
 ### -param pfdc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize">IFileDialogCustomize</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize">IFileDialogCustomize</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize">IFileDialogCustomize</a> object through which the application adds controls to the dialog.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize">IFileDialogCustomize</a> object through which the application adds controls to the dialog.
 
 ### -param dwIDCtl [in]
 
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 In response to this notification, an application can update the contents of the menu or list about to be displayed, based on the current state of the dialog.
-

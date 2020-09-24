@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a> interface to enable retrieving metadata about how accessible technology should say the preferred content type.
+Extends the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a> interface to enable retrieving metadata about how accessible technology should say the preferred content type.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderSimple3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a>. <b>IRawElementProviderSimple3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderSimple3</b> interface inherits from <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a>. <b>IRawElementProviderSimple3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRawElementProviderSimple3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple3-getmetadatavalue">GetMetadataValue</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple3-getmetadatavalue">GetMetadataValue</a>
 </td>
 <td align="left" width="63%">
 Gets metadata from the UI Automation element that indicates how the information should be interpreted.
@@ -102,5 +102,4 @@ The ability to mark the "10" as a number and the "-100" as a number helps active
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a>

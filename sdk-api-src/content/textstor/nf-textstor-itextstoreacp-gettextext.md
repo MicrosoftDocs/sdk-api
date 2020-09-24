@@ -146,15 +146,14 @@ If the document window is minimized, or if the specified text is not currently v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-gettextext">ITfContextOwner::GetTextExt
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-gettextext">ITfContextOwner::GetTextExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">ITfContextView::GetTextExt
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">ITfContextView::GetTextExt
       </a>
-

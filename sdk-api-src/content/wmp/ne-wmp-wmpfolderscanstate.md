@@ -78,13 +78,12 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
+<a href="/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-folderscanstatechange">IWMPEvents3::FolderScanStateChange</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents3-folderscanstatechange">IWMPEvents3::FolderScanStateChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_scanstate">IWMPFolderMonitorServices::get_scanState</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_scanstate">IWMPFolderMonitorServices::get_scanState</a>

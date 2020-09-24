@@ -62,11 +62,10 @@ The zero-based index of the function parameter reflector to retrieve.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection">ID3D12FunctionParameterReflection</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection">ID3D12FunctionParameterReflection</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection">ID3D12FunctionParameterReflection</a> interface that represents the function parameter reflector.
+A pointer to a <a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection">ID3D12FunctionParameterReflection</a> interface that represents the function parameter reflector.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection">ID3D12FunctionReflection</a>
-
+<a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection">ID3D12FunctionReflection</a>

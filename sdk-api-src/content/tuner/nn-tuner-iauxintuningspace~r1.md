@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-The <b>IAuxInTuningSpace</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/auxintuningspace-object">AuxInTuningSpace</a> objects, which represent auxiliary video inputs such as S-video or composite video on a hardware device that is connected to the computer.
+The <b>IAuxInTuningSpace</b> interface is implemented on <a href="/previous-versions/windows/desktop/mstv/auxintuningspace-object">AuxInTuningSpace</a> objects, which represent auxiliary video inputs such as S-video or composite video on a hardware device that is connected to the computer.
 
 ## -inheritance
 
@@ -58,9 +58,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

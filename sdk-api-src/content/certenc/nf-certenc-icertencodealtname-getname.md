@@ -59,31 +59,30 @@ The <b>GetName</b> method returns the specified name from the alternate name arr
 
 A zero-based index that specifies the index of the alternate name entry to retrieve.  
 
-To retrieve the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of a CERT_ALT_NAME_OTHER_NAME name, combine the index value with EAN_NAMEOBJECTID (defined as 0x80000000) with a bitwise-<b>OR</b> operation. Otherwise, the binary value is retrieved. To determine the type of name, call the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-getnamechoice">ICertEncodeAltName::GetNameChoice</a> method.
+To retrieve the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of a CERT_ALT_NAME_OTHER_NAME name, combine the index value with EAN_NAMEOBJECTID (defined as 0x80000000) with a bitwise-<b>OR</b> operation. Otherwise, the binary value is retrieved. To determine the type of name, call the <a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-getnamechoice">ICertEncodeAltName::GetNameChoice</a> method.
 
 ### -param pstrName [out]
 
-A pointer to a <b>BSTR</b> that receives the alternate name. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the alternate name. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is the alternate name at the specified index. The return value is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string.
+ The return value is the alternate name at the specified index. The return value is a <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-getnamechoice">ICertEncodeAltName::GetNameChoice</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-getnamechoice">ICertEncodeAltName::GetNameChoice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-setnameentry">ICertEncodeAltName::SetNameEntry</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-setnameentry">ICertEncodeAltName::SetNameEntry</a>

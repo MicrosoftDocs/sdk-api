@@ -72,9 +72,8 @@ Length, in bytes, of the <i>InfoBuffer</i>.
 
 ### -param ReturnedLength [out, optional]
 
-Length, in bytes, of the returned sync root information. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfregistersyncroot">CfRegisterSyncRoot</a> for details about the sync root information.
+Length, in bytes, of the returned sync root information. Refer to <a href="/windows/desktop/api/cfapi/nf-cfapi-cfregistersyncroot">CfRegisterSyncRoot</a> for details about the sync root information.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

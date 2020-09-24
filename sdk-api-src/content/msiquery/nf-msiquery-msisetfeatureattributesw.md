@@ -54,13 +54,13 @@ api_name:
 
 The 
 <b>MsiSetFeatureAttributes</b> function can modify the default attributes of a feature at runtime. Note that the default attributes of features are authored in the Attributes column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a>.
+<a href="/windows/desktop/Msi/feature-table">Feature table</a>.
 
 ## -parameters
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szFeature [in]
 
@@ -85,7 +85,7 @@ Feature attributes specified at run time as a set of bit flags:
 </td>
 <td width="60%">
 Modifies default feature attributes to msidbFeatureAttributesFavorLocal at run time. See Attributes column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a> for a description.
+<a href="/windows/desktop/Msi/feature-table">Feature table</a> for a description.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Modifies default feature attributes to msidbFeatureAttributesFavorLocal at run t
 </td>
 <td width="60%">
 Modifies default feature attributes to msidbFeatureAttributesFavorSource at run time. See Attributes column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a> for a description.
+<a href="/windows/desktop/Msi/feature-table">Feature table</a> for a description.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Modifies default feature attributes to msidbFeatureAttributesFavorSource at run 
 </td>
 <td width="60%">
 Modifies default feature attributes to msidbFeatureAttributesFollowParent at run time. Note that this is not a valid attribute to be set for top-level features. See Attributes column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a> for a description.
+<a href="/windows/desktop/Msi/feature-table">Feature table</a> for a description.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Modifies default feature attributes to msidbFeatureAttributesFollowParent at run
 </td>
 <td width="60%">
 Modifies default feature attributes to msidbFeatureAttributesFavorAdvertise at run time. See Attributes column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a> for a description.
+<a href="/windows/desktop/Msi/feature-table">Feature table</a> for a description.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Modifies default feature attributes to msidbFeatureAttributesFavorAdvertise at r
 </td>
 <td width="60%">
 Modifies default feature attributes to msidbFeatureAttributesDisallowAdvertise at run time. See Attributes column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a> for a description.
+<a href="/windows/desktop/Msi/feature-table">Feature table</a> for a description.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Modifies default feature attributes to msidbFeatureAttributesDisallowAdvertise a
 </td>
 <td width="60%">
 Modifies default feature attributes to msidbFeatureAttributesNoUnsupportedAdvertise at run time. See Attributes column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a> for a description.
+<a href="/windows/desktop/Msi/feature-table">Feature table</a> for a description.
 
 </td>
 </tr>
@@ -158,17 +158,16 @@ This function returns UINT.
 ## -remarks
 
 <b>MsiSetFeatureAttributes</b> must be called after 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costinitialize-action">CostInitialize action</a> and before 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. The function returns ERROR_FUNCTION_FAILED if called at any other time.
+<a href="/windows/desktop/Msi/costinitialize-action">CostInitialize action</a> and before 
+<a href="/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. The function returns ERROR_FUNCTION_FAILED if called at any other time.
 
 The INSTALLFEATUREATTRIBUTE_FAVORLOCAL, INSTALLFEATUREATTRIBUTE_FAVORSOURCE, and INSTALLFEATUREATTRIBUTE_FOLLOWPARENT flags are mutually exclusive. Only one of these bits can be set for any feature. If more than one of these flags is set, the behavior of that feature is undefined.
 
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
+<a href="/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
 
 
 
 
 > [!NOTE]
 > The msiquery.h header defines MsiSetFeatureAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

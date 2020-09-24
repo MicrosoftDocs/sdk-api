@@ -54,7 +54,7 @@ Defines methods that detect user activity in a Protected Broadcast Driver Archit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_UserActivityService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_UserActivityService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_UserActivityService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_UserActivityService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_UserActivityService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-getuseractivityinterval">GetUserActivityInterval</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-getuseractivityinterval">GetUserActivityInterval</a>
 </td>
 <td align="left" width="63%">
 Gets or sets the timeout interval for a Media Sink Device (MSD) to inform a Media Transfer Device (MTD) about user activity.
@@ -79,7 +79,7 @@ Gets or sets the timeout interval for a Media Sink Device (MSD) to inform a Medi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-setcurrenttunerusereason">SetCurrentTunerUseReason</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-setcurrenttunerusereason">SetCurrentTunerUseReason</a>
 </td>
 <td align="left" width="63%">
 Specifies the reason for user activity.
@@ -89,7 +89,7 @@ Specifies the reason for user activity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-useractivitydetected">UserActivityDetected</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-useractivitydetected">UserActivityDetected</a>
 </td>
 <td align="left" width="63%">
 Tells an MTD that user activity has occured.
@@ -102,4 +102,3 @@ Tells an MTD that user activity has occured.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_UserActivityService)</code>.
-

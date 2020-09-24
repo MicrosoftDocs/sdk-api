@@ -62,8 +62,8 @@ Retrieves information about the specified heap.
 ### -param HeapHandle [in, optional]
 
 A handle to the heap whose information is to be retrieved. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ### -param HeapInformationClass [in]
 
@@ -92,7 +92,7 @@ If <i>HeapInformation</i> is 0, the heap is a standard heap that does not suppor
 
 If <i>HeapInformation</i> is 1, the heap supports look-aside lists. For more information, see Remarks.
 
-If <i>HeapInformation</i> is 2, the <a href="https://docs.microsoft.com/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) has been enabled for the heap. Enabling the LFH disables look-aside lists.
+If <i>HeapInformation</i> is 2, the <a href="/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) has been enabled for the heap. Enabling the LFH disables look-aside lists.
 
 </td>
 </tr>
@@ -120,13 +120,13 @@ If you do not want to receive this information, specify <b>NULL</b>.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To enable the 
 LFH or the terminate-on-corruption feature, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a> function.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a> function.
 
 <b>Windows XP and Windows Server 2003:  </b> A look-aside list is a fast memory allocation mechanism that contains only fixed-sized blocks. Look-aside lists are enabled by default for heaps that support them. Starting with Windows Vista, look-aside lists are not used and the LFH is enabled by default.
 
@@ -139,7 +139,7 @@ Look-aside lists are faster than general pool allocations that vary in size, bec
 
 #### Examples
 
-The following example uses <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> to 
+The following example uses <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> to 
      obtain a handle to the default process heap and 
      <b>HeapQueryInformation</b> to retrieve information 
      about the heap.
@@ -213,21 +213,20 @@ int __cdecl _tmain()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
+<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
-
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>

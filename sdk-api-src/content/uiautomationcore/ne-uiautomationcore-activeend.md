@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains possible values for the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">SelectionActiveEnd</a> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
+Contains possible values for the <a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">SelectionActiveEnd</a> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ The caret is at the beginning of the text range.
 ### -field ActiveEnd_End
 
 The caret is at the end of the text range.
-

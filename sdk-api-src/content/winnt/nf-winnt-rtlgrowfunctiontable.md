@@ -57,11 +57,11 @@ Reports that a dynamic function table has increased in size.
 
 ### -param DynamicTable
 
-An opaque reference returned by <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtladdgrowablefunctiontable">RtlAddGrowableFunctionTable.</a>.
+An opaque reference returned by <a href="/windows/desktop/api/winnt/nf-winnt-rtladdgrowablefunctiontable">RtlAddGrowableFunctionTable.</a>.
 
 ### -param NewEntryCount [in]
 
-The new number of entries in the <a href="https://docs.microsoft.com/cpp/build/struct-runtime-function">RUNTIME_FUNCTION</a> array. This must be greater than the previously reported size of the array.
+The new number of entries in the <a href="/cpp/build/struct-runtime-function">RUNTIME_FUNCTION</a> array. This must be greater than the previously reported size of the array.
 
 ## -returns
 
@@ -69,5 +69,4 @@ This function does not return a value.
 
 ## -remarks
 
-<b>RtlGrowFunctionTable</b> should be called after populating the corresponding entries in the <a href="https://docs.microsoft.com/cpp/build/struct-runtime-function">RUNTIME_FUNCTION</a> array specified in <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtladdgrowablefunctiontable">RtlAddGrowableFunctionTable.</a>
-
+<b>RtlGrowFunctionTable</b> should be called after populating the corresponding entries in the <a href="/cpp/build/struct-runtime-function">RUNTIME_FUNCTION</a> array specified in <a href="/windows/desktop/api/winnt/nf-winnt-rtladdgrowablefunctiontable">RtlAddGrowableFunctionTable.</a>

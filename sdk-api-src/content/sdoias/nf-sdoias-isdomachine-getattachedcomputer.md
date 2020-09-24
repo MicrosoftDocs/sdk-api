@@ -58,7 +58,7 @@ The <b>GetAttachedComputer</b> method
 
 ### -param bstrComputerName [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> that 
+Pointer to a <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> that 
       receives the name of the computer that is the currently-attached SDO computer.
 
 ## -returns
@@ -72,15 +72,14 @@ The method may also return one of the following error codes.
 ## -remarks
 
 The <b>GetAttachedComputer</b> allocates 
-    the memory for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> 
+    the memory for the <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> 
     variable. The calling application should free this memory by calling 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+    <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>

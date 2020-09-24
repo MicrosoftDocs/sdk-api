@@ -74,5 +74,4 @@ The current value of the mode switch integer is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-
+<a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>

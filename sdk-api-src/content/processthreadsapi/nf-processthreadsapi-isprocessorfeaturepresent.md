@@ -240,7 +240,7 @@ The MMX instruction set is available.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/data-execution-prevention">Data execution prevention</a> is enabled.
+<a href="/windows/desktop/Memory/data-execution-prevention">Data execution prevention</a> is enabled.
 
 <b>Windows XP/2000:  </b>This feature is not supported until Windows XP with SP2 and Windows Server 2003 with SP1.
 
@@ -254,7 +254,7 @@ The MMX instruction set is available.
 </td>
 <td width="60%">
 The processor is PAE-enabled. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/physical-address-extension">Physical Address Extension</a>.
+<a href="/windows/desktop/Memory/physical-address-extension">Physical Address Extension</a>.
 
 All x64 processors always return a nonzero value for this feature.
 
@@ -411,5 +411,4 @@ If the HAL does not support detection of the feature, whether or not the hardwar
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
-
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

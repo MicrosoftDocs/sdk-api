@@ -109,9 +109,8 @@ The renderer does not implement <b>IBasicVideo2</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo2">IBasicVideo2 Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo2">IBasicVideo2 Interface</a>

@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
 ### -field IRQ_Header
 
-An [IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32) structure.
+An [IRQ_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32) structure.
 
 ### -field IRQ_Data
 
@@ -72,7 +72,7 @@ Zero.
 
 #### For a resource requirements list:
 
-An [IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range) array.
+An [IRQ_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range) array.
 
 
 ##### - IRQ_Data.For a resource list:
@@ -82,13 +82,12 @@ Zero.
 
 ##### - IRQ_Data.For a resource requirements list:
 
-An [IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range) array.
+An [IRQ_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range) array.
 
 ## -see-also
 
-[IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)
+[IRQ_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)
 
 
 
-[IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)
-
+[IRQ_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)

@@ -104,9 +104,8 @@ The meaning of the enumeration elements depends on whether the current format is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvenc">IDVEnc Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvenc">IDVEnc Interface</a>

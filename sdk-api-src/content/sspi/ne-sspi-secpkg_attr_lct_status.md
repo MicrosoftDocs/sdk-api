@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-Indicates whether the  token from the most recent call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> function is the last token from the client.
+Indicates whether the  token from the most recent call to the <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> function is the last token from the client.
 
-This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a> structure.
+This enumeration is used in the <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a> structure.
 
 ## -enum-fields
 
@@ -74,5 +74,4 @@ It is not known whether the token is the last token from the client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a>
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a>

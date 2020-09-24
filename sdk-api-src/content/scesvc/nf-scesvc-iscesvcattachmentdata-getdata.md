@@ -59,15 +59,15 @@ The <b>GetData</b> method retrieves configuration information from the Security 
 Type: <b>SCESVC_HANDLE</b>
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a> returned during a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>.
+<a href="/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a> returned during a previous call to 
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>.
 
 ### -param sceType [in]
 
 Type: <b>SCESVC_INFO_TYPE</b>
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a> value that indicates the type of information requested from the security database. It can be one of the following values.
+<a href="/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a> value that indicates the type of information requested from the security database. It can be one of the following values.
 
 <table>
 <tr>
@@ -116,13 +116,12 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a>
+<a href="/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>
-
+<a href="/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>

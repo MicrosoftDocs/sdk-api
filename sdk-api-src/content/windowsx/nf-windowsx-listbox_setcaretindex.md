@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lb-setcaretindex">LB_SETCARETINDEX</a> message explicitly.
+Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the <a href="/windows/desktop/controls/lb-setcaretindex">LB_SETCARETINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -70,5 +70,4 @@ Type: <b>int</b>
 
 The contents of the list box are scrolled till the item is fully visible.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/controls/lb-setcaretindex">LB_SETCARETINDEX</a>.
-
+For more information, see <a href="/windows/desktop/controls/lb-setcaretindex">LB_SETCARETINDEX</a>.

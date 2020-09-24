@@ -80,13 +80,12 @@ The name of the client user that accompanies the UAL payload from installed role
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualinstrument">UalInstrument</a>
+<a href="/previous-versions/windows/desktop/api/ual/nf-ual-ualinstrument">UalInstrument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstart">UalStart</a>
+<a href="/previous-versions/windows/desktop/api/ual/nf-ual-ualstart">UalStart</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstop">UalStop</a>
-
+<a href="/previous-versions/windows/desktop/api/ual/nf-ual-ualstop">UalStop</a>

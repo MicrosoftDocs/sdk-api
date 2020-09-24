@@ -52,21 +52,20 @@ api_name:
 
 The <b>IFaxLoggingOptions</b> interface is used by a fax client application to access and configure the event logging categories and the activity logging options that the fax service is using.
 
-The <b>IFaxLoggingOptions</b> interface is accessed through an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a> interface. It provides access to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxeventlogging">FaxEventLogging</a> methods.
+The <b>IFaxLoggingOptions</b> interface is accessed through an <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a> interface. It provides access to the <a href="/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> and <a href="/previous-versions/windows/desktop/fax/-mfax-faxeventlogging">FaxEventLogging</a> methods.
 
 ## -remarks
 
-To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-loggingoptions">LoggingOptions</a> method.
+To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-loggingoptions">LoggingOptions</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxloggingoptions">FaxLoggingOptions</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxloggingoptions">FaxLoggingOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>

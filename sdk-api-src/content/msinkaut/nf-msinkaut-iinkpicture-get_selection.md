@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that is currently selected inside the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Gets or sets the<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that is currently selected inside the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object or the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 
 
@@ -65,7 +65,7 @@ This property is read/write.
 
 ## -remarks
 
-For further details about this property, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection">Selection Property</a> property of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>, which has the same functionality.
+For further details about this property, refer to the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection">Selection Property</a> property of the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>, which has the same functionality.
 
 ## -see-also
 
@@ -73,5 +73,4 @@ For further details about this property, refer to the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
-
+<a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>

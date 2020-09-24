@@ -68,5 +68,4 @@ This method  is reserved for system use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperex">INetDiagHelperEx</a>
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperex">INetDiagHelperEx</a>

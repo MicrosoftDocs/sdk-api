@@ -88,7 +88,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -115,17 +115,16 @@ Possible values include, but are not limited to, those in the following table.
 
 This method is called one or more times as dictated by the protocol identifier. The structure of the data in <i>pbDataIn</i> and <i>pbDataOut</i> is determined by the values of <i>dwProtocolID</i> and <i>dwPass</i>. The <i>dwPass</i> parameter indicates the number of the communication pass that is under way.
 
-This method is used by the service provider to implement the public <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth">IComponentAuthenticate::SACAuth</a> method. For an example of calling this method, see that method's documentation.
+This method is used by the service provider to implement the public <a href="/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth">IComponentAuthenticate::SACAuth</a> method. For an example of calling this method, see that method's documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth">IComponentAuthenticate::SACAuth</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth">IComponentAuthenticate::SACAuth</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
-
+<a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>

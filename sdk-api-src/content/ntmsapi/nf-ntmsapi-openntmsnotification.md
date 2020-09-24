@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>OpenNtmsNotification</b> function opens a channel to receive RSM object change notifications for objects of the specified type.
@@ -60,22 +60,22 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param dwType [in]
 
 RSM object type for notification. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
+<a href="/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
 
 ## -returns
 
 The 
 <b>OpenNtmsNotification</b> function returns a notification handle that you pass to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmsnotification">CloseNtmsNotification</a> functions.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a> or 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmsnotification">CloseNtmsNotification</a> functions.
 
 For extended error information, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. This function can return one of the following values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. This function can return one of the following values.
 
 <table>
 <tr>
@@ -154,13 +154,12 @@ The function failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmsnotification">CloseNtmsNotification</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmsnotification">CloseNtmsNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Database Notification Functions</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Database Notification Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a>
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a>

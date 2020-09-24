@@ -56,8 +56,8 @@ api_name:
 ## -description
 
 Contains information about a power request. This structure is used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex">SetWaitableTimerEx</a> functions.
+    <a href="/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a> and 
+    <a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex">SetWaitableTimerEx</a> functions.
 
 ## -struct-fields
 
@@ -132,9 +132,8 @@ A non-localized string that describes the reason for the power request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex">SetWaitableTimerEx</a>
-
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex">SetWaitableTimerEx</a>

@@ -65,7 +65,7 @@ Pointer to the destination rectangle.
 
 ### -param ppRgnData [out]
 
-Address of a pointer to the header and data describing clipping. If successful, free the allocated memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Address of a pointer to the header and data describing clipping. If successful, free the allocated memory by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -73,13 +73,12 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> implementation allocates the memory for the clipping rectangles, because it can vary in length. The filter calling this method should free the memory (using <b>CoTaskMemFree</b>) when it is finished with it.
+The <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> implementation allocates the memory for the clipping rectangles, because it can vary in length. The filter calling this method should free the memory (using <b>CoTaskMemFree</b>) when it is finished with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>

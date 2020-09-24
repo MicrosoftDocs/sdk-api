@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>lineSetAgentSessionState</b> function sets the agent session state associated with a particular agent session handle. It generates a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_SETAGENTSESSIONSTATE.
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_SETAGENTSESSIONSTATE.
 
 ## -parameters
 
@@ -68,12 +68,12 @@ Identifier of the agent session whose information is to be changed.
 ### -param dwAgentSessionState
 
 New agent session state. Must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a> or zero to leave the agent session state unchanged and modify only the next state.
+<a href="/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a> or zero to leave the agent session state unchanged and modify only the next state.
 
 ### -param dwNextAgentSessionState
 
 Next agent session state. Must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a> or zero.
+<a href="/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a> or zero.
 
 ## -returns
 
@@ -83,17 +83,16 @@ LINEERR_INVALAGENTSTATE, LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NO
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a>
+<a href="/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>
-
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Frees a block of memory that was allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfheapalloc">MFHeapAlloc</a> function.
+Frees a block of memory that was allocated by calling the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfheapalloc">MFHeapAlloc</a> function.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Pointer to the memory to free.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

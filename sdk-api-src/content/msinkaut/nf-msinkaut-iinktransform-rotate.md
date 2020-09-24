@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Changes the amount, measured in degrees, to change the rotation factor of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object and optionally the center point of the rotation.
+Changes the amount, measured in degrees, to change the rotation factor of the <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object and optionally the center point of the rotation.
 
 ## -parameters
 
@@ -110,5 +110,4 @@ The center point defaults to the origin.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
-
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>

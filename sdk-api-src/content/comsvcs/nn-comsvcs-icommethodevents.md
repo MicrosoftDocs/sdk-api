@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Notifies the subscriber if an object's method has been called, returned, or generated an exception. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if an object's method has been called, returned, or generated an exception. The events are published to the subscriber using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComMethodEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComMethodEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComMethodEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComMethodEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComMethodEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icommethodevents-onmethodcall">OnMethodCall</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icommethodevents-onmethodcall">OnMethodCall</a>
 </td>
 <td align="left" width="63%">
 Generated when an object's method is called.
@@ -78,7 +78,7 @@ Generated when an object's method is called.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icommethodevents-onmethodexception">OnMethodException</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icommethodevents-onmethodexception">OnMethodException</a>
 </td>
 <td align="left" width="63%">
 Generated when an object's method generates an exception.
@@ -87,7 +87,7 @@ Generated when an object's method generates an exception.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icommethodevents-onmethodreturn">OnMethodReturn</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icommethodevents-onmethodreturn">OnMethodReturn</a>
 </td>
 <td align="left" width="63%">
 Generated when an object's method returns.
@@ -98,9 +98,8 @@ Generated when an object's method returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
-
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

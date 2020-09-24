@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINEAGENTACTIVITYENTRY</b> structure describes a single ACD agent activity. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist">LINEAGENTACTIVITYLIST</a> structure can contain an array of 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist">LINEAGENTACTIVITYLIST</a> structure can contain an array of 
 <b>LINEAGENTACTIVITYENTRY</b> structures.
 
 ## -struct-fields
@@ -72,21 +72,20 @@ Size of the activity name including the <b>null</b> terminator, in bytes.
 ### -field dwNameOffset
 
 Offset from the beginning of this structure to a <b>null</b>-terminated string specifying the name and other identifying information of an activity that can be selected by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a> function. The size of the string is specified by <b>dwNameSize</b>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a> function. The size of the string is specified by <b>dwNameSize</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist">LINEAGENTACTIVITYLIST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist">LINEAGENTACTIVITYLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentactivitylista">lineGetAgentActivityList</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentactivitylista">lineGetAgentActivityList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a>

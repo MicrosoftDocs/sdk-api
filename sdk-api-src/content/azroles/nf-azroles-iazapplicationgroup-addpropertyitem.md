@@ -70,7 +70,7 @@ Property ID of the  list to which to add the entity specified by the <i>varProp<
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappmember">AddAppMember</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappmember">AddAppMember</a> method
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappnonmember">AddAppNonMember</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappnonmember">AddAppNonMember</a> method
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmember">AddMember</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmember">AddMember</a> method
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmembername">AddMemberName</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmembername">AddMemberName</a> method
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmember">AddNonMember</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmember">AddNonMember</a> method
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmembername">AddNonMemberName</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmembername">AddNonMemberName</a> method
 
 </td>
 </tr>
@@ -136,5 +136,4 @@ Reserved for future use.
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.

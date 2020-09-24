@@ -57,7 +57,7 @@ The <code>Save</code> method saves properties from the filter into the media pro
 
 ### -param pPropBag [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag</a> interface of a media property bag created by the caller.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag</a> interface of a media property bag created by the caller.
 
 ### -param fClearDirty [in]
 
@@ -124,15 +124,14 @@ Invalid data.
 
 ## -remarks
 
-If you call this method on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter or the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser</a>, the filter reads any INFO and DISP chunks from the file and stores them in the media property bag. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediapropertybag-enumproperty">IMediaPropertyBag::EnumProperty</a> method to retrieve the chunks.
+If you call this method on the <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter or the <a href="/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser</a>, the filter reads any INFO and DISP chunks from the file and stores them in the media property bag. You can use the <a href="/windows/desktop/api/strmif/nf-strmif-imediapropertybag-enumproperty">IMediaPropertyBag::EnumProperty</a> method to retrieve the chunks.
 
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter does not implement this method.
+The <a href="/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter does not implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag Interface</a>

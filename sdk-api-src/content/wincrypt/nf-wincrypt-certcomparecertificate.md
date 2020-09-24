@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 The <b>CertCompareCertificate</b> function determines whether two certificates are identical by comparing the issuer name and serial number of the certificates.
-<div class="alert"><b>Caution</b>  The <b>CertCompareCertificate</b> function must not be used for security assertions because it does not compare <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOBs</a>.</div><div> </div>
+<div class="alert"><b>Caution</b>  The <b>CertCompareCertificate</b> function must not be used for security assertions because it does not compare <a href="/windows/desktop/SecGloss/b-gly">BLOBs</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param dwCertEncodingType [in]
 
-Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
@@ -69,11 +69,11 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 ### -param pCertId1 [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> for the first certificate in the comparison.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> for the first certificate in the comparison.
 
 ### -param pCertId2 [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> for the second certificate in the comparison.
+A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> for the second certificate in the comparison.
 
 ## -returns
 
@@ -83,13 +83,12 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcomparecertificatename">CertCompareCertificateName</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcomparecertificatename">CertCompareCertificateName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

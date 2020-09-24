@@ -92,9 +92,8 @@ The user can manage archived messages belonging to all accounts, including other
 
 ### -field far2MANAGE_RECEIVE_FOLDER
 
-The user can manage all the messages in the server's receive folder. This includes the right to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary">reassign</a> and delete messages.
+The user can manage all the messages in the server's receive folder. This includes the right to <a href="/previous-versions/windows/desktop/fax/-mfax-glossary">reassign</a> and delete messages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity2-grantedrights-vb">IFaxSecurity2::GrantedRights</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity2-grantedrights-vb">IFaxSecurity2::GrantedRights</a>

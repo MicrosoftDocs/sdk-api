@@ -70,5 +70,4 @@ This method is not called when Windows Media Player instantiates the plug-in for
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
-
+<a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>

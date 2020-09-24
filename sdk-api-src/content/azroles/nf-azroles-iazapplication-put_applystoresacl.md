@@ -63,5 +63,4 @@ This property is read/write.
 
 Policy audits are generated when the underlying policy store is modified. Both success and failure audits are requested.
 
-This property controls policy auditing only for the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object and its child objects.
-
+This property controls policy auditing only for the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object and its child objects.

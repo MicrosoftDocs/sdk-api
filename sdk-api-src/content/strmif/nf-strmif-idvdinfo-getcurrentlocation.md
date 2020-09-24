@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
+<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
 <div> </div>
 Retrieves the current playback location.
 
@@ -58,7 +58,7 @@ Retrieves the current playback location.
 
 ### -param pLocation [out]
 
-Pointer to the retrieved playback location information in a [DVD_PLAYBACK_LOCATION](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_playback_location) structure.
+Pointer to the retrieved playback location information in a [DVD_PLAYBACK_LOCATION](/windows/desktop/api/strmif/ns-strmif-dvd_playback_location) structure.
 
 ## -returns
 
@@ -98,7 +98,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -119,13 +119,12 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 This method retrieves information sufficient to restart playback of a video from the current playback location in titles that don't explicitly disable seeking to the current location.
 
-This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>

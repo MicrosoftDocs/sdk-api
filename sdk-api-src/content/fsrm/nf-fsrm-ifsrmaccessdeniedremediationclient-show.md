@@ -51,15 +51,15 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> classes.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> classes.]
 
 Displays the Access Denied Remediation (ADR) client dialog.
 
 This method was introduced for applications that are already using the FSRM interfaces. Where possible it is 
-    recommended to use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> WMI classes instead.
+    recommended to use the <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> WMI classes instead.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ Path of the file being accessed.
 ### -param errorType [in]
 
 The client error type as enumerated by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-adrclienterrortype">AdrClientErrorType</a> enumeration.
+      <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-adrclienterrortype">AdrClientErrorType</a> enumeration.
 
 ### -param flags [in]
 
@@ -99,13 +99,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaccessdeniedremediationclient">IFsrmAccessDeniedRemediationClient</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaccessdeniedremediationclient">IFsrmAccessDeniedRemediationClient</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a>
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a>
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a>

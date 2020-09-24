@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>get_Event</b> method returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_notification_event">CALL_NOTIFICATION_EVENT</a> description of whether the application owns or is monitoring the call on which the event has occurred.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_notification_event">CALL_NOTIFICATION_EVENT</a> description of whether the application owns or is monitoring the call on which the event has occurred.
 
 ## -parameters
 
 ### -param pCallNotificationEvent [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_notification_event">CALL_NOTIFICATION_EVENT</a> description of the application's privilege on the call returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallnotificationevent-get_call">ITCallNotificationEvent::get_Call</a>.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_notification_event">CALL_NOTIFICATION_EVENT</a> description of the application's privilege on the call returned by 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallnotificationevent-get_call">ITCallNotificationEvent::get_Call</a>.
 
 ## -returns
 
@@ -108,13 +108,12 @@ The <i>pCallNotificationEvent</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_notification_event">CALL_NOTIFICATION_EVENT</a>
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_notification_event">CALL_NOTIFICATION_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>

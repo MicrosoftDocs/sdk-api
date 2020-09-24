@@ -68,5 +68,4 @@ If this method is not successful, the message is moved to the final resting queu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iplaybackcontrol">IPlaybackControl</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iplaybackcontrol">IPlaybackControl</a>

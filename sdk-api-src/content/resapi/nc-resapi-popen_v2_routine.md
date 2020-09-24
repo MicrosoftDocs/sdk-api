@@ -50,7 +50,7 @@ api_name:
 ## -description
 
 Opens a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
+    <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
     <b>POPEN_V2_ROUTINE</b> type defines a pointer to this function.
 
 ## -parameters
@@ -61,13 +61,13 @@ The name of the resource to open.
 
 ### -param ResourceKey [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key for the 
+The <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key for the 
        cluster that includes the resource represented by 
        <i>ResourceName</i>.
 
 ### -param ResourceHandle [in]
 
-The resource handle to pass to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a> 
+The resource handle to pass to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a> 
        callback function.
 
 ### -param OpenFlags [in] [in]
@@ -92,10 +92,9 @@ If the operation was successful, returns a resource
        identifier (<b>RESID</b>).
 
 If the operation was not successful, returns 
-       <b>NULL</b>. Call  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to 
+       <b>NULL</b>. Call  <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to 
        specify that an error has occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>

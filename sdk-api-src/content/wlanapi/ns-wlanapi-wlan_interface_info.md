@@ -74,5 +74,4 @@ Contains a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a>
-
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Registers for an event that is triggered when the scale has possibly changed. This function replaces <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangenotifications">RegisterScaleChangeNotifications</a>.
+Registers for an event that is triggered when the scale has possibly changed. This function replaces <a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangenotifications">RegisterScaleChangeNotifications</a>.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Handle of the event to register for scale change notifications.
 
 ### -param pdwCookie [out]
 
-When this function returns successfully, this value receives the address of a pointer to a cookie that can be used later to unregister for the scale change notifications through <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>.
+When this function returns successfully, this value receives the address of a pointer to a cookie that can be used later to unregister for the scale change notifications through <a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>.
 
 ## -returns
 
@@ -75,9 +75,8 @@ The event is raised whenever something that can affect scale changes, but just b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a>
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>
-
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>

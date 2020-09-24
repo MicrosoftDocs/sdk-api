@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CryptMsgClose</b> function closes a cryptographic message handle. At each call to this function, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> on the message is reduced by one. When the reference count reaches zero, the message is fully released.
+The <b>CryptMsgClose</b> function closes a cryptographic message handle. At each call to this function, the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> on the message is reduced by one. When the reference count reaches zero, the message is fully released.
 
 ## -parameters
 
@@ -63,21 +63,20 @@ Handle of the cryptographic message to be closed.
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>

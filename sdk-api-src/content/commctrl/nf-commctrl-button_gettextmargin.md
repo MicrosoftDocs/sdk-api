@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the margins used to draw text in a button control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-gettextmargin">BCM_GETTEXTMARGIN</a> message explicitly.
+Gets the margins used to draw text in a button control. You can use this macro or send the <a href="/windows/desktop/Controls/bcm-gettextmargin">BCM_GETTEXTMARGIN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
@@ -68,6 +68,5 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
-

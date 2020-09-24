@@ -54,7 +54,7 @@ Represents an arbitrary 3D transformation defined by a 4-by-4 matrix.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionMatrixTransform3D</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>. <b>IDCompositionMatrixTransform3D</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionMatrixTransform3D</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>. <b>IDCompositionMatrixTransform3D</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionMatrixTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionmatrixtransform3d-setmatrix">SetMatrix</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionmatrixtransform3d-setmatrix">SetMatrix</a>
 </td>
 <td align="left" width="63%">
 Changes all values of the matrix of this 3D transformation effect.
@@ -78,7 +78,7 @@ Changes all values of the matrix of this 3D transformation effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437429(v=vs.85)">SetMatrixElement</a>
+<a href="/previous-versions/windows/desktop/legacy/hh437429(v=vs.85)">SetMatrixElement</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of one element of the matrix of this 3D transform.
 
@@ -96,9 +96,8 @@ A 3D matrix transform represents the following 4-by-4 matrix:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>

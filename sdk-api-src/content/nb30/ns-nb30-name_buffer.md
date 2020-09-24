@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>NAME_BUFFER</b> structure contains information about a local network name. One or more <b>NAME_BUFFER</b> structures follows an <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-adapter_status">ADAPTER_STATUS</a> structure when an application specifies the <b>NCBASTAT</b> command in the ncb_command member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
+The <b>NAME_BUFFER</b> structure contains information about a local network name. One or more <b>NAME_BUFFER</b> structures follows an <a href="/windows/desktop/api/nb30/ns-nb30-adapter_status">ADAPTER_STATUS</a> structure when an application specifies the <b>NCBASTAT</b> command in the ncb_command member of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
 
 ## -struct-fields
 
 ### -field name
 
-Specifies the local network name. This value is in the <b>ncb_name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
+Specifies the local network name. This value is in the <b>ncb_name</b> member of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
 
 ### -field name_num
 
-Specifies the number for the local network name. This value is in the <b>ncb_num</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
+Specifies the number for the local network name. This value is in the <b>ncb_num</b> member of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
 
 ### -field name_flags
 
@@ -106,17 +106,16 @@ Specifies the current state of the name table entry. This member can be one of t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-adapter_status">ADAPTER_STATUS</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-adapter_status">ADAPTER_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
+<a href="/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-
+<a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>

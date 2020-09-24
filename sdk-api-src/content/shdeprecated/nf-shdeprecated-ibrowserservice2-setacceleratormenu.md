@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Implemented by a derived class to define menu accelerators that can be used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb">TranslateAcceleratorSB</a>.
+Deprecated. Implemented by a derived class to define menu accelerators that can be used in a call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb">TranslateAcceleratorSB</a>.
 
 ## -parameters
 
@@ -59,11 +59,10 @@ Deprecated. Implemented by a derived class to define menu accelerators that can 
 
 Type: <b>HACCEL</b>
 
-A handle to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures, each structure describing a keyboard mnemonic.
+A handle to an array of <a href="/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures, each structure describing a keyboard mnemonic.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

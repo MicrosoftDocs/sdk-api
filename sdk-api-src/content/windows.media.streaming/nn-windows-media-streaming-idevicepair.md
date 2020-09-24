@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Represents a pair of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a> objects which is comprised of a renderer and a server.
+Represents a pair of <a href="/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a> objects which is comprised of a renderer and a server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDevicePair</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDevicePair</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDevicePair</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDevicePair</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDevicePair</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_renderer">Renderer</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_renderer">Renderer</a>
 </td>
 <td align="left" width="63%">
 Gets the renderer for the active basic device pair.
@@ -78,7 +78,7 @@ Gets the renderer for the active basic device pair.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_server">Server</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_server">Server</a>
 </td>
 <td align="left" width="63%">
 Gets the server for the active basic device pair.
@@ -89,13 +89,12 @@ Gets the server for the active basic device pair.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
+<a href="/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828813(v=vs.85)">BasicDevice</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828813(v=vs.85)">BasicDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

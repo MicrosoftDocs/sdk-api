@@ -56,7 +56,7 @@ Gets information about the currently executing enclave.
 
 ### -param InformationSize [in]
 
-The size of the <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-enclave_information">ENCLAVE_INFORMATION</a> structure that the <i>EnclaveInformation</i> parameter points to, in bytes.
+The size of the <a href="/windows/desktop/api/ntenclv/ns-ntenclv-enclave_information">ENCLAVE_INFORMATION</a> structure that the <i>EnclaveInformation</i> parameter points to, in bytes.
 
 ### -param EnclaveInformation [out]
 
@@ -72,5 +72,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-enclave_information">ENCLAVE_INFORMATION</a>
-
+<a href="/windows/desktop/api/ntenclv/ns-ntenclv-enclave_information">ENCLAVE_INFORMATION</a>

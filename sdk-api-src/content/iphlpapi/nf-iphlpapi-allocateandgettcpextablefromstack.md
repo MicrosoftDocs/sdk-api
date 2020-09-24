@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[This function is no longer available for use as of Windows Vista. Instead, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> function to retrieve the TCP connection table.]
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a> or <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> function to retrieve the TCP connection table.]
 
 The <b>AllocateAndGetTcpExTableFromStack</b> function retrieves the TCP connection table and allocates memory from the local heap to store the table.
 
@@ -116,13 +116,12 @@ In the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-allocateandgetudpextablefromstack">AllocateAndGetUdpExTableFromStack</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-allocateandgetudpextablefromstack">AllocateAndGetUdpExTableFromStack</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>
 
 
 
 <b>GetTcpTable</b>
-

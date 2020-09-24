@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Marshals a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> object into the RPC buffer.
+Marshals a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> object into the RPC buffer.
 
 ## -parameters
 
@@ -127,4 +127,3 @@ The input parameter is not a valid type of variant.
 </td>
 </tr>
 </table>
-

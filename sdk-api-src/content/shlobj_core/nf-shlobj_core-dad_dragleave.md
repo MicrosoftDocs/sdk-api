@@ -52,9 +52,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>DAD_DragLeave</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragleave">ImageList_DragLeave</a> instead.]
+<p class="CCE_Message">[<b>DAD_DragLeave</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragleave">ImageList_DragLeave</a> instead.]
 
-Unlocks the window locked by the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex">DAD_DragEnterEx</a> function.
+Unlocks the window locked by the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex">DAD_DragEnterEx</a> function.
 
 ## -parameters
 
@@ -63,4 +63,3 @@ Unlocks the window locked by the <a href="https://docs.microsoft.com/windows/des
 Type: <b>BOOL</b>
 
 Returns <b>SUCCEEDED</b> if successful, or <b>FALSE</b> otherwise.
-

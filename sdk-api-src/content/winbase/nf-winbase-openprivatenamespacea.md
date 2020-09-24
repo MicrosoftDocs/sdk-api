@@ -64,7 +64,7 @@ Opens a private namespace.
 
 ### -param lpBoundaryDescriptor [in]
 
-A descriptor that defines how the namespace is to be isolated. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a> function creates a boundary descriptor.
+A descriptor that defines how the namespace is to be isolated. The <a href="/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a> function creates a boundary descriptor.
 
 ### -param lpAliasPrefix [in]
 
@@ -80,17 +80,16 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace">ClosePrivateNamespace</a>
+<a href="/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace">ClosePrivateNamespace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea">CreatePrivateNamespace</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea">CreatePrivateNamespace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>
-
+<a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>

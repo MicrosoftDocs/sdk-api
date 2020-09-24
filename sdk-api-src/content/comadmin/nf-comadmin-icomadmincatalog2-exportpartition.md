@@ -52,7 +52,7 @@ api_name:
 
 Exports a partition to a file.
 
-An exported partition can be imported using the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-installpartition">InstallPartition</a> method.
+An exported partition can be imported using the <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-installpartition">InstallPartition</a> method.
 
 ## -parameters
 
@@ -167,5 +167,4 @@ The specified partition does not exist.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>

@@ -56,11 +56,11 @@ The <b>EcSetObjectArrayProperty</b> function sets a property value in an array o
 
 ### -param ObjectArray [in]
 
-A handle to the array that contains the property value to set. The array contains property values for the event sources of a subscription. The array handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecgetsubscriptionproperty">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>Subscription</i> parameter.
+A handle to the array that contains the property value to set. The array contains property values for the event sources of a subscription. The array handle is returned by the <a href="/windows/desktop/api/evcoll/nf-evcoll-ecgetsubscriptionproperty">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>Subscription</i> parameter.
 
 ### -param PropertyId [in]
 
-An identifier that specifies which property to set. Specify a value from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. Set  the Address, Enabled, UserName, and Password properties in the array by specifying the <b>EcSubscriptionEventSourceAddress</b>, <b>EcSubscriptionEventSourceEnabled</b>, <b>EcSubscriptionEventSourceUserName</b>, or <b>EcSubscriptionEventSourcePassword</b> values.
+An identifier that specifies which property to set. Specify a value from the <a href="/windows/desktop/api/evcoll/ne-evcoll-ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. Set  the Address, Enabled, UserName, and Password properties in the array by specifying the <b>EcSubscriptionEventSourceAddress</b>, <b>EcSubscriptionEventSourceEnabled</b>, <b>EcSubscriptionEventSourceUserName</b>, or <b>EcSubscriptionEventSourcePassword</b> values.
 
 ### -param ArrayIndex [in]
 
@@ -85,11 +85,10 @@ Arrays are zero-based, so the index for the first item in the array is 0.
 
 #### Examples
 
-For example code using the <b>EcSetObjectArrayProperty</b> function, see <a href="https://docs.microsoft.com/windows/desktop/WEC/adding-an-event-source-to-an-event-collector-subscription">Adding an Event Source to a Collector Initiated Subscription</a>.
+For example code using the <b>EcSetObjectArrayProperty</b> function, see <a href="/windows/desktop/WEC/adding-an-event-source-to-an-event-collector-subscription">Adding an Event Source to a Collector Initiated Subscription</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
-
+<a href="/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Optional flags that control the behavior of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-getdata">ID3D11DeviceContext::GetData</a>.
+Optional flags that control the behavior of <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-getdata">ID3D11DeviceContext::GetData</a>.
 
 ## -enum-fields
 
@@ -60,5 +60,4 @@ Do not flush the command buffer. This can potentially cause an infinite loop if 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>

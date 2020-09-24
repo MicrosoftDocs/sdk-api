@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfCompositionView</b> interface is implemented by the TSF manager and used by an application to obtain data about a composition view. An instance of this interface is provided by one of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink">ITfContextOwnerCompositionSink</a> methods.
+The <b>ITfCompositionView</b> interface is implemented by the TSF manager and used by an application to obtain data about a composition view. An instance of this interface is provided by one of the <a href="/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink">ITfContextOwnerCompositionSink</a> methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompositionView</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompositionView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompositionView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompositionView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfCompositionView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompositionview-getownerclsid">GetOwnerClsid</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcompositionview-getownerclsid">GetOwnerClsid</a>
 </td>
 <td align="left" width="63%">
 Obtains the class identifier of the text service that created the composition object.
@@ -78,7 +78,7 @@ Obtains the class identifier of the text service that created the composition ob
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompositionview-getrange">GetRange</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcompositionview-getrange">GetRange</a>
 </td>
 <td align="left" width="63%">
 Obtains a range object that contains the text covered by the composition.
@@ -89,10 +89,9 @@ Obtains a range object that contains the text covered by the composition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink">ITfContextOwnerCompositionSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink">ITfContextOwnerCompositionSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

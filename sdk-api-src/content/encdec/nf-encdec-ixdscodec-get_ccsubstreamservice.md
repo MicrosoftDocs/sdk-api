@@ -56,7 +56,7 @@ The <b>get_CCSubstreamService</b> method queries which line 21 data channels the
 
 ### -param pSubstreamMask [out, retval]
 
-Receives a bitwise combination of zero or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ks-cc-substream">KS_CC_SUBSTREAM</a> flags.
+Receives a bitwise combination of zero or more <a href="/previous-versions/windows/desktop/mstv/ks-cc-substream">KS_CC_SUBSTREAM</a> flags.
 
 ## -returns
 
@@ -93,5 +93,4 @@ Success
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>

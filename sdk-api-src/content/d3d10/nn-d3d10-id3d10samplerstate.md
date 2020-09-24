@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-A sampler-state interface accesses sampler state for a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-type">texture</a>.
+A sampler-state interface accesses sampler state for a <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-type">texture</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10SamplerState</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10SamplerState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10SamplerState</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10SamplerState</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10SamplerState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10samplerstate-getdesc">GetDesc</a>
+<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10samplerstate-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the sampler state.
@@ -81,19 +81,18 @@ Get the sampler state.
 
 ## -remarks
 
-Create a sampler-state object by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createsamplerstate">ID3D10Device::CreateSamplerState</a>.
+Create a sampler-state object by calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createsamplerstate">ID3D10Device::CreateSamplerState</a>.
 
-To initialize sampler state, bind the sampler-state object to the pipeline by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vssetsamplers">ID3D10Device::VSSetSamplers</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gssetsamplers">ID3D10Device::GSSetSamplers</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-pssetsamplers">ID3D10Device::PSSetSamplers</a>.
+To initialize sampler state, bind the sampler-state object to the pipeline by calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vssetsamplers">ID3D10Device::VSSetSamplers</a>, <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gssetsamplers">ID3D10Device::GSSetSamplers</a>, or <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-pssetsamplers">ID3D10Device::PSSetSamplers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core">Core Reference</a>
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core">Core Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>

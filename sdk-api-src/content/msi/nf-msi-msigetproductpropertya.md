@@ -60,7 +60,7 @@ The
 ### -param hProduct [in]
 
 Handle to the product obtained from 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szProperty [in]
 
@@ -155,5 +155,4 @@ When the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
-
+<a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>

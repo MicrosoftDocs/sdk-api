@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Sets context information used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> function. This function only works with 
+    <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> function. This function only works with 
     PDB symbols.
 
 ## -parameters
@@ -59,11 +59,11 @@ Sets context information used by the
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param StackFrame [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_stack_frame">IMAGEHLP_STACK_FRAME</a> 
+A pointer to an <a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_stack_frame">IMAGEHLP_STACK_FRAME</a> 
       structure that contains frame information.
 
 ### -param Context [in, optional]
@@ -75,12 +75,12 @@ This parameter is ignored.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error 
-       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If you call <b>SymSetContext</b> to set the context to its 
-    current value, the function fails but <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
+    current value, the function fails but <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
     returns <b>ERROR_SUCCESS</b>.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
@@ -89,13 +89,12 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_stack_frame">IMAGEHLP_STACK_FRAME</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_stack_frame">IMAGEHLP_STACK_FRAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>

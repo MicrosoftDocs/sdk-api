@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CERT_SELECT_CRITERIA</b> structure specifies selection criteria that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a> function.
+The <b>CERT_SELECT_CRITERIA</b> structure specifies selection criteria that is passed to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a> function.
 
 ## -struct-fields
 
@@ -74,9 +74,9 @@ Specifies the type of selection criteria used for the <b>ppPara</b> member. This
 </dl>
 </td>
 <td width="60%">
-Select certificates  based on  a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a>. When this flag is set, the <i>ppPara</i> must reference a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) ANSI string that specifies the enhanced key usage.
+Select certificates  based on  a specific <a href="/windows/desktop/SecGloss/e-gly">enhanced key usage</a>. When this flag is set, the <i>ppPara</i> must reference a null-terminated <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) ANSI string that specifies the enhanced key usage.
 
-This criteria is evaluated on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>.
+This criteria is evaluated on the <a href="/windows/desktop/SecGloss/c-gly">certificate</a>.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ This criteria is evaluated on the <a href="https://docs.microsoft.com/windows/de
 </dl>
 </td>
 <td width="60%">
-Select certificates  based on  a specific <b>szOID_KEY_USAGE</b> extension in the certificate.  When this flag is set, the <b>ppPara </b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure where the value of the extension is a <b>DWORD</b> that identifies the Key Usage bits.
+Select certificates  based on  a specific <b>szOID_KEY_USAGE</b> extension in the certificate.  When this flag is set, the <b>ppPara </b> member must reference a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure where the value of the extension is a <b>DWORD</b> that identifies the Key Usage bits.
 
 This criteria is evaluated on the certificate.
 
@@ -113,7 +113,7 @@ This criteria is evaluated on the issuance policy of the certificate chain.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> provider. The <b>ppPara</b> member must reference a  null-terminated Unicode string that represents the name of the provider.
+Select certificates based on a specific <a href="/windows/desktop/SecGloss/p-gly">private key</a> provider. The <b>ppPara</b> member must reference a  null-terminated Unicode string that represents the name of the provider.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Select certificates based on a specific <a href="https://docs.microsoft.com/wind
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the presence of a specified extension and an optional specified value. The <b>ppPara</b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure that specifies the extension OID and the  associated value.
+Select certificates based on the presence of a specified extension and an optional specified value. The <b>ppPara</b> member must reference a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure that specifies the extension OID and the  associated value.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ Select certificates based on the presence of a specified extension and an option
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the Subject DNS HOST Name. The <b>ppPara</b> member must reference a null-terminated Unicode string that contains the subject host name. The selection performed based on this flag  is the same as the evaluation of the <b>pwszServerName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-httpspolicycallbackdata">SSL_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure during a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function. 
+Select certificates based on the Subject DNS HOST Name. The <b>ppPara</b> member must reference a null-terminated Unicode string that contains the subject host name. The selection performed based on this flag  is the same as the evaluation of the <b>pwszServerName</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-httpspolicycallbackdata">SSL_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure during a call to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function. 
 
 This criteria is evaluated on the certificate.
 
@@ -148,7 +148,7 @@ This criteria is evaluated on the certificate.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN) element of the issuer of the certificate.  The <b>ppPara</b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure that contains the RDN element of the issuer.
+Select certificates based on the <a href="/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN) element of the issuer of the certificate.  The <b>ppPara</b> member must reference a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure that contains the RDN element of the issuer.
 
 This criteria is evaluated on the certificate chain.
 
@@ -161,7 +161,7 @@ This criteria is evaluated on the certificate chain.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the RDN element in the Subject of the certificate.  The <b>ppPara</b> member must be a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure that contains the RDN element of the Subject.
+Select certificates based on the RDN element in the Subject of the certificate.  The <b>ppPara</b> member must be a reference to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure that contains the RDN element of the Subject.
 
 This criteria is evaluated on the certificate.
 
@@ -187,7 +187,7 @@ This criteria is evaluated on the certificate chain.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> of the certificate.  The <b>ppPara</b> member must reference a pointer to  a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key.
+Select certificates based on the <a href="/windows/desktop/SecGloss/p-gly">public key</a> of the certificate.  The <b>ppPara</b> member must reference a pointer to  a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key.
 
 This criteria is evaluated on the certificate.
 
@@ -200,7 +200,7 @@ This criteria is evaluated on the certificate.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the <a href="/windows/win32/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">Transport Layer Security protocol</a> (TLS) Signature requirement. The <b>ppPara</b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">SecPkgContext_SupportedSignatures</a> structure.
+Select certificates based on the <a href="/windows/win32/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">Transport Layer Security protocol</a> (TLS) Signature requirement. The <b>ppPara</b> member must reference a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">SecPkgContext_SupportedSignatures</a> structure.
 
 This criteria is evaluated on the certificate.
 
@@ -215,4 +215,3 @@ A <b>DWORD</b> value that specifies the number of search attributes specified in
 ### -field ppPara
 
 A pointer to a pointer to one or more selection values.  The data type depends on the selection type specified by the <b>dwType</b> member. If more than one selection value is present, an application must match only one value.
-

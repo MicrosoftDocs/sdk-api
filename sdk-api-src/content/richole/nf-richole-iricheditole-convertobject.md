@@ -56,7 +56,7 @@ Converts an object to a new type. This call reloads the object but does not forc
 
 ### -param iob
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Index of the object to convert. If this parameter is REO_IOB_SELECTION, the selected object is to be converted.
 
@@ -68,17 +68,16 @@ Class identifier of the class to which the object is converted.
 
 ### -param lpstrUserTypeNew
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 User-visible type name of the class to which the object is converted.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK on success, or a failure code otherwise. E_INVALIDARG is returned if the index is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
-
+<a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>

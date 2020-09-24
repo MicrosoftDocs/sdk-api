@@ -58,7 +58,7 @@ The
 
 <div class="alert"><b>Note</b>  The 
 <b>EnumProtocols</b> function is a Microsoft-specific extension to the Windows Sockets 1.1 specification. This function is obsolete. For the convenience of Windows Sockets 1.1 developers, the reference material is included. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function provides equivalent functionality in Windows Sockets 2.</div>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function provides equivalent functionality in Windows Sockets 2.</div>
 <div> </div>
 
 ## -parameters
@@ -145,7 +145,7 @@ The Sequenced Packet Exchange (SPX) protocol version 2, a connection-oriented st
 ### -param lpProtocolBuffer [out]
 
 A pointer to a buffer that the function fills with an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures.
 
 ### -param lpdwBufferLength [in, out]
 
@@ -159,10 +159,10 @@ On output, the function sets this variable to the minimum buffer size needed to 
 ## -returns
 
 If the function succeeds, the return value is the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures written to the buffer pointed to by <i>lpProtocolBuffer</i>.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures written to the buffer pointed to by <i>lpProtocolBuffer</i>.
 
 If the function fails, the return value is SOCKET_ERROR(–1). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns the following extended error code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns the following extended error code.
 
 <table>
 <tr>
@@ -177,7 +177,7 @@ If the function fails, the return value is SOCKET_ERROR(–1). To get extended e
 </td>
 <td width="60%">
 The buffer pointed to by <i>lpProtocolBuffer</i> was too small to receive all of the relevant 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
 
 </td>
 </tr>
@@ -354,17 +354,16 @@ int FindProtocol (
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a>
+<a href="/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

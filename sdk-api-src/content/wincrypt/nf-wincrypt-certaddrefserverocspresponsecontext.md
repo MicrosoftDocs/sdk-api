@@ -56,9 +56,8 @@ The <b>CertAddRefServerOcspResponseContext</b> function increments the reference
 
 ### -param pServerOcspResponseContext [in]
 
-A pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> returned by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a>.
+A pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> returned by <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a>.
 
 ## -remarks
 
-Each call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a> and <b>CertAddRefServerOcspResponseContext</b> requires a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext">CertFreeServerOcspResponseContext</a>.
-
+Each call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a> and <b>CertAddRefServerOcspResponseContext</b> requires a corresponding call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext">CertFreeServerOcspResponseContext</a>.

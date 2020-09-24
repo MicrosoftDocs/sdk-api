@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Freezes the drawn representation of an object so that it will not change until the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a> method is called. The most common use of this method is for banded printing.
+Freezes the drawn representation of an object so that it will not change until the <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a> method is called. The most common use of this method is for banded printing.
 
 ## -parameters
 
 ### -param dwDrawAspect [in]
 
-Specifies how the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Valid values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>. See the <b>DVASPECT</b> enumeration for more information.
+Specifies how the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Valid values are taken from the enumeration <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>. See the <b>DVASPECT</b> enumeration for more information.
 
 ### -param lindex [in]
 
-Portion of the object that is of interest for the draw operation. Its interpretation varies with dwAspect. See the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration for more information.
+Portion of the object that is of interest for the draw operation. Its interpretation varies with dwAspect. See the <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration for more information.
 
 ### -param pvAspect [in]
 
@@ -68,7 +68,7 @@ Pointer to additional information about the view of the object specified in <i>d
 
 ### -param pdwFreeze [out]
 
-Pointer to where an identifying DWORD key is returned. This unique key is later used to cancel the freeze by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a>. This key is an index that the default cache uses to keep track of which object is frozen.
+Pointer to where an identifying DWORD key is returned. This unique key is later used to cancel the freeze by calling <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a>. This key is an index that the default cache uses to keep track of which object is frozen.
 
 ## -returns
 
@@ -127,23 +127,22 @@ Invalid value for <i>dwAspect</i>.
 
 ## -remarks
 
-The <b>IViewObject::Freeze</b> method causes the view object to freeze its drawn representation until a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a> releases it. After calling <b>IViewObject::Freeze</b>, successive calls to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> with the same parameters produce the same picture until <b>IViewObject::Unfreeze</b> is called.
+The <b>IViewObject::Freeze</b> method causes the view object to freeze its drawn representation until a subsequent call to <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a> releases it. After calling <b>IViewObject::Freeze</b>, successive calls to <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> with the same parameters produce the same picture until <b>IViewObject::Unfreeze</b> is called.
 
 <b>IViewObject::Freeze</b> is not part of the persistent state of the object and does not continue across unloads and reloads of the object.
 
 The most common use of this method is for banded printing.
 
-While in a frozen state, view notifications are not sent. Pending view notifications are deferred to the subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a>.
+While in a frozen state, view notifications are not sent. Pending view notifications are deferred to the subsequent call to <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
+<a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a>

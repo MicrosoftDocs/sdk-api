@@ -76,7 +76,7 @@ Reads or sets the system access-control list data.
 
 The options defined in this enumeration are bit-masks. More than one option can be set using appropriate bitwise operations.
 
-To read the security data for an object, use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a> interface, supplying the security data options listed in this enumeration.
+To read the security data for an object, use the  <a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a> interface, supplying the security data options listed in this enumeration.
 
 The following list lists common flag combinations and their use.
 
@@ -229,17 +229,16 @@ void TestObjectOptions()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions::GetOption</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions::GetOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>

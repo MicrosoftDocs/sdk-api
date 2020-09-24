@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CF_HDROP</a> clipboard format. The data that follows is a double null-terminated list of file names.
+Defines the <a href="/windows/desktop/shell/clipboard">CF_HDROP</a> clipboard format. The data that follows is a double null-terminated list of file names.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The offset of the file list from the beginning of this structure, in bytes.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The drop point. The coordinates depend on <b>fNC</b>.
 
@@ -81,4 +81,3 @@ A nonclient area flag. If this member is <b>TRUE</b>, <b>pt</b> specifies the sc
 Type: <b>BOOL</b>
 
 A value that indicates whether the file contains ANSI or Unicode characters. If the value is zero, the file contains ANSI characters. Otherwise, it contains Unicode characters.
-

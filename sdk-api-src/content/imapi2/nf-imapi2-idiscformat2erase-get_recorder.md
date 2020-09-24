@@ -56,7 +56,7 @@ Retrieves the recording device to use in the erase operation.
 
 ### -param value [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device to use in the erase operation.
+An <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device to use in the erase operation.
 
 ## -returns
 
@@ -84,9 +84,8 @@ Value: 0x80004003
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_recorder">IDiscFormat2Erase::put_Recorder</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_recorder">IDiscFormat2Erase::put_Recorder</a>

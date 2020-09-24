@@ -61,7 +61,7 @@ Determines whether a specified thread has any I/O requests pending.
 
 ### -param hThread [in]
 
-A handle to the thread in question. This handle must have been created with the THREAD_QUERY_INFORMATION access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+A handle to the thread in question. This handle must have been created with the THREAD_QUERY_INFORMATION access right. For more information, see <a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 ### -param lpIOIsPending [in, out]
 
@@ -71,20 +71,19 @@ A pointer to a  variable which the function sets to TRUE if the specified thread
 
 If the  function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Keep in mind that the I/O status of the specified thread can change  rapidly, and may already have changed by the time the function returns. For example, a pending I/O operation could complete between the time the function sets  <i>lpIOIsPending</i> and the time it returns.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
-
+<a href="/windows/desktop/ProcThread/multiple-threads">Threads</a>

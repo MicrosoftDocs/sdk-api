@@ -70,7 +70,7 @@ A user can visualize the marker when the calling application is running under an
 #### Examples
 
 The following code shows how to use <b>SetMarker</b>.
-          It also uses the <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a> smart pointer type.
+          It also uses the <a href="/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a> smart pointer type.
 
 
 ```
@@ -104,5 +104,4 @@ pPerf->SetMarker( L”Occlusion test failed- not drawing sun flare” );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation">ID3DUserDefinedAnnotation</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation">ID3DUserDefinedAnnotation</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides additional information about an object's context. This interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a> interface.
+Provides additional information about an object's context. This interface extends the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a> interface.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>IObjectContextInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo2-getapplicationid">GetApplicationId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo2-getapplicationid">GetApplicationId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the application of the current object context.
@@ -78,7 +78,7 @@ Retrieves the identifier of the application of the current object context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo2-getapplicationinstanceid">GetApplicationInstanceId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo2-getapplicationinstanceid">GetApplicationInstanceId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the application instance of the current object context.
@@ -87,7 +87,7 @@ Retrieves the identifier of the application instance of the current object conte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo2-getpartitionid">GetPartitionId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo2-getpartitionid">GetPartitionId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the partition of the current object context.
@@ -98,9 +98,8 @@ Retrieves the identifier of the partition of the current object context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
+<a href="/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>

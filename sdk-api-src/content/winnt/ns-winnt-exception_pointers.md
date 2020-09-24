@@ -61,22 +61,21 @@ Contains an exception record with a machine-independent description of an except
 ### -field ExceptionRecord
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> structure that contains a machine-independent description of the exception.
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> structure that contains a machine-independent description of the exception.
 
 ### -field ContextRecord
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that contains a processor-specific description of the state of the processor at the time of the exception.
+<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that contains a processor-specific description of the state of the processor at the time of the exception.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>
-
+<a href="/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>

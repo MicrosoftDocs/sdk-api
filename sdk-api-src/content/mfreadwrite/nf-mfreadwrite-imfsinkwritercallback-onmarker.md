@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Called when the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-placemarker">IMFSinkWriter::PlaceMarker</a> method completes.
+Called when the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-placemarker">IMFSinkWriter::PlaceMarker</a> method completes.
 
 ## -parameters
 
 ### -param dwStreamIndex [in]
 
-The zero-based index of the stream. This parameter equals the value of the <i>dwStreamIndex</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-placemarker">PlaceMarker</a> method.
+The zero-based index of the stream. This parameter equals the value of the <i>dwStreamIndex</i> parameter in the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-placemarker">PlaceMarker</a> method.
 
 ### -param pvContext [in]
 
-The application-defined value that was given in the <i>pvContext</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-placemarker">PlaceMarker</a> method.
+The application-defined value that was given in the <i>pvContext</i> parameter in the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-placemarker">PlaceMarker</a> method.
 
 ## -returns
 
@@ -72,9 +72,8 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback">IMFSinkWriterCallback</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback">IMFSinkWriterCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
-
+<a href="/windows/desktop/medfound/sink-writer">Sink Writer</a>

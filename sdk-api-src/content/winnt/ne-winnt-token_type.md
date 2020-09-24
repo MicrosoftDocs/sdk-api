@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>TOKEN_TYPE</b> enumeration contains values that differentiate between a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary token</a> and an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>.
+The <b>TOKEN_TYPE</b> enumeration contains values that differentiate between a <a href="/windows/desktop/SecGloss/p-gly">primary token</a> and an <a href="/windows/desktop/SecGloss/i-gly">impersonation token</a>.
 
 ## -enum-fields
 
@@ -66,53 +66,52 @@ Indicates an impersonation token.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
+<a href="/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_control">TOKEN_CONTROL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_control">TOKEN_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_default_dacl">TOKEN_DEFAULT_DACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_default_dacl">TOKEN_DEFAULT_DACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_owner">TOKEN_OWNER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_owner">TOKEN_OWNER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_primary_group">TOKEN_PRIMARY_GROUP</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_primary_group">TOKEN_PRIMARY_GROUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOURCE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>

@@ -62,11 +62,11 @@ Retrieves information about a specified registry subkey in a user-specific subtr
 
 Type: <b>HUSKEY</b>
 
-A handle to a currently open registry subkey. The subkey must have been opened with the KEY_SET_VALUE access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+A handle to a currently open registry subkey. The subkey must have been opened with the KEY_SET_VALUE access right. For more information, see <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
                         
 
-This handle can be obtained through the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya">SHRegOpenUSKey</a> function.
+This handle can be obtained through the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya">SHRegOpenUSKey</a> function.
 
 ### -param pcSubKeys [out, optional]
 
@@ -94,18 +94,17 @@ A pointer to a <b>DWORD</b> that receives the number of characters in the larges
 
 ### -param enumRegFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shregenum_flags">SHREGENUM_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/shlwapi/ne-shlwapi-shregenum_flags">SHREGENUM_FLAGS</a></b>
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shregenum_flags">SHREGENUM_FLAGS</a> that specifies the base key in which the query should take place.
+One of the <a href="/windows/desktop/api/shlwapi/ne-shlwapi-shregenum_flags">SHREGENUM_FLAGS</a> that specifies the base key in which the query should take place.
 
 ## -returns
 
 Type: <b>LSTATUS</b>
 
-Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a textual description of the error.
+Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a textual description of the error.
 
 ## -remarks
 
 > [!NOTE]
 > The shlwapi.h header defines SHRegQueryInfoUSKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

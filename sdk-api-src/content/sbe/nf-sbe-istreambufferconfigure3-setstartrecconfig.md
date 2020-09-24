@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SetStartRecConfig</b> method specifies whether the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-start">IStreamBufferRecordControl::Start</a> method automatically stops the current recording.
+The <b>SetStartRecConfig</b> method specifies whether the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-start">IStreamBufferRecordControl::Start</a> method automatically stops the current recording.
 
 ## -parameters
 
@@ -86,5 +86,4 @@ By default, if another recording is still in progress, the <b>IStreamBufferRecor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure3">IStreamBufferConfigure3 Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure3">IStreamBufferConfigure3 Interface</a>

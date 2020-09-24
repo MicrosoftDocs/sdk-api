@@ -62,10 +62,10 @@ This function returns the prefix to which a namespace is bound.
 
 
 If the value of the <i>required</i> parameter is set to <b>TRUE</b> and the Namespace is not bound to any Prefix a <b>WS_E_INVALID_FORMAT</b> exception will be returned.
-        (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.) If the <i>required</i> parameter is  <b>FALSE</b>, and the Namespace is not bound to any Prefix the <i>prefix</i> parameter is <b>NULL</b> and the function returns S_FALSE.
+        (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.) If the <i>required</i> parameter is  <b>FALSE</b>, and the Namespace is not bound to any Prefix the <i>prefix</i> parameter is <b>NULL</b> and the function returns S_FALSE.
       
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> is called but the element is not committed the Namespaces and Prefixes referenced by the element and any attributes on the element is not available to
+If <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> is called but the element is not committed the Namespaces and Prefixes referenced by the element and any attributes on the element is not available to
         this function.
 
 ## -parameters
@@ -73,7 +73,7 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webser
 ### -param writer [in]
 
 A pointer to a Writer with the namespace to search.  This must be a valid <b>WS_XML_WRITER</b> object
-                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a> and   may not be <b>NULL</b>.
+                    returned by <a href="/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a> and   may not be <b>NULL</b>.
 
 ### -param ns [in]
 
@@ -92,7 +92,7 @@ A reference to a prefix bound to the namespace or <b>NULL</b> if the value of th
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -125,4 +125,3 @@ For the namespace "http://www.w3.org/2000/xmlns/" it will return the prefix "xml
       
 
 The prefix returned should not be modified, and is only valid until the writer advances.
-

@@ -57,7 +57,7 @@ The <b>QueryInternalConnections</b> method retrieves the pins that are connected
 
 ### -param apPin [out]
 
-Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers. The caller allocates the array. The method fills the array with <b>IPin</b> pointers. If <i>nPin</i> is zero, this parameter can be <b>NULL</b>.
+Address of an array of <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers. The caller allocates the array. The method fills the array with <b>IPin</b> pointers. If <i>nPin</i> is zero, this parameter can be <b>NULL</b>.
 
 ### -param nPin [in, out]
 
@@ -117,13 +117,12 @@ Otherwise, the method returns an array of <b>IPin</b> pointers, one for each pin
 
 The caller allocates the array of <b>IPin</b> pointers. To get the required array size, call the method once with <i>apPin</i> equal to <b>NULL</b>. The size is returned in the <i>nPin</i> parameter. Then allocate the array and call the method again, setting <i>apPin</i> equal to the address of the array and <i>nPin</i> equal to the array size. The method then fills the array with <b>IPin</b> pointers. Each returned pointer has an outstanding reference count and must be released by the caller.
 
-This method has another use that is now deprecated: The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a> treats a filter as being a renderer filter if at least one input pin implements this method but returns zero in <i>nPin</i>. If you are writing a new renderer filter, however, you should implement the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamfiltermiscflags">IAMFilterMiscFlags</a> interface instead of using this method to indicate that the filter is a renderer.
+This method has another use that is now deprecated: The <a href="/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a> treats a filter as being a renderer filter if at least one input pin implements this method but returns zero in <i>nPin</i>. If you are writing a new renderer filter, however, you should implement the <a href="/windows/desktop/api/strmif/nn-strmif-iamfiltermiscflags">IAMFilterMiscFlags</a> interface instead of using this method to indicate that the filter is a renderer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

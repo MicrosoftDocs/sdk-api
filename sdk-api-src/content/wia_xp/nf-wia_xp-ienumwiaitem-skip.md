@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IEnumWiaItem::Skip</b> method skips the specified number of items during an enumeration of available <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects.
+The <b>IEnumWiaItem::Skip</b> method skips the specified number of items during an enumeration of available <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects.
 
 ## -parameters
 
@@ -66,4 +66,3 @@ Specifies the number of items to skip.
 Type: <b>HRESULT</b>
 
 If the method succeeds, the method returns S_OK. If it is unable to skip the specified number of items, it returns S_FALSE. If the method fails, it returns a standard COM error code.
-

@@ -63,60 +63,59 @@ Contains information about a tree-view notification message. This structure is i
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification message.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification message.
 
 ### -field action
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Notification-specific action flag. This member is used with the following notification codes.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanding">TVN_ITEMEXPANDING</a>
+<a href="/windows/desktop/Controls/tvn-itemexpanding">TVN_ITEMEXPANDING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanded">TVN_ITEMEXPANDED</a>
+<a href="/windows/desktop/Controls/tvn-itemexpanded">TVN_ITEMEXPANDED</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-selchanging">TVN_SELCHANGING</a>
+<a href="/windows/desktop/Controls/tvn-selchanging">TVN_SELCHANGING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-selchanged">TVN_SELCHANGED</a>
+<a href="/windows/desktop/Controls/tvn-selchanged">TVN_SELCHANGED</a>
 </li>
 </ul>
-For the possible action flag values, see <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-expand">TVM_EXPAND</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-selchanged">TVN_SELCHANGED</a>.
+For the possible action flag values, see <a href="/windows/desktop/Controls/tvm-expand">TVM_EXPAND</a> and <a href="/windows/desktop/Controls/tvn-selchanged">TVN_SELCHANGED</a>.
 
 ### -field itemOld
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it.
 
 ### -field itemNew
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it.
 
 ### -field ptDrag
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent.
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
+<a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
 
 ## -remarks
 
 > [!NOTE]
 > The commctrl.h header defines NMTREEVIEW as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

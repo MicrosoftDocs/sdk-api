@@ -72,5 +72,4 @@ The low 64 bits of the product.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/3dayytw9(v=vs.85)">_umu128</a>
-
+<a href="/previous-versions/3dayytw9(v=vs.85)">_umu128</a>

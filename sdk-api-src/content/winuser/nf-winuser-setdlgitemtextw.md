@@ -83,16 +83,16 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>SetDlgItemText</b> function sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message to the specified control. 
+The <b>SetDlgItemText</b> function sends a <a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message to the specified control. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-boxes">Using List Boxes</a>. 
+For an example, see <a href="/windows/desktop/Controls/using-list-boxes">Using List Boxes</a>. 
 
 <div class="code"></div>
 
@@ -108,15 +108,15 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemtexta">GetDlgItemText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgitemtexta">GetDlgItemText</a>
 
 
 
@@ -124,9 +124,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>
-
+<a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>

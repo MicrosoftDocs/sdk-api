@@ -70,7 +70,7 @@ Property ID of the  list to which to add the entity specified by the <i>varProp<
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-addappmember">AddAppMember</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-addappmember">AddAppMember</a> method
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-addmember">AddMember</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-addmember">AddMember</a> method
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-addmembername">AddMemberName</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-addmembername">AddMemberName</a> method
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-addoperation">AddOperation</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-addoperation">AddOperation</a> method
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-addtask">AddTask</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-addtask">AddTask</a> method
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Entity to add to the list  specified by the <i>lPropId</i> parameter.
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_ROLE_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the text form of the   <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to add to the list. If AZ_PROP_ROLE_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to add to the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the  "ExampleDomain\UserName" format. If AZ_PROP_ROLE_APP_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to add to the list.
+If AZ_PROP_ROLE_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the text form of the   <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to add to the list. If AZ_PROP_ROLE_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to add to the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the  "ExampleDomain\UserName" format. If AZ_PROP_ROLE_APP_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to add to the list.
 
 ### -param varReserved [in, optional]
 
@@ -134,5 +134,4 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-submit">Submit</a> method to persist any changes made by this method.
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-submit">Submit</a> method to persist any changes made by this method.

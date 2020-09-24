@@ -70,25 +70,24 @@ The members of this structure are named as they are so that they are not confuse
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptpositionsingleglyph">ScriptPositionSingleGlyph</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptpositionsingleglyph">ScriptPositionSingleGlyph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scripttextout">ScriptTextOut</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scripttextout">ScriptTextOut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

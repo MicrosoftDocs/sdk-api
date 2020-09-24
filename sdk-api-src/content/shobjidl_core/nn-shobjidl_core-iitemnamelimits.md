@@ -54,7 +54,7 @@ Retrieves a list of valid and invalid characters or the maximum length of a name
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IItemNameLimits</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IItemNameLimits</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IItemNameLimits</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IItemNameLimits</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IItemNameLimits</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iitemnamelimits-getmaxlength">GetMaxLength</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iitemnamelimits-getmaxlength">GetMaxLength</a>
 </td>
 <td align="left" width="63%">
 Returns the maximum number of characters allowed for a particular name in the namespace under which it is called.
@@ -78,7 +78,7 @@ Returns the maximum number of characters allowed for a particular name in the na
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iitemnamelimits-getvalidcharacters">GetValidCharacters</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iitemnamelimits-getvalidcharacters">GetValidCharacters</a>
 </td>
 <td align="left" width="63%">
 Loads a string that contains each of the characters that are valid or invalid in the namespace under which it is called.
@@ -86,4 +86,3 @@ Loads a string that contains each of the characters that are valid or invalid in
 </td>
 </tr>
 </table>
-

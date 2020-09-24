@@ -48,7 +48,7 @@ Called when the Content Decryption Module (CDM) has generated a message for the 
 
 ### -param messageType
 
-A value from the [MF_MEDIAKEYSESSION_MESSAGETYPE](/windows/win32/api/mfidl/ne-mfidl-mf_mediakeysession_messagetype) enumeration specifying the type of the message.
+A value from the [MF_MEDIAKEYSESSION_MESSAGETYPE](../mfidl/ne-mfidl-mf_mediakeysession_messagetype.md) enumeration specifying the type of the message.
 
 ### -param message
 
@@ -71,4 +71,3 @@ Returns an HRESULT.
 **KeyMessage** is based on the Encrypted Media Extension specification's [MediaKeyMessageEvent](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeymessageevent).
 
 ## -see-also
-

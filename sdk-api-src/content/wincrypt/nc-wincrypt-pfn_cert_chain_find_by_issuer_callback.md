@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>CertChainFindByIssuerCallback</b> function is an application-defined callback function that allows the application to filter certificates that might be added to the certificate chain. A pointer to this function is provided in the <b>pfnFindCallback</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure.
+The <b>CertChainFindByIssuerCallback</b> function is an application-defined callback function that allows the application to filter certificates that might be added to the certificate chain. A pointer to this function is provided in the <b>pfnFindCallback</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure.
 
 ## -parameters
 
 ### -param pCert [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate in question.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate in question.
 
 ### -param *pvFindArg [in]
 
-A pointer to an application-defined value. This is the same value that was passed in the <i>pvFindArg</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure.
+A pointer to an application-defined value. This is the same value that was passed in the <i>pvFindArg</i> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Return <b>TRUE</b> to create a chain for the certificate specified in the <i>pCe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore">CertFindChainInStore</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore">CertFindChainInStore</a>

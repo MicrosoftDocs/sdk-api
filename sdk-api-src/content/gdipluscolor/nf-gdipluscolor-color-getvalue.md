@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Color::GetValue</b> method gets the <b>ARGB</b> value of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
+The <b>Color::GetValue</b> method gets the <b>ARGB</b> value of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
 ## -parameters
 
@@ -63,9 +63,8 @@ This method returns a 32-bit <b>ARGB</b> value that holds the alpha, red, green,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
-
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>

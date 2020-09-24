@@ -56,9 +56,9 @@ Deletes a set of conflicts, specified by conflict ID, from the store.
 
 ### -param rgConflictIdInfo [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ns-syncmgr-syncmgr_conflict_id_info">SYNCMGR_CONFLICT_ID_INFO</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/syncmgr/ns-syncmgr-syncmgr_conflict_id_info">SYNCMGR_CONFLICT_ID_INFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ns-syncmgr-syncmgr_conflict_id_info">SYNCMGR_CONFLICT_ID_INFO</a> structure.
+A pointer to a <a href="/windows/desktop/api/syncmgr/ns-syncmgr-syncmgr_conflict_id_info">SYNCMGR_CONFLICT_ID_INFO</a> structure.
 
 ### -param cConflicts [in]
 
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The conflicts are removed when the user selects the conflicts in the conflicts folder and chooses to delete them.
-

@@ -55,21 +55,21 @@ api_name:
 ## -description
 
 Gets the preferred scale factor for a display device.
-<div class="alert"><b>Note</b>  This function is not supported as of Windows 8.1. Use <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is not supported as of Windows 8.1. Use <a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a> instead.</div><div> </div>
 
 ## -parameters
 
 ### -param deviceType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-display_device_type">DISPLAY_DEVICE_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-display_device_type">DISPLAY_DEVICE_TYPE</a></b>
 
 The value that indicates the type of the display device.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">DEVICE_SCALE_FACTOR</a></b>
+Type: <b><a href="/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">DEVICE_SCALE_FACTOR</a></b>
 
-A value that indicates the scale factor that should be used with the specified <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-display_device_type">DISPLAY_DEVICE_TYPE</a>.
+A value that indicates the scale factor that should be used with the specified <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-display_device_type">DISPLAY_DEVICE_TYPE</a>.
 
 <table>
 <tr>
@@ -116,19 +116,18 @@ Use a scale factor of 1.8x.
 
 ## -remarks
 
-The default <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">DEVICE_SCALE_FACTOR</a> is <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_100_PERCENT</a>.
+The default <a href="/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">DEVICE_SCALE_FACTOR</a> is <a href="/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_100_PERCENT</a>.
 
 Use the scale factor that is returned to scale point values for fonts and pixel values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a>
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>
-
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>

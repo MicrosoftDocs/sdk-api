@@ -52,7 +52,7 @@ api_name:
 
 Loads and executes an application or creates a new instance of an existing application.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.</div><div> </div>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -67,13 +67,13 @@ The file name of the application to be run. When specifying a path, be sure to u
 <li>The directory from which the application loaded.</li>
 <li>The current directory.</li>
 <li>The system directory. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a> function to get the path of this directory. 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a> function to get the path of this directory. 
 
 
 </li>
 <li> The 16-bit system directory. There is no function that obtains the path of this directory, but it is searched. The name of this directory is System.</li>
 <li>The Windows directory. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function to get the path of this directory.</li>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function to get the path of this directory.</li>
 <li>The directories that are listed in the PATH environment variable.</li>
 </ol>
 
@@ -171,9 +171,9 @@ The <b>LOADPARMS32</b> structure has the following form:
 <tr>
 <td><b>lpCmdShow</b></td>
 <td>Pointer to a structure containing two <b>WORD</b> values. The first value must always be set to two. The second value specifies how the application window is to be shown and is used to supply the <b>wShowWindow</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function. See the description of the <i>nCmdShow</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function for a list of acceptable values.</td>
+<a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure to the 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function. See the description of the <i>nCmdShow</i> parameter of the 
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function for a list of acceptable values.</td>
 </tr>
 <tr>
 <td><b>dwReserved</b></td>
@@ -183,10 +183,10 @@ The <b>LOADPARMS32</b> structure has the following form:
  
 
 Applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function instead of 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function instead of 
 <b>LoadModule</b>. The 
 <b>LoadModule</b> function calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> by forming the parameters as follows.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> by forming the parameters as follows.
 				
 
 <table>
@@ -242,17 +242,16 @@ Applications should use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
+<a href="/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
-
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>

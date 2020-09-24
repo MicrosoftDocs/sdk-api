@@ -93,7 +93,7 @@ Address of a <b>DWORD</b> that on input contains the size of the buffer (in
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
 
@@ -103,9 +103,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
+<a href="/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>

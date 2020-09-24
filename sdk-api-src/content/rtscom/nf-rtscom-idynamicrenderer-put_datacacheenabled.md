@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that indicates whether data caching is enabled for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
+Gets or sets a value that indicates whether data caching is enabled for the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
 
 
 
@@ -64,21 +64,20 @@ This property is read/write.
 
 ## -remarks
 
-Setting the <b>DataCacheEnabled</b> property to <b>TRUE</b> enables you to manage the situation where slow processes block the output queue. When the window is invalidated after strokes are drawn by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object, there may be a delay before the collected strokes are drawn. Place the strokes of the dynamic renderer in a cache and use the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-refresh">IDynamicRenderer::Refresh Method</a> method to redraw the strokes.
+Setting the <b>DataCacheEnabled</b> property to <b>TRUE</b> enables you to manage the situation where slow processes block the output queue. When the window is invalidated after strokes are drawn by the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object, there may be a delay before the collected strokes are drawn. Place the strokes of the dynamic renderer in a cache and use the <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-refresh">IDynamicRenderer::Refresh Method</a> method to redraw the strokes.
 
-After the strokes are collected, you must release them from the cache by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-releasecacheddata">IDynamicRenderer::ReleaseCachedData Method</a> method. Use the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-customstylusdataadded">IStylusPlugin::CustomStylusDataAdded Method</a> method to release the strokes.
+After the strokes are collected, you must release them from the cache by calling the <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-releasecacheddata">IDynamicRenderer::ReleaseCachedData Method</a> method. Use the <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-customstylusdataadded">IStylusPlugin::CustomStylusDataAdded Method</a> method to release the strokes.
 
-It is also useful to set the <b>DataCacheEnabled</b> property to <b>TRUE</b> when you want to display strokes as they are drawn, but have no need to store the strokes after you have done something with them. In this case, store the data identifiers in the data parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-customstylusdataadded">IStylusPlugin::CustomStylusDataAdded Method</a> method, and then release the data when you no longer need the cached strokes.
+It is also useful to set the <b>DataCacheEnabled</b> property to <b>TRUE</b> when you want to display strokes as they are drawn, but have no need to store the strokes after you have done something with them. In this case, store the data identifiers in the data parameter of the <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-customstylusdataadded">IStylusPlugin::CustomStylusDataAdded Method</a> method, and then release the data when you no longer need the cached strokes.
 
-If this property is <b>TRUE</b>, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-releasecacheddata">IDynamicRenderer::ReleaseCachedData Method</a> method for strokes which have been stored in the ink collecting object. If <b>FALSE</b>, you are not required to call the <b>IDynamicRenderer::ReleaseCachedData Method</b> method. The disadvantage to setting this property to <b>FALSE</b> is that any stroke data that was initially dynamically rendered but invalidated by other miscellaneous operations does not render until the stroke data reaches the ink collection object and is rendered there.
+If this property is <b>TRUE</b>, you must call the <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-releasecacheddata">IDynamicRenderer::ReleaseCachedData Method</a> method for strokes which have been stored in the ink collecting object. If <b>FALSE</b>, you are not required to call the <b>IDynamicRenderer::ReleaseCachedData Method</b> method. The disadvantage to setting this property to <b>FALSE</b> is that any stroke data that was initially dynamically rendered but invalidated by other miscellaneous operations does not render until the stroke data reaches the ink collection object and is rendered there.
 
 Setting this property to <b>FALSE</b> clears the cached data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-releasecacheddata">IDynamicRenderer::ReleaseCachedData Method</a>
-
+<a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-releasecacheddata">IDynamicRenderer::ReleaseCachedData Method</a>

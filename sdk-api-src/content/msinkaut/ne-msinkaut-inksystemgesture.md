@@ -98,33 +98,32 @@ A flick gesture.
 
 The flick gesture is recognized in Windows Vista and later versions of Windows.
 
-The Windows Vista and Tablet PC operating systems support these gestures by default. When any of these gestures are recognized, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-systemgesture">SystemGesture</a> event fires automatically. Many of these gestures map to traditional mouse events. For instance, the Tap system gesture mimics a click of the left mouse button.
+The Windows Vista and Tablet PC operating systems support these gestures by default. When any of these gestures are recognized, the <a href="/windows/desktop/tablet/inkcollector-systemgesture">SystemGesture</a> event fires automatically. Many of these gestures map to traditional mouse events. For instance, the Tap system gesture mimics a click of the left mouse button.
 
-A system gesture is separate from an application gesture. Application gestures are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture</a> enumeration type.
+A system gesture is separate from an application gesture. Application gestures are defined in the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture</a> enumeration type.
 
-For more information about system gestures, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a>.
+For more information about system gestures, see <a href="/windows/desktop/tablet/using-gestures">Using Gestures</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-gethotpoint">GetHotPoint Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-gethotpoint">GetHotPoint Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
+<a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
+<a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-systemgesture">SystemGesture Event [InkPicture Control]</a>
+<a href="/windows/desktop/tablet/inkpicture-systemgesture">SystemGesture Event [InkPicture Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a>
-
+<a href="/windows/desktop/tablet/using-gestures">Using Gestures</a>

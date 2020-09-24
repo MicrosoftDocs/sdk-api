@@ -126,13 +126,12 @@ and countries.)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
+<a href="/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimetaindex">AVIMETAINDEX</a>
+<a href="/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimetaindex">AVIMETAINDEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

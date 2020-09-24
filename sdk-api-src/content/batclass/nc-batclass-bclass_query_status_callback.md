@@ -64,7 +64,7 @@ A battery tag value previously returned by <i>BatteryMiniQueryTag</i>.
 
 ### -param BatteryStatus [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/48df787b-f9f6-45d1-872c-ceeda3087af6">BATTERY_STATUS</a> structure in which the miniclass driver returns information.
+A pointer to a <a href="/previous-versions/ff536290(v=vs.85)">BATTERY_STATUS</a> structure in which the miniclass driver returns information.
 
 ## -returns
 
@@ -103,19 +103,18 @@ The battery designated by <i>BatteryTag </i>is not present.
 
 The battery class driver calls <i>BatteryMiniQueryStatus</i> to get status information about the battery. The status information includes the battery's power state, capacity, voltage, and the amount of current flowing at the time of the request.
 
-If the miniclass driver does not supply fully functional <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a> and <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_disable_status_notify_callback">BatteryMiniDisableStatusNotify</a> routines, the battery class driver calls <i>BatteryMiniQueryStatus</i> at regular but infrequent intervals to poll the battery's status. Otherwise, the class driver calls this routine after the miniclass driver has notified it of a change in battery status.
+If the miniclass driver does not supply fully functional <a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a> and <a href="/windows/desktop/api/batclass/nc-batclass-bclass_disable_status_notify_callback">BatteryMiniDisableStatusNotify</a> routines, the battery class driver calls <i>BatteryMiniQueryStatus</i> at regular but infrequent intervals to poll the battery's status. Otherwise, the class driver calls this routine after the miniclass driver has notified it of a change in battery status.
 
 Before reporting a critically low, discharging battery (BATTERY_DISCHARGING and BATTERY_CRITICAL), the miniclass driver should ensure that the problem is legitimate (rather than a transitory state) and if so, should attempt to solve the problem. Possible solutions might include switching to AC power or to another battery. When the miniclass driver reports that a battery is critical and discharging, the system assumes that battery failure is imminent and prepares to shut down.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassstatusnotify">BatteryClassStatusNotify</a>
+<a href="/windows/desktop/api/batclass/nf-batclass-batteryclassstatusnotify">BatteryClassStatusNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_disable_status_notify_callback">BatteryMiniDisableStatusNotify</a>
+<a href="/windows/desktop/api/batclass/nc-batclass-bclass_disable_status_notify_callback">BatteryMiniDisableStatusNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>
-
+<a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that create a destination Shell item for a copy or move operation. This interface is provided to allow more control over file operations by providing an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">ITransferDestination::Advise</a> method.
+Exposes methods that create a destination Shell item for a copy or move operation. This interface is provided to allow more control over file operations by providing an <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">ITransferDestination::Advise</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransferDestination</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransferDestination</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransferDestination</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransferDestination</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITransferDestination</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">Advise</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Sets up an advisory connection for notifications on the status of file operations.
@@ -78,7 +78,7 @@ Sets up an advisory connection for notifications on the status of file operation
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-createitem">CreateItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-createitem">CreateItem</a>
 </td>
 <td align="left" width="63%">
 Creates the specified file.
@@ -87,7 +87,7 @@ Creates the specified file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-unadvise">Unadvise</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Terminates an advisory connection.
@@ -98,5 +98,4 @@ Terminates an advisory connection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource">ITransferSource</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource">ITransferSource</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CESSetupProperty</b> enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a> and <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a> methods on the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> interface to specify the type of property information to retrieve or set.
+The <b>CESSetupProperty</b> enumeration type is used by the <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a> and <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a> methods on the <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> interface to specify the type of property information to retrieve or set.
 
 ## -enum-fields
 
@@ -84,13 +84,12 @@ The property value specifies whether CES can process only certificate renewals.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
+<a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a>
-
+<a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a>

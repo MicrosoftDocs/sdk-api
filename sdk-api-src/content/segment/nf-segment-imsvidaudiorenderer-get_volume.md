@@ -68,13 +68,12 @@ Full volume is 0 and silence is –10,000. Divide by 100 to get the equivalent d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicaudio-get_volume">IBasicAudio::get_Volume</a>
+<a href="/windows/desktop/api/control/nf-control-ibasicaudio-get_volume">IBasicAudio::get_Volume</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_volume">IMSVidAudioRenderer::put_Volume</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_volume">IMSVidAudioRenderer::put_Volume</a>

@@ -74,5 +74,4 @@ The <i>iField</i> parameter is based on 1 (one).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Record Processing Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Record Processing Functions</a>

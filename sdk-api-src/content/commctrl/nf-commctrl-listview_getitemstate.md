@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the state of a list-view item. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemstate">LVM_GETITEMSTATE</a> message explicitly.
+Gets the state of a list-view item. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getitemstate">LVM_GETITEMSTATE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -68,7 +68,7 @@ The index of the list-view item.
 
 ### -param mask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The state information to retrieve. This parameter can be a combination of the following values: 
 
@@ -145,5 +145,4 @@ An item's state information includes a set of bit flags as well as image list in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemstate">ListView_SetItemState</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setitemstate">ListView_SetItemState</a>

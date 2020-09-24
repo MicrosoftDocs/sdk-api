@@ -74,19 +74,18 @@ The number of members in the <a href="/windows/win32/api/mmdeviceapi/ne-mmdevice
 
 ## -remarks
 
-The <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a> methods use the constants defined in the <b>ERole</b> enumeration.
+The <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a> and <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a> methods use the constants defined in the <b>ERole</b> enumeration.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles">Device Roles</a>.
+For more information, see <a href="/windows/desktop/CoreAudio/device-roles">Device Roles</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
+<a href="/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a>
-
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a>

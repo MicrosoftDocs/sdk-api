@@ -73,16 +73,16 @@ The user-mode path to be associated with the volume. This may be a drive letter 
 A volume <b>GUID</b> path for the volume. This string must be of the form 
       "\\\\?\\Volume{<i>GUID</i>}\\" where <i>GUID</i> is a <b>GUID</b> that identifies 
       the volume. The "\\\\?\\" turns off path parsing and is ignored as part of the path, as discussed in 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
+      <a href="/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the <i>lpszVolumeMountPoint</i> parameter contains a path to a mounted folder, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_DIR_NOT_EMPTY</b>, even if the directory is empty.
+If the <i>lpszVolumeMountPoint</i> parameter contains a path to a mounted folder, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_DIR_NOT_EMPTY</b>, even if the directory is empty.
 
 ## -remarks
 
@@ -94,7 +94,7 @@ It is an error to associate a volume with a directory that has any files or subd
 
 When mounted folders are created on a volume on a clustered disk, they may be deleted unexpectedly under certain 
     circumstances. For information on how to create and configure mounted folders to ensure that this does not happen, 
-    see <a href="https://technet.microsoft.com/library/cc757627.aspx">Cluster Disk and Drive Connection Problems</a>.
+    see <a href="/previous-versions/windows/it-pro/windows-server-2003/cc757627(v=ws.10)">Cluster Disk and Drive Connection Problems</a>.
 
 IIn Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -162,7 +162,7 @@ SMB does not support volume management functions. For CsvFS a new mount point wi
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/mounting-a-volume-at-a-mount-point">Creating a Mounted Folder</a>.
+     <a href="/windows/desktop/FileIO/mounting-a-volume-at-a-mount-point">Creating a Mounted Folder</a>.
 
 <div class="code"></div>
 
@@ -174,21 +174,20 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
+<a href="/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

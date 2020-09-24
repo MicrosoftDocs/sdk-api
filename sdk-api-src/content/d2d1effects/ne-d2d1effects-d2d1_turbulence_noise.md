@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The turbulence noise mode for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/turbulence">Turbulence effect</a>. 
+The turbulence noise mode for the <a href="/windows/desktop/Direct2D/turbulence">Turbulence effect</a>. 
         Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function.
 
 ## -enum-fields
@@ -64,4 +64,3 @@ Computes a sum of the octaves, shifting the output range from [-1, 1], to [0, 1]
 Computes a sum of the absolute value of each octave.
 
 ### -field D2D1_TURBULENCE_NOISE_FORCE_DWORD
-

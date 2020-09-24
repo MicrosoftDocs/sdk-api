@@ -58,7 +58,7 @@ Changes this range to the specified unit of the story.
 
 Type: <b>long</b>
 
-Unit used to index the range. For a list of unit values, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>.
+Unit used to index the range. For a list of unit values, see <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>.
 
 ### -param Index [in]
 
@@ -76,7 +76,7 @@ Flag that indicates the extent of the range. If zero (the default), the range is
 
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ This method allows an application to work with line-oriented text, such as progr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -136,5 +136,4 @@ This method allows an application to work with line-oriented text, such as progr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

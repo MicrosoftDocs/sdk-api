@@ -65,13 +65,12 @@ The LiveSetting property is supported by provider elements that are part of a li
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_cachedlivesetting">CachedLiveSetting</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_cachedlivesetting">CachedLiveSetting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-livesetting">LiveSetting</a>
-
+<a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-livesetting">LiveSetting</a>

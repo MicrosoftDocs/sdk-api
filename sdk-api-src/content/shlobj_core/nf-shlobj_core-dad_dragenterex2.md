@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>DAD_DragEnterEx2</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragenter">ImageList_DragEnter</a> instead.]
+<p class="CCE_Message">[<b>DAD_DragEnterEx2</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragenter">ImageList_DragEnter</a> instead.]
 
 Locks updates to the specified window during a drag-and-drop operation and displays the drag image at the specified position within the window.
 
@@ -66,15 +66,15 @@ A handle to the window that owns the drag image.
 
 ### -param ptStart
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b>const <a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 Specifies the coordinates at which to begin displaying the drag image. The coordinates are relative to the upper-left corner of the window, not the client area.
 
 ### -param pdtObject [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object. This data object contains the data being transferred in the drag-and-drop operation. If the drop occurs, this data object will be incorporated into the target. This parameter may be <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object. This data object contains the data being transferred in the drag-and-drop operation. If the drop occurs, this data object will be incorporated into the target. This parameter may be <b>NULL</b>.
 
 ## -returns
 
@@ -84,9 +84,8 @@ Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex">DAD_DragEnterEx</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex">DAD_DragEnterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragenter">ImageList_DragEnter</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragenter">ImageList_DragEnter</a>

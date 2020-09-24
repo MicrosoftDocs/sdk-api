@@ -54,21 +54,21 @@ api_name:
 
 The <b>FWPS_DISCARD_METADATA0</b> structure describes the data that was discarded by the filter engine, a
   network layer, or a transport layer.
-<div class="alert"><b>Note</b>  <b>FWPS_DISCARD_METADATA0</b> is a specific version of <b>FWPS_DISCARD_METADATA</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_DISCARD_METADATA0</b> is a specific version of <b>FWPS_DISCARD_METADATA</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
 ### -field discardModule
 
 An 
-     [FWPS_DISCARD_MODULE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ne-fwpstypes-fwps_discard_module0) type that indicates
+     [FWPS_DISCARD_MODULE0](/windows/desktop/api/fwpstypes/ne-fwpstypes-fwps_discard_module0) type that indicates
      the type of module that discarded the data.
 
 ### -field discardReason
 
 A UINT32 value that specifies why the data was discarded. For a description of the discard reason
      identifiers for each type of module, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/discard-reason-identifiers">Discard Reason Identifiers</a>.
+     <a href="/windows-hardware/drivers/network/discard-reason-identifiers">Discard Reason Identifiers</a>.
 
 ### -field filterId
 
@@ -80,18 +80,17 @@ A UINT64 value that specifies the run-time identifier for the filter in the filt
 The FWPS_DISCARD_METADATA0 structure contains valid data only if the
     FWPS_METADATA_FIELD_DISCARD_REASON flag is set in the 
     <b>currentMetadataValues</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function.
+    <a href="/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
+    <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function.
 
 ## -see-also
 
-[FWPS_DISCARD_MODULE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ne-fwpstypes-fwps_discard_module0)
+[FWPS_DISCARD_MODULE0](/windows/desktop/api/fwpstypes/ne-fwpstypes-fwps_discard_module0)
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a>
+<a href="/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
-
+<a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>

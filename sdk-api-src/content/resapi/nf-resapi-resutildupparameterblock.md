@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Performs a member-wise copy of the data from one  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a> to another.
+Performs a member-wise copy of the data from one  <a href="/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a> to another.
 
 ## -parameters
 
@@ -64,24 +64,23 @@ Pointer to the original parameter block.
 
 ### -param pPropertyTable [in]
 
-Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures describing properties in the original parameter block.
+Pointer to an array of  <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures describing properties in the original parameter block.
 
 ## -returns
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-<b>ResUtilDupParameterBlock</b> copies data only for parameter block members referenced in the <i>pPropertyTable</i> input parameter. If a variable in the input parameter block is a pointer, memory for the data is allocated with the function  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. You should deallocate this memory by calling either  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> for each pointer variable in the output parameter block or  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfreeparameterblock">ResUtilFreeParameterBlock</a>. Make sure that you deallocate memory whether  <b>ResUtilDupParameterBlock</b> succeeds or fails. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-parameter-blocks">Using Parameter Blocks</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-lists-and-tables">Using Lists and Tables</a>.
+<b>ResUtilDupParameterBlock</b> copies data only for parameter block members referenced in the <i>pPropertyTable</i> input parameter. If a variable in the input parameter block is a pointer, memory for the data is allocated with the function  <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. You should deallocate this memory by calling either  <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> for each pointer variable in the output parameter block or  <a href="/windows/desktop/api/resapi/nf-resapi-resutilfreeparameterblock">ResUtilFreeParameterBlock</a>. Make sure that you deallocate memory whether  <b>ResUtilDupParameterBlock</b> succeeds or fails. For more information, see  <a href="/previous-versions/windows/desktop/mscs/using-parameter-blocks">Using Parameter Blocks</a> and  <a href="/previous-versions/windows/desktop/mscs/using-lists-and-tables">Using Lists and Tables</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfreeparameterblock">ResUtilFreeParameterBlock</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilfreeparameterblock">ResUtilFreeParameterBlock</a>

@@ -51,25 +51,25 @@ api_name:
 
 ## -description
 
-The <b>SetContext</b> method specifies the request  to be used as the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> for subsequent calls to Certificate Services.
+The <b>SetContext</b> method specifies the request  to be used as the <a href="/windows/desktop/SecGloss/c-gly">context</a> for subsequent calls to Certificate Services.
 
 ## -parameters
 
 ### -param Context [in]
 
 Specifies the request. This  parameter must be set to the identical value returned in the  <i>Context</i> parameter of the  
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy::VerifyRequest</a> method.
+<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy::VerifyRequest</a> method.
 
 ## -returns
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-The policy module must call the <b>SetContext</b> method first, before calls to any other <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a> method,  so that the interface  references a valid request.
+The policy module must call the <b>SetContext</b> method first, before calls to any other <a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a> method,  so that the interface  references a valid request.
 
 
 #### Examples
@@ -89,9 +89,8 @@ if (FAILED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy::VerifyRequest</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy::VerifyRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
-
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>

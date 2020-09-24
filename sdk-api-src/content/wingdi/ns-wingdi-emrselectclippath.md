@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectclippath">SelectClipPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setrop2">SetROP2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a> , and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a> enhanced metafile records.
+Contains parameters for the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectclippath">SelectClipPath</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-setrop2">SetROP2</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a> , and <a href="/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -68,41 +68,40 @@ A value and meaning that varies depending on the function contained in the enhan
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectclippath">SelectClipPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectclippath">SelectClipPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setrop2">SetROP2</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setrop2">SetROP2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>

@@ -60,7 +60,7 @@ The initial HTTP request object
 
 ### -param pResponseStream [in, optional]
 
-The response stream being received. The client can call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> to begin processing the data, or it can store a reference to <i>pResponseStream</i> for later processing. This response stream is wrapped in a stream synchronization object that prevents concurrent read and write operations, so the application does not need to implement custom synchronization.
+The response stream being received. The client can call <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> to begin processing the data, or it can store a reference to <i>pResponseStream</i> for later processing. This response stream is wrapped in a stream synchronization object that prevents concurrent read and write operations, so the application does not need to implement custom synchronization.
 
 ## -returns
 
@@ -71,17 +71,16 @@ Returns <b>S_OK</b> on success.
 
 ## -remarks
 
-When this event fires the application can begin processing data from the HTTP response. Processing may begin before this event fires if an earlier <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-ondataavailable">OnDataAvailable</a> event has occurred.
+When this event fires the application can begin processing data from the HTTP response. Processing may begin before this event fires if an earlier <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-ondataavailable">OnDataAvailable</a> event has occurred.
 
-Unless <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> is called, the call to <b>OnResponseReceived</b> is the final callback. The client should perform any required cleanup including releasing references to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> object.
+Unless <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> is called, the call to <b>OnResponseReceived</b> is the final callback. The client should perform any required cleanup including releasing references to the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> object.
 
-Custom streams receive a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> specifying 0 bytes written before <b>OnResponseReceived</b> is fired. The client can process data directly from the Write call instead of calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> on the custom stream, and it can rely on the zero-byte Write call to indicate that the response has been received.
+Custom streams receive a call to <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> specifying 0 bytes written before <b>OnResponseReceived</b> is fired. The client can process data directly from the Write call instead of calling <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> on the custom stream, and it can rely on the zero-byte Write call to indicate that the response has been received.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream Interface</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>
-
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>

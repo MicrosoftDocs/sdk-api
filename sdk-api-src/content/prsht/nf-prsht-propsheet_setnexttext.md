@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Sets the text of the <b>Next</b> button in a wizard. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setnexttext">PSM_SETNEXTTEXT</a> message explicitly.
+Sets the text of the <b>Next</b> button in a wizard. You can use this macro or send the <a href="/windows/desktop/Controls/psm-setnexttext">PSM_SETNEXTTEXT</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard.
 
 ### -param lpszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Pointer to a buffer that contains the text.
-

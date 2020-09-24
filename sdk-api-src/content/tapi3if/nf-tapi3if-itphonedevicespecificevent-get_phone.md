@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_Phone</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface pointer for a phone device event.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface pointer for a phone device event.
 
 ## -parameters
 
 ### -param ppPhone [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface for the phone object involved in the event.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface for the phone object involved in the event.
 
 ## -returns
 
@@ -107,9 +107,8 @@ The <i>ppPhone</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphonedevicespecificevent">ITPhoneDeviceSpecificEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphonedevicespecificevent">ITPhoneDeviceSpecificEvent</a>

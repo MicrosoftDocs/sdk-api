@@ -56,7 +56,7 @@ The writer network sink object exposes this interface. You can retrieve a pointe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMClientConnections</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMClientConnections</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMClientConnections</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMClientConnections</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMClientConnections</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmclientconnections-getclientcount">GetClientCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmclientconnections-getclientcount">GetClientCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of connected clients.
@@ -80,7 +80,7 @@ Retrieves the number of connected clients.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmclientconnections-getclientproperties">GetClientProperties</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmclientconnections-getclientproperties">GetClientProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves information, including the IP address and protocol, about a connected client.
@@ -97,25 +97,25 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections2">IWMClientConnections2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections2">IWMClientConnections2</a>
 </td>
 <td>IID_IWMClientConnections2</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback">IWMRegisterCallback</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback">IWMRegisterCallback</a>
 </td>
 <td>IID_IWMRegisterCallback</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink</a>
 </td>
 <td>IID_IWMWriterNetworkSink</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a>
 </td>
 <td>IID_IWMWriterSink</td>
 </tr>
@@ -123,13 +123,12 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections2">IWMClientConnections2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections2">IWMClientConnections2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>
-
+<a href="/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>

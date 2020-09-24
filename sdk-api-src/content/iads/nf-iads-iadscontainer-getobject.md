@@ -65,19 +65,19 @@ A <b>BSTR</b> that specifies the relative distinguished name of the object to re
 
 ### -param ppObject [out]
 
-A pointer to a pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the specified object.
+A pointer to a pointer to the  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the specified object.
 
 ## -returns
 
-This method supports standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
 For the LDAP provider, the <i>bstrRelativeName</i> parameter must contain the name prefix, such as "CN=Jeff Smith". The <i>bstrRelativeName</i> parameter can also contain more than one level of name, such as "CN=Jeff Smith,OU=Sales".
 
-In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the desired interface using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method.
+In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the desired interface using the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method.
 
-The <i>bstrClassName</i> parameter can be either a valid class name or <b>NULL</b>. If the class name is not valid, including when it contains a blank space, this method will throw an <a href="https://docs.microsoft.com/windows/desktop/ADSI/generic-adsi-error-codes">E_ADS_UNKNOWN_OBJECT</a> error.
+The <i>bstrClassName</i> parameter can be either a valid class name or <b>NULL</b>. If the class name is not valid, including when it contains a blank space, this method will throw an <a href="/windows/desktop/ADSI/generic-adsi-error-codes">E_ADS_UNKNOWN_OBJECT</a> error.
 
 
 #### Examples
@@ -158,16 +158,16 @@ CoUninitialize();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error
   Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
@@ -179,9 +179,8 @@ CoUninitialize();
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

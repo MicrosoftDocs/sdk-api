@@ -93,7 +93,7 @@ There is no active sink object.
 
 ## -remarks
 
-Every call to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-advisesink">ITextStoreAnchor::AdviseSink</a> method, which registers a new sink object, should be matched by a call to this method. Calls to the <b>ITextStoreAnchor::AdviseSink</b> method that only update the <i>dwMask</i> parameter of a sink which was previously registered, do not require a call to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-unadvisesink">ITextStoreAnchor::UnadviseSink</a> method.
+Every call to the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-advisesink">ITextStoreAnchor::AdviseSink</a> method, which registers a new sink object, should be matched by a call to this method. Calls to the <b>ITextStoreAnchor::AdviseSink</b> method that only update the <i>dwMask</i> parameter of a sink which was previously registered, do not require a call to the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-unadvisesink">ITextStoreAnchor::UnadviseSink</a> method.
 
 For example, to register a sink object, an application calls the <b>ITextStoreAnchor::AdviseSink</b> method the first time. After registering the sink object, the application can call the <b>ITextStoreAnchor::AdviseSink</b> method again with the same sink object to change the <i>dwMask</i> parameter. To unregister the sink object, an application calls the <b>ITextStoreAnchor::UnadviseSink</b> method.
 
@@ -101,10 +101,9 @@ The <i>punk</i> parameter must have the same COM identity as the pointer origina
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-advisesink">ITextStoreACP::AdviseSink
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-advisesink">ITextStoreACP::AdviseSink
       </a>
-

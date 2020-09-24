@@ -19,5 +19,4 @@ To develop Bluetooth Devices Reference, you need these headers:
  * [bthledef.h](../bthledef/index.md)
 
 For programming guidance for this technology, see:
-* [Bluetooth Devices Reference](https://docs.microsoft.com/windows-hardware/drivers/bluetooth/)
-
+* [Bluetooth Devices Reference](/windows-hardware/drivers/bluetooth/)

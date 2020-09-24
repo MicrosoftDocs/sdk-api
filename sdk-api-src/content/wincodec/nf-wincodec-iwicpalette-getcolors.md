@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-getcolorcount">GetColorCount</a>.
+Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-getcolorcount">GetColorCount</a>.
 
 ## -parameters
 
@@ -77,4 +77,3 @@ The actual size needed to obtain the palette colors.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

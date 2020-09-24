@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITToneDetectionEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITToneDetectionEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITToneDetectionEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITToneDetectionEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITToneDetectionEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittonedetectionevent-get_appspecific">get_AppSpecific</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittonedetectionevent-get_appspecific">get_AppSpecific</a>
 </td>
 <td align="left" width="63%">
 Gets the application-defined tag that identifies the tone.
@@ -79,17 +79,17 @@ Gets the application-defined tag that identifies the tone.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittonedetectionevent-get_call">get_Call</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittonedetectionevent-get_call">get_Call</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface for the call on which the event occurred.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface for the call on which the event occurred.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittonedetectionevent-get_callbackinstance">get_CallbackInstance</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittonedetectionevent-get_callbackinstance">get_CallbackInstance</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the application's callback function that will process the event.
@@ -98,7 +98,7 @@ Gets a pointer to the application's callback function that will process the even
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittonedetectionevent-get_tickcount">get_TickCount</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittonedetectionevent-get_tickcount">get_TickCount</a>
 </td>
 <td align="left" width="63%">
 Gets the "tick count" (number of milliseconds since Windows started) at which the tone was detected.
@@ -107,7 +107,7 @@ Gets the "tick count" (number of milliseconds since Windows started) at which th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733258(v=vs.85)">get_ToneListID</a>
+<a href="/previous-versions/windows/desktop/legacy/ms733258(v=vs.85)">get_ToneListID</a>
 </td>
 <td align="left" width="63%">
 Gets the tone list ID for the tone that was detected.
@@ -115,4 +115,3 @@ Gets the tone list ID for the tone that was detected.
 </td>
 </tr>
 </table>
-

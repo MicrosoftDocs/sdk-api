@@ -60,11 +60,11 @@ The <b>VARIANT</b> that contains the index or name of the property to be retriev
 
 ### -param pVariant [in, out]
 
-Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer to the object which implements the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> interface for the attribute retrieved.
+Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer to the object which implements the  <a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> interface for the attribute retrieved.
 
 ## -returns
 
-This method supports the standard HRESULT return values, including S_OK. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard HRESULT return values, including S_OK. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -113,7 +113,7 @@ Cleanup:
 ```
 
 
-The following code example shows how to retrieve the <b>Owner</b> property of a computer using the <b>IADsPropertyList::Item</b> method. For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>.
+The following code example shows how to retrieve the <b>Owner</b> property of a computer using the <b>IADsPropertyList::Item</b> method. For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>.
 
 
 ```cpp
@@ -189,21 +189,20 @@ if(pEntry)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
+<a href="/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

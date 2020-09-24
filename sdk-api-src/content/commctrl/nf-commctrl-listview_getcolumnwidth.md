@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the width of a column in report or list view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getcolumnwidth">LVM_GETCOLUMNWIDTH</a> message explicitly.
+Gets the width of a column in report or list view. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getcolumnwidth">LVM_GETCOLUMNWIDTH</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -65,4 +65,3 @@ A handle to the list-view control.
 Type: <b>int</b>
 
 The index of the column. This parameter is ignored in list view.
-

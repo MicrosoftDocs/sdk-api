@@ -60,7 +60,7 @@ Handle to the surface to be locked.
 
 ## -returns
 
-<b>EngLockDirectDrawSurface</b> returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface information upon success. Otherwise, it returns a <b>NULL</b> pointer.
+<b>EngLockDirectDrawSurface</b> returns a pointer to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface information upon success. Otherwise, it returns a <b>NULL</b> pointer.
 
 ## -remarks
 
@@ -68,13 +68,12 @@ Handle to the surface to be locked.
 
 Currently, the driver receives DirectDraw surface handles only from the Direct3D texturing interface. Consequently, only drivers that perform texturing need to lock texture surfaces.
 
-Upon completion of texturing, the driver must release the locked handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunlockdirectdrawsurface">EngUnlockDirectDrawSurface</a>.
+Upon completion of texturing, the driver must release the locked handle by calling <a href="/windows/desktop/api/winddi/nf-winddi-engunlockdirectdrawsurface">EngUnlockDirectDrawSurface</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunlockdirectdrawsurface">EngUnlockDirectDrawSurface</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engunlockdirectdrawsurface">EngUnlockDirectDrawSurface</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the timeout interval between the time a change takes place in the filter attributes and the posting of an <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-filterchange">HDN_FILTERCHANGE</a> notification. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-setfilterchangetimeout">HDM_SETFILTERCHANGETIMEOUT</a> message explicitly.
+Sets the timeout interval between the time a change takes place in the filter attributes and the posting of an <a href="/windows/desktop/Controls/hdn-filterchange">HDN_FILTERCHANGE</a> notification. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-setfilterchangetimeout">HDM_SETFILTERCHANGETIMEOUT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
@@ -68,13 +68,12 @@ The timeout value, in milliseconds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-setfilterchangetimeout">HDM_SETFILTERCHANGETIMEOUT</a>
+<a href="/windows/desktop/Controls/hdm-setfilterchangetimeout">HDM_SETFILTERCHANGETIMEOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-filterchange">HDN_FILTERCHANGE</a>
+<a href="/windows/desktop/Controls/hdn-filterchange">HDN_FILTERCHANGE</a>
 
 
 
 <b>Reference</b>
-

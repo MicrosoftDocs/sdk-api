@@ -56,7 +56,7 @@ Loads data from an input stream using the given parameters.
 
 ### -param pIStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 Pointer to the input stream.
 
@@ -70,7 +70,7 @@ Pointer to the GUID of the preferred vendor .
 
 Type: <b>DWORD</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a> used to load the stream.
+The <a href="/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a> used to load the stream.
 
 ## -returns
 
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 NULL can be passed in for <i>pguidPreferredVendor</i> to indicate no preference.
-

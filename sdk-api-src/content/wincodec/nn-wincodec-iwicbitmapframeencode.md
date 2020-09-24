@@ -54,7 +54,7 @@ Represents an encoder's individual image frames.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapFrameEncode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapFrameEncode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapFrameEncode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapFrameEncode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICBitmapFrameEncode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-commit">Commit</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Commits the frame to the image.
@@ -78,7 +78,7 @@ Commits the frame to the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-getmetadataquerywriter">GetMetadataQueryWriter</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-getmetadataquerywriter">GetMetadataQueryWriter</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata query writer for the encoder frame.
@@ -87,7 +87,7 @@ Gets the metadata query writer for the encoder frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-initialize">Initialize</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the frame encoder using the given properties.
@@ -96,25 +96,25 @@ Initializes the frame encoder using the given properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setcolorcontexts">SetColorContexts</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setcolorcontexts">SetColorContexts</a>
 </td>
 <td align="left" width="63%">
-Sets a given number <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> profiles to the frame.
+Sets a given number <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> profiles to the frame.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setpalette">SetPalette</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setpalette">SetPalette</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> for indexed pixel formats.
+Sets the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> for indexed pixel formats.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setpixelformat">SetPixelFormat</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setpixelformat">SetPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Requests that the encoder use the specified pixel format.
@@ -123,7 +123,7 @@ Requests that the encoder use the specified pixel format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setresolution">SetResolution</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setresolution">SetResolution</a>
 </td>
 <td align="left" width="63%">
 Sets the physical resolution of the output image.
@@ -132,7 +132,7 @@ Sets the physical resolution of the output image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setsize">SetSize</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setsize">SetSize</a>
 </td>
 <td align="left" width="63%">
 Sets the output image dimensions for the frame.
@@ -141,7 +141,7 @@ Sets the output image dimensions for the frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setthumbnail">SetThumbnail</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setthumbnail">SetThumbnail</a>
 </td>
 <td align="left" width="63%">
 Sets the frame thumbnail if supported by the codec.
@@ -150,7 +150,7 @@ Sets the frame thumbnail if supported by the codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writepixels">WritePixels</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writepixels">WritePixels</a>
 </td>
 <td align="left" width="63%">
 Encodes the frame scanlines.
@@ -159,7 +159,7 @@ Encodes the frame scanlines.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writesource">WriteSource</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writesource">WriteSource</a>
 </td>
 <td align="left" width="63%">
 Encodes a bitmap source.
@@ -170,7 +170,7 @@ Encodes a bitmap source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>
+<a href="/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>
 
 
 
@@ -178,7 +178,7 @@ Encodes a bitmap source.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
+<a href="/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
 
 
 
@@ -186,9 +186,8 @@ Encodes a bitmap source.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
+<a href="/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
-
+<a href="/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>

@@ -53,11 +53,11 @@ api_name:
 ## -description
 
 Represents the order in which current batch command data is sent to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchreadcommand">ClusterRegBatchReadCommand</a> 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchreadcommand">ClusterRegBatchReadCommand</a> 
     function. Values in the 
     <b>CLUSTER_BATCH_COMMAND</b> structure are identical to 
     parameters passed to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a> function. The only 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a> function. The only 
     difference is that for <b>CLUSREG_DELETE_VALUE</b>, the <b>dwOptions</b>, 
     <b>lpData</b>, and <b>cbData</b> members are set to the value being 
     deleted, similar to the <b>CLUSREG_SET_VALUE</b> command.
@@ -67,7 +67,7 @@ Represents the order in which current batch command data is sent to the
 ### -field Command
 
 A command that is supported by this API and taken from the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a> enumeration. The possible 
+       <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a> enumeration. The possible 
        commands are as follows.
 
 
@@ -76,7 +76,7 @@ A command that is supported by this API and taken from the
 
 Sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not 
          provided) relative to a key passed into the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
+         <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
 
 
 
@@ -98,7 +98,7 @@ Deletes a key with all values and nested subkeys.  No commands that operate on v
 
 Deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if 
          not provided) relative to a key passed into the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
+         <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
 
 
 
@@ -112,7 +112,7 @@ Indicates whether a  specific cluster registry value has been deleted or if the 
 If the <b>Command</b> member takes either the 
        <b>CLUSREG_SET_VALUE</b> command or the <b>CLUSREG_DELETE_VALUE</b> 
        command, then this member takes one of the standard 
-       <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">registry value types</a>. If not, then 
+       <a href="/windows/desktop/SysInfo/registry-value-types">registry value types</a>. If not, then 
        <b>Command</b> is set to 0.
 
 ### -field wzName
@@ -136,30 +136,29 @@ The count, in bytes, of the data relative to the command issued by <b>Command</b
 
 The <b>wzName</b> and <b>lpData</b> pointers are valid until the batch 
      notification is closed via the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchclosenotification">ClusterRegBatchCloseNotification</a> 
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchclosenotification">ClusterRegBatchCloseNotification</a> 
      function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a>
+<a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchclosenotification">ClusterRegBatchCloseNotification</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchclosenotification">ClusterRegBatchCloseNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchreadcommand">ClusterRegBatchReadCommand</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchreadcommand">ClusterRegBatchReadCommand</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-structures">Failover Cluster Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-structures">Failover Cluster Structures</a>

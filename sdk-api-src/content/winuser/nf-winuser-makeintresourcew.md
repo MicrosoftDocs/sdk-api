@@ -71,5 +71,4 @@ The return value should be passed only to functions which explicitly indicate th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources Overview</a>
-
+<a href="/windows/desktop/menurc/resources">Resources Overview</a>

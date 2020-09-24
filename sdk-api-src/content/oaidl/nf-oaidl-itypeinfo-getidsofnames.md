@@ -117,7 +117,7 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-The function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a> maps the name of a member (<b>rgszNames</b>[0]) and its parameters (<b>rgszNames</b>[1] ...<b>rgszNames</b>[<b>cNames</b>- 1]) to the ID of the member (<b>pMemId</b>[0]), and to the IDs of the specified parameters (<b>pMemId</b>[1] ... <b>pMemId</b>[<b>cNames</b>- 1]). The IDs of parameters are 0 for the first parameter in the member function's argument list, 1 for the second, and so on.
+The function <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a> maps the name of a member (<b>rgszNames</b>[0]) and its parameters (<b>rgszNames</b>[1] ...<b>rgszNames</b>[<b>cNames</b>- 1]) to the ID of the member (<b>pMemId</b>[0]), and to the IDs of the specified parameters (<b>pMemId</b>[1] ... <b>pMemId</b>[<b>cNames</b>- 1]). The IDs of parameters are 0 for the first parameter in the member function's argument list, 1 for the second, and so on.
 
 
 
@@ -125,5 +125,4 @@ If the type description inherits from another type description, this function is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

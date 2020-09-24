@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSetSpeed</b> macro sets the playback speed of an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setspeed">MCIWNDM_SETSPEED</a> message.
+The <b>MCIWndSetSpeed</b> macro sets the playback speed of an MCI device. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-setspeed">MCIWNDM_SETSPEED</a> message.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param iSpeed
 
 Playback speed. Specify 1000 for normal speed, larger values for faster speeds, and smaller values for slower speeds.
-

@@ -56,7 +56,7 @@ Returns a <b>double</b> value from an attribute store, or a default value if the
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 ### -param guidKey [in]
 
@@ -74,17 +74,16 @@ Returns a <b>double</b> value.
 
 This helper function queries the attribute store for the attribute specified by <i>guidKey</i>. If the attribute is not present or does not have type <b>double</b>, the function returns <i>fDefault</i>.
 
-This function is convenient because it never returns a failure code. However, if the attribute in question does not have a meaningful default value, you should call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getdouble">IMFAttributes::GetDouble</a> and check for MF_E_ATTRIBUTENOTFOUND.
+This function is convenient because it never returns a failure code. However, if the attribute in question does not have a meaningful default value, you should call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getdouble">IMFAttributes::GetDouble</a> and check for MF_E_ATTRIBUTENOTFOUND.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getdouble">IMFAttributes::GetDouble</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getdouble">IMFAttributes::GetDouble</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Represents the properties of a cluster resource. This structure is used to enumerate cluster resources in the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a> function.
+Represents the properties of a cluster resource. This structure is used to enumerate cluster resources in the <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a> function.
 
 ## -struct-fields
 
@@ -110,7 +110,6 @@ A pointer to a list of names of read-only common properties.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a>
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

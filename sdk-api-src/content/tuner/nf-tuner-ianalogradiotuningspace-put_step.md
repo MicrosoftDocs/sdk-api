@@ -64,5 +64,4 @@ Returns E_NOTIMPL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace Interface</a>

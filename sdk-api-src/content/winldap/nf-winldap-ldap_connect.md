@@ -56,47 +56,46 @@ The <b>ldap_connect</b> function establishes a connection with the server.
 
 ### -param ld [in]
 
-The session handle obtained from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a>.
+The session handle obtained from <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a>.
 
 ### -param timeout [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_timeval">LDAP_TIMEVAL</a> structure that specifies the number of seconds to spend in an attempt to establish a connection before a timeout. If <b>NULL</b>, the function uses a default timeout value.
+A pointer to an <a href="/windows/win32/api/winldap/ns-winldap-ldap_timeval">LDAP_TIMEVAL</a> structure that specifies the number of seconds to spend in an attempt to establish a connection before a timeout. If <b>NULL</b>, the function uses a default timeout value.
 
 ## -returns
 
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
-If the function fails, an error code is returned. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
+If the function fails, an error code is returned. For more information, see <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 ## -remarks
 
-Although it is not required that a client call <b>ldap_connect</b> to establish a connection to the server, it is good programming practice to do so. If the connection does not exist, other functions, for example,  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a>, perform the call internally. However, if you have to troubleshoot this part of your application, establishing the connection prior to making the call to some other function, for example <b>ldap_bind_s</b>, will also separate the possible problems if the connection fails. Alternately,  you can specify additional options on the connection block. For example, a client can call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a> to initialize a session, then call 
+Although it is not required that a client call <b>ldap_connect</b> to establish a connection to the server, it is good programming practice to do so. If the connection does not exist, other functions, for example,  <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a>, perform the call internally. However, if you have to troubleshoot this part of your application, establishing the connection prior to making the call to some other function, for example <b>ldap_bind_s</b>, will also separate the possible problems if the connection fails. Alternately,  you can specify additional options on the connection block. For example, a client can call 
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a> to initialize a session, then call 
 <b>ldap_connect</b>, with a non-<b>NULL</b> timeout parameter value, to connect to the server with a specified time-out.
 
-If the call to <b>ldap_connect</b> succeeds, the client is connected to the LDAP server as an  anonymous user. The session handle should be freed with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> when it is no longer required.
+If the call to <b>ldap_connect</b> succeeds, the client is connected to the LDAP server as an  anonymous user. The session handle should be freed with a call to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> when it is no longer required.
 
-If the <b>ldap_connect</b> call fails, the session handle should be freed with a call to  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> when no longer required for error recovery.
+If the <b>ldap_connect</b> call fails, the session handle should be freed with a call to  <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> when no longer required for error recovery.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/establishing-an-ldap-session">Establishing an LDAP Session</a>
+<a href="/previous-versions/windows/desktop/ldap/establishing-an-ldap-session">Establishing an LDAP Session</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_timeval">LDAP_TIMEVAL</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_timeval">LDAP_TIMEVAL</a>
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a>
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a>
 
+
+
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>

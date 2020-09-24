@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/uwp/api/windows.foundation.imemorybuffer">IMemoryBuffer</a> as an array of bytes.
+Gets an <a href="/uwp/api/windows.foundation.imemorybuffer">IMemoryBuffer</a> as an array of bytes.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-When <a href="https://docs.microsoft.com/uwp/api/windows.foundation.memorybuffer.close">MemoryBuffer::Close</a> is called, the code using this buffer should set the <i>value</i> pointer to null.
+When <a href="/uwp/api/windows.foundation.memorybuffer.close">MemoryBuffer::Close</a> is called, the code using this buffer should set the <i>value</i> pointer to null.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/mt297505(v=vs.85)">IMemoryBufferByteAccess</a>
-
+<a href="/previous-versions/mt297505(v=vs.85)">IMemoryBufferByteAccess</a>

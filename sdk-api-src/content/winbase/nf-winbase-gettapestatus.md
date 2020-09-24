@@ -58,7 +58,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device for which to get the device status. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ## -returns
 
@@ -267,5 +267,4 @@ The media is write protected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>

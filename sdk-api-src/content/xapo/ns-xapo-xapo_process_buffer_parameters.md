@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines stream buffer parameters that may change from one call to the next. Used with the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">Process</a> method.
+Defines stream buffer parameters that may change from one call to the next. Used with the <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-process">Process</a> method.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Pointer to a stream buffer that contains audio data. The buffer must be 16-byte 
 
 ### -field BufferFlags
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ne-xapo-xapo_buffer_flags">XAPO_BUFFER_FLAGS</a> enumeration describing the contents of the stream buffer.
+An <a href="/windows/desktop/api/xapo/ne-xapo-xapo_buffer_flags">XAPO_BUFFER_FLAGS</a> enumeration describing the contents of the stream buffer.
 
 ### -field ValidFrameCount
 
@@ -79,5 +79,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

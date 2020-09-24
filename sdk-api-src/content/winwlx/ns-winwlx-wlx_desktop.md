@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The WLX_DESKTOP structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WLX_DESKTOP</b> structure is used to pass desktop information between your <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a>.
+The <b>WLX_DESKTOP</b> structure is used to pass desktop information between your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL and <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a>.
 
 ## -struct-fields
 
@@ -97,7 +97,7 @@ Indicates that the handle specified in <b>hDesktop</b> is valid.
 
 ### -field hDesktop
 
-A handle to the desktop returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>.
+A handle to the desktop returned by <a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a> and <a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>.
 
 ### -field pszDesktopName
 
@@ -105,9 +105,8 @@ Name of the desktop.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_create_user_desktop">WlxCreateUserDesktop</a>
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_create_user_desktop">WlxCreateUserDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_get_source_desktop">WlxGetSourceDesktop</a>
-
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_get_source_desktop">WlxGetSourceDesktop</a>

@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 Retrieves the interface pointer to your implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface.
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface.
 
 ## -parameters
 
 ### -param pVal [out]
 
 Interface pointer to your implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface. When done, release <i>ppNotifyInterface</i>.
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface. When done, release <i>ppNotifyInterface</i>.
 
 ## -returns
 
@@ -95,13 +95,12 @@ Must pass the address of the <i>ppNotifyInterface</i> interface pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnotifyflags">IBackgroundCopyJob::GetNotifyFlags</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnotifyflags">IBackgroundCopyJob::GetNotifyFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>

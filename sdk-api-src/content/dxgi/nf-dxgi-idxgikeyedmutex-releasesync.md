@@ -57,7 +57,7 @@ Using a key, releases exclusive rendering access to a shared resource.
 
 ### -param Key
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 A value that indicates which device to give access to. This method succeeds when the device that currently owns the surface calls the <b>ReleaseSync</b> method using the same value. This value can be any UINT64 value.
 
@@ -73,14 +73,14 @@ If the device attempted to release a keyed mutex that is not valid or owned by t
 
 The <b>ReleaseSync</b> method releases a lock to a surface that is shared between multiple devices.  This method uses a key to determine which device currently has exclusive access to the surface.
 
-When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_resource_misc_flag">D3D10_RESOURCE_MISC_FLAG</a> enumeration, 
-      you must call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-acquiresync">IDXGIKeyedMutex::AcquireSync</a> method before rendering to the surface.  You must call the <b>ReleaseSync</b> method when you are done 
+When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> value of the <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_resource_misc_flag">D3D10_RESOURCE_MISC_FLAG</a> enumeration, 
+      you must call the <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-acquiresync">IDXGIKeyedMutex::AcquireSync</a> method before rendering to the surface.  You must call the <b>ReleaseSync</b> method when you are done 
       rendering to a surface.
 
 After you call the <b>ReleaseSync</b> method, the shared resource is unset from the rendering pipeline. 
 
-To acquire a reference to the keyed mutex object of a shared resource, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the resource and pass in 
-      the <b>UUID</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> interface.  For more information about acquiring this reference, see the following code example.
+To acquire a reference to the keyed mutex object of a shared resource, call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the resource and pass in 
+      the <b>UUID</b> of the <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> interface.  For more information about acquiring this reference, see the following code example.
 
 
 #### Examples
@@ -114,13 +114,12 @@ pDXGIKeyedMutex->ReleaseSync(1);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-acquiresync">IDXGIKeyedMutex::AcquireSync</a>
-
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-acquiresync">IDXGIKeyedMutex::AcquireSync</a>

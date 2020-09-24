@@ -60,7 +60,7 @@ Contains the Transmission Control Protocol (TCP)  statistics that were collected
 
 ### -field State
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-tcpstate">TCPSTATE</a> enumeration that indicates the  state of the TCP connection.
+A value from the <a href="/windows/desktop/api/mstcpip/ne-mstcpip-tcpstate">TCPSTATE</a> enumeration that indicates the  state of the TCP connection.
 
 ### -field Mss
 
@@ -137,14 +137,13 @@ The total number of retransmitted synchronize control flags (SYNs).
 ## -remarks
 
 To get an instance of this structure,  call the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a> function with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a> 
+   <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> or <a href="/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a> function with the <a href="/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a> 
    control code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a>
+<a href="/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-tcpstate">TCPSTATE</a>
-
+<a href="/windows/desktop/api/mstcpip/ne-mstcpip-tcpstate">TCPSTATE</a>

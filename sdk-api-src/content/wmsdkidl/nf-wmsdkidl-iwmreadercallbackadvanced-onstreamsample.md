@@ -79,11 +79,11 @@ The flags that can be specified have the following uses.
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
-<td>This is the same as a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">key frame</a>. It indicates a good point to go to during a seek, for example.</td>
+<td>This is the same as a <a href="/windows/desktop/wmformat/wmformat-glossary">key frame</a>. It indicates a good point to go to during a seek, for example.</td>
 </tr>
 <tr>
 <td>WM_SF_DISCONTINUITY</td>
@@ -97,7 +97,7 @@ The flags that can be specified have the following uses.
 
 ### -param pSample [in]
 
-Pointer to a sample stored in an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface. The reader calls <b>SAFE_RELEASE</b> on this pointer after your <b>OnStreamSample</b> method returns. You can call <b>AddRef</b> on this pointer if you need to keep a reference count on the buffer. Do not call <b>Release</b> on this pointer unless you have called <b>AddRef</b>.
+Pointer to a sample stored in an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface. The reader calls <b>SAFE_RELEASE</b> on this pointer after your <b>OnStreamSample</b> method returns. You can call <b>AddRef</b> on this pointer if you need to keep a reference count on the buffer. Do not call <b>Release</b> on this pointer unless you have called <b>AddRef</b>.
 
 ### -param pvContext [in]
 
@@ -105,7 +105,7 @@ Generic pointer, for use by the application.
 
 ## -returns
 
-To use this method, you must implement it in your application. You can return whatever <b>HRESULT</b> error codes are appropriate to your implementation. For more information about the <b>HRESULT</b> error codes included for use by the Windows Media Format SDK, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/error-codes">Error Codes</a>.
+To use this method, you must implement it in your application. You can return whatever <b>HRESULT</b> error codes are appropriate to your implementation. For more information about the <b>HRESULT</b> error codes included for use by the Windows Media Format SDK, see <a href="/windows/desktop/wmformat/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -117,11 +117,10 @@ If you receive compressed samples, you must either keep them compressed, or deco
 
 This method is not able to deliver secure content. If protected content is used, the method will return NS_E_PROTECTEDCONTENT.
 
-The samples delivered by this method are compressed, but are in all other ways exactly the same as samples delivered through <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample">IWMReaderCallback::OnSample</a>.
+The samples delivered by this method are compressed, but are in all other ways exactly the same as samples delivered through <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample">IWMReaderCallback::OnSample</a>.
 
-To get samples for a particular stream, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceivestreamsamples">IWMReaderAdvanced::SetReceiveStreamSamples</a>.
+To get samples for a particular stream, call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceivestreamsamples">IWMReaderAdvanced::SetReceiveStreamSamples</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>

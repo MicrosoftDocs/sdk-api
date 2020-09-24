@@ -70,7 +70,7 @@ The y-coordinate, in logical units, of the point where filling is to start.
 
 ### -param color [in]
 
-The color of the boundary or of the area to be filled. The interpretation of <i>crColor</i> depends on the value of the <i>fuFillType</i> parameter. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+The color of the boundary or of the area to be filled. The interpretation of <i>crColor</i> depends on the value of the <i>fuFillType</i> parameter. To create a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -param type [in]
 
@@ -87,7 +87,7 @@ The type of fill operation to be performed. This parameter must be one of the fo
 </dl>
 </td>
 <td width="60%">
-The fill area is bounded by the color specified by the <i>crColor</i> parameter. This style is identical to the filling performed by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-floodfill">FloodFill</a> function.
+The fill area is bounded by the color specified by the <i>crColor</i> parameter. This style is identical to the filling performed by the <a href="/windows/desktop/api/wingdi/nf-wingdi-floodfill">FloodFill</a> function.
 
 </td>
 </tr>
@@ -123,36 +123,35 @@ If the <i>fuFillType</i> parameter is FLOODFILLBORDER, the system assumes that t
 
 If <i>fuFillType</i> is FLOODFILLSURFACE, the system assumes that the area to be filled is a single color. The function begins to fill the area at the point specified by <i>nXStart</i> and <i>nYStart</i> and continues in all directions, filling all adjacent regions containing the color specified by <i>crColor</i>.
 
-Only memory device contexts and devices that support raster-display operations support the <b>ExtFloodFill</b> function. To determine whether a device supports this technology, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
+Only memory device contexts and devices that support raster-display operations support the <b>ExtFloodFill</b> function. To determine whether a device supports this technology, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
 
 
 #### Examples
 
-For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
+For an example, see "Adding Lines and Graphs to a Menu" in <a href="/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-floodfill">FloodFill</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-floodfill">FloodFill</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>

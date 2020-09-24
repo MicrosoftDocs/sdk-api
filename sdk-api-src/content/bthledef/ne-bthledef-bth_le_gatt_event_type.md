@@ -62,9 +62,8 @@ The characteristic value has changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/nc-bthledef-pfnbluetooth_gatt_event_callback">Bluetooth GATT Event Callback Function</a>
+<a href="/windows/desktop/api/bthledef/nc-bthledef-pfnbluetooth_gatt_event_callback">Bluetooth GATT Event Callback Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>
-
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>

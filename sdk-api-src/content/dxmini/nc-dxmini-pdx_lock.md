@@ -45,9 +45,6 @@ api_name:
  - DxLock
 ---
 
-# PDX_LOCK callback function
-
-
 ## -description
 
 The<i> DxLock</i> callback function is called when a client of the video miniport driver wants access to the frame buffer.
@@ -55,24 +52,13 @@ The<i> DxLock</i> callback function is called when a client of the video minipor
 ## -parameters
 
 ### -param Arg1
-
-### -param Arg2
-
-### -param Arg3
-
-#### - HwDeviceExtension
-
 Points to the miniport driver's device extension.
 
+### -param Arg2
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> structure that contains the surface information for the lock.
 
-#### - LockInInfo
-
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> structure that contains the surface information for the lock.
-
-
-#### - LockOutInfo
-
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structure that contains the surface in the frame buffer.
+### -param Arg3
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structure that contains the surface in the frame buffer.
 
 ## -returns
 
@@ -80,13 +66,10 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dx
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structures contain surface information.
+The <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> and <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structures contain surface information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a>
-
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a>

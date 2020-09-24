@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
+The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ The coordinates of a point. The x-coordinate is in the low-order word, and the y
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessagepos">GetMessagePos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessagepos">GetMessagePos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-macros">Rectangle Macros</a>
+<a href="/windows/desktop/gdi/rectangle-macros">Rectangle Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
-
+<a href="/windows/desktop/gdi/rectangles">Rectangles Overview</a>

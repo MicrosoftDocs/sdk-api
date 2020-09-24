@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function that receives a wait chain. Specify this address when calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
+<a href="/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
 
 The <b>PWAITCHAINCALLBACK</b> type defines a pointer to this callback function. 
 <i>WaitChainCallback</i> is a placeholder for the application-defined function name.
@@ -60,15 +60,15 @@ The <b>PWAITCHAINCALLBACK</b> type defines a pointer to this callback function.
 
 ### -param WctHandle
 
-A handle to the WCT session created by the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
+A handle to the WCT session created by the <a href="/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
 
 ### -param Context
 
-A optional pointer to an application-defined context structure specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a> function.
+A optional pointer to an application-defined context structure specified by the <a href="/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a> function.
 
 ### -param CallbackStatus
 
-The callback status. This parameter can be one of the following values, or one of the other <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+The callback status. This parameter can be one of the following values, or one of the other <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ The caller did not have sufficient privilege to open a target thread.
 </dl>
 </td>
 <td width="60%">
-The asynchronous session was canceled by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a> function.
+The asynchronous session was canceled by a call to the <a href="/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a> function.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ The number of nodes retrieved, up to WCT_MAX_NODE_COUNT. If the array cannot con
 
 ### -param NodeInfoArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
+An array of <a href="/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
 
 ### -param IsCycle
 
@@ -151,13 +151,12 @@ If the function detects a deadlock, this variable is set to <b>TRUE</b>; otherwi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
+<a href="/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a>
+<a href="/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a>
-
+<a href="/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a>

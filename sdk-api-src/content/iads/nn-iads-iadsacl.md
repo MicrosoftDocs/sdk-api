@@ -54,7 +54,7 @@ The <b>IADsAcl</b> interface provides methods for an ADSI client to access and m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAcl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsAcl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAcl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsAcl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IADsAcl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsacl-copyacl">CopyAcl</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsacl-copyacl">CopyAcl</a>
 </td>
 <td align="left" width="63%">
 Creates a new copy of the ACL.
@@ -88,7 +88,7 @@ Creates a new copy of the ACL.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsacl-property-methods">Privileges</a>
+<a href="/windows/desktop/ADSI/iadsacl-property-methods">Privileges</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Gets and sets the privilege setting.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsacl-property-methods">ProtectedAttrName</a>
+<a href="/windows/desktop/ADSI/iadsacl-property-methods">ProtectedAttrName</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Gets and sets the name of a protected attribute.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsacl-property-methods">SubjectName</a>
+<a href="/windows/desktop/ADSI/iadsacl-property-methods">SubjectName</a>
 
 
 </td>
@@ -137,9 +137,8 @@ Gets and sets the name of a subject.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsacl-property-methods">IADsAcl Property Methods</a>
+<a href="/windows/desktop/ADSI/iadsacl-property-methods">IADsAcl Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

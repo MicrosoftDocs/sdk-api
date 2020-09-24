@@ -58,7 +58,7 @@ The <b>GetUserContext</b> method retrieves the user context associated with the 
 
 Type: <b>void**</b>
 
-The user context. This is the context specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-addlogfiletracestream">ITraceRelogger::AddLogfileTraceStream</a>.
+The user context. This is the context specified in the call to <a href="/windows/desktop/api/relogger/nf-relogger-itracerelogger-addlogfiletracestream">ITraceRelogger::AddLogfileTraceStream</a>.
 
 ## -returns
 
@@ -68,13 +68,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
+<a href="/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-addlogfiletracestream">ITraceRelogger::AddLogfileTraceStream</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itracerelogger-addlogfiletracestream">ITraceRelogger::AddLogfileTraceStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-addrealtimetracestream">ITraceRelogger::AddRealtimeTraceStream</a>
-
+<a href="/windows/desktop/api/relogger/nf-relogger-itracerelogger-addrealtimetracestream">ITraceRelogger::AddRealtimeTraceStream</a>

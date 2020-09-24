@@ -55,9 +55,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Defines a custom attribute of a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a>. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">pPoolCustomAttributes</a> member of the <b>VDS_POOL_ATTRIBUTES</b> structure.
+Defines a custom attribute of a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>. This structure is used in the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">pPoolCustomAttributes</a> member of the <b>VDS_POOL_ATTRIBUTES</b> structure.
 
 ## -struct-fields
 
@@ -80,5 +80,4 @@ A custom attribute can be used to indicate, for example, the RAID types that can
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">VDS_POOL_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">VDS_POOL_ATTRIBUTES</a>

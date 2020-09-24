@@ -64,15 +64,14 @@ This method can return one of these values.
 
 ## -remarks
 
-MMC creates its own copies of the strings passed to it when the snap-in calls the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imessageview-settitletext">IMessageView::SetTitleText</a> and <b>IMessageView::SetBodyText</b> methods. The snap-in can release the resources at any time after calling 
+MMC creates its own copies of the strings passed to it when the snap-in calls the <a href="/windows/desktop/api/mmc/nf-mmc-imessageview-settitletext">IMessageView::SetTitleText</a> and <b>IMessageView::SetBodyText</b> methods. The snap-in can release the resources at any time after calling 
 <b>SetTitleText</b> and 
 SetBodyText.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-imessageview">IMessageView</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-imessageview">IMessageView</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>
-
+<a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>

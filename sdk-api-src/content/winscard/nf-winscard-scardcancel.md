@@ -52,16 +52,16 @@ api_name:
 
 ## -description
 
-The <b>SCardCancel</b> function terminates all outstanding actions within a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>.
+The <b>SCardCancel</b> function terminates all outstanding actions within a specific <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>.
 
-The only requests that you can cancel are those that require waiting for external action by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> or user. Any such outstanding action requests will terminate with a status indication that the action was canceled. This is especially useful to force outstanding <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a> calls to terminate.
+The only requests that you can cancel are those that require waiting for external action by the <a href="/windows/desktop/SecGloss/s-gly">smart card</a> or user. Any such outstanding action requests will terminate with a status indication that the action was canceled. This is especially useful to force outstanding <a href="/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a> calls to terminate.
 
 ## -parameters
 
 ### -param hContext [in]
 
-Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
+Handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
 
 ## -returns
 
@@ -91,7 +91,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -100,12 +100,12 @@ An error code. For more information, see
 ## -remarks
 
 The <b>SCardCancel</b> function is a smart card tracking function. For a description of other tracking functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-tracking-functions">Smart Card Tracking Functions</a>.
+<a href="/windows/desktop/SecAuthN/smart-card-tracking-functions">Smart Card Tracking Functions</a>.
 
 
 #### Examples
 
-The following example cancels all outstanding actions in the specified context.  The example assumes that lReturn is an existing variable of type <b>LONG</b> and that hContext is a valid handle received from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. 
+The following example cancels all outstanding actions in the specified context.  The example assumes that lReturn is an existing variable of type <b>LONG</b> and that hContext is a valid handle received from a previous call to <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. 
 
 
 ```cpp
@@ -118,13 +118,12 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>

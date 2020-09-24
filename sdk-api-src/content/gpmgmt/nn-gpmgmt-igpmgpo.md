@@ -57,13 +57,13 @@ The
 Note that you cannot use this interface to manage local GPOs (LGPOs).
 
 You can instantiate a <b>GPMGPO</b> object by creating a new one with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-creategpo">IGPMDomain::CreateGPO</a>, retrieving an existing one with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-getgpo">IGPMDomain::GetGPO</a>, or by searching for one with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-searchgpos">IGPMDomain::SearchGPOs</a>. After creating the object, you can query the GPO and set properties related to the GPO.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-creategpo">IGPMDomain::CreateGPO</a>, retrieving an existing one with a call to 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-getgpo">IGPMDomain::GetGPO</a>, or by searching for one with a call to 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-searchgpos">IGPMDomain::SearchGPOs</a>. After creating the object, you can query the GPO and set properties related to the GPO.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n"> IGPMGPO</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b> IGPMGPO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n"> IGPMGPO</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b> IGPMGPO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -79,7 +79,7 @@ The <b> IGPMGPO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-backup">Backup</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-backup">Backup</a>
 </td>
 <td align="left" width="63%">
 Backs up the GPO to the specified directory.
@@ -88,7 +88,7 @@ Backs up the GPO to the specified directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-copyto">CopyTo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-copyto">CopyTo</a>
 </td>
 <td align="left" width="63%">
 Copies the policy settings from the GPO in the current domain to a new GPO.
@@ -97,7 +97,7 @@ Copies the policy settings from the GPO in the current domain to a new GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-delete">Delete</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes the GPO from the directory service.
@@ -106,7 +106,7 @@ Deletes the GPO from the directory service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-generatereport">GenerateReport</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-generatereport">GenerateReport</a>
 </td>
 <td align="left" width="63%">
 Generates a report for a GPO.
@@ -115,7 +115,7 @@ Generates a report for a GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-generatereporttofile">GenerateReportToFile</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-generatereporttofile">GenerateReportToFile</a>
 </td>
 <td align="left" width="63%">
 Generates a report for a GPO and then saves the report to a file in a specified path.
@@ -124,17 +124,17 @@ Generates a report for a GPO and then saves the report to a file in a specified 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getsecuritydescriptor">GetSecurityDescriptor</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getsecuritydescriptor">GetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IDispatch</b> interface from which the security descriptor for the GPO can be retrieved. For script programmers, returns a reference to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> object.
+<a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getsecurityinfo">GetSecurityInfo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getsecurityinfo">GetSecurityInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the set of permissions for the GPO, such as who is granted the rights to edit it.
@@ -143,37 +143,37 @@ Retrieves the set of permissions for the GPO, such as who is granted the rights 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getwmifilter">GetWMIFilter</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getwmifilter">GetWMIFilter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object that is linked to the current GPO.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object that is linked to the current GPO.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-import">Import</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-import">Import</a>
 </td>
 <td align="left" width="63%">
 Imports the policy settings in the specified 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-isaclconsistent">IsACLConsistent</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-isaclconsistent">IsACLConsistent</a>
 </td>
 <td align="left" width="63%">
 Checks the consistency of 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists">access control lists</a> (ACLs) between the Directory Service and the system volume folder (SYSVOL).
+<a href="/windows/desktop/SecAuthZ/access-control-lists">access control lists</a> (ACLs) between the Directory Service and the system volume folder (SYSVOL).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-iscomputerenabled">IsComputerEnabled</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-iscomputerenabled">IsComputerEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines whether the computer settings in the GPO are enabled.
@@ -182,7 +182,7 @@ Determines whether the computer settings in the GPO are enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-isuserenabled">IsUserEnabled</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-isuserenabled">IsUserEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines whether the user settings in the GPO are enabled.
@@ -191,16 +191,16 @@ Determines whether the user settings in the GPO are enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-makeaclconsistent">MakeACLConsistent</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-makeaclconsistent">MakeACLConsistent</a>
 </td>
 <td align="left" width="63%">
-Makes <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists">ACLs</a> consistent between the Directory Service and the system volume folder (SYSVOL).
+Makes <a href="/windows/desktop/SecAuthZ/access-control-lists">ACLs</a> consistent between the Directory Service and the system volume folder (SYSVOL).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setcomputerenabled">SetComputerEnabled</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setcomputerenabled">SetComputerEnabled</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the computer policy settings in the GPO.
@@ -209,7 +209,7 @@ Enables or disables the computer policy settings in the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setsecuritydescriptor">SetSecurityDescriptor</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setsecuritydescriptor">SetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Sets the security descriptor for the GPO.
@@ -218,7 +218,7 @@ Sets the security descriptor for the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setsecurityinfo">SetSecurityInfo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setsecurityinfo">SetSecurityInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the list of permissions for the GPO.
@@ -227,7 +227,7 @@ Sets the list of permissions for the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setuserenabled">SetUserEnabled</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setuserenabled">SetUserEnabled</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the user policy settings in the GPO.
@@ -236,10 +236,10 @@ Enables or disables the user policy settings in the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setwmifilter">SetWMIFilter</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setwmifilter">SetWMIFilter</a>
 </td>
 <td align="left" width="63%">
-Links the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object to the current GPO.
+Links the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object to the current GPO.
 
 </td>
 </tr>
@@ -253,7 +253,7 @@ Links the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">ComputerDSVersionNumber</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">ComputerDSVersionNumber</a>
 
 
 </td>
@@ -265,7 +265,7 @@ Version number of the directory service component of the computer configuration 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">ComputerSysvolVersionNumber</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">ComputerSysvolVersionNumber</a>
 
 
 </td>
@@ -277,7 +277,7 @@ Version number of the system volume folder (SYSVOL) component of the computer co
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">CreationTime</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">CreationTime</a>
 
 
 </td>
@@ -289,7 +289,7 @@ Time when the GPO was created.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">DisplayName</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">DisplayName</a>
 
 
 </td>
@@ -301,7 +301,7 @@ Friendly display name of the GPO. More than one GPO can have the same display na
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">DomainName</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">DomainName</a>
 
 
 </td>
@@ -313,7 +313,7 @@ Domain name for the GPO. This is the full Domain Name System (DNS) name, for exa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">ID</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">ID</a>
 
 
 </td>
@@ -325,7 +325,7 @@ ID of the GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">ModificationTime</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">ModificationTime</a>
 
 
 </td>
@@ -337,7 +337,7 @@ Time when the GPO was last modified.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">Path</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">Path</a>
 
 
 </td>
@@ -349,7 +349,7 @@ Distinguished name of the GPO in the Active Directory directory service; for exa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">UserDSVersionNumber</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">UserDSVersionNumber</a>
 
 
 </td>
@@ -361,7 +361,7 @@ Version number of the directory service component of the user configuration port
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">UserSysvolVersionNumber</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmgpo-property-methods">UserSysvolVersionNumber</a>
 
 
 </td>
@@ -374,25 +374,24 @@ Version number of the system volume folder (SYSVOL) component of the user config
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">IGPMGPOCollection</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">IGPMGPOCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>

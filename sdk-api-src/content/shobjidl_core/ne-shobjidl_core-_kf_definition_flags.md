@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Flags that specify certain known folder behaviors. Used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a> structure.
+Flags that specify certain known folder behaviors. Used with the <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a> structure.
 
 ## -enum-fields
 
 ### -field KFDF_LOCAL_REDIRECT_ONLY
 
-Prevent a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">per-user</a> known folder from being redirected to a network location. Note that if the known folder has been flagged with KFDF_LOCAL_REDIRECT_ONLY but it is a subfolder of a known folder that is redirected to a network location, this subfolder is redirected also.
+Prevent a <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">per-user</a> known folder from being redirected to a network location. Note that if the known folder has been flagged with KFDF_LOCAL_REDIRECT_ONLY but it is a subfolder of a known folder that is redirected to a network location, this subfolder is redirected also.
 
 ### -field KFDF_ROAMABLE
 
@@ -64,7 +64,7 @@ Can be roamed through a PC-to-PC synchronization.
 
 ### -field KFDF_PRECREATE
 
-Create the folder when the user first logs on. Normally a known folder is not created until it is first called. At that time, an API such as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateiteminknownfolder">SHCreateItemInKnownFolder</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getshellitem">IKnownFolder::GetShellItem</a> is called with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag">KF_FLAG_CREATE</a> flag. However, some known folders need to exist immediately. An example is those known folders under %USERPROFILE%, which must exist to provide a proper view. In those cases, KFDF_PRECREATE is set and Windows Explorer calls the creation API during its user initialization.
+Create the folder when the user first logs on. Normally a known folder is not created until it is first called. At that time, an API such as <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateiteminknownfolder">SHCreateItemInKnownFolder</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getshellitem">IKnownFolder::GetShellItem</a> is called with the <a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag">KF_FLAG_CREATE</a> flag. However, some known folders need to exist immediately. An example is those known folders under %USERPROFILE%, which must exist to provide a proper view. In those cases, KFDF_PRECREATE is set and Windows Explorer calls the creation API during its user initialization.
 
 ### -field KFDF_STREAM
 
@@ -91,5 +91,4 @@ typedef DWORD KF_DEFINITION_FLAGS;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

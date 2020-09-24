@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>MsiCreateTransformSummaryInfo</b> function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 ## -parameters
 
@@ -341,10 +341,10 @@ This function returns UINT.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> Property and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productversion">ProductVersion</a> Property  must be defined in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/property-table">Property Table</a> of both the base and reference databases. If MSITRANSFORM_VALIDATE_UPGRADECODE is used, the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/upgradecode">UpgradeCode</a> Property must also be defined in both databases. If these conditions are not met, 
+The <a href="/windows/desktop/Msi/productcode">ProductCode</a> Property and 
+<a href="/windows/desktop/Msi/productversion">ProductVersion</a> Property  must be defined in the 
+<a href="/windows/desktop/Msi/property-table">Property Table</a> of both the base and reference databases. If MSITRANSFORM_VALIDATE_UPGRADECODE is used, the 
+<a href="/windows/desktop/Msi/upgradecode">UpgradeCode</a> Property must also be defined in both databases. If these conditions are not met, 
 <b>MsiCreateTransformSummaryInfo</b> returns ERROR_INSTALL_PACKAGE_INVALID.
 
 <ul>
@@ -360,9 +360,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">Product
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-transforms">Database Transforms</a>
+<a href="/windows/desktop/Msi/database-transforms">Database Transforms</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
-
+<a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>

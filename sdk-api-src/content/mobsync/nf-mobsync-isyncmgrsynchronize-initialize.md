@@ -64,7 +64,7 @@ Reserved; must be 0 (zero).
 
 Type: <b>DWORD</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a> enumeration values that describe how a synchronization event is initiated.
+The <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a> enumeration values that describe how a synchronization event is initiated.
 
 ### -param cbCookie [in]
 
@@ -115,28 +115,27 @@ Application handler does not process a synchronization event.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a> enumeration values apply through the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a> interface, and are used by the other 
+The <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a> enumeration values apply through the lifetime of the <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a> interface, and are used by the other 
 <b>ISyncMgrSynchronize</b> methods.
 
-If an application does not recognize the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a> event, the application should treat the event as a manual synchronization.
+If an application does not recognize the <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a> event, the application should treat the event as a manual synchronization.
 
-A registered application handler cannot display a user interface within this call unless it is the first time the initialization method is called. An application can display any one-time initialization it needs to set up items and introduce a user to an application feature. If you need to display a user interface for a different reason as part of the synchronization process, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a> method.
+A registered application handler cannot display a user interface within this call unless it is the first time the initialization method is called. An application can display any one-time initialization it needs to set up items and introduce a user to an application feature. If you need to display a user interface for a different reason as part of the synchronization process, you can use the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a> method.
 
-The <i>lpCookie</i> parameter is <b>NULL</b> unless a handling application invokes the synchronization manager programmatically by using <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">UpdateItems</a>. In this scenario, the class identifier (CLSID) identifies the handling application, and the value of <i>lpCookie</i> is passed in by the handling application, and then passed back by the synchronization manager during synchronization for context. The <i>lpCookie</i> parameter is only meaningful when <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG_INVOKE</a> is set.
+The <i>lpCookie</i> parameter is <b>NULL</b> unless a handling application invokes the synchronization manager programmatically by using <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">UpdateItems</a>. In this scenario, the class identifier (CLSID) identifies the handling application, and the value of <i>lpCookie</i> is passed in by the handling application, and then passed back by the synchronization manager during synchronization for context. The <i>lpCookie</i> parameter is only meaningful when <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG_INVOKE</a> is set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a>
+<a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">UpdateItems</a>
-
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">UpdateItems</a>

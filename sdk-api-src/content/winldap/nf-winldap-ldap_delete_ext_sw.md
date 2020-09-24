@@ -77,16 +77,16 @@ Optional. List of client controls. Set this parameter to <b>NULL</b> if not used
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
 If the function fails, an error code is returned. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 ## -remarks
 
-Call <b>ldap_delete_ext_s</b> to remove a leaf entry from the directory tree. LDAP does not support deletion of entire subtrees in a single operation, however there is an extended control, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-tree-delete-oid">LDAP_SERVER_TREE_DELETE_OID</a>, that does provide this. The parameters and effects of <b>ldap_delete_ext_s</b> include those of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_s">ldap_delete_s</a>. The extended routine includes additional parameters to support client and server controls and thread safety.
+Call <b>ldap_delete_ext_s</b> to remove a leaf entry from the directory tree. LDAP does not support deletion of entire subtrees in a single operation, however there is an extended control, <a href="/previous-versions/windows/desktop/ldap/ldap-server-tree-delete-oid">LDAP_SERVER_TREE_DELETE_OID</a>, that does provide this. The parameters and effects of <b>ldap_delete_ext_s</b> include those of 
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_s">ldap_delete_s</a>. The extended routine includes additional parameters to support client and server controls and thread safety.
 
 As a synchronous function, <b>ldap_delete_ext_s</b> returns when the delete operation is complete. Use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete">ldap_delete</a> or 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_ext">ldap_delete_ext</a> to have the delete operation performed asynchronously.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete">ldap_delete</a> or 
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_ext">ldap_delete_ext</a> to have the delete operation performed asynchronously.
 
 Multithreading: Calls to <b>ldap_delete_ext_s</b> are thread-safe.
 
@@ -99,33 +99,32 @@ Multithreading: Calls to <b>ldap_delete_ext_s</b> are thread-safe.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>
+<a href="/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/modifying-a-directory-entry">Modifying a Directory Entry</a>
+<a href="/previous-versions/windows/desktop/ldap/modifying-a-directory-entry">Modifying a Directory Entry</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
+<a href="/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete">ldap_delete</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete">ldap_delete</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_ext">ldap_delete_ext</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_ext">ldap_delete_ext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_s">ldap_delete_s</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_s">ldap_delete_s</a>

@@ -56,7 +56,7 @@ Called when the text that the property store applies to is truncated.
 
 ### -param pRangeNew [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that contains the truncated range.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that contains the truncated range.
 
 ### -param pfFree [out]
 
@@ -90,10 +90,9 @@ If this method returns a value other than S_OK, the property store is discarded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains the file index information that the <a href="https://docs.microsoft.com/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-findsimilarfileindex">ISimilarityTraitsTable::FindSimilarFileIndex</a> method returned for a matching file.
+Contains the file index information that the <a href="/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-findsimilarfileindex">ISimilarityTraitsTable::FindSimilarFileIndex</a> method returned for a matching file.
 
 ## -struct-fields
 
@@ -67,5 +67,4 @@ The number of traits that were matched. The valid range is from <b>MSRDC_MINIMUM
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-findsimilarfileindex">ISimilarityTraitsTable::FindSimilarFileIndex</a>
-
+<a href="/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-findsimilarfileindex">ISimilarityTraitsTable::FindSimilarFileIndex</a>

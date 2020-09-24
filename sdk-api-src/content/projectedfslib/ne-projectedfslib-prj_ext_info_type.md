@@ -38,15 +38,14 @@ dev_langs:
 
 ## -description
 
-Specifies extended information types for <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_extended_info">PRJ_EXTENDED_INFO</a>.
+Specifies extended information types for <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_extended_info">PRJ_EXTENDED_INFO</a>.
 
 ## -enum-fields
 
 ### -field PRJ_EXT_INFO_TYPE_SYMLINK
 
-This <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_extended_info">PRJ_EXTENDED_INFO</a> specifies the target of a symbolic link.
+This <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_extended_info">PRJ_EXTENDED_INFO</a> specifies the target of a symbolic link.
 
 ## -remarks
 
 ## -see-also
-

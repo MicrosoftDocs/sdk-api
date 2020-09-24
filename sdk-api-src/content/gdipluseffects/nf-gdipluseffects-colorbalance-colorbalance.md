@@ -51,19 +51,18 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object.
+Creates a new <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorbalance-setparameters">ColorBalance::SetParameters</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorbalance-setparameters">ColorBalance::SetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorbalanceparams">ColorBalanceParams</a>
-
+<a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorbalanceparams">ColorBalanceParams</a>

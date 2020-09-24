@@ -55,7 +55,7 @@ api_name:
 Creates, displays, and operates a message box. The message box contains an application-defined message and title, plus any combination of predefined icons and push buttons. The buttons are in the language of the system user interface.
     
 
-Currently <b>MessageBoxEx</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> work the same way.
+Currently <b>MessageBoxEx</b> and <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> work the same way.
 
 ## -parameters
 
@@ -81,7 +81,7 @@ The dialog box title. If this parameter is <b>NULL</b>, the default title <b>Err
 
 Type: <b>UINT</b>
 
-The contents and behavior of the dialog box. For information on the supported flags, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
+The contents and behavior of the dialog box. For information on the supported flags, see <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
 
 ### -param wLanguageId [in]
 
@@ -90,7 +90,7 @@ Type: <b>WORD</b>
 The language for the text displayed in the message box button(s). Specifying a value of zero (0) indicates to display the button text in the default system language. If this parameter is <code>MAKELANGID(LANG_NEUTRAL, SUBLANG_NEUTRAL)</code>, the current language associated with the calling thread is used.
            
 
-To specify a language other than the current language, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro to create this parameter. For more information, see <b>MAKELANGID</b>.
+To specify a language other than the current language, use the <a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro to create this parameter. For more information, see <b>MAKELANGID</b>.
 
 ## -returns
 
@@ -98,7 +98,7 @@ Type: <b>int</b>
 
 If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC will no effect - unless an MB_OK button is present. If an MB_OK button is displayed and the user presses ESC, the return value will be <b>IDOK</b>.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 If the function succeeds, the return value is one of the following menu-item values.
 
@@ -236,23 +236,23 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebeep">MessageBeep</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messagebeep">MessageBeep</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a>
 
 
 
@@ -264,5 +264,4 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>

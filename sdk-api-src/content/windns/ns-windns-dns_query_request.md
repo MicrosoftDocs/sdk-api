@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DNS_QUERY_REQUEST</b> structure contains the DNS query parameters used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>.
+The <b>DNS_QUERY_REQUEST</b> structure contains the DNS query parameters used in a call to <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>.
 
 ## -struct-fields
 
@@ -75,11 +75,11 @@ A pointer to a string that represents the DNS name to query.
 
 ### -field QueryType
 
-A value that represents the Resource Record (RR) <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> that is queried. <b>QueryType</b> determines the format of data pointed to by <b>pQueryRecords</b> returned in the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a> structure. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the format of data pointed to by <b>pQueryRecords</b> is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
+A value that represents the Resource Record (RR) <a href="/windows/desktop/DNS/dns-constants">DNS Record Type</a> that is queried. <b>QueryType</b> determines the format of data pointed to by <b>pQueryRecords</b> returned in the <a href="/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a> structure. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the format of data pointed to by <b>pQueryRecords</b> is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
 
 ### -field QueryOptions
 
-A value that contains a bitmap of <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Query  Options</a> to use in the DNS query. Options can be combined and all options override <b>DNS_QUERY_STANDARD</b>
+A value that contains a bitmap of <a href="/windows/desktop/DNS/dns-constants">DNS Query  Options</a> to use in the DNS query. Options can be combined and all options override <b>DNS_QUERY_STANDARD</b>
 
 ### -field pDnsServerList
 
@@ -91,9 +91,9 @@ A value that contains the interface index over which the query is sent. If <b>In
 
 ### -field pQueryCompletionCallback
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/nc-windns-dns_query_completion_routine">DNS_QUERY_COMPLETION_ROUTINE</a> callback that is used to return the results of an asynchronous query from a  call to <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>.
+A pointer to a <a href="/windows/desktop/api/windns/nc-windns-dns_query_completion_routine">DNS_QUERY_COMPLETION_ROUTINE</a> callback that is used to return the results of an asynchronous query from a  call to <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>.
 
-<div class="alert"><b>Note</b>  If NULL, <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a> is called synchronously.</div>
+<div class="alert"><b>Note</b>  If NULL, <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a> is called synchronously.</div>
 <div> </div>
 
 ### -field pQueryContext
@@ -102,25 +102,24 @@ A pointer to a user context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_cancel">DNS_QUERY_CANCEL</a>
+<a href="/windows/desktop/api/windns/ns-windns-dns_query_cancel">DNS_QUERY_CANCEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nc-windns-dns_query_completion_routine">DNS_QUERY_COMPLETION_ROUTINE</a>
+<a href="/windows/desktop/api/windns/nc-windns-dns_query_completion_routine">DNS_QUERY_COMPLETION_ROUTINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>
+<a href="/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnscancelquery">DnsCancelQuery</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnscancelquery">DnsCancelQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>

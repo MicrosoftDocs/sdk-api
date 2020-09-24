@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates the current view state of a Windows Store app. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>.
+Indicates the current view state of a Windows Store app. Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ The current app's view is full-screen (has no snapped app adjacent to it), and i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a>

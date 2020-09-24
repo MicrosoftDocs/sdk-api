@@ -56,7 +56,7 @@ Retrieves the type of thread in which the caller is executing.
 
 ### -param pThreadType [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-thdtype">THDTYPE</a> enumeration value that characterizes the caller's thread.
+A pointer to a <a href="/windows/desktop/api/objidl/ne-objidl-thdtype">THDTYPE</a> enumeration value that characterizes the caller's thread.
 
 ## -returns
 
@@ -93,5 +93,4 @@ The caller is not executing in an apartment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>

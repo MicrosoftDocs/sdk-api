@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capFileSaveAs</b> macro copies the contents of the capture file to another file. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-file-saveas">WM_CAP_FILE_SAVEAS</a> message.
+The <b>capFileSaveAs</b> macro copies the contents of the capture file to another file. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-file-saveas">WM_CAP_FILE_SAVEAS</a> message.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ Typically, a capture file is preallocated for the largest capture segment antici
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

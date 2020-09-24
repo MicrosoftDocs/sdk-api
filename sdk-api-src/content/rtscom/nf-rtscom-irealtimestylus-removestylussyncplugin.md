@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Removes an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> from the collection at the specified index.
+Removes an <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> from the collection at the specified index.
 
 ## -parameters
 
@@ -64,13 +64,13 @@ A pointer to the plug-in to remove. If you are not interested in receiving the p
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
 Use to dynamically remove a specific plug-in from the synchronous plug-in collection.
 
-The synchronous and asynchronous plug-in collections on <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> can be modified without disabling and then re-enabling <b>RealTimeStylus Class</b>.
+The synchronous and asynchronous plug-in collections on <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> can be modified without disabling and then re-enabling <b>RealTimeStylus Class</b>.
 
 
 #### Examples
@@ -107,17 +107,16 @@ void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusasyncplugin">IRealTimeStylus::RemoveStylusAsyncPlugin Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusasyncplugin">IRealTimeStylus::RemoveStylusAsyncPlugin Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

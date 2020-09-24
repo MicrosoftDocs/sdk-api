@@ -54,15 +54,15 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>FIND_NAME_HEADER</b> structure contains information about a network name. This structure is followed by as many <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a> structures as are required to describe the name.
+The <b>FIND_NAME_HEADER</b> structure contains information about a network name. This structure is followed by as many <a href="/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a> structures as are required to describe the name.
 
 ## -struct-fields
 
 ### -field node_count
 
-Specifies the number of nodes on which the specified name was found. This structure is followed by the number of <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a> structures specified by the <b>node_count</b> member.
+Specifies the number of nodes on which the specified name was found. This structure is followed by the number of <a href="/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a> structures specified by the <b>node_count</b> member.
 
 ### -field reserved
 
@@ -74,7 +74,7 @@ Specifies whether the name is unique. This value is 0 to specify a unique name o
 
 ## -remarks
 
-The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure when an application issues an <b>NCBFINDNAME</b> command.
+The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> member of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure when an application issues an <b>NCBFINDNAME</b> command.
 
 ## -see-also
 
@@ -82,17 +82,16 @@ The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> mem
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
+<a href="/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-
+<a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>

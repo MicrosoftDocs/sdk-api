@@ -112,7 +112,7 @@ The byte alignment for an instance of this type. A value of 0 indicates alignmen
 
 ### -field wTypeFlags
 
-The type flags. See <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-typeflags">TYPEFLAGS</a>.
+The type flags. See <a href="/windows/desktop/api/oaidl/ne-oaidl-typeflags">TYPEFLAGS</a>.
 
 ### -field wMajorVerNum
 
@@ -129,4 +129,3 @@ If <b>typekind</b> is TKIND_ALIAS, specifies the type for which this type is an 
 ### -field idldescType
 
 The IDL attributes of the described type.
-

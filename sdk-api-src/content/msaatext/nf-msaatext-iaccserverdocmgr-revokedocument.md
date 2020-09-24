@@ -52,7 +52,7 @@ api_name:
 
 Server applications call the <b>IAccServerDocMgr::RevokeDocument</b> method to notify the Microsoft Active Accessibility run time that a document is no longer available. Calling <b>RevokeDocument</b> removes it from the store so that clients cannot see the document.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters
@@ -65,7 +65,6 @@ An interface pointer to the document being revoked.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
-

@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-An SP_SELECTDEVICE_PARAMS structure corresponds to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-selectdevice">DIF_SELECTDEVICE</a> installation request.
+An SP_SELECTDEVICE_PARAMS structure corresponds to a <a href="/windows-hardware/drivers/install/dif-selectdevice">DIF_SELECTDEVICE</a> installation request.
 
 ## -struct-fields
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>.
+An install request header that contains the header size and the DIF code for the request. See <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>.
 
 ### -field Title
 
@@ -98,17 +98,16 @@ The following screen shot shows a sample Select Device dialog box and identifies
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-selectdevice">DIF_SELECTDEVICE</a>
+<a href="/windows-hardware/drivers/install/dif-selectdevice">DIF_SELECTDEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiselectdevice">SetupDiSelectDevice</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiselectdevice">SetupDiSelectDevice</a>

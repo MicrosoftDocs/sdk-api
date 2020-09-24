@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> member data.
+Gets the <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> member data.
 
 ## -parameters
 
@@ -125,7 +125,7 @@ A parameter contained an invalid pointer.
 
 ## -remarks
 
-An <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object represents a 33 matrix that, in turn, represents an affine transformation. The object stores only six of the nine numbers in a 3x3 matrix because all 3x3 matrices that represent affine transformations have the same third column (0, 0, 1).
+An <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object represents a 33 matrix that, in turn, represents an affine transformation. The object stores only six of the nine numbers in a 3x3 matrix because all 3x3 matrices that represent affine transformations have the same third column (0, 0, 1).
 
 ## -see-also
 
@@ -133,9 +133,8 @@ An <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-settransform">SetTransform Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-settransform">SetTransform Method</a>

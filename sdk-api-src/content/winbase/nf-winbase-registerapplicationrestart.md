@@ -154,16 +154,15 @@ The specified command line is too long.
 
 Your initial registration for restart must occur before the application encounters an unhandled exception or becomes unresponsive. You could then call this function from inside your recovery callback to update the command line.
 
-For a Windows application that is being updated, the last opportunity to call this function is while processing the <a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> message. For a console application that is being updated, the registration must occur before the installer tries to shutdown the application (you need to keep the registration current; you cannot call this function when handling the CTRL_C_EVENT notification).
+For a Windows application that is being updated, the last opportunity to call this function is while processing the <a href="/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> message. For a console application that is being updated, the registration must occur before the installer tries to shutdown the application (you need to keep the registration current; you cannot call this function when handling the CTRL_C_EVENT notification).
 
 If you register for restart and the application encounters an unhandled exception or is not responsive, the user is offered the opportunity to restart the application; the application is not automatically restarted without the user's consent. However, if the application is being updated and requires a restart, the application is restarted automatically.
 
 To prevent cyclical restarts, the system will only restart the application if it has been 
    	running for a minimum of 60 seconds.
 
-Note that for an application to be restarted when the update requires a computer restart, the installer must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function with the EWX_RESTARTAPPS flag set or the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiateshutdowna">InitiateShutdown</a> function with the SHUTDOWN_RESTARTAPPS flag set.
+Note that for an application to be restarted when the update requires a computer restart, the installer must call the <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function with the EWX_RESTARTAPPS flag set or the <a href="/windows/desktop/api/winreg/nf-winreg-initiateshutdowna">InitiateShutdown</a> function with the SHUTDOWN_RESTARTAPPS flag set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-unregisterapplicationrestart">UnregisterApplicationRestart</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-unregisterapplicationrestart">UnregisterApplicationRestart</a>

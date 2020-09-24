@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> from an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> structure. The resulting 
-    <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> structure must be closed by using the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function.
+Creates an <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> from an 
+    <a href="/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> structure. The resulting 
+    <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> structure must be closed by using the 
+    <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function.
 
 ## -parameters
 
 ### -param application [in]
 
 Handle returned from 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a>.
+      <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a>.
 
 ### -param classDecl [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> for the class to create.
+The <a href="/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> for the class to create.
 
 ### -param namespaceName [in, optional]
 
@@ -76,10 +76,9 @@ The optional server name.
 
 ### -param classObject [out]
 
-The resultant <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> structure.
+The resultant <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> structure.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
-

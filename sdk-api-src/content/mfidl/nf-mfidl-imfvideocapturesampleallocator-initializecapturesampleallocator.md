@@ -64,7 +64,7 @@ A DWORD specifying the minimum number of pre-allocated samples. This method will
 
 ### -param pAttributes
 
-Optional. An [IMFAttributes](/windows/win32/api/mfobjects/nn-mfobjects-imfattributes) store with additional configuration attributes for the sample allocator. The supported attributes are:
+Optional. An [IMFAttributes](../mfobjects/nn-mfobjects-imfattributes.md) store with additional configuration attributes for the sample allocator. The supported attributes are:
 
 - [MF_SA_BUFFERS_PER_SAMPLE](/windows/win32/medfound/mf-sa-buffers-per-sample)
 - [MF_SA_D3D11_BINDFLAGS](/windows/win32/medfound/mf-sa-d3d11-bindflags)
@@ -74,7 +74,7 @@ Optional. An [IMFAttributes](/windows/win32/api/mfobjects/nn-mfobjects-imfattrib
 
 ### -param pMediaType
 
-An [IMFMediaType](/windows/win32/api/mfobjects/nn-mfobjects-imfmediatype) specifying the media type for which samples will be allocator. The sample allocator uses this parameter to calculate the minimum required size for the media samples.
+An [IMFMediaType](../mfobjects/nn-mfobjects-imfmediatype.md) specifying the media type for which samples will be allocator. The sample allocator uses this parameter to calculate the minimum required size for the media samples.
 
 ## -returns
 
@@ -88,4 +88,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 ## -remarks
 
 ## -see-also
-

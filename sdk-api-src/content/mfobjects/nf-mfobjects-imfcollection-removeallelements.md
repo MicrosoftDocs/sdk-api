@@ -79,5 +79,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>

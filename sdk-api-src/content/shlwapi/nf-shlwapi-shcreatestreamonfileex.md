@@ -68,13 +68,13 @@ A pointer to a null-terminated string that specifies the file name.
 
 Type: <b>DWORD</b>
 
-One or more <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> values that are used to specify the file access mode and how the object that exposes the stream is created and deleted.
+One or more <a href="/windows/desktop/Stg/stgm-constants">STGM</a> values that are used to specify the file access mode and how the object that exposes the stream is created and deleted.
 
 ### -param dwAttributes [in]
 
 Type: <b>DWORD</b>
 
-One or more flag values that specify file attributes in the case that a new file is created. For a complete list of possible values, see the <i>dwFlagsAndAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+One or more flag values that specify file attributes in the case that a new file is created. For a complete list of possible values, see the <i>dwFlagsAndAttributes</i> parameter of the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param fCreate [in]
 
@@ -84,15 +84,15 @@ A <b>BOOL</b> value that helps specify, in conjunction with <i>grfMode</i>, how 
 
 ### -param pstmTemplate [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 Reserved.
 
 ### -param ppstm [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer for the stream associated with the file.
+Receives an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer for the stream associated with the file.
 
 ## -returns
 
@@ -102,7 +102,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The <b>SHCreateStreamOnFileEx</b> function extends the semantics of the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> flags and produces the same effect as calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+The <b>SHCreateStreamOnFileEx</b> function extends the semantics of the <a href="/windows/desktop/Stg/stgm-constants">STGM</a> flags and produces the same effect as calling the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 The <i>grfMode</i> and <i>fCreate</i> parameters work together to specify how the function should behave with respect to existing files.
 
@@ -152,4 +152,3 @@ The <i>grfMode</i> and <i>fCreate</i> parameters work together to specify how th
 <td>The file is created.</td>
 </tr>
 </table>
-

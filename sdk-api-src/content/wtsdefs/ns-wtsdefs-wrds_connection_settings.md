@@ -60,17 +60,17 @@ Contains connection setting information for a remote session.
 
 ### -field WRdsConnectionSettingLevel
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-wrds_connection_setting_level">WRDS_CONNECTION_SETTING_LEVEL</a> enumeration that specifies the type of structure that is contained in the <b>WRdsConnectionSetting</b> member.
+A value of the <a href="/windows/desktop/api/wtsdefs/ne-wtsdefs-wrds_connection_setting_level">WRDS_CONNECTION_SETTING_LEVEL</a> enumeration that specifies the type of structure that is contained in the <b>WRdsConnectionSetting</b> member.
 
 
 
 #### WRDS_CONNECTION_SETTING_LEVEL_1
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
+The structure is a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
 
 ### -field WRdsConnectionSetting
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_setting">WRDS_CONNECTION_SETTING</a> structure that specifies the connection settings.
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_setting">WRDS_CONNECTION_SETTING</a> structure that specifies the connection settings.
 
 ### -field WRdsConnectionSetting.switch_is
 
@@ -78,5 +78,4 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrd
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-logonnotify">IWRdsProtocolConnection::LogonNotify</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-logonnotify">IWRdsProtocolConnection::LogonNotify</a>

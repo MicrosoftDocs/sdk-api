@@ -74,13 +74,12 @@ Specifies that less memory should be used for cache of antialiased glyphs. This 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-antialiasing-with-text-use">Antialiasing with Text</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-antialiasing-with-text-use">Antialiasing with Text</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawdriverstring">Graphics::DrawDriverString</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawdriverstring">Graphics::DrawDriverString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measuredriverstring">Graphics::MeasureDriverString</a>
-
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measuredriverstring">Graphics::MeasureDriverString</a>

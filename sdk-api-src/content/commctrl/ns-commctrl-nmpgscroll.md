@@ -52,20 +52,20 @@ api_name:
 
 ## -description
 
-Contains and receives information that the pager control uses when scrolling the contained window. It is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgn-scroll">PGN_SCROLL</a> notification.
+Contains and receives information that the pager control uses when scrolling the contained window. It is used with the <a href="/windows/desktop/Controls/pgn-scroll">PGN_SCROLL</a> notification.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
 
 ### -field fwKeys
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Modifier keys that are down when the scroll occurs. This can be one or more of the following values: 
 
@@ -192,4 +192,3 @@ Contains the vertical scroll position of the contained window, in pixels, before
 Type: <b>int</b>
 
 On entry, contains the default scroll delta in pixels. This member can be modified to contain a different scroll delta amount if desired. This value is always positive, regardless of the scroll direction.
-

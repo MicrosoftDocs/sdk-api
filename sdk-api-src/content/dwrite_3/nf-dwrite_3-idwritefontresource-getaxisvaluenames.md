@@ -64,15 +64,15 @@ Value index, from 0 to [GetAxisValueNameCount](/windows/win32/api/dwrite/nf-dwri
 
 ### -param fontAxisRange [out]
 
-Type: **[DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)\***
+Type: **[DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md)\***
 
 Range of the named value.
 
 ### -param names [out]
 
-Type: **[IDWriteLocalizedStrings](/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings)\*\***
+Type: **[IDWriteLocalizedStrings](../dwrite/nn-dwrite-idwritelocalizedstrings.md)\*\***
 
-The address of a pointer to an [IDWriteLocalizedStrings](/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings) interface. On successful completion, the function sets the pointer to a newly created localized strings object.
+The address of a pointer to an [IDWriteLocalizedStrings](../dwrite/nn-dwrite-idwritelocalizedstrings.md) interface. On successful completion, the function sets the pointer to a newly created localized strings object.
 
 ## -returns
 
@@ -85,4 +85,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 The font author may not have supplied names for some font axis values. The localized strings will be empty in that case. The range may be a single point, where *minValue* == *maxValue*. All ranges are in ascending order by *axisValueIndex*.
 
 ## -see-also
-

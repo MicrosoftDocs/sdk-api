@@ -4,7 +4,7 @@ title: GdiplusStartupInputEx
 ms.date: 05/07/2020
 ms.topic: language-reference
 targetos: Windows
-description: The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) function.
+description: The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md) function.
 tech.root: gdiplus
 req.construct-type: structure
 req.ddi-compliance: 
@@ -38,7 +38,7 @@ dev_langs:
 
 ## -description
 
-The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) function. **GdiplusStartupInputEx** derives from [**GdiplusStartupInput**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput).
+The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md) function. **GdiplusStartupInputEx** derives from [**GdiplusStartupInput**](./nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput.md).
 
 ## -struct-fields
 
@@ -46,9 +46,8 @@ The **GdiplusStartupInputEx** structure holds a block of arguments that are requ
 
 Type: **INT**
 
-See [**GdiplusStartupParams**](/windows/win32/api/gdiplusinit/ne-gdiplusinit-gdiplusstartupparams). The default value is **GdiplusStartupDefault** (0).
+See [**GdiplusStartupParams**](./ne-gdiplusinit-gdiplusstartupparams.md). The default value is **GdiplusStartupDefault** (0).
 
 ## -remarks
 
 ## -see-also
-

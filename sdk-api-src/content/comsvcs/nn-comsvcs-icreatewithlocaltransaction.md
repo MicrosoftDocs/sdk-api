@@ -54,7 +54,7 @@ Creates a COM+ object that executes within the scope of the specified local tran
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateWithLocalTransaction</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithLocalTransaction</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateWithLocalTransaction</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithLocalTransaction</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICreateWithLocalTransaction</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icreatewithlocaltransaction-createinstancewithsystx">CreateInstanceWithSysTx</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icreatewithlocaltransaction-createinstancewithsystx">CreateInstanceWithSysTx</a>
 </td>
 <td align="left" width="63%">
 Creates a COM+ object that executes within the scope of the specified local transaction.
@@ -77,4 +77,3 @@ Creates a COM+ object that executes within the scope of the specified local tran
 </td>
 </tr>
 </table>
-

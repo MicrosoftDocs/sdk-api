@@ -64,7 +64,7 @@ Retrieves the number of open handles  that belong to the specified process.
 
 A handle to the process whose handle count is being requested.  The
         handle must have the PROCESS_QUERY_INFORMATION
-        or PROCESS_QUERY_LIMITED_INFORMATION access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+        or PROCESS_QUERY_LIMITED_INFORMATION access right. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>The handle must have the PROCESS_QUERY_INFORMATION access right.
 
@@ -76,19 +76,18 @@ A pointer to a variable that receives the number of open handles that belong to 
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error  information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error  information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-This function retrieves information about the executive objects for the process. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/kernel-objects">Kernel Objects</a>.
+This function retrieves information about the executive objects for the process. For more information, see <a href="/windows/desktop/SysInfo/kernel-objects">Kernel Objects</a>.
 
-To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
-
+<a href="/windows/desktop/ProcThread/child-processes">Processes</a>

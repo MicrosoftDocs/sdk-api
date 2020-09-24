@@ -56,23 +56,22 @@ The <b>IADsComputerOperations::Status</b> method retrieves the status of a compu
 
 ### -param ppObject [out]
 
-Pointer to an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface that reports the status code of computer operations. The status code is provider-specific.
+Pointer to an  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface that reports the status code of computer operations. The status code is provider-specific.
 
 ## -returns
 
 This method supports the standard return values as well as the following:
 
-For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputeroperations">IADsComputerOperations</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscomputeroperations">IADsComputerOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

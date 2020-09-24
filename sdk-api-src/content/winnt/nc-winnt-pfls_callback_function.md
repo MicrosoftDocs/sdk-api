@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined function. If the FLS slot is in use, <b>FlsCallback</b> is called on fiber deletion, thread exit, and when an FLS index is freed. Specify this function when calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a> function. The <i>PFLS_CALLBACK_FUNCTION</i> type defines a pointer to this callback function. 
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a> function. The <i>PFLS_CALLBACK_FUNCTION</i> type defines a pointer to this callback function. 
 <b>FlsCallback</b> is a placeholder for the application-defined function name.
 
 ## -parameters
@@ -67,13 +67,12 @@ Each FLS index has an associated
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
+<a href="/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a>
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

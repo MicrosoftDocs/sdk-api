@@ -70,9 +70,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord">ITMediaRecord</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord">ITMediaRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediarecord-get_filename">get_FileName</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediarecord-get_filename">get_FileName</a>

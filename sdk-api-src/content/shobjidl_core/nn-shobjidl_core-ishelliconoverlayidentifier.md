@@ -54,7 +54,7 @@ Exposes methods that handle all communication between icon overlay handlers and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellIconOverlayIdentifier</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellIconOverlayIdentifier</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellIconOverlayIdentifier</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellIconOverlayIdentifier</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellIconOverlayIdentifier</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getoverlayinfo">GetOverlayInfo</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getoverlayinfo">GetOverlayInfo</a>
 </td>
 <td align="left" width="63%">
 Provides the location of the icon overlay's bitmap.
@@ -78,7 +78,7 @@ Provides the location of the icon overlay's bitmap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getpriority">GetPriority</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getpriority">GetPriority</a>
 </td>
 <td align="left" width="63%">
 Specifies the priority of an icon overlay.
@@ -87,7 +87,7 @@ Specifies the priority of an icon overlay.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-ismemberof">IsMemberOf</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-ismemberof">IsMemberOf</a>
 </td>
 <td align="left" width="63%">
 Specifies whether an icon overlay should be added to a Shell object's icon.
@@ -100,9 +100,8 @@ Specifies whether an icon overlay should be added to a Shell object's icon.
 
 Icon overlays are small images placed at the lower-left corner of the icon that represents a Shell object in Windows Explorer or on the desktop. They are used to add some extra information to the object's normal icon. A commonly used icon overlay is the small arrow that indicates that a file or folder is actually a link. You can specify custom icon overlays for Shell objects by implementing and registering an icon overlay handler.
 
-Icon overlay handlers are Component Object Model (COM) objects that are associated with a particular icon overlay. For a general discussion of icon overlay handlers, see <a href="https://docs.microsoft.com/windows/desktop/shell/how-to-implement-icon-overlay-handlers">How to Implement Icon Overlay Handlers</a>.
+Icon overlay handlers are Component Object Model (COM) objects that are associated with a particular icon overlay. For a general discussion of icon overlay handlers, see <a href="/windows/desktop/shell/how-to-implement-icon-overlay-handlers">How to Implement Icon Overlay Handlers</a>.
 
 This interface must be implemented by all icon overlay handlers.
 
 This interface is not typically called by applications.
-

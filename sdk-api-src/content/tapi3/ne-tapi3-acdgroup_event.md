@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>ACDGROUP_EVENT</b> enum describes ACD group events. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD group event that occurred.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD group event that occurred.
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ An ACD group has been removed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a>
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a>

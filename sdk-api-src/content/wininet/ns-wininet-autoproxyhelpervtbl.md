@@ -229,16 +229,15 @@ Pointer to a buffer containing the size of the sorted list.
 
 ## -remarks
 
-Together with the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-autoproxyhelperfunctions">AutoProxyHelperFunctions</a> structure, <b>AutoProxyHelperVtbl</b> serves to create a standard v-table that can be declared and populated using C, without requiring the use of C++.
+Together with the <a href="/windows/desktop/api/wininet/ns-wininet-autoproxyhelperfunctions">AutoProxyHelperFunctions</a> structure, <b>AutoProxyHelperVtbl</b> serves to create a standard v-table that can be declared and populated using C, without requiring the use of C++.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-autoproxyhelperfunctions">AutoProxyHelperFunctions</a>
+<a href="/windows/desktop/api/wininet/ns-wininet-autoproxyhelperfunctions">AutoProxyHelperFunctions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>

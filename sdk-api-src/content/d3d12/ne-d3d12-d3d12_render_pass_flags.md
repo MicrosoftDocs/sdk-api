@@ -72,5 +72,4 @@ Indicates that this is a resuming render pass.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/rendering">Rendering</a>
-
+<a href="/windows/desktop/direct3d12/rendering">Rendering</a>

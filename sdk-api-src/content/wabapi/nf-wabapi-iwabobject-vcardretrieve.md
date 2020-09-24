@@ -58,9 +58,9 @@ Reads a vCard file and creates a MailUser object containing
 
 ### -param lpIAB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
+Type: <b><a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
+Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
 				that specifies the address book object.
 
 ### -param ulFlags
@@ -93,9 +93,9 @@ Pointer to a string containing either the complete path name of the
 
 ### -param lppMailUser
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a>**</b>
+Type: <b><a href="/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a>**</b>
 
-Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a> interface that 
+Address of a pointer to an <a href="/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a> interface that 
 				receives the MailUser object created containing the properties 
 				in the vCard file.
 
@@ -118,4 +118,3 @@ Vcard retrieval is extensible. If your client application is using
 <b>WAB_VCARD_STREAM</b>. The former setting indicates a 
 file name, and the latter setting indicates a pointer to a buffer with the 
 Vcard contents.
-

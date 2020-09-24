@@ -66,17 +66,16 @@ Returns the default window handle to the IME class if successful, or <b>NULL</b>
 
 ## -remarks
 
-The operating system creates a default IME window for every thread. The window is created based on the IME class. The application can send the <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-control">WM_IME_CONTROL</a> message to this window.
+The operating system creates a default IME window for every thread. The window is created based on the IME class. The application can send the <a href="/windows/desktop/Intl/wm-ime-control">WM_IME_CONTROL</a> message to this window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-control">WM_IME_CONTROL</a>
-
+<a href="/windows/desktop/Intl/wm-ime-control">WM_IME_CONTROL</a>

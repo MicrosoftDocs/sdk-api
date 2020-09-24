@@ -82,5 +82,4 @@ Failure due to server communication.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-failurecategorymapping">FailureCategoryMapping</a>
-
+<a href="/windows/desktop/api/naptypes/ns-naptypes-failurecategorymapping">FailureCategoryMapping</a>

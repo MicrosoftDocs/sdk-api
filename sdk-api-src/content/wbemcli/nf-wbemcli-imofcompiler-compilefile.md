@@ -52,8 +52,8 @@ api_name:
 
 The <b>IMofCompiler::CompileFile</b> method compiles a MOF file (including 
     binary MOFs) and stores the information in the 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-w">WMI repository</a>. 
-    This method performs the same operation as the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">Mofcomp</a> 
+    <a href="/windows/desktop/WmiSdk/gloss-w">WMI repository</a>. 
+    This method performs the same operation as the <a href="/windows/desktop/WmiSdk/mofcomp">Mofcomp</a> 
     command.
 
 ## -parameters
@@ -188,7 +188,7 @@ This method can return one of these values.
 
 2
 
-Warning that <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/pragma-autorecover">#pragma autorecover</a> statement is not present. This statement should be one the first line of the MOF file.
+Warning that <a href="/windows/desktop/WmiSdk/pragma-autorecover">#pragma autorecover</a> statement is not present. This statement should be one the first line of the MOF file.
 
 ## -remarks
 
@@ -196,7 +196,7 @@ If the <i>User</i> parameter is in the form of &lt;<i>domain\user</i>&gt;, the <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
 
 
 
@@ -208,5 +208,4 @@ If the <i>User</i> parameter is in the form of &lt;<i>domain\user</i>&gt;, the <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
-
+<a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a>

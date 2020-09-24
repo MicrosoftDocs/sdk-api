@@ -56,13 +56,13 @@ Describes a pipeline state stream.
 
 ### -field SizeInBytes
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
 
 Specifies the size of the opaque data structure pointed to by the pPipelineStateSubobjectStream member, in bytes.
 
 ### -field pPipelineStateSubobjectStream
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_reads_(_Inexpressible_("Dependentonsizeofsubobjects"))</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_reads_(_Inexpressible_("Dependentonsizeofsubobjects"))</code>
 
 Specifies the address of a data structure that describes as a bytestream an arbitrary pipeline state subobject.
 
@@ -72,5 +72,4 @@ Use this structure with the ID3D12Device1::CreatePipelineState method to create 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

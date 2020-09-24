@@ -99,5 +99,4 @@ This method may return devices that have been connected previously, but that do 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices">IWMPSyncServices Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices">IWMPSyncServices Interface</a>

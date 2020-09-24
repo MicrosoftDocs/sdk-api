@@ -70,5 +70,4 @@ The address format is IP version 6.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_local_address_v1">RPC_CALL_LOCAL_ADDRESS_V1</a>
-
+<a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_local_address_v1">RPC_CALL_LOCAL_ADDRESS_V1</a>

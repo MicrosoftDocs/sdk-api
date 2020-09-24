@@ -74,17 +74,16 @@ A pointer to a buffer which is filled with a copy of the specified element of th
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 ## -remarks
 
-<b>DSA_GetItem</b> is not exported by name. To use it, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 322 from ComCtl32.dll to obtain a function pointer.
+<b>DSA_GetItem</b> is not exported by name. To use it, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 322 from ComCtl32.dll to obtain a function pointer.
 
 Using the element pointer that this function retrieves, you can modify the data in that element directly. However, be aware that a subsequent insert or destroy operation could cause this pointer value to become invalid or to point to a different element.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dsa_getitemptr">DSA_GetItemPtr</a>
-
+<a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dsa_getitemptr">DSA_GetItemPtr</a>

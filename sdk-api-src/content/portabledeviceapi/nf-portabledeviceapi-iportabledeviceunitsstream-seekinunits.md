@@ -57,15 +57,15 @@ The <b>SeekInUnits</b> method performs a seek on a stream, based on alternate un
 
 ### -param dlibMove [in]
 
-The displacement to add to the location indicated by the <i>dwOrigin</i> parameter. The units for the displacement are specified by <i>units</i>. If <i>dwOrigin</i> is <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">STREAM_SEEK_SET</a>, this is interpreted as an unsigned value rather than a signed value.
+The displacement to add to the location indicated by the <i>dwOrigin</i> parameter. The units for the displacement are specified by <i>units</i>. If <i>dwOrigin</i> is <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">STREAM_SEEK_SET</a>, this is interpreted as an unsigned value rather than a signed value.
 
 ### -param units [in]
 
-The units of the <i>dlibMove</i> and <i>plibNewPosition</i> parameters.  See <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-stream-units">WPD_STREAM_UNITS</a> for more details.
+The units of the <i>dlibMove</i> and <i>plibNewPosition</i> parameters.  See <a href="/windows/desktop/wpd_sdk/wpd-stream-units">WPD_STREAM_UNITS</a> for more details.
 
 ### -param dwOrigin [in]
 
-The origin for the displacement specified in <i>dlibMove</i>. The origin can be the beginning of the file (STREAM_SEEK_SET), the current seek pointer (STREAM_SEEK_CUR), or the end of the file (STREAM_SEEK_END). For more information about values, see the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">STREAM_SEEK</a> enumeration.
+The origin for the displacement specified in <i>dlibMove</i>. The origin can be the beginning of the file (STREAM_SEEK_SET), the current seek pointer (STREAM_SEEK_CUR), or the end of the file (STREAM_SEEK_END). For more information about values, see the <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">STREAM_SEEK</a> enumeration.
 
 ### -param plibNewPosition [out, optional]
 
@@ -118,9 +118,8 @@ The <i>dwUnits</i> or <i>dwOrigin</i> parameter contains an invalid value, or th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceunitsstream">IPortableDeviceUnitsStream</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceunitsstream">IPortableDeviceUnitsStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-stream-units">WPD_STREAM_UNITS</a>
-
+<a href="/windows/desktop/wpd_sdk/wpd-stream-units">WPD_STREAM_UNITS</a>

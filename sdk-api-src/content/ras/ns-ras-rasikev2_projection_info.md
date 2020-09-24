@@ -65,11 +65,11 @@ A value that specifies the result of IPv4 negotiation. A value of zero indicates
 
 ### -field ipv4Address
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a>  structure  that contains a null-terminated Unicode string that specifies the IPv4 address of the local client. This string has the form "a.b.c.d". <b>ipv4Address</b> is valid only if <b>dwIPv4NegotiationError</b> is zero.
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a>  structure  that contains a null-terminated Unicode string that specifies the IPv4 address of the local client. This string has the form "a.b.c.d". <b>ipv4Address</b> is valid only if <b>dwIPv4NegotiationError</b> is zero.
 
 ### -field ipv4ServerAddress
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure  that contains a null-terminated Unicode string that specifies the IPv4 address of the remote server. This string has the form "a.b.c.d". <b>ipv4ServerAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero. If the address is not available, this member is an empty string.
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure  that contains a null-terminated Unicode string that specifies the IPv4 address of the remote server. This string has the form "a.b.c.d". <b>ipv4ServerAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero. If the address is not available, this member is an empty string.
 
 ### -field dwIPv6NegotiationError
 
@@ -77,11 +77,11 @@ A value that specifies the result of IPv6 negotiation. A value of zero indicates
 
 ### -field ipv6Address
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a>  structure  that contains a null-terminated Unicode string that specifies the IPv6 address of the local client. <b>ipv6Address</b> is valid only if <b>dwIPv6NegotiationError</b> is zero.
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a>  structure  that contains a null-terminated Unicode string that specifies the IPv6 address of the local client. <b>ipv6Address</b> is valid only if <b>dwIPv6NegotiationError</b> is zero.
 
 ### -field ipv6ServerAddress
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a> structure  that contains a null-terminated Unicode string that specifies the IPv6 address of the remote server. <b>ipv6ServerAddress</b> is valid only if <b>dwIPv6NegotiationError</b> is zero. If the address is not available, this member is an empty string.
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a> structure  that contains a null-terminated Unicode string that specifies the IPv6 address of the remote server. <b>ipv6ServerAddress</b> is valid only if <b>dwIPv6NegotiationError</b> is zero. If the address is not available, this member is an empty string.
 
 ### -field dwPrefixLength
 
@@ -221,7 +221,7 @@ The number of available IPv4 addresses the server can switch to on the IKEv2 con
 
 ### -field ipv4ServerAddresses
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure that contains the available IPv4 addresses the server can switch to on the IKEv2 connection.
+A pointer to a <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure that contains the available IPv4 addresses the server can switch to on the IKEv2 connection.
 
 ### -field numIPv6ServerAddresses
 
@@ -229,17 +229,16 @@ The number of available IPv6 addresses the server can switch to on the IKEv2 con
 
 ### -field ipv6ServerAddresses
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a> structure that contains the available IPv6 addresses the server can switch to on the IKEv2 connection.
+A pointer to a <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a> structure that contains the available IPv6 addresses the server can switch to on the IKEv2 connection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ne-ras-rasprojection_info_type">RASPROJECTION_INFO_TYPE</a>
+<a href="/windows/desktop/api/ras/ne-ras-rasprojection_info_type">RASPROJECTION_INFO_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>

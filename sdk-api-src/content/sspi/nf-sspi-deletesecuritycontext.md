@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DeleteSecurityContext</b> function deletes the local data structures associated with the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> initiated by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
+The <b>DeleteSecurityContext</b> function deletes the local data structures associated with the specified <a href="/windows/desktop/SecGloss/s-gly">security context</a> initiated by a previous call to the <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function or the <a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
 
 ## -parameters
 
@@ -90,13 +90,12 @@ The caller must call this function for a security context when that security con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
-
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>

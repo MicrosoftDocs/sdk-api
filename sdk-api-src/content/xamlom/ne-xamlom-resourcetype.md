@@ -56,13 +56,12 @@ Defines constants that specify the type of a resource in a resource dictionary.
 
 ### -field ResourceTypeStatic
 
-The resource is a <a href="https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension">StaticResource</a>.
+The resource is a <a href="/windows/uwp/xaml-platform/staticresource-markup-extension">StaticResource</a>.
 
 ### -field ResourceTypeTheme
 
-The resource is a <a href="https://docs.microsoft.com/windows/uwp/xaml-platform/themeresource-markup-extension">ThemeResource</a>.
+The resource is a <a href="/windows/uwp/xaml-platform/themeresource-markup-extension">ThemeResource</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-resolveresource">ResolveResource</a>
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-resolveresource">ResolveResource</a>

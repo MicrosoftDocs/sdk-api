@@ -113,17 +113,16 @@ Not implemented.
 
 If an input is enabled, it is mixed into the recorded signal.
 
-This method applies to specific input pins on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-capture-filter">Audio Capture Filter</a>, so the filter itself returns E_NOTIMPL.
+This method applies to specific input pins on the <a href="/windows/desktop/DirectShow/audio-capture-filter">Audio Capture Filter</a>, so the filter itself returns E_NOTIMPL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_enable">IAMAudioInputMixer::get_Enable</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_enable">IAMAudioInputMixer::get_Enable</a>

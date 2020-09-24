@@ -82,5 +82,4 @@ Touchpad input (Windows 8.1 and later).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_sourceid/enumerations">Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/input_sourceid/enumerations">Enumerations</a>

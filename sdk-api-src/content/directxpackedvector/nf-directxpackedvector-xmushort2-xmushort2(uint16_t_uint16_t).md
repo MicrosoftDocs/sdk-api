@@ -53,7 +53,7 @@ api_name:
 Initializes a new instance of <code>XMUSHORT2</code> from two <code>uint16_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort2">XMUSHORT2</a> from two
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort2">XMUSHORT2</a> from two
 	<code>uint16_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -90,9 +90,8 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort2">XMUSHORT2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort2">XMUSHORT2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmushort2-ctor">XMUSHORT2 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmushort2-ctor">XMUSHORT2 Constructors</a>

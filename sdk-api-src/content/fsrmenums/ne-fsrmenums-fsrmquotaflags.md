@@ -71,7 +71,7 @@ The server will not track quota data for the quota and will not run any action a
 ### -field FsrmQuotaFlags_StatusIncomplete
 
 The quota is defined on the server but the rebuilding procedure (see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-scan">IFsrmQuotaManager::Scan</a>) did not start or the scan 
+     <a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-scan">IFsrmQuotaManager::Scan</a>) did not start or the scan 
      failed.
 
 ### -field FsrmQuotaFlags_StatusRebuilding
@@ -82,12 +82,11 @@ The quota is in the process of rebuilding its data from the disk.
 
 You can set the <b>FsrmQuotaFlags_Enforce</b> and 
     <b>FsrmQuotaFlags_Disable</b> flags when calling the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_quotaflags">IFsrmQuotaBase::put_QuotaFlags</a> method. The 
+    <a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_quotaflags">IFsrmQuotaBase::put_QuotaFlags</a> method. The 
     <b>IFsrmQuotaBase::get_QuotaFlags</b> method can return 
     these flags in addition to the <b>FsrmQuotaFlags_StatusIncomplete</b> and 
     <b>FsrmQuotaFlags_StatusRebuilding</b> flags.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_quotaflags">IFsrmQuotaBase::QuotaFlags</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_quotaflags">IFsrmQuotaBase::QuotaFlags</a>

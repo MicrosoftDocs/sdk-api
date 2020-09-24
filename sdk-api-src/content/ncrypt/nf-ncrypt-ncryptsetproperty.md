@@ -60,7 +60,7 @@ The handle of the key storage object to set the property for.
 
 ### -param pszProperty [in]
 
-A pointer to a null-terminated Unicode string that contains the name of the property to set. This can be one of the predefined <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">Key Storage Property Identifiers</a> or a custom property identifier.
+A pointer to a null-terminated Unicode string that contains the name of the property to set. This can be one of the predefined <a href="/windows/desktop/SecCNG/key-storage-property-identifiers">Key Storage Property Identifiers</a> or a custom property identifier.
 
 ### -param pbInput [in]
 
@@ -128,7 +128,7 @@ For the <b>NCRYPT_SECURITY_DESCR_PROPERTY</b> property, this parameter must also
 </dl>
 </td>
 <td width="60%">
-Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the object's owner. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a> function to set the owner SID in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the object's owner. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a> function to set the owner SID in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secu
 </dl>
 </td>
 <td width="60%">
-Set the SID of the object's primary group. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup">SetSecurityDescriptorGroup</a> function to set the group SID in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the SID of the object's primary group. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup">SetSecurityDescriptorGroup</a> function to set the group SID in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Set the SID of the object's primary group. Use the <a href="https://docs.microso
 </dl>
 </td>
 <td width="60%">
-Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a> function to set the DACL in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a> function to set the DACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">disc
 </dl>
 </td>
 <td width="60%">
-Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">syst
 </dl>
 </td>
 <td width="60%">
-Set the mandatory label access control entry in the SACL of the object. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For more information about the mandatory label access control entry, see <a href="https://msdn.microsoft.com/library/bb625963.aspx">Windows Integrity Mechanism Design</a>.
+Set the mandatory label access control entry in the SACL of the object. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For more information about the mandatory label access control entry, see <a href="/previous-versions/dotnet/articles/bb625963(v=msdn.10)">Windows Integrity Mechanism Design</a>.
 
 </td>
 </tr>
@@ -258,5 +258,4 @@ The specified property is not supported for the object.
 
 ## -remarks
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

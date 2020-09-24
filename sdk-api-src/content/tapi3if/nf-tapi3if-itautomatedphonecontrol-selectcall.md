@@ -58,7 +58,7 @@ The
 ### -param pCall [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface.
 
 ### -param fSelectDefaultTerminals [in]
 
@@ -76,53 +76,52 @@ If the <i>fSelectDefaultTerminals</i> parameter is set to VARIANT_TRUE, this met
 <b>SelectCall</b> method will return failure, and the call will not be selected on the phone. If this is not the required behavior for an application, then the application should pass in VARIANT_FALSE for the <i>fSelectDefaultTerminals</i> parameter and handle terminal selection separately.
 
 On successful completion of this method, the phone object keeps a reference to the call object (that is, it calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>).
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>).
 
 For Windows XP, only one call at a time can be selected on a phone. Future versions of TAPI may support simultaneous selection of multiple calls for use with phones that support multiple call appearances.
 
 Note that a call can be unselected in two ways: (1) the application can invoke 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-unselectcall">ITAutomatedPhoneControl::UnselectCall</a>, or (2) the phone object itself can invoke <b>ITAutomatedPhoneControl::UnselectCall</b>. See the following list for information on when this happens.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-unselectcall">ITAutomatedPhoneControl::UnselectCall</a>, or (2) the phone object itself can invoke <b>ITAutomatedPhoneControl::UnselectCall</b>. See the following list for information on when this happens.
 
 After this method completes successfully, the following handling is performed on the selected call:
 
 <ul>
 <li>When the phone goes onhook, the phone object calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">ITBasicCallControl::Disconnect</a> on any currently handled call that is not already in the CS_DISCONNECTED call state.</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">ITBasicCallControl::Disconnect</a> on any currently handled call that is not already in the CS_DISCONNECTED call state.</li>
 <li>If a selected call reaches the CS_DISCONNECTED call state, then the phone object automatically unselects the call using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-unselectcall">ITAutomatedPhoneControl::UnselectCall</a> method.</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-unselectcall">ITAutomatedPhoneControl::UnselectCall</a> method.</li>
 <li>If the phone is closed, any selected call is automatically unselected from that phone.</li>
 <li>When the phone goes offhook, or a call is selected when the phone is offhook, the phone object calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-answer">ITBasicCallControl::Answer</a> on the currently handled call if it is in the CS_OFFERING call state.</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-answer">ITBasicCallControl::Answer</a> on the currently handled call if it is in the CS_OFFERING call state.</li>
 <li>The phone object calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">ITAutomatedPhoneControl::StartTone</a>( PT_RINGBACK, 0 ) on itself when a call is selected on it in the CS_INPROGRESS call state and the phone is offhook, or when a call that has been selected on the phone enters the CS_INPROGRESS call state and the phone is offhook.</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">ITAutomatedPhoneControl::StartTone</a>( PT_RINGBACK, 0 ) on itself when a call is selected on it in the CS_INPROGRESS call state and the phone is offhook, or when a call that has been selected on the phone enters the CS_INPROGRESS call state and the phone is offhook.</li>
 <li>The phone object calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stoptone">ITAutomatedPhoneControl::StopTone</a> on itself when a call is selected on it in the CS_CONNECTED call state, or when a call that has been selected on the phone enters the CS_CONNECTED call state.</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stoptone">ITAutomatedPhoneControl::StopTone</a> on itself when a call is selected on it in the CS_CONNECTED call state, or when a call that has been selected on the phone enters the CS_CONNECTED call state.</li>
 <li>The phone object calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-startringer">ITAutomatedPhoneControl::StartRinger</a>( 0, 0 ) on itself when a call is selected on it in the CS_OFFERING, CS_INPROGRESS, or CS_CONNECTED call state and the phone is onhook. This also occurs when a call that has been selected on the phone enters the CS_OFFERING, CS_INPROGRESS, or CS_CONNECTED call state and the phone is onhook.</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-startringer">ITAutomatedPhoneControl::StartRinger</a>( 0, 0 ) on itself when a call is selected on it in the CS_OFFERING, CS_INPROGRESS, or CS_CONNECTED call state and the phone is onhook. This also occurs when a call that has been selected on the phone enters the CS_OFFERING, CS_INPROGRESS, or CS_CONNECTED call state and the phone is onhook.</li>
 </ul>
 Depending on the circumstances, the phone object performs one of the following actions when a call is selected on it in the CS_DISCONNECTED call state, or when a call that has been selected on the phone enters the CS_DISCONNECTED call state.
 
 <ul>
 <li>If the phone is onhook, then the phone object calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stopringer">ITAutomatedPhoneControl::StopRinger</a> on itself.</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stopringer">ITAutomatedPhoneControl::StopRinger</a> on itself.</li>
 <li>If the phone is offhook and the CS_DISCONNECTED call state event has cause equal to CEC_DISCONNECT_BUSY, then the phone object calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">ITAutomatedPhoneControl::StartTone</a>( PT_BUSY, 0 ).</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">ITAutomatedPhoneControl::StartTone</a>( PT_BUSY, 0 ).</li>
 <li>If the phone is offhook and the CS_DISCONNECTED call state event has cause equal to CEC_DISCONNECT_NORMAL, then the phone object calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stoptone">ITAutomatedPhoneControl::StopTone</a>.</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stoptone">ITAutomatedPhoneControl::StopTone</a>.</li>
 <li>If the phone is offhook and the CS_DISCONNECTED call state event has neither cause CEC_DISCONNECT_BUSY nor cause CEC_DISCONNECT_NORMAL, then the phone object calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">ITAutomatedPhoneControl::StartTone</a>( PT_ERROR, 0 ).</li>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">ITAutomatedPhoneControl::StartTone</a>( PT_ERROR, 0 ).</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>

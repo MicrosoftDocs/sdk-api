@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object using two integers to initialize the 
+Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object using two integers to initialize the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -61,23 +61,22 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/n
 
 Type: <b>INT</b>
 
-Integer that specifies the x-coordinate of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object.
+Integer that specifies the x-coordinate of the <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object.
 
 ### -param y [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the y-coordinate of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object.
+Integer that specifies the y-coordinate of the <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-point-constructors">Point Constructors</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-class-point-constructors">Point Constructors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
-
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>

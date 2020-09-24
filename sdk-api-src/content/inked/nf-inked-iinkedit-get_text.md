@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the current text in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control.
+Gets or sets the current text in the <a href="/windows/desktop/tablet/inkedit-control">InkEdit</a> control.
 
 This property is read/write.
 
@@ -71,5 +71,4 @@ Setting the Text property replaces the entire contents of a control with the new
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>EMRCREATECOLORSPACEW</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcolorspacea">CreateColorSpace</a> enhanced metafile record. 
-		  It differs from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspace">EMRCREATECOLORSPACE</a> in that it has a Unicode logical color space and also has an optional array containing raw source profile data.
+The <b>EMRCREATECOLORSPACEW</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-createcolorspacea">CreateColorSpace</a> enhanced metafile record. 
+		  It differs from <a href="/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspace">EMRCREATECOLORSPACE</a> in that it has a Unicode logical color space and also has an optional array containing raw source profile data.
 
 ## -struct-fields
 
@@ -96,17 +96,16 @@ An array containing the source profile data. The size of the array is <b>cbData<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcolorspacea">CreateColorSpace</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createcolorspacea">CreateColorSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspace">EMRCREATECOLORSPACE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspace">EMRCREATECOLORSPACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

@@ -50,22 +50,22 @@ api_name:
 
 ## -description
 
-Closes a specified <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">channel</a>.
+Closes a specified <a href="/windows/desktop/wsw/ws-channel">channel</a>.
 
 ## -parameters
 
 ### -param channel [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> structure representing the channel to close.
+Pointer to a <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> structure representing the channel to close.
 
 ### -param asyncContext [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure containing information for invoking the function asynchronously.  Pass a <b>NULL</b> 
+Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure containing information for invoking the function asynchronously.  Pass a <b>NULL</b> 
                  value to call the function synchronously.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  where additional error information is stored if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  where additional error information is stored if the function fails.
 
 ## -returns
 
@@ -95,7 +95,7 @@ The asynchronous operation is still pending.
 </dl>
 </td>
 <td width="60%">
-The channel closure was aborted by a call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> while the channel was closing.
+The channel closure was aborted by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> while the channel was closing.
                 
 
 </td>
@@ -220,5 +220,4 @@ This operation is allowed only if the channel is in WS_CHANNEL_STATE_OPEN or WS_
 
 Closing a channel automatically disassociates any messages that are in the
                 process of being read or written. Therefore, it is not necessary to call 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabandonmessage">WsAbandonMessage</a> before calling <b>WsCloseChannel</b>).
-
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsabandonmessage">WsAbandonMessage</a> before calling <b>WsCloseChannel</b>).

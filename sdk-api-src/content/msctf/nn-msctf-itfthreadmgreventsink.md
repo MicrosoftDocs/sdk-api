@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfThreadMgrEventSink</b> interface is implemented by an application or TSF text service to receive notifications of certain thread manager events. Call the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfThreadMgrEventSink to install this advise sink.
+The <b>ITfThreadMgrEventSink</b> interface is implemented by an application or TSF text service to receive notifications of certain thread manager events. Call the TSF manager <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfThreadMgrEventSink to install this advise sink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadMgrEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadMgrEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadMgrEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadMgrEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfThreadMgrEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-oninitdocumentmgr">OnInitDocumentMgr</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-oninitdocumentmgr">OnInitDocumentMgr</a>
 </td>
 <td align="left" width="63%">
 Called when the first context is added to the context stack
@@ -78,7 +78,7 @@ Called when the first context is added to the context stack
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onpopcontext">OnPopContext</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onpopcontext">OnPopContext</a>
 </td>
 <td align="left" width="63%">
 Called when a context is removed from the context stack
@@ -87,7 +87,7 @@ Called when a context is removed from the context stack
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onpushcontext">OnPushContext</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onpushcontext">OnPushContext</a>
 </td>
 <td align="left" width="63%">
 Called when a context is added to the context stack
@@ -96,7 +96,7 @@ Called when a context is added to the context stack
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onsetfocus">OnSetFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onsetfocus">OnSetFocus</a>
 </td>
 <td align="left" width="63%">
 Called when a document view receives or loses the focus
@@ -105,7 +105,7 @@ Called when a document view receives or loses the focus
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onuninitdocumentmgr">OnUninitDocumentMgr</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onuninitdocumentmgr">OnUninitDocumentMgr</a>
 </td>
 <td align="left" width="63%">
 Called when the last context is removed from the context stack
@@ -116,10 +116,9 @@ Called when the last context is removed from the context stack
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

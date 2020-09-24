@@ -57,7 +57,7 @@ Retrieves the flags that indicate the selected indexer options.
 
 ### -param pdwFlags [out]
 
-Receives a bitwise OR of zero or more flags from the [MFASF_INDEXER_FLAGS](/windows/win32/api/wmcontainer/ne-wmcontainer-mfasf_indexer_flags) enumeration.
+Receives a bitwise OR of zero or more flags from the [MFASF_INDEXER_FLAGS](./ne-wmcontainer-mfasf_indexer_flags.md) enumeration.
 
 ## -returns
 
@@ -94,13 +94,12 @@ The method succeeded.
 
 ## -remarks
 
-You must call this method before initializing the indexer object with <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a>.
+You must call this method before initializing the indexer object with <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>

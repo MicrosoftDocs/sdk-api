@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>CALLHUB_EVENT</b> enum describes CallHub events. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhubevent-get_event">ITCallHubEvent::get_Event</a> method returns a member of this enum to indicate the type of CallHub event that occurred.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhubevent-get_event">ITCallHubEvent::get_Event</a> method returns a member of this enum to indicate the type of CallHub event that occurred.
 
 ## -enum-fields
 
@@ -76,5 +76,4 @@ A CallHub has gone idle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhubevent-get_event">ITCallHubEvent::get_Event</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhubevent-get_event">ITCallHubEvent::get_Event</a>

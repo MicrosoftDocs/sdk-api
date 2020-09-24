@@ -50,24 +50,23 @@ api_name:
 
 ## -description
 
-Sets the color used to draw the insertion mark for the tree view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setinsertmarkcolor">TVM_SETINSERTMARKCOLOR</a> message explicitly.
+Sets the color used to draw the insertion mark for the tree view. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-setinsertmarkcolor">TVM_SETINSERTMARKCOLOR</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a tree-view control.
 
 ### -param clr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that contains the new insertion mark color.
+<a href="/windows/desktop/gdi/colorref">COLORREF</a> value that contains the new insertion mark color.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getinsertmarkcolor">TreeView_GetInsertMarkColor</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getinsertmarkcolor">TreeView_GetInsertMarkColor</a>

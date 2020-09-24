@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc2">IX509CertificateRequestCmc2</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc2">IX509CertificateRequestCmc2</a>

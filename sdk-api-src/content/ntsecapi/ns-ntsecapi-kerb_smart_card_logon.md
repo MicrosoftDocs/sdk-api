@@ -54,20 +54,20 @@ api_name:
 
 ## -description
 
-The <b>KERB_SMART_CARD_LOGON</b> structure contains information about a smart card <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
+The <b>KERB_SMART_CARD_LOGON</b> structure contains information about a smart card <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 It is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> with the Kerberos security package using LOGON32_PROVIDER_WINNT50 or LOGON32_PROVIDER_DEFAULT.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> with the Kerberos security package using LOGON32_PROVIDER_WINNT50 or LOGON32_PROVIDER_DEFAULT.
 
 ## -struct-fields
 
 ### -field MessageType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> value identifying the type of logon request being made. This member must be set to <b>KerbInteractiveLogon</b>.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> value identifying the type of logon request being made. This member must be set to <b>KerbInteractiveLogon</b>.
 
 ### -field Pin
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that specifies the PIN associated with the smart card.
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that specifies the PIN associated with the smart card.
 
 ### -field CspDataLength
 
@@ -76,4 +76,3 @@ The length, in characters, of the <b>CspData</b> member.
 ### -field CspData
 
 A pointer to a <b>KERB_SMARTCARD_CSP_INFO</b> structure that contains information about the smart card cryptographic service provider (CSP) or a pointer to a marshaled <b>KERB_CERTIFICATE_INFO</b> structure when updating certificate credentials.
-

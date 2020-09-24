@@ -64,19 +64,19 @@ Height of the image, in pixels.
 
 ### -param dwFourCC [in]
 
-A <b>FOURCC</b> code or <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> value that specifies the video format. If you have a video subtype GUID, you can use the first <b>DWORD</b> of the subtype.
+A <b>FOURCC</b> code or <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> value that specifies the video format. If you have a video subtype GUID, you can use the first <b>DWORD</b> of the subtype.
 
 ### -param fBottomUp [in]
 
-If <b>TRUE,</b> the buffer's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-contiguouscopyto">IMF2DBuffer::ContiguousCopyTo</a> method copies the buffer into a bottom-up format. The bottom-up format is compatible with GDI for uncompressed RGB images. If this parameter is <b>FALSE</b>, the <b>ContiguousCopyTo</b> method copies the buffer into a top-down format, which is compatible with DirectX. 
+If <b>TRUE,</b> the buffer's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-contiguouscopyto">IMF2DBuffer::ContiguousCopyTo</a> method copies the buffer into a bottom-up format. The bottom-up format is compatible with GDI for uncompressed RGB images. If this parameter is <b>FALSE</b>, the <b>ContiguousCopyTo</b> method copies the buffer into a top-down format, which is compatible with DirectX. 
 
 
 
-For more information about top-down versus bottom-up images, see <a href="https://docs.microsoft.com/windows/desktop/medfound/image-stride">Image Stride</a>.
+For more information about top-down versus bottom-up images, see <a href="/windows/desktop/medfound/image-stride">Image Stride</a>.
 
 ### -param ppBuffer [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface.
 
 ## -returns
 
@@ -113,9 +113,8 @@ Unrecognized video format.
 
 ## -remarks
 
-The returned buffer object also exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a> interface.
+The returned buffer object also exposes the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

@@ -56,17 +56,17 @@ Gets the drop target for the text control.
 
 ### -param ppDropTarget
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>**</b>
+Type: <b><a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>**</b>
 
 The target of a drag-and-drop operation in a specified window.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method got the drop target successfully, the return value is <b>S_OK</b>.
 
- For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+ For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ Could not create the drop target.
 
 ## -remarks
 
-The host (caller) is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>, and for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the returned drop target when done.
+The host (caller) is responsible for calling <a href="/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a> or <a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>, and for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the returned drop target when done.
 
 ## -see-also
 
@@ -96,11 +96,11 @@ The host (caller) is responsible for calling <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
@@ -108,13 +108,12 @@ The host (caller) is responsible for calling <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

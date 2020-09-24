@@ -63,17 +63,16 @@ If the associated metafile is in the EMF+ Dual format, this method returns <b>TR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
+<a href="/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>

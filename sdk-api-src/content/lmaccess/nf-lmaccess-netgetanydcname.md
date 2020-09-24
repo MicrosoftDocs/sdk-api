@@ -54,7 +54,7 @@ The
 				<b>NetGetAnyDCName</b> function returns the name of any domain controller (DC) for a domain that is directly trusted by the specified server.
 
 Applications that support DNS-style names should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function. This function can locate any DC in any domain, whether or not the domain is directly trusted by the specified server.
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function. This function can locate any DC in any domain, whether or not the domain is directly trusted by the specified server.
 
 ## -parameters
 
@@ -69,9 +69,9 @@ Pointer to a constant string that specifies the name of the domain. If this para
 ### -param bufptr [out]
 
 Pointer to an allocated buffer that receives a string that specifies the server name of a domain controller for the domain. The server name is prefixed by \\. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ## -returns
 
@@ -154,23 +154,22 @@ If <i>servername</i> specifies a domain controller, the <i>domainname</i> must b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/get-functions">Get Functions</a>
+<a href="/windows/desktop/NetMgmt/get-functions">Get Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgetdcname">NetGetDCName</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netgetdcname">NetGetDCName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

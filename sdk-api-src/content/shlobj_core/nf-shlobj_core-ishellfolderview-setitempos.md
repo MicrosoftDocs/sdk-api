@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This method has been deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-selectandpositionitems">IFolderView::SelectAndPositionItems</a> instead.]
+<p class="CCE_Message">[This method has been deprecated. Use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-selectandpositionitems">IFolderView::SelectAndPositionItems</a> instead.]
 
 Sets the position of the given item.
 
@@ -64,7 +64,7 @@ A PIDL that corresponds to the item for which the position is being set.
 
 ### -param ppt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to a structure that contains the new coordinates of the item relative to the ListView contained in the view.
 
@@ -73,4 +73,3 @@ A pointer to a structure that contains the new coordinates of the item relative 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

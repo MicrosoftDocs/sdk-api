@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the name for a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_NAME</b> type defines a pointer to this function.
+Sets the name for a  <a href="/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_NAME</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -67,17 +67,16 @@ Pointer to a null-terminated Unicode string containing the new network name.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-<b>SetClusterNetworkName</b> changes the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks-name">Name</a> common property of the network identified by <i>hNetwork</i>. This is the only way that  <b>Name</b>, a read-only property, can be changed.
+<b>SetClusterNetworkName</b> changes the  <a href="/previous-versions/windows/desktop/mscs/networks-name">Name</a> common property of the network identified by <i>hNetwork</i>. This is the only way that  <b>Name</b>, a read-only property, can be changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks-name">Name</a>
+<a href="/previous-versions/windows/desktop/mscs/networks-name">Name</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>

@@ -89,14 +89,14 @@ Either 0 or 1. If one, the w-component of the rotated vector will be inserted in
 
 ## -returns
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> that results from the rotation and insertion.
+Returns the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> that results from the rotation and insertion.
 
 ## -remarks
 
 For best performance, the result of
    <b>XMVectorInsert</b>should be assigned back to <i>VD</i>.
 
-For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvectorinsert-template">XMVectorInsert</a>:
+For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="/windows/desktop/dxmath/xmvectorinsert-template">XMVectorInsert</a>:
 
 
 ```
@@ -112,21 +112,20 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorpermute">XMVectorPermute</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorpermute">XMVectorPermute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorrotateleft">XMVectorRotateLeft</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorrotateleft">XMVectorRotateLeft</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorrotateright">XMVectorRotateRight</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorrotateright">XMVectorRotateRight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorshiftleft">XMVectorShiftLeft</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorshiftleft">XMVectorShiftLeft</a>

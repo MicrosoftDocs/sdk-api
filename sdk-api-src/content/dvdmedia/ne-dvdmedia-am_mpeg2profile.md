@@ -80,5 +80,4 @@ DVD video decoders should support <b>AM_MPEG2Profile_Simple</b> or <b>AM_MPEG2Pr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

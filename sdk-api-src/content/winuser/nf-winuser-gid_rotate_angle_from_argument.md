@@ -52,15 +52,14 @@ api_name:
 
 The <b>GID_ROTATE_ANGLE_FROM_ARGUMENT</b> macro is used to interpret the 
         <b>GID_ROTATE</b> <i>ullArgument</i> value when receiving
-  the value in the <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> structure.
+  the value in the <a href="/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> structure.
 
 ## -parameters
 
 ### -param _arg_
 
-A value from a <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> message.
+A value from a <a href="/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/macros">Macros</a>
-
+<a href="/windows/desktop/wintouch/macros">Macros</a>

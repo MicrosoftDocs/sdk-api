@@ -57,7 +57,7 @@ Implementation should not block these calls because this may block other incomin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSListenerCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSListenerCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSListenerCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSListenerCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWTSListenerCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtslistenercallback-onnewchannelconnection">OnNewChannelConnection</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtslistenercallback-onnewchannelconnection">OnNewChannelConnection</a>
 </td>
 <td align="left" width="63%">
 Allows the RDC client plug-in to accept or deny a connection request for an incoming connection.
@@ -83,5 +83,4 @@ Allows the RDC client plug-in to accept or deny a connection request for an inco
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/dvc-client-plug-in-example">DVC Client Plug-in Example</a>
-
+<a href="/windows/desktop/TermServ/dvc-client-plug-in-example">DVC Client Plug-in Example</a>

@@ -65,9 +65,8 @@ Returns <b>E_NOTIMPL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
+<a href="/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>

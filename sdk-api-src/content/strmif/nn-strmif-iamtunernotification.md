@@ -55,7 +55,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTunerNotification</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTunerNotification</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTunerNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTunerNotification</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAMTunerNotification</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtunernotification-onevent">OnEvent</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtunernotification-onevent">OnEvent</a>
 </td>
 <td align="left" width="63%">
 Handles events from the TV tuner card.
@@ -81,5 +81,4 @@ Handles events from the TV tuner card.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>

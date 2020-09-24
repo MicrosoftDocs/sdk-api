@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Revokes a registered <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object.
+Revokes a registered <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object.
 
 ## -parameters
 
@@ -103,17 +103,16 @@ A spy is registered but there are outstanding allocations (not yet freed) made w
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object is released when it is revoked. This release corresponds to the call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> in the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> function by the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a> function. The implementation of the <b>IMallocSpy</b> interface should then do any appropriate cleanup.
+The <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object is released when it is revoked. This release corresponds to the call to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> in the implementation of the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> function by the <a href="/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a> function. The implementation of the <b>IMallocSpy</b> interface should then do any appropriate cleanup.
 
 
 
-If the return code is E_ACCESSDENIED, there are still outstanding allocations that were made while the spy was active. In this case, the registered spy cannot be revoked at this time because it may have attached arbitrary headers and/or trailers to these allocations that only the spy knows about. Only the spy's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prefree">PreFree</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prerealloc">PreRealloc</a>) method knows how to account for these headers and trailers. Before returning E_ACCESSDENIED, <b>CoRevokeMallocSpy</b> notes internally that a revoke is pending. When the outstanding allocations have been freed, the revoke proceeds automatically, releasing the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object. Thus, it is necessary to call <b>CoRevokeMallocSpy</b> only once for each call to <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a>, even if E_ACCESSDENIED is returned.
+If the return code is E_ACCESSDENIED, there are still outstanding allocations that were made while the spy was active. In this case, the registered spy cannot be revoked at this time because it may have attached arbitrary headers and/or trailers to these allocations that only the spy knows about. Only the spy's <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prefree">PreFree</a> (or <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prerealloc">PreRealloc</a>) method knows how to account for these headers and trailers. Before returning E_ACCESSDENIED, <b>CoRevokeMallocSpy</b> notes internally that a revoke is pending. When the outstanding allocations have been freed, the revoke proceeds automatically, releasing the <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object. Thus, it is necessary to call <b>CoRevokeMallocSpy</b> only once for each call to <a href="/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a>, even if E_ACCESSDENIED is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>

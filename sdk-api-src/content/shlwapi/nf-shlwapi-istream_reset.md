@@ -60,17 +60,16 @@ Moves the seek position in a specified stream to the beginning of the stream.
 
 ### -param pstm [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the stream whose position is to be reset.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the stream whose position is to be reset.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-Returns <b>S_OK</b> on success or a COM failure code otherwise. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> for further discussion of possible error codes.
+Returns <b>S_OK</b> on success or a COM failure code otherwise. See <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> for further discussion of possible error codes.
 
 ## -remarks
 
-This function calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> to move the stream's seek position to the beginning of the stream.
-
+This function calls <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> to move the stream's seek position to the beginning of the stream.

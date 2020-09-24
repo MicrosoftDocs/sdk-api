@@ -150,7 +150,7 @@ This member is reserved for future use.
 ### -field dwPageSize
 
 The page size and the granularity of page protection and commitment. This is the page size used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function.
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function.
 
 ### -field lpMinimumApplicationAddress
 
@@ -166,9 +166,9 @@ A pointer to the highest memory address accessible to applications and DLLs.
 
 ### -field dwNumberOfProcessors
 
-The number of logical processors in the current group. To retrieve this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a> function.
+The number of logical processors in the current group. To retrieve this value, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a> function.
 
-<div class="alert"><b>Note</b>  For information about the  physical processors shared by logical processors, call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> with the <i>RelationshipType</i> parameter set to RelationProcessorPackage (3).</div>
+<div class="alert"><b>Note</b>  For information about the  physical processors shared by logical processors, call <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> with the <i>RelationshipType</i> parameter set to RelationProcessorPackage (3).</div>
 <div> </div>
 
 ### -field dwProcessorType
@@ -203,12 +203,12 @@ An obsolete member that is retained for compatibility. Use the <b>wProcessorArch
 
 ### -field dwAllocationGranularity
 
-The granularity for the starting address at which virtual memory can be allocated. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>.
+The granularity for the starting address at which virtual memory can be allocated. For more information, see <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>.
 
 ### -field wProcessorLevel
 
 The architecture-dependent processor level. It should be used only for display purposes. To determine the feature set of a processor, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent">IsProcessorFeaturePresent</a> function.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent">IsProcessorFeaturePresent</a> function.
 
 If <b>wProcessorArchitecture</b> is PROCESSOR_ARCHITECTURE_INTEL, <b>wProcessorLevel</b> is defined by the CPU vendor.
 
@@ -253,17 +253,16 @@ If <i>xx</i> is not equal to 0xFF, <i>xx</i> + 'A' is the stepping letter and <i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>

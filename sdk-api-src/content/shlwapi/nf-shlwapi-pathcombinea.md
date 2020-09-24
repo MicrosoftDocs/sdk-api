@@ -58,7 +58,7 @@ api_name:
 Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.
         
             
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a> or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a> or <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> function in its place.</div><div> </div>
 
 ## -parameters
 
@@ -145,4 +145,3 @@ The combined path is             C:\One\Two\Three
 
 > [!NOTE]
 > The shlwapi.h header defines PathCombine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

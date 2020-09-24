@@ -56,11 +56,11 @@ Searches for interface pointers that are reachable from [in], [in, out], or [out
 
 ### -param walkWhat [in]
 
-Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/ne-callobj-callframe_walk">CALLFRAME_WALK</a> enumeration.
+Flags from the <a href="/windows/desktop/api/callobj/ne-callobj-callframe_walk">CALLFRAME_WALK</a> enumeration.
 
 ### -param pWalker [in]
 
-A pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a> interface. When specified, a call back is made for each interface pointer encountered. This parameter is optional.
+A pointer to an instance of the <a href="/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a> interface. When specified, a call back is made for each interface pointer encountered. This parameter is optional.
 
 ## -returns
 
@@ -97,5 +97,4 @@ An unexpected error has occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

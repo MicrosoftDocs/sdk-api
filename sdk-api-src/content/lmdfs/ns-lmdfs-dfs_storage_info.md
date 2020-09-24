@@ -56,9 +56,9 @@ api_name:
 
 Contains information about a DFS root or link target in a DFS namespace or from the cache maintained 
     by the DFS client. Information about a DFS root or link target in a DFS namespace is retrieved by 
-    calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> function. Information about a 
+    calling the <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> function. Information about a 
     DFS root or link target from the cache maintained by the DFS client is retrieved by calling the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a> function.
+    <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a> function.
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ Contains information about a DFS root or link target in a DFS namespace or from 
 State of the target.
 
 When this structure is returned as a result of calling the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> function, this member can be one of the 
+      <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> function, this member can be one of the 
       following values.
 
 
@@ -83,7 +83,7 @@ The DFS root or link target is offline.
 The DFS root or link target is online.
 
 When this structure is returned as a result of calling the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a> function, the 
+      <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a> function, the 
       <b>DFS_STORAGE_STATE_ONLINE</b> (0x00000002) state is set by default. If the target is the 
       active target in the DFS client cache, the following value is logically combined with the default value via the 
       <b>OR</b> operator.
@@ -106,32 +106,31 @@ Pointer to a null-terminated Unicode string that specifies the DFS root target o
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_4">DFS_INFO_4</a> structures each contain one or more 
+The <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a> and 
+    <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_4">DFS_INFO_4</a> structures each contain one or more 
     <b>DFS_STORAGE_INFO</b> structures, one for each DFS target. 
     Only one target can be marked as the active target. It is possible that no targets will be marked active.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a>
+<a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
+<a href="/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>

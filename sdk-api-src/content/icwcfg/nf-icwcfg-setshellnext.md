@@ -101,5 +101,4 @@ The call is successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icwcfg/nf-icwcfg-checkconnectionwizard">CheckConnectionWizard</a>
-
+<a href="/windows/desktop/api/icwcfg/nf-icwcfg-checkconnectionwizard">CheckConnectionWizard</a>

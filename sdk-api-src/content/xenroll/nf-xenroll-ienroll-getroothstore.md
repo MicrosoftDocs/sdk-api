@@ -59,13 +59,12 @@ The <b>getROOTHStore</b> method is not implemented.
 
 ## -returns
 
-This method always returns <b>NULL</b>. <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_CALL_NOT_IMPLEMENTED</b>.
+This method always returns <b>NULL</b>. <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_CALL_NOT_IMPLEMENTED</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

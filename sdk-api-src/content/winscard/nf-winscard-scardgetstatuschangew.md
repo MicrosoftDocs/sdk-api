@@ -56,14 +56,14 @@ api_name:
 
 The <b>SCardGetStatusChange</b> function blocks execution until the current availability of the cards in a specific set of readers changes.
 
-The caller supplies a list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">readers</a> to be monitored by an SCARD_READERSTATE array and the maximum amount of time (in milliseconds) that it is willing to wait for an action to occur on one of the listed readers. Note that <b>SCardGetStatusChange</b> uses the user-supplied value in the <b>dwCurrentState</b> members of the <i>rgReaderStates</i><a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a> array as the definition of the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the readers. The function returns when there is a change in availability, having filled in the <b>dwEventState</b> members of <i>rgReaderStates</i> appropriately.
+The caller supplies a list of <a href="/windows/desktop/SecGloss/r-gly">readers</a> to be monitored by an SCARD_READERSTATE array and the maximum amount of time (in milliseconds) that it is willing to wait for an action to occur on one of the listed readers. Note that <b>SCardGetStatusChange</b> uses the user-supplied value in the <b>dwCurrentState</b> members of the <i>rgReaderStates</i><a href="/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a> array as the definition of the current <a href="/windows/desktop/SecGloss/s-gly">state</a> of the readers. The function returns when there is a change in availability, having filled in the <b>dwEventState</b> members of <i>rgReaderStates</i> appropriately.
 
 ## -parameters
 
 ### -param hContext [in]
 
-A handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function.
+A handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+the <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function.
 
 ### -param dwTimeout [in]
 
@@ -72,9 +72,9 @@ The maximum amount of time, in milliseconds, to wait for an action. A value of z
 ### -param rgReaderStates [in, out]
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a> structures that specify the readers to watch, and that receives the result.
+<a href="/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a> structures that specify the readers to watch, and that receives the result.
 
-To be notified of the arrival of a new smart card reader, set the <b>szReader</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a> structure to "\\\\?PnP?\\Notification", and set all of the other members of that structure to zero.
+To be notified of the arrival of a new smart card reader, set the <b>szReader</b> member of a <a href="/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a> structure to "\\\\?PnP?\\Notification", and set all of the other members of that structure to zero.
 
 <div class="alert"><b>Important</b>  Each member of each structure in this array must be initialized to zero and then set to specific values as necessary. If this is not done, the function will fail in situations that involve remote card readers.</div>
 <div> </div>
@@ -111,7 +111,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -119,14 +119,14 @@ An error code. For more information, see
 
 ## -remarks
 
-The <b>SCardGetStatusChange</b> function is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> tracking function. For more information about other tracking functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-tracking-functions">Smart Card Tracking Functions</a>.
+The <b>SCardGetStatusChange</b> function is a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> tracking function. For more information about other tracking functions, see 
+<a href="/windows/desktop/SecAuthN/smart-card-tracking-functions">Smart Card Tracking Functions</a>.
 
 
 #### Examples
 
 For information about how to call this function, see the  example in 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>.
 
 <div class="code"></div>
 
@@ -138,17 +138,16 @@ For information about how to call this function, see the  example in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a>
+<a href="/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardcancel">SCardCancel</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardcancel">SCardCancel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>

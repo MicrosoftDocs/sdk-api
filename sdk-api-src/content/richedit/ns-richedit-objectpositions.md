@@ -64,13 +64,13 @@ The <b>code</b> member of this structure identifies the notification code being 
 
 ### -field cObjectCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Number of object positions.
 
 ### -field pcpPositions
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 The object positions.
 
@@ -89,4 +89,3 @@ This is used in the <a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-
 
 
 <b>Reference</b>
-

@@ -105,13 +105,12 @@ The audio renderer was removed from the pipeline.
 
 ## -remarks
 
-Events outside of the application can change the master volume level. For example, the user can change the volume from the system volume-control program (SndVol). If an external event changes the master volume, the audio renderer sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/meaudiosessionvolumechanged">MEAudioSessionVolumeChanged</a> event, which the Media Session forwards to the application.
+Events outside of the application can change the master volume level. For example, the user can change the volume from the system volume-control program (SndVol). If an external event changes the master volume, the audio renderer sends an <a href="/windows/desktop/medfound/meaudiosessionvolumechanged">MEAudioSessionVolumeChanged</a> event, which the Media Session forwards to the application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume">IMFSimpleAudioVolume</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume">IMFSimpleAudioVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
-
+<a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>

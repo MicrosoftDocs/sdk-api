@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getrect">EM_GETRECT</a> message explicitly.
+Gets the formatting rectangle of an edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-getrect">EM_GETRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,5 +68,4 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getrect">EM_GETRECT</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-getrect">EM_GETRECT</a>.

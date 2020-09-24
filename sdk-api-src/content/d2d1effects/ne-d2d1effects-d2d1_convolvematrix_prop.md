@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/convolve-matrix">Convolve matrix effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/convolve-matrix">Convolve matrix effect</a>.
 
 ## -enum-fields
 
@@ -69,7 +69,7 @@ The default value is 1.0f.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_scale_mode">D2D1_CONVOLVEMATRIX_SCALE_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_scale_mode">D2D1_CONVOLVEMATRIX_SCALE_MODE</a>.
 
 The default value is D2D1_CONVOLVEMATRIX_SCALE_MODE_LINEAR.
 
@@ -130,7 +130,7 @@ Shifts the convolution kernel from a centered position on the output pixel to a 
 
 With some offsets and kernel sizes, the convolution kernel’s samples won't land on a pixel image center. The pixel values for the kernel sample are computed by bilinear interpolation.
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
 
 The default value is {0.0f, 0.0f}.
 
@@ -152,7 +152,7 @@ The default value is FALSE.
 The mode used to calculate the border of the image, soft or hard.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 
@@ -169,4 +169,3 @@ The type is BOOL.
 The default value is FALSE.
 
 ### -field D2D1_CONVOLVEMATRIX_PROP_FORCE_DWORD
-

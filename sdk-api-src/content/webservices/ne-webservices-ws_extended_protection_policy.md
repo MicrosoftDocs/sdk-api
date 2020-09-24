@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Defines if <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a> data should be validated. This property is only available on the server,
-                and can only be set when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> and either <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used.
+Defines if <a href="/windows/desktop/wsw/extended-protection">Extended Protection</a> data should be validated. This property is only available on the server,
+                and can only be set when <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> and either <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>or <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used.
 
 ## -enum-fields
 
@@ -78,4 +78,3 @@ This is the default.
 
 Extended protection data is required to be present and is always validated. Clients that are not extended-protection-aware cannot authenticate to a server 
                     setting this flag.
-

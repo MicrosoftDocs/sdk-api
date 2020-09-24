@@ -66,7 +66,7 @@ Gets the package family name for the specified process.
 
 Type: <b>HANDLE</b>
 
-A handle to the process that has the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process that has the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param packageFamilyNameLength [in, out]
 
@@ -117,7 +117,7 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 ## -remarks
 
-For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
+For info about string size limits, see <a href="/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples
@@ -201,21 +201,20 @@ void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE process)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefamilyname">GetCurrentPackageFamilyName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefamilyname">GetCurrentPackageFamilyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackagefullname">GetPackageFullName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackagefullname">GetPackageFullName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageid">GetPackageId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackageid">GetPackageId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromfullname">PackageFamilyNameFromFullName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromfullname">PackageFamilyNameFromFullName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromid">PackageFamilyNameFromId</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromid">PackageFamilyNameFromId</a>

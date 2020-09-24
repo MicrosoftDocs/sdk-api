@@ -146,12 +146,11 @@ You can use this method to save a server-side playlist. When you do so, you spec
 
 This operation is asynchronous; WMT_SAVEAS_STOP indicates that all the data has been saved. Closing the reader ends a save operation that has not been completed.
 
-This method can take some time to complete, and a call can be made to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getsaveasprogress">GetSaveAsProgress</a> to determine progress.
+This method can take some time to complete, and a call can be made to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getsaveasprogress">GetSaveAsProgress</a> to determine progress.
 
 <div class="alert"><b>Note</b>  It is possible to get the out of disk space error (STG_E_MEDIUMFULL) if the file being saved is greater than 1 MB. This is because Microsoft Internet Explorer has a maximum cache size of 1MB, and in this case the error does not refer to the amount of free disk space. This effectively limits the sizes of files that can be saved this way to those under 1 MB.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>

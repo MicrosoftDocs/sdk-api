@@ -56,7 +56,7 @@ Applications that implement this callback interface should provide an implementa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMProgress3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress</a>. <b>IWMDMProgress3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMProgress3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress</a>. <b>IWMDMProgress3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMDMProgress3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-begin3">Begin3</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-begin3">Begin3</a>
 </td>
 <td align="left" width="63%">
 Indicates that an operation is about to begin.
@@ -80,7 +80,7 @@ Indicates that an operation is about to begin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">End3</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">End3</a>
 </td>
 <td align="left" width="63%">
 Indicates that an operation is finished.
@@ -89,7 +89,7 @@ Indicates that an operation is finished.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-progress3">Progress3</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-progress3">Progress3</a>
 </td>
 <td align="left" width="63%">
 Indicates the status of an action in progress.
@@ -100,17 +100,16 @@ Indicates the status of an action in progress.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
+<a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2">IWMDMProgress2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2">IWMDMProgress2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

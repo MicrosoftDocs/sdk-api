@@ -54,7 +54,7 @@ Encapsulates the methods and events  needed to represent a DLNA Digital Media Re
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaRenderer</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>. <b>IMediaRenderer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaRenderer</b> interface inherits from <a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>. <b>IMediaRenderer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMediaRenderer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer-actioninformation">ActionInformation</a>
+<a href="/windows/desktop/mediastreaming/imediarenderer-actioninformation">ActionInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about which methods can currently be invoked on the DMR.
@@ -78,25 +78,25 @@ Retrieves information about which methods can currently be invoked on the DMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3CEED740-19EA-4CC6-B3F8-F9DE9C6DCC58">add_RenderingParametersUpdate</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-add_renderingparametersupdate">add_RenderingParametersUpdate</a>
 </td>
 <td align="left" width="63%">
-Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/renderingparametersupdate">RenderingParametersUpdate</a> event.
+Registers an event handler for the <a href="/windows/desktop/mediastreaming/renderingparametersupdate">RenderingParametersUpdate</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34D11925-387B-414F-A176-336BBCF87821">add_TransportParametersUpdate</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-add_transportparametersupdate">add_TransportParametersUpdate</a>
 </td>
 <td align="left" width="63%">
-Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/transportparametersupdate">TransportParametersUpdate</a> event.
+Registers an event handler for the <a href="/windows/desktop/mediastreaming/transportparametersupdate">TransportParametersUpdate</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828930(v=vs.85)">GetMuteAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828930(v=vs.85)">GetMuteAsync</a>
 </td>
 <td align="left" width="63%">
 Queries the DMR asynchronously to determine if audio is currently muted or unmuted.
@@ -105,7 +105,7 @@ Queries the DMR asynchronously to determine if audio is currently muted or unmut
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828931(v=vs.85)">GetPositionInformationAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828931(v=vs.85)">GetPositionInformationAsync</a>
 </td>
 <td align="left" width="63%">
 Queries the DMR asynchronously to retrieve position information.
@@ -114,7 +114,7 @@ Queries the DMR asynchronously to retrieve position information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828932(v=vs.85)">GetTransportInformationAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828932(v=vs.85)">GetTransportInformationAsync</a>
 </td>
 <td align="left" width="63%">
 Queries the DMR asynchronously to retrieve transport information.
@@ -123,7 +123,7 @@ Queries the DMR asynchronously to retrieve transport information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828933(v=vs.85)">GetVolumeAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828933(v=vs.85)">GetVolumeAsync</a>
 </td>
 <td align="left" width="63%">
 Queries the DMR asynchronously for its current audio volume level.
@@ -132,7 +132,7 @@ Queries the DMR asynchronously for its current audio volume level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer-isaudiosupported">IsAudioSupported</a>
+<a href="/windows/desktop/mediastreaming/imediarenderer-isaudiosupported">IsAudioSupported</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the DMR is capable of playing audio content.
@@ -141,7 +141,7 @@ Retrieves a value that indicates whether the DMR is capable of playing audio con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer-isimagesupported">IsImageSupported</a>
+<a href="/windows/desktop/mediastreaming/imediarenderer-isimagesupported">IsImageSupported</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the DMR is capable of displaying images.
@@ -150,7 +150,7 @@ Retrieves a value that indicates whether the DMR is capable of displaying images
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer-isvideosupported">IsVideoSupported</a>
+<a href="/windows/desktop/mediastreaming/imediarenderer-isvideosupported">IsVideoSupported</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the DMR is capable of playing video content.
@@ -159,7 +159,7 @@ Retrieves a value that indicates whether the DMR is capable of playing video con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer-pauseasync">PauseAsync</a>
+<a href="/windows/desktop/mediastreaming/imediarenderer-pauseasync">PauseAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to pause playing the current content.
@@ -168,43 +168,43 @@ Instructs the DMR asynchronously to pause playing the current content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828938(v=vs.85)">PlayAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828938(v=vs.85)">PlayAsync</a>
 </td>
 <td align="left" width="63%">
-Instructs the DMR asynchronously to play the content that was specified by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828949(v=vs.85)">SetSourceFromUriAsync</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828948(v=vs.85)">SetSourceFromStreamAsync</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828947(v=vs.85)">SetSourceFromMediaSourceAsync</a> method.
+Instructs the DMR asynchronously to play the content that was specified by calling the <a href="/previous-versions/windows/desktop/legacy/hh828949(v=vs.85)">SetSourceFromUriAsync</a>, <a href="/previous-versions/windows/desktop/legacy/hh828948(v=vs.85)">SetSourceFromStreamAsync</a>, or <a href="/previous-versions/windows/desktop/legacy/hh828947(v=vs.85)">SetSourceFromMediaSourceAsync</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828939(v=vs.85)">PlayAtSpeedAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828939(v=vs.85)">PlayAtSpeedAsync</a>
 </td>
 <td align="left" width="63%">
-Instructs the DMR asynchronously to play the content that was specified by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828949(v=vs.85)">SetSourceFromUriAsync</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828948(v=vs.85)">SetSourceFromStreamAsync</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828947(v=vs.85)">SetSourceFromMediaSourceAsync</a> method at the specified rate.
+Instructs the DMR asynchronously to play the content that was specified by calling the <a href="/previous-versions/windows/desktop/legacy/hh828949(v=vs.85)">SetSourceFromUriAsync</a>, <a href="/previous-versions/windows/desktop/legacy/hh828948(v=vs.85)">SetSourceFromStreamAsync</a>, or <a href="/previous-versions/windows/desktop/legacy/hh828947(v=vs.85)">SetSourceFromMediaSourceAsync</a> method at the specified rate.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828940(v=vs.85)">remove_RenderingParametersUpdate</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828940(v=vs.85)">remove_RenderingParametersUpdate</a>
 </td>
 <td align="left" width="63%">
-Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/renderingparametersupdate">RenderingParametersUpdate</a> event.
+Unregisters an event handler for the <a href="/windows/desktop/mediastreaming/renderingparametersupdate">RenderingParametersUpdate</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828941(v=vs.85)">remove_TransportParametersUpdate</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828941(v=vs.85)">remove_TransportParametersUpdate</a>
 </td>
 <td align="left" width="63%">
-Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/transportparametersupdate">TransportParametersUpdate</a> event.
+Unregisters an event handler for the <a href="/windows/desktop/mediastreaming/transportparametersupdate">TransportParametersUpdate</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828942(v=vs.85)">SeekAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828942(v=vs.85)">SeekAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to seek to a particular time offset.
@@ -213,7 +213,7 @@ Instructs the DMR asynchronously to seek to a particular time offset.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828943(v=vs.85)">SetMuteAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828943(v=vs.85)">SetMuteAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to either mute or unmute the audio.
@@ -224,7 +224,7 @@ Instructs the DMR asynchronously to either mute or unmute the audio.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828944(v=vs.85)">SetNextSourceFromMediaSourceAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828944(v=vs.85)">SetNextSourceFromMediaSourceAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to prepare the specified content for playing once the current content has finished playing.
@@ -233,7 +233,7 @@ Instructs the DMR asynchronously to prepare the specified content for playing on
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828945(v=vs.85)">SetNextSourceFromStreamAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828945(v=vs.85)">SetNextSourceFromStreamAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to prepare the specified media stream for playing once the current content has finished playing.
@@ -242,7 +242,7 @@ Instructs the DMR asynchronously to prepare the specified media stream for playi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828946(v=vs.85)">SetNextSourceFromUriAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828946(v=vs.85)">SetNextSourceFromUriAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to prepare the content identified by the specified URI for playing once the current content has finished playing.
@@ -251,7 +251,7 @@ Instructs the DMR asynchronously to prepare the content identified by the specif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828947(v=vs.85)">SetSourceFromMediaSourceAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828947(v=vs.85)">SetSourceFromMediaSourceAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to prepare the specified content for playing.
@@ -260,7 +260,7 @@ Instructs the DMR asynchronously to prepare the specified content for playing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828948(v=vs.85)">SetSourceFromStreamAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828948(v=vs.85)">SetSourceFromStreamAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to prepare the specified media stream for playing.
@@ -269,7 +269,7 @@ Instructs the DMR asynchronously to prepare the specified media stream for playi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828949(v=vs.85)">SetSourceFromUriAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828949(v=vs.85)">SetSourceFromUriAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to prepare the content identified by the specified URI for playing.
@@ -278,7 +278,7 @@ Instructs the DMR asynchronously to prepare the content identified by the specif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828950(v=vs.85)">SetVolumeAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828950(v=vs.85)">SetVolumeAsync</a>
 </td>
 <td align="left" width="63%">
 Sets the audio volume level on the DMR asynchronously to the specified value.
@@ -287,7 +287,7 @@ Sets the audio volume level on the DMR asynchronously to the specified value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer-stopasync">StopAsync</a>
+<a href="/windows/desktop/mediastreaming/imediarenderer-stopasync">StopAsync</a>
 </td>
 <td align="left" width="63%">
 Instructs the DMR asynchronously to stop playing the current content.
@@ -298,5 +298,4 @@ Instructs the DMR asynchronously to stop playing the current content.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
-
+<a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>

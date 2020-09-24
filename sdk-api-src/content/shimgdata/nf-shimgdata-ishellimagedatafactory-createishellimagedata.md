@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface.
+Creates an instance of the <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface.
 
 ## -parameters
 
 ### -param ppshimg [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>**</b>
+Type: <b><a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>**</b>
 
-The address of a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
+The address of a pointer to an instance of <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
 
 ## -returns
 
@@ -89,7 +89,7 @@ The internal object cannot be instantiated.
 </dl>
 </td>
 <td width="60%">
-The internal object does not support <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
+The internal object does not support <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
 
 </td>
 </tr>
@@ -105,4 +105,3 @@ The <i>ppshimg</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
-

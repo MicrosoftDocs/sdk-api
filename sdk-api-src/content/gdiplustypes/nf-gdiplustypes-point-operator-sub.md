@@ -51,32 +51,32 @@ api_name:
 
 ## -description
 
-The <b>Point::operator-</b> method subtracts the <b>X</b> and <b>Y</b> data members of two <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects.
+The <b>Point::operator-</b> method subtracts the <b>X</b> and <b>Y</b> data members of two <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects.
 
 ## -parameters
 
 ### -param point [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object whose <b>X</b> and <b>Y</b> data members are subtracted from the <b>X</b> and <b>Y</b> data members of this <b>Point</b> object.
+Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object whose <b>X</b> and <b>Y</b> data members are subtracted from the <b>X</b> and <b>Y</b> data members of this <b>Point</b> object.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
 
-This method returns a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that is the difference of two <b>Point</b> objects.
+This method returns a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that is the difference of two <b>Point</b> objects.
 
 ## -remarks
 
-This method overloads the subtraction operator for <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects. If A, B, and C are <b>Point</b> objects, the statement <b>C = A - B</b> is equivalent to <b>C = A.operator-(B)</b>.
+This method overloads the subtraction operator for <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects. If A, B, and C are <b>Point</b> objects, the statement <b>C = A - B</b> is equivalent to <b>C = A.operator-(B)</b>.
 
 
 #### Examples
 
 
 
-The following example creates two <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects, then subtracts the second <b>Point</b> object from the first <b>Point</b> object and stores the result in a third <b>Point</b> object.
+The following example creates two <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects, then subtracts the second <b>Point</b> object from the first <b>Point</b> object and stores the result in a third <b>Point</b> object.
 
 
 ```cpp
@@ -89,17 +89,16 @@ Point point3 = point1 - point2;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Point::Equals</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Point::Equals</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms535008(v=vs.85)">Point::operator+</a>
+<a href="/previous-versions/ms535008(v=vs.85)">Point::operator+</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
-
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ADS_SETTYPE_ENUM</b> enumeration specifies the available pathname format used by the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-set">IADsPathname::Set</a> method.
+The <b>ADS_SETTYPE_ENUM</b> enumeration specifies the available pathname format used by the  <a href="/windows/desktop/api/iads/nf-iads-iadspathname-set">IADsPathname::Set</a> method.
 
 ## -enum-fields
 
@@ -78,9 +78,8 @@ Since VBScript cannot read information from a type library, VBScript application
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-set">IADsPathname::Set</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadspathname-set">IADsPathname::Set</a>

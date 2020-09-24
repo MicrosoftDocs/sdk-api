@@ -51,15 +51,14 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object and initializes the members to zero. This is the default constructor.
+Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object and initializes the members to zero. This is the default constructor.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-sizef-constructors">SizeF Constructors</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-class-sizef-constructors">SizeF Constructors</a>

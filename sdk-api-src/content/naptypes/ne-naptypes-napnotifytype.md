@@ -70,13 +70,12 @@ A notification of type <b>napNotifyTypeServiceState</b> is sent whenever the Nap
 
 Quarantine state change notifications. 
 
-A notification of type <b>napNotifyTypeQuarState</b>  is sent whenever the isolation state changes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a>.
+A notification of type <b>napNotifyTypeQuarState</b>  is sent whenever the isolation state changes. For more information, see <a href="/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/initializenapagentnotifier">InitializeNapAgentNotifier</a>
+<a href="/windows/desktop/NAP/initializenapagentnotifier">InitializeNapAgentNotifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/uninitializenapagentnotifier">UninitializeNapAgentNotifier</a>
-
+<a href="/windows/desktop/NAP/uninitializenapagentnotifier">UninitializeNapAgentNotifier</a>

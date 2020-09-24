@@ -67,7 +67,7 @@ The id of the security property.  The following security
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_TIMESTAMP_USAGE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_TIMESTAMP_USAGE</a>
 This property constraint may be specified when any 
                         of the following security bindings are specified:
                     
@@ -87,12 +87,12 @@ This property constraint may be specified when any
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_timestamp_usage">WS_SECURITY_TIMESTAMP_USAGE_ALWAYS</a> will be used.
+                        of <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_timestamp_usage">WS_SECURITY_TIMESTAMP_USAGE_ALWAYS</a> will be used.
                     
 
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</a>
 This property constraint may be specified when any
                         of the following security bindings are specified:
                     
@@ -109,7 +109,7 @@ This property constraint may be specified when any
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_protection_level">WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT</a> will be used.
+                        of <a href="/windows/desktop/api/webservices/ne-webservices-ws_protection_level">WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT</a> will be used.
                     
 <b>WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT</b>This property constraint may be specified when any
                         of the following security bindings are specified:
@@ -130,7 +130,7 @@ If this property is not specified, then the default constraint value
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT_STRICT</a> will be used.
+                        of <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT_STRICT</a> will be used.
                     
 <b>WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION</b>This property constraint may be specified when any
                         of the following security bindings are specified:
@@ -151,7 +151,7 @@ If this property is not specified, then the default constraint value
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_header_version">WS_SECURITY_HEADER_VERSION_1_1</a> will be used.
+                        of <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_header_version">WS_SECURITY_HEADER_VERSION_1_1</a> will be used.
                     
 <b>WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME</b>This property constraint may be specified when any
                     of the following security bindings are specified:
@@ -172,7 +172,7 @@ If this property is not specified, then the default constraint value
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                    of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_algorithm_suite_name">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</a> will be used.
+                    of <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_algorithm_suite_name">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</a> will be used.
                   
 
 </li>
@@ -194,8 +194,7 @@ The total size of the allowedValues array, in bytes.  This
 
 ### -field out
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
 
 ### -field out.securityProperty
-

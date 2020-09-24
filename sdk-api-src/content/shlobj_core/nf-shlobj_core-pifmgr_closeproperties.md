@@ -54,7 +54,7 @@ api_name:
 
 operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Closes application properties that were opened with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>.
+Closes application properties that were opened with <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Closes application properties that were opened with <a href="https://docs.micros
 
 Type: <b>HANDLE</b>
 
-A handle to the application's properties. This parameter should be set to the value that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>.
+A handle to the application's properties. This parameter should be set to the value that is returned by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>.
 
 ### -param flOpt [in]
 
@@ -90,9 +90,8 @@ Returns <b>NULL</b> if successful. If unsuccessful, the functions returns the ha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_setproperties">PifMgr_SetProperties</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_setproperties">PifMgr_SetProperties</a>

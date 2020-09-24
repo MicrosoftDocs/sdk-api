@@ -61,8 +61,8 @@ Type: <b>long*</b>
 The font weight. The
 				Bold property is a binary version of the 
 				Weight property that sets the weight to <b>FW_BOLD</b>. The font weight exists in the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure and the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> interface. Windows defines the following degrees of font weight. 
+				<a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure and the 
+				<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> interface. Windows defines the following degrees of font weight. 
 
 <table class="clsStd">
 <tr>
@@ -115,7 +115,7 @@ The font weight. The
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -152,7 +152,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -160,9 +160,8 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setweight">SetWeight</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setweight">SetWeight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

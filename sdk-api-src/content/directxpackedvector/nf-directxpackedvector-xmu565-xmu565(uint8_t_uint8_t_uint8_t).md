@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a> from three <code>int8_t</code> arguments.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a> from three <code>int8_t</code> arguments.
 
 This constructor initializes a new instance of <wdcml:xref rid="dxmath.xmu565" targtype="struct">XMU565 </wdcml:xref> from three <code>int8_t</code> arguments.
 
@@ -93,7 +93,6 @@ instance.v= ((z & 0x1F) << 11) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>

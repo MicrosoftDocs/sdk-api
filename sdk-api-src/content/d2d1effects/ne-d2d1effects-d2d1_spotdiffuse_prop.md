@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/diffuse-lighting">Spot-diffuse lighting effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/diffuse-lighting">Spot-diffuse lighting effect</a>.
 
 ## -enum-fields
 
@@ -59,7 +59,7 @@ Identifiers for properties of the <a href="https://docs.microsoft.com/windows/de
 The light position of the point light source. The property is a D2D1_VECTOR_3F defined as (x, y, z). The units are in device-independent pixels (DIPs) and are unbounded.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
             
 
 The default value is {0.0f, 0.0f, 0.0f}.
@@ -69,7 +69,7 @@ The default value is {0.0f, 0.0f, 0.0f}.
 Where the spot light is focused. The property is exposed as a D2D1_VECTOR_3F with – (x, y, z). The units are in DIPs and the values are unbounded.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
             
 
 The default value is {0.0f, 0.0f, 0.0f}.
@@ -115,18 +115,18 @@ The default value is 1.0f.
 The color of the incoming light. This property is exposed as a Vector 3 – (R, G, B) and used to compute L<sub>R</sub>, L<sub>G</sub>, L<sub>B</sub>.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
 
 The default value is {1.0f, 1.0f, 1.0f}
 
 ### -field D2D1_SPOTDIFFUSE_PROP_KERNEL_UNIT_LENGTH
 
 The size of an element in the Sobel kernel used to generate the surface normal in the X and Y direction. This property maps to the dx and dy values in the Sobel gradient. 
-            This property is a <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>(Kernel Unit Length X, Kernel Unit Length Y) and is defined in (DIPs/Kernel Unit). 
+            This property is a <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>(Kernel Unit Length X, Kernel Unit Length Y) and is defined in (DIPs/Kernel Unit). 
             The effect uses bilinear interpolation to scale the bitmap to match size of kernel elements.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
             
 
 The default value is {1.0f, 1.0f}.
@@ -136,10 +136,9 @@ The default value is {1.0f, 1.0f}.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotdiffuse_scale_mode">D2D1_SPOTDIFFUSE_SCALE_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotdiffuse_scale_mode">D2D1_SPOTDIFFUSE_SCALE_MODE</a>.
             
 
 The default value is D2D1_SPOTDIFFUSE_SCALE_MODE_LINEAR.
 
 ### -field D2D1_SPOTDIFFUSE_PROP_FORCE_DWORD
-

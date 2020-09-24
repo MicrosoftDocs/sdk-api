@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Saves an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to a stream.
+Saves an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to a stream.
 
 ## -parameters
 
@@ -61,13 +61,13 @@ Saves an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shty
 
 Type: <b>IStream *</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface where the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> is saved.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface where the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> is saved.
 
 ### -param pidl [in]
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be saved.
+A pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be saved.
 
 ## -returns
 
@@ -81,5 +81,4 @@ The stream must be opened for writing, or <b>ILSaveToStream</b> returns an error
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstream">ILLoadFromStream</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstream">ILLoadFromStream</a>

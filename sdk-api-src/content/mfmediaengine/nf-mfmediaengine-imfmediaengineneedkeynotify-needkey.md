@@ -64,5 +64,4 @@ The count in bytes of <i>initData</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineneedkeynotify">IMFMediaEngineNeedKeyNotify</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineneedkeynotify">IMFMediaEngineNeedKeyNotify</a>

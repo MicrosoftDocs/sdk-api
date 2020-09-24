@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY</b> callback function imports an already decrypted content encryption key (CEK).  The <b>PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY</b> function can be installed by using a Cryptography API: Next Generation (CNG) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+The <b>PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY</b> callback function imports an already decrypted content encryption key (CEK).  The <b>PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY</b> function can be installed by using a Cryptography API: Next Generation (CNG) <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 ## -parameters
 
 ### -param pCNGContentDecryptInfo [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_cng_content_decrypt_info">CMSG_CNG_CONTENT_DECRYPT_INFO</a> structure to be updated with the imported CEK. This structure contains all the relevant information passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> function.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_cng_content_decrypt_info">CMSG_CNG_CONTENT_DECRYPT_INFO</a> structure to be updated with the imported CEK. This structure contains all the relevant information passed to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> function.
 
 ### -param dwFlags [in]
 
@@ -70,22 +70,22 @@ This parameter is reserved. Set it to <b>NULL</b>.
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
-If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
-If this callback function does not support the key encryption algorithm, it must return <b>FALSE</b> and call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with ERROR_NOT_SUPPORTED.
+If this callback function does not support the key encryption algorithm, it must return <b>FALSE</b> and call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with ERROR_NOT_SUPPORTED.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> function calls this function for the following operations specified by its <i>dwCtrlType</i> parameter:<dl>
+The <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> function calls this function for the following operations specified by its <i>dwCtrlType</i> parameter:<dl>
 <dd><b>CMSG_CTRL_DECRYPT</b></dd>
 <dd><b>CMSG_CTRL_KEY_TRANS_DECRYPT</b></dd>
 <dd><b>CMSG_CTRL_KEY_AGREE_DECRYPT</b></dd>
 </dl>
 
 
-You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>
@@ -102,11 +102,10 @@ You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/crypto
 
 #### Examples
 
-For an example that deploys an OID-installable callback function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/extending-cryptoapi-functionality">Extending CryptoAPI Functionality</a>.
+For an example that deploys an OID-installable callback function, see <a href="/windows/desktop/SecCrypto/extending-cryptoapi-functionality">Extending CryptoAPI Functionality</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/decoding-enveloped-data">Decoding Enveloped Data</a>
-
+<a href="/windows/desktop/SecCrypto/decoding-enveloped-data">Decoding Enveloped Data</a>

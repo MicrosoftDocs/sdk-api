@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Unregisters the callback previously registered via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a>.
+Unregisters the callback previously registered via <a href="/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a>.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ Handle to be unregistered.
 
 ## -returns
 
-<b>TRUE</b> if the callback was successfully unregistered. Otherwise, <b>FALSE</b> is returned. If <b>FALSE</b>, <a href="https://msdn.microsoft.com/library/windows/desktop/ms679360(v=vs.85).aspx">GetLastError</a> will retrieve extended error information.
-
+<b>TRUE</b> if the callback was successfully unregistered. Otherwise, <b>FALSE</b> is returned. If <b>FALSE</b>, <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will retrieve extended error information.

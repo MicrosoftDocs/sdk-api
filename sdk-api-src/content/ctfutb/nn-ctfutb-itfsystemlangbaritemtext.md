@@ -54,7 +54,7 @@ The <b>ITfSystemLangBarItemText</b> interface is implemented by a system languag
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItemText</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSystemLangBarItemText</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItemText</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSystemLangBarItemText</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfSystemLangBarItemText</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemtext-getitemtext">GetItemText</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemtext-getitemtext">GetItemText</a>
 </td>
 <td align="left" width="63%">
 Obtain the text displayed for the system language bar menu.
@@ -78,7 +78,7 @@ Obtain the text displayed for the system language bar menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemtext-setitemtext">SetItemText</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemtext-setitemtext">SetItemText</a>
 </td>
 <td align="left" width="63%">
 Modify the text displayed for the system language bar menu.
@@ -86,4 +86,3 @@ Modify the text displayed for the system language bar menu.
 </td>
 </tr>
 </table>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-These flags are used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-getoptions">IExplorerBrowser::GetOptions</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-setoptions">IExplorerBrowser::SetOptions</a>.
+These flags are used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-getoptions">IExplorerBrowser::GetOptions</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-setoptions">IExplorerBrowser::SetOptions</a>.
 
 ## -enum-fields
 
@@ -64,7 +64,7 @@ Do not navigate further than the initial navigation.
 
 ### -field EBO_SHOWFRAMES
 
-Use the following standard panes: Commands Module pane, Navigation pane, Details pane, and Preview pane. An implementer of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility">IExplorerPaneVisibility</a> can modify the components of the Commands Module that  are shown. For more information see, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">IExplorerPaneVisibility::GetPaneState</a>. If EBO_SHOWFRAMES is not set, Explorer browser uses a single view object.
+Use the following standard panes: Commands Module pane, Navigation pane, Details pane, and Preview pane. An implementer of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility">IExplorerPaneVisibility</a> can modify the components of the Commands Module that  are shown. For more information see, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">IExplorerPaneVisibility::GetPaneState</a>. If EBO_SHOWFRAMES is not set, Explorer browser uses a single view object.
 
 ### -field EBO_ALWAYSNAVIGATE
 
@@ -89,4 +89,3 @@ Show WebView for sharepoint sites.
 ### -field EBO_NOPERSISTVIEWSTATE
 
 <b>Introduced in Windows Vista</b>. Do not persist the view state.
-

@@ -45,14 +45,11 @@ api_name:
  - IGPMDomain2.SearchStarterGPOs
 ---
 
-# IGPMDomain2::SearchStarterGPOs
-
-
 ## -description
 
 Executes a search for 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> objects  in the domain and returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">GPMStarterGPOCollection</a> object.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> objects  in the domain and returns a 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">GPMStarterGPOCollection</a> object.
 
 ## -parameters
 
@@ -60,42 +57,10 @@ Executes a search for
 
 Pointer to the criteria to apply to the search.
 
-
-
-#### starterGPODisplayName
-
-Pointer to  the friendly Starter Group Policy object (GPO) display name search. The search property value is the Starter GPO display name. The valid criteria include the <b>opEquals</b>, 
-<b>opContains</b>, and <b>opNotContains</b> search operators.
-
-
-
-#### starterGPOPermissions
-
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface to query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a> interface. For script programmers, his is a reference to a <b>GPMPermission</b> object. The valid criteria include the <b>opContains</b> or <b>opNotContains</b> search operators.
-
-
-
-#### starterGPOEffectivePermissions
-
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface to query the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a> interface. The valid criteria include the <b>opContains</b> and <b>opNotContains</b> search operators.
-
-
-
-#### starterGPOID
-
-Pointer to a string that contains a GUID. The GUID represents the ID of the Starter GPO. The valid criteria include the <b>opEquals</b> and <b>opNotEquals</b> search operators.
-
 ### -param ppIGPMTemplateCollection [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">IGPMStarterGPOCollection</a> interface that represents the GPOs found by the search.
-
-
-#### - objGPMSearchCriteria
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">IGPMStarterGPOCollection</a> interface that represents the GPOs found by the search.
 
 ## -returns
 
@@ -103,12 +68,11 @@ Address of a pointer to the
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a reference to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">GPMStarterGPOCollection</a> object.
+Returns a reference to a  <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">GPMStarterGPOCollection</a> object.
 
 <h3>VB</h3>
-Returns a reference to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">GPMStarterGPOCollection</a> object.
+Returns a reference to a  <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">GPMStarterGPOCollection</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain2">IGPMDomain2</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain2">IGPMDomain2</a>

@@ -62,7 +62,7 @@ A handle to the process. This handle must have the PROCESS_VM_READ access right.
 
 ### -param pwzCommandline [out, optional]
 
-A pointer to a buffer that receives the restart command line specified by the application when it called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function. The maximum size of the command line, in characters, is RESTART_MAX_CMD_LINE. Can be <b>NULL</b> if <i>pcchSize</i> is zero.
+A pointer to a buffer that receives the restart command line specified by the application when it called the <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function. The maximum size of the command line, in characters, is RESTART_MAX_CMD_LINE. Can be <b>NULL</b> if <i>pcchSize</i> is zero.
 
 ### -param pcchSize [in, out]
 
@@ -76,7 +76,7 @@ To determine the required buffer size, set <i>pwzCommandLine</i> to <b>NULL</b> 
 
 ### -param pdwFlags [out, optional]
 
-A pointer to a variable that receives the flags specified by the application when it called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
+A pointer to a variable that receives the flags specified by the application when it called the <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
 
 ## -returns
 
@@ -129,7 +129,7 @@ This information is available only for the current process; you cannot call this
 
 #### Examples
 
-The following example shows how to get the restart settings specified when you called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
+The following example shows how to get the restart settings specified when you called the <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
 
 
 ```cpp
@@ -210,5 +210,4 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>

@@ -65,9 +65,8 @@ The index of the toolbar item to retrieve.
 
 Type: <b>LPTOOLBARITEM</b>
 
-A pointer to a [TOOLBARITEM](/windows/win32/api/shdeprecated/ns-shdeprecated-toolbaritem) structure that represents a toolbar item.
+A pointer to a [TOOLBARITEM](./ns-shdeprecated-toolbaritem.md) structure that represents a toolbar item.
 
 ## -remarks
 
 This method is implemented by the derived class.
-

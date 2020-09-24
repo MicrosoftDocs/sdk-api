@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>get_MediaType</b> method gets the stream's 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
 
 ## -parameters
 
@@ -106,9 +106,8 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

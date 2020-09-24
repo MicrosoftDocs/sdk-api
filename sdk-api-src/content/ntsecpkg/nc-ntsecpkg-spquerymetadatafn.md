@@ -50,20 +50,20 @@ api_name:
 
 ## -description
 
-Gets metadata from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) when it is initiating a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">security context</a>.
+Gets metadata from a <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) when it is initiating a <a href="/windows/desktop/SecGloss/c-gly">security context</a>.
 
 ## -parameters
 
 ### -param CredentialHandle [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> to use for the security context. If the <i>ContextHandle</i> parameter points to <b>NULL</b> on input, this function uses the value of this parameter to create a security context.
+A handle to the <a href="/windows/desktop/SecGloss/c-gly">credentials</a> to use for the security context. If the <i>ContextHandle</i> parameter points to <b>NULL</b> on input, this function uses the value of this parameter to create a security context.
 
 The value of this parameter  cannot be <b>NULL</b> if the <i>ContextHandle</i> parameter points to <b>NULL</b> on input.
 
 ### -param TargetName [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the target of the context.
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the target of the context.
 
 ### -param ContextRequirements [in]
 
@@ -105,7 +105,7 @@ Both the client and the server are required to prove their identity.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> will support the detection of replayed packets.
+The <a href="/windows/desktop/SecGloss/s-gly">security context</a> will support the detection of replayed packets.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The security context will support the detection of out-of-order messages.
 </dl>
 </td>
 <td width="60%">
-A new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> must be negotiated.
+A new <a href="/windows/desktop/SecGloss/s-gly">session key</a> must be negotiated.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ The input buffer contains package-specific credential information which should b
 </td>
 <td width="60%">
 The package must allocate memory. The caller must eventually call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free memory allocated by the package.
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free memory allocated by the package.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ The caller expects a three-leg mutual authentication transaction.
 </td>
 <td width="60%">
 A datagram-type communications channel should be used. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/datagram-contexts">Datagram Contexts</a>.
+<a href="/windows/desktop/SecAuthN/datagram-contexts">Datagram Contexts</a>.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ A datagram-type communications channel should be used. For more information, see
 </td>
 <td width="60%">
 A connection-type communications channel should be used. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/connection-oriented-contexts">Connection-Oriented Contexts</a>.
+<a href="/windows/desktop/SecAuthN/connection-oriented-contexts">Connection-Oriented Contexts</a>.
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ If the context fails, generate an error reply message to send back to the client
 </td>
 <td width="60%">
 A stream-type communications channel should be used. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/stream-contexts">Stream Contexts</a>.
+<a href="/windows/desktop/SecAuthN/stream-contexts">Stream Contexts</a>.
 
 </td>
 </tr>
@@ -248,6 +248,5 @@ If the function fails, return an <b>NTSTATUS</b> error code that indicates the r
 ## -remarks
 
 A pointer to the <b>SpQueryMetaDataFn</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.

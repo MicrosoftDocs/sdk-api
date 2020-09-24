@@ -63,7 +63,7 @@ The output number to which the player-hook callback applies.
 
 ### -param pHook [in]
 
-Pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmplayerhook">IWMPlayerHook</a> interface that will be used in association with the specified output.
+Pointer to the implementation of the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmplayerhook">IWMPlayerHook</a> interface that will be used in association with the specified output.
 
 ## -returns
 
@@ -93,5 +93,4 @@ DirectX Video Acceleration enables supported graphics cards to decompress video 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5">IWMReaderAdvanced5 Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5">IWMReaderAdvanced5 Interface</a>

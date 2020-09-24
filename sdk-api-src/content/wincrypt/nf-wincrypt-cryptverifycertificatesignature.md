@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-The <b>CryptVerifyCertificateSignature</b> function verifies the signature of a certificate, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>  by using the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure. The function does not require access to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.
+The <b>CryptVerifyCertificateSignature</b> function verifies the signature of a certificate, <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), or <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>  by using the <a href="/windows/desktop/SecGloss/p-gly">public key</a> in a 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure. The function does not require access to a <a href="/windows/desktop/SecGloss/p-gly">private key</a>.
 
 ## -parameters
 
@@ -59,13 +59,13 @@ The <b>CryptVerifyCertificateSignature</b> function verifies the signature of a 
 
 This parameter is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to verify the signature.This parameter's data type is <b>HCRYPTPROV</b>.
+<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to verify the signature.This parameter's data type is <b>HCRYPTPROV</b>.
 
 <b>NULL</b> is passed unless there is a strong reason for passing in a specific cryptographic provider. Passing in <b>NULL</b> causes the default RSA or DSS provider to be acquired.
 
 ### -param dwCertEncodingType [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding type</a> that was used to encrypt the subject. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
+The <a href="/windows/desktop/SecGloss/c-gly">certificate encoding type</a> that was used to encrypt the subject. The <a href="/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
 
 
 This parameter can be the following currently defined certificate encoding type.
@@ -84,7 +84,7 @@ This parameter can be the following currently defined certificate encoding type.
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
+Specifies <a href="/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.
 
 ### -param pbEncoded [in]
 
-A pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a> content on which the signature is to be verified.
+A pointer to an encoded <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a> content on which the signature is to be verified.
 
 ### -param cbEncoded [in]
 
@@ -101,7 +101,7 @@ The size, in bytes, of the encoded content in <i>pbEncoded</i>.
 ### -param pPublicKey [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key to use when verifying the signature.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key to use when verifying the signature.
 
 ## -returns
 
@@ -109,15 +109,15 @@ Returns nonzero if successful or zero otherwise.
 						
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  Errors from the called functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> may be propagated to this function.</div>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>, 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>, and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> may be propagated to this function.</div>
 <div> </div>
-On failure, this function will cause the following error codes to be returned from <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+On failure, this function will cause the following error codes to be returned from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <table>
 <tr>
@@ -142,7 +142,7 @@ Invalid certificate encoding type. Currently only <b>X509_ASN_ENCODING</b> is su
 </dl>
 </td>
 <td width="60%">
-The signature algorithm's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) does not map to a known or supported <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> algorithm.
+The signature algorithm's <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) does not map to a known or supported <a href="/windows/desktop/SecGloss/h-gly">hash</a> algorithm.
 
 </td>
 </tr>
@@ -160,15 +160,14 @@ The signature was not valid.
 </table>
  
 
-If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>  may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>  may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -remarks
 
 This function currently calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignatureex">CryptVerifyCertificateSignatureEx</a> function to perform the verification.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignatureex">CryptVerifyCertificateSignatureEx</a> function to perform the verification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignatureex">CryptVerifyCertificateSignatureEx</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignatureex">CryptVerifyCertificateSignatureEx</a>

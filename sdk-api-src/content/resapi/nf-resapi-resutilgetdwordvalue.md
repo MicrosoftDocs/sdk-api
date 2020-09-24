@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns a numeric value from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
+Returns a numeric value from the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
 ## -parameters
 
@@ -75,7 +75,7 @@ Value to return if the value pointed to by <i>pszValueName</i> is not found.
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -97,25 +97,24 @@ The value pointed to by <i>ValueName</i> is not a numeric value.
 
 ## -remarks
 
-The  <b>ResUtilGetDwordValue</b> utility function calls the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a> to retrieve the value.
+The  <b>ResUtilGetDwordValue</b> utility function calls the  <a href="/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a> to retrieve the value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetbinaryvalue">ResUtilGetBinaryValue</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetbinaryvalue">ResUtilGetBinaryValue</a>
 
 
 
-[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)
+[ResUtilGetExpandSzValue](./nf-resapi-resutilgetexpandszvalue.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszvalue">ResUtilGetMultiSzValue</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszvalue">ResUtilGetMultiSzValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetszvalue">ResUtilGetSzValue</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetszvalue">ResUtilGetSzValue</a>

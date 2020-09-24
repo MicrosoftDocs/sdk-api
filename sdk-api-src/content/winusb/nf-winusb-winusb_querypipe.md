@@ -58,7 +58,7 @@ The <b>WinUsb_QueryPipe</b> function retrieves information about the specified e
 
 An opaque handle to an interface that contains the endpoint with which the pipe is associated.
 
-To query the pipe associated with an endpoint in the first interface, use the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
+To query the pipe associated with an endpoint in the first interface, use the handle returned by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 ### -param AlternateInterfaceNumber [in]
 
@@ -70,7 +70,7 @@ A value that specifies the pipe to return information about. This value is not t
 
 ### -param PipeInformation [out]
 
-A pointer, on output, to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a> structure that contains pipe information.
+A pointer, on output, to a caller-allocated <a href="/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a> structure that contains pipe information.
 
 ## -returns
 
@@ -125,21 +125,20 @@ The value passed in the <i>PipeIndex</i> parameter is greater than the  <b>bNumE
 
 The <b>WinUsb_QueryPipe</b> function does not retrieve information about the control pipe.
 
-Each interface on the USB device can have multiple endpoints. To communicate with each of these endpoints, the bus driver creates pipes for each endpoint on the interface. The pipe indices are zero-based. Therefore for <i>n</i> number of endpoints, the pipes' indices are set from <i>n</i>-1. <b>WinUsb_QueryPipe</b> parses the configuration descriptor to get the interface specified by the caller.  It searches the interface descriptor  for the endpoint descriptor associated with the caller-specified pipe. If the endpoint is found, the function populates the caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a> structure with information from the endpoint descriptor.
+Each interface on the USB device can have multiple endpoints. To communicate with each of these endpoints, the bus driver creates pipes for each endpoint on the interface. The pipe indices are zero-based. Therefore for <i>n</i> number of endpoints, the pipes' indices are set from <i>n</i>-1. <b>WinUsb_QueryPipe</b> parses the configuration descriptor to get the interface specified by the caller.  It searches the interface descriptor  for the endpoint descriptor associated with the caller-specified pipe. If the endpoint is found, the function populates the caller-allocated <a href="/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a> structure with information from the endpoint descriptor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a>
+<a href="/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>

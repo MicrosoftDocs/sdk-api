@@ -65,11 +65,11 @@ Pointer to the device object that signaled the change.
 
 ### -param oldState [in]
 
-Specifies the old state as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/ne-msvidctl-msvidctlstatelist">MSVidCtlStateList</a> value.
+Specifies the old state as an <a href="/previous-versions/windows/desktop/api/msvidctl/ne-msvidctl-msvidctlstatelist">MSVidCtlStateList</a> value.
 
 ### -param newState [in]
 
-Specifies the new state as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/ne-msvidctl-msvidctlstatelist">MSVidCtlStateList</a> value.
+Specifies the new state as an <a href="/previous-versions/windows/desktop/api/msvidctl/ne-msvidctl-msvidctlstatelist">MSVidCtlStateList</a> value.
 
 ## -returns
 
@@ -81,5 +81,4 @@ The dispatch identifier (dispid) of this method is <b>eventidStateChange</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddeviceevent">IMSVidDeviceEvent</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsviddeviceevent">IMSVidDeviceEvent</a>

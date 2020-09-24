@@ -60,14 +60,14 @@ The <b>CheckTokenCapability</b> function checks the capabilities of a given toke
 
 ### -param TokenHandle [in, optional]
 
-A handle to an access token. The handle must have TOKEN_QUERY access to the token. The token must be an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>. 
+A handle to an access token. The handle must have TOKEN_QUERY access to the token. The token must be an <a href="/windows/desktop/SecGloss/i-gly">impersonation token</a>. 
       
 
-If <i>TokenHandle</i> is <b>NULL</b>, <b>CheckTokenCapability</b> uses the impersonation token of the calling thread. If the thread is not impersonating, the function duplicates the thread's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary token</a> to create an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>.
+If <i>TokenHandle</i> is <b>NULL</b>, <b>CheckTokenCapability</b> uses the impersonation token of the calling thread. If the thread is not impersonating, the function duplicates the thread's <a href="/windows/desktop/SecGloss/p-gly">primary token</a> to create an <a href="/windows/desktop/SecGloss/i-gly">impersonation token</a>.
 
 ### -param CapabilitySidToCheck [in]
 
-A pointer to a capability <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure. The <b>CheckTokenCapability</b> function checks the capabilities of this access token.
+A pointer to a capability <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure. The <b>CheckTokenCapability</b> function checks the capabilities of this access token.
 
 ### -param HasCapability [out]
 
@@ -77,5 +77,4 @@ Receives the results of the check. If the access token has the capability, it re
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>

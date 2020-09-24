@@ -64,9 +64,8 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-registermanageablelogclient">RegisterManageableLogClient</a>
-
+<a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-registermanageablelogclient">RegisterManageableLogClient</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents the source object (a <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.style">Style</a>) of a target type.
+Represents the source object (a <a href="/uwp/api/windows.ui.xaml.style">Style</a>) of a target type.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ The target type of the style, defined in markup.
 
 ### -field Name
 
-The name of the style, if it has an <a href="https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute">x:Name</a> defined in markup.
+The name of the style, if it has an <a href="/windows/uwp/xaml-platform/x-name-attribute">x:Name</a> defined in markup.
 
 ### -field Source
 
@@ -75,4 +75,3 @@ Where the style is defined in the application .
 ### -field srcInfo
 
 Source information about where the style is defined.
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getitemrect">TCM_GETITEMRECT</a> message explicitly.
+Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-getitemrect">TCM_GETITEMRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -71,4 +71,3 @@ Index of the tab.
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 Pointer to a structure that receives the bounding rectangle of the tab, in viewport coordinates.
-

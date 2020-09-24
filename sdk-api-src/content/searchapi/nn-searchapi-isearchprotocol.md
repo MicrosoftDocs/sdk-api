@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Provides methods for invoking, initializing, and managing <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
+Provides methods for invoking, initializing, and managing <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
         
 
 The protocol handler implements the protocol for accessing a content source in its native format. Use this interface to implement a custom protocol handler to expand the data sources that can be indexed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchProtocol</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchProtocol</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,27 +72,27 @@ The <b>ISearchProtocol</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-closeaccessor">CloseAccessor</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-closeaccessor">CloseAccessor</a>
 </td>
 <td align="left" width="63%">
-Closes a previously created <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object. 
+Closes a previously created <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-createaccessor">CreateAccessor</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-createaccessor">CreateAccessor</a>
 </td>
 <td align="left" width="63%">
-Creates and initializes an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object.  
+Creates and initializes an <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object.  
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-init">Init</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes a protocol handler. 
@@ -102,7 +102,7 @@ Initializes a protocol handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-shutdown">ShutDown</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-shutdown">ShutDown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the protocol handler.
@@ -114,5 +114,4 @@ Shuts down the protocol handler.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
-
+<a href="/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>

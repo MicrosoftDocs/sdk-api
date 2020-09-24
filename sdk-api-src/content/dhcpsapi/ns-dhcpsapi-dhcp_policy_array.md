@@ -64,7 +64,7 @@ Integer that specifies the number of DHCP server policies in <b>Elements</b>.
 
 ### -field Elements
 
-Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_policy">DHCP_POLICY</a>  structures.
+Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_policy">DHCP_POLICY</a>  structures.
 
 ### -field Elements.size_is
 
@@ -72,5 +72,4 @@ Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4enumpolicies">DhcpV4EnumPolicies</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4enumpolicies">DhcpV4EnumPolicies</a>

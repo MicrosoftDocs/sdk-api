@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Decode</b> method decodes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded string array and stores the resulting array of strings in the <b>CertEncodeStringArray</b> object.
+The <b>Decode</b> method decodes an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded string array and stores the resulting array of strings in the <b>CertEncodeStringArray</b> object.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ An ASN.1-encoded string array.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
@@ -73,15 +73,14 @@ This method will place the decoded contents of <i>strBinary</i> into the object'
 
 #### Examples
 
-For an example that uses the <b>Decode</b> method, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-encode">ICertEncodeStringArray::Encode</a> method.
+For an example that uses the <b>Decode</b> method, see the <a href="/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-encode">ICertEncodeStringArray::Encode</a> method.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-encode">ICertEncodeStringArray::Encode</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-encode">ICertEncodeStringArray::Encode</a>

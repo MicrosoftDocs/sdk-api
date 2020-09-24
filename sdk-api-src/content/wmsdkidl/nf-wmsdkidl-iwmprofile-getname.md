@@ -131,17 +131,16 @@ Profiles have names and descriptions that are used when displaying lists of prof
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
+<a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-setname">IWMProfile::SetName</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-setname">IWMProfile::SetName</a>

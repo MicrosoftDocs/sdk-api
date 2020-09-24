@@ -56,7 +56,7 @@ Stores a file in the specified supplement to a symbol store. The file is typical
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param SymPath [in, optional]
 
@@ -80,11 +80,11 @@ If the function succeeds, the return value is the fully qualified path for the s
 						
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-An important use for this function is to store delta files. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsrvdeltaname">SymSrvDeltaName</a>.
+An important use for this function is to store delta files. For more information, see <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsrvdeltaname">SymSrvDeltaName</a>.
 
 This function returns a pointer to a buffer that may be reused by another function. Therefore, be sure to copy the data returned to another buffer immediately.
 
@@ -105,9 +105,8 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetsupplement">SymSrvGetSupplement</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetsupplement">SymSrvGetSupplement</a>

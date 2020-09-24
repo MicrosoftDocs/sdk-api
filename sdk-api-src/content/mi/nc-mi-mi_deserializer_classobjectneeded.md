@@ -45,53 +45,40 @@ api_name:
  - MI_Deserializer_ClassObjectNeeded
 ---
 
-# MI_Deserializer_ClassObjectNeeded callback function
-
-
 ## -description
 
 Used to provide requested class object during deserialization.
 
 ## -parameters
 
-### -param *context [in, optional]
+### -param context [in, optional]
 
 A pointer to the context.
 
-### -param *serverName [in, optional]
+### -param serverName [in, optional]
 
 The name of the server.
 
-### -param *namespaceName [in, optional]
+### -param namespaceName [in, optional]
 
 The namespace of the object.
 
-### -param *className [in, optional]
+### -param className [in, optional]
 
 The class of the object.
 
-
-#### - **requestedClassObject [out]
-
-A <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> representing the requested class object.
-
 ### -param requestedClassObject [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> representing the requested class object.
+A <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> representing the requested class object.
 
 ## -returns
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> indicating the status of the operation.
+Returns a <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> indicating the status of the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_deserializerft">MI_DeserializerFT</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_deserializerft">MI_DeserializerFT</a>
 
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeclass">MI_Deserializer_DeserializeClass</a>
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeclass">MI_Deserializer_DeserializeClass</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeinstance">MI_Deserializer_DeserializeInstance</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeinstance">MI_Deserializer_DeserializeInstance</a>

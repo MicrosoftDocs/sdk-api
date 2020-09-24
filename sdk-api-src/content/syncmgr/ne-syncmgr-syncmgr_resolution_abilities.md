@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates abilities and the conflict resolution activity to follow. Used with <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-queryabilities">ISyncMgrResolutionHandler::QueryAbilities</a>.
+Indicates abilities and the conflict resolution activity to follow. Used with <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-queryabilities">ISyncMgrResolutionHandler::QueryAbilities</a>.
 
 ## -enum-fields
 
@@ -60,11 +60,11 @@ The resolution handler supports merging items and will produce a merged file to 
 
 ### -field SYNCMGR_RA_KEEPRECENT
 
-Enables methods <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keeprecent">ISyncMgrResolutionHandler::KeepRecent</a> and <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepother">ISyncMgrResolutionHandler::KeepOther</a> to be called.
+Enables methods <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keeprecent">ISyncMgrResolutionHandler::KeepRecent</a> and <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepother">ISyncMgrResolutionHandler::KeepOther</a> to be called.
 
 ### -field SYNCMGR_RA_REMOVEFROMSYNCSET
 
-Enables method <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-removefromsyncset">ISyncMgrResolutionHandler::RemoveFromSyncSet</a> to be called.
+Enables method <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-removefromsyncset">ISyncMgrResolutionHandler::RemoveFromSyncSet</a> to be called.
 
 ### -field SYNCMGR_RA_KEEP_SINGLE
 
@@ -72,9 +72,8 @@ Not used.
 
 ### -field SYNCMGR_RA_KEEP_MULTIPLE
 
-Enables method <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepitems">ISyncMgrResolutionHandler::KeepItems</a> to be called with more than one item in <i>pArray</i>.
+Enables method <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepitems">ISyncMgrResolutionHandler::KeepItems</a> to be called with more than one item in <i>pArray</i>.
 
 ### -field SYNCMGR_RA_VALID
 
-A mask for valid <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_abilities">SYNCMGR_RESOLUTION_ABILITIES</a> values.
-
+A mask for valid <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_abilities">SYNCMGR_RESOLUTION_ABILITIES</a> values.

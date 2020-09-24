@@ -56,7 +56,7 @@ Retrieves the record sequence number that is contained in a specified LSN.
 
 ### -param plsn [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure from which the record sequence number is to be retrieved.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure from which the record sequence number is to be retrieved.
 
 ## -returns
 
@@ -64,13 +64,12 @@ The record sequence number that is contained in <i>plsn</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsnblockoffset">LsnBlockOffset</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsnblockoffset">LsnBlockOffset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsncontainer">LsnContainer</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsncontainer">LsnContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsncreate">LsnCreate</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsncreate">LsnCreate</a>

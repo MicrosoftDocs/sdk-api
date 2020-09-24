@@ -56,11 +56,11 @@ Describes a descriptor range.
 
 ### -field RangeType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type">D3D12_DESCRIPTOR_RANGE_TYPE</a>-typed value that specifies the type of descriptor range.
+A <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type">D3D12_DESCRIPTOR_RANGE_TYPE</a>-typed value that specifies the type of descriptor range.
 
 ### -field NumDescriptors
 
-The number of descriptors in the range. Use -1 or UINT_MAX to specify an unbounded size. If a given descriptor range is unbounded, then it must either be the last range in the table definition, or else the following range in the table definition must have a value for *OffsetInDescriptorsFromTableStart* that is not [D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND](/windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_range).
+The number of descriptors in the range. Use -1 or UINT_MAX to specify an unbounded size. If a given descriptor range is unbounded, then it must either be the last range in the table definition, or else the following range in the table definition must have a value for *OffsetInDescriptorsFromTableStart* that is not [D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND]().
 
 ### -field BaseShaderRegister
 
@@ -77,13 +77,12 @@ The offset in descriptors, from the start of the descriptor table which was set 
 
 ## -remarks
 
-This structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure.
+This structure is a member of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-descriptor-range">CD3DX12_DESCRIPTOR_RANGE</a>
+<a href="/windows/desktop/direct3d12/cd3dx12-descriptor-range">CD3DX12_DESCRIPTOR_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

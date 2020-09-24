@@ -70,5 +70,4 @@ Applications do not call this internal method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>

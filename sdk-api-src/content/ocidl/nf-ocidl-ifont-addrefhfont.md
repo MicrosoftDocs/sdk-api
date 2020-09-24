@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Notifies the font object that the previously realized font identified with <i>hFont</i> should remain valid until <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a> is called or the font object itself is released completely.
+Notifies the font object that the previously realized font identified with <i>hFont</i> should remain valid until <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a> is called or the font object itself is released completely.
 
 ## -parameters
 
 ### -param hFont [in]
 
-Font handle previously realized through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a> to be locked in the font object's cache.
+Font handle previously realized through <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a> to be locked in the font object's cache.
 
 ## -returns
 
@@ -82,13 +82,12 @@ The font was successfully locked in the cache.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>

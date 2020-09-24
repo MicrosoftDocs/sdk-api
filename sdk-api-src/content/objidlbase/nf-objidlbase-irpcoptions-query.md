@@ -72,9 +72,9 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-While the COMBND_RPCTIMEOUT property can also be set using the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcoptions-set">Set</a> method, the COMBND_SERVER_LOCALITY property can only be queried.
+While the COMBND_RPCTIMEOUT property can also be set using the <a href="/windows/desktop/api/objidl/nf-objidl-irpcoptions-set">Set</a> method, the COMBND_SERVER_LOCALITY property can only be queried.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a> for a table of the possible values of the COMBND_RPCTIMEOUT property.
+See <a href="/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a> for a table of the possible values of the COMBND_RPCTIMEOUT property.
 
 The possible values of the COMBND_SERVER_LOCALITY property, which describes the degree of remoteness of the RPC connection, are enumerated in the following table.
 
@@ -105,5 +105,4 @@ The possible values of the COMBND_SERVER_LOCALITY property, which describes the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a>

@@ -58,13 +58,13 @@ The
 ### -param hMprServer [in]
 
 Handle to router on which to execute this call. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hInterface [in]
 
 Handle to the interface. Obtain this handle from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>, or by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfaceenum">MprAdminInterfaceEnum</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>, or by calling 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfaceenum">MprAdminInterfaceEnum</a>
 
 ### -param dwIndex [in]
 
@@ -82,22 +82,22 @@ A DWORD value that describes the format in which the information is returned in 
 <tr>
 <td>0</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a>
 </td>
 </tr>
 <tr>
 <td>1</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a>
 </td>
 </tr>
 </table>
 
 ### -param lplpBuffer [out]
 
-On successful completion, a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
+On successful completion, a pointer to a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a> or <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 					Free this memory by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
 ## -returns
 
@@ -173,17 +173,16 @@ The <i>dwLevel</i> value is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacedevicesetinfo">MprAdminInterfaceDeviceSetInfo</a>
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacedevicesetinfo">MprAdminInterfaceDeviceSetInfo</a>

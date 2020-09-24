@@ -56,15 +56,15 @@ Creates a backup of a range.
 
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit session. This is the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit session. This is the value passed to <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pRange [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object to be backed up.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object to be backed up.
 
 ### -param ppBackup [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup</a> interface pointer that receives the backup of <i>pRange</i>.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup</a> interface pointer that receives the backup of <i>pRange</i>.
 
 ## -returns
 
@@ -145,9 +145,8 @@ An unspecified error occurred.
 
 ## -remarks
 
-This method creates a copy of the range that it can use to restore the data in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">ITfRangeBackup::Restore</a>.
+This method creates a copy of the range that it can use to restore the data in <a href="/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">ITfRangeBackup::Restore</a>.
 
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfRangeBackup interface](nn-msctf-itfrangebackup.md), [ITfRangeBackup::Restore](nf-msctf-itfrangebackup-restore.md), [Ranges: Clones and Backups](/windows/desktop/TSF/ranges)
-

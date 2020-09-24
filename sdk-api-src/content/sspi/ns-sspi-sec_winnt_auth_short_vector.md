@@ -60,9 +60,8 @@ Specifies the offset and number of characters in an array of <b>USHORT</b> value
 
 ### -field ShortArrayOffset
 
-The number of characters before the beginning of the data in a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials_ex">SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX</a> structure.
+The number of characters before the beginning of the data in a <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials_ex">SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX</a> structure.
 
 ### -field ShortArrayCount
 
 The  number of characters in the array.
-

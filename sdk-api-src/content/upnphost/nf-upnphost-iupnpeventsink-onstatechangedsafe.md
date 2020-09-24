@@ -68,5 +68,4 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsink">IUPnPEventSink</a>
-
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsink">IUPnPEventSink</a>

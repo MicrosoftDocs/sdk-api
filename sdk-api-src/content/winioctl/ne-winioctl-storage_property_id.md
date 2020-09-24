@@ -223,8 +223,7 @@ The optional output buffer returned through the *lpOutBuffer* parameter of the [
 
 ## -see-also
 
-* [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
+* [Disk Management Enumeration Types](/windows/desktop/FileIO/disk-management-enumeration-types)
 * [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
 * [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
 * [STORAGE_QUERY_TYPE](ne-winioctl-storage_query_type.md)
-

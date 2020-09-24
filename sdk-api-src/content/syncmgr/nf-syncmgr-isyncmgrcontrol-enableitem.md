@@ -80,9 +80,9 @@ A handle to a window that can be used by the item to display any necessary UI. T
 
 ### -param nControlFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> enumeration specifying whether the enabling or disabling of the item should be performed synchronously or asynchronously.
+A value from the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> enumeration specifying whether the enabling or disabling of the item should be performed synchronously or asynchronously.
 
 ## -returns
 
@@ -94,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 An <i>enabled</i> item is an item that can be synchronized.
 
-If the specified item returns <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_ENABLE</a> or <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_DISABLE</a> in the mask returned from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a> method, the user is presented with a confirmation dialog box requested before the item is enabled or disabled. If no query UI is requested or once the user confirms the operation, the item's <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-enable">Enable</a> method is called.
+If the specified item returns <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_ENABLE</a> or <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_DISABLE</a> in the mask returned from the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a> method, the user is presented with a confirmation dialog box requested before the item is enabled or disabled. If no query UI is requested or once the user confirms the operation, the item's <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-enable">Enable</a> method is called.
 
 If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>EnableItem</b> does not return until Sync Center has processed this notification.
 
@@ -103,7 +103,7 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>EnableItem</
 
 
 
-The following example shows the usage of <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-enablehandler">ISyncMgrControl::EnableHandler</a> by a handler's procedure.
+The following example shows the usage of <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-enablehandler">ISyncMgrControl::EnableHandler</a> by a handler's procedure.
 
 
 ```cpp
@@ -133,4 +133,3 @@ void MiscProc(...)
 }
 
 ```
-

@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-Clones the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>.
+Clones the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>.
 
 ## -parameters
 
 ### -param ppStream [out]
 
-If the call is successful, <i>ppStream</i> receives the cloned <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>.
+If the call is successful, <i>ppStream</i> receives the cloned <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>.
 
 ## -returns
 
@@ -98,5 +98,4 @@ The <i>ppStream</i> parameter is null.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>

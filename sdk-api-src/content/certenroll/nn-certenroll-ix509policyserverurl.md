@@ -54,7 +54,7 @@ The <b>IX509PolicyServerUrl</b> interface can be used to set or retrieve propert
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PolicyServerUrl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PolicyServerUrl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PolicyServerUrl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PolicyServerUrl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IX509PolicyServerUrl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-getstringproperty">GetStringProperty</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-getstringproperty">GetStringProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CEP server ID or the display name of the CEP server.
@@ -79,7 +79,7 @@ Retrieves the CEP server ID or the display name of the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IX509PolicyServerUrl</b> object for a computer or user context.
@@ -88,7 +88,7 @@ Initializes an <b>IX509PolicyServerUrl</b> object for a computer or user context
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-removefromregistry">RemoveFromRegistry</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-removefromregistry">RemoveFromRegistry</a>
 </td>
 <td align="left" width="63%">
 Unregisters a CEP server.
@@ -97,7 +97,7 @@ Unregisters a CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-setstringproperty">SetStringProperty</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-setstringproperty">SetStringProperty</a>
 </td>
 <td align="left" width="63%">
 Specifies the CEP server ID or the display name of the CEP server.
@@ -106,7 +106,7 @@ Specifies the CEP server ID or the display name of the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-updateregistry">UpdateRegistry</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-updateregistry">UpdateRegistry</a>
 </td>
 <td align="left" width="63%">
 Registers a CEP server.
@@ -124,7 +124,7 @@ Registers a CEP server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_authflags">AuthFlags</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_authflags">AuthFlags</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Specifies and retrieves a value that indicates the authentication type used by t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_cost">Cost</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_cost">Cost</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Specifies and retrieves an arbitrary  cost for contacting the CEP server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_default">Default</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_default">Default</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Specifies and retrieves a Boolean value that indicates whether this is the defau
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_flags">Flags</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_flags">Flags</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Specifies or retrieves a value that indicates whether the CEP server policy info
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_url">Url</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-get_url">Url</a>
 
 
 </td>
@@ -202,4 +202,3 @@ Specifies or retrieves the URL for the certificate enrollment policy (CEP) serve
 </td>
 </tr>
 </table>
-

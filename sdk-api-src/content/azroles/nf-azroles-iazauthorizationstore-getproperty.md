@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property  with the specified property ID.
 
 ## -parameters
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -70,7 +70,7 @@ Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azrol
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_description">Description</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_description">Description</a> property
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applicationdata">ApplicationData</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applicationdata">ApplicationData</a> property
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_domaintimeout">DomainTimeout</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_domaintimeout">DomainTimeout</a> property
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_scriptenginetimeout">ScriptEngineTimeout</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_scriptenginetimeout">ScriptEngineTimeout</a> property
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_maxscriptengines">MaxScriptEngines</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_maxscriptengines">MaxScriptEngines</a> property
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_targetmachine">TargetMachine</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_targetmachine">TargetMachine</a> property
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_generateaudits">GenerateAudits</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_generateaudits">GenerateAudits</a> property
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applystoresacl">ApplyStoreSacl</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applystoresacl">ApplyStoreSacl</a> property
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_writable">Writable</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_writable">Writable</a> property
 
 </td>
 </tr>
@@ -172,11 +172,10 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property.
+A pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property.
 
 ## -returns
 
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-

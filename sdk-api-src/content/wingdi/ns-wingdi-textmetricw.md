@@ -96,7 +96,7 @@ The weight of the font.
 
 The extra width per string that may be added to some synthesized fonts. When synthesizing some attributes, such as bold or italic, graphics device interface (GDI) or a device may have to add width to a string on both a per-character and per-string basis. For example, GDI makes a string bold by expanding the spacing of each character and overstriking by an offset value; it italicizes a font by shearing the string. In either case, there is an overhang past the basic string. For bold strings, the overhang is the distance by which the overstrike is offset. For italic strings, the overhang is the amount the top of the font is sheared past the bottom of the font.
 
-The <b>tmOverhang</b> member enables the application to determine how much of the character width returned by a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a> function call on a single character is the actual character width and how much is the per-string extra width. The actual width is the extent minus the overhang.
+The <b>tmOverhang</b> member enables the application to determine how much of the character width returned by a <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a> function call on a single character is the actual character width and how much is the per-string extra width. The actual width is the extent minus the overhang.
 
 ### -field tmDigitizedAspectX
 
@@ -166,7 +166,7 @@ The four low-order bits of this member specify information about the pitch and t
 
 An application should carefully test for qualities encoded in these low-order bits, making no arbitrary assumptions. For example, besides having their own bits set, TrueType and PostScript fonts set the TMPF_VECTOR bit. A monospace bitmap font has all of these low-order bits clear; a proportional bitmap font sets the TMPF_FIXED_PITCH bit. A Postscript printer device font sets the TMPF_DEVICE, TMPF_VECTOR, and TMPF_FIXED_PITCH bits.
 
-The four high-order bits of <b>tmPitchAndFamily</b> designate the font's font family. An application can use the value 0xF0 and the bitwise AND operator to mask out the four low-order bits of <b>tmPitchAndFamily</b>, thus obtaining a value that can be directly compared with font family names to find an identical match. For information about font families, see the description of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
+The four high-order bits of <b>tmPitchAndFamily</b> designate the font's font family. An application can use the value 0xF0 and the bitwise AND operator to mask out the four low-order bits of <b>tmPitchAndFamily</b>, thus obtaining a value that can be directly compared with font family names to find an identical match. For information about font families, see the description of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
 ### -field tmCharSet
 
@@ -220,26 +220,25 @@ THAI_CHARSET
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wingdi.h header defines TEXTMETRIC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

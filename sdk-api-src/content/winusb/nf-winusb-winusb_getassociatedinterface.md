@@ -56,7 +56,7 @@ The <b>WinUsb_GetAssociatedInterface</b> function retrieves a handle for an asso
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to the first (default) interface on the device, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>.
+An opaque handle to the first (default) interface on the device, which is returned by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>.
 
 ### -param AssociatedInterfaceIndex [in]
 
@@ -64,7 +64,7 @@ An index that specifies the associated interface to retrieve. A value of 0 indic
 
 ### -param AssociatedInterfaceHandle [out]
 
-A handle for the associated interface. Callers must pass this interface handle to <a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a> exposed by Winusb.dll. To close this handle, call <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>.
+A handle for the associated interface. Callers must pass this interface handle to <a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a> exposed by Winusb.dll. To close this handle, call <a href="/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>.
 
 ## -returns
 
@@ -83,7 +83,7 @@ A handle for the associated interface. Callers must pass this interface handle t
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a> has already returned a handle for the interface that <i>AssociatedInterfaceIndex</i> specifies.
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a> has already returned a handle for the interface that <i>AssociatedInterfaceIndex</i> specifies.
 
 </td>
 </tr>
@@ -137,21 +137,20 @@ Indicates that there is insufficient memory to perform the operation.
 
 The <b>WinUsb_GetAssociatedInterface</b> routine retrieves an opaque handle.
 
-The <i>first associated interface</i> is the interface that immediately follows the interface whose handle the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> routine retrieves.
+The <i>first associated interface</i> is the interface that immediately follows the interface whose handle the <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> routine retrieves.
 
-The handle that <b>WinUsb_GetAssociatedInterface</b> returns must be released by calling <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>.
+The handle that <b>WinUsb_GetAssociatedInterface</b> returns must be released by calling <a href="/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>.
 
 Callers of <b>WinUsb_GetAssociatedInterface</b>can retrieve only one handle for each interface. If a caller attempts to retrieve more than one handle for the same interface, the routine will fail with an error of ERROR_ALREADY_EXISTS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>

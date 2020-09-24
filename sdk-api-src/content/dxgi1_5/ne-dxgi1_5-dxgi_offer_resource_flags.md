@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies flags for the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">OfferResources1</a> method.
+Specifies flags for the <a href="/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">OfferResources1</a> method.
 
 ## -enum-fields
 
@@ -62,5 +62,4 @@ Indicates the ability to allow memory de-commit by the DirectX Graphics Kernel.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>

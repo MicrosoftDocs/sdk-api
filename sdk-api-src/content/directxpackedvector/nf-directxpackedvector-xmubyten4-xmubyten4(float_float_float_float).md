@@ -132,9 +132,8 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>

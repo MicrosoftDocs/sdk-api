@@ -108,7 +108,7 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 ### -param Table [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure that contains a table of unicast IP address entries on the local computer.
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure that contains a table of unicast IP address entries on the local computer.
 
 ## -returns
 
@@ -173,7 +173,7 @@ The request is not supported. This error is returned if no IPv4 stack is on the 
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -184,20 +184,20 @@ Use
 The <b>GetUnicastIpAddressTable</b> function is defined on Windows Vista and later. 
 
 The  
-<b>GetUnicastIpAddressTable</b> function enumerates the unicast IP addresses on a local system and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure. 
+<b>GetUnicastIpAddressTable</b> function enumerates the unicast IP addresses on a local system and returns this information in an <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure. 
 
-The unicast IP address entries are returned in a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure in the buffer pointed to by the <i>Table</i> parameter. The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure contains a unicast IP address entry count and an array of <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structures for each unicast IP address entry. When these returned structures are no longer required, free the memory by calling the <b>FreeMibTable</b>.
+The unicast IP address entries are returned in a <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure in the buffer pointed to by the <i>Table</i> parameter. The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure contains a unicast IP address entry count and an array of <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structures for each unicast IP address entry. When these returned structures are no longer required, free the memory by calling the <b>FreeMibTable</b>.
 
 The <i>Family</i> parameter must be initialized to either <b>AF_INET</b>,  <b>AF_INET6</b>, or <b>AF_UNSPEC</b>. 
 
-Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_UNICASTIPADDRESS_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_UNICASTIPADDRESS_ROW</b> array entries. Any access to a <b>MIB_UNICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
+Note that the returned <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_UNICASTIPADDRESS_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_UNICASTIPADDRESS_ROW</b> array entries. Any access to a <b>MIB_UNICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
 
 
 
 
 #### Examples
 
-The following example retrieves a unicast IP address table and prints some values from each of the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structures.
+The following example retrieves a unicast IP address table and prints some values from each of the retrieved <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structures.
 
 
 ```cpp
@@ -415,11 +415,11 @@ int __cdecl wmain()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteunicastipaddressentry">DeleteUnicastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-deleteunicastipaddressentry">DeleteUnicastIpAddressEntry</a>
 
 
 
@@ -427,33 +427,32 @@ int __cdecl wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-initializeunicastipaddressentry">InitializeUnicastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-initializeunicastipaddressentry">InitializeUnicastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyunicastipaddresschange">NotifyUnicastIpAddressChange</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifyunicastipaddresschange">NotifyUnicastIpAddressChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setunicastipaddressentry">SetUnicastIpAddressEntry</a>
-
+<a href="/windows/desktop/api/netioapi/nf-netioapi-setunicastipaddressentry">SetUnicastIpAddressEntry</a>

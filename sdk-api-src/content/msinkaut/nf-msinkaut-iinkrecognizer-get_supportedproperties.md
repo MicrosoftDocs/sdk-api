@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets an array of globally unique identifiers (GUIDs) that describe the properties that the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object supports.
+Gets an array of globally unique identifiers (GUIDs) that describe the properties that the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object supports.
 
 
 
@@ -63,13 +63,12 @@ This property is read-only.
 
 ## -remarks
 
-A recognizer may support line metrics, line numbers, confidence levels, and so on. For a complete list of the properties that a recognizer may support, see the <a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a> object.
+A recognizer may support line metrics, line numbers, confidence levels, and so on. For a complete list of the properties that a recognizer may support, see the <a href="/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
-
+<a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Clones an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+Clones an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -parameters
 
@@ -62,15 +62,14 @@ Clones an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-sht
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be cloned.
+A pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be cloned.
 
 ## -returns
 
 Type: <b>PIDLIST_RELATIVE</b>
 
-Returns a pointer to a copy of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i>.
+Returns a pointer to a copy of the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i>.
 
 ## -remarks
 
-When you are finished with the cloned <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure, release it with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to avoid memory leaks.
-
+When you are finished with the cloned <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure, release it with <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to avoid memory leaks.

@@ -103,9 +103,8 @@ For use only when displaying video in an overlay surface. The new surface contai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550612(v=vs.85)">DD_DXAPI_FLIP_OVERLAY</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550612(v=vs.85)">DD_DXAPI_FLIP_OVERLAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

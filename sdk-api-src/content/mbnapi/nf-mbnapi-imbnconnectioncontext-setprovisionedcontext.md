@@ -59,7 +59,7 @@ Adds or updates a provisioned context.
 
 ### -param provisionedContexts [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure that specifies the provisioned context to be stored in the device or SIM.
+An <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure that specifies the provisioned context to be stored in the device or SIM.
 
 ### -param providerID [in]
 
@@ -137,13 +137,12 @@ The Mobile Broadband service is not running on this system.
 
 ## -remarks
 
-The <b>contextID</b> of <i>provisionedContexts</i> specifies the index in the device or SIM memory where the context is to be stored.  If it is set to <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_context_constants">MBN_CONTEXT_ID_APPEND</a>, then the device shall find the appropriate index to store the context.
+The <b>contextID</b> of <i>provisionedContexts</i> specifies the index in the device or SIM memory where the context is to be stored.  If it is set to <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_context_constants">MBN_CONTEXT_ID_APPEND</a>, then the device shall find the appropriate index to store the context.
 
-This is an asynchronous operation and <b>SetProvisionedContext</b> will return immediately. When the operation is complete, the Mobile Broadband service will notify the application by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onsetprovisionedcontextcomplete">OnSetProvisionedContextComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents">IMbnConnectionContextEvents</a>.
+This is an asynchronous operation and <b>SetProvisionedContext</b> will return immediately. When the operation is complete, the Mobile Broadband service will notify the application by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onsetprovisionedcontextcomplete">OnSetProvisionedContextComplete</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents">IMbnConnectionContextEvents</a>.
 
-Additions to the provisioned context list for the current home provider ID will not be available for querying until the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onprovisionedcontextlistchange">OnProvisionedContextListChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents">IMbnConnectionContextEvents</a> has been called.
+Additions to the provisioned context list for the current home provider ID will not be available for querying until the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onprovisionedcontextlistchange">OnProvisionedContextListChange</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents">IMbnConnectionContextEvents</a> has been called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext">IMbnConnectionContext</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext">IMbnConnectionContext</a>

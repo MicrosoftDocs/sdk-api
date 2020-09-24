@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_XML_REFERENCES</b> structure defines an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">CRYPT_XML_REFERENCE</a> structures.
+The <b>CRYPT_XML_REFERENCES</b> structure defines an array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">CRYPT_XML_REFERENCE</a> structures.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ The number of elements in the array pointed to by the <b>rgpReference</b> member
 
 ### -field rgpReference
 
-A pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">PCRYPT_XML_REFERENCE</a> structures.
-
+A pointer to an array of  <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">PCRYPT_XML_REFERENCE</a> structures.

@@ -58,7 +58,7 @@ Implements a set of property names.
 
 ### -field ft
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertysetft">MI_PropertySetFT</a> function table.
+Pointer to the <a href="/windows/desktop/api/mi/ns-mi-mi_propertysetft">MI_PropertySetFT</a> function table.
 
 ### -field reserved
 
@@ -67,4 +67,3 @@ Reserved for internal use.
 ## -remarks
 
 It supports the building and interrogation of property sets. In general, clients  build property sets and providers interrogate them.
-

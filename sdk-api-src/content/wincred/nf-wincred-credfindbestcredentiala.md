@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-The <b>CredFindBestCredential</b> function searches the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credentials-management">Credentials Management</a> (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource.
+The <b>CredFindBestCredential</b> function searches the <a href="/windows/desktop/SecAuthN/credentials-management">Credentials Management</a> (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource.
 
 ## -parameters
 
@@ -73,19 +73,18 @@ Reserved.
 
 ### -param Credential [out]
 
-The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure that specifies the set of credentials this function finds.
+The address of a pointer to a <a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure that specifies the set of credentials this function finds.
 
-When you have finished using this structure, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a> function.
+When you have finished using this structure, free it by calling the <a href="/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a> function.
 
 ## -returns
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 > [!NOTE]
 > The wincred.h header defines CredFindBestCredential as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

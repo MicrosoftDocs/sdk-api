@@ -52,11 +52,11 @@ api_name:
 
 The <b>IStreamBufferRecComp</b> interface is used to create new content recordings by concatenating existing recordings. The new recording can be created from a mix of reference and content recordings.
 
-The Stream Buffer <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object exposes this interface.
+The Stream Buffer <a href="/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object exposes this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferRecComp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecComp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferRecComp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecComp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IStreamBufferRecComp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-append">Append</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-append">Append</a>
 </td>
 <td align="left" width="63%">
 Appends an entire recording to the target file.
@@ -80,7 +80,7 @@ Appends an entire recording to the target file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-appendex">AppendEx</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-appendex">AppendEx</a>
 </td>
 <td align="left" width="63%">
 Appends part of a recording to the target file.
@@ -89,7 +89,7 @@ Appends part of a recording to the target file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-cancel">Cancel</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels an append operation, if one is in progress.
@@ -98,7 +98,7 @@ Cancels an append operation, if one is in progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-close">Close</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the target file.
@@ -107,7 +107,7 @@ Closes the target file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-getcurrentlength">GetCurrentLength</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-getcurrentlength">GetCurrentLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of the target file.
@@ -116,7 +116,7 @@ Retrieves the length of the target file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Sets the file name and the profile for the new recording.
@@ -131,5 +131,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>

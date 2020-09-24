@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Clones the first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+Clones the first <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure in an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -parameters
 
@@ -62,15 +62,14 @@ Clones the first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that you want to clone.
+A pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that you want to clone.
 
 ## -returns
 
 Type: <b>PITEMID_CHILD</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that contains the first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure from the <b>ITEMIDLIST</b> structure specified by <i>pidl</i>. Returns <b>NULL</b> on failure.
+A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that contains the first <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure from the <b>ITEMIDLIST</b> structure specified by <i>pidl</i>. Returns <b>NULL</b> on failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclone">ILClone</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclone">ILClone</a>

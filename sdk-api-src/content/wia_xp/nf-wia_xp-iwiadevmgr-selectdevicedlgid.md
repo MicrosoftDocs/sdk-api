@@ -122,13 +122,12 @@ This method returns the following values:
 
 ## -remarks
 
-This method works in a similar manner to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg">IWiaDevMgr::SelectDeviceDlg</a>. The primary difference is that if it finds a matching device, it does not create the hierarchical tree of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects for the device.
+This method works in a similar manner to <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg">IWiaDevMgr::SelectDeviceDlg</a>. The primary difference is that if it finds a matching device, it does not create the hierarchical tree of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects for the device.
 
-Like <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg">IWiaDevMgr::SelectDeviceDlg</a>, the <b>IWiaDevMgr::SelectDeviceDlgID</b> method creates and displays the <b>Select Device</b> dialog box. This enables the user to select a WIA device for image acquisition. If a device is successfully selected, the <b>IWiaDevMgr::SelectDeviceDlgID</b> method passes its identifier string to the application through its <i>pbstrDeviceID</i> parameter. 
+Like <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg">IWiaDevMgr::SelectDeviceDlg</a>, the <b>IWiaDevMgr::SelectDeviceDlgID</b> method creates and displays the <b>Select Device</b> dialog box. This enables the user to select a WIA device for image acquisition. If a device is successfully selected, the <b>IWiaDevMgr::SelectDeviceDlgID</b> method passes its identifier string to the application through its <i>pbstrDeviceID</i> parameter. 
 
 Particular types of devices may be displayed to the user by specifying the device types through the <i>lDeviceType</i> parameter. If only one device meets the specification, <b>IWiaDevMgr::SelectDeviceDlgID</b> does not display the <b>Select Device</b> dialog box. Instead it passes the device's identifier string to the application without displaying the dialog box. You can override this behavior and force <b>IWiaDevMgr::SelectDeviceDlgID</b> to display the <b>Select Device</b> dialog box by passing WIA_SELECT_DEVICE_NODEFAULT as the value for the <i>lFlags</i> parameter.
 
 If more than one WIA device matches the specification, all matching devices are displayed in the <b>Select Device</b> dialog box so the user may choose one.
 
 It is recommended that applications make device and image selection available through a menu item named <b>From scanner or camera</b> on the <b>File</b> menu.
-

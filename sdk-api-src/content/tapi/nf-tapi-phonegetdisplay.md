@@ -62,7 +62,7 @@ Handle to the open phone device.
 ### -param lpDisplay
 
 Pointer to the memory location where the display content is to be stored, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>.
 
 ## -returns
 
@@ -73,26 +73,25 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPOINTER, PHON
 ## -remarks
 
 The <b>lpDisplay</b> memory area should be at least (<b>dwDisplayNumRows</b> * <b>dwDisplayNumColumns</b>) elements in size to receive all of the display information. The <b>dwDisplayNumRows</b> and <b>dwDisplayNumColumns</b> members are available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure returned by 
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>

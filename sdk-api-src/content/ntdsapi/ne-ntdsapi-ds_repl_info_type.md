@@ -52,64 +52,64 @@ api_name:
 
 ## -description
 
-The <b>DS_REPL_INFO_TYPE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions to  specify the type of replication data to retrieve.
+The <b>DS_REPL_INFO_TYPE</b> enumeration is used with the <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions to  specify the type of replication data to retrieve.
 
 ## -enum-fields
 
 ### -field DS_REPL_INFO_NEIGHBORS
 
 Requests replication state data for naming context and source server pairs. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a> structure.
 
 ### -field DS_REPL_INFO_CURSORS_FOR_NC
 
 Requests replication state data with respect to all replicas of a given naming context. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a> structure.
 
 ### -field DS_REPL_INFO_METADATA_FOR_OBJ
 
 Requests replication state data for the attributes for the given object. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a> structure.
 
 ### -field DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES
 
 Requests replication state data with respect to connection failures between inbound replication partners. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a> structure.
 
 ### -field DS_REPL_INFO_KCC_DSA_LINK_FAILURES
 
 Requests replication state data with respect to link failures between inbound replication partners. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a> structure.
 
 ### -field DS_REPL_INFO_PENDING_OPS
 
 Requests the replication tasks currently executing or queued to execute. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a> structure.
 
 ### -field DS_REPL_INFO_METADATA_FOR_ATTR_VALUE
 
 Requests replication state data for a specific attribute for the given object. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a> structure.
 
 ### -field DS_REPL_INFO_CURSORS_2_FOR_NC
 
 Requests replication state data with respect to all replicas of a given naming context. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_2">DS_REPL_CURSORS_2</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_2">DS_REPL_CURSORS_2</a> structure.
 
 ### -field DS_REPL_INFO_CURSORS_3_FOR_NC
 
 Requests replication state data with respect to all replicas of a given naming context. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_3w">DS_REPL_CURSORS_3</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_3w">DS_REPL_CURSORS_3</a> structure.
 
 ### -field DS_REPL_INFO_METADATA_2_FOR_OBJ
 
 Requests replication state data for the attributes for the given object. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2">DS_REPL_OBJ_META_DATA_2</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2">DS_REPL_OBJ_META_DATA_2</a> structure.
 
 ### -field DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE
 
 Requests replication state data for a specific attribute for the given object. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_2">DS_REPL_ATTR_VALUE_META_DATA_2</a> structure.
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_2">DS_REPL_ATTR_VALUE_META_DATA_2</a> structure.
 
 ### -field DS_REPL_INFO_METADATA_EXT_FOR_ATTR_VALUE
 
@@ -117,53 +117,52 @@ Requests replication state data for a specific attribute for the given object. R
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_2">DS_REPL_ATTR_VALUE_META_DATA_2</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_2">DS_REPL_ATTR_VALUE_META_DATA_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_2">DS_REPL_CURSORS_2</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_2">DS_REPL_CURSORS_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_3w">DS_REPL_CURSORS_3</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_3w">DS_REPL_CURSORS_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2">DS_REPL_OBJ_META_DATA_2</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2">DS_REPL_OBJ_META_DATA_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>

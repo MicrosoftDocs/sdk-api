@@ -71,25 +71,24 @@ It does not persist the caption or the hide-when-deactivated flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
+<a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-hideondeactivate">IFullScreenVideoEx::HideOnDeactivate</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-hideondeactivate">IFullScreenVideoEx::HideOnDeactivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setcaption">IFullScreenVideoEx::SetCaption</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setcaption">IFullScreenVideoEx::SetCaption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setclipfactor">IFullScreenVideoEx::SetClipFactor</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setclipfactor">IFullScreenVideoEx::SetClipFactor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setenabled">IFullScreenVideoEx::SetEnabled</a>
-
+<a href="/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setenabled">IFullScreenVideoEx::SetEnabled</a>

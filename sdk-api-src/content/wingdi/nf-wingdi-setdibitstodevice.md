@@ -100,11 +100,11 @@ A pointer to the color data stored as an array of bytes. For more information, s
 
 ### -param lpbmi [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that contains information about the DIB.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that contains information about the DIB.
 
 ### -param ColorUse [in]
 
-Indicates whether the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contains explicit red, green, blue (RGB) values or indexes into a palette. For more information, see the following Remarks section.
+Indicates whether the <b>bmiColors</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contains explicit red, green, blue (RGB) values or indexes into a palette. For more information, see the following Remarks section.
 
 The <i>fuColorUse</i> parameter must be one of the following values.
 
@@ -147,7 +147,7 @@ If the driver cannot support the JPEG or PNG file image passed to <b>SetDIBitsTo
 
 Optimal bitmap drawing speed is obtained when the bitmap bits are indexes into the system palette.
 
-Applications can retrieve the system palette colors and indexes by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a> function. After the colors and indexes are retrieved, the application can create the DIB. For more information about the system palette, see <a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors</a>. 
+Applications can retrieve the system palette colors and indexes by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a> function. After the colors and indexes are retrieved, the application can create the DIB. For more information about the system palette, see <a href="/windows/desktop/gdi/colors">Colors</a>. 
 
 The scan lines must be aligned on a <b>DWORD</b> except for RLE-compressed bitmaps.
 
@@ -158,39 +158,38 @@ To reduce the amount of memory required to set bits from a large DIB on a device
 The <b>SetDIBitsToDevice</b> function returns an error if it is called by a process that is running in the background while a full-screen MS-DOS session runs in the foreground.
 
 <ul>
-<li>If the <b>biCompression</b> member of <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> is BI_JPEG or BI_PNG, <i>lpvBits</i> points to a buffer containing a JPEG or PNG image. The <b>biSizeImage</b> member of specifies the size of the buffer. The <i>fuColorUse</i> parameter must be set to DIB_RGB_COLORS.</li>
+<li>If the <b>biCompression</b> member of <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> is BI_JPEG or BI_PNG, <i>lpvBits</i> points to a buffer containing a JPEG or PNG image. The <b>biSizeImage</b> member of specifies the size of the buffer. The <i>fuColorUse</i> parameter must be set to DIB_RGB_COLORS.</li>
 <li>To ensure proper metafile spooling while printing, applications must call the CHECKJPEGFORMAT or CHECKPNGFORMAT escape to verify that the printer recognizes the JPEG or PNG image, respectively, before calling <b>SetDIBitsToDevice</b>.</li>
 </ul>
-<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
+<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/testing-a-printer-for-jpeg-or-png-support">Testing a Printer for JPEG or PNG Support</a>.
+For an example, see <a href="/windows/desktop/gdi/testing-a-printer-for-jpeg-or-png-support">Testing a Printer for JPEG or PNG Support</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>

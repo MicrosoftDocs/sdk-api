@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>ChangeNtmsMediaType</b> function moves the specified PMID to the specified target media pool and sets the PMID's media type identifier to the media type of the target media pool.
@@ -60,7 +60,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaId [in]
 
@@ -175,17 +175,16 @@ The function was successful.
 
 The 
 <b>ChangeNtmsMediaType</b> function uses the same policy for moving media as the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-movetontmsmediapool">MoveToNtmsMediaPool</a> function (unrecognized media can only be moved to the free pool).
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-movetontmsmediapool">MoveToNtmsMediaPool</a> function (unrecognized media can only be moved to the free pool).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-addntmsmediatype">AddNtmsMediaType</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-addntmsmediatype">AddNtmsMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-deletentmsmediatype">DeleteNtmsMediaType</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-deletentmsmediatype">DeleteNtmsMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>

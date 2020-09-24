@@ -60,7 +60,7 @@ Contains the CLSID of the text service that owns the item.
 
 ### -param rcatid [in]
 
-Contains a GUID value that identifies the category to register the item under. This can be a user-defined category or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">predefined category values</a>.
+Contains a GUID value that identifies the category to register the item under. This can be a user-defined category or one of the <a href="/windows/desktop/TSF/predefined-category-values">predefined category values</a>.
 
 ### -param rguid [in]
 
@@ -102,4 +102,3 @@ An unspecified error occurred.
 ## -see-also
 
 [ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::UnregisterCategory](nf-msctf-itfcategorymgr-unregistercategory.md), [Predefined Category Values](/windows/desktop/TSF/predefined-category-values)
-

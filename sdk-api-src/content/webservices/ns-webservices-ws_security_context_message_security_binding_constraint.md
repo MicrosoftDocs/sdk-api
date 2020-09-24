@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 A security binding constraint that corresponds to 
-        the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>.
+        the <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>.
 
 ## -struct-fields
 
@@ -62,9 +62,9 @@ A security binding constraint that corresponds to
 The base binding constraint that this binding constraint derives from.
         
 
-The following binding constraints are supported at this point: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_SECURE_CONVERSATION_VERSION</a> 
+The following binding constraints are supported at this point: <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_SECURE_CONVERSATION_VERSION</a> 
           and <b>WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_ENTROPY_MODE</b>. 
-           Currently only <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_secure_conversation_version">WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</a>is supported in policy, so a binding constraint containing the
+           Currently only <a href="/windows/desktop/api/webservices/ne-webservices-ws_secure_conversation_version">WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</a>is supported in policy, so a binding constraint containing the
           value <b>WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</b> must be specified in
           order for the policy to match.
 
@@ -75,4 +75,3 @@ This specifies how the security context token should be attached to a message.
 ### -field bootstrapSecurityConstraint
 
 This specifies the bootstrap security used to establish the secure conversation context.
-

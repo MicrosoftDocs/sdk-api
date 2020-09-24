@@ -139,19 +139,18 @@ If a synchronous lock request is made from within <b>ITextStoreACP::RequestLock<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
+<a href="/windows/desktop/TSF/document-locks">Document Locks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestlock">ITextStoreACP::RequestLock
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestlock">ITextStoreACP::RequestLock
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-lf--constants">TS_LF_* Constants
+<a href="/windows/desktop/TSF/ts-lf--constants">TS_LF_* Constants
       </a>
-

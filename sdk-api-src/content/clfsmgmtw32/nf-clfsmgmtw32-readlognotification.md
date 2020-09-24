@@ -64,14 +64,14 @@ Receives the notification type, and if the type has parameters associated with i
 
 ### -param lpOverlapped [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that is required for asynchronous operation. If asynchronous operation is not used, this parameter can be <b>NULL</b>.
+A pointer to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that is required for asynchronous operation. If asynchronous operation is not used, this parameter can be <b>NULL</b>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following is a possible error code:
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following is a possible error code:
 
 ## -remarks
 
@@ -79,9 +79,8 @@ If the log handle is not created with the <b>FILE_FLAG_OVERLAPPED</b> file optio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_notification">CLFS_MGMT_NOTIFICATION</a>
+<a href="/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_notification">CLFS_MGMT_NOTIFICATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>

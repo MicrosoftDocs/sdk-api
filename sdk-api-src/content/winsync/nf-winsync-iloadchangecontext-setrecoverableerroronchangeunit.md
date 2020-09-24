@@ -115,7 +115,7 @@ Invalid pointer.
 </dl>
 </td>
 <td width="60%">
-The change that contains this change unit refers to an item creation. In this case, the error must be reported on the item change by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-setrecoverableerroronchange">ILoadChangeContext::SetRecoverableErrorOnChange</a>.
+The change that contains this change unit refers to an item creation. In this case, the error must be reported on the item change by using <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-setrecoverableerroronchange">ILoadChangeContext::SetRecoverableErrorOnChange</a>.
 
 </td>
 </tr>
@@ -138,9 +138,8 @@ When this method is called, an <b>IChangeUnitException</b> object is added to th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iloadchangecontext">ILoadChangeContext Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iloadchangecontext">ILoadChangeContext Interface</a>

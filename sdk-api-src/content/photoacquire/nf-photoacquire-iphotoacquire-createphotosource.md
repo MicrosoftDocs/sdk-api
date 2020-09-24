@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>CreatePhotoSource</code> method initializes an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> object to pass to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>.
+The <code>CreatePhotoSource</code> method initializes an <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> object to pass to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>.
 
 ## -parameters
 
@@ -98,15 +98,14 @@ A non-<b>NULL</b> pointer was expected.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> object created is used as the parameter for the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">Acquire</a> method.
+The <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> object created is used as the parameter for the <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">Acquire</a> method.
 
 If an error occurs in <code>CreatePhotoSource</code>, <i>ppPhotoAcquireSource</i> is initialized to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquire">IPhotoAcquire Interface</a>
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquire">IPhotoAcquire Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>

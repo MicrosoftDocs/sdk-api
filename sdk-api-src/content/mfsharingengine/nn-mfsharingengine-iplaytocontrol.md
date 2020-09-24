@@ -54,7 +54,7 @@ Enables the <b>PlayToConnection</b> object to connect to a media element.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlayToControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPlayToControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlayToControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPlayToControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPlayToControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-connect">Connect</a>
+<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Connects the media element to the media sharing engine.
@@ -78,7 +78,7 @@ Connects the media element to the media sharing engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-disconnect">Disconnect</a>
+<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects the media element from the media sharing engine.
@@ -89,5 +89,4 @@ Disconnects the media element from the media sharing engine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

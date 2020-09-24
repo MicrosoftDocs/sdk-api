@@ -74,7 +74,7 @@ Returns S_OK.
 
 ## -remarks
 
-After you call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-getevent">IMediaEvent::GetEvent</a> method to retrieve an event notification, you must call <code>FreeEventParams</code>. This method frees any resources that were allocated for the event parameters. Pass in the same variables used for the <b>GetEvent</b> call.
+After you call the <a href="/windows/desktop/api/control/nf-control-imediaevent-getevent">IMediaEvent::GetEvent</a> method to retrieve an event notification, you must call <code>FreeEventParams</code>. This method frees any resources that were allocated for the event parameters. Pass in the same variables used for the <b>GetEvent</b> call.
 
 
 #### Examples
@@ -90,13 +90,12 @@ hr = pEvent->FreeEventParams(evCode, param1, param2);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
+<a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a>

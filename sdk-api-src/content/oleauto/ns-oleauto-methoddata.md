@@ -68,7 +68,7 @@ An array of method parameters.
 
 ### -field dispid
 
- The ID of the method, as used in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
+ The ID of the method, as used in <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
 
 ### -field iMeth
 
@@ -76,7 +76,7 @@ An array of method parameters.
 
 ### -field cc
 
-The calling convention. The CDECL and Pascal calling conventions are supported by the dispatch interface creation functions, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>.
+The calling convention. The CDECL and Pascal calling conventions are supported by the dispatch interface creation functions, such as <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>.
 
 ### -field cArgs
 
@@ -140,4 +140,3 @@ The member is changed by a reference assignment, rather than a value assignment.
 ### -field vtReturn
 
 The return type for the method.
-

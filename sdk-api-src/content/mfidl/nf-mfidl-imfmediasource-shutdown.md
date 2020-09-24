@@ -85,9 +85,8 @@ After this method is called, methods on the media source and all of its media st
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
-
+<a href="/windows/desktop/medfound/media-sources">Media Sources</a>

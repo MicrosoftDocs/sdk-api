@@ -54,7 +54,7 @@ Exposes methods that request a thumbnail image from a Shell folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtractImage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtractImage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtractImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtractImage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExtractImage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-extract">Extract</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-extract">Extract</a>
 </td>
 <td align="left" width="63%">
 Requests an image from an object, such as an item in a Shell folder.
@@ -78,7 +78,7 @@ Requests an image from an object, such as an item in a Shell folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation">GetLocation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation">GetLocation</a>
 </td>
 <td align="left" width="63%">
 Gets a path to the image that is to be extracted.
@@ -89,11 +89,10 @@ Gets a path to the image that is to be extracted.
 
 ## -remarks
 
-There are two steps in the process: First, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation">GetLocation</a> to request the path description of an image and specify how the image should be rendered. Then, call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-extract">Extract</a> to extract the image.
+There are two steps in the process: First, use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation">GetLocation</a> to request the path description of an image and specify how the image should be rendered. Then, call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-extract">Extract</a> to extract the image.
 
-If the object is free-threaded it must also expose an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a> interface so it can be stopped and started as needed. This feature can be particularly useful when extraction may be slow.
+If the object is free-threaded it must also expose an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a> interface so it can be stopped and started as needed. This feature can be particularly useful when extraction may be slow.
 
 Implement <b>IExtractImage</b> if your namespace extension needs to provide thumbnail images to be displayed in a Shellview.
 
-Use <b>IExtractImage</b> if you are implementing a view of namespace objects, and want to display thumbnail images. You can use a Shell folder's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">IShellFolder::GetUIObjectOf</a> method to bind to its <b>IExtractImage</b> interface.
-
+Use <b>IExtractImage</b> if you are implementing a view of namespace objects, and want to display thumbnail images. You can use a Shell folder's <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">IShellFolder::GetUIObjectOf</a> method to bind to its <b>IExtractImage</b> interface.

@@ -56,13 +56,13 @@ Implement this method to receive progress notification of the current track-writ
 
 ### -param object [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a> interface that initiated the write operation. 
+The <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a> interface that initiated the write operation. 
 
 This parameter is a <b>MsftDiscFormat2TrackAtOnce</b> object in script.
 
 ### -param progress [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonceeventargs">IDiscFormat2TrackAtOnceEventArgs</a> interface that you use to determine the progress of the write operation. 
+An <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonceeventargs">IDiscFormat2TrackAtOnceEventArgs</a> interface that you use to determine the progress of the write operation. 
 
 This parameter is a <b>MsftDiscFormat2TrackAtOnce</b> object in script.
 
@@ -72,19 +72,18 @@ Return values are ignored.
 
 ## -remarks
 
-Notifications are sent in response to calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-addaudiotrack">IDiscFormat2TrackAtOnce::AddAudioTrack</a> method.
+Notifications are sent in response to calling the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-addaudiotrack">IDiscFormat2TrackAtOnce::AddAudioTrack</a> method.
 
-To stop the write process, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">IDiscFormat2TrackAtOnce::CancelAddTrack</a> method.
+To stop the write process, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">IDiscFormat2TrackAtOnce::CancelAddTrack</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2trackatonceevents">DDiscFormat2TrackAtOnceEvents</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2trackatonceevents">DDiscFormat2TrackAtOnceEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">IDiscFormat2TrackAtOnce::CancelAddTrack</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">IDiscFormat2TrackAtOnce::CancelAddTrack</a>

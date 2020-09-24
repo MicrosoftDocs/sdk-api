@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The [VMRMONITORINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrmonitorinfo) structure and is used to identify a monitor on the system (VMR-7 only).
+The [VMRMONITORINFO](/windows/desktop/api/strmif/ns-strmif-vmrmonitorinfo) structure and is used to identify a monitor on the system (VMR-7 only).
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ In DirectX 9.0 and later, the monitor is identified by an integer index, not by 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

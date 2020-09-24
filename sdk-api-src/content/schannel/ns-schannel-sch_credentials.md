@@ -81,7 +81,7 @@ The <b>paCred</b> member  of the <b>SCH_CREDENTIALS</b> structure passed in must
 </dl>
 </td>
 <td width="60%">
-The <b>paCred</b> member  of the <b>SCH_CREDENTIALS</b> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cert_hash_store">SCHANNEL_CERT_HASH_STORE</a> structure.
+The <b>paCred</b> member  of the <b>SCH_CREDENTIALS</b> structure points to a <a href="/windows/desktop/api/schannel/ns-schannel-schannel_cert_hash_store">SCHANNEL_CERT_HASH_STORE</a> structure.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ This flag is the opposite of SCH_CRED_MANUAL_CRED_VALIDATION and is part of the 
 </dl>
 </td>
 <td width="60%">
-Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function when validating the specified credentials during a call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (Schannel)</a>.
+Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function when validating the specified credentials during a call to <a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (Schannel)</a>.
 
 <b>Windows Server 2003 and Windows XP/2000:  </b>This flag is not supported.
 
@@ -157,7 +157,7 @@ Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a
 <td width="60%">
 Server only.
 
-If this flag is set, then full handshakes performed with this credential will not allow reconnects. A cache entry is created, so the session can be made resumable later by using the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
+If this flag is set, then full handshakes performed with this credential will not allow reconnects. A cache entry is created, so the session can be made resumable later by using the <a href="/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ Prevent Schannel from attempting to automatically supply a certificate chain for
 <td width="60%">
 Client only.
 
-Prevent Schannel from comparing the supplied target name with the subject names in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">server certificates</a>.
+Prevent Schannel from comparing the supplied target name with the subject names in <a href="/windows/desktop/SecGloss/s-gly">server certificates</a>.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Prevent Schannel from comparing the supplied target name with the subject names 
 <td width="60%">
 Server only.
 
-Prevent Schannel from using the built-in system certificate mapping functions to map <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">client certificates</a> to a user account.
+Prevent Schannel from using the built-in system certificate mapping functions to map <a href="/windows/desktop/SecGloss/c-gly">client certificates</a> to a user account.
 
 </td>
 </tr>
@@ -352,4 +352,3 @@ To use the SCH_CREDENTIALS structure, define SCHANNEL_USE_BLACKLISTS along with 
 [CRYPTO_SETTINGS](ns-schannel-crypto_settings.md)
 
 [TLS_PARAMETERS](ns-schannel-tls_parameters.md)
-

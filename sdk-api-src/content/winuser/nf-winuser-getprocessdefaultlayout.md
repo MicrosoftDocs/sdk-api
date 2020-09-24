@@ -63,7 +63,7 @@ Retrieves the default layout that is used when windows are created with no paren
 
 Type: <b>DWORD*</b>
 
-The current default process layout. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdefaultlayout">SetProcessDefaultLayout</a>.
+The current default process layout. For a list of values, see <a href="/windows/desktop/api/winuser/nf-winuser-setprocessdefaultlayout">SetProcessDefaultLayout</a>.
 
 ## -returns
 
@@ -71,11 +71,11 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The layout specifies how text and graphics are laid out in a window; the default is left to right. The <b>GetProcessDefaultLayout</b> function lets you know if the default layout has changed, from using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdefaultlayout">SetProcessDefaultLayout</a>.
+The layout specifies how text and graphics are laid out in a window; the default is left to right. The <b>GetProcessDefaultLayout</b> function lets you know if the default layout has changed, from using <a href="/windows/desktop/api/winuser/nf-winuser-setprocessdefaultlayout">SetProcessDefaultLayout</a>.
 
 ## -see-also
 
@@ -87,9 +87,8 @@ The layout specifies how text and graphics are laid out in a window; the default
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdefaultlayout">SetProcessDefaultLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setprocessdefaultlayout">SetProcessDefaultLayout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

@@ -57,13 +57,13 @@ Specifies an application-defined callback function that a property sheet calls w
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Reserved; must be <b>NULL</b>.
 
 ### -param uMsg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Action flag. This parameter can be one of the following values.
 
@@ -79,7 +79,7 @@ Action flag. This parameter can be one of the following values.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. A page is being created. The return value is not used.
+<a href="/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. A page is being created. The return value is not used.
 
 </td>
 </tr>
@@ -109,25 +109,24 @@ A page is being destroyed. The return value is ignored.
 
 Type: <b>LPPROPSHEETPAGE</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure that defines the page being created or destroyed. See the Remarks section for further discussion.
+Pointer to a <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure that defines the page being created or destroyed. See the Remarks section for further discussion.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The return value depends on the value of the <i>uMsg</i> parameter.
 
 ## -remarks
 
-An application must specify the address of this callback function in the <b>pfnCallback</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure before passing the structure to the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function.
+An application must specify the address of this callback function in the <b>pfnCallback</b> member of a <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure before passing the structure to the <a href="/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function.
 
 <div class="alert"><b>Note</b>  The property sheet is in the process of manipulating the list of pages when this function is called. Do not attempt to add, remove, or insert pages while handling this notification. Doing so will have unpredictable results.</div>
 <div> </div>
-With the exception of the <b>lParam</b> member, your application should not modify the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure. Doing so will have unpredictable results. The <b>lParam</b> member contains application-defined data and can be modified as needed.
+With the exception of the <b>lParam</b> member, your application should not modify the <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure. Doing so will have unpredictable results. The <b>lParam</b> member contains application-defined data and can be modified as needed.
 
 
 
 
 > [!NOTE]
 > The prsht.h header defines LPFNPSPCALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -63,7 +63,7 @@ The handle to the window in which the frame will be extended into the client are
 
 ### -param pMarInset [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-margins">MARGINS</a> structure that describes the margins to use when extending the frame into the client area.
+A pointer to a <a href="/windows/desktop/api/uxtheme/ns-uxtheme-margins">MARGINS</a> structure that describes the margins to use when extending the frame into the client area.
 
 ## -returns
 
@@ -71,7 +71,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This function must be called whenever Desktop Window Manager (DWM) composition is toggled. Handle the <a href="https://docs.microsoft.com/windows/desktop/dwm/wm-dwmcompositionchanged">WM_DWMCOMPOSITIONCHANGED</a> message for composition change notification. 
+This function must be called whenever Desktop Window Manager (DWM) composition is toggled. Handle the <a href="/windows/desktop/dwm/wm-dwmcompositionchanged">WM_DWMCOMPOSITIONCHANGED</a> message for composition change notification. 
 
 Use negative margin values to create the "sheet of glass" effect where the client area is rendered as a solid surface with no window border.
 
@@ -125,5 +125,4 @@ HRESULT ExtendIntoClientAll(HWND hwnd)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dwm/blur-ovw">DWM Blur Behind Overview</a>
-
+<a href="/windows/desktop/dwm/blur-ovw">DWM Blur Behind Overview</a>

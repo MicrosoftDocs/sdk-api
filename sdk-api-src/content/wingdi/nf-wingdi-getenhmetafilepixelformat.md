@@ -66,7 +66,7 @@ Specifies the size, in bytes, of the buffer into which the pixel format informat
 
 ### -param ppfd
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure that contains the logical pixel format specification. The metafile uses this structure to record the logical pixel format specification.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure that contains the logical pixel format specification. The metafile uses this structure to record the logical pixel format specification.
 
 ## -returns
 
@@ -74,7 +74,7 @@ If the function succeeds and finds a pixel format, the return value is the size 
 
 If no pixel format is present, the return value is zero.
 
-If an error occurs and the function fails, the return value is GDI_ERROR. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If an error occurs and the function fails, the return value is GDI_ERROR. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -84,17 +84,16 @@ For information on metafile recording and other operations, see Enhanced Metafil
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enhmetaheader">ENHMETAHEADER</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-enhmetaheader">ENHMETAHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/win32-functions">Windows Functions</a>
-
+<a href="/windows/desktop/OpenGL/win32-functions">Windows Functions</a>

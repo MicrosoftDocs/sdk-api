@@ -198,13 +198,12 @@ L= ((L' + 0.1115)/1.1115)^1/0.45, for L' &gt;= 0.0913
 
 This enumeration is equivalent to the <b>DXVA_VideoTransferFunction</b> enumeration used in DXVA 1.0.
 
-If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the transfer function is specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-transfer-function-attribute">MF_MT_TRANSFER_FUNCTION</a> attribute.
+If you are using the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the transfer function is specified in the <a href="/windows/desktop/medfound/mf-mt-transfer-function-attribute">MF_MT_TRANSFER_FUNCTION</a> attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
+<a href="/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

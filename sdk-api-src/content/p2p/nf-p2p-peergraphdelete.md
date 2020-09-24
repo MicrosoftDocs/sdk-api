@@ -56,15 +56,15 @@ The <b>PeerGraphDelete</b> function deletes the data  associated with a specifie
 
 ### -param pwzGraphId [in]
 
-The name of a peer graph to delete data for.  Specify the same ID used in calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.
+The name of a peer graph to delete data for.  Specify the same ID used in calls to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.
 
 ### -param pwzPeerId [in]
 
-The peer ID to delete  data for. Specify the same ID used in calls to  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.
+The peer ID to delete  data for. Specify the same ID used in calls to  <a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.
 
 ### -param pwzDatabaseName [in]
 
-The name of  a database associated with a peer graph. Specify the same ID used in calls to  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.
+The name of  a database associated with a peer graph. Specify the same ID used in calls to  <a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.
 
 ## -returns
 
@@ -104,7 +104,7 @@ One of the parameters is not valid.
 </dl>
 </td>
 <td width="60%">
-A graph must be initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+A graph must be initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -112,23 +112,22 @@ A graph must be initialized with a call to <a href="https://docs.microsoft.com/w
 
 ## -remarks
 
-A peer graph must be closed by using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphclose">PeerGraphClose</a> before it can be deleted.
+A peer graph must be closed by using <a href="/windows/desktop/api/p2p/nf-p2p-peergraphclose">PeerGraphClose</a> before it can be deleted.
 
 If  a delete operation fails, a Windows file error code is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphclose">PeerGraphClose</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphclose">PeerGraphClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>

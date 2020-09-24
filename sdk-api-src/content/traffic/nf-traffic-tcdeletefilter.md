@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>TcDeleteFilter</b> function deletes a filter previously added with the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
 
 ## -parameters
 
 ### -param FilterHandle [in]
 
 Handle to the filter to be deleted, as received in a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
 
 ## -returns
 
@@ -99,5 +99,4 @@ The filter handle is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a>

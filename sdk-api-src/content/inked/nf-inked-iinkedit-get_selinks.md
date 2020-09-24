@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the array of embedded <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects (if displayed as ink) in the current selection.
+Gets or sets the array of embedded <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects (if displayed as ink) in the current selection.
 
 
 
@@ -65,9 +65,9 @@ This property is read/write.
 
 ## -remarks
 
-Ink must be recognized before being accessed through this property. If it is not recognized first, the <b>SelInks</b> property always contains zero <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects. You must either call the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-recognize">Recognize</a> method (if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout">RecognitionTimeout</a> property equals 0) or wait until the ink is automatically recognized (when the value of the <b>RecognitionTimeout</b> property is greater than 0) to access ink through this property.
+Ink must be recognized before being accessed through this property. If it is not recognized first, the <b>SelInks</b> property always contains zero <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects. You must either call the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-recognize">Recognize</a> method (if the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout">RecognitionTimeout</a> property equals 0) or wait until the ink is automatically recognized (when the value of the <b>RecognitionTimeout</b> property is greater than 0) to access ink through this property.
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control ignores any <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> on ink set through the <b>SelInks</b> property. Instead, the InkEdit control applies alternate drawing attributes according to the attributes of nearby text.
+The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control ignores any <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> on ink set through the <b>SelInks</b> property. Instead, the InkEdit control applies alternate drawing attributes according to the attributes of nearby text.
 
 This property is run time only.
 
@@ -77,17 +77,16 @@ This property is run time only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout">RecoTimeout Property</a>
+<a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout">RecoTimeout Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-recognize">Recognize Method [InkEdit Control]</a>
-
+<a href="/windows/desktop/api/inked/nf-inked-iinkedit-recognize">Recognize Method [InkEdit Control]</a>

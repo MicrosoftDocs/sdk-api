@@ -56,7 +56,7 @@ Obtains the context object to which the range belongs.
 
 ### -param ppContext [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface pointer that receives the context object that the range belongs to.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface pointer that receives the context object that the range belongs to.
 
 ## -returns
 
@@ -104,10 +104,9 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>

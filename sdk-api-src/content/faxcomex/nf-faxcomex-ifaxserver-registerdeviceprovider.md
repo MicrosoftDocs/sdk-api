@@ -43,11 +43,7 @@ api_location:
  - Fxscomex.dll
 api_name:
  - IFaxServer.RegisterDeviceProvider
- - IFaxServer.RegisterDeviceProvider
 ---
-
-# IFaxServer::RegisterDeviceProvider
-
 
 ## -description
 
@@ -75,20 +71,15 @@ Null-terminated string that contains the fully qualified path and file name of t
 
 ### -param TspName
 
-TBD
+Type: <b>BSTR</b>
+
+Null-terminated string that contains the name of the telephony service provider associated with the devices for the FSP.
 
 ### -param lFSPIVersion
 
 Type: <b>long</b>
 
 A <b>long</b> value that indicates the version of the FSP. Should be equal to 0x00010000.
-
-
-#### - bstrTempName
-
-Type: <b>BSTR</b>
-
-Null-terminated string that contains the name of the telephony service provider associated with the devices for the FSP.
 
 ## -returns
 
@@ -100,13 +91,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Only an administrator can register a FSP.
 
-To use this method, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farMANAGE_CONFIG</a> access right.
+To use this method, a user must have the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farMANAGE_CONFIG</a> access right.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>

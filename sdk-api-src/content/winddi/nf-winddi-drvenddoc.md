@@ -56,7 +56,7 @@ The <b>DrvEndDoc</b> function is called by GDI when it has finished sending a do
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure.
 
 ### -param fl [in]
 
@@ -85,13 +85,12 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it
 
 ## -remarks
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> must provide a <b>DrvEndDoc</b> function. The function is called after the last physical page of a print job has been rendered.
+A <a href="/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> must provide a <b>DrvEndDoc</b> function. The function is called after the last physical page of a print job has been rendered.
 
-Typically the function is used for sending control sequences to printer hardware, after a document has been printed, by calling GDI's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> function. The function can also perform internal, document-specific clean-up operations for the printer graphics DLL.
+Typically the function is used for sending control sequences to printer hardware, after a document has been printed, by calling GDI's <a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> function. The function can also perform internal, document-specific clean-up operations for the printer graphics DLL.
 
 Because there is not a separate call into the printer graphics DLL when a print job is finished, the <b>DrvEndDoc</b> function must also send control sequences to the printer to end the job, if required by the printer. (In other words, there is one document per job.)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstartdoc">DrvStartDoc</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvstartdoc">DrvStartDoc</a>

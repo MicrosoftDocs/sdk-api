@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Retrieves a handle to a user account in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database.
+Retrieves a handle to a user account in the <a href="/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database.
 
 ## -parameters
 
 ### -param Name [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies the name of the SAM account.
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies the name of the SAM account.
 
 ### -param NameType [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-secpkg_name_type">SECPKG_NAME_TYPE</a> enumeration value that specifies the type of account name in <i>Name</i>. This parameter can be one of the following values.
+<a href="/windows/desktop/api/ntsecpkg/ne-ntsecpkg-secpkg_name_type">SECPKG_NAME_TYPE</a> enumeration value that specifies the type of account name in <i>Name</i>. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -95,7 +95,7 @@ A
 </dl>
 </td>
 <td width="60%">
-<i>Name</i> is a flat <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN)–style account name.
+<i>Name</i> is a flat <a href="/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN)–style account name.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ A
 ### -param Prefix [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies the prefix to use with names that use a <i>NameType</i> of SecNameAlternateId.
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies the prefix to use with names that use a <i>NameType</i> of SecNameAlternateId.
 
 ### -param AllowGuest [in]
 
@@ -193,24 +193,23 @@ The SAM account could not be found.
 ## -remarks
 
 To close the handle received by the <i>UserHandle</i> parameter,   call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a> function.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a> function.
 
 The distinguished name of a user identifies the name, domain, and the complete path to the 
-<a href="https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services">Active Directory</a> object that represents the user.
+<a href="/windows/desktop/AD/active-directory-domain-services">Active Directory</a> object that represents the user.
 
 A pointer to the <b>OpenSamUser</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

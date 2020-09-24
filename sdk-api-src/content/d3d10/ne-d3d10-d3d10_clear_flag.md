@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the parts of the depth stencil to clear. Usually used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-cleardepthstencilview">ID3D10Device::ClearDepthStencilView</a>.
+Specifies the parts of the depth stencil to clear. Usually used with <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-cleardepthstencilview">ID3D10Device::ClearDepthStencilView</a>.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ These flags can be bitwise ORed together.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

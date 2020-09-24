@@ -66,5 +66,4 @@ Reserved for internal use.
 
 ### -field ft
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_qualifiersetft">MI_QualifierSetFT</a> structure holding the function pointers to view the qualifier details. To enumerate over the structure, use the functions containing the "MI_QualifierSet_" prefix.
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_qualifiersetft">MI_QualifierSetFT</a> structure holding the function pointers to view the qualifier details. To enumerate over the structure, use the functions containing the "MI_QualifierSet_" prefix.

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation5">IUIAutomation5</a> interface to expose additional methods for controlling Microsoft UI Automation functionality.
+Extends the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation5">IUIAutomation5</a> interface to expose additional methods for controlling Microsoft UI Automation functionality.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomation6</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation5">IUIAutomation5</a>. <b>IUIAutomation6</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomation6</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation5">IUIAutomation5</a>. <b>IUIAutomation6</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -82,7 +82,7 @@ Registers a method that handles when the active text position changes.
 <a href="https://msdn.microsoft.com/en-us/library/Mt830308(v=VS.85).aspx">AddEventHandlerGroup</a>
 </td>
 <td align="left" width="63%">
-Registers a collection of event handler methods specified with the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-createeventhandlergroup">CreateEventHandlerGroup</a>.
+Registers a collection of event handler methods specified with the <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-createeventhandlergroup">CreateEventHandlerGroup</a>.
 
 </td>
 </tr>
@@ -157,9 +157,8 @@ Indicates whether an accessible technology client adjusts provider request timeo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation5">IUIAutomation5</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation5">IUIAutomation5</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

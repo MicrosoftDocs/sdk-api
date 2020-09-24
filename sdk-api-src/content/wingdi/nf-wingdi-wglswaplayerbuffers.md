@@ -60,7 +60,7 @@ Specifies the device context of a window whose layer plane palette is to be real
 
 ### -param arg2
 
-Specifies the overlay, underlay, and main planes whose front and back buffers are to be swapped. The <b>bReserved</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure specifies the number of overlay and underlay planes. The <i>fuPlanes</i> parameter is a bitwise combination of the following values.<div> </div>
+Specifies the overlay, underlay, and main planes whose front and back buffers are to be swapped. The <b>bReserved</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure specifies the number of overlay and underlay planes. The <i>fuPlanes</i> parameter is a bitwise combination of the following values.<div> </div>
 
 
 <table>
@@ -102,7 +102,7 @@ Swaps the front and back buffers of the underlay plane <i>i</i>, where <i>i</i> 
 
 ## -returns
 
-If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -114,21 +114,20 @@ With applications that use multiple threads, before calling <b>wglSwapLayerBuffe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-layerplanedescriptor">LAYERPLANEDESCRIPTOR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-layerplanedescriptor">LAYERPLANEDESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-swapbuffers">SwapBuffers</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-swapbuffers">SwapBuffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
-
+<a href="/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>

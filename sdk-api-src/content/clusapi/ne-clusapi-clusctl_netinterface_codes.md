@@ -51,110 +51,109 @@ api_name:
 
 ## -description
 
-Enumerates Network Interface <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a>.
+Enumerates Network Interface <a href="/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a>.
 
 ## -enum-fields
 
 ### -field CLUSCTL_NETINTERFACE_UNKNOWN
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-unknown">CLUSCTL_NETINTERFACE_UNKNOWN</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-unknown">CLUSCTL_NETINTERFACE_UNKNOWN</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_CHARACTERISTICS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-characteristics">CLUSCTL_NETINTERFACE_GET_CHARACTERISTICS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-characteristics">CLUSCTL_NETINTERFACE_GET_CHARACTERISTICS</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_FLAGS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-flags">CLUSCTL_NETINTERFACE_GET_FLAGS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-flags">CLUSCTL_NETINTERFACE_GET_FLAGS</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_NAME
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-name">CLUSCTL_NETINTERFACE_GET_NAME</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-name">CLUSCTL_NETINTERFACE_GET_NAME</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_ID
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-id">CLUSCTL_NETINTERFACE_GET_ID</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-id">CLUSCTL_NETINTERFACE_GET_ID</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_NODE
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-node">CLUSCTL_NETINTERFACE_GET_NODE</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-node">CLUSCTL_NETINTERFACE_GET_NODE</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_NETWORK
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-network">CLUSCTL_NETINTERFACE_GET_NETWORK</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-network">CLUSCTL_NETINTERFACE_GET_NETWORK</a>.
 
 ### -field CLUSCTL_NETINTERFACE_ENUM_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-enum-common-properties">CLUSCTL_NETINTERFACE_ENUM_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-enum-common-properties">CLUSCTL_NETINTERFACE_ENUM_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_RO_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-ro-common-properties">CLUSCTL_NETINTERFACE_GET_RO_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-ro-common-properties">CLUSCTL_NETINTERFACE_GET_RO_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-common-properties">CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-common-properties">CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_SET_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-set-common-properties">CLUSCTL_NETINTERFACE_SET_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-set-common-properties">CLUSCTL_NETINTERFACE_SET_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_VALIDATE_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-validate-common-properties">CLUSCTL_NETINTERFACE_VALIDATE_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-validate-common-properties">CLUSCTL_NETINTERFACE_VALIDATE_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_ENUM_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-enum-private-properties">CLUSCTL_NETINTERFACE_ENUM_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-enum-private-properties">CLUSCTL_NETINTERFACE_ENUM_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_RO_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-ro-private-properties">CLUSCTL_NETINTERFACE_GET_RO_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-ro-private-properties">CLUSCTL_NETINTERFACE_GET_RO_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-private-properties">CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-private-properties">CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_SET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-set-private-properties">CLUSCTL_NETINTERFACE_SET_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-set-private-properties">CLUSCTL_NETINTERFACE_SET_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_VALIDATE_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-validate-private-properties">CLUSCTL_NETINTERFACE_VALIDATE_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-validate-private-properties">CLUSCTL_NETINTERFACE_VALIDATE_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTY_FMTS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-common-property-fmts">CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTY_FMTS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-common-property-fmts">CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTY_FMTS</a>.
 
 ### -field CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTY_FMTS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-private-property-fmts">CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTY_FMTS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-private-property-fmts">CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTY_FMTS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interface-control-codes">Network Interface Control Codes</a>
-
+<a href="/previous-versions/windows/desktop/mscs/network-interface-control-codes">Network Interface Control Codes</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains data for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-abortpath">AbortPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-closefigure">CloseFigure</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-flattenpath">FlattenPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-widenpath">WidenPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmetargn">SetMetaRgn</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> enhanced metafile records.
+Contains data for the <a href="/windows/desktop/api/wingdi/nf-wingdi-abortpath">AbortPath</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-closefigure">CloseFigure</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-flattenpath">FlattenPath</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-widenpath">WidenPath</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-setmetargn">SetMetaRgn</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-savedc">SaveDC</a>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ The base structure for all record types.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

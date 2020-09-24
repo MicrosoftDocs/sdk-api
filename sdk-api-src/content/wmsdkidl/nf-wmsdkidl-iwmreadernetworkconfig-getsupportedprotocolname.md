@@ -59,7 +59,7 @@ The <b>GetSupportedProtocolName</b> method retrieves a protocol name by index.
 
 ### -param dwProtocolNum [in]
 
-Specifies protocol name to retrieve, indexed from zero. To get the number of supported protocols, call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getnumprotocolssupported">IWMReaderNetworkConfig::GetNumProtocolsSupported</a> method.
+Specifies protocol name to retrieve, indexed from zero. To get the number of supported protocols, call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getnumprotocolssupported">IWMReaderNetworkConfig::GetNumProtocolsSupported</a> method.
 
 ### -param pwszProtocolName [out]
 
@@ -115,5 +115,4 @@ This method only returns a list of protocols that are used to receive content fr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>

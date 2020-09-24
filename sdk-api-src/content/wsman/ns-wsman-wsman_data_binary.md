@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure component that holds binary data for use with various Windows Remote Management functions.
+A <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure component that holds binary data for use with various Windows Remote Management functions.
 
 ## -struct-fields
 
@@ -63,4 +63,3 @@ Represents the number of BYTEs stored in the data field.
 ### -field data
 
 Specifies the storage location for the binary data.
-

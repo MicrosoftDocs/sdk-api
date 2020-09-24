@@ -57,46 +57,45 @@ api_name:
 
 ## -description
 
-The <b>EqualSid</b> function tests two <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) values for equality. Two SIDs must match exactly to be considered equal.
+The <b>EqualSid</b> function tests two <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) values for equality. Two SIDs must match exactly to be considered equal.
 
 ## -parameters
 
 ### -param pSid1 [in]
 
 A pointer to the first 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to compare. This structure is assumed to be valid.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to compare. This structure is assumed to be valid.
 
 ### -param pSid2 [in]
 
-A pointer to the second <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to compare. This structure is assumed to be valid.
+A pointer to the second <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to compare. This structure is assumed to be valid.
 
 ## -returns
 
 If the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures are equal, the return value is nonzero.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures are equal, the return value is nonzero.
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures are not equal, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures are not equal, the return value is zero. To get extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If either <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure is not valid, the return value is undefined.
+If either <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure is not valid, the return value is undefined.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid">EqualPrefixSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid">EqualPrefixSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid">IsValidSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid">IsValidSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>

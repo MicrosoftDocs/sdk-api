@@ -86,5 +86,4 @@ Regardless of the Player version, there is no callback mechanism that the backgr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>
-
+<a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>

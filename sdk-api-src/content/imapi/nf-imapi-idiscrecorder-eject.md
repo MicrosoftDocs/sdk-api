@@ -64,5 +64,4 @@ Not all recorders support calls to eject their media. However, this method attem
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>

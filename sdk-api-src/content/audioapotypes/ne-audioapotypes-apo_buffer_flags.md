@@ -50,22 +50,22 @@ api_name:
 
 ## -description
 
-Defines the buffer validation flags for the <a href="https://docs.microsoft.com/windows/desktop/api/audioapotypes/ns-audioapotypes-apo_connection_property">APO_CONNECTION_PROPERTY</a> structure associated with each APO connection.
+Defines the buffer validation flags for the <a href="/windows/desktop/api/audioapotypes/ns-audioapotypes-apo_connection_property">APO_CONNECTION_PROPERTY</a> structure associated with each APO connection.
 
 ## -enum-fields
 
 ### -field BUFFER_INVALID
 
 There is no valid data in  the connection
-    buffer. The buffer pointer is valid and the buffer is capable of holding the amount of valid audio data specified in the <a href="https://docs.microsoft.com/windows/desktop/api/audioapotypes/ns-audioapotypes-apo_connection_property">APO_CONNECTION_PROPERTY</a> structure.
-    While processing audio data, the audio engine marks every connection as BUFFER_INVALID before calling <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-getoutputdatapointer">IAudioOutputEndpoint::GetOutputDataPointer</a> or
-    <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-getinputdatapointer">IAudioInputEndpointRT::GetInputDataPointer</a>.
+    buffer. The buffer pointer is valid and the buffer is capable of holding the amount of valid audio data specified in the <a href="/windows/desktop/api/audioapotypes/ns-audioapotypes-apo_connection_property">APO_CONNECTION_PROPERTY</a> structure.
+    While processing audio data, the audio engine marks every connection as BUFFER_INVALID before calling <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-getoutputdatapointer">IAudioOutputEndpoint::GetOutputDataPointer</a> or
+    <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-getinputdatapointer">IAudioInputEndpointRT::GetInputDataPointer</a>.
 
 ### -field BUFFER_VALID
 
 The connection buffer contains valid data. This is the operational state of the connection buffer. The APO sets this flag after it
     starts writing valid data into the buffer.
-Capture endpoints should set this flag in the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-getinputdatapointer">GetInputDataPointer</a> method upon successful completion of the call.
+Capture endpoints should set this flag in the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-getinputdatapointer">GetInputDataPointer</a> method upon successful completion of the call.
 
 ### -field BUFFER_SILENT
 
@@ -75,4 +75,3 @@ The connection buffer must be treated as if it contains silence.
 ## -remarks
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.
-

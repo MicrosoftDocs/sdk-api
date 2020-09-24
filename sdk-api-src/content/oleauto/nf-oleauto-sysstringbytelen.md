@@ -64,9 +64,8 @@ The number of bytes in <i>bstr</i>, not including the terminating null character
 
 ## -remarks
 
-The returned value may be different from <b>strlen</b>(bstr) if the BSTR contains embedded null characters. This function always returns the number of bytes specified in the len parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringbytelen">SysAllocStringByteLen</a> function used to allocate the BSTR.
+The returned value may be different from <b>strlen</b>(bstr) if the BSTR contains embedded null characters. This function always returns the number of bytes specified in the len parameter of the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringbytelen">SysAllocStringByteLen</a> function used to allocate the BSTR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/string-manipulation-functions">String Manipulation Functions</a>
-
+<a href="/previous-versions/windows/desktop/automat/string-manipulation-functions">String Manipulation Functions</a>

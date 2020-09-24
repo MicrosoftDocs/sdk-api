@@ -56,7 +56,7 @@ The <b>FilterClose</b> function closes an open minifilter handle.
 
 ### -param hFilter [in]
 
-Minifilter handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>.
+Minifilter handle returned by a previous call to <a href="/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>.
 
 ## -returns
 
@@ -66,27 +66,26 @@ Minifilter handle returned by a previous call to <a href="https://docs.microsoft
 
 After <b>FilterClose</b> is called, the minifilter handle that the <i>hFilter</i> parameter specifies is no longer valid and cannot safely be used. 
 
-Use <b>FilterClose</b> to close open minifilter handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>. Use <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindclose">FilterFindClose</a> to close handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>. 
+Use <b>FilterClose</b> to close open minifilter handles returned by calls to <a href="/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>. Use <a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindclose">FilterFindClose</a> to close handles returned by calls to <a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>. 
 
-To close a connection port handle that was opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>, use <a href="https://msdn.microsoft.com/library/ms724211.aspx">CloseHandle</a>.
+To close a connection port handle that was opened by calling <a href="/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>, use <a href="/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms724211.aspx">CloseHandle</a>
+<a href="/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindclose">FilterFindClose</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindclose">FilterFindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
-
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>

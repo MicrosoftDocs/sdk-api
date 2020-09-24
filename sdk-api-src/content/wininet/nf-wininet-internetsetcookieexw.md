@@ -54,7 +54,7 @@ api_name:
 
 The <b>InternetSetCookieEx</b> function 
 	      creates a cookie with a specified name that is associated with a specified URL. This function differs from 
-	      the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a> function by being able 
+	      the <a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a> function by being able 
 	      to create third-party cookies.
 
 ## -parameters
@@ -142,11 +142,11 @@ Indicates that the cookie being set is associated with an untrusted site.
 ## -returns
 
 Returns a member of the <a href="/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration if successful,  or  <b>FALSE</b> if the function fails. On failure, if a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NOT_ENOUGH_MEMORY,  insufficient system memory was available.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NOT_ENOUGH_MEMORY,  insufficient system memory was available.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -157,25 +157,24 @@ Returns a member of the <a href="/windows/win32/api/wininet/ne-wininet-internet_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
+<a href="/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetcookiea">InternetGetCookie</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetgetcookiea">InternetGetCookie</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetcookieexa">InternetGetCookieEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetgetcookieexa">InternetGetCookieEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/managing-cookies">Managing Cookies</a>
+<a href="/windows/desktop/WinInet/managing-cookies">Managing Cookies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

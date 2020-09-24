@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-Calls to <b>LastSearchSuccessDate</b> by public users do not update this property. Only the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">AutomaticUpdates</a> object will update this property.
+Calls to <b>LastSearchSuccessDate</b> by public users do not update this property. Only the <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">AutomaticUpdates</a> object will update this property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatesresults">IAutomaticUpdatesResults</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatesresults">IAutomaticUpdatesResults</a>

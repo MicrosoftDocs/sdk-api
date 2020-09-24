@@ -57,9 +57,9 @@ Sets the current vertex stream declaration.
 
 ### -param FVF [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-DWORD containing the fixed function vertex type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dfvf">D3DFVF</a>.
+DWORD containing the fixed function vertex type. For more information, see <a href="/windows/desktop/direct3d9/d3dfvf">D3DFVF</a>.
 
 ## -returns
 
@@ -94,7 +94,7 @@ const DWORD VertexFVF = (D3DFVF_XYZ | D3DFVF_DIFFUSE |
 
 </li>
 <li>
-Create a vertex buffer with enough room for four vertices using <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">IDirect3DDevice9::CreateVertexBuffer</a>.
+Create a vertex buffer with enough room for four vertices using <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">IDirect3DDevice9::CreateVertexBuffer</a>.
     
 
 
@@ -189,7 +189,7 @@ const DWORD VertexFVF = ( D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_TEX1 );
 
 </li>
 <li>
-Create a vertex buffer with enough room for four vertices using <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">IDirect3DDevice9::CreateVertexBuffer</a> (similar to the example above).
+Create a vertex buffer with enough room for four vertices using <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">IDirect3DDevice9::CreateVertexBuffer</a> (similar to the example above).
 
 </li>
 <li>
@@ -232,9 +232,8 @@ pBigSquareVB->Unlock();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getfvf">IDirect3DDevice9::GetFVF</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getfvf">IDirect3DDevice9::GetFVF</a>

@@ -57,11 +57,10 @@ Returns the type of the resource.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a></b>
 
-Returns a member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a> enumerated type, identifying the type of the resource.
+Returns a member of the <a href="/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a> enumerated type, identifying the type of the resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>

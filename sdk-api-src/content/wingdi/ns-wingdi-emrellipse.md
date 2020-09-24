@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRELLIPSE</b> and <b>EMRRECTANGLE</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rectangle">Rectangle</a> enhanced metafile records.
+The <b>EMRELLIPSE</b> and <b>EMRRECTANGLE</b> structures contain members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-rectangle">Rectangle</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -68,17 +68,16 @@ Bounding rectangle in logical units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rectangle">Rectangle</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rectangle">Rectangle</a>

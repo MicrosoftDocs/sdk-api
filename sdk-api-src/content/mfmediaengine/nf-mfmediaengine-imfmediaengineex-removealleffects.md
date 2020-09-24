@@ -60,9 +60,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
- Call this method to remove all of the effects that were added with the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-insertaudioeffect">InsertAudioEffect</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-insertvideoeffect">InsertVideoEffect</a> methods.
+ Call this method to remove all of the effects that were added with the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-insertaudioeffect">InsertAudioEffect</a> and <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-insertvideoeffect">InsertVideoEffect</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>

@@ -62,17 +62,17 @@ Deprecated. Assigns a new path to a system folder identified by its CSIDL.
 
 Type: <b>int</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder whose path is to be set. Only physical folders are valid. If a virtual folder is specified, this function fails.
+A <a href="/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder whose path is to be set. Only physical folders are valid. If a virtual folder is specified, this function fails.
 
-Add the <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_FLAG_DONT_UNEXPAND</a> value to the CSIDL to ensure that the string is written to the registry exactly as provided. If the <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_FLAG_DONT_UNEXPAND</a> flag is not included, portions of the path may be replaced by environment strings, such as %USERPROFILE%.
+Add the <a href="/windows/desktop/shell/csidl">CSIDL_FLAG_DONT_UNEXPAND</a> value to the CSIDL to ensure that the string is written to the registry exactly as provided. If the <a href="/windows/desktop/shell/csidl">CSIDL_FLAG_DONT_UNEXPAND</a> flag is not included, portions of the path may be replaced by environment strings, such as %USERPROFILE%.
 
 ### -param hToken [in]
 
 Type: <b>HANDLE</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">access token</a> that can be used to represent a particular user. This parameter is usually set to <b>NULL</b>, in which case the function tries to access the current user's instance of the folder. However, you may need to assign a value to <i>hToken</i> for those folders that can have multiple users but are treated as belonging to a single user. The most commonly used folder of this type is <b>Documents</b>.
+An <a href="/windows/desktop/SecAuthZ/access-tokens">access token</a> that can be used to represent a particular user. This parameter is usually set to <b>NULL</b>, in which case the function tries to access the current user's instance of the folder. However, you may need to assign a value to <i>hToken</i> for those folders that can have multiple users but are treated as belonging to a single user. The most commonly used folder of this type is <b>Documents</b>.
 
-The calling application is responsible for correct impersonation when <i>hToken</i> is non-null. It must have appropriate security privileges for the particular user, including TOKEN_QUERY and TOKEN_IMPERSONATE, and the user's registry hive must be currently mounted. See <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> for further discussion of access control issues.
+The calling application is responsible for correct impersonation when <i>hToken</i> is non-null. It must have appropriate security privileges for the particular user, including TOKEN_QUERY and TOKEN_IMPERSONATE, and the user's registry hive must be currently mounted. See <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a> for further discussion of access control issues.
 
 ### -param dwFlags [in]
 
@@ -132,9 +132,9 @@ Several error conditions cause the return of this value, including the following
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  As of Windows Vista, this function is merely a wrapper for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a>. The CSIDL value is translated to its associated <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> and <b>SHSetKnownFolderPath</b> is called. New applications should use the known folder system rather than the older CSIDL system, which is supported only for backward compatibility.</div>
+<div class="alert"><b>Note</b>  As of Windows Vista, this function is merely a wrapper for <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a>. The CSIDL value is translated to its associated <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> and <b>SHSetKnownFolderPath</b> is called. New applications should use the known folder system rather than the older CSIDL system, which is supported only for backward compatibility.</div>
 <div> </div>
-<b>SHSetFolderPath</b> is not exported by name from Shell32.dll. To use the function, you must call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> with ordinal 231 for <b>SHSetFolderPathA</b> (for ANSI strings) or ordinal 232 for <b>SHSetFolderPathW</b> (for Unicode strings) to obtain a function pointer.
+<b>SHSetFolderPath</b> is not exported by name from Shell32.dll. To use the function, you must call <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> with ordinal 231 for <b>SHSetFolderPathA</b> (for ANSI strings) or ordinal 232 for <b>SHSetFolderPathW</b> (for Unicode strings) to obtain a function pointer.
 
 It is recommended that the paths be expressed as Unicode strings because folder names might contain Unicode characters not expressible in ANSI.
 
@@ -147,5 +147,4 @@ It is recommended that the paths be expressed as Unicode strings because folder 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath">IKnownFolder::SetPath</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath">IKnownFolder::SetPath</a>

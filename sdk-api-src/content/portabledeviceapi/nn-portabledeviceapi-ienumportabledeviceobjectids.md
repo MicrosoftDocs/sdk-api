@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <b>IEnumPortableDeviceObjectIDs</b> interface enumerates the objects on a portable device. Get this interface initially by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-enumobjects">IPortableDeviceContent::EnumObjects</a> on a device.
+The <b>IEnumPortableDeviceObjectIDs</b> interface enumerates the objects on a portable device. Get this interface initially by calling <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-enumobjects">IPortableDeviceContent::EnumObjects</a> on a device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPortableDeviceObjectIDs</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPortableDeviceObjectIDs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPortableDeviceObjectIDs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPortableDeviceObjectIDs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IEnumPortableDeviceObjectIDs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-cancel">Cancel</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending operation on the interface.
@@ -79,7 +79,7 @@ Cancels a pending operation on the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-clone">Clone</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Duplicates the current <b>IEnumPortableDeviceObjectIDs</b> interface.
@@ -90,7 +90,7 @@ Duplicates the current <b>IEnumPortableDeviceObjectIDs</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-next">Next</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next one or more object IDs in the enumeration sequence.
@@ -99,7 +99,7 @@ Retrieves the next one or more object IDs in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-reset">Reset</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -108,7 +108,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-skip">Skip</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of objects in the enumeration sequence.
@@ -119,5 +119,4 @@ Skips a specified number of objects in the enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
-
+<a href="/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>

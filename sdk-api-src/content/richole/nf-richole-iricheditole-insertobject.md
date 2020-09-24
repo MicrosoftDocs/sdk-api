@@ -56,29 +56,28 @@ Inserts an object into a rich edit control.
 
 ### -param lpreobject
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a>*</b>
 
 The object information and interfaces. The rich edit control automatically increments the reference count for the interfaces if it holds onto them, so the caller can safely release the interfaces if they are not needed.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK on success, or a failure code otherwise. E_OUTOFMEMORY is returned if memory could not be allocated to insert the object.
 
 ## -remarks
 
-If the <b>cp</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a> structure is REO_CP_SELECTION, the selection is replaced with the specified object.
+If the <b>cp</b> member of the <a href="/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a> structure is REO_CP_SELECTION, the selection is replaced with the specified object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
+<a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a>
+<a href="/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a>
 
 
 
 <b>Reference</b>
-

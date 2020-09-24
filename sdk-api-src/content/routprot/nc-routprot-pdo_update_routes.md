@@ -101,21 +101,20 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 ## -remarks
 
 If the function returns NO_ERROR, the update operation started successfully on the interface. Check the routing protocol event queue for a completion event (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a>).
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374005(v=vs.85)">DoUpdateServices</a>
+<a href="/previous-versions/windows/desktop/legacy/aa374005(v=vs.85)">DoUpdateServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

@@ -58,7 +58,7 @@ The <b>MPEG1VIDEOINFO</b> structure describes an MPEG-1 video stream.
 
 ### -field hdr
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
+<a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
 
 ### -field dwStartTimeCode
 
@@ -74,5 +74,4 @@ Start of an array that contains the sequence header, including quantization matr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

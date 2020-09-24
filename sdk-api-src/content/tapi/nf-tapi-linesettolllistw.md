@@ -60,7 +60,7 @@ The
 ### -param hLineApp
 
 Application handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. If an application has not yet called the 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. If an application has not yet called the 
 <b>lineInitializeEx</b> function, it can set the <i>hLineApp</i> parameter to zero.
 
 ### -param dwDeviceID
@@ -74,7 +74,7 @@ Pointer to a <b>null</b>-terminated string containing the address from which the
 ### -param dwTollListOption
 
 Toll list operation to be performed. This parameter uses one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetolllistoption--constants">LINETOLLLISTOPTION_ Constants</a>.
+<a href="/windows/desktop/Tapi/linetolllistoption--constants">LINETOLLLISTOPTION_ Constants</a>.
 
 ## -returns
 
@@ -84,18 +84,17 @@ LINEERR_BADDEVICEID, LINEERR_NODRIVER, LINEERR_INVALAPPHANDLE, LINEERR_NOMEM, LI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
 
 ## -remarks
 
 > [!NOTE]
 > The tapi.h header defines lineSetTollList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

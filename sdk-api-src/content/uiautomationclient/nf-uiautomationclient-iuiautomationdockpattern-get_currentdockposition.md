@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdockpattern">IUIAutomationDockPattern</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdockpattern">IUIAutomationDockPattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdockpattern-setdockposition">IUIAutomationDockPattern::SetDockPosition</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdockpattern-setdockposition">IUIAutomationDockPattern::SetDockPosition</a>

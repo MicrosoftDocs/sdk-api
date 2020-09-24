@@ -57,7 +57,7 @@ Copies all of the attributes from this object into another attribute store.
 
 ### -param pDest [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store that receives the copy.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store that receives the copy.
 
 ## -returns
 
@@ -68,7 +68,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method deletes all of the attributes originally stored in <i>pDest</i>.
       
 
-<div class="alert"><b>Note</b>  <p class="note">When you call <b>CopyAllItems</b> on an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>, which inherits this method, the sample time, duration, and flags are not copied to the destination sample. You must copy these values to the new sample manually.
+<div class="alert"><b>Note</b>  <p class="note">When you call <b>CopyAllItems</b> on an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>, which inherits this method, the sample time, duration, and flags are not copied to the destination sample. You must copy these values to the new sample manually.
 
 </div>
 <div> </div>
@@ -107,9 +107,8 @@ HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>

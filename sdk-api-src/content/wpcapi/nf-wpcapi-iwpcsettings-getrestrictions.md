@@ -188,5 +188,4 @@ The method failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>
-
+<a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>

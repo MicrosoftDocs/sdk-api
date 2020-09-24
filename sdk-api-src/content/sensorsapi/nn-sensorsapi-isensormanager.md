@@ -79,5 +79,4 @@ if(hr == HRESULT_FROM_WIN32(ERROR_ACCESS_DISABLED_BY_POLICY))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>
-
+<a href="/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>

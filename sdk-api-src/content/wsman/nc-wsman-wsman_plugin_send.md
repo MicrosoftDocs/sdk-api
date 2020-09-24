@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Defines the send callback for a plug-in. This function is called for each object that is received from a client.  Each object received causes the callback to be called once.
-After the data is processed, the Windows Remote Management (WinRM) plug-in calls <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> to acknowledge receipt and to allow the next object to be delivered.
+After the data is processed, the Windows Remote Management (WinRM) plug-in calls <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> to acknowledge receipt and to allow the next object to be delivered.
 
 The DLL entry point name must be <b>WSManPluginSend</b>.
 
@@ -59,7 +59,7 @@ The DLL entry point name must be <b>WSManPluginSend</b>.
 
 ### -param *requestDetails
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 ### -param flags
 
@@ -80,5 +80,4 @@ Specifies the stream that is associated with the inbound object.
 
 ### -param *inboundData
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that contains data being sent to the specified stream. It is in the form of binary data.
-
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that contains data being sent to the specified stream. It is in the form of binary data.

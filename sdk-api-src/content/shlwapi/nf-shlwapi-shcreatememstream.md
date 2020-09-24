@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Creates a memory stream using a similar process to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a>.
+Creates a memory stream using a similar process to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a>.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ The number of bytes in the buffer pointed to by <i>pInit</i>. If <i>pInit</i> is
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 On success, returns a pointer to the created memory stream. Returns <b>NULL</b> if the stream object could not be allocated.
 
@@ -80,16 +80,15 @@ On success, returns a pointer to the created memory stream. Returns <b>NULL</b> 
 
 Prior to Windows Vista, this function was not included in the public Shlwapi.h file, nor was it exported by name from Shlwapi.dll. To use it on earlier systems, you must call it directly from the Shlwapi.dll file as ordinal 12.
 
-This function creates a memory stream. This is an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that stores its contents in memory. <b>SHCreateMemStream</b> differs from <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> in the following ways.
+This function creates a memory stream. This is an implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that stores its contents in memory. <b>SHCreateMemStream</b> differs from <a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> in the following ways.
 
                 
 
 <ul>
-<li>Thread safety. The stream created by <b>SHCreateMemStream</b> is thread-safe as of Windows 8. On earlier systems, the stream is not thread-safe. The stream created by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> is thread-safe.</li>
-<li>Initial contents. <b>SHCreateMemStream</b> accepts the initial contents in the form of a buffer. <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> accepts the initial contents in the form of an HGLOBAL.</li>
-<li>Access to contents. <b>SHCreateMemStream</b> does not allow direct access to the stream contents. <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> permits access through <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-gethglobalfromstream">GetHGlobalFromStream</a>.</li>
+<li>Thread safety. The stream created by <b>SHCreateMemStream</b> is thread-safe as of Windows 8. On earlier systems, the stream is not thread-safe. The stream created by <a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> is thread-safe.</li>
+<li>Initial contents. <b>SHCreateMemStream</b> accepts the initial contents in the form of a buffer. <a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> accepts the initial contents in the form of an HGLOBAL.</li>
+<li>Access to contents. <b>SHCreateMemStream</b> does not allow direct access to the stream contents. <a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> permits access through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-gethglobalfromstream">GetHGlobalFromStream</a>.</li>
 <li>Failure information. If <b>SHCreateMemStream</b> returns <b>NULL</b>, it was unable to allocate the neccessary memory. Callers should assume the cause is E_OUTOFMEMORY.</li>
-<li>Support for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-clone">IStream::Clone</a>. Prior to Windows 8, the stream created by <b>SHCreateMemStream</b> does not support <b>IStream::Clone</b>. The stream created by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> does. As of Windows 8, the stream created by <b>SHCreateMemStream</b> does support <b>IStream::Clone</b>.</li>
-<li>The stream returned by <b>SHCreateMemStream</b> returns S_FALSE from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">IStream::Read</a> if you attempt to read past the end of the buffer. The stream returned by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> returns S_OK and sets *pcbRead to 0 if you attempt to read past the end of the buffer.</li>
+<li>Support for <a href="/windows/desktop/api/objidl/nf-objidl-istream-clone">IStream::Clone</a>. Prior to Windows 8, the stream created by <b>SHCreateMemStream</b> does not support <b>IStream::Clone</b>. The stream created by <a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> does. As of Windows 8, the stream created by <b>SHCreateMemStream</b> does support <b>IStream::Clone</b>.</li>
+<li>The stream returned by <b>SHCreateMemStream</b> returns S_FALSE from <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">IStream::Read</a> if you attempt to read past the end of the buffer. The stream returned by <a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> returns S_OK and sets *pcbRead to 0 if you attempt to read past the end of the buffer.</li>
 </ul>
-

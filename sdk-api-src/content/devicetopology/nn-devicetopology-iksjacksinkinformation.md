@@ -52,13 +52,13 @@ api_name:
 
 The <b>IKsJackSinkInformation</b> interface provides access to jack sink information if the jack is supported by the hardware.
 
-The client obtains a reference to the <b>IKsJackSinkInformation</b> interface by activating it on the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface of a bridge pin connector on a KS filter device topology object. To activate the object, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter refiid set to REFIID <b>IID_IKsJackSinkInformation</b>. 
+The client obtains a reference to the <b>IKsJackSinkInformation</b> interface by activating it on the <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface of a bridge pin connector on a KS filter device topology object. To activate the object, call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter refiid set to REFIID <b>IID_IKsJackSinkInformation</b>. 
 
 Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware description parameters in connectors (referred to as KS pins). The <b>IKsJackSinkInformation</b> interface provides convenient access to the <b>KSPROPERTY_JACK_SINK_INFO</b> property of a connector to an endpoint device. For more information about KS properties and KS pins, see the Windows DDK documentation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsJackSinkInformation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsJackSinkInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsJackSinkInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsJackSinkInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IKsJackSinkInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation">GetJackSinkInformation</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation">GetJackSinkInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sink information for the specified jack. 
@@ -84,13 +84,12 @@ Retrieves the sink information for the specified jack.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
+<a href="/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription</a>

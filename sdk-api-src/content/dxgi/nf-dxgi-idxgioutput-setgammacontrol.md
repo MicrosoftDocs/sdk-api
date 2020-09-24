@@ -57,15 +57,15 @@ Sets the gamma controls.
 
 ### -param pArray [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173061(v=vs.85)">DXGI_GAMMA_CONTROL</a>*</b>
+Type: <b>const <a href="/previous-versions/windows/desktop/legacy/bb173061(v=vs.85)">DXGI_GAMMA_CONTROL</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173061(v=vs.85)">DXGI_GAMMA_CONTROL</a> structure that describes the gamma curve to set.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/bb173061(v=vs.85)">DXGI_GAMMA_CONTROL</a> structure that describes the gamma curve to set.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> values.
+Returns one of the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> values.
 
 ## -remarks
 
@@ -73,9 +73,8 @@ Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3dd
 <div> </div>
 
 
-For info about using gamma correction, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/using-gamma-correction">Using gamma correction</a>.
+For info about using gamma correction, see <a href="/windows/desktop/direct3ddxgi/using-gamma-correction">Using gamma correction</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
-
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>

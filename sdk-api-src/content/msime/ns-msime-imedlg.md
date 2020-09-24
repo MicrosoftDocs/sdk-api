@@ -74,9 +74,8 @@ The initial tab ID, 0 or 1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifecommon-invokedicttooldialog">IFECommon::InvokeDictToolDialog</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifecommon-invokedicttooldialog">IFECommon::InvokeDictToolDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifecommon-invokewordregdialog">IFECommon::InvokeWordRegDialog</a>
-
+<a href="/windows/desktop/api/msime/nf-msime-ifecommon-invokewordregdialog">IFECommon::InvokeWordRegDialog</a>

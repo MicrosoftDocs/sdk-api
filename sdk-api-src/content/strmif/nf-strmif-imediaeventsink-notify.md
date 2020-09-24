@@ -73,13 +73,12 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-The event is queued but not delivered to the application on this thread. For a list of notification codes and event parameter values, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/event-notification-codes">Event Notification Codes</a>.
+The event is queued but not delivered to the application on this thread. For a list of notification codes and event parameter values, see <a href="/windows/desktop/DirectShow/event-notification-codes">Event Notification Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaeventsink">IMediaEventSink Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaeventsink">IMediaEventSink Interface</a>

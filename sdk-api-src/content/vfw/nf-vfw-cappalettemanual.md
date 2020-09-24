@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capPaletteManual</b> macro requests that the capture driver manually sample video frames and create a new palette. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-pal-manualcreate">WM_CAP_PAL_MANUALCREATE</a> message.
+The <b>capPaletteManual</b> macro requests that the capture driver manually sample video frames and create a new palette. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-pal-manualcreate">WM_CAP_PAL_MANUALCREATE</a> message.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ Number of colors in the palette. The maximum value for this parameter is 256. Th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

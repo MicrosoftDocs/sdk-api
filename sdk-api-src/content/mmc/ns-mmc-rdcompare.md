@@ -57,7 +57,7 @@ The
 
 The 
 <b>RDCOMPARE</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> method for specifying information used for sorting scope and result items in the result pane of a primary snap-in.
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> method for specifying information used for sorting scope and result items in the result pane of a primary snap-in.
 
 ## -struct-fields
 
@@ -76,7 +76,7 @@ Column being sorted.
 ### -field lUserParam
 
 A value that specifies user-provided information that is passed into 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>. MMC does not interpret this parameter.
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>. MMC does not interpret this parameter.
 
 ### -field prdch1
 
@@ -91,14 +91,13 @@ A pointer to an
 ## -remarks
 
 If the snap-in implements the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface, MMC MMC allocates the parameters to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> snap-in's method and then calls the method. MMC releases the parameters after the method returns.
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface, MMC MMC allocates the parameters to the 
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> snap-in's method and then calls the method. MMC releases the parameters after the method returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a>
 
 
 
 <a href="/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a>
-

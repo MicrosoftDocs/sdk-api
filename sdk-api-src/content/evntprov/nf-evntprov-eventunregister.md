@@ -64,7 +64,7 @@ Removes the provider's registration. You must call this function before your pro
 ### -param RegHandle [in]
 
 Registration handle returned by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
 
 ## -returns
 
@@ -73,11 +73,10 @@ Returns ERROR_SUCCESS if successful.
 ## -remarks
 
 For private sessions, you must stop the trace (call the 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function with the 
+    <a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function with the 
     <i>ControlCode</i> parameter set to EVENT_TRACE_CONTROL_STOP) before calling this 
     function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>
-
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>

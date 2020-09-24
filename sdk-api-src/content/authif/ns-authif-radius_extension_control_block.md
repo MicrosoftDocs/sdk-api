@@ -70,30 +70,30 @@ Specifies the version of the structure.
 ### -field repPoint
 
 Specifies a value of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_extension_point">RADIUS_EXTENSION_POINT</a> that indicates at what point in the request process 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> was called.
+<a href="/windows/desktop/api/authif/ne-authif-radius_extension_point">RADIUS_EXTENSION_POINT</a> that indicates at what point in the request process 
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> was called.
 
 ### -field rcRequestType
 
 Specifies a value of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> that specifies the type of RADIUS request received by the Internet Authentication Service server.
+<a href="/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> that specifies the type of RADIUS request received by the Internet Authentication Service server.
 
 ### -field rcResponseType
 
 Specifies a value of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> that indicates the disposition of the RADIUS request.
+<a href="/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> that indicates the disposition of the RADIUS request.
 
 ### -field GetRequest
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> function provided by NPS. NPS sets the value of this member.
+Pointer to the <a href="/previous-versions/ms688263(v=vs.85)">GetRequest</a> function provided by NPS. NPS sets the value of this member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> function returns the attributes received in the RADIUS request process and any internal attributes describing the request state.
+<a href="/previous-versions/ms688263(v=vs.85)">GetRequest</a> function returns the attributes received in the RADIUS request process and any internal attributes describing the request state.
 
 The Extension DLL can modify the attributes in the RADIUS request. For example, if NPS is acting as a RADIUS proxy, an Extension DLL could filter which attributes are forwarded to the remote RADIUS server.
 
 To modify the attributes, the Extension DLL uses the functions provided as members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute_array">RADIUS_ATTRIBUTE_ARRAY</a> structure.
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute_array">RADIUS_ATTRIBUTE_ARRAY</a> structure.
 
 
 
@@ -101,21 +101,21 @@ To modify the attributes, the Extension DLL uses the functions provided as membe
 
 Pointer to a 
 <b>RADIUS_EXTENSION_CONTROL_BLOCK</b> structure. NPS passes the Extension DLL a pointer to this structure when it calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> structure.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> structure.
 
 ### -field GetResponse
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> function provided by NPS. NPS sets the value of this member.
+Pointer to the <a href="/previous-versions/ms688270(v=vs.85)">GetResponse</a> function provided by NPS. NPS sets the value of this member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> function returns the attributes received in the RADIUS request process and any internal attributes describing the request state.
+<a href="/previous-versions/ms688263(v=vs.85)">GetRequest</a> function returns the attributes received in the RADIUS request process and any internal attributes describing the request state.
 
 An Extension DLL can use 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> to retrieve and modify the attributes for any valid response type regardless of the request's current disposition. For example, an Extension DLL could 
-<a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">set the response type</a> to rcAccessAccept, but still add attributes to those returned in the case of an rcAccessReject. The response specified by the Extension DLL (rcAccessAccept in this example) could be overridden during further processing.
+<a href="/previous-versions/ms688270(v=vs.85)">GetResponse</a> to retrieve and modify the attributes for any valid response type regardless of the request's current disposition. For example, an Extension DLL could 
+<a href="/previous-versions/ms688462(v=vs.85)">set the response type</a> to rcAccessAccept, but still add attributes to those returned in the case of an rcAccessReject. The response specified by the Extension DLL (rcAccessAccept in this example) could be overridden during further processing.
 
 To modify the attributes, the Extension DLL uses the functions provided as members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute_array">RADIUS_ATTRIBUTE_ARRAY</a> structure.
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute_array">RADIUS_ATTRIBUTE_ARRAY</a> structure.
 
 
 
@@ -123,21 +123,21 @@ To modify the attributes, the Extension DLL uses the functions provided as membe
 
 Pointer to a 
 <b>RADIUS_EXTENSION_CONTROL_BLOCK</b> structure. NPS passes the Extension DLL a pointer to this structure when it calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> function.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> function.
 
 
 
 #### rcResponseType
 
 Specifies the response type. This parameter must be one of the values enumerated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> enumeration type. Otherwise, the function fails, returning <b>NULL</b>.
+<a href="/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> enumeration type. Otherwise, the function fails, returning <b>NULL</b>.
 
 ### -field SetResponseType
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">SetResponseType</a> function provided by NPS. NPS sets the value of this member.
+Pointer to the <a href="/previous-versions/ms688462(v=vs.85)">SetResponseType</a> function provided by NPS. NPS sets the value of this member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">SetResponseType</a> function sets the final disposition of the request.
+<a href="/previous-versions/ms688462(v=vs.85)">SetResponseType</a> function sets the final disposition of the request.
 
 Note that the disposition set by the Extension DLL can be overridden during further processing. For example, the Extension DLL may set the response type to <b>rcAccessAccept</b>, but during further processing, the response can be changed to <b>rcAccessReject</b>.
 
@@ -147,35 +147,34 @@ Note that the disposition set by the Extension DLL can be overridden during furt
 
 Pointer to a 
 <b>RADIUS_EXTENSION_CONTROL_BLOCK</b> structure. NPS passes the Extension DLL a pointer to this structure when it calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>function.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>function.
 
 
 
 #### rcResponseType
 
 Specifies the response type. This parameter must be one of the values contained within the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> enumerated type and is related to the <b>rcRequestType</b> member of the <b>RADIUS_EXTENSION_CONTROL_BLOCK</b> structure. If <b>rcRequestType</b> equals <b>rcAccessRequest</b>,  this value may be <b>rcAccessAccept</b>, <b>rcAccessReject</b>, <b>rcAccessChallenge</b>, or <b>rcDiscard</b>. If <b>rcRequestType</b> equals <b>rcAccountingRequest</b>, this value can be <b>rcAccountingResponse</b> or <b>rcDiscard</b>. Otherwise, the function fails, returning <b>ERROR_INVALID_PARAMETER</b>.
+<a href="/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> enumerated type and is related to the <b>rcRequestType</b> member of the <b>RADIUS_EXTENSION_CONTROL_BLOCK</b> structure. If <b>rcRequestType</b> equals <b>rcAccessRequest</b>,  this value may be <b>rcAccessAccept</b>, <b>rcAccessReject</b>, <b>rcAccessChallenge</b>, or <b>rcDiscard</b>. If <b>rcRequestType</b> equals <b>rcAccountingRequest</b>, this value can be <b>rcAccountingResponse</b> or <b>rcDiscard</b>. Otherwise, the function fails, returning <b>ERROR_INVALID_PARAMETER</b>.
 
 ## -remarks
 
 The Extension DLL must not modify this structure. Changes to the array of attributes should be made by calling the functions provided as members of this structure.
 
 NPS passes this structure to the Extension DLL when it calls the Extension DLL's implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a>
+<a href="/previous-versions/ms688263(v=vs.85)">GetRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a>
+<a href="/previous-versions/ms688270(v=vs.85)">GetResponse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute_array">RADIUS_ATTRIBUTE_ARRAY</a>
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute_array">RADIUS_ATTRIBUTE_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">SetResponseType</a>
-
+<a href="/previous-versions/ms688462(v=vs.85)">SetResponseType</a>

@@ -54,7 +54,7 @@ Atomically copies a primary data element of type UINT from one resource to anoth
 
 These 'dependent resourses' are so-named because they depend upon the primary data element to locate them, typically the key element is an address, index, or other handle that refers to one or more the dependent resources indirectly. 
 
-This function supports a primary data element of type UINT (32bit). A different version of this function, <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64">AtomicCopyBufferUINT64</a>, supports a primary data element of type UINT64 (64bit).
+This function supports a primary data element of type UINT (32bit). A different version of this function, <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64">AtomicCopyBufferUINT64</a>, supports a primary data element of type UINT64 (64bit).
 
 ## -parameters
 
@@ -62,7 +62,7 @@ This function supports a primary data element of type UINT (32bit). A different 
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 The resource that the UINT primary data element is copied into.
 
@@ -76,7 +76,7 @@ An offset into the destination resource buffer that specifies where the primary 
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 The resource that the UINT primary data element is copied from. This data is typically an address, index, or other handle that shader code can use to locate the most-recent version of latency-sensitive information.
 
@@ -96,15 +96,15 @@ The number of dependent resources.
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(Dependencies)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(Dependencies)</code>
 
 An array of resources that contain the dependent elements of the data payload.
 
 ### -param pDependentSubresourceRanges [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_range_uint64">D3D12_SUBRESOURCE_RANGE_UINT64</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_range_uint64">D3D12_SUBRESOURCE_RANGE_UINT64</a>*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(Dependencies)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(Dependencies)</code>
 
 An array of subresource ranges that specify the dependent elements of the data payload. These elements are completely updated before the primary data element is itself atomically copied. This ensures that the entire operation is logically atomic; that is, the primary data element never refers to an incomplete data payload.
 
@@ -114,5 +114,4 @@ This method is typically used to update resources for which normal rendering pip
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>

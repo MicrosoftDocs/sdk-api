@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains parameters to create a picture object through the <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> function.
+Contains parameters to create a picture object through the <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> function.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ The size of the structure, in bytes.
 
 ### -field picType
 
-Type of picture described by this structure, which can be any value from the <a href="https://docs.microsoft.com/windows/desktop/com/pictype-constants">PICTYPE</a> enumeration. This selects the arm of the union that corresponds to one of the picture type structures below.
+Type of picture described by this structure, which can be any value from the <a href="/windows/desktop/com/pictype-constants">PICTYPE</a> enumeration. This selects the arm of the union that corresponds to one of the picture type structures below.
 
 ### -field bmp
 
@@ -112,9 +112,8 @@ The <b>HENHMETAFILE</b> handle identifying the enhanced metafile assigned to the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>
+<a href="/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/pictype-constants">PICTYPE</a>
-
+<a href="/windows/desktop/com/pictype-constants">PICTYPE</a>

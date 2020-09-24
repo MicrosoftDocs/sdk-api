@@ -72,11 +72,11 @@ The
 ### -param strQueryLanguage [in]
 
 Valid <b>BSTR</b> that contains one of the query languages supported by Windows Management. This cannot be <b>NULL</b>. Currently, only the 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">WMI Query Language</a> (WQL) is supported.
+<a href="/windows/desktop/WmiSdk/querying-with-wql">WMI Query Language</a> (WQL) is supported.
 
 ### -param strQuery [in]
 
-Valid <b>BSTR</b> that contains the text of the event-related query. This cannot be <b>NULL</b>. For more information on building WMI query strings, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a> and the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a> reference.
+Valid <b>BSTR</b> that contains the text of the event-related query. This cannot be <b>NULL</b>. For more information on building WMI query strings, see <a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a> and the <a href="/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a> reference.
 
 ### -param lFlags [in]
 
@@ -87,33 +87,33 @@ This parameter must be set to both <b>WBEM_FLAG_RETURN_IMMEDIATELY</b> and <b>WB
 #### WBEM_FLAG_FORWARD_ONLY
 
 This flag causes a forward-only enumerator to be returned. Forward-only enumerators are generally much faster and use less memory than conventional enumerators but do not allow calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-clone">Clone</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-clone">Clone</a> or 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a>.
 
 
 
 #### WBEM_FLAG_RETURN_IMMEDIATELY
 
 The user must specify this flag or the call fails. This is because events are received continuously, which means the user must poll the returned enumerator. Blocking this call indefinitely while waiting for a possible event  blocks the thread for an indefinite amount of time. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that can be used by the provider that provides the requested events. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that can be used by the provider that provides the requested events. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 ### -param ppEnum [out]
 
 If no error occurs, this parameter receives the enumerator that allows the caller to retrieve the instances in the result set of the query. The caller periodically calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a> to see if any events are available. Notice that, in this usage, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a> does not move the enumerator back to the beginning of the event sequence; it has no effect. The parameter can continue to receive events until <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> is called on the returned enumerator.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a> to see if any events are available. Notice that, in this usage, 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a> does not move the enumerator back to the beginning of the event sequence; it has no effect. The parameter can continue to receive events until <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> is called on the returned enumerator.
 
 ## -returns
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
+On failure, you can obtain any available information from the COM function <a href="/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
 COM-specific error codes also can be returned if network problems cause you to lose the remote connection to Windows Management.
 
@@ -123,21 +123,20 @@ There are limits to the number of <b>AND</b> and <b>OR</b> keywords that can be 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationqueryasync">IWbemServices::ExecNotificationQueryAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationqueryasync">IWbemServices::ExecNotificationQueryAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
+<a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/receiving-events-for-the-duration-of-your-application">Receiving Events for the Duration of your Application</a>
+<a href="/windows/desktop/WmiSdk/receiving-events-for-the-duration-of-your-application">Receiving Events for the Duration of your Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
-
+<a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>

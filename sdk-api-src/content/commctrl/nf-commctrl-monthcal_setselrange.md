@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the selection for a month calendar control to a given date range. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setselrange">MCM_SETSELRANGE</a> message explicitly.
+Sets the selection for a month calendar control to a given date range. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-setselrange">MCM_SETSELRANGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
@@ -64,5 +64,4 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a two-element array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that contain date information representing the selection limits. The first selected date must be specified in <i>lprgSysTimeArray</i>[0], and the last selected date must be specified in <i>lprgSysTimeArray</i>[1]. The time members of these structures are ignored.
-
+Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that contain date information representing the selection limits. The first selected date must be specified in <i>lprgSysTimeArray</i>[0], and the last selected date must be specified in <i>lprgSysTimeArray</i>[1]. The time members of these structures are ignored.

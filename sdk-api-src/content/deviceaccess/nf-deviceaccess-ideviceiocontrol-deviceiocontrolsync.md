@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>DeviceIoControlSync</b> method sends a synchronous device input/output (I/O) control request to the device interface that the call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a> function specified.
+The <b>DeviceIoControlSync</b> method sends a synchronous device input/output (I/O) control request to the device interface that the call to the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a> function specified.
 
 ## -parameters
 
@@ -89,5 +89,4 @@ Because  this is a synchronous method, you must not use it on a thread that can'
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>
-
+<a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>

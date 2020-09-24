@@ -58,7 +58,7 @@ The
 ### -param pimm [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure that specifies the MFE to retrieve. The information to be returned is indicated by the <b>dwSource</b> and <b>dwGroup</b> members of the 
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure that specifies the MFE to retrieve. The information to be returned is indicated by the <b>dwSource</b> and <b>dwGroup</b> members of the 
 <b>MIB_IPMCAST_MFE</b> structure.
 
 ### -param pdwBufferSize [in, out]
@@ -78,7 +78,7 @@ On input, the client must supply a pointer to a buffer.
 
 
 On output, <i>pbBuffer</i> contains the specified MFE. The MFE is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure.
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure.
 
 ## -returns
 
@@ -128,13 +128,12 @@ The specified MFE was not found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfe">MgmGetFirstMfe</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfe">MgmGetFirstMfe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfe">MgmGetNextMfe</a>
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfe">MgmGetNextMfe</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>HeapVidMemAllocAligned</b> function allocates <a href="https://docs.microsoft.com/windows-hardware/drivers/">off_screen_memory</a> for a display driver by using the DirectDraw video memory heap manager.
+The <b>HeapVidMemAllocAligned</b> function allocates <a href="/windows-hardware/drivers/">off_screen_memory</a> for a display driver by using the DirectDraw video memory heap manager.
 
 ## -parameters
 
 ### -param lpVidMem [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure that represents the DirectDraw heap from which to allocate the surface.
+Pointer to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure that represents the DirectDraw heap from which to allocate the surface.
 
 ### -param dwWidth [in]
 
@@ -68,7 +68,7 @@ Is the height in scan lines of the requested surface.
 
 ### -param lpAlignment [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a> structure that describes the alignment restrictions for the surface.
+Pointer to a <a href="/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a> structure that describes the alignment restrictions for the surface.
 
 ### -param lpNewPitch [out]
 
@@ -80,21 +80,20 @@ Is the location in which the resulting pitch value is written. This information 
 
 ## -remarks
 
-The driver should use the array of VIDEOMEMORY structures its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function receives to determine the value of <i>lpVidMem</i> with which to call <b>HeapVidMemAllocAligned</b>. The driver receives this array in the <i>pvmList</i> parameter during the second call to <b>DrvGetDirectDrawInfo</b>. It is possible that <b>DrvGetDirectDrawInfo</b> might not be called when low memory conditions exist on the system. Consequently, the driver should always check to ensure that it has a non-NULL pointer in <i>pvmList</i>.
+The driver should use the array of VIDEOMEMORY structures its <a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function receives to determine the value of <i>lpVidMem</i> with which to call <b>HeapVidMemAllocAligned</b>. The driver receives this array in the <i>pvmList</i> parameter during the second call to <b>DrvGetDirectDrawInfo</b>. It is possible that <b>DrvGetDirectDrawInfo</b> might not be called when low memory conditions exist on the system. Consequently, the driver should always check to ensure that it has a non-NULL pointer in <i>pvmList</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a>
+<a href="/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/nf-dmemmgr-vidmemfree">VidMemFree</a>
-
+<a href="/windows/desktop/api/dmemmgr/nf-dmemmgr-vidmemfree">VidMemFree</a>

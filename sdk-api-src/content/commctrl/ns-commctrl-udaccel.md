@@ -60,15 +60,14 @@ Contains acceleration information for an up-down control.
 
 ### -field nSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Amount of elapsed time, in seconds, before the position change increment specified by 
 					<b>nInc</b> is used.
 
 ### -field nInc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Position change increment to use after the time specified by 
 					<b>nSec</b> elapses.
-

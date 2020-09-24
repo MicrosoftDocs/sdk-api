@@ -72,5 +72,4 @@ A network address.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>

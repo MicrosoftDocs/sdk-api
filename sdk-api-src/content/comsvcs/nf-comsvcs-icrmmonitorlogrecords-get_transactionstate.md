@@ -56,7 +56,7 @@ Retrieves the current state of the transaction.
 
 ### -param pVal [out]
 
-The current transaction state, represented by an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-crmtransactionstate">CrmTransactionState</a> enumeration value.
+The current transaction state, represented by an <a href="/windows/desktop/api/comsvcs/ne-comsvcs-crmtransactionstate">CrmTransactionState</a> enumeration value.
 
 ## -returns
 
@@ -93,5 +93,4 @@ A <b>NULL</b> pointer was provided as an argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>

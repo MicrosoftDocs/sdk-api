@@ -130,9 +130,8 @@ Specifies configuration of the full host name (fully qualified domain name) in U
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
+<a href="/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryconfig">DnsQueryConfig</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsqueryconfig">DnsQueryConfig</a>

@@ -57,7 +57,7 @@ The <b>IMessageView::SetIcon</b> method enables a snap-in to set the icon for th
 ### -param id [in]
 
 A value that specifies the type of icon for the result pane message. The value is taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-iconidentifier">IconIdentifier</a> enumeration.
+<a href="/windows/desktop/api/mmc/ne-mmc-iconidentifier">IconIdentifier</a> enumeration.
 
 ## -returns
 
@@ -65,9 +65,8 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-imessageview">IMessageView</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-imessageview">IMessageView</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>
-
+<a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>

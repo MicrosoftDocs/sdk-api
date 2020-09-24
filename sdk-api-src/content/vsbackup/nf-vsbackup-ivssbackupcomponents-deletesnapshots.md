@@ -140,7 +140,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -165,7 +165,7 @@ The specified shadow copy does not exist.
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -178,7 +178,7 @@ Expected provider error. The provider logged the error in the event log. For mor
 </td>
 <td width="60%">
 Unexpected provider error. The error code is logged in the error log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -191,25 +191,24 @@ Multiple shadow copies in a shadow copy set are deleted sequentially. If an erro
     individual deletions, 
     <b>DeleteSnapshots</b> will return
     immediately; no attempt will be made to delete any remaining shadow copies. The 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> of the undeleted shadow copy is 
+    <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> of the undeleted shadow copy is 
     returned in <i>pNondeletedSnapshotID</i>.
    
 
 The requester is responsible for serializing the delete shadow copy operation.
 
 During a backup, shadow copies are automatically released as soon as the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> instance is released. In this 
+    <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> instance is released. In this 
     case, it is not necessary to explicitly delete shadow copies.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>
-
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>

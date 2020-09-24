@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies which standard command is to be executed. A single value from this enumeration is passed in the <i>nCmdID</i> argument of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a>.
+Specifies which standard command is to be executed. A single value from this enumeration is passed in the <i>nCmdID</i> argument of <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a>.
 
 ## -enum-fields
 
@@ -160,7 +160,7 @@ Sets the current value of a progress indicator if one is owned by the receiving 
 
 ### -field OLECMDID_SETPROGRESSTEXT
 
-Sets the text contained in a progress indicator if one is owned by the receiving object, usually a frame. If the receiver currently has no progress indicator, this text should be displayed in the status bar (if one exists) as with <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setstatustext">IOleInPlaceFrame::SetStatusText</a>.
+Sets the text contained in a progress indicator if one is owned by the receiving object, usually a frame. If the receiver currently has no progress indicator, this text should be displayed in the status bar (if one exists) as with <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setstatustext">IOleInPlaceFrame::SetStatusText</a>.
 
 ### -field OLECMDID_SETTITLE
 
@@ -186,11 +186,11 @@ Stops the download when executed. Typically, this command is propagated to all c
 
 ### -field OLECMDID_HTTPEQUIV
 
-Issued in response to <b>HTTP-EQUIV</b> metatag and results in a call to the deprecated <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-onhttpequiv">OnHttpEquiv</a> method with the <i>fDone</i> parameter set to <b>false</b>. This command takes a <b>VT_BSTR</b> parameter which is passed to <b>OnHttpEquiv</b>.
+Issued in response to <b>HTTP-EQUIV</b> metatag and results in a call to the deprecated <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-onhttpequiv">OnHttpEquiv</a> method with the <i>fDone</i> parameter set to <b>false</b>. This command takes a <b>VT_BSTR</b> parameter which is passed to <b>OnHttpEquiv</b>.
 
 ### -field OLECMDID_HTTPEQUIV_DONE
 
-Issued in response to <b>HTTP-EQUIV</b> metatag and results in a call to the deprecated <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-onhttpequiv">OnHttpEquiv</a> method with the <i>fDone</i> parameter set to <b>true</b>. This command takes a <b>VT_BSTR</b> parameter which is passed to <b>OnHttpEquiv</b>.
+Issued in response to <b>HTTP-EQUIV</b> metatag and results in a call to the deprecated <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-onhttpequiv">OnHttpEquiv</a> method with the <i>fDone</i> parameter set to <b>true</b>. This command takes a <b>VT_BSTR</b> parameter which is passed to <b>OnHttpEquiv</b>.
 
 ### -field OLECMDID_ENABLE_INTERACTION
 
@@ -214,7 +214,7 @@ Tells the receiver to display the script error message.
 
 ### -field OLECMDID_SHOWMESSAGE
 
-This command takes an <a href="https://docs.microsoft.com/previous-versions/hh773930(v=vs.85)">IHTMLEventObj</a> input parameter that  contains a  message that the receiver shows.
+This command takes an <a href="/previous-versions/hh773930(v=vs.85)">IHTMLEventObj</a> input parameter that  contains a  message that the receiver shows.
 
 ### -field OLECMDID_SHOWFIND
 
@@ -222,11 +222,11 @@ Tells the receiver to show the Find dialog box. It takes a <b>VT_DISPATCH</b> in
 
 ### -field OLECMDID_SHOWPAGESETUP
 
-Tells the receiver to show the Page Setup dialog box. It takes an <a href="https://docs.microsoft.com/previous-versions/hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
+Tells the receiver to show the Page Setup dialog box. It takes an <a href="/previous-versions/hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
 
 ### -field OLECMDID_SHOWPRINT
 
-Tells the receiver to show the Print dialog box. It takes an <a href="https://docs.microsoft.com/previous-versions/hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
+Tells the receiver to show the Print dialog box. It takes an <a href="/previous-versions/hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
 
 ### -field OLECMDID_CLOSE
 
@@ -234,11 +234,11 @@ The exit command for the File menu.
 
 ### -field OLECMDID_ALLOWUILESSSAVEAS
 
-Supports the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">QueryStatus</a> method.
+Supports the <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">QueryStatus</a> method.
 
 ### -field OLECMDID_DONTDOWNLOADCSS
 
-Notifies the  receiver that CSS files should not be downloaded when in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">DesignMode</a>.
+Notifies the  receiver that CSS files should not be downloaded when in <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">DesignMode</a>.
 
 ### -field OLECMDID_UPDATEPAGESTATUS
 
@@ -282,7 +282,7 @@ Causes the Internet Explorer WebBrowser control to show the Information Bar menu
 
 ### -field OLECMDID_ADDTRAVELENTRY
 
-Causes the Internet Explorer WebBrowser control to create an entry at the current Travel Log offset. The Docobject should implement <a href="https://msdn.microsoft.com/library/aa768478.aspx">ITravelLogClient</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a> interfaces, which are used by the Travel Log as it processes this command with calls to GetWindowData and GetPersistID, respectively.
+Causes the Internet Explorer WebBrowser control to create an entry at the current Travel Log offset. The Docobject should implement <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768478(v=vs.85)">ITravelLogClient</a> and <a href="/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a> interfaces, which are used by the Travel Log as it processes this command with calls to GetWindowData and GetPersistID, respectively.
 
 ### -field OLECMDID_UPDATETRAVELENTRY
 
@@ -310,7 +310,7 @@ Windows Internet Explorer 8 with Windows Vista. Has no effect with Windows Inte
 
 ### -field OLECMDID_UPDATETRAVELENTRY_DATARECOVERY
 
-Internet Explorer 8. Unlike OLECMDID_UPDATETRAVELENTRY, this updates a Travel Log entry that is not initialized from a previous Docobject state. While this command is not called from <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768216(v=vs.85)">IPersistHistory::LoadHistory</a>, it can be called separately to save browser state that can be used later to recover from a crash.
+Internet Explorer 8. Unlike OLECMDID_UPDATETRAVELENTRY, this updates a Travel Log entry that is not initialized from a previous Docobject state. While this command is not called from <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768216(v=vs.85)">IPersistHistory::LoadHistory</a>, it can be called separately to save browser state that can be used later to recover from a crash.
 
 ### -field OLECMDID_SHOWTASKDLG
 
@@ -350,7 +350,7 @@ Internet Explorer 8. Unlike OLECMDID_UPDATETRAVELENTRY, this updates a Travel Lo
 
 ## -remarks
 
-In OLE Compound Documents technology, an object that is being edited in-place disables the <b>Zoom</b> control on its toolbar and the <b>Zoom</b> command on its <b>View</b> menu, because, the <b>Zoom</b> command applies logically to the container document, not to the object. The OLECMDID_ZOOM and OLECMDID_GETZOOMRANGE commands notify the container's frame object of the zoom range it should use to display a document object in its user interface. The container frame is the client-side object that implements <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a> and, optionally, <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>.
+In OLE Compound Documents technology, an object that is being edited in-place disables the <b>Zoom</b> control on its toolbar and the <b>Zoom</b> command on its <b>View</b> menu, because, the <b>Zoom</b> command applies logically to the container document, not to the object. The OLECMDID_ZOOM and OLECMDID_GETZOOMRANGE commands notify the container's frame object of the zoom range it should use to display a document object in its user interface. The container frame is the client-side object that implements <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a> and, optionally, <a href="/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>.
 
 
 
@@ -359,17 +359,17 @@ The OLECMDID_ZOOM command takes one <b>LONG</b> argument as input and writes one
 
 
 <ul>
-<li>To query the current zoom value. The caller of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> passes OLECMDEXECOPT_DONTPROMPTUSER as the execute option in <i>nCmdExecOpt</i> and <b>NULL</b> for pvIn. The object returns the current zoom value in <i>pvaOut</i>. When the object goes UI active, it retrieves the current zoom value from the container's frame object using this same mechanism and updates its zoom control with the returned value. 
+<li>To query the current zoom value. The caller of <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> passes OLECMDEXECOPT_DONTPROMPTUSER as the execute option in <i>nCmdExecOpt</i> and <b>NULL</b> for pvIn. The object returns the current zoom value in <i>pvaOut</i>. When the object goes UI active, it retrieves the current zoom value from the container's frame object using this same mechanism and updates its zoom control with the returned value. 
 </li>
-<li>To display the <b>Zoom</b> dialog box. The caller of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> passes OLECMDEXECOPT_PROMPTUSER in <i>nCmdExecOpt</i>. The caller can optionally pass the initial value for the dialog box through <i>pvaIn</i>; otherwise <i>pvaIn</i> must be <b>NULL</b>. If the user clicks <b>Cancel</b>, the object returns OLECMDERR_E_CANCELED. If the user clicks <b>OK</b>, the object passes the user-selected value in <i>pvaOut</i>. When user chooses the <b>Zoom</b> command from the <b>View</b> menu, the object calls the container's frame object in the same manner. The container then zooms the document to the user selected value, and the object updates its <b>Zoom</b> control with that value.
+<li>To display the <b>Zoom</b> dialog box. The caller of <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> passes OLECMDEXECOPT_PROMPTUSER in <i>nCmdExecOpt</i>. The caller can optionally pass the initial value for the dialog box through <i>pvaIn</i>; otherwise <i>pvaIn</i> must be <b>NULL</b>. If the user clicks <b>Cancel</b>, the object returns OLECMDERR_E_CANCELED. If the user clicks <b>OK</b>, the object passes the user-selected value in <i>pvaOut</i>. When user chooses the <b>Zoom</b> command from the <b>View</b> menu, the object calls the container's frame object in the same manner. The container then zooms the document to the user selected value, and the object updates its <b>Zoom</b> control with that value.
 </li>
-<li>To set a <b>Zoom</b> value. The caller of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> passes OLECMDEXECOPT_DONTPROMPTUSER in <i>nCmdExecOpt</i> and passes the zoom value to apply through <i>pvaIn</i>. The object validates and normalizes the new value and returns the validated value in <i>pvaOut</i>. When the user selects a new zoom value (using the <b>Zoom</b> control on the toolbar, for instance), the object calls the container's frame object in this manner. The container zooms the document to 100 percent, and the object updates the <b>Zoom</b> control with that value.</li>
+<li>To set a <b>Zoom</b> value. The caller of <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> passes OLECMDEXECOPT_DONTPROMPTUSER in <i>nCmdExecOpt</i> and passes the zoom value to apply through <i>pvaIn</i>. The object validates and normalizes the new value and returns the validated value in <i>pvaOut</i>. When the user selects a new zoom value (using the <b>Zoom</b> control on the toolbar, for instance), the object calls the container's frame object in this manner. The container zooms the document to 100 percent, and the object updates the <b>Zoom</b> control with that value.</li>
 </ul>
-The OLECMDID_GETZOOMRANGE command is used to determine the range of valid zoom values from an object that implements <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>. The caller passes MSOCMDEXECOPT_DONTPROMPTUSER in nCmdExecOpt and <b>NULL</b> for <i>pvaIn</i>. The object returns its zoom range in <i>pvaOut</i> where the HIWORD contains the maximum zoom value and the LOWORD contains the minimum zoom value. Typically this command is used when the user drops down the <b>Zoom</b> control on the toolbar of the UI-active object. The applications and objects that support this command are required to support all the integral zoom values that are within the (min,max) pair they return.
+The OLECMDID_GETZOOMRANGE command is used to determine the range of valid zoom values from an object that implements <a href="/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>. The caller passes MSOCMDEXECOPT_DONTPROMPTUSER in nCmdExecOpt and <b>NULL</b> for <i>pvaIn</i>. The object returns its zoom range in <i>pvaOut</i> where the HIWORD contains the maximum zoom value and the LOWORD contains the minimum zoom value. Typically this command is used when the user drops down the <b>Zoom</b> control on the toolbar of the UI-active object. The applications and objects that support this command are required to support all the integral zoom values that are within the (min,max) pair they return.
 
 
 
-The OLECMDID_ACTIVEXINSTALLSCOPE command notifies Trident to use the indicated Install Scope to install the ActiveX Control specified by the indicated class ID. The Install Scope is passed in a VT_ARRAY in pvaIn of the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> method whose elements are as follows.
+The OLECMDID_ACTIVEXINSTALLSCOPE command notifies Trident to use the indicated Install Scope to install the ActiveX Control specified by the indicated class ID. The Install Scope is passed in a VT_ARRAY in pvaIn of the <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> method whose elements are as follows.
 
 <table>
 <tr>
@@ -425,13 +425,12 @@ NULL) // pointer to command output
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>
+<a href="/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>

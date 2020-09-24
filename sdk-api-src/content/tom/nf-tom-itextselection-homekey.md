@@ -130,7 +130,7 @@ Pointer to a variable that receives the count of characters that the insertion p
 Type: <b>HRESULT</b>
 
 The method returns an 
-						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -163,7 +163,7 @@ Failure for some other reason.
 
 ## -remarks
 
-The <b>ITextSelection::HomeKey</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">ITextSelection::EndKey</a> methods are used to mimic the standard Home/End key behavior.
+The <b>ITextSelection::HomeKey</b> and <a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">ITextSelection::EndKey</a> methods are used to mimic the standard Home/End key behavior.
 
 <b>tomLine</b> mimics the Home or End key behavior 
 				<i>without</i> the Ctrl key pressed, while <b>tomStory</b> mimics the behavior 
@@ -173,10 +173,10 @@ The <b>ITextSelection::HomeKey</b> and <a href="https://docs.microsoft.com/windo
 				<code>HomeKey(tomStory)</code> converts the selection into an insertion point at the beginning of the associated story, while <b>HomeKey</b>(tomStory, tomExtend) moves the active end of the selection to the beginning of the story and leaves the other end where it was.
 
 The <b>HomeKey</b> and 
-				<b>EndKey</b> methods are logical methods like the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, <b>HomeKey</b> moves to the right end of a line, whereas in English text, it moves to the left. Thus, <b>HomeKey</b> and 
-				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a> methods are different than the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">ITextSelection::MoveLeft</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">ITextSelection::MoveRight</a> methods. Also, note that the <b>HomeKey</b> method is quite different from the 
+				<b>EndKey</b> methods are logical methods like the <a href="/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, <b>HomeKey</b> moves to the right end of a line, whereas in English text, it moves to the left. Thus, <b>HomeKey</b> and 
+				<a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a> methods are different than the <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">ITextSelection::MoveLeft</a> and <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveright">ITextSelection::MoveRight</a> methods. Also, note that the <b>HomeKey</b> method is quite different from the 
 				<b>Start</b> property, which is the cp at the beginning of the selection. <b>HomeKey</b> and 
-				<b>EndKey</b> also differ from the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a> methods in that they extend from the active end, whereas 
+				<b>EndKey</b> also differ from the <a href="/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a> and <a href="/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a> methods in that they extend from the active end, whereas 
 				<b>StartOf</b> extends from Start and 
 				<b>EndOf</b> extends from End.
 
@@ -186,27 +186,27 @@ The <b>HomeKey</b> and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
 
 
 
@@ -214,9 +214,8 @@ The <b>HomeKey</b> and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

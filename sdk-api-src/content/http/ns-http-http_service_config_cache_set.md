@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used in the <i>pConfigInformation</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a> function.
+Used in the <i>pConfigInformation</i> parameter of the <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a> function.
 
 ## -struct-fields
 
@@ -66,5 +66,4 @@ Configuration cache parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
-
+<a href="/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>

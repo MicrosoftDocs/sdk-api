@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngUnmapFontFile</b> function is <b>obsolete</b>. Use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapfontfilefd">EngUnmapFontFileFD</a> instead.
+The <b>EngUnmapFontFile</b> function is <b>obsolete</b>. Use <a href="/windows/desktop/api/winddi/nf-winddi-engunmapfontfilefd">EngUnmapFontFileFD</a> instead.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ The <b>EngUnmapFontFile</b> function is <b>obsolete</b>. Use <a href="https://do
 ## -returns
 
 This function does not return a value.
-

@@ -61,7 +61,7 @@ Display name parsing is necessary when the end user inputs a string to identify 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseDisplayName</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IParseDisplayName</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseDisplayName</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IParseDisplayName</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IParseDisplayName</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iparsedisplayname-parsedisplayname">ParseDisplayName</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iparsedisplayname-parsedisplayname">ParseDisplayName</a>
 </td>
 <td align="left" width="63%">
 Parses the specified display name and creates a corresponding moniker.
@@ -87,17 +87,16 @@ Parses the specified display name and creates a corresponding moniker.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a>
-
+<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a>

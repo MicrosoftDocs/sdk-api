@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCI_DGV_SET_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-set">MCI_SET</a> command for digital-video devices.
+The <b>MCI_DGV_SET_PARMS</b> structure contains parameters for the <a href="/windows/desktop/Multimedia/mci-set">MCI_SET</a> command for digital-video devices.
 
 ## -struct-fields
 
@@ -76,21 +76,20 @@ Playback speed.
 
 ## -remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
+<a href="/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
+<a href="/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-set">MCI_SET</a>
+<a href="/windows/desktop/Multimedia/mci-set">MCI_SET</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
-
+<a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IAnchor::GetGravity</b> method retrieves the gravity of the anchor in an <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> object.
+The <b>IAnchor::GetGravity</b> method retrieves the gravity of the anchor in an <a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> object.
 
 ## -parameters
 
@@ -93,17 +93,16 @@ The <i>pgravity</i> pointer is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
+<a href="/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-setgravity">IAnchor::SetGravity</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-setgravity">IAnchor::SetGravity</a>
 
 
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
-

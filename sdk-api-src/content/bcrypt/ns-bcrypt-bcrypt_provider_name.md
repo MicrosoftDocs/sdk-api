@@ -62,5 +62,4 @@ A pointer to a null-terminated Unicode string that contains the name of the prov
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumproviders">BCryptEnumProviders</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumproviders">BCryptEnumProviders</a>

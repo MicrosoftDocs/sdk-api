@@ -66,7 +66,7 @@ api_name:
 
 The 
 <b>IWbemServices::CreateInstanceEnum</b> method creates an enumerator that returns the instances of a specified class according to user-specified selection criteria. This method supports simple WQL queries; more complex queries can be processed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">IWbemServices::ExecQuery</a> method.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">IWbemServices::ExecQuery</a> method.
 
 ## -parameters
 
@@ -101,15 +101,15 @@ This flag forces the enumeration to include only pure instances of this class, e
 #### WBEM_FLAG_RETURN_IMMEDIATELY
 
 This flag causes this to be a semisynchronous call. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 
 
 #### WBEM_FLAG_FORWARD_ONLY
 
 This flag causes a forward-only enumerator to be returned. Forward-only enumerators are generally much faster and use less memory than conventional enumerators but do not allow calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-clone">Clone</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-clone">Clone</a> or 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a>.
 
 
 
@@ -126,8 +126,8 @@ This flag causes direct access to the provider for the class specified without a
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that may be used by the provider that is providing the requested instances. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that may be used by the provider that is providing the requested instances. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 ### -param ppEnum [out]
 
@@ -137,7 +137,7 @@ Receives the pointer to the enumerator, which has a positive reference count. Th
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
+On failure, you can obtain any available information from the COM function <a href="/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to Windows Management.
 
@@ -147,13 +147,12 @@ It is not an error for the returned enumerator to have zero elements.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenumasync">IWbemServices::CreateInstanceEnumAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenumasync">IWbemServices::CreateInstanceEnumAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
-
+<a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>

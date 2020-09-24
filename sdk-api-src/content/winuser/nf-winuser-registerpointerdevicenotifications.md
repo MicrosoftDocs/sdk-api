@@ -51,30 +51,29 @@ api_name:
 
 ## -description
 
-Registers a window to process the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> pointer device notifications.
+Registers a window to process the <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
+<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
+<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> pointer device notifications.
 
 ## -parameters
 
 ### -param window [in]
 
-The window that receives <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> notifications.
+The window that receives <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
+<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
+<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> notifications.
 
 ### -param notifyRange [in]
 
-If set to TRUE, process the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a> and
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> messages. If set to FALSE, these messages aren't processed.
+If set to TRUE, process the <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a> and
+<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> messages. If set to FALSE, these messages aren't processed.
 
 ## -returns
 
 If this function succeeds, it returns TRUE.
  
-Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>

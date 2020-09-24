@@ -80,7 +80,7 @@ Pointer to a <b>DWORD</b> that receives the current device status. These status 
 </tr>
 <tr>
 <td>WMDM_STATUS_STORAGE_NOTPRESENT</td>
-<td>The medium is not present. For devices that support more than one medium, this value is reported only from the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> interface.</td>
+<td>The medium is not present. For devices that support more than one medium, this value is reported only from the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> interface.</td>
 </tr>
 <tr>
 <td>WMDM_STATUS_STORAGE_INITIALIZING</td>
@@ -100,19 +100,19 @@ Pointer to a <b>DWORD</b> that receives the current device status. These status 
 </tr>
 <tr>
 <td>WMDM_STATUS_STORAGECONTROL_INSERTING</td>
-<td>The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert">IWMDMStorageControl::Insert</a> method is currently running.</td>
+<td>The <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert">IWMDMStorageControl::Insert</a> method is currently running.</td>
 </tr>
 <tr>
 <td>WMDM_STATUS_STORAGECONTROL_DELETING</td>
-<td>The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-delete">IWMDMStorageControl::Delete</a> method is currently running.</td>
+<td>The <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-delete">IWMDMStorageControl::Delete</a> method is currently running.</td>
 </tr>
 <tr>
 <td>WMDM_STATUS_STORAGECONTROL_MOVING</td>
-<td>The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-move">IWMDMStorageControl::Move</a> method is currently running.</td>
+<td>The <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-move">IWMDMStorageControl::Move</a> method is currently running.</td>
 </tr>
 <tr>
 <td>WMDM_STATUS_STORAGECONTROL_READING</td>
-<td>The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read">IWMDMStorageControl::Read</a> method is currently running.</td>
+<td>The <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read">IWMDMStorageControl::Read</a> method is currently running.</td>
 </tr>
 </table>
 
@@ -125,23 +125,22 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
 One or more status values can be returned from this call. All the status values of all the interfaces of the media device are reported through this call. For example, if a storage operation, such as writing a file to a media device is ongoing, a call to this method reports the busy status of that operation. For any ongoing operation, the status value WMDM_STATUS_BUSY is always present.
 
-This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
+This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>

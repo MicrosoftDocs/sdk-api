@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A range of memory of arbitrary type that represents a serialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. Programs should not inspect the contents of a <b>SERIALIZEDPROPERTYVALUE</b>; instead, they should manipulate it with the <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant">StgSerializePropVariant</a> and <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant">StgDeserializePropVariant</a> functions.
+A range of memory of arbitrary type that represents a serialized <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. Programs should not inspect the contents of a <b>SERIALIZEDPROPERTYVALUE</b>; instead, they should manipulate it with the <a href="/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant">StgSerializePropVariant</a> and <a href="/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant">StgDeserializePropVariant</a> functions.
 
 ## -struct-fields
 
@@ -60,11 +60,10 @@ A range of memory of arbitrary type that represents a serialized <a href="https:
 
 Type: <b>DWORD</b>
 
-Encodes type information about the serialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. Programs should not inspect this member directly; instead, they should use the <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant">StgDeserializePropVariant</a> function and inspect the <b>vt</b>  member of the resulting <b>PROPVARIANT</b> structure.
+Encodes type information about the serialized <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. Programs should not inspect this member directly; instead, they should use the <a href="/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant">StgDeserializePropVariant</a> function and inspect the <b>vt</b>  member of the resulting <b>PROPVARIANT</b> structure.
 
 ### -field rgb
 
 Type: <b>BYTE[1]</b>
 
 A variable-length additional data that depends on the type passed in <b>dwType</b>.
-

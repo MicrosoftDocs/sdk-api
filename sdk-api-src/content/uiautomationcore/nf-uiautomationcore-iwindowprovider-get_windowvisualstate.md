@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iwindowprovider">IWindowProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iwindowprovider">IWindowProvider</a>
 
 
 
@@ -71,9 +71,8 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-setvisualstate">SetVisualState</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-setvisualstate">SetVisualState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

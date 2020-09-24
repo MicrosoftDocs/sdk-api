@@ -56,7 +56,7 @@ The <b>NdrSimpleTypeUnmarshall</b> function unmarshalls a simple type.
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
 
 ### -param pMemory [in]
 
@@ -84,4 +84,3 @@ Format string of the simple type.
 <td>An error occurred in RPC.</td>
 </tr>
 </table>
-

@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_POLICY1</b> structure is used to store the IKE/AuthIP main mode negotiation policy.
-[IKEEXT_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy0) is available.</div><div> </div>
+[IKEEXT_POLICY0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ Number of authentication methods.
 
 Array of acceptable authentication methods.
 
-See  [IKEEXT_AUTHENTICATION_METHOD1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1) for more information.
+See  [IKEEXT_AUTHENTICATION_METHOD1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1) for more information.
 
 ### -field initiatorImpersonationType
 
@@ -85,7 +85,7 @@ Number of main mode proposals.
 
 Array of main mode proposals. 
 
-See [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0) for more information.
+See [IKEEXT_PROPOSAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0) for more information.
 
 ### -field flags
 
@@ -158,13 +158,12 @@ The number of seconds for which IKEv2 SA negotiation packets will be retransmitt
 
 
 
-[IKEEXT_AUTHENTICATION_METHOD1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1)
+[IKEEXT_AUTHENTICATION_METHOD1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1)
 
 
 
-[IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)
+[IKEEXT_PROPOSAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

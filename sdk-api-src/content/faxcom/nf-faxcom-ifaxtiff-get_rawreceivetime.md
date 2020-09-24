@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the <b>RawReceiveTime</b> property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object. The <b>RawReceiveTime</b> property is the time at which reception began for an inbound fax file, expressed in Coordinated Universal Time (UTC). This property can also be the time at which reception or transmission began for an archived file.
+Retrieves the <b>RawReceiveTime</b> property for a <a href="/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object. The <b>RawReceiveTime</b> property is the time at which reception began for an inbound fax file, expressed in Coordinated Universal Time (UTC). This property can also be the time at which reception or transmission began for an archived file.
 
 This property is read-only.
 
@@ -59,37 +59,36 @@ This property is read-only.
 
 ## -remarks
 
-A fax client application must  set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-image-vb">Image</a> property before retrieving another property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object.
+A fax client application must  set the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-image-vb">Image</a> property before retrieving another property for a <a href="/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object.
 
 The <b>get_RawReceiveTime</b> method sets the <i>pVal</i> parameter to the local time at which the fax job started receiving or transmitting the fax file. 
 
 The <b>RawReceiveTime</b> property contains the local time at which the fax job started receiving or transmitting the fax file. 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-receivetime-vb">get_ReceiveTime</a> method returns the time in a formatted string.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-receivetime-vb">get_ReceiveTime</a> method returns the time in a formatted string.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-receivetime-vb">ReceiveTime</a> property contains the time in a formatted string.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-receivetime-vb">ReceiveTime</a> property contains the time in a formatted string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxtiff">IFaxTiff</a>
+<a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxtiff">IFaxTiff</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-image-vb">IFaxTiff::get_Image</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-image-vb">IFaxTiff::get_Image</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-receivetime-vb">IFaxTiff::get_ReceiveTime</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-receivetime-vb">IFaxTiff::get_ReceiveTime</a>

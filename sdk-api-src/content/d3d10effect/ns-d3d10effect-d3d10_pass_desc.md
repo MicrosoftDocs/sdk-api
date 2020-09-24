@@ -58,51 +58,50 @@ Describes an effect pass, which contains pipeline state.
 
 ### -field Name
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 A string that contains the name of the pass; otherwise <b>NULL</b>.
 
 ### -field Annotations
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of annotations.
 
 ### -field pIAInputSignature
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
 
 A pointer to the input signature or the vertex shader; otherwise <b>NULL</b>.
 
 ### -field IAInputSignatureSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 The size of the input signature (in bytes).
 
 ### -field StencilRef
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The stencil-reference value used in the depth-stencil state (see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-depth-stencil">Configuring Depth-Stencil Functionality (Direct3D 10)</a>).
+The stencil-reference value used in the depth-stencil state (see <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-depth-stencil">Configuring Depth-Stencil Functionality (Direct3D 10)</a>).
 
 ### -field SampleMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The sample mask for the blend state (see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">Configuring Blending Functionality (Direct3D 10)</a>).
+The sample mask for the blend state (see <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">Configuring Blending Functionality (Direct3D 10)</a>).
 
 ### -field BlendFactor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
-The per-component blend factors (RGBA) for the blend state (see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">Configuring Blending Functionality (Direct3D 10)</a>).
+The per-component blend factors (RGBA) for the blend state (see <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">Configuring Blending Functionality (Direct3D 10)</a>).
 
 ## -remarks
 
-Get a pass description by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-getdesc">ID3D10EffectPass::GetDesc</a>; an effect technique contains one or more passes.
+Get a pass description by calling <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-getdesc">ID3D10EffectPass::GetDesc</a>; an effect technique contains one or more passes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-structures">Effect Structures (Direct3D 10)</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-effect-structures">Effect Structures (Direct3D 10)</a>

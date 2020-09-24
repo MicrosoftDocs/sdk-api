@@ -54,7 +54,7 @@ The <b>ITfConfigureSystemKeystrokeFeed</b> interface is implemented by the TSF m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfConfigureSystemKeystrokeFeed</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfConfigureSystemKeystrokeFeed</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfConfigureSystemKeystrokeFeed</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfConfigureSystemKeystrokeFeed</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfConfigureSystemKeystrokeFeed</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfconfiguresystemkeystrokefeed-disablesystemkeystrokefeed">DisableSystemKeystrokeFeed</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfconfiguresystemkeystrokefeed-disablesystemkeystrokefeed">DisableSystemKeystrokeFeed</a>
 </td>
 <td align="left" width="63%">
 Prevents the TSF manager from processing keystrokes.
@@ -78,7 +78,7 @@ Prevents the TSF manager from processing keystrokes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfconfiguresystemkeystrokefeed-enablesystemkeystrokefeed">EnableSystemKeystrokeFeed</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfconfiguresystemkeystrokefeed-enablesystemkeystrokefeed">EnableSystemKeystrokeFeed</a>
 </td>
 <td align="left" width="63%">
 Enables the TSF manager to process keystrokes after being disabled by DisableSystemKeystrokeFeed.
@@ -89,10 +89,9 @@ Enables the TSF manager to process keystrokes after being disabled by DisableSys
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -62,13 +62,13 @@ The rotation angle in degrees. A positive angle creates a clockwise rotation, an
 
 ### -param center
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The point about which the rotation is performed.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 The new rotation transformation.
 
@@ -116,11 +116,10 @@ The following illustration shows the effect of applying the  preceding rotation 
 ```
 
 
-Code has been omitted from this example. For more information about transforms, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-transforms-overview">Transforms Overview</a>. 
+Code has been omitted from this example. For more information about transforms, see the <a href="/windows/desktop/Direct2D/direct2d-transforms-overview">Transforms Overview</a>. 
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
-
+<a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>

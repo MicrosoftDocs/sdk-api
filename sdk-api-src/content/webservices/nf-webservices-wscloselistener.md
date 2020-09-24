@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Causes the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">listener</a>  to stop listening.
+Causes the specified <a href="/windows/desktop/wsw/ws-listener">listener</a>  to stop listening.
 
 ## -parameters
 
 ### -param listener [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> structure representing the listener  to close.
+Pointer to a <a href="/windows/desktop/wsw/ws-listener">WS_LISTENER</a> structure representing the listener  to close.
 
 ### -param asyncContext [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
+Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -94,7 +94,7 @@ The asynchronous operation is still pending.
 </dl>
 </td>
 <td width="60%">
-The close was aborted by a call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabortlistener">WsAbortListener</a> as the listener was closing.
+The close was aborted by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsabortlistener">WsAbortListener</a> as the listener was closing.
                 
 
 </td>
@@ -153,7 +153,6 @@ After the listener is closed, the listener can safely be released.
 
 This operation is allowed for listener in the   <b>WS_LISTENER_STATE_OPEN</b> or
                 <b>WS_LISTENER_STATE_FAULTED</b> state.
-            (For listener states, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_state">WS_LISTENER_STATE</a> enumeration.) 
+            (For listener states, see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_state">WS_LISTENER_STATE</a> enumeration.) 
 
-When a listener is closed, any pending attempts to accept a channel with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsacceptchannel">WsAcceptChannel</a> method are aborted. However, <b>WsCloseListener</b> waits for any pending I/O to complete before proceeding with the closing process.
-
+When a listener is closed, any pending attempts to accept a channel with the <a href="/windows/desktop/api/webservices/nf-webservices-wsacceptchannel">WsAcceptChannel</a> method are aborted. However, <b>WsCloseListener</b> waits for any pending I/O to complete before proceeding with the closing process.

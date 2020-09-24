@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>mmioAscend</b> function ascends out of a chunk in a RIFF file descended into with the <a href="https://docs.microsoft.com/previous-versions/dd757318(v=vs.85)">mmioDescend</a> function or created with the <a href="https://docs.microsoft.com/previous-versions/dd757317(v=vs.85)">mmioCreateChunk</a> function.
+The <b>mmioAscend</b> function ascends out of a chunk in a RIFF file descended into with the <a href="/previous-versions/dd757318(v=vs.85)">mmioDescend</a> function or created with the <a href="/previous-versions/dd757317(v=vs.85)">mmioCreateChunk</a> function.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ File handle of an open RIFF file.
 
 ### -param pmmcki
 
-Pointer to an application-defined <a href="https://docs.microsoft.com/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure previously filled by the <a href="https://docs.microsoft.com/previous-versions/dd757318(v=vs.85)">mmioDescend</a> or <a href="https://docs.microsoft.com/previous-versions/dd757317(v=vs.85)">mmioCreateChunk</a> function.
+Pointer to an application-defined <a href="/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure previously filled by the <a href="/previous-versions/dd757318(v=vs.85)">mmioDescend</a> or <a href="/previous-versions/dd757317(v=vs.85)">mmioCreateChunk</a> function.
 
 ### -param fuAscend
 
@@ -104,7 +104,6 @@ The contents of the buffer could not be written to disk.
 
 ## -remarks
 
-If the chunk was descended into by using <a href="https://docs.microsoft.com/previous-versions/dd757318(v=vs.85)">mmioDescend</a>, <b>mmioAscend</b> seeks to the location following the end of the chunk (past the extra pad byte, if any).
+If the chunk was descended into by using <a href="/previous-versions/dd757318(v=vs.85)">mmioDescend</a>, <b>mmioAscend</b> seeks to the location following the end of the chunk (past the extra pad byte, if any).
 
 If the chunk was created and descended into by using <b>mmioCreateChunk</b>, or if the MMIO_DIRTY flag is set in the <b>dwFlags</b> member of the <b>MMCKINFO</b> structure referenced by <i>lpck</i>, the current file position is assumed to be the end of the data portion of the chunk. If the chunk size is not the same as the value stored in the <b>cksize</b> member of the <b>MMCKINFO</b> structure when <b>mmioCreateChunk</b> was called, <b>mmioAscend</b> corrects the chunk size in the file before ascending from the chunk. If the chunk size is odd, <b>mmioAscend</b> writes a null pad byte at the end of the chunk. After ascending from the chunk, the current file position is the location following the end of the chunk (past the extra pad byte, if any).
-

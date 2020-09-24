@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Associates the Addressable Command Target (ACT) with the <b>Authorized</b> state    defined by <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the authentication of each individual silo according to the required sequence and logical combination necessary to authorize access to the ACT.
+Associates the Addressable Command Target (ACT) with the <b>Authorized</b> state    defined by <a href="/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the authentication of each individual silo according to the required sequence and logical combination necessary to authorize access to the ACT.
 
 ## -parameters
 
@@ -101,5 +101,4 @@ This interface method can be used when an application wants to change the ACT to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>

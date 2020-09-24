@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IBackgroundCopyJob1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IBackgroundCopyJob1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>IBackgroundCopyJob1</b> interface to add files to the job and retrieve the job's status.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob1</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyJob1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob1</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyJob1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IBackgroundCopyJob1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-addfiles">AddFiles</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-addfiles">AddFiles</a>
 </td>
 <td align="left" width="63%">
 Adds one or more files to the job.
@@ -90,7 +90,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getfile">GetFile</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getfile">GetFile</a>
 </td>
 <td align="left" width="63%">
 Retrieves the remote and local names of a file.
@@ -99,7 +99,7 @@ Retrieves the remote and local names of a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getfilecount">GetFileCount</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getfilecount">GetFileCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of files to download in the job.
@@ -108,7 +108,7 @@ Retrieves the number of files to download in the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getprogress">GetProgress</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getprogress">GetProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the download progress of the job.
@@ -117,7 +117,7 @@ Retrieves the download progress of the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getstatus">GetStatus</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the job.
@@ -139,4 +139,3 @@ Not implemented.
 </td>
 </tr>
 </table>
-

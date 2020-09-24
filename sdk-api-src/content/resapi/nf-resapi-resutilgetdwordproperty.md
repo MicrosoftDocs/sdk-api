@@ -52,7 +52,7 @@ api_name:
 
 Retrieves a 
     <b>DWORD</b> property from a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> and advances a pointer to the next property in 
+    <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> and advances a pointer to the next property in 
     the list. The <b>PRESUTIL_GET_DWORD_PROPERTY</b> type defines a pointer to this function.
 
 ## -parameters
@@ -64,7 +64,7 @@ Address of a pointer in which the <b>DWORD</b> value from the property list will
 
 ### -param pValueStruct [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368375(v=vs.85)">CLUSPROP_DWORD</a> structure specifying 
+Pointer to a <a href="/previous-versions/windows/desktop/legacy/aa368375(v=vs.85)">CLUSPROP_DWORD</a> structure specifying 
       the <b>DWORD</b> value to retrieve from the property list.
 
 ### -param dwOldValue [in]
@@ -94,7 +94,7 @@ Pointer to the size of the property list buffer. The size will be decremented to
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error 
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error 
        code.
 
 <table>
@@ -124,13 +124,12 @@ The <b>ResUtilGetDwordProperty</b> utility function verifies that the value retu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetbinaryproperty">ResUtilGetBinaryProperty</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetbinaryproperty">ResUtilGetBinaryProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszproperty">ResUtilGetMultiSzProperty</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszproperty">ResUtilGetMultiSzProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetszproperty">ResUtilGetSzProperty</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetszproperty">ResUtilGetSzProperty</a>

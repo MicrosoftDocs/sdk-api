@@ -97,9 +97,8 @@ Authentication and cipher algorithms are used in pairs. The following table show
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_cipher_algorithm">DOT11_ADHOC_CIPHER_ALGORITHM</a>
+<a href="/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_cipher_algorithm">DOT11_ADHOC_CIPHER_ALGORITHM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11authalgorithm">IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm</a>
-
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11authalgorithm">IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm</a>

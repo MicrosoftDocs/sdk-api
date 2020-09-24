@@ -56,11 +56,11 @@ Notifies the object implementing the plug-in that the stylus is moving above the
 
 ### -param piRtsSrc [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
 
 ### -param pStylusInfo [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ns-rtscom-stylusinfo">StylusInfo Structure</a> structure containing the information about the RTS that is associated with the stylus.
+A <a href="/windows/desktop/api/rtscom/ns-rtscom-stylusinfo">StylusInfo Structure</a> structure containing the information about the RTS that is associated with the stylus.
 
 ### -param cPktCount [in]
 
@@ -84,13 +84,13 @@ A pointer to an array of modified stylus data packets. The plug-in can use this 
 
 ## -returns
 
-For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/classes-and-interfaces---ink-analysis">Classes and Interfaces - Ink Analysis</a>.
+For a description of return values, see <a href="/windows/desktop/tablet/classes-and-interfaces---ink-analysis">Classes and Interfaces - Ink Analysis</a>.
 
 ## -remarks
 
 This method is called when data packets are created by the stylus when it is in range but is moving above the digitizer and not touching the digitizer. You can return an array of modified packets by using the <i>ppInOutPkt</i> parameter. Create a buffer and point <i>ppInOutPkts</i> to it. Only one packet can be present at that location.
 
-<div class="alert"><b>Note</b>  Packets used by the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> and <b>IStylusPlugin::InAirPackets Method</b> methods can be deleted.</div>
+<div class="alert"><b>Note</b>  Packets used by the <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> and <b>IStylusPlugin::InAirPackets Method</b> methods can be deleted.</div>
 <div> </div>
 A stylus plug-in may be associated with a single RTS or with many. Use the <i>piRtsSrc</i> parameter in the following cases:
 
@@ -98,12 +98,12 @@ A stylus plug-in may be associated with a single RTS or with many. Use the <i>pi
 <li>When the notification requires that the plug-in acquires more information about the specific digitizer from which the notification originated.</li>
 <li>When you input additional custom notifications through the system.</li>
 </ul>
-Packets can be bundled for more efficient data transfer. Therefore a plug-in is not required to be called once per packet. <b>IStylusPlugin::InAirPackets Method</b> and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> can send one or more packets.
+Packets can be bundled for more efficient data transfer. Therefore a plug-in is not required to be called once per packet. <b>IStylusPlugin::InAirPackets Method</b> and <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> can send one or more packets.
 
 
 #### Examples
 
-The following C++ code example implements a <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> method that modifies the X,Y data to restrain the packets to a rectangle. The same code could be applied to an implementation of <b>IStylusPlugin::InAirPackets Method</b>.
+The following C++ code example implements a <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> method that modifies the X,Y data to restrain the packets to a rectangle. The same code could be applied to an implementation of <b>IStylusPlugin::InAirPackets Method</b>.
 
 
 ```cpp
@@ -177,21 +177,20 @@ STDMETHODIMP CPacketModifier::Packets(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">IStylusPlugin::StylusDown Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">IStylusPlugin::StylusDown Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>

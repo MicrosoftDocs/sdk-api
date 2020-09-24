@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Generated when the client calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-enablecommit">EnableCommit</a> on a context.
+Generated when the client calls <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-enablecommit">EnableCommit</a> on a context.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ The user verifies the return values from this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomobjectevents">IComObjectEvents</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomobjectevents">IComObjectEvents</a>

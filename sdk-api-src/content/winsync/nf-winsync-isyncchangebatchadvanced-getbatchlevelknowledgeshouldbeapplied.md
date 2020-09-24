@@ -104,13 +104,12 @@ The change batch contains no changes and no knowledge.
 
 ## -remarks
 
-Typically, the destination provider saves the learned knowledge for each item change as it is applied to the destination replica. The value that is returned by <b>GetBatchLevelKnowledgeShouldBeApplied</b> indicates whether it is also necessary to save the learned knowledge of the change batch after the entire change batch has been applied. The learned knowledge of the change batch can be obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getlearnedknowledge">ISyncChangeBatchBase::GetLearnedKnowledge</a>.
+Typically, the destination provider saves the learned knowledge for each item change as it is applied to the destination replica. The value that is returned by <b>GetBatchLevelKnowledgeShouldBeApplied</b> indicates whether it is also necessary to save the learned knowledge of the change batch after the entire change batch has been applied. The learned knowledge of the change batch can be obtained by calling <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getlearnedknowledge">ISyncChangeBatchBase::GetLearnedKnowledge</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchadvanced">ISyncChangeBatchAdvanced Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchadvanced">ISyncChangeBatchAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>

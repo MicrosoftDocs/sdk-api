@@ -60,13 +60,12 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxfolders">FaxFolders</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxfolders">FaxFolders</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxfolders">IFaxFolders</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxfolders">IFaxFolders</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-setting-the-outgoing-queue-properties">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-setting-the-outgoing-queue-properties">Visual Basic Example</a>

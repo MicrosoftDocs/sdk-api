@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Specifies the type of key to be returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getkey">IQueryAssociations::GetKey</a>.
+Specifies the type of key to be returned by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getkey">IQueryAssociations::GetKey</a>.
 
 ## -enum-fields
 
 ### -field ASSOCKEY_SHELLEXECCLASS
 
-A key that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> through a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure.
+A key that is passed to <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> through a <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure.
 
 ### -field ASSOCKEY_APP
 
@@ -71,4 +71,3 @@ A ProgID or class key.
 A BaseClass value.
 
 ### -field ASSOCKEY_MAX
-

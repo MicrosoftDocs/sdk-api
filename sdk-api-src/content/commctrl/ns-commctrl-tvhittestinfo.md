@@ -54,20 +54,20 @@ api_name:
 
 ## -description
 
-Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-hittest">TVM_HITTEST</a> message. The structure is identical to the 
+Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="/windows/desktop/Controls/tvm-hittest">TVM_HITTEST</a> message. The structure is identical to the 
 			<b>TV_HITTESTINFO</b> structure, but it has been renamed to follow current naming conventions.
 
 ## -struct-fields
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 Client coordinates of the point to test.
 
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Variable that receives information about the results of a hit test. This member can be one or more of the following values: 
 
@@ -203,4 +203,3 @@ To the right of the client area.
 Type: <b>HTREEITEM</b>
 
 Handle to the item that occupies the point.
-

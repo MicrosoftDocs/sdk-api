@@ -54,7 +54,7 @@ Enumerates the video processor capabilities of a Microsoft Direct3D 11 device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoProcessorEnumerator</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoProcessorEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoProcessorEnumerator</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoProcessorEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D11VideoProcessorEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-checkvideoprocessorformat">CheckVideoProcessorFormat</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-checkvideoprocessorformat">CheckVideoProcessorFormat</a>
 </td>
 <td align="left" width="63%">
 Queries whether the video processor supports a specified video format.
@@ -78,7 +78,7 @@ Queries whether the video processor supports a specified video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">GetVideoProcessorCaps</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">GetVideoProcessorCaps</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of the video processor.
@@ -87,7 +87,7 @@ Gets the capabilities of the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcontentdesc">GetVideoProcessorContentDesc</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcontentdesc">GetVideoProcessorContentDesc</a>
 </td>
 <td align="left" width="63%">
 Gets the content description that was used to create this enumerator.
@@ -96,7 +96,7 @@ Gets the content description that was used to create this enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcustomrate">GetVideoProcessorCustomRate</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcustomrate">GetVideoProcessorCustomRate</a>
 </td>
 <td align="left" width="63%">
 Gets a list of custom frame rates that a video processor supports.
@@ -105,7 +105,7 @@ Gets a list of custom frame rates that a video processor supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorfilterrange">GetVideoProcessorFilterRange</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorfilterrange">GetVideoProcessorFilterRange</a>
 </td>
 <td align="left" width="63%">
 Gets the range of values for an image filter.
@@ -114,7 +114,7 @@ Gets the range of values for an image filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorrateconversioncaps">GetVideoProcessorRateConversionCaps</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorrateconversioncaps">GetVideoProcessorRateConversionCaps</a>
 </td>
 <td align="left" width="63%">
 Returns a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
@@ -125,19 +125,18 @@ Returns a group of video processor capabilities that are associated with frame-r
 
 ## -remarks
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessorenumerator">ID3D11VideoDevice::CreateVideoProcessorEnumerator</a>.
+To get a pointer to this interface, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessorenumerator">ID3D11VideoDevice::CreateVideoProcessorEnumerator</a>.
 
-To create an instance of the video processor, pass the <b>ID3D11VideoProcessorEnumerator</b> pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a> method.
+To create an instance of the video processor, pass the <b>ID3D11VideoProcessorEnumerator</b> pointer to the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
+<a href="/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videoprocessorenumerator1">ID3D11VideoProcessorEnumerator</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videoprocessorenumerator1">ID3D11VideoProcessorEnumerator</a>

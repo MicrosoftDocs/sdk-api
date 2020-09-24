@@ -60,11 +60,11 @@ Retrieves a pointer to the buffer bitmap if the buffer is a device-independent b
 
 Type: <b>HPAINTBUFFER</b>
 
-The handle of the buffered paint context, obtained through <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
+The handle of the buffered paint context, obtained through <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 ### -param ppbBuffer [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>**</b>
+Type: <b><a href="/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>**</b>
 
 When this function returns, contains a pointer to the address of the buffer bitmap pixels.
 
@@ -76,21 +76,21 @@ When this function returns, contains a pointer to the width, in pixels, of the b
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful, or an error value otherwise. If an error occurs, <i>ppbBuffer</i>  is set to <b>NULL</b> and <i>pcxRow</i> is set to zero.
 
 ## -remarks
 
-The number of bits per pixel depends on the pixel format passed to <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
+The number of bits per pixel depends on the pixel format passed to <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a>
+<a href="/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-independent-bitmaps">Device-Independent Bitmaps</a>
+<a href="/windows/desktop/gdi/device-independent-bitmaps">Device-Independent Bitmaps</a>
 
 
 
@@ -99,4 +99,3 @@ The number of bits per pixel depends on the pixel format passed to <a href="http
 
 
 <b>Reference</b>
-

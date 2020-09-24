@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes the next step that is to occur in sync manager conflict resolution. Used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictpresenter">ISyncMgrConflictPresenter</a>.
+Describes the next step that is to occur in sync manager conflict resolution. Used by <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictpresenter">ISyncMgrConflictPresenter</a>.
 
 ## -enum-fields
 
@@ -69,9 +69,8 @@ All conflict resolution should be canceled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenternextstep">ISyncMgrConflictResolveInfo::GetPresenterNextStep</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenternextstep">ISyncMgrConflictResolveInfo::GetPresenterNextStep</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenternextstep">ISyncMgrConflictResolveInfo::SetPresenterNextStep</a>
-
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenternextstep">ISyncMgrConflictResolveInfo::SetPresenterNextStep</a>

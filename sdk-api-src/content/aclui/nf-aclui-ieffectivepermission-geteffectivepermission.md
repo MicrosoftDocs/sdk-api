@@ -60,7 +60,7 @@ A <b>GUID</b> for the object type whose permission is being queried.
 
 ### -param pUserSid [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the security principal whose effective permission is being determined.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the security principal whose effective permission is being determined.
 
 ### -param pszServerName [in]
 
@@ -68,11 +68,11 @@ A pointer to null-terminated wide character string that represents the server na
 
 ### -param pSD [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that represents the object's  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>. The security descriptor is used to perform the access check.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that represents the object's  <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a>. The security descriptor is used to perform the access check.
 
 ### -param ppObjectTypeList [out]
 
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a> structure that represents the array of object types in the object tree for the object. If an object does not support property access, use the following technique to specify the value for the <b>OBJECT_TYPE_LIST</b>.
+A pointer to a pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a> structure that represents the array of object types in the object tree for the object. If an object does not support property access, use the following technique to specify the value for the <b>OBJECT_TYPE_LIST</b>.
 
 
 ```cpp
@@ -91,7 +91,7 @@ A pointer to a <b>ULONG</b> that receives the count of object types pointed to b
 
 ### -param ppGrantedAccessList [out]
 
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> that receives the array of granted access masks. The operating system will use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to free the memory allocated for this parameter.
+A pointer to a pointer to an <a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> that receives the array of granted access masks. The operating system will use <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to free the memory allocated for this parameter.
 
 ### -param pcGrantedAccessListLength [out]
 
@@ -101,5 +101,4 @@ A pointer to a <b>ULONG</b> variable that receives the count of granted access m
 
 If the function is successful, the return value is S_OK.
 
-If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

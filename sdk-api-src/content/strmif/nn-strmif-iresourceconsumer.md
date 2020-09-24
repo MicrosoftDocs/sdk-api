@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-The <code>IResourceConsumer</code> interface provides a callback mechanism for objects using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager</a> interface.
+The <code>IResourceConsumer</code> interface provides a callback mechanism for objects using the <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager</a> interface.
 
-An object must implement <code>IResourceConsumer</code> if it uses the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager</a> interface to request resources from the filter graph manager. The filter graph manager calls methods on <code>IResourceConsumer</code> to notify the object when a resource becomes available, or when the object should release a resource that it acquired.
+An object must implement <code>IResourceConsumer</code> if it uses the <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager</a> interface to request resources from the filter graph manager. The filter graph manager calls methods on <code>IResourceConsumer</code> to notify the object when a resource becomes available, or when the object should release a resource that it acquired.
 
 Applications typically do not use or implement this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResourceConsumer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResourceConsumer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResourceConsumer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResourceConsumer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IResourceConsumer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-acquireresource">AcquireResource</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-acquireresource">AcquireResource</a>
 </td>
 <td align="left" width="63%">
 Notifies the resource consumer that a resource might be acquired.
@@ -83,7 +83,7 @@ Notifies the resource consumer that a resource might be acquired.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-releaseresource">ReleaseResource</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-releaseresource">ReleaseResource</a>
 </td>
 <td align="left" width="63%">
 Requests the resource consumer to release the specified resource.
@@ -94,5 +94,4 @@ Requests the resource consumer to release the specified resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>

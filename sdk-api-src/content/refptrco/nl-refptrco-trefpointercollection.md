@@ -54,7 +54,7 @@ api_name:
 <p class="CCE_Message">[The <b>TRefPointerCollection</b> 
     class is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>TRefPointerCollection</b> class is a container 
@@ -71,17 +71,17 @@ The <b>TRefPointerCollection</b> class is a container
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-add">Add</a>
+<a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an item to a collection and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
+Adds an item to a collection and calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
      method to increment the reference count.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-beginenum">BeginEnum</a>
+<a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-beginenum">BeginEnum</a>
 </td>
 <td align="left" width="63%">
 Begins an enumeration of a collection. Call this method with the cursor to be initialized as a parameter 
@@ -91,7 +91,7 @@ Begins an enumeration of a collection. Call this method with the cursor to be in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-empty">Empty</a>
+<a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-empty">Empty</a>
 </td>
 <td align="left" width="63%">
 Empties out the list, releasing all held pointers.
@@ -100,7 +100,7 @@ Empties out the list, releasing all held pointers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-endenum">EndEnum</a>
+<a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-endenum">EndEnum</a>
 </td>
 <td align="left" width="63%">
 Ends enumeration of a collection. Call this method when the enumerating operation is finished.
@@ -109,10 +109,10 @@ Ends enumeration of a collection. Call this method when the enumerating operatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-getnext">GetNext</a>
+<a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-getnext">GetNext</a>
 </td>
 <td align="left" width="63%">
-Gets next item from the list and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
+Gets next item from the list and calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
      method to increment the reference count. (The user must release the pointer when done and pass in the same cursor 
      each time.)
 
@@ -120,7 +120,7 @@ Gets next item from the list and calls the <a href="https://docs.microsoft.com/w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-getsize">GetSize</a>
+<a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Returns the number of items in the list.
@@ -129,7 +129,7 @@ Returns the number of items in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-trefpointercollection(consttrefpointercollection_)">TRefPointerCollection</a>
+<a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-trefpointercollection(consttrefpointercollection_)">TRefPointerCollection</a>
 </td>
 <td align="left" width="63%">
 Constructs a new <b>TRefPointerCollection</b> object.
@@ -141,4 +141,3 @@ Constructs a new <b>TRefPointerCollection</b> object.
 ## -remarks
 
 The destructor for this class is <b>TRefPointerCollection::~TRefPointerCollection</b>.
-

@@ -68,13 +68,13 @@ The offset from the end of the range. An offset of 0 gets the character at the e
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-This method differs from <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getchar">ITextRange::GetChar</a> in the following ways:<ul>
+This method differs from <a href="/windows/desktop/api/tom/nf-tom-itextrange-getchar">ITextRange::GetChar</a> in the following ways:<ul>
 <li>It returns the UTF-32 character for the surrogate pair instead of the pair's lead code.</li>
 <li>It gets the character code, or codes, at the specified offset from the end of the range instead of the character at the start of the range. </li>
 </ul>
@@ -106,5 +106,4 @@ If <i>Offset</i> specifies a character before the start of the story or at the e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>

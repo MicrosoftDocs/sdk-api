@@ -60,7 +60,7 @@ A handle to an event for which you want to retrieve information.
 
 ### -param PropertyId [in]
 
-A flag that identifies the information to retrieve. For example, the query identifier or the path. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_event_property_id">EVT_EVENT_PROPERTY_ID</a> enumeration.
+A flag that identifies the information to retrieve. For example, the query identifier or the path. For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_event_property_id">EVT_EVENT_PROPERTY_ID</a> enumeration.
 
 ### -param PropertyValueBufferSize [in]
 
@@ -68,7 +68,7 @@ The size of the <i>PropertyValueBuffer</i> buffer, in bytes.
 
 ### -param PropertyValueBuffer [in]
 
-A caller-allocated buffer that will receive the information. The buffer contains an <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
+A caller-allocated buffer that will receive the information. The buffer contains an <a href="/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 
 ### -param PropertyValueBufferUsed [out]
 
@@ -101,7 +101,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. Use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
+The function failed. Use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 </td>
 </tr>
@@ -109,5 +109,4 @@ The function failed. Use the <a href="https://docs.microsoft.com/windows/desktop
 
 ## -remarks
 
-If the query that you passed to <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> was an XPath instead of a structured XML query, the query identifier will be zero and the path will be the path that you passed to the function.
-
+If the query that you passed to <a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> or <a href="/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> was an XPath instead of a structured XML query, the query identifier will be zero and the path will be the path that you passed to the function.

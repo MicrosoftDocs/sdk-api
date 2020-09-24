@@ -78,7 +78,7 @@ Returns <b>S_OK</b> if successful. The following table shows possible error valu
 </dl>
 </td>
 <td width="60%">
-The set must be persisted (see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">Commit</a> method) prior to starting collection.
+The set must be persisted (see the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">Commit</a> method) prior to starting collection.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The set must be persisted (see the <a href="https://docs.microsoft.com/previous-
 </dl>
 </td>
 <td width="60%">
-The system cannot find the path specified. This error occurs when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">RootPath</a> property specifies a directory that does not exist.
+The system cannot find the path specified. This error occurs when the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">RootPath</a> property specifies a directory that does not exist.
 
 </td>
 </tr>
@@ -108,23 +108,22 @@ The subdirectory or log file already exists. Try using a format to uniquely iden
 
 ## -remarks
 
-To determine the status of the collection, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_status">IDataCollectorSet::Status</a> property.
+To determine the status of the collection, access the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_status">IDataCollectorSet::Status</a> property.
 
-When the collection process is complete, PLA runs the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">data manager</a>, if enabled.
+When the collection process is complete, PLA runs the <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">data manager</a>, if enabled.
 
-To automatically start data collection on a schedule, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">IDataCollectorSet::Schedules</a>.
+To automatically start data collection on a schedule, see <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">IDataCollectorSet::Schedules</a>.
 
 If you start the set asynchronously, an event is written to the Microsoft-Windows-Diagnosis-PLA/Operational event log to indicate whether the collection process started (event 1003) or failed (event 1004).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">IDataCollectorSet::Schedules</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">IDataCollectorSet::Schedules</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-stop">IDataCollectorSet::Stop</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-stop">IDataCollectorSet::Stop</a>

@@ -88,7 +88,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -99,7 +99,7 @@ The structure of the data in <i>pbDataIn</i> and <i>ppbDataOut</i> is determined
 
 #### Examples
 
-The following C++ code demonstrates a service provider's implementation of <b>SACAuth</b>. It calls <a href="/previous-versions/ms868516(v=msdn.10)">CSecureChannelServer::SACAuth</a> on a previously created private <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
+The following C++ code demonstrates a service provider's implementation of <b>SACAuth</b>. It calls <a href="/previous-versions/ms868516(v=msdn.10)">CSecureChannelServer::SACAuth</a> on a previously created private <a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
 
 
 ```cpp
@@ -131,7 +131,7 @@ HRESULT CMyServiceProvider::SACAuth(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
+<a href="/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
 
 
 
@@ -139,5 +139,4 @@ HRESULT CMyServiceProvider::SACAuth(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>

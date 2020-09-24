@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>INTERNET_DIAGNOSTIC_SOCKET_INFO</b> structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> function when the INTERNET_OPTION_DIAGNOSTIC_SOCKET_INFO flag is passed to it together with a handle to an HTTP Request. The <b>INTERNET_DIAGNOSTIC_SOCKET_INFO</b> structure contains information about the socket associated with that HTTP Request.
+The <b>INTERNET_DIAGNOSTIC_SOCKET_INFO</b> structure is returned by the <a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> function when the INTERNET_OPTION_DIAGNOSTIC_SOCKET_INFO flag is passed to it together with a handle to an HTTP Request. The <b>INTERNET_DIAGNOSTIC_SOCKET_INFO</b> structure contains information about the socket associated with that HTTP Request.
 
 ## -struct-fields
 
@@ -119,10 +119,9 @@ Set if a proxy is being used to create a tunnel.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>

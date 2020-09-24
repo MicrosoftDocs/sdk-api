@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
- Retrieves an opaque structure of recovery data from KTM.  Recovery information is stored in a log on behalf of a resource manager (RM) by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-setenlistmentrecoveryinformation">SetEnlistmentRecoveryInformation</a> function.  After a failure, the RM can use the <b>GetEnlistmentRecoveryInformation</b> function to retrieve the information.
+ Retrieves an opaque structure of recovery data from KTM.  Recovery information is stored in a log on behalf of a resource manager (RM) by calling the <a href="/windows/desktop/api/ktmw32/nf-ktmw32-setenlistmentrecoveryinformation">SetEnlistmentRecoveryInformation</a> function.  After a failure, the RM can use the <b>GetEnlistmentRecoveryInformation</b> function to retrieve the information.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ A pointer to a variable that receives the actual number of bytes returned in the
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the possible error codes:
 
@@ -84,9 +84,8 @@ This call cannot be used with volatile transaction managers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-setenlistmentrecoveryinformation">SetEnlistmentRecoveryInformation</a>
-
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-setenlistmentrecoveryinformation">SetEnlistmentRecoveryInformation</a>

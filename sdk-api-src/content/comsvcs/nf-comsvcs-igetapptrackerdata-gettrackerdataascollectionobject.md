@@ -56,7 +56,7 @@ Retrieves tracking data for all COM+ applications in the form of a collection ob
 
 ### -param TopLevelCollection [out]
 
-On return, the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for a collection of tracker data.
+On return, the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for a collection of tracker data.
 
 ## -returns
 
@@ -64,11 +64,11 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 
 ## -remarks
 
-This method is primarily intended to enable applications that subscribe to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfoevents">IComTrackingInfoEvents</a> event interface to add support for <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a> with minimal changes to their code. The object returned by this method is identical to the object sent in calls to subscribers' <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomtrackinginfoevents-onnewtrackinginfo">IComTrackingInfoEvent::OnNewTrackingInfo</a> method, so that code for navigating and parsing this collection may be reused. 
+This method is primarily intended to enable applications that subscribe to the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfoevents">IComTrackingInfoEvents</a> event interface to add support for <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a> with minimal changes to their code. The object returned by this method is identical to the object sent in calls to subscribers' <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtrackinginfoevents-onnewtrackinginfo">IComTrackingInfoEvent::OnNewTrackingInfo</a> method, so that code for navigating and parsing this collection may be reused. 
 
 
 
-Applications should not expect this method to return newly updated tracking data any more frequently than the server's suggested polling interval (see <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getsuggestedpollinginterval">IGetAppTrackerData::GetSuggestedPollingInterval</a>). 
+Applications should not expect this method to return newly updated tracking data any more frequently than the server's suggested polling interval (see <a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getsuggestedpollinginterval">IGetAppTrackerData::GetSuggestedPollingInterval</a>). 
 
 
 
@@ -76,5 +76,4 @@ Note that the collection object returned by this method does not contain all tra
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>

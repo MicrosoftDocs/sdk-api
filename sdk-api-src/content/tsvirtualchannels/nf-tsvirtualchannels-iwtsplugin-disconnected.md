@@ -56,7 +56,7 @@ Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconn
 
 ### -param dwDisconnectCode [in]
 
-Code that identifies the disconnect reason. For the possible codes, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/imstscaxevents-ondisconnected">IMsTscAxEvents::OnDisconnected</a>.
+Code that identifies the disconnect reason. For the possible codes, see <a href="/windows/desktop/TermServ/imstscaxevents-ondisconnected">IMsTscAxEvents::OnDisconnected</a>.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns <b>S_OK</b> if the call completes successfully. Results in no action if 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsplugin">IWTSPlugin</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsplugin">IWTSPlugin</a>

@@ -59,7 +59,7 @@ Loads the symbol table for the specified module.
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param hFile [in]
 
@@ -88,7 +88,7 @@ If the image is a .pdb file, this parameter cannot be zero.
 ### -param Data [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-modload_data">MODLOAD_DATA</a> structure that represents headers other than the standard PE header. This parameter is optional and can be <b>NULL</b>.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-modload_data">MODLOAD_DATA</a> structure that represents headers other than the standard PE header. This parameter is optional and can be <b>NULL</b>.
 
 ### -param Flags [in]
 
@@ -118,7 +118,7 @@ Loads the module but not the symbols for the module.
 </td>
 <td width="60%">
 Creates a virtual module named <i>ModuleName</i> at the address specified in <i>BaseOfDll</i>. To add symbols to this module, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a> function.
 
 </td>
 </tr>
@@ -129,16 +129,16 @@ Creates a virtual module named <i>ModuleName</i> at the address specified in <i>
 If the function succeeds, the return value is the base address of the loaded module.
 
 If the function fails, the return value is zero. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the module is already loaded, the return value is zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_SUCCESS.
+If the module is already loaded, the return value is zero and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_SUCCESS.
 
 ## -remarks
 
-The symbol handler creates an entry for the module and if the deferred symbol loading option is turned off, an attempt is made to load the symbols. If deferred symbol loading is enabled, the module is marked as deferred and the symbols are not loaded until a reference is made to a symbol in the module. Therefore, you should always call the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a> function after calling <b>SymLoadModuleEx</b>.
+The symbol handler creates an entry for the module and if the deferred symbol loading option is turned off, an attempt is made to load the symbols. If deferred symbol loading is enabled, the module is marked as deferred and the symbols are not loaded until a reference is made to a symbol in the module. Therefore, you should always call the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a> function after calling <b>SymLoadModuleEx</b>.
 
 To unload the symbol table, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a> function.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -148,7 +148,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/loading-a-symbol-module">Loading a Symbol Module</a>.
+<a href="/windows/desktop/Debug/loading-a-symbol-module">Loading a Symbol Module</a>.
 
 <div class="code"></div>
 
@@ -160,17 +160,16 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-modload_data">MODLOAD_DATA</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-modload_data">MODLOAD_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a>

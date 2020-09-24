@@ -57,9 +57,9 @@ Deprecated. Sets the current navigation state. This method affects the cursor an
 
 ### -param bnstate [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ne-shdeprecated-bnstate">BNSTATE</a></b>
+Type: <b><a href="/windows/desktop/api/shdeprecated/ne-shdeprecated-bnstate">BNSTATE</a></b>
 
-The value from the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ne-shdeprecated-bnstate">BNSTATE</a> enumeration that indicates the navigation state.
+The value from the <a href="/windows/desktop/api/shdeprecated/ne-shdeprecated-bnstate">BNSTATE</a> enumeration that indicates the navigation state.
 
 
 
@@ -84,4 +84,3 @@ A navigation event has occurred.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -62,7 +62,7 @@ Retrieves the priority boost control state of the specified process.
 ### -param hProcess [in]
 
 A handle to the process. This handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+<a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access right.
 
@@ -75,25 +75,24 @@ A pointer to a variable that receives the priority boost control state. A value 
 If the function succeeds, the return value is nonzero. In that case, the variable pointed to by the <i>pDisablePriorityBoost</i> parameter receives the priority boost control state.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/priority-boosts">Priority Boosts</a>
+<a href="/windows/desktop/ProcThread/priority-boosts">Priority Boosts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
+<a href="/windows/desktop/ProcThread/child-processes">Processes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>
+<a href="/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost">SetProcessPriorityBoost</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost">SetProcessPriorityBoost</a>

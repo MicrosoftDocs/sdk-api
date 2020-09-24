@@ -53,25 +53,25 @@ api_name:
 Replaces the default or current input profile with the profile specified in this method.
     
 
-You can discover the current input profile by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-getinitialprofile">GetInitialProfile</a> method. This profile can be changed over time as media types are updated on input to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
+You can discover the current input profile by calling the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-getinitialprofile">GetInitialProfile</a> method. This profile can be changed over time as media types are updated on input to the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
 A custom profile can contain only one stream per major media type. For example, a custom profile can contain only a single audio stream.
 
-By default, the filter crossbar  has   profile default mode enabled, which means that you cannot set  a custom output profile. Before you can set a custom output profile, you must disable profile default mode by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a> method without the DEF_MODE_PROFILE flag.
+By default, the filter crossbar  has   profile default mode enabled, which means that you cannot set  a custom output profile. Before you can set a custom output profile, you must disable profile default mode by calling the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a> method without the DEF_MODE_PROFILE flag.
 
 ## -parameters
 
 ### -param pProfile [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a> interface for the profile that replaces the crossbar default profile.
+Pointer to the <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a> interface for the profile that replaces the crossbar default profile.
 
 ### -param pcOutputPins [in, out]
 
-On input, specifies the size of an array allocated to receive <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers for the output pins that correspond to the streams in the new profile. The <i>ppOutputPins</i> parameter points to this array. On output, if the call succeeds, gets the actual number of <b>IPin</b> pointers returned in the <i>ppOutputPins</i> output parameter.
+On input, specifies the size of an array allocated to receive <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers for the output pins that correspond to the streams in the new profile. The <i>ppOutputPins</i> parameter points to this array. On output, if the call succeeds, gets the actual number of <b>IPin</b> pointers returned in the <i>ppOutputPins</i> output parameter.
 
 ### -param ppOutputPins [in, out]
 
-On input, specifies a pointer to an array of uninitialized <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers. On output, if the call succeeds, the <b>IPin</b> pointers in the array are initialized to point to the filter output pins that have the media types listed in the new profile. The <i>pcOutputPins</i> parameter gives the number of elements in the array. The caller is responsible for freeing the <b>IPin</b> interface pointers returned in the array.
+On input, specifies a pointer to an array of uninitialized <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers. On output, if the call succeeds, the <b>IPin</b> pointers in the array are initialized to point to the filter output pins that have the media types listed in the new profile. The <i>pcOutputPins</i> parameter gives the number of elements in the array. The caller is responsible for freeing the <b>IPin</b> interface pointers returned in the array.
 
 ## -returns
 
@@ -130,21 +130,20 @@ Cannot set output profile because profile default mode is enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile </a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile </a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>

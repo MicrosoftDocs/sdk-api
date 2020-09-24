@@ -57,13 +57,13 @@ Enables or disables a set of lighting parameters within a device.
 
 ### -param Index [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Zero-based index of the set of lighting parameters that are the target of this method.
 
 ### -param Enable [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Value that indicates if the set of lighting parameters are being enabled or disabled. Set this parameter to <b>TRUE</b> to enable lighting with the parameters at the specified index, or <b>FALSE</b> to disable it.
 
@@ -75,7 +75,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -remarks
 
-If a value for LightIndex is outside the range of the light property sets assigned within the device, the <b>IDirect3DDevice9::LightEnable</b> method creates a light source represented by a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a> structure with the following properties and sets its enabled state to the value specified in bEnable.
+If a value for LightIndex is outside the range of the light property sets assigned within the device, the <b>IDirect3DDevice9::LightEnable</b> method creates a light source represented by a <a href="/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a> structure with the following properties and sets its enabled state to the value specified in bEnable.
 
 <table>
 <tr>
@@ -164,17 +164,16 @@ If a value for LightIndex is outside the range of the light property sets assign
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlight">IDirect3DDevice9::GetLight</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlight">IDirect3DDevice9::GetLight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable">IDirect3DDevice9::GetLightEnable</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable">IDirect3DDevice9::GetLightEnable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a>
-
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a>

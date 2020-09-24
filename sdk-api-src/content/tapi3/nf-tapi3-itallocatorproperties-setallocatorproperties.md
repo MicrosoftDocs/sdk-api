@@ -68,9 +68,8 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 <b>This method should be used with extreme care.</b> The quality of the sound may suffer if the values entered for this method are not optimal for the MSP. Therefore, the application should know exactly the properties preferred by the MSP before calling this method. Under Windows 2000, properties entered during calls to this method are ignored if they are not optimal. Under Windows XP, these values are not ignored and the application must be more knowledgeable.
 
 If the application is only concerned with setting consistent buffer sizes, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setbuffersize">ITAllocatorProperties::SetBufferSize</a> method should be used instead. This guarantees the application is provided with the specified buffer size.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setbuffersize">ITAllocatorProperties::SetBufferSize</a> method should be used instead. This guarantees the application is provided with the specified buffer size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itallocatorproperties">ITAllocatorProperties</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itallocatorproperties">ITAllocatorProperties</a>

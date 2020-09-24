@@ -106,11 +106,10 @@ NULL pointer argument.
 
 This method is provided so that Automation clients can iterate through the collection using a <code>For...Each</code> loop.
 
-The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread. (C++ applications should generally use the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfeatures-get_item">IMSVidFeatures::get_Item</a> method instead.)
+The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread. (C++ applications should generally use the <a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-get_item">IMSVidFeatures::get_Item</a> method instead.)
 
 If the method succeeds, the <b>IEnumVARIANT</b> interface has an outstanding reference count. The caller must release the interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures Interface</a>

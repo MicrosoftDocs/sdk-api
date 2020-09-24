@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets the graphics file to appear on the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Gets the graphics file to appear on the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 
 This property is read/write.
@@ -68,9 +68,8 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
-
+<a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>

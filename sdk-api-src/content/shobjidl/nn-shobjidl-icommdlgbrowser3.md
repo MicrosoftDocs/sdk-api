@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>, and used by the common file dialog boxes when they host a Shell browser.
+Extends the capabilities of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>, and used by the common file dialog boxes when they host a Shell browser.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommDlgBrowser3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>. <b>ICommDlgBrowser3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommDlgBrowser3</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>. <b>ICommDlgBrowser3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICommDlgBrowser3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icommdlgbrowser3-getcurrentfilter">GetCurrentFilter</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-icommdlgbrowser3-getcurrentfilter">GetCurrentFilter</a>
 </td>
 <td align="left" width="63%">
 Gets the current filter as a Unicode string.
@@ -78,19 +78,19 @@ Gets the current filter as a Unicode string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icommdlgbrowser3-oncolumnclicked">OnColumnClicked</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-icommdlgbrowser3-oncolumnclicked">OnColumnClicked</a>
 </td>
 <td align="left" width="63%">
-Called after a specified column is clicked in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
+Called after a specified column is clicked in the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icommdlgbrowser3-onpreviewcreated">OnPreViewCreated</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-icommdlgbrowser3-onpreviewcreated">OnPreViewCreated</a>
 </td>
 <td align="left" width="63%">
-Called after a specified preview is created in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
+Called after a specified preview is created in the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
 
 </td>
 </tr>
@@ -98,7 +98,6 @@ Called after a specified preview is created in the <a href="https://docs.microso
 
 ## -remarks
 
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a> interfaces, from which it inherits.
+This interface also provides the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a> and <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a> interfaces, from which it inherits.
 
-A pointer to <b>ICommDlgBrowser3</b> can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a> object.
-
+A pointer to <b>ICommDlgBrowser3</b> can be obtained by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a> object.

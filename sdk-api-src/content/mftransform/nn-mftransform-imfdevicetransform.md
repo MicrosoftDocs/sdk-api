@@ -54,7 +54,7 @@ This section contains reference information for the <b>IMFDeviceTransform</b> in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDeviceTransform</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDeviceTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDeviceTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDeviceTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFDeviceTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-flushinputstream">FlushInputStream</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-flushinputstream">FlushInputStream</a>
 </td>
 <td align="left" width="63%">
 The <b>FlushInputStream</b> method flushes a Device MFT’s input stream.
@@ -78,7 +78,7 @@ The <b>FlushInputStream</b> method flushes a Device MFT’s input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-flushoutputstream">FlushOutputStream</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-flushoutputstream">FlushOutputStream</a>
 </td>
 <td align="left" width="63%">
 The <b>FlushOutputStream</b> method flushes a Device MFT’s output stream.
@@ -87,7 +87,7 @@ The <b>FlushOutputStream</b> method flushes a Device MFT’s output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputavailabletype">GetInputAvailableType</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputavailabletype">GetInputAvailableType</a>
 </td>
 <td align="left" width="63%">
 The <b>GetInputAvailableType</b> method gets an available media type for an input stream on this Media Foundation transform (MFT).
@@ -96,7 +96,7 @@ The <b>GetInputAvailableType</b> method gets an available media type for an inpu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputcurrenttype">GetInputCurrentType</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputcurrenttype">GetInputCurrentType</a>
 </td>
 <td align="left" width="63%">
 The <b>GetInputCurrentType</b> method gets the current media type for an input stream on this Media Foundation transform (MFT).
@@ -105,7 +105,7 @@ The <b>GetInputCurrentType</b> method gets the current media type for an input s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputstreamattributes">GetInputStreamAttributes</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputstreamattributes">GetInputStreamAttributes</a>
 </td>
 <td align="left" width="63%">
 The <b>GetInputStreamAttributes</b> method gets the attribute store for an input stream on this Media Foundation transform (MFT).
@@ -114,7 +114,7 @@ The <b>GetInputStreamAttributes</b> method gets the attribute store for an input
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputstreampreferredstate">GetInputStreamPreferredState</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputstreampreferredstate">GetInputStreamPreferredState</a>
 </td>
 <td align="left" width="63%">
 The <b>GetInputStreamPreferredState</b> method gets a Device MFT input stream’s preferred state and media type.
@@ -123,7 +123,7 @@ The <b>GetInputStreamPreferredState</b> method gets a Device MFT input stream’
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputstreamstate">GetInputStreamState</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getinputstreamstate">GetInputStreamState</a>
 </td>
 <td align="left" width="63%">
 The  <b>GetInputStreamState</b> method gets the Device MFT’s input stream state.
@@ -132,7 +132,7 @@ The  <b>GetInputStreamState</b> method gets the Device MFT’s input stream stat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getoutputavailabletype">GetOutputAvailableType</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getoutputavailabletype">GetOutputAvailableType</a>
 </td>
 <td align="left" width="63%">
 The <b>GetOutputAvailableType</b> method gets an available media type for an output stream on this Media Foundation transform (MFT).
@@ -141,7 +141,7 @@ The <b>GetOutputAvailableType</b> method gets an available media type for an out
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getoutputcurrenttype">GetOutputCurrentType</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getoutputcurrenttype">GetOutputCurrentType</a>
 </td>
 <td align="left" width="63%">
 The <b>GetOutputCurrentType</b> method gets the current media type for an output stream on this Media Foundation transform (MFT).
@@ -150,7 +150,7 @@ The <b>GetOutputCurrentType</b> method gets the current media type for an output
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getoutputstreamattributes">GetOutputStreamAttributes</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getoutputstreamattributes">GetOutputStreamAttributes</a>
 </td>
 <td align="left" width="63%">
 The <b>GetOutputStreamAttributes</b> method gets the attribute store for an output stream on this Media Foundation transform (MFT).
@@ -159,7 +159,7 @@ The <b>GetOutputStreamAttributes</b> method gets the attribute store for an outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getoutputstreamstate">GetOutputStreamState</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getoutputstreamstate">GetOutputStreamState</a>
 </td>
 <td align="left" width="63%">
 The  <b>GetOutputStreamState</b> method gets the Device MFT’s output stream state.
@@ -168,7 +168,7 @@ The  <b>GetOutputStreamState</b> method gets the Device MFT’s output stream st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamcount">GetStreamCount</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamcount">GetStreamCount</a>
 </td>
 <td align="left" width="63%">
 The <b>GetStreamCount</b> method gets the current number of input and output streams on this Media Foundation transform (MFT).
@@ -177,7 +177,7 @@ The <b>GetStreamCount</b> method gets the current number of input and output str
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamids">GetStreamIDs</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamids">GetStreamIDs</a>
 </td>
 <td align="left" width="63%">
 The  <b>GetStreamIDs</b> method gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
@@ -186,7 +186,7 @@ The  <b>GetStreamIDs</b> method gets the stream identifiers for the input and ou
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-initializetransform">InitializeTransform</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-initializetransform">InitializeTransform</a>
 </td>
 <td align="left" width="63%">
 <b>InitializeTransform</b> is called to initialize the Device MFT.
@@ -195,7 +195,7 @@ The  <b>GetStreamIDs</b> method gets the stream identifiers for the input and ou
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processevent">ProcessEvent</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processevent">ProcessEvent</a>
 </td>
 <td align="left" width="63%">
 The <b>ProcessEvent</b> method sends an event to an input stream on this Media Foundation transform (MFT).
@@ -204,7 +204,7 @@ The <b>ProcessEvent</b> method sends an event to an input stream on this Media F
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processinput">ProcessInput</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processinput">ProcessInput</a>
 </td>
 <td align="left" width="63%">
 The <b>ProcessInput</b> method delivers data to an input stream on this Media Foundation transform (MFT).
@@ -213,7 +213,7 @@ The <b>ProcessInput</b> method delivers data to an input stream on this Media Fo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processmessage">ProcessMessage</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processmessage">ProcessMessage</a>
 </td>
 <td align="left" width="63%">
 The    <b>ProcessMessage</b> method sends a message to the Device Media Foundation transform (MFT).
@@ -222,7 +222,7 @@ The    <b>ProcessMessage</b> method sends a message to the Device Media Foundati
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processoutput">ProcessOutput</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processoutput">ProcessOutput</a>
 </td>
 <td align="left" width="63%">
 The <b>ProcessOutput</b> method gets the processed output from the Device MFT output streams.
@@ -231,7 +231,7 @@ The <b>ProcessOutput</b> method gets the processed output from the Device MFT ou
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-setinputstreamstate">SetInputStreamState</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-setinputstreamstate">SetInputStreamState</a>
 </td>
 <td align="left" width="63%">
 The <b>SetInputStreamState</b> method sets the Device MFT input stream state and media type.
@@ -240,7 +240,7 @@ The <b>SetInputStreamState</b> method sets the Device MFT input stream state and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-setoutputstreamstate">SetOutputStreamState</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-setoutputstreamstate">SetOutputStreamState</a>
 </td>
 <td align="left" width="63%">
 The <b>SetOutputStreamState</b> method sets the Device MFT output stream state and media type.
@@ -248,4 +248,3 @@ The <b>SetOutputStreamState</b> method sets the Device MFT output stream state a
 </td>
 </tr>
 </table>
-

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the object transform that was used to render ink.
+Gets the <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the object transform that was used to render ink.
 
 ## -parameters
 
 ### -param ObjectTransform [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the geometric transformation - rotation, scaling, shear, and reflection - values to use to transform the stroke coordinates within the ink space.
+The <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the geometric transformation - rotation, scaling, shear, and reflection - values to use to transform the stroke coordinates within the ink space.
 
 ## -returns
 
@@ -109,7 +109,7 @@ Any translations applied to this transform should be in ink space units (1 unit 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">GetViewTransform Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">GetViewTransform Method</a>
 
 
 
@@ -117,13 +117,12 @@ Any translations applied to this transform should be in ink space units (1 unit 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform">SetObjectTransform Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform">SetObjectTransform Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform">SetViewTransform Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform">SetViewTransform Method</a>

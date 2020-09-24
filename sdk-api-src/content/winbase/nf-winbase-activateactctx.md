@@ -60,7 +60,7 @@ The
 ### -param hActCtx [in]
 
 Handle to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information on the activation context that is to be made active.
+<a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information on the activation context that is to be made active.
 
 ### -param lpCookie [out]
 
@@ -71,14 +71,14 @@ Pointer to a <b>ULONG_PTR</b> that functions as a cookie, uniquely identifying a
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
 The <i>lpCookie</i> parameter is later passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deactivateactctx">DeactivateActCtx</a>, which verifies the pairing of calls to 
+<a href="/windows/desktop/api/winbase/nf-winbase-deactivateactctx">DeactivateActCtx</a>, which verifies the pairing of calls to 
 <b>ActivateActCtx</b> and 
 <b>DeactivateActCtx</b> and ensures that the appropriate activation context is being deactivated. This is done because the deactivation of activation contexts must occur in the reverse order of activation.
 
@@ -88,9 +88,8 @@ The top item of an activation context stack is the active, default-activation co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deactivateactctx">DeactivateActCtx</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-deactivateactctx">DeactivateActCtx</a>

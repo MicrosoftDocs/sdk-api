@@ -62,7 +62,7 @@ Represents a stack frame.
 ### -field AddrPC
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program counter. 
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program counter. 
 
 
 
@@ -76,12 +76,12 @@ An
 ### -field AddrReturn
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the return address.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the return address.
 
 ### -field AddrFrame
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the frame pointer. 
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the frame pointer. 
 
 
 
@@ -95,7 +95,7 @@ An
 ### -field AddrStack
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the stack pointer. 
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the stack pointer. 
 
 
 
@@ -109,12 +109,12 @@ An
 ### -field AddrBStore
 
 <b>Intel Itanium:  </b>An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the backing store (RsBSP).
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the backing store (RsBSP).
 
 ### -field FuncTableEntry
 
 On x86 computers, this member is an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
+<a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
 
 ### -field Params
 
@@ -131,17 +131,17 @@ This member is <b>TRUE</b> if this is a virtual frame.
 ### -field Reserved
 
 This member is used internally by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function.
 
 ### -field KdHelp
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
 
 ## -remarks
 
 This structure supersedes the <b>STACKFRAME</b> structure. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>STACKFRAME</b> is defined as follows in Dbghelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>STACKFRAME</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -167,21 +167,20 @@ typedef struct _tagSTACKFRAME {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ITfUIElementMgr::EnumUIElements</b> method returns <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface pointer to enumerate the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a>.
+The <b>ITfUIElementMgr::EnumUIElements</b> method returns <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface pointer to enumerate the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a>.
 
 ## -parameters
 
 ### -param ppEnum [in]
 
-[in] A pointer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface.
+[in] A pointer to receive the <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface.
 
 ## -returns
 
@@ -101,4 +101,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

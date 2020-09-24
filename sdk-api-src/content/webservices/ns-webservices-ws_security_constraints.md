@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 This structure specifies the security related constraints
-                as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_constraints">WS_POLICY_CONSTRAINTS</a>.
+                as part of <a href="/windows/desktop/api/webservices/ns-webservices-ws_policy_constraints">WS_POLICY_CONSTRAINTS</a>.
 
 ## -struct-fields
 
@@ -72,7 +72,7 @@ If a security property constraint is not specified for a given property,
                 
 
 Note that the defaults constraints for <a href="/windows/win32/api/webservices/ns-webservices-ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> 
-                    are the same as the defaults for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a>.
+                    are the same as the defaults for <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a>.
 
 ### -field securityPropertyConstraintCount
 
@@ -89,7 +89,7 @@ Any array of security binding constraints which taken as a unit specify
                 
 
 The type of each <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> corresponds
-                    to the types of security that is specified using a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding">WS_SECURITY_BINDING</a>structure.  Each security binding specifies one security token, and similarly,
+                    to the types of security that is specified using a <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_binding">WS_SECURITY_BINDING</a>structure.  Each security binding specifies one security token, and similarly,
                     each security binding constraint specifies constraints on one security token.
                 
 
@@ -102,4 +102,3 @@ The number of elements specified in the securityBindingConstraints
                 
 
 If this value is 0, then the securityBindingConstraints array may be <b>NULL</b>.
-

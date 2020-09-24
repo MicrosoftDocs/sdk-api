@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetKeyLengthList</b> method gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key lengths</a> supported by the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
+The <b>GetKeyLengthList</b> method gets the list of <a href="/windows/desktop/SecGloss/k-gly">key lengths</a> supported by the specified <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 ## -parameters
 
@@ -68,5 +68,4 @@ A pointer to a  <b>VARIANT</b> array of <b>VT_UI4</b> types that correspond to t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>

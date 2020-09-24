@@ -61,40 +61,39 @@ The size of the structure, in bytes.
 ### -field pfnGetTimeSysInfo
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a> function.
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a> function.
 
 ### -field pfnLogTimeProvEvent
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-logtimeproveventfunc">LogTimeProvEventFunc</a> function.
+<a href="/windows/desktop/api/timeprov/nc-timeprov-logtimeproveventfunc">LogTimeProvEventFunc</a> function.
 
 ### -field pfnAlertSamplesAvail
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-alertsamplesavailfunc">AlertSamplesAvailFunc</a> function.
+<a href="/windows/desktop/api/timeprov/nc-timeprov-alertsamplesavailfunc">AlertSamplesAvailFunc</a> function.
 
 ### -field pfnSetProviderStatus
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a> function.
+<a href="/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-alertsamplesavailfunc">AlertSamplesAvailFunc</a>
+<a href="/windows/desktop/api/timeprov/nc-timeprov-alertsamplesavailfunc">AlertSamplesAvailFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-logtimeproveventfunc">LogTimeProvEventFunc</a>
+<a href="/windows/desktop/api/timeprov/nc-timeprov-logtimeproveventfunc">LogTimeProvEventFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a>
+<a href="/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>
-
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>

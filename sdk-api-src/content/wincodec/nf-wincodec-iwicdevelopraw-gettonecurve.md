@@ -62,9 +62,9 @@ The size of the <i>pToneCurve</i> buffer.
 
 ### -param pToneCurve [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrawtonecurve">WICRawToneCurve</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/ns-wincodec-wicrawtonecurve">WICRawToneCurve</a>*</b>
 
-A pointer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrawtonecurve">WICRawToneCurve</a> of the raw image.
+A pointer that receives the <a href="/windows/desktop/api/wincodec/ns-wincodec-wicrawtonecurve">WICRawToneCurve</a> of the raw image.
 
 ### -param pcbActualToneCurveBufferSize [out]
 
@@ -77,4 +77,3 @@ A pointer that receives the size needed to obtain the tone curve structure.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

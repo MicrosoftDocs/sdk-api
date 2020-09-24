@@ -107,7 +107,7 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -116,11 +116,10 @@ An application calls the
 <b>RpcMgmtInqIfIds</b> function to obtain a vector of interface identifiers about the specified server from the RPC run-time library.
 
 The RPC run-time library allocates memory for the interface identifier vector. The application is responsible for calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a> function to release the memory used by this vector.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a> function to release the memory used by this vector.
 
 The server must be listening for remote procedure calls for this function to succeed.  If the server is not listening, the function fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a>

@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>LINEADDRESSCAPS</b> structure describes the capabilities of a specified address. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a> function and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddresscaps">TSPI_lineGetAddressCaps</a> function return the 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a> function and the 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddresscaps">TSPI_lineGetAddressCaps</a> function return the 
 <b>LINEADDRESSCAPS</b> structure.
 
 ## -struct-fields
@@ -97,68 +97,68 @@ Offset from the beginning of the structure to the variably sized device-specific
 ### -field dwAddressSharing
 
 Sharing mode of the address. This member can be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresssharing--constants">LINEADDRESSSHARING_ Constants</a>.
+<a href="/windows/desktop/Tapi/lineaddresssharing--constants">LINEADDRESSSHARING_ Constants</a>.
 
 ### -field dwAddressStates
 
 Address states changes for which the application may get notified in the LINE_ADDRESSSTATE message. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ constants</a>.
+<a href="/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ constants</a>.
 
 ### -field dwCallInfoStates
 
 Call information elements that are meaningful for all calls on this address. An application may get notified about changes in some of these states in 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callinfo">LINE_CALLINFO</a> messages. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallinfostate--constants">LINECALLINFOSTATE_ constants</a>.
+<a href="/windows/desktop/Tapi/line-callinfo">LINE_CALLINFO</a> messages. This member uses one or more of the 
+<a href="/windows/desktop/Tapi/linecallinfostate--constants">LINECALLINFOSTATE_ constants</a>.
 
 ### -field dwCallerIDFlags
 
 Party identifier information types that can be provided for calls on this address. The caller is the originator of the session. One or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
 
 ### -field dwCalledIDFlags
 
 Party identifier information types that can be provided for calls on this address. Here, "called" refers to the original destination. One or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
 
 ### -field dwConnectedIDFlags
 
 Party identifier information types that can be provided for calls on this address. One or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
 
 ### -field dwRedirectionIDFlags
 
 Party identifier information types that can be provided for calls on this address. Here, "redirection" is the new destination. One or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
 
 ### -field dwRedirectingIDFlags
 
 Party identifier information types that can be provided for calls on this address. Here, "redirecting" is the address which invoked redirection. One or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_ constants</a>.
 
 ### -field dwCallStates
 
 Call states that can be reported for calls on this address. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallstate--constants">LINECALLSTATE_ constants</a>.
+<a href="/windows/desktop/Tapi/linecallstate--constants">LINECALLSTATE_ constants</a>.
 
 ### -field dwDialToneModes
 
 Dial tone modes that can be reported for calls made on this address. This member is meaningful only if the <i>dialtone</i> call state can be reported. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedialtonemode--constants">LINEDIALTONEMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/linedialtonemode--constants">LINEDIALTONEMODE_ constants</a>.
 
 ### -field dwBusyModes
 
 Busy modes that can be reported for calls made on this address. This member is meaningful only if the <i>busy</i> call state can be reported. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linebusymode--constants">LINEBUSYMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/linebusymode--constants">LINEBUSYMODE_ constants</a>.
 
 ### -field dwSpecialInfo
 
 Special information types that can be reported for calls made on this address. This member is meaningful only if the <i>specialInfo</i> call state can be reported. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linespecialinfo--constants">LINESPECIALINFO_ constants</a>.
+<a href="/windows/desktop/Tapi/linespecialinfo--constants">LINESPECIALINFO_ constants</a>.
 
 ### -field dwDisconnectModes
 
 Disconnect modes that can be reported for calls made on this address. This member is meaningful only if the <i>disconnected</i> call state can be reported. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedisconnectmode--constants">LINEDISCONNECTMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/linedisconnectmode--constants">LINEDISCONNECTMODE_ constants</a>.
 
 ### -field dwMaxNumActiveCalls
 
@@ -179,22 +179,22 @@ Maximum number of parties that can join a single conference call on this address
 ### -field dwMaxNumTransConf
 
 Number of parties (including "self") that can be added in a conference call that is initiated as a generic consultation call using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetuptransfer">lineSetupTransfer</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetuptransfer">lineSetupTransfer</a>.
 
 ### -field dwAddrCapFlags
 
 Packed bit flags that describe a variety of address capabilities. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddrcapflags--constants">LINEADDRCAPFLAGS_ constants</a>.
+<a href="/windows/desktop/Tapi/lineaddrcapflags--constants">LINEADDRCAPFLAGS_ constants</a>.
 
 ### -field dwCallFeatures
 
 Switching capabilities or features available for all calls on this address using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallfeature--constants">LINECALLFEATURE_ Constants</a>. This member represents the call-related features that may possibly be available on an address (static availability as opposed to dynamic availability). Invoking a supported feature requires the call to be in the proper state and the underlying line device to be opened in a compatible mode. A zero in a bit position indicates that the corresponding feature is never available. A one indicates that the corresponding feature may be available if the application has the right privileges to the call and the call is in the appropriate state for the operation to be meaningful. This member allows an application to discover which call features can be (and which can never be) supported by the address.
+<a href="/windows/desktop/Tapi/linecallfeature--constants">LINECALLFEATURE_ Constants</a>. This member represents the call-related features that may possibly be available on an address (static availability as opposed to dynamic availability). Invoking a supported feature requires the call to be in the proper state and the underlying line device to be opened in a compatible mode. A zero in a bit position indicates that the corresponding feature is never available. A one indicates that the corresponding feature may be available if the application has the right privileges to the call and the call is in the appropriate state for the operation to be meaningful. This member allows an application to discover which call features can be (and which can never be) supported by the address.
 
 ### -field dwRemoveFromConfCaps
 
 Address's capabilities for removing calls from a conference call. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineremovefromconf--constants">LINEREMOVEFROMCONF_ constants</a>.
+<a href="/windows/desktop/Tapi/lineremovefromconf--constants">LINEREMOVEFROMCONF_ constants</a>.
 
 ### -field dwRemoveFromConfState
 
@@ -203,27 +203,27 @@ Uses the LINECALLSTATE_ constants to specify the state of the call after it has 
 ### -field dwTransferModes
 
 Address's capabilities for resolving transfer requests. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetransfermode--constants">LINETRANSFERMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/linetransfermode--constants">LINETRANSFERMODE_ constants</a>.
 
 ### -field dwParkModes
 
 Different call park modes available at this address. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineparkmode--constants">LINEPARKMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/lineparkmode--constants">LINEPARKMODE_ constants</a>.
 
 ### -field dwForwardModes
 
 Different modes of forwarding available for this address. This member uses the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineforwardmode--constants">LINEFORWARDMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/lineforwardmode--constants">LINEFORWARDMODE_ constants</a>.
 
 ### -field dwMaxForwardEntries
 
 Maximum number of entries that can be passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a> in the <i>lpForwardList</i> parameter.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a> in the <i>lpForwardList</i> parameter.
 
 ### -field dwMaxSpecificEntries
 
 Maximum number of entries in the <i>lpForwardList</i> parameter passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a> that can contain forwarding instructions based on a specific caller ID (selective call forwarding). This member is zero if selective call forwarding is not supported.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a> that can contain forwarding instructions based on a specific caller ID (selective call forwarding). This member is zero if selective call forwarding is not supported.
 
 ### -field dwMinFwdNumRings
 
@@ -264,17 +264,17 @@ Offset from the beginning of this data structure to the variably sized field con
 ### -field dwAddressFeatures
 
 Features available for this address using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddrfeature--constants">LINEADDRFEATURE_ Constants</a>. Invoking a supported feature requires the address to be in the proper state and the underlying line device to be opened in a compatible mode. A zero in a bit position indicates that the corresponding feature is never available. A one indicates that the corresponding feature may be available if the address is in the appropriate state for the operation to be meaningful. This member allows an application to discover which address features can be (and which can never be) supported by the address.
+<a href="/windows/desktop/Tapi/lineaddrfeature--constants">LINEADDRFEATURE_ Constants</a>. Invoking a supported feature requires the address to be in the proper state and the underlying line device to be opened in a compatible mode. A zero in a bit position indicates that the corresponding feature is never available. A one indicates that the corresponding feature may be available if the address is in the appropriate state for the operation to be meaningful. This member allows an application to discover which address features can be (and which can never be) supported by the address.
 
 ### -field dwPredictiveAutoTransferStates
 
 Call state or states upon which a call made by a predictive dialer can be set to automatically transfer the call to another address; one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallstate--constants">LINECALLSTATE_ Constants</a>. The value 0 indicates automatic transfer based on call state is unavailable.
+<a href="/windows/desktop/Tapi/linecallstate--constants">LINECALLSTATE_ Constants</a>. The value 0 indicates automatic transfer based on call state is unavailable.
 
 ### -field dwNumCallTreatments
 
 Number of entries in the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry">LINECALLTREATMENTENTRY</a> structures delimited by <b>dwCallTreatmentListSize</b> and <b>dwCallTreatmentListOffset</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry">LINECALLTREATMENTENTRY</a> structures delimited by <b>dwCallTreatmentListSize</b> and <b>dwCallTreatmentListOffset</b>.
 
 ### -field dwCallTreatmentListSize
 
@@ -283,8 +283,8 @@ Size of the call treatment array, in bytes.
 ### -field dwCallTreatmentListOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry">LINECALLTREATMENTENTRY</a> structures the specify the call treatments supported on the address (that can be selected using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcalltreatment">lineSetCallTreatment</a>). The value is <b>dwNumCallTreatments</b> times SIZEOF(LINECALLTREATMENTENTRY). The size of the field is specified by <b>dwCallTreatmentListSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry">LINECALLTREATMENTENTRY</a> structures the specify the call treatments supported on the address (that can be selected using 
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetcalltreatment">lineSetCallTreatment</a>). The value is <b>dwNumCallTreatments</b> times SIZEOF(LINECALLTREATMENTENTRY). The size of the field is specified by <b>dwCallTreatmentListSize</b>.
 
 ### -field dwDeviceClassesSize
 
@@ -293,39 +293,39 @@ Size of the list of supported device classes, in bytes.
 ### -field dwDeviceClassesOffset
 
 Offset from the beginning of the structure to a string consisting of the device class identifiers supported on this address for use with 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>. The elements are separated by <b>null</b> characters, and the last class identifier is followed by two <b>null</b> characters. The size of the field is specified by <b>dwDeviceClassesSize</b>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>. The elements are separated by <b>null</b> characters, and the last class identifier is followed by two <b>null</b> characters. The size of the field is specified by <b>dwDeviceClassesSize</b>.
 
 ### -field dwMaxCallDataSize
 
 Maximum number of bytes that an application can set in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcalldata">lineSetCallData</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> using 
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetcalldata">lineSetCallData</a>.
 
 ### -field dwCallFeatures2
 
 Additional switching capabilities or features available for all calls on this address using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallfeature2--constants">LINECALLFEATURE2_ Constants</a>. It is an extension of the <b>dwCallFeatures</b> member.
+<a href="/windows/desktop/Tapi/linecallfeature2--constants">LINECALLFEATURE2_ Constants</a>. It is an extension of the <b>dwCallFeatures</b> member.
 
 ### -field dwMaxNoAnswerTimeout
 
 Maximum value in seconds that can be set in the <b>dwNoAnswerTimeout</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> when making a call. A value of 0 indicates that automatic abandonment of unanswered calls is not supported by the service provider, or that the timeout value is not adjustable by applications.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> when making a call. A value of 0 indicates that automatic abandonment of unanswered calls is not supported by the service provider, or that the timeout value is not adjustable by applications.
 
 ### -field dwConnectedModes
 
 LINECONNECTEDMODE_ values that can appear in the <b>dwCallStateMode</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a> and in 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> messages for calls on this address.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a> and in 
+<a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> messages for calls on this address.
 
 ### -field dwOfferingModes
 
 LINEOFFERINGMODE_ values that can appear in the <b>dwCallStateMode</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a> and in LINE_CALLSTATE messages for calls on this address.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a> and in LINE_CALLSTATE messages for calls on this address.
 
 ### -field dwAvailableMediaModes
 
 Media types (modes) that can be invoked on new calls created on this address, when the <b>dwAddressFeatures</b> member indicates that new calls are possible. If this member is zero, it indicates that the service provider either does not know or cannot indicate which media types are available, in which case any or all of the media types indicated in the <b>dwMediaModes</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> may be available.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> may be available.
 
 ## -remarks
 
@@ -333,89 +333,88 @@ Device-specific extensions should use the <b>DevSpecific</b> (<b>dwDevSpecificSi
 
 Older applications are compiled without this member in the 
 <b>LINEADDRESSCAPS</b> structure, and using a SIZEOF(LINEADDRESSCAPS) smaller than the new size. The application passes in a <i>dwAPIVersion</i> parameter with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a> function, which can be used for guidance by TAPI in handling this situation. If the application passes in a <b>dwTotalSize</b> member less than the size of the fixed portion of the structure as defined in the <b>dwAPIVersion</b> member specified, LINEERR_STRUCTURETOOSMALL is returned. If sufficient memory has been allocated by the application, before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddresscaps">TSPI_lineGetAddressCaps</a>, TAPI sets the <b>dwNeededSize</b> and <b>dwUsedSize</b> members to the fixed size of the structure as it existed in the specified API version.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a> function, which can be used for guidance by TAPI in handling this situation. If the application passes in a <b>dwTotalSize</b> member less than the size of the fixed portion of the structure as defined in the <b>dwAPIVersion</b> member specified, LINEERR_STRUCTURETOOSMALL is returned. If sufficient memory has been allocated by the application, before calling 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddresscaps">TSPI_lineGetAddressCaps</a>, TAPI sets the <b>dwNeededSize</b> and <b>dwUsedSize</b> members to the fixed size of the structure as it existed in the specified API version.
 
 New service providers (that support the new API version) must examine the API version passed in. If the API version is less than the highest version supported by the provider, the service provider must not fill in fields not supported in older API versions, as these would fall in the variable portion of the older structure.
 
 New applications must be cognizant of the API version negotiated, and not examine the contents of fields in the fixed portion beyond the original end of the fixed portion of the structure for the negotiated API version. 
 
 The members <b>dwPredictiveAutoTransferStates</b> through <b>dwAvailableMediaModes</b> are available only to applications that request an API version of 2.0 or later when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry">LINECALLTREATMENTENTRY</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry">LINECALLTREATMENTENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a>
+<a href="/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callinfo">LINE_CALLINFO</a>
+<a href="/windows/desktop/Tapi/line-callinfo">LINE_CALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
+<a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
+<a href="/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddresscaps">TSPI_lineGetAddressCaps</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddresscaps">TSPI_lineGetAddressCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linecompletecall">lineCompleteCall</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linecompletecall">lineCompleteCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetaddresscaps">lineGetAddressCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcalldata">lineSetCallData</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetcalldata">lineSetCallData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcalltreatment">lineSetCallTreatment</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetcalltreatment">lineSetCallTreatment</a>

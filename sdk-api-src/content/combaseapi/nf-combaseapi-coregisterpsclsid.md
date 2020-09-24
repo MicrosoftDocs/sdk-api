@@ -72,11 +72,11 @@ This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY,
 
 ## -remarks
 
-Typically, the code responsible for marshaling an interface pointer into the current running process reads the <b>HKEY_CLASSES_ROOT\Interfaces</b> section of the registry to obtain the CLSID of the DLL containing the ProxyStub code to be loaded. To obtain the ProxyStub CLSIDs for an existing interface, the code calls the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetpsclsid">CoGetPSClsid</a> function.
+Typically, the code responsible for marshaling an interface pointer into the current running process reads the <b>HKEY_CLASSES_ROOT\Interfaces</b> section of the registry to obtain the CLSID of the DLL containing the ProxyStub code to be loaded. To obtain the ProxyStub CLSIDs for an existing interface, the code calls the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetpsclsid">CoGetPSClsid</a> function.
 
 
 
-In some cases, however, it may be desirable or necessary for an in-process handler or in-process server to make its custom interfaces available without writing to the registry. A DLL downloaded across a network may not even have permission to access the local registry, and because the code originated on another computer, the user, for security purposes, may want to run it in a restricted environment. Or a DLL may have custom interfaces that it uses to talk to a remote server and may also include the ProxyStub code for those interfaces. In such cases, a DLL needs an alternative way to register its interfaces. <b>CoRegisterPSClsid</b>, used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a>, provides that alternative.
+In some cases, however, it may be desirable or necessary for an in-process handler or in-process server to make its custom interfaces available without writing to the registry. A DLL downloaded across a network may not even have permission to access the local registry, and because the code originated on another computer, the user, for security purposes, may want to run it in a restricted environment. Or a DLL may have custom interfaces that it uses to talk to a remote server and may also include the ProxyStub code for those interfaces. In such cases, a DLL needs an alternative way to register its interfaces. <b>CoRegisterPSClsid</b>, used in conjunction with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a>, provides that alternative.
 
 
 #### Examples
@@ -104,9 +104,8 @@ HRESULT RegisterMyCustomInterface(DWORD *pdwRegistrationKey)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetpsclsid">CoGetPSClsid</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetpsclsid">CoGetPSClsid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a>

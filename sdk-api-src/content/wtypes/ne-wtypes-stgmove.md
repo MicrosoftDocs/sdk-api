@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>STGMOVE</b> enumeration values indicate whether a storage element is to be moved or copied. They are used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-moveelementto">IStorage::MoveElementTo</a> method.
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-moveelementto">IStorage::MoveElementTo</a> method.
 
 ## -enum-fields
 
@@ -72,5 +72,4 @@ Not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-moveelementto">IStorage::MoveElementTo</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-moveelementto">IStorage::MoveElementTo</a>

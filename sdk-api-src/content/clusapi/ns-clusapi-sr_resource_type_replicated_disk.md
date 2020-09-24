@@ -76,9 +76,8 @@ The name of the replication group..
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-sr_replicated_disk_type">SR_REPLICATED_DISK_TYPE</a>
-
+<a href="/windows/desktop/api/clusapi/ne-clusapi-sr_replicated_disk_type">SR_REPLICATED_DISK_TYPE</a>

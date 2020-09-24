@@ -60,11 +60,11 @@ Not used.
 
 ### -param pParameters [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the command parameters.
+The <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the command parameters.
 
 ### -param ppResults [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the command results.
+The <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the command results.
 
 ## -returns
 
@@ -72,22 +72,21 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 ## -remarks
 
-This method should only be used to send standard WPD commands to the service. To invoke service methods, use the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods">IPortableDeviceServiceMethods</a> interface.
+This method should only be used to send standard WPD commands to the service. To invoke service methods, use the <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods">IPortableDeviceServiceMethods</a> interface.
 
 This method may fail even though it returns <b>S_OK</b> as its <b>HRESULT</b> value. To determine if a command succeeded, an application should always examine the properties referenced by the <i>ppResults</i> parameter:
 
 <ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_HRESULT</a> property indicates if the command succeeded.</li>
-<li>If the command failed, the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_DRIVER_ERROR_CODE</a> property will contain driver-specific error codes.</li>
+<li>The <a href="/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_HRESULT</a> property indicates if the command succeeded.</li>
+<li>If the command failed, the <a href="/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_DRIVER_ERROR_CODE</a> property will contain driver-specific error codes.</li>
 </ul>
 The object referenced by the <i>pParameters</i> parameter must specify at least these properties:
 
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-common-reset-device-command">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
-<li><a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-common-reset-device-command">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
+<li><a href="/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="/windows/desktop/wpd_sdk/wpd-command-common-reset-device-command">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
+<li><a href="/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="/windows/desktop/wpd_sdk/wpd-command-common-reset-device-command">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>

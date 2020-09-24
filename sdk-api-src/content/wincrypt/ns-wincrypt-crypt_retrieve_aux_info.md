@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_RETRIEVE_AUX_INFO</b> structure contains optional information to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> function. All unused members of this structure must contain zero.
+The <b>CRYPT_RETRIEVE_AUX_INFO</b> structure contains optional information to pass to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> function. All unused members of this structure must contain zero.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ The size, in bytes, of the structure.
 
 ### -field pLastSyncTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of the last synchronization of the data retrieved.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of the last synchronization of the data retrieved.
 
 ### -field dwMaxUrlRetrievalByteCount
 
@@ -76,12 +76,12 @@ A pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-cryptnet_url_cac
 
 ### -field pFlushInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cryptnet_url_cache_flush_info">CRYPTNET_URL_CACHE_FLUSH_INFO</a> structure. To get flush information, set its <b>cbSize</b> upon input. For no flush information, except for <b>cbSize</b>, the data structure
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cryptnet_url_cache_flush_info">CRYPTNET_URL_CACHE_FLUSH_INFO</a> structure. To get flush information, set its <b>cbSize</b> upon input. For no flush information, except for <b>cbSize</b>, the data structure
     contains zero upon return.
 
 ### -field ppResponseInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cryptnet_url_cache_response_info">PCRYPTNET_URL_CACHE_RESPONSE_INFO</a> structure. To get response information, set the pointer to the address of a <b>CRYPTNET_URL_CACHE_RESPONSE_INFO</b> pointer updated with the allocated structure. For no response information, <b>ppResponseInfo</b> is set to <b>NULL</b>. If it is not <b>NULL</b>, it must be freed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cryptnet_url_cache_response_info">PCRYPTNET_URL_CACHE_RESPONSE_INFO</a> structure. To get response information, set the pointer to the address of a <b>CRYPTNET_URL_CACHE_RESPONSE_INFO</b> pointer updated with the allocated structure. For no response information, <b>ppResponseInfo</b> is set to <b>NULL</b>. If it is not <b>NULL</b>, it must be freed by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
 
 ### -field pwszCacheFileNamePrefix
 
@@ -89,11 +89,11 @@ A pointer to a string that contains a prefix for a cached file name. If not <b>N
 
 ### -field pftCacheResync
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies a cache synchronization time. If not <b>NULL</b>, any information cached before this time is considered time invalid. For a <b>CRYPT_CACHE_ONLY_RETRIEVAL</b>, if there is a cached entry before this time, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> returns <b>ERROR_INVALID_TIME</b>. When used with an HTTP retrieval, this specifies the maximum age for a time-valid object.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies a cache synchronization time. If not <b>NULL</b>, any information cached before this time is considered time invalid. For a <b>CRYPT_CACHE_ONLY_RETRIEVAL</b>, if there is a cached entry before this time, <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> returns <b>ERROR_INVALID_TIME</b>. When used with an HTTP retrieval, this specifies the maximum age for a time-valid object.
 
 ### -field fProxyCacheRetrieval
 
-A value that indicates whether <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> was called with <b>CRYPT_PROXY_CACHE_RETRIEVAL</b> set in <i>dwRetrievalFlags</i> and a proxy cache was not explicitly bypassed for the retrieval. This flag is not explicitly cleared and only applies to HTTP URL retrievals.
+A value that indicates whether <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> was called with <b>CRYPT_PROXY_CACHE_RETRIEVAL</b> set in <i>dwRetrievalFlags</i> and a proxy cache was not explicitly bypassed for the retrieval. This flag is not explicitly cleared and only applies to HTTP URL retrievals.
 
 ### -field dwHttpStatusCode
 
@@ -102,4 +102,3 @@ A value that specifies a status code from an unsuccessful HTTP response header. 
 ### -field ppwszErrorResponseHeaders
 
 ### -field ppErrorContentBlob
-

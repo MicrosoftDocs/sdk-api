@@ -61,7 +61,7 @@ Zero-based index of the stream.
 
 ### -param ppmt [out]
 
-Address of a variable that receives a pointer to the stream's media type. This parameter is optional and can be <b>NULL</b>. If the value is non-<b>NULL</b>, the method returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The caller must delete the structure, including the format block. (You can use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> function from the DirectShow base-class library.)
+Address of a variable that receives a pointer to the stream's media type. This parameter is optional and can be <b>NULL</b>. If the value is non-<b>NULL</b>, the method returns a pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The caller must delete the structure, including the format block. (You can use the <a href="/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> function from the DirectShow base-class library.)
 
 ### -param pdwFlags [out]
 
@@ -107,11 +107,11 @@ Address of a variable that receives a pointer to the stream name. The caller mus
 
 Address of a variable that receives an <b>IUnknown</b> interface pointer. The method might return a pointer to a pin or filter associated with the stream, or it might return the value <b>NULL</b>. If the method returns a non-<b>NULL</b> value, the caller must release the <b>IUnknown</b> pointer.
 
-Calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamselect-enable">IAMStreamSelect::Enable</a> method might invalidate the object returned by this method.
+Calling the <a href="/windows/desktop/api/strmif/nf-strmif-iamstreamselect-enable">IAMStreamSelect::Enable</a> method might invalidate the object returned by this method.
 
 This parameter is optional and can be <b>NULL</b>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-stream-splitter-filter">MPEG-1 Stream Splitter</a>, <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-splitter">MPEG-2 Splitter</a>, and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/sami--cc--parser-filter">SAMI (CC) Parser</a> filters return a pointer to the pin associated with the selected stream.
+The <a href="/windows/desktop/DirectShow/mpeg-1-stream-splitter-filter">MPEG-1 Stream Splitter</a>, <a href="/windows/desktop/DirectShow/mpeg-2-splitter">MPEG-2 Splitter</a>, and <a href="/windows/desktop/DirectShow/sami--cc--parser-filter">SAMI (CC) Parser</a> filters return a pointer to the pin associated with the selected stream.
 
 ### -param ppUnk [out]
 
@@ -176,9 +176,8 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamselect">IAMStreamSelect Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamstreamselect">IAMStreamSelect Interface</a>

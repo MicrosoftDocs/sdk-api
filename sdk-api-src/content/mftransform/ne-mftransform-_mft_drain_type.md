@@ -53,7 +53,7 @@ api_name:
 Not supported.
 
 
-<div class="alert"><b>Note</b>  Earlier versions of this documentation described the <b>_MFT_DRAIN_TYPE</b> enumeration incorrectly. The enumeration is not supported. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-mft_message_type">MFT_MESSAGE_TYPE</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  Earlier versions of this documentation described the <b>_MFT_DRAIN_TYPE</b> enumeration incorrectly. The enumeration is not supported. For more information, see <a href="/windows/desktop/api/mftransform/ne-mftransform-mft_message_type">MFT_MESSAGE_TYPE</a>.</div><div> </div>
 
 ## -enum-fields
 
@@ -67,5 +67,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

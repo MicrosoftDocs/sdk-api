@@ -62,11 +62,11 @@ The <b>CreateNewStream</b> method creates a stream configuration object. You can
 
 ### -param guidStreamType [in]
 
-GUID object specifying the major media type for the stream to be created (for example, WMMEDIATYPE_Video). The supported major types are listed in <a href="https://docs.microsoft.com/windows/desktop/wmformat/media-types">Media Types</a>.
+GUID object specifying the major media type for the stream to be created (for example, WMMEDIATYPE_Video). The supported major types are listed in <a href="/windows/desktop/wmformat/media-types">Media Types</a>.
 
 ### -param ppConfig [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface of the created stream configuration object.
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface of the created stream configuration object.
 
 ## -returns
 
@@ -114,23 +114,22 @@ There is not enough available memory.
 
 ## -remarks
 
-It is not possible to have a stream configuration object other than as an element of a profile. After the stream has been configured, this object must be added to the profile by using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addstream">AddStream</a> method.
+It is not possible to have a stream configuration object other than as an element of a profile. After the stream has been configured, this object must be added to the profile by using the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addstream">AddStream</a> method.
 
 When <b>CreateNewStream</b> is called, a valid stream number is specified for the new stream. Stream numbers are in the range of 1 through 63.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
+<a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/stream-configuration-object">Stream Configuration Object</a>
-
+<a href="/windows/desktop/wmformat/stream-configuration-object">Stream Configuration Object</a>

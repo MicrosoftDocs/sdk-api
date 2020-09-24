@@ -114,5 +114,4 @@ If the stream already has allocated samples and the sample format doesn't match 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
-
+<a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>

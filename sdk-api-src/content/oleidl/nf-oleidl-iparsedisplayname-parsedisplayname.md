@@ -56,7 +56,7 @@ Parses the specified display name and creates a corresponding moniker.
 
 ### -param pbc [in]
 
-A pointer to the bind context to be used in this binding operation. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>.
+A pointer to the bind context to be used in this binding operation. See <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>.
 
 ### -param pszDisplayName [in]
 
@@ -68,7 +68,7 @@ A pointer to a variable that receives the number of characters in the display na
 
 ### -param ppmkOut [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to the resulting moniker. If an error occurs, the implementation sets *<i>ppmkOut</i> to <b>NULL</b>. If *<i>ppmkOut</i> is non-<b>NULL</b>, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to the resulting moniker. If an error occurs, the implementation sets *<i>ppmkOut</i> to <b>NULL</b>. If *<i>ppmkOut</i> is non-<b>NULL</b>, the implementation must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>; it is the caller's responsibility to call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
 
 ## -returns
 
@@ -129,25 +129,24 @@ One or more parameters are not valid.
 
 In general, the maximum prefix of <i>pszDisplayName</i> that is syntactically valid and that represents an object should be consumed by this method and converted to a moniker.
 
-Typically, this method is called by <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> or <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a>. In the initial step of the parsing operation, these functions can retrieve the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a> interface directly from an instance of a class identified with either the "@ProgID" or "ProgID" notation. Subsequent parsing steps can query for the interface on an intermediate object.
+Typically, this method is called by <a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> or <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a>. In the initial step of the parsing operation, these functions can retrieve the <a href="/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a> interface directly from an instance of a class identified with either the "@ProgID" or "ProgID" notation. Subsequent parsing steps can query for the interface on an intermediate object.
 
-The main loops of <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> and <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a> find the next moniker piece by calling the equivalent method in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface, that is, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a>, on the moniker that it currently holds. In this call to <b>IMoniker::ParseDisplayName</b>, the <b>MkParseDisplayName</b> or <b>MkParseDisplayNameEx</b> function passes <b>NULL</b> in the <i>pmkToLeft</i> parameter. If the moniker currently held is a generic composite, the call to <b>IMoniker::ParseDisplayName</b> is forwarded by that composite onto its last piece, passing the prefix of the composite to the left of the piece in <i>pmkToLeft</i>.
+The main loops of <a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> and <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a> find the next moniker piece by calling the equivalent method in the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface, that is, <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a>, on the moniker that it currently holds. In this call to <b>IMoniker::ParseDisplayName</b>, the <b>MkParseDisplayName</b> or <b>MkParseDisplayNameEx</b> function passes <b>NULL</b> in the <i>pmkToLeft</i> parameter. If the moniker currently held is a generic composite, the call to <b>IMoniker::ParseDisplayName</b> is forwarded by that composite onto its last piece, passing the prefix of the composite to the left of the piece in <i>pmkToLeft</i>.
 
-Some moniker classes will be able to handle this parsing internally to themselves because they are designed to designate only certain kinds of objects. Others will need to bind to the object that they designate to accomplish the parsing process. As is usual, these objects should not be released by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a> but instead should be transferred to the bind context via <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">IBindCtx::RegisterObjectBound</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a> followed by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a> for release at a later time.
+Some moniker classes will be able to handle this parsing internally to themselves because they are designed to designate only certain kinds of objects. Others will need to bind to the object that they designate to accomplish the parsing process. As is usual, these objects should not be released by <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a> but instead should be transferred to the bind context via <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">IBindCtx::RegisterObjectBound</a> or <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a> followed by <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a> for release at a later time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a>
-
+<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a>

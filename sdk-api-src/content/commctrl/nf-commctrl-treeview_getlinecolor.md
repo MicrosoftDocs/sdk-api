@@ -50,21 +50,20 @@ api_name:
 
 ## -description
 
-Gets the current line color. You can also use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getlinecolor">TVM_GETLINECOLOR</a> message directly.
+Gets the current line color. You can also use the <a href="/windows/desktop/Controls/tvm-getlinecolor">TVM_GETLINECOLOR</a> message directly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
 ## -remarks
 
-This message only retrieves line colors. To retrieve the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_gettextcolor">TreeView_GetTextColor</a> macro.
+This message only retrieves line colors. To retrieve the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_gettextcolor">TreeView_GetTextColor</a> macro.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getlinecolor">TVM_GETLINECOLOR</a>
-
+<a href="/windows/desktop/Controls/tvm-getlinecolor">TVM_GETLINECOLOR</a>

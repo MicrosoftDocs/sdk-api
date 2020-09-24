@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ICertSrvSetupKeyInformationCollection</b> interface defines functionality to populate and enumerate a collection of <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> objects. Microsoft provides an implementation of this interface in the <b>CCertSrvSetupKeyInformationCollection</b> class. You cannot create an external instance of this interface. You obtain this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getexistingcacertificates">GetExistingCACertificates</a> method.
+The <b>ICertSrvSetupKeyInformationCollection</b> interface defines functionality to populate and enumerate a collection of <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> objects. Microsoft provides an implementation of this interface in the <b>CCertSrvSetupKeyInformationCollection</b> class. You cannot create an external instance of this interface. You obtain this interface by calling the <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getexistingcacertificates">GetExistingCACertificates</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetupKeyInformationCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICertSrvSetupKeyInformationCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetupKeyInformationCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICertSrvSetupKeyInformationCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>ICertSrvSetupKeyInformationCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-add">Add</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object to the collection.
+Adds an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object to the collection.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Adds an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-caset
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Gets an enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get_count">Count</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get_count">Count</a>
 
 
 </td>
@@ -113,14 +113,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the number of <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> objects in the collection.
+Gets the number of <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get_item">Item</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get_item">Item</a>
 
 
 </td>
@@ -129,9 +129,8 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object that is identified by index in the collection.
+Gets an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object that is identified by index in the collection.
 
 </td>
 </tr>
 </table>
-

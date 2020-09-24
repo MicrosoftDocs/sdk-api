@@ -79,7 +79,7 @@ Type: <b>UINT</b>
 
 If the function succeeds, the return value identifies the registered clipboard format.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -93,7 +93,7 @@ When registered clipboard formats are placed on or retrieved from the clipboard,
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-the-clipboard">Registering a Clipboard Format</a>. 
+For an example, see <a href="/windows/desktop/dataxchg/using-the-clipboard">Registering a Clipboard Format</a>. 
 
 
 
@@ -107,7 +107,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
+<a href="/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -115,17 +115,16 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-countclipboardformats">CountClipboardFormats</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-countclipboardformats">CountClipboardFormats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumclipboardformats">EnumClipboardFormats</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumclipboardformats">EnumClipboardFormats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboardformatnamea">GetClipboardFormatName</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclipboardformatnamea">GetClipboardFormatName</a>
 
 
 
 <b>Reference</b>
-

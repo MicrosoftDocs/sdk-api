@@ -76,9 +76,8 @@ The <i>y</i> coordinate of the mouse pointer relative to the upper-left corner o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-mousedown">MouseDown</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-mousedown">MouseDown</a>

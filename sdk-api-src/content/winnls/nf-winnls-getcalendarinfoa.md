@@ -62,48 +62,48 @@ api_name:
 ## -description
 
 Retrieves information about a calendar for a locale specified by identifier.
-<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcalendarinfoex">GetCalendarInfoEx</a> function to <b>GetCalendarInfo</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcalendarinfoex">GetCalendarInfoEx</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="/windows/desktop/api/winnls/nf-winnls-getcalendarinfoex">GetCalendarInfoEx</a> function to <b>GetCalendarInfo</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-getcalendarinfoex">GetCalendarInfoEx</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param Locale [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale for which to retrieve calendar information. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
+<a href="/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale for which to retrieve calendar information. You can use the <a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 
 ### -param Calendar [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/calendar-identifiers">Calendar identifier</a>.
+<a href="/windows/desktop/Intl/calendar-identifiers">Calendar identifier</a>.
 
 ### -param CalType [in]
 
-Type of information to retrieve. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/calendar-type-information">Calendar Type Information</a>. 
+Type of information to retrieve. For more information, see <a href="/windows/desktop/Intl/calendar-type-information">Calendar Type Information</a>. 
 
 <div class="alert"><b>Note</b>  <b>GetCalendarInfo</b> returns only one string if this parameter specifies CAL_IYEAROFFSETRANGE or CAL_SERASTRING. In both cases the current era is returned.</div>
 <div> </div>
 CAL_USE_CP_ACP is relevant only for the ANSI version of this function.
 
-For CAL_NOUSEROVERRIDE, the function ignores any value set by <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setcalendarinfoa">SetCalendarInfo</a> and uses the database settings for the current system default locale. This type is relevant only in the combination CAL_NOUSEROVERRIDE | CAL_ITWODIGITYEARMAX. CAL_ITWODIGITYEARMAX is the only value that can be set by <b>SetCalendarInfo</b>.
+For CAL_NOUSEROVERRIDE, the function ignores any value set by <a href="/windows/desktop/api/winnls/nf-winnls-setcalendarinfoa">SetCalendarInfo</a> and uses the database settings for the current system default locale. This type is relevant only in the combination CAL_NOUSEROVERRIDE | CAL_ITWODIGITYEARMAX. CAL_ITWODIGITYEARMAX is the only value that can be set by <b>SetCalendarInfo</b>.
 
 ### -param lpCalData [out, optional]
 
@@ -121,7 +121,7 @@ Pointer to a variable that receives the requested data as a number. If CAL_RETUR
 
 Returns the number of characters retrieved in the <i>lpCalData</i> buffer, with <i>cchData</i> set to a nonzero value, if successful. If the function succeeds, <i>cchData</i> is set to 0, and CAL_RETURN_NUMBER is not specified, the return value is the size of the buffer required to hold the calendar information. If the function succeeds, <i>cchData</i> is set 0, and CAL_RETURN_NUMBER is specified, the return value is the size of the value retrieved in <i>lpValue</i>, that is, 2 for the Unicode version of the function or 4 for the ANSI version.
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or  it was incorrectly set to <b>NULL</b>. </li>
@@ -131,7 +131,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change">Prepare your application for the Japanese era change</a> for more information.</div>
+<div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="/windows/uwp/design/globalizing/japanese-era-change">Prepare your application for the Japanese era change</a> for more information.</div>
 <div> </div>
 When the ANSI version of this function is used with a Unicode-only locale identifier, the function can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark (?). 
 
@@ -144,21 +144,20 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/calendar-type-information">Calendar Type Information</a>
+<a href="/windows/desktop/Intl/calendar-type-information">Calendar Type Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcalendarinfoex">GetCalendarInfoEx</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getcalendarinfoex">GetCalendarInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setcalendarinfoa">SetCalendarInfo</a>
-
+<a href="/windows/desktop/api/winnls/nf-winnls-setcalendarinfoa">SetCalendarInfo</a>

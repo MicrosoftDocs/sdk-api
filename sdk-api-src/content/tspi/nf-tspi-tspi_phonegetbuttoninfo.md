@@ -66,7 +66,7 @@ A button on the phone device.
 ### -param lpButtonInfo
 
 A pointer to memory into which the service provider writes a variably sized structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a>. This data structure describes the mode and function, and provides additional descriptive text corresponding to the button. Prior to calling 
+<a href="/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a>. This data structure describes the mode and function, and provides additional descriptive text corresponding to the button. Prior to calling 
 <b>TSPI_phoneGetButtonInfo</b>, the application sets the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information.
 
 ## -returns
@@ -81,17 +81,16 @@ The
 <b>TSPI_phoneGetButtonInfo</b> function returns the PHONEERR_NOMEM value if the service provider cannot access the memory containing the button information.
 
 The service provider fills in all the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
+<a href="/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetbuttoninfo">TSPI_phoneSetButtonInfo</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonesetbuttoninfo">TSPI_phoneSetButtonInfo</a>

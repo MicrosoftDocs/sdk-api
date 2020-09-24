@@ -86,11 +86,11 @@ The <b>DHCP_SEARCH_INFO</b> structure defines the DHCP client record data used t
 
 ### -field SearchInfo.ClientIpAddress
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies a client IP address. This field is populated if <b>SearchType</b> is set to <b>DhcpClientIpAddress</b>.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies a client IP address. This field is populated if <b>SearchType</b> is set to <b>DhcpClientIpAddress</b>.
 
 ### -field SearchInfo.ClientHardwareAddress
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains a hardware MAC address.  This field is populated if <b>SearchType</b> is set to <b>DhcpClientHardwareAddress</b>.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains a hardware MAC address.  This field is populated if <b>SearchType</b> is set to <b>DhcpClientHardwareAddress</b>.
 
 ### -field SearchInfo.ClientName
 
@@ -100,13 +100,12 @@ Unicode string that specifies the network name of the DHCP client.  This field i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>
 
 
 
 <a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type">DHCP_SEARCH_INFO_TYPE</a>
-

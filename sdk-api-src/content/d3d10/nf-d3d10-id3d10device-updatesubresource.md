@@ -51,27 +51,27 @@ api_name:
 
 ## -description
 
-The CPU copies data from memory to a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> created in non-mappable memory. See remarks.
+The CPU copies data from memory to a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> created in non-mappable memory. See remarks.
 
 ## -parameters
 
 ### -param pDstResource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>*</b>
 
-A pointer to the destination resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>).
+A pointer to the destination resource (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>).
 
 ### -param DstSubresource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-A zero-based index, that identifies the destination subresource. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-d3d10calcsubresource">D3D10CalcSubresource</a> for more details.
+A zero-based index, that identifies the destination subresource. See <a href="/windows/desktop/api/d3d10/nf-d3d10-d3d10calcsubresource">D3D10CalcSubresource</a> for more details.
 
 ### -param pDstBox [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_box">D3D10_BOX</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_box">D3D10_BOX</a>*</b>
 
-A box that defines the portion of the destination subresource to copy the resource data into. Coordinates are in bytes for buffers and in texels for textures. If <b>NULL</b>, the data is written to the destination subresource with no offset. The dimensions of the source must fit the destination (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_box">D3D10_BOX</a>).
+A box that defines the portion of the destination subresource to copy the resource data into. Coordinates are in bytes for buffers and in texels for textures. If <b>NULL</b>, the data is written to the destination subresource with no offset. The dimensions of the source must fit the destination (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_box">D3D10_BOX</a>).
 
 An empty box results in a no-op. A box is empty if the top value is greater than or equal to the bottom value, or the left value is greater than or equal to the right value, or the front value is greater than or equal to the back value. When the box is empty, <b>UpdateSubresource</b> doesn't perform an update operation.
 
@@ -83,13 +83,13 @@ A pointer to the source data in memory.
 
 ### -param SrcRowPitch [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of one row of the source data.
 
 ### -param SrcDepthPitch [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of one depth slice of source data.
 
@@ -100,9 +100,9 @@ For a shader-constant buffer; set pDstBox to <b>NULL</b>. It is not possible to 
 A resource cannot be used as a destination if:
 
 <ul>
-<li>the resource is created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">immutable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">dynamic</a> usage.</li>
-<li>the resource is created as a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil resource</a>.</li>
-<li>the resource is created with multisampling capability (see <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">DXGI_SAMPLE_DESC</a>).</li>
+<li>the resource is created with <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">immutable</a> or <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">dynamic</a> usage.</li>
+<li>the resource is created as a <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil resource</a>.</li>
+<li>the resource is created with multisampling capability (see <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">DXGI_SAMPLE_DESC</a>).</li>
 </ul>
 When UpdateSubresource returns, the application is free to change or even free the data pointed to by pSrcData because the method has already copied/snapped away the original contents.
 
@@ -183,9 +183,8 @@ Direct3D 10.1 enables depth-stencil resources to be used as either a source or d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>

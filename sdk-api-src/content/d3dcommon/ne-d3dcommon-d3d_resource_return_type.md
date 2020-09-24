@@ -120,7 +120,7 @@ Return type is a multiple-dword type, such as a double or uint64, and the compon
 
 ## -remarks
 
-The    <b>D3D11_RESOURCE_RETURN_TYPE</b> enumeration is type defined in the  D3D11shader.h header file as a <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type">D3D_RESOURCE_RETURN_TYPE</a> enumeration, which is fully defined in the  D3DCommon.h header file.
+The    <b>D3D11_RESOURCE_RETURN_TYPE</b> enumeration is type defined in the  D3D11shader.h header file as a <a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type">D3D_RESOURCE_RETURN_TYPE</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
 
 ```
@@ -130,5 +130,4 @@ typedef D3D_RESOURCE_RETURN_TYPE D3D11_RESOURCE_RETURN_TYPE;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>

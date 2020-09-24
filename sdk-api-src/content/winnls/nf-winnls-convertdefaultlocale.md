@@ -57,37 +57,37 @@ api_name:
 
 ## -description
 
-Converts a default locale value to an actual <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
-<div class="alert"><b>Note</b>  This function is only provided for converting partial locale identifiers. Your applications should use locale names instead of identifiers. The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcidtolocalename">LCIDToLocaleName</a> function can be used to convert a locale identifier to a valid locale name. Your application can also use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a> to retrieve the current user locale name; <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlocalename">GetSystemDefaultLocaleName</a> to retrieve the current system locale name; and <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a> with <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-sname">LOCALE_SNAME</a> to retrieve the locale name for any input locale, including the default constants.</div><div> </div>
+Converts a default locale value to an actual <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
+<div class="alert"><b>Note</b>  This function is only provided for converting partial locale identifiers. Your applications should use locale names instead of identifiers. The <a href="/windows/desktop/api/winnls/nf-winnls-lcidtolocalename">LCIDToLocaleName</a> function can be used to convert a locale identifier to a valid locale name. Your application can also use <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a> to retrieve the current user locale name; <a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlocalename">GetSystemDefaultLocaleName</a> to retrieve the current system locale name; and <a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a> with <a href="/windows/desktop/Intl/locale-sname">LOCALE_SNAME</a> to retrieve the locale name for any input locale, including the default constants.</div><div> </div>
 
 ## -parameters
 
 ### -param Locale [in]
 
-Default locale identifier value to convert. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
+Default locale identifier value to convert. You can use the <a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 <b>Windows Vista and later:</b> The following custom locale identifiers are also supported.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 </ul>
 
@@ -99,37 +99,36 @@ This function returns the value of the <i>Locale</i> parameter if it does not su
 
 ## -remarks
 
-A call to <b>ConvertDefaultLocale</b> specifying LOCALE_SYSTEM_DEFAULT is equivalent to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>. A call to <b>ConvertDefaultLocale</b> specifying LOCALE_USER_DEFAULT is equivalent to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a>.
+A call to <b>ConvertDefaultLocale</b> specifying LOCALE_SYSTEM_DEFAULT is equivalent to a call to <a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>. A call to <b>ConvertDefaultLocale</b> specifying LOCALE_USER_DEFAULT is equivalent to a call to <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlocalename">GetSystemDefaultLocaleName</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlocalename">GetSystemDefaultLocaleName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcidtolocalename">LCIDToLocaleName</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-lcidtolocalename">LCIDToLocaleName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

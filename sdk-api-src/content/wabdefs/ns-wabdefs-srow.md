@@ -75,5 +75,4 @@ Variable of type <b>ULONG</b> that specifies the count of property values to whi
 
 Type: <b>LPSPropValue</b>
 
-Pointer to an array of variables of type <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropvalue">SPropValue</a> that describe the property values for the columns in the row.
-
+Pointer to an array of variables of type <a href="/windows/desktop/api/wabdefs/ns-wabdefs-spropvalue">SPropValue</a> that describe the property values for the columns in the row.

@@ -58,7 +58,7 @@ Frees a snapshot.
 
 ### -param ProcessHandle [in]
 
-A handle to the process that contains the snapshot. The handle must have <b>PROCESS_VM_READ</b>, <b>PROCESS_VM_OPERATION</b>, and <b>PROCESS_DUP_HANDLE</b> rights. If the snapshot was captured from the current process, or duplicated into the current process, then pass in the result of <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a>.
+A handle to the process that contains the snapshot. The handle must have <b>PROCESS_VM_READ</b>, <b>PROCESS_VM_OPERATION</b>, and <b>PROCESS_DUP_HANDLE</b> rights. If the snapshot was captured from the current process, or duplicated into the current process, then pass in the result of <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a>.
 
 ### -param SnapshotHandle [in]
 
@@ -98,11 +98,11 @@ The remote snapshot was not created with <b>PSS_CREATE_USE_VM_ALLOCATIONS</b>.
 </table>
  
 
-All error codes are defined in winerror.h. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
+All error codes are defined in winerror.h. Use <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
 
 ## -remarks
 
-This API can free snapshot handles in the context of either the local or remote processes. If the snapshot was captured in the local process with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psscapturesnapshot">PssCaptureSnapshot</a>, or duplicated into the local process with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssduplicatesnapshot">PssDuplicateSnapshot</a>, then specify the result of <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> as the process handle. If the snapshot is in the context of a remote process (for example, duplicated into the remote process), then specify the handle to that process.
+This API can free snapshot handles in the context of either the local or remote processes. If the snapshot was captured in the local process with <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psscapturesnapshot">PssCaptureSnapshot</a>, or duplicated into the local process with <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssduplicatesnapshot">PssDuplicateSnapshot</a>, then specify the result of <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> as the process handle. If the snapshot is in the context of a remote process (for example, duplicated into the remote process), then specify the handle to that process.
 
 The operation does not protect against concurrent access to the same descriptor.
 
@@ -112,5 +112,4 @@ The behavior of this routine on a descriptor that has already been freed is unde
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
-
+<a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>

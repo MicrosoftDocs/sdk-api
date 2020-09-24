@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertFreeCertificateChain</b> function frees a certificate chain by reducing its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>. If the reference count becomes zero, memory allocated for the chain is released.
+The <b>CertFreeCertificateChain</b> function frees a certificate chain by reducing its <a href="/windows/desktop/SecGloss/r-gly">reference count</a>. If the reference count becomes zero, memory allocated for the chain is released.
 
 To free a context obtained by a get, duplicate, or create function, call the appropriate free function.  To free a context obtained by a find or enumerate function, either pass it in   as the previous context parameter to a subsequent invocation of the function, or call the appropriate free function.  For more information, see the  reference topic for the function that obtains the context.
 
@@ -59,13 +59,12 @@ To free a context obtained by a get, duplicate, or create function, call the app
 ### -param pChainContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> certificate chain context to be freed. If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> on the context reaches zero, the storage allocated for the context is freed.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> certificate chain context to be freed. If the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> on the context reaches zero, the storage allocated for the context is freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>

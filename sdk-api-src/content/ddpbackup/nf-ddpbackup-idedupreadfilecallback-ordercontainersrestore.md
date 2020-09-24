@@ -69,26 +69,26 @@ Number of container paths in the <i>ContainerPaths</i> array.
 ### -param ContainerPaths [in]
 
 Array of paths to container files that must be read in order to restore the file specified in the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">IDedupBackupSupport::RestoreFiles</a> 
+      <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">IDedupBackupSupport::RestoreFiles</a> 
       call. Each element is a full path from the root directory of the volume to a container file.
 
 ### -param ReadPlanEntries [out]
 
 Pointer to a ULONG variable that receives the number of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ddpbackup/ns-ddpbackup-dedup_container_extent">DEDUP_CONTAINER_EXTENT</a> structures in the array 
+      <a href="/windows/desktop/api/ddpbackup/ns-ddpbackup-dedup_container_extent">DEDUP_CONTAINER_EXTENT</a> structures in the array 
       that the <i>ReadPlan</i> parameter points to.
 
 ### -param ReadPlan [out]
 
 Pointer to a buffer that receives an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ddpbackup/ns-ddpbackup-dedup_container_extent">DEDUP_CONTAINER_EXTENT</a> structures.
+      <a href="/windows/desktop/api/ddpbackup/ns-ddpbackup-dedup_container_extent">DEDUP_CONTAINER_EXTENT</a> structures.
 
 ## -returns
 
 This method can return standard <b>HRESULT</b> values, such as 
       <b>S_OK</b>. It can also return converted 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Possible return values 
+      <a href="/windows/desktop/Debug/system-error-codes">system error codes</a> using the 
+      <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Possible return values 
       include the following.
 
 ## -remarks
@@ -107,9 +107,8 @@ The application may return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddpbackup/ns-ddpbackup-dedup_container_extent">DEDUP_CONTAINER_EXTENT</a>
+<a href="/windows/desktop/api/ddpbackup/ns-ddpbackup-dedup_container_extent">DEDUP_CONTAINER_EXTENT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>
-
+<a href="/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>

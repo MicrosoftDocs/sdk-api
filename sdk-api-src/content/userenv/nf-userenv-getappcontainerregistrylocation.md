@@ -56,7 +56,7 @@ Gets the location of the registry storage associated with an app container.
 
 ### -param desiredAccess [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/messages">REGSAM</a></b>
+Type: <b><a href="/windows/desktop/shell/messages">REGSAM</a></b>
 
 The desired registry access.
 
@@ -107,5 +107,4 @@ The function gets the registry storage for the current user. To get the registry
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getappcontainerfolderpath">GetAppContainerFolderPath</a>
-
+<a href="/windows/desktop/api/userenv/nf-userenv-getappcontainerfolderpath">GetAppContainerFolderPath</a>

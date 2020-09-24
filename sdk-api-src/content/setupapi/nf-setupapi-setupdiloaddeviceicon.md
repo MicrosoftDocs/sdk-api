@@ -56,15 +56,15 @@ The <b>SetupDiLoadDeviceIcon</b> function retrieves an icon for a specified devi
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device information element that represents the device for which to retrieve an icon.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device information element that represents the device for which to retrieve an icon.
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 ### -param cxIcon [in]
 
-The width, in pixels, of the icon to be retrieved. Use the system metric index SM_CXICON to specify a default-sized icon or use the system metric index SM_CXSMICON to specify a small icon. The system metric indexes are defined in <i>Winuser.h</i>, and their associated values can be retrieved by a call to the <a href="https://msdn.microsoft.com/library/ms724385.aspx">GetSystemMetrics</a> function. (The <b>GetSystemMetrics</b> function is documented in the Microsoft Windows SDK.)
+The width, in pixels, of the icon to be retrieved. Use the system metric index SM_CXICON to specify a default-sized icon or use the system metric index SM_CXSMICON to specify a small icon. The system metric indexes are defined in <i>Winuser.h</i>, and their associated values can be retrieved by a call to the <a href="/windows/win32/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function. (The <b>GetSystemMetrics</b> function is documented in the Microsoft Windows SDK.)
 
 ### -param cyIcon [in]
 
@@ -76,11 +76,11 @@ Not used. Must set to zero.
 
 ### -param hIcon [out]
 
-A pointer to a handle to an icon that receives a handle to the icon that this function retrieves. After the application that calls this function is finished using the icon, the application must call <a href="https://msdn.microsoft.com/library/ms648063.aspx">DestroyIcon</a> to delete the icon. (<b>DestroyIcon</b> is documented in the Microsoft Windows SDK.)
+A pointer to a handle to an icon that receives a handle to the icon that this function retrieves. After the application that calls this function is finished using the icon, the application must call <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> to delete the icon. (<b>DestroyIcon</b> is documented in the Microsoft Windows SDK.)
 
 ## -returns
 
-<b>SetupDiLoadDeviceIcon</b> returns <b>TRUE</b> if the function succeeds in retrieving the icon for the specified device. Otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a>.
+<b>SetupDiLoadDeviceIcon</b> returns <b>TRUE</b> if the function succeeds in retrieving the icon for the specified device. Otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -88,9 +88,9 @@ A pointer to a handle to an icon that receives a handle to the icon that this fu
 
 <ul>
 <li>
-If the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpkey-drvpkg-icon">DEVPKEY_DrvPkg_Icon</a> device property of the device includes a list of resource-identifier strings, the function attempts to retrieve the icon that is specified by the first resource-identifier string in the list. 
+If the <a href="/windows-hardware/drivers/install/devpkey-drvpkg-icon">DEVPKEY_DrvPkg_Icon</a> device property of the device includes a list of resource-identifier strings, the function attempts to retrieve the icon that is specified by the first resource-identifier string in the list. 
 
-The <a href="https://docs.microsoft.com/previous-versions/ff541476(v=vs.85)">device property data type</a> of the DEVPKEY_DrvPkg_Icon device property is <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devprop-type-string-list">DEVPROP_TYPE_STRING_LIST</a>. 
+The <a href="/previous-versions/ff541476(v=vs.85)">device property data type</a> of the DEVPKEY_DrvPkg_Icon device property is <a href="/windows-hardware/drivers/install/devprop-type-string-list">DEVPROP_TYPE_STRING_LIST</a>. 
 
 The format of a resource-identifier string is
 
@@ -109,20 +109,19 @@ Where:
 </ul>
 </li>
 <li>
-If the function cannot retrieve a device-specific icon, it will then attempt to retrieve the class icon for the device. For information about class icons, see <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>.
+If the function cannot retrieve a device-specific icon, it will then attempt to retrieve the class icon for the device. For information about class icons, see <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>.
 
 </li>
 <li>
-If the function cannot retrieve the class icon for the device, it will then attempt to retrieve the icon for the Unknown <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>, where the icon for the Unknown device setup class includes the image of a question mark (?).
+If the function cannot retrieve the class icon for the device, it will then attempt to retrieve the icon for the Unknown <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>, where the icon for the Unknown device setup class includes the image of a question mark (?).
 
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/devprop-type-string-list">DEVPROP_TYPE_STRING_LIST</a>
+<a href="/windows-hardware/drivers/install/devprop-type-string-list">DEVPROP_TYPE_STRING_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>

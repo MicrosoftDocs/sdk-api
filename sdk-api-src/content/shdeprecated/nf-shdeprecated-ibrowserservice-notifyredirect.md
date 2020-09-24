@@ -57,9 +57,9 @@ Deprecated. Updates the browser to the specified pointer to an item identifier l
 
 ### -param psv [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> that indicates the browser's view. The view must be either the browser's current view or the pending view.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> that indicates the browser's view. The view must be either the browser's current view or the pending view.
 
 ### -param pidl [in]
 
@@ -78,4 +78,3 @@ Optional. A pointer to a value of type <b>BOOL</b> that indicates whether naviga
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

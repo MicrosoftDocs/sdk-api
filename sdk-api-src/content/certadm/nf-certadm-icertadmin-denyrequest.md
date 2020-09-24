@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DenyRequest</b> method denies a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> that is pending. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
+The <b>DenyRequest</b> method denies a specified <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> that is pending. This method was first defined in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 For this method to succeed, the certificate request must be pending.
 
@@ -60,9 +60,9 @@ For this method to succeed, the certificate request must be pending.
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) in the form COMPUTERNAME\CANAME where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority as entered during Certificate Services setup. For information about the configuration string, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents a valid configuration string for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) in the form COMPUTERNAME\CANAME where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority as entered during Certificate Services setup. For information about the configuration string, see <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>DenyRequest</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>DenyRequest</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param RequestId [in]
@@ -152,11 +152,11 @@ error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
 
 
 
@@ -164,5 +164,4 @@ error:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>

@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>EnumerateCallHubs</b> method enumerates the currently available call hubs. Provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_callhubs">get_Callhubs</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_callhubs">get_Callhubs</a> method.
 
 ## -parameters
 
 ### -param ppEnumCallHub [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub">IEnumCallHub</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub">IEnumCallHub</a> interface.
 
 ## -returns
 
@@ -119,18 +119,17 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 TAPI calls the <b>Addref</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub">IEnumCallHub</a> interface returned by <b>ITTAPI::EnumerateCallHubs</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub">IEnumCallHub</a> interface returned by <b>ITTAPI::EnumerateCallHubs</b>. The application must call <b>Release</b> on the 
 <b>IEnumCallHub</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub">IEnumCallHub</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub">IEnumCallHub</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-
+<a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>

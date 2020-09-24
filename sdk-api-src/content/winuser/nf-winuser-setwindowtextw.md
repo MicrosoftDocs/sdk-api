@@ -84,20 +84,20 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If the target window is owned by the current process, <b>SetWindowText</b> causes a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message to be sent to the specified window or control. If the control is a list box control created with the <b>WS_CAPTION</b> style, however, <b>SetWindowText</b> sets the text for the control, not for the list box entries. 
+If the target window is owned by the current process, <b>SetWindowText</b> causes a <a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message to be sent to the specified window or control. If the control is a list box control created with the <b>WS_CAPTION</b> style, however, <b>SetWindowText</b> sets the text for the control, not for the list box entries. 
 
-To set the text of a control in another process, send the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message directly instead of calling <b>SetWindowText</b>. 
+To set the text of a control in another process, send the <a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message directly instead of calling <b>SetWindowText</b>. 
 
 The <b>SetWindowText</b> function does not expand tab characters (ASCII code 0x09). Tab characters are displayed as vertical bar (|) characters. 
 
 
 #### Examples
 
- For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-messages-and-message-queues">Sending a Message</a>.
+ For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-queues">Sending a Message</a>.
 
 <div class="code"></div>
 
@@ -113,7 +113,7 @@ The <b>SetWindowText</b> function does not expand tab characters (ASCII code 0x0
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a>
 
 
 
@@ -121,9 +121,8 @@ The <b>SetWindowText</b> function does not expand tab characters (ASCII code 0x0
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>
+<a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

@@ -68,5 +68,4 @@ An array of pointers to null-terminated Unicode strings that contain the identif
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumcontexts">BCryptEnumContexts</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumcontexts">BCryptEnumContexts</a>

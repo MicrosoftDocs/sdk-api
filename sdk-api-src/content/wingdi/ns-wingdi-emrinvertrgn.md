@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>EMRINVERTRGN</b> and <b>EMRPAINTRGN</b> structures 
-		  contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-invertrgn">InvertRgn</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-paintrgn">PaintRgn</a> enhanced metafile records.
+		  contain members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-invertrgn">InvertRgn</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-paintrgn">PaintRgn</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -73,21 +73,20 @@ Size of region data, in bytes.
 
 ### -field RgnData
 
-Buffer containing an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
+Buffer containing an <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-invertrgn">InvertRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-invertrgn">InvertRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-paintrgn">PaintRgn</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-paintrgn">PaintRgn</a>

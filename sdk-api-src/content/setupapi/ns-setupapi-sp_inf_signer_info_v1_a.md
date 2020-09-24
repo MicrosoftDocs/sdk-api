@@ -77,14 +77,13 @@ Version of the digital signer, stored in an array of size MAX_PATH characters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
+<a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SP_INF_SIGNER_INFO_V1 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

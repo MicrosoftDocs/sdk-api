@@ -53,41 +53,40 @@ api_name:
 
 The <b>Encode</b> method returns an ASN.1-encoded string of the alternate name array stored in this object. The names in the object are not encoded.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-decode">Decode</a> method to decode the encoded string into an <b>CertEncodeAltName</b> object.
+Use the <a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-decode">Decode</a> method to decode the encoded string into an <b>CertEncodeAltName</b> object.
 
 Before using this method, you must call both the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-reset">Reset</a> method to size the array and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-setnameentry">SetNameEntry</a> method to set each array element.
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-reset">Reset</a> method to size the array and the 
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-setnameentry">SetNameEntry</a> method to set each array element.
 
 ## -parameters
 
 ### -param pstrBinary [out]
 
-A pointer to a <b>BSTR</b> that receives the ASN.1-encoded alternate name extension. When done, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free <i>pbstrBinary</i>.
+A pointer to a <b>BSTR</b> that receives the ASN.1-encoded alternate name extension. When done, call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free <i>pbstrBinary</i>.
 
 ## -returns
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the ASN.1-encoded alternate name array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-decode">ICertEncodeAltName::Decode</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-decode">ICertEncodeAltName::Decode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-reset">ICertEncodeAltName::Reset</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-reset">ICertEncodeAltName::Reset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-setnameentry">ICertEncodeAltName::SetNameEntry</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-setnameentry">ICertEncodeAltName::SetNameEntry</a>

@@ -56,7 +56,7 @@ Retrieves an attribute whose value is a ratio.
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 ### -param guidKey [in]
 
@@ -80,9 +80,8 @@ Some attributes specify a ratio as a packed <b>UINT64</b> value. Use this functi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfsetattributeratio">MFSetAttributeRatio</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfsetattributeratio">MFSetAttributeRatio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

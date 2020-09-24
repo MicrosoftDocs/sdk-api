@@ -67,7 +67,7 @@ The return value specifies the extra information. The meaning of the extra infor
 
 ## -remarks
 
-To set a thread's extra message information, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmessageextrainfo">SetMessageExtraInfo</a> function.
+To set a thread's extra message information, use the <a href="/windows/desktop/api/winuser/nf-winuser-setmessageextrainfo">SetMessageExtraInfo</a> function.
 
 ## -see-also
 
@@ -75,15 +75,15 @@ To set a thread's extra message information, use the <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
 
 
 
@@ -91,5 +91,4 @@ To set a thread's extra message information, use the <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmessageextrainfo">SetMessageExtraInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmessageextrainfo">SetMessageExtraInfo</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_dictionary">XML Dictionary</a> object. The retrieved Dictionary is returned by the <i>dictionary</i> reference parameter.
+Retrieves an <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_dictionary">XML Dictionary</a> object. The retrieved Dictionary is returned by the <i>dictionary</i> reference parameter.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ Indicates an enumeration of the Dictionary encoding.
 
 ### -param dictionary
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_dictionary">WS_XML_DICTIONARY</a> structure for the retrieved <b>Dictionary</b>.
+A reference to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_dictionary">WS_XML_DICTIONARY</a> structure for the retrieved <b>Dictionary</b>.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

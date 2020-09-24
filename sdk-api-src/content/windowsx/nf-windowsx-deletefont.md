@@ -62,7 +62,7 @@ A handle to the font object.
 
 After the font object is deleted, the specified handle is no longer valid.
 
-The <b>DeleteFont</b> macro is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> as follows:
+The <b>DeleteFont</b> macro is equivalent to calling <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> as follows:
 
 <pre class="syntax" xml:space="preserve"><code>
    DeleteObject((HGDIOBJ)(HFONT)(hfont))
@@ -70,9 +70,8 @@ The <b>DeleteFont</b> macro is equivalent to calling <a href="https://docs.micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-selectfont">SelectFont</a>
-
+<a href="/windows/desktop/api/windowsx/nf-windowsx-selectfont">SelectFont</a>

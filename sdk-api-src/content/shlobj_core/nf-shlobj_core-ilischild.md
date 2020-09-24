@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a>.
+Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a>.
 
 ## -parameters
 
@@ -71,4 +71,3 @@ Returns <b>TRUE</b> if the given PIDL is a child PIDL; otherwise, <b>FALSE</b>.
 This function does not guarantee that the PIDL is non-NULL or non-empty.
 
 For use where STRICT_TYPED_ITEMIDS is defined.
-

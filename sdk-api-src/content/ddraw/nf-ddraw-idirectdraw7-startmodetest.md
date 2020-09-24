@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initiates a test to update the system registry with refresh rate information for the current display adapter and monitor combination. A call to this method is typically followed by calls to <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-evaluatemode">IDirectDraw7::EvaluateMode</a> to pass or fail modes displayed by the test.
+Initiates a test to update the system registry with refresh rate information for the current display adapter and monitor combination. A call to this method is typically followed by calls to <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-evaluatemode">IDirectDraw7::EvaluateMode</a> to pass or fail modes displayed by the test.
 
 ## -parameters
 
@@ -93,11 +93,11 @@ When the method is called with the DDSMT_ISTESTREQUIRED flag, it can return one 
 
 ## -remarks
 
-You can use the <b>StartModeTest</b> method together with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-evaluatemode">IDirectDraw7::EvaluateMode</a> method to determine the maximum refresh rate that an EDID monitor and display adapter combination can support for each screen resolution. The results of the testing are stored in the system registry and affect the operation of <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> when that method is called with the DDEDM_REFRESHRATES flag set.
+You can use the <b>StartModeTest</b> method together with the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-evaluatemode">IDirectDraw7::EvaluateMode</a> method to determine the maximum refresh rate that an EDID monitor and display adapter combination can support for each screen resolution. The results of the testing are stored in the system registry and affect the operation of <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> when that method is called with the DDEDM_REFRESHRATES flag set.
 
 
 
-Specifically, a call to <b>StartModeTest</b> directs DirectDraw to establish a set of testable resolutions and to display a mode based on the first resolution in the set. Subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-evaluatemode">IDirectDraw7::EvaluateMode</a> can be used to pass or fail each mode and to advance the test to the next display mode.
+Specifically, a call to <b>StartModeTest</b> directs DirectDraw to establish a set of testable resolutions and to display a mode based on the first resolution in the set. Subsequent calls to <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-evaluatemode">IDirectDraw7::EvaluateMode</a> can be used to pass or fail each mode and to advance the test to the next display mode.
 
 
 
@@ -113,9 +113,8 @@ The test does not guarantee to display only the resolutions in the array describ
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>StartModeTest</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>StartModeTest</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

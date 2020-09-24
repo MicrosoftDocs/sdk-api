@@ -70,9 +70,8 @@ The user has a subscription account and the subscription content can be synchron
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumerations-for-type-1-online-stores">Enumerations for Type 1 Online Stores</a>
+<a href="/windows/desktop/WMP/enumerations-for-type-1-online-stores">Enumerations for Type 1 Online Stores</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcontentpartnerinfo">IWMPContentPartner::GetContentPartnerInfo</a>
-
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcontentpartnerinfo">IWMPContentPartner::GetContentPartnerInfo</a>

@@ -106,9 +106,8 @@ When a replica cleans up the tombstone for an item, its associated provider must
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iforgottenknowledge">IForgottenKnowledge Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iforgottenknowledge">IForgottenKnowledge Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>

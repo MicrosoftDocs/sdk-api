@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertControlStore</b> function allows an application to be notified when there is a difference between the contents of a cached store in use and the contents of that store as it is persisted to storage. Differences can occur as another <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> makes a change that affects the store as it is persisted.
+The <b>CertControlStore</b> function allows an application to be notified when there is a difference between the contents of a cached store in use and the contents of that store as it is persisted to storage. Differences can occur as another <a href="/windows/desktop/SecGloss/p-gly">process</a> makes a change that affects the store as it is persisted.
 
 The <b>CertControlStore</b> function can be used to synchronize a cached store, if necessary, and provides a means to commit changes made in the cached store to persisted storage.
 
@@ -58,7 +58,7 @@ The <b>CertControlStore</b> function can be used to synchronize a cached store, 
 
 ### -param hCertStore [in]
 
-Handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
+Handle of the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 ### -param dwFlags [in]
 
@@ -129,7 +129,7 @@ The cached store is resynchronized and made to match the persisted store.
 </dl>
 </td>
 <td width="60%">
-A signal is returned in the space pointed to by <i>pvCtrlPara</i> to indicate that the current contents of the cached store differ from the store's persisted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>.
+A signal is returned in the space pointed to by <i>pvCtrlPara</i> to indicate that the current contents of the cached store differ from the store's persisted <a href="/windows/desktop/SecGloss/s-gly">state</a>.
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ Cancels notification signaling of the event HANDLE passed in a previous CERT_STO
 
 ### -param pvCtrlPara [in]
 
-If <i>dwCtrlType</i> is CERT_STORE_NOTIFY_CHANGE, <i>pvCtrlPara</i> is set to the address of a handle where the system signals the notification change event when a change from the persisted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the store is detected. The handle must be initialized with a call to the function <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>. The <i>pvCtrlPara</i> parameter can be set to <b>NULL</b> for registry-based stores. If <i>pvCtrlPara</i> is <b>NULL</b>, an internal notification change event is created and registered to be signaled. Using the internal notification change event allows resynchronization operations only if the store was changed. 
+If <i>dwCtrlType</i> is CERT_STORE_NOTIFY_CHANGE, <i>pvCtrlPara</i> is set to the address of a handle where the system signals the notification change event when a change from the persisted <a href="/windows/desktop/SecGloss/s-gly">state</a> of the store is detected. The handle must be initialized with a call to the function <a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>. The <i>pvCtrlPara</i> parameter can be set to <b>NULL</b> for registry-based stores. If <i>pvCtrlPara</i> is <b>NULL</b>, an internal notification change event is created and registered to be signaled. Using the internal notification change event allows resynchronization operations only if the store was changed. 
 
 
 
@@ -184,7 +184,7 @@ If <i>dwCtrlType</i> CERT_STORE_CTRL_COMMIT, <i>pvCtrlPara</i> is not used and m
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If <i>dwCtrlType</i> is CERT_STORE_NOTIFY_CHANGE, the function returns nonzero if a handle for the event signal was successfully set up. The function returns zero if the event handle was not set up.
 
@@ -192,13 +192,13 @@ If <i>dwCtrlType</i> is CERT_STORE_CTRL_RESYNC, the function returns nonzero if 
 
 If <i>dwCtrlType</i> is CERT_STORE_CTRL_COMMIT, the function returns nonzero to indicate the successful completion of the commit to persisted storage. The function returns zero if the commit failed.
 
-Some providers might not support specific control types. In these cases, <b>CertControlStore</b> returns zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is set to the ERROR_NOT_SUPPORTED code.
+Some providers might not support specific control types. In these cases, <b>CertControlStore</b> returns zero and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is set to the ERROR_NOT_SUPPORTED code.
 
 ## -remarks
 
 Resynchronization of a store can be done at any time. It need not follow a signaled notification change event.
 
-CERT_STORE_CTRL_NOTIFY_CHANGE is supported on registry-based store providers by using the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> function.
+CERT_STORE_CTRL_NOTIFY_CHANGE is supported on registry-based store providers by using the <a href="/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> function.
 
 <b>CertControlStore</b> using CERT_STORE_CTRL_NOTIFY_CHANGE is called once for each event handle to be passed with CERT_STORE_CTRL_RESYNC. These calls using CERT_STORE_CTRL_NOTIFY_CHANGE must be made after each event is created and not after an event has been signaled.
 
@@ -206,7 +206,7 @@ CERT_STORE_CTRL_NOTIFY_CHANGE is supported on registry-based store providers by 
 #### Examples
 
 The following example shows allowing an application to be notified when there is a difference between the contents of a cached store in use and the contents of that store as it is persisted to storage. For the full example including the complete context for this example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-setting-and-getting-certificate-store-properties">Example C Program: Setting and Getting Certificate Store Properties</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-setting-and-getting-certificate-store-properties">Example C Program: Setting and Getting Certificate Store Properties</a>.
 
 
 ```cpp
@@ -329,13 +329,12 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>
-
+<a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>

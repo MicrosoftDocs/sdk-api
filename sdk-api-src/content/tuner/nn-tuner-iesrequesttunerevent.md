@@ -69,7 +69,7 @@ The <b>IESRequestTunerEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getconsequences">GetConsequences</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getconsequences">GetConsequences</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates consquences of a device request for exclusive access to a tuner and its CAS.
@@ -78,7 +78,7 @@ Gets a code that indicates consquences of a device request for exclusive access 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getestimatedtime">GetEstimatedTime</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getestimatedtime">GetEstimatedTime</a>
 </td>
 <td align="left" width="63%">
 Gets the amount of time a device estimates it  needs exclusive access to a tuner and its CAS.
@@ -88,7 +88,7 @@ Gets the amount of time a device estimates it  needs exclusive access to a tuner
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getpriority">GetPriority</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getpriority">GetPriority</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates the the priority of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
@@ -98,7 +98,7 @@ Gets a code that indicates the the priority of a device request for exclusive ac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getreason">GetReason</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getreason">GetReason</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its CAS.
@@ -111,4 +111,3 @@ Gets a code that indicates the reason a device is requesting exclusive access to
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IESRequestTunerEvent)</code>.
-

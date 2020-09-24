@@ -57,16 +57,16 @@ Report information about a device object's lifetime.
 
 ### -param Flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_rldo_flags">D3D11_RLDO_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_rldo_flags">D3D11_RLDO_FLAGS</a></b>
 
 A value from the
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_rldo_flags">D3D11_RLDO_FLAGS</a> enumeration.
+            <a href="/windows/desktop/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_rldo_flags">D3D11_RLDO_FLAGS</a> enumeration.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 ## -remarks
 
@@ -74,5 +74,4 @@ This method returns one of the following <a href="https://docs.microsoft.com/win
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11debug">ID3D11Debug Interface</a>
-
+<a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11debug">ID3D11Debug Interface</a>

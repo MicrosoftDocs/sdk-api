@@ -62,7 +62,7 @@ A descriptor identifying a connected socket.
 ### -param name [out]
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure that receives the address of the peer.
+<a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure that receives the address of the peer.
 
 ### -param namelen [in, out]
 
@@ -72,7 +72,7 @@ A pointer to the size, in bytes, of the <i>name</i> parameter.
 
 If no error occurs, 
 <b>getpeername</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -82,19 +82,19 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +105,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ The <i>name</i> or the <i>namelen</i> parameter is not in a valid part of the us
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ The socket is not connected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,12 +151,12 @@ The descriptor is not a socket.
 ## -remarks
 
 The 
-<b>getpeername</b> function retrieves the address of the peer connected to the socket <i>s</i> and stores the address in the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure identified by the <i>name</i> parameter. This function works with any address family and it simply returns the address to which the socket is connected. The 
+<b>getpeername</b> function retrieves the address of the peer connected to the socket <i>s</i> and stores the address in the <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure identified by the <i>name</i> parameter. This function works with any address family and it simply returns the address to which the socket is connected. The 
 <b>getpeername</b> function can be used only on a connected socket. 
 
 For datagram sockets, only the address of a peer specified in a previous 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> call will be returned. Any address specified by a previous 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> call will not be returned by 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> call will be returned. Any address specified by a previous 
+<a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> call will not be returned by 
 <b>getpeername</b>.
 
 On call, the <i>namelen</i> parameter contains the size, in bytes, of the <i>name</i> buffer. On return, the <i>namelen</i> parameter contains the actual size, in bytes, of the <i>name</i> parameter returned.
@@ -167,29 +167,28 @@ On call, the <i>namelen</i> parameter contains the size, in bytes, of the <i>nam
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>

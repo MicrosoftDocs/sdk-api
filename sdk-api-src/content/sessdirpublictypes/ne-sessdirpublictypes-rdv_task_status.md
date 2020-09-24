@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/TermServ/irdvtaskpluginnotifysink-ontaskstatechange">IRDVTaskPluginNotifySink::OnTaskStateChange</a> method to indicate the status of a task.
+Used with the <a href="/windows/desktop/TermServ/irdvtaskpluginnotifysink-ontaskstatechange">IRDVTaskPluginNotifySink::OnTaskStateChange</a> method to indicate the status of a task.
 
 ## -enum-fields
 
@@ -94,5 +94,4 @@ Task did not finish in the allotted time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/irdvtaskpluginnotifysink-ontaskstatechange">IRDVTaskPluginNotifySink::OnTaskStateChange</a>
-
+<a href="/windows/desktop/TermServ/irdvtaskpluginnotifysink-ontaskstatechange">IRDVTaskPluginNotifySink::OnTaskStateChange</a>

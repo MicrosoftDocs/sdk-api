@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Indicates whether the linked object updates the cached data for the linked object automatically or only when the container calls either the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a> or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-update">IOleLink::Update</a> methods. The constants are used in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a> interface.
+Indicates whether the linked object updates the cached data for the linked object automatically or only when the container calls either the <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a> or <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-update">IOleLink::Update</a> methods. The constants are used in the <a href="/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a> interface.
 
 ## -enum-fields
 
@@ -62,13 +62,12 @@ Update the link object whenever possible, this option corresponds to the <b>Auto
 
 ### -field OLEUPDATE_ONCALL
 
-Update the link object only when <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a> or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-update">IOleLink::Update</a> is called, this option corresponds to the <b>Manual update</b> option in the <b>Links</b> dialog box.
+Update the link object only when <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a> or <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-update">IOleLink::Update</a> is called, this option corresponds to the <b>Manual update</b> option in the <b>Links</b> dialog box.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-getupdateoptions">IOleLink::GetUpdateOptions</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-getupdateoptions">IOleLink::GetUpdateOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setupdateoptions">IOleLink::SetUpdateOptions</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-setupdateoptions">IOleLink::SetUpdateOptions</a>

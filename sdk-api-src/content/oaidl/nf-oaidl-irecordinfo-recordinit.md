@@ -95,11 +95,10 @@ One or more of the arguments is not valid.
 
 ## -remarks
 
-The caller must allocate the memory of the record by its appropriate size using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getsize">GetSize</a> method.
+The caller must allocate the memory of the record by its appropriate size using the <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getsize">GetSize</a> method.
 
 <b>RecordInit</b> sets all contents of the record to 0 and the record should hold no resources.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

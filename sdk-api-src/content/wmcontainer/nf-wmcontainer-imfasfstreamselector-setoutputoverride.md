@@ -61,7 +61,7 @@ Output number for which to set selection.
 
 ### -param Selection [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-asf_selection_status">ASF_SELECTION_STATUS</a> enumeration specifying the level of selection for the output.
+Member of the <a href="/windows/desktop/api/wmcontainer/ne-wmcontainer-asf_selection_status">ASF_SELECTION_STATUS</a> enumeration specifying the level of selection for the output.
 
 ## -returns
 
@@ -87,5 +87,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>

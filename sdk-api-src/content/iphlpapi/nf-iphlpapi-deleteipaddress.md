@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>DeleteIPAddress</b> function deletes an IP address previously added using 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a>.
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a>.
 
 ## -parameters
 
 ### -param NTEContext [in]
 
 The Net Table Entry (NTE) context for the IP address. This context was returned by the previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a>.
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a>.
 
 ## -returns
 
@@ -113,7 +113,7 @@ The IPv4 transport is not configured on the local computer.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -223,13 +223,12 @@ int main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
-
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>

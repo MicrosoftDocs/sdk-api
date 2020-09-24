@@ -116,10 +116,9 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-getpreservedkeydescription">ITfKeystrokeMgr::GetPreservedKeyDescription
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-getpreservedkeydescription">ITfKeystrokeMgr::GetPreservedKeyDescription
       </a>
-

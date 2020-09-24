@@ -56,7 +56,7 @@ Obtains the preferred size, in pixels, of the bitmap.
 
 ### -param pszDefault [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
+Pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
 
 ### -param psz [out]
 
@@ -86,17 +86,16 @@ The method was successful.
 
 ## -remarks
 
-The results of this method are not currently used. The bitmap for a bitmap button item should not be larger than the size of a small icon. Obtain these dimensions by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with SM_CXSMICON for the width and SM_CYSMICON for the height.
+The results of this method are not currently used. The bitmap for a bitmap button item should not be larger than the size of a small icon. Obtain these dimensions by calling <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with SM_CXSMICON for the width and SM_CYSMICON for the height.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembitmapbutton">ITfLangBarItemBitmapButton</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembitmapbutton">ITfLangBarItemBitmapButton</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
-
+<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>

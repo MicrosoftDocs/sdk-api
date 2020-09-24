@@ -98,5 +98,4 @@ The <i>pfEnabled</i> parameter is not valid.
 
 ## -remarks
 
-<b>BCryptGetFipsAlgorithmMode</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a>.
-
+<b>BCryptGetFipsAlgorithmMode</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a>.

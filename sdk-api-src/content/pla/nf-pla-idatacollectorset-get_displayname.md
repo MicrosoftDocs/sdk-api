@@ -62,13 +62,12 @@ This property is read/write.
 
 To use a localized string from a binary, specify the display name in the form @<i>binary</i>,#<i>id</i> where <i>binary</i> is the EXE or DLL that contains the localized resource string and <i>id</i> is the string resource identifier.
 
-If you set the display name to the @<i>binary</i>,#<i>id</i> form, when you retrieve  the display name you will receive the localized string. To retrieve the display name string that you set, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displaynameunresolved">IDataCollectorSet::DisplayNameUnresolved</a> property.
+If you set the display name to the @<i>binary</i>,#<i>id</i> form, when you retrieve  the display name you will receive the localized string. To retrieve the display name string that you set, access the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displaynameunresolved">IDataCollectorSet::DisplayNameUnresolved</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displaynameunresolved">IDataCollectorSet::DisplayNameUnresolved</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displaynameunresolved">IDataCollectorSet::DisplayNameUnresolved</a>

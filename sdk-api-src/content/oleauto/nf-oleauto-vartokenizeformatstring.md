@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Parses the actual format string into a series of tokens which can be used to format variants using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>.
+Parses the actual format string into a series of tokens which can be used to format variants using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>.
 
 ## -parameters
 
@@ -277,7 +277,6 @@ The destination token buffer is too small.
 
 ## -remarks
 
-Parsing the format string once and then using it repeatedly is usually faster than calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformat">VarFormat</a> repeatedly, because the latter routine calls <b>VarTokenizeFormatString</b> for each call.
+Parsing the format string once and then using it repeatedly is usually faster than calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformat">VarFormat</a> repeatedly, because the latter routine calls <b>VarTokenizeFormatString</b> for each call.
 
-The locale you pass in controls how the format string is interpreted, not how the actual output of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a> looks.
-
+The locale you pass in controls how the format string is interpreted, not how the actual output of <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a> looks.

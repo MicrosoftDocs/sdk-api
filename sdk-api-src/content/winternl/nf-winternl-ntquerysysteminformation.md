@@ -66,7 +66,7 @@ kind of system information to be retrieved. These include the following values.
 #### SystemBasicInformation
 
 Returns the number of processors in the system in a
-<b>SYSTEM_BASIC_INFORMATION</b> structure. Use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function instead.
+<b>SYSTEM_BASIC_INFORMATION</b> structure. Use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function instead.
 
 
 
@@ -79,7 +79,7 @@ Returns a <b>SYSTEM_CODEINTEGRITY_INFORMATION</b> structure that can be used to 
 #### SystemExceptionInformation
 
 Returns an opaque <b>SYSTEM_EXCEPTION_INFORMATION</b> structure that can be used
-to generate an unpredictable seed for a random number generator. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
+to generate an unpredictable seed for a random number generator. Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
 instead.
 
 
@@ -87,7 +87,7 @@ instead.
 #### SystemInterruptInformation
 
 Returns an opaque <b>SYSTEM_INTERRUPT_INFORMATION</b> structure that can be used
-to generate an unpredictable seed for a random number generator. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
+to generate an unpredictable seed for a random number generator. Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
 instead.
 
 
@@ -107,7 +107,7 @@ Returns an opaque <b>SYSTEM_LEAP_SECOND_INFORMATION</b> structure that can be us
 #### SystemLookasideInformation
 
 Returns an opaque <b>SYSTEM_LOOKASIDE_INFORMATION</b> structure that can be used
-to generate an unpredictable seed for a random number generator. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
+to generate an unpredictable seed for a random number generator. Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
 instead.
 
 
@@ -116,13 +116,13 @@ instead.
 
 Returns an opaque <b>SYSTEM_PERFORMANCE_INFORMATION</b> structure that can be
 used to generate an unpredictable seed for a random number generator. Use the
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a>function instead.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a>function instead.
 
 
 
 #### SystemPolicyInformation
 
-Returns policy information in a <b>SYSTEM_POLICY_INFORMATION</b> structure. Use the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> function instead to obtain policy information.
+Returns policy information in a <b>SYSTEM_POLICY_INFORMATION</b> structure. Use the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> function instead to obtain policy information.
 
 
 
@@ -147,7 +147,7 @@ one for each processor installed in the system.
 
 #### SystemQueryPerformanceCounterInformation
 
-Returns a <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure that can be used to determine whether the system requires a kernel transition to retrieve the high-resolution performance counter information through a <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> function call.  
+Returns a <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure that can be used to determine whether the system requires a kernel transition to retrieve the high-resolution performance counter information through a <a href="/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> function call.  
 
 
 
@@ -269,7 +269,7 @@ Each <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure has the following l
 #### SystemTimeOfDayInformation
 
 Returns an opaque <b>SYSTEM_TIMEOFDAY_INFORMATION</b> structure that can be used
-to generate an unpredictable seed for a random number generator. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
+to generate an unpredictable seed for a random number generator. Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
 instead.
 
 ### -param SystemInformation [in, out]
@@ -295,7 +295,7 @@ having the following layout:
     CCHAR NumberOfProcessors;
 } SYSTEM_BASIC_INFORMATION;</code></pre>
 The <b>NumberOfProcessors</b> member contains the number of
-processors present in the system. Use <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> instead to retrieve this
+processors present in the system. Use <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> instead to retrieve this
 information.
 
 The  other members of the structure are reserved for internal
@@ -464,7 +464,7 @@ purpose, the structure has the following layout:
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
 
@@ -487,7 +487,7 @@ purpose, the structure has the following layout:
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
 
@@ -570,7 +570,7 @@ purpose, the structure has the following layout:
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
 
@@ -591,7 +591,7 @@ purpose, the structure has the following layout:
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
 
@@ -611,7 +611,7 @@ enough to hold a single <b>SYSTEM_POLICY_INFORMATION</b> structure having the fo
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> 
+Use the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> 
 function instead to obtain policy information.
 
 
@@ -666,7 +666,7 @@ The <b>BasePriority</b> member contains the base priority of the process, which 
 The <b>UniqueProcessId</b> member contains the process's unique process ID.
 
 The <b>HandleCount</b> member contains the total number
-of handles being used by the process in question; use <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount">GetProcessHandleCount</a>  to retrieve this information
+of handles being used by the process in question; use <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount">GetProcessHandleCount</a>  to retrieve this information
 instead.
 
 The <b>SessionId</b> member contains the session identifier of the process session. 
@@ -689,7 +689,7 @@ maximum number of bytes of page-file storage used by the process.
 The <b>PrivatePageCount</b> member contains the number of memory
 pages allocated for the use of this process.
 
-You can also retrieve the <b>PeakWorkingSetSize</b>, <b>QuotaPagedPoolUsage</b>,   <b>QuotaNonPagedPoolUsage</b>, <b>PagefileUsage</b>, <b>PeakPagefileUsage</b>, and <b>PrivatePageCount</b> information using either the <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a> function or the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process">Win32_Process</a> class.
+You can also retrieve the <b>PeakWorkingSetSize</b>, <b>QuotaPagedPoolUsage</b>,   <b>QuotaNonPagedPoolUsage</b>, <b>PagefileUsage</b>, <b>PeakPagefileUsage</b>, and <b>PrivatePageCount</b> information using either the <a href="/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a> function or the <a href="/windows/desktop/CIMWin32Prov/win32-process">Win32_Process</a> class.
 
 The  other members of the structure are reserved for internal use by the
 operating system.
@@ -761,7 +761,7 @@ The <b>UserTime</b> member contains the amount of time
 that the system has spent executing in User mode (including all threads in all
 processes, on all processors), in 100-nanosecond intervals.
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>instead to retrieve this information.
+Use <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>instead to retrieve this information.
 
 
 
@@ -810,7 +810,7 @@ maximum size, in bytes, that the Registry can attain on this system.
 The <b>RegistryQuotaUsed</b> member contains the current
 size of the Registry, in bytes.
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystemregistryquota">GetSystemRegistryQuota</a> instead to retrieve this
+Use <a href="/windows/desktop/api/winbase/nf-winbase-getsystemregistryquota">GetSystemRegistryQuota</a> instead to retrieve this
 information.
 
 The  other member of the structure is reserved for internal use by the
@@ -895,7 +895,7 @@ purpose, the structure has the following layout:
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
 ### -param SystemInformationLength [in]
@@ -927,31 +927,30 @@ one  release of Windows to another.  To maintain the    compatibility of your
 application, it is better to use the alternate functions previously mentioned instead.
 
 If you do use <b>NtQuerySystemInformation</b>, access the function through
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/using-run-time-dynamic-linking">run-time dynamic
+<a href="/windows/desktop/Dlls/using-run-time-dynamic-linking">run-time dynamic
 linking</a>.  This gives  your code an
 opportunity to respond gracefully if the function has been   changed or removed
 from the operating system. Signature changes, however, may not be
 detectable.
 
-This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
+This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount">GetProcessHandleCount</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount">GetProcessHandleCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystemregistryquota">GetSystemRegistryQuota</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getsystemregistryquota">GetSystemRegistryQuota</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>

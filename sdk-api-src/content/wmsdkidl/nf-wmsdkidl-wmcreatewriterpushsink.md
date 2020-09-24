@@ -56,7 +56,7 @@ The <b>WMCreateWriterPushSink</b> function creates a writer push sink object. Pu
 
 ### -param ppSink [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink">IWMWriterPushSink</a> interface of the newly created writer push sink object.
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink">IWMWriterPushSink</a> interface of the newly created writer push sink object.
 
 ## -returns
 
@@ -93,9 +93,8 @@ The function is unable to allocate memory for the new object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
+<a href="/windows/desktop/wmformat/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-push-sink-object">Writer Push Sink Object</a>
-
+<a href="/windows/desktop/wmformat/writer-push-sink-object">Writer Push Sink Object</a>

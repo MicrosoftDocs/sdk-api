@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Input structure for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
 ## -struct-fields
@@ -67,7 +67,7 @@ Size of this data structure. Must be set to
 ### -field Action
 
 A valid value of type 
-      <a href="https://docs.microsoft.com/windows/desktop/DevIO/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
+      <a href="/windows/desktop/DevIO/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
 
 <table>
 <tr>
@@ -252,7 +252,7 @@ Length of the parameter block, in bytes. A value of zero indicates there is no p
 ### -field DataSetRangesOffset
 
 Byte offset to the start of the data set ranges block made up of an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures stored in the 
+      <a href="/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures stored in the 
       buffer contiguous to this structure. Must be aligned to the 
       <b>DEVICE_DATA_SET_RANGE</b> structure alignment. A 
       value of zero indicates there is no data set ranges block and the 
@@ -270,13 +270,12 @@ The total length of the buffer that contains this structure must be at least
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
+<a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>

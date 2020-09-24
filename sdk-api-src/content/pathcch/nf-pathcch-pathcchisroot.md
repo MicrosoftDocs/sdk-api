@@ -55,7 +55,7 @@ api_name:
 
 Determines whether a path string refers to the root of a volume.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathisroota">PathIsRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathisroota">PathIsRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 ## -parameters
 
@@ -182,4 +182,3 @@ The following table shows the <b>PathCchIsRoot</b> return value for various path
  
 
 This function returns <b>TRUE</b> for paths such as "\", "<i>X</i>:\" or "&#92;&#92;<i>server</i>&#92;<i>share</i>". Paths such as "..\path2" or "&#92;&#92;<i>server</i>\" return <b>FALSE</b>.
-

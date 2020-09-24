@@ -57,11 +57,11 @@ Moves the reader back to the element node containing the attribute that was read
 ### -param reader [in]
 
 A pointer to the <b>XML Reader</b> that reads the <b>End attribute</b>.
-                  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object.
+                  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -87,5 +87,4 @@ The input data was not in the expected format or did not have the expected value
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadstartattribute">WsReadStartAttribute</a> must have been called in order to use this API.
-
+<a href="/windows/desktop/api/webservices/nf-webservices-wsreadstartattribute">WsReadStartAttribute</a> must have been called in order to use this API.

@@ -60,9 +60,8 @@ The orientation. This is a row-major 3x3 rotation matrix.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
+<a href="/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

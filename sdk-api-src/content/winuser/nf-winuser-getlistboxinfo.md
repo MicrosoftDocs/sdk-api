@@ -56,17 +56,16 @@ Retrieves the number of items per column in a specified list box.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list box whose number of items per column is to be retrieved.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The return value is the number of items per column.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcomboboxinfo">GetComboBoxInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-getcomboboxinfo">GetComboBoxInfo</a>

@@ -88,13 +88,12 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-comparison">Vector Comparison Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-comparison">Vector Comparison Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorequal">XMVectorEqual</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorequal">XMVectorEqual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorequalintr">XMVectorEqualIntR</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorequalintr">XMVectorEqualIntR</a>

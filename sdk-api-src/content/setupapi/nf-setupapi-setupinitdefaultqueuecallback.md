@@ -69,29 +69,28 @@ If the call to
 <b>SetupInitDefaultQueueCallback</b> fails, the function returns a PVOID value of null.
 
 To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Regardless of whether you initialized the context used by the default queue callback routine with 
 <b>SetupInitDefaultQueueCallback</b> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a>, after the queued operations have finished processing, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuptermdefaultqueuecallback">SetupTermDefaultQueueCallback</a> to release the resources allocated in initializing the context structure. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/initializing-and-terminating-the-callback-context">Initializing and Terminating the Callback Context</a>.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a>, after the queued operations have finished processing, call 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setuptermdefaultqueuecallback">SetupTermDefaultQueueCallback</a> to release the resources allocated in initializing the context structure. For more information, see 
+<a href="/windows/desktop/SetupApi/initializing-and-terminating-the-callback-context">Initializing and Terminating the Callback Context</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdefaultqueuecallbacka">SetupDefaultQueueCallback</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdefaultqueuecallbacka">SetupDefaultQueueCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a>

@@ -58,9 +58,9 @@ Validates that the specified counter is present on the computer or in the log fi
 
 ### -param hDataSource [in, optional]
 
-Handle to the data source. The <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> and <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> functions return this handle. 
+Handle to the data source. The <a href="/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> and <a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> functions return this handle. 
 
-To validate that the counter is present on the local computer, specify <b>NULL</b> (this is the same as calling <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>).
+To validate that the counter is present on the local computer, specify <b>NULL</b> (this is the same as calling <a href="/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>).
 
 ### -param szFullPathBuffer [in]
 
@@ -72,8 +72,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -150,14 +150,13 @@ The function is unable to allocate a required temporary buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>
 
 ## -remarks
 
 > [!NOTE]
 > The pdh.h header defines PdhValidatePathEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

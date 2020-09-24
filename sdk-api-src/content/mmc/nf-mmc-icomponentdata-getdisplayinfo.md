@@ -57,7 +57,7 @@ The <b>IComponentData::GetDisplayInfo</b> method retrieves display information f
 ### -param pScopeDataItem [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure. On input, the structure mask member specifies the type of information required and the lParam member identifies the item of interest.
+<a href="/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure. On input, the structure mask member specifies the type of information required and the lParam member identifies the item of interest.
 
 ## -returns
 
@@ -70,20 +70,19 @@ It is safe to reallocate the memory allocated for members of the pScopeDataItem 
 <ul>
 <li>When the scope item is deleted.</li>
 <li>When 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-destroy">IComponentData::Destroy</a> is called.</li>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-destroy">IComponentData::Destroy</a> is called.</li>
 <li>When 
 GetDisplayInfo is called again for that scope item.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>

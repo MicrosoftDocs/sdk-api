@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves a member of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration, which specifies which part of a selection, if any, was hit during a hit test.
+Retrieves a member of the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration, which specifies which part of a selection, if any, was hit during a hit test.
 
 ## -parameters
 
@@ -65,11 +65,11 @@ The y-position, in pixels, of the hit test.
 
 ### -param SelArea [out]
 
-The value from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration.
+The value from the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration.
 
 ## -remarks
 
-For further details about this method, refer to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-hittestselection">HitTestSelection</a> method, which has the same functionality.
+For further details about this method, refer to the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object's <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-hittestselection">HitTestSelection</a> method, which has the same functionality.
 
 ## -see-also
 
@@ -77,9 +77,8 @@ For further details about this method, refer to the <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
+<a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult Enumeration</a>
-
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult Enumeration</a>

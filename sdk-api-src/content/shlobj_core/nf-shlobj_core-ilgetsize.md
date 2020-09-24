@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Returns the size, in bytes, of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+Returns the size, in bytes, of an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -parameters
 
@@ -62,11 +62,10 @@ Returns the size, in bytes, of an <a href="https://docs.microsoft.com/windows/de
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -returns
 
 Type: <b>UINT</b>
 
-The size of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure specified by <i>pidl</i>, in bytes.
-
+The size of the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure specified by <i>pidl</i>, in bytes.

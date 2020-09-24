@@ -53,15 +53,15 @@ api_name:
 Attendee objects are created as a result of clients connecting to the session and being authenticated. After an attendee object is created, it is automatically added to the attendees list.You cannot create an instance of this object. Applications can get access to attendee objects in the following ways:
 
 <ul>
-<li>When the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/onattendeeconnected">IRDPSessionEvents::OnAttendeeConnected</a> event is fired, the parameter is an <b>IDispatch</b> pointer corresponding to the attendee object that was created.</li>
-<li>By accessing the Attendee property of the AttendeeDisconnectInfo object. An <b>IDispatch</b> pointer to this object is fired by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/onattendeedisconnected">IRDPSessionEvents::OnAttendeeDisconnected</a> event. This is how applications are informed of what attendee was disconnected.</li>
-<li>By calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendeemanager-get_item">get_Item</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a> interface.</li>
-<li>By calling <b>get_Next</b> on the enumerator returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendeemanager-get__newenum">IRDPSRAPIAttendeeManager::get__NewEnum</a> method.</li>
+<li>When the <a href="/previous-versions/windows/desktop/rdp/onattendeeconnected">IRDPSessionEvents::OnAttendeeConnected</a> event is fired, the parameter is an <b>IDispatch</b> pointer corresponding to the attendee object that was created.</li>
+<li>By accessing the Attendee property of the AttendeeDisconnectInfo object. An <b>IDispatch</b> pointer to this object is fired by the <a href="/previous-versions/windows/desktop/rdp/onattendeedisconnected">IRDPSessionEvents::OnAttendeeDisconnected</a> event. This is how applications are informed of what attendee was disconnected.</li>
+<li>By calling the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendeemanager-get_item">get_Item</a> method on the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a> interface.</li>
+<li>By calling <b>get_Next</b> on the enumerator returned by the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendeemanager-get__newenum">IRDPSRAPIAttendeeManager::get__NewEnum</a> method.</li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIAttendee</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIAttendee</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIAttendee</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIAttendee</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +77,7 @@ The <b>IRDPSRAPIAttendee</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-terminateconnection">TerminateConnection</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-terminateconnection">TerminateConnection</a>
 </td>
 <td align="left" width="63%">
 Disconnects the client represented by the attendee.
@@ -95,7 +95,7 @@ Disconnects the client represented by the attendee.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_connectivityinfo">ConnectivityInfo</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_connectivityinfo">ConnectivityInfo</a>
 
 
 </td>
@@ -111,7 +111,7 @@ The connectivity information for the attendee.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_controllevel">ControlLevel</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_controllevel">ControlLevel</a>
 
 
 </td>
@@ -127,7 +127,7 @@ The level of control the attendee has over the session.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_flags">Flags</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_flags">Flags</a>
 
 
 </td>
@@ -143,7 +143,7 @@ The attendee specific flags.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_id">Id</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_id">Id</a>
 
 
 </td>
@@ -159,7 +159,7 @@ The unique identifier for the attendee.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_invitation">Invitation</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_invitation">Invitation</a>
 
 
 </td>
@@ -175,7 +175,7 @@ The invitation used to grant the attendee access to the conference.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_remotename">RemoteName</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_remotename">RemoteName</a>
 
 
 </td>
@@ -196,13 +196,12 @@ Applications should not save pointers to attendee objects. The lifetime of the a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeedisconnectinfo">IRDPSRAPIAttendeeDisconnectInfo</a>
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeedisconnectinfo">IRDPSRAPIAttendeeDisconnectInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a>

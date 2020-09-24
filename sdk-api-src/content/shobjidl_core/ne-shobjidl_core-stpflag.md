@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist4-settabproperties">ITaskbarList4::SetTabProperties</a> method to specify tab properties.
+Used by the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist4-settabproperties">ITaskbarList4::SetTabProperties</a> method to specify tab properties.
 
 ## -enum-fields
 
@@ -73,4 +73,3 @@ Always use the peek image provided by the main application frame window rather t
 ### -field STPF_USEAPPPEEKWHENACTIVE
 
 When the application tab is active and a live representation of its window is available, show the main application frame in the peek feature. At other times, use the tab window. Do not combine this value with STPF_USEAPPPEEKALWAYS; doing so will result in an error.
-

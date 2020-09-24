@@ -66,7 +66,7 @@ A pointer to a null-terminated string that contains the name of the attribute.
 
 ### -field type
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-attribute_type">ATTRIBUTE_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/ndattrib/ne-ndattrib-attribute_type">ATTRIBUTE_TYPE</a></b>
 
 The type of helper attribute.
 
@@ -138,9 +138,9 @@ A GUID structure. Used when <b>type</b> is <b>AT_GUID</b>.
 
 ### -field LifeTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-life_time">LIFE_TIME</a></b>
+Type: <b><a href="/windows/desktop/api/ndattrib/ns-ndattrib-life_time">LIFE_TIME</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-life_time">LIFE_TIME</a> structure. Used when <b>type</b> is <b>AT_LIFE_TIME</b>.
+A <a href="/windows/desktop/api/ndattrib/ns-ndattrib-life_time">LIFE_TIME</a> structure. Used when <b>type</b> is <b>AT_LIFE_TIME</b>.
 
 ### -field Address
 
@@ -150,19 +150,18 @@ An IPv4 or IPv6 address. Used when <b>type</b> is <b>AT_SOCKADDR</b>.
 
 ### -field OctetString
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-octet_string">OCTET_STRING</a></b>
+Type: <b><a href="/windows/desktop/api/ndattrib/ns-ndattrib-octet_string">OCTET_STRING</a></b>
 
 A byte array for undefined types. Used when <b>type</b> is <b>AT_OCTET_STRING</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-attribute_type">ATTRIBUTE_TYPE</a>
+<a href="/windows/desktop/api/ndattrib/ne-ndattrib-attribute_type">ATTRIBUTE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NDF/copyhelperattribute">CopyHelperAttribute</a>
+<a href="/windows/desktop/NDF/copyhelperattribute">CopyHelperAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NDF/freehelperattributes">FreeHelperAttributes</a>
-
+<a href="/windows/desktop/NDF/freehelperattributes">FreeHelperAttributes</a>

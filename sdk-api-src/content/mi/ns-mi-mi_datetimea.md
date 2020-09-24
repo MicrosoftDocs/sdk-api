@@ -52,15 +52,14 @@ api_name:
 
 ## -description
 
-Represents an array of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_datetime">MI_Datetime</a> types.
+Represents an array of <a href="/windows/desktop/api/mi/ns-mi-mi_datetime">MI_Datetime</a> types.
 
 ## -struct-fields
 
 ### -field data
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_datetime">MI_Datetime</a> types.
+An array of <a href="/windows/desktop/api/mi/ns-mi-mi_datetime">MI_Datetime</a> types.
 
 ### -field size
 
 Number of items in the data array.
-

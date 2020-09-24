@@ -60,11 +60,10 @@ A pointer to a **DWORD**. On success, the function sets the DWORD to the user-de
 
 ## -returns
 
-On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](/windows/win32/api/winsock/nf-winsock-wsagetlasterror).
+On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](../winsock/nf-winsock-wsagetlasterror.md).
 
 ## -remarks
 
-This functionality is supported through the [**IP_USER_MTU**](/windows/win32/winsock/ipproto-ip-socket-options) socket option. **WSAGetIPUserMtu** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](/windows/win32/api/winsock/nf-winsock-getsockopt).
+This functionality is supported through the [**IP_USER_MTU**](/windows/win32/winsock/ipproto-ip-socket-options) socket option. **WSAGetIPUserMtu** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](../winsock/nf-winsock-getsockopt.md).
 
 ## -see-also
-

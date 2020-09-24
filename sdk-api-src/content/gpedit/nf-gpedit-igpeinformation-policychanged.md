@@ -84,9 +84,9 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 ## -remarks
 
 An extension must call this method every time it makes a change to a group policy object. Note that when you 
-    write an MMC snap-in you must implement the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> 
-    interface and call the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a> 
-    method. To get the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a> interface, set the 
+    write an MMC snap-in you must implement the <a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> 
+    interface and call the <a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a> 
+    method. To get the <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a> interface, set the 
     <i>event</i> parameter of the 
     <b>IComponentData::Notify</b> method to be 
     <b>MMCN_EXPAND</b> and the <i>arg</i> parameter to 
@@ -103,13 +103,12 @@ lpDataObject->QueryInterface(IID_IGPEInformation, (LPVOID lpDataObject->*)&m_pGP
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy Interfaces</a>
+<a href="/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>

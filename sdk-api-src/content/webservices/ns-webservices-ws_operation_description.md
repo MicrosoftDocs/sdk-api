@@ -62,11 +62,11 @@ Defines the version information. Currently value is 1.
 
 ### -field inputMessageDescription
 
-The description of incoming <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> for a given service operation.
+The description of incoming <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> for a given service operation.
 
 ### -field outputMessageDescription
 
-The description of outgoing <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> for a given service operation. For one way operations this should be <b>NULL</b>.
+The description of outgoing <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> for a given service operation. For one way operations this should be <b>NULL</b>.
 
 ### -field inputMessageOptions
 
@@ -75,8 +75,8 @@ Provides additional flags for the in message of the operation. See <a href="/win
                 
 
 
-<a href="/windows/win32/api/webservices/ne-webservices-ws_charset">WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT</a> is not applicable to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_operation_style">WS_RPC_LITERAL_OPERATION</a> style
-                    operations. The input parameter must be with type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_parameter_type">WS_PARAMETER_TYPE_MESSAGES</a>.
+<a href="/windows/win32/api/webservices/ne-webservices-ws_charset">WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT</a> is not applicable to <a href="/windows/desktop/api/webservices/ne-webservices-ws_operation_style">WS_RPC_LITERAL_OPERATION</a> style
+                    operations. The input parameter must be with type of <a href="/windows/desktop/api/webservices/ne-webservices-ws_parameter_type">WS_PARAMETER_TYPE_MESSAGES</a>.
 
 ### -field outputMessageOptions
 
@@ -85,8 +85,8 @@ Provides additional flags for the out message of the operation. See <a href="/wi
                 
 
 
-<a href="/windows/win32/api/webservices/ne-webservices-ws_charset">WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT</a> is not applicable to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_operation_style">WS_RPC_LITERAL_OPERATION</a> style
-                    operations. The output parameter must be with type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_parameter_type">WS_PARAMETER_TYPE_MESSAGES</a>.
+<a href="/windows/win32/api/webservices/ne-webservices-ws_charset">WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT</a> is not applicable to <a href="/windows/desktop/api/webservices/ne-webservices-ws_operation_style">WS_RPC_LITERAL_OPERATION</a> style
+                    operations. The output parameter must be with type of <a href="/windows/desktop/api/webservices/ne-webservices-ws_parameter_type">WS_PARAMETER_TYPE_MESSAGES</a>.
 
 ### -field parameterCount
 
@@ -102,4 +102,3 @@ A pointer to the stub function for the given operation to which the service mode
                     to do the service operation call. This will be <b>NULL</b> for proxies.
 
 ### -field style
-

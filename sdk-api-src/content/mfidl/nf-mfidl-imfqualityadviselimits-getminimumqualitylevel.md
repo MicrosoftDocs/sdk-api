@@ -56,7 +56,7 @@ Gets the minimum quality level that is supported by the component.
 
 ### -param peQualityLevel [out]
 
-Receives the minimum quality level, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_quality_level">MF_QUALITY_LEVEL</a> enumeration.
+Receives the minimum quality level, specified as a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mf_quality_level">MF_QUALITY_LEVEL</a> enumeration.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-To get the current quality level, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getqualitylevel">IMFQualityAdvise::GetQualityLevel</a> method. To set the quality level, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setqualitylevel">IMFQualityAdvise::SetQualityLevel</a> method.
+To get the current quality level, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getqualitylevel">IMFQualityAdvise::GetQualityLevel</a> method. To set the quality level, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setqualitylevel">IMFQualityAdvise::SetQualityLevel</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadviselimits">IMFQualityAdviseLimits</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadviselimits">IMFQualityAdviseLimits</a>

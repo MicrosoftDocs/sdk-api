@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>QOSCancel</b> function cancels a pending overlapped operation, like  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a>.
+The <b>QOSCancel</b> function cancels a pending overlapped operation, like  <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a>.
 
 ## -parameters
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param Overlapped [in]
 
@@ -135,7 +135,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -158,9 +158,8 @@ This function would never be called with a <b>NULL</b><i>Overlapped</i> paramete
 
 Successfully canceled operations complete normal completion mechanisms and return <b>ERROR_OPERATION_ABORTED</b> as their completion return code.
 
-Closing a handle with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> will automatically abort all pending operations issued with that handle.  If the handle is closed while a <b>QOSCancel</b> is still in progress, the call will complete with <b>ERROR_OPERATION_ABORTED</b> as the return code.
+Closing a handle with the <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> will automatically abort all pending operations issued with that handle.  If the handle is closed while a <b>QOSCancel</b> is still in progress, the call will complete with <b>ERROR_OPERATION_ABORTED</b> as the return code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

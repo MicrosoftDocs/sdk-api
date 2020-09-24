@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPTUI_VIEWCERTIFICATE_STRUCT</b> structure contains information about a certificate to view.  This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a> function.
+The <b>CRYPTUI_VIEWCERTIFICATE_STRUCT</b> structure contains information about a certificate to view.  This structure is used in the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a> function.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The size, in bytes, of the <b>CRYPTUI_VIEWCERTIFICATE_STRUCT</b> structure.
 
 ### -field hwndParent
 
-A handle to the window that is the parent of the dialog box produced by <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a>.
+A handle to the window that is the parent of the dialog box produced by <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a>.
 
 ### -field dwFlags
 
@@ -237,7 +237,7 @@ Enable revocation checking only on the leaf certificate in the certificate chain
 <td width="60%">
 Enable revocation checking on each certificate in the certificate chain.  Valid only if neither the  <b>pCryptProviderData</b> nor the <b>hWVTStateData</b> union member is  passed in.
 
-<b>Note</b>  Because root certificates rarely contain information that allows revocation checking, it is expected that use of this option will usually result in failure of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a> function.  The recommended option is to use CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT.
+<b>Note</b>  Because root certificates rarely contain information that allows revocation checking, it is expected that use of this option will usually result in failure of the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a> function.  The recommended option is to use CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT.
 
 </td>
 </tr>
@@ -279,7 +279,7 @@ Disable the <b>Issuer Statement</b> button on the <b>General</b> tab of the <b>C
 </dl>
 </td>
 <td width="60%">
-Disable online revocation checking. Set this flag to ensure that the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a> function uses the local cache to retrieve the certificate and  does not attempt to retrieve the certificate from the network.
+Disable online revocation checking. Set this flag to ensure that the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a> function uses the local cache to retrieve the certificate and  does not attempt to retrieve the certificate from the network.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -293,7 +293,7 @@ A pointer to a null-terminated string that contains the title for the window.
 
 ### -field pCertContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate context to display.
+A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate context to display.
 
 ### -field rgszPurposes
 
@@ -305,15 +305,15 @@ The number of purposes in the <b>rgszPurposes</b> array.
 
 ### -field pCryptProviderData
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function has already been called for the certificate and the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wthelperprovdatafromstatedata">WTHelperProvDataFromStateData</a> function was also called, pass in a pointer to the state structure that was acquired from the call to <b>WTHelperProvDataFromStateData</b>. If <b>pCryptProviderData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
+If the <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function has already been called for the certificate and the <a href="/windows/desktop/api/wintrust/nf-wintrust-wthelperprovdatafromstatedata">WTHelperProvDataFromStateData</a> function was also called, pass in a pointer to the state structure that was acquired from the call to <b>WTHelperProvDataFromStateData</b>. If <b>pCryptProviderData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
 
 ### -field hWVTStateData
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> has already been called for the certificate and <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wthelperprovdatafromstatedata">WTHelperProvDataFromStateData</a> was not called, pass in the <b>hWVTStateData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. If <b>hWVTStateData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
+If <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> has already been called for the certificate and <a href="/windows/desktop/api/wintrust/nf-wintrust-wthelperprovdatafromstatedata">WTHelperProvDataFromStateData</a> was not called, pass in the <b>hWVTStateData</b> member of the <a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. If <b>hWVTStateData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
 
 ### -field fpCryptProviderDataTrustedUsage
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> was called, this is the result of whether the certificate was trusted.
+If <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> was called, this is the result of whether the certificate was trusted.
 
 ### -field idxSigner
 
@@ -345,7 +345,7 @@ The number of property pages to add to the dialog box.
 
 ### -field rgPropSheetPages
 
-An array of property pages to add to the dialog box.                        Each page in this array will not receive the <b>lParam</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure as the <b>lParam</b> in the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message. It will instead receive a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-cryptui_initdialog_struct">CRYPTUI_INITDIALOG_STRUCT</a>  structure. It contains the <b>lParam</b> in  <b>PROPSHEETPAGE</b> and the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> for which the page is being displayed.
+An array of property pages to add to the dialog box.                        Each page in this array will not receive the <b>lParam</b> in the <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure as the <b>lParam</b> in the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message. It will instead receive a pointer to a <a href="/windows/desktop/api/cryptuiapi/ns-cryptuiapi-cryptui_initdialog_struct">CRYPTUI_INITDIALOG_STRUCT</a>  structure. It contains the <b>lParam</b> in  <b>PROPSHEETPAGE</b> and the pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> for which the page is being displayed.
 
 ### -field nStartPage
 
@@ -353,10 +353,9 @@ The index of the initial page that will be displayed.  If the highest bit (0x800
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a>
+<a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a>
 
 ## -remarks
 
 > [!NOTE]
 > The cryptuiapi.h header defines CRYPTUI_VIEWCERTIFICATE_STRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

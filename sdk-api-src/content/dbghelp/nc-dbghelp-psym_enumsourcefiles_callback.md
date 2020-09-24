@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiles">SymEnumSourceFiles</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiles">SymEnumSourceFiles</a> function.
 
 The <b>PSYM_ENUMSOURCEFILES_CALLBACK</b> and <b>PSYM_ENUMSOURCEFILES_CALLBACKW</b> types define a pointer to this callback function. 
 <b>SymEnumSourceFilesProc</b> is a placeholder for the application-defined function name.
@@ -61,12 +61,12 @@ The <b>PSYM_ENUMSOURCEFILES_CALLBACK</b> and <b>PSYM_ENUMSOURCEFILES_CALLBACKW</
 ### -param pSourceFile [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-sourcefile">SOURCEFILE</a> structure that provides information about the source file.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-sourcefile">SOURCEFILE</a> structure that provides information about the source file.
 
 ### -param UserContext [in, optional]
 
 The user-defined value passed from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiles">SymEnumSourceFiles</a> function, or <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiles">SymEnumSourceFiles</a> function, or <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
 ## -returns
 
@@ -77,13 +77,12 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-sourcefile">SOURCEFILE</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-sourcefile">SOURCEFILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiles">SymEnumSourceFiles</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiles">SymEnumSourceFiles</a>

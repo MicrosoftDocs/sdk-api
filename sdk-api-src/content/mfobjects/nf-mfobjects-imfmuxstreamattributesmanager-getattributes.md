@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the substream with the specified index.
+Gets the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the substream with the specified index.
 
 ## -parameters
 
@@ -106,7 +106,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The stream specified substream index is invalid. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamattributesmanager-getstreamcount">GetStreamCount</a> to get the number of substreams managed by the multiplexed media source.
+The stream specified substream index is invalid. Call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamattributesmanager-getstreamcount">GetStreamCount</a> to get the number of substreams managed by the multiplexed media source.
 
 </td>
 </tr>
@@ -114,5 +114,4 @@ The stream specified substream index is invalid. Call <a href="https://docs.micr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>

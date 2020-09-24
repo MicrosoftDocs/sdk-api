@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets a numeric value in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>. The <b>PRESUTIL_SET_DWORD_VALUE</b> type defines a pointer to this function.
+Sets a numeric value in the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>. The <b>PRESUTIL_SET_DWORD_VALUE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -75,50 +75,49 @@ Optional. Pointer to where the updated value should be copied.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-The  <b>ResUtilSetDwordValue</b> utility function updates the cluster database by calling the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>.
+The  <b>ResUtilSetDwordValue</b> utility function updates the cluster database by calling the  <a href="/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>.
 
 Do not call  <b>ResUtilSetDwordValue</b> from the following resource DLL entry point functions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
 </li>
 </ul>
-<b>ResUtilSetDwordValue</b> can be safely called from any other resource DLL entry point function or from a worker thread. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+<b>ResUtilSetDwordValue</b> can be safely called from any other resource DLL entry point function or from a worker thread. For more information, see  <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetbinaryvalue">ResUtilSetBinaryValue</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetbinaryvalue">ResUtilSetBinaryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetexpandszvalue">ResUtilSetExpandSzValue</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetexpandszvalue">ResUtilSetExpandSzValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetmultiszvalue">ResUtilSetMultiSzValue</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetmultiszvalue">ResUtilSetMultiSzValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetszvalue">ResUtilSetSzValue</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetszvalue">ResUtilSetSzValue</a>

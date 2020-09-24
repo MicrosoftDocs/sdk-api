@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CERT_DSS_PARAMETERS</b> structure contains parameters associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> algorithm.
+The <b>CERT_DSS_PARAMETERS</b> structure contains parameters associated with a <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) <a href="/windows/desktop/SecGloss/p-gly">public key</a> algorithm.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ Prime Q. It is 20 bytes in length. The most significant bit of the most signific
 ### -field g
 
 Generator G. Must be the same length as <b>p</b> (must be padded with 0x00 bytes if it is less).
-

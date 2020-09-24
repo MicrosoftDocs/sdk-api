@@ -50,29 +50,28 @@ api_name:
 
 ## -description
 
-Sets information used to determine auto-scroll characteristics. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setautoscrollinfo">TVM_SETAUTOSCROLLINFO</a> message explicitly.
+Sets information used to determine auto-scroll characteristics. Use this macro or send the <a href="/windows/desktop/Controls/tvm-setautoscrollinfo">TVM_SETAUTOSCROLLINFO</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
 ### -param uPixPerSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies pixels per second. The offset to scroll is divided by the <i>uPixPerSec</i> to determine the total duration of the auto-scroll.
 
 ### -param uUpdateTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the redraw time interval. Redraw at every elasped interval, until the item is scrolled into view.  Given <i>uPixPerSec</i>, the location of the item is calculated and a repaint occurs. Set this value to create smooth scrolling.
 
 ## -remarks
 
-Autoscroll information is used to scroll a nonvisible item into view. The control must have the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_AUTOHSCROLL</a> extended style. For information on extended styles, see Tree-View Control Extended Styles.
-
+Autoscroll information is used to scroll a nonvisible item into view. The control must have the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_AUTOHSCROLL</a> extended style. For information on extended styles, see Tree-View Control Extended Styles.

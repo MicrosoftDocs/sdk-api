@@ -62,7 +62,7 @@ The subcategory of the association database in which the entry is stored.  This 
 
 ### -param pIFunctionDiscoveryNotification [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> object that is registered for notifications with Function Discovery.
+An <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> object that is registered for notifications with Function Discovery.
 
 ## -returns
 
@@ -99,22 +99,21 @@ The method failed.
 
 ## -remarks
 
-This method modifies the association database entry corresponding to the function instance from which the <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a> interface was obtained. 
+This method modifies the association database entry corresponding to the function instance from which the <a href="/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a> interface was obtained. 
 
 The following logic is used to determine the callback method used for notification:
 
 <ul>
-<li>If a PnP notification is received after the device is unassociated, then the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate">IFunctionDiscoveryNotification::OnUpdate</a> method is called  with the <i>enumQueryUpdateAction</i> parameter set to  <b>QUA_REMOVE</b>. </li>
-<li>If no PnP notification is received after the device is unassociated, and there are no pending PnP events, then the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">IFunctionDiscoveryNotification::OnError</a> method is called. </li>
+<li>If a PnP notification is received after the device is unassociated, then the <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate">IFunctionDiscoveryNotification::OnUpdate</a> method is called  with the <i>enumQueryUpdateAction</i> parameter set to  <b>QUA_REMOVE</b>. </li>
+<li>If no PnP notification is received after the device is unassociated, and there are no pending PnP events, then the <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">IFunctionDiscoveryNotification::OnError</a> method is called. </li>
 <li>Finally, if no PnP notification is received after the device is unassociated, and there are pending PnP events, then no callback method is called.</li>
 </ul>
-This method does not remove the entry from the association database. To remove an entry from the association database, call <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-delete">IPNPXAssociation::Delete</a>.
+This method does not remove the entry from the association database. To remove an entry from the association database, call <a href="/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-delete">IPNPXAssociation::Delete</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-unassociate">IPNPXAssociation::Unassociate</a>
+<a href="/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-unassociate">IPNPXAssociation::Unassociate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a>
-
+<a href="/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a>

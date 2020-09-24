@@ -63,11 +63,11 @@ The <b>GetOutputSetting</b> method retrieves a setting for a particular output b
 
 ### -param pszName [in]
 
-Pointer to a wide-character <b>null</b>-terminated string containing the name of the setting for which you want the value. For a list of global constants representing setting names, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/output-settings">Output Settings</a>.
+Pointer to a wide-character <b>null</b>-terminated string containing the name of the setting for which you want the value. For a list of global constants representing setting names, see <a href="/windows/desktop/wmformat/output-settings">Output Settings</a>.
 
 ### -param pType [out]
 
-Pointer to a variable that receives one value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. The value received specifies the type of data in <i>pValue</i>.
+Pointer to a variable that receives one value from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. The value received specifies the type of data in <i>pValue</i>.
 
 ### -param pValue [out]
 
@@ -159,9 +159,8 @@ If you pass a buffer as <i>pValue</i> that is not large enough to contain the da
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">IWMSyncReader::SetOutputSetting</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">IWMSyncReader::SetOutputSetting</a>

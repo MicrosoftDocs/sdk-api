@@ -54,7 +54,7 @@ Exposes methods that provide an object with a specified property bag in which th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedPropertyBag</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamedPropertyBag</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedPropertyBag</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamedPropertyBag</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INamedPropertyBag</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-inamedpropertybag-readpropertynpb">ReadPropertyNPB</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-inamedpropertybag-readpropertynpb">ReadPropertyNPB</a>
 </td>
 <td align="left" width="63%">
 Causes a property to be read from the named property bag.
@@ -78,7 +78,7 @@ Causes a property to be read from the named property bag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-inamedpropertybag-removepropertynpb">RemovePropertyNPB</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-inamedpropertybag-removepropertynpb">RemovePropertyNPB</a>
 </td>
 <td align="left" width="63%">
 Removes a property from a named property bag.
@@ -87,7 +87,7 @@ Removes a property from a named property bag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-inamedpropertybag-writepropertynpb">WritePropertyNPB</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-inamedpropertybag-writepropertynpb">WritePropertyNPB</a>
 </td>
 <td align="left" width="63%">
 Saves a property to the named property bag.
@@ -95,4 +95,3 @@ Saves a property to the named property bag.
 </td>
 </tr>
 </table>
-

@@ -57,7 +57,7 @@ The <code>put_Owner</code> method specifies a parent window for the video window
 
 ### -param Owner [in]
 
-A handle to the parent window, as an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/oahwnd">OAHWND</a> value, or <b>NULL</b> to remove the existing parent.
+A handle to the parent window, as an <a href="/windows/desktop/DirectShow/oahwnd">OAHWND</a> value, or <b>NULL</b> to remove the existing parent.
 
 ## -returns
 
@@ -100,13 +100,12 @@ Reset the owner to <b>NULL</b> before releasing the Filter Graph Manager. Otherw
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_owner">IVideoWindow::get_Owner</a>
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_owner">IVideoWindow::get_Owner</a>

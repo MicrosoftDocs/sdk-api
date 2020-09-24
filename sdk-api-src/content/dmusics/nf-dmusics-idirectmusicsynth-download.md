@@ -219,13 +219,12 @@ The <b>dwDLType</b> member of DMUS_DOWNLOADINFO specifies the type of data being
 
 Note that the download memory is always padded with an extra 32 bytes. This allows synthesizer implementations that require additional padding at the end of loops for multipoint interpolation to fill the space after the end of a wave chunk with additional data, up to 32 bytes. This additional padding is reflected by <b>cbSize</b>.
 
-Depending on the synthesizer implementation, the synthesizer might decide to use the memory in the download chunk. After all, if enough memory has been allocated to store a wave, that same memory can be used by the synthesizer to store it for playback. So the synthesizer has the option of retaining the memory, and it returns its decision in the <i>pbFree</i> parameter. If it does keep the memory, then the caller must not free it. Later, the <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-unload">IDirectMusicSynth::Unload</a> method has a callback mechanism to handle asynchronous freeing of the memory once the unload request has been made.
+Depending on the synthesizer implementation, the synthesizer might decide to use the memory in the download chunk. After all, if enough memory has been allocated to store a wave, that same memory can be used by the synthesizer to store it for playback. So the synthesizer has the option of retaining the memory, and it returns its decision in the <i>pbFree</i> parameter. If it does keep the memory, then the caller must not free it. Later, the <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-unload">IDirectMusicSynth::Unload</a> method has a callback mechanism to handle asynchronous freeing of the memory once the unload request has been made.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth">IDirectMusicSynth</a>
+<a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth">IDirectMusicSynth</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-unload">IDirectMusicSynth::Unload</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-unload">IDirectMusicSynth::Unload</a>

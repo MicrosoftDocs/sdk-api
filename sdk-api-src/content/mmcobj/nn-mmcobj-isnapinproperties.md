@@ -56,14 +56,14 @@ The
 The 
 <b>ISnapinProperties</b> interface is implemented by the snap-in. The properties provided by the 
 <b>ISnapinProperties</b> interface correspond to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/snapin-properties">Properties</a> property of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/snapin-object">SnapIn</a> object. The 
+<a href="/previous-versions/windows/desktop/mmc/snapin-properties">Properties</a> property of the 
+<a href="/previous-versions/windows/desktop/mmc/snapin-object">SnapIn</a> object. The 
 <b>SnapIn</b> object is part of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 automation object model</a>.
+<a href="/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 automation object model</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISnapinProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISnapinProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISnapinProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISnapinProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,17 +78,17 @@ The <b>ISnapinProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-initialize">Initialize</a>
+<a href="/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides the snap-in with the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/properties-collection">Properties</a> collection, which can be used for initialization.
+<a href="/previous-versions/windows/desktop/mmc/properties-collection">Properties</a> collection, which can be used for initialization.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-propertieschanged">PropertiesChanged</a>
+<a href="/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-propertieschanged">PropertiesChanged</a>
 </td>
 <td align="left" width="63%">
 Informs the snap-in that one or more of its configuration properties has been added, deleted, or changed.
@@ -97,7 +97,7 @@ Informs the snap-in that one or more of its configuration properties has been ad
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-querypropertynames">QueryPropertyNames</a>
+<a href="/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-querypropertynames">QueryPropertyNames</a>
 </td>
 <td align="left" width="63%">
 Returns the names of the properties that the snap-in uses for configuration.
@@ -105,4 +105,3 @@ Returns the names of the properties that the snap-in uses for configuration.
 </td>
 </tr>
 </table>
-

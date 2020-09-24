@@ -58,7 +58,7 @@ Sets the size and position of the view windows created by the browser.
 
 Type: <b>HDWP*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> handle. This parameter can be <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> handle. This parameter can be <b>NULL</b>.
 
 ### -param rcBrowser [in]
 
@@ -74,5 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Coordinates are relative to the <i>hwndParent</i> passed in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-initialize">IExplorerBrowser::Initialize</a>.
-
+Coordinates are relative to the <i>hwndParent</i> passed in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-initialize">IExplorerBrowser::Initialize</a>.

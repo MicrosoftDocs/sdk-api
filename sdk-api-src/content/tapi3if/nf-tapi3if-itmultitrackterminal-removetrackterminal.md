@@ -58,7 +58,7 @@ The
 ### -param pTrackTerminalToRemove [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface of the terminal to remove.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface of the terminal to remove.
 
 ## -returns
 
@@ -113,9 +113,8 @@ The actual action performed by this method may vary in the actual implementation
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmultitrackterminal">ITMultiTrackTerminal</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itmultitrackterminal">ITMultiTrackTerminal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>

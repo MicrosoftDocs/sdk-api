@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>get_Event</b> method gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-qos_event">QOS_EVENT</a> indicator.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-qos_event">QOS_EVENT</a> indicator.
 
 ## -parameters
 
@@ -106,9 +106,8 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-qos_event">QOS_EVENT</a>
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-qos_event">QOS_EVENT</a>

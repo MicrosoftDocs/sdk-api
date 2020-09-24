@@ -60,7 +60,7 @@ When saving a file, prompt before overwriting an existing file of the same name.
 
 ### -field FOS_STRICTFILETYPES
 
-In the Save dialog, only allow the user to choose a file that has one of the file name extensions specified through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfiletypes">IFileDialog::SetFileTypes</a>.
+In the Save dialog, only allow the user to choose a file that has one of the file name extensions specified through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfiletypes">IFileDialog::SetFileTypes</a>.
 
 ### -field FOS_NOCHANGEDIR
 
@@ -72,11 +72,11 @@ Present an Open dialog that offers a choice of folders rather than files.
 
 ### -field FOS_FORCEFILESYSTEM
 
-Ensures that returned items are file system items (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO_FILESYSTEM</a>). Note that this does not apply to items returned by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getcurrentselection">IFileDialog::GetCurrentSelection</a>.
+Ensures that returned items are file system items (<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO_FILESYSTEM</a>). Note that this does not apply to items returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getcurrentselection">IFileDialog::GetCurrentSelection</a>.
 
 ### -field FOS_ALLNONSTORAGEITEMS
 
-Enables the user to choose any item in the Shell namespace, not just those with <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO_STREAM</a> or <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFAGO_FILESYSTEM</a> attributes. This flag cannot be combined with FOS_FORCEFILESYSTEM.
+Enables the user to choose any item in the Shell namespace, not just those with <a href="/windows/desktop/shell/sfgao">SFGAO_STREAM</a> or <a href="/windows/desktop/shell/sfgao">SFAGO_FILESYSTEM</a> attributes. This flag cannot be combined with FOS_FORCEFILESYSTEM.
 
 ### -field FOS_NOVALIDATE
 
@@ -84,7 +84,7 @@ Do not check for situations that would prevent an application from opening the s
 
 ### -field FOS_ALLOWMULTISELECT
 
-Enables the user to select multiple items in the open dialog. Note that when this flag is set, the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog">IFileOpenDialog</a> interface must be used to retrieve those items.
+Enables the user to select multiple items in the open dialog. Note that when this flag is set, the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog">IFileOpenDialog</a> interface must be used to retrieve those items.
 
 ### -field FOS_PATHMUSTEXIST
 
@@ -100,7 +100,7 @@ Prompt for creation if the item returned in the save dialog does not exist. Note
 
 ### -field FOS_SHAREAWARE
 
-In the case of a sharing violation when an application is opening a file, call the application back through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onshareviolation">OnShareViolation</a> for guidance. This flag is overridden by FOS_NOVALIDATE.
+In the case of a sharing violation when an application is opening a file, call the application back through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onshareviolation">OnShareViolation</a> for guidance. This flag is overridden by FOS_NOVALIDATE.
 
 ### -field FOS_NOREADONLYRETURN
 
@@ -116,7 +116,7 @@ Hide the list of places from which the user has recently opened or saved items. 
 
 ### -field FOS_HIDEPINNEDPLACES
 
-Hide items shown by default in the view's navigation pane. This flag is often used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-addplace">IFileDialog::AddPlace</a> method, to hide standard locations and replace them with custom locations.
+Hide items shown by default in the view's navigation pane. This flag is often used in conjunction with the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-addplace">IFileDialog::AddPlace</a> method, to hide standard locations and replace them with custom locations.
 
 <b>Windows 7 and later</b>. Hide all of the standard namespace locations (such as Favorites, Libraries, Computer, and Network) shown in the navigation pane.
 
@@ -130,7 +130,7 @@ Shortcuts should not be treated as their target items. This allows an applicatio
 
 ### -field FOS_DONTADDTORECENT
 
-Do not add the item being opened or saved to the recent documents list (<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>).
+Do not add the item being opened or saved to the recent documents list (<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>).
 
 ### -field FOS_FORCESHOWHIDDEN
 
@@ -146,21 +146,20 @@ Indicates to the <b>Open</b> dialog box that the preview pane should always be d
 
 ### -field FOS_SUPPORTSTREAMABLEITEMS
 
-Indicates that the caller is opening a file as a stream (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler">BHID_Stream</a>), so there is no need to download that file.
+Indicates that the caller is opening a file as a stream (<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler">BHID_Stream</a>), so there is no need to download that file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getoptions">IFileDialog::GetOptions</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getoptions">IFileDialog::GetOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions">IFileDialog::SetOptions</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions">IFileDialog::SetOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775685(v=vs.85)">IFileSaveDialog::GetOptions</a>
+<a href="/previous-versions/windows/desktop/legacy/bb775685(v=vs.85)">IFileSaveDialog::GetOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775708(v=vs.85)">IFileSaveDialog::SetOptions</a>
-
+<a href="/previous-versions/windows/desktop/legacy/bb775708(v=vs.85)">IFileSaveDialog::SetOptions</a>

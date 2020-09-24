@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Elements of the <b>TfLayoutCode</b> enumeration specify the type of layout change in an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange</a> notification.
+Elements of the <b>TfLayoutCode</b> enumeration specify the type of layout change in an <a href="/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange</a> notification.
 
 ## -enum-fields
 
@@ -74,6 +74,5 @@ In TSF, a view is on-screen rendering of document content. These constants are a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
+<a href="/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
       </a>
-

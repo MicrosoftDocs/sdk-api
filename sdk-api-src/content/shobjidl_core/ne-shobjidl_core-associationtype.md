@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of association for an application. Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> interface.
+Specifies the type of association for an application. Used by methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> interface.
 
 ## -enum-fields
 
@@ -69,4 +69,3 @@ Indicates the owner of the startmenu client for a mail or Internet hyperlink. As
 ### -field AT_MIMETYPE
 
 Indicates the MIME type, such as <code>audio/mp3</code>.
-

@@ -56,25 +56,24 @@ Sets the default paragraph formatting  for this instance of the Text Object Mode
 
 ### -param pPara [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>*</b>
 
 The paragraph object that provides the default paragraph formatting
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-You can also set the default paragraph formatting by calling <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-reset">ITextPara::Reset(tomDefault)</a>.
+You can also set the default paragraph formatting by calling <a href="/windows/desktop/api/tom/nf-tom-itextpara-reset">ITextPara::Reset(tomDefault)</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getdocumentpara">ITextDocument2::GetDocumentPara</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getdocumentpara">ITextDocument2::GetDocumentPara</a>

@@ -85,13 +85,12 @@ This method must return <b>WBEM_S_NO_ERROR</b> if the call succeeds. If the call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbempropertyprovider-putproperty">Constructing Property Providers</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbempropertyprovider-putproperty">Constructing Property Providers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbempropertyprovider">IWbemPropertyProvider</a>
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbempropertyprovider">IWbemPropertyProvider</a>
 
 
 
 <b>PutProperty</b>
-

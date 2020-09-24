@@ -52,28 +52,27 @@ api_name:
 
 ## -description
 
-Contains information about a key press in a tab control. It is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcn-keydown">TCN_KEYDOWN</a> notification code. This structure supersedes the
+Contains information about a key press in a tab control. It is used with the <a href="/windows/desktop/Controls/tcn-keydown">TCN_KEYDOWN</a> notification code. This structure supersedes the
 <b>TC_KEYDOWN</b> structure.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
 
 ### -field wVKey
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Virtual key code.
 
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value that is identical to the 
-					<i>lParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> message.
-
+					<i>lParam</i> parameter of the <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> message.

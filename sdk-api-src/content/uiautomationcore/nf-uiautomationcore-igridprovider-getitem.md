@@ -68,14 +68,14 @@ The ordinal number of the column of interest.
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>**</b>
 
 Receives a pointer to a UI Automation provider for the specified cell or a null reference 
                 (Nothing in Microsoft Visual Basic .NET) if the cell is empty.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -85,20 +85,19 @@ Grid coordinates are zero-based with the upper left (or upper right cell dependi
             
 
 If a cell is empty a UI Automation provider must still be 
-            returned in order to support the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-igriditemprovider-get_containinggrid">ContainingGrid</a> property 
+            returned in order to support the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-igriditemprovider-get_containinggrid">ContainingGrid</a> property 
             for that cell. This is possible when the layout of child elements in the grid is similar to a ragged array.
             
 
 Hidden rows and columns, depending on the provider implementation, may be loaded in the 
-            UI Automation tree and will therefore be reflected in the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-igridprovider-get_rowcount">IGridProvider::RowCount</a> 
-            and <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-igridprovider-get_columncount">IGridProvider::ColumnCount</a> properties. 
+            UI Automation tree and will therefore be reflected in the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-igridprovider-get_rowcount">IGridProvider::RowCount</a> 
+            and <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-igridprovider-get_columncount">IGridProvider::ColumnCount</a> properties. 
             If the hidden rows and columns have not yet been loaded they should not be counted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>CloseNtmsNotification</b> function closes the specified open notification channel.
@@ -60,7 +60,7 @@ The
 ### -param hNotification [in]
 
 Notification handle returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a> function.
 
 ## -returns
 
@@ -132,17 +132,16 @@ The function was successful.
 
 If the 
 <b>CloseNtmsNotification</b> function is called while there is an outstanding call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a> function, an error returns.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a> function, an error returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Database Notification Functions</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Database Notification Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a>
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a>

@@ -65,14 +65,13 @@ S_OK is returned on success, but other success codes may be returned as a result
 ## -remarks
 
 <b>MSDiscMasterObj</b> returns an enumerator that identifies the supported formats by their interface IDs. Currently, there are two formats: IID_IRedbookDiscMaster (
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>) and IID_IJolietDiscMaster (
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>).
+<a href="/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>) and IID_IJolietDiscMaster (
+<a href="/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>).
 
 <b>IEnumDiscMasterFormats</b> is standard COM enumerator, as documented in 
 <b>IEnumXXXX</b>. Each call to <b>Next</b> returns an array of IIDs, one IID per supported disc master format. To select the active format and retrieve a pointer to a format specific interface, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscmasterformat">SetActiveDiscMasterFormat</a>. (Do not use <b>QueryInterface</b>, because the interface will not be associated with the active format).
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscmasterformat">SetActiveDiscMasterFormat</a>. (Do not use <b>QueryInterface</b>, because the interface will not be associated with the active format).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>

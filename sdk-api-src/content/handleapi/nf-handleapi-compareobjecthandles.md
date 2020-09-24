@@ -71,7 +71,7 @@ A Boolean value that indicates if the two handles refer to the same underlying k
 
 ## -remarks
 
-The <b>CompareObjectHandles</b> function is useful to determine if two kernel handles refer to the same kernel object without imposing a requirement that specific access rights be granted to either handle in order to perform the comparison.  For example, if a process desires to determine whether a process handle is a handle to the current process, a call to <b>CompareObjectHandles</b> (GetCurrentProcess (), hProcess) can be used to determine if hProcess refers to the current process.  Notably, this does not require the use of object-specific access rights, whereas in this example, calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a> to check the process IDs of two process handles imposes a requirement that the handles grant PROCESS_QUERY_LIMITED_INFORMATION access. However it is legal for a process handle to not have that access right granted depending on how the handle is intended to be used.
+The <b>CompareObjectHandles</b> function is useful to determine if two kernel handles refer to the same kernel object without imposing a requirement that specific access rights be granted to either handle in order to perform the comparison.  For example, if a process desires to determine whether a process handle is a handle to the current process, a call to <b>CompareObjectHandles</b> (GetCurrentProcess (), hProcess) can be used to determine if hProcess refers to the current process.  Notably, this does not require the use of object-specific access rights, whereas in this example, calling <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a> to check the process IDs of two process handles imposes a requirement that the handles grant PROCESS_QUERY_LIMITED_INFORMATION access. However it is legal for a process handle to not have that access right granted depending on how the handle is intended to be used.
 
 
 #### Examples
@@ -121,5 +121,4 @@ if (CompareObjectHandles (Event1, GetCurrentProcess ()) == FALSE)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-and-object-functions">Handle and Object Functions</a>
-
+<a href="/windows/desktop/SysInfo/handle-and-object-functions">Handle and Object Functions</a>

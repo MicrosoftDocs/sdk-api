@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Allocates a segment of memory from the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a>.
+Allocates a segment of memory from the specified <a href="/windows/desktop/wsw/heap">heap</a>.
 
 ## -parameters
 
 ### -param heap [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the heap from which to allocate the memory.
+Pointer to a <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the heap from which to allocate the memory.
 
 ### -param size [in]
 
@@ -64,7 +64,7 @@ The number of bytes to allocate.  This value can be zero.
 
 ### -param ptr
 
-On success, a pointer that receives the address of the allocated memory. This pointer is valid until <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeheap">WsFreeHeap</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a> is called on the <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a>. 
+On success, a pointer that receives the address of the allocated memory. This pointer is valid until <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeheap">WsFreeHeap</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a> is called on the <a href="/windows/desktop/wsw/heap">heap</a>. 
 
 
 
@@ -76,7 +76,7 @@ Zero byte allocations will return a non-NULL pointer.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -94,7 +94,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-The requested bytes, in addition to already allocated bytes, exceed the size of the <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a>, as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_heap_property_id">WS_HEAP_PROPERTY_MAX_SIZE</a> property.  
+The requested bytes, in addition to already allocated bytes, exceed the size of the <a href="/windows/desktop/wsw/heap">heap</a>, as specified by the <a href="/windows/desktop/api/webservices/ne-webservices-ws_heap_property_id">WS_HEAP_PROPERTY_MAX_SIZE</a> property.  
                 
 
 </td>
@@ -115,4 +115,3 @@ Insufficent memory to complete the operation.
 ## -remarks
 
 The memory returned by this function is not zero initialized and contains undefined values.
-

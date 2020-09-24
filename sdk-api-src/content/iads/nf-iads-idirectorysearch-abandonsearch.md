@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectorySearch::AbandonSearch</b> method abandons a search initiated by an earlier call to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">ExecuteSearch</a> method.
+The <b>IDirectorySearch::AbandonSearch</b> method abandons a search initiated by an earlier call to the  <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">ExecuteSearch</a> method.
 
 ## -parameters
 
@@ -64,11 +64,11 @@ Provides a handle to the search context.
 
 This method returns the standard return values, including S_OK if the first row is obtained successfully.
 
-For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-<b>IDirectorySearch::AbandonSearch</b> may be used if the Page_Size or Asynchronous options can be specified through  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> before the search is executed.
+<b>IDirectorySearch::AbandonSearch</b> may be used if the Page_Size or Asynchronous options can be specified through  <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> before the search is executed.
 
 
 #### Examples
@@ -108,17 +108,16 @@ m_pSearch->CloseSearchHandle( hSearch );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
+<a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">IDirectorySearch::ExecuteSearch</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">IDirectorySearch::ExecuteSearch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>

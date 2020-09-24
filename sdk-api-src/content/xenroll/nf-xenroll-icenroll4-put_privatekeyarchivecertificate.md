@@ -55,11 +55,10 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>PrivateKeyArchiveCertificate</b> property sets or retrieves the certificate that is used to archive a private key with a PKCS #7 or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request.
+The <b>PrivateKeyArchiveCertificate</b> property sets or retrieves the certificate that is used to archive a private key with a PKCS #7 or <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request.
 
-If this property is not null, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> is encrypted based on the specified certificate and added to the request as an unauthenticated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a>. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+If this property is not null, the <a href="/windows/desktop/SecGloss/p-gly">private key</a> is encrypted based on the specified certificate and added to the request as an unauthenticated <a href="/windows/desktop/SecGloss/a-gly">attribute</a>. This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 This property is read/write.
 
 ## -parameters
-

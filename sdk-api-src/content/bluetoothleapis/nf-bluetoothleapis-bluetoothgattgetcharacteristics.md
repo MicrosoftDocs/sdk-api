@@ -61,7 +61,7 @@ Handle to the Bluetooth device or service.
 
 ### -param Service [in, optional]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure containing the parent service of the included services to be retrieved. This parameter is required if a device handle is passed to <i>hDevice</i>. This parameter is optional if a service handle was passed to <i>hDevice</i>, in which case the service specified by the service handle will be treated as the parent.
+Address of a <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure containing the parent service of the included services to be retrieved. This parameter is required if a device handle is passed to <i>hDevice</i>. This parameter is optional if a service handle was passed to <i>hDevice</i>, in which case the service specified by the service handle will be treated as the parent.
 
 ### -param CharacteristicsBufferCount [in]
 
@@ -69,7 +69,7 @@ The number of elements allocated for the <i>CharacteristicsBuffer</i> parameter.
 
 ### -param CharacteristicsBuffer [out, optional]
 
-Pointer to buffer into which to return characteristics in a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure.
+Pointer to buffer into which to return characteristics in a <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure.
 
 ### -param CharacteristicsBufferActual [out]
 
@@ -203,8 +203,8 @@ Do not modify the returned characteristic structure,
     if the caller does this.
 
 The parent service must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
-    <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
+    <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
@@ -265,9 +265,8 @@ The parent service must be present in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a>
-
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a>

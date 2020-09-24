@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>OCSP_REQUEST_ENTRY</b> structure contains information about a single certificate in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request. This structure populates the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_info">OCSP_REQUEST_INFO</a> <b>rgRequestEntry</b> member.
+The <b>OCSP_REQUEST_ENTRY</b> structure contains information about a single certificate in an <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request. This structure populates the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_info">OCSP_REQUEST_INFO</a> <b>rgRequestEntry</b> member.
 
 ## -struct-fields
 
 ### -field CertId
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a> structure that specifies the target certificate.
+An <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a> structure that specifies the target certificate.
 
 ### -field cExtension
 
@@ -68,21 +68,20 @@ The number of elements in the <b>rgExtension</b> array.
 
 ### -field rgExtension
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains information about the <b>CertId</b> certificate.
+An array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains information about the <b>CertId</b> certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_info">OCSP_REQUEST_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_info">OCSP_REQUEST_INFO</a>
 
 
 
 <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560  Online Certificate Status Protocol</a>
-

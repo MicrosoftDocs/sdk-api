@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sorts tree-view items using an application-defined callback function that compares the items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-sortchildrencb">TVM_SORTCHILDRENCB</a> message explicitly.
+Sorts tree-view items using an application-defined callback function that compares the items. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-sortchildrencb">TVM_SORTCHILDRENCB</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -64,11 +64,10 @@ Handle to the tree-view control.
 
 Type: <b>LPTVSORTCB</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvsortcb">TVSORTCB</a> structure. The <b>lpfnCompare</b> member is the address of the application-defined callback function, which is called during the sort operation each time the relative order of two list items needs to be compared. For more information about the callback function, see the description of <b>TVSORTCB</b>.
+Pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-tvsortcb">TVSORTCB</a> structure. The <b>lpfnCompare</b> member is the address of the application-defined callback function, which is called during the sort operation each time the relative order of two list items needs to be compared. For more information about the callback function, see the description of <b>TVSORTCB</b>.
 
 ### -param recurse
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Reserved. Must be zero.
-

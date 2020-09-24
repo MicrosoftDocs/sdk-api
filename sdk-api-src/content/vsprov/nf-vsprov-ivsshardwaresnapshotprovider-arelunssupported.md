@@ -66,7 +66,7 @@ Count of LUNs contributing to this shadow copy volume.
 ### -param lContext [in]
 
 Shadow copy context for the current shadow copy set as enumerated by 
-      a bitmask of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> enumeration. If the <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> flag is set, the shadow copy set is transportable.
+      a bitmask of flags from the <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> enumeration. If the <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> flag is set, the shadow copy set is transportable.
 
 ### -param rgwszDevices [in]
 
@@ -74,7 +74,7 @@ List of devices corresponding to the LUNs to be shadow copied.
 
 ### -param pLunInformation [in, out]
 
-Array of <i>lLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
+Array of <i>lLunCount</i><a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
       contributing to this shadow copy volume.
 
 ### -param pbIsSupported [out]
@@ -148,7 +148,7 @@ An unexpected provider error occurred. The provider must report an event in the 
 If the hardware subsystem supports the SCSI Inquiry Data and Vital Product Data 
     page  80 (device serial number) and page 83 (device identity) guidelines, the provider should not need to modify the structures in the <i>pLunInformation</i> array.
 
-In any case, the <b>AreLunsSupported</b> method should not modify the value of the <b>m_rgInterconnects</b> member of any <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure in the <i>pLunInformation</i> array.
+In any case, the <b>AreLunsSupported</b> method should not modify the value of the <b>m_rgInterconnects</b> member of any <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure in the <i>pLunInformation</i> array.
 
 If the provider supports hardware shadow copy creation for all of the LUNs in the <i>pLunInformation</i> array, it should return <b>TRUE</b> in the <b>BOOL</b> value that the <i>pbIsSupported</i> parameter points to. If the provider does not support hardware shadow copies for one or more LUNs, it must set this <b>BOOL</b> value to <b>FALSE</b>. 
 
@@ -156,13 +156,12 @@ The provider must never agree to create shadow copies if it cannot, even if the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
+<a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>

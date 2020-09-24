@@ -55,7 +55,7 @@ provides similar functionality.]
 
  The 
 <b>get_RequestID</b> method obtains the request ID for a lease. The primary purpose of this method is to allow you to save the request ID after your application exits, so that you can call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">IMcastAddressAllocation::CreateLeaseInfo</a> to re-create the lease information object during a subsequent run. This allows you to renew or release a lease after the instance of your program that originally requested the lease has exited.
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">IMcastAddressAllocation::CreateLeaseInfo</a> to re-create the lease information object during a subsequent run. This allows you to renew or release a lease after the instance of your program that originally requested the lease has exited.
 
 ## -parameters
 
@@ -121,12 +121,11 @@ Not enough memory to allocate the <b>BSTR</b>.
 ## -remarks
 
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppRequestID</i> parameter.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppRequestID</i> parameter.
 			
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
-
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>

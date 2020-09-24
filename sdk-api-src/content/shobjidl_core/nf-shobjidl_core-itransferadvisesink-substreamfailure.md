@@ -56,9 +56,9 @@ Called when there is a failure that involves secondary streams and user interact
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that caused the failure.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that caused the failure.
 
 ### -param pszStreamName [in]
 
@@ -139,4 +139,3 @@ The user clicked <b>Cancel</b>. The entire copy job is being terminated. The han
 </td>
 </tr>
 </table>
-

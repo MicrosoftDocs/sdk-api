@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.This differs from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wsllaunch">WslLaunch</a> in that the end user will be able to interact with the newly-created process.
+Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.This differs from <a href="/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wsllaunch">WslLaunch</a> in that the end user will be able to interact with the newly-created process.
 
 ## -parameters
 
@@ -73,4 +73,3 @@ Receives the exit code of the process after it exits.
 ## -returns
 
 Returns S_OK on success, or a failing HRESULT otherwise.
-

@@ -58,7 +58,7 @@ The <b>CryptCATPutMemberInfo</b> function allocates memory for a catalog member 
 
 ### -param hCatalog [in]
 
-A handle to the catalog obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> function.
+A handle to the catalog obtained from the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> function.
 
 ### -param pwszFileName [in, optional]
 
@@ -82,14 +82,14 @@ A value that specifies the number of bytes in the <i>pbSIPIndirectData</i> buffe
 
 ### -param pbSIPIndirectData [in]
 
-A pointer to  a memory buffer for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP)-indirect data.
+A pointer to  a memory buffer for <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP)-indirect data.
 
 ## -returns
 
-A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains the assigned member. The caller must not free this pointer or any of its members.
+A pointer to a [CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains the assigned member. The caller must not free this pointer or any of its members.
 
 
-If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
+If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
 
 
 
@@ -121,4 +121,3 @@ The operating system ran out of memory during the operation.
 </td>
 </tr>
 </table>
-

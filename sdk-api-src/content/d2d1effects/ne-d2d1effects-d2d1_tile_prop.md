@@ -50,18 +50,17 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/tile">Tile effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/tile">Tile effect</a>.
 
 ## -enum-fields
 
 ### -field D2D1_TILE_PROP_RECT
 
-The region of the image to be tiled. This property is a <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a> defined as: (left, top, right, bottom). The units are in DIPs.
+The region of the image to be tiled. This property is a <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a> defined as: (left, top, right, bottom). The units are in DIPs.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a>.
 
 The default is {0.0f, 0.0f, 100.0f, 100.0f}.
 
 ### -field D2D1_TILE_PROP_FORCE_DWORD
-

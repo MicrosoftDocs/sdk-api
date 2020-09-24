@@ -69,9 +69,8 @@ This method provides the same functionality for both result view panes and virtu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>

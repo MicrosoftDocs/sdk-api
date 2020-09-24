@@ -56,7 +56,7 @@ Adds an item to the collection.
 
 ### -param value [in]
 
-An <b>IDispatch</b> interface of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a> interface to add to the collection. The variant type is VT_DISPATCH. 
+An <b>IDispatch</b> interface of the <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a> interface to add to the collection. The variant type is VT_DISPATCH. 
 
 You can also add a string or integer value. If the value is an integer (the variant type is VT_I4, VT_UI4, VT_I8, or VT_UI8), PLA adds an item with the specified value. 
 
@@ -68,13 +68,12 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-addrange">IValueMap::AddRange</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-addrange">IValueMap::AddRange</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-remove">IValueMap::Remove</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-remove">IValueMap::Remove</a>

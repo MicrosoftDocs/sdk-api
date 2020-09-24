@@ -56,7 +56,7 @@ Exposes methods to navigate through a shortcut menu.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMenuPopup</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbar">IDeskBar</a>. <b>IMenuPopup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMenuPopup</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbar">IDeskBar</a>. <b>IMenuPopup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMenuPopup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-onselect">OnSelect</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-onselect">OnSelect</a>
 </td>
 <td align="left" width="63%">
 Handles selection notifications.
@@ -80,7 +80,7 @@ Handles selection notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup">Popup</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup">Popup</a>
 </td>
 <td align="left" width="63%">
 Invokes the shortcut menu at a specified onscreen location.
@@ -89,7 +89,7 @@ Invokes the shortcut menu at a specified onscreen location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-setsubmenu">SetSubMenu</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-setsubmenu">SetSubMenu</a>
 </td>
 <td align="left" width="63%">
 Sets the given menu bar interface to be the submenu of the calling application object's interface.
@@ -97,4 +97,3 @@ Sets the given menu bar interface to be the submenu of the calling application o
 </td>
 </tr>
 </table>
-

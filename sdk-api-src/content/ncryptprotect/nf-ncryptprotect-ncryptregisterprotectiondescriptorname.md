@@ -116,9 +116,8 @@ The registry key created by using this function is not volatile. The information
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
+<a href="/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptqueryprotectiondescriptorname">NCryptQueryProtectionDescriptorName</a>
-
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptqueryprotectiondescriptorname">NCryptQueryProtectionDescriptorName</a>

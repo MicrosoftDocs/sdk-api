@@ -60,9 +60,8 @@ Raise an internal driver error to a non-continuable exception.
 
 ## -remarks
 
-These flags are used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getexceptionmode">ID3D10Device::GetExceptionMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setexceptionmode">ID3D10Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
+These flags are used by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getexceptionmode">ID3D10Device::GetExceptionMode</a> and <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setexceptionmode">ID3D10Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

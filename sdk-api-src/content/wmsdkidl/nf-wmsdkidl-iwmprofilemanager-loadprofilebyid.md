@@ -53,17 +53,17 @@ api_name:
 
 ## -description
 
-The <b>LoadProfileByID</b> method loads a system profile identified by its globally unique identifier. To load a custom profile, use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebydata">IWMProfileManager::LoadProfileByData</a>.
+The <b>LoadProfileByID</b> method loads a system profile identified by its globally unique identifier. To load a custom profile, use <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebydata">IWMProfileManager::LoadProfileByData</a>.
 
 ## -parameters
 
 ### -param guidProfile [in]
 
-<b>GUID</b> identifying the profile. For more information, see the table of defined constants in <a href="https://docs.microsoft.com/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>.
+<b>GUID</b> identifying the profile. For more information, see the table of defined constants in <a href="/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>.
 
 ### -param ppProfile [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
+Pointer to a pointer to an <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
 
 ## -returns
 
@@ -111,13 +111,12 @@ The <i>ppProfile</i> parameter is <b>NULL</b>.
 
 ## -remarks
 
-Only system profiles have IDs. Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reusing-stream-configurations">Reusing Stream Configurations</a>.
+Only system profiles have IDs. Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="/windows/desktop/wmformat/reusing-stream-configurations">Reusing Stream Configurations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>
-
+<a href="/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>

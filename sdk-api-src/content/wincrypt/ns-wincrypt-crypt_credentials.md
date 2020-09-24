@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_CREDENTIALS</b> structure contains information about credentials that can be passed as optional input to a remote object retrieval function such as <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgettimevalidobject">CryptGetTimeValidObject</a>.
+The <b>CRYPT_CREDENTIALS</b> structure contains information about credentials that can be passed as optional input to a remote object retrieval function such as <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> or <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgettimevalidobject">CryptGetTimeValidObject</a>.
 
 ## -struct-fields
 
@@ -82,7 +82,7 @@ This member can contain the following possible value.
 </dl>
 </td>
 <td width="60%">
-The <b>pvCredentials</b> member contains a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_password_credentialsa">CRYPT_PASSWORD_CREDENTIALS</a> structure that represents a user name and password combination.
+The <b>pvCredentials</b> member contains a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_password_credentialsa">CRYPT_PASSWORD_CREDENTIALS</a> structure that represents a user name and password combination.
 
 </td>
 </tr>
@@ -91,4 +91,3 @@ The <b>pvCredentials</b> member contains a <a href="https://docs.microsoft.com/w
 ### -field pvCredentials
 
 A pointer to a structure as defined by the <b>pszCredentialsOid</b> member.
-

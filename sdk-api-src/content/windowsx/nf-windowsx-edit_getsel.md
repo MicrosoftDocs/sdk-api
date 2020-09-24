@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the starting and ending character positions of the current selection in an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getsel">EM_GETSEL</a> message explicitly.
+Gets the starting and ending character positions of the current selection in an edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-getsel">EM_GETSEL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ## -remarks
 
-This macro does not have the complete functionality of the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getsel">EM_GETSEL</a> message, because it does not receive the 32-bit return values in the parameters of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>.
-
+This macro does not have the complete functionality of the <a href="/windows/desktop/Controls/em-getsel">EM_GETSEL</a> message, because it does not receive the 32-bit return values in the parameters of <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>.

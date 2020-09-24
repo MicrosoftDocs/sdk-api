@@ -58,7 +58,7 @@ Sets the current view mode of the current folder.
 
 Type: <b>uint</b>
 
-Sets the current view mode. For a list of possible values see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>.
+Sets the current view mode. For a list of possible values see <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
+<a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-get_currentviewmode">IShellFolderViewDual2::get_CurrentViewMode</a>
-
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-get_currentviewmode">IShellFolderViewDual2::get_CurrentViewMode</a>

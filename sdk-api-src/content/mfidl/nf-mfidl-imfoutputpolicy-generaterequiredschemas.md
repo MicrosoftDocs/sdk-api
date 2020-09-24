@@ -389,7 +389,7 @@ Number of elements in the <i>rgGuidProtectionSchemasSupported</i> array.
 
 ### -param ppRequiredProtectionSchemas [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface of a collection object. The caller must release the interface. Each object in the collection is an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputschema">IMFOutputSchema</a> pointer. Each <b>IMFOutputSchema</b> pointer defines an output protection system that the OTA must enforce.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface of a collection object. The caller must release the interface. Each object in the collection is an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputschema">IMFOutputSchema</a> pointer. Each <b>IMFOutputSchema</b> pointer defines an output protection system that the OTA must enforce.
 
 ## -returns
 
@@ -397,9 +397,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The video OTA returns  the <b>MFCONNECTOR_UNKNOWN</b> connector type unless the Direct3D device is in full-screen mode. (Direct3D windowed mode is not generally a secure video mode.) You can override this behavior by implementing a custom EVR presenter that implements the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a> interface.
+The video OTA returns  the <b>MFCONNECTOR_UNKNOWN</b> connector type unless the Direct3D device is in full-screen mode. (Direct3D windowed mode is not generally a secure video mode.) You can override this behavior by implementing a custom EVR presenter that implements the <a href="/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a>

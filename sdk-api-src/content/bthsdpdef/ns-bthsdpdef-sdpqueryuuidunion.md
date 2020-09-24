@@ -84,9 +84,8 @@ UUID in 16-bit format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
+<a href="/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthsdpdef/ns-bthsdpdef-sdpqueryuuid">SdpQueryUuid</a>
-
+<a href="/windows/desktop/api/bthsdpdef/ns-bthsdpdef-sdpqueryuuid">SdpQueryUuid</a>

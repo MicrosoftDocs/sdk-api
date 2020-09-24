@@ -75,5 +75,4 @@ Log information about every file that met all of the file management job's condi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_logging">IFsrmFileManagementJob.Logging</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_logging">IFsrmFileManagementJob.Logging</a>

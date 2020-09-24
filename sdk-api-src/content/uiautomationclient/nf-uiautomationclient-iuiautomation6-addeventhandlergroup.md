@@ -71,11 +71,10 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
-Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading).
+Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](/windows/desktop/WinAuto/uiauto-threading).
 
 It is possible for an event to be delivered to an event handler after the handler has been unsubscribed, if the event is received simultaneously with the request to unsubscribe the event. The best practice is to follow the Component Object Model (COM) standard and avoid destroying the event handler object until its reference count has reached zero. Destroying an event handler immediately after unsubscribing for events may result in an access violation if an event is delivered late.
 
 ## -see-also
 
 [IUIAutomation6::RemoveEventHandlerGroup](nf-uiautomationclient-iuiautomation6-removeeventhandlergroup.md), [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
-

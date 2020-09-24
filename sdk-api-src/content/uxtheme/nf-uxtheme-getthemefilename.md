@@ -58,29 +58,29 @@ Retrieves the value of a filename property.
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
 ### -param iPartId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the filename property. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
+Value of type <b>int</b> that specifies the part that contains the filename property. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iPropId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the property to retrieve. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/Controls/property-typedefs">Property Identifiers</a>.
+Value of type <b>int</b> that specifies the property to retrieve. For a list of possible values, see <a href="/windows/desktop/Controls/property-typedefs">Property Identifiers</a>.
 
 ### -param pszThemeFileName [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 Pointer to a buffer that receives the retrieved file name.
 
@@ -92,11 +92,10 @@ Value of type <b>int</b> that receives the maximum number of characters in the f
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/property-typedefs">Property Identifiers</a>
-
+<a href="/windows/desktop/Controls/property-typedefs">Property Identifiers</a>

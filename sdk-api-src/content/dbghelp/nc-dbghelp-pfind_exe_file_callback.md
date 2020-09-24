@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a> function. It verifies whether the executable file found by 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a> function. It verifies whether the executable file found by 
 <b>FindExecutableImageEx</b> is the correct executable file.
 
 The <b>PFIND_EXE_FILE_CALLBACK</b> and <b>PFIND_EXE_FILE_CALLBACKW</b> types define a pointer to this callback function. 
@@ -77,9 +77,8 @@ If the executable file is valid, return <b>TRUE</b>. Otherwise, return <b>FALSE<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a>

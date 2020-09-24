@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains information used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a> control code to initialize GUID partition table (GPT) disks.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a> control code to initialize GUID partition table (GPT) disks.
 
 ## -struct-fields
 
@@ -70,19 +70,18 @@ The maximum number of partitions allowed on the GPT disk to be initialized witho
 
 The 
 <b>CREATE_DISK_GPT</b> structure is defined as part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a> structure.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a> structure.
 
 If a maximum partition count of less than 128 is specified, it will be reset to 128. This is in compliance with the EFI specification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_mbr">CREATE_DISK_MBR</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-create_disk_mbr">CREATE_DISK_MBR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>

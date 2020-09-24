@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>MSCEPSetupProperty</b> enumeration specifies a property type for setup and configuration of a Microsoft <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Simple Certificate Enrollment Protocol</a> (SCEP) role using <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>.
+The <b>MSCEPSetupProperty</b> enumeration specifies a property type for setup and configuration of a Microsoft <a href="/windows/desktop/SecGloss/s-gly">Simple Certificate Enrollment Protocol</a> (SCEP) role using <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>.
 
 ## -enum-fields
 
@@ -94,11 +94,11 @@ A <b>VT_BSTR</b> value that specifies the country or region name to be added in 
 
 ### -field ENUM_CEPSETUPPROP_SIGNINGKEYINFORMATION
 
-A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP signing certificate. Setup creates a signing certificate based on an "EnrollmentAgentOffline" template.
+A <b>VT_IDISPATCH</b> value that is made up of an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP signing certificate. Setup creates a signing certificate based on an "EnrollmentAgentOffline" template.
 
 ### -field ENUM_CEPSETUPPROP_EXCHANGEKEYINFORMATION
 
-A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP key exchange certificate. Setup creates a key exchange certificate based on a "CEPEncryption" template.
+A <b>VT_IDISPATCH</b> value that is made up of an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP key exchange certificate. Setup creates a key exchange certificate based on a "CEPEncryption" template.
 
 ### -field ENUM_CEPSETUPPROP_CAINFORMATION
 
@@ -111,4 +111,3 @@ A <b>VT_BSTR</b> value that specifies the URL for use by routers to connect and 
 ### -field ENUM_CEPSETUPPROP_CHALLENGEURL
 
 A <b>VT_BSTR</b> value that specifies the URL for use by router administrators to connect and obtain a challenge phrase. By default, setup uses http://<i>MachineName</i>/certsrv/mscep/, where <i>MachineName</i> is the local machine name. This is a read-only property.
-

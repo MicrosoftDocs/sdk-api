@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>NCRYPT_KEY_BLOB_HEADER</b> structure contains a key <b>BLOB</b>. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a> functions.
+The <b>NCRYPT_KEY_BLOB_HEADER</b> structure contains a key <b>BLOB</b>. This structure is used by the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> and <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a> functions.
 
 ## -struct-fields
 
@@ -81,9 +81,8 @@ Size, in bytes, of the <b>BLOB</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a>
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a>
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a>

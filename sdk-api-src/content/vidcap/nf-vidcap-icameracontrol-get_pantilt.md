@@ -57,15 +57,15 @@ The <code>get_PanTilt</code> method returns the camera's pan and tilt angles.
 
 ### -param pPanValue [out]
 
-Receives the current panning angle, in arc seconds. An arc second is 1/3600th of a degree. See <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_pan">ICameraControl::get_Pan</a>.
+Receives the current panning angle, in arc seconds. An arc second is 1/3600th of a degree. See <a href="/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_pan">ICameraControl::get_Pan</a>.
 
 ### -param pTiltValue [out]
 
-Receives the current tilt angle, in arc seconds. See <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_tilt">ICameraControl::get_Tilt</a>.
+Receives the current tilt angle, in arc seconds. See <a href="/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_tilt">ICameraControl::get_Tilt</a>.
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
+Receives one or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
 
 ## -returns
 
@@ -73,9 +73,8 @@ Returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
-
+<a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Represents the current state of an Indexing Service catalog.
 
@@ -88,7 +88,7 @@ The completion percentage of current merge, if one is running.
 
 ### -field eState
 
-The state of content indexing. This can be one or more of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/ci-state-constants">CI_STATE_*</a> constants.
+The state of content indexing. This can be one or more of the <a href="/previous-versions/windows/desktop/indexsrv/ci-state-constants">CI_STATE_*</a> constants.
 
 ### -field cFilteredDocuments
 
@@ -124,9 +124,8 @@ When using this structure, all members are output values. The <b>cbStruct</b> me
 
 ## -see-also
 
-[CIState](/windows/win32/api/ntquery/ns-ntquery-ci_state)
+[CIState]()
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/ci-state-constants">CI_STATE_* Constants</a>
-
+<a href="/previous-versions/windows/desktop/indexsrv/ci-state-constants">CI_STATE_* Constants</a>

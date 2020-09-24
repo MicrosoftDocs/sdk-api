@@ -57,7 +57,7 @@ Sets the context for the subsequent shadow copy-related operations.
 
 ### -param lContext [in]
 
-The context to be set. The context must be one of the supported values of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> or a supported combination of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> and  <b>_VSS_SNAPSHOT_CONTEXT</b> values.
+The context to be set. The context must be one of the supported values of <a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> or a supported combination of <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> and  <b>_VSS_SNAPSHOT_CONTEXT</b> values.
 
 ## -returns
 
@@ -130,21 +130,20 @@ The context is frozen and cannot be changed.
 The default context for VSS shadow copies is VSS_CTX_BACKUP.
 
 <b>Windows XP:  </b>The only supported context is the default context, VSS_CTX_BACKUP. Therefore, calling 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-setcontext">SetContext</a> under Windows XP returns
+     <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-setcontext">SetContext</a> under Windows XP returns
      E_NOTIMPL.
 
 For more information about how the context that is set by 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-setcontext">SetContext</a> affects 
+    <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-setcontext">SetContext</a> affects 
     how a shadow copy is created and managed, see 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/implementation-details-for-creating-shadow-copies">Implementation Details for 
+    <a href="/windows/desktop/VSS/implementation-details-for-creating-shadow-copies">Implementation Details for 
     Creating Shadow Copies</a>.
    
 
 For a complete discussion of the permitted shadow copy contexts, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
+    <a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> and 
+    <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>

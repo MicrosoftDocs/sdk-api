@@ -178,7 +178,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -199,9 +199,8 @@ Neither the specified name service–database entry nor the group members are de
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbradda">RpcNsGroupMbrAdd</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbradda">RpcNsGroupMbrAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrremovea">RpcNsGroupMbrRemove</a>
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrremovea">RpcNsGroupMbrRemove</a>

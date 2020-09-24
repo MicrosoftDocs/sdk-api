@@ -62,9 +62,9 @@ Receives the query string. This parameter can be <b>NULL</b>.
 
 ### -param ppTokens [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-itokencollection">ITokenCollection</a>**</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-itokencollection">ITokenCollection</a>**</b>
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-itokencollection">ITokenCollection</a> object that describes how the query was tokenized. This parameter can be <b>NULL</b>.
+Receives a pointer to an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-itokencollection">ITokenCollection</a> object that describes how the query was tokenized. This parameter can be <b>NULL</b>.
 
 ### -param plcid [out]
 
@@ -74,7 +74,7 @@ Receives a LCID for the word breaker used for this query. This parameter can be 
 
 ### -param ppWordBreaker [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
 Receives a pointer to the word breaker used for this query. This parameter can be <b>NULL</b>.
 
@@ -83,4 +83,3 @@ Receives a pointer to the word breaker used for this query. This parameter can b
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

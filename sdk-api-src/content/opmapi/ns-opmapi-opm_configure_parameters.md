@@ -52,25 +52,25 @@ api_name:
 
 ## -description
 
-Contains an <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) or Certified Output Protection Manager (COPP) command.
+Contains an <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) or Certified Output Protection Manager (COPP) command.
 
 ## -struct-fields
 
 ### -field omac
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_omac">OPM_MAC</a> structure. Fill in this structure with the Message Authentication Code (MAC) of the command data. Use AES-based one-key CBC MAC (OMAC) to calculate this value.
+An <a href="/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_omac">OPM_MAC</a> structure. Fill in this structure with the Message Authentication Code (MAC) of the command data. Use AES-based one-key CBC MAC (OMAC) to calculate this value.
 
 ### -field guidSetting
 
-A GUID that specifies the command. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-commands">OPM Commands</a>.
+A GUID that specifies the command. For more information, see <a href="/windows/desktop/medfound/opm-commands">OPM Commands</a>.
 
 ### -field ulSequenceNumber
 
 A command sequence number. The application must keep a running count of the commands issued. For each command, increment the sequence number by one.
 
-On the first call to <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure">IOPMVideoOutput::Configure</a>, set <b>ulSequenceNumber</b> equal to the starting command 	sequence number, which is specified when the application calls <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-startinitialization">IOPMVideoOutput::FinishInitialization</a>. On each subsequent call, increment <b>ulSequenceNumber</b> by 1.
+On the first call to <a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure">IOPMVideoOutput::Configure</a>, set <b>ulSequenceNumber</b> equal to the starting command 	sequence number, which is specified when the application calls <a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-startinitialization">IOPMVideoOutput::FinishInitialization</a>. On each subsequent call, increment <b>ulSequenceNumber</b> by 1.
 
-Exception: If the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure">IOPMVideoOutput::Configure</a> method fails, do not increment the sequence number. Instead, re-use the same number for the next command.
+Exception: If the <a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure">IOPMVideoOutput::Configure</a> method fails, do not increment the sequence number. Instead, re-use the same number for the next command.
 
 ### -field cbParametersSize
 
@@ -78,11 +78,11 @@ The number of bytes of valid data in the <b>abParameters</b> member.
 
 ### -field abParameters
 
-The data for the command. The meaning of the data depends on the command. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-commands">OPM Commands</a>.
+The data for the command. The meaning of the data depends on the command. For more information, see <a href="/windows/desktop/medfound/opm-commands">OPM Commands</a>.
 
 ## -remarks
 
-The layout of this  structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppcommand">AMCOPPCommand</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this  structure is identical to the <a href="/windows/desktop/api/strmif/ns-strmif-amcoppcommand">AMCOPPCommand</a> structure used in Certified Output Protection Protocol (COPP).
       
 
 Initialize this structure as follows.
@@ -95,13 +95,12 @@ Initialize this structure as follows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure">IOPMVideoOutput::Configure</a>
+<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure">IOPMVideoOutput::Configure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

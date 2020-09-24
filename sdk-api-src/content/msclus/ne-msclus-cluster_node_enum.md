@@ -52,8 +52,8 @@ api_name:
 ## -description
 
 Describes the types of cluster objects that are enumerated by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeenum">ClusterNodeEnum</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a> functions.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeenum">ClusterNodeEnum</a> and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a> functions.
 
 ## -enum-fields
 
@@ -81,13 +81,12 @@ Network interfaces on the node, groups on the node, and groups that list the nod
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeenum">ClusterNodeEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeenum">ClusterNodeEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

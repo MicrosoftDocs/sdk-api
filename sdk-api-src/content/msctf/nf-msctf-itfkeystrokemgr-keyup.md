@@ -56,11 +56,11 @@ Passes a key up event to the keystroke manager.
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
 
 ### -param pfEaten [out]
 
@@ -131,25 +131,24 @@ if(msg.message == WM_KEYUP)
     }
 }
 </code></pre>
-If the keystroke manager does not handle the key event, it passes the key event to the text services by a call to the text service <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeyup">ITfKeyEventSink::OnKeyUp</a> method.
+If the keystroke manager does not handle the key event, it passes the key event to the text services by a call to the text service <a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeyup">ITfKeyEventSink::OnKeyUp</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeyup">ITfKeyEventSink::OnKeyUp</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeyup">ITfKeyEventSink::OnKeyUp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">ITfKeystrokeMgr::KeyDown</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">ITfKeystrokeMgr::KeyDown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeyup">ITfKeystrokeMgr::TestKeyUp</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeyup">ITfKeystrokeMgr::TestKeyUp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
-
+<a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>

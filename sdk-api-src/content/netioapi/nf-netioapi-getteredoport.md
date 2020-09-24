@@ -111,7 +111,7 @@ The request is not supported. This error is returned if no IPv6 stack is on the 
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Use
 
 The <b>GetTeredoPort</b> function is defined on Windows Vista and later. 
 
-The <b>GetTeredoPort</b> function retrieves the current UDP port number used by the Teredo client for the Teredo service port. The Teredo port is dynamic and can change any time the Teredo client is restarted on the local computer. An application can  register to be notified when the Teredo service port changes by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a> function. 
+The <b>GetTeredoPort</b> function retrieves the current UDP port number used by the Teredo client for the Teredo service port. The Teredo port is dynamic and can change any time the Teredo client is restarted on the local computer. An application can  register to be notified when the Teredo service port changes by calling the <a href="/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a> function. 
 
 The Teredo client also uses static UDP port 3544 for listening to multicast traffic sent on multicast IPv4 address 224.0.0.253 as defined in RFC 4380. For more information, see <a href="https://www.ietf.org/rfc/rfc4380.txt">http://www.ietf.org/rfc/rfc4380.txt</a>.
 
@@ -129,9 +129,8 @@ The <b>GetTeredoPort</b> function is used primarily by firewall applications in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a>
-
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a>

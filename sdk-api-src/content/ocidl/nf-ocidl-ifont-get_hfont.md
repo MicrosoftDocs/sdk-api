@@ -99,18 +99,17 @@ The address in the <i>phFont</i> parameter is not valid. For example, it may be
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The font object maintains ownership of the <b>HFONT</b> and can destroy it 
     at any time without prior notification. If the caller needs to secure this font for a limited period of time, it 
-    can call <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">IFont::AddRefHfont</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">IFont::ReleaseHfont</a>.
+    can call <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">IFont::AddRefHfont</a> and 
+    <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">IFont::ReleaseHfont</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">IFont::AddRefHfont</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">IFont::AddRefHfont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">IFont::ReleaseHfont</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">IFont::ReleaseHfont</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Generates values from an identity structure that can be passed as the values of parameters in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
+Generates values from an identity structure that can be passed as the values of parameters in a call to the <a href="/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
 
 ## -parameters
 
 ### -param AuthIdentity [in]
 
-The identity structure from which to generate the credentials to be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
+The identity structure from which to generate the credentials to be passed to the <a href="/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
 
 ### -param pszTargetName [in]
 
@@ -66,19 +66,19 @@ Set the value of this parameter to <b>NULL</b> to use the user name as the targe
 
 ### -param pCredmanCredentialType [out]
 
-The credential type to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
+The credential type to pass to the <a href="/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
 
 ### -param ppszCredmanTargetName [out]
 
-The target name to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
+The target name to pass to the <a href="/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
 
 ### -param ppszCredmanUserName [out]
 
-The user name to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
+The user name to pass to the <a href="/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
 
 ### -param ppCredentialBlob [out]
 
-The credential <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> to send to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
+The credential <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> to send to the <a href="/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> function.
 
 ### -param pCredentialBlobSize [out]
 
@@ -89,4 +89,3 @@ The size, in bytes, of the <i>ppCredentialBlob</i> buffer.
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
-

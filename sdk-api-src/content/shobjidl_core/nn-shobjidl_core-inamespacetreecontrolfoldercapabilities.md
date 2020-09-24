@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes a single method that retrieves the status of a folder's <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> filtering support.
+Exposes a single method that retrieves the status of a folder's <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> filtering support.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControlFolderCapabilities</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControlFolderCapabilities</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControlFolderCapabilities</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControlFolderCapabilities</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>INameSpaceTreeControlFolderCapabilities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrolfoldercapabilities-getfoldercapabilities">GetFolderCapabilities</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrolfoldercapabilities-getfoldercapabilities">GetFolderCapabilities</a>
 </td>
 <td align="left" width="63%">
-Gets a folder's capability to be filtered through the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> property key value and change notification registration status.
+Gets a folder's capability to be filtered through the <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> property key value and change notification registration status.
 
 </td>
 </tr>
@@ -80,7 +80,6 @@ Gets a folder's capability to be filtered through the <a href="https://docs.micr
 
 ## -remarks
 
-The namespace tree control checks all the nodes it enumerates to see if they support filtering. This is done by retrieving the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> property for the shell folders that support this interface. Nodes that do not support this interface do not have filtering support and are shown by default.
+The namespace tree control checks all the nodes it enumerates to see if they support filtering. This is done by retrieving the <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> property for the shell folders that support this interface. Nodes that do not support this interface do not have filtering support and are shown by default.
 
 Use this interface to retrieve the filtering support status of a shell folder.
-

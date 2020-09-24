@@ -54,18 +54,18 @@ api_name:
 
 The 
 <b>MsiGetTargetPath</b> function returns the full target path for a folder in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/directory-table">Directory table</a>.
+<a href="/windows/desktop/Msi/directory-table">Directory table</a>.
 
 ## -parameters
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szFolder [in]
 
 A null-terminated string that specifies a record of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/directory-table">Directory table</a>. If the directory is a root directory, this can be a value from the DefaultDir column. Otherwise it must be a value from the Directory column.
+<a href="/windows/desktop/Msi/directory-table">Directory table</a>. If the directory is a root directory, this can be a value from the DefaultDir column. Otherwise it must be a value from the Directory column.
 
 ### -param szPathBuf [out]
 
@@ -85,18 +85,18 @@ The
 If ERROR_MORE_DATA is returned, the parameter which is a pointer gives the size of the buffer required to hold the string. If ERROR_SUCCESS is returned, it gives the number of characters written to the string buffer. Therefore you can get the size of the buffer by passing in an empty string (for example "") for the parameter that specifies the buffer. Do not attempt to determine the size of the buffer by passing in a Null (value=0).
 
 Before calling this function, the installer must first run the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costinitialize-action">CostInitialize action</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/filecost-action">FileCost action</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions from Programs</a>.
+<a href="/windows/desktop/Msi/costinitialize-action">CostInitialize action</a>, 
+<a href="/windows/desktop/Msi/filecost-action">FileCost action</a>, and 
+<a href="/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. For more information, see <a href="/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions from Programs</a>.
 
 <b>MsiGetTargetPath</b> returns the default path of the target directory authored in the package if the target's current location is unavailable for an installation. For example, if during a 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/maintenance-installation">Maintenance Installation</a> a target directory at a network location is unavailable, the installer resets the target directory paths back to their defaults. To get the actual path of the target directory in this case call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiprovidecomponenta">MsiProvideComponent</a> for a component that is known to have been previously installed into the searched for directory and set <i>dwInstallMode</i> to INSTALLMODE_NODETECTION.
+<a href="/windows/desktop/Msi/maintenance-installation">Maintenance Installation</a> a target directory at a network location is unavailable, the installer resets the target directory paths back to their defaults. To get the actual path of the target directory in this case call 
+<a href="/windows/desktop/api/msi/nf-msi-msiprovidecomponenta">MsiProvideComponent</a> for a component that is known to have been previously installed into the searched for directory and set <i>dwInstallMode</i> to INSTALLMODE_NODETECTION.
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
+<a href="/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -107,9 +107,8 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Location Functions</a>
+<a href="/windows/desktop/Msi/database-functions">Installer Location Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
-
+<a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>

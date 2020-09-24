@@ -64,9 +64,9 @@ Copies an existing file to a new file, notifying the application of its progress
 The name of an existing file.
 
 To extend this limit to 32,767 wide characters, prepend "\\?\" to the path. For more 
-       information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
+       information, see <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\".  See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\".  See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
 <div> </div>
 If <i>lpExistingFileName</i> does not exist, the 
        <b>CopyFile2</b> function fails returns 
@@ -77,21 +77,21 @@ If <i>lpExistingFileName</i> does not exist, the
 The name of the new file.
 
 To extend this limit to 32,767 wide characters, prepend "\\?\" to the path. For more 
-       information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
+       information, see <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
 <div> </div>
 
 ### -param pExtendedParameters [in, optional]
 
 Optional address of a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> 
+      <a href="/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> 
       structure.
 
 ## -returns
 
 If the function succeeds, the return value will return <b>TRUE</b> when passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> macro.
+      <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> macro.
 
 <table>
 <tr>
@@ -117,7 +117,7 @@ The copy operation completed successfully.
 </td>
 <td width="60%">
 The copy operation was paused by a <b>COPYFILE2_PROGRESS_PAUSE</b> return from the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback 
+        <a href="/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback 
         function.
 
 </td>
@@ -131,7 +131,7 @@ The copy operation was paused by a <b>COPYFILE2_PROGRESS_PAUSE</b> return from t
 <td width="60%">
 The copy operation was paused by a <b>COPYFILE2_PROGRESS_CANCEL</b> or 
         <b>COPYFILE2_PROGRESS_STOP</b> return from the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback 
+        <a href="/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback 
         function.
 
 </td>
@@ -144,7 +144,7 @@ The copy operation was paused by a <b>COPYFILE2_PROGRESS_CANCEL</b> or
 </td>
 <td width="60%">
 The <b>dwCopyFlags</b> member of the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> structure 
+        <a href="/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> structure 
         passed through the <i>pExtendedParameters</i> parameter contains the 
         <b>COPY_FILE_FAIL_IF_EXISTS</b> flag and a conflicting name existed.
 
@@ -158,7 +158,7 @@ The <b>dwCopyFlags</b> member of the
 </td>
 <td width="60%">
 The <b>dwCopyFlags</b> member of the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> structure 
+        <a href="/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> structure 
         passed through the <i>pExtendedParameters</i> parameter contains the 
         <b>COPY_FILE_FAIL_IF_EXISTS</b> flag and a conflicting name existed.
 
@@ -170,7 +170,7 @@ The <b>dwCopyFlags</b> member of the
 
 This function preserves extended attributes, OLE structured storage, NTFS file system alternate data streams, 
     and file attributes. Security attributes for the existing file are not copied to the new file. To copy security 
-    attributes, use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
+    attributes, use the <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
 
 This function fails with 
     <code>HRESULT_FROM_WIN32(ERROR_ACCESS_DENIED)</code> if the destination 
@@ -179,7 +179,7 @@ This function fails with
 
 To compile an application that uses this function, define the <b>_WIN32_WINNT</b> macro 
     as <b>_WIN32_WINNT_WIN8</b> or later. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -242,9 +242,8 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>

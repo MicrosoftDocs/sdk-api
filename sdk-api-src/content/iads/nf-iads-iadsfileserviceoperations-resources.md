@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>IADsFileServiceOperations::Resources</b> method gets a pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface on a collection of the resource objects representing the current open resources on this file service.
+The <b>IADsFileServiceOperations::Resources</b> method gets a pointer to a pointer to the <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface on a collection of the resource objects representing the current open resources on this file service.
 
 ## -parameters
 
 ### -param ppResources [out]
 
-Pointer to a  pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface that can then be used to enumerate objects implementing the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a> interface and representing the current open resources for this file service.
+Pointer to a  pointer to the <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface that can then be used to enumerate objects implementing the <a href="/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a> interface and representing the current open resources for this file service.
 
 ## -returns
 
-This method supports the standard return values including S_OK. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values including S_OK. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -94,19 +94,18 @@ Cleanup:
 ```
 
 
-For a code example using the <b>IADsFileServiceOperations::Resources</b> method, see the code example given in  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a>.
+For a code example using the <b>IADsFileServiceOperations::Resources</b> method, see the code example given in  <a href="/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a>

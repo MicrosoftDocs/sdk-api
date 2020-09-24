@@ -55,7 +55,7 @@ Represents a stream on a media sink object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFStreamSink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>. <b>IMFStreamSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFStreamSink</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>. <b>IMFStreamSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFStreamSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-flush">Flush</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Causes the stream sink to drop any samples that it has received and has not rendered yet.
@@ -79,7 +79,7 @@ Causes the stream sink to drop any samples that it has received and has not rend
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-getidentifier">GetIdentifier</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-getidentifier">GetIdentifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream identifier for this stream sink.
@@ -88,7 +88,7 @@ Retrieves the stream identifier for this stream sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-getmediasink">GetMediaSink</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-getmediasink">GetMediaSink</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media sink that owns this stream sink.
@@ -97,7 +97,7 @@ Retrieves the media sink that owns this stream sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-getmediatypehandler">GetMediaTypeHandler</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-getmediatypehandler">GetMediaTypeHandler</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type handler for the stream sink.
@@ -106,7 +106,7 @@ Retrieves the media type handler for the stream sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">PlaceMarker</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">PlaceMarker</a>
 </td>
 <td align="left" width="63%">
 Places a marker in the stream.
@@ -115,7 +115,7 @@ Places a marker in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-processsample">ProcessSample</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-processsample">ProcessSample</a>
 </td>
 <td align="left" width="63%">
 Delivers a sample to the stream.
@@ -126,13 +126,12 @@ Delivers a sample to the stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

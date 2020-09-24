@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the unique signature associated with the ad hoc network. The signature uniquely identifies an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>object with a particular set of attributes.
+Gets the unique signature associated with the ad hoc network. The signature uniquely identifies an <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>object with a particular set of attributes.
 
 ## -parameters
 
@@ -130,5 +130,4 @@ Do not cache the returned signature locally. Whenever a network object changes, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>

@@ -53,7 +53,7 @@ Creates a heap that can be used with placed resources and reserved resources.
 
 ### -param pDesc [in]
 
-Type: **const [D3D12_HEAP_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_desc)\***
+Type: **const [D3D12_HEAP_DESC](./ns-d3d12-d3d12_heap_desc.md)\***
 
 A pointer to a constant **D3D12_HEAP_DESC** structure that describes the heap.
 
@@ -63,7 +63,7 @@ Type: **REFIID**
 
 A reference to the globally unique identifier (**GUID**) of the heap interface to return in *ppvHeap*.
 
-While *riidResource* is most commonly the **GUID** of [ID3D12Heap](/windows/win32/api/d3d12/nn-d3d12-id3d12heap), it may be the **GUID** of any interface. If the resource object doesn't support the interface for this **GUID**, then creation fails with **E_NOINTERFACE**.
+While *riidResource* is most commonly the **GUID** of [ID3D12Heap](./nn-d3d12-id3d12heap.md), it may be the **GUID** of any interface. If the resource object doesn't support the interface for this **GUID**, then creation fails with **E_NOINTERFACE**.
 
 ### -param ppvHeap [out, optional]
 
@@ -95,7 +95,6 @@ A placed resource object holds a reference on the heap it is created on; but a r
 
 ## -see-also
 
-[ID3D12Device](/windows/win32/api/d3d12/nn-d3d12-id3d12device)
+[ID3D12Device](./nn-d3d12-id3d12device.md)
 
 [Shared heaps](/windows/win32/direct3d12/shared-heaps)
-

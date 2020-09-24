@@ -53,17 +53,17 @@ api_name:
 
 ## -description
 
-Reads the National Language Support (NLS) native digit and digit substitution settings and records them in a <a href="/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/digit-shapes">Digit Shapes</a>.
+Reads the National Language Support (NLS) native digit and digit substitution settings and records them in a <a href="/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure. For more information, see <a href="/windows/desktop/Intl/digit-shapes">Digit Shapes</a>.
 
 ## -parameters
 
 ### -param Locale [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> of the locale to query. Typically, the application should set this parameter to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>. Alternatively, the setting can indicate a specific locale combined with <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a> to obtain the default settings.
+<a href="/windows/desktop/Intl/locale-identifiers">Locale identifier</a> of the locale to query. Typically, the application should set this parameter to <a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>. Alternatively, the setting can indicate a specific locale combined with <a href="/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a> to obtain the default settings.
 
 ### -param psds [out]
 
-Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure. This structure can be passed later to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptapplydigitsubstitution">ScriptApplyDigitSubstitution</a>.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure. This structure can be passed later to <a href="/windows/desktop/api/usp10/nf-usp10-scriptapplydigitsubstitution">ScriptApplyDigitSubstitution</a>.
 
 ## -returns
 
@@ -77,7 +77,7 @@ Error returns include:
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
+See <a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
 This function supports context digit substitution only for Arabic and Persian locales. For other locales, context digit substitution is mapped to no substitution.
 
@@ -102,14 +102,14 @@ ScriptApplyDigitSubstitution(&sds, &sc, &ss);
 ```
 
 
-For performance reasons, your application should not call <b>ScriptRecordDigitSubstitution</b> frequently. The function requires considerable overhead to call it every time <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a> is called. Instead, the application can save the <a href="/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure and update it only when a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message is received. Alternatively, the application can update the structure when a <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> call in a dedicated thread indicates a change in the registry under HKCU\Control Panel\International.
+For performance reasons, your application should not call <b>ScriptRecordDigitSubstitution</b> frequently. The function requires considerable overhead to call it every time <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> or <a href="/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a> is called. Instead, the application can save the <a href="/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure and update it only when a <a href="/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message is received. Alternatively, the application can update the structure when a <a href="/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> call in a dedicated thread indicates a change in the registry under HKCU\Control Panel\International.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
+<a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
 
 
@@ -117,21 +117,20 @@ For performance reasons, your application should not call <b>ScriptRecordDigitSu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptapplydigitsubstitution">ScriptApplyDigitSubstitution</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptapplydigitsubstitution">ScriptApplyDigitSubstitution</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

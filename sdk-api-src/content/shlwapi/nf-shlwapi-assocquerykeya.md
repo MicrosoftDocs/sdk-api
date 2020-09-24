@@ -65,9 +65,9 @@ The flags that can be used to control the search. It can be any combination of <
 
 ### -param key [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assockey">ASSOCKEY</a></b>
+Type: <b><a href="/windows/desktop/api/shlwapi/ne-shlwapi-assockey">ASSOCKEY</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assockey">ASSOCKEY</a> value that specifies the type of key that is to be returned.
+The <a href="/windows/desktop/api/shlwapi/ne-shlwapi-assockey">ASSOCKEY</a> value that specifies the type of key that is to be returned.
 
 ### -param pszAssoc [in]
 
@@ -119,11 +119,10 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 ## -remarks
 
-This function is a wrapper for the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface. It is intended to simplify the process of using the interface. For further discussion of how the file and protocol association functions work, see <b>IQueryAssociations</b>.
+This function is a wrapper for the <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface. It is intended to simplify the process of using the interface. For further discussion of how the file and protocol association functions work, see <b>IQueryAssociations</b>.
 
 
 
 
 > [!NOTE]
 > The shlwapi.h header defines AssocQueryKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

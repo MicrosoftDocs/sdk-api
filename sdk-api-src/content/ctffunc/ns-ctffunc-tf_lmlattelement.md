@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>TF_LMLATTELEMENT</b> structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-next">IEnumTfLatticeElements::Next</a> method.
+The <b>TF_LMLATTELEMENT</b> structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the <a href="/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-next">IEnumTfLatticeElements::Next</a> method.
 
 ## -struct-fields
 
@@ -91,14 +91,13 @@ Specifies the actual confidence for this element. This can be one of the followi
 
 ### -field bstrText
 
-Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
+Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-next">IEnumTfLatticeElements::Next
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-next">IEnumTfLatticeElements::Next
       </a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>

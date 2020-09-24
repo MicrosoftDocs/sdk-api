@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The 
-<b>TAPIERROR_FORMATMESSAGE</b> macro generates an identifier for standard TAPI error codes that can be used in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function.
+<b>TAPIERROR_FORMATMESSAGE</b> macro generates an identifier for standard TAPI error codes that can be used in the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function.
 
 ## -parameters
 
@@ -84,4 +84,3 @@ if (lResult &lt; 0)
                   NULL);
     MessageBox(hWnd,pBuf,"TAPI ERROR",MB_OK);
 }</code></pre>
-

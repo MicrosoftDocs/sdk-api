@@ -58,13 +58,12 @@ Represents a generated SOAP fault code.
 
 ### -field Value
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that contains the  qualified name of the SOAP fault code.
+A <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that contains the  qualified name of the SOAP fault code.
 
 ### -field Subcode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_subcode">WSD_SOAP_FAULT_SUBCODE</a> structure that contains the fault subcode.
+A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_subcode">WSD_SOAP_FAULT_SUBCODE</a> structure that contains the fault subcode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a>
-
+<a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a>

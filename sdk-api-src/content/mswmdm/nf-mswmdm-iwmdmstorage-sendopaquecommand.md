@@ -57,7 +57,7 @@ The <b>SendOpaqueCommand</b> method sends a command to the storage through Windo
 
 ### -param pCommand [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing the command to execute. Data can be passed two ways—from the application to the device, and from the device back to the application when the call finishes.
+Pointer to an <a href="/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing the command to execute. Data can be passed two ways—from the application to the device, and from the device back to the application when the call finishes.
 
 ## -returns
 
@@ -68,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -162,5 +162,4 @@ The following C++ code calls <b>SendOpaqueCommand</b> to perform a simple custom
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>

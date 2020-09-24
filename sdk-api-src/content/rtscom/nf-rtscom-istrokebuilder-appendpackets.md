@@ -72,7 +72,7 @@ The start of the packet data. It is read-only.
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
@@ -83,7 +83,7 @@ This method should be called when data packets are sent as a result of the stylu
 
 #### Examples
 
-The following C++ example shows the implementation of a <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> method on an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a> object. The plug-in uses a <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder</a> object to create a new ink stroke. The <b>IStrokeBuilder::AppendPackets Method</b> method is called from <b>IStylusPlugin::Packets Method</b> to add new packet data to a stroke in progress as the user drags the stylus across the digitizer.
+The following C++ example shows the implementation of a <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> method on an <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a> object. The plug-in uses a <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder</a> object to create a new ink stroke. The <b>IStrokeBuilder::AppendPackets Method</b> method is called from <b>IStylusPlugin::Packets Method</b> to add new packet data to a stroke in progress as the user drags the stylus across the digitizer.
 
 
 ```cpp
@@ -104,25 +104,24 @@ STDMETHODIMP CStrokeBuilderPlugin::Packets(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke">CreateStroke Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke">CreateStroke Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istrokebuilder">IStrokeBuilder</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istrokebuilder">IStrokeBuilder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-beginstroke">IStrokeBuilder::BeginStroke Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-beginstroke">IStrokeBuilder::BeginStroke Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-endstroke">IStrokeBuilder::EndStroke Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-endstroke">IStrokeBuilder::EndStroke Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
-
+<a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>

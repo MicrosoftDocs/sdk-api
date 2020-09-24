@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Sets the text of a child control in a window or dialog box, using <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcompactpatha">PathCompactPath</a> to ensure the path fits in the control.
+Sets the text of a child control in a window or dialog box, using <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathcompactpatha">PathCompactPath</a> to ensure the path fits in the control.
 
 ## -parameters
 
@@ -80,4 +80,3 @@ A pointer to a null-terminated string of maximum length MAX_PATH that contains t
 
 > [!NOTE]
 > The shlwapi.h header defines PathSetDlgItemPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

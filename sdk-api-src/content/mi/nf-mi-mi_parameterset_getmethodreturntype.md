@@ -56,7 +56,7 @@ Gets the method return type and qualifier set for a specified parameter set.
 
 ### -param self [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterset">MI_ParameterSet</a> structure.
+<a href="/windows/desktop/api/mi/ns-mi-mi_parameterset">MI_ParameterSet</a> structure.
 
 ### -param returnType [out]
 
@@ -69,4 +69,3 @@ The returned qualifier set for the method name and return type.
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

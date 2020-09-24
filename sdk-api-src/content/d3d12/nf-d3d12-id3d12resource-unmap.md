@@ -62,25 +62,24 @@ Specifies the index of the subresource.
 
 ### -param pWrittenRange [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_range">D3D12_RANGE</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_range">D3D12_RANGE</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_range">D3D12_RANGE</a> structure that describes the range of memory to unmap.
+A pointer to a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_range">D3D12_RANGE</a> structure that describes the range of memory to unmap.
 
 This indicates the region the CPU might have modified, and the coordinates are subresource-relative. A null pointer indicates the entire subresource might have been modified by the CPU. It is valid to specify the CPU didn't write any data by passing a range where <b>End</b> is less than or equal to <b>Begin</b>.
 
 ## -remarks
 
-Refer to the extensive Remarks and Examples for the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map">Map</a> method.
+Refer to the extensive Remarks and Examples for the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map">Map</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map">Map</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map">Map</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/subresources">Subresources</a>
-
+<a href="/windows/desktop/direct3d12/subresources">Subresources</a>

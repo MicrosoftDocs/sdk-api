@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>TSPI_providerCreateLineDevice</b> function is called by TAPI in response to receipt of a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message from the service provider, which allows the dynamic creation of a new line device.
+<a href="/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message from the service provider, which allows the dynamic creation of a new line device.
 
 ## -parameters
 
 ### -param dwTempID
 
 The temporary device identifier that the service provider passed to TAPI in the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message.
+<a href="/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message.
 
 ### -param dwDeviceID
 
@@ -74,21 +74,20 @@ LINEERR_BADDEVICEID, LINEERR_NOMEM, LINEERR_OPERATIONFAILED.
 ## -remarks
 
 When TAPI receives a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message from a service provider, it calls this function (it never calls this function spontaneously). TAPI adds 1 to the number of devices of that type, and passes the resulting new, unused device identifier as the <i>dwDeviceID</i> parameter to this function. It also passes in the function the <i>dwParam2</i> parameter from the LINE_CREATE message as <i>dwTempID</i>.
+<a href="/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message from a service provider, it calls this function (it never calls this function spontaneously). TAPI adds 1 to the number of devices of that type, and passes the resulting new, unused device identifier as the <i>dwDeviceID</i> parameter to this function. It also passes in the function the <i>dwParam2</i> parameter from the LINE_CREATE message as <i>dwTempID</i>.
 
 <div class="alert"><b>Note</b>  Adding the new device to the end of the device list is likely to produce noncontiguous device identifiers for the service provider; service providers that support dynamic device creation must also support noncontiguous device identifiers.</div>
 <div> </div>
 If the service provider recognizes the <i>dwTempID</i> and succeeds in setting up the structures and such that it needs to support the new device, it saves off the <i>dwDeviceID</i>, and returns SUCCESS. If this function is unsuccessful, TAPI doesn't add the device, and there are no negative effects (the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message is ignored). If this function completes successfully, TAPI then informs applications of the availability of the new device using LINE_CREATE or 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a> (LINEDEVSTATE_REINIT) messages.
+<a href="/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message is ignored). If this function completes successfully, TAPI then informs applications of the availability of the new device using LINE_CREATE or 
+<a href="/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a> (LINEDEVSTATE_REINIT) messages.
 
 Older service providers that do not export this function, however, also should not send LINE_CREATE messages, which means TAPI would not try to call this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a>

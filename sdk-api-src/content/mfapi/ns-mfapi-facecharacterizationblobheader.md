@@ -58,9 +58,8 @@ The <b>FaceCharacterizationBlobHeader</b> structure  describes the size and coun
 
 ### -field Size
 
-Size of this header + all following <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-facecharacterization">FaceCharacterization</a> structures.
+Size of this header + all following <a href="/windows/desktop/api/mfapi/ns-mfapi-facecharacterization">FaceCharacterization</a> structures.
 
 ### -field Count
 
-Number of <b>FaceCharacterization</b> structures in the blob. Must match the number of <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-facerectinfo">FaceRectInfo</a> structures in <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-facerectinfoblobheader">FaceRectInfoBlobHeader</a>.
-
+Number of <b>FaceCharacterization</b> structures in the blob. Must match the number of <a href="/windows/desktop/api/mfapi/ns-mfapi-facerectinfo">FaceRectInfo</a> structures in <a href="/windows/desktop/api/mfapi/ns-mfapi-facerectinfoblobheader">FaceRectInfoBlobHeader</a>.

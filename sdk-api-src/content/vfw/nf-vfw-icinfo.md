@@ -64,7 +64,7 @@ Four-character code identifying a specific compressor or a number between zero a
 
 ### -param lpicinfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-icinfo">ICINFO</a> structure to return information about the compressor.
+Pointer to a <a href="/windows/desktop/api/vfw/ns-vfw-icinfo">ICINFO</a> structure to return information about the compressor.
 
 ## -returns
 
@@ -76,9 +76,8 @@ To enumerate the compressors or decompressors, specify an integer for <i>fccHand
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

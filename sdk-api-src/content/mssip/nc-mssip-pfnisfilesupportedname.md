@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>pfnIsFileSupportedName</b> callback function queries the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface packages</a> (SIPs) listed in the registry to determine which SIP handles the file type.
+The <b>pfnIsFileSupportedName</b> callback function queries the <a href="/windows/desktop/SecGloss/s-gly">subject interface packages</a> (SIPs) listed in the registry to determine which SIP handles the file type.
 
 ## -parameters
 
@@ -64,15 +64,14 @@ The GUID identifying the SIP that handles the file type.
 
 ## -returns
 
-The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails. If the function fails, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to determine the reason for failure.
+The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails. If the function fails, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to determine the reason for failure.
 
 ## -remarks
 
 If the SIP supports the file type passed by <i>hfile</i>, the function returns <b>TRUE</b>, and sets <i>pgSubject</i> to the GUID that identifies the SIP for handling the file type.
 
-Each SIP implements its own version of the function that determines if the file type is supported. The specific name of the function may vary depending on the implementation of the SIP, but the signature of the function will match that of the [SIP_ADD_NEWPROVIDER](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider) structure.
+Each SIP implements its own version of the function that determines if the file type is supported. The specific name of the function may vary depending on the implementation of the SIP, but the signature of the function will match that of the [SIP_ADD_NEWPROVIDER](/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider) structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nc-mssip-pfnisfilesupported">pfnIsFileSupported</a>
-
+<a href="/windows/desktop/api/mssip/nc-mssip-pfnisfilesupported">pfnIsFileSupported</a>

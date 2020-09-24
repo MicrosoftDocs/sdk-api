@@ -56,7 +56,7 @@ Defines event codes for the Media Engine.
 
 ### -field MF_MEDIA_ENGINE_EVENT_LOADSTART
 
-The Media Engine has started to load the source. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">IMFMediaEngine::Load</a>.
+The Media Engine has started to load the source. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">IMFMediaEngine::Load</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_PROGRESS
 
@@ -81,7 +81,7 @@ An error occurred.
 </tr>
 <tr>
 <td><i>param1</i></td>
-<td>A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_err">MF_MEDIA_ENGINE_ERR</a> enumeration.</td>
+<td>A member of the <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_err">MF_MEDIA_ENGINE_ERR</a> enumeration.</td>
 </tr>
 <tr>
 <td><i>param2</i></td>
@@ -91,19 +91,19 @@ An error occurred.
 
 ### -field MF_MEDIA_ENGINE_EVENT_EMPTIED
 
-The Media Engine has switched to the <b>MF_MEDIA_ENGINE_NETWORK_EMPTY</b> state. This can occur when the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">IMFMediaEngine::Load</a> method is called, or if an error occurs during the <b>Load</b> method. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getnetworkstate">IMFMediaEngine::GetNetworkState</a>.
+The Media Engine has switched to the <b>MF_MEDIA_ENGINE_NETWORK_EMPTY</b> state. This can occur when the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">IMFMediaEngine::Load</a> method is called, or if an error occurs during the <b>Load</b> method. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getnetworkstate">IMFMediaEngine::GetNetworkState</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_STALLED
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> algorithm is stalled, waiting for data.
+The <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> algorithm is stalled, waiting for data.
 
 ### -field MF_MEDIA_ENGINE_EVENT_PLAY
 
-The Media Engine is switching to the playing state. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">IMFMediaEngine::Play</a>.
+The Media Engine is switching to the playing state. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">IMFMediaEngine::Play</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_PAUSE
 
-The media engine has paused. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-pause">IMFMediaEngine::Pause</a>.
+The media engine has paused. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-pause">IMFMediaEngine::Pause</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_LOADEDMETADATA
 
@@ -119,7 +119,7 @@ Playback has stopped because the next frame is not available.
 
 ### -field MF_MEDIA_ENGINE_EVENT_PLAYING
 
-Playback has started. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">IMFMediaEngine::Play</a>.
+Playback has started. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">IMFMediaEngine::Play</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_CANPLAY
 
@@ -131,31 +131,31 @@ The Media Engine can probably play through to the end of the resource, without s
 
 ### -field MF_MEDIA_ENGINE_EVENT_SEEKING
 
-The Media Engine has started seeking to a new playback position. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setcurrenttime">IMFMediaEngine::SetCurrentTime</a>.
+The Media Engine has started seeking to a new playback position. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setcurrenttime">IMFMediaEngine::SetCurrentTime</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_SEEKED
 
-The Media Engine has seeked to a new playback position. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setcurrenttime">IMFMediaEngine::SetCurrentTime</a>.
+The Media Engine has seeked to a new playback position. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setcurrenttime">IMFMediaEngine::SetCurrentTime</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_TIMEUPDATE
 
-The playback position has changed. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getcurrenttime">IMFMediaEngine::GetCurrentTime</a>.
+The playback position has changed. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getcurrenttime">IMFMediaEngine::GetCurrentTime</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_ENDED
 
-Playback has reached the end of the source. This event is not sent if the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getloop">GetLoop</a>is <b>TRUE</b>.
+Playback has reached the end of the source. This event is not sent if the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getloop">GetLoop</a>is <b>TRUE</b>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_RATECHANGE
 
-The playback rate has changed. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setplaybackrate">IMFMediaEngine::SetPlaybackRate</a>.
+The playback rate has changed. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setplaybackrate">IMFMediaEngine::SetPlaybackRate</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_DURATIONCHANGE
 
-The duration of the media source has changed. See <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getduration">IMFMediaEngine::GetDuration</a>.
+The duration of the media source has changed. See <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getduration">IMFMediaEngine::GetDuration</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_VOLUMECHANGE
 
-The audio volume changed. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setvolume">IMFMediaEngine::SetVolume</a>.
+The audio volume changed. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setvolume">IMFMediaEngine::SetVolume</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_FORMATCHANGE
 
@@ -182,11 +182,11 @@ The Media Engine flushed any pending events from its 	queue.
 
 ### -field MF_MEDIA_ENGINE_EVENT_TIMELINE_MARKER
 
-The playback position reached a timeline marker. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-settimelinemarkertimer">IMFMediaEngineEx::SetTimelineMarkerTimer</a>.
+The playback position reached a timeline marker. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-settimelinemarkertimer">IMFMediaEngineEx::SetTimelineMarkerTimer</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_BALANCECHANGE
 
-The audio balance changed. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setbalance">IMFMediaEngineEx::SetBalance</a>.
+The audio balance changed. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setbalance">IMFMediaEngineEx::SetBalance</a>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_DOWNLOADCOMPLETE
 
@@ -202,11 +202,11 @@ The media source has stopped buffering data.
 
 ### -field MF_MEDIA_ENGINE_EVENT_FRAMESTEPCOMPLETED
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-framestep">IMFMediaEngineEx::FrameStep</a> method completed.
+The <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-framestep">IMFMediaEngineEx::FrameStep</a> method completed.
 
 ### -field MF_MEDIA_ENGINE_EVENT_NOTIFYSTABLESTATE
 
-The Media Engine's <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> algorithm is waiting to start.
+The Media Engine's <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> algorithm is waiting to start.
 
 <table>
 <tr>
@@ -224,9 +224,9 @@ The Media Engine's <a href="https://docs.microsoft.com/windows/desktop/api/mfmed
 </table>
  
 
-If Media Engine is created with the <b>MF_MEDIA_ENGINE_WAITFORSTABLE_STATE</b> flag, the Media Engine sends the <b>MF_MEDIA_ENGINE_EVENT_NOTIFYSTABLESTATE</b> event at the start of the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> algorithm. The <i>param1</i> parameter is a handle to a waitable event. The <b>Load</b> thread waits for the application to signal the event by calling <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>.
+If Media Engine is created with the <b>MF_MEDIA_ENGINE_WAITFORSTABLE_STATE</b> flag, the Media Engine sends the <b>MF_MEDIA_ENGINE_EVENT_NOTIFYSTABLESTATE</b> event at the start of the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> algorithm. The <i>param1</i> parameter is a handle to a waitable event. The <b>Load</b> thread waits for the application to signal the event by calling <a href="/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>.
 
-If the Media Engine is not created with the <b>MF_MEDIA_ENGINE_WAITFORSTABLE_STATE</b>, it does not send this event, and the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> thread does not wait to be signalled.
+If the Media Engine is not created with the <b>MF_MEDIA_ENGINE_WAITFORSTABLE_STATE</b>, it does not send this event, and the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> thread does not wait to be signalled.
 
 ### -field MF_MEDIA_ENGINE_EVENT_FIRSTFRAMEREADY
 
@@ -240,7 +240,7 @@ Supported in Windows 8.1 and later.
 
 ### -field MF_MEDIA_ENGINE_EVENT_OPMINFO
 
-Raised when there is new information about the <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM). 
+Raised when there is new information about the <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM). 
 
 This event will be raised when an OPM failure occurs, but ITA allows fallback without the OPM. In this case, constriction can be applied. 
 
@@ -262,15 +262,14 @@ Raised when one of the component streams of a media stream fails. This event is 
 
 ## -remarks
 
-The application receives Media Engine events through the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginenotify-eventnotify">IMFMediaEngineNotify::EventNotify</a> method. The <b>EventNotify</b> method includes two event parameters, <i>param1</i> and <i>param2</i>. The meaning of the parameters depends on the event code. If the event description does not list any parameters, ignore the values of <i>param1</i> and <i>param2</i>.
+The application receives Media Engine events through the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginenotify-eventnotify">IMFMediaEngineNotify::EventNotify</a> method. The <b>EventNotify</b> method includes two event parameters, <i>param1</i> and <i>param2</i>. The meaning of the parameters depends on the event code. If the event description does not list any parameters, ignore the values of <i>param1</i> and <i>param2</i>.
 
 Values below 1000 correspond to events defined in HTML 5 for media elements.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginenotify-eventnotify">IMFMediaEngineNotify::EventNotify</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginenotify-eventnotify">IMFMediaEngineNotify::EventNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

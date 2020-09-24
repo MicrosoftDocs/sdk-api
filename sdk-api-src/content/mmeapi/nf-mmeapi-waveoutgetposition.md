@@ -62,7 +62,7 @@ Handle to the waveform-audio output device.
 
 ### -param pmmt
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
+Pointer to an <a href="/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
 
 ### -param cbmmt
 
@@ -120,9 +120,8 @@ The position is set to zero when the device is opened or reset.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

@@ -58,7 +58,7 @@ Contains information identifying whether the display aspect of a pasted object s
 
 ### -field dwAspect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Display aspect. It can be one of the following values. 
 
@@ -91,13 +91,12 @@ Aspect is based on the icon view of the object.
 
 ### -field dwParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Aspect data. If <b>dwAspect</b> is DVASPECT_ICON, this member contains the handle to the metafile with the icon view of the object.
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/b4b9c1a7-943d-4dc8-bcb9-054c984b82ba">EM_PASTESPECIAL</a>
-

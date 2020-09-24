@@ -76,7 +76,7 @@ Specifies one of the following values:
 </table>
  
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsccomponenttypeflags">ATSCComponentTypeFlags Enumeration</a>.
+See <a href="/previous-versions/windows/desktop/mstv/atsccomponenttypeflags">ATSCComponentTypeFlags Enumeration</a>.
 
 ## -returns
 
@@ -84,5 +84,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsccomponenttype">IATSCComponentType Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsccomponenttype">IATSCComponentType Interface</a>

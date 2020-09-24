@@ -59,7 +59,7 @@ Describes a function.
 ### -field Version
 
 The shader version.
-            See also <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ne-d3d12shader-d3d12_shader_version_type">D3D12_SHADER_VERSION_TYPE</a>.
+            See also <a href="/windows/desktop/api/d3d12shader/ne-d3d12shader-d3d12_shader_version_type">D3D12_SHADER_VERSION_TYPE</a>.
 
 ### -field Creator
 
@@ -67,7 +67,7 @@ The name of the originator of the function.
 
 ### -field Flags
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile-constants">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies shader compilation and parsing.
+A combination of <a href="/windows/desktop/direct3dhlsl/d3dcompile-constants">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies shader compilation and parsing.
 
 ### -field ConstantBuffers
 
@@ -163,11 +163,11 @@ The number of bitwise arithmetic instructions used by the function.
 
 ### -field MinFeatureLevel
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a>-typed value that specifies the minimum Direct3D feature level target of the function byte code.
+A <a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a>-typed value that specifies the minimum Direct3D feature level target of the function byte code.
 
 ### -field RequiredFeatureFlags
 
-A value that contains a combination of one or more shader requirements flags; each flag specifies a requirement of the shader. A default value of 0 means there are no requirements. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getrequiresflags">ID3D12ShaderReflection::GetRequiresFlags</a>.
+A value that contains a combination of one or more shader requirements flags; each flag specifies a requirement of the shader. A default value of 0 means there are no requirements. For a list of values, see <a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getrequiresflags">ID3D12ShaderReflection::GetRequiresFlags</a>.
 
 ### -field Name
 
@@ -191,13 +191,12 @@ Indicates whether there is a Direct3D 10Level9 pixel shader blob. <b>TRUE</b> in
 
 ## -remarks
 
-This structure is returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getdesc">ID3D12FunctionReflection::GetDesc</a>.
+This structure is returned by <a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getdesc">ID3D12FunctionReflection::GetDesc</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getdesc">ID3D12FunctionReflection::GetDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getdesc">ID3D12FunctionReflection::GetDesc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
-
+<a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>

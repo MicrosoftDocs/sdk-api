@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-This property can be used to access the edge properties of a firewall rule defined by <a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_edge_traversal_type">NET_FW_EDGE_TRAVERSAL_TYPE</a>.
+This property can be used to access the edge properties of a firewall rule defined by <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_edge_traversal_type">NET_FW_EDGE_TRAVERSAL_TYPE</a>.
 
 This property is read/write.
 
@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule2">INetFwRule2</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule2">INetFwRule2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_edge_traversal_type">NET_FW_EDGE_TRAVERSAL_TYPE</a>
-
+<a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_edge_traversal_type">NET_FW_EDGE_TRAVERSAL_TYPE</a>

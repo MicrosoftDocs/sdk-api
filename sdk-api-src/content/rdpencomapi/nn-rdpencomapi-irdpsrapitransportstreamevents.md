@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods called by the  stream interface (<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a>) to notify the Remote Desktop Protocol (RDP) stack about the completion of events.
+Exposes methods called by the  stream interface (<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a>) to notify the Remote Desktop Protocol (RDP) stack about the completion of events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPITransportStreamEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPITransportStreamEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPITransportStreamEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPITransportStreamEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRDPSRAPITransportStreamEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstreamevents-onreadcompleted">OnReadCompleted</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstreamevents-onreadcompleted">OnReadCompleted</a>
 </td>
 <td align="left" width="63%">
 Notifies the RDP stack that a read operation has completed. The RDP stack resumes ownership of the stream buffer and uses it for subsequent operations.
@@ -78,7 +78,7 @@ Notifies the RDP stack that a read operation has completed. The RDP stack resume
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstreamevents-onstreamclosed">OnStreamClosed</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstreamevents-onstreamclosed">OnStreamClosed</a>
 </td>
 <td align="left" width="63%">
 Notifies the RDP stack that the connection was closed. If an error occurred, the stream interface should provide a return value that specifies which error occurred.
@@ -87,7 +87,7 @@ Notifies the RDP stack that the connection was closed. If an error occurred, the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstreamevents-onwritecompleted">OnWriteCompleted</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstreamevents-onwritecompleted">OnWriteCompleted</a>
 </td>
 <td align="left" width="63%">
 Notifies the RDP stack that a write operation has completed. The RDP stack resumes ownership of the stream buffer and uses it for subsequent operations.
@@ -98,9 +98,8 @@ Notifies the RDP stack that a write operation has completed. The RDP stack resum
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a>
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>

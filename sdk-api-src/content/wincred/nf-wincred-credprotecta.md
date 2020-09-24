@@ -81,22 +81,21 @@ The size, in characters of the <i>pszProtectedCredentials</i> buffer. On output,
 
 ### -param ProtectionType [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-cred_protection_type">CRED_PROTECTION_TYPE</a> enumeration type that, on output, specifies the type of protection provided.
+A pointer to a <a href="/windows/desktop/api/wincred/ne-wincred-cred_protection_type">CRED_PROTECTION_TYPE</a> enumeration type that, on output, specifies the type of protection provided.
 
 ## -returns
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 For extended error information, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-Note that the output of the <b>CredProtect</b> function is not integrity protected, so if the output is modified, the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunprotecta">CredUnprotect</a> function is not updated and may produce incorrect results.
+Note that the output of the <b>CredProtect</b> function is not integrity protected, so if the output is modified, the <a href="/windows/desktop/api/wincred/nf-wincred-credunprotecta">CredUnprotect</a> function is not updated and may produce incorrect results.
 
 
 
 
 > [!NOTE]
 > The wincred.h header defines CredProtect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

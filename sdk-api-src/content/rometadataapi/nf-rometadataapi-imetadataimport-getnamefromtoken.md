@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<b>GetNameFromToken</b> is obsolete. As an alternative, call a method to get the properties of the particular type of token required, such as <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getfieldprops">GetFieldProps</a> for a field or <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getmethodprops">GetMethodProps</a> for a method.
+<b>GetNameFromToken</b> is obsolete. As an alternative, call a method to get the properties of the particular type of token required, such as <a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getfieldprops">GetFieldProps</a> for a field or <a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-getmethodprops">GetMethodProps</a> for a method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

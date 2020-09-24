@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This function generates an XML string which can be used to query a WDS server for driver packages using the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliobtaindriverpackagesex">WdsCliObtainDriverPackagesEx</a> function.  The target OS information section of the WDS driver query XML is generated if the path to the Windows directory of the applied image is specified.
+This function generates an XML string which can be used to query a WDS server for driver packages using the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliobtaindriverpackagesex">WdsCliObtainDriverPackagesEx</a> function.  The target OS information section of the WDS driver query XML is generated if the path to the Windows directory of the applied image is specified.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ A pointer to a pointer to a string that receives the generated WDS driver query 
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

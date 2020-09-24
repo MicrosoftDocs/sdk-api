@@ -64,7 +64,7 @@ The size, in bytes, of the <b>EAP_CONFIG_INPUT_FIELD_DATA</b> structure. This fi
 
 ### -field Type
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_config_input_field_type">EAP_CONFIG_INPUT_FIELD_TYPE</a> enumeration value that specifies the type of the input field.
+An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_config_input_field_type">EAP_CONFIG_INPUT_FIELD_TYPE</a> enumeration value that specifies the type of the input field.
 
 ### -field dwFlagProps
 
@@ -163,7 +163,7 @@ Windows Vista with SP1 or later: Indicates that the input field is read-only an
 ### -field pwszLabel
 
 A pointer to a zero-terminated Unicode string that contains the label for the input field. The caller must free the inner pointers
-                using the function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>, starting at the innermost pointer.
+                using the function <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>, starting at the innermost pointer.
 
 <table>
 <tr>
@@ -185,7 +185,7 @@ Specifies the maximum supported length of an input field.
 
 ### -field pwszData
 
-A pointer to a zero-terminated  Unicode string that contains the data entered by the user into the input field. This value is initially empty. It is populated in a Single-Sign-On (SSO) scenario and returned to EAPHost with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields">EapHostPeerQueryUserBlobFromCredentialInputFields</a>. The caller must free the inner pointers
+A pointer to a zero-terminated  Unicode string that contains the data entered by the user into the input field. This value is initially empty. It is populated in a Single-Sign-On (SSO) scenario and returned to EAPHost with a call to <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields">EapHostPeerQueryUserBlobFromCredentialInputFields</a>. The caller must free the inner pointers
                 using the function EapHostPeerFreeMemory, starting at the innermost pointer.
 
 <table>
@@ -220,17 +220,16 @@ The <b>EAP_CONFIG_INPUT_FIELD_DATA</b> structure can be employed to support SSO.
 
 This structure represents the data associated with a single input field in an EAP configuration dialog box. For example, it could contain the data for the "Login User" as supplied by the EAP application user.
 
-The entire collection of input fields in a EAP configuration dialog box is represented by a <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure.
+The entire collection of input fields in a EAP configuration dialog box is represented by a <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerquerycredentialinputfields">EapPeerQueryCredentialInputFields</a>
+<a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerquerycredentialinputfields">EapPeerQueryCredentialInputFields</a>
 
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
-

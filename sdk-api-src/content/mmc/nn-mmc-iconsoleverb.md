@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsoleVerb</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConsoleVerb</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsoleVerb</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConsoleVerb</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IConsoleVerb</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getdefaultverb">GetDefaultVerb</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getdefaultverb">GetDefaultVerb</a>
 </td>
 <td align="left" width="63%">
 Gets the default verb.
@@ -79,7 +79,7 @@ Gets the default verb.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getverbstate">GetVerbState</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getverbstate">GetVerbState</a>
 </td>
 <td align="left" width="63%">
 Gets the state of a verb.
@@ -88,7 +88,7 @@ Gets the state of a verb.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setdefaultverb">SetDefaultVerb</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setdefaultverb">SetDefaultVerb</a>
 </td>
 <td align="left" width="63%">
 Sets the default verb.
@@ -97,7 +97,7 @@ Sets the default verb.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setverbstate">SetVerbState</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setverbstate">SetVerbState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of a verb.
@@ -109,4 +109,3 @@ Sets the state of a verb.
 ## -remarks
 
 IID_IConsoleVerb is defined as E49F7A60-74AF-11D0-A286-00C04FD8FE93.
-

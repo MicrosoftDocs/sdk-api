@@ -79,13 +79,12 @@ The authentication process has failed; possibly due to incorrect credentials.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
+<a href="/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
-
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>

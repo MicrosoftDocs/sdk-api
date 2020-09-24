@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Custom draw structure used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw">INameSpaceTreeControlCustomDraw</a> methods.
+Custom draw structure used by <a href="/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw">INameSpaceTreeControlCustomDraw</a> methods.
 
 ## -struct-fields
 
 ### -field psi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to a Shell item.
 
@@ -101,4 +101,3 @@ The zero-based level of the item being drawn.
 Type: <b>int</b>
 
 A tree-level indent.
-

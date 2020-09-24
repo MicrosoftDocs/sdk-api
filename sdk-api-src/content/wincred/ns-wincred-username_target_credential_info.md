@@ -56,12 +56,11 @@ api_name:
 
 The 
 <b>USERNAME_TARGET_CREDENTIAL_INFO</b> structure contains a reference to a credential. This structure is used to pass a user name into the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> function and out of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala">CredUnmarshalCredential</a>. The resultant marshaled credential can be passed as the <i>lpszUserName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function to direct that API to get the password from the corresponding CRED_FLAGS_USERNAME_TARGET credential instead of from the <i>lpszPassword</i> parameter of the function.
+<a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> function and out of the 
+<a href="/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala">CredUnmarshalCredential</a>. The resultant marshaled credential can be passed as the <i>lpszUserName</i> parameter of the <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function to direct that API to get the password from the corresponding CRED_FLAGS_USERNAME_TARGET credential instead of from the <i>lpszPassword</i> parameter of the function.
 
 ## -struct-fields
 
 ### -field UserName
 
  User name of the USERNAME_TARGET_CREDENTIAL_INFO credential.
-

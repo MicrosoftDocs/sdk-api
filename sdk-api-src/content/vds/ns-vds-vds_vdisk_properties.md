@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of a virtual disk.
 
@@ -66,7 +66,7 @@ Unique VDS-specific session identifier of the disk.
 
 ### -field State
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_vdisk_state">VDS_VDISK_STATE</a> enumeration value that specifies the virtual disk state.
+A <a href="/windows/desktop/api/vds/ne-vds-vds_vdisk_state">VDS_VDISK_STATE</a> enumeration value that specifies the virtual disk state.
 
 ### -field VirtualDeviceType
 
@@ -102,5 +102,4 @@ A <b>NULL</b>-terminated wide-character string that contains an optional path to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-getproperties">IVdsVDisk::GetProperties</a>
-
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-getproperties">IVdsVDisk::GetProperties</a>

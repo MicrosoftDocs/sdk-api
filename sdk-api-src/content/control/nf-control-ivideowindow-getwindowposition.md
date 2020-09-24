@@ -117,17 +117,16 @@ The video renderer filter is not connected.
 
 ## -remarks
 
-This method has the same effect as calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_left">IVideoWindow::get_Left</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_top">IVideoWindow::get_Top</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_width">IVideoWindow::get_Width</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_height">IVideoWindow::get_Height</a> methods.
+This method has the same effect as calling the <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_left">IVideoWindow::get_Left</a>, <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_top">IVideoWindow::get_Top</a>, <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_width">IVideoWindow::get_Width</a>, and <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_height">IVideoWindow::get_Height</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-setwindowposition">IVideoWindow::SetWindowPosition</a>
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-setwindowposition">IVideoWindow::SetWindowPosition</a>

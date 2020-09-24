@@ -73,7 +73,7 @@ Identifies the type of advise sink to uninstall. This can be one of the followin
 </dl>
 </td>
 <td width="60%">
-Uninstalls the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcleanupcontextdurationsink">ITfCleanupContextDurationSink</a> advise sink. Applies to: Text service
+Uninstalls the <a href="/windows/desktop/api/msctf/nn-msctf-itfcleanupcontextdurationsink">ITfCleanupContextDurationSink</a> advise sink. Applies to: Text service
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Uninstalls the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-
 </dl>
 </td>
 <td width="60%">
-Uninstalls the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcleanupcontextsink">ITfCleanupContextSink</a> advise sink. Applies to: Text service
+Uninstalls the <a href="/windows/desktop/api/msctf/nn-msctf-itfcleanupcontextsink">ITfCleanupContextSink</a> advise sink. Applies to: Text service
 
 </td>
 </tr>
@@ -142,4 +142,3 @@ The advise sink is not installed.
 </td>
 </tr>
 </table>
-

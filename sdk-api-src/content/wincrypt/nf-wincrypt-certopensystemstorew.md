@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CertOpenSystemStore</b> function is a simplified function that opens the most common system <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>.
+The <b>CertOpenSystemStore</b> function is a simplified function that opens the most common system <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ The <b>CertOpenSystemStore</b> function is a simplified function that opens the 
 
 This parameter is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). Set <i>hProv</i> to <b>NULL</b> to use the default CSP. If <i>hProv</i> is not <b>NULL</b>, it must be a CSP handle created by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.This parameter's data type is <b>HCRYPTPROV</b>.
+<b>Windows Server 2003 and Windows XP:  </b>A handle of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). Set <i>hProv</i> to <b>NULL</b> to use the default CSP. If <i>hProv</i> is not <b>NULL</b>, it must be a CSP handle created by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.This parameter's data type is <b>HCRYPTPROV</b>.
 
 ### -param szSubsystemProtocol [in]
 
-A string that names a system store. If the system store name provided in this parameter is not the name of an existing system store, a new system store will be created and used. <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore">CertEnumSystemStore</a> can be used to list the names of existing system stores. Some example system stores are listed in the following table.
+A string that names a system store. If the system store name provided in this parameter is not the name of an existing system store, a new system store will be created and used. <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore">CertEnumSystemStore</a> can be used to list the names of existing system stores. Some example system stores are listed in the following table.
 
 <table>
 <tr>
@@ -77,7 +77,7 @@ A string that names a system store. If the system store name provided in this pa
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certification authority</a> certificates.
+<a href="/windows/desktop/SecGloss/c-gly">Certification authority</a> certificates.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ A certificate store that holds certificates with associated private keys.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">Root certificates</a>.
+<a href="/windows/desktop/SecGloss/r-gly">Root certificates</a>.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ A certificate store that holds certificates with associated private keys.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Software Publisher Certificate</a>.
+<a href="/windows/desktop/SecGloss/s-gly">Software Publisher Certificate</a>.
 
 </td>
 </tr>
@@ -117,9 +117,9 @@ A certificate store that holds certificates with associated private keys.
 
 If the function succeeds, the function returns a handle to the certificate store.
 
-If the function fails, it returns <b>NULL</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns <b>NULL</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-<div class="alert"><b>Note</b>  Errors from the called function <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> are propagated to this function.</div>
+<div class="alert"><b>Note</b>  Errors from the called function <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> are propagated to this function.</div>
 <div> </div>
 
 ## -remarks
@@ -128,14 +128,14 @@ Only current user certificates are accessible using this method, not the local m
 
 After the system store is opened, all the standard certificate store functions can be used to manipulate the certificates.
 
-After use, the store should be closed by using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>.
+After use, the store should be closed by using <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>.
 
-For more information about the stores that are automatically migrated, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certificate-store-migration">Certificate Store Migration</a>.
+For more information about the stores that are automatically migrated, see <a href="/windows/desktop/SecCrypto/certificate-store-migration">Certificate Store Migration</a>.
 
 
 #### Examples
 
-The following example shows a simplified method for opening the most common system certificate stores. For another example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-certificate-store-operations">Example C Program: Certificate Store Operations</a>.
+The following example shows a simplified method for opening the most common system certificate stores. For another example that uses this function, see <a href="/windows/desktop/SecCrypto/example-c-program-certificate-store-operations">Example C Program: Certificate Store Operations</a>.
 
 
 ```cpp
@@ -182,25 +182,24 @@ if(!CertCloseStore(hSystemStore, 0))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty">CertGetCRLContextProperty</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty">CertGetCRLContextProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsavestore">CertSaveStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsavestore">CertSaveStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>

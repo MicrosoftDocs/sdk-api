@@ -51,26 +51,25 @@ api_name:
 
 ## -description
 
-Default implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface.
+Default implementation of the <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface.
 
-For a list of all members of this class, see <a href="https://docs.microsoft.com/windows/desktop/xaudio2/cxapobase-members">CXAPOBase Members</a>.
+For a list of all members of this class, see <a href="/windows/desktop/xaudio2/cxapobase-members">CXAPOBase Members</a>.
 
 ## -remarks
 
-<b>CXAPOBase</b> provides overridable implementations for all <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> methods except <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a>.
+<b>CXAPOBase</b> provides overridable implementations for all <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> methods except <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/cxapobase-members">CXAPOBase Members</a>
+<a href="/windows/desktop/xaudio2/cxapobase-members">CXAPOBase Members</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/classes">Classes</a>
+<a href="/windows/desktop/xaudio2/classes">Classes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
-
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>

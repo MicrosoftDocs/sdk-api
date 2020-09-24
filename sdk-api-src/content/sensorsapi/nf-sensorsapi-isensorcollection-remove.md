@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes a sensor from the collection. The sensor is specified by a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface to be removed.
+Removes a sensor from the collection. The sensor is specified by a pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface to be removed.
 
 ## -parameters
 
 ### -param pSensor [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface to remove from the collection.
+Pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface to remove from the collection.
 
 ## -returns
 
@@ -93,5 +93,4 @@ The specified sensor is not part of the collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>

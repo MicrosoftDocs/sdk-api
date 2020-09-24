@@ -50,18 +50,18 @@ api_name:
 
 ## -description
 
-Called by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) when a logon application with a trusted connection to the LSA calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function and specifies the authentication package's identifier.
+Called by the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) when a logon application with a trusted connection to the LSA calls the 
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function and specifies the authentication package's identifier.
 
 <b>LsaApCallPackage</b> is called for logon applications only; calls from applications that do not have the SeTcbPrivilege privilege are routed to the specified authentication package's 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa378218(v=vs.85)">LsaApCallPackageUntrusted</a> function instead.
+<a href="/previous-versions/windows/desktop/legacy/aa378218(v=vs.85)">LsaApCallPackageUntrusted</a> function instead.
 
 ## -parameters
 
 ### -param ClientRequest [in]
 
 Pointer to an opaque 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a> buffer representing the LSA client's request.
+<a href="/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a> buffer representing the LSA client's request.
 
 ### -param ProtocolSubmitBuffer [in]
 
@@ -78,7 +78,7 @@ Specifies the length of the <i>ProtocolSubmitBuffer</i> buffer, in bytes.
 ### -param *ProtocolReturnBuffer [out]
 
 Returns the address of the output buffer within the client process. The authentication package is responsible for calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function to allocate the buffer within the client process. The contents of this buffer are specific to the authentication package.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function to allocate the buffer within the client process. The contents of this buffer are specific to the authentication package.
 
 ### -param ReturnBufferLength [out]
 
@@ -98,7 +98,7 @@ More information about NTSTATUS codes can be found in the Subauth.h file shipped
 If the function succeeds, return STATUS_SUCCESS. This return value indicates that the authentication package attempted to provide the requested service. Use the <i>ProtocolStatus</i> parameter to return the completion status of the service request.
 
 If the authentication package could not process the request and therefore did not attempt to provide the requested service, return an NTSTATUS code indicating the problem. This code can be the following value or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -124,13 +124,12 @@ This function must be implemented by authentication packages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa378218(v=vs.85)">LsaApCallPackageUntrusted</a>
+<a href="/previous-versions/windows/desktop/legacy/aa378218(v=vs.85)">LsaApCallPackageUntrusted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>

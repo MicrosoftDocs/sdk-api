@@ -57,12 +57,12 @@ Registers an application for progress notifications.
 ### -param pEvents [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a> interface that receives the progress notifications.
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a> interface that receives the progress notifications.
 
 ### -param pvCookie [out]
 
 Uniquely identifies this registration. Save this value because it will be needed by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-progressunadvise">ProgressUnadvise</a> method.
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-progressunadvise">ProgressUnadvise</a> method.
 
 ## -returns
 
@@ -70,5 +70,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>

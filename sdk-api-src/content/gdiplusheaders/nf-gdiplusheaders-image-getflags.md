@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Image::GetFlags</b> method gets a set of flags that indicate certain attributes of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 ## -parameters
 
@@ -60,21 +60,20 @@ The <b>Image::GetFlags</b> method gets a set of flags that indicate certain attr
 
 Type: <b>UINT</b>
 
-This method returns a value that holds a set of single-bit flags. The flags are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a> enumeration.
+This method returns a value that holds a set of single-bit flags. The flags are defined in the <a href="/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a>
+<a href="/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>

@@ -63,11 +63,11 @@ Specifies a hint for no connectivity.
 
 ### -field NetworkConnectivityLevelHintLocalAccess
 
-Specifies a hint for local and internet access.
+Specifies a hint for local network access only.
 
 ### -field NetworkConnectivityLevelHintInternetAccess
 
-Specifies a hint for local network access only.
+Specifies a hint for local and internet access.
 
 ### -field NetworkConnectivityLevelHintConstrainedInternetAccess
 

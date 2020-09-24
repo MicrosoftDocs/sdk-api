@@ -68,5 +68,4 @@ When the <b>QOS_TCP_TRAFFIC</b> object is passed, the <b>DSField</b> mapping and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
-
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>

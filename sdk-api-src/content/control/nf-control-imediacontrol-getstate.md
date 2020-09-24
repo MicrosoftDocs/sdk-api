@@ -65,7 +65,7 @@ Duration of the time-out, in milliseconds, or INFINITE to specify an infinite ti
 
 ### -param pfs [out]
 
-Receives a member of the [FILTER_STATE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-filter_state) enumeration.
+Receives a member of the [FILTER_STATE](/windows/desktop/api/strmif/ne-strmif-filter_state) enumeration.
 
 ## -returns
 
@@ -124,7 +124,7 @@ Failure.
 
 ## -remarks
 
-Applications can use this method to determine whether playback has started after a call to <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a>. Generally, applications should have their own mechanism for tracking which state they have put the filter graph into. Applications typically use the current state to determine which user interface controls are enabled or disabled. For example, once the graph goes into the running state, the application might disable a "Play" button and enable "Stop" and "Pause" buttons.
+Applications can use this method to determine whether playback has started after a call to <a href="/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a>. Generally, applications should have their own mechanism for tracking which state they have put the filter graph into. Applications typically use the current state to determine which user interface controls are enabled or disabled. For example, once the graph goes into the running state, the application might disable a "Play" button and enable "Stop" and "Pause" buttons.
 
 If the filter graph is in a transition to a new state, the returned state is the new state, not the previous state.
 
@@ -132,7 +132,7 @@ This method returns an error if there is a call on another thread to change the 
 
 Avoid specifying a time-out of INFINITE, because threads cannot process messages while waiting in <code>GetState</code>. If you call <code>GetState</code> from the thread that processes Windows messages, specify small wait times on the call in order to remain responsive to user input. This is especially important when the source is streaming over a network or from the Internet because state transitions in these environments can take significantly more time to complete.
 
-The [FILTER_STATE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-filter_state) enumeration. You can cast the variable as follows:
+The [FILTER_STATE](/windows/desktop/api/strmif/ne-strmif-filter_state) enumeration. You can cast the variable as follows:
 
 
 ```cpp
@@ -143,13 +143,12 @@ hr = pControl->GetState(msTimeOut, (OAFilterState*)&fs);
 ```
 
 
-For more information about filter graph states, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-states">Filter States</a>.
+For more information about filter graph states, see <a href="/windows/desktop/DirectShow/filter-states">Filter States</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>

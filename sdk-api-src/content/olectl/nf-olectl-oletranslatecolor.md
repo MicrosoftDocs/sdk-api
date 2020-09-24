@@ -106,7 +106,7 @@ The following table describes the color conversion.
 </td>
 </tr>
 <tr>
-<td>0x800000xx, xx is not a valid <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
+<td>0x800000xx, xx is not a valid <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
 </td>
 <td></td>
 <td>Undefined (E_INVALIDARG)
@@ -129,7 +129,7 @@ The following table describes the color conversion.
 </td>
 </tr>
 <tr>
-<td>0x800000xx, xx is a valid <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
+<td>0x800000xx, xx is a valid <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
 </td>
 <td><b>NULL</b></td>
 <td>0x00bbggrr
@@ -157,7 +157,7 @@ The following table describes the color conversion.
 </td>
 </tr>
 <tr>
-<td>0x800000xx, xx is a valid <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
+<td>0x800000xx, xx is a valid <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
 </td>
 <td>valid palette
 </td>
@@ -189,4 +189,3 @@ The following table describes the color conversion.
 </td>
 </tr>
 </table>
-

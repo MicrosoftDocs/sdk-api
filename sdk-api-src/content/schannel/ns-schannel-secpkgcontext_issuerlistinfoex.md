@@ -54,22 +54,21 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_IssuerListInfoEx</b> structure holds a list of trusted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs). This structure is used by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function.
+The <b>SecPkgContext_IssuerListInfoEx</b> structure holds a list of trusted <a href="/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs). This structure is used by the Schannel <a href="/windows/desktop/SecGloss/s-gly">security package</a> <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function.
 
-This attribute is supported only by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
+This attribute is supported only by the Schannel <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
-This attribute is available only to client applications and can be queried only after a call to the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function returns the value <b>SEC_E_INCOMPLETE_CREDENTIALS</b>.
+This attribute is available only to client applications and can be queried only after a call to the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function returns the value <b>SEC_E_INCOMPLETE_CREDENTIALS</b>.
 
 ## -struct-fields
 
 ### -field aIssuers
 
 A pointer to 
-an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structures that contains a list of the names of CAs that the server trusts.
+an array of <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structures that contains a list of the names of CAs that the server trusts.
 
-When you have finished using the data in this array, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
+When you have finished using the data in this array, free it by calling the <a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 ### -field cIssuers
 
 The number of names in <b>aIssuers</b>.
-

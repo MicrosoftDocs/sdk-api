@@ -106,13 +106,12 @@ The caller is out of memory or other system resources.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddirectedtarget">IVssComponent::AddDirectedTarget</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddirectedtarget">IVssComponent::AddDirectedTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">IVssComponent::GetDirectedTarget</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">IVssComponent::GetDirectedTarget</a>

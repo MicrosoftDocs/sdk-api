@@ -92,7 +92,7 @@ A string.
 
 ### -field VT_DISPATCH
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer.
+An <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer.
 
 ### -field VT_ERROR
 
@@ -108,7 +108,7 @@ A variant pointer.
 
 ### -field VT_UNKNOWN
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
+An <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
 
 ### -field VT_DECIMAL
 
@@ -192,7 +192,7 @@ An unsigned machine register size width.
 
 ### -field VT_FILETIME
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> value.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> value.
 
 ### -field VT_BLOB
 
@@ -606,4 +606,3 @@ The following table shows where these values can be used.
  
 
 <b>VT_BSTR_BLOB</b> is reserved for system use.
-

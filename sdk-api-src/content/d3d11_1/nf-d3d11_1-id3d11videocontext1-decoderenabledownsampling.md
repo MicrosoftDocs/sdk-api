@@ -58,7 +58,7 @@ Indicates that decoder downsampling will be used and that the driver should allo
 
 Type: <b>ID3D11VideoDecoder*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface.
 
 ### -param InputColorSpace [in]
 
@@ -68,7 +68,7 @@ The color space information of the reference frame data.
 
 ### -param pOutputDesc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_sample_desc">D3D11_VIDEO_SAMPLE_DESC</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_sample_desc">D3D11_VIDEO_SAMPLE_DESC</a>*</b>
 
 The resolution, format, and colorspace of the output/display frames.  This is the destination resolution and format of the downsample operation.
 
@@ -101,9 +101,8 @@ This method returns one of the following error codes.
 
 ## -remarks
 
-This function can only be called once for a specific <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface. This method must be called prior to the first call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderbeginframe">DecoderBeginFrame</a>. To update the downsampling parameters, use <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderupdatedownsampling">DecoderUpdateDownsampling</a>.
+This function can only be called once for a specific <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface. This method must be called prior to the first call to <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderbeginframe">DecoderBeginFrame</a>. To update the downsampling parameters, use <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderupdatedownsampling">DecoderUpdateDownsampling</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>

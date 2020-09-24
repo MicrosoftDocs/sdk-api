@@ -62,7 +62,7 @@ Updates the position, size, shape, content, and translucency of a layered window
 
 Type: <b>HWND</b>
 
-A handle to a layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function. 
+A handle to a layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function. 
 
 <b>Windows 8:  </b>The <b>WS_EX_LAYERED</b> style is supported for top-level windows and child windows. Previous Windows versions support <b>WS_EX_LAYERED</b> only for top-level windows.
 
@@ -76,13 +76,13 @@ If <i>hdcSrc</i> is <b>NULL</b>, <i>hdcDst</i> must be <b>NULL</b>.
 
 ### -param pptDst [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to a structure that specifies the new screen position of the layered window. If the current position is not changing, <i>pptDst</i> can be <b>NULL</b>.
 
 ### -param psize [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
 
 A pointer to a structure that specifies the new size of the layered window. If the size of the window is not changing, <i>psize</i> can be <b>NULL</b>. If <i>hdcSrc</i> is <b>NULL</b>, <i>psize</i> must be <b>NULL</b>.
 
@@ -90,23 +90,23 @@ A pointer to a structure that specifies the new size of the layered window. If t
 
 Type: <b>HDC</b>
 
-A handle to a DC for the surface that defines the layered window. This handle can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a> function. If the shape and visual context of the window are not changing, <i>hdcSrc</i> can be <b>NULL</b>.
+A handle to a DC for the surface that defines the layered window. This handle can be obtained by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a> function. If the shape and visual context of the window are not changing, <i>hdcSrc</i> can be <b>NULL</b>.
 
 ### -param pptSrc [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to a structure that specifies the location of the layer in the device context. If <i>hdcSrc</i> is <b>NULL</b>, <i>pptSrc</i> should be <b>NULL</b>.
 
 ### -param crKey [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-A structure that specifies the color key to be used when composing the layered window. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+A structure that specifies the color key to be used when composing the layered window. To generate a <a href="/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -param pblend [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a>*</b>
+Type: <b><a href="/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a>*</b>
 
 A pointer to a structure that specifies the transparency value to be used when composing the layered window.
 
@@ -163,7 +163,7 @@ Draw an opaque layered window.
 </dl>
 </td>
 <td width="60%">
-Force the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633557(v=vs.85)">UpdateLayeredWindowIndirect</a> function to fail if the current window size does not match the size specified in the <i>psize</i>. 
+Force the <a href="/previous-versions/windows/desktop/legacy/ms633557(v=vs.85)">UpdateLayeredWindowIndirect</a> function to fail if the current window size does not match the size specified in the <i>psize</i>. 
 
 </td>
 </tr>
@@ -178,25 +178,25 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The source DC should contain the surface that defines the visible contents of the layered window. For example, you can select a bitmap into a device context obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a> function. 
+The source DC should contain the surface that defines the visible contents of the layered window. For example, you can select a bitmap into a device context obtained by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a> function. 
 
-An application should call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a> on the <i>hdcSrc</i> device context to properly set the mirroring mode. <b>SetLayout</b> will properly mirror all drawing into an <b>HDC</b> while properly preserving text glyph and (optionally) bitmap direction order. It cannot modify drawing directly into the bits of a device-independent bitmap (DIB). For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Window Layout and Mirroring</a>.
+An application should call <a href="/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a> on the <i>hdcSrc</i> device context to properly set the mirroring mode. <b>SetLayout</b> will properly mirror all drawing into an <b>HDC</b> while properly preserving text glyph and (optionally) bitmap direction order. It cannot modify drawing directly into the bits of a device-independent bitmap (DIB). For more information, see <a href="/windows/desktop/winmsg/window-features">Window Layout and Mirroring</a>.
 
 The <b>UpdateLayeredWindow</b> function maintains the window's appearance on the screen. The windows underneath a layered window do not need to be repainted when they are uncovered due to a call to <b>UpdateLayeredWindow</b>, because the system will automatically repaint them. This permits seamless animation of the layered window. 
 
-<b>UpdateLayeredWindow</b> always updates the entire window. To update part of a window, use the traditional <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> and set the blend value using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlayeredwindowattributes">SetLayeredWindowAttributes</a>.
+<b>UpdateLayeredWindow</b> always updates the entire window. To update part of a window, use the traditional <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> and set the blend value using <a href="/windows/desktop/api/winuser/nf-winuser-setlayeredwindowattributes">SetLayeredWindowAttributes</a>.
 
 For best drawing performance by the layered window and any underlying windows, the layered window should be as small as possible. An application should also process the  message and re-create its layered windows when the display's color depth changes.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Layered Windows</a>.
+For more information, see <a href="/windows/desktop/winmsg/window-features">Layered Windows</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>
 
 
 
@@ -204,7 +204,7 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
 
 
 
@@ -216,21 +216,20 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-transparentblt">TransparentBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-transparentblt">TransparentBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633557(v=vs.85)">UpdateLayeredWindowIndirect</a>
+<a href="/previous-versions/windows/desktop/legacy/ms633557(v=vs.85)">UpdateLayeredWindowIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

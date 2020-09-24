@@ -74,16 +74,16 @@ A value that specifies whether the interface is enabled. This value is <b>TRUE</
 ### -field dwIfType
 
 A value that identifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">interface type</a>.
+<a href="/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">interface type</a>.
 
 ### -field dwConnectionState
 
 A value that describes the current state of the interface, for example, connected, disconnected, or unreachable. For more information and a list of possible states, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
+<a href="/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
 
 ### -field fUnReachabilityReasons
 
-A value that describes the reason why  the interface is unreachable. For more information and a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>.
+A value that describes the reason why  the interface is unreachable. For more information and a list of possible values, see <a href="/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>.
 
 ### -field dwLastError
 
@@ -156,7 +156,7 @@ This flag corresponds to the <b>Use Default Gateway on Remote Network</b> check 
 </dl>
 </td>
 <td width="60%">
-If this flag is set, RRAS disables the PPP LCP extensions defined in <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-request-for-comments">RFC 1570</a>. Disabling the PPP LCP extensions may be necessary to connect to certain older PPP implementations, but it interferes with features such as server callback. Do not set this flag unless it is specifically required.
+If this flag is set, RRAS disables the PPP LCP extensions defined in <a href="/windows/desktop/RRAS/routing-request-for-comments">RFC 1570</a>. Disabling the PPP LCP extensions may be necessary to connect to certain older PPP implementations, but it interferes with features such as server callback. Do not set this flag unless it is specifically required.
 
 </td>
 </tr>
@@ -228,8 +228,8 @@ If this flag is set, RRAS uses the user name, password, and domain of the curren
 <b>MPRIO_RequireMsEncryptedPw</b> is also set.
 
 This setting is ignored by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function where specifying empty strings for the <b>szUserName</b> and <b>szPassword</b> members of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure provides the same result.
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function where specifying empty strings for the <b>szUserName</b> and <b>szPassword</b> members of the 
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure provides the same result.
 
 This flag corresponds to the <b>Use Current Username and Password</b> check box in the <b>Security</b> dialog box.
 
@@ -540,7 +540,7 @@ Direct parallel connection through a parallel port.
 ### -field szDeviceName
 
 Contains a null-terminated string that contains the name of a TAPI device to use with this phone-book entry, for example, "Fabrikam Inc 28800 External". To enumerate all available RAS-capable devices, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumdevicesa">RasEnumDevices</a> function.
+<a href="/windows/desktop/api/ras/nf-ras-rasenumdevicesa">RasEnumDevices</a> function.
 
 ### -field szX25PadType
 
@@ -567,8 +567,8 @@ Reserved for future use.
 ### -field dwSubEntries
 
 A value that specifies the number of multilink subentries associated with this entry. When calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>, set this member to zero. To add subentries to a phone-book entry, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetsubentrypropertiesa">RasSetSubEntryProperties</a> function.
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>, set this member to zero. To add subentries to a phone-book entry, use the 
+<a href="/windows/desktop/api/ras/nf-ras-rassetsubentrypropertiesa">RasSetSubEntryProperties</a> function.
 
 ### -field dwDialMode
 
@@ -848,10 +848,10 @@ Not used.
 
 The 
 <b>MPR_INTERFACE_3</b> structure has a number of members that are similar to members of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure. 
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure. 
 
 The following members from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure have no counterpart in 
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure have no counterpart in 
 <b>MPR_INTERFACE_3</b>:
 
 <ul>
@@ -864,21 +864,20 @@ The following members from the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_2">MPR_INTERFACE_2</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_2">MPR_INTERFACE_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetinfo">MprAdminInterfaceSetInfo</a>
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetinfo">MprAdminInterfaceSetInfo</a>

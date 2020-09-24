@@ -64,7 +64,7 @@ The <b>IDMLOperatorInitializer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/directml/nf-directml-idmloperatorinitializer-reset">Reset</a>
+<a href="/windows/desktop/api/directml/nf-directml-idmloperatorinitializer-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the initializer to handle initialization of a new set of operators.
@@ -91,4 +91,3 @@ The operator initializer itself doesn't need to be initialized—GPU initializat
 [Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
 
 [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)
-

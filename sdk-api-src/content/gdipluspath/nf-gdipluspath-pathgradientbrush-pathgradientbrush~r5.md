@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 <span>This topic lists the constructors of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> class. For a complete class listing, see <b>PathGradientBrushXX Class</b>. 
+			<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> class. For a complete class listing, see <b>PathGradientBrushXX Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -59,32 +59,31 @@ api_name:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms535102(v=vs.85)">PathGradientBrush(GraphicsPath*)</a>
+<a href="/previous-versions/ms535102(v=vs.85)">PathGradientBrush(GraphicsPath*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions/ms535102(v=vs.85)">PathGradientBrush::PathGradientBrush</a> object based on a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object.
+Creates a <a href="/previous-versions/ms535102(v=vs.85)">PathGradientBrush::PathGradientBrush</a> object based on a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms535100(v=vs.85)">PathGradientBrush(Point*,INT,WrapMode)</a>
+<a href="/previous-versions/ms535100(v=vs.85)">PathGradientBrush(Point*,INT,WrapMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions/ms535100(v=vs.85)">PathGradientBrush::PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
+Creates a <a href="/previous-versions/ms535100(v=vs.85)">PathGradientBrush::PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms535101(v=vs.85)">PathGradientBrush(PointF*,INT,WrapMode)</a>
+<a href="/previous-versions/ms535101(v=vs.85)">PathGradientBrush(PointF*,INT,WrapMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
+Creates a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
 
 </td>
 </tr>
 </table>
 
 ## -parameters
-

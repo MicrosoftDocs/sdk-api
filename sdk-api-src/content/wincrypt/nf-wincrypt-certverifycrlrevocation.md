@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>CertVerifyCRLRevocation</b> function check a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) to determine whether a subject's certificate has or has not been revoked. The new 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of the use of this function.
+The <b>CertVerifyCRLRevocation</b> function check a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) to determine whether a subject's certificate has or has not been revoked. The new 
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of the use of this function.
 
 ## -parameters
 
 ### -param dwCertEncodingType [in]
 
-Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -71,16 +71,16 @@ Currently defined encoding types are:
 ### -param pCertId [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure of the certificate to be checked against the CRL.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure of the certificate to be checked against the CRL.
 
 ### -param cCrlInfo [in]
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a> pointers in the <i>rgpCrlInfo</i> array.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a> pointers in the <i>rgpCrlInfo</i> array.
 
 ### -param rgpCrlInfo [in]
 
-Array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a> structures.
+Array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a> structures.
 
 ## -returns
 
@@ -91,17 +91,16 @@ It returns <b>FALSE</b> if the certificate is on the list and therefore has been
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrltimevalidity">CertVerifyCRLTimeValidity</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrltimevalidity">CertVerifyCRLTimeValidity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifytimevalidity">CertVerifyTimeValidity</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifytimevalidity">CertVerifyTimeValidity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyvaliditynesting">CertVerifyValidityNesting</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyvaliditynesting">CertVerifyValidityNesting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

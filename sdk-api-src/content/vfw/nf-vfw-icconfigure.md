@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICConfigure</b> macro notifies a video compression driver to display its configuration dialog box. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-configure">ICM_CONFIGURE</a> message.
+The <b>ICConfigure</b> macro notifies a video compression driver to display its configuration dialog box. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/icm-configure">ICM_CONFIGURE</a> message.
 
 ## -parameters
 
@@ -64,13 +64,12 @@ Handle of the parent window of the displayed dialog box.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-configure">ICM_CONFIGURE</a> message is different from the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-configure">DRV_CONFIGURE</a> message used for hardware configuration. The dialog box for this message should let the user set and edit the internal state referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icgetstate">ICGetState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icsetstate">ICSetState</a> macros. For example, this dialog box can let the user change parameters affecting the quality level and other similar compression options.
+The <a href="/windows/desktop/Multimedia/icm-configure">ICM_CONFIGURE</a> message is different from the <a href="/windows/desktop/Multimedia/drv-configure">DRV_CONFIGURE</a> message used for hardware configuration. The dialog box for this message should let the user set and edit the internal state referenced by the <a href="/windows/desktop/api/vfw/nf-vfw-icgetstate">ICGetState</a> and <a href="/windows/desktop/api/vfw/nf-vfw-icsetstate">ICSetState</a> macros. For example, this dialog box can let the user change parameters affecting the quality level and other similar compression options.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

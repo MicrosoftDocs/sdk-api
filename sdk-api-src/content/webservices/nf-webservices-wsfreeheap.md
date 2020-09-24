@@ -51,12 +51,11 @@ api_name:
 ## -description
 
 This frees the heap object, and the memory associated with any allocations 
-                made on it using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a>.
+                made on it using <a href="/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a>.
 
 ## -parameters
 
 ### -param heap [in]
 
 The heap to free.  This must be a valid heap object that was returned
-                    from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateheap">WsCreateHeap</a>.  This parameter may not be <b>NULL</b>.
-
+                    from <a href="/windows/desktop/api/webservices/nf-webservices-wscreateheap">WsCreateHeap</a>.  This parameter may not be <b>NULL</b>.

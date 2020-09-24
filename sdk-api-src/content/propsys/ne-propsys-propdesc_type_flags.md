@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes attributes of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+Describes attributes of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ## -enum-fields
 
@@ -60,39 +60,39 @@ The property uses the default values for all attributes.
 
 ### -field PDTF_MULTIPLEVALUES
 
-The property can have multiple values. These values are stored as a VT_VECTOR in the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. This value is set by the <i>multipleValues</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+The property can have multiple values. These values are stored as a VT_VECTOR in the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. This value is set by the <i>multipleValues</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ### -field PDTF_ISINNATE
 
-This flag indicates that a property is read-only, and cannot be written to. This value is set by the <i>isInnate</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+This flag indicates that a property is read-only, and cannot be written to. This value is set by the <i>isInnate</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ### -field PDTF_ISGROUP
 
-The property is a group heading. This value is set by the <i>isGroup</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+The property is a group heading. This value is set by the <i>isGroup</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ### -field PDTF_CANGROUPBY
 
-The user can group by this property. This value is set by the <i>canGroupBy</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+The user can group by this property. This value is set by the <i>canGroupBy</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ### -field PDTF_CANSTACKBY
 
-The user can stack by this property. This value is set by the <i>canStackBy</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+The user can stack by this property. This value is set by the <i>canStackBy</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ### -field PDTF_ISTREEPROPERTY
 
-This property contains a hierarchy. This value is set by the <i>isTreeProperty</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+This property contains a hierarchy. This value is set by the <i>isTreeProperty</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ### -field PDTF_INCLUDEINFULLTEXTQUERY
 
-<b>Deprecated in Windows 7 and later</b>. Include this property in any full text query that is performed. This value is set by the <i>includeInFullTextQuery</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+<b>Deprecated in Windows 7 and later</b>. Include this property in any full text query that is performed. This value is set by the <i>includeInFullTextQuery</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ### -field PDTF_ISVIEWABLE
 
-This property is meant to be viewed by the user. This influences whether the property shows up in the "Choose Columns" dialog box, for example. This value is set by the <i>isViewable</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+This property is meant to be viewed by the user. This influences whether the property shows up in the "Choose Columns" dialog box, for example. This value is set by the <i>isViewable</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ### -field PDTF_ISQUERYABLE
 
-<b>Deprecated in Windows 7 and later</b>. This property is included in the list of properties that can be queried. A queryable property must also be viewable. This influences whether the property shows up in the query builder UI. This value is set by the <i>isQueryable</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+<b>Deprecated in Windows 7 and later</b>. This property is included in the list of properties that can be queried. A queryable property must also be viewable. This influences whether the property shows up in the query builder UI. This value is set by the <i>isQueryable</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ### -field PDTF_CANBEPURGED
 
@@ -117,4 +117,3 @@ A mask used to retrieve all flags.
 ## -remarks
 
 These values are defined in propsys.h and propsys.idl.
-

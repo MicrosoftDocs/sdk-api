@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that represent Windows users or groups.
+The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that represent Windows users or groups.
 
 ## -struct-fields
 
 ### -field UsersCount
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures in the <b>UserSidArray</b> array.
+The number of <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures in the <b>UserSidArray</b> array.
 
 ### -field UserSidArray.size_is
 
@@ -68,13 +68,12 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 
 ### -field UserSidArray
 
-A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that specify Windows users or groups.
+A pointer to an array of pointers to <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that specify Windows users or groups.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditenumerateperuserpolicy">AuditEnumeratePerUserPolicy</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditenumerateperuserpolicy">AuditEnumeratePerUserPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>

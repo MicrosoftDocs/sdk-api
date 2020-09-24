@@ -54,7 +54,7 @@ Exposes methods that determine a computer's HomeGroup membership status and disp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHomeGroup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHomeGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHomeGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHomeGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IHomeGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihomegroup-ismember">IsMember</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihomegroup-ismember">IsMember</a>
 </td>
 <td align="left" width="63%">
 Determines whether the local computer is a member of a HomeGroup.
@@ -78,7 +78,7 @@ Determines whether the local computer is a member of a HomeGroup.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihomegroup-showsharingwizard">ShowSharingWizard</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihomegroup-showsharingwizard">ShowSharingWizard</a>
 </td>
 <td align="left" width="63%">
 Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
@@ -97,5 +97,4 @@ Use <b>IHomeGroup</b> when there is a need to determine the local computer's Hom
 
 
 
-To create an instance of <b>IHomeGroup</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> and specify <b>CLSID_HomeGroup</b> as the CLSID. <b>CLSID_HomeGroup</b> is defined in Shobjidl.h and Shobjidl.idl.
-
+To create an instance of <b>IHomeGroup</b>, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> and specify <b>CLSID_HomeGroup</b> as the CLSID. <b>CLSID_HomeGroup</b> is defined in Shobjidl.h and Shobjidl.idl.

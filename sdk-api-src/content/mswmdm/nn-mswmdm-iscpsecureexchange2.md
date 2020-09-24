@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ISCPSecureExchange2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange</a> by providing a new version of the <b>TransferContainerData</b> method. <b>TransferContainerData2</b> accepts a progress callback on which the secure content provider can send progress notifications for any of the steps it needs to carry out.
+The <b>ISCPSecureExchange2</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange</a> by providing a new version of the <b>TransferContainerData</b> method. <b>TransferContainerData2</b> accepts a progress callback on which the secure content provider can send progress notifications for any of the steps it needs to carry out.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureExchange2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange</a>. <b>ISCPSecureExchange2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureExchange2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange</a>. <b>ISCPSecureExchange2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISCPSecureExchange2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange2-transfercontainerdata2">TransferContainerData2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange2-transfercontainerdata2">TransferContainerData2</a>
 </td>
 <td align="left" width="63%">
 Transfers container file data to the secure content provider.
@@ -80,13 +80,12 @@ Transfers container file data to the secure content provider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange3">ISCPSecureExchange3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange3">ISCPSecureExchange3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>

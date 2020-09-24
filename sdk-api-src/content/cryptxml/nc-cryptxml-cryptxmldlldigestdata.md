@@ -49,13 +49,13 @@ api_name:
 
 The <b>CryptXmlDllDigestData</b> function puts data into the digest.
 
-The <b>CryptXmlDllDigestData</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
+The <b>CryptXmlDllDigestData</b> function is exposed through the exported <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
 ## -parameters
 
 ### -param hDigest
 
-The handle of the hash object used to put data into the digest. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest">CryptXmlDllCreateDigest</a>  function.
+The handle of the hash object used to put data into the digest. This handle is obtained by calling the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest">CryptXmlDllCreateDigest</a>  function.
 
 ### -param pbData
 
@@ -70,4 +70,3 @@ The size, in bytes, of the block of data pointed to by the <i>pbData</i> paramet
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

@@ -24,5 +24,4 @@ To develop Fax Service, you need these headers:
  * [winfax.h](../winfax/index.md)
 
 For programming guidance for this technology, see:
-* [Fax Service](https://docs.microsoft.com/previous-versions/windows/desktop/fax)
-
+* [Fax Service](/previous-versions/windows/desktop/fax)

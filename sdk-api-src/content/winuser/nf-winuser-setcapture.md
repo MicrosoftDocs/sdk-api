@@ -75,7 +75,7 @@ The return value is a handle to the window that had previously captured the mous
 
 Only the foreground window can capture the mouse. When a background window attempts to do so, the window receives messages only for mouse events that occur when the cursor hot spot is within the visible portion of the window. Also, even if the foreground window has captured the mouse, the user can still click another window, bringing it to the foreground. 
 
-When the window no longer requires all mouse input, the thread that created the window should call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasecapture">ReleaseCapture</a> function to release the mouse. 
+When the window no longer requires all mouse input, the thread that created the window should call the <a href="/windows/desktop/api/winuser/nf-winuser-releasecapture">ReleaseCapture</a> function to release the mouse. 
 
 This function cannot be used to capture mouse input meant for another process. 
 
@@ -84,7 +84,7 @@ When the mouse is captured, menu hotkeys and other keyboard accelerators do not 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/using-mouse-input">Drawing Lines with the Mouse</a>.
+For an example, see <a href="/windows/desktop/inputdev/using-mouse-input">Drawing Lines with the Mouse</a>.
 
 <div class="code"></div>
 
@@ -94,11 +94,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcapture">GetCapture</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcapture">GetCapture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
@@ -106,9 +106,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasecapture">ReleaseCapture</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-releasecapture">ReleaseCapture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-capturechanged">WM_CAPTURECHANGED</a>
-
+<a href="/windows/desktop/inputdev/wm-capturechanged">WM_CAPTURECHANGED</a>

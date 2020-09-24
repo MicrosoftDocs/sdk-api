@@ -58,8 +58,8 @@ Retrieves the absolute record number of the oldest record in the specified event
 ### -param hEventLog [in]
 
 A handle to the open event log. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a> function returns this handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a> function returns this handle.
 
 ### -param OldestRecord [out]
 
@@ -71,34 +71,33 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The oldest record in an event log is not necessarily record number 1. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-log-records">Event Log Records</a>.
+<a href="/windows/desktop/EventLog/event-log-records">Event Log Records</a>.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/querying-for-event-source-messages">Querying for Event Information</a>.
+<a href="/windows/desktop/EventLog/querying-for-event-source-messages">Querying for Event Information</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
+<a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumberofeventlogrecords">GetNumberOfEventLogRecords</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getnumberofeventlogrecords">GetNumberOfEventLogRecords</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>

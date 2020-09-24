@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>IADsPrintQueueOperations</b> interface is a 
-    dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is used to 
+    dual interface that inherits from  <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is used to 
     control a printer from across a network.
 
 The <b>IADsPrintQueueOperations</b> interface 
@@ -65,7 +65,7 @@ The <b>IADsPrintQueueOperations</b> interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintQueueOperations</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsPrintQueueOperations</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintQueueOperations</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsPrintQueueOperations</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -81,7 +81,7 @@ The <b>IADsPrintQueueOperations</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a property by name.
@@ -90,7 +90,7 @@ Gets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a single or multi-valued property by name.
@@ -99,7 +99,7 @@ Gets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -108,7 +108,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -117,7 +117,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-pause">Pause</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses print queue processing of print jobs.
@@ -126,7 +126,7 @@ Pauses print queue processing of print jobs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-printjobs">PrintJobs</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-printjobs">PrintJobs</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface pointer on a collection object that represents print jobs managed by this print queue.
@@ -135,7 +135,7 @@ Retrieves an interface pointer on a collection object that represents print jobs
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-purge">Purge</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-purge">Purge</a>
 </td>
 <td align="left" width="63%">
 Purges all jobs from a print queue.
@@ -144,7 +144,7 @@ Purges all jobs from a print queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -153,7 +153,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -162,7 +162,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-resume">Resume</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Resumes print queue processing of print jobs.
@@ -171,7 +171,7 @@ Resumes print queue processing of print jobs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -189,7 +189,7 @@ Persists the changes on this object to the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -205,7 +205,7 @@ Gets the object's ADsPath that uniquely identifies this object from all others.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -221,7 +221,7 @@ Gets the name of the object's schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -237,7 +237,7 @@ Gets the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -253,7 +253,7 @@ Gets the object's relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -269,7 +269,7 @@ Gets the ADsPath string for the parent of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -285,7 +285,7 @@ Gets the ADsPath string to the schema class object for this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueueoperations-property-methods">Status</a>
+<a href="/windows/desktop/ADSI/iadsprintqueueoperations-property-methods">Status</a>
 
 
 </td>
@@ -302,9 +302,8 @@ Reports the current status of print queue service.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -55,14 +55,14 @@ api_name:
 ## -description
 
 Contains information about a reparse point. It is used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a> control code.
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a> control code.
 
 ## -struct-fields
 
 ### -field ReparseTag
 
 The reparse point tag. This member identifies the structure of the user-defined reparse data. For more 
-      information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
+      information, see <a href="/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
 
 ### -field ReparseDataLength
 
@@ -98,9 +98,8 @@ The <b>REPARSE_GUID_DATA_BUFFER</b> structure is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points">Reparse Points</a>
-
+<a href="/windows/desktop/FileIO/reparse-points">Reparse Points</a>

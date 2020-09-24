@@ -58,15 +58,15 @@ Retrieves the address of the specified interface for the object associated with 
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Specifies the handle of a window for which an object is to be retrieved. To retrieve an interface pointer to the cursor or caret object, specify <b>NULL</b> and use the appropriate object ID in <i>dwObjectID</i>.
 
 ### -param dwId [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Specifies the object ID. This value is one of the standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">object identifier</a> constants or a custom object ID such as <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">OBJID_NATIVEOM</a>, which is the object ID for the Office native object model. For more information about <b>OBJID_NATIVEOM</b>, see the Remarks section in this topic.
+Specifies the object ID. This value is one of the standard <a href="/windows/desktop/WinAuto/object-identifiers">object identifier</a> constants or a custom object ID such as <a href="/windows/desktop/WinAuto/object-identifiers">OBJID_NATIVEOM</a>, which is the object ID for the Office native object model. For more information about <b>OBJID_NATIVEOM</b>, see the Remarks section in this topic.
 
 ### -param riid [in]
 
@@ -86,7 +86,7 @@ Type: <b>STDAPI</b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the following or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
+If not successful, returns one of the following or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>.
 
 <table>
 <tr>
@@ -119,13 +119,13 @@ The requested interface is not supported.
 
 ## -remarks
 
-Clients call this function to retrieve the address of an object's <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>, <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or other supported interface pointer.
+Clients call this function to retrieve the address of an object's <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>, <a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>, <a href="/windows/win32/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>, <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or other supported interface pointer.
 
-As with other <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/receiving-errors-for-iaccessible-interface-pointers">Receiving Errors for IAccessible Interface Pointers</a>.
+As with other <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="/windows/desktop/WinAuto/receiving-errors-for-iaccessible-interface-pointers">Receiving Errors for IAccessible Interface Pointers</a>.
 
 Clients use this function to obtain access to the Microsoft Office 2000 native object model. The native object model provides clients with accessibility information about an Office application's document or client area that is not exposed by Microsoft Active Accessibility.
 
-To obtain an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface pointer to a class supported by the native object model, specify <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">OBJID_NATIVEOM</a> in <i>dwObjectID</i>. When using this object identifier, the <i>hwnd</i> parameter must match the following window class types.
+To obtain an <a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface pointer to a class supported by the native object model, specify <a href="/windows/desktop/WinAuto/object-identifiers">OBJID_NATIVEOM</a> in <i>dwObjectID</i>. When using this object identifier, the <i>hwnd</i> parameter must match the following window class types.
 
 <table>
 <tr>
@@ -156,21 +156,20 @@ To obtain an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispat
 </table>
  
 
-Note that the above window classes correspond to the innermost document window or pane window. For more information about the Office object model, see the <a href="https://msdn.microsoft.com/library/aa141393%28office.10%29.aspx">Microsoft Office 2000/Visual Basic Programmer's Guide</a>.
+Note that the above window classes correspond to the innermost document window or pane window. For more information about the Office object model, see the <a href="/previous-versions/office/developer/office2000/aa141393(v=office.10)">Microsoft Office 2000/Visual Basic Programmer's Guide</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfromevent">AccessibleObjectFromEvent</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfromevent">AccessibleObjectFromEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfrompoint">AccessibleObjectFromPoint</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfrompoint">AccessibleObjectFromPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
-
+<a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>

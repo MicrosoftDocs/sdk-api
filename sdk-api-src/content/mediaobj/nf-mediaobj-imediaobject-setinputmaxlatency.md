@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>SetInputMaxLatency</code> method sets the maximum latency on a specified input stream. For the definition of maximum latency, see <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputmaxlatency">IMediaObject::GetInputMaxLatency</a>.
+The <code>SetInputMaxLatency</code> method sets the maximum latency on a specified input stream. For the definition of maximum latency, see <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputmaxlatency">IMediaObject::GetInputMaxLatency</a>.
 
 ## -parameters
 
@@ -120,9 +120,8 @@ Success
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputmaxlatency">IMediaObject::GetInputMaxLatency</a>
-
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputmaxlatency">IMediaObject::GetInputMaxLatency</a>

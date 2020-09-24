@@ -68,20 +68,19 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-Most implementations of <b>IRunnableObject::LockRunning</b> call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal">CoLockObjectExternal</a>.
+Most implementations of <b>IRunnableObject::LockRunning</b> call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal">CoLockObjectExternal</a>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olelockrunning">OleLockRunning</a> is a helper function that conveniently repackages the functionality offered by <b>IRunnableObject::LockRunning</b>. With the release of OLE 2.01, the implementation of <b>OleLockRunning</b> was changed to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>, ask for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then call <b>IRunnableObject::LockRunning</b>. In other words, you can use the interface and the helper function interchangeably.
+<a href="/windows/desktop/api/ole2/nf-ole2-olelockrunning">OleLockRunning</a> is a helper function that conveniently repackages the functionality offered by <b>IRunnableObject::LockRunning</b>. With the release of OLE 2.01, the implementation of <b>OleLockRunning</b> was changed to call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>, ask for <a href="/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then call <b>IRunnableObject::LockRunning</b>. In other words, you can use the interface and the helper function interchangeably.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal">CoLockObjectExternal</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal">CoLockObjectExternal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olelockrunning">OleLockRunning</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olelockrunning">OleLockRunning</a>

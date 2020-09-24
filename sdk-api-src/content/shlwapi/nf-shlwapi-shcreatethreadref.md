@@ -62,13 +62,13 @@ Creates a per-thread reference to a Component Object Model (COM) object.
 
 Type: <b>LONG*</b>
 
-A pointer to a value, usually a local variable in the thread's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>, that is used by the interface in <i>ppunk</i> as a reference counter.
+A pointer to a value, usually a local variable in the thread's <a href="/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>, that is used by the interface in <i>ppunk</i> as a reference counter.
 
 ### -param ppunk [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
-The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. If successful, this parameter holds the thread's <b>IUnknown</b> pointer on return. Your application is responsible for freeing the pointer when it is finished.
+The address of a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. If successful, this parameter holds the thread's <b>IUnknown</b> pointer on return. Your application is responsible for freeing the pointer when it is finished.
 
 ## -returns
 
@@ -78,21 +78,20 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/shell/managing-thread-references">Managing Thread References</a> for more details on using the Shlwapi thread APIs.
+See <a href="/windows/desktop/shell/managing-thread-references">Managing Thread References</a> for more details on using the Shlwapi thread APIs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatethread">SHCreateThread</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shcreatethread">SHCreateThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shgetthreadref">SHGetThreadRef</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shgetthreadref">SHGetThreadRef</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shreleasethreadref">SHReleaseThreadRef</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shreleasethreadref">SHReleaseThreadRef</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shsetthreadref">SHSetThreadRef</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shsetthreadref">SHSetThreadRef</a>

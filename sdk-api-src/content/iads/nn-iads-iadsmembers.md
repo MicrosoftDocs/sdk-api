@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IADsMembers</b> interface is a dual interface. It is designed for managing a list of ADSI object references. It is implemented to support group membership for individual accounts. It can be used to manage a collection of ADSI objects belonging to a group. To access the collection of group members, use the  <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup::get_Members</a> property method implemented by the ADSI group object.
+The <b>IADsMembers</b> interface is a dual interface. It is designed for managing a list of ADSI object references. It is implemented to support group membership for individual accounts. It can be used to manage a collection of ADSI objects belonging to a group. To access the collection of group members, use the  <a href="/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup::get_Members</a> property method implemented by the ADSI group object.
 
-The <b>IADsMembers</b> interface serves a slightly different purpose from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interfaces, which also works with a set of data or objects. <b>IADsCollection</b> manages sets of arbitrary data elements that are not object references, whereas <b>IADsContainer</b> manages objects that are part of the directory tree structure or the network topology.
+The <b>IADsMembers</b> interface serves a slightly different purpose from the  <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> and  <a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interfaces, which also works with a set of data or objects. <b>IADsCollection</b> manages sets of arbitrary data elements that are not object references, whereas <b>IADsContainer</b> manages objects that are part of the directory tree structure or the network topology.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsMembers</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsMembers</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsMembers</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsMembers</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IADsMembers</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsmembers-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsmembers-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface on an enumerator object.
@@ -90,7 +90,7 @@ Retrieves an interface on an enumerator object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsmembers-property-methods">Count</a>
+<a href="/windows/desktop/ADSI/iadsmembers-property-methods">Count</a>
 
 
 </td>
@@ -106,7 +106,7 @@ Gets the number of members.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsmembers-property-methods">Filter</a>
+<a href="/windows/desktop/ADSI/iadsmembers-property-methods">Filter</a>
 
 
 </td>
@@ -123,22 +123,21 @@ Gets and sets the filter for selection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup::get_Members</a>
+<a href="/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup::get_Members</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsmembers-property-methods">IADsMembers Property
+<a href="/windows/desktop/ADSI/iadsmembers-property-methods">IADsMembers Property
     Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

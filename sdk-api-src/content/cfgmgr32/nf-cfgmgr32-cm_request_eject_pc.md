@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Request_Eject_PC</b> function requests that a portable PC, which is inserted in a local <a href="https://docs.microsoft.com/windows-hardware/drivers/">docking station</a>, be ejected.
+The <b>CM_Request_Eject_PC</b> function requests that a portable PC, which is inserted in a local <a href="/windows-hardware/drivers/">docking station</a>, be ejected.
 
 ## -parameters
 
@@ -65,30 +65,29 @@ Use this function to request that a portable PC, which is inserted in a local do
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a> identifies whether a docking station is present in a local machine.
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a> identifies whether a docking station is present in a local machine.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex">CM_Is_Dock_Station_Present_Ex</a> identifies whether a docking station is present in a local or a remote machine.
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex">CM_Is_Dock_Station_Present_Ex</a> identifies whether a docking station is present in a local or a remote machine.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
 
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex">CM_Is_Dock_Station_Present_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex">CM_Is_Dock_Station_Present_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex">CM_Request_Eject_PC_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex">CM_Request_Eject_PC_Ex</a>

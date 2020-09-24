@@ -64,21 +64,20 @@ A handle to the device context.
 
 If the function succeeds, it returns the layout flags for the current device context.
 
-If the function fails, it returns GDI_ERROR. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns GDI_ERROR. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The layout specifies the order in which text and graphics are revealed in a window or device context. The default is left to right. The <b>GetLayout</b> function tells you if the default has been changed through a call to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a>. For more information, see "Window Layout and Mirroring" in <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Window Features</a>.
+The layout specifies the order in which text and graphics are revealed in a window or device context. The default is left to right. The <b>GetLayout</b> function tells you if the default has been changed through a call to <a href="/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a>. For more information, see "Window Layout and Mirroring" in <a href="/windows/desktop/winmsg/window-features">Window Features</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a>

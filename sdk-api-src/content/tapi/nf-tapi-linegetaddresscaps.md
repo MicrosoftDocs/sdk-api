@@ -72,7 +72,7 @@ Address on the given line device whose capabilities are to be queried. An addres
 ### -param dwAPIVersion
 
 Version number of the Telephony API to be used. The high-order word contains the major version number; the low-order word contains the minor version number. This number is obtained by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>.
 
 ### -param dwExtVersion
 
@@ -81,14 +81,14 @@ Version number of the service provider-specific extensions to be used. This numb
 ### -param lpAddressCaps
 
 Pointer to a variably sized structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>. Upon successful completion of the request, this structure is filled with address capabilities information. Prior to calling 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>. Upon successful completion of the request, this structure is filled with address capabilities information. Prior to calling 
 <b>lineGetAddressCaps</b>, the application should set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
 
 
 <div class="alert"><b>Note</b>  If the size parameters in the structure are not correct, there is a possibility that data could get overwritten. For more information on setting structure sizes, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic. </div>
+<a href="/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic. </div>
 <div> </div>
 
 ## -returns
@@ -100,26 +100,25 @@ LINEERR_BADDEVICEID, LINEERR_NOMEM, LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_OPER
 ## -remarks
 
 Valid address identifiers range from zero to one less than the number of addresses returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a>. The version number to be supplied is the version number that was returned as part of the line's device capabilities by 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a>. The version number to be supplied is the version number that was returned as part of the line's device capabilities by 
 <b>lineGetDevCaps</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>

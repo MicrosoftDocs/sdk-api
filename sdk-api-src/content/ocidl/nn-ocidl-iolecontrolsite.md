@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides the methods that enable a site object to manage each embedded control within a container. A site object provides <b>IOleControlSite</b> as well as other site interfaces such as <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>. When a control requires the services expressed through this interface, it will query one of the other client site interfaces for <b>IOleControlSite</b>.
+Provides the methods that enable a site object to manage each embedded control within a container. A site object provides <b>IOleControlSite</b> as well as other site interfaces such as <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> and <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>. When a control requires the services expressed through this interface, it will query one of the other client site interfaces for <b>IOleControlSite</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleControlSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleControlSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleControlSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleControlSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOleControlSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-getextendedcontrol">GetExtendedControl</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-getextendedcontrol">GetExtendedControl</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IDispatch</b> pointer to the extended control that the container uses to wrap the real control.
@@ -78,7 +78,7 @@ Retrieves an <b>IDispatch</b> pointer to the extended control that the container
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-lockinplaceactive">LockInPlaceActive</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-lockinplaceactive">LockInPlaceActive</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a control should remain in-place active.
@@ -87,16 +87,16 @@ Indicates whether a control should remain in-place active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-oncontrolinfochanged">OnControlInfoChanged</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-oncontrolinfochanged">OnControlInfoChanged</a>
 </td>
 <td align="left" width="63%">
-Informs the container that the control's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-controlinfo">CONTROLINFO</a> structure has changed and that the container should call the control's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a> for an update.
+Informs the container that the control's <a href="/windows/desktop/api/ocidl/ns-ocidl-controlinfo">CONTROLINFO</a> structure has changed and that the container should call the control's <a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a> for an update.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-onfocus">OnFocus</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-onfocus">OnFocus</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the control managed by this control site has gained or lost the focus.
@@ -105,7 +105,7 @@ Indicates whether the control managed by this control site has gained or lost th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-showpropertyframe">ShowPropertyFrame</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-showpropertyframe">ShowPropertyFrame</a>
 </td>
 <td align="left" width="63%">
 Instructs a container to display a property sheet for the control embedded in this site.
@@ -114,7 +114,7 @@ Instructs a container to display a property sheet for the control embedded in th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-transformcoords">TransformCoords</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-transformcoords">TransformCoords</a>
 </td>
 <td align="left" width="63%">
 Converts coordinates expressed in <b>HIMETRIC</b> units (as is standard in OLE) to the units specified by the container.
@@ -123,7 +123,7 @@ Converts coordinates expressed in <b>HIMETRIC</b> units (as is standard in OLE) 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-translateaccelerator">TranslateAccelerator</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-translateaccelerator">TranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Passes a keystroke to the control site for processing.
@@ -134,13 +134,12 @@ Passes a keystroke to the control site for processing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets or sets the path for a <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource</a> <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">fragment</a> or property when <a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> is used in <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object methods such as <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.  A fragment represents one property or part of a resource. You can provide an <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object instead of specifying a <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> in <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object operations.
+Gets or sets the path for a <a href="/windows/desktop/WinRM/windows-remote-management-glossary">resource</a> <a href="/windows/desktop/WinRM/windows-remote-management-glossary">fragment</a> or property when <a href="/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> is used in <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object methods such as <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.  A fragment represents one property or part of a resource. You can provide an <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object instead of specifying a <a href="/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> in <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object operations.
 
 This property is read/write.
 
@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator-fragmentpath">ResourceLocator.FragmentPath</a>
-
+<a href="/windows/desktop/WinRM/resourcelocator-fragmentpath">ResourceLocator.FragmentPath</a>

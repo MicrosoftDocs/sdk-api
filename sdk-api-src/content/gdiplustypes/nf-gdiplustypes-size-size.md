@@ -51,15 +51,14 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and initializes the members to zero. This is the default constructor.
+Creates a new <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and initializes the members to zero. This is the default constructor.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>

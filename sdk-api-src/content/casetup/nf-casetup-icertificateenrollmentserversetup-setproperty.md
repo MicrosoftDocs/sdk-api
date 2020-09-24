@@ -105,9 +105,9 @@ The <i>pPropertyValue</i> parameter cannot be <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object has not been initialized.
+The <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object has not been initialized.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
+The <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ If you are setting the <b>ENUM_CESSETUPPROP_AUTHENTICATION</b> property, the <b>
 
 ## -remarks
 
-You must call  <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-initializeinstalldefaults">InitializeInstallDefaults</a> before calling <b>SetProperty</b>.
+You must call  <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-initializeinstalldefaults">InitializeInstallDefaults</a> before calling <b>SetProperty</b>.
 
 You cannot set the <b>ENUM_CESSETUPPROP_URL</b> property.
 
@@ -139,11 +139,10 @@ If you are setting the <b>ENUM_CESSETUPPROP_AUTHENTICATION</b> property, the  <b
 </ul>
 
 
-You cannot set the ENUM_CESSETUPPROP_CACONFIG property if the target server is a standalone certification authority. The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property will be set to "The Certificate Enrollment Web Service cannot be used with a standalone certification authority (CA). It can only be used with an enterprise CA."
+You cannot set the ENUM_CESSETUPPROP_CACONFIG property if the target server is a standalone certification authority. The <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property will be set to "The Certificate Enrollment Web Service cannot be used with a standalone certification authority (CA). It can only be used with an enterprise CA."
 
 .
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>

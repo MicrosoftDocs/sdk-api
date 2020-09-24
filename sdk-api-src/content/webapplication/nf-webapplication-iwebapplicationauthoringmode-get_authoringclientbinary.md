@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationauthoringmode">IWebApplicationAuthoringMode</a>
-
+<a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationauthoringmode">IWebApplicationAuthoringMode</a>

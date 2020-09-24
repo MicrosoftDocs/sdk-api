@@ -81,9 +81,8 @@ Type: <b>LONG</b>
 
 The return value depends on the message. 
 
-For more information, see the descriptions of the individual <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144185(v=vs.85)">Control Panel messages</a>.
+For more information, see the descriptions of the individual <a href="/previous-versions/windows/desktop/legacy/cc144185(v=vs.85)">Control Panel messages</a>.
 
 ## -remarks
 
 Implementers of Control Panel items must also implement this function. No default implementation is available.
-

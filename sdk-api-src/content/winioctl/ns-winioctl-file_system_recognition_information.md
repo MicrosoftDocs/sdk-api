@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Contains file system recognition information retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_file_system_recognition">FSCTL_QUERY_FILE_SYSTEM_RECOGNITION</a> control code.
+Contains file system recognition information retrieved by the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_file_system_recognition">FSCTL_QUERY_FILE_SYSTEM_RECOGNITION</a> control code.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ The file system name stored on the disk. This is a null-terminated string of 8 A
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition-structure">FILE_SYSTEM_RECOGNITION_STRUCTURE</a>
+<a href="/windows/desktop/FileIO/file-system-recognition-structure">FILE_SYSTEM_RECOGNITION_STRUCTURE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_file_system_recognition">FSCTL_QUERY_FILE_SYSTEM_RECOGNITION</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_file_system_recognition">FSCTL_QUERY_FILE_SYSTEM_RECOGNITION</a>

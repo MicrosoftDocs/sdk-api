@@ -58,7 +58,7 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param DestHandle [in]
 
@@ -116,12 +116,11 @@ The handle is invalid.
 This function also locks the associated routes. Avoid locking destinations for long periods of time, because no other client can access the destination and associated routes until the lock is released.
 
 A client can also use this function when reading information for a destination, while preventing changes during the client's read operation. In this case, consider using 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetdestinfo">RtmGetDestInfo</a> instead.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetdestinfo">RtmGetDestInfo</a> instead.
 
 For sample code using this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/update-a-route-in-place-using-rtmupdateandunlockroute">Update a Route In Place Using RtmUpdateAndUnlockRoute</a>.
+<a href="/windows/desktop/RRAS/update-a-route-in-place-using-rtmupdateandunlockroute">Update a Route In Place Using RtmUpdateAndUnlockRoute</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetopaqueinformationpointer">RtmGetOpaqueInformationPointer</a>
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetopaqueinformationpointer">RtmGetOpaqueInformationPointer</a>

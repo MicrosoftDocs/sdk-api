@@ -59,7 +59,7 @@ Registers a progress notification callback function.
 
 Type: <b>PFNProgressNotification</b>
 
-A function pointer to the application defined progress notification callback function. See <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nc-wincodec-pfnprogressnotification">ProgressNotificationCallback</a> for the callback signature.
+A function pointer to the application defined progress notification callback function. See <a href="/windows/desktop/api/wincodec/nc-wincodec-pfnprogressnotification">ProgressNotificationCallback</a> for the callback signature.
 
 ### -param pvData [in]
 
@@ -71,7 +71,7 @@ A pointer to component data for the callback method.
 
 Type: <b>DWORD</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicprogressoperation">WICProgressOperation</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicprogressnotification">WICProgressNotification</a> flags to use for progress notification.
+The <a href="/windows/desktop/api/wincodec/ne-wincodec-wicprogressoperation">WICProgressOperation</a> and <a href="/windows/desktop/api/wincodec/ne-wincodec-wicprogressnotification">WICProgressNotification</a> flags to use for progress notification.
 
 ## -returns
 
@@ -93,9 +93,8 @@ Progress is reported in an increasing order between 0.0 and 1.0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapcodecprogressnotification">IWICBitmapCodecProgressNotification</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapcodecprogressnotification">IWICBitmapCodecProgressNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nc-wincodec-pfnprogressnotification">ProgressNotificationCallback</a>
-
+<a href="/windows/desktop/api/wincodec/nc-wincodec-pfnprogressnotification">ProgressNotificationCallback</a>

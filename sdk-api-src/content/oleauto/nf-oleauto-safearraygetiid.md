@@ -56,7 +56,7 @@ Gets the GUID of the interface contained within the specified safe array.
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param pguid [out]
 
@@ -94,4 +94,3 @@ The argument <i>psa</i> is null or the array descriptor does not have the FADF_H
 </td>
 </tr>
 </table>
-

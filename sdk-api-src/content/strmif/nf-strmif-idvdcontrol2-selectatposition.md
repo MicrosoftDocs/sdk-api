@@ -107,7 +107,7 @@ The DVD Navigator is in the Stop domain.
 
 Note that angle and menu button indexes are one-based while audio stream and subpicture stream indexes are zero-based.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-activatebutton">IDvdControl2::ActivateButton</a> in response to a mouse click when the pointer is over a menu button.
+Call <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-activatebutton">IDvdControl2::ActivateButton</a> in response to a mouse click when the pointer is over a menu button.
 
 The following table shows the Annex J command name to which this method name corresponds, and the domains in which this method is valid.
 
@@ -135,17 +135,16 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::OnMouse
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
-
+<a href="/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>

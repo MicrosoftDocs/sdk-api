@@ -86,13 +86,12 @@ The operation succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreateincident">NdfCreateIncident</a>
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreateincident">NdfCreateIncident</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewinsockincident">NdfCreateWinSockIncident</a>
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewinsockincident">NdfCreateWinSockIncident</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>
-
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>

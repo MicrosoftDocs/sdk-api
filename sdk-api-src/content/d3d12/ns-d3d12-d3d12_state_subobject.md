@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents a subobject with in a state object description. Use with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
+Represents a subobject with in a state object description. Use with <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
 
 ## -struct-fields
 
@@ -61,4 +61,3 @@ The type of the state subobject.
 ### -field pDesc
 
 Pointer to state object description of the type specified in the <i>Type</i> parameter.
-

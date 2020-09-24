@@ -70,7 +70,6 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 
 ### -field Alpha
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The coefficient of ELU.
-

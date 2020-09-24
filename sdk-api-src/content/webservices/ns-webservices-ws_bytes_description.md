@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Specifies constraints on the set of values
-                which can be deserialized. This type description is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_BYTES_TYPE</a> and is optional.
+                which can be deserialized. This type description is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_BYTES_TYPE</a> and is optional.
 
 ## -struct-fields
 
@@ -64,4 +64,3 @@ Specifies the minimum number of bytes.
 ### -field maxByteCount
 
 Specifies the maximum number of bytes.
-

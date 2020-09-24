@@ -61,7 +61,7 @@ Pointer to the count of values retrieved by <i>pppIWMDMStorage</i>. If the objec
 
 ### -param pppIWMDMStorage [out]
 
-Pointer to a pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a> interface pointers that represent references in a storage. Such references can, for example, represent items in a playlist or album. The retrieved array is in the same order as they appear in the object itself. Memory for this array is allocated by Windows Media Device Manager. When the calling application has finished accessing this array, it must first call <b>Release</b> on all of the interface pointers, and then free the array memory using <b>CoTaskMemFree</b>.
+Pointer to a pointer to the array of <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a> interface pointers that represent references in a storage. Such references can, for example, represent items in a playlist or album. The retrieved array is in the same order as they appear in the object itself. Memory for this array is allocated by Windows Media Device Manager. When the calling application has finished accessing this array, it must first call <b>Release</b> on all of the interface pointers, and then free the array memory using <b>CoTaskMemFree</b>.
 
 ## -returns
 
@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -113,13 +113,12 @@ if (pStorage4 != NULL)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/creating-a-playlist-on-the-device">Creating a Playlist on the Device</a>
+<a href="/windows/desktop/WMDM/creating-a-playlist-on-the-device">Creating a Playlist on the Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-setreferences">IWMDMStorage4::SetReferences</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-setreferences">IWMDMStorage4::SetReferences</a>

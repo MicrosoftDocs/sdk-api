@@ -56,7 +56,7 @@ The <b>NdrInterfacePointerMarshall</b> function marshals the interface pointer i
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.
 
 ### -param pMemory [in]
 
@@ -68,7 +68,7 @@ Pointer to the format string description.
 
 ## -returns
 
-Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>.
+Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>.
 
 <table>
 <tr>
@@ -84,4 +84,3 @@ Returns null upon success. If an error occurs, the function throws one of the fo
 <td>An error occurred in RPC.</td>
 </tr>
 </table>
-

@@ -146,7 +146,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDucplicateSocket</a>
+<a href="/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDucplicateSocket</a>
 
 
 
@@ -159,4 +159,3 @@ This same propagation policy applies when propagating a
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-

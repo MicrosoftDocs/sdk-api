@@ -50,7 +50,7 @@ Retrieves the aggregate level and cost of network connectivity that an applicati
 
 ### -param ConnectivityHint [out]
 
-A pointer to a value of type [NL_NETWORK_CONNECTIVITY_HINT](/windows/win32/api/nldef/ns-nldef-nl_network_connectivity_hint). The function sets this value to the aggregate connectivity level and cost hints.
+A pointer to a value of type [NL_NETWORK_CONNECTIVITY_HINT](../nldef/ns-nldef-nl_network_connectivity_hint.md). The function sets this value to the aggregate connectivity level and cost hints.
 
 ## -returns
 
@@ -59,4 +59,3 @@ In user mode, returns **NO_ERROR** on success, and an error code on failure. In 
 ## -remarks
 
 ## -see-also
-

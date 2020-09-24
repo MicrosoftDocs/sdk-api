@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IDShowPlugin</b> interface enables the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter to communicate with the Windows Media Player 6.4 Plug-in for Netscape Navigator. If Windows Media Player 6.4 is hosted in the Netscape Navigator browser, the Windows Media Source filter uses this interface to retrieve the URL and the User-Agent heading. This interface is not used when the player is hosted as an ActiveX control in Microsoft Internet Explorer.
+The <b>IDShowPlugin</b> interface enables the <a href="/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter to communicate with the Windows Media Player 6.4 Plug-in for Netscape Navigator. If Windows Media Player 6.4 is hosted in the Netscape Navigator browser, the Windows Media Source filter uses this interface to retrieve the URL and the User-Agent heading. This interface is not used when the player is hosted as an ActiveX control in Microsoft Internet Explorer.
 
 Applications cannot access this interface. It is documented here for completeness, because it is defined in the header file Qnetwork.h.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDShowPlugin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDShowPlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDShowPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDShowPlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDShowPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-idshowplugin-get_url">get_URL</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-idshowplugin-get_url">get_URL</a>
 </td>
 <td align="left" width="63%">
 Gets the URL of the current web page.
@@ -80,7 +80,7 @@ Gets the URL of the current web page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-idshowplugin-get_useragent">get_UserAgent</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-idshowplugin-get_useragent">get_UserAgent</a>
 </td>
 <td align="left" width="63%">
 Gets the User-Agent string.
@@ -99,4 +99,3 @@ To define the interface identifier, include the header file Initguid.h before Qn
 </code></pre>
 <div class="alert"><b>Note</b>  Make sure that Initguid.h is included only once in your project. Otherwise, you will receive linker errors for duplicate GUID values.</div>
 <div> </div>
-

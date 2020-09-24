@@ -77,15 +77,15 @@ A pointer to a null-terminated string specifying the fully qualified path of the
 
 ### -param psa [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>*</b>
+Type: <b>const <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>*</b>
 
- A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the directory's security attribute. Set this parameter to <b>NULL</b> if no security attributes need to be set.
+ A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the directory's security attribute. Set this parameter to <b>NULL</b> if no security attributes need to be set.
 
 ## -returns
 
 Type: <b>int</b>
 
-Returns <b>ERROR_SUCCESS</b> if successful. If the operation fails, other error codes can be returned, including those listed here. For values not specifically listed, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+Returns <b>ERROR_SUCCESS</b> if successful. If the operation fails, other error codes can be returned, including those listed here. For values not specifically listed, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 <table>
 <tr>
@@ -179,5 +179,4 @@ This function creates a file system folder whose fully qualified path is given b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectory">SHCreateDirectory</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectory">SHCreateDirectory</a>

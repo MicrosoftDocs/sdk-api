@@ -47,18 +47,15 @@ api_name:
  - TARGET_INFORMATION_CLASS
 ---
 
-# TARGET_INFORMATION_CLASS enumeration
-
-
 ## -description
 
-The <b>TARGET_INFORMATION_CLASS</b> enumeration specifies information about the indicated target device that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a> function retrieves.
+The <b>TARGET_INFORMATION_CLASS</b> enumeration specifies information about the indicated target device that the <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a> function retrieves.
 
 ## -enum-fields
 
 ### -field ProtocolType
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-targetprotocoltype">TARGETPROTOCOLTYPE</a> structure, indicating the protocol that the initiator uses to communicate with the target device.
+A value of the <a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-targetprotocoltype">TARGETPROTOCOLTYPE</a> structure, indicating the protocol that the initiator uses to communicate with the target device.
 
 ### -field TargetAlias
 
@@ -66,13 +63,15 @@ A <b>null</b>-terminated string that contains the alias of the target device.
 
 ### -field DiscoveryMechanisms
 
+A list of <b>null</b>-terminated strings that describe the discovery mechanisms that located the indicated target. The list is terminated by a double <b>null</b>.
+
 ### -field PortalGroups
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_groupa">ISCSI_TARGET_PORTAL_GROUP</a> structure that contains descriptions of the portals in the portal group associated with the target.
+A <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_groupa">ISCSI_TARGET_PORTAL_GROUP</a> structure that contains descriptions of the portals in the portal group associated with the target.
 
 ### -field PersistentTargetMappings
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a> structures that contains information about the HBAs and buses through which the target can be reached. The array is preceded by a <b>ULONG</b> value that contains the number of elements in the array. Each <b>ISCSI_TARGET_MAPPING</b> structure is aligned on a 4-byte boundary.
+An array of <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a> structures that contains information about the HBAs and buses through which the target can be reached. The array is preceded by a <b>ULONG</b> value that contains the number of elements in the array. Each <b>ISCSI_TARGET_MAPPING</b> structure is aligned on a 4-byte boundary.
 
 ### -field InitiatorName
 
@@ -95,14 +94,8 @@ The flags associated with the target. The following table lists the flags that c
 
 ### -field LoginOptions
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> structure that defines the login data.
-
-
-#### - DiscoveryMechanism
-
-A list of <b>null</b>-terminated strings that describe the discovery mechanisms that located the indicated target. The list is terminated by a double <b>null</b>.
+A value of the <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> structure that defines the login data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a>
-
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a>

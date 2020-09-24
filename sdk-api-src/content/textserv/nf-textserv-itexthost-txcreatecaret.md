@@ -56,12 +56,12 @@ Creates a new shape for windowless rich edit control's caret.
 
 ### -param hbmp [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 Handle to the bitmap for the new caret shape. 
 
 
-If the windowless rich edit control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-seteditstyle">SES_LOGICALCARET</a> style, <i>hbmp</i> is a combination of the following values:
+If the windowless rich edit control has the <a href="/windows/desktop/Controls/em-seteditstyle">SES_LOGICALCARET</a> style, <i>hbmp</i> is a combination of the following values:
 
 
 
@@ -134,19 +134,19 @@ The caret moves right to left.
 
 ### -param xWidth [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Caret width, in logical units.
 
 ### -param yHeight [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Caret height, in logical units.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return <b>TRUE</b> if the method succeeds. 
 
@@ -162,11 +162,11 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createcaret">CreateCaret</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createcaret">CreateCaret</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -174,5 +174,4 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

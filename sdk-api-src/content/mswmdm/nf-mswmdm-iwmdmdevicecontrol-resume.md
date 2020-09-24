@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Resume</b> method resumes the current play or record operation from the file position saved during the call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">Pause</a>.
+The <b>Resume</b> method resumes the current play or record operation from the file position saved during the call to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">Pause</a>.
 
 ## -parameters
 
@@ -112,13 +112,12 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">IWMDMDeviceControl::Pause</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">IWMDMDeviceControl::Pause</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>

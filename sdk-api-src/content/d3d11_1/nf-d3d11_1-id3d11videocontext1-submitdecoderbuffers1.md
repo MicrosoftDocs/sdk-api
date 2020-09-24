@@ -58,7 +58,7 @@ Submits one or more buffers for decoding.
 
 Type: <b>ID3D11VideoDecoder*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface. To get this pointer, call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder">ID3D11VideoDevice::CreateVideoDecoder</a> method.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface. To get this pointer, call the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder">ID3D11VideoDevice::CreateVideoDecoder</a> method.
 
 ### -param NumBuffers [in]
 
@@ -68,9 +68,9 @@ The number of buffers submitted for decoding.
 
 ### -param pBufferDesc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_buffer_desc1">D3D11_VIDEO_DECODER_BUFFER_DESC1</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_buffer_desc1">D3D11_VIDEO_DECODER_BUFFER_DESC1</a>*</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_buffer_desc1">D3D11_VIDEO_DECODER_BUFFER_DESC1</a> structures. The <i>NumBuffers</i> parameter specifies the number of elements in the array. Each element in the array describes a compressed buffer for decoding.
+A pointer to an array of <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_buffer_desc1">D3D11_VIDEO_DECODER_BUFFER_DESC1</a> structures. The <i>NumBuffers</i> parameter specifies the number of elements in the array. Each element in the array describes a compressed buffer for decoding.
 
 ## -returns
 
@@ -82,9 +82,8 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 This function does not honor any D3D11 predicate that may have been set.
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_query_data_pipeline_statistics">D3D11_QUERY_DATA_PIPELINE_STATISTICS</a> will not include this function for any feature level.
+<a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_query_data_pipeline_statistics">D3D11_QUERY_DATA_PIPELINE_STATISTICS</a> will not include this function for any feature level.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>

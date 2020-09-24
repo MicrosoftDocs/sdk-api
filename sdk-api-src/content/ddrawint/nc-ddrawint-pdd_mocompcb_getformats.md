@@ -53,7 +53,7 @@ The <b>DdMoCompGetFormats</b> callback function indicates the uncompressed forma
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompformatsdata">DD_GETMOCOMPFORMATSDATA</a> structure that contains the uncompressed format information for the hardware.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompformatsdata">DD_GETMOCOMPFORMATSDATA</a> structure that contains the uncompressed format information for the hardware.
 
 ## -returns
 
@@ -65,5 +65,4 @@ DirectDraw drivers that support motion compensation must implement <b>DdMoCompGe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompformatsdata">DD_GETMOCOMPFORMATSDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompformatsdata">DD_GETMOCOMPFORMATSDATA</a>

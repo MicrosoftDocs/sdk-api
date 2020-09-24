@@ -56,13 +56,13 @@ Retrieves the text from a combo box control.
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param lpch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to the buffer that will receive the text.
 
@@ -74,5 +74,4 @@ The maximum number of characters to copy to the buffer, including the NULL termi
 
 ## -remarks
 
-The macro expands to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a>.
-
+The macro expands to a call to <a href="/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a>.

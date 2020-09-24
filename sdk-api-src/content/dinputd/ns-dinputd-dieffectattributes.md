@@ -58,7 +58,7 @@ The <b>DIEFFECTATTRIBUTES</b> structure describes the information contained in t
 
 ### -field dwEffectId
 
-Specifies an arbitrary 32-bit value that is passed to the driver to identify the effect. The driver receives this value as the <i>dwEffectID</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/nf-dinputd-idirectinputeffectdriver-downloadeffect">IDirectInputEffectDriver::DownloadEffect</a> method.
+Specifies an arbitrary 32-bit value that is passed to the driver to identify the effect. The driver receives this value as the <i>dwEffectID</i> parameter to the <a href="/windows/desktop/api/dinputd/nf-dinputd-idirectinputeffectdriver-downloadeffect">IDirectInputEffectDriver::DownloadEffect</a> method.
 
 ### -field dwEffType
 
@@ -203,4 +203,3 @@ One or more coordinate system flags (DIEFF_CARTESIAN, DIEFF_POLAR, DIEFF_SPHERIC
 ## -remarks
 
 For information about the DIEFFECT, DICONSTANTFORCE, DIRAMPFORCE, DIPERIODIC, DICONDITION, DICUSTOMFORCE, and DIENVELOPE structures, see the DirectInput section of the DirectX SDK.
-

@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the index of the file (or logical) line of text that includes the specified character index  (text wrap delimiters are ignored). You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/em-filelinefromchar">EM_FILELINEFROMCHAR</a> message explicitly.
+Gets the index of the file (or logical) line of text that includes the specified character index  (text wrap delimiters are ignored). You can use this macro or send the <a href="/windows/desktop/controls/em-filelinefromchar">EM_FILELINEFROMCHAR</a> message explicitly.
 
 ## -parameters
 
@@ -70,5 +70,4 @@ The character index is the zero-based index of the character from the beginning 
 
 This macro and corresponding message do not recognize text wrapping (visible lines) and, instead, recognize file (logical) lines with an end-of-line delimiter. When text wrap is turned off, visible lines are equivalent to file lines.
 
-The <a href="https://docs.microsoft.com/windows/desktop/Controls/em-linefromchar">EM_LINEFROMCHAR</a>, <a href="https://docs.microsoft.com/windows/desktop/controls/em-lineindex">EM_LINEINDEX</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getline">EM_GETLINE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getlinecount">EM_GETLINECOUNT</a> messages recognize visible line text wrapping and provide information for the line of text up to the wrapping line break. (Each subsequent line is delimited by the next text wrap break.)
-
+The <a href="/windows/desktop/Controls/em-linefromchar">EM_LINEFROMCHAR</a>, <a href="/windows/desktop/controls/em-lineindex">EM_LINEINDEX</a>, <a href="/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a>, <a href="/windows/desktop/Controls/em-getline">EM_GETLINE</a>, and <a href="/windows/desktop/Controls/em-getlinecount">EM_GETLINECOUNT</a> messages recognize visible line text wrapping and provide information for the line of text up to the wrapping line break. (Each subsequent line is delimited by the next text wrap break.)

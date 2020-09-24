@@ -104,7 +104,7 @@ Maximum number of audio buffers to allocate. The maximum number of buffers is 10
 
 ### -field vKeyAbort
 
-Virtual keycode used to terminate streaming capture. The default value is VK_ESCAPE. You must call the <a href="https://msdn.microsoft.com/library/ms646309.aspx">RegisterHotKey</a> function before specifying a keystroke that can abort a capture session.
+Virtual keycode used to terminate streaming capture. The default value is VK_ESCAPE. You must call the <a href="/windows/win32/api/winuser/nf-winuser-registerhotkey">RegisterHotKey</a> function before specifying a keystroke that can abort a capture session.
 
 You can combine keycodes that include CTRL and SHIFT keystrokes by using the logical OR operator with the keycodes for CTRL (0x8000) and SHIFT (0x4000).
 
@@ -164,13 +164,13 @@ Indicates whether the audio stream controls the clock when writing an AVI file. 
 
 ## -remarks
 
-The WM_CAP_GET_SEQUENCE_SETUP message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturegetsetup">capCaptureGetSetup</a> macro is used to retrieve the current capture parameters. The WM_CAP_SET_SEQUENCE_SETUP message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro is used to set the capture parameters.
+The WM_CAP_GET_SEQUENCE_SETUP message or <a href="/windows/desktop/api/vfw/nf-vfw-capcapturegetsetup">capCaptureGetSetup</a> macro is used to retrieve the current capture parameters. The WM_CAP_SET_SEQUENCE_SETUP message or <a href="/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro is used to set the capture parameters.
 
-The <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a> message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturegetsetup">capCaptureGetSetup</a> macro is used to retrieve the current capture parameters. The <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-sequence-setup">WM_CAP_SET_SEQUENCE_SETUP</a> message or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro is used to set the capture parameters.
+The <a href="/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a> message or <a href="/windows/desktop/api/vfw/nf-vfw-capcapturegetsetup">capCaptureGetSetup</a> macro is used to retrieve the current capture parameters. The <a href="/windows/desktop/Multimedia/wm-cap-set-sequence-setup">WM_CAP_SET_SEQUENCE_SETUP</a> message or <a href="/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro is used to set the capture parameters.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms646309.aspx">RegisterHotKey</a>
+<a href="/windows/win32/api/winuser/nf-winuser-registerhotkey">RegisterHotKey</a>
 
 
 
@@ -178,21 +178,20 @@ Video Capture
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-structures">Video Capture Structures</a>
+<a href="/windows/desktop/Multimedia/video-capture-structures">Video Capture Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a>
+<a href="/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-sequence-setup">WM_CAP_SET_SEQUENCE_SETUP</a>
+<a href="/windows/desktop/Multimedia/wm-cap-set-sequence-setup">WM_CAP_SET_SEQUENCE_SETUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturegetsetup">capCaptureGetSetup</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-capcapturegetsetup">capCaptureGetSetup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a>
-
+<a href="/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a>

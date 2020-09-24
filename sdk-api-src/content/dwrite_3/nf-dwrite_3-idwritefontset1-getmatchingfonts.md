@@ -52,13 +52,13 @@ Retrieves a matching font set based on the requested inputs, ordered so that nea
 
 ### -param fontProperty
 
-Type: **[DWRITE_FONT_PROPERTY](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property) const \***
+Type: **[DWRITE_FONT_PROPERTY](./ns-dwrite_3-dwrite_font_property.md) const \***
 
 Font property of interest, such as typographic family or weight/stretch/style family.
 
 ### -param fontAxisValues
 
-Type: **[DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) const \***
+Type: **[DWRITE_FONT_AXIS_VALUE](./ns-dwrite_3-dwrite_font_axis_value.md) const \***
 
 A pointer to an array containing a list of font axis values. The array should be the size (the number of elements) indicated by the *fontAxisValueCount* argument.
 
@@ -70,9 +70,9 @@ The number of font axis values contained in the *fontAxisValues* array.
 
 ### -param matchingFonts
 
-Type: **[IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1)\*\***
+Type: **[IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md)\*\***
 
-The address of a pointer to an [IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1) interface. On successful completion, the function sets the pointer to a prioritized list of fonts that match the properties, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md) interface. On successful completion, the function sets the pointer to a prioritized list of fonts that match the properties, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 
@@ -85,4 +85,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 This method can yield distinct items that were not in the original font set, including items with simulation flags (if they would be a closer match to the request), and instances that were not named by the font author. Items from the same font resources are collapsed into one: the closest possible match.
 
 ## -see-also
-

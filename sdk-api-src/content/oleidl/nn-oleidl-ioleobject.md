@@ -55,7 +55,7 @@ Serves as the principal means by which an embedded object provides basic functio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOleObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">Advise</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Establishes an advisory connection between a compound document object and the calling object's advise sink.
@@ -79,7 +79,7 @@ Establishes an advisory connection between a compound document object and the ca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">Close</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">Close</a>
 </td>
 <td align="left" width="63%">
 Changes an embedded object from the running to the loaded state.
@@ -88,7 +88,7 @@ Changes an embedded object from the running to the loaded state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">DoVerb</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">DoVerb</a>
 </td>
 <td align="left" width="63%">
 Requests that an object perform an action in response to an end-user's action.
@@ -97,7 +97,7 @@ Requests that an object perform an action in response to an end-user's action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumadvise">EnumAdvise</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumadvise">EnumAdvise</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an enumerator that can be used to enumerate the advisory connections registered for an 
@@ -107,7 +107,7 @@ Retrieves a pointer to an enumerator that can be used to enumerate the advisory 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">EnumVerbs</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">EnumVerbs</a>
 </td>
 <td align="left" width="63%">
 Exposes a pull-down menu listing the verbs available for an object in ascending order by verb number.
@@ -116,7 +116,7 @@ Exposes a pull-down menu listing the verbs available for an object in ascending 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getclientsite">GetClientSite</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getclientsite">GetClientSite</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an embedded object's client site.
@@ -125,7 +125,7 @@ Retrieves a pointer to an embedded object's client site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getclipboarddata">GetClipboardData</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getclipboarddata">GetClipboardData</a>
 </td>
 <td align="left" width="63%">
 Retrieves a data object containing the current contents of the embedded object on which this method is 
@@ -135,7 +135,7 @@ Retrieves a data object containing the current contents of the embedded object o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">GetExtent</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">GetExtent</a>
 </td>
 <td align="left" width="63%">
 Retrieves a running object's current display area.
@@ -144,7 +144,7 @@ Retrieves a running object's current display area.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">GetMiscStatus</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">GetMiscStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of an object at creation and loading.
@@ -153,7 +153,7 @@ Retrieves the status of an object at creation and loading.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmoniker">GetMoniker</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmoniker">GetMoniker</a>
 </td>
 <td align="left" width="63%">
 Retrieves an embedded object's moniker.
@@ -162,7 +162,7 @@ Retrieves an embedded object's moniker.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getuserclassid">GetUserClassID</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getuserclassid">GetUserClassID</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object's class identifier.
@@ -171,7 +171,7 @@ Retrieves an object's class identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">GetUserType</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">GetUserType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user-type name of an object.
@@ -180,7 +180,7 @@ Retrieves the user-type name of an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-initfromdata">InitFromData</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-initfromdata">InitFromData</a>
 </td>
 <td align="left" width="63%">
 Initializes a newly created object with data from the specified data object.
@@ -189,7 +189,7 @@ Initializes a newly created object with data from the specified data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-isuptodate">IsUpToDate</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-isuptodate">IsUpToDate</a>
 </td>
 <td align="left" width="63%">
 Checks whether an object is up to date.
@@ -198,7 +198,7 @@ Checks whether an object is up to date.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">SetClientSite</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">SetClientSite</a>
 </td>
 <td align="left" width="63%">
 Informs an embedded object of its client site within its container.
@@ -207,7 +207,7 @@ Informs an embedded object of its client site within its container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setcolorscheme">SetColorScheme</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setcolorscheme">SetColorScheme</a>
 </td>
 <td align="left" width="63%">
 Specifies the color palette that the object application should use when it edits the specified object.
@@ -216,7 +216,7 @@ Specifies the color palette that the object application should use when it edits
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setextent">SetExtent</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setextent">SetExtent</a>
 </td>
 <td align="left" width="63%">
 Sets the extent of object's display area.
@@ -225,7 +225,7 @@ Sets the extent of object's display area.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-sethostnames">SetHostNames</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-sethostnames">SetHostNames</a>
 </td>
 <td align="left" width="63%">
 Provides an object with the names of its container application and the compound document in which it is 
@@ -235,7 +235,7 @@ Provides an object with the names of its container application and the compound 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setmoniker">SetMoniker</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setmoniker">SetMoniker</a>
 </td>
 <td align="left" width="63%">
 Notifies an object of its container's moniker.
@@ -244,7 +244,7 @@ Notifies an object of its container's moniker.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">Unadvise</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Deletes a previously established advisory connection.
@@ -253,7 +253,7 @@ Deletes a previously established advisory connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">Update</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">Update</a>
 </td>
 <td align="left" width="63%">
 Updates an object handler's or link object's data or view caches.
@@ -261,4 +261,3 @@ Updates an object handler's or link object's data or view caches.
 </td>
 </tr>
 </table>
-

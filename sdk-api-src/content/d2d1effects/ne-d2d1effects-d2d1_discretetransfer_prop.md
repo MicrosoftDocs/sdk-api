@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/discrete-transfer">Discrete transfer effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/discrete-transfer">Discrete transfer effect</a>.
 
 ## -enum-fields
 
@@ -145,4 +145,3 @@ The type is BOOL.
 The default value if FALSE.
 
 ### -field D2D1_DISCRETETRANSFER_PROP_FORCE_DWORD
-

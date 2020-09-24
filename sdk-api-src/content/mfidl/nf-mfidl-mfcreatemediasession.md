@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> in the application's process.
+Creates the <a href="/windows/desktop/medfound/media-session">Media Session</a> in the application's process.
 
 ## -parameters
 
 ### -param pConfiguration
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. See Remarks.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. See Remarks.
 
 ### -param ppMediaSession
 
-Receives a pointer to the Media Session's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a> interface. The caller must release the interface. Before releasing the last reference to the <b>IMFMediaSession</b> pointer, the application must call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown">IMFMediaSession::Shutdown</a> method.
+Receives a pointer to the Media Session's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a> interface. The caller must release the interface. Before releasing the last reference to the <b>IMFMediaSession</b> pointer, the application must call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown">IMFMediaSession::Shutdown</a> method.
 
 ## -returns
 
@@ -87,7 +87,7 @@ The function succeeded.
 
 ## -remarks
 
-If your application does not play protected content, you can use this function to create the Media Session in the application's process. To use the Media Session for protected content, you must call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>.
+If your application does not play protected content, you can use this function to create the Media Session in the application's process. To use the Media Session for protected content, you must call <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>.
       
 
 You can use the <i>pConfiguration</i> parameter to specify any of the following attributes:
@@ -96,32 +96,31 @@ You can use the <i>pConfiguration</i> parameter to specify any of the following 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-session-global-time-attribute">MF_SESSION_GLOBAL_TIME</a>
+<a href="/windows/desktop/medfound/mf-session-global-time-attribute">MF_SESSION_GLOBAL_TIME</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-session-quality-manager-attribute">MF_SESSION_QUALITY_MANAGER</a>
+<a href="/windows/desktop/medfound/mf-session-quality-manager-attribute">MF_SESSION_QUALITY_MANAGER</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-session-topoloader-attribute">MF_SESSION_TOPOLOADER</a>
+<a href="/windows/desktop/medfound/mf-session-topoloader-attribute">MF_SESSION_TOPOLOADER</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-low-latency">MF_LOW_LATENCY</a>
+<a href="/windows/desktop/medfound/mf-low-latency">MF_LOW_LATENCY</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/about-the-media-session">About the Media Session</a>
+<a href="/windows/desktop/medfound/about-the-media-session">About the Media Session</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a>
-
+<a href="/windows/desktop/medfound/media-session">Media Session</a>

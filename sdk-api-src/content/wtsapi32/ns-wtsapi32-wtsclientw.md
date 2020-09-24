@@ -103,7 +103,7 @@ Vertical dimension, in pixels, of the client's display.
 ### -field ColorDepth
 
 Color depth of the client's display. For possible values, see the <b>ColorDepth</b> 
-      member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> 
+      member of the <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> 
       structure.
 
 ### -field ClientDirectory
@@ -148,4 +148,3 @@ For the <b>ClientAddressFamily</b> member, <b>AF_INET</b>  (IPv4) will return in
 
 > [!NOTE]
 > The wtsapi32.h header defines WTSCLIENT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

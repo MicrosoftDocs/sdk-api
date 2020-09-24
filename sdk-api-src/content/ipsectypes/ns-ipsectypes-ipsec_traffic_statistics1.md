@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_TRAFFIC_STATISTICS1</b> structure stores IPsec traffic statistics.
-[IPSEC_TRAFFIC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0) is available.</div><div> </div>
+[IPSEC_TRAFFIC_STATISTICS0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -87,5 +87,4 @@ The total number of packets that were successfully transmitted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

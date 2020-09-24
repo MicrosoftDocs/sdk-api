@@ -91,9 +91,8 @@ On Windows 8 and Windows Server 2012, the Internet identity for a connected ac
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>

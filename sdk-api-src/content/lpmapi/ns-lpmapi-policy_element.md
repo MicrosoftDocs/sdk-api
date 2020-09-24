@@ -45,13 +45,9 @@ api_name:
  - POLICY_ELEMENT
 ---
 
-# POLICY_ELEMENT structure
-
-
 ## -description
 
-The 
-<b>POLICY_ELEMENT</b> structure contains an RSVP policy element.
+The <b>POLICY_ELEMENT</b> structure contains an RSVP policy element.
 
 ## -struct-fields
 
@@ -66,4 +62,3 @@ Policy Element type.
 ### -field ucPeData
 
 Policy Element data.
-

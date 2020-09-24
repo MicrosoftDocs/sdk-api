@@ -66,13 +66,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <b>IActionCollection::Remove</b> returns E_INVALIDARG and E_TYPE_MISMATCH instead of E_INVALID_VARIANT when an invalid argument is specified.
 
-When removing items, note that the index for the first item in the collection is 1 and the index for the last item is the value of the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_count">Count</a> property of IActionCollection.
+When removing items, note that the index for the first item in the collection is 1 and the index for the last item is the value of the <a href="/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_count">Count</a> property of IActionCollection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iactioncollection">IActionCollection</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iactioncollection">IActionCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>CreateForwardInfoObject</b> method creates the forwarding information object and returns an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> interface pointer. This interface exposes methods that allow an application to control aspects of how a call is forwarded, such as whether internal calls will be handled differently than external calls.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> interface pointer. This interface exposes methods that allow an application to control aspects of how a call is forwarded, such as whether internal calls will be handled differently than external calls.
 
 ## -parameters
 
 ### -param ppForwardInfo [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> interface.
 
 ## -returns
 
@@ -108,29 +108,28 @@ The <i>ppForwardInfo</i> parameter is not a valid pointer.
 ## -remarks
 
 The application must set information on a newly created 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> object before the object can be used.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> object before the object can be used.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> interface returned by <b>ITAddress::CreateForwardInfoObject</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> interface returned by <b>ITAddress::CreateForwardInfoObject</b>. The application must call <b>Release</b> on the 
 <b>ITForwardInformation</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">Forward</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">Forward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">get_CurrentForwardInfo</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">get_CurrentForwardInfo</a>

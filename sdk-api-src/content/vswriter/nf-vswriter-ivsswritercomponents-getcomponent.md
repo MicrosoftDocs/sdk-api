@@ -53,7 +53,7 @@ api_name:
 
 The 
 <b>GetComponent</b> method returns an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface to one of a given writer's components explicitly stored in the Backup Components Document.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface to one of a given writer's components explicitly stored in the Backup Components Document.
 
 ## -parameters
 
@@ -61,12 +61,12 @@ The
 
 Number of the component. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of components returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswritercomponents-getcomponentcount">IVssWriterComponents::GetComponentCount</a>.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsswritercomponents-getcomponentcount">IVssWriterComponents::GetComponentCount</a>.
 
 ### -param ppComponent [out]
 
 Doubly indirect pointer to an instance of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> object that contains component information.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> object that contains component information.
 
 ## -returns
 
@@ -125,10 +125,9 @@ The specified component was not found.
 
 ## -remarks
 
-The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release system resources held by the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> object.
+The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release system resources held by the returned 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>

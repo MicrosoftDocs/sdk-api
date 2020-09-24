@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Provides information that the owner window uses to determine how to paint an owner-drawn control or menu item. The owner window of the owner-drawn control or menu item receives a pointer to this structure as the <i>lParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> message.
+Provides information that the owner window uses to determine how to paint an owner-drawn control or menu item. The owner window of the owner-drawn control or menu item receives a pointer to this structure as the <i>lParam</i> parameter of the <a href="/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> message.
 
 ## -struct-fields
 
 ### -field CtlType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The control type. This member can be one of the following values. See Remarks.
 
@@ -143,19 +143,19 @@ Tab control
 
 ### -field CtlID
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The identifier of the combo box, list box, button, or static control. This member is not used for a menu item.
 
 ### -field itemID
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The menu item identifier for a menu item or the index of the item in a list box or combo box. For an empty list box or combo box, this member can be <code>-1</code>. This allows the application to draw only the focus rectangle at the coordinates specified by the <b>rcItem</b> member even though there are no items in the control. This indicates to the user whether the list box or combo box has the focus. How the bits are set in the <b>itemAction</b> member determines whether the rectangle is to be drawn as though the list box or combo box has the focus.
 
 ### -field itemAction
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The required drawing action. This member can be one or more of the values. 
 
@@ -198,7 +198,7 @@ The selection status has changed. The <b>itemState</b> member should be checked 
 
 ### -field itemState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The visual state of the item after the current drawing action takes place. This member can be a combination of the values shown in the following table. 
 
@@ -321,13 +321,13 @@ The menu item's status is selected.
 
 ### -field hwndItem
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control for combo boxes, list boxes, buttons, and static controls. For menus, this member is a handle to the menu that contains the item.
 
 ### -field hDC
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 A handle to a device context; this device context must be used when performing drawing operations on the control.
 
@@ -339,23 +339,23 @@ A rectangle that defines the boundaries of the control to be drawn. This rectang
 
 ### -field itemData
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
 
-The application-defined value associated with the menu item. For a control, this parameter specifies the value last assigned to the list box or combo box by the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setitemdata">CB_SETITEMDATA</a> message. If the list box or combo box has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-box-styles">LBS_HASSTRINGS</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_HASSTRINGS</a> style, this value is initially zero. Otherwise, this value is initially the value that was passed to the list box or combo box in the <i>lParam</i> parameter of one of the following messages: 
+The application-defined value associated with the menu item. For a control, this parameter specifies the value last assigned to the list box or combo box by the <a href="/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a> or <a href="/windows/desktop/Controls/cb-setitemdata">CB_SETITEMDATA</a> message. If the list box or combo box has the <a href="/windows/desktop/Controls/list-box-styles">LBS_HASSTRINGS</a> or <a href="/windows/desktop/Controls/combo-box-styles">CBS_HASSTRINGS</a> style, this value is initially zero. Otherwise, this value is initially the value that was passed to the list box or combo box in the <i>lParam</i> parameter of one of the following messages: 
 					
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-addstring">CB_ADDSTRING</a>
+<a href="/windows/desktop/Controls/cb-addstring">CB_ADDSTRING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a>
+<a href="/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a>
+<a href="/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a>
+<a href="/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a>
 </li>
 </ul>
 If <b>CtlType</b> is <b>ODT_BUTTON</b> or <b>ODT_STATIC</b>, <b>itemData</b> is zero.
@@ -366,27 +366,27 @@ Some control types, such as status bars, do not set the value of <b>CtlType</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-addstring">CB_ADDSTRING</a>
+<a href="/windows/desktop/Controls/cb-addstring">CB_ADDSTRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a>
+<a href="/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setitemdata">CB_SETITEMDATA</a>
+<a href="/windows/desktop/Controls/cb-setitemdata">CB_SETITEMDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a>
+<a href="/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a>
+<a href="/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a>
+<a href="/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a>
 
 
 
@@ -394,5 +394,4 @@ Some control types, such as status bars, do not set the value of <b>CtlType</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a>
-
+<a href="/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a>

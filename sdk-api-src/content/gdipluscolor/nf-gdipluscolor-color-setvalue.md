@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Color::SetValue</b> method sets the color of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
+The <b>Color::SetValue</b> method sets the color of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
 ## -parameters
 
@@ -63,13 +63,12 @@ Thirty-two bit <b>ARGB</b> value that specifies the color. An <b>ARGB</b> value 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
-
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>

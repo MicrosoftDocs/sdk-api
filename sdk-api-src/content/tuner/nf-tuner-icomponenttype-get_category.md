@@ -56,7 +56,7 @@ The <b>get_Category</b> method retrieves the component category.
 
 ### -param Category [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/componentcategory">ComponentCategory</a> data type that will receive the category.
+Pointer to a <a href="/previous-versions/windows/desktop/mstv/componentcategory">ComponentCategory</a> data type that will receive the category.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType Interface</a>

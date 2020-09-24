@@ -56,7 +56,7 @@ This interface exists for every instance of the writer object. To obtain a point
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterAdvanced</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMWriterAdvanced</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterAdvanced</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMWriterAdvanced</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMWriterAdvanced</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink">AddSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink">AddSink</a>
 </td>
 <td align="left" width="63%">
 Adds a writer sink.
@@ -80,7 +80,7 @@ Adds a writer sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsink">GetSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsink">GetSink</a>
 </td>
 <td align="left" width="63%">
 Retrieves a writer sink object.
@@ -89,7 +89,7 @@ Retrieves a writer sink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">GetSinkCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">GetSinkCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of writer sinks.
@@ -98,7 +98,7 @@ Retrieves the number of writer sinks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getstatistics">GetStatistics</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getstatistics">GetStatistics</a>
 </td>
 <td align="left" width="63%">
 Retrieves statistics about the current writing operation.
@@ -107,7 +107,7 @@ Retrieves statistics about the current writing operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsynctolerance">GetSyncTolerance</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsynctolerance">GetSyncTolerance</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of time during which the inputs can fall out of synchronization before the samples are discarded.
@@ -116,7 +116,7 @@ Retrieves the amount of time during which the inputs can fall out of synchroniza
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getwritertime">GetWriterTime</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getwritertime">GetWriterTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the clock time that the writer is working to.
@@ -125,7 +125,7 @@ Retrieves the clock time that the writer is working to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-isrealtime">IsRealTime</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-isrealtime">IsRealTime</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the writer is running in real time.
@@ -134,7 +134,7 @@ Ascertains whether the writer is running in real time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">RemoveSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">RemoveSink</a>
 </td>
 <td align="left" width="63%">
 Removes a writer sink object.
@@ -143,7 +143,7 @@ Removes a writer sink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setlivesource">SetLiveSource</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setlivesource">SetLiveSource</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the source is live.
@@ -152,7 +152,7 @@ Specifies whether the source is live.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance">SetSyncTolerance</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance">SetSyncTolerance</a>
 </td>
 <td align="left" width="63%">
 Sets the amount of time that the inputs can fall out of synchronization before the samples are discarded.
@@ -161,7 +161,7 @@ Sets the amount of time that the inputs can fall out of synchronization before t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample">WriteStreamSample</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample">WriteStreamSample</a>
 </td>
 <td align="left" width="63%">
 Writes a stream sample directly into an ASF file, bypassing the normal compression procedures.
@@ -170,25 +170,24 @@ Writes a stream sample directly into an ASF file, bypassing the normal compressi
 </tr>
 </table> 
 
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>.
+For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/writer-object">Writer Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
+<a href="/windows/desktop/wmformat/writer-object">Writer Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writing-asf-files">Writing ASF Files</a>
-
+<a href="/windows/desktop/wmformat/writing-asf-files">Writing ASF Files</a>

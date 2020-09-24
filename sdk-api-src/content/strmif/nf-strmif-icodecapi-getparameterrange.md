@@ -60,7 +60,7 @@ This method applies only to properties whose values form a linear range.
 
 ### -param Api [in]
 
-Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
+Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
 
 ### -param ValueMin [out]
 
@@ -129,17 +129,16 @@ The valid range for the property is [<i>ValueMin</i>... <i>ValueMax</i>], with i
 <li>Signed types: <b>VT_I8</b>, <b>VT_I4</b>, <b>VT_I2</b></li>
 <li>Floating-point types: <b>VT_R8</b>, <b>VT_R4</b></li>
 </ul>
-If the property supports a list of values, instead of a range, the method returns  <b>VFW_E_CODECAPI_ENUMERATED</b>. In that case, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparametervalues">ICodecAPI::GetParameterValues</a> to get the list of values.
+If the property supports a list of values, instead of a range, the method returns  <b>VFW_E_CODECAPI_ENUMERATED</b>. In that case, call <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getparametervalues">ICodecAPI::GetParameterValues</a> to get the list of values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
+<a href="/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>

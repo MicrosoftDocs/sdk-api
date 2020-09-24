@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credential</a>, such as the name associated with the credential. The information is valid for any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> created with the specified credential.
+Sets the <a href="/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="/windows/desktop/SecGloss/c-gly">credential</a>, such as the name associated with the credential. The information is valid for any <a href="/windows/desktop/SecGloss/s-gly">security context</a> created with the specified credential.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A handle of the credentials to be set.
 
 ### -param ulAttribute [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> to set. This parameter can be any of the following attributes.
+Specifies the <a href="/windows/desktop/SecGloss/a-gly">attribute</a> to set. This parameter can be any of the following attributes.
 
 <table>
 <tr>
@@ -76,7 +76,7 @@ Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly
 </dl>
 </td>
 <td width="60%">
-Sets the name of a credential in a <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>.
+Sets the name of a credential in a <i>pBuffer</i> parameter of type <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>.
 
 This attribute is not supported by Schannel in WOW64 mode.
 
@@ -89,7 +89,7 @@ This attribute is not supported by Schannel in WOW64 mode.
 </dl>
 </td>
 <td width="60%">
-Sets the Kerberos proxy setting in a  <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_kdcproxysettingsw">SecPkgCredentials_KdcProxySettings</a>.
+Sets the Kerberos proxy setting in a  <i>pBuffer</i> parameter of type <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_kdcproxysettingsw">SecPkgCredentials_KdcProxySettings</a>.
 
 This attribute is only supported by Kerberos.
 
@@ -102,7 +102,7 @@ This attribute is only supported by Kerberos.
 </dl>
 </td>
 <td width="60%">
-Sets the supported algorithms in a  <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>. All supported algorithms are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
+Sets the supported algorithms in a  <i>pBuffer</i> parameter of type <a href="/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>. All supported algorithms are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
 
 This attribute is supported only by Schannel.
 
@@ -115,7 +115,7 @@ This attribute is supported only by Schannel.
 </dl>
 </td>
 <td width="60%">
-Sets the cipher strengths in a <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>.
+Sets the cipher strengths in a <i>pBuffer</i> parameter of type <a href="/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>.
 
 This attribute is supported only by Schannel.
 
@@ -128,7 +128,7 @@ This attribute is supported only by Schannel.
 </dl>
 </td>
 <td width="60%">
-Sets the supported algorithms in a <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>. All supported protocols are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
+Sets the supported algorithms in a <i>pBuffer</i> parameter of type <a href="/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>. All supported protocols are included, regardless of whether they are supported by the provided certificate or enabled on the local computer.
 
 This attribute is supported only by Schannel.
 
@@ -173,7 +173,7 @@ The handle passed to the function is not valid.
 </dl>
 </td>
 <td width="60%">
-The specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> is not supported by Schannel. This return value will only be returned when the Schannel SSP is being used.
+The specified <a href="/windows/desktop/SecGloss/a-gly">attribute</a> is not supported by Schannel. This return value will only be returned when the Schannel SSP is being used.
 
 </td>
 </tr>
@@ -192,11 +192,11 @@ Not enough memory is available to complete the request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
@@ -204,26 +204,25 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>
+<a href="/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>
+<a href="/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>
+<a href="/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>
 
 ## -remarks
 
 > [!NOTE]
 > The sspi.h header defines SetCredentialsAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

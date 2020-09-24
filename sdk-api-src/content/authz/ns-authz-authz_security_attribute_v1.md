@@ -222,7 +222,7 @@ A pointer to one or more string attribute values.
 
 ### -field Values.pFqbn
 
-A pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attribute_fqbn_value">AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE</a> structures.
+A pointer to one or more <a href="/windows/desktop/api/authz/ns-authz-authz_security_attribute_fqbn_value">AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE</a> structures.
 
 ### -field Values.pOctetString
 
@@ -230,9 +230,8 @@ A pointer to one or more <a href="/windows/win32/api/authz/ns-authz-authz_securi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a>
+<a href="/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
-
+<a href="/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>

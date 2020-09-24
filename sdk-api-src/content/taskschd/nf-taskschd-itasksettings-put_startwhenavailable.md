@@ -64,13 +64,12 @@ This property applies only to time-based tasks with an end boundary or time-base
 
 Tasks that are started after the scheduled time has passed (because of the <b>StartWhenAvailable</b> property being set to True) are queued in the Task Scheduler service's queue of tasks and they are started after a delay.  The default delay is 10 minutes.
 
-When reading or writing  XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-startwhenavailable-settingstype-element">StartWhenAvailable</a> element of the Task Scheduler schema.
+When reading or writing  XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-startwhenavailable-settingstype-element">StartWhenAvailable</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

@@ -54,32 +54,31 @@ api_name:
 
 ## -description
 
-The <b>KERB_CERTIFICATE_UNLOCK_LOGON</b> structure contains information used to unlock a workstation that has been locked during an interactive smart card <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
+The <b>KERB_CERTIFICATE_UNLOCK_LOGON</b> structure contains information used to unlock a workstation that has been locked during an interactive smart card <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 It is passed as the <i>AuthenticationInformation</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function when using the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/kerberos-ssp-ap">Kerberos</a> security package to unlock a logon session.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function when using the <a href="/windows/desktop/SecAuthN/kerberos-ssp-ap">Kerberos</a> security package to unlock a logon session.
 
 ## -struct-fields
 
 ### -field Logon
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> structure that contains information about the logon session to unlock.
+A <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> structure that contains information about the logon session to unlock.
 
-The <b>MessageType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> structure must be set to <b>KerbCertificateUnlockLogon</b>.
+The <b>MessageType</b> member of the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> structure must be set to <b>KerbCertificateUnlockLogon</b>.
 
 ### -field LogonId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that identifies the logon session to unlock. This member is set by <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a>.
+A <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that identifies the logon session to unlock. This member is set by <a href="/windows/desktop/SecAuthN/winlogon">Winlogon</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a>
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/kerb-smartcard-csp-info">KERB_SMARTCARD_CSP_INFO</a>
+<a href="/windows/desktop/SecAuthN/kerb-smartcard-csp-info">KERB_SMARTCARD_CSP_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>

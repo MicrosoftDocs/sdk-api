@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a> function. The status routine is called during the process of the image binding.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a> function. The status routine is called during the process of the image binding.
 
 The <b>PIMAGEHLP_STATUS_ROUTINE</b> type defines a pointer to this callback function. 
 <b>StatusRoutine</b> is a placeholder for the application-defined function name.
@@ -246,7 +246,7 @@ Any additional status information. This value depends on the value of the <i>Rea
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -288,9 +288,8 @@ case BindImageComplete:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a>
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
-
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>

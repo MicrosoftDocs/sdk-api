@@ -57,11 +57,11 @@ The <b>CreateClassEnumerator</b> method creates an enumerator for a specified de
 
 ### -param clsidDeviceClass [in]
 
-Specifies the class identifier (CLSID) of the device category. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.
+Specifies the class identifier (CLSID) of the device category. See <a href="/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.
 
 ### -param ppEnumMoniker [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> interface. The caller must release the interface.
 
 ### -param dwFlags [in]
 
@@ -170,13 +170,12 @@ if (hr == S_OK)
 </td>
 </tr>
 </table></span></div>
-Use the <b>IEnumMoniker</b> interface to enumerate monikers that represent the filters in the device category. Monikers support the <b>IMoniker</b> interface. The monikers created by <b>CreateClassEnumerator</b> also support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igetcapabilitieskey">IGetCapabilitiesKey</a> interface.
+Use the <b>IEnumMoniker</b> interface to enumerate monikers that represent the filters in the device category. Monikers support the <b>IMoniker</b> interface. The monikers created by <b>CreateClassEnumerator</b> also support the <a href="/windows/desktop/api/strmif/nn-strmif-igetcapabilitieskey">IGetCapabilitiesKey</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum Interface</a>

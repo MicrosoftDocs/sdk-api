@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides methods for enumerating through running packages.  The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Provides methods for enumerating through running packages.  The events are published to the subscriber using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMtsGrp</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMtsGrp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMtsGrp</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMtsGrp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMtsGrp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imtsgrp-get_count">get_Count</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsgrp-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of running packages in the catalog.
@@ -78,19 +78,19 @@ Retrieves the number of running packages in the catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imtsgrp-item">Item</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsgrp-item">Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the specified package.
+Retrieves the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the specified package.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imtsgrp-refresh">Refresh</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsgrp-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
-Updates the list of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers that was populated upon the creation of the object.
+Updates the list of <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers that was populated upon the creation of the object.
 
 </td>
 </tr>
@@ -98,9 +98,8 @@ Updates the list of <a href="https://docs.microsoft.com/windows/desktop/api/unkn
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
-
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

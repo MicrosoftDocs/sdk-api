@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>SetNetScheduleAccountInformation</b> is no longer available for use as of Windows 8. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces"> Task Scheduler 2.0 Interfaces</a>.
+<p class="CCE_Message">[<b>SetNetScheduleAccountInformation</b> is no longer available for use as of Windows 8. Instead, use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces"> Task Scheduler 2.0 Interfaces</a>.
 
 ]
 
-The <b>SetNetScheduleAccountInformation</b> function sets the AT Service account name and password. The AT Service account name and password are used as the credentials for scheduled jobs created with <a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a>.
+The <b>SetNetScheduleAccountInformation</b> function sets the AT Service account name and password. The AT Service account name and password are used as the credentials for scheduled jobs created with <a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a>.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ A pointer to a NULL-terminated wide character string for the account. To specify
 
 ### -param pwszPassword [in]
 
-A pointer to a NULL-terminated wide character string for the password. For information about securing password information, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+A pointer to a NULL-terminated wide character string for the password. For information about securing password information, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 ## -returns
 
@@ -125,5 +125,4 @@ The <b>SetNetScheduleAccountInformation</b> impersonates the caller. Only member
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/atacct/nf-atacct-getnetscheduleaccountinformation">GetNetScheduleAccountInformation</a>
-
+<a href="/windows/desktop/api/atacct/nf-atacct-getnetscheduleaccountinformation">GetNetScheduleAccountInformation</a>

@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-ntgdiddcreatedirectdrawobject">NtGdiDdCreateDirectDrawObject</a> function and creates a kernel-side representation of the Microsoft DirectDraw object. A handle to this representation will be stored in <i>pDirectDrawGlobal</i>-&gt;hDD.
+Wrapper for the <a href="/windows/desktop/DevNotes/-dxgkernel-ntgdiddcreatedirectdrawobject">NtGdiDdCreateDirectDrawObject</a> function and creates a kernel-side representation of the Microsoft DirectDraw object. A handle to this representation will be stored in <i>pDirectDrawGlobal</i>-&gt;hDD.
 
 
 <b>GdiEntry1</b> is defined as an alias for this function.
@@ -79,9 +79,8 @@ If successful, this function returns <b>TRUE</b>; otherwise it returns <b>FALSE<
 
 Applications are advised to use the 
 DirectDraw and 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference">Direct3D</a>APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference">Direct3D</a>APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-
+<a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>

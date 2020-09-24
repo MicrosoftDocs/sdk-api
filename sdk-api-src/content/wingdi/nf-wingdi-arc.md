@@ -106,41 +106,40 @@ The arc is drawn using the current pen; it is not filled.
 
 The current position is neither used nor updated by <b>Arc</b>.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getarcdirection">GetArcDirection</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a> functions to get and set the current drawing direction for a device context. The default drawing direction is counterclockwise.
+Use the <a href="/windows/desktop/api/wingdi/nf-wingdi-getarcdirection">GetArcDirection</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a> functions to get and set the current drawing direction for a device context. The default drawing direction is counterclockwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-anglearc">AngleArc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-anglearc">AngleArc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-chord">Chord</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-chord">Chord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getarcdirection">GetArcDirection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getarcdirection">GetArcDirection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-pie">Pie</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-pie">Pie</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>

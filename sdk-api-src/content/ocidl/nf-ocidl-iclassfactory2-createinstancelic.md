@@ -56,7 +56,7 @@ Creates an instance of the licensed object for the specified license key. This m
 
 ### -param pUnkOuter [in]
 
-A pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the outer unknown if this object is being created as part of an aggregate. If the object is not part of an aggregate, this parameter must be <b>NULL</b>.
+A pointer to the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the outer unknown if this object is being created as part of an aggregate. If the object is not part of an aggregate, this parameter must be <b>NULL</b>.
 
 ### -param pUnkReserved [in]
 
@@ -68,7 +68,7 @@ A reference to the identifier of the interface to be used to communicate with th
 
 ### -param bstrKey [in]
 
-Run-time license key previously obtained from <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">IClassFactory2::RequestLicKey</a> that is required to create an object.
+Run-time license key previously obtained from <a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">IClassFactory2::RequestLicKey</a> that is required to create an object.
 
 ### -param ppvObj [out]
 
@@ -101,7 +101,7 @@ The license was successfully created.
 </dl>
 </td>
 <td width="60%">
-This method is not implemented because objects can only be created on fully licensed machines through <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a>.
+This method is not implemented because objects can only be created on fully licensed machines through <a href="/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a>.
 
 </td>
 </tr>
@@ -154,13 +154,12 @@ The key provided in <i>bstrKey</i> is not a valid license key.
 ## -remarks
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If the class factory does not provide a license key (that is, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">IClassFactory2::RequestLicKey</a> returns E_NOTIMPL and the <b>fRuntimeKeyAvail</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a> is set to <b>FALSE</b> in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">IClassFactory2::GetLicInfo</a>), then this method can also return E_NOTIMPL. In such cases, the class factory is implementing <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a> simply to specify whether the machine is licensed at all through the <b>fLicVerified</b> member of <b>LICINFO</b>.
+If the class factory does not provide a license key (that is, <a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">IClassFactory2::RequestLicKey</a> returns E_NOTIMPL and the <b>fRuntimeKeyAvail</b> member in <a href="/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a> is set to <b>FALSE</b> in <a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">IClassFactory2::GetLicInfo</a>), then this method can also return E_NOTIMPL. In such cases, the class factory is implementing <a href="/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a> simply to specify whether the machine is licensed at all through the <b>fLicVerified</b> member of <b>LICINFO</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a>
-
+<a href="/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a>

@@ -57,7 +57,7 @@ Retrieves job-related progress information, such as the number of bytes and file
 ### -param pVal [out]
 
 Contains data that you can use to calculate the percentage of the job that is complete. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_PROGRESS</a>.
+<a href="/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_PROGRESS</a>.
 
 ## -returns
 
@@ -94,5 +94,4 @@ The <i>pProgress</i> parameter cannot be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_PROGRESS</a>
-
+<a href="/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_PROGRESS</a>

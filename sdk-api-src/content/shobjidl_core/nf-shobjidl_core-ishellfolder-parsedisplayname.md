@@ -63,9 +63,9 @@ A window handle. The client should provide a window handle if it displays a dial
 
 ### -param pbc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-Optional. A pointer to a bind context used to pass parameters as inputs and outputs to the parsing function. These passed parameters are often specific to the data source and are documented by the data source owners. For example, the file system data source accepts the name being parsed (as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure), using the <a href="https://docs.microsoft.com/windows/desktop/shell/str-constants">STR_FILE_SYS_BIND_DATA</a> bind context parameter. <a href="https://docs.microsoft.com/windows/desktop/shell/str-constants">STR_PARSE_PREFER_FOLDER_BROWSING</a> can be passed to indicate that URLs are parsed using the file system data source when possible. Construct a bind context object using <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> and populate the values using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">IBindCtx::RegisterObjectParam</a>. See <b>Bind Context String Keys</b> for a complete list of these.
+Optional. A pointer to a bind context used to pass parameters as inputs and outputs to the parsing function. These passed parameters are often specific to the data source and are documented by the data source owners. For example, the file system data source accepts the name being parsed (as a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure), using the <a href="/windows/desktop/shell/str-constants">STR_FILE_SYS_BIND_DATA</a> bind context parameter. <a href="/windows/desktop/shell/str-constants">STR_PARSE_PREFER_FOLDER_BROWSING</a> can be passed to indicate that URLs are parsed using the file system data source when possible. Construct a bind context object using <a href="/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> and populate the values using <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">IBindCtx::RegisterObjectParam</a>. See <b>Bind Context String Keys</b> for a complete list of these.
 
 
 
@@ -95,16 +95,16 @@ A pointer to a <b>ULONG</b> value that receives the number of characters of the 
 
 Type: <b>PIDLIST_RELATIVE*</b>
 
-When this method returns, contains a pointer to the PIDL for the object. The returned item identifier list specifies the item relative to the parsing folder. If the object associated with <i>pszDisplayName</i> is within the parsing folder, the returned item identifier list will contain only one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure. If the object is in a subfolder of the parsing folder, the returned item identifier list will contain multiple <b>SHITEMID</b> structures. If an error occurs, <b>NULL</b> is returned in this address.
+When this method returns, contains a pointer to the PIDL for the object. The returned item identifier list specifies the item relative to the parsing folder. If the object associated with <i>pszDisplayName</i> is within the parsing folder, the returned item identifier list will contain only one <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure. If the object is in a subfolder of the parsing folder, the returned item identifier list will contain multiple <b>SHITEMID</b> structures. If an error occurs, <b>NULL</b> is returned in this address.
                         
 
-When it is no longer needed, it is the responsibility of the caller to free this resource by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+When it is no longer needed, it is the responsibility of the caller to free this resource by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param pdwAttributes [in, out]
 
 Type: <b>ULONG*</b>
 
-The value used to query for file attributes. If not used, it should be set to <b>NULL</b>. To query for one or more attributes, initialize this parameter with the <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO</a> flags that represent the attributes of interest. On return, those attributes that are true <i>and</i> were requested will be set.
+The value used to query for file attributes. If not used, it should be set to <b>NULL</b>. To query for one or more attributes, initialize this parameter with the <a href="/windows/desktop/shell/sfgao">SFGAO</a> flags that represent the attributes of interest. On return, those attributes that are true <i>and</i> were requested will be set.
 
 ## -returns
 
@@ -145,21 +145,20 @@ if(dwAttribs & SFGAO_COMPRESSED)
 
 Since <i>pdwAttributes</i> is an in/out parameter, it should always be initialized. If you pass in an uninitialized value, some of the bits may be inadvertantly set. <b>IShellFolder::ParseDisplayName</b> will then query for the corresponding attributes, which may lead to undesirable delays or memory demands. If you do not wish to query for attributes, set <i>pdwAttributes</i> to <b>NULL</b> to avoid unpredictable behavior.
 
-This method is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iparsedisplayname-parsedisplayname">IParseDisplayName::ParseDisplayName</a> method.
+This method is similar to the <a href="/windows/desktop/api/oleidl/nf-oleidl-iparsedisplayname-parsedisplayname">IParseDisplayName::ParseDisplayName</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>

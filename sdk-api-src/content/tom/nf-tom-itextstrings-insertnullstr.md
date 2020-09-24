@@ -62,7 +62,7 @@ The string index.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -72,5 +72,4 @@ The index is relative to the top of the collection, so <i>iString</i> = 0 insert
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>

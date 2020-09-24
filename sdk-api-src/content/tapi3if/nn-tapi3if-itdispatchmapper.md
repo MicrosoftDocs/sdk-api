@@ -56,11 +56,11 @@ The
 The Dispatch Mapper will use the object's <b>IObjectSafety</b> interface to make sure the object is safe for scripting on the requested interface. If the object does not implement <b>IObjectSafety</b>, or if the object is not safe on this particular interface, the call will fail.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/dispatch-mapper">Dispatch Mapper</a> object must be created using COM <b>CoCreateInstance</b>.
+<a href="/windows/desktop/Tapi/dispatch-mapper">Dispatch Mapper</a> object must be created using COM <b>CoCreateInstance</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDispatchMapper</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDispatchMapper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDispatchMapper</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDispatchMapper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ITDispatchMapper</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdispatchmapper-querydispatchinterface">QueryDispatchInterface</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdispatchmapper-querydispatchinterface">QueryDispatchInterface</a>
 </td>
 <td align="left" width="63%">
 Returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.
@@ -86,9 +86,8 @@ Returns a dispatch pointer to a different interface on an object given its GUID 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/dispatch-mapper">Dispatch Mapper</a>
+<a href="/windows/desktop/Tapi/dispatch-mapper">Dispatch Mapper</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

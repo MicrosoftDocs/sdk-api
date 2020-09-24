@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Contains configuration information for an installed service. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a> function.
 
 ## -struct-fields
 
@@ -118,7 +118,7 @@ Service that shares a process with other services.
  
 
 If the value is <b>SERVICE_WIN32_OWN_PROCESS</b> or <b>SERVICE_WIN32_SHARE_PROCESS</b>, and the service is running in the context of the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>, the following type may also be specified.
+<a href="/windows/desktop/Services/localsystem-account">LocalSystem account</a>, the following type may also be specified.
 
 <table>
 <tr>
@@ -138,7 +138,7 @@ The service can interact with the desktop.
 
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/interactive-services">Interactive Services</a>.
+<a href="/windows/desktop/Services/interactive-services">Interactive Services</a>.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ A device driver started by the system loader. This value is valid only for drive
 </td>
 <td width="60%">
 A service started by the service control manager when a process calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a> function.
 
 </td>
 </tr>
@@ -324,21 +324,21 @@ This parameter can specify a localized string using the following format:
 
 @[<i>Path</i>\]<i>DLLName</i>,-<i>StrID</i>
 
-The string with identifier <i>StrID</i> is loaded from <i>DLLName</i>; the <i>Path</i> is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regloadmuistringa">RegLoadMUIString</a>.
+The string with identifier <i>StrID</i> is loaded from <i>DLLName</i>; the <i>Path</i> is optional. For more information, see <a href="/windows/desktop/api/winreg/nf-winreg-regloadmuistringa">RegLoadMUIString</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>Localized strings are not supported until Windows Vista.
 
 ## -remarks
 
 The configuration information for a service is initially specified when the service is created by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The information can be modified by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The information can be modified by calling the 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/querying-a-service-s-configuration">Querying a Service's Configuration</a>.
+<a href="/windows/desktop/Services/querying-a-service-s-configuration">Querying a Service's Configuration</a>.
 
 <div class="code"></div>
 
@@ -350,17 +350,16 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>

@@ -78,5 +78,4 @@ Identifier of the session that logged the event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
-
+<a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>acmFilterTagEnumCallback</b> function specifies a callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum">acmFilterTagEnum</a> function. The <b>acmFilterTagEnumCallback</b> function name is a placeholder for an application-defined function name.
+The <b>acmFilterTagEnumCallback</b> function specifies a callback function used with the <a href="/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum">acmFilterTagEnum</a> function. The <b>acmFilterTagEnumCallback</b> function name is a placeholder for an application-defined function name.
 
 ## -parameters
 
@@ -62,15 +62,15 @@ Handle to the ACM driver identifier.
 
 ### -param paftd
 
-Pointer to an [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure that contains the enumerated filter tag details.
+Pointer to an [ACMFILTERTAGDETAILS](./nf-msacm-acmfiltertagdetails.md) structure that contains the enumerated filter tag details.
 
 ### -param dwInstance
 
-Application-defined value specified in <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum">acmFilterTagEnum</a>.
+Application-defined value specified in <a href="/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum">acmFilterTagEnum</a>.
 
 ### -param fdwSupport
 
-Driver-support flags specific to the driver identifier [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure. This parameter can be a combination of the following values and identifies which operations the driver supports with the filter tag.
+Driver-support flags specific to the driver identifier [ACMDRIVERDETAILS](./nf-msacm-acmdriverdetails.md) structure. This parameter can be a combination of the following values and identifies which operations the driver supports with the filter tag.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ Driver-support flags specific to the driver identifier [ACMDRIVERDETAILS](/windo
 </tr>
 <tr>
 <td><b>ACMDRIVERDETAILS_SUPPORTF_HARDWARE</b></td>
-<td>Driver supports hardware input, output, or both with the specified filter tag through a waveform-audio device. An application should use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the <b>ACM_METRIC_HARDWARE_WAVE_INPUT</b> and <b>ACM_METRIC_HARDWARE_WAVE_OUTPUT</b> metric indices to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
+<td>Driver supports hardware input, output, or both with the specified filter tag through a waveform-audio device. An application should use the <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the <b>ACM_METRIC_HARDWARE_WAVE_INPUT</b> and <b>ACM_METRIC_HARDWARE_WAVE_OUTPUT</b> metric indices to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
 </tr>
 </table>
 
@@ -107,9 +107,9 @@ The callback function must return <b>TRUE</b> to continue enumeration or <b>FALS
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum">acmFilterTagEnum</a> function returns <b>MMSYSERR_NOERROR</b> (zero) if no filter tags are to be enumerated. Moreover, the callback function will not be called.
+The <a href="/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum">acmFilterTagEnum</a> function returns <b>MMSYSERR_NOERROR</b> (zero) if no filter tags are to be enumerated. Moreover, the callback function will not be called.
 
-The following functions should not be called from within the callback function: <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriveradd">acmDriverAdd</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverremove">acmDriverRemove</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a>.
+The following functions should not be called from within the callback function: <a href="/windows/desktop/api/msacm/nf-msacm-acmdriveradd">acmDriverAdd</a>, <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverremove">acmDriverRemove</a>, and <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a>.
 
 
 
@@ -120,9 +120,8 @@ The following functions should not be called from within the callback function: 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

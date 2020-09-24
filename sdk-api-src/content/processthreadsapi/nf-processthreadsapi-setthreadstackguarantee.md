@@ -76,23 +76,22 @@ This value cannot be larger than the reserved stack size.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If the function is successful, the application can handle possible EXCEPTION_STACK_OVERFLOW exceptions using <a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling">structured exception handling</a>. To resume execution after handling a stack overflow, you must perform certain recovery steps. If you are using the Microsoft C/C++ compiler, call the <b>_resetstkoflw</b> function. If you are using another compiler, see the documentation for the compiler for information on recovering from stack overflows.
+If the function is successful, the application can handle possible EXCEPTION_STACK_OVERFLOW exceptions using <a href="/windows/desktop/Debug/structured-exception-handling">structured exception handling</a>. To resume execution after handling a stack overflow, you must perform certain recovery steps. If you are using the Microsoft C/C++ compiler, call the <b>_resetstkoflw</b> function. If you are using another compiler, see the documentation for the compiler for information on recovering from stack overflows.
 
-To set the stack guarantee for a fiber, you must first call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a> function to execute the fiber. After you set the guarantee for this fiber, it is used by the fiber no matter which thread executes the fiber.
+To set the stack guarantee for a fiber, you must first call the <a href="/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a> function to execute the fiber. After you set the guarantee for this fiber, it is used by the fiber no matter which thread executes the fiber.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>
+<a href="/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
-
+<a href="/windows/desktop/ProcThread/multiple-threads">Threads</a>

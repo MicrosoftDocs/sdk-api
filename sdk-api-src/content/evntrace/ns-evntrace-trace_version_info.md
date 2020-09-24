@@ -68,5 +68,4 @@ Not used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>
-
+<a href="/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>

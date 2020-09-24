@@ -64,27 +64,26 @@ Handle to the device context whose background color is to be returned.
 
 ## -returns
 
-If the function succeeds, the return value is a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value for the current background color.
+If the function succeeds, the return value is a <a href="/windows/desktop/gdi/colorref">COLORREF</a> value for the current background color.
 
 If the function fails, the return value is CLR_INVALID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbkmode">GetBkMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getbkmode">GetBkMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>

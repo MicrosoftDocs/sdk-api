@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Get_Next_Res_Des</b> function obtains a handle to the next <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.
+The <b>CM_Get_Next_Res_Des</b> function obtains a handle to the next <a href="/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.
 
 ## -parameters
 
@@ -85,13 +85,12 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 To enumerate a logical configuration's resource descriptors, begin by calling <b>CM_Get_Next_Res_Des</b> with the logical configuration's handle as the argument for <i>rdResDes</i>. This obtains a handle to the first resource descriptor of the type specified by <i>ForResource</i>. Then for each subsequent call to <b>CM_Get_Next_Res_Des</b>, specify the most recently obtained descriptor handle as the argument for <i>rdResDes</i>. Repeat until the function returns CR_NO_MORE_RES_DES.
 
-To retrieve the information stored in a resource descriptor, call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a>.
+To retrieve the information stored in a resource descriptor, call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a>.
 
-To modify the information stored in a resource descriptor, call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_modify_res_des">CM_Modify_Res_Des</a>.
+To modify the information stored in a resource descriptor, call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_modify_res_des">CM_Modify_Res_Des</a>.
 
-Callers of <b>CM_Get_Next_Res_Des</b> must call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
+Callers of <b>CM_Get_Next_Res_Des</b> must call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex">CM_Get_Next_Res_Des_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex">CM_Get_Next_Res_Des_Ex</a>

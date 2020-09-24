@@ -105,7 +105,7 @@ The record was successfully read from the log.
 </dl>
 </td>
 <td width="60%">
-<i>lsnToRead</i> is outside of the current limits of the log. See <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-getloglimits">ILog::GetLogLimits</a>.
+<i>lsnToRead</i> is outside of the current limits of the log. See <a href="/windows/desktop/api/txlogpub/nf-txlogpub-ilog-getloglimits">ILog::GetLogLimits</a>.
 
 </td>
 </tr>
@@ -124,9 +124,8 @@ The record was successfully read from the log.
 
 ## -remarks
 
-Although records appended to the log using <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-appendrecord">ILog::AppendRecord</a> may be concatenated from multiple BLOBs, <b>ReadRecordPrefix</b> returns the record as a single opaque blob of data. <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> provides no method to extract individual BLOBs from the record. It is the responsibility of the caller to parse the data in records returned by <b>ReadRecordPrefix</b>.
+Although records appended to the log using <a href="/windows/desktop/api/txlogpub/nf-txlogpub-ilog-appendrecord">ILog::AppendRecord</a> may be concatenated from multiple BLOBs, <b>ReadRecordPrefix</b> returns the record as a single opaque blob of data. <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> provides no method to extract individual BLOBs from the record. It is the responsibility of the caller to parse the data in records returned by <b>ReadRecordPrefix</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
-
+<a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>

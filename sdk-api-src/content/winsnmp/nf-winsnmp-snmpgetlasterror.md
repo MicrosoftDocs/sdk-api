@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpGetLastError</b> function returns the calling application's last-error code value. The value indicates the reason why the last function call executed by the WinSNMP application failed.
@@ -78,14 +78,14 @@ If the <i>session</i> parameter is a valid WinSNMP session handle, the
 <b>SnmpGetLastError</b> function returns the last WinSNMP error that occurred for the indicated session.
 
 If the <i>session</i> parameter is <b>NULL</b> — for example, if the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function fails, 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function fails, 
 <b>SnmpGetLastError</b> returns the last WinSNMP error that occurred.
 
 ## -remarks
 
 A WinSNMP application must call 
 <b>SnmpGetLastError</b> immediately after a function fails, to retrieve the last-error code. If another function fails, it overwrites the last-error code set by the most recently failed function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-error-codes">WinSNMP Error Codes</a>.
+<a href="/windows/desktop/SNMP/winsnmp-error-codes">WinSNMP Error Codes</a>.
 
 Although the <i>session</i> parameter accommodates both multithread and single-thread Windows operating environments, the potential still exists for the last-error code from one thread to overwrite the last-error code from another thread.
 
@@ -94,37 +94,36 @@ Note that
 
 <ul>
 <li>After the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function fails</li>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function fails</li>
 <li>Before the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a> function creates any WinSNMP sessions for the instance of the application</li>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a> function creates any WinSNMP sessions for the instance of the application</li>
 <li>After the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpclose">SnmpClose</a> function closes all WinSNMP sessions for the instance of the application</li>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpclose">SnmpClose</a> function closes all WinSNMP sessions for the instance of the application</li>
 <li>After the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a> function disconnects the WinSNMP application from the Microsoft WinSNMP implementation</li>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a> function disconnects the WinSNMP application from the Microsoft WinSNMP implementation</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpclose">SnmpClose</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpclose">SnmpClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
+<a href="/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
-
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>

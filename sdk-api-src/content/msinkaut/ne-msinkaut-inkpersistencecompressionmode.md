@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines values for the compression modes that are used to save the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object to a serialized format.
+Defines values for the compression modes that are used to save the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object to a serialized format.
 
 ## -enum-fields
 
@@ -68,9 +68,8 @@ No compression. Used when save-time is more important than the amount of storage
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method [InkDisp Class]</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method [InkDisp Class]</a>

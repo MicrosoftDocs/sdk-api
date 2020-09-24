@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an  attempt to authorize a connection. The authorization plug-in should not implement this interface because it is already implemented. A pointer to this interface is passed to the authorization plug-in when RD Gateway calls the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeconnection">AuthorizeConnection</a> method.
+Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an  attempt to authorize a connection. The authorization plug-in should not implement this interface because it is already implemented. A pointer to this interface is passed to the authorization plug-in when RD Gateway calls the <a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeconnection">AuthorizeConnection</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGAuthorizeConnectionSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGAuthorizeConnectionSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGAuthorizeConnectionSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGAuthorizeConnectionSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITSGAuthorizeConnectionSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgauthorizeconnectionsink-onconnectionauthorized">OnConnectionAuthorized</a>
+<a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgauthorizeconnectionsink-onconnectionauthorized">OnConnectionAuthorized</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Gateway about the result of an  attempt to authorize a connection.
@@ -77,4 +77,3 @@ Notifies RD Gateway about the result of an  attempt to authorize a connection.
 </td>
 </tr>
 </table>
-

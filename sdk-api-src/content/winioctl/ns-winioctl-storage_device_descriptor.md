@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Used in conjunction with the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
+   <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
    to retrieve the storage device descriptor data for a device.
 
 ## -struct-fields
@@ -114,7 +114,7 @@ Specifies the byte offset from the beginning of the structure to a null-terminat
 ### -field BusType
 
 Specifies an enumerator value of type 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type">STORAGE_BUS_TYPE</a> that indicates the type of bus to 
+      <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type">STORAGE_BUS_TYPE</a> that indicates the type of bus to 
       which the device is connected. This should be used to interpret the raw device properties at the end of this 
       structure (if any).
 
@@ -130,33 +130,32 @@ Contains an array of length one that serves as a place holder for the first byte
 ## -remarks
 
 An application can determine the required buffer size by issuing a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
-    passing a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a> structure 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
+    passing a <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a> structure 
     for the output buffer, and then using the returned <b>Size</b> member of the 
     <b>STORAGE_DESCRIPTOR_HEADER</b> structure to allocate 
     a buffer of the proper size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
+<a href="/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>

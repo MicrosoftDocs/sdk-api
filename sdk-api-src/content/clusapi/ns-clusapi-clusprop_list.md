@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Accesses the beginning of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
+Accesses the beginning of a  <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
 
 ## -struct-fields
 
@@ -66,5 +66,4 @@ Structure describing the name of the first property in the list.
 
 ## -remarks
 
-For information about property lists, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">Property Lists</a>.
-
+For information about property lists, see  <a href="/previous-versions/windows/desktop/mscs/property-lists">Property Lists</a>.

@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method returns the Help context ID for the error. To find the Help file to which it applies, use <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-ierrorinfo-gethelpfile">IErrorInfo::GetHelpFile</a>.
+This method returns the Help context ID for the error. To find the Help file to which it applies, use <a href="/windows/desktop/api/oaidl/nf-oaidl-ierrorinfo-gethelpfile">IErrorInfo::GetHelpFile</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>

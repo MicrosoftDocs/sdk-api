@@ -77,9 +77,8 @@ When you get the path property for a quota, the path is the local path. You use 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmpathmapper">FsrmPathMapper</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrmpathmapper">FsrmPathMapper</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmpathmapper">IFsrmPathMapper</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmpathmapper">IFsrmPathMapper</a>

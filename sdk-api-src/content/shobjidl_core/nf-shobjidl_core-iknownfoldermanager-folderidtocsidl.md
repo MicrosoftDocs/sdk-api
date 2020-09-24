@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the legacy <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value that is the equivalent of a given <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>.
+Gets the legacy <a href="/windows/desktop/shell/csidl">CSIDL</a> value that is the equivalent of a given <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Gets the legacy <a href="https://docs.microsoft.com/windows/desktop/shell/csidl"
 
 Type: <b>REFKNOWNFOLDERID</b>
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>.
+Reference to the <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>.
 
 ### -param pnCsidl [out]
 
 Type: <b>int*</b>
 
-When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value. This pointer is passed uninitialized.
+When this method returns, contains a pointer to the <a href="/windows/desktop/shell/csidl">CSIDL</a> value. This pointer is passed uninitialized.
 
 ## -returns
 
@@ -84,7 +84,7 @@ Returns S_OK if successful, or an error value otherwise, including the following
 </dl>
 </td>
 <td width="60%">
-Among other things, this value can indicate that the <i>rfid</i> parameter references a <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that is not present on the system. Not all <b>KNOWNFOLDERID</b> values are present on all systems. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-getfolderids">IKnownFolderManager::GetFolderIds</a> to retrieve the set of <b>KNOWNFOLDERID</b> values for the current system.
+Among other things, this value can indicate that the <i>rfid</i> parameter references a <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that is not present on the system. Not all <b>KNOWNFOLDERID</b> values are present on all systems. Use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-getfolderids">IKnownFolderManager::GetFolderIds</a> to retrieve the set of <b>KNOWNFOLDERID</b> values for the current system.
 
 </td>
 </tr>
@@ -96,13 +96,12 @@ To call this method, the caller must have at least User privileges.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-folderidfromcsidl">IKnownFolderManager::FolderIdFromCsidl</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-folderidfromcsidl">IKnownFolderManager::FolderIdFromCsidl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

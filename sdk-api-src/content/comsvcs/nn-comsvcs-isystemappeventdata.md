@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Notifies the subscriber when a COM+ application instance is created or reconfigured. The application event is published to the subscriber by using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber when a COM+ application instance is created or reconfigured. The application event is published to the subscriber by using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISystemAppEventData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISystemAppEventData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISystemAppEventData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISystemAppEventData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISystemAppEventData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isystemappeventdata-ondatachanged">OnDataChanged</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isystemappeventdata-ondatachanged">OnDataChanged</a>
 </td>
 <td align="left" width="63%">
 Generated when the configuration of a COM+ application instance is changed.
@@ -78,7 +78,7 @@ Generated when the configuration of a COM+ application instance is changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isystemappeventdata-startup">Startup</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isystemappeventdata-startup">Startup</a>
 </td>
 <td align="left" width="63%">
 Invoked when a COM+ application instance is created.
@@ -89,9 +89,8 @@ Invoked when a COM+ application instance is created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
-
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

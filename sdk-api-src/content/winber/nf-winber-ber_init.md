@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>ber_init</b> function allocates a new 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure containing the data taken from the supplied 
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure containing the data taken from the supplied 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 ## -parameters
@@ -62,28 +62,27 @@ Pointer to the source <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval
 
 ## -returns
 
-If the function succeeds, the return value is a pointer to the newly allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+If the function succeeds, the return value is a pointer to the newly allocated <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 If the function fails, it returns a <b>NULL</b> pointer.
 
 ## -remarks
 
 Call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a> to free a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure allocated with this function.
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a> to free a <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure allocated with this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a>
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a>
 
 
 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
-

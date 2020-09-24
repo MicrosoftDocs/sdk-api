@@ -56,7 +56,7 @@ api_name:
 
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
+Handle to the COM port database that was returned by <a href="/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 ## -returns
 
@@ -97,9 +97,8 @@ To open the COM port database, call <b>ComDBOpen</b>.
 
 <b>ComDBOpen</b> is called from user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Opening and Closing the COM Port Database</a>.
+For more information, see <a href="/previous-versions/ff546481(v=vs.85)">Opening and Closing the COM Port Database</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>
-
+<a href="/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>

@@ -135,7 +135,7 @@ Could not find any filter that supports full-screen mode.
 
 ## -remarks
 
-Depending on the video renderer, the switch to full-screen mode may not be visible until the application runs or pauses the graph. In full-screen mode, if the user switches away from the application (for example, using ALT + TAB), the Filter Graph Manager sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-fullscreen-lost">EC_FULLSCREEN_LOST</a> event.
+Depending on the video renderer, the switch to full-screen mode may not be visible until the application runs or pauses the graph. In full-screen mode, if the user switches away from the application (for example, using ALT + TAB), the Filter Graph Manager sends an <a href="/windows/desktop/DirectShow/ec-fullscreen-lost">EC_FULLSCREEN_LOST</a> event.
 
 The following remarks describe how the Filter Graph Manager implements full-screen mode. Application developers can probably ignore this information, but it may be useful if you are writing a custom video renderer.
 
@@ -144,12 +144,12 @@ When an application switches to full-screen mode, the Filter Graph Manager searc
 <ol>
 <li>Any video renderer in the filter graph that natively supports full-screen mode.</li>
 <li>Any video renderer in the filter graph that can stretch the video to full-screen without a significant performance cost.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/full-screen-renderer-filter">Full Screen Renderer</a> filter.</li>
+<li>The <a href="/windows/desktop/DirectShow/full-screen-renderer-filter">Full Screen Renderer</a> filter.</li>
 <li>Any video renderer in the filter graph that supports <b>IVideoWindow</b>.</li>
 </ol>
-For the first option, the Filter Graph Manager calls <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_fullscreenmode">IVideoWindow::get_FullScreenMode</a> on every video renderer in the graph. Most renderers return E_NOTIMPL, indicating the filter does not natively support full-screen mode. If any renderer returns a value not equal to E_NOTIMPL, the Filter Graph Manager uses that one.
+For the first option, the Filter Graph Manager calls <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_fullscreenmode">IVideoWindow::get_FullScreenMode</a> on every video renderer in the graph. Most renderers return E_NOTIMPL, indicating the filter does not natively support full-screen mode. If any renderer returns a value not equal to E_NOTIMPL, the Filter Graph Manager uses that one.
 
-For the second option, the Filter Graph Manager calls <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-getmaxidealimagesize">IVideoWindow::GetMaxIdealImageSize</a> and <b>GetMinIdealImageSize</b> on every video renderer in the graph. If the size of the display falls within the filter's reported range, it indicates that the filter can stretch the video without a significant performance cost.
+For the second option, the Filter Graph Manager calls <a href="/windows/desktop/api/control/nf-control-ivideowindow-getmaxidealimagesize">IVideoWindow::GetMaxIdealImageSize</a> and <b>GetMinIdealImageSize</b> on every video renderer in the graph. If the size of the display falls within the filter's reported range, it indicates that the filter can stretch the video without a significant performance cost.
 
 <div class="alert"><b>Note</b>  If the graph is stopped, the Filter Graph Manager pauses each renderer before calling these methods. This gives the renderer an opportunity to initialize any resources it needs, because many renderers cannot determine these values while they are stopped.</div>
 <div> </div>
@@ -157,13 +157,12 @@ Except on older hardware, the second option will generally succeed. The third op
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_fullscreenmode">IVideoWindow::get_FullScreenMode</a>
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_fullscreenmode">IVideoWindow::get_FullScreenMode</a>

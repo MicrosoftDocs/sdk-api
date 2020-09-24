@@ -119,5 +119,4 @@ A peer identity that matches a specified name cannot be found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetfriendlyname">PeerIdentityGetFriendlyName</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peeridentitygetfriendlyname">PeerIdentityGetFriendlyName</a>

@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>RasGetEntryDialParams</b> function retrieves the connection information saved by the last successful call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a> function for a specified phone-book entry.
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a> function for a specified phone-book entry.
 
 ## -parameters
 
@@ -73,25 +73,25 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 ### -param arg2 [in, out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure. 
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure. 
 
 
 
 
 On input, the <b>dwSize</b> member specifies the size of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure, and the <b>szEntryName</b> member specifies a valid phone-book entry.
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure, and the <b>szEntryName</b> member specifies a valid phone-book entry.
 
 On output, the structure receives the connection parameters associated with the specified phone-book entry.
 
 Note that the <b>szPhoneNumber</b> member of the structure does not receive the phone number associated with the phone-book entry. To get the phone number associated with a phone-book entry, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a> function. If <b>szPhoneNumber</b> is an empty string in the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>, 
+<a href="/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a> function. If <b>szPhoneNumber</b> is an empty string in the 
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure passed to 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>, 
 <b>RasDial</b> uses the phone number stored in the phone-book entry.
 
-The <b>szPassword</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure does not return the actual password. Instead,  <b>szPassword</b>  contains a handle to the saved password. Substitute this handle for the saved password in subsequent calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>. When presented with this handle, 
+The <b>szPassword</b> member of the <a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure does not return the actual password. Instead,  <b>szPassword</b>  contains a handle to the saved password. Substitute this handle for the saved password in subsequent calls to 
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a> and 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>. When presented with this handle, 
 <b>RasDial</b>  retrieves and uses the saved password. The value of this handle may change in future versions of the operating system; do not develop code that depends on the contents or format of this value.
 
 <b>Windows NT and Windows Me/98/95:  </b>Secure password feature not supported.
@@ -104,13 +104,13 @@ Pointer to a flag that indicates whether the function retrieved the password ass
 
 
 <b>Windows NT and Windows Me/98/95:  </b>The function sets this flag to <b>TRUE</b> if the user's password was returned in the <b>szPassword</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure pointed to by <i>lprasdialparams</i>.
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure pointed to by <i>lprasdialparams</i>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -154,34 +154,33 @@ The phone-book entry does not exist.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
+<a href="/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-raseditphonebookentrya">RasEditPhonebookEntry</a>
+<a href="/windows/desktop/api/ras/nf-ras-raseditphonebookentrya">RasEditPhonebookEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The ras.h header defines RasGetEntryDialParams as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

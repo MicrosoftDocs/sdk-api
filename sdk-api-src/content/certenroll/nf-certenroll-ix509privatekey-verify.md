@@ -56,7 +56,7 @@ The <b>Verify</b> method verifies that a private key exists and can be used by t
 
 ### -param VerifyType [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509privatekeyverify">X509PrivateKeyVerify</a> enumeration value that specifies execution options for the method. This can be one of the following values.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509privatekeyverify">X509PrivateKeyVerify</a> enumeration value that specifies execution options for the method. This can be one of the following values.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ The method allows a user interface to be displayed.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. Also, this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey">CryptGetUserKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>CryptoAPI functions and can return errors identified in that documentation. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. Also, this method calls the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey">CryptGetUserKey</a> and <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>CryptoAPI functions and can return errors identified in that documentation. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -150,5 +150,4 @@ If <b>VerifySilent</b> or <b>VerifySmartCardSilent</b> values are set and the cr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

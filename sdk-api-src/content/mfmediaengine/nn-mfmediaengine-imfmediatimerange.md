@@ -54,7 +54,7 @@ Represents a list of time ranges, where each range is defined by a start and end
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaTimeRange</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaTimeRange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaTimeRange</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaTimeRange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaTimeRange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-addrange">AddRange</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-addrange">AddRange</a>
 </td>
 <td align="left" width="63%">
 Adds a new range to the list of time ranges.
@@ -78,7 +78,7 @@ Adds a new range to the list of time ranges.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-clear">Clear</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the list of time ranges.
@@ -87,7 +87,7 @@ Clears the list of time ranges.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-containstime">ContainsTime</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-containstime">ContainsTime</a>
 </td>
 <td align="left" width="63%">
 Queries whether a specified time falls within any of the time ranges.
@@ -96,7 +96,7 @@ Queries whether a specified time falls within any of the time ranges.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-getend">GetEnd</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-getend">GetEnd</a>
 </td>
 <td align="left" width="63%">
 Gets the end time for a specified time range.
@@ -105,7 +105,7 @@ Gets the end time for a specified time range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-getlength">GetLength</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the number of time ranges contained in the object.
@@ -114,7 +114,7 @@ Gets the number of time ranges contained in the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-getstart">GetStart</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-getstart">GetStart</a>
 </td>
 <td align="left" width="63%">
 Gets the start time for a specified time range.
@@ -127,9 +127,8 @@ Gets the start time for a specified time range.
 
 The <b>IMFMediaTimeRange</b> interface corresponds to the <b>TimeRanges</b> interface in HTML5.
 
-Several <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a> methods return <b>IMFMediaTimeRange</b> pointers.
+Several <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a> methods return <b>IMFMediaTimeRange</b> pointers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

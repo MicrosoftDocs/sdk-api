@@ -81,5 +81,4 @@ Bottom coordinate of the rectangle that bounds the metafile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-wmfplaceablefileheader">WmfPlaceableFileHeader</a>
-
+<a href="/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-wmfplaceablefileheader">WmfPlaceableFileHeader</a>

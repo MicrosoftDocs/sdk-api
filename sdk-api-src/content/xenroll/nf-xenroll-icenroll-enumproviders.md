@@ -56,8 +56,8 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>enumProviders</b> method retrieves the names of the available <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+The <b>enumProviders</b> method retrieves the names of the available <a href="/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) specified by the 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 ## -parameters
 
@@ -67,17 +67,17 @@ Specifies the ordinal position of the CSP whose name will be retrieved. Specify 
 
 ### -param dwFlags [in]
 
-Specifies flags that are passed through to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function. This parameter is not currently used; specify zero.
+Specifies flags that are passed through to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function. This parameter is not currently used; specify zero.
 
 ### -param pbstrProvName [out]
 
-A pointer to a <b>BSTR</b> variable that receives the name of a CSP with the specified property type. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> variable that receives the name of a CSP with the specified property type. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
 <h3>C++</h3>
  The return value is an <b>HRESULT</b>. A value of S_OK indicates success. The value ERROR_NO_MORE_ITEMS is returned when there are no more CSPs with the property type indicated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property.
 
 <h3>VB</h3>
  The return value is a <b>String</b> variable that contains the name of a CSP. An exception is raised if an error is encountered or when there are no more items.
@@ -85,10 +85,10 @@ A pointer to a <b>BSTR</b> variable that receives the name of a CSP with the spe
 ## -remarks
 
 If the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property value has not been set, the default value (usually PROV_RSA_FULL) of <b>ProviderType</b> as set in the registry, is used.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property value has not been set, the default value (usually PROV_RSA_FULL) of <b>ProviderType</b> as set in the registry, is used.
 
 The <b>enumProviders</b> method  calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function.
 
 
 #### Examples
@@ -147,25 +147,24 @@ if ( bstrProvName )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a>
-
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a>

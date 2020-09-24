@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 Contains the information returned by a call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a> 
+    <a href="/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a> 
     function.
 
 ## -struct-fields
@@ -65,11 +65,11 @@ Contains the information returned by a call to the
 
 Receives the completion key value associated with the file handle whose I/O operation has completed. A 
       completion key is a per-file key that is specified in a call to 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>.
+      <a href="/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>.
 
 ### -field lpOverlapped
 
-Receives the address of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure 
+Receives the address of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure 
       that was specified when the completed I/O operation was started.
 
 ### -field Internal
@@ -82,9 +82,8 @@ Receives the number of bytes transferred during the I/O operation that has compl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a>
+<a href="/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>

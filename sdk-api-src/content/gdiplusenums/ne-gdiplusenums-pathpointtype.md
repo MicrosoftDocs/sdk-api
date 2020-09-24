@@ -46,12 +46,9 @@ api_name:
  - PathPointType
 ---
 
-# PathPointType enumeration
-
-
 ## -description
 
-The <b>PathPointType</b> enumeration indicates point types and flags for the data points in a path. Bits 0 through 2 indicate the type of a point, and bits 3 through 7 hold a set of flags that specify attributes of a point. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pathdata">PathData</a> classes.
+The <b>PathPointType</b> enumeration indicates point types and flags for the data points in a path. Bits 0 through 2 indicate the type of a point, and bits 3 through 7 hold a set of flags that specify attributes of a point. This enumeration is used by the <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>, <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>, and <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pathdata">PathData</a> classes.
 
 ## -enum-fields
 
@@ -73,6 +70,8 @@ Masks all bits except for the three low-order bits, which indicate the point typ
 
 ### -field PathPointTypeDashMode
 
+Not used.
+
 ### -field PathPointTypePathMarker
 
 Specifies that the point is a marker.
@@ -85,24 +84,18 @@ Specifies that the point is the last point in a closed subpath (figure).
 
 Indicates that the point is an endpoint or control point of a cubic Bézier spline. 
 
-
-#### - PathPointTypePathDashMode
-
-Not used.
-
 ## -remarks
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object has an array of points and an array of types. Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points.
+A <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object has an array of points and an array of types. Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pathdata">PathData</a>
-
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pathdata">PathData</a>

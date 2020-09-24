@@ -99,9 +99,8 @@ Returns S_OK if successful; otherwise, an error value from the following list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

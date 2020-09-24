@@ -56,47 +56,46 @@ The <b>IADsCollection::Add</b> method adds a named item to the collection.
 
 ### -param bstrName [in]
 
-The <b>BSTR</b> value that specifies the item name.  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-getobject">IADsCollection::GetObject</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a> reference the item by this name.
+The <b>BSTR</b> value that specifies the item name.  <a href="/windows/desktop/api/iads/nf-iads-iadscollection-getobject">IADsCollection::GetObject</a> and  <a href="/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a> reference the item by this name.
 
 ### -param vItem [in]
 
-Item value. When the item is an object, this parameter holds the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer on the object.
+Item value. When the item is an object, this parameter holds the  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer on the object.
 
 ## -returns
 
 This method supports the standard return values, as well as the following.
       
 
-For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
 Collections for a directory service can also consist of a set of immutable objects.
 
-This method is not supported in any of the  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI system providers</a>.
+This method is not supported in any of the  <a href="/windows/desktop/ADSI/adsi-system-providers">ADSI system providers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI System
+<a href="/windows/desktop/ADSI/adsi-system-providers">ADSI System
   Providers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-getobject">IADsCollection::GetObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscollection-getobject">IADsCollection::GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

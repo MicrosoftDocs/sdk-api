@@ -55,11 +55,11 @@ Enables other components in the protected media path (PMP) to use the input prot
 
 An ITA translates policy from the content's native format into a common format that is used by other PMP components. It also provides a decrypter, if one is needed to decrypt the stream.
 
-The topology contains one ITA instance for every protected stream in the media source. The ITA is obtained from the media source by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftrustedinput-getinputtrustauthority">IMFTrustedInput::GetInputTrustAuthority</a>.
+The topology contains one ITA instance for every protected stream in the media source. The ITA is obtained from the media source by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imftrustedinput-getinputtrustauthority">IMFTrustedInput::GetInputTrustAuthority</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFInputTrustAuthority</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFInputTrustAuthority</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFInputTrustAuthority</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFInputTrustAuthority</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMFInputTrustAuthority</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-bindaccess">BindAccess</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-bindaccess">BindAccess</a>
 </td>
 <td align="left" width="63%">
 Notifies the ITA that a requested action is about to be performed.
@@ -83,7 +83,7 @@ Notifies the ITA that a requested action is about to be performed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-getdecrypter">GetDecrypter</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-getdecrypter">GetDecrypter</a>
 </td>
 <td align="left" width="63%">
 Retrieves a decrypter transform.
@@ -92,7 +92,7 @@ Retrieves a decrypter transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-getpolicy">GetPolicy</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-getpolicy">GetPolicy</a>
 </td>
 <td align="left" width="63%">
 Retrieves the policy that defines which output protection systems are allowed for this stream, and the configuration data for each protection system.
@@ -101,7 +101,7 @@ Retrieves the policy that defines which output protection systems are allowed fo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-requestaccess">RequestAccess</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-requestaccess">RequestAccess</a>
 </td>
 <td align="left" width="63%">
 Requests permission to perform a specified action on the stream.
@@ -110,7 +110,7 @@ Requests permission to perform a specified action on the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-reset">Reset</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the ITA to its initial state.
@@ -119,7 +119,7 @@ Resets the ITA to its initial state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-updateaccess">UpdateAccess</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-updateaccess">UpdateAccess</a>
 </td>
 <td align="left" width="63%">
 Notifies the ITA when the number of output trust authorities (OTAs) that will perform a specified action has changed.
@@ -130,5 +130,4 @@ Notifies the ITA when the number of output trust authorities (OTAs) that will pe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

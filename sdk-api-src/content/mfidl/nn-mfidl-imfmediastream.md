@@ -55,7 +55,7 @@ Represents one stream in a media source.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>. <b>IMFMediaStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaStream</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>. <b>IMFMediaStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-getmediasource">GetMediaSource</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-getmediasource">GetMediaSource</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the media source that created this media stream.
@@ -79,7 +79,7 @@ Returns a pointer to the media source that created this media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-getstreamdescriptor">GetStreamDescriptor</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-getstreamdescriptor">GetStreamDescriptor</a>
 </td>
 <td align="left" width="63%">
 Returns the stream descriptor for this media stream.
@@ -88,16 +88,16 @@ Returns the stream descriptor for this media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/remoterequestsample">RemoteRequestSample</a>
+<a href="/windows/desktop/medfound/remoterequestsample">RemoteRequestSample</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample">RequestSample</a>. (Not used by applications.)
+Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample">RequestSample</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample">RequestSample</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample">RequestSample</a>
 </td>
 <td align="left" width="63%">
 Requests a sample from the media source.
@@ -108,17 +108,16 @@ Requests a sample from the media source.
 
 ## -remarks
 
-Streams are created when a media source is started. For each stream, the media source sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/menewstream">MENewStream</a> event with a pointer to the stream's <b>IMFMediaStream</b> interface.
+Streams are created when a media source is started. For each stream, the media source sends an <a href="/windows/desktop/medfound/menewstream">MENewStream</a> event with a pointer to the stream's <b>IMFMediaStream</b> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
-
+<a href="/windows/desktop/medfound/media-sources">Media Sources</a>

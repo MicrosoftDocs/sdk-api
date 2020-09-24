@@ -57,39 +57,39 @@ Determines whether a surface format is available as a specified resource type an
 
 ### -param Adapter [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Ordinal number denoting the display adapter to query. <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dadapter-default">D3DADAPTER_DEFAULT</a> is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system.
+Ordinal number denoting the display adapter to query. <a href="/windows/desktop/direct3d9/d3dadapter-default">D3DADAPTER_DEFAULT</a> is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system.
 
 ### -param DeviceType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a></b>
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a> enumerated type, identifying the device type.
+Member of the <a href="/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a> enumerated type, identifying the device type.
 
 ### -param AdapterFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, identifying the format of the display mode into which the adapter will be placed.
+Member of the <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, identifying the format of the display mode into which the adapter will be placed.
 
 ### -param Usage [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Requested usage options for the surface. Usage options are any combination of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage">D3DUSAGE</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage-query">D3DUSAGE_QUERY</a> constants (only a subset of the D3DUSAGE constants are valid for <b>CheckDeviceFormat</b>; see the table on the D3DUSAGE page).
+Requested usage options for the surface. Usage options are any combination of <a href="/windows/desktop/direct3d9/d3dusage">D3DUSAGE</a> and <a href="/windows/desktop/direct3d9/d3dusage-query">D3DUSAGE_QUERY</a> constants (only a subset of the D3DUSAGE constants are valid for <b>CheckDeviceFormat</b>; see the table on the D3DUSAGE page).
 
 ### -param RType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a></b>
 
-Resource type requested for use with the queried format. Member of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a>.
+Resource type requested for use with the queried format. Member of <a href="/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a>.
 
 ### -param CheckFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
-Format of the surfaces which may be used, as defined by Usage. Member of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>.
+Format of the surfaces which may be used, as defined by Usage. Member of <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>.
 
 ## -returns
 
@@ -126,7 +126,7 @@ BOOL IsDepthFormatExisting( D3DFORMAT DepthFormat, D3DFORMAT AdapterFormat )
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/selecting-a-device">Selecting a Device (Direct3D 9)</a> for more detail on the enumeration process.
+See <a href="/windows/desktop/direct3d9/selecting-a-device">Selecting a Device (Direct3D 9)</a> for more detail on the enumeration process.
 
 </li>
 <li>Can this texture be rendered in a particular format - Given the current display mode, this example shows how to verify that the texture format is compatible with the specific back-buffer format:
@@ -151,12 +151,11 @@ BOOL IsTextureFormatOk( D3DFORMAT TextureFormat, D3DFORMAT AdapterFormat )
 
 
 </li>
-<li>Alpha blending in a pixel shader - Set Usage to <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage">D3DUSAGE_QUERY_POSTPIXELSHADER_BLENDING</a>. Expect this to fail for all floating-point render targets.</li>
-<li>Autogeneration of mipmaps - Set Usage to <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage">D3DUSAGE_AUTOGENMIPMAP</a>. If the mipmap automatic generation fails, the application will get a non-mipmapped texture. Calling this method is considered a hint, so this method can return D3DOK_NOAUTOGEN (a valid success code) if the only thing that fails is the mipmap generation. For more information about mipmap generation, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/automatic-generation-of-mipmaps">Automatic Generation of Mipmaps (Direct3D 9)</a>.</li>
+<li>Alpha blending in a pixel shader - Set Usage to <a href="/windows/desktop/direct3d9/d3dusage">D3DUSAGE_QUERY_POSTPIXELSHADER_BLENDING</a>. Expect this to fail for all floating-point render targets.</li>
+<li>Autogeneration of mipmaps - Set Usage to <a href="/windows/desktop/direct3d9/d3dusage">D3DUSAGE_AUTOGENMIPMAP</a>. If the mipmap automatic generation fails, the application will get a non-mipmapped texture. Calling this method is considered a hint, so this method can return D3DOK_NOAUTOGEN (a valid success code) if the only thing that fails is the mipmap generation. For more information about mipmap generation, see <a href="/windows/desktop/direct3d9/automatic-generation-of-mipmaps">Automatic Generation of Mipmaps (Direct3D 9)</a>.</li>
 </ul>
-When migrating code from Direct3D 9 to Direct3D 10, the Direct3D 10 equivalent to CheckDeviceFormat is <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkformatsupport">CheckFormatSupport</a>.
+When migrating code from Direct3D 9 to Direct3D 10, the Direct3D 10 equivalent to CheckDeviceFormat is <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkformatsupport">CheckFormatSupport</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>

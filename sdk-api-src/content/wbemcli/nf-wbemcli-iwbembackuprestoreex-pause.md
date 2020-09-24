@@ -60,7 +60,7 @@ This method returns an <b>HRESULT</b> that indicates the status of a method call
 
 ## -remarks
 
-When implementing the <b>Pause</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestoreex-resume">Resume</a> method should be called as soon as possible. If <b>Resume</b> is not called within fifteen (15) minutes, it is called automatically for you. Calling <b>Pause</b> two times on the same object without calling <b>Resume</b> first will fail. Calling <b>Pause</b> on two objects at the same time may cause the second object to lock up until <b>Resume</b> is called on the first object.
+When implementing the <b>Pause</b> method, the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestoreex-resume">Resume</a> method should be called as soon as possible. If <b>Resume</b> is not called within fifteen (15) minutes, it is called automatically for you. Calling <b>Pause</b> two times on the same object without calling <b>Resume</b> first will fail. Calling <b>Pause</b> on two objects at the same time may cause the second object to lock up until <b>Resume</b> is called on the first object.
 
 <div class="alert"><b>Note</b>  To implement the <b>Pause</b> method, the client user must have <b>SE_BACKUP_NAME</b> prior to calling the method.</div>
 <div> </div>
@@ -77,5 +77,4 @@ pInt->Pause();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbembackuprestoreex">IWbemBackupRestoreEx</a>
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbembackuprestoreex">IWbemBackupRestoreEx</a>

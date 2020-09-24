@@ -51,14 +51,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for 
    performing query and configuration operations on a controller.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsController</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsController</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsController</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsController</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IVdsController</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-flushcache">FlushCache</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-flushcache">FlushCache</a>
 </td>
 <td align="left" width="63%">
 Flushes the cache of the controller to a persistent store.
@@ -82,7 +82,7 @@ Flushes the cache of the controller to a persistent store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getportproperties">GetPortProperties</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getportproperties">GetPortProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of the specified controller port.
@@ -91,7 +91,7 @@ Returns the properties of the specified controller port.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getproperties">GetProperties</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of the controller.
@@ -100,7 +100,7 @@ Returns the properties of the controller.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getsubsystem">GetSubSystem</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getsubsystem">GetSubSystem</a>
 </td>
 <td align="left" width="63%">
 Returns the subsystem to which the controller belongs.
@@ -109,7 +109,7 @@ Returns the subsystem to which the controller belongs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-invalidatecache">InvalidateCache</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-invalidatecache">InvalidateCache</a>
 </td>
 <td align="left" width="63%">
 Invalidates the cache of the controller. All data in the cache is lost.
@@ -118,7 +118,7 @@ Invalidates the cache of the controller. All data in the cache is lost.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-queryassociatedluns">QueryAssociatedLuns</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-queryassociatedluns">QueryAssociatedLuns</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of the LUNs with which the controller is associated—in other words, the LUNs for which the controller is active.
@@ -128,7 +128,7 @@ Returns an enumeration of the LUNs with which the controller is associated—in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-reset">Reset</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Reinitializes the controller and invalidates its cache.
@@ -137,7 +137,7 @@ Reinitializes the controller and invalidates its cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-setstatus">SetStatus</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-setstatus">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the status of the controller to the specified value.
@@ -148,25 +148,24 @@ Sets the status of the controller to the specified value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/controller-object">Controller Object</a>
+<a href="/windows/desktop/VDS/controller-object">Controller Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontrollercontrollerport">IVdsControllerControllerPort</a>
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontrollercontrollerport">IVdsControllerControllerPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-associatecontrollers">IVdsLun::AssociateControllers</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-associatecontrollers">IVdsLun::AssociateControllers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querycontrollers">IVdsSubSystem::QueryControllers</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querycontrollers">IVdsSubSystem::QueryControllers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a>
-
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a>

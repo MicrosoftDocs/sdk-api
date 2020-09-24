@@ -58,11 +58,11 @@ Used to authenticate a user logon attempt on the user's initial logon.
 ### -param ClientRequest [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a> opaque buffer representing the client's request.
+<a href="/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a> opaque buffer representing the client's request.
 
 ### -param LogonType [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value that identifies the type of logon.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value that identifies the type of logon.
 
 ### -param ProtocolSubmitBuffer [in]
 
@@ -79,13 +79,13 @@ A <b>ULONG</b> value that indicates the size, in bytes, of the authentication in
 ### -param *ProfileBuffer [out]
 
 Pointer that receives the address of the profile buffer in the client process. The authentication package is responsible for allocating <i>ProfileBuffer</i> within the client process by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function. However, if the LSA subsequently encounters an error which prevents a successful logon, then the LSA will take care of freeing this buffer. 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function. However, if the LSA subsequently encounters an error which prevents a successful logon, then the LSA will take care of freeing this buffer. 
 
 
 
 
 The contents of this buffer are determined by the authentication package. The LSA does not alter this buffer; it simply returns the value to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function.
 
 ### -param ProfileBufferSize [out]
 
@@ -94,7 +94,7 @@ Pointer to a <b>ULONG</b> that receives the size of the <i>ProfileBuffer</i> buf
 ### -param LogonId [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> variable that receives the new logon ID that uniquely identifies this logon session. The authentication package is responsible for allocating this <b>LUID</b> and creating the LSA logon session for this logon.
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> variable that receives the new logon ID that uniquely identifies this logon session. The authentication package is responsible for allocating this <b>LUID</b> and creating the LSA logon session for this logon.
 
 ### -param SubStatus [out]
 
@@ -156,12 +156,12 @@ The user account is currently disabled and cannot be used to log on.
 More information about NTSTATUS codes can be found in the Subauth.h header file shipped with the Platform SDK.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
 
 ### -param TokenInformationType [out]
 
 Pointer that receives the address of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a> value that indicates the type of information returned for inclusion in the token to be created. The information is returned by means of the <i>TokenInformation</i> parameter.
+<a href="/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a> value that indicates the type of information returned for inclusion in the token to be created. The information is returned by means of the <i>TokenInformation</i> parameter.
 
 ### -param *TokenInformation [out]
 
@@ -170,12 +170,12 @@ Pointer that receives the address of information to be included in the token. Th
 ### -param *AccountName [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that receives the name of the user account. <i>AccountName</i> must always be returned regardless of the success or failure of the call; its string is included in the audit record for an authentication attempt. Your authentication package is responsible for allocating the memory used by <i>AccountName</i>; however, this memory will be freed by the LSA.
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that receives the name of the user account. <i>AccountName</i> must always be returned regardless of the success or failure of the call; its string is included in the audit record for an authentication attempt. Your authentication package is responsible for allocating the memory used by <i>AccountName</i>; however, this memory will be freed by the LSA.
 
 ### -param *AuthenticatingAuthority [out]
 
 Optional. Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that receives the description of the authenticating authority for the logon. This parameter may be <b>NULL</b>. This string is included in the audit record for an authentication attempt. Your authentication package is responsible for allocating the memory used by <i>AuthenticatingAuthority</i>; however, this memory will be freed by the LSA. 
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that receives the description of the authenticating authority for the logon. This parameter may be <b>NULL</b>. This string is included in the audit record for an authentication attempt. Your authentication package is responsible for allocating the memory used by <i>AuthenticatingAuthority</i>; however, this memory will be freed by the LSA. 
 
 
 
@@ -184,7 +184,7 @@ The MSV1_0 authentication package returns the domain name of the domain validati
 
 ### -param *MachineName [out]
 
-Optional. Pointer that receives the address of a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the client's computer. This string may optionally be omitted. This string is included in the audit record for this authentication attempt. Your authentication package is responsible for allocating the memory used by <i>MachineName</i>; however, this memory will be freed by the LSA. 
+Optional. Pointer that receives the address of a <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the client's computer. This string may optionally be omitted. This string is included in the audit record for this authentication attempt. Your authentication package is responsible for allocating the memory used by <i>MachineName</i>; however, this memory will be freed by the LSA. 
 
 
 
@@ -194,19 +194,19 @@ The MSV1_0 authentication package returns the NetBIOS name of the client's works
 ### -param PrimaryCredentials [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure that returns primary credentials for handing to other packages.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure that returns primary credentials for handing to other packages.
 
 ### -param *SupplementalCredentials [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred_array">SECPKG_SUPPLEMENTAL_CRED_ARRAY</a> array of supplemental credentials for other packages.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred_array">SECPKG_SUPPLEMENTAL_CRED_ARRAY</a> array of supplemental credentials for other packages.
 
 ## -returns
 
 If the function succeeds, it should return STATUS_SUCCESS.
 
 Otherwise, it should return an NTSTATUS error code, which can be one of the following values or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -316,35 +316,34 @@ The client's virtual memory or pagefile quotas are insufficient to allocate the 
  
 
 Calling applications can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 ## -remarks
 
 Authentication packages must implement one of the following functions: 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user">LsaApLogonUser</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex">LsaApLogonUserEx</a>, or <b>LsaApLogonUserEx2</b>.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user">LsaApLogonUser</a>, 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex">LsaApLogonUserEx</a>, or <b>LsaApLogonUserEx2</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a>
+<a href="/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a>
+<a href="/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user">LsaApLogonUser</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user">LsaApLogonUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex">LsaApLogonUserEx</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex">LsaApLogonUserEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>

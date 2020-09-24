@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the top position of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
+Gets or sets the top position of the <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
 
 
 
@@ -65,13 +65,13 @@ This property is read/write.
 
 ## -remarks
 
-Note: A point is within an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a> if it lies on the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left Property</a> or <b>Top Property</b> side or is within all four sides. A point on the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right Property</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom Property</a> side is considered outside the rectangle.
+Note: A point is within an <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a> if it lies on the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left Property</a> or <b>Top Property</b> side or is within all four sides. A point on the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right Property</a> or <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom Property</a> side is considered outside the rectangle.
 
 The default value of this property is 0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom Property</a>
 
 
 
@@ -79,13 +79,12 @@ The default value of this property is 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
+<a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right Property</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right Property</a>

@@ -54,37 +54,36 @@ api_name:
 
 ## -description
 
-The <b>NMLINK</b> Contains notification information. Send this structure with the <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-click-syslink">NM_CLICK</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-return">NM_RETURN</a> messages.
+The <b>NMLINK</b> Contains notification information. Send this structure with the <a href="/windows/desktop/Controls/nm-click-syslink">NM_CLICK</a> or <a href="/windows/desktop/Controls/nm-return">NM_RETURN</a> messages.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
 
 ### -field item
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a> structure that contains information about the link item.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a> structure that contains information about the link item.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/nm-click-syslink">NM_CLICK (syslink)</a>
+<a href="/windows/desktop/Controls/nm-click-syslink">NM_CLICK (syslink)</a>
 
 
 
 <b>Reference</b>
-

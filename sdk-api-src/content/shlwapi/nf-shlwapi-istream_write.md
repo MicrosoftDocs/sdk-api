@@ -60,9 +60,9 @@ Writes data of unknown format from a buffer to a specified stream.
 
 ### -param pstm [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer that specifies the target stream.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer that specifies the target stream.
 
 ### -param pv [in]
 
@@ -81,4 +81,3 @@ The number of bytes of data to write to the target stream.
 Type: <b>HRESULT</b>
 
 Returns S_OK if the function successfully wrote the specified number of bytes to the stream, or an error value otherwise. In particular, if less than <i>cb</i> bytes was written to the target stream, even if some data was successfully written, the function returns E_FAIL.
-

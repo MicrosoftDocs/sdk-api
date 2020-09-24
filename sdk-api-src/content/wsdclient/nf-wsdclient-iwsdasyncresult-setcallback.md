@@ -56,7 +56,7 @@ Specifies a callback interface to call when the asynchronous operation has compl
 
 ### -param pCallback [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> object that contains the callback implemented by the user.
+Pointer to a <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> object that contains the callback implemented by the user.
 
 ### -param pAsyncState [in]
 
@@ -102,11 +102,10 @@ Method completed successfully.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasynccallback-asyncoperationcomplete">IWSDAsyncCallback::AsyncOperationComplete</a> method is passed the result object associated with the completing message and the state. 
+The <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasynccallback-asyncoperationcomplete">IWSDAsyncCallback::AsyncOperationComplete</a> method is passed the result object associated with the completing message and the state. 
 
-<i>pCallback</i> is released when the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object is destroyed.
+<i>pCallback</i> is released when the <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object is destroyed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>

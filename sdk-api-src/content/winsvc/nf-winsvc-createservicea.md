@@ -65,8 +65,8 @@ Creates a service object and adds it to the specified service control manager da
 ### -param hSCManager [in]
 
 A handle to the service control manager database. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function and must have the <b>SC_MANAGER_CREATE_SERVICE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function and must have the <b>SC_MANAGER_CREATE_SERVICE</b> access right. For more information, see 
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 ### -param lpServiceName [in]
 
@@ -79,7 +79,7 @@ The display name to be used by user interface programs to identify the service. 
 ### -param dwDesiredAccess [in]
 
 The access to the service. Before granting the requested access, the system checks the access token of the calling process. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 ### -param dwServiceType [in]
 
@@ -154,7 +154,7 @@ Service that runs in its own process.
 </dl>
 </td>
 <td width="60%">
-Service that shares a process with one or more other services. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/service-programs">Service Programs</a>.
+Service that shares a process with one or more other services. For more information, see <a href="/windows/desktop/Services/service-programs">Service Programs</a>.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ The service shares a process with one or more other services that run under the 
  
 
 If you specify either <b>SERVICE_WIN32_OWN_PROCESS</b> or <b>SERVICE_WIN32_SHARE_PROCESS</b>, and the service is running in the context of the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>, you can also specify the following value.
+<a href="/windows/desktop/Services/localsystem-account">LocalSystem account</a>, you can also specify the following value.
 
 <table>
 <tr>
@@ -204,7 +204,7 @@ The service can interact with the desktop.
 
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/interactive-services">Interactive Services</a>.
+<a href="/windows/desktop/Services/interactive-services">Interactive Services</a>.
 
 </td>
 </tr>
@@ -226,7 +226,7 @@ The service start options. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-A service started automatically by the service control manager during system startup. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/automatically-starting-services">Automatically Starting Services</a>.
+A service started automatically by the service control manager during system startup. For more information, see <a href="/windows/desktop/Services/automatically-starting-services">Automatically Starting Services</a>.
 
 </td>
 </tr>
@@ -249,7 +249,7 @@ A device driver started by the system loader. This value is valid only for drive
 </td>
 <td width="60%">
 A service started by the service control manager when a process calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a> function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/starting-services-on-demand">Starting Services on Demand</a>.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a> function. For more information, see <a href="/windows/desktop/Services/starting-services-on-demand">Starting Services on Demand</a>.
 
 </td>
 </tr>
@@ -383,13 +383,13 @@ The name of the account under which the service should run. If the service type 
 
 If this parameter is NULL, 
 <b>CreateService</b> uses the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>. If the service type specifies <b>SERVICE_INTERACTIVE_PROCESS</b>, the service must run in the LocalSystem account.
+<a href="/windows/desktop/Services/localsystem-account">LocalSystem account</a>. If the service type specifies <b>SERVICE_INTERACTIVE_PROCESS</b>, the service must run in the LocalSystem account.
 
 If this parameter is NT AUTHORITY\LocalService, 
 <b>CreateService</b> uses the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService account</a>. If the parameter is NT AUTHORITY\NetworkService, 
+<a href="/windows/desktop/Services/localservice-account">LocalService account</a>. If the parameter is NT AUTHORITY\NetworkService, 
 <b>CreateService</b> uses the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/networkservice-account">NetworkService account</a>.
+<a href="/windows/desktop/Services/networkservice-account">NetworkService account</a>.
 
 A shared process can run as any user.
 
@@ -402,7 +402,7 @@ A service can be configured to use a managed account or a virtual  account. If t
 ### -param lpPassword [in, optional]
 
 The password to the account name specified by the <i>lpServiceStartName</i> parameter. Specify an empty string if the account has no password or if the service runs in the LocalService, NetworkService, or LocalSystem account. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-record-list">Service Record List</a>. 
+<a href="/windows/desktop/Services/service-record-list">Service Record List</a>. 
 
 
 
@@ -416,7 +416,7 @@ Passwords are ignored for driver services.
 If the function succeeds, the return value is a handle to the service.
 
 If the function fails, the return value is NULL. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Other error codes can be set by the registry functions that are called by the service control manager.
 
@@ -535,8 +535,8 @@ The
 
 Information specified by 
 <b>CreateService</b>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a> is saved as values under this key. The following are examples of values stored for a service.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>, and 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a> is saved as values under this key. The following are examples of values stored for a service.
 
 <table>
 <tr>
@@ -554,7 +554,7 @@ Information specified by
 <tr>
 <td><b>Description</b></td>
 <td>Description specified by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>.</td>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>.</td>
 </tr>
 <tr>
 <td><b>DisplayName</b></td>
@@ -567,7 +567,7 @@ Information specified by
 <tr>
 <td><b>FailureActions</b></td>
 <td>Failure actions specified by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>.</td>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>.</td>
 </tr>
 <tr>
 <td><b>Group</b></td>
@@ -600,62 +600,62 @@ Setup programs and the service itself can create additional subkeys for service-
 
 The returned handle is only valid for the process that called 
 <b>CreateService</b>. It can be closed by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a> function.
 
 If you are creating services that share a process, avoid calling functions with process-wide effects, such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a>. In addition, do not unload your service DLL.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a>. In addition, do not unload your service DLL.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/installing-a-service">Installing a Service</a>.
+<a href="/windows/desktop/Services/installing-a-service">Installing a Service</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-deleteservice">DeleteService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-deleteservice">DeleteService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumdependentservicesa">EnumDependentServices</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-enumdependentservicesa">EnumDependentServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicedynamicinformation">QueryServiceDynamicInformation</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicedynamicinformation">QueryServiceDynamicInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity">QueryServiceObjectSecurity</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity">QueryServiceObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
 
 
 
@@ -663,17 +663,16 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
+<a href="/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity">SetServiceObjectSecurity</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity">SetServiceObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>

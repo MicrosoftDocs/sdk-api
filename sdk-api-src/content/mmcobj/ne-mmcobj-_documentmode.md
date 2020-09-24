@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>DocumentMode</b> enumeration is used by the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/document-mode">Document.Mode</a> property and specifies how the document is opened. This enumeration applies to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
+<a href="/previous-versions/windows/desktop/mmc/document-mode">Document.Mode</a> property and specifies how the document is opened. This enumeration applies to the 
+<a href="/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
 
 ## -enum-fields
 
@@ -79,9 +79,8 @@ The document is opened in Limited-Access User Mode with a single window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/document-object">Document object</a>
+<a href="/previous-versions/windows/desktop/mmc/document-object">Document object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/document-mode">Document.Mode</a>
-
+<a href="/previous-versions/windows/desktop/mmc/document-mode">Document.Mode</a>

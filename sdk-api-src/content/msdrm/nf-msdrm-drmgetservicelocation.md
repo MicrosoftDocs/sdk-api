@@ -55,7 +55,7 @@ api_name:
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -65,7 +65,7 @@ The <b>DRMGetServiceLocation</b> function retrieves the URL of a server that can
 
 ### -param hClient [in, optional]
 
-A handle to a client session. The handle can be obtained by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function. The handle is optional and can be <b>NULL</b>.
+A handle to a client session. The handle can be obtained by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function. The handle is optional and can be <b>NULL</b>.
 
 ### -param uServiceType [in]
 
@@ -81,19 +81,19 @@ Retrieve the computer activation service.
 
 #### DRM_SERVICE_TYPE_CERTIFICATION
 
-Retrieve the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> service.
+Retrieve the <a href="/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> service.
 
 
 
 #### DRM_SERVICE_TYPE_CLIENTLICENSOR
 
-Retrieve the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/c-gly">client licensor certificates</a> service (for offline publishing).
+Retrieve the <a href="/previous-versions/windows/desktop/adrms_sdk/c-gly">client licensor certificates</a> service (for offline publishing).
 
 
 
 #### DRM_SERVICE_TYPE_PUBLISHING
 
-Retrieve the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/i-gly">issuance license</a> signing service (for online publishing).
+Retrieve the <a href="/previous-versions/windows/desktop/adrms_sdk/i-gly">issuance license</a> signing service (for online publishing).
 
 
 
@@ -139,7 +139,7 @@ If this parameter is <b>NULL</b>, <i>puServiceURLLength</i> receives the number 
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
@@ -224,17 +224,16 @@ Beginning with RMS v1.0 SP1, this value can only be used to discover a certifica
 
 The application is responsible for allocating and freeing memory for the retrieved data. To find the buffer size required, call the function with <b>NULL</b> in the <i>wszServiceURL</i> parameter. The buffer size will be passed back to you  through the <i>puServiceURLLength</i> parameter.
 
-For a service discovery code example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/onlinesigning-getserviceurl-cpp">OnlineSigning_GetServiceURL.cpp</a>. There is no service discovery for acquiring <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/e-gly">end-user licenses</a> because this information can be stored in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/i-gly">issuance license</a> used to acquire the <i>end-user license</i>.
+For a service discovery code example, see <a href="/previous-versions/windows/desktop/adrms_sdk/onlinesigning-getserviceurl-cpp">OnlineSigning_GetServiceURL.cpp</a>. There is no service discovery for acquiring <a href="/previous-versions/windows/desktop/adrms_sdk/e-gly">end-user licenses</a> because this information can be stored in the <a href="/previous-versions/windows/desktop/adrms_sdk/i-gly">issuance license</a> used to acquire the <i>end-user license</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmactivate">DRMActivate</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmactivate">DRMActivate</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/onlinesigning-getserviceurl-cpp">OnlineSigning_GetServiceURL.cpp</a>
-
+<a href="/previous-versions/windows/desktop/adrms_sdk/onlinesigning-getserviceurl-cpp">OnlineSigning_GetServiceURL.cpp</a>

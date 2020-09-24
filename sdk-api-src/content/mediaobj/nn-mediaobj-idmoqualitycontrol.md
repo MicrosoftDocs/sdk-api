@@ -60,13 +60,13 @@ Applications use this interface to enable or disable quality control. Using qual
 
 To use quality control, perform the following steps:
 <ol>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setnow">IDMOQualityControl::SetNow</a> method with the reference time of the earliest sample to be processed.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setstatus">IDMOQualityControl::SetStatus</a> method with the DMO_QUALITY_STATUS_ENABLED flag.</li>
+<li>Call the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setnow">IDMOQualityControl::SetNow</a> method with the reference time of the earliest sample to be processed.</li>
+<li>Call the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setstatus">IDMOQualityControl::SetStatus</a> method with the DMO_QUALITY_STATUS_ENABLED flag.</li>
 </ol>To disable quality control, call <b>SetStatus</b> with no flag.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOQualityControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOQualityControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOQualityControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOQualityControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>IDMOQualityControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-getstatus">GetStatus</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Determines whether quality control is active.
@@ -90,7 +90,7 @@ Determines whether quality control is active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setnow">SetNow</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setnow">SetNow</a>
 </td>
 <td align="left" width="63%">
 Specifies the earliest time stamp for which the DMO should deliver data.
@@ -99,7 +99,7 @@ Specifies the earliest time stamp for which the DMO should deliver data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setstatus">SetStatus</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setstatus">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Enables or disables quality control.
@@ -107,4 +107,3 @@ Enables or disables quality control.
 </td>
 </tr>
 </table>
-

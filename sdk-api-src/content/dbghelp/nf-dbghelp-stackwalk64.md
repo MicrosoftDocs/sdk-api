@@ -118,12 +118,12 @@ A handle to the thread for which the stack trace is generated. If the caller sup
 
 ### -param StackFrame [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a> structure. This 
+A pointer to a <a href="/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a> structure. This 
       structure receives information for the next frame, if the function call succeeds.
 
 ### -param ContextRecord [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure. This parameter is 
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure. This parameter is 
        required only when the <i>MachineType</i> parameter is not 
        <b>IMAGE_FILE_MACHINE_I386</b>. However, it is recommended that this parameter contain a 
        valid context record. This allows <b>StackWalk64</b> to handle 
@@ -136,7 +136,7 @@ This context may be modified, so do not pass a context record that should not be
 A callback routine that provides memory read services. When the 
        <b>StackWalk64</b> function needs to read memory from the 
        process's address space, the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pread_process_memory_routine">ReadProcessMemoryProc64</a> callback is 
+       <a href="/windows/desktop/api/dbghelp/nc-dbghelp-pread_process_memory_routine">ReadProcessMemoryProc64</a> callback is 
        used.
 
 If this parameter is <b>NULL</b>, then the function uses a default routine. In this case, 
@@ -151,25 +151,25 @@ If this parameter is not
 A callback routine that provides access to the run-time function table for the process. This parameter is 
        required because the <b>StackWalk64</b> function does not have 
        access to the process's run-time function table. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfunction_table_access_routine">FunctionTableAccessProc64</a>.
+       <a href="/windows/desktop/api/dbghelp/nc-dbghelp-pfunction_table_access_routine">FunctionTableAccessProc64</a>.
 
 The symbol handler provides functions that load and access the run-time table. If these functions are used, 
-       then <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a> can be 
+       then <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a> can be 
        passed as a valid parameter.
 
 ### -param GetModuleBaseRoutine [in, optional]
 
 A callback routine that provides a module base for any given virtual address. This parameter is required. For 
-       more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pget_module_base_routine">GetModuleBaseProc64</a>.
+       more information, see <a href="/windows/desktop/api/dbghelp/nc-dbghelp-pget_module_base_routine">GetModuleBaseProc64</a>.
 
 The symbol handler provides functions that load and maintain module information. If these functions are used, 
-       then <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmodulebase">SymGetModuleBase64</a> can be passed as a valid 
+       then <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetmodulebase">SymGetModuleBase64</a> can be passed as a valid 
        parameter.
 
 ### -param TranslateAddress [in, optional]
 
 A callback routine that provides address translation for 16-bit addresses. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a>.
+       <a href="/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a>.
 
 Most callers of <b>StackWalk64</b> can safely pass 
        <b>NULL</b> for this parameter.
@@ -193,7 +193,7 @@ The <b>StackWalk64</b> function provides a portable method
 
 The first call to this function will fail if the <b>AddrPC</b>, 
     <b>AddrFrame</b>, and <b>AddrStack</b> members of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a> structure passed in the 
+    <a href="/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a> structure passed in the 
     <i>StackFrame</i> parameter are not initialized.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
@@ -201,7 +201,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
     all concurrent calls from more than one thread to this function.
 
 This function supersedes the <b>StackWalk</b> function. For 
-   more information, see <a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. 
+   more information, see <a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. 
    <b>StackWalk</b> is defined as follows in DbgHelp.h.
    
 
@@ -229,29 +229,28 @@ StackWalk(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfunction_table_access_routine">FunctionTableAccessProc64</a>
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-pfunction_table_access_routine">FunctionTableAccessProc64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pget_module_base_routine">GetModuleBaseProc64</a>
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-pget_module_base_routine">GetModuleBaseProc64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pread_process_memory_routine">ReadProcessMemoryProc64</a>
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-pread_process_memory_routine">ReadProcessMemoryProc64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a>
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a>

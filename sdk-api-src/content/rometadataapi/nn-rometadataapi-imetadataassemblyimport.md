@@ -54,7 +54,7 @@ Provides methods to access and examine the contents of an assembly manifest.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMetaDataAssemblyImport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMetaDataAssemblyImport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMetaDataAssemblyImport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMetaDataAssemblyImport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMetaDataAssemblyImport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-closeenum">CloseEnum</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-closeenum">CloseEnum</a>
 </td>
 <td align="left" width="63%">
 Releases a reference to the specified enumeration instance.
@@ -78,7 +78,7 @@ Releases a reference to the specified enumeration instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumassemblyrefs">EnumAssemblyRefs</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumassemblyrefs">EnumAssemblyRefs</a>
 </td>
 <td align="left" width="63%">
 Enumerates the mdAssemblyRef instances that are defined in the assembly manifest.
@@ -87,7 +87,7 @@ Enumerates the mdAssemblyRef instances that are defined in the assembly manifest
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumexportedtypes">EnumExportedTypes</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumexportedtypes">EnumExportedTypes</a>
 </td>
 <td align="left" width="63%">
 Enumerates the exported types referenced in the assembly manifest in the current metadata scope.
@@ -96,7 +96,7 @@ Enumerates the exported types referenced in the assembly manifest in the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumfiles">EnumFiles</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumfiles">EnumFiles</a>
 </td>
 <td align="left" width="63%">
 Enumerates the files referenced in the current assembly manifest.
@@ -105,7 +105,7 @@ Enumerates the files referenced in the current assembly manifest.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enummanifestresources">EnumManifestResources</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enummanifestresources">EnumManifestResources</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to an enumerator for the resources referenced in the current assembly manifest.
@@ -114,7 +114,7 @@ Gets a pointer to an enumerator for the resources referenced in the current asse
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findassembliesbyname">FindAssembliesByName</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findassembliesbyname">FindAssembliesByName</a>
 </td>
 <td align="left" width="63%">
 Gets an array of assemblies with the specified name, using the standard rules employed by the common language runtime (CLR) for resolving references.
@@ -123,7 +123,7 @@ Gets an array of assemblies with the specified name, using the standard rules em
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findexportedtypebyname">FindExportedTypeByName</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findexportedtypebyname">FindExportedTypeByName</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to an exported type, given its name and enclosing type.
@@ -132,7 +132,7 @@ Gets a pointer to an exported type, given its name and enclosing type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findmanifestresourcebyname">FindManifestResourceByName</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findmanifestresourcebyname">FindManifestResourceByName</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the manifest resource with the specified name.
@@ -141,7 +141,7 @@ Gets a pointer to the manifest resource with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyfromscope">GetAssemblyFromScope</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyfromscope">GetAssemblyFromScope</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the assembly in the current scope.
@@ -150,7 +150,7 @@ Gets a pointer to the assembly in the current scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyprops">GetAssemblyProps</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyprops">GetAssemblyProps</a>
 </td>
 <td align="left" width="63%">
 Releases a reference to the specified enumeration instance.
@@ -161,7 +161,7 @@ Releases a reference to the specified enumeration instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyrefprops">GetAssemblyRefProps</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyrefprops">GetAssemblyRefProps</a>
 </td>
 <td align="left" width="63%">
 Gets the set of properties for the assembly reference with the specified metadata signature.
@@ -170,7 +170,7 @@ Gets the set of properties for the assembly reference with the specified metadat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getexportedtypeprops">GetExportedTypeProps</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getexportedtypeprops">GetExportedTypeProps</a>
 </td>
 <td align="left" width="63%">
 Gets the set of properties of the exported type with the specified metadata signature.
@@ -179,7 +179,7 @@ Gets the set of properties of the exported type with the specified metadata sign
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getfileprops">GetFileProps</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getfileprops">GetFileProps</a>
 </td>
 <td align="left" width="63%">
 Gets the properties of the file with the specified metadata signature.
@@ -188,7 +188,7 @@ Gets the properties of the file with the specified metadata signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getmanifestresourceprops">GetManifestResourceProps</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getmanifestresourceprops">GetManifestResourceProps</a>
 </td>
 <td align="left" width="63%">
 Gets the set of properties of the manifest resource with the specified metadata signature.
@@ -196,4 +196,3 @@ Gets the set of properties of the manifest resource with the specified metadata 
 </td>
 </tr>
 </table>
-

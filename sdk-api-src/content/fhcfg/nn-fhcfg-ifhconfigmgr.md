@@ -57,7 +57,7 @@ The <b>IFhConfigMgr</b> interface allows client applications to read and modify 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFhConfigMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFhConfigMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFhConfigMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFhConfigMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IFhConfigMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-addremoveexcluderule">AddRemoveExcludeRule</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-addremoveexcluderule">AddRemoveExcludeRule</a>
 </td>
 <td align="left" width="63%">
 Adds an exclusion rule to the exclusion list or removes a  rule from the list.
@@ -81,7 +81,7 @@ Adds an exclusion rule to the exclusion list or removes a  rule from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-changedefaulttargetrecommendation">ChangeDefaultTargetRecommendation</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-changedefaulttargetrecommendation">ChangeDefaultTargetRecommendation</a>
 </td>
 <td align="left" width="63%">
 Causes the currently assigned backup target to be recommended or not recommended to other members of the home group that the computer belongs to.
@@ -90,43 +90,43 @@ Causes the currently assigned backup target to be recommended or not recommended
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">CreateDefaultConfiguration</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">CreateDefaultConfiguration</a>
 </td>
 <td align="left" width="63%">
-Creates File History configuration files with default settings for the current user and loads them into an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
+Creates File History configuration files with default settings for the current user and loads them into an <a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getbackupstatus">GetBackupStatus</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getbackupstatus">GetBackupStatus</a>
 </td>
 <td align="left" width="63%">
-Retrieves the backup status value for an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
+Retrieves the backup status value for an <a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getdefaulttarget">GetDefaultTarget</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getdefaulttarget">GetDefaultTarget</a>
 </td>
 <td align="left" width="63%">
-Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface that can be used to query information about the currently assigned backup target.
+Returns a pointer to an <a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface that can be used to query information about the currently assigned backup target.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">GetIncludeExcludeRules</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">GetIncludeExcludeRules</a>
 </td>
 <td align="left" width="63%">
-Retrieves the inclusion and exclusion rules that are currently stored in an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
+Retrieves the inclusion and exclusion rules that are currently stored in an <a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getlocalpolicy">GetLocalPolicy</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getlocalpolicy">GetLocalPolicy</a>
 </td>
 <td align="left" width="63%">
 Retrieves the numeric parameter for a local policy for the File History feature.
@@ -135,16 +135,16 @@ Retrieves the numeric parameter for a local policy for the File History feature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-loadconfiguration">LoadConfiguration</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-loadconfiguration">LoadConfiguration</a>
 </td>
 <td align="left" width="63%">
-Loads the File History configuration information for the current user into an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
+Loads the File History configuration information for the current user into an <a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-provisionandsetnewtarget">ProvisionAndSetNewTarget</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-provisionandsetnewtarget">ProvisionAndSetNewTarget</a>
 </td>
 <td align="left" width="63%">
 Provisions a certain storage device or network share as a File History backup target and assigns it as the default backup target for the current user.
@@ -153,7 +153,7 @@ Provisions a certain storage device or network share as a File History backup ta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-queryprotectionstatus">QueryProtectionStatus</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-queryprotectionstatus">QueryProtectionStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current File History protection state.
@@ -162,34 +162,34 @@ Retrieves the current File History protection state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration">SaveConfiguration</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration">SaveConfiguration</a>
 </td>
 <td align="left" width="63%">
-Saves to disk all the changes that were made in an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object since the last time that the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-loadconfiguration">LoadConfiguration</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">CreateDefaultConfiguration</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration">SaveConfiguration</a> method was called  for the File History configuration files of the current user.
+Saves to disk all the changes that were made in an <a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object since the last time that the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-loadconfiguration">LoadConfiguration</a>, <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">CreateDefaultConfiguration</a> or <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration">SaveConfiguration</a> method was called  for the File History configuration files of the current user.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus">SetBackupStatus</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus">SetBackupStatus</a>
 </td>
 <td align="left" width="63%">
-Changes the backup status value for an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
+Changes the backup status value for an <a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">SetLocalPolicy</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">SetLocalPolicy</a>
 </td>
 <td align="left" width="63%">
-Changes the numeric parameter value of a local policy in an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
+Changes the numeric parameter value of a local policy in an <a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget">ValidateTarget</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget">ValidateTarget</a>
 </td>
 <td align="left" width="63%">
  Checks whether a certain storage device or network share can be used as a File History backup target.
@@ -197,4 +197,3 @@ Changes the numeric parameter value of a local policy in an <a href="https://doc
 </td>
 </tr>
 </table>
-

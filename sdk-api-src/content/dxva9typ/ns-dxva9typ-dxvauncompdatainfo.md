@@ -70,9 +70,8 @@ The pixel format of the uncompressed data, specified as a <b>D3DFORMAT</b> value
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3dvideodevice9">IDirect3DVideoDevice9</a>
-
+<a href="/windows/desktop/medfound/idirect3dvideodevice9">IDirect3DVideoDevice9</a>

@@ -102,9 +102,8 @@ A null pointer was passed where non-null was expected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-getdeviceid">GetDeviceId</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-getdeviceid">GetDeviceId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>

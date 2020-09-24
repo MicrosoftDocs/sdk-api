@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an instance of the subsystem object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>.
+Gets an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Reference to the IID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>.
 
 ## -returns
 
@@ -103,14 +103,14 @@ The <i>ppv</i> parameter is <b>NULL</b>.
 
 ## -remarks
 
-You must initialize Component Object Model (COM) with <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertysystem">PSGetPropertySystem</a>.  COM must remain initialized for the lifetime of this object. The property system object aggregates the free-threaded marshaller and is thread-safe.
+You must initialize Component Object Model (COM) with <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> prior to calling <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertysystem">PSGetPropertySystem</a>.  COM must remain initialized for the lifetime of this object. The property system object aggregates the free-threaded marshaller and is thread-safe.
 
 We recommend that you use the IID_PPV_ARGS macro defined in Objbase.h to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertysystem">PSGetPropertySystem</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertysystem">PSGetPropertySystem</a>.
 
 
 ```cpp
@@ -125,4 +125,3 @@ if (SUCCEEDED(hr))
     pSystem->Release();
 }
 ```
-

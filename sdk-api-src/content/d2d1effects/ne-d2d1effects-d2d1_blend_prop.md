@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/blend">Blend effect</a>.
 
 ## -enum-fields
 
@@ -59,9 +59,8 @@ Identifiers for properties of the <a href="https://docs.microsoft.com/windows/de
 The blend mode used for the effect.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_mode">D2D1_BLEND_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_mode">D2D1_BLEND_MODE</a>.
 
 The default value is D2D1_BLEND_MODE_MULTIPLY.
 
 ### -field D2D1_BLEND_PROP_FORCE_DWORD
-

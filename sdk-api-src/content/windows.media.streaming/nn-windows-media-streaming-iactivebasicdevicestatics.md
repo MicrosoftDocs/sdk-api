@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides static methods for creating <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice">IActiveBasicDevice</a> objects.
+Provides static methods for creating <a href="/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice">IActiveBasicDevice</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActiveBasicDeviceStatics</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActiveBasicDeviceStatics</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActiveBasicDeviceStatics</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActiveBasicDeviceStatics</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IActiveBasicDeviceStatics</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-clonebasicdeviceasync">CloneBasicDeviceAsync</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-clonebasicdeviceasync">CloneBasicDeviceAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously creates a clone of a basic device.
@@ -78,7 +78,7 @@ Asynchronously creates a clone of a basic device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-createbasicdeviceasync">CreateBasicDeviceAsync</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-createbasicdeviceasync">CreateBasicDeviceAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously creates an active basic device.
@@ -87,19 +87,19 @@ Asynchronously creates an active basic device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-createdevicesonmatchingnetworkasync">CreateDevicesOnMatchingNetworkAsync</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-createdevicesonmatchingnetworkasync">CreateDevicesOnMatchingNetworkAsync</a>
 </td>
 <td align="left" width="63%">
-Asynchronously creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385771(v=vs.85)">DevicePair</a> of devices that are on the same network interface.
+Asynchronously creates a <a href="/previous-versions/windows/desktop/legacy/dn385771(v=vs.85)">DevicePair</a> of devices that are on the same network interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-getdevicesonmatchingnetworkasync">GetDevicesOnMatchingNetworkAsync</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-getdevicesonmatchingnetworkasync">GetDevicesOnMatchingNetworkAsync</a>
 </td>
 <td align="left" width="63%">
-Asynchronously gets a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385771(v=vs.85)">DevicePair</a> of devices that are on the same network interface.
+Asynchronously gets a <a href="/previous-versions/windows/desktop/legacy/dn385771(v=vs.85)">DevicePair</a> of devices that are on the same network interface.
 
 </td>
 </tr>
@@ -107,21 +107,20 @@ Asynchronously gets a <a href="https://docs.microsoft.com/previous-versions/wind
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
+<a href="/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828813(v=vs.85)">BasicDevice</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828813(v=vs.85)">BasicDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice">IActiveBasicDevice</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice">IActiveBasicDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
+<a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

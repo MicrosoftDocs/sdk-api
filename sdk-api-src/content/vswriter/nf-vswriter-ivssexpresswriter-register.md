@@ -91,9 +91,8 @@ Metadata has already been stored for this writer.
 
 ## -remarks
 
-Before using this method, the caller must have either used the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-loadmetadata">LoadMetadata</a> method to load the writer's metadata directly or used the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-createmetadata">CreateMetadata</a> method to create a writer metadata object.
+Before using this method, the caller must have either used the <a href="/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-loadmetadata">LoadMetadata</a> method to load the writer's metadata directly or used the <a href="/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-createmetadata">CreateMetadata</a> method to create a writer metadata object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>

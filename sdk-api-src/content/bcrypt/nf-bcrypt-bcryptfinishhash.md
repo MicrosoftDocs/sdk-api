@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>BCryptFinishHash</b> function retrieves the hash or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) value for the data accumulated from prior calls to <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>.
+The <b>BCryptFinishHash</b> function retrieves the hash or <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) value for the data accumulated from prior calls to <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>.
 
 ## -parameters
 
 ### -param hHash [in, out]
 
-The handle of the hash or MAC object to use to compute the hash or MAC. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a> function. After this function has been called, the hash handle passed to this function cannot be used again except in a call to <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a>.
+The handle of the hash or MAC object to use to compute the hash or MAC. This handle is obtained by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a> function. After this function has been called, the hash handle passed to this function cannot be used again except in a call to <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a>.
 
 ### -param pbOutput [out]
 
@@ -67,7 +67,7 @@ A pointer to a buffer that receives the hash or MAC value. The <i>cbOutput</i> p
 
 The size, in bytes, of the <i>pbOutput</i> buffer. This size must exactly match the size of the hash or MAC value.
 
-The size can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgetproperty">BCryptGetProperty</a> function to get the <b>BCRYPT_HASH_LENGTH</b> property. This will provide the size of the hash or MAC value for the specified algorithm.
+The size can be obtained by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgetproperty">BCryptGetProperty</a> function to get the <b>BCRYPT_HASH_LENGTH</b> property. This will provide the size of the hash or MAC value for the specified algorithm.
 
 ### -param dwFlags [in]
 
@@ -105,7 +105,7 @@ The function was successful.
 </dl>
 </td>
 <td width="60%">
-The hash handle in the <i>hHash</i> parameter is not valid. After the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a> function has been called for a hash  handle, that handle cannot be reused.
+The hash handle in the <i>hHash</i> parameter is not valid. After the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a> function has been called for a hash  handle, that handle cannot be reused.
 
 </td>
 </tr>
@@ -124,11 +124,10 @@ One or more parameters are not valid. This includes the case where <i>cbOutput</
 
 ## -remarks
 
-Depending on what processor modes a provider supports, <b>BCryptFinishHash</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hHash</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptFinishHash</b> function must refer to nonpaged (or locked) memory.
+Depending on what processor modes a provider supports, <b>BCryptFinishHash</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hHash</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptFinishHash</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>

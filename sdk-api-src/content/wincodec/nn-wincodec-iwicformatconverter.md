@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Represents an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> that converts the image data from one pixel format to another, handling dithering and halftoning to indexed formats, palette translation and alpha thresholding.
+Represents an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> that converts the image data from one pixel format to another, handling dithering and halftoning to indexed formats, palette translation and alpha thresholding.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICFormatConverter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICFormatConverter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICFormatConverter</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICFormatConverter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICFormatConverter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-canconvert">CanConvert</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-canconvert">CanConvert</a>
 </td>
 <td align="left" width="63%">
 Determines if the source pixel format can be converted to the destination pixel format.
@@ -78,7 +78,7 @@ Determines if the source pixel format can be converted to the destination pixel 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-initialize">Initialize</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the format converter.
@@ -89,7 +89,7 @@ Initializes the format converter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dotnet/netframework-3.0/ms771770(v=vs.85)">AITCodec Sample CODEC</a>
+<a href="/previous-versions/dotnet/netframework-3.0/ms771770(v=vs.85)">AITCodec Sample CODEC</a>
 
 
 
@@ -97,11 +97,11 @@ Initializes the format converter.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
+<a href="/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>
 
 
 
@@ -109,9 +109,8 @@ Initializes the format converter.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
+<a href="/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
-
+<a href="/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>

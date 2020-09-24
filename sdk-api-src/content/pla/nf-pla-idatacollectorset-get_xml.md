@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -remarks
 
-For details on the property elements contained in the XML string, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a> and the individual data collectors.
+For details on the property elements contained in the XML string, see the Remarks section of <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a> and the individual data collectors.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
 IDataCollectorSet::SetXml
-

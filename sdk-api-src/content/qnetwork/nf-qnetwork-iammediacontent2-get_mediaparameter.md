@@ -97,5 +97,4 @@ The caller must release the <b>BSTR</b> returned in <i>pbstrValue</i>, by callin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent2">IAMMediaContent2 Interface</a>
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent2">IAMMediaContent2 Interface</a>

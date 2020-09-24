@@ -73,5 +73,4 @@ If the handle is not a menu handle, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
-
+<a href="/windows/desktop/menurc/menus">Menus</a>

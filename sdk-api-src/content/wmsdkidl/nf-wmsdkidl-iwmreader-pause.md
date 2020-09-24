@@ -103,9 +103,8 @@ The method failed for an unspecified reason.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-close">IWMReader::Close</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-close">IWMReader::Close</a>

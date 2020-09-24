@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider2">ITransformProvider2</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider2">ITransformProvider2</a>

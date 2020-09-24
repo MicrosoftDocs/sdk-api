@@ -56,15 +56,14 @@ A descriptor that identifies a TCP socket.
 
 Type: **[DWORD](/windows/win32/winprog/windows-data-types)\***
 
-A pointer to an [ICMP_ERROR_INFO](/windows/win32/api/ws2ipdef/ns-ws2ipdef-icmp_error_info) structure. On success, the function initializes the structure.
+A pointer to an [ICMP_ERROR_INFO](../ws2ipdef/ns-ws2ipdef-icmp_error_info.md) structure. On success, the function initializes the structure.
 
 ## -returns
 
-On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](/windows/win32/api/winsock/nf-winsock-wsagetlasterror).
+On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](../winsock/nf-winsock-wsagetlasterror.md).
 
 ## -remarks
 
-If no ICMP error has been received since the last connect call, then [**WSANO_DATA**](/windows/win32/winsock/windows-sockets-error-codes-2) is returned. This functionality is supported through the [**TCP_ICMP_ERROR_INFO**](/windows/win32/winsock/ipproto-tcp-socket-options) socket option. **WSAGetIcmpErrorInfo** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](/windows/win32/api/winsock/nf-winsock-getsockopt).
+If no ICMP error has been received since the last connect call, then [**WSANO_DATA**](/windows/win32/winsock/windows-sockets-error-codes-2) is returned. This functionality is supported through the [**TCP_ICMP_ERROR_INFO**](/windows/win32/winsock/ipproto-tcp-socket-options) socket option. **WSAGetIcmpErrorInfo** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](../winsock/nf-winsock-getsockopt.md).
 
 ## -see-also
-

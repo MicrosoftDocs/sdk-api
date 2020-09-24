@@ -76,5 +76,4 @@ Transform streams are read/write where the sample is updated in place.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/multimedia-streaming-types">Multimedia Streaming Enumeration Types</a>
-
+<a href="/windows/desktop/DirectShow/multimedia-streaming-types">Multimedia Streaming Enumeration Types</a>

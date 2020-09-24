@@ -60,29 +60,28 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginbottom">ElasticMarginBottom</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginbottom">ElasticMarginBottom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginright">ElasticMarginRight</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginright">ElasticMarginRight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmargintop">ElasticMarginTop</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmargintop">ElasticMarginTop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/handling-inertia-in-unmanaged-code">Handling Inertia in Unmanaged Code</a>
+<a href="/windows/desktop/wintouch/handling-inertia-in-unmanaged-code">Handling Inertia in Unmanaged Code</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/inertia-mechanics">Inertia Mechanics</a>
+<a href="/windows/desktop/wintouch/inertia-mechanics">Inertia Mechanics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
-
+<a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>

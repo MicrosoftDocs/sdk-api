@@ -244,7 +244,7 @@ switch (var.vt)
 ```
 
 
-The following example loads the default tune request and returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface pointer:
+The following example loads the default tune request and returns an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface pointer:
 
 
 ```cpp
@@ -293,5 +293,4 @@ HRESULT LoadDefaultTuneReq(ITuneRequest **ppTuneReq)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/regbag/nn-regbag-icreatepropbagonregkey">ICreatePropBagOnRegKey Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/regbag/nn-regbag-icreatepropbagonregkey">ICreatePropBagOnRegKey Interface</a>

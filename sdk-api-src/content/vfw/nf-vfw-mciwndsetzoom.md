@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSetZoom</b> macro resizes a video image according to a zoom factor. This marco adjusts the size of an MCIWnd window while maintaining a constant aspect ratio. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setzoom">MCIWNDM_SETZOOM</a> message.
+The <b>MCIWndSetZoom</b> macro resizes a video image according to a zoom factor. This marco adjusts the size of an MCIWnd window while maintaining a constant aspect ratio. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-setzoom">MCIWNDM_SETZOOM</a> message.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param iZoom
 
 Zoom factor expressed as a percentage of the original image. Specify 100 to display the image at its authored size, 200 to display the image at twice its normal size, or 50 to display the image at half its normal size.
-

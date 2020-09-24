@@ -60,7 +60,7 @@ For stream events, the value is the zero-based index of the stream that sent the
 
 ### -param pEvent [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of the event.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of the event.
 
 ## -returns
 
@@ -72,34 +72,33 @@ In the current implementation,  the source reader uses this method to forward th
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mebufferingstarted">MEBufferingStarted</a>
+<a href="/windows/desktop/medfound/mebufferingstarted">MEBufferingStarted</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mebufferingstopped">MEBufferingStopped</a>
+<a href="/windows/desktop/medfound/mebufferingstopped">MEBufferingStopped</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/meconnectend">MEConnectEnd</a>
+<a href="/windows/desktop/medfound/meconnectend">MEConnectEnd</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/meconnectstart">MEConnectStart</a>
+<a href="/windows/desktop/medfound/meconnectstart">MEConnectStart</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/meextendedtype">MEExtendedType</a>
+<a href="/windows/desktop/medfound/meextendedtype">MEExtendedType</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcecharacteristicschanged">MESourceCharacteristicsChanged</a>
+<a href="/windows/desktop/medfound/mesourcecharacteristicschanged">MESourceCharacteristicsChanged</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcemetadatachanged">MESourceMetadataChanged</a>
+<a href="/windows/desktop/medfound/mesourcemetadatachanged">MESourceMetadataChanged</a>
 </li>
 </ul>
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback">IMFSourceReaderCallback</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback">IMFSourceReaderCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

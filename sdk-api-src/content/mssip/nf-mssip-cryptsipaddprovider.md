@@ -56,19 +56,18 @@ The <b>CryptSIPAddProvider</b> function registers functions that are exported by
 
 ### -param psNewProv [in]
 
-A pointer to a [SIP_ADD_NEWPROVIDER](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider) structure that specifies the DLL file and function names to register.
+A pointer to a [SIP_ADD_NEWPROVIDER](/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider) structure that specifies the DLL file and function names to register.
 
 ## -returns
 
-The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails. If the function fails, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to determine the reason for failure.
+The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails. If the function fails, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to determine the reason for failure.
 
 ## -remarks
 
 Typically, you call this function as part of an in-process COM server registration. The <b>CryptSIPAddProvider</b> function persists the appropriate Registry entries for the SIP provider functions.
 
-When you have finished using the added SIP provider, remove it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremoveprovider">CryptSIPRemoveProvider</a> function.
+When you have finished using the added SIP provider, remove it by calling the <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipremoveprovider">CryptSIPRemoveProvider</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremoveprovider">CryptSIPRemoveProvider</a>
-
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipremoveprovider">CryptSIPRemoveProvider</a>

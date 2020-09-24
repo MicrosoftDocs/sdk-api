@@ -55,14 +55,14 @@ provides similar functionality.]
 
 The 
 <b>EnumerateAddresses</b> method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for C++ programmers. Visual Basic and other scripting languages use 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_addresses">get_Addresses</a> instead.
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_addresses">get_Addresses</a> instead.
 
 ## -parameters
 
 ### -param ppEnumAddresses [out]
 
 Returns a pointer to a new 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumbstr">IEnumBstr</a> object. 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumbstr">IEnumBstr</a> object. 
 <b>IEnumBstr</b> is a standard enumerator interface that enumerates BSTR strings. Each string is an IP version 4 address in dotted quad notation (for example, 10.111.222.111).
 
 ## -returns
@@ -112,18 +112,17 @@ Not enough memory to allocate the enumerator.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumbstr">IEnumBstr</a> interface returned by <b>IMcastLeaseInfo::EnumerateAddresses</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumbstr">IEnumBstr</a> interface returned by <b>IMcastLeaseInfo::EnumerateAddresses</b>. The application must call <b>Release</b> on the 
 <b>IEnumBstr</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumbstr">IEnumBstr</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumbstr">IEnumBstr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_addresses">get_Addresses</a>
-
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_addresses">get_Addresses</a>

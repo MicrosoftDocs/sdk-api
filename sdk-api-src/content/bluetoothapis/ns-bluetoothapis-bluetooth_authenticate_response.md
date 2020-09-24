@@ -59,14 +59,14 @@ The <b>BLUETOOTH_AUTHENTICATE_RESPONSE</b> structure contains information passed
 
 A <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_address_struct">BLUETOOTH_ADDRESS</a> structure that contains the address of the device requesting the authentication response.  
 
-<div class="alert"><b>Note</b>  This information can be found in the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-bluetooth_authentication_callback_params">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
+<div class="alert"><b>Note</b>  This information can be found in the <a href="/windows/desktop/api/bluetoothapis/ns-bluetoothapis-bluetooth_authentication_callback_params">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
 
 ### -field authMethod
 
 A <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the supported authentication method. 
 
-<div class="alert"><b>Note</b>  This information can be found in the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-bluetooth_authentication_callback_params">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
+<div class="alert"><b>Note</b>  This information can be found in the <a href="/windows/desktop/api/bluetoothapis/ns-bluetoothapis-bluetooth_authentication_callback_params">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
 
 ### -field pinInfo
@@ -94,4 +94,3 @@ Contains information for passkey authentication.
 ## -see-also
 
 <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
-

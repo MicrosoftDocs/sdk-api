@@ -56,7 +56,7 @@ Gets the top-level application handle from which the hosted provider handle was 
 
 ### -param hostedProvider [in]
 
-Provider handle returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newhostedprovider">MI_Application_NewHostedProvider</a>.
+Provider handle returned from <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newhostedprovider">MI_Application_NewHostedProvider</a>.
 
 ### -param application [out]
 
@@ -64,5 +64,4 @@ Returned application handle. This handle does not need to be deleted as it is a 
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
-
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.

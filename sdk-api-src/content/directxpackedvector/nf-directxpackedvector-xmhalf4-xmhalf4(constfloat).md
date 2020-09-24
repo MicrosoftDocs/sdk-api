@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMHALF4** from a four element <code>float</code> array argument.
 
@@ -79,7 +79,6 @@ instance.w = XMConvertFloatToHalf(pArray[3]);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmhalf4-ctor">XMHALF4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmhalf4-ctor">XMHALF4 Constructors</a>

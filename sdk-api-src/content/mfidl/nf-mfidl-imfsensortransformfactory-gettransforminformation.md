@@ -71,7 +71,7 @@ The attribute store to be populated.
 
 ### -param ppStreamInformation [out]
 
-A collection of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a> objects.
+A collection of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a> objects.
 
 ## -returns
 
@@ -79,5 +79,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensortransformfactory">IMFSensorTransformFactory</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensortransformfactory">IMFSensorTransformFactory</a>

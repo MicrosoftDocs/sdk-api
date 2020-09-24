@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetPIDCount</b> method retrieves the number of MPEG-2 Packet IDs being filtered by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> into the TIF's input data.
+The <b>GetPIDCount</b> method retrieves the number of MPEG-2 Packet IDs being filtered by the <a href="/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> into the TIF's input data.
 
 ## -parameters
 
@@ -86,13 +86,12 @@ A custom TIF extension might or might not need this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpids">IMPEG2_TIF_CONTROL::GetPIDs</a>
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpids">IMPEG2_TIF_CONTROL::GetPIDs</a>

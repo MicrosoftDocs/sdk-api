@@ -58,7 +58,7 @@ Used to indicate that the reader should interpret the bytes it reads as in MTOM 
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_encoding">WS_XML_READER_ENCODING</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_encoding">WS_XML_READER_ENCODING</a>.
 
 ### -field textEncoding
 
@@ -85,12 +85,11 @@ The mime part that contains the xml.  This corresponds to the "start" parameter 
 
 ## -remarks
 
-When used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a> the MIME parts may appear in any order.
+When used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a> the MIME parts may appear in any order.
       
 
-When used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> the root MIME part must be first, and
+When used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> the root MIME part must be first, and
         subsequent MIME parts must appear in the order that they are referenced from xop:Include elements.
       
 
 See http://www.w3.org/TR/2005/REC-xop10-20050125/ for the MTOM specification.
-

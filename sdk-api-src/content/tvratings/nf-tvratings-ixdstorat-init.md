@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>Init</b> method sets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object to its initial state.
+The <b>Init</b> method sets the <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object to its initial state.
 
 ## -parameters
 
@@ -78,9 +78,8 @@ The method succeeded.
 
 ## -remarks
 
-The XDS Codec filter calls this method on startup or after a discontinuity, such as a channel change. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object should clear any internal buffers and reset its parsing state. This method prevents decoding errors caused by channel changes or other interruptions.
+The XDS Codec filter calls this method on startup or after a discontinuity, such as a channel change. The <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object should clear any internal buffers and reset its parsing state. This method prevents decoding errors caused by channel changes or other interruptions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ixdstorat">IXDSToRat Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ixdstorat">IXDSToRat Interface</a>

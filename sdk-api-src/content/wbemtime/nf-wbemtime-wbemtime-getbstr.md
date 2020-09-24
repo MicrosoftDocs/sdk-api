@@ -53,30 +53,29 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetBSTR</b> method gets the time as a <b>BSTR</b> value in 
-CIM <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
+CIM <a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
 
 ## -parameters
 
 ## -returns
 
-The method returns a <b>BSTR</b> in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>. The time is given as GMT. If the internal time value is INVALID_TIME, the method returns <b>NULL</b>.
+The method returns a <b>BSTR</b> in <a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>. The time is given as GMT. If the internal time value is INVALID_TIME, the method returns <b>NULL</b>.
 
 ## -remarks
 
-If the value returned is not <b>NULL</b>, the calling function must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on the returned value. This method returns the same value as <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">WBEMTime::GetDMTF</a>(false).
+If the value returned is not <b>NULL</b>, the calling function must call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on the returned value. This method returns the same value as <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">WBEMTime::GetDMTF</a>(false).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>
+<a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">WBEMTime::GetDMTF</a>
-
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">WBEMTime::GetDMTF</a>

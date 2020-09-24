@@ -61,7 +61,7 @@ Contains basic and extended limit information for a job object.
 ### -field BasicLimitInformation
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure that contains basic limit information.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure that contains basic limit information.
 
 ### -field IoInfo
 
@@ -70,12 +70,12 @@ Reserved.
 ### -field ProcessMemoryLimit
 
 If the <b>LimitFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure specifies the <b>JOB_OBJECT_LIMIT_PROCESS_MEMORY</b> value, this member specifies the limit for the virtual memory that can be committed by a process. Otherwise, this member is ignored.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure specifies the <b>JOB_OBJECT_LIMIT_PROCESS_MEMORY</b> value, this member specifies the limit for the virtual memory that can be committed by a process. Otherwise, this member is ignored.
 
 ### -field JobMemoryLimit
 
 If the <b>LimitFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure specifies the <b>JOB_OBJECT_LIMIT_JOB_MEMORY</b> value, this member specifies the limit for the virtual memory that can be committed for the job. Otherwise, this member is ignored.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure specifies the <b>JOB_OBJECT_LIMIT_JOB_MEMORY</b> value, this member specifies the limit for the virtual memory that can be committed for the job. Otherwise, this member is ignored.
 
 ### -field PeakProcessMemoryUsed
 
@@ -91,11 +91,11 @@ The system tracks the value of <b>PeakProcessMemoryUsed</b> and <b>PeakJobMemory
 
 Note that the job memory and process memory limits are very similar in operation, but they are independent. You could set a job-wide limit of 100 MB with a per-process limit of 10 MB. In this scenario, no single process could commit more than 10 MB, and the set of processes associated with a job could never exceed 100 MB.
 
-To register for notifications  that a job has exceeded its peak memory limit while allowing processes to continue to commit memory, use the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
+To register for notifications  that a job has exceeded its peak memory limit while allowing processes to continue to commit memory, use the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a>
 
 
 
@@ -103,9 +103,8 @@ To register for notifications  that a job has exceeded its peak memory limit whi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>

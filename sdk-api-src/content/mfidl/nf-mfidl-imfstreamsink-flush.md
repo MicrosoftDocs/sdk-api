@@ -93,7 +93,7 @@ The stream sink has not been initialized yet. You might need to set a media type
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
+The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -112,17 +112,16 @@ This stream was removed from the media sink and is no longer valid.
 
 ## -remarks
 
-If any samples are still queued from previous calls to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-processsample">IMFStreamSink::ProcessSample</a> method, the media sink immediately discards them, without processing them. This can cause a glitch in the rendered output. The running state of the sink (running, paused, or stopped) does not change.
+If any samples are still queued from previous calls to the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-processsample">IMFStreamSink::ProcessSample</a> method, the media sink immediately discards them, without processing them. This can cause a glitch in the rendered output. The running state of the sink (running, paused, or stopped) does not change.
 
-Any pending marker events from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">IMFStreamSink::PlaceMarker</a> method are dispatched immediately, with the status code E_ABORT.
+Any pending marker events from the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">IMFStreamSink::PlaceMarker</a> method are dispatched immediately, with the status code E_ABORT.
 
 This method is synchronous. It does not return until the sink has discarded all pending samples.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

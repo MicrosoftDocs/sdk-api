@@ -74,7 +74,7 @@ Provides a representation of the object on the screen as though it were printed 
 
 ## -remarks
 
-Values of this enumeration are used to define the <b>dwAspect</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure. Only one <b>DVASPECT</b> value can be used to specify a single presentation aspect in a <b>FORMATETC</b> structure. The <b>FORMATETC</b> structure is used in many OLE functions and interface methods that require information on data presentation.
+Values of this enumeration are used to define the <b>dwAspect</b> member of the <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure. Only one <b>DVASPECT</b> value can be used to specify a single presentation aspect in a <b>FORMATETC</b> structure. The <b>FORMATETC</b> structure is used in many OLE functions and interface methods that require information on data presentation.
 
 
 
@@ -86,33 +86,32 @@ The default value of <b>MiscStatus</b> is used if a subkey corresponding to the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
+<a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a>
+<a href="/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oledraw">OleDraw</a>
-
+<a href="/windows/desktop/api/ole/nf-ole-oledraw">OleDraw</a>

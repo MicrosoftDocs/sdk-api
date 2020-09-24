@@ -77,26 +77,25 @@ A handle to the device to be checked.
 ### -field dbch_hdevnotify
 
 A handle to the device notification. This handle is returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>.
+<a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>.
 
 ### -field dbch_eventguid
 
 The GUID for the custom event. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-events">Device Events</a>.  Valid only for <a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>.
+<a href="/windows/desktop/DevIO/device-events">Device Events</a>.  Valid only for <a href="/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>.
 
 ### -field dbch_nameoffset
 
-The offset of an optional string buffer.  Valid only for <a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>.
+The offset of an optional string buffer.  Valid only for <a href="/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>.
 
 ### -field dbch_data
 
-Optional binary data.  This member is valid only for <a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>.
+Optional binary data.  This member is valid only for <a href="/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
-
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>

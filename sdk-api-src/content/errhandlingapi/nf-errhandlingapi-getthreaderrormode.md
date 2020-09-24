@@ -105,13 +105,12 @@ The system does not display a message box when it fails to find a file. Instead,
 
 ## -remarks
 
-A thread inherits the error mode of the process in which it is running. To change the error mode for the thread, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> function.
+A thread inherits the error mode of the process in which it is running. To change the error mode for the thread, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a>
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a>

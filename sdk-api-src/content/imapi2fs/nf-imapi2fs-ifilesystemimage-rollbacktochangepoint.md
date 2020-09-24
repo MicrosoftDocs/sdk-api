@@ -97,19 +97,18 @@ Value: 0xC0AAB131
 
 ## -remarks
 
-Typically, an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a> method and stores the change point value prior to making a change to the file system. If necessary, you can pass the change point value to this method to revert changes since that point in development.
+Typically, an application calls the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a> method and stores the change point value prior to making a change to the file system. If necessary, you can pass the change point value to this method to revert changes since that point in development.
 
-An application can call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-lockinchangepoint">IFileSystemImage::LockInChangePoint</a> method to lock the state of  a file system image at any point in its development. After a lock is set, you cannot call this method to revert the file system image to its earlier state.
+An application can call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-lockinchangepoint">IFileSystemImage::LockInChangePoint</a> method to lock the state of  a file system image at any point in its development. After a lock is set, you cannot call this method to revert the file system image to its earlier state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-lockinchangepoint">IFileSystemImage::LockInChangePoint</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-lockinchangepoint">IFileSystemImage::LockInChangePoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a>

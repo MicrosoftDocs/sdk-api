@@ -52,21 +52,21 @@ From a font set, create a collection of fonts grouped into families.
 
 ### -param fontSet
 
-Type: **[IDWriteFontSet](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset)\***
+Type: **[IDWriteFontSet](./nn-dwrite_3-idwritefontset.md)\***
 
 A set of fonts to use to build the collection.
 
 ### -param fontFamilyModel
 
-Type: **[DWRITE_FONT_FAMILY_MODEL](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model)**
+Type: **[DWRITE_FONT_FAMILY_MODEL](./ne-dwrite_3-dwrite_font_family_model.md)**
 
 How to group families in the collection.
 
 ### -param fontCollection [out]
 
-Type: **[IDWriteFontCollection2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2)\*\***
+Type: **[IDWriteFontCollection2](./nn-dwrite_3-idwritefontcollection2.md)\*\***
 
-The address of a pointer to an [IDWriteFontCollection2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2) interface. On successful completion, the function sets the pointer to a newly created font collection object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontCollection2](./nn-dwrite_3-idwritefontcollection2.md) interface. On successful completion, the function sets the pointer to a newly created font collection object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 
@@ -77,4 +77,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

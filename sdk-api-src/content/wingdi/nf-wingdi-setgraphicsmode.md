@@ -78,7 +78,7 @@ The graphics mode. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Sets the graphics mode that is compatible with 16-bit Windows. This is the default mode. If this value is specified, the application can only modify the world-to-device transform by calling functions that set window and viewport extents and origins, but not by using <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>; calls to those functions will fail. Examples of functions that set window and viewport extents and origins are <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a>.
+Sets the graphics mode that is compatible with 16-bit Windows. This is the default mode. If this value is specified, the application can only modify the world-to-device transform by calling functions that set window and viewport extents and origins, but not by using <a href="/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a> or <a href="/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>; calls to those functions will fail. Examples of functions that set window and viewport extents and origins are <a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a>.
 
 </td>
 </tr>
@@ -127,41 +127,41 @@ If the GM_ADVANCED graphics mode is set, GDI always draws arcs in the counterclo
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-coordinate-spaces-and-transformations">Using Coordinate Spaces and Transformations</a>.
+For an example, see <a href="/windows/desktop/gdi/using-coordinate-spaces-and-transformations">Using Coordinate Spaces and Transformations</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getarcdirection">GetArcDirection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getarcdirection">GetArcDirection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getgraphicsmode">GetGraphicsMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getgraphicsmode">GetGraphicsMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>
 
 
 
@@ -169,7 +169,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtent</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtent</a>
 
 
 
@@ -177,9 +177,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtent</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>

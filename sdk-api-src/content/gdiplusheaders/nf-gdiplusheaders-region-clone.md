@@ -52,15 +52,14 @@ api_name:
 ## -description
 
 The <b>Region::Clone</b> method makes a copy of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object and returns the address of the new 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object and returns the address of the new 
 			<b>Region</b>object.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
 
 This method returns a pointer to the new 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object.
-
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object.

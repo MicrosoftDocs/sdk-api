@@ -52,15 +52,14 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure defines an RSA key value.  The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure is used as element of the key value union  in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure.
+The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure defines an RSA key value.  The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure is used as element of the key value union  in the <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure.
 
 ## -struct-fields
 
 ### -field Modulus
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> modulus data.
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains the <a href="/windows/desktop/SecGloss/p-gly">public key</a> modulus data.
 
 ### -field Exponent
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains the public key exponent data.
-
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains the public key exponent data.

@@ -52,15 +52,14 @@ api_name:
 
 ## -description
 
-Indicates whether an object is activated as a windowless object. It is used in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx::OnInPlaceActivateEx</a>.
+Indicates whether an object is activated as a windowless object. It is used in <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx::OnInPlaceActivateEx</a>.
 
 ## -enum-fields
 
 ### -field ACTIVATE_WINDOWLESS
 
- Indicates that the object is activated in place as a windowless object. In the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx::OnInPlaceActivateEx</a> method, the container uses this value returned in the <i>dwFlags</i> parameter instead of calling the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless::GetWindow</a>  method to determine if the object is windowless or not.
+ Indicates that the object is activated in place as a windowless object. In the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx::OnInPlaceActivateEx</a> method, the container uses this value returned in the <i>dwFlags</i> parameter instead of calling the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless::GetWindow</a>  method to determine if the object is windowless or not.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx::OnInPlaceActivateEx</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx::OnInPlaceActivateEx</a>

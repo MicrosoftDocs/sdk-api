@@ -73,15 +73,14 @@ This function can return the standard return values E_OUTOFMEMORY and S_OK.
 
 ## -remarks
 
-<b>StringFromCLSID</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-stringfromguid2">StringFromGUID2</a> function to convert a globally unique identifier (GUID) into a string of printable characters.
+<b>StringFromCLSID</b> calls the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-stringfromguid2">StringFromGUID2</a> function to convert a globally unique identifier (GUID) into a string of printable characters.
 
-The caller is responsible for freeing the memory allocated for the string by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+The caller is responsible for freeing the memory allocated for the string by calling the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring">CLSIDFromString</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring">CLSIDFromString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-stringfromguid2">StringFromGUID2</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-stringfromguid2">StringFromGUID2</a>

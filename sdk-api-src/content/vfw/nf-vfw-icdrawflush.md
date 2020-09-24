@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDrawFlush</b> macro notifies a rendering driver to render the contents of any image buffers that are waiting to be drawn. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-flush">ICM_DRAW_FLUSH</a> message.
+The <b>ICDrawFlush</b> macro notifies a rendering driver to render the contents of any image buffers that are waiting to be drawn. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-draw-flush">ICM_DRAW_FLUSH</a> message.
 
 ## -parameters
 
@@ -64,9 +64,8 @@ This message is used only by hardware that performs its own asynchronous decompr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

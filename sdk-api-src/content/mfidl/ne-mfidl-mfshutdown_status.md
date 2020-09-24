@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes the current status of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> method.
+Describes the current status of a call to the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> method.
 
 ## -enum-fields
 
@@ -66,13 +66,12 @@ Shutdown is complete.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-getshutdownstatus">IMFShutdown::GetShutdownStatus</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-getshutdownstatus">IMFShutdown::GetShutdownStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

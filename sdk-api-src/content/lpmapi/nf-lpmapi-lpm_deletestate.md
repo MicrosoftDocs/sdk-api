@@ -127,9 +127,8 @@ LPMs can use <i>DeleteReason</i> for statistical gathering or any other use.
 The PCM will call the 
 <i>LPM_DeleteState</i> function for each LPM; LPMs should be prepared to handle 
 <i>LPM_DeleteState</i> for a nonexistent state, as described further in the Remarks section of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a> function.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>

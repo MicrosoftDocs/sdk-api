@@ -56,7 +56,7 @@ Gets the provider for the entire non-client area of a window, or  for a control 
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The window that owns the non-client area or non-client control.
 
@@ -64,7 +64,7 @@ The window that owns the non-client area or non-client control.
 
 Type: <b>long</b>
 
-The object identifier of the non-client control, or <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">OBJID_WINDOW</a> for the entire non-client area. For a list of possible values, see <b>Object Identifiers</b>.
+The object identifier of the non-client control, or <a href="/windows/desktop/WinAuto/object-identifiers">OBJID_WINDOW</a> for the entire non-client area. For a list of possible values, see <b>Object Identifiers</b>.
 
 ### -param idChild [in]
 
@@ -74,27 +74,26 @@ The child identifier of the non-client control.
 
 ### -param ppProvider [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>**</b>
 
 Receives the provider for the non-client area or non-client control.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
 ## -remarks
 
-This function returns the default Microsoft UI Automation provider for the non-client area of a window.  UI Automation supports the non-client area without any explicit help from the window. You can override and customize the support by using the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interface that is retrieved by this function.  
+This function returns the default Microsoft UI Automation provider for the non-client area of a window.  UI Automation supports the non-client area without any explicit help from the window. You can override and customize the support by using the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interface that is retrieved by this function.  
 
-This function is particularly useful when you use it with the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-provideroptions">ProviderOptions_RefuseNonClientSupport</a> flag, which disables the UI Automation default provider for the non-client area so that the window can supply  its own provider.
+This function is particularly useful when you use it with the <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-provideroptions">ProviderOptions_RefuseNonClientSupport</a> flag, which disables the UI Automation default provider for the non-client area so that the window can supply  its own provider.
 
 
 
-The supported object IDs for controls in the non-client area include <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">OBJID_WINDOW</a><a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">, OBJID_VSCROLL</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">OBJID_HSCROLL</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">OBJID_TITLEBAR</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">OBJID_MENU</a>, and <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">OBJID_SIZEGRIP</a>.  For <b>OBJID_TITLEBAR</b>, use the child ID to distinguish between the entire title bar and the buttons that it contains.
+The supported object IDs for controls in the non-client area include <a href="/windows/desktop/WinAuto/object-identifiers">OBJID_WINDOW</a><a href="/windows/desktop/WinAuto/object-identifiers">, OBJID_VSCROLL</a>, <a href="/windows/desktop/WinAuto/object-identifiers">OBJID_HSCROLL</a>, <a href="/windows/desktop/WinAuto/object-identifiers">OBJID_TITLEBAR</a>, <a href="/windows/desktop/WinAuto/object-identifiers">OBJID_MENU</a>, and <a href="/windows/desktop/WinAuto/object-identifiers">OBJID_SIZEGRIP</a>.  For <b>OBJID_TITLEBAR</b>, use the child ID to distinguish between the entire title bar and the buttons that it contains.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-functions">Functions for Providers</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-functions">Functions for Providers</a>

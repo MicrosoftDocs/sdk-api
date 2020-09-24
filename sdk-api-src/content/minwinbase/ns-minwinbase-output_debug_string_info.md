@@ -61,7 +61,7 @@ Contains the address, format, and length, in bytes, of a debugging string.
 ### -field lpDebugStringData
 
 The debugging string in the calling process's address space. The debugger can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function to retrieve the value of the string.
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function to retrieve the value of the string.
 
 ### -field fUnicode
 
@@ -75,7 +75,6 @@ For example, if the original output string is longer than 65536 bytes, this fiel
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>

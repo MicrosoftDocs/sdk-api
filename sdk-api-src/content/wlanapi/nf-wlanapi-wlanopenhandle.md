@@ -165,5 +165,4 @@ The version number specified by <i>dwClientVersion</i> and <i>pdwNegotiatedVersi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a>

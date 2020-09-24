@@ -90,5 +90,4 @@ To set a record string field to null, set szValue to either a null string or an 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Record Processing Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Record Processing Functions</a>

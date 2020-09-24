@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 A structure that is used to specify the custom proxy for the channel, using 
-                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY</a>.
+                the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY</a>.
 
 ## -struct-fields
 
@@ -78,4 +78,3 @@ A semicolon-separated list of the proxy servers to be used by the channel. Each
 A semicolon separated list of servers which must be bypassed by the proxy. 
                     The bypass list can contain the string &lt;local&gt; to indicate that 
                     all local machine servers are bypassed.
-

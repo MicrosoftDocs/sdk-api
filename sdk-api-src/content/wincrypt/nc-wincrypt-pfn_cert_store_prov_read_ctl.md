@@ -50,18 +50,18 @@ api_name:
 
 ## -description
 
-The <b>CertStoreProvReadCTL</b> callback function is called to read the provider's copy of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a> context and, if it exists, to create a new CTL context. Currently, this callback function is not called directly by the store APIs but it can be exported to support other providers based on it.
+The <b>CertStoreProvReadCTL</b> callback function is called to read the provider's copy of the <a href="/windows/desktop/SecGloss/c-gly">CTL</a> context and, if it exists, to create a new CTL context. Currently, this callback function is not called directly by the store APIs but it can be exported to support other providers based on it.
 
 ## -parameters
 
 ### -param hStoreProv [in]
 
-<b>HCERTSTOREPROV</b> handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
+<b>HCERTSTOREPROV</b> handle to a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 ### -param pStoreCtlContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure.
 
 ### -param dwFlags [in]
 
@@ -69,7 +69,7 @@ Any needed flag values.
 
 ### -param *ppProvCtlContext [out]
 
-A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be returned by the function. The context will be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
+A pointer to a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be returned by the function. The context will be freed by calling <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
 ## -returns
 
@@ -77,5 +77,4 @@ Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if it fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>

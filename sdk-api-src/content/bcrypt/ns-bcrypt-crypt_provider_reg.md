@@ -68,9 +68,8 @@ An array of null-terminated Unicode strings that contains the aliases of the pro
 
 ### -field pUM
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_reg">CRYPT_IMAGE_REG</a> structure that contains the registration information for the user mode provider. If this member is <b>NULL</b>, the provider is not registered for user mode.
+A pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_reg">CRYPT_IMAGE_REG</a> structure that contains the registration information for the user mode provider. If this member is <b>NULL</b>, the provider is not registered for user mode.
 
 ### -field pKM
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_reg">CRYPT_IMAGE_REG</a> structure that contains the registration information for the kernel mode provider. If this member is <b>NULL</b>, the provider is not registered for kernel mode.
-
+A pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_reg">CRYPT_IMAGE_REG</a> structure that contains the registration information for the kernel mode provider. If this member is <b>NULL</b>, the provider is not registered for kernel mode.

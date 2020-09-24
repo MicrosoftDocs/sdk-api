@@ -56,11 +56,11 @@ The <b>GetDataPlanStatus</b> retrieves the data plan status for either a machine
 
 ### -param pDataPlanStatus [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_dataplan_status">NLM_DATAPLAN_STATUS</a> structure that describes the data plan status associated with a connection used to route to a destination. If <i>destIPAddr</i> specifies a tunnel address, the first available data plan status in the interface stack is returned.
+Pointer to an <a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_dataplan_status">NLM_DATAPLAN_STATUS</a> structure that describes the data plan status associated with a connection used to route to a destination. If <i>destIPAddr</i> specifies a tunnel address, the first available data plan status in the interface stack is returned.
 
 ### -param pDestIPAddr [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_sockaddr">NLM_SOCKADDR</a> structure containing the destination IPv4/IPv6 or tunnel address. If   NULL, this method returns the cost associated with the preferred connection used for machine Internet connectivity.
+An <a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_sockaddr">NLM_SOCKADDR</a> structure containing the destination IPv4/IPv6 or tunnel address. If   NULL, this method returns the cost associated with the preferred connection used for machine Internet connectivity.
 
 ## -returns
 
@@ -130,9 +130,8 @@ Network connectivity is currently unavailable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanager">INetworkCostManager</a>
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanager">INetworkCostManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_sockaddr">NLM_SOCKADDR</a>
-
+<a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_sockaddr">NLM_SOCKADDR</a>

@@ -82,13 +82,12 @@ Parameter <i>pfLevel</i> is <b>NULL</b>.
 
 ## -remarks
 
-The volume level is normalized to the range from 0.0 to 1.0, where 0.0 is the minimum volume level and 1.0 is the maximum level. Within this range, the relationship of the normalized volume level to the attenuation of signal amplitude is described by a nonlinear, audio-tapered curve. Note that the shape of the curve might change in future versions of Windows. For more information about audio-tapered curves, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-tapered-volume-controls">Audio-Tapered Volume Controls</a>.
+The volume level is normalized to the range from 0.0 to 1.0, where 0.0 is the minimum volume level and 1.0 is the maximum level. Within this range, the relationship of the normalized volume level to the attenuation of signal amplitude is described by a nonlinear, audio-tapered curve. Note that the shape of the curve might change in future versions of Windows. For more information about audio-tapered curves, see <a href="/windows/desktop/CoreAudio/audio-tapered-volume-controls">Audio-Tapered Volume Controls</a>.
 
 The normalized volume levels that are retrieved by this method are suitable to represent the positions of volume controls in application windows and on-screen displays.
 
-For a code example that calls <b>GetMasterVolumeLevelScalar</b>, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-volume-controls">Endpoint Volume Controls</a>.
+For a code example that calls <b>GetMasterVolumeLevelScalar</b>, see <a href="/windows/desktop/CoreAudio/endpoint-volume-controls">Endpoint Volume Controls</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>
-
+<a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>

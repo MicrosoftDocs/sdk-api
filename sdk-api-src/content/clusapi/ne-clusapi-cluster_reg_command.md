@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.  It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a> and <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a> structures.
+Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.  It is used by the <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a> and <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a> structures.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ This constant is not a valid command. It and the <b>CLUSREG_LAST_COMMAND</b> con
 
 ### -field CLUSREG_SET_VALUE
 
-This command sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
+This command sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
 
 ### -field CLUSREG_CREATE_KEY
 
@@ -72,7 +72,7 @@ This command will delete a key with all values and nested subkeys.  No commands 
 
 ### -field CLUSREG_DELETE_VALUE
 
-This command deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
+This command deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
 
 ### -field CLUSREG_SET_KEY_SECURITY
 
@@ -160,13 +160,12 @@ The <b>CLUSREG_VALUE_DELETED</b> command precedes every <b>CLUSREG_SET_VALUE</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a>
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a>
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a>
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

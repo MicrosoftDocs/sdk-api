@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDecompressBegin</b> macro notifies a video decompression driver to prepare to decompress data. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompress-begin">ICM_DECOMPRESS_BEGIN</a> message.
+The <b>ICDecompressBegin</b> macro notifies a video decompression driver to prepare to decompress data. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-decompress-begin">ICM_DECOMPRESS_BEGIN</a> message.
 
 ## -parameters
 
@@ -60,23 +60,22 @@ Handle to a decompressor.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the input format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the input format.
 
 ### -param lpbiOutput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the output format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the output format.
 
 ## -remarks
 
-When the driver receives this message, it should allocate buffers and do any time-consuming operations so that it can process <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompress">ICM_DECOMPRESS</a> messages efficiently.
+When the driver receives this message, it should allocate buffers and do any time-consuming operations so that it can process <a href="/windows/desktop/Multimedia/icm-decompress">ICM_DECOMPRESS</a> messages efficiently.
 
-The <b>ICDecompressBegin</b> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressend">ICDecompressEnd</a> macros do not nest. If your driver receives <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompress-begin">ICM_DECOMPRESS_BEGIN</a> before decompression is stopped with <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompress-end">ICM_DECOMPRESS_END</a>, it should restart decompression with new parameters.
+The <b>ICDecompressBegin</b> and <a href="/windows/desktop/api/vfw/nf-vfw-icdecompressend">ICDecompressEnd</a> macros do not nest. If your driver receives <a href="/windows/desktop/Multimedia/icm-decompress-begin">ICM_DECOMPRESS_BEGIN</a> before decompression is stopped with <a href="/windows/desktop/Multimedia/icm-decompress-end">ICM_DECOMPRESS_END</a>, it should restart decompression with new parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

@@ -64,19 +64,19 @@ Pointer to a variable that receives the profile type. If the function succeeds, 
 
 #### PT_MANDATORY
 
-The user has a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776895(v=vs.85)">Mandatory User Profiles</a>.
+The user has a <a href="/previous-versions/windows/desktop/legacy/bb776895(v=vs.85)">Mandatory User Profiles</a>.
 
 
 
 #### PT_ROAMING
 
-The user has a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776897(v=vs.85)">Roaming User Profiles</a>.
+The user has a <a href="/previous-versions/windows/desktop/legacy/bb776897(v=vs.85)">Roaming User Profiles</a>.
 
 
 
 #### PT_ROAMING_PREEXISTING
 
-The user has a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776897(v=vs.85)">Roaming User Profile</a> that was created on another PC and is being downloaded.
+The user has a <a href="/previous-versions/windows/desktop/legacy/bb776897(v=vs.85)">Roaming User Profile</a> that was created on another PC and is being downloaded.
 						This profile type implies <b>PT_ROAMING</b>.
 					
 
@@ -84,31 +84,30 @@ The user has a <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 #### PT_TEMPORARY
 
-The user has a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776898(v=vs.85)">Temporary User Profiles</a>; it will be deleted at logoff.
+The user has a <a href="/previous-versions/windows/desktop/legacy/bb776898(v=vs.85)">Temporary User Profiles</a>; it will be deleted at logoff.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If the user profile is not already loaded, the function fails.
 
-Note that the caller must have <b>KEY_READ</b> access to <b>HKEY_LOCAL_MACHINE</b>. This access right is granted by default. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+Note that the caller must have <b>KEY_READ</b> access to <b>HKEY_LOCAL_MACHINE</b>. This access right is granted by default. For more information, see <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 If the profile type is <b>PT_ROAMING_PREEXISTING</b>, Explorer will not reinitialize default programs associations when a profile is loaded on a machine for the first time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
+<a href="/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>

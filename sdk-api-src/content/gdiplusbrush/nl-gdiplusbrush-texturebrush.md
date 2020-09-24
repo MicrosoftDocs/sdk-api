@@ -50,7 +50,6 @@ api_name:
 
 ## -description
 
-The <b>TextureBrush</b> class defines a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that contains an 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that is used for the fill. The fill image can be transformed by using the local 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object contained in the <b>Brush</b> object.
-
+The <b>TextureBrush</b> class defines a <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that contains an 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that is used for the fill. The fill image can be transformed by using the local 
+			<a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object contained in the <b>Brush</b> object.

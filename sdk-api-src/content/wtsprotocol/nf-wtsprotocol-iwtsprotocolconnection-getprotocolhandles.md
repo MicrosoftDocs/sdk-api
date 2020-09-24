@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::GetProtocolHandles</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getinputhandles">IWRdsProtocolConnection::GetInputHandles</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getvideohandle">IWRdsProtocolConnection::GetVideoHandle</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::GetProtocolHandles</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getinputhandles">IWRdsProtocolConnection::GetInputHandles</a> and <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getvideohandle">IWRdsProtocolConnection::GetVideoHandle</a>.]
 
 Retrieves keyboard, mouse, sound, and beep handles supported by the protocol.
 
@@ -58,11 +58,11 @@ Retrieves keyboard, mouse, sound, and beep handles supported by the protocol.
 
 ### -param pKeyboardHandle [out]
 
-A pointer to a keyboard handle. This is a handle to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">I8042prt keyboard driver</a>.
+A pointer to a keyboard handle. This is a handle to an <a href="/windows-hardware/drivers/ddi/content/index">I8042prt keyboard driver</a>.
 
 ### -param pMouseHandle [out]
 
-A pointer to a mouse handle. This is a handle to a <a href="https://docs.microsoft.com/previous-versions/ff542367(v=vs.85)">Mouclass driver</a>.
+A pointer to a mouse handle. This is a handle to a <a href="/previous-versions/ff542367(v=vs.85)">Mouclass driver</a>.
 
 ### -param pBeepHandle [out]
 
@@ -74,5 +74,4 @@ A pointer to a beep device handle. This handle is not used and must be set to <b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>

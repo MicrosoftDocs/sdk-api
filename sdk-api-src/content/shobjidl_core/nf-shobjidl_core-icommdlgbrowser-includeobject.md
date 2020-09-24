@@ -56,9 +56,9 @@ Allows the common dialog box to filter objects that the view displays.
 
 ### -param ppshv
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
 
-A pointer to the view's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
+A pointer to the view's <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
 
 ### -param pidl
 
@@ -74,18 +74,17 @@ The browser should return S_OK to include the object in the view, or S_FALSE to 
 
 ## -remarks
 
-This method is called by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a> implementation when hosted in file dialog boxes. The enumerator calls this method to let the common dialog box filter out objects that should not be displayed. Typically, the file dialog boxes will get the display text of the item, and filter by the extension.
+This method is called by the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a> implementation when hosted in file dialog boxes. The enumerator calls this method to let the common dialog box filter out objects that should not be displayed. Typically, the file dialog boxes will get the display text of the item, and filter by the extension.
 
 <h3><a id="Note_to_Calling_Applications"></a><a id="note_to_calling_applications"></a><a id="NOTE_TO_CALLING_APPLICATIONS"></a>Note to Calling Applications</h3>
 Call this method before returning an object in the Shell folder's IDLIST enumerator.
 
-When dealing with data sources that have many items, such as libraries and searches, the callback to this method results in poor performance. To avoid that situation, implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser2-getviewflags">GetViewFlags</a> and return CDB2GVF_NOINCLUDEITEM. Doing so enables the view to skip calling <b>ICommDlgBrowser::IncludeObject</b>, thereby improving performance.
+When dealing with data sources that have many items, such as libraries and searches, the callback to this method results in poor performance. To avoid that situation, implement <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser2-getviewflags">GetViewFlags</a> and return CDB2GVF_NOINCLUDEITEM. Doing so enables the view to skip calling <b>ICommDlgBrowser::IncludeObject</b>, thereby improving performance.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940358(v=vs.85)">Explorer Browser Search Sample</a>
+<a href="/previous-versions/windows/desktop/legacy/dd940358(v=vs.85)">Explorer Browser Search Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>

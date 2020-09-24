@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about the high and low limits of a progress bar control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/pbm-getrange">PBM_GETRANGE</a> message.
+Contains information about the high and low limits of a progress bar control. This structure is used with the <a href="/windows/desktop/Controls/pbm-getrange">PBM_GETRANGE</a> message.
 
 ## -struct-fields
 
@@ -67,4 +67,3 @@ Low limit for the progress bar control. This is a signed integer.
 Type: <b>int</b>
 
 High limit for the progress bar control. This is a signed integer.
-

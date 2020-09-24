@@ -89,7 +89,7 @@ used to lock a global memory block allocated by <a href="https://msdn.microsoft.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Updating Resources</a>.
+For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -116,4 +116,3 @@ For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
-

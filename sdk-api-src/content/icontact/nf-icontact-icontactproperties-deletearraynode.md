@@ -104,6 +104,5 @@ Property name doesn't exist for delete.
 ## -remarks
 
 <div class="alert"><b>Note</b>  Element indexes are unchanged for the entire set. Array node element ID, 
-		modification and version data can still be enumerated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a>.</div>
+		modification and version data can still be enumerated with <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a>.</div>
 <div> </div>
-

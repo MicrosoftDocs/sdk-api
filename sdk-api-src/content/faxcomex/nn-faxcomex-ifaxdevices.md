@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IFaxDevices</b> interface defines a collection used by a fax client application to manage fax devices, where each device is represented by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object.
+The <b>IFaxDevices</b> interface defines a collection used by a fax client application to manage fax devices, where each device is represented by a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDevices</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDevices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDevices</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDevices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,28 +70,28 @@ The <b>IFaxDevices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get__newenum">get__NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get__newenum">IFaxDevices::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get__newenum">IFaxDevices::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get_item">get_Item</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get_item">IFaxDevices::get_Item</a> method returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection, using its index.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get_item">IFaxDevices::get_Item</a> method returns a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object from the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection, using its index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get_itembyid">get_ItemById</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get_itembyid">get_ItemById</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get_itembyid">IFaxDevices::get_ItemById</a> method returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection, using its device ID.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevices-get_itembyid">IFaxDevices::get_ItemById</a> method returns a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object from the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection, using its device ID.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices-count-vb">Count</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices-count-vb">Count</a>
 
 
 </td>
@@ -115,7 +115,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices-count-vb">IFaxDevices::get_Count</a> property represents the number of objects in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection. This is the total number of devices used by the fax server.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices-count-vb">IFaxDevices::get_Count</a> property represents the number of objects in the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection. This is the total number of devices used by the fax server.
 
 </td>
 </tr>
@@ -123,5 +123,4 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 ## -remarks
 
-A default implementation of <b>IFaxDevices</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> object.
-
+A default implementation of <b>IFaxDevices</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> object.

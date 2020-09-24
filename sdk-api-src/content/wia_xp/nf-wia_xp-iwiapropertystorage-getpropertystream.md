@@ -62,9 +62,9 @@ Receives a unique identifier for a set of property values.
 
 ### -param ppIStream [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
-Pointer to a stream that receives the item properties. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
+Pointer to a stream that receives the item properties. For more information, see <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 ## -returns
 
@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Applications use this method to get a snapshot of the current properties of an item. These are subsequently restored by calling <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream">IWiaPropertyStorage::SetPropertyStream</a>.
+Applications use this method to get a snapshot of the current properties of an item. These are subsequently restored by calling <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream">IWiaPropertyStorage::SetPropertyStream</a>.
 
 Applications can use the <i>pCompatibilityID</i> parameter to check if a device supports a specific set of property values before attempting to write these values to the device.
 
@@ -82,9 +82,8 @@ When it is finished using the item's property stream, the application must relea
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a>
-
+<a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a>

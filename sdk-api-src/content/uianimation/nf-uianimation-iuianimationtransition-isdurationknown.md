@@ -56,7 +56,7 @@ Determines whether a transition's duration is currently known.
 
 ## -returns
 
-Returns S_OK if the duration is known, S_FALSE if the duration is not known, or an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+Returns S_OK if the duration is known, S_FALSE if the duration is not known, or an <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 <table>
 <tr>
@@ -83,15 +83,14 @@ This method should not be called when the storyboard to which the transition has
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">IUIAnimationTransition::GetDuration</a>.
+For an example, see <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">IUIAnimationTransition::GetDuration</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">IUIAnimationTransition::GetDuration</a>
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">IUIAnimationTransition::GetDuration</a>

@@ -84,9 +84,8 @@ There is an open undo unit on the stack or the undo manager is currently perform
 
 The undo manager should clear both stacks when making the transition from enabled to disabled.
 
-If the undo manager is disabled, each method in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a> must behave as specified. See each method for details.
+If the undo manager is disabled, each method in <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a> must behave as specified. See each method for details.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>

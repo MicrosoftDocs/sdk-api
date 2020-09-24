@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initcommoncontrolsex">InitCommonControlsEx</a> function.
+Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="/windows/desktop/api/commctrl/nf-commctrl-initcommoncontrolsex">InitCommonControlsEx</a> function.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The size of the structure, in bytes.
 
 ### -field dwICC
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The set of bit flags that indicate which common control classes will be loaded from the DLL. This can be a combination of the following values. 
 
@@ -263,4 +263,3 @@ Load animate control, header, hot key, list-view, progress bar, status bar, tab,
 </td>
 </tr>
 </table>
-

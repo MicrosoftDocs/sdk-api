@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>ReceiveTSPCallData</b> method is called by the MSP address object's 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-receivetspdata">ReceiveTSPData</a> method to dispatch TSP data to the correct call. The call object should override this method to handle the TSP data according to whatever semantics have been defined for communication between this particular MSP and its corresponding TSP. The default implementation simply returns S_OK, which is sufficient for an MSP that does not handle any per-call TSP data.
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-receivetspdata">ReceiveTSPData</a> method to dispatch TSP data to the correct call. The call object should override this method to handle the TSP data according to whatever semantics have been defined for communication between this particular MSP and its corresponding TSP. The default implementation simply returns S_OK, which is sufficient for an MSP that does not handle any per-call TSP data.
 
 ## -parameters
 
@@ -66,5 +66,4 @@ Size of the buffer, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
-
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>

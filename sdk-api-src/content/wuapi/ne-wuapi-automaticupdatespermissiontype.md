@@ -52,35 +52,34 @@ api_name:
 
 ## -description
 
-Defines the possible ways to set the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">NotificationLevel</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a> interface or the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings2-get_includerecommendedupdates">IncludeRecommendedUpdates</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings2">IAutomaticUpdatesSettings2</a> interface.
+Defines the possible ways to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">NotificationLevel</a> property of the <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a> interface or the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings2-get_includerecommendedupdates">IncludeRecommendedUpdates</a> property of the <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings2">IAutomaticUpdatesSettings2</a> interface.
 
 ## -enum-fields
 
 ### -field auptSetNotificationLevel
 
-The ability to set the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">IAutomaticUpdatesSettings::NotificationLevel</a> property.
+The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">IAutomaticUpdatesSettings::NotificationLevel</a> property.
 
 ### -field auptDisableAutomaticUpdates
 
-The ability to set the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">IAutomaticUpdatesSettings::NotificationLevel</a> property to <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-automaticupdatesnotificationlevel">aunlDisabled</a>.
+The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">IAutomaticUpdatesSettings::NotificationLevel</a> property to <a href="/windows/desktop/api/wuapi/ne-wuapi-automaticupdatesnotificationlevel">aunlDisabled</a>.
 
 ### -field auptSetIncludeRecommendedUpdates
 
-The ability to set the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings2-get_includerecommendedupdates">IAutomaticUpdatesSettings2::IncludedRecommendedUpdates</a> property.
+The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings2-get_includerecommendedupdates">IAutomaticUpdatesSettings2::IncludedRecommendedUpdates</a> property.
 
 ### -field auptSetFeaturedUpdatesEnabled
 
-The ability to set the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled">IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled</a> property.
+The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled">IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled</a> property.
 
 ### -field auptSetNonAdministratorsElevated
 
-The ability to set the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_nonadministratorselevated">IAutomaticUpdatesSettings3::NonAdministratorsElevated</a> property.
+The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_nonadministratorselevated">IAutomaticUpdatesSettings3::NonAdministratorsElevated</a> property.
 
 ## -remarks
 
-Featured update notifications are only supported on Windows Vista and above. On Windows XP systems running versions of the Windows Update Agent (WUA) that support <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings3">IAutomaticUpdatesSettings3</a>, the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled">IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled</a> value will always be VARIANT_FALSE, and attempting to alter its value will result in an error.
+Featured update notifications are only supported on Windows Vista and above. On Windows XP systems running versions of the Windows Update Agent (WUA) that support <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings3">IAutomaticUpdatesSettings3</a>, the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled">IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled</a> value will always be VARIANT_FALSE, and attempting to alter its value will result in an error.
 
-Featured update notifications are only supported when Automatic Updates is turned on. If Automatic Updates is set to “Never check for updates (not recommended),” then the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled">IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled</a> value will always be VARIANT_FALSE, and attempting to alter its value will result in an error.
+Featured update notifications are only supported when Automatic Updates is turned on. If Automatic Updates is set to “Never check for updates (not recommended),” then the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled">IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled</a> value will always be VARIANT_FALSE, and attempting to alter its value will result in an error.
 
-Featured update notifications are only supported on certain update services. Currently, the only supported update service is Microsoft Update. If Automatic Updates is currently configured to receive updates from another service (from Windows Update, or from a WSUS server), then  the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled">IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled</a> value will always be VARIANT_FALSE, and attempting to alter its value will result in an error.
-
+Featured update notifications are only supported on certain update services. Currently, the only supported update service is Microsoft Update. If Automatic Updates is currently configured to receive updates from another service (from Windows Update, or from a WSUS server), then  the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled">IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled</a> value will always be VARIANT_FALSE, and attempting to alter its value will result in an error.

@@ -54,11 +54,10 @@ api_name:
 
 ## -description
 
-Specifies information about a managed service account. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netqueryserviceaccount">NetQueryServiceAccount</a> function.
+Specifies information about a managed service account. This structure is used by the <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netqueryserviceaccount">NetQueryServiceAccount</a> function.
 
 ## -struct-fields
 
 ### -field State
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ne-lmaccess-msa_info_state">MSA_INFO_STATE</a> enumeration that indicates the state of the service account specified in the call to the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netqueryserviceaccount">NetQueryServiceAccount</a> function.
-
+A value of the <a href="/windows/desktop/api/lmaccess/ne-lmaccess-msa_info_state">MSA_INFO_STATE</a> enumeration that indicates the state of the service account specified in the call to the <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netqueryserviceaccount">NetQueryServiceAccount</a> function.

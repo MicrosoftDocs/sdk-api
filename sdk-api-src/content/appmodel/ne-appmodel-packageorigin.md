@@ -84,5 +84,4 @@ The package originated as a line-of-business app.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getstagedpackageorigin">GetStagedPackageOrigin</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getstagedpackageorigin">GetStagedPackageOrigin</a>

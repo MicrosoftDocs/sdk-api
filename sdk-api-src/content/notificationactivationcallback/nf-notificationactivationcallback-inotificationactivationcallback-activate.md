@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-In order for your app to respond to toasts in the action center, you need to override this method in your app. You also will need to create a shortcut on the start menu. For more information about how to respond to activation notifications, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/win32_tile_badge_notif/respond-to-toast-activations">Respond to toast activations</a>.
+In order for your app to respond to toasts in the action center, you need to override this method in your app. You also will need to create a shortcut on the start menu. For more information about how to respond to activation notifications, see <a href="/previous-versions/windows/desktop/win32_tile_badge_notif/respond-to-toast-activations">Respond to toast activations</a>.
 
 If your application uses non-interactive toasts, you can respond to those without using <i>invokedArgs</i> or <i>data</i>.
 
@@ -86,9 +86,8 @@ If you return a failure code, the activation will fail and the user can try agai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/notificationactivationcallback/nn-notificationactivationcallback-inotificationactivationcallback">INotificationActivationCallback</a>
+<a href="/previous-versions/windows/desktop/api/notificationactivationcallback/nn-notificationactivationcallback-inotificationactivationcallback">INotificationActivationCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/win32_tile_badge_notif/respond-to-toast-activations">Respond to toast activations</a>
-
+<a href="/previous-versions/windows/desktop/win32_tile_badge_notif/respond-to-toast-activations">Respond to toast activations</a>

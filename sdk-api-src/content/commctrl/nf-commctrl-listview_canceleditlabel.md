@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Cancels an item text editing operation. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-canceleditlabel">LVM_CANCELEDITLABEL</a> message explicitly.
+Cancels an item text editing operation. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-canceleditlabel">LVM_CANCELEDITLABEL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ## -remarks
 
-To use <b>ListView_CancelEditLabel</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>ListView_CancelEditLabel</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

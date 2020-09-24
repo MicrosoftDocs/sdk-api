@@ -100,41 +100,40 @@ If the <i>pwzSrc</i> and <i>pwzDst</i> buffers overlap, the function's behavior 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopya">StringCbCopy</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopya">StringCbCopy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopynexa">StringCbCopyNEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopynexa">StringCbCopyNEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyexa">StringCchCopyEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyexa">StringCchCopyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyna">StringCchCopyN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyna">StringCchCopyN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>
 
 
 
 <b>StringCchLength</b>
-

@@ -62,9 +62,8 @@ Blocking hooks are generally used to keep a single-threaded GUI application resp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

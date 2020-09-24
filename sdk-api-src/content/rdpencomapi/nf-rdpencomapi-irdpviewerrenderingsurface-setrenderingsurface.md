@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpviewerrenderingsurface">IRDPViewerRenderingSurface</a> interface is no longer available for use as of Windows 10, version 1709.]
+<p class="CCE_Message">[The <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpviewerrenderingsurface">IRDPViewerRenderingSurface</a> interface is no longer available for use as of Windows 10, version 1709.]
 
 Sets the rendering surface to be used by the viewer.
 
@@ -58,7 +58,7 @@ Sets the rendering surface to be used by the viewer.
 
 ### -param pRenderingSurface [in]
 
-The address of the <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> object to use for the rendering surface.
+The address of the <a href="/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> object to use for the rendering surface.
 
 ### -param surfaceWidth [in]
 
@@ -74,5 +74,4 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpviewerrenderingsurface">IRDPViewerRenderingSurface</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpviewerrenderingsurface">IRDPViewerRenderingSurface</a>

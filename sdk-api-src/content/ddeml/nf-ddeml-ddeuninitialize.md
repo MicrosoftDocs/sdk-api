@@ -58,7 +58,7 @@ Frees all Dynamic Data Exchange Management Library (DDEML) resources associated 
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function.
+The application instance identifier obtained by a previous call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function.
 
 ## -returns
 
@@ -78,21 +78,20 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddedisconnectlist">DdeDisconnectList</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddedisconnectlist">DdeDisconnectList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
 <b>Reference</b>
-

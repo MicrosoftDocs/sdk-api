@@ -76,7 +76,7 @@ The identity that a peer uses to access the group. If  <b>NULL</b>, the session 
 
 Type: <b>LPCWSTR</b>
 
-An XML invitation granted by another peer. An invitation is created when the inviting peer calls <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreateinvitation">PeerGroupCreateInvitation</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupissuecredentials">PeerGroupIssueCredentials</a>. If this value is present, the invitation will be checked to ensure its format and expiration are valid.
+An XML invitation granted by another peer. An invitation is created when the inviting peer calls <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreateinvitation">PeerGroupCreateInvitation</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergroupissuecredentials">PeerGroupIssueCredentials</a>. If this value is present, the invitation will be checked to ensure its format and expiration are valid.
 
 ### -param Addresses [in, optional]
 
@@ -142,4 +142,3 @@ The level of diagnosis performed depends on the parameters supplied.<ul>
 <li>If <i>Invitation</i> is specified, the <i>GroupName</i> will be derived from the Invitation (if a <i>GroupName</i> was not also specified) and NDF will validate the invitation's format and status.</li>
 <li>If <i>Addresses</i> is specified, NDF will validate whether Windows can connect to up to three of these addresses.</li>
 </ul>
-

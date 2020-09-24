@@ -53,11 +53,11 @@ api_name:
 This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
         
 
-The <b>IBDA_IPSinkInfo</b> interface is implemented on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-ip-sink-filter">BDA IP Sink</a> filter, which manages the delivery of in-band IP data to the network stack. This interface supersedes <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ipsinkcontrol">IBDA_IPSinkControl</a>.
+The <b>IBDA_IPSinkInfo</b> interface is implemented on the <a href="/previous-versions/windows/desktop/mstv/bda-ip-sink-filter">BDA IP Sink</a> filter, which manages the delivery of in-band IP data to the network stack. This interface supersedes <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ipsinkcontrol">IBDA_IPSinkControl</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_IPSinkInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_IPSinkInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_IPSinkInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_IPSinkInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IBDA_IPSinkInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ipsinkinfo-get_adapterdescription">get_AdapterDescription</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ipsinkinfo-get_adapterdescription">get_AdapterDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description of the network adapter.
@@ -81,7 +81,7 @@ Retrieves the description of the network adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ipsinkinfo-get_adapteripaddress">get_AdapterIPAddress</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ipsinkinfo-get_adapteripaddress">get_AdapterIPAddress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the IP address of the data that the IP Sink filter receives.
@@ -90,7 +90,7 @@ Retrieves the IP address of the data that the IP Sink filter receives.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ipsinkinfo-get_multicastlist">get_MulticastList</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ipsinkinfo-get_multicastlist">get_MulticastList</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the multicast addresses to which the IP Sink filter is listening.
@@ -105,5 +105,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

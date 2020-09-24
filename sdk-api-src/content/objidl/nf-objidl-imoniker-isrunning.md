@@ -56,15 +56,15 @@ Determines whether the object identified by this moniker is currently loaded and
 
 ### -param pbc [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment.
 
 ### -param pmkToLeft [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to the left of this moniker if this moniker is part of a composite. This parameter is used primarily by moniker implementers to enable cooperation between the various components of a composite moniker; moniker clients can usually pass <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to the left of this moniker if this moniker is part of a composite. This parameter is used primarily by moniker implementers to enable cooperation between the various components of a composite moniker; moniker clients can usually pass <b>NULL</b>.
 
 ### -param pmkNewlyRunning [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker most recently added to the running object table (ROT). This can be <b>NULL</b>. If non-<b>NULL</b>, the implementation can return the results of calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-isequal">IMoniker::IsEqual</a> on the <i>pmkNewlyRunning</i> parameter, passing the current moniker. This parameter is intended to enable <b>IsRunning</b> implementations that are more efficient than just searching the ROT, but the implementation can choose to ignore <i>pmkNewlyRunning</i> without causing any harm.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker most recently added to the running object table (ROT). This can be <b>NULL</b>. If non-<b>NULL</b>, the implementation can return the results of calling <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-isequal">IMoniker::IsEqual</a> on the <i>pmkNewlyRunning</i> parameter, passing the current moniker. This parameter is intended to enable <b>IsRunning</b> implementations that are more efficient than just searching the ROT, but the implementation can choose to ignore <i>pmkNewlyRunning</i> without causing any harm.
 
 ## -returns
 
@@ -104,10 +104,10 @@ The moniker is not running.
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 If speed is important when you're requesting services from the object identified by the moniker, you may want those services only if the object is already running (because loading an object into the running state may be time-consuming). In such a situation, you should call <b>IsRunning</b> to determine whether the object is running.
 
-For the monikers stored within linked objects, <b>IsRunning</b> is primarily called by the default handler's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindifrunning">IOleLink::BindIfRunning</a>.
+For the monikers stored within linked objects, <b>IsRunning</b> is primarily called by the default handler's implementation of <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindifrunning">IOleLink::BindIfRunning</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-To get a pointer to the ROT, your implementation should call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a> on the <i>pbc</i> parameter. Your implementation can then call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-isrunning">IRunningObjectTable::IsRunning</a> to determine whether the object identified by the moniker is running. The object identified by the moniker must have registered itself with the ROT when it first began running.
+To get a pointer to the ROT, your implementation should call <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a> on the <i>pbc</i> parameter. Your implementation can then call <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-isrunning">IRunningObjectTable::IsRunning</a> to determine whether the object identified by the moniker is running. The object identified by the moniker must have registered itself with the ROT when it first began running.
 
 <h3><a id="Implementation-specific_Notes"></a><a id="implementation-specific_notes"></a><a id="IMPLEMENTATION-SPECIFIC_NOTES"></a>Implementation-specific Notes</h3>
 <table>
@@ -152,7 +152,7 @@ If <i>pmkToLeft</i> and <i>pmkNewlyRunning</i> are both <b>NULL</b>, this method
 <td>
 If pmkToLeft is <b>NULL</b>, this method returns <b>TRUE</b> if <i>pmkNewlyRunning</i> is non-<b>NULL</b> and is equal to this moniker. Otherwise, the method checks the ROT to see whether this moniker is running.
 
-If pmkToLeft is non-<b>NULL</b>, the method calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> on the <i>pmkToLeft</i> parameter, requesting an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a> interface pointer. The method then calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-isrunning">IOleItemContainer::IsRunning</a>, passing the string contained within this moniker.
+If pmkToLeft is non-<b>NULL</b>, the method calls <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> on the <i>pmkToLeft</i> parameter, requesting an <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a> interface pointer. The method then calls <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-isrunning">IOleItemContainer::IsRunning</a>, passing the string contained within this moniker.
 
 </td>
 </tr>
@@ -181,13 +181,12 @@ Returns S_OK if this moniker is currently running. Otherwise, it returns S_FALSE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindifrunning">IOleLink::BindIfRunning</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindifrunning">IOleLink::BindIfRunning</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-isrunning">IRunningObjectTable::IsRunning</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-isrunning">IRunningObjectTable::IsRunning</a>

@@ -99,13 +99,12 @@ An invalid parameter was passed.
 
 ## -remarks
 
-The movement threshold is the distance the joystick must be moved before a joystick position-change message (<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-joy1move">MM_JOY1MOVE</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-joy1zmove">MM_JOY1ZMOVE</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-joy2move">MM_JOY2MOVE</a>, or <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-joy2zmove">MM_JOY2ZMOVE</a>) is sent to a window that has captured the device. The threshold is initially zero.
+The movement threshold is the distance the joystick must be moved before a joystick position-change message (<a href="/windows/desktop/Multimedia/mm-joy1move">MM_JOY1MOVE</a>, <a href="/windows/desktop/Multimedia/mm-joy1zmove">MM_JOY1ZMOVE</a>, <a href="/windows/desktop/Multimedia/mm-joy2move">MM_JOY2MOVE</a>, or <a href="/windows/desktop/Multimedia/mm-joy2zmove">MM_JOY2ZMOVE</a>) is sent to a window that has captured the device. The threshold is initially zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
+<a href="/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
-
+<a href="/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>

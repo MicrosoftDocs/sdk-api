@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes the disk cleanup handler. It provides better support for localization than <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">Initialize</a>.
+Initializes the disk cleanup handler. It provides better support for localization than <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">Initialize</a>.
 
 ## -parameters
 
@@ -110,7 +110,7 @@ If this flag is set, the user is out of disk space on the drive. When this flag 
 
 #### EVCF_SETTINGSMODE
 
-If the disk cleanup manager is run on a schedule, it will set the <b>EVCF_SETTINGSMODE</b> flag. You must assign values to the <i>ppwszDisplayName</i> and <i>ppwszDescription</i> parameters. If this flag is set, the disk cleanup manager will not call <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">GetSpaceUsed</a>, <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-purge">Purge</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-showproperties">ShowProperties</a>. Because <b>Purge</b> will not be called, cleanup must be handled by <b>InitializeEx</b>. The handler should ignore the <i>pcwszVolume</i> parameter and clean up any unneeded files regardless of what drive they are on. Because there is no opportunity for user feedback, only those files that are extremely safe to clean up should be touched.
+If the disk cleanup manager is run on a schedule, it will set the <b>EVCF_SETTINGSMODE</b> flag. You must assign values to the <i>ppwszDisplayName</i> and <i>ppwszDescription</i> parameters. If this flag is set, the disk cleanup manager will not call <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">GetSpaceUsed</a>, <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-purge">Purge</a>, or <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-showproperties">ShowProperties</a>. Because <b>Purge</b> will not be called, cleanup must be handled by <b>InitializeEx</b>. The handler should ignore the <i>pcwszVolume</i> parameter and clean up any unneeded files regardless of what drive they are on. Because there is no opportunity for user feedback, only those files that are extremely safe to clean up should be touched.
 
 
 
@@ -120,7 +120,7 @@ If the disk cleanup manager is run on a schedule, it will set the <b>EVCF_SETTIN
 
 #### EVCF_DONTSHOWIFZERO
 
-Set this flag when there are no files to delete. When <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">GetSpaceUsed</a> is called, set the <i>pdwSpaceUsed</i> parameter to zero, and the disk cleanup manager will omit the handler from its list.
+Set this flag when there are no files to delete. When <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">GetSpaceUsed</a> is called, set the <i>pdwSpaceUsed</i> parameter to zero, and the disk cleanup manager will omit the handler from its list.
 
 
 
@@ -206,9 +206,8 @@ The cleanup operation failed.
 
 ## -remarks
 
-The Windows 2000 disk cleanup manager will first call <b>IEmptyVolumeCache2::InitializeEx</b> to initialize a disk cleanup handler. It will only call <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">Initialize</a> if the <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache2">IEmptyVolumeCache2</a> interface is not implemented. The Windows 98 disk cleanup manager only supports <b>Initialize</b>.
+The Windows 2000 disk cleanup manager will first call <b>IEmptyVolumeCache2::InitializeEx</b> to initialize a disk cleanup handler. It will only call <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">Initialize</a> if the <a href="/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache2">IEmptyVolumeCache2</a> interface is not implemented. The Windows 98 disk cleanup manager only supports <b>Initialize</b>.
 
-<b>InitializeEx</b> is intended to provide better localization support than <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">Initialize</a>. When <b>InitializeEx</b> is called, the handler application must assign appropriately localized values to the <i>ppwszDisplayName</i> and <i>ppwszDescription</i> parameters. If the <b>Settings</b> button is enabled, you must also assign a value to the <i>ppwszBtnText</i> parameter. Unlike <b>Initialize</b>, if you set these strings to <b>NULL</b> to notify the disk cleanup manager to retrieve the default values from the registry, <b>InitializeEx</b> will fail. 
+<b>InitializeEx</b> is intended to provide better localization support than <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">Initialize</a>. When <b>InitializeEx</b> is called, the handler application must assign appropriately localized values to the <i>ppwszDisplayName</i> and <i>ppwszDescription</i> parameters. If the <b>Settings</b> button is enabled, you must also assign a value to the <i>ppwszBtnText</i> parameter. Unlike <b>Initialize</b>, if you set these strings to <b>NULL</b> to notify the disk cleanup manager to retrieve the default values from the registry, <b>InitializeEx</b> will fail. 
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i>, <i>ppwszDescription</i>, and <i>ppwszBtnText</i>. The disk cleanup manager will free the memory when it is no longer needed.
-
+Use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i>, <i>ppwszDescription</i>, and <i>ppwszBtnText</i>. The disk cleanup manager will free the memory when it is no longer needed.

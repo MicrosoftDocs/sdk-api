@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Allocates physical memory pages to be mapped and unmapped within any 
-    <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region of a 
+    <a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region of a 
     specified process  and specifies the NUMA node for the physical memory.
 
 ## -parameters
@@ -69,14 +69,14 @@ A handle to a process.
 The function allocates memory that can later be mapped within the virtual address 
       space of this process. The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For 
       more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+      <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param NumberOfPages [in, out]
 
 The size of the physical memory to allocate, in pages.
 
 To determine the page size of the computer, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. On output, this parameter 
+       <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. On output, this parameter 
        receives the number of pages that are actually allocated, which might be less than the number requested.
 
 ### -param PageArray [out]
@@ -104,7 +104,7 @@ Fewer pages than requested can be allocated. The caller must check the value of 
        parameter.
 
 If the function fails, the return value is <b>FALSE</b> and no frames are allocated. To get 
-       extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
+       extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        function.
 
 ## -remarks
@@ -113,7 +113,7 @@ The <b>AllocateUserPhysicalPagesNuma</b>
     function is used to allocate physical memory within a NUMA node that can later be mapped within the virtual 
     address space of the process. The <b>SeLockMemoryPrivilege</b> privilege must be enabled in the 
     caller's token or the function will fail with <b>ERROR_PRIVILEGE_NOT_HELD</b>. For more 
-    information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
+    information, see <a href="/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
 
 Memory allocated by this function must be physically present in the system. After the memory is allocated, it 
     is locked down and unavailable to the rest of the virtual memory management system.
@@ -128,21 +128,20 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
+<a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
-
+<a href="/windows/desktop/ProcThread/numa-support">NUMA Support</a>

@@ -88,7 +88,7 @@ The value is displayed as date and time.
 #### PDDT_ENUMERATED (0x00000004) (4)
 
 The value is displayed as an enumerated type-list.
-                    Use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getenumtypelist">IPropertyDescription::GetEnumTypeList</a> to handle this type.
+                    Use <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getenumtypelist">IPropertyDescription::GetEnumTypeList</a> to handle this type.
 
 ## -returns
 
@@ -98,13 +98,12 @@ Always returns <b>S_OK</b>.
 
 ## -remarks
 
-The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element in the property's .propdesc file.
+The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element in the property's .propdesc file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

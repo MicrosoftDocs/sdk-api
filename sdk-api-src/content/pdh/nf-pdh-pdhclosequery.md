@@ -57,13 +57,13 @@ Closes all counters contained in the specified query, closes all handles related
 ### -param hQuery [in]
 
 Handle to the query to close. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function.
 
 ## -returns
 
 If the function succeeds, it returns ERROR_SUCCESS. Otherwise, the function returns a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 						
 					
 
@@ -106,12 +106,11 @@ as Long</code></pre>
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/browsing-performance-counters">Browsing Performance Counters</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/reading-performance-data-from-a-log-file">Reading Performance Data from a Log File</a>.
+<a href="/windows/desktop/PerfCtrs/browsing-performance-counters">Browsing Performance Counters</a> or 
+<a href="/windows/desktop/PerfCtrs/reading-performance-data-from-a-log-file">Reading Performance Data from a Log File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>.
+Creates an instance of the <a href="/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>.
 
 ## -parameters
 
 ### -param pResetToken [out]
 
-Receives a token that identifies this instance of the Direct3D device manager. Use this token when calling <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a>.
+Receives a token that identifies this instance of the Direct3D device manager. Use this token when calling <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a>.
 
 ### -param ppDeviceManager [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -68,7 +68,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-Windows Store apps must use <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> and <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-apis">Direct3D 11 Video APIs</a>. 
+Windows Store apps must use <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> and <a href="/windows/desktop/medfound/direct3d-11-video-apis">Direct3D 11 Video APIs</a>. 
 
 
 #### Examples
@@ -114,9 +114,8 @@ done:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
+<a href="/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

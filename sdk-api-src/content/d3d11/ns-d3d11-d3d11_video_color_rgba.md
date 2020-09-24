@@ -80,5 +80,4 @@ For example, for RGB-32 (8 bits per channel), <code>val = BYTE(f * 255.0)</code>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
-
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>

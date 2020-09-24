@@ -56,23 +56,23 @@ The security binding subtype for specifying the use of a SAML
 assertion as a message security token.  The SAML token is expected to
 be presented to a service in a WS-Security header according to the
 bindingUsage specified.  This security binding may be included in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a> only on the
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a> only on the
 server side.
            
 
-Only one instance of this binding may be present in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a>.
-          This security binding is not supported with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
+Only one instance of this binding may be present in a <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a>.
+          This security binding is not supported with the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
 
-For a <a href="https://docs.microsoft.com/windows/desktop/wsw/federation">federated security</a> scenario that
+For a <a href="/windows/desktop/wsw/federation">federated security</a> scenario that
 involves getting a security token from an issuer and then presenting
-it to a service, one may use <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WsRequestSecurityToken</a>together with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> on
+it to a service, one may use <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WsRequestSecurityToken</a>together with the <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> on
 the client side, and this binding on the server side.
            
 
 The extent of validation performed on the received SAML depends on the
 authenticator specified.  If additional validation is required, the
 application may get the received SAML assertion using 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> with the key <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_SAML_ASSERTION</a> 
+<a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> with the key <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_SAML_ASSERTION</a> 
 and do further processing.
             
 
@@ -89,12 +89,12 @@ The base type from which this security binding subtype and all other security bi
 How the security token corresponding to this security binding should be bound to a message.
                 
 
-                    Only <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_security_usage">WS_SUPPORTING_MESSAGE_SECURITY_USAGE</a> is
+                    Only <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_security_usage">WS_SUPPORTING_MESSAGE_SECURITY_USAGE</a> is
 
 supported.  With this usage, this security binding provides client
 authentication, but not message protection (such as signing,
 encryption, replay detection).  Thus, this binding must be used
-together with another security binding such as the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> that provides a protected
+together with another security binding such as the <a href="/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> that provides a protected
 channel.
                 
 
@@ -104,4 +104,3 @@ To use this binding on HTTP without SSL, the security description property <b>WS
 
 The authenticator for validating incoming SAML tokens.  This field is
 required.
-

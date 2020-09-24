@@ -56,14 +56,14 @@ api_name:
 
 The 
 <b>RPC_CALL_ATTRIBUTES_V1</b> structure provides parameters to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
 
 ## -struct-fields
 
 ### -field Version
 
 Version of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function being used by the calling application. See Remarks.
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function being used by the calling application. See Remarks.
 
 ### -field Flags
 
@@ -106,7 +106,7 @@ Pointer to the client principal name, if requested in <b>Flags</b> member and su
 ### -field AuthenticationLevel
 
 Authentication level for the call. See 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a> for authentication levels supported by RPC.
+<a href="/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a> for authentication levels supported by RPC.
 
 ### -field AuthenticationService
 
@@ -142,7 +142,7 @@ The
 <li>First approach: zero is specified for the <b>ServerPrincipalNameBufferLength</b> or <b>ClientPrincipalNameBufferLength</b> member on the first 
 <b>RpcServerInqCallAttributes</b> function call to retrieve the required buffer length, or to determine whether the protocol supports returning the principal name. Upon retrieving the required buffer length, a buffer is allocated of the required length and a second call is made to get the real length of the buffer.</li>
 <li>Second approach: the caller begins with a reasonable buffer, often allocated on the stack, and if ERROR_MORE_DATA is returned, a buffer of the required length is allocated and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function is called again.</li>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function is called again.</li>
 </ul>
 The second method offers the best performance in most cases, since the caller does not need to perform a memory allocation.
 
@@ -162,9 +162,8 @@ Status = RpcServerInqCallAttributes(0, &CallAttributes);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>
+<a href="/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>
-
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>

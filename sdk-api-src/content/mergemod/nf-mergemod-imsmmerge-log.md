@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>Log</b> method writes a text string to the currently open log file. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-log">Log</a> method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
+<a href="/windows/desktop/Msi/merge-log">Log</a> method of the 
+<a href="/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 <b>IMsmMerge2::Log</b>    Mergemod.dll version 2.0 or later.
 			<div> </div><b>IMsmMerge::Log</b>      All Mergemod.dll versions.
@@ -121,5 +121,4 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

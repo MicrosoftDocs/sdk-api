@@ -58,13 +58,13 @@ Creates an instance of the specified counter set. Providers use this function.
 
 ### -param ProviderHandle [in]
 
-The handle of the provider. Use the handle variable that the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://docs.microsoft.com/previous-versions/aa373164(v=vs.85)">provider</a> element.
+The handle of the provider. Use the handle variable that the <a href="/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="/previous-versions/aa373164(v=vs.85)">provider</a> element.
 
-<b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a> function returns the handle.
+<b>Windows Vista:  </b>The <a href="/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a> function returns the handle.
 
 ### -param CounterSetGuid [in]
 
-GUID that uniquely identifies the counter set that you want to create an instance of. This is the same GUID specified in the <b>guid</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-counterset--provider--element">counterSet</a> element. Use the GUID variable that the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <b>counterSet</b> element.
+GUID that uniquely identifies the counter set that you want to create an instance of. This is the same GUID specified in the <b>guid</b> attribute of the <a href="/windows/desktop/PerfCtrs/performance-counters-counterset--provider--element">counterSet</a> element. Use the GUID variable that the <a href="/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <b>counterSet</b> element.
 
 <b>Windows Vista:  </b>The GUID variable is not available.
 
@@ -78,36 +78,35 @@ Unique identifier for this instance of the counter set. The identifier can be a 
 
 ## -returns
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure that contains the instance of the counter set or <b>NULL</b> if PERFLIB could not create the instance. Cache this pointer to use in later calls instead of calling <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfqueryinstance">PerfQueryInstance</a> to retrieve the pointer to the instance.
+A <a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure that contains the instance of the counter set or <b>NULL</b> if PERFLIB could not create the instance. Cache this pointer to use in later calls instead of calling <a href="/windows/desktop/api/perflib/nf-perflib-perfqueryinstance">PerfQueryInstance</a> to retrieve the pointer to the instance.
 
-This function returns <b>NULL</b> if an error occurred. To determine the error that occurred, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+This function returns <b>NULL</b> if an error occurred. To determine the error that occurred, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The provider determines when it creates an instance. If the counter data is more static, the provider can create an instance at initialization time. For example, the number of processors on a computer would be considered static, so a provider that provides counter data for processors could create an instance for each processor on the computer at initialization time. For counters that are more dynamic, such as disk or process counters, the providers would create the new instances in response to a new USB device being added or a new process being created.
 
-When the provider calls this function, PERFLIB allocates local memory for the new instance and builds the instance block. PERFLIB deletes the memory when the provider calls the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdeleteinstance">PerfDeleteInstance</a> function.
+When the provider calls this function, PERFLIB allocates local memory for the new instance and builds the instance block. PERFLIB deletes the memory when the provider calls the <a href="/windows/desktop/api/perflib/nf-perflib-perfdeleteinstance">PerfDeleteInstance</a> function.
 
 The instance contains the raw counter data. Providers use the following three functions to update the raw counter data:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfsetulongcountervalue">PerfSetUlongCounterValue</a>
+<a href="/windows/desktop/api/perflib/nf-perflib-perfsetulongcountervalue">PerfSetUlongCounterValue</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfsetulonglongcountervalue">PerfSetUlongLongCounterValue</a>
+<a href="/windows/desktop/api/perflib/nf-perflib-perfsetulonglongcountervalue">PerfSetUlongLongCounterValue</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfsetcounterrefvalue">PerfSetCounterRefValue</a>
+<a href="/windows/desktop/api/perflib/nf-perflib-perfsetcounterrefvalue">PerfSetCounterRefValue</a>
 </li>
 </ul>
-Typically, the provider keeps the counter data up-to-date at all times. As an alternative, the provider can implement the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nc-perflib-perflibrequest">ControlCallback</a> function and use the <b>PERF_COLLECT_START</b> request code to trigger the updates.
+Typically, the provider keeps the counter data up-to-date at all times. As an alternative, the provider can implement the <a href="/windows/desktop/api/perflib/nc-perflib-perflibrequest">ControlCallback</a> function and use the <b>PERF_COLLECT_START</b> request code to trigger the updates.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdeleteinstance">PerfDeleteInstance</a>
+<a href="/windows/desktop/api/perflib/nf-perflib-perfdeleteinstance">PerfDeleteInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfqueryinstance">PerfQueryInstance</a>
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfqueryinstance">PerfQueryInstance</a>

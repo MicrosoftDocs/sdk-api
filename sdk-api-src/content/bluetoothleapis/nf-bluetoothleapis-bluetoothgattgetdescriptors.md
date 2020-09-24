@@ -61,7 +61,7 @@ Handle to the Bluetooth device or service.  If a service handle is passed, then 
 
 ### -param Characteristic [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic of the descriptors to be retrieved.
+Pointer to <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic of the descriptors to be retrieved.
 
 ### -param DescriptorsBufferCount [in]
 
@@ -69,7 +69,7 @@ The number of elements allocated for the <i>DescriptorsBuffer</i> parameter.
 
 ### -param DescriptorsBuffer [out, optional]
 
-Pointer to buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a> structure into which to return descriptors.
+Pointer to buffer containing a <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a> structure into which to return descriptors.
 
 ### -param DescriptorsBufferActual [out]
 
@@ -203,8 +203,8 @@ Do not modify the returned characteristic structure,
     if the caller does this.
 
 The parent characteristic must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
-    <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
+    <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
@@ -267,9 +267,8 @@ GetDescriptors:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
-
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>

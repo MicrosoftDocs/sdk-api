@@ -56,7 +56,7 @@ The <b>InitializeWithRawSections</b> method initializes the object with raw sect
 
 ### -param pmplSections [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_packet_list">MPEG_PACKET_LIST</a> structure that contains a list of MPEG-2 sections.
+Pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_packet_list">MPEG_PACKET_LIST</a> structure that contains a list of MPEG-2 sections.
 
 ## -returns
 
@@ -107,11 +107,10 @@ The method succeeded.
 Use this method as follows:
 
 <ol>
-<li>Get the section data by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a> method.</li>
+<li>Get the section data by calling the <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a> method.</li>
 <li>Create a new <b>SectionList</b> object and call <b>InitializeWithRawSections</b> with the section data.</li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>

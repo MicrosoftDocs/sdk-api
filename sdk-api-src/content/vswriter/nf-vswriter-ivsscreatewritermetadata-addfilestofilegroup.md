@@ -58,7 +58,7 @@ The
 
 ### -param wszLogicalPath [in]
 
-Pointer to a <b>null</b>-terminated wide character string containing the logical path (which may be <b>NULL</b>) of the component to which to add the files. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
+Pointer to a <b>null</b>-terminated wide character string containing the logical path (which may be <b>NULL</b>) of the component to which to add the files. For more information, see <a href="/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
 ### -param wszGroupName [in]
 
@@ -96,7 +96,7 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 
 
 For information on traversing over mounted folders, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
+<a href="/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
 ### -param wszAlternateLocation [in]
 
@@ -113,7 +113,7 @@ An alternate path should not be confused with an alternate location mapping.
 ### -param dwBackupTypeMask [in]
 
 A bitmask of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate if a writer should evaluate the file for participation in a certain type of backup operations. 
+<a href="/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate if a writer should evaluate the file for participation in a certain type of backup operations. 
 
 
 
@@ -174,7 +174,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ The specified component does not exist.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -237,16 +237,15 @@ Note the following when using path information provided by
 <li>If an alternate path is specified (if <i>wszAlternatePath</i> is non-<b>NULL</b>), files added to the component are backed up from the alternate path specified by <i>wszAlternatePath</i>. However, requesters will still use <i>wszPath</i> as the default restoration location.</li>
 <li>If the alternate path is defined (<i>wszAlternatePath</i> is non-<b>NULL</b>) and there are files matching the file specification (<i>wszFilespec</i>) in both the alternate path and the default root directory (<i>wszPath</i>), then a backup operation should back up files located under the alternate path, not files located under the default root directory.</li>
 <li>Files should be restored to the directory indicated by <i>wszPath</i> unless an alternate location mapping was set by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">IVssCreateWriterMetadata::AddAlternateLocationMapping</a> and the restore method or restore target requires it.</li>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">IVssCreateWriterMetadata::AddAlternateLocationMapping</a> and the restore method or restore target requires it.</li>
 </ul>
 For more information on backup and restore file locations under VSS, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore Locations</a>.
+<a href="/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore Locations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">IVssCreateWriterMetadata::AddAlternateLocationMapping</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">IVssCreateWriterMetadata::AddAlternateLocationMapping</a>

@@ -54,7 +54,7 @@ This section describes <b>ITypeInfo</b>, an interface typically used for reading
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITypeInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITypeInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITypeInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-addressofmember">AddressOfMember</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-addressofmember">AddressOfMember</a>
 </td>
 <td align="left" width="63%">
 Retrieves the addresses of static functions or variables, such as those defined in a DLL.
@@ -78,7 +78,7 @@ Retrieves the addresses of static functions or variables, such as those defined 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">CreateInstance</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of a type that describes a component object class (coclass).
@@ -87,7 +87,7 @@ Creates a new instance of a type that describes a component object class (coclas
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getcontainingtypelib">GetContainingTypeLib</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getcontainingtypelib">GetContainingTypeLib</a>
 </td>
 <td align="left" width="63%">
 Retrieves the containing type library and the index of the type description within that type library.
@@ -96,7 +96,7 @@ Retrieves the containing type library and the index of the type description with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getdllentry">GetDllEntry</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getdllentry">GetDllEntry</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description or specification of an entry point for a function in a DLL.
@@ -105,7 +105,7 @@ Retrieves a description or specification of an entry point for a function in a D
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getdocumentation">GetDocumentation</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getdocumentation">GetDocumentation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the documentation string, the complete Help file name and path, and the context ID for the Help topic for a specified type description.
@@ -114,16 +114,16 @@ Retrieves the documentation string, the complete Help file name and path, and th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getfuncdesc">GetFuncDesc</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getfuncdesc">GetFuncDesc</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-funcdesc">FUNCDESC</a> structure that contains information about a specified function
+Retrieves the <a href="/windows/desktop/api/oaidl/ns-oaidl-funcdesc">FUNCDESC</a> structure that contains information about a specified function
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getidsofnames">GetIDsOfNames</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getidsofnames">GetIDsOfNames</a>
 </td>
 <td align="left" width="63%">
 Maps between member names and member IDs, and parameter names and parameter IDs.
@@ -132,7 +132,7 @@ Maps between member names and member IDs, and parameter names and parameter IDs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getimpltypeflags">GetImplTypeFlags</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getimpltypeflags">GetImplTypeFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.
@@ -141,7 +141,7 @@ Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getmops">GetMops</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getmops">GetMops</a>
 </td>
 <td align="left" width="63%">
 Retrieves marshaling information.
@@ -150,7 +150,7 @@ Retrieves marshaling information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getnames">GetNames</a>
+<a href="/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getnames">GetNames</a>
 </td>
 <td align="left" width="63%">
 Retrieves the variable with the specified member ID or the name of the property or method and the parameters that correspond to the specified function ID.
@@ -159,7 +159,7 @@ Retrieves the variable with the specified member ID or the name of the property 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a>
 </td>
 <td align="left" width="63%">
 If a type description references other type descriptions, it retrieves the referenced type descriptions.
@@ -168,7 +168,7 @@ If a type description references other type descriptions, it retrieves the refer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeofimpltype">GetRefTypeOfImplType</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeofimpltype">GetRefTypeOfImplType</a>
 </td>
 <td align="left" width="63%">
 If a type description describes a COM class, it retrieves the type description of the implemented interface types.
@@ -177,7 +177,7 @@ If a type description describes a COM class, it retrieves the type description o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-gettypeattr">GetTypeAttr</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-gettypeattr">GetTypeAttr</a>
 </td>
 <td align="left" width="63%">
 Retrieves a TYPEATTR structure that contains the attributes of the type description.
@@ -186,16 +186,16 @@ Retrieves a TYPEATTR structure that contains the attributes of the type descript
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-gettypecomp">GetTypeComp</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-gettypecomp">GetTypeComp</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface for the type description, which enables a client compiler to bind to the type description's members.
+Retrieves the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface for the type description, which enables a client compiler to bind to the type description's members.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getvardesc">GetVarDesc</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getvardesc">GetVarDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a VARDESC structure that describes the specified variable.
@@ -204,7 +204,7 @@ Retrieves a VARDESC structure that describes the specified variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-invoke">Invoke</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Invokes a method, or accesses a property of an object, that implements the interface described by the type description.
@@ -213,28 +213,28 @@ Invokes a method, or accesses a property of an object, that implements the inter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasefuncdesc">ReleaseFuncDesc</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasefuncdesc">ReleaseFuncDesc</a>
 </td>
 <td align="left" width="63%">
-Releases a FUNCDESC previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getfuncdesc">ITypeInfo::GetFuncDesc</a>.
+Releases a FUNCDESC previously returned by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getfuncdesc">ITypeInfo::GetFuncDesc</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasetypeattr">ReleaseTypeAttr</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasetypeattr">ReleaseTypeAttr</a>
 </td>
 <td align="left" width="63%">
-Releases a TYPEATTR previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-gettypeattr">ITypeInfo::GetTypeAttr</a>.
+Releases a TYPEATTR previously returned by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-gettypeattr">ITypeInfo::GetTypeAttr</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasevardesc">ReleaseVarDesc</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasevardesc">ReleaseVarDesc</a>
 </td>
 <td align="left" width="63%">
-Releases a VARDESC previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getvardesc">ITypeInfo::GetVarDesc</a>.
+Releases a VARDESC previously returned by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getvardesc">ITypeInfo::GetVarDesc</a>.
 
 </td>
 </tr>
@@ -260,11 +260,10 @@ The general attributes of the type, such as whether it describes a structure, an
 
 </li>
 </ul>
-The type description of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface can be used to implement the interface. For more information, see the description of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a> in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispatch-interfaces">Dispatch Interface and API Functions</a>. 
+The type description of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface can be used to implement the interface. For more information, see the description of <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a> in <a href="/previous-versions/windows/desktop/automat/dispatch-interfaces">Dispatch Interface and API Functions</a>. 
 
-An instance of <b>ITypeInfo</b> provides various information about the type of an object, and is used in different ways. A compiler can use an <b>ITypeInfo</b> to compile references to members of the type. A type interface browser can use it to find information about each member of the type. An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> implementor can use it to provide automatic delegation of <b>IDispatch</b> calls to an interface.
+An instance of <b>ITypeInfo</b> provides various information about the type of an object, and is used in different ways. A compiler can use an <b>ITypeInfo</b> to compile references to members of the type. A type interface browser can use it to find information about each member of the type. An <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> implementor can use it to provide automatic delegation of <b>IDispatch</b> calls to an interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
-
+<a href="/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>

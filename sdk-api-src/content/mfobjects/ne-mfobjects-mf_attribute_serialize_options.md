@@ -60,17 +60,16 @@ If this flag is set, <b>IUnknown</b> pointers in the attribute store are marshal
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-mfdeserializeattributesfromstream">MFDeserializeAttributesFromStream</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-mfdeserializeattributesfromstream">MFDeserializeAttributesFromStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-mfserializeattributestostream">MFSerializeAttributesToStream</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-mfserializeattributestostream">MFSerializeAttributesToStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

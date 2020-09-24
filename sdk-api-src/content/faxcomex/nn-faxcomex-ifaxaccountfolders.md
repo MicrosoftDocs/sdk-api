@@ -54,5 +54,4 @@ Provides access to the incoming and outgoing fax queues and fax archives.
 
 ## -remarks
 
-A default implementation is provided by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountfolders">FaxAccountFolders</a>.
-
+A default implementation is provided by <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountfolders">FaxAccountFolders</a>.

@@ -82,7 +82,7 @@ Pointer <i>pIID</i> is <b>NULL</b>.
 
 ## -remarks
 
-An object that represents a part (connector or subunit) has two control interfaces. The first is a generic control interface, <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolinterface">IControlInterface</a>, which has methods that are common to all types of controls. The second is a function-specific control interface that has methods that apply to a particular type of control. The <b>GetIID</b> method gets the interface ID of the second control interface. The client can supply this interface ID to the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method to create an instance of the part's function-specific interface.
+An object that represents a part (connector or subunit) has two control interfaces. The first is a generic control interface, <a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolinterface">IControlInterface</a>, which has methods that are common to all types of controls. The second is a function-specific control interface that has methods that apply to a particular type of control. The <b>GetIID</b> method gets the interface ID of the second control interface. The client can supply this interface ID to the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method to create an instance of the part's function-specific interface.
 
 The method gets one of the function-specific interface IDs shown in the following table.
 
@@ -96,85 +96,85 @@ The method gets one of the function-specific interface IDs shown in the followin
 <tr>
 <td>IID_IAudioAutoGainControl</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioBass</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass">IAudioBass</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass">IAudioBass</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioChannelConfig</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioInputSelector</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioinputselector">IAudioInputSelector</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioinputselector">IAudioInputSelector</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioLoudness</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioloudness">IAudioLoudness</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioloudness">IAudioLoudness</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioMidrange</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange">IAudioMidrange</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange">IAudioMidrange</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioMute</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioOutputSelector</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiooutputselector">IAudioOutputSelector</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiooutputselector">IAudioOutputSelector</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioPeakMeter</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioTreble</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble">IAudioTreble</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble">IAudioTreble</a>
 </td>
 </tr>
 <tr>
 <td>IID_IAudioVolumeLevel</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel">IAudioVolumeLevel</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel">IAudioVolumeLevel</a>
 </td>
 </tr>
 <tr>
 <td>IID_IDeviceSpecificProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicespecificproperty">IDeviceSpecificProperty</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-idevicespecificproperty">IDeviceSpecificProperty</a>
 </td>
 </tr>
 <tr>
 <td>IID_IKsFormatSupport</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksformatsupport">IKsFormatSupport</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksformatsupport">IKsFormatSupport</a>
 </td>
 </tr>
 <tr>
 <td>IID_IKsJackDescription</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription</a>
 </td>
 </tr>
 </table>
@@ -189,5 +189,4 @@ For more information about the <b>__uuidof</b> operator, see the Windows SDK doc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolinterface">IControlInterface Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolinterface">IControlInterface Interface</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-The CONFLICT_DETAILS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw">CM_Get_Resource_Conflict_Details</a> function.
+The CONFLICT_DETAILS structure is used as a parameter to the <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw">CM_Get_Resource_Conflict_Details</a> function.
 
 ## -struct-fields
 
@@ -169,10 +169,9 @@ If CM_CDMASK_DESCRIPTION is set in <b>CD_ulMask</b>, this member will receive a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw">CM_Get_Resource_Conflict_Details</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw">CM_Get_Resource_Conflict_Details</a>
 
 ## -remarks
 
 > [!NOTE]
 > The cfgmgr32.h header defines CONFLICT_DETAILS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

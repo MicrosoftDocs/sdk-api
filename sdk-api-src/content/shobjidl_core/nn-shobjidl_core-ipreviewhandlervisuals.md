@@ -54,7 +54,7 @@ Exposes methods for applying color and font information to preview handlers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviewHandlerVisuals</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviewHandlerVisuals</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviewHandlerVisuals</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviewHandlerVisuals</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPreviewHandlerVisuals</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-setbackgroundcolor">SetBackgroundColor</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-setbackgroundcolor">SetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Sets the background color of the preview handler.
@@ -78,7 +78,7 @@ Sets the background color of the preview handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-setfont">SetFont</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-setfont">SetFont</a>
 </td>
 <td align="left" width="63%">
 Sets the font attributes to be used for text within the preview handler.
@@ -87,7 +87,7 @@ Sets the font attributes to be used for text within the preview handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-settextcolor">SetTextColor</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-settextcolor">SetTextColor</a>
 </td>
 <td align="left" width="63%">
 Sets the color of the text within the preview handler.
@@ -100,4 +100,3 @@ Sets the color of the text within the preview handler.
 
 <div class="alert"><b>Note</b>  These are suggestions. It is not compulsory for this interface to be called. The preview handlers must be able to make their own decisions.</div>
 <div> </div>
-

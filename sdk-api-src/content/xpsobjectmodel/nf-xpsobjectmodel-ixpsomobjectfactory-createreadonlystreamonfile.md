@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a read-only <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> over the specified file.
+Creates a read-only <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> over the specified file.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A stream over the specified file.
 
 ## -returns
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -96,11 +96,11 @@ The method succeeded.
 </table>
  
 
-This method calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
+This method calls the <a href="/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
 
 ## -remarks
 
-<b>CreateReadOnlyStreamOnFile</b> is a wrapper method for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createstreamonfile">IOpcFactory::CreateStreamOnFile</a>. It has the same effect as calling the following:
+<b>CreateReadOnlyStreamOnFile</b> is a wrapper method for <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createstreamonfile">IOpcFactory::CreateStreamOnFile</a>. It has the same effect as calling the following:
 
 
 ```cpp
@@ -115,15 +115,15 @@ This method calls the <a href="https://docs.microsoft.com/previous-versions/wind
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createstreamonfile">IOpcFactory::CreateStreamOnFile</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createstreamonfile">IOpcFactory::CreateStreamOnFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
@@ -131,5 +131,4 @@ This method calls the <a href="https://docs.microsoft.com/previous-versions/wind
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

@@ -81,7 +81,7 @@ The encrypted structure can only be decrypted by a security context in the same 
 </dl>
 </td>
 <td width="60%">
-The encrypted structure can only be decrypted by the same process. Calling the function with this option is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentity">SspiEncryptAuthIdentity</a>. This option is used to protect an identity buffer that is being persisted in a process's private memory for an extended period.
+The encrypted structure can only be decrypted by the same process. Calling the function with this option is equivalent to calling <a href="/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentity">SspiEncryptAuthIdentity</a>. This option is used to protect an identity buffer that is being persisted in a process's private memory for an extended period.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The encrypted structure can only be decrypted by the same process. Calling the f
 
 ### -param AuthData [in, out]
 
-On input, a pointer to an identity buffer to encrypt. This buffer must be prepared for encryption prior to the call to this function. This can be done by calling the function <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentity">SspiEncryptAuthIdentity</a>. On output, the encrypted identity buffer.
+On input, a pointer to an identity buffer to encrypt. This buffer must be prepared for encryption prior to the call to this function. This can be done by calling the function <a href="/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentity">SspiEncryptAuthIdentity</a>. On output, the encrypted identity buffer.
 
 ## -returns
 
@@ -99,6 +99,5 @@ If the function fails, it returns a nonzero error code.
 
 ## -remarks
 
-To transfer credentials securely across processes, applications typically call this function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option,  followed by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspimarshalauthidentity">SspiMarshalAuthIdentity</a> to obtain a marshaled authentication buffer and its length. 
-For example, Online Identity Credential Provider does this to return the authentication buffer from their <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">ICredentialProviderCredential::GetSerialization</a> method.
-
+To transfer credentials securely across processes, applications typically call this function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option,  followed by <a href="/windows/desktop/api/sspi/nf-sspi-sspimarshalauthidentity">SspiMarshalAuthIdentity</a> to obtain a marshaled authentication buffer and its length. 
+For example, Online Identity Credential Provider does this to return the authentication buffer from their <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">ICredentialProviderCredential::GetSerialization</a> method.

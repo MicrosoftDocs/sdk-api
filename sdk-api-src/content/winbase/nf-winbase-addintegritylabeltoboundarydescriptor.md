@@ -56,25 +56,25 @@ Adds a new required security identifier (SID) to the specified boundary descript
 
 ### -param BoundaryDescriptor [in, out]
 
-A handle to the boundary descriptor. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a> function returns this handle.
+A handle to the boundary descriptor. The <a href="/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a> function returns this handle.
 
 ### -param IntegrityLabel [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the mandatory integrity level for the namespace. Use one of the following RID values to create the SID:
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the mandatory integrity level for the namespace. Use one of the following RID values to create the SID:
 
 <b>SECURITY_MANDATORY_UNTRUSTED_RID</b>
 <b>SECURITY_MANDATORY_LOW_RID</b>
 <b>SECURITY_MANDATORY_MEDIUM_RID</b>
 <b>SECURITY_MANDATORY_SYSTEM_RID</b>
 <b>SECURITY_MANDATORY_PROTECTED_PROCESS_RID</b>
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/well-known-sids">Well-Known SIDs</a>.
+For more information, see <a href="/windows/desktop/SecAuthZ/well-known-sids">Well-Known SIDs</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -88,5 +88,4 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a>

@@ -126,13 +126,12 @@ The <b>PowerRequestExecutionRequired</b> request type can be used only by applic
 If the function succeeds, it returns a nonzero value.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>

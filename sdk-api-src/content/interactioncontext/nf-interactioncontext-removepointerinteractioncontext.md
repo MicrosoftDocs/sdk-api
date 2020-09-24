@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Remove  the specified pointer from the set of pointers processed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Remove  the specified pointer from the set of pointers processed by the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Handle to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ### -param pointerId [in]
 
@@ -72,9 +72,8 @@ Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

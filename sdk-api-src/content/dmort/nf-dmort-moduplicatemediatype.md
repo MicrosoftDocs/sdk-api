@@ -56,7 +56,7 @@ The <b>MoDuplicateMediaType</b> function duplicates a media type structure.
 
 ### -param ppmtDest
 
-Address of a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure that receives the duplicated structure.
+Address of a pointer to a <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure that receives the duplicated structure.
 
 ### -param pmtSrc
 
@@ -108,5 +108,4 @@ Success
 
 ## -remarks
 
-This method is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-mocreatemediatype">MoCreateMediaType</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-mocopymediatype">MoCopyMediaType</a>. The caller must delete the returned media type structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-modeletemediatype">MoDeleteMediaType</a> function.
-
+This method is equivalent to calling <a href="/windows/desktop/api/dmort/nf-dmort-mocreatemediatype">MoCreateMediaType</a> and <a href="/windows/desktop/api/dmort/nf-dmort-mocopymediatype">MoCopyMediaType</a>. The caller must delete the returned media type structure by calling the <a href="/windows/desktop/api/dmort/nf-dmort-modeletemediatype">MoDeleteMediaType</a> function.

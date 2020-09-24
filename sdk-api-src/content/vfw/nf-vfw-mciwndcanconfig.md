@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndCanConfig</b> macro determines if an MCI device can display a configuration dialog box. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-config">MCIWNDM_CAN_CONFIG</a> message.
+The <b>MCIWndCanConfig</b> macro determines if an MCI device can display a configuration dialog box. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-can-config">MCIWNDM_CAN_CONFIG</a> message.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-config">MCIWNDM_CAN_CONFIG</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-can-config">MCIWNDM_CAN_CONFIG</a>

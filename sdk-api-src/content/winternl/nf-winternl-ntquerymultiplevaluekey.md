@@ -90,9 +90,8 @@ The forms and significance of <b>NTSTATUS</b> error codes are listed in the Ntst
 
 ## -remarks
 
-This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the <a href="/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and <a href="/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>
-
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>

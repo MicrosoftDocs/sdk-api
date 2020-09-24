@@ -72,17 +72,16 @@ Pointer to a buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_incoming_data">PEER_EVENT_INCOMING_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_event_incoming_data">PEER_EVENT_INCOMING_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_free_security_data">PFNPEER_FREE_SECURITY_DATA</a>
+<a href="/windows/desktop/api/p2p/nc-p2p-pfnpeer_free_security_data">PFNPEER_FREE_SECURITY_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>
-
+<a href="/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>

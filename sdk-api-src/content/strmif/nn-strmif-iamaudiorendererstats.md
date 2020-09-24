@@ -53,13 +53,13 @@ api_name:
 
 The <code>IAMAudioRendererStats</code> interface retrieves statistical performance information from an audio renderer filter.
 
-This interface is intended for use during development, to log performance data from the audio renderer. There is probably no reason for an application to use it in a retail build. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> filter both expose this interface.
+This interface is intended for use during development, to log performance data from the audio renderer. There is probably no reason for an application to use it in a retail build. The <a href="/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter and the <a href="/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> filter both expose this interface.
 
 <b>Filter Developers</b>: It is not expected that other filters will implement this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAudioRendererStats</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAudioRendererStats</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAudioRendererStats</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAudioRendererStats</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IAMAudioRendererStats</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudiorendererstats-getstatparam">GetStatParam</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudiorendererstats-getstatparam">GetStatParam</a>
 </td>
 <td align="left" width="63%">
 Retrieves performance information from the filter.
@@ -85,5 +85,4 @@ Retrieves performance information from the filter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

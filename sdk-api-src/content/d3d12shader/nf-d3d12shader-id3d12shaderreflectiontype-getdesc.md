@@ -56,15 +56,15 @@ Gets the description of a shader-reflection-variable type.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_type_desc">D3D12_SHADER_TYPE_DESC</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_type_desc">D3D12_SHADER_TYPE_DESC</a>*</b>
 
-A pointer to a shader-type description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_type_desc">D3D12_SHADER_TYPE_DESC</a>).
+A pointer to a shader-type description (see <a href="/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_type_desc">D3D12_SHADER_TYPE_DESC</a>).
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+Returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
 
 ## -remarks
 
@@ -72,5 +72,4 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectiontype">ID3D12ShaderReflectionType</a>
-
+<a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectiontype">ID3D12ShaderReflectionType</a>

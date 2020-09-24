@@ -212,17 +212,16 @@ First, there is an opening bracket, "[", followed by the <b>GUID</b> of the exte
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-freegpolista">FreeGPOList</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-freegpolista">FreeGPOList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getgpolista">GetGPOList</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-getgpolista">GetGPOList</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
-
+<a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>

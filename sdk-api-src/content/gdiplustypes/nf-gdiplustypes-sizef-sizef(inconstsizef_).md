@@ -51,21 +51,20 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object and initializes its members by copying the members of another <b>SizeF</b> object.
+Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object and initializes its members by copying the members of another <b>SizeF</b> object.
 
 ## -parameters
 
 ### -param size [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a></b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object that is used to initialize this <b>SizeF</b> object.
+Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object that is used to initialize this <b>SizeF</b> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-sizef-constructors">SizeF Constructors</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-class-sizef-constructors">SizeF Constructors</a>

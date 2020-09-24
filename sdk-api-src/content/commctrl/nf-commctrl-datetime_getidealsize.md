@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getidealsize">DTM_GETIDEALSIZE</a> message explicitly.
+Gets the size needed to display the control without clipping. Use this macro or send the <a href="/windows/desktop/Controls/dtm-getidealsize">DTM_GETIDEALSIZE</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the DTP control.
 
 ### -param psize [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure to receive the size. The caller is responsible for allocating this structure.
-
+A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure to receive the size. The caller is responsible for allocating this structure.

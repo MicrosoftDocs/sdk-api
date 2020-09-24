@@ -60,9 +60,8 @@ The <b>CERT_ISSUER_SERIAL_NUMBER</b> structure acts as a unique identifier of a 
 
 ### -field Issuer
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> structure that contains the name of the issuer.
+A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> structure that contains the name of the issuer.
 
 ### -field SerialNumber
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the serial number of the certificate. The combination of the issuer name and the serial number is a unique identifier of a certificate.
-
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the serial number of the certificate. The combination of the issuer name and the serial number is a unique identifier of a certificate.

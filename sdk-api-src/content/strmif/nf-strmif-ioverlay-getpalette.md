@@ -61,7 +61,7 @@ Pointer to a variable that receives the number of colors present.
 
 ### -param ppPalette [out]
 
-Receives a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure describing the palette.
+Receives a pointer to a <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure describing the palette.
 
 ## -returns
 
@@ -69,9 +69,8 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Supplies data about a port type. This structure is populated by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
+Supplies data about a port type. This structure is populated by <a href="/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 ## -struct-fields
 
@@ -66,9 +66,8 @@ The number of operations in the array referenced by the <b>Operations</b> member
 
 ### -field Operations
 
-Reference to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specifies the operations comprising the port type.
+Reference to an array of <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specifies the operations comprising the port type.
 
 ### -field ProtocolType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ne-wsdtypes-wsd_protocol_type">WSD_PROTOCOL_TYPE</a> value that specifies the protocol(s) supported by the port type.
-
+A <a href="/windows/desktop/api/wsdtypes/ne-wsdtypes-wsd_protocol_type">WSD_PROTOCOL_TYPE</a> value that specifies the protocol(s) supported by the port type.

@@ -54,7 +54,7 @@ Exposes methods that modify the view and select items in the current folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IShellFolderViewDual</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IShellFolderViewDual</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellFolderViewDual</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_application">get_Application</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_application">get_Application</a>
 </td>
 <td align="left" width="63%">
 Gets the application object.
@@ -78,7 +78,7 @@ Gets the application object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_focuseditem">get_FocusedItem</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_focuseditem">get_FocusedItem</a>
 </td>
 <td align="left" width="63%">
 Gets the FolderItem object that represents the item that has input focus.
@@ -87,7 +87,7 @@ Gets the FolderItem object that represents the item that has input focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_folder">get_Folder</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_folder">get_Folder</a>
 </td>
 <td align="left" width="63%">
 Gets the Folder object that represents the view.
@@ -96,7 +96,7 @@ Gets the Folder object that represents the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_parent">get_Parent</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_parent">get_Parent</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -105,7 +105,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_script">get_Script</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_script">get_Script</a>
 </td>
 <td align="left" width="63%">
 Gets the scripting object for the view.
@@ -114,7 +114,7 @@ Gets the scripting object for the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_viewoptions">get_ViewOptions</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-get_viewoptions">get_ViewOptions</a>
 </td>
 <td align="left" width="63%">
 Gets a set of flags that indicate the current options of the view.
@@ -123,7 +123,7 @@ Gets a set of flags that indicate the current options of the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-popupitemmenu">PopupItemMenu</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-popupitemmenu">PopupItemMenu</a>
 </td>
 <td align="left" width="63%">
 Creates a shortcut menu for the specified item and returns the selected command string.
@@ -132,7 +132,7 @@ Creates a shortcut menu for the specified item and returns the selected command 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-selecteditems">SelectedItems</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-selecteditems">SelectedItems</a>
 </td>
 <td align="left" width="63%">
 Gets a FolderItems object that represents all of the selected items in the view.
@@ -141,7 +141,7 @@ Gets a FolderItems object that represents all of the selected items in the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-selectitem">SelectItem</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual-selectitem">SelectItem</a>
 </td>
 <td align="left" width="63%">
 Sets the selection state of an item in the view.
@@ -152,13 +152,12 @@ Sets the selection state of an item in the view.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
+<a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual3">IShellFolderViewDual3</a>
-
+<a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual3">IShellFolderViewDual3</a>

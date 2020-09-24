@@ -63,11 +63,11 @@ A null terminated string that contains the receiver's phone number.  The maximum
 
 ### -param encoding [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_encoding">MBN_SMS_CDMA_ENCODING</a> value that specifies the data encoding.
+A <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_encoding">MBN_SMS_CDMA_ENCODING</a> value that specifies the data encoding.
 
 ### -param language [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_lang">MBN_SMS_CDMA_LANG</a> value that specifies the language.
+An <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_lang">MBN_SMS_CDMA_LANG</a> value that specifies the language.
 
 ### -param sizeInCharacters [in]
 
@@ -77,7 +77,7 @@ The number of encoded characters in the message. This can be different from the 
 
 An array of bytes containing the encoded CDMA message.  
 
-The maximum size of this array is the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_cdmashortmsgsize">CdmaShortMsgSize</a> property of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>, however this can be no larger than <b>MBN_CDMA_SHORT_MSG_SIZE_MAX</b> (160).
+The maximum size of this array is the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_cdmashortmsgsize">CdmaShortMsgSize</a> property of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>, however this can be no larger than <b>MBN_CDMA_SHORT_MSG_SIZE_MAX</b> (160).
 
 ### -param requestID [out]
 
@@ -151,7 +151,7 @@ The device does not support sending SMS messages in the requested format.  For e
 
 ## -remarks
 
-This method can be used to send a SMS message for a CDMA device. However, this is only when the CDMA device supports sending SMS. A calling application can learn if the device supports  this format by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getinterfacecapability">GetInterfaceCapability</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.  It can then look for <b>MBN_SMS_CAPS_TEXT_SEND</b> in the <b>smsCaps</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a>.
+This method can be used to send a SMS message for a CDMA device. However, this is only when the CDMA device supports sending SMS. A calling application can learn if the device supports  this format by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getinterfacecapability">GetInterfaceCapability</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.  It can then look for <b>MBN_SMS_CAPS_TEXT_SEND</b> in the <b>smsCaps</b> member of <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a>.
 
 
 The <i>address</i> parameter can be in either of these formats.
@@ -162,9 +162,8 @@ The <i>address</i> parameter can be in either of these formats.
 </ul>
 
 
-This is an asynchronous operation that will return immediately. If the method returns without error,  then the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmssendcomplete">OnSmsSendComplete</a> method of the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a> interface.
+This is an asynchronous operation that will return immediately. If the method returns without error,  then the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmssendcomplete">OnSmsSendComplete</a> method of the  <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a>

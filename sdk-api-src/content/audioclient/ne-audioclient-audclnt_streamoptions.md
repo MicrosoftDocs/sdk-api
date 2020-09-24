@@ -77,5 +77,4 @@ Supported in Windows 10 and later.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
-
+<a href="/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>

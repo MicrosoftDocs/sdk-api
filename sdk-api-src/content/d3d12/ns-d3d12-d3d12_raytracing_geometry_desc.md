@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes a set of geometry that is used in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_inputs">D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS</a> structure to provide input data to a raytracing acceleration structure build operation.
+Describes a set of geometry that is used in the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_inputs">D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS</a> structure to provide input data to a raytracing acceleration structure build operation.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ The geometry flags
 
 ### -field Triangles
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_triangles_desc">D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC</a> describing triangle geometry, if <i>Type</i> is  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_type">D3D12_RAYTRACING_GEOMETRY_TYPE_TRIANGLES</a>.  Otherwise this parameter is unused.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_triangles_desc">D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC</a> describing triangle geometry, if <i>Type</i> is  <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_type">D3D12_RAYTRACING_GEOMETRY_TYPE_TRIANGLES</a>.  Otherwise this parameter is unused.
 
 ### -field AABBs
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_aabbs_desc">D3D12_RAYTRACING_GEOMETRY_AABBS_DESC</a> describing triangle geometry, if <i>Type</i> is  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_type">D3D12_RAYTRACING_GEOMETRY_TYPE_PROCEDURAL_PRIMITIVE_AABBS</a>.  Otherwise this parameter is unused.
-
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_aabbs_desc">D3D12_RAYTRACING_GEOMETRY_AABBS_DESC</a> describing triangle geometry, if <i>Type</i> is  <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_type">D3D12_RAYTRACING_GEOMETRY_TYPE_PROCEDURAL_PRIMITIVE_AABBS</a>.  Otherwise this parameter is unused.

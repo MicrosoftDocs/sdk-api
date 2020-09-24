@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deallocates memory that has been allocated for a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a> by  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutildupparameterblock">ResUtilDupParameterBlock</a>.
+Deallocates memory that has been allocated for a  <a href="/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a> by  <a href="/windows/desktop/api/resapi/nf-resapi-resutildupparameterblock">ResUtilDupParameterBlock</a>.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Pointer to the parameter block to use as a reference.
 
 ### -param pPropertyTable [in]
 
-Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures describing the properties in the input parameter block.
+Pointer to an array of  <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures describing the properties in the input parameter block.
 
 ## -remarks
 
@@ -75,13 +75,12 @@ The  <b>ResUtilFreeParameterBlock</b> utility function deallocates any memory al
 <li>It will only deallocate memory for members referenced in the <i>pPropertyTable</i> input parameter.</li>
 <li>It will not deallocate memory that is pointed to by any member of <i>pInParams</i>.</li>
 </ul>
-Do not use this function with parameter blocks that have not been allocated with  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutildupparameterblock">ResUtilDupParameterBlock</a>.
+Do not use this function with parameter blocks that have not been allocated with  <a href="/windows/desktop/api/resapi/nf-resapi-resutildupparameterblock">ResUtilDupParameterBlock</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutildupparameterblock">ResUtilDupParameterBlock</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutildupparameterblock">ResUtilDupParameterBlock</a>

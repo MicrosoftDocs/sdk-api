@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyqmgr">IBackgroundCopyQMgr</a> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
+<p class="CCE_Message">[<a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyqmgr">IBackgroundCopyQMgr</a> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>GetGroup</b> method to retrieve a group from the download queue. The current user can retrieve only groups that they own. If the user has Administrator privileges, the user can retrieve any group from the download queue. Retrieving a group from the queue transfers ownership of the group to the current user.
 
@@ -62,7 +62,7 @@ GUID that uniquely identifies the group in the download queue.
 
 ### -param ppGroup [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a> interface pointer. Use this interface to manage the group. For example, add a job to the group and set the properties of the group.
+Pointer to an <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a> interface pointer. Use this interface to manage the group. For example, add a job to the group and set the properties of the group.
 
 ## -returns
 
@@ -99,5 +99,4 @@ Could not find the group in the download queue.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyqmgr">IBackgroundCopyQMgr</a>
-
+<a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyqmgr">IBackgroundCopyQMgr</a>

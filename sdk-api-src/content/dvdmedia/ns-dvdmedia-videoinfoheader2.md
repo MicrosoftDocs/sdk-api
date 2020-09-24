@@ -58,7 +58,7 @@ The <b>VIDEOINFOHEADER2</b> structure describes the bitmap and color information
 
 ### -field rcSource
 
-A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies what part of the source stream should be used to fill the destination buffer. Renderers can use this field to ask the decoders to stretch or clip. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/source-and-target-rectangles-in-video-renderers">Source and Target Rectangles in Video Renderers</a>.
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies what part of the source stream should be used to fill the destination buffer. Renderers can use this field to ask the decoders to stretch or clip. For more information, see <a href="/windows/desktop/DirectShow/source-and-target-rectangles-in-video-renderers">Source and Target Rectangles in Video Renderers</a>.
 
 ### -field rcTarget
 
@@ -74,7 +74,7 @@ The data error rate of the video stream, in bits per second.
 
 ### -field AvgTimePerFrame
 
-The video frame's average display time, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
+The video frame's average display time, in 100-nanosecond units. For more information, see the Remarks section for the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
 
 ### -field dwInterlaceFlags
 
@@ -273,7 +273,7 @@ Additional color information is contained in the upper 24 bits of the <b>dwContr
 
 The AMCONTROL_USED flag provides backward compatibility with older filters. If the AMCONTROL_USED flag is not set, the remaining bits in this field should be ignored. If a filter uses any of the other flags, it should set the AMCONTROL_USED flag.
 
-The two AMCONTROL_PAD_xxx flags are used by decoders to determine the aspect ratio of the output rectangle. The source filter sets the AMCONTROL_USED flag and one of the padding flags and calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">QueryAccept</a> on the downstream pin. If the decoder rejects the type, the source filter should set the dwControlFlags field to zero. For more information on the use of these flags, see MPEG Decoder Preprocessing Transformations.
+The two AMCONTROL_PAD_xxx flags are used by decoders to determine the aspect ratio of the output rectangle. The source filter sets the AMCONTROL_USED flag and one of the padding flags and calls <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">QueryAccept</a> on the downstream pin. If the decoder rejects the type, the source filter should set the dwControlFlags field to zero. For more information on the use of these flags, see MPEG Decoder Preprocessing Transformations.
 
 If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of the dwControlFlags field are treated as a <b>DXVA_ExtendedFormat</b> structure. See Remarks for more information.
 
@@ -289,9 +289,9 @@ Reserved for future use. Must be zero.
 
 ### -field bmiHeader
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
 
-When used inside a <b>VIDEOINFOHEADER2</b> structure, the semantics of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure differ slightly from how the structure is used in GDI. For more information, refer to the topic <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>.
+When used inside a <b>VIDEOINFOHEADER2</b> structure, the semantics of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure differ slightly from how the structure is used in GDI. For more information, refer to the topic <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>.
 
 ## -remarks
 
@@ -348,7 +348,7 @@ AMINTERLACE_DisplayModeWeaveOnly
 </table>
  
 
-If the video is interlaced, the media samples may carry flags that describe the contents of the sample (such as field 1 or field 2), along with the rendering requirements. These are specified by setting the <b>dwTypeSpecificFlags</b> member of each media sample's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. The following table shows the valid media sample flags for each of the display modes listed in the previous table. To set these flags, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample2-setproperties">IMediaSample2::SetProperties</a> on the media sample.
+If the video is interlaced, the media samples may carry flags that describe the contents of the sample (such as field 1 or field 2), along with the rendering requirements. These are specified by setting the <b>dwTypeSpecificFlags</b> member of each media sample's <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. The following table shows the valid media sample flags for each of the display modes listed in the previous table. To set these flags, call <a href="/windows/desktop/api/strmif/nf-strmif-imediasample2-setproperties">IMediaSample2::SetProperties</a> on the media sample.
 
 <table>
 <tr>
@@ -475,9 +475,8 @@ Ignore the <b>SampleFormat</b> member of the <b>DXVA_ExtendedFormat</b> structur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>
-
+<a href="/windows/desktop/DirectShow/media-types">Media Types</a>

@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>ISequentialStream</b> interface supports simplified sequential access to stream objects. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface inherits its 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a> methods from 
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface inherits its 
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a> and 
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a> methods from 
 <b>ISequentialStream</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISequentialStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISequentialStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISequentialStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISequentialStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ISequentialStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>
 </td>
 <td align="left" width="63%">
 Reads a specified number of bytes from the stream object into memory starting at the current seek pointer.
@@ -83,7 +83,7 @@ Reads a specified number of bytes from the stream object into memory starting at
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a>
 </td>
 <td align="left" width="63%">
 Writes a specified number of bytes to the stream object starting at the current seek pointer.
@@ -94,5 +94,4 @@ Writes a specified number of bytes to the stream object starting at the current 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Instructs an in-process server to remove only those entries created through <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>.
+Instructs an in-process server to remove only those entries created through <a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>.
 
 ## -parameters
 
@@ -111,9 +111,8 @@ The server was unable to remove the entries of all the object classes.
 
 ## -remarks
 
-The server must not disturb any entries that it did not create which currently exist for its object classes. For example, between registration and unregistration, the user may have specified a Treat As relationship between this class and another. In that case, unregistration can remove all entries except the <b>TreatAs</b> key and any others that were not explicitly created in <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>. The <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">registry functions</a> specifically disallow the deletion of an entire populated tree in the registry. The server can attempt, as the last step, to remove the CLSID key, but if other entries still exist, the key will remain.
+The server must not disturb any entries that it did not create which currently exist for its object classes. For example, between registration and unregistration, the user may have specified a Treat As relationship between this class and another. In that case, unregistration can remove all entries except the <b>TreatAs</b> key and any others that were not explicitly created in <a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>. The <a href="/windows/desktop/SysInfo/registry-functions">registry functions</a> specifically disallow the deletion of an entire populated tree in the registry. The server can attempt, as the last step, to remove the CLSID key, but if other entries still exist, the key will remain.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>
-
+<a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>

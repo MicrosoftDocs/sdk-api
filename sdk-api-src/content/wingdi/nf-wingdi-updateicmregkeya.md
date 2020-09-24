@@ -177,9 +177,8 @@ This function is retained for backward compatibility and may be removed in futur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/obsolete-wcs-functions">Obsolete WCS Functions</a>
-
+<a href="/previous-versions/windows/desktop/wcs/obsolete-wcs-functions">Obsolete WCS Functions</a>

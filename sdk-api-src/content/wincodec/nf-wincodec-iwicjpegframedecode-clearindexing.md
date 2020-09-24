@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Removes the indexing from a JPEG that has been indexed using <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>.
+Removes the indexing from a JPEG that has been indexed using <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>.
 
 ## -parameters
 
@@ -62,9 +62,8 @@ Returns S_OK upons successful completion.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>
-
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>

@@ -54,7 +54,7 @@ Provides the extended settings that the Task Scheduler uses to run the task.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskSettings3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>. <b>ITaskSettings3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskSettings3</b> interface inherits from <a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>. <b>ITaskSettings3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>ITaskSettings3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh832149(v=vs.85)">CreateMantenanceSettings</a>
+<a href="/previous-versions/windows/desktop/legacy/hh832149(v=vs.85)">CreateMantenanceSettings</a>
 </td>
 <td align="left" width="63%">
-Creates a new instance an <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a> object and associates it with this <b>ITaskSettings3</b> object.
+Creates a new instance an <a href="/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a> object and associates it with this <b>ITaskSettings3</b> object.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Creates a new instance an <a href="https://docs.microsoft.com/windows/desktop/ap
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings3-get_maintenancesettings">MaintenanceSettings</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings3-get_maintenancesettings">MaintenanceSettings</a>
 
 
 </td>
@@ -97,14 +97,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets a pointer to pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>object that Task scheduler uses to perform a task during Automatic maintenance.
+Gets or sets a pointer to pointer to an <a href="/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>object that Task scheduler uses to perform a task during Automatic maintenance.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings3-get_volatile">Volatile</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings3-get_volatile">Volatile</a>
 
 
 </td>
@@ -121,5 +121,4 @@ Gets or sets a boolean value that indicates whether the task is automatically di
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>

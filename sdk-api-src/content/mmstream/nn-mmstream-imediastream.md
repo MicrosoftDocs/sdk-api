@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <b>IMediaStream</b> interface provides access to the characteristics of a media stream, such as the stream's media type and purpose ID. It also has methods that create data samples.
 
-For sample code that implements the multimedia streaming interfaces, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/multimedia-streaming-sample-code">Multimedia Streaming Sample Code</a>.
+For sample code that implements the multimedia streaming interfaces, see <a href="/windows/desktop/DirectShow/multimedia-streaming-sample-code">Multimedia Streaming Sample Code</a>.
 
 Implement this interface when you want to add media type-specific functionality to your media stream. This interface is implemented on multimedia stream objects. <b>IMediaStream</b> provides generic sample-creation methods, but you usually want to write a more powerful version of these methods that will take advantage of your media type's specific characteristics.
 
@@ -62,7 +62,7 @@ Use this interface when your application needs to access a stream's media type i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imediastream-allocatesample">AllocateSample</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-allocatesample">AllocateSample</a>
 </td>
 <td align="left" width="63%">
 Allocates a new stream sample object for the current media stream.
@@ -86,7 +86,7 @@ Allocates a new stream sample object for the current media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imediastream-createsharedsample">CreateSharedSample</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-createsharedsample">CreateSharedSample</a>
 </td>
 <td align="left" width="63%">
 Creates a new stream sample that shares the same backing object as the existing sample.
@@ -95,7 +95,7 @@ Creates a new stream sample that shares the same backing object as the existing 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imediastream-getinformation">GetInformation</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-getinformation">GetInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream's purpose ID and media type.
@@ -104,7 +104,7 @@ Retrieves the stream's purpose ID and media type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imediastream-getmultimediastream">GetMultiMediaStream</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-getmultimediastream">GetMultiMediaStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the multimedia stream that contains the specified media stream.
@@ -113,7 +113,7 @@ Retrieves a pointer to the multimedia stream that contains the specified media s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imediastream-sendendofstream">SendEndOfStream</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-sendendofstream">SendEndOfStream</a>
 </td>
 <td align="left" width="63%">
 Forces the current stream to end. If the current stream isn't writable, this method does nothing.
@@ -122,7 +122,7 @@ Forces the current stream to end. If the current stream isn't writable, this met
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imediastream-setsameformat">SetSameFormat</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-setsameformat">SetSameFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the media stream to the same format as a previous stream.
@@ -130,4 +130,3 @@ Sets the media stream to the same format as a previous stream.
 </td>
 </tr>
 </table>
-

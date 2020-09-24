@@ -47,28 +47,20 @@ api_name:
  - MI_FilterFT
 ---
 
-# MI_FilterFT structure
-
-
 ## -description
 
-A support structure used in the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_filter">MI_Filter</a> 
+A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_filter">MI_Filter</a> 
     structure. Use the functions with the name prefix "MI_Filter_" to manipulate these 
     structures.
 
 ## -struct-fields
 
-### -field MI_Result
-
-TBD
-
 ### -field Evaluate
 
 The provider calls this function to evaluate an instance against a given filter. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_evaluate">MI_Filter_Evaluate</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_evaluate">MI_Filter_Evaluate</a>.
 
 ### -field GetExpression
 
 Gets the filter language and expression. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_getexpression">MI_Filter_GetExpression</a>.
-
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_getexpression">MI_Filter_GetExpression</a>.

@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>CryptFindCertificateKeyProvInfo</b> function enumerates the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic providers</a> and their containers to find the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> that corresponds to the certificate's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>.
+The <b>CryptFindCertificateKeyProvInfo</b> function enumerates the <a href="/windows/desktop/SecGloss/c-gly">cryptographic providers</a> and their containers to find the <a href="/windows/desktop/SecGloss/p-gly">private key</a> that corresponds to the certificate's <a href="/windows/desktop/SecGloss/p-gly">public key</a>.
 
 ## -parameters
 
 ### -param pCert [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of the certificate to use when exporting public key information.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of the certificate to use when exporting public key information.
 
 ### -param dwFlags [in]
 
@@ -160,10 +160,10 @@ Reserved for future use and must be <b>NULL</b>.
 
 ## -returns
 
-<b>TRUE</b> if the function finds a private key that corresponds to the certificate's public key within a searched <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">container</a>; <b>FALSE</b> if the function fails to find a container or a private key within a container.
+<b>TRUE</b> if the function finds a private key that corresponds to the certificate's public key within a searched <a href="/windows/desktop/SecGloss/k-gly">container</a>; <b>FALSE</b> if the function fails to find a container or a private key within a container.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the following error:
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the following error:
 
 <table>
 <tr>
@@ -185,9 +185,8 @@ No container found.
 
 ## -remarks
 
-This function enumerates the cryptographic providers and their containers to find the private key that corresponds to the certificate's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>. For a match, the function updates the certificate's <b>CERT_KEY_PROV_INFO_PROP_ID</b> property. If the <b>CERT_KEY_PROV_INFO_PROP_ID</b> is already set, it is checked to determine whether it matches the provider's public key. For a match, the function skips the previously mentioned enumeration.
+This function enumerates the cryptographic providers and their containers to find the private key that corresponds to the certificate's <a href="/windows/desktop/SecGloss/p-gly">public key</a>. For a match, the function updates the certificate's <b>CERT_KEY_PROV_INFO_PROP_ID</b> property. If the <b>CERT_KEY_PROV_INFO_PROP_ID</b> is already set, it is checked to determine whether it matches the provider's public key. For a match, the function skips the previously mentioned enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

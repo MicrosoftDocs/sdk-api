@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>get_EventFilter</b> method retrieves the current filter settings for the current address and a given 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> value.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> value.
 
 If no filters are set for an address, no event information for that address will be sent to the application.
 
@@ -61,7 +61,7 @@ If no filters are set for an address, no event information for that address will
 ### -param TapiEvent [in]
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> descriptor of event type information being checked.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> descriptor of event type information being checked.
 
 ### -param lSubEvent [in]
 
@@ -77,5 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress2">ITAddress2</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress2">ITAddress2</a>

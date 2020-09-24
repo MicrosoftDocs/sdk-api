@@ -52,75 +52,75 @@ api_name:
 
 ## -description
 
-Represents a function table for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pstartup_ex_routine">StartupEx</a> callback function.
+Represents a function table for the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pstartup_ex_routine">StartupEx</a> callback function.
 
 ## -struct-fields
 
 ### -field LogEvent
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point.
 
 ### -field SetResourceStatusEx
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a> entry point.
 
 ### -field SetResourceLockedMode
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_locked_mode_routine">SetResourceLockedMode</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_locked_mode_routine">SetResourceLockedMode</a> entry point.
 
 ### -field SignalFailure
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-psignal_failure_routine">SignalFailure</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-psignal_failure_routine">SignalFailure</a> entry point.
 
 ### -field SetResourceInMemoryNodeLocalProperties
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_inmemory_nodelocal_properties_routine">SetResourceInMemoryNodeLocalProperties</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_inmemory_nodelocal_properties_routine">SetResourceInMemoryNodeLocalProperties</a> entry point.
 
 ### -field EndControlCall
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pend_control_call">EndControlCall</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pend_control_call">EndControlCall</a> entry point.
 
 <b>Windows Server 2012:  </b>This member was added in Windows Server 2012 R2.
 
 ### -field EndTypeControlCall
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pend_type_control_call">EndTypeControlCall</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pend_type_control_call">EndTypeControlCall</a> entry point.
 
 <b>Windows Server 2012:  </b>This member was added in Windows Server 2012 R2.
 
 ### -field ExtendControlCall
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pextend_res_control_call">ExtendControlCall</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pextend_res_control_call">ExtendControlCall</a> entry point.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member was added in Windows Server 2016.
 
 ### -field ExtendTypeControlCall
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pextend_res_type_control_call">ExtendResTypeControlCall</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pextend_res_type_control_call">ExtendResTypeControlCall</a> entry point.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member was added in Windows Server 2016.
 
 ### -field RaiseResTypeNotification
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-praise_res_type_notification">RaiseResTypeNotification</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-praise_res_type_notification">RaiseResTypeNotification</a> entry point.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member was added in Windows Server 2016.
 
 ### -field ChangeResourceProcessForDumps
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pchange_resource_process_for_dumps">ChangeResourceProcessForDumps</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pchange_resource_process_for_dumps">ChangeResourceProcessForDumps</a> entry point.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member was added in Windows Server 2016.
 
 ### -field ChangeResTypeProcessForDumps
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pchange_res_type_process_for_dumps">ChangeResTypeProcessForDumps</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pchange_res_type_process_for_dumps">ChangeResTypeProcessForDumps</a> entry point.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member was added in Windows Server 2016.
 
 ### -field SetInternalState
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_internal_state">SetInternalState</a> entry point.
+A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_internal_state">SetInternalState</a> entry point.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member was added in Windows Server 2016.
 
@@ -128,5 +128,4 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>

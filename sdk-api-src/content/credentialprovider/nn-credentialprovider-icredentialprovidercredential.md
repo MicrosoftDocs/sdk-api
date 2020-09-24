@@ -54,7 +54,7 @@ Exposes methods that enable the handling of a credential.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderCredential</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderCredential</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderCredential</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderCredential</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICredentialProviderCredential</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">Advise</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Enables a credential to initiate events in the Logon UI or Credential UI through a callback interface. This method should be called before other methods in <b>ICredentialProviderCredential</b> interface.
@@ -78,7 +78,7 @@ Enables a credential to initiate events in the Logon UI or Credential UI through
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-commandlinkclicked">CommandLinkClicked</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-commandlinkclicked">CommandLinkClicked</a>
 </td>
 <td align="left" width="63%">
 Enables the Logon UI and Credential UI to indicate that a link was clicked.
@@ -87,7 +87,7 @@ Enables the Logon UI and Credential UI to indicate that a link was clicked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getbitmapvalue">GetBitmapValue</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getbitmapvalue">GetBitmapValue</a>
 </td>
 <td align="left" width="63%">
 Enables retrieval of bitmap data from a credential with a bitmap field.
@@ -96,7 +96,7 @@ Enables retrieval of bitmap data from a credential with a bitmap field.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getcheckboxvalue">GetCheckboxValue</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getcheckboxvalue">GetCheckboxValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the checkbox value.
@@ -105,7 +105,7 @@ Retrieves the checkbox value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getcomboboxvalueat">GetComboBoxValueAt</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getcomboboxvalueat">GetComboBoxValueAt</a>
 </td>
 <td align="left" width="63%">
 Gets the string label for a combo box entry at the given index.
@@ -114,7 +114,7 @@ Gets the string label for a combo box entry at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getcomboboxvaluecount">GetComboBoxValueCount</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getcomboboxvaluecount">GetComboBoxValueCount</a>
 </td>
 <td align="left" width="63%">
 Gets a count of the items in the specified combo box and designates which item should have initial selection.
@@ -123,7 +123,7 @@ Gets a count of the items in the specified combo box and designates which item s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getfieldstate">GetFieldState</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getfieldstate">GetFieldState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the field state. The Logon UI and Credential UI use this to gain information about a field of a credential to display this information in the user tile.
@@ -132,7 +132,7 @@ Retrieves the field state. The Logon UI and Credential UI use this to gain infor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">GetSerialization</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">GetSerialization</a>
 </td>
 <td align="left" width="63%">
 Called in response to an attempt to submit this credential to the underlying authentication engine.
@@ -141,7 +141,7 @@ Called in response to an attempt to submit this credential to the underlying aut
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getstringvalue">GetStringValue</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getstringvalue">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Enables retrieval of text from a credential with a text field.
@@ -150,7 +150,7 @@ Enables retrieval of text from a credential with a text field.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getsubmitbuttonvalue">GetSubmitButtonValue</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getsubmitbuttonvalue">GetSubmitButtonValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of a field that the submit button should be placed next to in the Logon UI.
@@ -159,7 +159,7 @@ Retrieves the identifier of a field that the submit button should be placed next
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-reportresult">ReportResult</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-reportresult">ReportResult</a>
 </td>
 <td align="left" width="63%">
 Translates a received error status code into the appropriate user-readable message.
@@ -169,7 +169,7 @@ Translates a received error status code into the appropriate user-readable messa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setcheckboxvalue">SetCheckboxValue</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setcheckboxvalue">SetCheckboxValue</a>
 </td>
 <td align="left" width="63%">
 Enables a Logon UI and Credential UI ro indicate that a checkbox value has changed.
@@ -178,7 +178,7 @@ Enables a Logon UI and Credential UI ro indicate that a checkbox value has chang
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setcomboboxselectedvalue">SetComboBoxSelectedValue</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setcomboboxselectedvalue">SetComboBoxSelectedValue</a>
 </td>
 <td align="left" width="63%">
 Enables a Logon UI and Credential UI to indicate that a combo box value has been selected.
@@ -187,7 +187,7 @@ Enables a Logon UI and Credential UI to indicate that a combo box value has been
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setdeselected">SetDeselected</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setdeselected">SetDeselected</a>
 </td>
 <td align="left" width="63%">
 Called when a credential loses selection.
@@ -196,7 +196,7 @@ Called when a credential loses selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setselected">SetSelected</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setselected">SetSelected</a>
 </td>
 <td align="left" width="63%">
 Called when a credential is selected. Enables the implementer to set logon characteristics.
@@ -205,7 +205,7 @@ Called when a credential is selected. Enables the implementer to set logon chara
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setstringvalue">SetStringValue</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-setstringvalue">SetStringValue</a>
 </td>
 <td align="left" width="63%">
 Enables a Logon UI or Credential UI to update the text for a <b>CPFT_EDIT_TEXT</b> fields as the user types in them.
@@ -214,7 +214,7 @@ Enables a Logon UI or Credential UI to update the text for a <b>CPFT_EDIT_TEXT</
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-unadvise">UnAdvise</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-unadvise">UnAdvise</a>
 </td>
 <td align="left" width="63%">
 Used by the Logon UI or Credential UI to advise the credential that event callbacks are no longer accepted.
@@ -234,16 +234,15 @@ Credential providers handle extremely sensitive user secrets in order to complet
                 
 
 <ul>
-<li>Always securely discard secrets. To do this, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> before freeing the memory used to hold any secret.</li>
+<li>Always securely discard secrets. To do this, call <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> before freeing the memory used to hold any secret.</li>
 <li>Securely discard secrets promptly after they are used.</li>
 <li>Securely discard secrets if they are not used for their intended purpose within an expected amount of time.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-providers-in-windows">Credential Providers in Windows 10</a>
+<a href="/windows/desktop/SecAuthN/credential-providers-in-windows">Credential Providers in Windows 10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider">ICredentialProvider</a>
-
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider">ICredentialProvider</a>

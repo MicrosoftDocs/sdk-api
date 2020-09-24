@@ -64,11 +64,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-When this method is called, the data has changed. The new data can be obtained at this time by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartment-getvalue">ITfCompartment::GetValue</a>.
+When this method is called, the data has changed. The new data can be obtained at this time by calling <a href="/windows/desktop/api/msctf/nf-msctf-itfcompartment-getvalue">ITfCompartment::GetValue</a>.
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartment-setvalue">ITfCompartment::SetValue</a> will return E_UNEXPECTED if called from within this notification.
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartment-setvalue">ITfCompartment::SetValue</a> will return E_UNEXPECTED if called from within this notification.
 
 ## -see-also
 
 [ITfCompartment::GetValue](nf-msctf-itfcompartment-getvalue.md), [ITfCompartment::SetValue](nf-msctf-itfcompartment-setvalue.md), [ITfCompartmentEventSink interface](nn-msctf-itfcompartmenteventsink.md)
-

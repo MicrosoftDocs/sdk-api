@@ -56,8 +56,8 @@ The <b>BeginSCPDDownload</b> method initiates the asynchronous download of an Se
 
 ### -param pAsyncResult [in, optional]
 
-Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a> object. When the <b>BeginSCPDDownload</b> call is complete, 
-	UPnP will use the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a> method to notify the control 
+Specifies a pointer to an <a href="/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a> object. When the <b>BeginSCPDDownload</b> call is complete, 
+	UPnP will use the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a> method to notify the control 
 	point.
 
 ### -param pullRequestID [out]
@@ -99,13 +99,12 @@ Failed to initiate the SCPD download.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">IUPnPServiceAsync::BeginInvokeAction</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">IUPnPServiceAsync::BeginInvokeAction</a>

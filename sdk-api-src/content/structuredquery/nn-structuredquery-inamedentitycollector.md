@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides a method to accumulate named entities as identified by an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object. When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object that, in turn, invokes this interface to collect possible named entities in the input string.
+Provides a method to accumulate named entities as identified by an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object. When a query parser parses an input string into condition nodes, the parser invokes an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object that, in turn, invokes this interface to collect possible named entities in the input string.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedEntityCollector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamedEntityCollector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedEntityCollector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamedEntityCollector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INamedEntityCollector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-inamedentitycollector-add">Add</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-inamedentitycollector-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a single (potential) named entity to this <b>INamedEntityCollector</b> collection, as identified in a tokenized span of the input string being parsed.
@@ -78,4 +78,3 @@ Adds a single (potential) named entity to this <b>INamedEntityCollector</b> coll
 </td>
 </tr>
 </table>
-

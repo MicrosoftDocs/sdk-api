@@ -62,7 +62,7 @@ The <b>EngFreeModule</b> function unmaps a file from system memory.
 
 ### -param h [in]
 
-Handle to the memory-mapped file to be freed. This handle was obtained from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>.
+Handle to the memory-mapped file to be freed. This handle was obtained from <a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> or <a href="/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>.
 
 ## -returns
 
@@ -70,13 +70,12 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a>

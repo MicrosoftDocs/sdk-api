@@ -69,7 +69,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method does not remove the object from the collection. To remove an object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeelement">IMFCollection::RemoveElement</a>.
+This method does not remove the object from the collection. To remove an object, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeelement">IMFCollection::RemoveElement</a>.
       
 
 
@@ -101,5 +101,4 @@ HRESULT GetCollectionObject(IMFCollection *pCollection,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>

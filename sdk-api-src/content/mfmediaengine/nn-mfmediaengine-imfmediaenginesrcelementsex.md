@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelements">IMFMediaEngineSrcElements</a> interface to provide additional capabilities.
+Extends the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelements">IMFMediaEngineSrcElements</a> interface to provide additional capabilities.
 
 ## -inheritance
 
@@ -69,16 +69,16 @@ The <b>IMFMediaEngineSrcElementsEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelementsex-addelementex">AddElementEx</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelementsex-addelementex">AddElementEx</a>
 </td>
 <td align="left" width="63%">
-Provides an enhanced version of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">IMFMediaEngineSrcElements::AddElement</a> to add the key system intended to be used with content to an element.
+Provides an enhanced version of <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">IMFMediaEngineSrcElements::AddElement</a> to add the key system intended to be used with content to an element.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelementsex-getkeysystem">GetKeySystem</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelementsex-getkeysystem">GetKeySystem</a>
 </td>
 <td align="left" width="63%">
 Gets the key system for the given source element index.
@@ -89,5 +89,4 @@ Gets the key system for the given source element index.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

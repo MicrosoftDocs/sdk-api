@@ -65,16 +65,16 @@ Number of elements in <i>nameElements.</i>
 
 Type: <b>PCWSTR*</b>
 
-A parsed Windows Runtime type name, as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-roparsetypename">RoParseTypeName</a> function.
+A parsed Windows Runtime type name, as returned by the <a href="/windows/desktop/api/rometadataresolution/nf-rometadataresolution-roparsetypename">RoParseTypeName</a> function.
 For example, "Windows.Foundation.Collections.IVector`1", and "N1.N2.IFoo".
 
 ### -param metaDataLocator [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/roparameterizediid/ns-roparameterizediid-irometadatalocator">IRoMetaDataLocator</a></b>
+Type: <b>const <a href="/windows/desktop/api/roparameterizediid/ns-roparameterizediid-irometadatalocator">IRoMetaDataLocator</a></b>
 
 A callback to use for resolving metadata. 
                                                                   
-An implementation should use the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-rogetmetadatafile">RoGetMetaDataFile</a> function to discover the necessary metadata (.winmd) file and examine the metadata to determine the necessary type information. Because the <b>RoGetMetaDataFile</b> function does not cache results, locators should cache the results as appropriate for the programming model being implemented.
+An implementation should use the <a href="/windows/desktop/api/rometadataresolution/nf-rometadataresolution-rogetmetadatafile">RoGetMetaDataFile</a> function to discover the necessary metadata (.winmd) file and examine the metadata to determine the necessary type information. Because the <b>RoGetMetaDataFile</b> function does not cache results, locators should cache the results as appropriate for the programming model being implemented.
 
 ### -param iid [out]
 
@@ -143,13 +143,13 @@ This function is stateless.  The <i>metaDataLocator</i> argument is not preserve
 
 
 
-The <b>RoGetParameterizedTypeInstanceIID</b> function does not perform deep semantic analysis.  For instance, if <a href="https://docs.microsoft.com/windows/desktop/api/roparameterizediid/ns-roparameterizediid-irosimplemetadatabuilder">IRoSimpleMetaDataBuilder</a> specifies that a structure contains an interface pointer, this function returns success, even though such metadata is semantically invalid. The value of the returned IID is unspecified in such cases.
+The <b>RoGetParameterizedTypeInstanceIID</b> function does not perform deep semantic analysis.  For instance, if <a href="/windows/desktop/api/roparameterizediid/ns-roparameterizediid-irosimplemetadatabuilder">IRoSimpleMetaDataBuilder</a> specifies that a structure contains an interface pointer, this function returns success, even though such metadata is semantically invalid. The value of the returned IID is unspecified in such cases.
 
 This function may recursively invoke the metadata locator provided as an argument.
 
 
 
-If a call to the <a href="https://docs.microsoft.com/windows/desktop/api/roparameterizediid/ns-roparameterizediid-irosimplemetadatabuilder">IRoSimpleMetaDataBuilder</a> function fails, this function will return that failure code.
+If a call to the <a href="/windows/desktop/api/roparameterizediid/ns-roparameterizediid-irosimplemetadatabuilder">IRoSimpleMetaDataBuilder</a> function fails, this function will return that failure code.
 
 
 
@@ -208,4 +208,3 @@ int main()
 
 
 ```
-

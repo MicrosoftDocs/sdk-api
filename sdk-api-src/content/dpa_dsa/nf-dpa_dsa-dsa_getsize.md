@@ -62,7 +62,6 @@ A handle to an existing DSA.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONGLONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONGLONG</a></b>
 
 Returns the size of the DSA, including the internal bookkeeping information, in bytes. If <i>hdsa</i> is <b>NULL</b>, the function returns zero.
-

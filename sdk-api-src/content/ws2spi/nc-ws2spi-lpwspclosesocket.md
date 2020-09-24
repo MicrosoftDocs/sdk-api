@@ -161,7 +161,6 @@ Note that in this case the Winsock provider is allowed to retain any resources a
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspioctl">LPWSPIoctl</a>
 
-<a href="https://docs.microsoft.com/en-us/previous-versions/windows/hardware/network/ff566318(v%3dvs.85)?redirectedfrom=MSDN">WSPSetSockOpt</a>
+<a href="/previous-versions/windows/hardware/network/ff566318(v=vs.85)">WSPSetSockOpt</a>
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
-

@@ -108,7 +108,7 @@ If the key is an asymmetric key, this can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Use the PKCS1 padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pkcs1_padding_info">BCRYPT_PKCS1_PADDING_INFO</a> structure.
+Use the PKCS1 padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pkcs1_padding_info">BCRYPT_PKCS1_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Use the PKCS1 padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to 
 </dl>
 </td>
 <td width="60%">
-Use the Probabilistic Signature Scheme (PSS) padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pss_padding_info">BCRYPT_PSS_PADDING_INFO</a> structure.
+Use the Probabilistic Signature Scheme (PSS) padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pss_padding_info">BCRYPT_PSS_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -218,5 +218,4 @@ A memory allocation failure occurred.
 
 ## -remarks
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

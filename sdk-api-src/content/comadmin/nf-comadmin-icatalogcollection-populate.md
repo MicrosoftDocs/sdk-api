@@ -89,9 +89,8 @@ Errors occurred while accessing one or more objects.
 
 ## -remarks
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a> method prior to calling the <b>Populate</b> method if you want to save pending changes. Unsaved changes made to the collection are lost when you call the <b>Populate</b> method.
+Call the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a> method prior to calling the <b>Populate</b> method if you want to save pending changes. Unsaved changes made to the collection are lost when you call the <b>Populate</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>

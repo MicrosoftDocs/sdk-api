@@ -59,14 +59,14 @@ api_name:
 ## -description
 
 Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This function is used to build the <i>dwlConditionMask</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
 
 ## -parameters
 
 ### -param ConditionMask [in]
 
 A value to be passed as the <i>dwlConditionMask</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. The function stores the comparison information in the bits of this variable. 
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. The function stores the comparison information in the bits of this variable. 
 
 
 
@@ -76,8 +76,8 @@ Before the first call to <b>VerSetCondition</b>, initialize this variable to zer
 ### -param TypeMask [in]
 
 A mask that indicates the member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure whose comparison operator is being set. This value corresponds to one of the bits specified in the <i>dwTypeMask</i> parameter for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. This parameter can be one of the following values.
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure whose comparison operator is being set. This value corresponds to one of the bits specified in the <i>dwTypeMask</i> parameter for the 
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -177,7 +177,7 @@ wSuiteMask
 ### -param Condition [in]
 
 The operator to be used for the comparison. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function uses this operator to compare a specified attribute value to the corresponding value for the currently running system. 
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function uses this operator to compare a specified attribute value to the corresponding value for the currently running system. 
 
 
 
@@ -285,29 +285,28 @@ The function returns the condition mask value.
 ## -remarks
 
 Call this function once for each bit set in the <i>dwTypeMask</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/verifying-the-system-version">Verifying the System Version</a>.
+<a href="/windows/desktop/SysInfo/verifying-the-system-version">Verifying the System Version</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
+<a href="/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>

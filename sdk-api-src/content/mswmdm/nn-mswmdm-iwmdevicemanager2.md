@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IWMDeviceManager2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a> interface. It provides a way of enumerating devices that takes advantage of the Plug and Play (PnP) system that results in better performance and lower memory use. It also enables the application to query for a specific device based on the canonical name of the device.
+The <b>IWMDeviceManager2</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a> interface. It provides a way of enumerating devices that takes advantage of the Plug and Play (PnP) system that results in better performance and lower memory use. It also enables the application to query for a specific device based on the canonical name of the device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDeviceManager2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a>. <b>IWMDeviceManager2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDeviceManager2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a>. <b>IWMDeviceManager2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDeviceManager2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">EnumDevices2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">EnumDevices2</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration interface that is used to enumerate portable devices connected to the computer.
@@ -78,7 +78,7 @@ Retrieves an enumeration interface that is used to enumerate portable devices co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">GetDeviceFromCanonicalName</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">GetDeviceFromCanonicalName</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IWMDMDevice</b> interface for a device with a specified canonical name.
@@ -87,7 +87,7 @@ Retrieves an <b>IWMDMDevice</b> interface for a device with a specified canonica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-reinitialize">Reinitialize</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-reinitialize">Reinitialize</a>
 </td>
 <td align="left" width="63%">
 Forces Windows Media Device Manager to rediscover all the Windows Media Device Manager devices
@@ -98,9 +98,8 @@ Forces Windows Media Device Manager to rediscover all the Windows Media Device M
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

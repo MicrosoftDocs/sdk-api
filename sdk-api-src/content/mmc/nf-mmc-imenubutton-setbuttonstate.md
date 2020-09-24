@@ -61,7 +61,7 @@ A value that specifies a user-supplied value that uniquely identifies the menu b
 ### -param nState [in]
 
 A value that specifies the state of the button. This value can be one of the following values taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_button_state">MMC_BUTTON_STATE</a> enumeration:
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_button_state">MMC_BUTTON_STATE</a> enumeration:
 
 
 
@@ -85,5 +85,4 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-imenubutton">IMenuButton</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-imenubutton">IMenuButton</a>

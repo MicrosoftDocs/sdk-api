@@ -53,17 +53,17 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>SetServiceObjectSecurity</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a> function.]
+<p class="CCE_Message">[<b>SetServiceObjectSecurity</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a> function.]
 
-The <b>SetServiceObjectSecurity</b> function sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of a service object.
+The <b>SetServiceObjectSecurity</b> function sets the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> of a service object.
 
 ## -parameters
 
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The access required for this handle depends on the security information specified in the <i>dwSecurityInformation</i> parameter.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The access required for this handle depends on the security information specified in the <i>dwSecurityInformation</i> parameter.
 
 ### -param dwSecurityInformation [in]
 
@@ -85,7 +85,7 @@ Specifies the components of the security descriptor to set. This parameter can b
 </dl>
 </td>
 <td width="60%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the object. The handle specified by <i>hService</i>  must have WRITE_DAC access, or the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> must be the owner of the object.
+Sets the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the object. The handle specified by <i>hService</i>  must have WRITE_DAC access, or the calling <a href="/windows/desktop/SecGloss/p-gly">process</a> must be the owner of the object.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">dis
 </dl>
 </td>
 <td width="60%">
-Sets the primary group <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the object. The handle specified by <i>hService</i> must have WRITE_OWNER access, or the calling process must be the owner of the object.
+Sets the primary group <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the object. The handle specified by <i>hService</i> must have WRITE_OWNER access, or the calling process must be the owner of the object.
 
 </td>
 </tr>
@@ -115,13 +115,13 @@ Sets the SID of the owner of the object. The handle specified by <i>hService</i>
 </dl>
 </td>
 <td width="60%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the object. The handle specified by <i>hService</i> must have ACCESS_SYSTEM_SECURITY access. 
+Sets the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the object. The handle specified by <i>hService</i> must have ACCESS_SYSTEM_SECURITY access. 
 
 <p class="proch"><b>To obtain ACCESS_SYSTEM_SECURITY access</b>
 
 <ol>
 <li>Enable the SE_SECURITY_NAME 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">privilege</a> in the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> of the caller.</li>
+<a href="/windows/desktop/SecAuthZ/privileges">privilege</a> in the current <a href="/windows/desktop/SecGloss/a-gly">access token</a> of the caller.</li>
 <li>Open the handle for ACCESS_SYSTEM_SECURITY access.</li>
 <li>Disable the privilege.</li>
 </ol>
@@ -132,14 +132,14 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sys
 ### -param lpSecurityDescriptor [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security information.
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security information.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero. 
 
 If the function fails, it  returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Other error codes can be set by the registry functions that are called by the service control manager.
 
@@ -196,35 +196,34 @@ The specified service has been marked for deletion.
 
 ## -remarks
 
-The <b>SetServiceObjectSecurity</b> function sets the specified portions of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of the service object based on the information specified in the <i>lpSecurityDescriptor</i> buffer. This function replaces any or all of the security information associated with the service object, according to the flags set in the <i>dwSecurityInformation</i> parameter and subject to the access rights of the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a>.
+The <b>SetServiceObjectSecurity</b> function sets the specified portions of the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> of the service object based on the information specified in the <i>lpSecurityDescriptor</i> buffer. This function replaces any or all of the security information associated with the service object, according to the flags set in the <i>dwSecurityInformation</i> parameter and subject to the access rights of the calling <a href="/windows/desktop/SecGloss/p-gly">process</a>.
 
 When a service is created, the service control manager assigns a default security descriptor to the service object. To retrieve a copy of the security descriptor for a service object, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity">QueryServiceObjectSecurity</a> function. For a description of the default security descriptor for a service object, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>. 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity">QueryServiceObjectSecurity</a> function. For a description of the default security descriptor for a service object, see 
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>. 
 
 Note that granting certain access to untrusted users (such as SERVICE_CHANGE_CONFIG or SERVICE_STOP) can allow them to interfere with the execution of your service and possibly allow them to run applications under the LocalSystem account.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity">QueryServiceObjectSecurity</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity">QueryServiceObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>

@@ -50,25 +50,24 @@ api_name:
 
 ## -description
 
-Retrieves the state of a button or check box.  You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-getstate">BM_GETSTATE</a> message explicitly.
+Retrieves the state of a button or check box.  You can use this macro or send the <a href="/windows/desktop/Controls/bm-getstate">BM_GETSTATE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-button_getcheck">Button_GetCheck</a>
+<a href="/windows/desktop/api/windowsx/nf-windowsx-button_getcheck">Button_GetCheck</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-button_setstate">Button_SetState</a>
+<a href="/windows/desktop/api/windowsx/nf-windowsx-button_setstate">Button_SetState</a>
 
 
 
 <b>Reference</b>
-

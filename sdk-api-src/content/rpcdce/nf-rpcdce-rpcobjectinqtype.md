@@ -101,17 +101,17 @@ Object not found.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 A server application calls 
 <b>RpcObjectInqType</b> to obtain the type UUID of an object. If the object was registered with the RPC run-time library using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a> function, the registered type is returned.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a> function, the registered type is returned.
 
 Optionally, an application can privately maintain an object/type registration. In this case, if the application has provided an object inquiry function (see under 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>). The RPC run-time library uses that function to determine an object's type.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>). The RPC run-time library uses that function to determine an object's type.
 
 The 
 <b>RpcObjectInqType</b> function obtains the type UUID as described in the following table.
@@ -124,14 +124,14 @@ The
 </tr>
 <tr>
 <td>Yes (
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a>)</td>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a>)</td>
 <td>Ignored</td>
 <td>The object's registered type UUID.</td>
 </tr>
 <tr>
 <td>No</td>
 <td>Yes (
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>)</td>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>)</td>
 <td>The type UUID returned from the inquiry function.</td>
 </tr>
 <tr>
@@ -147,9 +147,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a>

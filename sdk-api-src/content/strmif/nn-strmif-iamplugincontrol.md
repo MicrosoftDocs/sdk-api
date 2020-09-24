@@ -56,7 +56,7 @@ To get a pointer to this interface, call <b>CoCreateInstance</b>. The class iden
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMPluginControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMPluginControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMPluginControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMPluginControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IAMPluginControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-getdisabledbyindex">IAMPluginControl::GetDisabledByIndex</a>
+<a href="/previous-versions/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-getdisabledbyindex">IAMPluginControl::GetDisabledByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a CLSID from the blocked list.
@@ -82,7 +82,7 @@ Gets a CLSID from the blocked list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-getpreferredclsid">IAMPluginControl::GetPreferredClsid</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-getpreferredclsid">IAMPluginControl::GetPreferredClsid</a>
 </td>
 <td align="left" width="63%">
 Searches the preferred list for a CLSID that matches a specified subtype.
@@ -93,7 +93,7 @@ Searches the preferred list for a CLSID that matches a specified subtype.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-getpreferredclsidbyindex">IAMPluginControl::GetPreferredClsidByIndex</a>
+<a href="/previous-versions/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-getpreferredclsidbyindex">IAMPluginControl::GetPreferredClsidByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a CLSID from the preferred list, specified by index value.
@@ -102,7 +102,7 @@ Gets a CLSID from the preferred list, specified by index value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-isdisabled">IAMPluginControl::IsDisabled</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-isdisabled">IAMPluginControl::IsDisabled</a>
 </td>
 <td align="left" width="63%">
 Queries whether a CLSID appears in the blocked list.
@@ -113,7 +113,7 @@ Queries whether a CLSID appears in the blocked list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-islegacydisabled">IAMPluginControl::IsLegacyDisabled</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-islegacydisabled">IAMPluginControl::IsLegacyDisabled</a>
 </td>
 <td align="left" width="63%">
 Queries whether an Audio Compression Manager (ACM) or Video Compression Manager (VCM) codec appears in the blocked list.
@@ -122,7 +122,7 @@ Queries whether an Audio Compression Manager (ACM) or Video Compression Manager 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-setdisabled">IAMPluginControl::SetDisabled</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-setdisabled">IAMPluginControl::SetDisabled</a>
 </td>
 <td align="left" width="63%">
 Adds a CLSID to the blocked list, or removes a CLSID from the list.
@@ -133,7 +133,7 @@ Adds a CLSID to the blocked list, or removes a CLSID from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-setpreferredclsid">IAMPluginControl::SetPreferredClsid</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamplugincontrol-setpreferredclsid">IAMPluginControl::SetPreferredClsid</a>
 </td>
 <td align="left" width="63%">
 Adds a CLSID to the preferred list or removes a CLSID from the list.
@@ -144,5 +144,4 @@ Adds a CLSID to the preferred list or removes a CLSID from the list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
-
+<a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>

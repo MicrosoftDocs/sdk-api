@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Gets or sets the offset between the left edge of the pen input panel and the left edge of the control to which it is attached.
 
@@ -77,9 +77,8 @@ If the new position causes the panel to appear outside the boundary of the scree
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
+<a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset">VerticalOffset Property</a>
-
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset">VerticalOffset Property</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the sensitivity of an implemented <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchlanguagesupport">ISearchLanguageSupport</a> interface to diacritics.  A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
+Gets the sensitivity of an implemented <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchlanguagesupport">ISearchLanguageSupport</a> interface to diacritics.  A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ On return, contains a pointer to the sensitivity setting. <b>FALSE</b> indicates
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

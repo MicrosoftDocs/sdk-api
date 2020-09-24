@@ -104,9 +104,8 @@ In the case of outputs that equate to mutual exclusions, only the active stream 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
+<a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>

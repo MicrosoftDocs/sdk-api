@@ -70,11 +70,10 @@ The type that corresponds to this XML element.
                 
 
 Not all types support being read and written as an element.  If the
-                    documentation for the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> indicates it supports
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_ELEMENT_TYPE_MAPPING</a>, then it can be used with this structure.
+                    documentation for the <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> indicates it supports
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_ELEMENT_TYPE_MAPPING</a>, then it can be used with this structure.
 
 ### -field typeDescription
 
 Additional information about the type.  Each type has a different description
-                    structure.  This may be <b>NULL</b>, depending on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>.
-
+                    structure.  This may be <b>NULL</b>, depending on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>.

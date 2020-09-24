@@ -56,15 +56,14 @@ Enables an application to specify a language to be used with the common controls
 
 ### -param uiLang
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LANGID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LANGID</a></b>
 
-The  <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> of the language to be used by the common controls.
+The  <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> of the language to be used by the common controls.
 
 ## -remarks
 
-This function enables an application to override the system language setting, and specify a different language for the common controls. The selected language only applies to the process that <b>InitMUILanguage</b> is called from. See <a href="https://docs.microsoft.com/windows/desktop/Intl/international-support">Internationalization for Windows Applications</a> for further discussion of localization.
+This function enables an application to override the system language setting, and specify a different language for the common controls. The selected language only applies to the process that <b>InitMUILanguage</b> is called from. See <a href="/windows/desktop/Intl/international-support">Internationalization for Windows Applications</a> for further discussion of localization.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-getmuilanguage">GetMUILanguage</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-getmuilanguage">GetMUILanguage</a>

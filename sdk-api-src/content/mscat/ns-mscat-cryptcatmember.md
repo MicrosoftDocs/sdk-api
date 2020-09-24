@@ -54,7 +54,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPTCATMEMBER</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTCATMEMBER</b> structure provides information about a catalog member. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatenumerateattr">CryptCATEnumerateAttr</a> functions.
+The <b>CRYPTCATMEMBER</b> structure provides information about a catalog member. This structure is used by the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a> and <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatenumerateattr">CryptCATEnumerateAttr</a> functions.
 
 ## -struct-fields
 
@@ -96,17 +96,16 @@ Reserved; do not use.
 
 ### -field sEncodedIndirectData
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_ATTR_BLOB</a> structure that contains encoded indirect data.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_ATTR_BLOB</a> structure that contains encoded indirect data.
 
 ### -field sEncodedMemberInfo
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_ATTR_BLOB</a> structure that contains encoded member information.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_ATTR_BLOB</a> structure that contains encoded member information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatenumerateattr">CryptCATEnumerateAttr</a>
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatenumerateattr">CryptCATEnumerateAttr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a>
-
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a>

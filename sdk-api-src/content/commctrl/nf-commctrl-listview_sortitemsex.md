@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortitemsex">LVM_SORTITEMSEX</a> message explicitly.
+Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-sortitemsex">LVM_SORTITEMSEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -68,7 +68,7 @@ A pointer to an application-defined comparison function. It is called during the
 
 ### -param _lPrm
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The application-defined value that is passed to the comparison function.
 
@@ -85,11 +85,10 @@ where
 
 The comparison function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent. 
 
-You can send an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemtext">LVM_GETITEMTEXT</a> message to retrieve further information on an item, if needed.
+You can send an <a href="/windows/desktop/Controls/lvm-getitemtext">LVM_GETITEMTEXT</a> message to retrieve further information on an item, if needed.
 
-This macro is similar to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_sortitems">ListView_SortItems</a>, except for the type of information passed to the comparison function. With <b>ListView_SortItemsEx</b>, the item's index is passed instead of its 
+This macro is similar to <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_sortitems">ListView_SortItems</a>, except for the type of information passed to the comparison function. With <b>ListView_SortItemsEx</b>, the item's index is passed instead of its 
 				<i>lparam</i> value. 
 
-<div class="alert"><b>Note</b>   During the sorting process, the list-view contents are unstable. If the callback function sends any messages to the list-view control aside from <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitem">LVM_GETITEM</a> (<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getitem">ListView_GetItem</a>), the results are unpredictable.</div>
+<div class="alert"><b>Note</b>   During the sorting process, the list-view contents are unstable. If the callback function sends any messages to the list-view control aside from <a href="/windows/desktop/Controls/lvm-getitem">LVM_GETITEM</a> (<a href="/windows/desktop/api/commctrl/nf-commctrl-listview_getitem">ListView_GetItem</a>), the results are unpredictable.</div>
 <div> </div>
-

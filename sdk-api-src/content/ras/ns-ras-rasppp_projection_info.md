@@ -65,11 +65,11 @@ A value that specifies the result of PPP IPv4  network control protocol negotiat
 
 ### -field ipv4Address
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> that contains a null-terminated Unicode string that specifies the IPv4 address of the local client. This string has the form "a.b.c.d". <b>ipv4Address</b> is valid only if <b>dwIPv4NegotiationError</b> is zero.
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> that contains a null-terminated Unicode string that specifies the IPv4 address of the local client. This string has the form "a.b.c.d". <b>ipv4Address</b> is valid only if <b>dwIPv4NegotiationError</b> is zero.
 
 ### -field ipv4ServerAddress
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure that contains a Unicode string that specifies the IPv4 address of the remote server. This string has the form "a.b.c.d". <b>ipv4ServerAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero. If the address is not available, this member is an empty string.
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure that contains a Unicode string that specifies the IPv4 address of the remote server. This string has the form "a.b.c.d". <b>ipv4ServerAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero. If the address is not available, this member is an empty string.
 
 ### -field dwIPv4Options
 
@@ -657,13 +657,12 @@ MPPE compression using 128-bit keys.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetprojectioninfoex">RasGetProjectionInfoEx</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetprojectioninfoex">RasGetProjectionInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>

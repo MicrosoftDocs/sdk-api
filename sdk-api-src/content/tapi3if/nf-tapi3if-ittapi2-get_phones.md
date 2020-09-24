@@ -54,15 +54,15 @@ The
 <b>get_Phones</b> method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty collection and returns S_OK.
 
 This method is intended for Visual Basic and scripting applications. C/C++ applications will find the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-enumeratephones">EnumeratePhones</a> method more convenient.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-enumeratephones">EnumeratePhones</a> method more convenient.
 
 ## -parameters
 
 ### -param pPhones [out]
 
 Pointer to a <b>VARIANT</b> containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface pointers.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface pointers.
 
 ## -returns
 
@@ -71,7 +71,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface returned by <b>ITTAPI2::get_Phones</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface returned by <b>ITTAPI2::get_Phones</b>. The application must call <b>Release</b> on the 
 <b>ITPhone</b> interface to free resources associated with it.
 
 ## -see-also
@@ -80,5 +80,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a>

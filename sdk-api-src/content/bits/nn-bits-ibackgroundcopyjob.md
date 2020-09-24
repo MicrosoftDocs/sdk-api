@@ -54,13 +54,13 @@ Use the
 <b>IBackgroundCopyJob</b> interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.
 
 To create a job, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a> method. To get an 
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a> method. To get an 
 <b>IBackgroundCopyJob</b> interface pointer to an existing job, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">IBackgroundCopyManager::GetJob</a> method.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">IBackgroundCopyManager::GetJob</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IBackgroundCopyJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">AddFile</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">AddFile</a>
 </td>
 <td align="left" width="63%">
 Adds a single file to the job.
@@ -84,7 +84,7 @@ Adds a single file to the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">AddFileSet</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">AddFileSet</a>
 </td>
 <td align="left" width="63%">
 Adds multiple files to the job.
@@ -93,7 +93,7 @@ Adds multiple files to the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-cancel">Cancel</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the job and removes temporary files from the client.
@@ -102,7 +102,7 @@ Cancels the job and removes temporary files from the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">Complete</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">Complete</a>
 </td>
 <td align="left" width="63%">
 Ends the job and saves the transferred files on the client.
@@ -111,7 +111,7 @@ Ends the job and saves the transferred files on the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">EnumFiles</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">EnumFiles</a>
 </td>
 <td align="left" width="63%">
 Returns an interface pointer to an enumerator object that you use to enumerate the files in the job.
@@ -120,7 +120,7 @@ Returns an interface pointer to an enumerator object that you use to enumerate t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getdescription">GetDescription</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description of the job.
@@ -129,7 +129,7 @@ Retrieves the description of the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getdisplayname">GetDisplayName</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getdisplayname">GetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name that identifies the job.
@@ -138,7 +138,7 @@ Retrieves the display name that identifies the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">GetError</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">GetError</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface pointer to the error object after an error occurs.
@@ -147,7 +147,7 @@ Retrieves an interface pointer to the error object after an error occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterrorcount">GetErrorCount</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterrorcount">GetErrorCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of times the job was interrupted by network failure or server unavailability.
@@ -156,7 +156,7 @@ Retrieves the number of times the job was interrupted by network failure or serv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getid">GetId</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getid">GetId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the job in the queue.
@@ -165,7 +165,7 @@ Retrieves the identifier of the job in the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getminimumretrydelay">GetMinimumRetryDelay</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getminimumretrydelay">GetMinimumRetryDelay</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum length of time that BITS waits after encountering a transient error condition before trying to transfer the file.
@@ -174,7 +174,7 @@ Retrieves the minimum length of time that BITS waits after encountering a transi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnoprogresstimeout">GetNoProgressTimeout</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnoprogresstimeout">GetNoProgressTimeout</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of time that BITS continues to try to transfer the file after encountering a transient error condition.
@@ -183,7 +183,7 @@ Retrieves the length of time that BITS continues to try to transfer the file aft
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnotifyflags">GetNotifyFlags</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnotifyflags">GetNotifyFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the event notification (callback) flags you have set for your application.
@@ -192,17 +192,17 @@ Retrieves the event notification (callback) flags you have set for your applicat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnotifyinterface">GetNotifyInterface</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnotifyinterface">GetNotifyInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to your implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface (callbacks).
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface (callbacks).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getowner">GetOwner</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getowner">GetOwner</a>
 </td>
 <td align="left" width="63%">
 Retrieves the job owner's identity.
@@ -211,7 +211,7 @@ Retrieves the job owner's identity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getpriority">GetPriority</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getpriority">GetPriority</a>
 </td>
 <td align="left" width="63%">
 Retrieves the priority level you have set for the job.
@@ -220,7 +220,7 @@ Retrieves the priority level you have set for the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getprogress">GetProgress</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getprogress">GetProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves job-related progress information, such as the number of bytes and files transferred to the client.
@@ -229,7 +229,7 @@ Retrieves job-related progress information, such as the number of bytes and file
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getproxysettings">GetProxySettings</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getproxysettings">GetProxySettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy settings the job uses to transfer the files.
@@ -238,7 +238,7 @@ Retrieves the proxy settings the job uses to transfer the files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">GetState</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the job.
@@ -247,7 +247,7 @@ Retrieves the state of the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-gettimes">GetTimes</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-gettimes">GetTimes</a>
 </td>
 <td align="left" width="63%">
 Retrieves time stamps for activities related to the job, such as the time the job was created.
@@ -256,7 +256,7 @@ Retrieves time stamps for activities related to the job, such as the time the jo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-gettype">GetType</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of transfer being performed, such as a file download.
@@ -265,7 +265,7 @@ Retrieves the type of transfer being performed, such as a file download.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">Resume</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Restarts a suspended job.
@@ -274,7 +274,7 @@ Restarts a suspended job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdescription">SetDescription</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">
 Specifies a description of the job.
@@ -283,7 +283,7 @@ Specifies a description of the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdisplayname">SetDisplayName</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdisplayname">SetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Specifies a display name that identifies the job in a user interface.
@@ -292,7 +292,7 @@ Specifies a display name that identifies the job in a user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setminimumretrydelay">SetMinimumRetryDelay</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setminimumretrydelay">SetMinimumRetryDelay</a>
 </td>
 <td align="left" width="63%">
 Specifies the minimum length of time that BITS waits after encountering a transient error condition before trying to transfer the file.
@@ -301,7 +301,7 @@ Specifies the minimum length of time that BITS waits after encountering a transi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout">SetNoProgressTimeout</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout">SetNoProgressTimeout</a>
 </td>
 <td align="left" width="63%">
 Specifies the length of time that BITS continues to try to transfer the file after encountering a transient error condition.
@@ -310,7 +310,7 @@ Specifies the length of time that BITS continues to try to transfer the file aft
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">SetNotifyFlags</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">SetNotifyFlags</a>
 </td>
 <td align="left" width="63%">
 Specifies the type of event notification to receive.
@@ -319,17 +319,17 @@ Specifies the type of event notification to receive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">SetNotifyInterface</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">SetNotifyInterface</a>
 </td>
 <td align="left" width="63%">
 Specifies a pointer to your implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface (callbacks). The interface receives notification based on the event notification flags you set.
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface (callbacks). The interface receives notification based on the event notification flags you set.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setpriority">SetPriority</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setpriority">SetPriority</a>
 </td>
 <td align="left" width="63%">
 Specifies the priority of the job relative to other jobs in the transfer queue.
@@ -338,7 +338,7 @@ Specifies the priority of the job relative to other jobs in the transfer queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setproxysettings">SetProxySettings</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setproxysettings">SetProxySettings</a>
 </td>
 <td align="left" width="63%">
 Specifies which proxy to use to transfer the files.
@@ -347,7 +347,7 @@ Specifies which proxy to use to transfer the files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">Suspend</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">Suspend</a>
 </td>
 <td align="left" width="63%">
 Pauses the job.
@@ -356,7 +356,7 @@ Pauses the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-takeownership">TakeOwnership</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-takeownership">TakeOwnership</a>
 </td>
 <td align="left" width="63%">
 Changes the ownership of the job to the current user.
@@ -367,21 +367,20 @@ Changes the ownership of the job to the current user.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2">IBackgroundCopyJob2</a>
+<a href="/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2">IBackgroundCopyJob2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopymanager">IBackgroundCopyManager</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopymanager">IBackgroundCopyManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
-
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>

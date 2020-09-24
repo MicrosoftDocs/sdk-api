@@ -74,5 +74,4 @@ An array of <a href="/windows/win32/api/tssbx/ns-tssbx-wtssbx_ip_address">WTSSBX
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-
+<a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>

@@ -55,14 +55,14 @@ api_name:
 ## -description
 
 Contains the parameters for a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a> function.
+    <a href="/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a> function.
 
 ## -struct-fields
 
 ### -field Version
 
 Discriminant for the union containing a value enumerated from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a> 
+      <a href="/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a> 
       enumeration.
 
 ### -field Version1
@@ -76,13 +76,12 @@ Contains the new size of the virtual disk.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a>
+<a href="/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a>
+<a href="/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>

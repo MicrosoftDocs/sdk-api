@@ -87,5 +87,4 @@ Number of regions that fit in the output.
 
 ### -field Regions
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_storage_tier_region">FILE_STORAGE_TIER_REGION</a> struct that contains detailed information for each region.
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-file_storage_tier_region">FILE_STORAGE_TIER_REGION</a> struct that contains detailed information for each region.

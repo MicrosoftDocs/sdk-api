@@ -70,9 +70,8 @@ Pointer to callback for event provider.
 ### -param ppSink [out]
 
 Pointer to created 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemeventsink">IWbemEventSink</a> object.
+<a href="/windows/desktop/WmiSdk/iwbemeventsink">IWbemEventSink</a> object.
 
 ## -returns
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
-

@@ -54,9 +54,8 @@ Creates a name-value pair in which the name is associated with the value.
 
 ## -remarks
 
-When reading or writing your own XML for a task, a name-value pair is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-valuequeries-eventtriggertype-element">ValueQueries</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, a name-value pair is specified using the <a href="/windows/desktop/TaskSchd/taskschedulerschema-valuequeries-eventtriggertype-element">ValueQueries</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluecollection">ITaskNamedValueCollection</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluecollection">ITaskNamedValueCollection</a>

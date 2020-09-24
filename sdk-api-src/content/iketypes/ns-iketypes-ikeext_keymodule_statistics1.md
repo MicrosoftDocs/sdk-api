@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_KEYMODULE_STATISTICS1</b> structure contains various statistics specific to the keying module.
-[IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0) is available.</div><div> </div>
+[IKEEXT_KEYMODULE_STATISTICS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -89,5 +89,4 @@ Current Extended Mode negotiation time.  This member is applicable for AuthIp on
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

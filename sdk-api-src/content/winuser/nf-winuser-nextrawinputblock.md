@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Retrieves the location of the next structure in an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures.
+Retrieves the location of the next structure in an array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures.
 
 ## -parameters
 
 ### -param ptr
 
-A pointer to a structure in an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures.
+A pointer to a structure in an array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures.
 
 ## -remarks
 
-This macro is called repeatedly to traverse an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures.
+This macro is called repeatedly to traverse an array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures.
 
 ## -see-also
 
@@ -68,13 +68,12 @@ This macro is called repeatedly to traverse an array of <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 
 <b>Reference</b>
-

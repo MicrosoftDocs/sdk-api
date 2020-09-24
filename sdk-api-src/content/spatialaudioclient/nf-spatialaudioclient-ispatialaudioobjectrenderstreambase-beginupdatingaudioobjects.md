@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Puts the system into the state where audio object data can be submitted for processing and the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> state can be modified.
+Puts the system into the state where audio object data can be submitted for processing and the <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> state can be modified.
 
 ## -parameters
 
 ### -param availableDynamicObjectCount [out]
 
-The number of dynamic audio objects that are available to be rendered for the current processing pass. All allocated static audio objects can be rendered in every pass. For information on audio object types, see <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype">AudioObjectType</a>.
+The number of dynamic audio objects that are available to be rendered for the current processing pass. All allocated static audio objects can be rendered in every pass. For information on audio object types, see <a href="/windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype">AudioObjectType</a>.
 
 ### -param frameCountPerBuffer [out]
 
-The size, in audio frames, of the buffer returned by <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getbuffer">GetBuffer</a>.
+The size, in audio frames, of the buffer returned by <a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getbuffer">GetBuffer</a>.
 
 ## -returns
 
@@ -78,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-<b>BeginUpdatingAudioObjects</b> was called twice without a matching call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects">EndUpdatingAudioObjects</a> between the two calls.
+<b>BeginUpdatingAudioObjects</b> was called twice without a matching call to <a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects">EndUpdatingAudioObjects</a> between the two calls.
 
 </td>
 </tr>
@@ -151,18 +151,17 @@ The media associated with the spatial audio stream uses an unsupported format.
 
 ## -remarks
 
-This method must be called each time the event passed in the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams">SpatialAudioObjectRenderStreamActivationParams</a> to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream">ISpatialAudioClient::ActivateSpatialAudioStream</a> is signaled,  
+This method must be called each time the event passed in the <a href="/windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams">SpatialAudioObjectRenderStreamActivationParams</a> to <a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream">ISpatialAudioClient::ActivateSpatialAudioStream</a> is signaled,  
      even if there no audio object data to submit.
 
-For each <b>BeginUpdatingAudioObjects</b> call, there should be a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects">EndUpdatingAudioObjects</a> call.  
+For each <b>BeginUpdatingAudioObjects</b> call, there should be a corresponding call to <a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects">EndUpdatingAudioObjects</a> call.  
     If <b>BeginUpdatingAudioObjects</b> is called twice without a call <b>EndUpdatingAudioObjects</b> between them, the second call to  
     <b>BeginUpdatingAudioObjects</b> will return SPTLAUDCLNT_E_OUT_OF_ORDER.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
+<a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
 
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
-

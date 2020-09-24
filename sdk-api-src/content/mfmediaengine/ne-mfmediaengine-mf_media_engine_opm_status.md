@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the status of the <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM).
+Defines the status of the <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM).
 
 ## -enum-fields
 
@@ -81,5 +81,4 @@ OPM failed for other reasons.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

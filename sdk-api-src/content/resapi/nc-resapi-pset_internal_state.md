@@ -58,7 +58,7 @@ Sets the internal state of a resource
 
 ### -param stateType [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-cluster_resource_application_state">CLUSTER_RESOURCE_APPLICATION_STATE</a> value
+A <a href="/previous-versions/windows/desktop/api/resapi/ne-resapi-cluster_resource_application_state">CLUSTER_RESOURCE_APPLICATION_STATE</a> value
 
 ### -param active [in]
 
@@ -68,4 +68,3 @@ Whether the resource is active
 #### - [in]
 
 A resource handle
-

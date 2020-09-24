@@ -57,7 +57,7 @@ The <b>Get</b> method gets the current setting of a camera property.
 
 ### -param Property [in]
 
-Specifies the property to retrieve, as a value from the [CameraControlProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty) enumeration.
+Specifies the property to retrieve, as a value from the [CameraControlProperty](/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty) enumeration.
 
 ### -param lValue [out]
 
@@ -65,7 +65,7 @@ Receives the value of the property.
 
 ### -param Flags [out]
 
-Receives a member of the [CameraControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration. The returned value indicates whether the setting is controlled manually or automatically.
+Receives a member of the [CameraControlFlags](/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration. The returned value indicates whether the setting is controlled manually or automatically.
 
 ## -returns
 
@@ -73,17 +73,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
+<a href="/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcameracontrol">IAMCameraControl Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamcameracontrol">IAMCameraControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-set">IAMCameraControl::Set</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-set">IAMCameraControl::Set</a>

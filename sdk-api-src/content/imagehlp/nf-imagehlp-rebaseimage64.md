@@ -108,29 +108,28 @@ If this parameter is 0, the current file header time date stamp is incremented b
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
 <b>ReBaseImage64</b> function changes the desired load address for the specified image. This operation involves reading the entire image and updating all fixups, debugging information, and checksum. You can rebase an image to reduce the required load time for its DLLs. If an application can rely on a DLL being loaded at the desired load address, then the system loader does not have to relocate the image. The image is simply loaded into the application's virtual address space and the 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function is called, if one is present.
+<a href="/windows/desktop/Dlls/dllmain">DllMain</a> function is called, if one is present.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 You cannot rebase DLLs that link with /DYNAMICBASE or that reside in protected directories, such as the System32 folder.
 
-As an alternative to using this function, see the <a href="https://msdn.microsoft.com/library/f7f5138s.aspx">/BASE</a> linker option.
+As an alternative to using this function, see the <a href="/cpp/build/reference/base-base-address">/BASE</a> linker option.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a>
+<a href="/windows/desktop/Dlls/dllmain">DllMain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-rebaseimage">ReBaseImage</a>
-
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-rebaseimage">ReBaseImage</a>

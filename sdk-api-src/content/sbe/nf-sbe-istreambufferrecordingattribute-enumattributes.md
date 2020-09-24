@@ -56,7 +56,7 @@ The <b>EnumAttributes</b> method enumerates the existing attributes of the strea
 
 ### -param ppIEnumStreamBufferAttrib [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-ienumstreambufferrecordingattrib">IEnumStreamBufferRecordingAttrib</a> interface pointer.
+Receives an <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-ienumstreambufferrecordingattrib">IEnumStreamBufferRecordingAttrib</a> interface pointer.
           The caller must release the interface.
 
 ## -returns
@@ -105,5 +105,4 @@ Success
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordingattribute">IStreamBufferRecordingAttribute Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordingattribute">IStreamBufferRecordingAttribute Interface</a>

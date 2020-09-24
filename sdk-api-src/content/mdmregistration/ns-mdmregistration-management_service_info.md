@@ -68,9 +68,8 @@ The URI of the Authentication service.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdmregistration/nf-mdmregistration-discovermanagementservice">DiscoverManagementService</a>
+<a href="/windows/desktop/api/mdmregistration/nf-mdmregistration-discovermanagementservice">DiscoverManagementService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-structures">MDM Registration Structures</a>
-
+<a href="/windows/desktop/MDMReg/mdm-registration-structures">MDM Registration Structures</a>

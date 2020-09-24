@@ -74,17 +74,16 @@ End of line character is LF.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/controls/em-getendofline">EM_GETENDOFLINE</a>
+<a href="/windows/desktop/controls/em-getendofline">EM_GETENDOFLINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/controls/em-setendofline">EM_SETENDOFLINE</a>
+<a href="/windows/desktop/controls/em-setendofline">EM_SETENDOFLINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-edit_getendofline">Edit_GetEndOfLine</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-edit_getendofline">Edit_GetEndOfLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-edit_setendofline">Edit_SetEndOfLine</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-edit_setendofline">Edit_SetEndOfLine</a>

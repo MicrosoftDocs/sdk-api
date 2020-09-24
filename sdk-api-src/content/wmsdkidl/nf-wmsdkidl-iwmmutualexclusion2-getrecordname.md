@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>GetRecordName</b> method retrieves the name of the specified record. A record has a name only if a name has been assigned using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setrecordname">IWMMutualExclusion2::SetRecordName</a> method.
+The <b>GetRecordName</b> method retrieves the name of the specified record. A record has a name only if a name has been assigned using the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setrecordname">IWMMutualExclusion2::SetRecordName</a> method.
 
 ## -parameters
 
@@ -125,5 +125,4 @@ Records are assigned numbers sequentially in the order they are created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>

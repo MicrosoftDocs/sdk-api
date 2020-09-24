@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates an instance of a DirectDraw object. A DirectDraw object that is created by using this function does not support the complete set of Direct3D interfaces in DirectX 7.0. To create a DirectDraw object that is capable of exposing all of the features of Direct3D in DirectX 7.0, use the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawcreateex">DirectDrawCreateEx</a> function.
+Creates an instance of a DirectDraw object. A DirectDraw object that is created by using this function does not support the complete set of Direct3D interfaces in DirectX 7.0. To create a DirectDraw object that is capable of exposing all of the features of Direct3D in DirectX 7.0, use the <a href="/windows/desktop/api/ddraw/nf-ddraw-directdrawcreateex">DirectDrawCreateEx</a> function.
 
 ## -parameters
 
@@ -102,5 +102,4 @@ This function attempts to initialize a DirectDraw object, and then sets a pointe
 
 On computers with multiple monitors, if you specify NULL for <i>lpGUID</i>, the DirectDraw object runs in emulation mode when the normal cooperative level is set. To make use of hardware acceleration on these computers, specify the device's GUID.
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>DirectDrawCreate</b> function.
-
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>DirectDrawCreate</b> function.

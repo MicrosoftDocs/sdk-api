@@ -68,5 +68,4 @@ Use a cover page from the fax server common coverpages folder.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-coverpagetype-vb">IFaxDocument::get_CoverPageType</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-coverpagetype-vb">IFaxDocument::get_CoverPageType</a>

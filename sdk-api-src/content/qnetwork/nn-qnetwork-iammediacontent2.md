@@ -54,7 +54,7 @@ The <code>IAMMediaContent2</code> interface retrieves custom parameters and play
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMMediaContent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMMediaContent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAMMediaContent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparameter">get_MediaParameter</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparameter">get_MediaParameter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a custom parameter.
@@ -78,7 +78,7 @@ Retrieves the value of a custom parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparametername">get_MediaParameterName</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparametername">get_MediaParameterName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a custom parameter.
@@ -87,7 +87,7 @@ Retrieves the name of a custom parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_playlistcount">get_PlaylistCount</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_playlistcount">get_PlaylistCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of playlist entries.
@@ -109,5 +109,4 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

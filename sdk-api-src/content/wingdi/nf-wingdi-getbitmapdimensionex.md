@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>GetBitmapDimensionEx</b> function retrieves the dimensions of a compatible bitmap. The retrieved dimensions must have been set by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbitmapdimensionex">SetBitmapDimensionEx</a> function.
+The <b>GetBitmapDimensionEx</b> function retrieves the dimensions of a compatible bitmap. The retrieved dimensions must have been set by the <a href="/windows/desktop/api/wingdi/nf-wingdi-setbitmapdimensionex">SetBitmapDimensionEx</a> function.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A handle to a compatible bitmap (DDB).
 
 ### -param lpsize [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure to receive the bitmap dimensions. For more information, see Remarks.
+A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure to receive the bitmap dimensions. For more information, see Remarks.
 
 ## -returns
 
@@ -76,17 +76,16 @@ The function returns a data structure that contains fields for the height and wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbitmapdimensionex">SetBitmapDimensionEx</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbitmapdimensionex">SetBitmapDimensionEx</a>

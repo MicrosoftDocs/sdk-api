@@ -62,9 +62,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Use this method when the currently executing code is outside of the activation path. If the code is executing inside the activation path, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationactivation-cancelpendingactivation">IWebApplicationActivation::CancelPendingActivation</a> instead.
+Use this method when the currently executing code is outside of the activation path. If the code is executing inside the activation path, use <a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationactivation-cancelpendingactivation">IWebApplicationActivation::CancelPendingActivation</a> instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>
-
+<a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>

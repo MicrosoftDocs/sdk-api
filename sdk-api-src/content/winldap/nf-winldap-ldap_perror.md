@@ -54,7 +54,7 @@ This function is not supported.
 
 The <b>ldap_perror</b> function is an obsolete 
    function.  It  exists only for compatibility.
-<div class="alert"><b>Note</b>  Obsolete. Use the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a> function 
+<div class="alert"><b>Note</b>  Obsolete. Use the  <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a> function 
     instead.</div><div> </div>
 
 ## -parameters
@@ -70,4 +70,3 @@ A message.
 ## -returns
 
 This function does not return a value.
-

@@ -56,7 +56,7 @@ Initiates a multicast file transfer.
 
 ### -param pSessionRequest [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ns-wdstci-wds_transportclient_request">WDS_TRANSPORTCLIENT_REQUEST</a> structure that contains all the details required to initiate the multicast session.  The format of this structure is described below.
+Pointer to a <a href="/windows/desktop/api/wdstci/ns-wdstci-wds_transportclient_request">WDS_TRANSPORTCLIENT_REQUEST</a> structure that contains all the details required to initiate the multicast session.  The format of this structure is described below.
 
 ### -param pCallerData [in]
 
@@ -72,5 +72,4 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 ## -remarks
 
-This function only sets up the session, it does not start the transfer.  To start the transfer, call <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a>.
-
+This function only sets up the session, it does not start the transfer.  To start the transfer, call <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a>.

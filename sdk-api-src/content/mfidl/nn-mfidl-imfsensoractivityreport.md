@@ -57,7 +57,7 @@ Represents an activity report for a sensor.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorActivityReport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivityReport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorActivityReport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivityReport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFSensorActivityReport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivityreport-getfriendlyname">GetFriendlyName</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivityreport-getfriendlyname">GetFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Gets the friendly name for the sensor associated with the report.
@@ -81,25 +81,25 @@ Gets the friendly name for the sensor associated with the report.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivityreport-getprocessactivity">GetProcessActivity</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivityreport-getprocessactivity">GetProcessActivity</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a> object representing the current process activity of a sensor.
+Gets an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a> object representing the current process activity of a sensor.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivityreport-getprocesscount">GetProcessCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivityreport-getprocesscount">GetProcessCount</a>
 </td>
 <td align="left" width="63%">
-Gets the count of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a> objects, representing the current activity of a process associated with the sensor, that are available to be retrieved.
+Gets the count of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a> objects, representing the current activity of a process associated with the sensor, that are available to be retrieved.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivityreport-getsymboliclink">GetSymbolicLink</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivityreport-getsymboliclink">GetSymbolicLink</a>
 </td>
 <td align="left" width="63%">
 Gets the symbolic link for the sensor associated with the report.
@@ -107,4 +107,3 @@ Gets the symbolic link for the sensor associated with the report.
 </td>
 </tr>
 </table>
-

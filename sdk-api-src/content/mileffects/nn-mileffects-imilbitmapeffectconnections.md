@@ -54,7 +54,7 @@ Exposes methods used to retrieve input and output connectors exposed by the bitm
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectConnections</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectConnections</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectConnections</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectConnections</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMILBitmapEffectConnections</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnections-getinputconnector">GetInputConnector</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnections-getinputconnector">GetInputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the input connector associated with the given pin index.
@@ -78,7 +78,7 @@ Retrieves the input connector associated with the given pin index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnections-getoutputconnector">GetOutputConnector</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnections-getoutputconnector">GetOutputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output connector associated with the given pin index.
@@ -86,4 +86,3 @@ Retrieves the output connector associated with the given pin index.
 </td>
 </tr>
 </table>
-

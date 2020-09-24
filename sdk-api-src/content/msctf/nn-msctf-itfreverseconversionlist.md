@@ -56,7 +56,7 @@ Represents a list of the keystroke sequences required to create a specified stri
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReverseConversionList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReverseConversionList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReverseConversionList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReverseConversionList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,23 +71,23 @@ The <b>ITfReverseConversionList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreverseconversionlist-getlength">GetLength</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreverseconversionlist-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of keystroke sequences in the list.
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreverseconversionlist-getlength">GetLength</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/msctf/nf-msctf-itfreverseconversionlist-getlength">GetLength</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreverseconversionlist-getstring">GetString</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreverseconversionlist-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the keystroke sequence at the specified index. 
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreverseconversionlist-getstring">GetString</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/msctf/nf-msctf-itfreverseconversionlist-getstring">GetString</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
 <div> </div>
 </td>
 </tr>
@@ -95,5 +95,4 @@ Retrieves the keystroke sequence at the specified index.
 
 ## -remarks
 
-This interface is used to store the results of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreverseconversion-doreverseconversion">ITfReverseConversionList::DoReverseConversion</a> method.
-
+This interface is used to store the results of the <a href="/windows/desktop/api/msctf/nf-msctf-itfreverseconversion-doreverseconversion">ITfReverseConversionList::DoReverseConversion</a> method.

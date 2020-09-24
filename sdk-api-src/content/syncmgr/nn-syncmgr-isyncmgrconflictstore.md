@@ -54,7 +54,7 @@ Exposes methods that allow a handler to provide conflicts that appear in the Con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrConflictStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-bindtoconflict">BindToConflict</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-bindtoconflict">BindToConflict</a>
 </td>
 <td align="left" width="63%">
 Binds to a particular conflict specified by IID.
@@ -78,7 +78,7 @@ Binds to a particular conflict specified by IID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-enumconflicts">EnumConflicts</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-enumconflicts">EnumConflicts</a>
 </td>
 <td align="left" width="63%">
 Enumerates conflicts scoped to the provided sync handler and sync item.
@@ -87,7 +87,7 @@ Enumerates conflicts scoped to the provided sync handler and sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-getcount">GetCount</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of conflicts in the store.
@@ -96,7 +96,7 @@ Gets the number of conflicts in the store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-removeconflicts">RemoveConflicts</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-removeconflicts">RemoveConflicts</a>
 </td>
 <td align="left" width="63%">
 Deletes a set of conflicts, specified by conflict ID, from the store.
@@ -107,11 +107,10 @@ Deletes a set of conflicts, specified by conflict ID, from the store.
 
 ## -remarks
 
-Conflict is provided to enable the user to select a version of a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> as needed, instead of being forced to pick to complete a sync selection set. The fact that we current display them in the conflict folder is purely secondary. 
+Conflict is provided to enable the user to select a version of a <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> as needed, instead of being forced to pick to complete a sync selection set. The fact that we current display them in the conflict folder is purely secondary. 
 
 The conflict store must notify sync center when its contents change. Nothing is assumed to happen to conflicts when methods are called that affect the conflict. This includes when they are resolved.
 
-Sync Center requests a conflict store from a handler by calling <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">ISyncMgrHandler::GetObject</a> with SYNCMGR_OBJECTID_ConflictStore if the mask returned from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities">ISyncMgrHandler::GetCapabilities</a> includes SYNCMGR_HCM_CONFLICT_STORE. The handler can also provide an event store filtered by item by setting the SYNCMGR_ICM_CONFLICT_STORE flag in the mask returned from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">ISyncMgrSyncItem::GetCapabilities</a>.
+Sync Center requests a conflict store from a handler by calling <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">ISyncMgrHandler::GetObject</a> with SYNCMGR_OBJECTID_ConflictStore if the mask returned from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities">ISyncMgrHandler::GetCapabilities</a> includes SYNCMGR_HCM_CONFLICT_STORE. The handler can also provide an event store filtered by item by setting the SYNCMGR_ICM_CONFLICT_STORE flag in the mask returned from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">ISyncMgrSyncItem::GetCapabilities</a>.
 
-If conflicts are added to the conflict store, the handler (or a related component) should call <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateconflicts">ISyncMgrControl::UpdateConflicts</a> so that both the Conflicts folder and conflict counts can be updated.
-
+If conflicts are added to the conflict store, the handler (or a related component) should call <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateconflicts">ISyncMgrControl::UpdateConflicts</a> so that both the Conflicts folder and conflict counts can be updated.

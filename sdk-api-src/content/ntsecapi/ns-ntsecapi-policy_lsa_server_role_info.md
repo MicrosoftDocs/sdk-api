@@ -54,28 +54,27 @@ api_name:
 
 ## -description
 
-The <b>POLICY_LSA_SERVER_ROLE_INFO</b> structure is used to set and query the role of an LSA server. The <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a> functions use this structure when their <i>InformationClass</i> parameters are set to <b>PolicyLsaServerRoleInformation</b>.
+The <b>POLICY_LSA_SERVER_ROLE_INFO</b> structure is used to set and query the role of an LSA server. The <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a> functions use this structure when their <i>InformationClass</i> parameters are set to <b>PolicyLsaServerRoleInformation</b>.
 
 ## -struct-fields
 
 ### -field LsaServerRole
 
 Specifies one of the values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_lsa_server_role">POLICY_LSA_SERVER_ROLE</a> enumeration type to indicate a primary or backup LSA server.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_lsa_server_role">POLICY_LSA_SERVER_ROLE</a> enumeration type to indicate a primary or backup LSA server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_lsa_server_role">POLICY_LSA_SERVER_ROLE</a>
-
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_lsa_server_role">POLICY_LSA_SERVER_ROLE</a>

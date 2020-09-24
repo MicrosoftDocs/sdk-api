@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Uses a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a> to verify that a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> is correctly formatted.
+Uses a  <a href="/previous-versions/windows/desktop/mscs/property-tables">property table</a> to verify that a <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> is correctly formatted.
 
 ## -parameters
 
@@ -84,7 +84,7 @@ Pointer to a parameter block.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -128,5 +128,4 @@ The property list is formatted incorrectly. If <i>bAllowUnknownProperties</i> is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>

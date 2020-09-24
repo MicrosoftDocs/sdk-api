@@ -51,9 +51,9 @@ api_name:
 ## -description
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmmerge">IMsmMerge</a> interface and the 
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmmerge">IMsmMerge</a> interface and the 
 <b>IMsmMerge2</b> interface provide interfaces to the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge object</a>.The 
+<a href="/windows/desktop/Msi/merge-object">Merge object</a>.The 
 <b>IMsmMerge2</b> interface provides a way for the client merge tool to utilize the new configurable-module functionality. Mergemod.dll provides access to the extended functionality at build time through a second version of the existing CLSID. This CLSID supports existing functionality available through the 
 <b>IMsmMerge</b> interface, but the default interface on the object (and the associated dual interface) is the 
 <b>IMsmMerge2</b> interface instead of the 
@@ -62,12 +62,12 @@ The
 Requesting this interface does not commit the tool to using the new functionality. The interface supports both the standard and the "Ex" versions of the appropriate interface calls.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object provides access to other top-level objects. A 
+<a href="/windows/desktop/Msi/merge-object">Merge</a> object provides access to other top-level objects. A 
 Merge object must be created before loading the automation support required by COM to access the functions in Mergemod.dll.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmMerge2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmMerge2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmMerge2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmMerge2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -83,7 +83,7 @@ The <b>IMsmMerge2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase">CloseDatabase</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase">CloseDatabase</a>
 </td>
 <td align="left" width="63%">
 Closes the current database.
@@ -92,7 +92,7 @@ Closes the current database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closelog">CloseLog</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closelog">CloseLog</a>
 </td>
 <td align="left" width="63%">
 Closes the current log file.
@@ -101,7 +101,7 @@ Closes the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closemodule">CloseModule</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closemodule">CloseModule</a>
 </td>
 <td align="left" width="63%">
 Closes the current module
@@ -110,7 +110,7 @@ Closes the current module
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect">Connect</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Connects the components in a module to the specified feature.
@@ -119,7 +119,7 @@ Connects the components in a module to the specified feature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-createsourceimage">CreateSourceImage</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-createsourceimage">CreateSourceImage</a>
 </td>
 <td align="left" width="63%">
 Extracts files from a module to a source image on disk after a merge, with configuration changes. 
@@ -128,7 +128,7 @@ Extracts files from a module to a source image on disk after a merge, with confi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractcab">ExtractCAB</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractcab">ExtractCAB</a>
 </td>
 <td align="left" width="63%">
 Extracts the embedded CAB of a Merge Module to a disk file.
@@ -137,7 +137,7 @@ Extracts the embedded CAB of a Merge Module to a disk file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractfiles">ExtractFiles</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractfiles">ExtractFiles</a>
 </td>
 <td align="left" width="63%">
 Creates a source image of the Merge Module beneath the specified path.
@@ -146,7 +146,7 @@ Creates a source image of the Merge Module beneath the specified path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-extractfilesex">ExtractFilesEx</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-extractfilesex">ExtractFilesEx</a>
 </td>
 <td align="left" width="63%">
 Creates a source image of the Merge Module beneath the specified path. 
@@ -155,7 +155,7 @@ Creates a source image of the Merge Module beneath the specified path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-get_configurableitems">get_ConfigurableItems</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-get_configurableitems">get_ConfigurableItems</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of configurable items in the database. 
@@ -164,7 +164,7 @@ Returns a collection of configurable items in the database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_dependencies">get_Dependencies</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_dependencies">get_Dependencies</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of all unsatisfied dependencies in the database.
@@ -173,7 +173,7 @@ Returns a collection of all unsatisfied dependencies in the database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_errors">get_Errors</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_errors">get_Errors</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of all errors from the most recent merge operation.
@@ -182,7 +182,7 @@ Returns a collection of all errors from the most recent merge operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-log">Log</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-log">Log</a>
 </td>
 <td align="left" width="63%">
 Logs a string to the current log file.
@@ -191,7 +191,7 @@ Logs a string to the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-merge">Merge</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-merge">Merge</a>
 </td>
 <td align="left" width="63%">
 Merges the current module into the current database.
@@ -200,7 +200,7 @@ Merges the current module into the current database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-mergeex">MergeEx</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-mergeex">MergeEx</a>
 </td>
 <td align="left" width="63%">
 Merges the current module into the current database. 
@@ -209,7 +209,7 @@ Merges the current module into the current database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-opendatabase">OpenDatabase</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-opendatabase">OpenDatabase</a>
 </td>
 <td align="left" width="63%">
 Opens a database to use as the merge target.
@@ -218,7 +218,7 @@ Opens a database to use as the merge target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openlog">OpenLog</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openlog">OpenLog</a>
 </td>
 <td align="left" width="63%">
 Opens a log file.
@@ -227,7 +227,7 @@ Opens a log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openmodule">OpenModule</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openmodule">OpenModule</a>
 </td>
 <td align="left" width="63%">
 Opens a merge module for use as the merge source.
@@ -244,7 +244,7 @@ Opens a merge module for use as the merge source.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-configurableitems">ConfigurableItems</a>
+<a href="/windows/desktop/Msi/merge-configurableitems">ConfigurableItems</a>
 
 
 </td>
@@ -256,7 +256,7 @@ Returns a collection of configurable items in the database.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-dependencies">Dependencies</a>
+<a href="/windows/desktop/Msi/merge-dependencies">Dependencies</a>
 
 
 </td>
@@ -268,7 +268,7 @@ Returns a collection of all unsatisfied dependencies in the database.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-errors">Errors</a>
+<a href="/windows/desktop/Msi/merge-errors">Errors</a>
 
 
 </td>
@@ -278,4 +278,3 @@ Returns a collection of all errors from the most recent merge operation.
 </td>
 </tr>
 </table>
-

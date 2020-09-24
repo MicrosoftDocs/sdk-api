@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Instructs the file system to copy a range of file bytes on behalf of an application. The destination file may be the same as, or different from, the source file. See [Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning) for more information.
+Instructs the file system to copy a range of file bytes on behalf of an application. The destination file may be the same as, or different from, the source file. See [Block Cloning](/windows/desktop/FileIO/block-cloning) for more information.
 
 To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
@@ -86,13 +86,13 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) topic.
 
-See [Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning) for more information on this operation.
+See [Block Cloning](/windows/desktop/FileIO/block-cloning) for more information on this operation.
 
 In Windows Server 2016, this function is supported by the following technologies.
 
@@ -106,8 +106,7 @@ Resilient File System (ReFS) | Yes
 
 ## -see-also
 
-* [Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning)
+* [Block Cloning](/windows/desktop/FileIO/block-cloning)
 * [DUPLICATE_EXTENTS_DATA](../winioctl/ns-winioctl-duplicate_extents_data.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
-
+* [File Management Control Codes](/windows/desktop/FileIO/file-management-control-codes)

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Get_Next_Log_Conf</b> function obtains the next <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.
+The <b>CM_Get_Next_Log_Conf</b> function obtains the next <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="/windows-hardware/drivers/">device instance</a> on the local machine.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Address of a location to receive the handle to a logical configuration, or <b>NU
 Caller-supplied handle to a logical configuration. This handle must have been previously obtained by calling one of the following functions:
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a>
 
 
 <b>CM_Get_Next_Log_Conf</b>
@@ -81,15 +81,14 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-To enumerate the logical configurations associated with a device instance, call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a> to obtain the first logical configuration of a specified configuration type, then call <b>CM_Get_Next_Log_Conf</b> repeatedly until it returns CR_NO_MORE_LOG_CONF.
+To enumerate the logical configurations associated with a device instance, call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a> to obtain the first logical configuration of a specified configuration type, then call <b>CM_Get_Next_Log_Conf</b> repeatedly until it returns CR_NO_MORE_LOG_CONF.
 
-Calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf">CM_Add_Empty_Log_Conf</a> or <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf">CM_Free_Log_Conf</a> can invalidate the handle obtained from a previous call to <b>CM_Get_Next_Log_Conf</b>. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf</b> or <b>CM_Free_Log_Conf</b>, your code must call <b>CM_Get_First_Log_Conf</b> again and start at the first configuration.
+Calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf">CM_Add_Empty_Log_Conf</a> or <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf">CM_Free_Log_Conf</a> can invalidate the handle obtained from a previous call to <b>CM_Get_Next_Log_Conf</b>. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf</b> or <b>CM_Free_Log_Conf</b>, your code must call <b>CM_Get_First_Log_Conf</b> again and start at the first configuration.
 
-The handle received in <i>plcLogConf</i> must be explicitly freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle">CM_Free_Log_Conf_Handle</a>.
+The handle received in <i>plcLogConf</i> must be explicitly freed by calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle">CM_Free_Log_Conf_Handle</a>.
 
 If <b>CM_Get_Next_Log_Conf</b> is called with <i>plcLogConf</i> set to <b>NULL</b>, no handle is returned. This allows you to use the return status to determine if a configuration exists without the need to subsequently free the handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex">CM_Get_Next_Log_Conf_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex">CM_Get_Next_Log_Conf_Ex</a>

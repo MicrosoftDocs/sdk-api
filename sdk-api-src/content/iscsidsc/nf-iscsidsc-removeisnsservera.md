@@ -79,13 +79,12 @@ The <b>RemoveIsnsServer</b> function does not affect the list of discovered targ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addisnsservera">AddIsnsServer</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addisnsservera">AddIsnsServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-refreshisnsservera">RefreshIsnsServer</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-refreshisnsservera">RefreshIsnsServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportisnsserverlista">ReportIsnsServerList</a>
-
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportisnsserverlista">ReportIsnsServerList</a>

@@ -99,13 +99,12 @@ The friendly name is the device name that appears in the Windows Media Player us
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">IWMPSyncDevice::put_friendlyName</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">IWMPSyncDevice::put_friendlyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>
-
+<a href="/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>

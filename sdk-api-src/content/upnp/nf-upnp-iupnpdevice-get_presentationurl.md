@@ -57,7 +57,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the presentation URL for the Web page. This URL is an absolute URL. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer used. If the device does not specify a presentation URL, this parameter receives an empty string.
+Receives a reference to a string that contains the presentation URL for the Web page. This URL is an absolute URL. Release this string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer used. If the device does not specify a presentation URL, this parameter receives an empty string.
 
 ## -returns
 
@@ -70,5 +70,4 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. If 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>

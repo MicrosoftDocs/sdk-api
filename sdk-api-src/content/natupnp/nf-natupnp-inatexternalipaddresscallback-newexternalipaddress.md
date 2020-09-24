@@ -58,7 +58,7 @@ The system calls the
 ### -param bstrNewExternalIPAddress [in]
 
 Specifies a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that contains the new external IP address.
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that contains the new external IP address.
 
 ## -returns
 
@@ -167,17 +167,16 @@ One reason why the external IP address of the NAT computer could change would be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inateventmanager-put_externalipaddresscallback">INATEventManager::put_ExternalIPAddressCallback</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inateventmanager-put_externalipaddresscallback">INATEventManager::put_ExternalIPAddressCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatexternalipaddresscallback">INATExternalIPAddressCallback</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatexternalipaddresscallback">INATExternalIPAddressCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

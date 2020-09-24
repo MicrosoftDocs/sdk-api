@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setcolumnorderarray">LVM_SETCOLUMNORDERARRAY</a> message explicitly.
+Sets the left-to-right order of columns in a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setcolumnorderarray">LVM_SETCOLUMNORDERARRAY</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
 
@@ -71,4 +71,3 @@ The number of columns in the list-view control.
 Type: <b>int*</b>
 
 A pointer to an array specifying the order in which columns should be displayed, from left to right. For example, if the contents of the array are {2,0,1}, the control displays column 2, column 0, and column 1, from left to right.
-

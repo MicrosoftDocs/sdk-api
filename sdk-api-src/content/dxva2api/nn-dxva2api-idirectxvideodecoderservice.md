@@ -52,11 +52,11 @@ api_name:
 
 Provides access to DirectX Video Acceleration (DXVA) decoder services. Use this interface to query which hardware-accelerated decoding operations are available and to create DXVA video decoder devices. 
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-getvideoservice">IDirect3DDeviceManager9::GetVideoService</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-dxva2createvideoservice">DXVA2CreateVideoService</a> with the interface identifier IID_IDirectXVideoDecoderService.
+To get a pointer to this interface, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-getvideoservice">IDirect3DDeviceManager9::GetVideoService</a> or <a href="/windows/desktop/api/dxva2api/nf-dxva2api-dxva2createvideoservice">DXVA2CreateVideoService</a> with the interface identifier IID_IDirectXVideoDecoderService.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoDecoderService</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>. <b>IDirectXVideoDecoderService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoDecoderService</b> interface inherits from <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>. <b>IDirectXVideoDecoderService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirectXVideoDecoderService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-createvideodecoder">CreateVideoDecoder</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-createvideodecoder">CreateVideoDecoder</a>
 </td>
 <td align="left" width="63%">
 Creates a video decoder device.
@@ -80,7 +80,7 @@ Creates a video decoder device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderconfigurations">GetDecoderConfigurations</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderconfigurations">GetDecoderConfigurations</a>
 </td>
 <td align="left" width="63%">
 Retrieves the configurations that are available for a decoder device.
@@ -89,7 +89,7 @@ Retrieves the configurations that are available for a decoder device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderdeviceguids">GetDecoderDeviceGuids</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderdeviceguids">GetDecoderDeviceGuids</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.
@@ -98,7 +98,7 @@ Retrieves an array of GUIDs that identifies the decoder devices supported by the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderrendertargets">GetDecoderRenderTargets</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderrendertargets">GetDecoderRenderTargets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the supported render targets for a specified decoder device.
@@ -109,13 +109,12 @@ Retrieves the supported render targets for a specified decoder device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
+<a href="/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

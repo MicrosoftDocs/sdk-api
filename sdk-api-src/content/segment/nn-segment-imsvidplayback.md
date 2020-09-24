@@ -54,7 +54,7 @@ The <b>IMSVidPlayback</b> interface controls a Video Control playback device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidPlayback</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a>. <b>IMSVidPlayback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidPlayback</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a>. <b>IMSVidPlayback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMSVidPlayback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_canstep">get_CanStep</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_canstep">get_CanStep</a>
 </td>
 <td align="left" width="63%">
 Queries whether the input source can step frame by frame.
@@ -78,7 +78,7 @@ Queries whether the input source can step frame by frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_currentposition">get_CurrentPosition</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_currentposition">get_CurrentPosition</a>
 </td>
 <td align="left" width="63%">
 Returns the current playback position of the source.
@@ -87,7 +87,7 @@ Returns the current playback position of the source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_enableresetonstop">get_EnableResetOnStop</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_enableresetonstop">get_EnableResetOnStop</a>
 </td>
 <td align="left" width="63%">
 Indicates how playback will resume if the graph is rebuilt.
@@ -96,7 +96,7 @@ Indicates how playback will resume if the graph is rebuilt.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_length">get_Length</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_length">get_Length</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of the playback source.
@@ -105,7 +105,7 @@ Retrieves the length of the playback source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_positionmode">get_PositionMode</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_positionmode">get_PositionMode</a>
 </td>
 <td align="left" width="63%">
 Indicates how position values are interpreted by this interface.
@@ -114,7 +114,7 @@ Indicates how position values are interpreted by this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-get_rate">get_Rate</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_rate">get_Rate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the playback rate.
@@ -123,7 +123,7 @@ Retrieves the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-pause">Pause</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the playback device.
@@ -132,7 +132,7 @@ Pauses the playback device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-put_currentposition">put_CurrentPosition</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-put_currentposition">put_CurrentPosition</a>
 </td>
 <td align="left" width="63%">
 Seeks to a specified position in the source.
@@ -141,7 +141,7 @@ Seeks to a specified position in the source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-put_enableresetonstop">put_EnableResetOnStop</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-put_enableresetonstop">put_EnableResetOnStop</a>
 </td>
 <td align="left" width="63%">
 Specifies how playback will resume if the graph is rebuilt.
@@ -150,7 +150,7 @@ Specifies how playback will resume if the graph is rebuilt.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-put_positionmode">put_PositionMode</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-put_positionmode">put_PositionMode</a>
 </td>
 <td align="left" width="63%">
 Specifies how position values will be interpreted by this interface.
@@ -159,7 +159,7 @@ Specifies how position values will be interpreted by this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-put_rate">put_Rate</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-put_rate">put_Rate</a>
 </td>
 <td align="left" width="63%">
 Sets the playback rate.
@@ -168,7 +168,7 @@ Sets the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-run">Run</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-run">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the playback device.
@@ -177,7 +177,7 @@ Runs the playback device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-step">Step</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-step">Step</a>
 </td>
 <td align="left" width="63%">
 Steps through the video stream by a specified number of frames.
@@ -186,7 +186,7 @@ Steps through the video stream by a specified number of frames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-stop">Stop</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the playback device.
@@ -201,9 +201,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

@@ -76,5 +76,4 @@ The bundle's last footprint file, which is the bundle signature.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlereader-getfootprintfile">IAppxBundleReader::GetFootprintFile</a>
-
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlereader-getfootprintfile">IAppxBundleReader::GetFootprintFile</a>

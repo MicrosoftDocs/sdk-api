@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</b> structure is one of the query result structures returned from an <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request. This structure describes storage device physical topology.
+The <b>STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</b> structure is one of the query result structures returned from an <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request. This structure describes storage device physical topology.
 
 ## -struct-fields
 
@@ -75,5 +75,4 @@ Reserved.
 
 ### -field Node [ANYSIZE_ARRAY]
 
-A node as specified by a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_physical_node_data">STORAGE_PHYSICAL_NODE_DATA</a> structure.
-
+A node as specified by a <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_physical_node_data">STORAGE_PHYSICAL_NODE_DATA</a> structure.

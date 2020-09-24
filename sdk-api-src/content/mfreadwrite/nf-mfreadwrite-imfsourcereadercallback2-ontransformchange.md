@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called when the transform chain in the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> is built or modified.
+Called when the transform chain in the <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> is built or modified.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Returns an <b>HRESULT</b> value. Currently, the source reader ignores the return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback2">IMFSourceReaderCallback2</a>
-
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback2">IMFSourceReaderCallback2</a>

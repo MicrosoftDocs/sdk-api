@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
- The <b>AddMandatoryAce</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL).
+ The <b>AddMandatoryAce</b> function adds a <a href="/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the specified <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL).
 
 ## -parameters
 
@@ -65,7 +65,7 @@ api_name:
 
 A pointer to an 
  SACL. This function adds a mandatory ACE to the end of this SACL. The ACE is in the form of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> structure.
 
 ### -param dwAceRevision [in]
 
@@ -102,7 +102,7 @@ The SACL contains object-specified ACEs.
 ### -param AceFlags [in]
 
 A set of bit flags that control ACE inheritance. This function sets these flags in the <b>AceFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE.
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE.
 
 This parameter can be a combination of the following values.
 
@@ -221,7 +221,7 @@ A pointer to an SID that specifies the mandatory integrity level of the object a
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
 
 <table>
 <tr>
@@ -245,9 +245,8 @@ The new ACE does not fit into the <i>pAcl</i> buffer.
 ## -remarks
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a>

@@ -73,12 +73,11 @@ The offset, in bytes, of the end of the range.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-getbyteranges">IMFByteStreamCacheControl2::GetByteRanges</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-getbyteranges">IMFByteStreamCacheControl2::GetByteRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  
-

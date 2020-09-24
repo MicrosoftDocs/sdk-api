@@ -57,16 +57,16 @@ The following filters implement this interface:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-capture-filter">Audio Capture</a> filter.</li>
+<a href="/windows/desktop/DirectShow/audio-capture-filter">Audio Capture</a> filter.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> filter.</li>
+<a href="/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> filter.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter.</li>
+<a href="/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter.</li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMResourceControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMResourceControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMResourceControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMResourceControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>IAMResourceControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamresourcecontrol-reserve">Reserve</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamresourcecontrol-reserve">Reserve</a>
 </td>
 <td align="left" width="63%">
 Reserves or unreserves a device resource.
@@ -89,4 +89,3 @@ Reserves or unreserves a device resource.
 </td>
 </tr>
 </table>
-

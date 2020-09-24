@@ -18,5 +18,4 @@ To develop Virtual Hard Disk, you need these headers:
  * [virtdisk.h](../virtdisk/index.md)
 
 For programming guidance for this technology, see:
-* [Virtual Storage](https://docs.microsoft.com/windows/desktop/VStor/virtual-storage)
-
+* [Virtual Storage](/windows/desktop/VStor/virtual-storage)

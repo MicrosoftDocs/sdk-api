@@ -56,7 +56,7 @@ Exposes methods that allow a Component Object Model (COM) object to receive and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMenuBand</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMenuBand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMenuBand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMenuBand</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMenuBand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-ismenumessage">IsMenuMessage</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-ismenumessage">IsMenuMessage</a>
 </td>
 <td align="left" width="63%">
 A message pump calls this method to see if any messages should be redirected to the COM object.
@@ -80,7 +80,7 @@ A message pump calls this method to see if any messages should be redirected to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-translatemenumessage">TranslateMenuMessage</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-translatemenumessage">TranslateMenuMessage</a>
 </td>
 <td align="left" width="63%">
 Translates a message for a COM object.
@@ -91,7 +91,7 @@ Translates a message for a COM object.
 
 ## -remarks
 
- An application can call <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> with one of the following service IDs. If the <i>riid</i> parameter of <b>QueryService</b> is IAccessible or IDispatch, the call to <b>QueryService</b> creates a new accessibility object. Otherwise, the call to <b>QueryService</b> is equivalent to a call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with the service ID, as follows:
+ An application can call <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> with one of the following service IDs. If the <i>riid</i> parameter of <b>QueryService</b> is IAccessible or IDispatch, the call to <b>QueryService</b> creates a new accessibility object. Otherwise, the call to <b>QueryService</b> is equivalent to a call to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with the service ID, as follows:
 
 
 
@@ -116,4 +116,3 @@ Translates a message for a COM object.
  
 
 In Windows 2000, this interface was implemented in browseui.dll. However, it is not recommended that this version be used.
-

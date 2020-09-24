@@ -56,7 +56,7 @@ Clears the drawing area to the specified color.
 
 ### -param color [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>*</b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>*</b>
 
 The color to which the command sink should be cleared.
 
@@ -80,13 +80,12 @@ If no color is specified, the color should be interpreted by context. Examples i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-clear">ID2D1RenderTarget::Clear</a>
-
+<a href="/windows/desktop/Direct2D/id2d1rendertarget-clear">ID2D1RenderTarget::Clear</a>

@@ -107,5 +107,4 @@ Minimum enumeration value. Currently, it is ObjectTypeBrush.
 
 ## -remarks
 
-To determine whether the object type value of an EMF+ record is valid, call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/nf-gdiplusenums-objecttypeisvalid">ObjectTypeIsValid</a>.
-
+To determine whether the object type value of an EMF+ record is valid, call <a href="/windows/desktop/api/gdiplusenums/nf-gdiplusenums-objecttypeisvalid">ObjectTypeIsValid</a>.

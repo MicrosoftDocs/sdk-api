@@ -60,7 +60,7 @@ The <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure specifies various security r
 
 Type: <b>SOCKET_SECURITY_PROTOCOL</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the type of security protocol to be used on the socket. This member must be set to <b>SOCKET_SECURITY_PROTOCOL_IPSEC</b>.
+A <a href="/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the type of security protocol to be used on the socket. This member must be set to <b>SOCKET_SECURITY_PROTOCOL_IPSEC</b>.
 
 ### -field SecurityFlags
 
@@ -127,13 +127,13 @@ When this flag is set, IPsec filter instantiation is omitted for the socket.  Th
 
 Type: <b>GUID</b>
 
-The GUID for the Windows Filtering Platform key of the AuthIP main mode provider context.  If an application wishes to use a custom main mode policy, it should first use the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a> function to add the corresponding provider context and specify the returned key in this member.  This field is ignored for a GUID of zero.
+The GUID for the Windows Filtering Platform key of the AuthIP main mode provider context.  If an application wishes to use a custom main mode policy, it should first use the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a> function to add the corresponding provider context and specify the returned key in this member.  This field is ignored for a GUID of zero.
 
 ### -field AuthipQMPolicyKey
 
 Type: <b>GUID</b>
 
-The Windows Filtering Platform key of the AuthIp quick mode provider context.  If an application wishes to use a custom quick mode policy, it should first use the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a> function to add the corresponding provider context and specify the returned key in this field.  This field is ignored for a GUID of zero.
+The Windows Filtering Platform key of the AuthIp quick mode provider context.  If an application wishes to use a custom quick mode policy, it should first use the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a> function to add the corresponding provider context and specify the returned key in this field.  This field is ignored for a GUID of zero.
 
 ### -field Reserved
 
@@ -175,7 +175,7 @@ A string that contains the user name, the domain name, and the password concaten
 
 The <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure  is supported on Windows Vistaand later.
 
-The <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure  is meant to be used by an advanced application that requires more flexibility and wishes to customize IPSec policy for their traffic. The pointer to the <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure needs to cast to the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings">SOCKET_SECURITY_SETTINGS</a> structure  type when calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity">WSASetSocketSecurity</a> function to enable and apply security on  a socket. 
+The <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure  is meant to be used by an advanced application that requires more flexibility and wishes to customize IPSec policy for their traffic. The pointer to the <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure needs to cast to the <a href="/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings">SOCKET_SECURITY_SETTINGS</a> structure  type when calling the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity">WSASetSocketSecurity</a> function to enable and apply security on  a socket. 
 
 The <b>SecurityProtocol</b> 
 member of the <b>SOCKET_SECURITY_SETTINGS_IPSEC</b>  structure must be set to <b>SOCKET_SECURITY_PROTOCOL_IPSEC</b>, not <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b>.
@@ -186,7 +186,7 @@ There is a possibility that some of the IPsec settings specified in the <b>SOCKE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/about-windows-filtering-platform">About Windows Filtering Platform</a>
+<a href="/windows/desktop/FWP/about-windows-filtering-platform">About Windows Filtering Platform</a>
 
 
 
@@ -194,33 +194,32 @@ There is a possibility that some of the IPsec settings specified in the <b>SOCKE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a>
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
+<a href="/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings">SOCKET_SECURITY_SETTINGS</a>
+<a href="/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings">SOCKET_SECURITY_SETTINGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/using-secure-socket-extensions">Using Secure Socket Extensions</a>
+<a href="/windows/desktop/WinSock/using-secure-socket-extensions">Using Secure Socket Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity">WSASetSocketSecurity</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity">WSASetSocketSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Filtering Platform</a>
+<a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Filtering Platform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">Windows Filtering Platform  API  Functions</a>
+<a href="/windows/desktop/FWP/fwp-functions">Windows Filtering Platform  API  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
-
+<a href="/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>

@@ -50,31 +50,31 @@ api_name:
 
 ## -description
 
-Gets the bounding rectangle for all or part of a subitem in the current view of a specified list-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemindexrect">LVM_GETITEMINDEXRECT</a> message explicitly.
+Gets the bounding rectangle for all or part of a subitem in the current view of a specified list-view control. Use this macro or send the <a href="/windows/desktop/Controls/lvm-getitemindexrect">LVM_GETITEMINDEXRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param plvii [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a>*</b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a> structure for the parent item of the subitem. The caller is responsible for allocating this structure and setting its members. <i>plvii</i> must not be <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a> structure for the parent item of the subitem. The caller is responsible for allocating this structure and setting its members. <i>plvii</i> must not be <b>NULL</b>.
 
 ### -param iSubItem [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The index of the subitem.
 
 ### -param code [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The portion of the list-view subitem for which to retrieve the bounding rectangle. This parameter must be one of the following values. 
 
@@ -124,4 +124,3 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 ## -remarks
 
 If <i>iSubItem</i> is zero, this macro returns the coordinates of the rectangle to the item pointed to by <i>plvii</i>. The value LVIR_SELECTBOUNDS for the parameter <i>code</i> is not supported.
-

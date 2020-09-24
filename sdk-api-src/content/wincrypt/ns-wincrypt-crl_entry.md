@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-The <b>CRL_ENTRY</b> structure contains information about a single revoked certificate. It is a member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a> structure.
+The <b>CRL_ENTRY</b> structure contains information about a single revoked certificate. It is a member of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a> structure.
 
 ## -struct-fields
 
 ### -field SerialNumber
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the serial number of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">revoked certificate</a>. 
+A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the serial number of a <a href="/windows/desktop/SecGloss/c-gly">revoked certificate</a>. 
 
 
 
 
 Leading 0x00 or 0xFF bytes are removed. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcompareintegerblob">CertCompareIntegerBlob</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcompareintegerblob">CertCompareIntegerBlob</a>.
 
 ### -field RevocationDate
 
@@ -79,17 +79,16 @@ Number of elements in the <b>rgExtension</b> member array of extensions.
 ### -field rgExtension
 
 Array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each providing information about the revoked certificate.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each providing information about the revoked certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>

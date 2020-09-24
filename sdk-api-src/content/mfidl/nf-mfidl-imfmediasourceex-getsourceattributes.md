@@ -56,7 +56,7 @@ Gets an attribute store for the media source.
 
 ### -param ppAttributes [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -93,9 +93,8 @@ The media source does not support source-level attributes.
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer to get or set attributes that apply to the entire source. For stream-level attributes, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes">IMFMediaSourceEx::GetStreamAttributes</a> method instead.
+Use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer to get or set attributes that apply to the entire source. For stream-level attributes, use the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes">IMFMediaSourceEx::GetStreamAttributes</a> method instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>

@@ -54,26 +54,25 @@ api_name:
 
 ## -description
 
-The <b>HTTP_QOS_SETTING_TYPE</b> enumeration identifies the type of a QOS setting contained in a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure.
+The <b>HTTP_QOS_SETTING_TYPE</b> enumeration identifies the type of a QOS setting contained in a <a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure.
 
 ## -enum-fields
 
 ### -field HttpQosSettingTypeBandwidth
 
-The setting is a bandwidth limit represented by a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_bandwidth_limit_info">HTTP_BANDWIDTH_LIMIT_INFO</a> structure.
+The setting is a bandwidth limit represented by a <a href="/windows/desktop/api/http/ns-http-http_bandwidth_limit_info">HTTP_BANDWIDTH_LIMIT_INFO</a> structure.
 
 ### -field HttpQosSettingTypeConnectionLimit
 
-The setting is a connection limit represented by a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_connection_limit_info">HTTP_CONNECTION_LIMIT_INFO</a> structure.
+The setting is a connection limit represented by a <a href="/windows/desktop/api/http/ns-http-http_connection_limit_info">HTTP_CONNECTION_LIMIT_INFO</a> structure.
 
 ### -field HttpQosSettingTypeFlowRate
 
-A flow rate represented by <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_flowrate_info">HTTP_FLOWRATE_INFO</a>.
+A flow rate represented by <a href="/windows/desktop/api/http/ns-http-http_flowrate_info">HTTP_FLOWRATE_INFO</a>.
 
 <div class="alert"><b>Note</b>  Windows Server 2008 R2 and Windows 7 only.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>

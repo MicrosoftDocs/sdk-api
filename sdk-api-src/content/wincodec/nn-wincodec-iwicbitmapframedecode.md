@@ -54,7 +54,7 @@ Defines methods for decoding individual image frames of an encoded file.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapFrameDecode</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICBitmapFrameDecode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapFrameDecode</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICBitmapFrameDecode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWICBitmapFrameDecode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframedecode-getcolorcontexts">GetColorContexts</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframedecode-getcolorcontexts">GetColorContexts</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> associated with the image frame.
+Retrieves the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> associated with the image frame.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframedecode-getmetadataqueryreader">GetMetadataQueryReader</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframedecode-getmetadataqueryreader">GetMetadataQueryReader</a>
 </td>
 <td align="left" width="63%">
 Retrieves a metadata query reader for the frame.
@@ -87,7 +87,7 @@ Retrieves a metadata query reader for the frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframedecode-getthumbnail">GetThumbnail</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframedecode-getthumbnail">GetThumbnail</a>
 </td>
 <td align="left" width="63%">
 Retrieves a small preview of the frame, if supported by the codec.
@@ -98,7 +98,7 @@ Retrieves a small preview of the frame, if supported by the codec.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dotnet/netframework-3.0/ms771770(v=vs.85)">AITCodec Sample CODEC</a>
+<a href="/previous-versions/dotnet/netframework-3.0/ms771770(v=vs.85)">AITCodec Sample CODEC</a>
 
 
 
@@ -106,11 +106,11 @@ Retrieves a small preview of the frame, if supported by the codec.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
+<a href="/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>
 
 
 
@@ -118,9 +118,8 @@ Retrieves a small preview of the frame, if supported by the codec.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
+<a href="/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
-
+<a href="/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>

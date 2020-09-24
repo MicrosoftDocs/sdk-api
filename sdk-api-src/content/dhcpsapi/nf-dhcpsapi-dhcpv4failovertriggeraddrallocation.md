@@ -66,7 +66,7 @@ Pointer to a null-terminated Unicode string that represents the name of the fail
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
-If the function fails, it returns one of the following or an error code from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+If the function fails, it returns one of the following or an error code from <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -107,4 +107,3 @@ The <b>serverType</b> member of failover relationship is <b>SecondaryServer</b>.
 </td>
 </tr>
 </table>
-

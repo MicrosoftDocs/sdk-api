@@ -56,11 +56,11 @@ Gets an attribute store for a stream on the media source.
 
 ### -param dwStreamIdentifier [in]
 
-The identifier of the stream. To get the identifier, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamdescriptor-getstreamidentifier">IMFStreamDescriptor::GetStreamIdentifier</a> on the stream descriptor.
+The identifier of the stream. To get the identifier, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamdescriptor-getstreamidentifier">IMFStreamDescriptor::GetStreamIdentifier</a> on the stream descriptor.
 
 ### -param ppAttributes [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -108,9 +108,8 @@ Invalid stream identifier.
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer to get or set attributes that apply to the specified stream. For attributes that apply to the entire source, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getsourceattributes">IMFMediaSourceEx::GetSourceAttributes</a> method instead.
+Use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer to get or set attributes that apply to the specified stream. For attributes that apply to the entire source, use the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getsourceattributes">IMFMediaSourceEx::GetSourceAttributes</a> method instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>

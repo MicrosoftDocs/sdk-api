@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>GetFontLanguageInfo</b> function returns information about the currently selected font for the specified display context. Applications typically use this information and the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function to prepare a character string for display.
+The <b>GetFontLanguageInfo</b> function returns information about the currently selected font for the specified display context. Applications typically use this information and the <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function to prepare a character string for display.
 
 ## -parameters
 
@@ -79,11 +79,11 @@ The return value identifies characteristics of the currently selected font. The 
 </tr>
 <tr>
 <td>FLI_GLYPHS</td>
-<td>The font contains extra glyphs not normally accessible using the code page. Use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> to access the glyphs. This value is for information only and is not intended to be passed to <b>GetCharacterPlacement</b>.</td>
+<td>The font contains extra glyphs not normally accessible using the code page. Use <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> to access the glyphs. This value is for information only and is not intended to be passed to <b>GetCharacterPlacement</b>.</td>
 </tr>
 <tr>
 <td>GCP_GLYPHSHAPE</td>
-<td>The font/language contains multiple glyphs per code point or per code point combination (supports shaping and/or ligation), and the font contains advanced glyph tables to provide extra glyphs for the extra shapes. If this value is specified, the <b>lpGlyphs</b> array must be used with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function and the ETO_GLYPHINDEX value must be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function when the string is drawn.</td>
+<td>The font/language contains multiple glyphs per code point or per code point combination (supports shaping and/or ligation), and the font contains advanced glyph tables to provide extra glyphs for the extra shapes. If this value is specified, the <b>lpGlyphs</b> array must be used with the <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function and the ETO_GLYPHINDEX value must be passed to the <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function when the string is drawn.</td>
 </tr>
 <tr>
 <td>GCP_KASHIDA</td>
@@ -104,21 +104,20 @@ The return value identifies characteristics of the currently selected font. The 
 </table>
  
 
-The return value, when masked with FLI_MASK, can be passed directly to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function.
+The return value, when masked with FLI_MASK, can be passed directly to the <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>

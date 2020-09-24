@@ -59,7 +59,7 @@ Enumerates all DirectDraw devices that are installed on the computer. The NULL e
 
 ### -param lpCallback [in]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumcallbackexa">DDEnumCallbackEx</a> function to be called with a description of each enumerated DirectDraw-enabled hardware abstraction layer (HAL).
+Address of a <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenumcallbackexa">DDEnumCallbackEx</a> function to be called with a description of each enumerated DirectDraw-enabled hardware abstraction layer (HAL).
 
 ### -param lpContext [in]
 
@@ -116,11 +116,10 @@ On computers with multiple monitors, <b>DirectDrawEnumerateEx</b> enumerates mul
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll. To retrieve the address of the <b>DirectDrawEnumerateEx</b> function, call the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> Win32 function with the "DirectDrawEnumerateExA" (ANSI) or "DirectDrawEnumerateExW" (Unicode) process name strings.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll. To retrieve the address of the <b>DirectDrawEnumerateEx</b> function, call the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> Win32 function with the "DirectDrawEnumerateExA" (ANSI) or "DirectDrawEnumerateExW" (Unicode) process name strings.
 
 
 
 
 > [!NOTE]
 > The ddraw.h header defines DirectDrawEnumerateEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

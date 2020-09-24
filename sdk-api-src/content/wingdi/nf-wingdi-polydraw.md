@@ -61,7 +61,7 @@ A handle to a device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the endpoints for each line segment and the endpoints and control points for each Bézier curve, in logical units.
+A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the endpoints for each line segment and the endpoints and control points for each Bézier curve, in logical units.
 
 ### -param aj [in]
 
@@ -120,7 +120,7 @@ A PT_LINETO or PT_BEZIERTO type can be combined with the following value by usin
 </dl>
 </td>
 <td width="60%">
-Specifies that the figure is automatically closed after the PT_LINETO or PT_BEZIERTO type for this point is done. A line is drawn from this point to the most recent PT_MOVETO or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a> point.
+Specifies that the figure is automatically closed after the PT_LINETO or PT_BEZIERTO type for this point is done. A line is drawn from this point to the most recent PT_MOVETO or <a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a> point.
 
 This value is combined with the PT_LINETO type for a line, or with the PT_BEZIERTO type of the ending point for a Bézier curve, by using the bitwise operator OR.
 
@@ -142,45 +142,44 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The <b>PolyDraw</b> function can be used in place of consecutive calls to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a> functions to draw disjoint figures. The lines and curves are drawn using the current pen and figures are not filled. If there is an active path started by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>, <b>PolyDraw</b> adds to the path.
+The <b>PolyDraw</b> function can be used in place of consecutive calls to <a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a> functions to draw disjoint figures. The lines and curves are drawn using the current pen and figures are not filled. If there is an active path started by calling <a href="/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>, <b>PolyDraw</b> adds to the path.
 
-The points contained in the <i>lppt</i> array and in the <i>lpbTypes</i> array indicate whether each point is part of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveTo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a> operation. It is also possible to close figures.
+The points contained in the <i>lppt</i> array and in the <i>lpbTypes</i> array indicate whether each point is part of a <a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveTo</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>, or <a href="/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a> operation. It is also possible to close figures.
 
 This function updates the current position.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polyline">PolyLine</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polyline">PolyLine</a>

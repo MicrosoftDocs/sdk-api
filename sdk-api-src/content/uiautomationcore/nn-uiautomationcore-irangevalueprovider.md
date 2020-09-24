@@ -54,7 +54,7 @@ Provides access to controls that can be set to a value within a range.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRangeValueProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRangeValueProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRangeValueProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRangeValueProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IRangeValueProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-setvalue">SetValue</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the control.
@@ -88,7 +88,7 @@ Sets the value of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_isreadonly">IsReadOnly</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_isreadonly">IsReadOnly</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Indicates whether the value of a control is read-only.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_largechange">LargeChange</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_largechange">LargeChange</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Specifies the value that is added to or subtracted from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value">IRangeValueProvider::Value</a> 
+Specifies the value that is added to or subtracted from the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value">IRangeValueProvider::Value</a> 
         property when a large change is made, such as when the PAGE DOWN key is pressed.
         
 
@@ -122,7 +122,7 @@ Specifies the value that is added to or subtracted from the <a href="https://doc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_maximum">Maximum</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_maximum">Maximum</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Specifies the maximum range value supported by the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_minimum">Minimum</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_minimum">Minimum</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Specifies the minimum range value supported by the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_smallchange">SmallChange</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_smallchange">SmallChange</a>
 
 
 </td>
@@ -163,7 +163,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Specifies the value that is added to or subtracted from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value">IRangeValueProvider::Value</a> property 
+Specifies the value that is added to or subtracted from the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value">IRangeValueProvider::Value</a> property 
         when a small change is made, such as when an arrow key is pressed.
         
 
@@ -172,7 +172,7 @@ Specifies the value that is added to or subtracted from the <a href="https://doc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value">Value</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value">Value</a>
 
 
 </td>
@@ -189,9 +189,8 @@ Specifies the value of the control.
 
 ## -remarks
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingrangevalue">RangeValue</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="/windows/desktop/WinAuto/uiauto-implementingrangevalue">RangeValue</a> control pattern.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

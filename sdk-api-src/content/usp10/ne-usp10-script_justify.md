@@ -126,9 +126,8 @@ Highest priority: medial shape of Seen class (U+0633).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-enumeration-types">Uniscribe Enumeration Types</a>
-
+<a href="/windows/desktop/Intl/uniscribe-enumeration-types">Uniscribe Enumeration Types</a>

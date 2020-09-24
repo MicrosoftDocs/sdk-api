@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the general pen tip shape and the transform used in an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a> object.
+Defines the general pen tip shape and the transform used in an <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a> object.
 
 ## -struct-fields
 
@@ -61,4 +61,3 @@ The pre-transform shape of the nib (pen tip) used to draw a given ink object.
 ### -field nibTransform
 
 The transform applied to the nib.  Note that the translation components of the transform matrix are ignored for the purposes of rendering.
-

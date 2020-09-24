@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IBackgroundCopyQMgr</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IBackgroundCopyQMgr</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>CreateGroup</b> method to create a new group and add it to the download queue.
 
@@ -62,7 +62,7 @@ GUID that uniquely identifies the group in the download queue.
 
 ### -param ppGroup [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a> interface pointer. Use this interface to manage the group. For example, add a job to the group and set the properties of the group.
+Pointer to an <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a> interface pointer. Use this interface to manage the group. For example, add a job to the group and set the properties of the group.
 
 ## -returns
 
@@ -99,5 +99,4 @@ A group already exists with that GUID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyqmgr">IBackgroundCopyQMgr</a>
-
+<a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyqmgr">IBackgroundCopyQMgr</a>

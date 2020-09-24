@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IFileSystemImageResult2</b> interface allows the data recorder object to retrieve information about modified blocks in images created for rewritable discs. Alternatively, <b>IUnknown::QueryInterface</b> can be called on the object returned by <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_imagestream">IFileSystemImageResult::get_ImageStream</a> to get the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> interface providing this information.
+The <b>IFileSystemImageResult2</b> interface allows the data recorder object to retrieve information about modified blocks in images created for rewritable discs. Alternatively, <b>IUnknown::QueryInterface</b> can be called on the object returned by <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_imagestream">IFileSystemImageResult::get_ImageStream</a> to get the <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> interface providing this information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImageResult2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>. <b>IFileSystemImageResult2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImageResult2</b> interface inherits from <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>. <b>IFileSystemImageResult2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileSystemImageResult2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult2-get_modifiedblocks">get_ModifiedBlocks</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult2-get_modifiedblocks">get_ModifiedBlocks</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of modified blocks in the result image.
@@ -84,5 +84,4 @@ When the file system image object is used to append data to a rewritable disc, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>

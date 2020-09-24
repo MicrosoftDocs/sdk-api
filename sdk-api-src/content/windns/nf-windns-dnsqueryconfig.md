@@ -63,7 +63,7 @@ A <a href="/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE<
 
 A value that specifies whether to allocate memory for the configuration information. Set <i>Flag</i> to <b>DNS_CONFIG_FLAG_ALLOC </b> to allocate memory; otherwise, set it to 0.  
 
-<div class="alert"><b>Note</b>  Free the allocated memory with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.</div>
+<div class="alert"><b>Note</b>  Free the allocated memory with <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.</div>
 <div> </div>
 
 ### -param pwsAdapterName [in, optional]
@@ -175,5 +175,4 @@ Returns success confirmation upon successful completion. Otherwise, returns the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>

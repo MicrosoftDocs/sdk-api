@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>URLASSOCIATIONDIALOG_IN_FLAGS</b> enumerated values are used with <a href="https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga">URLAssociationDialog</a> to determine how it executes.
+The <b>URLASSOCIATIONDIALOG_IN_FLAGS</b> enumerated values are used with <a href="/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga">URLAssociationDialog</a> to determine how it executes.
 
 ## -enum-fields
 
@@ -62,5 +62,4 @@ Use the default file name (that is, "Internet Shortcut").
 
 ### -field URLASSOCDLG_FL_REGISTER_ASSOC
 
-Register the selected application as the handler for the protocol specified in the <i>pcszURL</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga">URLAssociationDialog</a>. The application is registered only if this flag is set and the user indicates that a persistent association is desired.
-
+Register the selected application as the handler for the protocol specified in the <i>pcszURL</i> parameter of <a href="/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga">URLAssociationDialog</a>. The application is registered only if this flag is set and the user indicates that a persistent association is desired.

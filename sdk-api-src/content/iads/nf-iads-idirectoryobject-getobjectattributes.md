@@ -69,7 +69,7 @@ Specifies the size of the <i>pAttributeNames</i> array. If -1, all of the object
 
 ### -param ppAttributeEntries [out]
 
-Pointer to a variable that receives a pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures that contain the requested attribute values. If no attributes could be obtained from the directory service object, the returned pointer is <b>NULL</b>.
+Pointer to a variable that receives a pointer to an array of  <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures that contain the requested attribute values. If no attributes could be obtained from the directory service object, the returned pointer is <b>NULL</b>.
 
 ### -param pdwNumAttributesReturned [out]
 
@@ -79,15 +79,15 @@ Pointer to a <b>DWORD</b> variable that receives the number of attributes retrie
 
 This method returns the standard values, as well as the following:
 
-For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-ADSI allocates the memory for the array of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures returned in the <i>ppAttributeEntries</i> parameter. The caller must call  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> to free the array.
+ADSI allocates the memory for the array of <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures returned in the <i>ppAttributeEntries</i> parameter. The caller must call  <a href="/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> to free the array.
 
 The order of attributes returned in <i>ppAttributeEntries</i> is not necessarily the same as requested in <i>pAttributeNames</i>.
 
-The <b>IDirectoryObject::GetObjectAttributes</b> method attempts to read the schema definition of the requested attributes so it can return the attribute values in the appropriate format in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures contained in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures. However, <b>GetObjectAttributes</b> can succeed even when the schema definition is not available, in which case the <b>dwADsType</b> member of the <b>ADS_ATTR_INFO</b> structure returns ADSTYPE_PROV_SPECIFIC and the value is returned in an <a href="/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a> structure. When you process the results of a <b>GetObjectAttributes</b> call, verify <b>dwADsType</b> to ensure that the data was returned in the expected format.
+The <b>IDirectoryObject::GetObjectAttributes</b> method attempts to read the schema definition of the requested attributes so it can return the attribute values in the appropriate format in the <a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures contained in the <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures. However, <b>GetObjectAttributes</b> can succeed even when the schema definition is not available, in which case the <b>dwADsType</b> member of the <b>ADS_ATTR_INFO</b> structure returns ADSTYPE_PROV_SPECIFIC and the value is returned in an <a href="/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a> structure. When you process the results of a <b>GetObjectAttributes</b> call, verify <b>dwADsType</b> to ensure that the data was returned in the expected format.
 
 
 #### Examples
@@ -196,17 +196,16 @@ if ( SUCCEEDED(hr) )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
+<a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>

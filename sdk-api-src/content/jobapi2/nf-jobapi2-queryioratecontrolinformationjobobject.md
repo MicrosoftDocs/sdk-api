@@ -58,7 +58,7 @@ Gets information about the control of the I/O rate for a job object.
 
 ### -param hJob [in, optional]
 
-A handle to the job to query for information. Get this handle from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function. The handle must have the <b>JOB_OBJECT_QUERY</b> access right. For more information about access rights, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-object-security-and-access-rights">Job Object Security and Access Rights</a>.
+A handle to the job to query for information. Get this handle from the <a href="/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> or <a href="/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function. The handle must have the <b>JOB_OBJECT_QUERY</b> access right. For more information about access rights, see <a href="/windows/desktop/ProcThread/job-object-security-and-access-rights">Job Object Security and Access Rights</a>.
 
 If this value is NULL and the process that calls <b>QueryIoRateControlInformationJobObject</b> is associated with a job, the function uses job that is associated with the process. If the job is nested within another job, the function uses the immediate job for the process.
 
@@ -68,18 +68,18 @@ The name of the volume to query. If this value is NULL, the function gets the in
 
 ### -param InfoBlocks [out]
 
-A pointer to array of <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/ns-jobapi2-jobobject_io_rate_control_information">JOBOBJECT_IO_RATE_CONTROL_INFORMATION</a> structures that contain the information about I/O rate control for the job. Your code must free the memory for this array by calling the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-freememoryjobobject">FreeMemoryJobObject</a> function with the address of the array.
+A pointer to array of <a href="/windows/desktop/api/jobapi2/ns-jobapi2-jobobject_io_rate_control_information">JOBOBJECT_IO_RATE_CONTROL_INFORMATION</a> structures that contain the information about I/O rate control for the job. Your code must free the memory for this array by calling the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-freememoryjobobject">FreeMemoryJobObject</a> function with the address of the array.
 
 ### -param InfoBlockCount [out]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/ns-jobapi2-jobobject_io_rate_control_information">JOBOBJECT_IO_RATE_CONTROL_INFORMATION</a> structures that the function allocated in the array to which the <i>InfoBlocks</i> parameter points.
+The number of <a href="/windows/desktop/api/jobapi2/ns-jobapi2-jobobject_io_rate_control_information">JOBOBJECT_IO_RATE_CONTROL_INFORMATION</a> structures that the function allocated in the array to which the <i>InfoBlocks</i> parameter points.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -88,13 +88,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-freememoryjobobject">FreeMemoryJobObject</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-freememoryjobobject">FreeMemoryJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/ns-jobapi2-jobobject_io_rate_control_information">JOBOBJECT_IO_RATE_CONTROL_INFORMATION</a>
+<a href="/windows/desktop/api/jobapi2/ns-jobapi2-jobobject_io_rate_control_information">JOBOBJECT_IO_RATE_CONTROL_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setioratecontrolinformationjobobject">SetIoRateControlInformationJobObject</a>
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setioratecontrolinformationjobobject">SetIoRateControlInformationJobObject</a>

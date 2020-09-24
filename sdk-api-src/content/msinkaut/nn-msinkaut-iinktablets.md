@@ -54,7 +54,7 @@ Represents the object used to capture ink from available tablet devices.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkTablets</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkTablets</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkTablets</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkTablets</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IInkTablets</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-ispacketpropertysupported">IsPacketPropertySupported</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-ispacketpropertysupported">IsPacketPropertySupported</a>
 </td>
 <td align="left" width="63%">
 Determines whether a property of a tablet device or a collection of tablet devices, identified with a globally unique identifier (GUID), is supported. For example, use this method to determine if all of the tablets in a collection support tangential pressure from a pen.
@@ -79,10 +79,10 @@ Determines whether a property of a tablet device or a collection of tablet devic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-item">Item</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-item">Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object at the specified index within the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a> collection.
+Retrieves the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object at the specified index within the <a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a> collection.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/n
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_count">Count</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_count">Count</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Gets the number of objects or collections contained in a collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_defaulttablet">DefaultTablet</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_defaulttablet">DefaultTablet</a>
 
 
 </td>
@@ -135,4 +135,3 @@ Creating the InkCollector control behind a transparent control (such as a GroupB
 ## -see-also
 
 [InkCollector class](/windows/win32/tablet/inkcollector-class)
-

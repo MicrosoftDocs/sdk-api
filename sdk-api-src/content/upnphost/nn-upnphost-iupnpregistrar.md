@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPRegistrar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPRegistrar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPRegistrar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPRegistrar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPRegistrar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-getuniquedevicename">GetUniqueDeviceName</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-getuniquedevicename">GetUniqueDeviceName</a>
 </td>
 <td align="left" width="63%">
 Method that retrieves the UDN of a device. This method is re-entrant.
@@ -79,7 +79,7 @@ Method that retrieves the UDN of a device. This method is re-entrant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdevice">RegisterDevice</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdevice">RegisterDevice</a>
 </td>
 <td align="left" width="63%">
 Method that registers a non-running device with the device host. The device persists across system boots.
@@ -88,7 +88,7 @@ Method that registers a non-running device with the device host. The device pers
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdeviceprovider">RegisterDeviceProvider</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdeviceprovider">RegisterDeviceProvider</a>
 </td>
 <td align="left" width="63%">
 Method that registers a device provider with the device host.
@@ -97,7 +97,7 @@ Method that registers a device provider with the device host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">RegisterRunningDevice</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">RegisterRunningDevice</a>
 </td>
 <td align="left" width="63%">
 Method that registers a running device with the device host.
@@ -106,7 +106,7 @@ Method that registers a running device with the device host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdevice">UnregisterDevice</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdevice">UnregisterDevice</a>
 </td>
 <td align="left" width="63%">
 Method that unregisters the device.
@@ -115,7 +115,7 @@ Method that unregisters the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdeviceprovider">UnregisterDeviceProvider</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdeviceprovider">UnregisterDeviceProvider</a>
 </td>
 <td align="left" width="63%">
 Method that unregisters a device provider.
@@ -123,4 +123,3 @@ Method that unregisters a device provider.
 </td>
 </tr>
 </table>
-

@@ -53,19 +53,19 @@ api_name:
 ## -description
 
 The <b>FWPM_NET_EVENT2</b> structure contains information about all event types.
-[FWPM_NET_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0) is available.</div><div> </div>
+[FWPM_NET_EVENT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0) is available.</div><div> </div>
 
 ## -struct-fields
 
 ### -field header
 
-Type: [FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)</b>
+Type: [FWPM_NET_EVENT_HEADER2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)</b>
 
 Information common to all events.
 
 ### -field type
 
-Type: [FWPM_NET_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type)</b>
+Type: [FWPM_NET_EVENT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type)</b>
 
 The type of event.
 
@@ -95,7 +95,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
 
 ### -field classifyDrop
 
-Type: [FWPM_NET_EVENT_CLASSIFY_DROP2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2)*</b>
+Type: [FWPM_NET_EVENT_CLASSIFY_DROP2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2)*</b>
 
 Information about  a drop event.
 
@@ -119,7 +119,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP</b>.
 
 ### -field classifyAllow
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_allow0">FWPM_NET_EVENT_CLASSIFY_ALLOW0</a>*</b>
+Type: <b><a href="/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_allow0">FWPM_NET_EVENT_CLASSIFY_ALLOW0</a>*</b>
 
 Information about an allow event.
 
@@ -143,5 +143,4 @@ Information about a MAC layer drop event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

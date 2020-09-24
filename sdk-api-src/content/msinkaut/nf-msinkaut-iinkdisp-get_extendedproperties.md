@@ -70,5 +70,4 @@ Applications can use the ExtendedProperties property to access the custom data t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>

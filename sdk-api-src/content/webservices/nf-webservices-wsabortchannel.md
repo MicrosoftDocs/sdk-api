@@ -56,12 +56,12 @@ Cancels all pending I/O for  a specified channel
 
 ### -param channel [in]
 
-A   pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a>  structure representing the channel for which 
+A   pointer to a <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a>  structure representing the channel for which 
                     to cancel I/O.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
 
 ## -returns
 
@@ -101,7 +101,7 @@ One or more arguments are invalid.
 
 <b>Windows Server 2003 and before:  </b>On Windows platforms before Windows Vista, this function is not supported for WS_UDP_CHANNEL_BINDING or WS_HTTP_CHANNEL_BINDING  if the channel is in the WS_CHANNEL_STATE_ACCEPTING state and the listener has not already been aborted. 
 
-(For information on channel bindings and channel states, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE</a> enumerations.)<p class="note"> This function is also not supported for WS_HTTP_CHANNEL_BINDING with WS_CHANNEL_TYPE_REPLY when aborting a channel  in the WS_CHANNEL_STATE_OPEN or WS_CHANNEL_STATE_FAULTED state. (For information on channel types, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE</a> enumeration.
+(For information on channel bindings and channel states, see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE</a> enumerations.)<p class="note"> This function is also not supported for WS_HTTP_CHANNEL_BINDING with WS_CHANNEL_TYPE_REPLY when aborting a channel  in the WS_CHANNEL_STATE_OPEN or WS_CHANNEL_STATE_FAULTED state. (For information on channel types, see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE</a> enumeration.
 
 
 
@@ -112,8 +112,7 @@ One or more arguments are invalid.
                 
 
 If the channel is in the   <b>WS_CHANNEL_STATE_OPEN</b> state, <b>WsAbortChannel</b> causes the channel to fault to the <b>WS_CHANNEL_STATE_FAULTED</b> state. <div class="alert"><b>Note</b>  See 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabandonmessage">WsAbandonMessage</a> for information on how to skip a particular
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsabandonmessage">WsAbandonMessage</a> for information on how to skip a particular
                 message and keep the channel open.
             </div>
 <div> </div>If called with valid parameters, this function will not fail for reasons such as a lack of system resources. However, note the limitations on some operating systems versions at the beginning of Remarks.
-

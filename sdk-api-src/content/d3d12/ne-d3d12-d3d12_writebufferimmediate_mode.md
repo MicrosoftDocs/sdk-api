@@ -68,9 +68,8 @@ The write operation is deferred until all previous commands in the command strea
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2">ID3D12GraphicsCommandList::WriteBufferImmediate</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2">ID3D12GraphicsCommandList::WriteBufferImmediate</a>

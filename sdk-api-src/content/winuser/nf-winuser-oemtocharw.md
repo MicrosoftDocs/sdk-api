@@ -78,15 +78,15 @@ Type: <b>BOOL</b>
 The return value is always nonzero except when you pass the same address to 
 						<i>lpszSrc</i> and 
 						<i>lpszDst</i> in the wide-character version of the function. In this case the function returns zero and 
-						<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_ADDRESS</b>.
+						<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_ADDRESS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-chartooema">CharToOem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-chartooema">CharToOem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-chartooembuffa">CharToOemBuff</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-chartooembuffa">CharToOemBuff</a>
 
 
 
@@ -94,7 +94,7 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-oemtocharbuffa">OemToCharBuff</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-oemtocharbuffa">OemToCharBuff</a>
 
 
 
@@ -102,10 +102,9 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
+<a href="/windows/desktop/menurc/strings">Strings</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines OemToChar as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

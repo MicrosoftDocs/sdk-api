@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves a set of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/unknown-properties">unknown properties</a> from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and appends them to the end of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
+Retrieves a set of  <a href="/previous-versions/windows/desktop/mscs/unknown-properties">unknown properties</a> from the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and appends them to the end of a  <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Pointer to the cluster database key that identifies the location for the propert
 
 ### -param pPropertyTable [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a> describing the common and private properties of an object. Any properties found in the cluster database that are not in this property table are added to the property list.
+Pointer to a  <a href="/previous-versions/windows/desktop/mscs/property-tables">property table</a> describing the common and private properties of an object. Any properties found in the cluster database that are not in this property table are added to the property list.
 
 ### -param pOutPropertyList [in, out]
 
@@ -83,7 +83,7 @@ On output, points to the total number of bytes required to hold the returned pro
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -112,9 +112,8 @@ The  <b>ResUtilAddUnknownProperties</b> utility function enumerates the properti
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetunknownproperties">ResUtilSetUnknownProperties</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetunknownproperties">ResUtilSetUnknownProperties</a>

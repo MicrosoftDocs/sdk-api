@@ -64,9 +64,8 @@ The device context is a deferred context.
 
 ## -remarks
 
-This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-gettype">ID3D11DeviceContext::GetType</a>.
+This enumeration is used by <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-gettype">ID3D11DeviceContext::GetType</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>

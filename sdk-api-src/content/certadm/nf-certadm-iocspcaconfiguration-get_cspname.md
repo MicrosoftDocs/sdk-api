@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>CSPName</b> property gets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key storage provider</a> (KSP) name. The default implementations of <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> set this value.
+The <b>CSPName</b> property gets a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) or <a href="/windows/desktop/SecGloss/k-gly">key storage provider</a> (KSP) name. The default implementations of <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a> and <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> set this value.
 
 This property is read-only.
 
@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-The name returned in <i>pVal</i> corresponds to the CSP or KSP used for the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_signingcertificate">SigningCertificate</a> property.
+The name returned in <i>pVal</i> corresponds to the CSP or KSP used for the <a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_signingcertificate">SigningCertificate</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

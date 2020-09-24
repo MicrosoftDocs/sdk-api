@@ -54,46 +54,45 @@ api_name:
 
 <div class="alert"><b>Note</b>  Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008.  The content of this topic applies to both IAS and NPS.</div><div> </div>The 
 <b>RADIUS_EXTENSION_POINT</b> enumeration type enumerates the possible points in the RADIUS request process when the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> function can be called.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> function can be called.
 
 ## -enum-fields
 
 ### -field repAuthentication
 
 Indicates that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> function is called at the point in the request process where authentication occurs.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> function is called at the point in the request process where authentication occurs.
 
 ### -field repAuthorization
 
 Indicates that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> function is called at the point in the request process where authorization occurs.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> function is called at the point in the request process where authorization occurs.
 
 ## -remarks
 
 The <b>repPoint</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a> structure is of type 
+<a href="/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a> structure is of type 
 <b>RADIUS_EXTENSION_POINT</b>.
 
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a> for a diagram that shows the request process.
+<a href="/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a> for a diagram that shows the request process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
+<a href="/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
+<a href="/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>
-
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>

@@ -60,7 +60,7 @@ A unique ID  that identifies the connection on which the cost change event occur
 
 ### -param newCost [in]
 
-A DWORD value that represents the new cost of the connection. The lowest 16 bits represent the cost level, and the highest 16 bits represent the flags. Possible values are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_cost">NLM_CONNECTION_COST</a> enumeration.
+A DWORD value that represents the new cost of the connection. The lowest 16 bits represent the cost level, and the highest 16 bits represent the flags. Possible values are defined by the <a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_cost">NLM_CONNECTION_COST</a> enumeration.
 
 ## -returns
 
@@ -68,5 +68,4 @@ This method returns S_OK on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectioncostevents">INetworkConnectionCostEvents</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectioncostevents">INetworkConnectionCostEvents</a>

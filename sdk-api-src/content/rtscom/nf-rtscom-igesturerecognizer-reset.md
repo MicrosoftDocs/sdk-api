@@ -50,31 +50,30 @@ api_name:
 
 ## -description
 
-Deletes past stroke information from the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object.
+Deletes past stroke information from the <a href="/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object.
 
 ## -parameters
 
 ## -returns
 
-For a description of return values see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of return values see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-Removes any past strokes from consideration for gestures. If Reset is called while the user is in the middle of writing a stroke, the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object ignores that stroke.
+Removes any past strokes from consideration for gestures. If Reset is called while the user is in the middle of writing a stroke, the <a href="/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object ignores that stroke.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
+<a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a>
+<a href="/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-igesturerecognizer">IGestureRecognizer</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-igesturerecognizer">IGestureRecognizer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-get_enabled">IGestureRecognizer::Enabled Property</a>
-
+<a href="/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-get_enabled">IGestureRecognizer::Enabled Property</a>

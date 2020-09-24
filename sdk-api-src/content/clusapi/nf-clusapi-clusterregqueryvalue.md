@@ -55,7 +55,7 @@ api_name:
 
 Returns the 
     name, type, and data components associated with a value for an open 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
+    <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 ## -parameters
 
@@ -173,7 +173,7 @@ The operation was successful.
 </td>
 <td width="60%">
 The buffer pointed to by <i>lpbData</i> is not large enough to hold the data for the 
-         value. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a> stores the 
+         value. <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a> stores the 
          required size in the content of <i>lpbData</i>.
 
 </td>
@@ -193,5 +193,4 @@ If <i>lpdwValueType</i> is set to <b>REG_SZ</b>,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>

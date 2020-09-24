@@ -56,7 +56,7 @@ api_name:
 
 The <b>CM_Get_Device_Interface_List_Size</b> function retrieves the buffer size 
      that must be passed to the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a> 
+     <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a> 
      function.
 
 ## -parameters
@@ -75,7 +75,7 @@ Supplies a GUID that identifies a
 ### -param pDeviceID [in, optional]
 
 Caller-supplied pointer to a NULL-terminated string that represents a 
-           <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>. If specified, the 
+           <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>. If specified, the 
            function retrieves the length of symbolic link names for the device interfaces that are supported by the 
            device, for the specified class. If this value is <b>NULL</b>, or if it points to a 
            zero-length string, the function retrieves the length of symbolic link names for all interfaces that belong 
@@ -122,10 +122,9 @@ If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>
 
 ## -remarks
 
 > [!NOTE]
 > The cfgmgr32.h header defines CM_Get_Device_Interface_List_Size as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

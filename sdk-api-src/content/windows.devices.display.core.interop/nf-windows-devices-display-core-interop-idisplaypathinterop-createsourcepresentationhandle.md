@@ -63,10 +63,9 @@ This method returns **S_OK** if it succeeded, otherwise a failure code indicatin
 
 Multiple processes can have handles of the same object, enabling use of the object for interprocess synchronization or sharing. These object-sharing mechanisms are available.
 
-* A process can specify the object handle in a call to the [DuplicateHandle](/windows/win32/api/handleapi/nf-handleapi-duplicatehandle) function to create a duplicate handle that can be used by another process.
+* A process can specify the object handle in a call to the [DuplicateHandle](../handleapi/nf-handleapi-duplicatehandle.md) function to create a duplicate handle that can be used by another process.
 * A process can specify the name of the object in a call to the [IDisplayDeviceInterop.OpenSharedHandle](nf-windows-devices-display-core-interop-idisplaydeviceinterop-opensharedhandle.md) function.
 
-Use the [CloseHandle](/windows/win32/api/handleapi/nf-handleapi-closehandle) function to close the handle. The system closes the handle automatically when the process terminates. The object is destroyed when its last handle has been closed and its last interface reference has been released.
+Use the [CloseHandle](../handleapi/nf-handleapi-closehandle.md) function to close the handle. The system closes the handle automatically when the process terminates. The object is destroyed when its last handle has been closed and its last interface reference has been released.
 
 ## -see-also
-

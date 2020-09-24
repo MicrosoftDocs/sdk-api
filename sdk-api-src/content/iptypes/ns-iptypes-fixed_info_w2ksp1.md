@@ -80,7 +80,7 @@ Reserved. Use the <b>DnsServerList</b> member to obtain the DNS servers for the 
 Type: <b>IP_ADDR_STRING</b>
 
 A linked list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
 
 ### -field NodeType
 
@@ -175,7 +175,7 @@ A Boolean value that specifies whether DNS is enabled on the local computer.
 ## -remarks
 
 The 
-<b>FIXED_INFO</b> structure is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a> function.
+<b>FIXED_INFO</b> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a> function.
 
 In the Microsoft Windows Software Development Kit (SDK), the <b>FIXED_INFO_WIN2KSP1</b> structure is defined.   When compiling an 
      application if the target platform is Windows 2000 with Service Pack 1 (SP1) and later (<code>NTDDI_VERSION &gt;= NTDDI_WIN2KSP1</code>, 
@@ -184,7 +184,7 @@ In the Microsoft Windows Software Development Kit (SDK), the <b>FIXED_INFO_WIN2K
      platform is not Windows 2000 with SP1 and later, the 
      <b>FIXED_INFO</b> structure is undefined.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a> function and the 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a> function and the 
      <b>FIXED_INFO</b> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
 
 
@@ -300,17 +300,16 @@ int __cdecl main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
-
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>

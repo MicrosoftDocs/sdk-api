@@ -81,7 +81,7 @@ The length of the range, in bytes.
 Returns nonzero if successful or zero otherwise.
 
 To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -91,7 +91,7 @@ To get extended error information, call
      acquiring certain locks when updating the overlapped structures with the results of the I/O request.
 
 <b>SetFileIoOverlappedRange</b> requires the 
-     caller to have the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SeLockMemoryPrivilege</a> 
+     caller to have the <a href="/windows/desktop/SecAuthZ/authorization-constants">SeLockMemoryPrivilege</a> 
      access privilege.
 
 This function has no effect on buffered and synchronous I/O.
@@ -157,5 +157,4 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>

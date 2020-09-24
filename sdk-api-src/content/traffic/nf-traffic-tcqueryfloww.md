@@ -54,8 +54,8 @@ api_name:
 
 The 
 <b>TcQueryFlow</b> function queries traffic control for the value of a specific flow parameter based on the name of the flow. The name of a flow can be retrieved from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a> function or from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a> function or from the 
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a> function.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ Name of the flow being queried.
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the flow parameter of interest. A list of traffic control's GUIDs can be found in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.
+<a href="/previous-versions/windows/desktop/qos/guid">GUID</a>.
 
 ### -param pBufferSize [in, out]
 
@@ -165,13 +165,12 @@ Use of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>
+<a href="/previous-versions/windows/desktop/qos/guid">GUID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a>
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a>

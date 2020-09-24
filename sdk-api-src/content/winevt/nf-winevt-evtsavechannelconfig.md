@@ -57,7 +57,7 @@ Saves the changes made to a channel's configuration.
 
 ### -param ChannelConfig [in]
 
-A handle to the channel's configuration properties that the  <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a> function returns.
+A handle to the channel's configuration properties that the  <a href="/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a> function returns.
 
 ### -param Flags [in]
 
@@ -90,7 +90,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
@@ -98,18 +98,17 @@ The function failed. To get the error code, call the <a href="https://docs.micro
 
 ## -remarks
 
-To change a channel's configuration property, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a> function.
+To change a channel's configuration property, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a> function.
 
 You must call this function with elevated permissions; otherwise, this function returns ERROR_ACCESS_DENIED.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/getting-and-setting-a-channel-s-configuration-properties">Getting and Setting a Channel's Configuration Properties</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/getting-and-setting-a-channel-s-configuration-properties">Getting and Setting a Channel's Configuration Properties</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>

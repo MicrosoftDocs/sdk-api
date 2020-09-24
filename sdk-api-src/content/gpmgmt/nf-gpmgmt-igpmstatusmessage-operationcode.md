@@ -53,7 +53,7 @@ api_name:
 
 Returns a code related to the GPMC operation. The code corresponds to warnings or other errors that occurred during the operation. In the case of warnings, the operation continues. In the case of other errors, the operation stops.
 
-The operation codes are internal identifiers that are defined in Gpmgmt.dll. You can extract a text description of the operation code by using the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">Message property</a> of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a> or by using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>.
+The operation codes are internal identifiers that are defined in Gpmgmt.dll. You can extract a text description of the operation code by using the  <a href="/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">Message property</a> of <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a> or by using <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>.
 
 ## -parameters
 
@@ -67,9 +67,8 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>

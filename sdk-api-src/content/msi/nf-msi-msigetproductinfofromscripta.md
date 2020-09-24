@@ -59,12 +59,12 @@ The
 
 ### -param szScriptFile [in]
 
-A null-terminated string specifying the full path to the script file. The script file is the advertise script that was created by calling <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproducta">MsiAdvertiseProduct</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproductexa">MsiAdvertiseProductEx</a>.
+A null-terminated string specifying the full path to the script file. The script file is the advertise script that was created by calling <a href="/windows/desktop/api/msi/nf-msi-msiadvertiseproducta">MsiAdvertiseProduct</a> or <a href="/windows/desktop/api/msi/nf-msi-msiadvertiseproductexa">MsiAdvertiseProductEx</a>.
 
 ### -param lpProductBuf39 [out]
 
 Points to a buffer that receives the product code. The buffer must be 39 characters long. The first 38 characters are for the product code 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/guid">GUID</a>, and the last character is for the terminating null character.
+<a href="/windows/desktop/Msi/guid">GUID</a>, and the last character is for the terminating null character.
 
 ### -param plgidLanguage [out]
 
@@ -158,4 +158,3 @@ This function is only available on Windows 2000 and Windows XP.
 
 > [!NOTE]
 > The msi.h header defines MsiGetProductInfoFromScript as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

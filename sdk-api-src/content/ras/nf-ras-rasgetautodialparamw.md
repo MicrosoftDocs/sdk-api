@@ -95,7 +95,7 @@ The <i>lpvValue</i> parameter returns a <b>DWORD</b> value. If this value is 1, 
 </td>
 <td width="60%">
 The <i>lpvValue</i> parameter returns a <b>DWORD</b> value that indicates the maximum number of addresses that AutoDial stores in the registry. AutoDial first stores addresses that it used to create an AutoDial connection; then it stores addresses that it learned after a RAS connection was created. Addresses written using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetautodialaddressa">RasSetAutodialAddress</a> function are always saved, and are not included in calculating the limit. The default value is 100.
+<a href="/windows/desktop/api/ras/nf-ras-rassetautodialaddressa">RasSetAutodialAddress</a> function are always saved, and are not included in calculating the limit. The default value is 100.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ On output, this value indicates the actual size of the value written to the buff
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -173,22 +173,21 @@ The size specified by the <i>lpdwcbValue</i> is too small.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetautodialaddressa">RasSetAutodialAddress</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetautodialaddressa">RasSetAutodialAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetautodialparama">RasSetAutodialParam</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetautodialparama">RasSetAutodialParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The ras.h header defines RasGetAutodialParam as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

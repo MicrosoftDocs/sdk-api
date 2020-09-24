@@ -51,28 +51,28 @@ api_name:
 
 ## -description
 
-The <b>GetCAPropertyDisplayName</b> method retrieves the property display name for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) property. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
+The <b>GetCAPropertyDisplayName</b> method retrieves the property display name for a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) property. This method was first defined in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 ## -parameters
 
 ### -param strConfig [in]
 
 Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>GetCAPropertyDisplayName</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>GetCAPropertyDisplayName</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param PropId [in]
 
 Specifies the property identifier. For information about this parameter, see the table in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>.
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>.
 
 ### -param pstrDisplayName [out]
 
 A pointer to the string representing the property's display name.
 
-It is the responsibility of the caller to free the <b>BSTR</b> when done by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+It is the responsibility of the caller to free the <b>BSTR</b> when done by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -returns
 
@@ -81,4 +81,3 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was 
 
 <h3>VB</h3>
 A string that represents the property's display name.
-

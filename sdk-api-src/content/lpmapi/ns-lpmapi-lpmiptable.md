@@ -47,18 +47,16 @@ api_name:
  - LPMIPTABLE
 ---
 
-# LPMIPTABLE structure
-
-
 ## -description
 
-The 
-<b>LPMIPTABLE</b> structure contains IP information, including the SNMP index, IP address, and subnet mask for each interface. The 
-<b>LPMIPTABLE</b> structure is supplied as an argument for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_ipaddresstable">Lpm_IpAddressTable</a> function.
+The <b>LPMIPTABLE</b> structure contains IP information, including the SNMP index, IP address, and subnet mask for each interface. The 
+<b>LPMIPTABLE</b> structure is supplied as an argument for the <a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_ipaddresstable">Lpm_IpAddressTable</a> function.
 
 ## -struct-fields
 
 ### -field ulIfIndex
+
+SNMP index for the interface.
 
 ### -field MediaType
 
@@ -72,11 +70,6 @@ IP address for the interface.
 
 IP subnet mask for the interface.
 
-### -field UlIfIndex
-
-SNMP index for the interface.
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_ipaddresstable">Lpm_IpAddressTable</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_ipaddresstable">Lpm_IpAddressTable</a>

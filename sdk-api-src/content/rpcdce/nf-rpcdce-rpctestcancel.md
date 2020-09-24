@@ -88,7 +88,7 @@ The call has not been canceled.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 It is not unusual for the 
 <b>RpcTestCancel</b> function to return the value ERROR_ACCESS_DENIED. This indicates that the remote procedure call has not been canceled.
@@ -102,5 +102,4 @@ This function should be called periodically by the server stub so that it can re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcservertestcancel">RpcServerTestCancel</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcservertestcancel">RpcServerTestCancel</a>

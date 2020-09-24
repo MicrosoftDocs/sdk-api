@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-funcdesc">FUNCDESC</a> structure that contains information about a specified function.
+Retrieves the <a href="/windows/desktop/api/oaidl/ns-oaidl-funcdesc">FUNCDESC</a> structure that contains information about a specified function.
 
 ## -parameters
 
@@ -111,7 +111,7 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-The function <b>ITypeInfo::GetFuncDesc</b> provides access to a FUNCDESC structure that describes the function with the specified <i>index</i>. The FUNCDESC structure should be freed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasefuncdesc">ITypeInfo::ReleaseFuncDesc</a>. The number of functions in the type is one of the attributes contained in the TYPEATTR structure.
+The function <b>ITypeInfo::GetFuncDesc</b> provides access to a FUNCDESC structure that describes the function with the specified <i>index</i>. The FUNCDESC structure should be freed with <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasefuncdesc">ITypeInfo::ReleaseFuncDesc</a>. The number of functions in the type is one of the attributes contained in the TYPEATTR structure.
 
 
 
@@ -130,5 +130,4 @@ ptypeinfo->ReleaseFuncDesc(pfuncdesc);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

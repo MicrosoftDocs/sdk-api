@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a> interface.
+Creates an instance of the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a> interface.
 
 ## -parameters
 
 ### -param StreamId
 
-The identifier for the created stream. This is the same as setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devicestream-stream-id">MF_DEVICESTREAM_STREAM_ID</a> attribute. This value is used if <i>pAttributes</i> is null.
+The identifier for the created stream. This is the same as setting the <a href="/windows/desktop/medfound/mf-devicestream-stream-id">MF_DEVICESTREAM_STREAM_ID</a> attribute. This value is used if <i>pAttributes</i> is null.
 
 ### -param pAttributes [in, optional]
 
@@ -64,7 +64,7 @@ The attribute store for the created stream.
 
 ### -param pMediaTypeCollection [in]
 
-The collection of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> objects specifying the media types supported by the stream.
+The collection of <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> objects specifying the media types supported by the stream.
 
 ### -param ppStream [out]
 
@@ -97,7 +97,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The supplied <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> is null.
+The supplied <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> is null.
 
 </td>
 </tr>
@@ -113,4 +113,3 @@ The supplied <b>LPCWSTR</b> is null.
 </td>
 </tr>
 </table>
-

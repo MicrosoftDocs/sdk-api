@@ -59,11 +59,11 @@ Gets a specific type of PIN.
 
 ### -param pinType [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_type">MBN_PIN_TYPE</a> value that represents the requested PIN type.
+An <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_type">MBN_PIN_TYPE</a> value that represents the requested PIN type.
 
 ### -param pin [out, retval]
 
-Pointer to the address of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a> for the requested PIN type.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Otherwise, the calling application must release this interface when it is done using it.
+Pointer to the address of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a> for the requested PIN type.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Otherwise, the calling application must release this interface when it is done using it.
 
 ## -returns
 
@@ -92,7 +92,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The PIN type is not available.  The Mobile Broadband service is currently probing the device to retrieve this information.  When the PIN type is available, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanagerevents-onpinlistavailable">OnPinListAvailable</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents">IMbnPinManagerEvents</a>.
+The PIN type is not available.  The Mobile Broadband service is currently probing the device to retrieve this information.  When the PIN type is available, the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanagerevents-onpinlistavailable">OnPinListAvailable</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents">IMbnPinManagerEvents</a>.
 
 </td>
 </tr>
@@ -144,5 +144,4 @@ The requested PIN type is not supported by the device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>

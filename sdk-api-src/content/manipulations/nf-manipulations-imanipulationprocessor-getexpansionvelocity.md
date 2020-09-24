@@ -64,17 +64,16 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 ## -remarks
 
-This value is useful when you are using the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface. You should pass this value when the manipulation completes.
+This value is useful when you are using the <a href="/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface. You should pass this value when the manipulation completes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialexpansionvelocity">InitialExpansionVelocity</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialexpansionvelocity">InitialExpansionVelocity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtmethods">Methods</a>
-
+<a href="/windows/desktop/wintouch/mtmethods">Methods</a>

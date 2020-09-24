@@ -130,14 +130,14 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 The 
 <b>RpcNsEntryObjectInqNext</b> function returns one of the object UUIDs exported to the name-service database entry specified by the <i>EntryName</i> parameter in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a> function.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a> function.
 
 An application can view all of the exported object UUIDs by repeatedly calling 
 <b>RpcNsEntryObjectInqNext</b>. When all the object UUIDs have been viewed, this function returns an RPC_S_NO_MORE_MEMBERS status code. The returned object UUIDs are unordered.
@@ -145,19 +145,18 @@ An application can view all of the exported object UUIDs by repeatedly calling
 The application supplies the memory for the object UUID returned in the <i>ObjUuid</i> parameter.
 
 After viewing the object UUIDs, the application must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqdone">RpcNsEntryObjectInqDone</a> function to release the inquiry context.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqdone">RpcNsEntryObjectInqDone</a> function to release the inquiry context.
 
 The order in which object UUIDs are returned can be different for each viewing of an entry. This means that the order in which object UUIDs are returned to an application can be different each time the application is run.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqdone">RpcNsEntryObjectInqDone</a>
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqdone">RpcNsEntryObjectInqDone</a>

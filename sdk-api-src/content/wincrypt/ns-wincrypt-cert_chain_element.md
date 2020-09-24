@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CERT_CHAIN_ELEMENT</b> structure is a single element in a simple certificate chain. Each element has a pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, a pointer to a structure that indicates the error status and information status of the certificate, and a pointer to a structure that indicates the revocation status of the certificate.
+The <b>CERT_CHAIN_ELEMENT</b> structure is a single element in a simple certificate chain. Each element has a pointer to a <a href="/windows/desktop/SecGloss/c-gly">certificate context</a>, a pointer to a structure that indicates the error status and information status of the certificate, and a pointer to a structure that indicates the revocation status of the certificate.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Size of this structure in bytes.
 
 ### -field pCertContext
 
-A pointer to a certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
+A pointer to a certificate <a href="/windows/desktop/SecGloss/c-gly">context</a>.
 
 ### -field TrustStatus
 
@@ -88,13 +88,12 @@ A pointer to a <b>null</b>-terminated wide character string that contains extend
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_info">CERT_REVOCATION_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_info">CERT_REVOCATION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a>

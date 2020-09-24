@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the length of a string in a list box.  You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-gettextlen">LB_GETTEXTLEN</a> message explicitly.
+Gets the length of a string in a list box.  You can use this macro or send the <a href="/windows/desktop/Controls/lb-gettextlen">LB_GETTEXTLEN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,5 +68,4 @@ The zero-based index of the item.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-gettextlen">LB_GETTEXTLEN</a>.
-
+For more information, see <a href="/windows/desktop/Controls/lb-gettextlen">LB_GETTEXTLEN</a>.

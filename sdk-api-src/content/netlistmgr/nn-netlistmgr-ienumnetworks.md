@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IEnumNetworks</b> interface is a standard enumerator for networks. It enumerates all networks available on the local machine. This interface can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a> interface.
+The <b>IEnumNetworks</b> interface is a standard enumerator for networks. It enumerates all networks available on the local machine. This interface can be obtained from the <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNetworks</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNetworks</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNetworks</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNetworks</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IEnumNetworks</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-clone">Clone</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator that contains the same enumeration state as the enumerator currently in use.
@@ -79,7 +79,7 @@ Creates an enumerator that contains the same enumeration state as the enumerator
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-next">Next</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -88,7 +88,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-reset">Reset</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration sequence.
@@ -97,7 +97,7 @@ Resets to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-skip">Skip</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.
@@ -115,7 +115,7 @@ Skips over the next specified number of elements in the enumeration sequence.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworks-get__newenum">get__NewEnum</a>
 
 
 </td>
@@ -132,9 +132,8 @@ Returns an automation enumerator object that you can use to iterate through the 
 
 ## -remarks
 
-The list of connected or disconnected networks is cached by <b>IEnumNetworks</b> when it is instantiated. This list is not updated when the connectivity state of a network changes. The <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface is recommended for retrieving the current  connectivity state of a network.
+The list of connected or disconnected networks is cached by <b>IEnumNetworks</b> when it is instantiated. This list is not updated when the connectivity state of a network changes. The <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface is recommended for retrieving the current  connectivity state of a network.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>

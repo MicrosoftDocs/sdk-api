@@ -60,7 +60,7 @@ The <b>WLAN_BSS_ENTRY</b> structure contains information about a basic service s
 
 ### -field dot11Ssid
 
-The SSID of the access point (AP) or peer station associated with the BSS. The data type for this member is a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure.
+The SSID of the access point (AP) or peer station associated with the BSS. The data type for this member is a <a href="/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure.
 
 ### -field uPhyId
 
@@ -68,11 +68,11 @@ The identifier (ID) of the PHY that the wireless LAN interface used to detect th
 
 ### -field dot11Bssid
 
-The media access control (MAC) address of the access point for infrastructure BSS networks or the peer station for independent BSS networks (ad hoc networks) that sent the 802.11 Beacon or Probe Response frame received by the wireless LAN interface while scanning. The data type for this member is a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-mac-address-type">DOT11_MAC_ADDRESS</a> structure.
+The media access control (MAC) address of the access point for infrastructure BSS networks or the peer station for independent BSS networks (ad hoc networks) that sent the 802.11 Beacon or Probe Response frame received by the wireless LAN interface while scanning. The data type for this member is a <a href="/windows/desktop/NativeWiFi/dot11-mac-address-type">DOT11_MAC_ADDRESS</a> structure.
 
 ### -field dot11BssType
 
-The BSS network type. The data type for this member is a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> enumeration value.   
+The BSS network type. The data type for this member is a <a href="/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> enumeration value.   
 
 This member can be one of the following values.
 
@@ -111,7 +111,7 @@ Specifies an independent BSS (IBSS) network (an ad hoc network).
 
 ### -field dot11BssPhyType
 
-The PHY type for this network. The data type for this member is a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE</a> enumeration value.
+The PHY type for this network. The data type for this member is a <a href="/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE</a> enumeration value.
 
 ### -field lRssi
 
@@ -247,7 +247,7 @@ The channel center frequency of the band on which the 802.11 Beacon or Probe Res
 
 ### -field wlanRateSet
 
-A set of data transfer rates supported by the BSS. The data type for this member is a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_rate_set">WLAN_RATE_SET</a> structure.
+A set of data transfer rates supported by the BSS. The data type for this member is a <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_rate_set">WLAN_RATE_SET</a> structure.
 
 ### -field ulIeOffset
 
@@ -267,7 +267,7 @@ This is the exact length of the data in the buffer pointed to by <b>ulIeOffset</
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a> function retrieves the BSS list of the wireless network or networks on a given interface and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure that contains an array of .<b>WLAN_BSS_ENTRY</b> structures.  
+The <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a> function retrieves the BSS list of the wireless network or networks on a given interface and returns this information in a <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure that contains an array of .<b>WLAN_BSS_ENTRY</b> structures.  
 
  
 
@@ -279,21 +279,20 @@ Since the information is returned by the access point for an infrastructure BSS 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetavailablenetworklist">WlanGetAvailableNetworkList</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetavailablenetworklist">WlanGetAvailableNetworkList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a>

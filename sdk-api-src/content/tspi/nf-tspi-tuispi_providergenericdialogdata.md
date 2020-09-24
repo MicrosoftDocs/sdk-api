@@ -52,11 +52,11 @@ api_name:
 
 The 
 <b>TUISPI_providerGenericDialogData</b> function in the UI DLL is called when the service provider sends a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a> message. The service provider uses this to spontaneously update information in dialog boxes created in the application context in conjunction with the processing of particular asynchronous TSPI functions. This function is called from a separate thread from that in which 
+<a href="/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a> message. The service provider uses this to spontaneously update information in dialog boxes created in the application context in conjunction with the processing of particular asynchronous TSPI functions. This function is called from a separate thread from that in which 
 <b>TUISPI_providerGenericDialogData</b> is executing. The UI DLL should not block the thread in which this function is called, but should process the data and return immediately (posting a message to the dialog box if necessary).
 
 Implementation is mandatory if 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a> is exported.
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a> is exported.
 
 ## -parameters
 
@@ -67,8 +67,8 @@ The opaque identifier binding the association of this instance of the function t
 ### -param lpParams
 
 Pointer to a memory area used to hold a parameter block. The contents of this parameter block are specific to the service provider and its associated UI DLL. The conveyance of data through this parameter block is one-way to the UI DLL; changes made to the parameter block are not reflected back in the service provider. If this parameter is set to <b>NULL</b>, this is a request to close the dialog box immediately and clean up (
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a> should not be invoked during this cleanup). TAPI invokes this function with <i>lpParams</i> set to <b>NULL</b> to force dialog box cleanup under certain circumstances, such as an application calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a> with a dialog box still active.
+<a href="/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a> should not be invoked during this cleanup). TAPI invokes this function with <i>lpParams</i> set to <b>NULL</b> to force dialog box cleanup under certain circumstances, such as an application calling 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a> with a dialog box still active.
 
 ### -param dwSize
 
@@ -82,13 +82,12 @@ LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAILED.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a>
+<a href="/windows/desktop/Tapi/line-senddialoginstancedata">LINE_SENDDIALOGINSTANCEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>

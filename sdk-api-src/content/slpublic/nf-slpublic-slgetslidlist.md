@@ -62,7 +62,7 @@ The handle to the current SLC context.
 
 ### -param eQueryIdType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-slidtype">SLIDTYPE</a></b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-slidtype">SLIDTYPE</a></b>
 
 The type of input ID.
 
@@ -74,7 +74,7 @@ A pointer to the input ID.
 
 ### -param eReturnIdType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-slidtype">SLIDTYPE</a></b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-slidtype">SLIDTYPE</a></b>
 
 The type of returned IDs.
 
@@ -338,4 +338,3 @@ Get union of all application IDs or SKU IDs from all grants of
 </td>
 </tr>
 </table>
-

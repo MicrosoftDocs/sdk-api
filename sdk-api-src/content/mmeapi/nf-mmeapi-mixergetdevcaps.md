@@ -64,11 +64,11 @@ Identifier or handle of an open mixer device.
 
 ### -param pmxcaps
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure that receives information about the capabilities of the device.
+Pointer to a <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure that receives information about the capabilities of the device.
 
 ### -param cbmxcaps
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure.
+Size, in bytes, of the <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure.
 
 ## -returns
 
@@ -116,17 +116,16 @@ One or more parameters are invalid.
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/previous-versions/dd757304(v=vs.85)">mixerGetNumDevs</a> function to determine the number of mixer devices present in the system. The device identifier specified by <i>uMxId</i> varies from zero to one less than the number of mixer devices present.
+Use the <a href="/previous-versions/dd757304(v=vs.85)">mixerGetNumDevs</a> function to determine the number of mixer devices present in the system. The device identifier specified by <i>uMxId</i> varies from zero to one less than the number of mixer devices present.
 
 Only the number of bytes (or less) of information specified in <i>cbmxcaps</i> is copied to the location pointed to by <i>pmxcaps</i>. If <i>cbmxcaps</i> is zero, nothing is copied, and the function returns successfully.
 
-This function also accepts a mixer device handle returned by the <a href="https://docs.microsoft.com/previous-versions/dd757308(v=vs.85)">mixerOpen</a> function as the <i>uMxId</i> parameter. The application should cast the <b>HMIXER</b> handle to a <b>UINT</b>.
+This function also accepts a mixer device handle returned by the <a href="/previous-versions/dd757308(v=vs.85)">mixerOpen</a> function as the <i>uMxId</i> parameter. The application should cast the <b>HMIXER</b> handle to a <b>UINT</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
+<a href="/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
-
+<a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>

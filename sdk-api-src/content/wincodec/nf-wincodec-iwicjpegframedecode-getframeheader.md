@@ -56,7 +56,7 @@ Retrieves  header data from the entire frame.  The result includes parameters fr
 
 ### -param pFrameHeader [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader">WICJpegFrameHeader</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader">WICJpegFrameHeader</a>*</b>
 
 A pointer that receives the frame header data.
 
@@ -68,9 +68,8 @@ Returns S_OK on successful completion.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader">WICJpegFrameHeader</a>
-
+<a href="/windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader">WICJpegFrameHeader</a>

@@ -58,7 +58,7 @@ Retrieves the property flags that control how visual styles are applied in the c
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The following return values are bit flags combined with a logical OR operator.
 
@@ -106,7 +106,7 @@ Specifies that all web content displayed in an application is rendered using vis
 
 Individual flags can be extracted from the result by combining the result with the logical AND of the desired flag.
 
-Do not call this function during <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> or global objects constructors. This may cause invalid return values.
+Do not call this function during <a href="/windows/desktop/Dlls/dllmain">DllMain</a> or global objects constructors. This may cause invalid return values.
 
 
 #### Examples
@@ -122,5 +122,4 @@ bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-setthemeappproperties">SetThemeAppProperties</a>
-
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-setthemeappproperties">SetThemeAppProperties</a>

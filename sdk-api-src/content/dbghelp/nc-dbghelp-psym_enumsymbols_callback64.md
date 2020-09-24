@@ -51,19 +51,19 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratesymbols">SymEnumerateSymbols64</a> function. It is called once for each enumerated symbol, and receives the symbol information.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratesymbols">SymEnumerateSymbols64</a> function. It is called once for each enumerated symbol, and receives the symbol information.
 
 The <b>PSYM_ENUMSYMBOLS_CALLBACK64</b> and <b>PSYM_ENUMSYMBOLS_CALLBACK64W</b> types define a pointer to this callback function. 
 <b>SymEnumerateSymbolsProc64</b> is a placeholder for the application-defined function name.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility. Applications should use 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>.</div><div> </div>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param SymbolName [in]
 
 The name of the symbol. The name can be undecorated if the SYMOPT_UNDNAME option is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function.
 
 ### -param SymbolAddress [in]
 
@@ -76,7 +76,7 @@ The size of the symbol, in bytes. The size is calculated and is actually a best-
 ### -param UserContext [in, optional]
 
 The user-defined value specified in 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratesymbols">SymEnumerateSymbols64</a>, or <b>NULL</b>. Typically, this parameter is used by an application to pass a pointer to a data structure that lets the callback function establish some type of context.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratesymbols">SymEnumerateSymbols64</a>, or <b>NULL</b>. Typically, this parameter is used by an application to pass a pointer to a data structure that lets the callback function establish some type of context.
 
 ## -returns
 
@@ -116,13 +116,12 @@ typedef BOOL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratesymbols">SymEnumerateSymbols64</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratesymbols">SymEnumerateSymbols64</a>

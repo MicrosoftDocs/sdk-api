@@ -59,7 +59,7 @@ Sets the parameters that uniquely identify an event for the specified report.
 
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
+A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
 ### -param dwparamID [in]
 
@@ -172,13 +172,12 @@ Each report supports parameters P0 through P9. This function sets one parameter 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

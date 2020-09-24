@@ -90,25 +90,24 @@ To retrieve the duration for files that are not in the user's library, you must 
 
 For playlists, the duration of each media item can be retrieved when the individual media item is opened, rather than the when the playlist is opened.
 
-Before calling this method, you must have read access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
+Before calling this method, you must have read access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_currentmedia">IWMPCore::get_currentMedia</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_currentmedia">IWMPCore::get_currentMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_openstate">IWMPCore::get_openState</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_openstate">IWMPCore::get_openState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-openstatechange">IWMPEvents::OpenStateChange</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-openstatechange">IWMPEvents::OpenStateChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_durationstring">IWMPMedia::get_durationString</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_durationstring">IWMPMedia::get_durationString</a>

@@ -77,7 +77,7 @@ Type of extended data. The following are possible values.
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_related_activityid">EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</a> structure that contains the related activity identifier if you called <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> to write the event.
+The <b>DataPtr</b> member points to an <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_related_activityid">EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</a> structure that contains the related activity identifier if you called <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> to write the event.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The <b>DataPtr</b> member points to an <a href="/windows/win32/api/evntcons/ns-e
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the security identifier (SID) of the user that logged the event. ETW includes the SID if you set the <i>EnableProperty</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> to EVENT_ENABLE_PROPERTY_SID.
+The <b>DataPtr</b> member points to a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the security identifier (SID) of the user that logged the event. ETW includes the SID if you set the <i>EnableProperty</i> parameter of <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> to EVENT_ENABLE_PROPERTY_SID.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The <b>DataPtr</b> member points to a <a href="https://docs.microsoft.com/window
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_ts_id">EVENT_EXTENDED_ITEM_TS_ID</a> structure that contains the terminal session identifier. ETW includes the terminal session identifier if you set the <i>EnableProperty</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> to EVENT_ENABLE_PROPERTY_TS_ID.
+The <b>DataPtr</b> member points to an <a href="/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_ts_id">EVENT_EXTENDED_ITEM_TS_ID</a> structure that contains the terminal session identifier. ETW includes the terminal session identifier if you set the <i>EnableProperty</i> parameter of <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> to EVENT_ENABLE_PROPERTY_TS_ID.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_instance">EVENT_EXTENDED_ITEM_INSTANCE</a> structure that contains the activity identifier if you called <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> to write the event.
+The <b>DataPtr</b> member points to an <a href="/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_instance">EVENT_EXTENDED_ITEM_INSTANCE</a> structure that contains the activity identifier if you called <a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> to write the event.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ The <b>DataPtr</b> member points to an extended header item that contains TraceL
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an extended header item that  contains provider traits data, for example traits set through <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventsetinformation">EventSetInformation(EventProviderSetTraits)</a> or specified through <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR_TYPE_PROVIDER_METADATA</a>.
+The <b>DataPtr</b> member points to an extended header item that  contains provider traits data, for example traits set through <a href="/windows/desktop/api/evntprov/nf-evntprov-eventsetinformation">EventSetInformation(EventProviderSetTraits)</a> or specified through <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR_TYPE_PROVIDER_METADATA</a>.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ The <b>DataPtr</b> member points to an extended header item that  contains provi
 <td width="60%">
 The <b>DataPtr</b> member points to an EVENT_EXTENDED_ITEM_EVENT_KEY structure that contains a unique event identifier which is a 64-bit scalar. 
 
-The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_EVENT_KEY needs to be passed in for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> call for a given provider to enable this feature.
+The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_EVENT_KEY needs to be passed in for the <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> call for a given provider to enable this feature.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_EVENT_KEY needs to be passed in f
 <td width="60%">
 The <b>DataPtr</b> member points to an EVENT_EXTENDED_ITEM_PROCESS_START_KEY structure that contains a unique process identifier (unique across the boot session). This identifier is a 64-bit scalar. 
 
-The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY needs to be passed in for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> call for a given provider to enable this feature. 
+The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY needs to be passed in for the <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> call for a given provider to enable this feature. 
 
 </td>
 </tr>
@@ -195,5 +195,4 @@ Pointer to the extended data. The <b>ExtType</b> member determines the type of e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
-
+<a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>

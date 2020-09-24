@@ -86,9 +86,8 @@ Pointer <i>pPartType</i> is <b>NULL</b>.
 
 ## -remarks
 
-For a code example that uses this method, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
+For a code example that uses this method, see the implementation of the SelectCaptureDevice function in <a href="/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>

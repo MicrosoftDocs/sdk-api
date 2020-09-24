@@ -71,7 +71,7 @@ Opens an existing named mutex object.
 ### -param dwDesiredAccess [in]
 
 The access to the mutex object. Only the <b>SYNCHRONIZE</b> access right is required to use a mutex; to change the mutex's security, specify <b>MUTEX_ALL_ACCESS</b>. The function fails if the security descriptor of the specified object does not permit the requested access for the calling process. For a list of access rights, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
+<a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
 ### -param bInheritHandle [in]
 
@@ -84,10 +84,10 @@ The name of the mutex to be opened. Name comparisons are case sensitive.
 
 
 
-This function can open objects in a private namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
+This function can open objects in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
 <b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open an object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
+<a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
 <b>Note</b>  Fast user switching is implemented using Terminal Services sessions. The first user to log on uses session 0, the next user to log on uses session 1, and so on. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
@@ -96,59 +96,58 @@ This function can open objects in a private namespace. For more information, see
 If the function succeeds, the return value is a handle to the mutex object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If a named mutex does not exist, the function fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_FILE_NOT_FOUND</b>.
+If a named mutex does not exist, the function fails and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_FILE_NOT_FOUND</b>.
 
 ## -remarks
 
 The 
 <b>OpenMutex</b> function enables multiple processes to open handles of the same mutex object. The function succeeds only if some process has already created the mutex by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> function. The calling process can use the returned handle in any function that requires a handle to a mutex object, such as the 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>, subject to the limitations of the access specified in the <i>dwDesiredAccess</i> parameter.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> function. The calling process can use the returned handle in any function that requires a handle to a mutex object, such as the 
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a>, subject to the limitations of the access specified in the <i>dwDesiredAccess</i> parameter.
 
-The handle can be duplicated by using the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function. Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The mutex object is destroyed when its last handle has been closed.
+The handle can be duplicated by using the <a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function. Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The mutex object is destroyed when its last handle has been closed.
 
-If your multithreaded application must repeatedly create, open, and close a named mutex object, a race condition can occur. In this situation, it is better to use <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> instead of <b>OpenMutex</b>, because <b>CreateMutex</b> opens a mutex if it exists and creates it if it does not.
+If your multithreaded application must repeatedly create, open, and close a named mutex object, a race condition can occur. In this situation, it is better to use <a href="/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> instead of <b>OpenMutex</b>, because <b>CreateMutex</b> opens a mutex if it exists and creates it if it does not.
 
 
 #### Examples
 
 For an example that uses 
 <b>OpenMutex</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/using-named-objects">Using Named Objects</a>.
+<a href="/windows/desktop/Sync/using-named-objects">Using Named Objects</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/mutex-objects">Mutex Objects</a>
+<a href="/windows/desktop/Sync/mutex-objects">Mutex Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/object-names">Object Names</a>
+<a href="/windows/desktop/Sync/object-names">Object Names</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-releasemutex">ReleaseMutex</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-releasemutex">ReleaseMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

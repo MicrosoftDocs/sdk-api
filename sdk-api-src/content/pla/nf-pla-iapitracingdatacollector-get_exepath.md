@@ -64,9 +64,8 @@ If the executable file is currently running, the trace occurs the next time the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_includemodules">IApiTracingDataCollector::IncludeModules</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_includemodules">IApiTracingDataCollector::IncludeModules</a>

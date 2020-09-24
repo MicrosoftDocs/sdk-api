@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Decrements the lock count of an array, and invalidates the pointer retrieved by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayaccessdata">SafeArrayAccessData</a>.
+Decrements the lock count of an array, and invalidates the pointer retrieved by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayaccessdata">SafeArrayAccessData</a>.
 
 ## -parameters
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ## -returns
 
@@ -101,4 +101,3 @@ The array could not be unlocked.
 </td>
 </tr>
 </table>
-

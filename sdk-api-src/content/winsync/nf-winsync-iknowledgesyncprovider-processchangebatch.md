@@ -64,7 +64,7 @@ A batch of changes from the source provider to be applied locally.
 
 ### -param pUnkDataRetriever [in]
 
-An object that can be used to retrieve change data. It can be an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever</a> object or a provider-specific object.
+An object that can be used to retrieve change data. It can be an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever</a> object or a provider-specific object.
 
 ### -param pCallback [in]
 
@@ -114,5 +114,4 @@ When a source change contains change unit changes, the destination provider must
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>

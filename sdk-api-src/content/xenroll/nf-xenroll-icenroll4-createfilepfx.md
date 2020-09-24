@@ -53,13 +53,13 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>createFilePFX</b> method saves the accepted certificate chain and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> in a file in Personal Information Exchange (PFX) format. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+The <b>createFilePFX</b> method saves the accepted certificate chain and <a href="/windows/desktop/SecGloss/p-gly">private key</a> in a file in Personal Information Exchange (PFX) format. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 ## -parameters
 
 ### -param strPassword [in]
 
-A password for the PFX; this value can be empty (or <b>NULL</b>) to indicate that no password is used. When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function.  For more information about handling passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+A password for the PFX; this value can be empty (or <b>NULL</b>) to indicate that no password is used. When you have finished using the password, clear it from memory by calling the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function.  For more information about handling passwords, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 ### -param strPFXFileName [in]
 
@@ -71,9 +71,8 @@ The name of the file that will receive the base64-encoded PFX data.
  If the method succeeds, the method returns <b>S_OK</b>.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+<a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 When this method is called from script, the method displays a user interface that asks whether the user will allow a write operation to the file system.
-

@@ -88,17 +88,16 @@ The y-coordinate of the upper-left corner of the rectangle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrect">CreateRect</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrect">CreateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrectarray">CreateRectArray</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrectarray">CreateRectArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getrect">IPropertyValue::GetRect</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getrect">IPropertyValue::GetRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getrectarray">IPropertyValue::GetRectArray</a>
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getrectarray">IPropertyValue::GetRectArray</a>

@@ -65,15 +65,15 @@ A null-terminated wide-character string containing the realm for the authenticat
 
 ### -param dwAuthenticationFlags [in]
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetauthenticationflags">MFNetAuthenticationFlags</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfnetauthenticationflags">MFNetAuthenticationFlags</a> enumeration.
 
 ### -param ppCred [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a> interface. The caller must release the interface.
 
 ### -param pdwRequirementsFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetcredentialrequirements">MFNetCredentialRequirements</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfnetcredentialrequirements">MFNetCredentialRequirements</a> enumeration.
 
 ## -returns
 
@@ -99,5 +99,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>

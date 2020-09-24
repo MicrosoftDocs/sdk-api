@@ -64,11 +64,10 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-The returned <b>BSTR</b> is treated as a binary blob. It is expected to contain embedded <b>NULL</b> values, and it may be formatted internally by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a>.
+The returned <b>BSTR</b> is treated as a binary blob. It is expected to contain embedded <b>NULL</b> values, and it may be formatted internally by the <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a>.
 
 The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>

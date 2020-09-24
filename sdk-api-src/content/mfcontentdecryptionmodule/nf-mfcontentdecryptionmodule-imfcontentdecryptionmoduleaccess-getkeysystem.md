@@ -56,9 +56,8 @@ Returns S_OK on success.
 
 ## -remarks
 
-The *keySystem* memory must be allocated and freed using [CoTaskMem](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc).
+The *keySystem* memory must be allocated and freed using [CoTaskMem](../combaseapi/nf-combaseapi-cotaskmemalloc.md).
 
 **GetKeySystem** is based on the Encrypted Media Extension specification's [MediaKeySystemAccess.getConfiguration](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeysystemaccess-keysystem).
 
 ## -see-also
-

@@ -56,7 +56,7 @@ The <b>EngUnmapFontFileFD</b> function unmaps the specified font file from syste
 
 ### -param iFile [in]
 
-Pointer to a driver-defined value that identifies the font file to be unmapped. This pointer is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
+Pointer to a driver-defined value that identifies the font file to be unmapped. This pointer is obtained from <a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
 
 ## -returns
 
@@ -64,13 +64,12 @@ None
 
 ## -remarks
 
-A font driver calls <b>EngUnmapFontFileFD</b> to unmap a font file that was previously mapped by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfontfilefd">EngMapFontFileFD</a>.
+A font driver calls <b>EngUnmapFontFileFD</b> to unmap a font file that was previously mapped by <a href="/windows/desktop/api/winddi/nf-winddi-engmapfontfilefd">EngMapFontFileFD</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfontfilefd">EngMapFontFileFD</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapfontfilefd">EngMapFontFileFD</a>

@@ -56,30 +56,29 @@ api_name:
 
 The 
 <b>HTTP_SERVICE_CONFIG_SSL_KEY</b> structure serves as the key by which a given Secure Sockets Layer (SSL) certificate record is identified. It appears in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a> structures, and is passed as the <i>pConfigInformation</i> parameter to 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HTTPDeleteServiceConfiguration</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a> when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSSLCertInfo</b>.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> and the 
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a> structures, and is passed as the <i>pConfigInformation</i> parameter to 
+<a href="/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HTTPDeleteServiceConfiguration</a>, 
+<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>, and 
+<a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a> when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSSLCertInfo</b>.
 
 ## -struct-fields
 
 ### -field pIpPort
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the Internet Protocol (IP) address with which this SSL certificate is associated.
+Pointer to a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the Internet Protocol (IP) address with which this SSL certificate is associated.
 
 If the <b>sin_addr</b> field in <b>IpPort</b> is set to 0.0.0.0, the certificate is applicable to all IPv4 and IPv6 addresses.
    If the <b>sin6_addr</b> field in <b>IpPort</b> is set to [::], the certificate is applicable to all IPv6 addresses.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HTTPDeleteServiceConfiguration</a>
+<a href="/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HTTPDeleteServiceConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a>
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a>

@@ -53,37 +53,36 @@ api_name:
 Describes the methods that are defined for the <b>IDeviceModelPlugIn</b> Component Object Model (COM) interface.
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-colorimetrictodevicecolors">ColorimetricToDeviceColors</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-colorimetrictodevicecolors">ColorimetricToDeviceColors</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-devicetocolorimetriccolors">DeviceToColorimetricColors</a>
+<a href="/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-devicetocolorimetriccolors">DeviceToColorimetricColors</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-colorimetrictodevicecolorswithblack">DeviceToColorimetricColorsWithBlack</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-colorimetrictodevicecolorswithblack">DeviceToColorimetricColorsWithBlack</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getgamutboundarymesh">GetGamutBoundaryMesh</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getgamutboundarymesh">GetGamutBoundaryMesh</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getgamutboundarymeshsize">GetGamutBoundaryMeshSize</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getgamutboundarymeshsize">GetGamutBoundaryMeshSize</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxis">GetNeutralAxis</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxis">GetNeutralAxis</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxissize">GetNeutralAxisSize</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxissize">GetNeutralAxisSize</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getnumchannels">GetNumChannels</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getnumchannels">GetNumChannels</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getprimarysamples">GetPrimarySamples</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getprimarysamples">GetPrimarySamples</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-initialize">Initialize</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-settransformdevicemodelinfo">SetTransformDeviceModelInfo</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-settransformdevicemodelinfo">SetTransformDeviceModelInfo</a>
 </li>
 </ul>
-

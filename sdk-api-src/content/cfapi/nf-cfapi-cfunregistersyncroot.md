@@ -64,7 +64,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-Unregisters a sync root that was registered with <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfregistersyncroot">CfRegisterSyncRoot</a>. This is typically called at the sync provider uninstall time, when a user account is deleted, or when a user opts to no longer sync a directory tree (if supported by the sync provider). 
+Unregisters a sync root that was registered with <a href="/windows/desktop/api/cfapi/nf-cfapi-cfregistersyncroot">CfRegisterSyncRoot</a>. This is typically called at the sync provider uninstall time, when a user account is deleted, or when a user opts to no longer sync a directory tree (if supported by the sync provider). 
 
 The sync provider should have WRITE_DATA or WRITE_DAC access to the sync root to be unregistered, or  unregistration will fail with: HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED).
 
@@ -88,4 +88,3 @@ For placeholder directories:
 
 <div class="alert"><b>Note</b>  If the placeholder files or directories cannot be reverted or deleted, it will be skipped, and the unregistering process will continue until the full sync root tree has been traversed.</div>
 <div> </div>
-

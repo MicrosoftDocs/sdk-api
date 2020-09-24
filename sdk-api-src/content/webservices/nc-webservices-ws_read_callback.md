@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a>to read from some source into a buffer.
+Used by the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a>to read from some source into a buffer.
 
 ## -parameters
 
@@ -73,11 +73,11 @@ A pointer to a <b>ULONG</b>  value that indicates the number of bytes actually r
 
 ### -param *asyncContext [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information on how to invoke the function asynchronously.  Assigned <b>NULL</b> if invoking synchronously.
+A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information on how to invoke the function asynchronously.  Assigned <b>NULL</b> if invoking synchronously.
 
 ### -param *error [in, optional]
 
-A pointer to <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
+A pointer to <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
 
 ## -returns
 
@@ -86,4 +86,3 @@ This callback function does not return a value.
 ## -remarks
 
 Returning size of 0 in the <i>actualSize</i> output parameter indicates the end of the file.
-

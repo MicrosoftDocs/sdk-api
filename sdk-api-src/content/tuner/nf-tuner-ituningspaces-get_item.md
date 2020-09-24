@@ -60,7 +60,7 @@ The <b>get_Item</b> method returns the specified item in the collection.
 
 ### -param TuningSpace [out]
 
-Address of a variable that receives a pointer to the tuning space's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface. The caller must release the interface.
+Address of a variable that receives a pointer to the tuning space's <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -68,5 +68,4 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces Interface</a>

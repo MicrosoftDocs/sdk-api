@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Creates and returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">GPMDomain</a> object that corresponds to the specified domain.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">GPMDomain</a> object that corresponds to the specified domain.
 
 The object allows you to do the following:
 <ul>
@@ -82,7 +82,7 @@ If this parameter is set to zero, and a <i>bstrDomainController</i> is specified
 ### -param pIGPMDomain [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a> interface.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a> interface.
 
 ## -returns
 
@@ -100,13 +100,12 @@ Returns a reference to a <b>GPMDomain</b> object.
 >**Important:** When calling this function, underlying LDAP traffic is encrypted using Kerberos, not SSL.
 
 This method does not allow you to search site SOMs. Call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getsitescontainer">IGPM::GetSitesContainer</a> method to perform this type of query.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getsitescontainer">IGPM::GetSitesContainer</a> method to perform this type of query.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>

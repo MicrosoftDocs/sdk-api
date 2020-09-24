@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the set of possible general window (app view) size preferences. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchsourceviewsizepreference-getsourceviewsizepreference">ILaunchSourceViewSizePreference::GetSourceViewSizePreference</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchtargetviewsizepreference-gettargetviewsizepreference">ILaunchTargetViewSizePreference::GetTargetViewSizePreference</a>.
+Defines the set of possible general window (app view) size preferences. Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchsourceviewsizepreference-getsourceviewsizepreference">ILaunchSourceViewSizePreference::GetSourceViewSizePreference</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchtargetviewsizepreference-gettargetviewsizepreference">ILaunchTargetViewSizePreference::GetTargetViewSizePreference</a>.
 
 ## -enum-fields
 
@@ -82,9 +82,8 @@ The window has no visible component.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>

@@ -56,5 +56,4 @@ Enters the Direct2D API critical section, if it exists.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1multithread">ID2D1Multithread</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1multithread">ID2D1Multithread</a>

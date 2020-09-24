@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the GUID value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
+Gets the GUID value that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createguid">IPropertyValueStatics::CreateGuid</a>
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createguid">IPropertyValueStatics::CreateGuid</a>

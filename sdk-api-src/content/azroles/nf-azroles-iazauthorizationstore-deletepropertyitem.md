@@ -70,7 +70,7 @@ Property ID of the  list of principals from which to remove the principal specif
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministrator">DeletePolicyAdministrator</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministrator">DeletePolicyAdministrator</a> method
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministratorname">DeletePolicyAdministratorName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministratorname">DeletePolicyAdministratorName</a> method
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreader">DeletePolicyReader</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreader">DeletePolicyReader</a> method
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreadername">DeletePolicyReaderName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreadername">DeletePolicyReaderName</a> method
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyuser">DeleteDelegatedPolicyUser</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyuser">DeleteDelegatedPolicyUser</a> method
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyusername">DeleteDelegatedPolicyUserName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyusername">DeleteDelegatedPolicyUserName</a> method
 
 </td>
 </tr>
@@ -146,5 +146,4 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.

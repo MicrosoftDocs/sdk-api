@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>_AM_ASFWRITERCONFIG_PARAM</b> DirectShow QASF enumeration type defines filter configuration parameters used in the <a href="https://docs.microsoft.com/windows/desktop/wmformat/iconfigasfwriter2-getparam">IConfigAsfWriter2::GetParam</a> and <a href="https://docs.microsoft.com/windows/desktop/wmformat/iconfigasfwriter2-setparam">SetParam</a> methods.
+The <b>_AM_ASFWRITERCONFIG_PARAM</b> DirectShow QASF enumeration type defines filter configuration parameters used in the <a href="/windows/desktop/wmformat/iconfigasfwriter2-getparam">IConfigAsfWriter2::GetParam</a> and <a href="/windows/desktop/wmformat/iconfigasfwriter2-setparam">SetParam</a> methods.
 
 ## -enum-fields
 
 ### -field AM_CONFIGASFWRITER_PARAM_AUTOINDEX
 
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-asf-writer-filter">WM ASF Writer</a> should automatically create a temporal index after it has completed encoding a file. Set this parameter to <b>FALSE</b> if you want to create a frame-based index using the Windows Media Format SDK directly.
+Indicates whether the <a href="/windows/desktop/wmformat/wm-asf-writer-filter">WM ASF Writer</a> should automatically create a temporal index after it has completed encoding a file. Set this parameter to <b>FALSE</b> if you want to create a frame-based index using the Windows Media Format SDK directly.
 
 ### -field AM_CONFIGASFWRITER_PARAM_MULTIPASS
 
@@ -64,7 +64,7 @@ Indicates whether the filter should operate in two-pass mode. See Remarks.
 
 ### -field AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS
 
-Indicates that the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-asf-writer-filter">WM ASF Writer</a> will not attempt to compress the input streams. Use this flag to pack content that is not Windows Media–based into an ASF file.
+Indicates that the <a href="/windows/desktop/wmformat/wm-asf-writer-filter">WM ASF Writer</a> will not attempt to compress the input streams. Use this flag to pack content that is not Windows Media–based into an ASF file.
 
 ## -remarks
 
@@ -75,17 +75,16 @@ In two-pass mode the filter makes two passes through the file. In the first pass
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/configuring-profiles-and-other-file-properties--qasf">Configuring Profiles and Other File Properties (QASF)</a>
+<a href="/windows/desktop/wmformat/configuring-profiles-and-other-file-properties--qasf">Configuring Profiles and Other File Properties (QASF)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/directshow-qasf-reference">DirectShow QASF Reference</a>
+<a href="/windows/desktop/wmformat/directshow-qasf-reference">DirectShow QASF Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iconfigasfwriter2-getparam">IConfigAsfWriter2::GetParam</a>
+<a href="/windows/desktop/wmformat/iconfigasfwriter2-getparam">IConfigAsfWriter2::GetParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iconfigasfwriter2-setparam">IConfigAsfWriter2::SetParam</a>
-
+<a href="/windows/desktop/wmformat/iconfigasfwriter2-setparam">IConfigAsfWriter2::SetParam</a>

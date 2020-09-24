@@ -56,7 +56,7 @@ The <b>IFECommon</b> interface provides IME-related services that are common for
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFECommon</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFECommon</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFECommon</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFECommon</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFECommon</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifecommon-invokedicttooldialog">InvokeDictToolDialog</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifecommon-invokedicttooldialog">InvokeDictToolDialog</a>
 </td>
 <td align="left" width="63%">
 Invokes the Microsoft IME's Dictionary Tool from the app.
@@ -80,7 +80,7 @@ Invokes the Microsoft IME's Dictionary Tool from the app.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifecommon-invokewordregdialog">InvokeWordRegDialog</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifecommon-invokewordregdialog">InvokeWordRegDialog</a>
 </td>
 <td align="left" width="63%">
 Invokes the Microsoft IME Word Register Dialog Window from the app.
@@ -89,7 +89,7 @@ Invokes the Microsoft IME Word Register Dialog Window from the app.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifecommon-isdefaultime">IsDefaultIME</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifecommon-isdefaultime">IsDefaultIME</a>
 </td>
 <td align="left" width="63%">
 Determines if the IME specified by the class ID is the default IME on a local computer.
@@ -98,7 +98,7 @@ Determines if the IME specified by the class ID is the default IME on a local co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifecommon-setdefaultime">SetDefaultIME</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifecommon-setdefaultime">SetDefaultIME</a>
 </td>
 <td align="left" width="63%">
 Allows the Microsoft IME to become the default IME in the keyboard layout.
@@ -109,5 +109,4 @@ Allows the Microsoft IME to become the default IME in the keyboard layout.
 
 ## -remarks
 
-Create an instance of this interface with the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-createifecommoninstance">CreateIFECommonInstance</a> function.
-
+Create an instance of this interface with the <a href="/windows/desktop/api/msime/nf-msime-createifecommoninstance">CreateIFECommonInstance</a> function.

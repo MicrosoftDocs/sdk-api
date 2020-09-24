@@ -56,7 +56,7 @@ The <b>CreateTuneRequest</b> method creates an empty (uninitialized) tune reques
 
 ### -param TuneRequest [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the new tune request object. The caller must release the interface.
+Address of a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the new tune request object. The caller must release the interface.
 
 ## -returns
 
@@ -64,9 +64,8 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-You can query the returned <b>ITuneRequest</b> pointer for derived interfaces. For more information, see the reference pages for the individual tuning space objects, which are listed in the topic <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-objects">Tuning Model Objects</a>.
+You can query the returned <b>ITuneRequest</b> pointer for derived interfaces. For more information, see the reference pages for the individual tuning space objects, which are listed in the topic <a href="/previous-versions/windows/desktop/mstv/tuning-model-objects">Tuning Model Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>

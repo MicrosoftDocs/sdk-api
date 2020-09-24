@@ -56,7 +56,7 @@ api_name:
 
 ### -param contents [out, retval]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the read-only  stream that contains the part content of the Relationships part represented by the set.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the read-only  stream that contains the part content of the Relationships part represented by the set.
 
 If  the relationships stored in the  Relationships part  have not been  modified, part content can include markup compatibility data that is not otherwise accessible through the relationship objects in the set.
 
@@ -98,7 +98,7 @@ The <i>contents</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>. 
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>. 
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>. 
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>. 
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ For more information about markup compatibility and packages, see Part 5: Markup
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
 
@@ -138,11 +138,11 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipset">IOpcRelationshipSet</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipset">IOpcRelationshipSet</a>
 
 
 
@@ -150,15 +150,15 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
@@ -166,5 +166,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
-
+<a href="/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>

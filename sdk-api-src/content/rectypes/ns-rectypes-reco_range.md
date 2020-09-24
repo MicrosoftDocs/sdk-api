@@ -66,5 +66,4 @@ Count of characters in the range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698163(v=vs.85)">GetAlternateList Function</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms698163(v=vs.85)">GetAlternateList Function</a>

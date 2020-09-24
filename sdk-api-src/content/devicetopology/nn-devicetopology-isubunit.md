@@ -50,21 +50,20 @@ api_name:
 
 ## -description
 
-The <b>ISubunit</b> interface represents a hardware subunit (for example, a volume control) that lies in the data path between a client and an audio endpoint device. The client obtains a reference to an <b>ISubunit</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsubunit">IDeviceTopology::GetSubunit</a> method, or by calling the <b>IPart::QueryInterface</b> method with parameter <i>iid</i> set to <b>REFIID</b> IID_ISubunit.
+The <b>ISubunit</b> interface represents a hardware subunit (for example, a volume control) that lies in the data path between a client and an audio endpoint device. The client obtains a reference to an <b>ISubunit</b> interface by calling the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsubunit">IDeviceTopology::GetSubunit</a> method, or by calling the <b>IPart::QueryInterface</b> method with parameter <i>iid</i> set to <b>REFIID</b> IID_ISubunit.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
+<a href="/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsubunit">IDeviceTopology::GetSubunit</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsubunit">IDeviceTopology::GetSubunit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>

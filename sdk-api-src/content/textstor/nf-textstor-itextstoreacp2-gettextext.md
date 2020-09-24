@@ -146,5 +146,4 @@ If the document window is minimized, or if the specified text is not currently v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
-
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>

@@ -57,15 +57,15 @@ The <b>Region::GetRegionScans</b> method gets an array of rectangles that approx
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that is used to transform the region.
+Pointer to a <a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that is used to transform the region.
 
 ### -param rects [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>*</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> objects that receives the rectangles.
+Pointer to an array of <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> objects that receives the rectangles.
 
 ### -param count [out]
 
@@ -77,17 +77,17 @@ Pointer to an
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscanscount">Region::GetRegionScansCount</a> method can be used first to determine the number of rectangles. Then, you can allocate a buffer that is the correct size and set the 
+The <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscanscount">Region::GetRegionScansCount</a> method can be used first to determine the number of rectangles. Then, you can allocate a buffer that is the correct size and set the 
 				<i>rects</i> parameter to point to the buffer.
 
 
@@ -131,29 +131,28 @@ VOID Example_GetRegionScansRect(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-hit-testing-with-a-region-use">Hit Testing with a Region</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-hit-testing-with-a-region-use">Hit Testing with a Region</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
+<a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscanscount">Region::GetRegionScansCount</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscanscount">Region::GetRegionScansCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-regions-about">Regions</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-regions-about">Regions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>

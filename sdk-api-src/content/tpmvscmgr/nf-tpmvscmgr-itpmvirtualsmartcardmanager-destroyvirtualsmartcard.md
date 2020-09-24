@@ -57,11 +57,11 @@ Destroys the TPM virtual smart card that has the given instance ID.
 
 ### -param pszInstanceId [in]
 
-Instance identifier of the TPM virtual smart card that is returned from a successful <a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanager-createvirtualsmartcard">CreateVirtualSmartCard</a> method call.
+Instance identifier of the TPM virtual smart card that is returned from a successful <a href="/windows/desktop/api/tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanager-createvirtualsmartcard">CreateVirtualSmartCard</a> method call.
 
 ### -param pStatusCallback [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback">ITpmVirtualSmartCardManagerStatusCallback</a> interface. The TPM virtual smart card manager uses this callback interface to communicate the progress and errors during creation of the virtual smart card. If the <i>pStatusCallback</i> parameter is <b>NULL</b>, no progress is reported to the client before the operation completes.
+Pointer to a <a href="/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback">ITpmVirtualSmartCardManagerStatusCallback</a> interface. The TPM virtual smart card manager uses this callback interface to communicate the progress and errors during creation of the virtual smart card. If the <i>pStatusCallback</i> parameter is <b>NULL</b>, no progress is reported to the client before the operation completes.
 
 ### -param pfNeedReboot [out]
 
@@ -75,5 +75,4 @@ If the method fails, it returns a Win32 error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanager">ITpmVirtualSmartCardManager</a>
-
+<a href="/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanager">ITpmVirtualSmartCardManager</a>

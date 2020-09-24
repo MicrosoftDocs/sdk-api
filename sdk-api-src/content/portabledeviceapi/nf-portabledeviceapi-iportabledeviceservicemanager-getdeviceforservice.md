@@ -104,5 +104,4 @@ An application can retrieve a PnP service identifier by calling the <b>GetDevice
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemanager">IPortableDeviceServiceManager Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemanager">IPortableDeviceServiceManager Interface</a>

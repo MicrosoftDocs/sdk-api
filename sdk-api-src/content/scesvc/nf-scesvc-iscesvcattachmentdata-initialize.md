@@ -65,13 +65,13 @@ String that specifies the name of the template.
 ### -param lpSceSvcPersistInfo [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a> interface of the attachment snap-in extension.
+<a href="/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a> interface of the attachment snap-in extension.
 
 ### -param pscesvcHandle [out]
 
 Pointer that receives an 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a> that represents the communication context between the Security Configuration snap-in and the snap-in extension. This handle is passed in as a parameter to the other <a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a> methods. When the attachment snap-in extension no longer needs this handle, free it by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-closehandle">ISceSvcAttachmentData::CloseHandle</a>.
+<a href="/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a> that represents the communication context between the Security Configuration snap-in and the snap-in extension. This handle is passed in as a parameter to the other <a href="/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a> methods. When the attachment snap-in extension no longer needs this handle, free it by calling 
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-closehandle">ISceSvcAttachmentData::CloseHandle</a>.
 
 ## -returns
 
@@ -79,17 +79,16 @@ The return value is an HRESULT. A value of S_OK indicates the method was success
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a>
+<a href="/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-closehandle">ISceSvcAttachmentData::CloseHandle</a>
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-closehandle">ISceSvcAttachmentData::CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a>
+<a href="/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a>
-
+<a href="/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a>

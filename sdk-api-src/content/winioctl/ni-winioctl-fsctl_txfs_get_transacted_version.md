@@ -50,7 +50,7 @@ api_name:
 ## -description
 
 > [!NOTE]
-> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf).
+> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](/windows/desktop/FileIO/deprecation-of-txf).
 
 Returns a [TXFS_GET_TRANSACTED_VERSION](ns-winioctl-txfs_get_transacted_version.md) structure.  The structure identifies the most recently committed version of the specified file, the version number of the handle. 
 
@@ -89,7 +89,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -106,4 +106,3 @@ If you attempt to retrieve the version of a resource manager's root, the value *
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [TXFS_GET_TRANSACTED_VERSION](ns-winioctl-txfs_get_transacted_version.md)
-

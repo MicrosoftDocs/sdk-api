@@ -57,7 +57,7 @@ The <b>AVIStreamGetFrame</b> function returns the address of a decompressed vide
 
 ### -param pg
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-igetframe">IGetFrame</a> interface.
+Pointer to the <a href="/windows/desktop/api/vfw/nn-vfw-igetframe">IGetFrame</a> interface.
 
 ### -param lPos
 
@@ -69,13 +69,12 @@ Returns a pointer to the frame data if successful or <b>NULL</b> otherwise. The 
 
 ## -remarks
 
-The returned frame is valid only until the next call to this function or the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamgetframeclose">AVIStreamGetFrameClose</a> function.
+The returned frame is valid only until the next call to this function or the <a href="/windows/desktop/api/vfw/nf-vfw-avistreamgetframeclose">AVIStreamGetFrameClose</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

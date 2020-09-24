@@ -73,9 +73,8 @@ In some cases, the DMO Wrapper filter performs optimizations based on the catego
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmodshow/nn-dmodshow-idmowrapperfilter">IDMOWrapperFilter Interface</a>
-
+<a href="/windows/desktop/api/dmodshow/nn-dmodshow-idmowrapperfilter">IDMOWrapperFilter Interface</a>

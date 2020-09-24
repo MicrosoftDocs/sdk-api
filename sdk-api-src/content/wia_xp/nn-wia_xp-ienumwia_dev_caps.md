@@ -55,7 +55,7 @@ The <b>IEnumWIA_DEV_CAPS</b> interface enumerates the currently available Window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWIA_DEV_CAPS</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_DEV_CAPS</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWIA_DEV_CAPS</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_DEV_CAPS</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,47 +70,47 @@ The <b>IEnumWIA_DEV_CAPS</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-clone">Clone</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-clone">Clone</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-clone">IEnumWIA_DEV_CAPS::Clone</a> method creates an additional instance of the <b>IEnumWIA_DEV_CAPS</b> interface and sends back a pointer to it.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-clone">IEnumWIA_DEV_CAPS::Clone</a> method creates an additional instance of the <b>IEnumWIA_DEV_CAPS</b> interface and sends back a pointer to it.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-getcount">GetCount</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-getcount">IEnumWIA_DEV_CAPS::GetCount</a> method returns the number of elements stored by this enumerator.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-getcount">IEnumWIA_DEV_CAPS::GetCount</a> method returns the number of elements stored by this enumerator.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-next">Next</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-next">Next</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-next">IEnumWIA_DEV_CAPS::Next</a> method fills an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_dev_cap">WIA_DEV_CAP</a> structures.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-next">IEnumWIA_DEV_CAPS::Next</a> method fills an array of pointers to <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_dev_cap">WIA_DEV_CAP</a> structures.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-reset">Reset</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-reset">IEnumWIA_DEV_CAPS::Reset</a> method is used by applications to restart the enumeration of device capabilities.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-reset">IEnumWIA_DEV_CAPS::Reset</a> method is used by applications to restart the enumeration of device capabilities.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-skip">Skip</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-skip">Skip</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-skip">IEnumWIA_DEV_CAPS::Skip</a> method skips the specified number of hardware device capabilities during an enumeration of available device capabilities.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-skip">IEnumWIA_DEV_CAPS::Skip</a> method skips the specified number of hardware device capabilities during an enumeration of available device capabilities.
 
 
 </td>
@@ -119,11 +119,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ien
 
 ## -remarks
 
-The <b>IEnumWIA_DEV_CAPS</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="https://docs.microsoft.com/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>.
+The <b>IEnumWIA_DEV_CAPS</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>.
 
-Applications obtain a pointer to the <b>IEnumWIA_DEV_CAPS</b> interface by invoking the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumdevicecapabilities">IWiaItem::EnumDeviceCapabilities</a> method.
+Applications obtain a pointer to the <b>IEnumWIA_DEV_CAPS</b> interface by invoking the <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumdevicecapabilities">IWiaItem::EnumDeviceCapabilities</a> method.
 
-The <b>IEnumWIA_DEV_CAPS</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods.
+The <b>IEnumWIA_DEV_CAPS</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods.
 
 <table class="clsStd">
 <tr>
@@ -132,19 +132,19 @@ The <b>IEnumWIA_DEV_CAPS</b> interface, like all Component Object Model (COM) in
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a>
 </td>
 <td>Increments reference count.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
 </td>
 <td>Decrements reference count.</td>
 </tr>
@@ -152,11 +152,11 @@ The <b>IEnumWIA_DEV_CAPS</b> interface, like all Component Object Model (COM) in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumdevicecapabilities">EnumDeviceCapabilities</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumdevicecapabilities">EnumDeviceCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>
+<a href="/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>
 
 
 
@@ -165,4 +165,3 @@ The <b>IEnumWIA_DEV_CAPS</b> interface, like all Component Object Model (COM) in
 
 
 <b>Reference</b>
-

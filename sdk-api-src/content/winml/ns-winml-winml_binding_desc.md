@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Contains a description of the WinML binding.
 
@@ -64,25 +64,24 @@ The name of the WinML binding.
 
 ### -field BindType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_binding_type">WINML_BINDING_TYPE</a> containing the type of the WinML binding.
+A <a href="/windows/desktop/api/winml/ne-winml-winml_binding_type">WINML_BINDING_TYPE</a> containing the type of the WinML binding.
 
 ### -field Tensor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_tensor_binding_desc">WINML_TENSOR_BINDING_DESC</a> containing the description of the tensor binding.
+A <a href="/windows/desktop/api/winml/ns-winml-winml_tensor_binding_desc">WINML_TENSOR_BINDING_DESC</a> containing the description of the tensor binding.
 
 ### -field Sequence
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_sequence_binding_desc">WINML_SEQUENCE_BINDING_DESC</a> containing the description of the sequence binding.
+A <a href="/windows/desktop/api/winml/ns-winml-winml_sequence_binding_desc">WINML_SEQUENCE_BINDING_DESC</a> containing the description of the sequence binding.
 
 ### -field Map
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_map_binding_desc">WINML_MAP_BINDING_DESC</a> containing the description of the map binding.
+A <a href="/windows/desktop/api/winml/ns-winml-winml_map_binding_desc">WINML_MAP_BINDING_DESC</a> containing the description of the map binding.
 
 ### -field Image
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_image_binding_desc">WINML_IMAGE_BINDING_DESC</a> containing the description of the image binding.
+A <a href="/windows/desktop/api/winml/ns-winml-winml_image_binding_desc">WINML_IMAGE_BINDING_DESC</a> containing the description of the image binding.
 
 ### -field Resource
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_resource_binding_desc">WINML_RESOURCE_BINDING_DESC</a> containing the description of the resource binding.
-
+A <a href="/windows/desktop/api/winml/ns-winml-winml_resource_binding_desc">WINML_RESOURCE_BINDING_DESC</a> containing the description of the resource binding.

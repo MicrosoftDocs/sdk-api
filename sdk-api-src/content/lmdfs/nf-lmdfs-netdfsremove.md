@@ -94,13 +94,13 @@ Pointer to a string that specifies the share name of the link target. Set this p
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
 The caller must have Administrator privilege on the DFS server. For more information about calling functions 
     that require administrator privileges, see 
-    <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
+    <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 When you call <b>NetDfsRemove</b> to remove a target from a 
     link, you must specify the same target server name in the <i>ServerName</i> parameter that you 
@@ -152,29 +152,28 @@ void wmain(int argc, wchar_t *argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
+<a href="/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsadd">NetDfsAdd</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsadd">NetDfsAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftroot">NetDfsRemoveFtRoot</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftroot">NetDfsRemoveFtRoot</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremovestdroot">NetDfsRemoveStdRoot</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremovestdroot">NetDfsRemoveStdRoot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network Management Functions</a>
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
-
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>

@@ -62,49 +62,48 @@ Allocates a fiber local storage (FLS) index. Any fiber in the process can subseq
 ### -param lpCallback [in]
 
 A pointer to the application-defined callback function of type <b>PFLS_CALLBACK_FUNCTION</b>. This parameter is optional. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pfls_callback_function">FlsCallback</a>.
+<a href="/windows/desktop/api/winnt/nc-winnt-pfls_callback_function">FlsCallback</a>.
 
 ## -returns
 
 If the function succeeds, the return value is an FLS index initialized to zero.
 
 If the function fails, the return value is FLS_OUT_OF_INDEXES. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The fibers of the process can use the FLS index in subsequent calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsfree">FlsFree</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> functions.
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsfree">FlsFree</a>, 
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a>, or 
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> functions.
 
 FLS indexes are typically allocated during process or dynamic-link library (DLL) initialization. After an FLS index has been allocated, each fiber of the process can use it to access its own FLS storage slot. To store a value in its FLS slot, a fiber specifies the index in a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a>. The fiber specifies the same index in a subsequent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> to retrieve the stored value.
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a>. The fiber specifies the same index in a subsequent call to 
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> to retrieve the stored value.
 
 FLS indexes are not valid across process boundaries. A DLL cannot assume that an index assigned in one process is valid in another process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
+<a href="/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pfls_callback_function">FlsCallback</a>
+<a href="/windows/desktop/api/winnt/nc-winnt-pfls_callback_function">FlsCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsfree">FlsFree</a>
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsfree">FlsFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a>
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a>
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

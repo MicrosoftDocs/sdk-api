@@ -55,7 +55,7 @@ api_name:
 
 The <b>MBN_SMS_CAPS</b> enumerated type contains bitfield values that specify  SMS capabilities.
 
-These enumerated values are used by the <b>smsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a> structure.
+These enumerated values are used by the <b>smsCaps</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a> structure.
 
 ## -enum-fields
 
@@ -80,4 +80,3 @@ The device supports  receiving text-type SMS messages.  This is applicable only 
 ### -field MBN_SMS_CAPS_TEXT_SEND
 
 The device supports  sending text-type SMS messages.  This is applicable only to CDMA devices.
-

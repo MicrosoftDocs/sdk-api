@@ -53,9 +53,9 @@ api_name:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns the name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a> managed by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource on which a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> depends.
+Returns the name of the <a href="/previous-versions/windows/desktop/mscs/networks">network</a> managed by the 
+    <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource on which a 
+    <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> depends.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Returns the name of the <a href="https://docs.microsoft.com/previous-versions/wi
 A number representing the zero-based index of the target resource. The target resource may or may not depend 
        on a Network Name resource. <i>lObjIndex</i> is restricted to the number that can be 
        retrieved by calling 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
+       <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
 
 ### -param lpszNetName [out]
 
@@ -95,8 +95,8 @@ Pointer to the maximum count in characters of the buffer pointed to by <i>lpszNe
 </td>
 <td width="60%">
 The resource indexed by <i>lObjIndex</i> has a 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependency</a> on a 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource, and the name of the 
+         <a href="/previous-versions/windows/desktop/mscs/resource-dependencies">dependency</a> on a 
+         <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource, and the name of the 
          network was successfully returned.
 
 </td>
@@ -121,7 +121,7 @@ The resource indexed by <i>lObjIndex</i> does not have a dependency on a Network
 The 
      <b>GetResourceNetworkName</b> 
      method is necessary to allow 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extension property 
+     <a href="/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extension property 
      pages to determine whether a resource has an existing or a pending dependency on a Network Name resource.
 
 The name of the network is stored in the Network Name resource's Name private property. The Network Name 
@@ -132,9 +132,8 @@ The name of the network is stored in the Network Name resource's Name private pr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
+<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>Reconfigure</code> method is a callback method passed to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a>.
+The <code>Reconfigure</code> method is a callback method passed to <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a>.
 
 ## -parameters
 
@@ -73,13 +73,12 @@ If your application or filter calls <b>IGraphConfig::Reconfigure</b>, you must i
 
 If this method succeeds, <b>IGraphConfig::Reconfigure</b> tries to put all the filters in the graph back into a running state. If the method fails, <b>IGraphConfig::Reconfigure</b> returns whatever error code this method returned.
 
-This method allows for specialized graph rebuilding. For a more straightforward approach to dynamic graph building, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a>.
+This method allows for specialized graph rebuilding. For a more straightforward approach to dynamic graph building, see <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfigcallback">IGraphConfigCallback Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphconfigcallback">IGraphConfigCallback Interface</a>

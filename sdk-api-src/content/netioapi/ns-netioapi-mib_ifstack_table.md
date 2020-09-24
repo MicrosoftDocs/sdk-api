@@ -66,19 +66,19 @@ The number of interface stack row entries in the array.
 ### -field Table
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ifstack_row">MIB_IFSTACK_ROW</a> structures containing interface stack row entries.
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ifstack_row">MIB_IFSTACK_ROW</a> structures containing interface stack row entries.
 
 ## -remarks
 
 The <b>MIB_IFSTACK_TABLE</b> structure is defined in Windows Vista and later. 
 
-The relationship between the interfaces in the interface stack is that the interface with index in the <b>HigherLayerInterfaceIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ifstack_row">MIB_IFSTACK_ROW</a> structure is immediately above the interface with index in the <b>LowerLayerInterfaceIndex</b> member of the <b>MIB_IFSTACK_ROW</b> structure.
+The relationship between the interfaces in the interface stack is that the interface with index in the <b>HigherLayerInterfaceIndex</b> member of the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ifstack_row">MIB_IFSTACK_ROW</a> structure is immediately above the interface with index in the <b>LowerLayerInterfaceIndex</b> member of the <b>MIB_IFSTACK_ROW</b> structure.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifstacktable">GetIfStackTable</a> function enumerates the network interface stack row entries on a local system and returns this information in a <b>MIB_IFSTACK_TABLE</b> structure. 
+The <a href="/windows/desktop/api/netioapi/nf-netioapi-getifstacktable">GetIfStackTable</a> function enumerates the network interface stack row entries on a local system and returns this information in a <b>MIB_IFSTACK_TABLE</b> structure. 
 
 
 
-The <b>MIB_IFSTACK_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ifstack_row">MIB_IFSTACK_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_IFSTACK_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_IFSTACK_ROW</b> array entry should assume  padding may exist. 
+The <b>MIB_IFSTACK_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ifstack_row">MIB_IFSTACK_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_IFSTACK_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_IFSTACK_ROW</b> array entry should assume  padding may exist. 
 
 
 
@@ -86,21 +86,20 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifstacktable">GetIfStackTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getifstacktable">GetIfStackTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getinvertedifstacktable">GetInvertedIfStackTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getinvertedifstacktable">GetInvertedIfStackTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ifstack_row">MIB_IFSTACK_ROW</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ifstack_row">MIB_IFSTACK_ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_invertedifstack_row">MIB_INVERTEDIFSTACK_ROW</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_invertedifstack_row">MIB_INVERTEDIFSTACK_ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_invertedifstack_table">MIB_INVERTEDIFSTACK_TABLE</a>
-
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_invertedifstack_table">MIB_INVERTEDIFSTACK_TABLE</a>

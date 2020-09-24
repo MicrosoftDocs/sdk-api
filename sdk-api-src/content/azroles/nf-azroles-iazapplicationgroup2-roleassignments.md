@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b> RoleAssignments</b> method gets a collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects associated with this application group.
+The <b> RoleAssignments</b> method gets a collection of <a href="/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects associated with this application group.
 
 This property is read-only.
 
 ## -parameters
-

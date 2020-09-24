@@ -54,7 +54,7 @@ Installs or uninstalls updates from or onto a computer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateInstaller</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateInstaller</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateInstaller</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateInstaller</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUpdateInstaller</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">BeginInstall</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">BeginInstall</a>
 </td>
 <td align="left" width="63%">
 Starts an asynchronous installation of the updates.
@@ -79,7 +79,7 @@ Starts an asynchronous installation of the updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">BeginUninstall</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">BeginUninstall</a>
 </td>
 <td align="left" width="63%">
 Starts an asynchronous uninstallation of the updates.
@@ -88,7 +88,7 @@ Starts an asynchronous uninstallation of the updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-endinstall">EndInstall</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-endinstall">EndInstall</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous installation of the updates.
@@ -97,7 +97,7 @@ Completes an asynchronous installation of the updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-enduninstall">EndUninstall</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-enduninstall">EndUninstall</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous uninstallation of the updates.
@@ -106,7 +106,7 @@ Completes an asynchronous uninstallation of the updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-install">Install</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-install">Install</a>
 </td>
 <td align="left" width="63%">
 Starts a synchronous installation of the updates.
@@ -115,7 +115,7 @@ Starts a synchronous installation of the updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-runwizard">RunWizard</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-runwizard">RunWizard</a>
 </td>
 <td align="left" width="63%">
 Starts a wizard that guides the local user through the steps to install the updates.
@@ -124,7 +124,7 @@ Starts a wizard that guides the local user through the steps to install the upda
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-uninstall">Uninstall</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-uninstall">Uninstall</a>
 </td>
 <td align="left" width="63%">
 Starts a synchronous uninstallation of the updates.
@@ -142,7 +142,7 @@ Starts a synchronous uninstallation of the updates.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_allowsourceprompts">AllowSourcePrompts</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_allowsourceprompts">AllowSourcePrompts</a>
 
 
 </td>
@@ -158,7 +158,7 @@ Gets and sets a Boolean value that indicates whether to show source prompts to t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_clientapplicationid">ClientApplicationID</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_clientapplicationid">ClientApplicationID</a>
 
 
 </td>
@@ -174,7 +174,7 @@ Gets and sets the current client application.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_isbusy">IsBusy</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_isbusy">IsBusy</a>
 
 
 </td>
@@ -190,7 +190,7 @@ Gets a Boolean value that indicates whether an installation or uninstallation is
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_isforced">IsForced</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_isforced">IsForced</a>
 
 
 </td>
@@ -206,7 +206,7 @@ Gets and sets a Boolean value that indicates whether  to  forcibly install or un
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_parenthwnd">ParentHwnd</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_parenthwnd">ParentHwnd</a>
 
 
 </td>
@@ -222,7 +222,7 @@ Gets and sets a handle to the parent window that can contain a dialog box.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_parentwindow">ParentWindow</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_parentwindow">ParentWindow</a>
 
 
 </td>
@@ -238,7 +238,7 @@ Gets and sets the interface that represents the parent window that can contain a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_rebootrequiredbeforeinstallation">RebootRequiredBeforeInstallation</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_rebootrequiredbeforeinstallation">RebootRequiredBeforeInstallation</a>
 
 
 </td>
@@ -254,7 +254,7 @@ Gets a Boolean value that indicates whether a system restart is required before 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_updates">Updates</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_updates">Updates</a>
 
 
 </td>
@@ -275,5 +275,4 @@ This interface can be instantiated by using the UpdateInstaller coclass. Use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller2">IUpdateInstaller2</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller2">IUpdateInstaller2</a>

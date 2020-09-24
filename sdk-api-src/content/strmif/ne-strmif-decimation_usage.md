@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes the strategy that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer Filter</a> filter uses to scale the video image down to a smaller size.
+Describes the strategy that the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer Filter</a> filter uses to scale the video image down to a smaller size.
 
 ## -enum-fields
 
@@ -92,9 +92,8 @@ This mode is the default decimation strategy.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties</a>

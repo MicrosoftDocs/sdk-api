@@ -70,9 +70,8 @@ Prevents the shut down and restart of the specified application or service.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_filter_info">RM_FILTER_INFO</a>
+<a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_filter_info">RM_FILTER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a>
-
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a>

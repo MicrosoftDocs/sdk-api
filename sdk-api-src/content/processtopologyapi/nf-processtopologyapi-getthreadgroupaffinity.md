@@ -63,7 +63,7 @@ Retrieves the processor group affinity of the specified thread.
 A handle to the thread for which the processor group affinity is desired. 
 
 The handle must have the THREAD_QUERY_INFORMATION or THREAD_QUERY_LIMITED_INFORMATION access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+<a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 ### -param GroupAffinity [out]
 
@@ -73,17 +73,16 @@ A pointer to a GROUP_AFFINITY structure to receive the group affinity of the thr
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, use <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, use <a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">GetLastError</a>.
 
 ## -remarks
 
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity">GetProcessGroupAffinity</a>
+<a href="/windows/desktop/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity">GetProcessGroupAffinity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
-
+<a href="/windows/desktop/ProcThread/processor-groups">Processor Groups</a>

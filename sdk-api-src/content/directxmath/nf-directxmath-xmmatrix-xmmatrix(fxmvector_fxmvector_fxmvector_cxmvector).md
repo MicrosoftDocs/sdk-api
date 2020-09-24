@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> structure from four instances of <code>XMVECTOR</code>.
+Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> structure from four instances of <code>XMVECTOR</code>.
 
 Initializes a new instance of the **XMMATRIX** structure from four instances of **XMVECTOR Data Type**.
 
@@ -102,7 +102,6 @@ for (int i=0;i&lt;4;i++){
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>

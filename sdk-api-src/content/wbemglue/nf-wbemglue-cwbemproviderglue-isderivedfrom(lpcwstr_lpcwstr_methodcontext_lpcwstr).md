@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>IsDerivedFrom</b> method determines whether one class is derived from another.
@@ -71,7 +71,7 @@ Name of class to be tested.
 
 ### -param pMethodContext
 
-Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
+Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
 
 ### -param pszNamespace
 
@@ -80,4 +80,3 @@ Namespace that contains <i>pszBaseClassName</i> and <i>pszDerivedClassname</i>. 
 ## -returns
 
 The method returns <b>TRUE</b> if the class pointed to by <i>pszDerivedClassName</i> is a subclass of the class pointed to by <i>pszBaseClassName</i> and <b>FALSE</b> if <i>pszDerivedClassName</i> does not derive from <i>pszBaseClassName</i>. If asked if a class is derived from itself, this method returns <b>FALSE</b>.
-

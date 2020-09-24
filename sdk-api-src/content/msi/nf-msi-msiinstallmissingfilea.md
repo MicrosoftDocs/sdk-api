@@ -164,7 +164,7 @@ The product code is unrecognized.
  
 
 For more information about error messages, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 ## -remarks
 
@@ -180,9 +180,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
+<a href="/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
-
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>

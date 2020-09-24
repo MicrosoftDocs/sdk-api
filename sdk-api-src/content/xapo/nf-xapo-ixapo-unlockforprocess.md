@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Deallocates variables that were allocated with the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">LockForProcess</a> method.
+Deallocates variables that were allocated with the <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">LockForProcess</a> method.
 
 ## -parameters
 
@@ -63,5 +63,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
-
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>

@@ -54,7 +54,7 @@ Enables an application to play audio or video files.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngine</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-canplaytype">CanPlayType</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-canplaytype">CanPlayType</a>
 </td>
 <td align="left" width="63%">
 Queries how likely it is that the Media Engine can play a specified type of media resource.
@@ -78,7 +78,7 @@ Queries how likely it is that the Media Engine can play a specified type of medi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getautoplay">GetAutoPlay</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getautoplay">GetAutoPlay</a>
 </td>
 <td align="left" width="63%">
 Queries whether the Media Engine automatically begins playback.
@@ -87,7 +87,7 @@ Queries whether the Media Engine automatically begins playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getbuffered">GetBuffered</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getbuffered">GetBuffered</a>
 </td>
 <td align="left" width="63%">
 Queries how much resource data the media engine has buffered.
@@ -96,7 +96,7 @@ Queries how much resource data the media engine has buffered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getcurrentsource">GetCurrentSource</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getcurrentsource">GetCurrentSource</a>
 </td>
 <td align="left" width="63%">
 Gets the URL of the current media resource, or an empty string if no media resource is present.
@@ -105,7 +105,7 @@ Gets the URL of the current media resource, or an empty string if no media resou
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getcurrenttime">GetCurrentTime</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getcurrenttime">GetCurrentTime</a>
 </td>
 <td align="left" width="63%">
 Gets the current playback position.
@@ -114,7 +114,7 @@ Gets the current playback position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getdefaultplaybackrate">GetDefaultPlaybackRate</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getdefaultplaybackrate">GetDefaultPlaybackRate</a>
 </td>
 <td align="left" width="63%">
 Gets the default playback rate.
@@ -123,7 +123,7 @@ Gets the default playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getduration">GetDuration</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getduration">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Gets the duration of the media resource.
@@ -132,7 +132,7 @@ Gets the duration of the media resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-geterror">GetError</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-geterror">GetError</a>
 </td>
 <td align="left" width="63%">
 Gets the most recent error status.
@@ -141,7 +141,7 @@ Gets the most recent error status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getloop">GetLoop</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getloop">GetLoop</a>
 </td>
 <td align="left" width="63%">
 Queries whether the Media Engine will loop playback.
@@ -150,7 +150,7 @@ Queries whether the Media Engine will loop playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getmuted">GetMuted</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getmuted">GetMuted</a>
 </td>
 <td align="left" width="63%">
 Queries whether the audio is muted.
@@ -161,7 +161,7 @@ Queries whether the audio is muted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getnativevideosize">GetNativeVideoSize</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getnativevideosize">GetNativeVideoSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the video frame, adjusted for aspect ratio.
@@ -170,7 +170,7 @@ Gets the size of the video frame, adjusted for aspect ratio.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getnetworkstate">GetNetworkState</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getnetworkstate">GetNetworkState</a>
 </td>
 <td align="left" width="63%">
 Gets the current network state of the media engine.
@@ -179,7 +179,7 @@ Gets the current network state of the media engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getplaybackrate">GetPlaybackRate</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getplaybackrate">GetPlaybackRate</a>
 </td>
 <td align="left" width="63%">
 Gets the current playback rate.
@@ -188,7 +188,7 @@ Gets the current playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getplayed">GetPlayed</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getplayed">GetPlayed</a>
 </td>
 <td align="left" width="63%">
 Gets the time ranges that have been rendered.
@@ -197,7 +197,7 @@ Gets the time ranges that have been rendered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getpreload">GetPreload</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getpreload">GetPreload</a>
 </td>
 <td align="left" width="63%">
 Gets the preload flag.
@@ -206,7 +206,7 @@ Gets the preload flag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getreadystate">GetReadyState</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getreadystate">GetReadyState</a>
 </td>
 <td align="left" width="63%">
 Gets the ready state, which indicates whether the current media resource can be rendered.
@@ -215,7 +215,7 @@ Gets the ready state, which indicates whether the current media resource can be 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getseekable">GetSeekable</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getseekable">GetSeekable</a>
 </td>
 <td align="left" width="63%">
 Gets the time ranges to which the Media Engine can currently seek.
@@ -224,7 +224,7 @@ Gets the time ranges to which the Media Engine can currently seek.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getstarttime">GetStartTime</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getstarttime">GetStartTime</a>
 </td>
 <td align="left" width="63%">
 Gets the initial playback position.
@@ -233,7 +233,7 @@ Gets the initial playback position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getvideoaspectratio">GetVideoAspectRatio</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getvideoaspectratio">GetVideoAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Gets the picture aspect ratio of the video stream.
@@ -242,7 +242,7 @@ Gets the picture aspect ratio of the video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getvolume">GetVolume</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getvolume">GetVolume</a>
 </td>
 <td align="left" width="63%">
 Gets the audio volume level.
@@ -251,7 +251,7 @@ Gets the audio volume level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-hasaudio">HasAudio</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-hasaudio">HasAudio</a>
 </td>
 <td align="left" width="63%">
 Queries whether the current media resource contains an audio stream.
@@ -260,7 +260,7 @@ Queries whether the current media resource contains an audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-hasvideo">HasVideo</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-hasvideo">HasVideo</a>
 </td>
 <td align="left" width="63%">
 Queries whether the current media resource contains a video stream.
@@ -269,7 +269,7 @@ Queries whether the current media resource contains a video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-isended">IsEnded</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-isended">IsEnded</a>
 </td>
 <td align="left" width="63%">
 Queries whether playback has ended.
@@ -278,7 +278,7 @@ Queries whether playback has ended.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-ispaused">IsPaused</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-ispaused">IsPaused</a>
 </td>
 <td align="left" width="63%">
 Queries whether playback is currently paused.
@@ -287,7 +287,7 @@ Queries whether playback is currently paused.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-isseeking">IsSeeking</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-isseeking">IsSeeking</a>
 </td>
 <td align="left" width="63%">
 Queries whether the Media Engine is currently seeking to a new playback position.
@@ -296,7 +296,7 @@ Queries whether the Media Engine is currently seeking to a new playback position
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>
 </td>
 <td align="left" width="63%">
 Loads the current media source.
@@ -305,7 +305,7 @@ Loads the current media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-onvideostreamtick">OnVideoStreamTick</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-onvideostreamtick">OnVideoStreamTick</a>
 </td>
 <td align="left" width="63%">
 Queries the Media Engine to find out whether a new video frame is ready.
@@ -314,7 +314,7 @@ Queries the Media Engine to find out whether a new video frame is ready.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-pause">Pause</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses playback.
@@ -323,7 +323,7 @@ Pauses playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">Play</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">Play</a>
 </td>
 <td align="left" width="63%">
 Starts playback.
@@ -332,7 +332,7 @@ Starts playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setautoplay">SetAutoPlay</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setautoplay">SetAutoPlay</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the Media Engine automatically begins playback.
@@ -341,7 +341,7 @@ Specifies whether the Media Engine automatically begins playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setcurrenttime">SetCurrentTime</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setcurrenttime">SetCurrentTime</a>
 </td>
 <td align="left" width="63%">
 Seeks to a new playback position.
@@ -350,7 +350,7 @@ Seeks to a new playback position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setdefaultplaybackrate">SetDefaultPlaybackRate</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setdefaultplaybackrate">SetDefaultPlaybackRate</a>
 </td>
 <td align="left" width="63%">
 Sets the default playback rate.
@@ -359,7 +359,7 @@ Sets the default playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-seterrorcode">SetErrorCode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-seterrorcode">SetErrorCode</a>
 </td>
 <td align="left" width="63%">
 Sets the current error code.
@@ -368,7 +368,7 @@ Sets the current error code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setloop">SetLoop</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setloop">SetLoop</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the Media Engine loops playback.
@@ -377,7 +377,7 @@ Specifies whether the Media Engine loops playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setmuted">SetMuted</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setmuted">SetMuted</a>
 </td>
 <td align="left" width="63%">
 Mutes or unmutes the audio.
@@ -388,7 +388,7 @@ Mutes or unmutes the audio.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setplaybackrate">SetPlaybackRate</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setplaybackrate">SetPlaybackRate</a>
 </td>
 <td align="left" width="63%">
 Sets the current playback rate.
@@ -397,7 +397,7 @@ Sets the current playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setpreload">SetPreload</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setpreload">SetPreload</a>
 </td>
 <td align="left" width="63%">
 Sets the preload flag.
@@ -406,7 +406,7 @@ Sets the preload flag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a>
 </td>
 <td align="left" width="63%">
 Sets the URL of a media resource.
@@ -415,7 +415,7 @@ Sets the URL of a media resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">SetSourceElements</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">SetSourceElements</a>
 </td>
 <td align="left" width="63%">
 Sets a list of media sources.
@@ -424,7 +424,7 @@ Sets a list of media sources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setvolume">SetVolume</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setvolume">SetVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the audio volume level.
@@ -433,7 +433,7 @@ Sets the audio volume level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the Media Engine and releases the resources it is using.
@@ -444,7 +444,7 @@ Shuts down the Media Engine and releases the resources it is using.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-transfervideoframe">TransferVideoFrame</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-transfervideoframe">TransferVideoFrame</a>
 </td>
 <td align="left" width="63%">
 Copies the current video frame to a DXGI surface or WIC bitmap.
@@ -455,9 +455,9 @@ Copies the current video frame to a DXGI surface or WIC bitmap.
 
 ## -remarks
 
-The Media Engine implements this interface. To create an instance of the Media Engine, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance">IMFMediaEngineClassFactory::CreateInstance</a>.
+The Media Engine implements this interface. To create an instance of the Media Engine, call <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance">IMFMediaEngineClassFactory::CreateInstance</a>.
 
-This interface is extended with <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>.
+This interface is extended with <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>.
 
 ## -see-also
 
@@ -465,5 +465,4 @@ This interface is extended with <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

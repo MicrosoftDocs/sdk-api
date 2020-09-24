@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capFileSetCaptureFile</b> macro names the file used for video capture. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-file-set-capture-file">WM_CAP_FILE_SET_CAPTURE_FILE</a> message.
+The <b>capFileSetCaptureFile</b> macro names the file used for video capture. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-file-set-capture-file">WM_CAP_FILE_SET_CAPTURE_FILE</a> message.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ This message stores the filename in an internal structure. It does not create, a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

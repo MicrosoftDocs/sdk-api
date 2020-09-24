@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-The <b>CryptEnumOIDInfo</b> function enumerates predefined and registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group. For each OID information structure enumerated, an application provided callback function, <i>pfnEnumOIDInfo</i>, is called.
+The <b>CryptEnumOIDInfo</b> function enumerates predefined and registered <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group. For each OID information structure enumerated, an application provided callback function, <i>pfnEnumOIDInfo</i>, is called.
 
 ## -parameters
 
@@ -92,7 +92,7 @@ A pointer to arguments to be passed through to the callback function.
 
 ### -param pfnEnumOIDInfo [in]
 
-A pointer to the callback function that is executed for each OID information entry enumerated. For information about the callback parameters, see <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_oid_info">CRYPT_ENUM_OID_INFO</a>.
+A pointer to the callback function that is executed for each OID information entry enumerated. For information about the callback parameters, see <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_oid_info">CRYPT_ENUM_OID_INFO</a>.
 
 ## -returns
 
@@ -102,5 +102,4 @@ If the callback function has stopped the enumeration, this function returns <b>F
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>

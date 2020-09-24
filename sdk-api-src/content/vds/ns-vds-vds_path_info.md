@@ -53,10 +53,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
-   information for a LUN path. This structure is returned in the <i>ppPaths</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getpathinfo">IVdsLunMpio::GetPathInfo</a>  method.
+   information for a LUN path. This structure is returned in the <i>ppPaths</i> parameter of the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getpathinfo">IVdsLunMpio::GetPathInfo</a>  method.
 
 ## -struct-fields
 
@@ -66,12 +66,12 @@ The unique ID of the path used by MPIO.
 
 ### -field type
 
-The type of interconnect that the hardware provider supports for this LUN path. <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hwprovider_type">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
+The type of interconnect that the hardware provider supports for this LUN path. <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hwprovider_type">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
 
 ### -field status
 
 The status of the path, enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a>.
+      <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a>.
 
 ### -field controllerPortId
 
@@ -93,35 +93,34 @@ The <b>VDS_OBJECT_ID</b> of the initiator adapter.
 
 ### -field pHbaPortProp
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hbaport_prop">VDS_HBAPORT_PROP</a> structure 
+A pointer to a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hbaport_prop">VDS_HBAPORT_PROP</a> structure 
        containing properties of the HBA port on one end of the path.
 
 ### -field pInitiatorPortalIpAddr
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_ipaddress">VDS_IPADDRESS</a> structure containing 
+A pointer to a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_ipaddress">VDS_IPADDRESS</a> structure containing 
        the IP address and port information for the initiator portal.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getpathinfo">IVdsLunMpio::GetPathInfo</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getpathinfo">IVdsLunMpio::GetPathInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hbaport_prop">VDS_HBAPORT_PROP</a>
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hbaport_prop">VDS_HBAPORT_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hwprovider_type">VDS_HWPROVIDER_TYPE</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hwprovider_type">VDS_HWPROVIDER_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_ipaddress">VDS_IPADDRESS</a>
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_ipaddress">VDS_IPADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_id">VDS_PATH_ID</a>
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_id">VDS_PATH_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a>
-
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a>

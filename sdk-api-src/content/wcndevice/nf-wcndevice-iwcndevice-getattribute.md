@@ -120,9 +120,8 @@ To only query the size of an attribute, a value of 0 (zero) can be passed via <i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
 
 
 
 <b>WCN_ATTRIBUTE_TYPE</b>
-

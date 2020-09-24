@@ -68,7 +68,7 @@ Character offset in the composition string, in <b>TCHAR</b> values.
 
 ### -field pt
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the coordinate of the top left point of requested character in screen coordinates. The top left point is based on the character baseline in any text flow.
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the coordinate of the top left point of requested character in screen coordinates. The top left point is based on the character baseline in any text flow.
 
 ### -field cLineHeight
 
@@ -84,13 +84,12 @@ When an application uses IME to draw the composition string, the members of this
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imr-querycharposition">IMR_QUERYCHARPOSITION</a>
+<a href="/windows/desktop/Intl/imr-querycharposition">IMR_QUERYCHARPOSITION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>

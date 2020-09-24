@@ -62,13 +62,12 @@ The number of graphics adapters in the array that the <b>adapter</b> member spec
 
 ### -field adapter
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-adapter">Adapter</a> structures that specify information about graphics adapters.
+An array of <a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-adapter">Adapter</a> structures that specify information about graphics adapters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-adapter">Adapter</a>
+<a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-adapter">Adapter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>

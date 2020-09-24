@@ -66,7 +66,7 @@ The Universal Naming Convention (UNC) name of the remote server on which this op
 
 ### -param lpSourceName [in]
 
-The name of the <a href="https://docs.microsoft.com/windows/desktop/EventLog/event-sources">event source</a> whose handle is to be retrieved. The source name must be a subkey of a log under the <b>Eventlog</b> registry key. 
+The name of the <a href="/windows/desktop/EventLog/event-sources">event source</a> whose handle is to be retrieved. The source name must be a subkey of a log under the <b>Eventlog</b> registry key. 
 						Note that the <b>Security</b> log is for system use only.
 
 <div class="alert"><b>Note</b>  This string must not contain characters prohibited in XML Attributes, with the exception of XML Escape sequences such as <b>&amp;lt  &amp;gl</b>.</div>
@@ -78,7 +78,7 @@ If the function succeeds, the return value is a handle to the event log.
 						
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The function returns <b>ERROR_ACCESS_DENIED</b> if <i>lpSourceName</i> specifies the <b>Security</b> event log.
 
@@ -87,13 +87,13 @@ The function returns <b>ERROR_ACCESS_DENIED</b> if <i>lpSourceName</i> specifies
 If the source name cannot be found, the event logging service uses the <b>Application</b> log. Although events will be reported , the events will not include descriptions because there are no message and category message files for looking up descriptions related to the event identifiers.
 
 To close the handle to the event log, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deregistereventsource">DeregisterEventSource</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-deregistereventsource">DeregisterEventSource</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/reporting-an-event">Reporting an Event</a>.
+<a href="/windows/desktop/EventLog/reporting-an-event">Reporting an Event</a>.
 
 <div class="code"></div>
 
@@ -105,17 +105,16 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deregistereventsource">DeregisterEventSource</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-deregistereventsource">DeregisterEventSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
+<a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-sources">Event Sources</a>
+<a href="/windows/desktop/EventLog/event-sources">Event Sources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-reporteventa">ReportEvent</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-reporteventa">ReportEvent</a>

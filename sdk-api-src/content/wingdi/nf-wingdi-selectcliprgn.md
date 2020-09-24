@@ -133,19 +133,18 @@ To remove a device-context's clipping region, specify a <b>NULL</b> region handl
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-output">Clipping Output</a>.
+For an example, see <a href="/windows/desktop/gdi/clipping-output">Clipping Output</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
+<a href="/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
+<a href="/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a>

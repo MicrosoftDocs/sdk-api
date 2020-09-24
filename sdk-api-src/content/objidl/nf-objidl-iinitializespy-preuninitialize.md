@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Performs cleanup steps required before calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> function.
+Performs cleanup steps required before calling the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> function.
 
 ## -parameters
 
 ### -param dwCurThreadAptRefs [in]
 
-The number of times <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> has been called on this thread.
+The number of times <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> has been called on this thread.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>

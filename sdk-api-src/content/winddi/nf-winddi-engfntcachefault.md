@@ -97,17 +97,16 @@ None
 
 If an error occurs while the font driver was reading from or writing to the font data cache, it should report the error to the font engine by a call to this function.
 
-The font engine calls the font driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a> entry point when a font file is first loaded. It is in this call that the font driver receives a value for <i>ulFastCheckSum</i>, which it subsequently uses when it calls this function.
+The font engine calls the font driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a> entry point when a font file is first loaded. It is in this call that the font driver receives a value for <i>ulFastCheckSum</i>, which it subsequently uses when it calls this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfntcachealloc">EngFntCacheAlloc</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engfntcachealloc">EngFntCacheAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfntcachelookup">EngFntCacheLookUp</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engfntcachelookup">EngFntCacheLookUp</a>

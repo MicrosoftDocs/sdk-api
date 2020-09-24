@@ -52,8 +52,8 @@ api_name:
 
 ## -description
 
-The <b>ResubmitRequest</b> method submits the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> to the 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/policy-modules">policy module</a> for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>. This method was first introduced in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
+The <b>ResubmitRequest</b> method submits the specified <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> to the 
+<a href="/windows/desktop/SecCrypto/policy-modules">policy module</a> for the specified <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>. This method was first introduced in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 For this method to succeed, the certificate request must be pending.
 
@@ -61,10 +61,10 @@ For this method to succeed, the certificate request must be pending.
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents a valid configuration string for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>ResubmitRequest</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>ResubmitRequest</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param RequestId [in]
@@ -80,7 +80,7 @@ A pointer to the disposition of the request.
 <h3>C++</h3>
  If the method succeeds and the <i>pDisposition</i> parameter is set to one of the following values that specify the disposition of the request, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value specifies the disposition of the request. This value is one of the following values.
@@ -202,21 +202,20 @@ error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest::Submit</a>
-
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest::Submit</a>

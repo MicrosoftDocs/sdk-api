@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Uses the unique identifier of an activity to set the related activity for this <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> object.
+Uses the unique identifier of an activity to set the related activity for this <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> object.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ The unique identifier for the activity to associate with this activity.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
-
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>

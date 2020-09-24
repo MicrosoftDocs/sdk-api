@@ -52,9 +52,9 @@ api_name:
 
 Fetches the batch notification. After the batch notification has been fetched, it is 
     interpreted via the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchreadcommand">ClusterRegBatchReadCommand</a> function. After 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchreadcommand">ClusterRegBatchReadCommand</a> function. After 
     the batch notification is processed, it needs to be closed via the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchclosenotification">ClusterRegBatchCloseNotification</a> 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchclosenotification">ClusterRegBatchCloseNotification</a> 
     function.
 
 ## -parameters
@@ -62,7 +62,7 @@ Fetches the batch notification. After the batch notification has been fetched, i
 ### -param hBatchNotify [in]
 
 The handle to the batch notification port opened earlier via the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatchnotifyport">ClusterRegCreateBatchNotifyPort</a> 
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatchnotifyport">ClusterRegCreateBatchNotifyPort</a> 
        function.
 
 ### -param phBatchNotification [out]
@@ -75,7 +75,7 @@ A handle to the batch notification that represents all of the changes at or belo
 ## -returns
 
 The function returns one of the following 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -137,21 +137,20 @@ A device attached to the system is not functioning.
 The <b>PCLUSTER_REG_GET_BATCH_NOTIFICATION</b> type defines a pointer to this 
      function.
 
-Only the functions from the batch function group, such as <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a>,  will generate a registry change notification. A registry change that does not use one of the batch function commands will not generate a batch notification.
+Only the functions from the batch function group, such as <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a>,  will generate a registry change notification. A registry change that does not use one of the batch function commands will not generate a batch notification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchclosenotification">ClusterRegBatchCloseNotification</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchclosenotification">ClusterRegBatchCloseNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchreadcommand">ClusterRegBatchReadCommand</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchreadcommand">ClusterRegBatchReadCommand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatchnotifyport">ClusterRegCreateBatchNotifyPort</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatchnotifyport">ClusterRegCreateBatchNotifyPort</a>

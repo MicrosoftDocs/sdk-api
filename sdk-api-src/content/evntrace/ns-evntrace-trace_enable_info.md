@@ -64,7 +64,7 @@ Indicates if the provider is enabled to the session. The value is <b>TRUE</b> if
 
 ### -field Level
 
-Level of detail that the session asked the provider to include in the events. For details, see the <i>Level</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
+Level of detail that the session asked the provider to include in the events. For details, see the <i>Level</i> parameter of the <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
 
 ### -field Reserved1
 
@@ -76,7 +76,7 @@ Identifies the session that enabled the provider.
 
 ### -field EnableProperty
 
-Additional information that the session wants ETW to include in the log file. For details, see the <i>EnableProperty</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
+Additional information that the session wants ETW to include in the log file. For details, see the <i>EnableProperty</i> parameter of the <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
 
 ### -field Reserved2
 
@@ -84,17 +84,16 @@ Reserved.
 
 ### -field MatchAnyKeyword
 
-Keywords specify which events the session wants the provider to write. For details, see the <i>MatchAnyKeyword</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
+Keywords specify which events the session wants the provider to write. For details, see the <i>MatchAnyKeyword</i> parameter of the <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
 
 ### -field MatchAllKeyword
 
-Keywords specify which events the session wants the provider to write. For details, see the <i>MatchAllKeyword</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
+Keywords specify which events the session wants the provider to write. For details, see the <i>MatchAllKeyword</i> parameter of the <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a> block contains one or more of these structures.
+The <a href="/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a> block contains one or more of these structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a>
-
+<a href="/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a>

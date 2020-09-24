@@ -57,25 +57,25 @@ api_name:
 
 ## -description
 
-The <b>EqualPrefixSid</b> function tests two <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security-identifier</a> (SID) prefix values for equality. A SID prefix is the entire SID except for the last subauthority value.
+The <b>EqualPrefixSid</b> function tests two <a href="/windows/desktop/SecGloss/s-gly">security-identifier</a> (SID) prefix values for equality. A SID prefix is the entire SID except for the last subauthority value.
 
 ## -parameters
 
 ### -param pSid1 [in]
 
 A pointer to the first 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to compare. This structure is assumed to be valid.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to compare. This structure is assumed to be valid.
 
 ### -param pSid2 [in]
 
-A pointer to the second <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to compare. This structure is assumed to be valid.
+A pointer to the second <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to compare. This structure is assumed to be valid.
 
 ## -returns
 
 If the SID prefixes are equal, the return value is nonzero.
 
 If the SID prefixes are not equal, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -83,29 +83,28 @@ The <b>EqualPrefixSid</b> function enables a server application in one domain to
 
 All SIDs for a specified domain have the same prefix. When the server receives the user's SIDs, the server can call the <b>EqualPrefixSid</b> function for each SID, comparing the user or group SID against the SID for RemoteDomain. If any of the SID prefixes are not equal, the server refuses the logon attempt.
 
-It is advisable to modify the SID for a domain before comparing it with a group or user SID. If the SID for RemoteDomain is S-1–1234–8, each group or user SID for that domain has S-1–1234–8 as its prefix. To compare the SIDs by using the <b>EqualPrefixSid</b> function, an application copies the domain SID and adds any subauthority (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RID</a>) value to the copy, thereby creating a SID in the form S-1–1234–8–0. The application then uses the modified domain SID as a template against which the group and user SIDs are compared.
+It is advisable to modify the SID for a domain before comparing it with a group or user SID. If the SID for RemoteDomain is S-1–1234–8, each group or user SID for that domain has S-1–1234–8 as its prefix. To compare the SIDs by using the <b>EqualPrefixSid</b> function, an application copies the domain SID and adds any subauthority (<a href="/windows/desktop/SecGloss/r-gly">RID</a>) value to the copy, thereby creating a SID in the form S-1–1234–8–0. The application then uses the modified domain SID as a template against which the group and user SIDs are compared.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid">CopySid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid">CopySid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid">EqualSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid">EqualSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid">IsValidSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid">IsValidSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>

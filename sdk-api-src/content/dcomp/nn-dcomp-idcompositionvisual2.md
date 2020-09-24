@@ -54,7 +54,7 @@ Represents one DirectComposition visual in a visual tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>. <b>IDCompositionVisual2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual2</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>. <b>IDCompositionVisual2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionVisual2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setbackfacevisibility">SetBackFaceVisibility</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setbackfacevisibility">SetBackFaceVisibility</a>
 </td>
 <td align="left" width="63%">
 Specifies whether or not surfaces that have 3D transformations applied to them should be displayed when facing away from the observer.
@@ -78,7 +78,7 @@ Specifies whether or not surfaces that have 3D transformations applied to them s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setopacitymode">SetOpacityMode</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setopacitymode">SetOpacityMode</a>
 </td>
 <td align="left" width="63%">
 Sets the opacity mode for this visual.
@@ -91,7 +91,6 @@ Sets the opacity mode for this visual.
 
 <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DCompV2BackfaceandD2DBatching">DirectComposition Backface and D2D Batching</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createvisual">IDCompositionDevice2::CreateVisual</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createvisual">IDCompositionDevice2::CreateVisual</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>

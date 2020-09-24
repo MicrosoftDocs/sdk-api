@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes a cache connection created previously using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
+Removes a cache connection created previously using <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
 
 ## -parameters
 
 ### -param dwConnection [in]
 
-The cache connection to be removed. This nonzero value was returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a> when the cache was originally established.
+The cache connection to be removed. This nonzero value was returned by <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a> when the cache was originally established.
 
 ## -returns
 
@@ -82,13 +82,12 @@ No cache connection exists for <i>dwConnection</i>.
 
 ## -remarks
 
-The <b>IOleCache::Uncache</b> method removes a cache connection that was created in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>. It uses the <i>dwConnection</i> parameter that was returned by the prior call to <b>IOleCache::Cache</b>.
+The <b>IOleCache::Uncache</b> method removes a cache connection that was created in a prior call to <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>. It uses the <i>dwConnection</i> parameter that was returned by the prior call to <b>IOleCache::Cache</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>

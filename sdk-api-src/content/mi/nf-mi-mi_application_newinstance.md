@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> object to be passed to various MI operation APIs that require instances.
+Creates a new <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> object to be passed to various MI operation APIs that require instances.
 
 ## -parameters
 
 ### -param application [in]
 
-A pointer to a handle returned from a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
+A pointer to a handle returned from a call to the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
 
 ### -param className
 
@@ -76,5 +76,4 @@ This function returns MI_INLINE MI_Result.
 
 ## -remarks
 
-When you have finished using the instance created by this call, delete it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.
-
+When you have finished using the instance created by this call, delete it by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.

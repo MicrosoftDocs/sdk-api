@@ -54,7 +54,7 @@ The <b>IOleUndoManager</b> interface enables containers to implement multi-level
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleUndoManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleUndoManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOleUndoManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-add">Add</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a simple undo unit to the collection.
@@ -78,7 +78,7 @@ Adds a simple undo unit to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-close">Close</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the specified parent undo unit.
@@ -87,7 +87,7 @@ Closes the specified parent undo unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-discardfrom">DiscardFrom</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-discardfrom">DiscardFrom</a>
 </td>
 <td align="left" width="63%">
 Instructs the undo manager to discard the specified undo unit and all undo units below it on the undo or redo stack.
@@ -96,7 +96,7 @@ Instructs the undo manager to discard the specified undo unit and all undo units
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enable">Enable</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enable">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the undo manager.
@@ -105,7 +105,7 @@ Enables or disables the undo manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enumredoable">EnumRedoable</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enumredoable">EnumRedoable</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the redo stack.
@@ -114,7 +114,7 @@ Creates an enumerator object that the caller can use to iterate through a series
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enumundoable">EnumUndoable</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enumundoable">EnumUndoable</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the undo stack.
@@ -123,7 +123,7 @@ Creates an enumerator object that the caller can use to iterate through a series
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getlastredodescription">GetLastRedoDescription</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getlastredodescription">GetLastRedoDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description for the top-level undo unit that is on top of the redo stack.
@@ -132,7 +132,7 @@ Retrieves the description for the top-level undo unit that is on top of the redo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getlastundodescription">GetLastUndoDescription</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getlastundodescription">GetLastUndoDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description for the top-level undo unit that is on top of the undo stack.
@@ -141,7 +141,7 @@ Retrieves the description for the top-level undo unit that is on top of the undo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getopenparentstate">GetOpenParentState</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getopenparentstate">GetOpenParentState</a>
 </td>
 <td align="left" width="63%">
 Retrieves state information about the innermost open parent undo unit.
@@ -150,7 +150,7 @@ Retrieves state information about the innermost open parent undo unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-open">Open</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a new parent undo unit, which becomes part of its containing unit's undo stack.
@@ -159,7 +159,7 @@ Opens a new parent undo unit, which becomes part of its containing unit's undo s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-redoto">RedoTo</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-redoto">RedoTo</a>
 </td>
 <td align="left" width="63%">
 Instructs the undo manager to invoke undo actions back through the redo stack, down to and including the specified undo unit.
@@ -168,7 +168,7 @@ Instructs the undo manager to invoke undo actions back through the redo stack, d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-undoto">UndoTo</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-undoto">UndoTo</a>
 </td>
 <td align="left" width="63%">
 Instructs the undo manager to perform actions back through the undo stack, down to and including the specified undo unit.
@@ -179,19 +179,19 @@ Instructs the undo manager to perform actions back through the undo stack, down 
 
 ## -remarks
 
-The control must create an undo unit with the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a> interface or a parent undo unit with the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a> interface derived from <b>IOleUndoUnit</b>. Both of these interfaces perform the undo action and the parent undo unit additionally can contain nested undo units.
+The control must create an undo unit with the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a> interface or a parent undo unit with the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a> interface derived from <b>IOleUndoUnit</b>. Both of these interfaces perform the undo action and the parent undo unit additionally can contain nested undo units.
 
 The undo manager provides a centralized undo and redo service. It manages parent undo units and simple undo units on the undo and redo stacks. Whether an object is UI-active or not, it can deposit undo units on these stacks by calling methods in the undo manager.
 
 The centralized undo manager then has the data necessary to support the undo and redo user interface for the host application and can discard undo information gradually as the stack becomes full.
 
-The undo manager is implemented as a service and objects obtain a pointer to <b>IOleUndoManger</b> from the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a> interface. It is usually implemented by the container. The service manages two stacks, the undo stack and the redo stack, each of which contains undo units generated by embedded objects or by the container application itself.
+The undo manager is implemented as a service and objects obtain a pointer to <b>IOleUndoManger</b> from the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a> interface. It is usually implemented by the container. The service manages two stacks, the undo stack and the redo stack, each of which contains undo units generated by embedded objects or by the container application itself.
 
 Undo units are typically generated in response to actions taken by the end user. An object does not generate undo actions for programmatic events. In fact, programmatic events should clear the undo stack since the programmatic event can possibly invalidate assumptions made by the undo units on the stack.
 
-When the object's state changes, it creates an undo unit encapsulating all the information needed to undo that change. The object calls methods in the undo manager to place its undo units on the stack. Then, when the end user selects an Undo operation, the undo manager takes the top undo unit off the stack, invokes its action by calling its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> method, and then releases it. When an end user selects a Redo operation, the undo manager takes the top redo unit off the stack, invokes its action by calling its <b>IOleUndoUnit::Do</b> method, and then releases it.
+When the object's state changes, it creates an undo unit encapsulating all the information needed to undo that change. The object calls methods in the undo manager to place its undo units on the stack. Then, when the end user selects an Undo operation, the undo manager takes the top undo unit off the stack, invokes its action by calling its <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> method, and then releases it. When an end user selects a Redo operation, the undo manager takes the top redo unit off the stack, invokes its action by calling its <b>IOleUndoUnit::Do</b> method, and then releases it.
 
-The undo manager has three states: the base state, the undo state, and the redo state. It begins in the base state. To perform an action from the undo stack, it puts itself into the undo state, calls <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> on the undo unit, and goes back to the base state. To perform an action from the redo stack, it puts itself into the redo state, calls <b>IOleUndoUnit::Do</b> on the undo unit, and goes back to the base state.
+The undo manager has three states: the base state, the undo state, and the redo state. It begins in the base state. To perform an action from the undo stack, it puts itself into the undo state, calls <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> on the undo unit, and goes back to the base state. To perform an action from the redo stack, it puts itself into the redo state, calls <b>IOleUndoUnit::Do</b> on the undo unit, and goes back to the base state.
 
 If the undo manager receives a new undo unit while in the base state, it places the unit on the undo stack and discards the entire redo stack. While it is in the undo state, it puts incoming units on the redo stack. While it is in the redo state, it places them on the undo stack without flushing the redo stack.
 
@@ -204,7 +204,7 @@ The host application determines the scope of an undo manager. For example, in on
 
 Having an undo operation fail and leaving the document in an unstable state is something the undo manager, undo units, and the application itself all have to work together to avoid. As a result, there are certain requirements that undo units, the undo manager, and the application or component using undo must conform to.
 
-To perform an undo, the undo manager calls <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> on one or more undo units which can, in turn, contain more units. If a unit somewhere in the hierarchy fails, the error will eventually reach the undo manager, which is responsible for making an attempt to roll back the state of the document to what it was before the call to the last top-level unit. The undo manager performs the rollback by calling <b>IOleUndoUnit::Do</b> on the unit that was added to the redo stack during the undo attempt. If the rollback also fails, then the undo manager is forced to abandon everything and return to the application. The undo manager indicates whether the rollback succeeded, and the application can take different actions based on this, such as reinitializing components so they're in a known state.
+To perform an undo, the undo manager calls <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> on one or more undo units which can, in turn, contain more units. If a unit somewhere in the hierarchy fails, the error will eventually reach the undo manager, which is responsible for making an attempt to roll back the state of the document to what it was before the call to the last top-level unit. The undo manager performs the rollback by calling <b>IOleUndoUnit::Do</b> on the unit that was added to the redo stack during the undo attempt. If the rollback also fails, then the undo manager is forced to abandon everything and return to the application. The undo manager indicates whether the rollback succeeded, and the application can take different actions based on this, such as reinitializing components so they're in a known state.
 
 All the steps in adding an undo unit to the stack should be performed atomically. That is, all steps must succeed or none of them should succeed.
 
@@ -227,13 +227,12 @@ To detect objects that do not support multi-level undo, check for the OLEMISC_SU
 
 When an object without this value is added to a user-visible undo context, the best practice is to disable the undo user interface for this context. Alternatively, a dialog could be presented to the user, asking them whether to attempt to provide partial undo support, working around the non-compliance of the new object.
 
-In addition, non-compliant objects may be added to nested containers. In this case, the nested container needs to notify the undo manager that undo can no longer be safely supported by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enable">IOleUndoManager::Enable</a> with <b>FALSE</b>.
+In addition, non-compliant objects may be added to nested containers. In this case, the nested container needs to notify the undo manager that undo can no longer be safely supported by calling <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enable">IOleUndoManager::Enable</a> with <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>

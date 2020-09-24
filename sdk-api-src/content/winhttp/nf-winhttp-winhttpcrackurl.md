@@ -118,7 +118,7 @@ Pointer to a
 ## -returns
 
 Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
 
 <table>
 <tr>
@@ -173,15 +173,15 @@ Not enough memory was available to complete the requested operation. (Windows er
 
 ## -remarks
 
-Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The required components are indicated by members of the 
 <a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure. Each component has a pointer to the value and has a member that stores the length of the stored value. If both the value and the length for a component are equal to zero, that component is not returned. If the pointer to the value of the component is not <b>NULL</b> and the value of its corresponding length member is nonzero, the address of the first character of the corresponding component in the 
 <i>pwszUrl</i> string is stored in the pointer, and the length of the component is stored in the length member.
 
 If the pointer contains the address of the user-supplied buffer, the length member must contain the size of the buffer. The 
-<b>WinHttpCrackUrl</b> function copies the component into the buffer, and the length member is set to the length of the copied component, minus 1 for the trailing string terminator. If a user-supplied buffer is not large enough, <b>WinHttpCrackUrl</b> returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INSUFFICIENT_BUFFER</b>.
+<b>WinHttpCrackUrl</b> function copies the component into the buffer, and the length member is set to the length of the copied component, minus 1 for the trailing string terminator. If a user-supplied buffer is not large enough, <b>WinHttpCrackUrl</b> returns <b>FALSE</b>, and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
 For 
 <b>WinHttpCrackUrl</b> to work properly, the size of the 
@@ -191,12 +191,12 @@ For
 If the Internet protocol of the URL passed in for 
 <i>pwszUrl</i> is not HTTP or HTTPS, then 
 <b>WinHttpCrackUrl</b>  returns  <b>FALSE</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>  indicates  
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/error-messages">ERROR_WINHTTP_UNRECOGNIZED_SCHEME</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>  indicates  
+<a href="/windows/desktop/WinHttp/error-messages">ERROR_WINHTTP_UNRECOGNIZED_SCHEME</a>.
 
 <b>WinHttpCrackUrl</b> does not check the validity or format of a URL before attempting to crack it. As a result, if a string such as ""http://server?Bad=URL"" is passed in, the function returns incorrect results.
 
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
 #### Examples
@@ -255,17 +255,16 @@ This example shows how to break a URL into its components, update a component, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
+<a href="/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/uniform-resource-locators--urls--in-winhttp">Handling Uniform Resource Locators</a>
+<a href="/windows/desktop/WinHttp/uniform-resource-locators--urls--in-winhttp">Handling Uniform Resource Locators</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateurl">WinHttpCreateUrl</a>
-
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateurl">WinHttpCreateUrl</a>

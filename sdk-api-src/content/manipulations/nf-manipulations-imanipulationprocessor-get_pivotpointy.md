@@ -60,21 +60,20 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx">PivotPointX</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx">PivotPointX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius">PivotRadius</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius">PivotRadius</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtproperties">Properties</a>
+<a href="/windows/desktop/wintouch/mtproperties">Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/single-finger-rotation">Single Finger Rotation</a>
-
+<a href="/windows/desktop/wintouch/single-finger-rotation">Single Finger Rotation</a>

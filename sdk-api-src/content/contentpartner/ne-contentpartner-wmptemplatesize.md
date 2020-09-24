@@ -70,9 +70,8 @@ Large template. Windows Media Player allocates as much room as possible while al
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumerations-for-type-1-online-stores">Enumerations for Type 1 Online Stores</a>
+<a href="/windows/desktop/WMP/enumerations-for-type-1-online-stores">Enumerations for Type 1 Online Stores</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate">IWMPContentPartner::GetTemplate</a>
-
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate">IWMPContentPartner::GetTemplate</a>

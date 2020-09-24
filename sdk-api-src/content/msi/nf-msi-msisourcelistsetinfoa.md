@@ -59,7 +59,7 @@ The <b>MsiSourceListSetInfo</b> function sets information about the source list 
 
 ### -param szProductCodeOrPatchCode [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>. This parameter cannot be <b>NULL</b>.
+The <a href="/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>. This parameter cannot be <b>NULL</b>.
 
 ### -param szUserSid [in, optional]
 
@@ -194,7 +194,7 @@ The source is a URL type.
 
 ### -param szProperty [in]
 
-The parameter <i>szProperty</i> indicates the property value to set. Not all properties that can be retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistgetinfoa">MsiSourceListGetInfo</a> can be set via a call to <b>MsiSourceListSetInfo</b>. The <i>szProperty</i> value can be one of the following values.
+The parameter <i>szProperty</i> indicates the property value to set. Not all properties that can be retrieved through <a href="/windows/desktop/api/msi/nf-msi-msisourcelistgetinfoa">MsiSourceListGetInfo</a> can be set via a call to <b>MsiSourceListSetInfo</b>. The <i>szProperty</i> value can be one of the following values.
 
 <table>
 <tr>
@@ -230,7 +230,7 @@ The prompt template used when prompting the user for installation media.
 </dl>
 </td>
 <td width="60%">
-The most recently used source location for the product. If the source is not registered, the function calls <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistaddsourceexa">MsiSourceListAddSourceEx</a> to register it.  On successful registration, the function sets the source as the LastUsedSource.
+The most recently used source location for the product. If the source is not registered, the function calls <a href="/windows/desktop/api/msi/nf-msi-msisourcelistaddsourceexa">MsiSourceListAddSourceEx</a> to register it.  On successful registration, the function sets the source as the LastUsedSource.
 
 </td>
 </tr>
@@ -365,7 +365,7 @@ Unexpected internal failure.
 
 Administrators can modify the installation  of   a product or patch   instance that exists  under the machine context or under their own per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under any user's per-user-managed context.  Administrators cannot modify another user's installation of a product or patch instance  that exists  under that other user's per-user-unmanaged context. 
 
-Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
+Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy. For more information, see the <a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
 
 An exception to the above rule is setting "LastUsedSource" to one of the registered sources. If the source is already registered, a non-administrator can set "LastUsedSource" to their own installations (managed or non-managed) and per-machine installations, irrespective of policies. 
 
@@ -378,17 +378,16 @@ An exception to the above rule is setting "LastUsedSource" to one of the registe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
+<a href="/windows/desktop/Msi/installation-context">Installation Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistgetinfoa">MsiSourceListGetInfo</a>
+<a href="/windows/desktop/api/msi/nf-msi-msisourcelistgetinfoa">MsiSourceListGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
-
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>

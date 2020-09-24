@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_numberofbuffers">ITraceDataCollector::NumberOfBuffers</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_numberofbuffers">ITraceDataCollector::NumberOfBuffers</a>

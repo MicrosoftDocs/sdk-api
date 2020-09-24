@@ -80,7 +80,7 @@ More samples are ready to be retrieved. Call <b>GetNextSample</b> in a loop unti
 </dl>
 </td>
 <td width="60%">
-No additional samples are ready. Call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-parsedata">IMFASFSplitter::ParseData</a> to give more input data to the splitter.
+No additional samples are ready. Call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-parsedata">IMFASFSplitter::ParseData</a> to give more input data to the splitter.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ If the method returns a sample in the <i>ppISample</i> parameter, this parameter
 
 ### -param ppISample [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the parsed sample. The caller must release the interface. If no samples are ready, this parameter receives the value <b>NULL</b>.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the parsed sample. The caller must release the interface. If no samples are ready, this parameter receives the value <b>NULL</b>.
 
 ## -returns
 
@@ -140,15 +140,14 @@ There is a gap in the ASF data.
 
 ## -remarks
 
-Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-parsedata">IMFASFSplitter::ParseData</a> to give input data to the splitter. If the input does not contain enough data for a complete sample, the <b>GetNextSample</b> method succeeds but returns <b>NULL</b> in the <i>ppISample</i> parameter.
+Before calling this method, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-parsedata">IMFASFSplitter::ParseData</a> to give input data to the splitter. If the input does not contain enough data for a complete sample, the <b>GetNextSample</b> method succeeds but returns <b>NULL</b> in the <i>ppISample</i> parameter.
 
-The ASF splitter skips samples for unselected streams. To select streams, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-selectstreams">IMFASFSplitter::SelectStreams</a>.
+The ASF splitter skips samples for unselected streams. To select streams, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-selectstreams">IMFASFSplitter::SelectStreams</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
+<a href="/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>

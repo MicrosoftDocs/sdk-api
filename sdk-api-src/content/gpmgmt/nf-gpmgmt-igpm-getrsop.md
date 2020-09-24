@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Creates and returns an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">GPMRSOP</a>. You can specify the Resultant Set of Policy (RSoP) mode and a Windows Management Instrumentation (WMI) namespace.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">GPMRSOP</a>. You can specify the Resultant Set of Policy (RSoP) mode and a Windows Management Instrumentation (WMI) namespace.
 
 ## -parameters
 
@@ -82,7 +82,7 @@ To perform the query, RSoP planning mode requires a domain controller that is ru
 
 ### -param bstrNamespace [in]
 
-WMI namespace for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a><b>GPMRSOP</b><b>GPMRSOP</b>.  Use a null-terminated string. This parameter can be <b>NULL</b>. For more information about how to retrieve the namespace, see the "Remarks" section.
+WMI namespace for the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a><b>GPMRSOP</b><b>GPMRSOP</b>.  Use a null-terminated string. This parameter can be <b>NULL</b>. For more information about how to retrieve the namespace, see the "Remarks" section.
 
 ### -param lFlags [in]
 
@@ -91,7 +91,7 @@ This parameter must be zero.
 ### -param ppIGPMRSOP [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a> interface.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a> interface.
 
 ## -returns
 
@@ -99,23 +99,22 @@ Address of a pointer to the
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">GPMRSOP</a> object.
+Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">GPMRSOP</a> object.
 
 <h3>VB</h3>
-Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">GPMRSOP</a> object.
+Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">GPMRSOP</a> object.
 
 ## -remarks
 
 To retrieve the WMI namespace, call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">Namespace</a> property method of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a> interface. Or, call the <b>RsopCreateSession</b> method of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsoploggingmodeprovider">RsopLoggingModeProvider</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsopplanningmodeprovider">RsopPlanningModeProvider</a> WMI classes. For more information about these methods, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-start-page">Group Policy</a> documentation.
+<a href="/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">Namespace</a> property method of the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a> interface. Or, call the <b>RsopCreateSession</b> method of the 
+<a href="/previous-versions/windows/desktop/Policy/rsoploggingmodeprovider">RsopLoggingModeProvider</a> and 
+<a href="/previous-versions/windows/desktop/Policy/rsopplanningmodeprovider">RsopPlanningModeProvider</a> WMI classes. For more information about these methods, see the <a href="/previous-versions/windows/desktop/Policy/group-policy-start-page">Group Policy</a> documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a>

@@ -75,14 +75,14 @@ This method can return one of these values.
 The byte range of the stream can be extended.  Locking an extended range for the stream is useful as a method of communication between different instances of the stream without changing data that is actually part of the stream.
 
 Three types of locking can be supported: locking to exclude other writers, locking to exclude other readers or writers, and locking that allows only one requester to obtain a lock on the given range, which is usually an alias for one of the other two lock types. A given stream instance might support either of the first two types, or both. The lock type is specified by <i>dwLockType</i>, using a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a> enumeration.
+<a href="/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a> enumeration.
 
 Any region locked with <b>IStream::LockRegion</b> must later be explicitly unlocked by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-unlockregion">IStream::UnlockRegion</a> with exactly the same values for the <i>libOffset</i>, <i>cb</i>, and <i>dwLockType</i> parameters. The region must be unlocked before the stream is released. Two adjacent regions cannot be locked separately and then unlocked with a single unlock call.
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-unlockregion">IStream::UnlockRegion</a> with exactly the same values for the <i>libOffset</i>, <i>cb</i>, and <i>dwLockType</i> parameters. The region must be unlocked before the stream is released. Two adjacent regions cannot be locked separately and then unlocked with a single unlock call.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 Since the type of locking supported is optional and can vary in different implementations of 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, you must provide code to deal with the STG_E_INVALIDFUNCTION error.
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, you must provide code to deal with the STG_E_INVALIDFUNCTION error.
 
 The <b>LockRegion</b> method has no effect in the compound file implementation, because the implementation does not support range locking.
 
@@ -91,13 +91,12 @@ Support for this method is optional for implementations of stream objects since 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-unlockregion">IStream::UnlockRegion</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-unlockregion">IStream::UnlockRegion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
-
+<a href="/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>

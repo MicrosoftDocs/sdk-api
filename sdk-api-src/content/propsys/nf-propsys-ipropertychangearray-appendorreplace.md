@@ -56,7 +56,7 @@ Replaces the first occurrence of a change that affects the same property key as 
 
 ### -param ppropChange [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>*</b>
 
 A pointer to the interface that contains the change
 
@@ -65,4 +65,3 @@ A pointer to the interface that contains the change
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
-

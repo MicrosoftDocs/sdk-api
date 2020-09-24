@@ -51,24 +51,23 @@ api_name:
 
 ## -description
 
-The <b>GetParameter</b> method gets the specified value from the <i>varParameterValues</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method.
+The <b>GetParameter</b> method gets the specified value from the <i>varParameterValues</i> parameter of the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method.
 
 ## -parameters
 
 ### -param bstrParameterName [in]
 
-Name of the value to return. The name must match the name in one of the elements in the array passed into the <i>varParameterNames</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method. 
+Name of the value to return. The name must match the name in one of the elements in the array passed into the <i>varParameterNames</i> parameter of the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method. 
 
 <div class="alert"><b>Important</b>  Users of VBScript must be aware that the comparison between this parameter and the names in the <i>varParameterNames</i> parameter is case sensitive.</div>
 <div> </div>
 
 ### -param pvarParameterValue [out]
 
-Parameter value from the <i>varParameterValues</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method that corresponds to the name specified by the <i>bstrParameterName</i> parameter, if found; otherwise, <b>NULL</b>.
+Parameter value from the <i>varParameterValues</i> parameter of the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method that corresponds to the name specified by the <i>bstrParameterName</i> parameter, if found; otherwise, <b>NULL</b>.
 
 ## -returns
 
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-

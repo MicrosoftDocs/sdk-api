@@ -87,7 +87,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -97,8 +97,7 @@ This operation sets only the **DeviceHotplug** member of the [STORAGE_HOTPLUG_IN
 
 ## -see-also
 
-* [Device Management Control Codes](https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes)
+* [Device Management Control Codes](/windows/desktop/DevIO/device-management-control-codes)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [IOCTL_STORAGE_GET_HOTPLUG_INFO](ni-winioctl-ioctl_storage_get_hotplug_info.md)
 * [STORAGE_HOTPLUG_INFO](ns-winioctl-storage_hotplug_info.md)
-

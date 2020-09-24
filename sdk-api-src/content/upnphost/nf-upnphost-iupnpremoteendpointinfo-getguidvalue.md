@@ -68,13 +68,12 @@ This method returns E_INVALIDARG, a COM error code defined in WinError.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getdwordvalue">GetDwordValue</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getdwordvalue">GetDwordValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getstringvalue">GetStringValue</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getstringvalue">GetStringValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpremoteendpointinfo">IUPnPRemoteEndpointInfo</a>
-
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpremoteendpointinfo">IUPnPRemoteEndpointInfo</a>

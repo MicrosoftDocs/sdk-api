@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>StringToVariantByteArray</b> method creates a byte array from a Unicode encoded string. Use this method to create a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate BLOB</a> from an encoded string that contains a certificate.
+The <b>StringToVariantByteArray</b> method creates a byte array from a Unicode encoded string. Use this method to create a <a href="/windows/desktop/SecGloss/c-gly">certificate BLOB</a> from an encoded string that contains a certificate.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A <b>BSTR</b> variable that contains the Unicode encoded string.
 
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the Unicode encoding applied to the input string. The default value is <b>XCN_CRYPT_STRING_BASE64</b>.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the Unicode encoding applied to the input string. The default value is <b>XCN_CRYPT_STRING_BASE64</b>.
 
 ### -param pvarByteArray [out]
 
@@ -70,9 +70,8 @@ Pointer to a  <b>VARIANT</b> array of bytes. The VARTYPE enumeration value equal
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ibinaryconverter">IBinaryConverter</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ibinaryconverter">IBinaryConverter</a>

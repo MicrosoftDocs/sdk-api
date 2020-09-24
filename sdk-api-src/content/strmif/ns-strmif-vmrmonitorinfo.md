@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-The <code>VMRMONITORINFO</code> structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getavailablemonitors">IVMRMonitorConfig::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system (VMR-7 only).
+The <code>VMRMONITORINFO</code> structure is used in the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getavailablemonitors">IVMRMonitorConfig::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system (VMR-7 only).
 
 ## -struct-fields
 
 ### -field guid
 
-A [VMRGUID](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrguid) structure that specifies the monitor.
+A [VMRGUID](/windows/desktop/api/strmif/ns-strmif-vmrguid) structure that specifies the monitor.
 
 ### -field rcMonitor
 
@@ -71,7 +71,7 @@ A handle to the monitor.
 
 ### -field dwFlags
 
-Flags as defined for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
+Flags as defined for the <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
 
 ### -field szDevice
 
@@ -93,5 +93,4 @@ Null-terminated string containing the device description.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

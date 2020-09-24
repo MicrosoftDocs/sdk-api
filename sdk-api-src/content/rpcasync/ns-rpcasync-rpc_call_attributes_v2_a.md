@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>RPC_CALL_ATTRIBUTES_V2</b> structure provides parameters to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function.  Version 2 specifies support for local addresses and client process IDs.
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function.  Version 2 specifies support for local addresses and client process IDs.
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ Version of the <b>RPC_CALL_ATTRIBUTES</b> structure. For this structure, this va
 
 ### -field Flags
 
-Bitmasked flags that indicate which members of this structure should be populated by the call to  <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>to which this structure was passed.
+Bitmasked flags that indicate which members of this structure should be populated by the call to  <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>to which this structure was passed.
 
 <table>
 <tr>
@@ -78,7 +78,7 @@ Bitmasked flags that indicate which members of this structure should be populate
 </dl>
 </td>
 <td width="60%">
-Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> should populate the <b>ServerPrincipalName</b> member of this structure.
+Indicates that <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> should populate the <b>ServerPrincipalName</b> member of this structure.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/
 </dl>
 </td>
 <td width="60%">
-Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> should populate the <b>ClientPrincipalName</b> member of this structure.
+Indicates that <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> should populate the <b>ClientPrincipalName</b> member of this structure.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/
 </dl>
 </td>
 <td width="60%">
-Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> should populate the <b>CallLocalAddress</b> member of this structure.
+Indicates that <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> should populate the <b>CallLocalAddress</b> member of this structure.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/
 </dl>
 </td>
 <td width="60%">
-Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> should populate the <b>ClientPID</b> member of this structure. This flag is only supported for the ncalrpc protocol sequence.
+Indicates that <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> should populate the <b>ClientPID</b> member of this structure. This flag is only supported for the ncalrpc protocol sequence.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Pointer to the client principal name, if requested in <b>Flags</b> member and su
 ### -field AuthenticationLevel
 
 Authentication level for the call. See 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a> for authentication levels supported by RPC.
+<a href="/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a> for authentication levels supported by RPC.
 
 ### -field AuthenticationService
 
@@ -169,7 +169,7 @@ Constant that indicates the protocol sequence over which the call was made.
 
 ### -field IsClientLocal
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpccallclientlocality">RpcCallClientLocality</a> enumeration value that indicates the locality of the client (local, remote, or unknown).
+<a href="/windows/desktop/api/rpcasync/ne-rpcasync-rpccallclientlocality">RpcCallClientLocality</a> enumeration value that indicates the locality of the client (local, remote, or unknown).
 
 ### -field ClientPID
 
@@ -221,15 +221,15 @@ The client has disconnected.
 
 ### -field CallType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpccalltype">RpcCallType</a> enumeration value that indicates the  type of the RPC call.
+<a href="/windows/desktop/api/rpcasync/ne-rpcasync-rpccalltype">RpcCallType</a> enumeration value that indicates the  type of the RPC call.
 
 ### -field CallLocalAddress
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_local_address_v1">RPC_CALL_LOCAL_ADDRESS</a> structure that contains information to the server about the local address on which the call was made. 
+Pointer to a <a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_local_address_v1">RPC_CALL_LOCAL_ADDRESS</a> structure that contains information to the server about the local address on which the call was made. 
 
 This field must not be <b>NULL</b> if <b>RPC_QUERY_CALL_LOCAL_ADDRESS</b> is specified in <i>Flags</i>; otherwise, RPC_S_INVALID_ARG is returned.
 
-If the buffer supplied by the application is insufficient, <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> returns ERROR_MORE_DATA.
+If the buffer supplied by the application is insufficient, <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> returns ERROR_MORE_DATA.
 
 ### -field OpNum
 
@@ -248,7 +248,7 @@ Specifies whether or not the call came from kernel mode. Zero indicates the call
 
 The 
 <b>RPC_CALL_ATTRIBUTES</b> structure uses a versioning scheme to enable the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function to incorporate new capabilities without having to introduce new functions with suffix identifiers. For example, a second version of the 
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function to incorporate new capabilities without having to introduce new functions with suffix identifiers. For example, a second version of the 
 <b>RPC_CALL_ATTRIBUTES</b>, identified with a simple #define in the header, can add new members to facilitate new functionality built into future versions of the 
 <b>RpcServerInqCallAttributes</b> function, without having to release a corresponding alternative function.
 
@@ -259,5 +259,4 @@ The <b>Version</b> member indicates the version of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>
-
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>

@@ -56,7 +56,7 @@ Not implemented.
 
 ### -param pMsg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
 
 Specifies a pointer to the MSG structure describing the keystroke to be processed.
 
@@ -64,11 +64,10 @@ Specifies a pointer to the MSG structure describing the keystroke to be processe
 
 Type: <b>DWORD</b>
 
-Specifies the flags describing the state of the Control, Alt, and Shift keys. The value of the flag can be any valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683763(v=vs.85)">KEYMODIFIERS</a> enumeration values.
+Specifies the flags describing the state of the Control, Alt, and Shift keys. The value of the flag can be any valid <a href="/previous-versions/windows/desktop/legacy/ms683763(v=vs.85)">KEYMODIFIERS</a> enumeration values.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns <b>E_NOTIMPL</b>.
-

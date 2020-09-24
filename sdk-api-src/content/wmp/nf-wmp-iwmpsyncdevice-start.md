@@ -97,9 +97,8 @@ Synchronization should not be confused with transferring, which is a manual oper
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-stop">IWMPSyncDevice::stop</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-stop">IWMPSyncDevice::stop</a>

@@ -97,25 +97,24 @@ The packet was discarded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
+<a href="/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a>
+<a href="/previous-versions/ms688270(v=vs.85)">GetResponse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
+<a href="/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">SetResponseType</a>
-
+<a href="/previous-versions/ms688462(v=vs.85)">SetResponseType</a>

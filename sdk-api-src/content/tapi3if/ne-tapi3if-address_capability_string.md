@@ -58,55 +58,54 @@ The
 ### -field ACS_PROTOCOL
 
 Describes a protocol-specific capability. The value is returned as a GUID in string format. For possible values, see 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapiprotocol--constants">TAPIPROTOCOL_</a>. A TSP may define additional values. Corresponds to the <b>ProtocolGuid</b> member of TAPI 2's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
+<a href="/windows/desktop/Tapi/tapiprotocol--constants">TAPIPROTOCOL_</a>. A TSP may define additional values. Corresponds to the <b>ProtocolGuid</b> member of TAPI 2's 
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
 
 ### -field ACS_ADDRESSDEVICESPECIFIC
 
 Describes an address device-specific capability. The value is TSP dependent and can be a structure, a string, or some other type. An application should use the <b>BSTR</b> pointer received from Tapi3.dll as a pointer to an array of bytes (a buffer), and then interpret the buffer according to TSP specifications. Corresponds to the <b>dwDevSpecific</b> and <b>dwDevSpecificSize</b> members of TAPI 2's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> structure.
 
 ### -field ACS_LINEDEVICESPECIFIC
 
 Describes a line device-specific capability. The value is TSP dependent and can be a structure, a string, or some other type. An application should use the <b>BSTR</b> pointer received from Tapi3.dll as a pointer to an array of bytes (a buffer), and then interpret the buffer according to TSP specifications. Corresponds to the <b>dwDevSpecific</b> and <b>dwDevSpecificSize</b> members of TAPI 2's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
 
 ### -field ACS_PROVIDERSPECIFIC
 
 Describes a provider-specific capability. The value is a plain string. It can be used with regular <b>BSTR</b> functions for operations such as printing and concatenating. A specific TSP might included embedded <b>NULL</b> characters inside these strings. If so, an application should take care when printing the value. If the embedded <b>NULL</b> characters are not replaced with blanks, the strings will appear truncated when printed. Corresponds to the <b>dwProviderInfoSize</b> and <b>dwProviderInfoOffset</b> members of TAPI 2's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
 
 ### -field ACS_SWITCHSPECIFIC
 
 Describes a switch-specific capability. The value is a plain string. It can be used with regular <b>BSTR</b> functions for operations such as printing and concatenating. A specific TSP might included embedded <b>NULL</b> characters inside these strings. If so, an application should take care when printing the value. If the embedded <b>NULL</b> characters are not replaced with blanks, the strings will appear truncated when printed. Corresponds to the <b>dwSwitchInfoSize</b> and <b>dwSwitchInfoOffset</b> members of TAPI 2's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
 
 ### -field ACS_PERMANENTDEVICEGUID
 
 Describes the GUID of a permanent device. The value is returned as a GUID in string format. This identifier must remain stable throughout, including operating system upgrades. Corresponds to the <b>PermanentLineGuid</b> member of TAPI 2's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address object</a>
+<a href="/windows/desktop/Tapi/address-object">Address object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapabilitystring">ITAddressCapabilities::get_AddressCapabilityString</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapabilitystring">ITAddressCapabilities::get_AddressCapabilityString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapiprotocol--constants">TAPIPROTOCOL_</a>
-
+<a href="/windows/desktop/Tapi/tapiprotocol--constants">TAPIPROTOCOL_</a>

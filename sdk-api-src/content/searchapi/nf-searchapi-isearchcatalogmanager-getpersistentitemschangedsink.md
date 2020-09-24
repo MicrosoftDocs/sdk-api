@@ -56,13 +56,12 @@ Gets the change notification event sink interface for a client. This method is u
 
 ### -param ppISearchPersistentItemsChangedSink [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink">ISearchPersistentItemsChangedSink</a>**</b>
+Type: <b><a href="/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink">ISearchPersistentItemsChangedSink</a>**</b>
 
-Receives the address of a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink">ISearchPersistentItemsChangedSink</a> interface for this catalog.
+Receives the address of a pointer to a new <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink">ISearchPersistentItemsChangedSink</a> interface for this catalog.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

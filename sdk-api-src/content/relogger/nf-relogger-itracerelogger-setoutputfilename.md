@@ -72,5 +72,4 @@ If the indicated file already exists, it will be overwritten with the new trace.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>

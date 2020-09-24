@@ -166,21 +166,20 @@ The system calls this method when the total number of port mappings changes. The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inateventmanager-put_numberofentriescallback">INATEventManager::put_NumberOfEntriesCallback</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inateventmanager-put_numberofentriescallback">INATEventManager::put_NumberOfEntriesCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatnumberofentriescallback">INATNumberOfEntriesCallback</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatnumberofentriescallback">INATNumberOfEntriesCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmappingcollection-get_count">IStaticPortMappingCollection::get_Count</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmappingcollection-get_count">IStaticPortMappingCollection::get_Count</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

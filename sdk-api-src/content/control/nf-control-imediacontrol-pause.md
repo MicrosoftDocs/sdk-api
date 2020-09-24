@@ -92,19 +92,18 @@ All filters in the graph completed the transition to a paused state.
 
 Pausing the filter graph cues the graph for immediate rendering when the graph is next run. While the graph is paused, filters process data but do not render it. Data is pushed through the graph and processed by transform filters as far as buffering permits, but renderer filters do not render the data. However, video renderers display a static poster frame of the first sample.
 
-If the method returns S_FALSE, call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-getstate">IMediaControl::GetState</a> method to wait for the state transition to complete, or to check if the transition has completed. When you call <code>Pause</code> to display the first frame of a video file, always follow it immediately with a call to <b>GetState</b> to ensure that the state transition has completed. Failure to do this can result in the video rectangle being painted black.
+If the method returns S_FALSE, call the <a href="/windows/desktop/api/control/nf-control-imediacontrol-getstate">IMediaControl::GetState</a> method to wait for the state transition to complete, or to check if the transition has completed. When you call <code>Pause</code> to display the first frame of a video file, always follow it immediately with a call to <b>GetState</b> to ensure that the state transition has completed. Failure to do this can result in the video rectangle being painted black.
 
 If the method fails, it stops the graph before returning.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
+<a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">IMediaControl::StopWhenReady</a>
-
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">IMediaControl::StopWhenReady</a>

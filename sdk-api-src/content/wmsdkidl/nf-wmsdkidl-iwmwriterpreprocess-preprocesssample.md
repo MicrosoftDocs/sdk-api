@@ -71,7 +71,7 @@ Reserved. Set to zero.
 
 ### -param pSample [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object that contains the sample.
+Pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object that contains the sample.
 
 ## -returns
 
@@ -123,7 +123,7 @@ The preprocessor is neither waiting to be run nor stopped in the middle of a pas
 
 OR
 
-The preprocessor has already made as many passes as specified by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-setnumpreprocessingpasses">SetNumPreprocessingPasses</a>.
+The preprocessor has already made as many passes as specified by <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-setnumpreprocessingpasses">SetNumPreprocessingPasses</a>.
 
 OR
 
@@ -139,5 +139,4 @@ When performing preprocessing, you should pass the samples for the stream to thi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>

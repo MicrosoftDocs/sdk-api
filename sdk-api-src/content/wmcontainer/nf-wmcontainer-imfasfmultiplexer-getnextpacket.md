@@ -61,7 +61,7 @@ Receives zero or more status flags. If more than one packet is waiting, the meth
 
 ### -param ppIPacket [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the first output sample of the data packet. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the first output sample of the data packet. The caller must release the interface.
 
 ## -returns
 
@@ -88,20 +88,19 @@ The method succeeded.
 
 ## -remarks
 
-The client needs to call this method, ideally after every call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample">IMFASFMultiplexer::ProcessSample</a>, to get the output ASF packets. Call this method in a loop as long as the <b>ASF_STATUSFLAGS_INCOMPLETE</b> flag is received.
+The client needs to call this method, ideally after every call to <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample">IMFASFMultiplexer::ProcessSample</a>, to get the output ASF packets. Call this method in a loop as long as the <b>ASF_STATUSFLAGS_INCOMPLETE</b> flag is received.
       
 
 If no packets are ready, the method returns <b>S_OK</b> but does not return a sample in <i>ppIPacket</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/generating-new-asf-data-packets">Generating New ASF Data Packets</a>
+<a href="/windows/desktop/medfound/generating-new-asf-data-packets">Generating New ASF Data Packets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>

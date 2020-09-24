@@ -46,24 +46,16 @@ api_name:
  - GPMGPO.SetWMIFilter
 ---
 
-# IGPMGPO::SetWMIFilter
-
-
 ## -description
 
 Links the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object to the current Group Policy object (GPO). This method can also be used to unlink existing WMI filters from the GPO.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object to the current Group Policy object (GPO). This method can also be used to unlink existing WMI filters from the GPO.
 
 ## -parameters
 
 ### -param pIGPMWMIFilter [in]
 
 Pointer to the WMI filter to associate with the current GPO. Passing <b>NULL</b> in this parameter unlinks any existing WMI filters.
-
-
-#### - objGPMWMIFilter [in]
-
-<b>GPMWMIFilter</b> object to associate with the current GPO. Passing <b>NULL</b> in this parameter unlinks any existing WMI filters.
 
 ## -returns
 
@@ -75,9 +67,8 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>

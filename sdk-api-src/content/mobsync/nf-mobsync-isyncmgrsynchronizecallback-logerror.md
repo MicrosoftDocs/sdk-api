@@ -58,7 +58,7 @@ Called by a registered application to log information, warning, or an error mess
 
 Type: <b>DWORD</b>
 
-The error level. Values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglevel">SYNCMGRLOGLEVEL</a> enumeration.
+The error level. Values are taken from the <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglevel">SYNCMGRLOGLEVEL</a> enumeration.
 
 ### -param pszErrorText [in]
 
@@ -68,9 +68,9 @@ A pointer to error text to be displayed in the error tab.
 
 ### -param pSyncLogError [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a> structure that contains additional error information. Registered applications that do not provide this data can pass <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a> structure that contains additional error information. Registered applications that do not provide this data can pass <b>NULL</b>.
 
 ## -returns
 
@@ -98,13 +98,12 @@ The error information is logged successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>
+<a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglevel">SYNCMGRLOGLEVEL</a>
-
+<a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglevel">SYNCMGRLOGLEVEL</a>

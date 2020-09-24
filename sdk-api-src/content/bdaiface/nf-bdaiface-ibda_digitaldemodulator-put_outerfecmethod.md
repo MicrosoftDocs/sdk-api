@@ -56,7 +56,7 @@ The <b>put_OuterFECMethod</b> method specifies the outer forward error correctio
 
 ### -param pFECMethod [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a> variable.
+Pointer to an <a href="/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a> variable.
 
 ## -returns
 
@@ -64,17 +64,16 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator Interface</a>
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_outerfecmethod">IBDA_DigitalDemodulator::get_OuterFECMethod</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_outerfecmethod">IBDA_DigitalDemodulator::get_OuterFECMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_innerfecmethod">IBDA_DigitalDemodulator::put_InnerFECMethod</a>
-
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_innerfecmethod">IBDA_DigitalDemodulator::put_InnerFECMethod</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is obsolete. For a list of alternate functions, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>.]
+<p class="CCE_Message">[This function is obsolete. For a list of alternate functions, see <a href="/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>.]
 
 Not supported.
 
@@ -72,7 +72,7 @@ Pointer to a string that contains the name of the network resource for which to 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -80,5 +80,4 @@ This function requires Admin privilege to successfully execute on a computer tha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>

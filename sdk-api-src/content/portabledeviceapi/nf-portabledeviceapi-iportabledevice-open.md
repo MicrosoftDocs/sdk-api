@@ -57,13 +57,13 @@ The <b>Open</b> method opens a connection between the application and the device
 
 ### -param pszPnPDeviceID [in]
 
-A pointer to a null-terminated string that contains the Plug and Play ID string for the device. You can get this string by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a>.
+A pointer to a null-terminated string that contains the Plug and Play ID string for the device. You can get this string by calling <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a>.
 
 ### -param pClientInfo [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that holds information that identifies the application to the device. This interface holds <b>PROPERTYKEY</b>/value pairs that try to identify an application uniquely. Although the presence of a CoCreated interface is required, the application is not required to send any key/value pairs. However, sending data might improve performance. Typical key/value pairs include the application name, major and minor version, and build number.
+A pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that holds information that identifies the application to the device. This interface holds <b>PROPERTYKEY</b>/value pairs that try to identify an application uniquely. Although the presence of a CoCreated interface is required, the application is not required to send any key/value pairs. However, sending data might improve performance. Typical key/value pairs include the application name, major and minor version, and build number.
 
- See properties beginning with "WPD_CLIENT_" in the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/properties-and-attributes">Properties</a> section.
+ See properties beginning with "WPD_CLIENT_" in the <a href="/windows/desktop/wpd_sdk/properties-and-attributes">Properties</a> section.
 
 ## -returns
 
@@ -112,7 +112,7 @@ At least one of the arguments was a NULL pointer.
 
 ## -remarks
 
-A device must be opened before you can call any methods on it. (Note that the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager</a> methods do not require you to open a device before calling any methods.) However, usually you do not need to call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-close">Close</a>.
+A device must be opened before you can call any methods on it. (Note that the <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager</a> methods do not require you to open a device before calling any methods.) However, usually you do not need to call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-close">Close</a>.
 
 Administrators can restrict the access of portable devices to computers running on a network. For example, an administrator may restrict all Guest users to read-only access, while Authenticated users are given read/write access.
       
@@ -259,13 +259,12 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/establishing-a-connection">Establishing a Connection</a>
+<a href="/windows/desktop/wpd_sdk/establishing-a-connection">Establishing a Connection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-close">IPortableDevice::Close</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-close">IPortableDevice::Close</a>

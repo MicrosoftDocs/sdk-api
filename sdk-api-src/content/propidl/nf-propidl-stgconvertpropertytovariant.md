@@ -68,7 +68,7 @@ A pointer to <b>PROPVARIANT</b>.
 
 ### -param pma [in]
 
-A pointer to a class that implements the <a href="https://docs.microsoft.com/windows/desktop/Stg/imemoryallocator">IMemoryAllocator</a> abstract class.
+A pointer to a class that implements the <a href="/windows/desktop/Stg/imemoryallocator">IMemoryAllocator</a> abstract class.
 
 ## -returns
 
@@ -80,9 +80,8 @@ This function converts a property  to a <b>PROPVARIANT</b> data type. If the fun
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-stgconvertvarianttoproperty">StgConvertVariantToProperty</a>
+<a href="/windows/desktop/api/propidl/nf-propidl-stgconvertvarianttoproperty">StgConvertVariantToProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant">StgDeserializePropVariant</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant">StgDeserializePropVariant</a>

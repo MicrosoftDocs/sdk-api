@@ -56,12 +56,12 @@ The
 <b>ITTAPI</b> methods are provided to initialize a TAPI session, enumerate available addresses, register for CallHub and CallEvent notifications, and shut down a TAPI session.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a> interface derives from the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a> interface derives from the 
 <b>ITTAPI</b> interface. It adds additional methods on the TAPI object to support phone devices.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTAPI</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTAPI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTAPI</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTAPI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>ITTAPI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumerateaddresses">EnumerateAddresses</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumerateaddresses">EnumerateAddresses</a>
 </td>
 <td align="left" width="63%">
 Enumerates addresses currently available.
@@ -85,7 +85,7 @@ Enumerates addresses currently available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumeratecallhubs">EnumerateCallHubs</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumeratecallhubs">EnumerateCallHubs</a>
 </td>
 <td align="left" width="63%">
 Enumerates currently available call hubs.
@@ -94,7 +94,7 @@ Enumerates currently available call hubs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumerateprivatetapiobjects">EnumeratePrivateTAPIObjects</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumerateprivatetapiobjects">EnumeratePrivateTAPIObjects</a>
 </td>
 <td align="left" width="63%">
 Enumerates the currently available private objects.
@@ -103,7 +103,7 @@ Enumerates the currently available private objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_addresses">get_Addresses</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_addresses">get_Addresses</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of addresses currently available. Provided for Automation client applications, such as those written in Microsoft Visual Basic.
@@ -112,7 +112,7 @@ Creates a collection of addresses currently available. Provided for Automation c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_callhubs">get_CallHubs</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_callhubs">get_CallHubs</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of currently available call hubs. Provided for Automation client applications, such as those written in Visual Basic.
@@ -121,7 +121,7 @@ Creates a collection of currently available call hubs. Provided for Automation c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_eventfilter">get_EventFilter</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_eventfilter">get_EventFilter</a>
 </td>
 <td align="left" width="63%">
 Get the current event filter mask.
@@ -130,7 +130,7 @@ Get the current event filter mask.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_privatetapiobjects">get_PrivateTAPIObjects</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_privatetapiobjects">get_PrivateTAPIObjects</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of currently existing TAPI private objects. Provided for Automation client applications, such as those written in Microsoft Visual Basic..
@@ -139,7 +139,7 @@ Creates a collection of currently existing TAPI private objects. Provided for Au
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-initialize">Initialize</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes TAPI object.
@@ -148,7 +148,7 @@ Initializes TAPI object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">put_EventFilter</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">put_EventFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the event filter mask. If no filter is set, no events are received.
@@ -157,7 +157,7 @@ Sets the event filter mask. If no filter is set, no events are received.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">RegisterCallNotifications</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">RegisterCallNotifications</a>
 </td>
 <td align="left" width="63%">
 Registers for call notification events.
@@ -166,7 +166,7 @@ Registers for call notification events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registerrequestrecipient">RegisterRequestRecipient</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registerrequestrecipient">RegisterRequestRecipient</a>
 </td>
 <td align="left" width="63%">
 Registers an application to handle assisted telephony requests.
@@ -175,7 +175,7 @@ Registers an application to handle assisted telephony requests.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-setapplicationpriority">SetApplicationPriority</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-setapplicationpriority">SetApplicationPriority</a>
 </td>
 <td align="left" width="63%">
 Sets priority under which applications will have calls passed to them by media.
@@ -184,7 +184,7 @@ Sets priority under which applications will have calls passed to them by media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-setassistedtelephonypriority">SetAssistedTelephonyPriority</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-setassistedtelephonypriority">SetAssistedTelephonyPriority</a>
 </td>
 <td align="left" width="63%">
 Sets application priority to handle assisted telephony requests.
@@ -193,7 +193,7 @@ Sets application priority to handle assisted telephony requests.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-setcallhubtracking">SetCallHubTracking</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-setcallhubtracking">SetCallHubTracking</a>
 </td>
 <td align="left" width="63%">
 Enables or disables CallHub tracking.
@@ -202,7 +202,7 @@ Enables or disables CallHub tracking.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down TAPI.
@@ -211,7 +211,7 @@ Shuts down TAPI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-unregisternotifications">UnregisterNotifications</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-unregisternotifications">UnregisterNotifications</a>
 </td>
 <td align="left" width="63%">
 Removes notifications for TAPI object.
@@ -222,13 +222,12 @@ Removes notifications for TAPI object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-
+<a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>

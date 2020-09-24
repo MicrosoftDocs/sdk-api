@@ -52,37 +52,37 @@ api_name:
 
 ## -description
 
-Contains information about a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> associated with a event.
+Contains information about a <a href="/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> associated with a event.
 
 ## -struct-fields
 
 ### -field CommandID
 
-The ID of the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> directly related to the event, which is specified in the markup resource file.
+The ID of the <a href="/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> directly related to the event, which is specified in the markup resource file.
 
 ### -field CommandName
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> name that is associated with <b>CommandId</b>.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> name that is associated with <b>CommandId</b>.
 
 ### -field ParentCommandID
 
-The ID for the parent of the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a>, which is specified in the markup resource file.
+The ID for the parent of the <a href="/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a>, which is specified in the markup resource file.
 
 ### -field ParentCommandName
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> name  of the parent that is associated with <b>CommandId</b>.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> name  of the parent that is associated with <b>CommandId</b>.
 
 ### -field SelectionIndex
 
-<b>SelectionIndex</b> is used only when a <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE_CommandExecuted</a> has been fired in response to the user selecting an item within a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-combobox">ComboBox</a> or item gallery.  In those cases, <b>SelectionIndex</b> contains the index of the selected item.  In all other cases, it is set to 0.
+<b>SelectionIndex</b> is used only when a <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE_CommandExecuted</a> has been fired in response to the user selecting an item within a <a href="/windows/desktop/windowsribbon/windowsribbon-element-combobox">ComboBox</a> or item gallery.  In those cases, <b>SelectionIndex</b> contains the index of the selected item.  In all other cases, it is set to 0.
 
 ### -field Location
 
-One of the values from <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventlocation">UI_EVENTLOCATION</a>.
+One of the values from <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventlocation">UI_EVENTLOCATION</a>.
 
 ## -remarks
 
- The Command identified by <b>CommandID</b> and <b>CommandName</b> depend upon which event has occurred:  for a <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE_TabActivated</a> event, they identify the tab; for a <b>UI_EVENTTYPE_MenuOpened</b> event, they identify the menu; for <b>UI_EVENTTYPE_CommandExecuted</b> events, they identify the command being executed; and for <b>UI_EVENTTYPE_TooltipShown</b> events, they identify the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> that owns that tooltip.
+ The Command identified by <b>CommandID</b> and <b>CommandName</b> depend upon which event has occurred:  for a <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE_TabActivated</a> event, they identify the tab; for a <b>UI_EVENTTYPE_MenuOpened</b> event, they identify the menu; for <b>UI_EVENTTYPE_CommandExecuted</b> events, they identify the command being executed; and for <b>UI_EVENTTYPE_TooltipShown</b> events, they identify the <a href="/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> that owns that tooltip.
 
 
 
@@ -90,13 +90,12 @@ One of the values from <a href="https://docs.microsoft.com/windows/desktop/api/u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent">OnUIEvent</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent">OnUIEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/structures">Structures</a>
+<a href="/windows/desktop/windowsribbon/structures">Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ns-uiribbon-ui_eventparams">UI_EVENTPARAMS</a>
-
+<a href="/windows/desktop/api/uiribbon/ns-uiribbon-ui_eventparams">UI_EVENTPARAMS</a>

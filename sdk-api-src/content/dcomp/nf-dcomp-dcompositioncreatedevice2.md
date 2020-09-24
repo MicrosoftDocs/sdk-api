@@ -57,7 +57,7 @@ Creates a new device object that can be used to create other Microsoft DirectCom
 
 ### -param renderingDevice [in, optional]
 
-An optional pointer to a DirectX device to be used to create DirectComposition surface objects. Must be a pointer to an object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a> interfaces.
+An optional pointer to a DirectX device to be used to create DirectComposition surface objects. Must be a pointer to an object implementing the <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a> or <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a> interfaces.
 
 ### -param iid [in]
 
@@ -69,7 +69,7 @@ Receives an interface pointer to the newly created device object. The pointer is
 
 ## -returns
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 ## -remarks
 
@@ -77,7 +77,7 @@ A device object serves as the factory for all other DirectComposition objects. I
 
 
 
-The <i>renderingDevice</i> parameter may point to a <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi">DXGI</a>, Direct3D, Direct2D device object, or it may be NULL. This parameter affects the behavior of the IDCompositionDevice2::CreateSurface, IDCompositionDevice2::CreateVirtualSurface and IDCompositionSurface::BeginDraw methods.
+The <i>renderingDevice</i> parameter may point to a <a href="/windows/desktop/direct3ddxgi/dx-graphics-dxgi">DXGI</a>, Direct3D, Direct2D device object, or it may be NULL. This parameter affects the behavior of the IDCompositionDevice2::CreateSurface, IDCompositionDevice2::CreateVirtualSurface and IDCompositionSurface::BeginDraw methods.
 
 
 
@@ -93,7 +93,7 @@ If the <i>renderingDevice</i> parameter points to a Direct2D device object, Dire
 
 
 
-If the <i>iid</i> parameter is __uuidof(IDCompositionDevice), then the dcompositionDevice parameter receives a pointer to a Version 1 IDCompositionDevice interface, but the underlying object is a Version 2 desktop device object. The application can later obtain a pointer to either the IDCompositionDevice2 or IDCompositionDesktopDevice interfaces by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on that device. Similarly, all DirectComposition objects created from such a device are Version 2 objects under the covers. For example, the IDCompositionDevice::CreateVisual method will return an IDCompositionVisual interface to the created visual, but the application can obtain a pointer to the IDCompositionVisual2 interface via the QueryInterface method. This behavior allows an application written to the DirectComposition V1 API to incrementally adopt DirectComposition V2 features by changing the device creation method from DCompositionCreateDevice to DCompositionCreateDevice2, while still requesting the IDCompositionDevice2 interface. This allows the rest of the code to remain unchanged, while allowing the application to use QueryInterface in just the places where new functionality is needed.
+If the <i>iid</i> parameter is __uuidof(IDCompositionDevice), then the dcompositionDevice parameter receives a pointer to a Version 1 IDCompositionDevice interface, but the underlying object is a Version 2 desktop device object. The application can later obtain a pointer to either the IDCompositionDevice2 or IDCompositionDesktopDevice interfaces by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on that device. Similarly, all DirectComposition objects created from such a device are Version 2 objects under the covers. For example, the IDCompositionDevice::CreateVisual method will return an IDCompositionVisual interface to the created visual, but the application can obtain a pointer to the IDCompositionVisual2 interface via the QueryInterface method. This behavior allows an application written to the DirectComposition V1 API to incrementally adopt DirectComposition V2 features by changing the device creation method from DCompositionCreateDevice to DCompositionCreateDevice2, while still requesting the IDCompositionDevice2 interface. This allows the rest of the code to remain unchanged, while allowing the application to use QueryInterface in just the places where new functionality is needed.
 
 ## -see-also
 
@@ -118,4 +118,3 @@ IDCompositionDevice2::CreateVirtualSurface
 
 
 IDCompositionSurface::BeginDraw
-

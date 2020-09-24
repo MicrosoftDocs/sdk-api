@@ -59,8 +59,8 @@ api_name:
 
 The 
 <b>IWbemContext::BeginEnumeration</b> method resets the enumeration of all the context values in the object. This method must be called before the first call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-next">IWbemContext::Next</a> to enumerate all of the context values in the object. The order in which context values are enumerated is guaranteed to be invariant for a given instance of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-next">IWbemContext::Next</a> to enumerate all of the context values in the object. The order in which context values are enumerated is guaranteed to be invariant for a given instance of 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>.
 
 ## -parameters
 
@@ -74,13 +74,12 @@ This method returns an <b>HRESULT</b>HRESULT indicating the status of the method
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-endenumeration">IWbemContext::EndEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-endenumeration">IWbemContext::EndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-next">IWbemContext::Next</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-next">IWbemContext::Next</a>

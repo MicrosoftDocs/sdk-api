@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SIP_SUBJECTINFO</b> structure specifies subject information data to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) APIs.
+The <b>SIP_SUBJECTINFO</b> structure specifies subject information data to the <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) APIs.
 
 ## -struct-fields
 
@@ -90,15 +90,15 @@ This member is reserved. Do not modify  this member. It is used by the SIP to pa
 
 ### -field hProv
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle to the cryptography provider.
+An <a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle to the cryptography provider.
 
 ### -field DigestAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the identifier for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> algorithm used to hash the file.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the identifier for the <a href="/windows/desktop/SecGloss/h-gly">hash</a> algorithm used to hash the file.
 
 ### -field dwFlags
 
-A value that modifies the behavior of the functions that use this structure. For more information about possible values for this member, see the <i>dwFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex">SignerSignEx</a>.
+A value that modifies the behavior of the functions that use this structure. For more information about possible values for this member, see the <i>dwFlags</i> parameter of <a href="/windows/desktop/SecCrypto/signersignex">SignerSignEx</a>.
 
 ### -field dwEncodingType
 
@@ -169,7 +169,7 @@ The additional information is a catalog member.
 </dl>
 </td>
 <td width="60%">
-The additional information is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
+The additional information is a <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 </td>
 </tr>
@@ -188,15 +188,15 @@ The additional information is in a user defined format.
 
 ### -field psFlat
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-ms_addinfo_flat_">MS_ADDINFO_FLAT</a> structure that contains additional information for flat file subject types.
+An <a href="/windows/desktop/api/mssip/ns-mssip-ms_addinfo_flat_">MS_ADDINFO_FLAT</a> structure that contains additional information for flat file subject types.
 
 ### -field psCatMember
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-ms_addinfo_catalogmember_">MS_ADDINFO_CATALOGMEMBER</a> structure that contains additional information for catalog member subject types.
+An <a href="/windows/desktop/api/mssip/ns-mssip-ms_addinfo_catalogmember_">MS_ADDINFO_CATALOGMEMBER</a> structure that contains additional information for catalog member subject types.
 
 ### -field psBlob
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-ms_addinfo_blob_">MS_ADDINFO_BLOB</a> structure that contains additional information for BLOB subject types.
+An <a href="/windows/desktop/api/mssip/ns-mssip-ms_addinfo_blob_">MS_ADDINFO_BLOB</a> structure that contains additional information for BLOB subject types.
 
 ### -field pClientData
 
@@ -207,4 +207,3 @@ A pointer to SIP-specific data.
 Upon first use of the <b>SIP_SUBJECTINFO</b> structure, initialize the entire structure to binary zero. Do not initialize the structure between SIP function calls.
 
 Subjects include, but are not limited to, portable executable images (.exe), cabinet (.cab) images, flat files, and catalog files. Each subject type uses a different subset of its data for hash calculation and requires a different procedure for storage and retrieval. Therefore each subject type has a unique subject interface package specification.
-

@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 The <b>Enum</b> method creates an enumerator object which contains information on the property sets stored in this property set storage. On return, this method supplies a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> pointer on the enumerator object.
+<a href="/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> pointer on the enumerator object.
 
 ## -parameters
 
 ### -param ppenum [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> pointer variable that receives the interface pointer to the newly created enumerator object.
+<a href="/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> pointer variable that receives the interface pointer to the newly created enumerator object.
 
 ## -returns
 
@@ -67,27 +67,26 @@ This method can return one of these values.
 ## -remarks
 
 <b>IPropertySetStorage::Enum</b> creates an enumerator object that can be used to iterate through 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structures. These sometimes provide information on the property sets managed by 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>. This method, on return, supplies a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface on this enumerator object on return.
+<a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structures. These sometimes provide information on the property sets managed by 
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>. This method, on return, supplies a pointer to the 
+<a href="/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface on this enumerator object on return.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
+<a href="/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ienumstatpropsetstg-compound-file-implementation">IEnumSTATPROPSETSTG - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/ienumstatpropsetstg-compound-file-implementation">IEnumSTATPROPSETSTG - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/samples">Samples</a>
-
+<a href="/windows/desktop/Stg/samples">Samples</a>

@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISnapinAbout</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISnapinAbout</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISnapinAbout</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISnapinAbout</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISnapinAbout</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinabout-getprovider">GetProvider</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-isnapinabout-getprovider">GetProvider</a>
 </td>
 <td align="left" width="63%">
 Obtains the name of the snap-in provider.
@@ -79,7 +79,7 @@ Obtains the name of the snap-in provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinabout-getsnapindescription">GetSnapinDescription</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-isnapinabout-getsnapindescription">GetSnapinDescription</a>
 </td>
 <td align="left" width="63%">
 Obtains snap-in description box text.
@@ -88,7 +88,7 @@ Obtains snap-in description box text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinabout-getsnapinimage">GetSnapinImage</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-isnapinabout-getsnapinimage">GetSnapinImage</a>
 </td>
 <td align="left" width="63%">
 Obtains the main icon for the <b>About</b> box.
@@ -97,7 +97,7 @@ Obtains the main icon for the <b>About</b> box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinabout-getsnapinversion">GetSnapinVersion</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-isnapinabout-getsnapinversion">GetSnapinVersion</a>
 </td>
 <td align="left" width="63%">
 Obtains the version number of the snap-in.
@@ -106,7 +106,7 @@ Obtains the version number of the snap-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinabout-getstaticfolderimage">GetStaticFolderImage</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-isnapinabout-getstaticfolderimage">GetStaticFolderImage</a>
 </td>
 <td align="left" width="63%">
 Obtains static folder images for both the scope and result panes.
@@ -114,4 +114,3 @@ Obtains static folder images for both the scope and result panes.
 </td>
 </tr>
 </table>
-

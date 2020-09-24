@@ -62,7 +62,7 @@ The
 ### -field dwFormat
 
 Format of the data. The format is specified in the <i>dwFormat</i> when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcomputecounterstatistics">PdhComputeCounterStatistics</a>.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhcomputecounterstatistics">PdhComputeCounterStatistics</a>.
 
 ### -field count
 
@@ -82,5 +82,4 @@ Mean of the values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcomputecounterstatistics">PdhComputeCounterStatistics</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhcomputecounterstatistics">PdhComputeCounterStatistics</a>

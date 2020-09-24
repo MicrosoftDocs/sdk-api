@@ -98,9 +98,8 @@ If the CLSID for the terminal superclass was not set for terminal superclass, th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-delete">Delete</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-delete">Delete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>

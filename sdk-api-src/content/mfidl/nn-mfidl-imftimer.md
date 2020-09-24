@@ -55,7 +55,7 @@ Provides a timer that invokes a callback at a specified time.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFTimer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimer-canceltimer">CancelTimer</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimer-canceltimer">CancelTimer</a>
 </td>
 <td align="left" width="63%">
 Cancels a timer.
@@ -80,7 +80,7 @@ Cancels a timer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimer-settimer">SetTimer</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimer-settimer">SetTimer</a>
 </td>
 <td align="left" width="63%">
 Sets a timer that invokes a callback.
@@ -96,9 +96,8 @@ The presentation clock exposes this interface. To get a pointer to the interface
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

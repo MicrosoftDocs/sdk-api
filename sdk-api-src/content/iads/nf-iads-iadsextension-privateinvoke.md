@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IADsExtension::PrivateInvoke</b> method is normally called by ADSI after the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">IADsExtension::PrivateGetIDsOfNames</a> method. This method can either have a custom implementation or it can delegate the operation to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">IDispatch::DispInvoke</a> method.
+The <b>IADsExtension::PrivateInvoke</b> method is normally called by ADSI after the  <a href="/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">IADsExtension::PrivateGetIDsOfNames</a> method. This method can either have a custom implementation or it can delegate the operation to <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">IDispatch::DispInvoke</a> method.
 
 ## -parameters
 
 ### -param dispidMember [in]
 
-Identifies the member. Use the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">IADsExtension::PrivateGetIDsOfNames</a> method to obtain the dispatch identifier.
+Identifies the member. Use the <a href="/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">IADsExtension::PrivateGetIDsOfNames</a> method to obtain the dispatch identifier.
 
 ### -param riid [in]
 
@@ -64,7 +64,7 @@ Reserved for future use. Must be IID_NULL.
 
 ### -param lcid [in]
 
-The locale context in which to interpret arguments. The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">IADsExtension::PrivateGetIDsOfNames</a> function uses <i>lcid</i>. It is also passed to the <b>PrivateInvoke</b> method to allow the object to interpret the arguments that are specific to a locale.
+The locale context in which to interpret arguments. The <a href="/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">IADsExtension::PrivateGetIDsOfNames</a> function uses <i>lcid</i>. It is also passed to the <b>PrivateInvoke</b> method to allow the object to interpret the arguments that are specific to a locale.
 
 ### -param wFlags [in]
 
@@ -96,7 +96,7 @@ The member is changed by a reference assignment, rather than a value assignment.
 
 ### -param pdispparams [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a> structure that receives an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
+Pointer to a <a href="/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a> structure that receives an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
 
 ### -param pvarResult [out]
 
@@ -108,27 +108,26 @@ Pointer to a structure that contains exception data. This structure should be fi
 
 ### -param puArgErr [out]
 
-The index within the <b>rgvarg</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a> structure in <i>pdispparams</i> for the first argument that has an error. Arguments are stored in the <b>rgvarg</b> array in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is <b>DISP_E_TYPEMISMATCH</b> or <b>DISP_E_PARAMNOTFOUND</b>.
+The index within the <b>rgvarg</b> member of the <a href="/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a> structure in <i>pdispparams</i> for the first argument that has an error. Arguments are stored in the <b>rgvarg</b> array in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is <b>DISP_E_TYPEMISMATCH</b> or <b>DISP_E_PARAMNOTFOUND</b>.
 
 ## -returns
 
 This method supports the standard return values, as well as the following.
 
-For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information about other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">DispInvoke</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">DispInvoke</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsextension">IADsExtension</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsextension">IADsExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">IADsExtension::PrivateGetIDsOfNames</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">IADsExtension::PrivateGetIDsOfNames</a>

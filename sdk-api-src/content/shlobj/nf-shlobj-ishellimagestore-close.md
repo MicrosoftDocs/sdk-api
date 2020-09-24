@@ -58,16 +58,15 @@ Closes the image cache.
 
 Type: <b>const DWORD*</b>
 
-A pointer to a variable of type <b>DWORD</b> that specifies the address that receives the lock during the call to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-open">IShellImageStore::Open</a> method.
+A pointer to a variable of type <b>DWORD</b> that specifies the address that receives the lock during the call to the <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-open">IShellImageStore::Open</a> method.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-Returns S_FALSE if the store is not open or if the store cannot be saved. Returns the result of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-commit">IShellImageStore::Commit</a> otherwise.
+Returns S_FALSE if the store is not open or if the store cannot be saved. Returns the result of <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-commit">IShellImageStore::Commit</a> otherwise.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.</div>
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.</div>
 <div> </div>
-

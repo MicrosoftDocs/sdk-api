@@ -64,11 +64,11 @@ Specifies the number of attributes to obtain.
 
 ### -param paFilterAttrs [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to verify.
+Pointer to the <a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to verify.
 
 ### -param dwFlags [in]
 
-Specifies attributes for the call to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-retrieverequestedattrs">ITextStoreAnchor::RetrieveRequestedAttrs</a> method. If this parameter is not set, the method returns the attributes that start at the specified anchor location. Other possible values for this parameter are the following.
+Specifies attributes for the call to the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-retrieverequestedattrs">ITextStoreAnchor::RetrieveRequestedAttrs</a> method. If this parameter is not set, the method returns the attributes that start at the specified anchor location. Other possible values for this parameter are the following.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ Obtains the attributes that end at the specified anchor location.
 </dl>
 </td>
 <td width="60%">
-Obtains the value of the attribute in addition to the attribute. The attribute value is put into the <b>varValue</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL</a> structure during the <b>ITextStoreAnchor::RetrieveRequestedAttrs</b> method call.
+Obtains the value of the attribute in addition to the attribute. The attribute value is put into the <b>varValue</b> member of the <a href="/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL</a> structure during the <b>ITextStoreAnchor::RetrieveRequestedAttrs</b> method call.
 
 </td>
 </tr>
@@ -138,25 +138,24 @@ If the flag TS_ATTR_FIND_WANT_END is set in <i>dwFlags</i>, the method would ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-retrieverequestedattrs">ITextStoreAnchor::RetrieveRequestedAttrs
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-retrieverequestedattrs">ITextStoreAnchor::RetrieveRequestedAttrs
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID
+<a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
+<a href="/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
       </a>
-

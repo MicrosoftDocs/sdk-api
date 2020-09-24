@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Describes the capabilities of a connected controller. The <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a> function returns <b>XINPUT_CAPABILITIES</b>.
+Describes the capabilities of a connected controller. The <a href="/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a> function returns <b>XINPUT_CAPABILITIES</b>.
 
 ## -struct-fields
 
@@ -77,7 +77,7 @@ Describes the capabilities of a connected controller. The <a href="https://docs.
 
 ### -field SubType
 
-Subtype of the game controller. See <a href="https://docs.microsoft.com/windows/desktop/xinput/xinput-and-controller-subtypes">XINPUT and Controller Subtypes</a> for a list of allowed subtypes.
+Subtype of the game controller. See <a href="/windows/desktop/xinput/xinput-and-controller-subtypes">XINPUT and Controller Subtypes</a> for a list of allowed subtypes.
 
 <div class="alert"><b>Note</b>  For restrictions on the use of this subtype value, see Remarks. More subtypes may be added in the future.</div>
 <div> </div>
@@ -117,20 +117,20 @@ Features of the controller.
 
 ### -field Gamepad
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a> structure that describes available controller features and control resolutions.
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a> structure that describes available controller features and control resolutions.
 
 ### -field Vibration
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_vibration">XINPUT_VIBRATION</a> structure that describes available vibration functionality and resolutions.
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_vibration">XINPUT_VIBRATION</a> structure that describes available vibration functionality and resolutions.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a> returns <b>XINPUT_CAPABILITIES</b> to indicate the characteristics and available functionality of a specified controller.
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a> returns <b>XINPUT_CAPABILITIES</b> to indicate the characteristics and available functionality of a specified controller.
 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a> sets the structure members to indicate which inputs the device supports. For binary state controls, such as digital buttons, the corresponding bit reflects whether or not the control is supported by the device. For proportional controls, such as thumbsticks, the value indicates the resolution for that control. Some number of the least significant bits may not be set, indicating that the control does not provide resolution to that level.
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a> sets the structure members to indicate which inputs the device supports. For binary state controls, such as digital buttons, the corresponding bit reflects whether or not the control is supported by the device. For proportional controls, such as thumbsticks, the value indicates the resolution for that control. Some number of the least significant bits may not be set, indicating that the control does not provide resolution to that level.
 
 
 
@@ -142,17 +142,16 @@ Older XUSB Windows drivers report incomplete capabilities information, particula
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_vibration">XINPUT_VIBRATION</a>
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_vibration">XINPUT_VIBRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xinput/structures">XInput Structures</a>
+<a href="/windows/desktop/xinput/structures">XInput Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a>
-
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a>

@@ -52,11 +52,11 @@ api_name:
 
 Gets an MPEG-2 program specific information (PSI) table from an MPEG-2 transport stream.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> (TIF) implements this interface.
+The <a href="/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> (TIF) implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPSITables</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPSITables</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPSITables</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPSITables</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IPSITables</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">GetTable</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">GetTable</a>
 </td>
 <td align="left" width="63%">
 Gets an MPEG-2 PSI table from an MPEG-2 transport stream.
@@ -79,4 +79,3 @@ Gets an MPEG-2 PSI table from an MPEG-2 transport stream.
 </td>
 </tr>
 </table>
-

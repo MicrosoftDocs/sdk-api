@@ -70,9 +70,8 @@ If you create a visualization for Windows Media Player using the Direct3D® comp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
+<a href="/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-destroy">IWMPEffects2::Destroy</a>
-
+<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-destroy">IWMPEffects2::Destroy</a>

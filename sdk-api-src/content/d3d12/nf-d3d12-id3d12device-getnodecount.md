@@ -56,11 +56,10 @@ Reports the number of physical adapters (nodes) that are associated with this de
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of physical adapters (nodes) that this device has.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>

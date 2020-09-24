@@ -62,7 +62,7 @@ Removes a timer from the timer queue and optionally waits for currently running 
 ### -param TimerQueue [in, optional]
 
 A handle to the timer queue. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function. 
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function. 
 
 
 
@@ -72,7 +72,7 @@ If the timer was created using the default timer queue, this parameter should be
 ### -param Timer [in]
 
 A handle to the timer-queue timer. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a> function.
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a> function.
 
 ### -param CompletionEvent [in, optional]
 
@@ -90,7 +90,7 @@ If this parameter is <b>NULL</b>, the function marks the timer for deletion and 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the error code is <b>ERROR_IO_PENDING</b>, it is not necessary to call this function again. For any other error, you should retry the call.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the error code is <b>ERROR_IO_PENDING</b>, it is not necessary to call this function again. For any other error, you should retry the call.
 
 ## -remarks
 
@@ -104,28 +104,27 @@ Be careful when making a blocking <b>DeleteTimerQueueTimer</b> call on a persist
 If there are outstanding callback functions and  <i>CompletionEvent</i> is <b>NULL</b>, the function will fail and set the error code to <b>ERROR_IO_PENDING</b>. This indicates that there are outstanding callback functions. Those callbacks either will execute or are in the middle of executing. The timer is cleaned up when the callback function is finished executing.
 
 To cancel all timers in a timer queue, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a> function.
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a> function.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/timer-queues">Timer Queues</a>
-
+<a href="/windows/desktop/Sync/timer-queues">Timer Queues</a>

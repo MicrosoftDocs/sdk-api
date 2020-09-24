@@ -50,33 +50,33 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a> object that converts <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> primitives stored in <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
+Creates an <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a> object that converts <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> primitives stored in <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
 
 ## -parameters
 
 ### -param wicFactory [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>*</b>
 
 A WIC imaging factory.
 
 ### -param documentTarget [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>*</b>
+Type: <b><a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>*</b>
 
 The target print job for this control.
 
 ### -param printControlProperties [in, ref, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_print_control_properties">D2D1_PRINT_CONTROL_PROPERTIES</a></b>
+Type: <b>const <a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_print_control_properties">D2D1_PRINT_CONTROL_PROPERTIES</a></b>
 
 The options to be applied to the print control.
 
 ### -param printControl [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a>**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a> object.
+When this method returns, contains the address of a pointer to an <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a> object.
 
 ## -returns
 
@@ -115,5 +115,4 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>

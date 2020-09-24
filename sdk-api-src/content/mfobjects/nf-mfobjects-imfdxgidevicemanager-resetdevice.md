@@ -56,11 +56,11 @@ Sets the Microsoft Direct3D device or notifies the device manager that the Direc
 
 ### -param pUnkDevice [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the DXGI device.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the DXGI device.
 
 ### -param resetToken [in]
 
-The token that was received in the <i>pResetToken</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatedxgidevicemanager">MFCreateDXGIDeviceManager</a> function.
+The token that was received in the <i>pResetToken</i> parameter of the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatedxgidevicemanager">MFCreateDXGIDeviceManager</a> function.
 
 ## -returns
 
@@ -74,13 +74,12 @@ The <i>resetToken</i> parameter ensures that only the component that originally 
 
 If this method succeeds, all open device handles become invalid.
 
-To create a Microsoft Direct3D 11 device, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>. 
+To create a Microsoft Direct3D 11 device, call <a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>. 
 
-The device should be created with the <b>D3D11_CREATE_DEVICE_VIDEO_SUPPORT</b> device creation flag which is defined in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_FLAG</a> enumeration.
+The device should be created with the <b>D3D11_CREATE_DEVICE_VIDEO_SUPPORT</b> device creation flag which is defined in the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_FLAG</a> enumeration.
 
-It is recommended that you use multi-thread protection on the device context to prevent deadlock issues that can sometimes happen when you call<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer"> ID3D11VideoContext::GetDecoderBuffer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-releasedecoderbuffer">ID3D11VideoContext::ReleaseDecoderBuffer</a>. To set multi-thread protection, first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> to get an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread</a> pointer. Then call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-setmultithreadprotected">ID3D10Multithread::SetMultithreadProtected</a>, passing in <b>true</b> for <i>bMTProtect</i>.
+It is recommended that you use multi-thread protection on the device context to prevent deadlock issues that can sometimes happen when you call<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer"> ID3D11VideoContext::GetDecoderBuffer</a> or <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-releasedecoderbuffer">ID3D11VideoContext::ReleaseDecoderBuffer</a>. To set multi-thread protection, first call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> to get an <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread</a> pointer. Then call <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-setmultithreadprotected">ID3D10Multithread::SetMultithreadProtected</a>, passing in <b>true</b> for <i>bMTProtect</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>

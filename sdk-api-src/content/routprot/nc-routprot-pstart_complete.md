@@ -53,7 +53,7 @@ api_name:
 Router Manager calls the 
 <b>StartComplete</b> function to inform the routing protocol that initialization is complete and all interfaces have been added. The routing protocol should wait for this call before starting any protocol-specific behavior.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PSTART_COMPLETE</a> type defines a pointer to this callback function. <i>StartComplete</i> is a placeholder for the application-defined function name.
+The <a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PSTART_COMPLETE</a> type defines a pointer to this callback function. <i>StartComplete</i> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ This function should return NO_ERROR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>

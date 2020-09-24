@@ -50,18 +50,18 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>AddNtmsMediaType</b> function adds the specified media type to the specified library if there is not currently a relation in the library object. The function then creates the system 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540696(v=vs.85)">media pools</a> if they do not exist.
+<a href="/previous-versions/windows/desktop/bb540696(v=vs.85)">media pools</a> if they do not exist.
 
 ## -parameters
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaTypeId [in]
 
@@ -185,9 +185,8 @@ The function was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-deletentmsmediatype">DeleteNtmsMediaType</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-deletentmsmediatype">DeleteNtmsMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>

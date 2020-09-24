@@ -191,5 +191,4 @@ When making multiple calls to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
-
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>

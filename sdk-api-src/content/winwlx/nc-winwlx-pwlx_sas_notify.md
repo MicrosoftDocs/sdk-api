@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[The WlxSasNotify function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to notify <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event.
+Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to notify <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> of a <a href="/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -60,7 +60,7 @@ Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GI
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 ### -param dwSasType [in]
 
@@ -73,9 +73,9 @@ Values from zero to WLX_SAS_TYPE_MAX_MSFT_VALUE are reserved to define standard 
 
 The following values are predefined.
 
-This value will be delivered to one of the GINA SAS service routines called by Winlogon (<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxloggedoutsas">WlxLoggedOutSAS</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxloggedonsas">WlxLoggedOnSAS</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>).
+This value will be delivered to one of the GINA SAS service routines called by Winlogon (<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxloggedoutsas">WlxLoggedOutSAS</a>, 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxloggedonsas">WlxLoggedOnSAS</a>, or 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>).
 
 <table>
 <tr>
@@ -96,17 +96,16 @@ Indicates that the user has typed the CTRL+ALT+DEL SAS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxloggedonsas">WlxLoggedOnSAS</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxloggedonsas">WlxLoggedOnSAS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxloggedoutsas">WlxLoggedOutSAS</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxloggedoutsas">WlxLoggedOutSAS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>

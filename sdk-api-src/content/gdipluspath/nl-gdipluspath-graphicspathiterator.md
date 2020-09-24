@@ -50,6 +50,5 @@ api_name:
 
 ## -description
 
-This <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-graphicspathiterator(constgraphicspathiterator_)">GraphicsPathIterator</a> class provides methods for isolating selected subsets of the path stored in a 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-graphicspath(constgraphicspath_)">GraphicsPath</a> object. A path consists of one or more figures. You can use a <b>GraphicsPathIterator</b> to isolate one or more of those figures. A path can also have markers that divide the path into sections. You can use a <b>GraphicsPathIterator</b> object to isolate one or more of those sections.
-
+This <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-graphicspathiterator(constgraphicspathiterator_)">GraphicsPathIterator</a> class provides methods for isolating selected subsets of the path stored in a 
+			<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-graphicspath(constgraphicspath_)">GraphicsPath</a> object. A path consists of one or more figures. You can use a <b>GraphicsPathIterator</b> to isolate one or more of those figures. A path can also have markers that divide the path into sections. You can use a <b>GraphicsPathIterator</b> object to isolate one or more of those sections.

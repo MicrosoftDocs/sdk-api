@@ -147,7 +147,7 @@ The method completed successfully
 </dl>
 </td>
 <td width="60%">
-The error rate is not yet available.  The Mobile Broadband service is current probing the device to retrieve the information.  When the error rate is available, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange">OnSignalStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>.
+The error rate is not yet available.  The Mobile Broadband service is current probing the device to retrieve the information.  When the error rate is available, the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange">OnSignalStateChange</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>.
 
 </td>
 </tr>
@@ -159,5 +159,4 @@ Mobile Broadband interfaces report the signal error rate as a coded value that m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a>

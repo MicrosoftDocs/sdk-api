@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about change notification. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm">IShellMenuCallback::CallbackSM</a>.
+Contains information about change notification. It is used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm">IShellMenuCallback::CallbackSM</a>.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Contains information about change notification. It is used by <a href="https://d
 
 Type: <b>long</b>
 
-An SHCNE value that specifies the type of change that took place. See <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> for a complete list of these values.
+An SHCNE value that specifies the type of change that took place. See <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> for a complete list of these values.
 
 ### -field pidl1
 
@@ -75,4 +75,3 @@ PIDL provided by the change notification. The target of this PIDL varies dependi
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
 A second PIDL provided by the change notification. Not all <b>lEvent</b> values make use of this parameter, in which case its value is <b>NULL</b>.
-

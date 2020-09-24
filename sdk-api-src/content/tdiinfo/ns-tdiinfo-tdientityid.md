@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[This structure may be altered or unavailable in future versions of Windows.]
 
-Contains a part of the <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a> structure to represent information about TDI drivers retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code.
+Contains a part of the <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a> structure to represent information about TDI drivers retrieved using the <a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code.
 
 ## -struct-fields
 
@@ -153,14 +153,13 @@ An opaque value that can uniquely identify an entity, if a specific one is being
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
+<a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
+<a href="/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
 			 Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a>
-
+<a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a>

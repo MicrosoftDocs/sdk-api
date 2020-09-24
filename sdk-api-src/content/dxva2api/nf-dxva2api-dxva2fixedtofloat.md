@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Converts a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> value to a floating-point number.
+Converts a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> value to a floating-point number.
 
 ## -parameters
 
 ### -param _fixed_ [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> structure that contains a fixed-point value.
+<a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> structure that contains a fixed-point value.
 
 ## -returns
 
@@ -64,5 +64,4 @@ The function returns the converted floating-point number.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

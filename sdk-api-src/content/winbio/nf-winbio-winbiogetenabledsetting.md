@@ -114,9 +114,8 @@ The setting was created by Group Policy.
 
 ## -returns
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/client-application-functions">Client Application Functions</a>
-
+<a href="/windows/desktop/SecBioMet/client-application-functions">Client Application Functions</a>

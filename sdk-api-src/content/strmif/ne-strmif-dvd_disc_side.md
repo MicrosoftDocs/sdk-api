@@ -66,13 +66,12 @@ Side B.
 
 ## -remarks
 
-This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdvolumeinfo">IDvdInfo2::GetDVDVolumeInfo</a> method.
+This enumeration is used in the <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdvolumeinfo">IDvdInfo2::GetDVDVolumeInfo</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdvolumeinfo">IDvdInfo2::GetDVDVolumeInfo</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdvolumeinfo">IDvdInfo2::GetDVDVolumeInfo</a>

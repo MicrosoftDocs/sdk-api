@@ -63,7 +63,7 @@ Handle to the top-level window that will contain the Ribbon.
 
 ### -param application [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>*</b>
 
 Pointer to the IUIApplication implementation of the host application.
 
@@ -103,7 +103,7 @@ This method must be called by the host application for each top-level window tha
 
 This method is used to set up the hooks that enable the Ribbon framework to invoke callbacks in the host application.
 
-To initialize the Ribbon successfully, a compiled Ribbon markup file must be available as a resource and specified in a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">IUIFramework::LoadUI</a>. This markup file is an integral component of the framework; it specifies the controls to be used and their layout.
+To initialize the Ribbon successfully, a compiled Ribbon markup file must be available as a resource and specified in a subsequent call to <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">IUIFramework::LoadUI</a>. This markup file is an integral component of the framework; it specifies the controls to be used and their layout.
 
 If <b>IUIFramework::Initialize</b> returns successfully: 
 
@@ -191,17 +191,16 @@ bool InitializeFramework(HWND hWnd)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">IUIFramework::LoadUI</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">IUIFramework::LoadUI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

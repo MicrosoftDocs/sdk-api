@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X500NameFlags</b> enumeration type specifies the display and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encoding</a> characteristics of a distinguished name or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN).  This enumeration is used to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object.
+The <b>X500NameFlags</b> enumeration type specifies the display and <a href="/windows/desktop/SecGloss/e-gly">encoding</a> characteristics of a distinguished name or <a href="/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN).  This enumeration is used to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ Display characteristics are not identified.
 
 ### -field XCN_CERT_SIMPLE_NAME_STR
 
-All <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) are discarded. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">Relative distinguished names</a> (RDNs) are separated by commas followed by a space (, ). RDN attributes are separated by a plus sign enclosed within spaces ( + ).
+All <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) are discarded. <a href="/windows/desktop/SecGloss/r-gly">Relative distinguished names</a> (RDNs) are separated by commas followed by a space (, ). RDN attributes are separated by a plus sign enclosed within spaces ( + ).
 
 ### -field XCN_CERT_OID_NAME_STR
 
@@ -68,7 +68,7 @@ OIDs are separated from their associated attribute value by using an equal sign 
 
 ### -field XCN_CERT_X500_NAME_STR
 
-OIDs are converted to their <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> key names. They are separated from their associated attribute value by using an equal sign (=). RDNs are separated by a comma followed by a space (, ). RDN attributes are separated by a plus sign followed by a space (+ ).
+OIDs are converted to their <a href="/windows/desktop/SecGloss/x-gly">X.500</a> key names. They are separated from their associated attribute value by using an equal sign (=). RDNs are separated by a comma followed by a space (, ). RDN attributes are separated by a plus sign followed by a space (+ ).
 
 If an OID does not have a corresponding X.500 name, the OID is used with a prefix of OID. The RDN is enclosed within quotation marks (" ") if it contains leading or trailing white space or one of the following characters:<ul>
 <li>Comma (,)</li>
@@ -130,7 +130,7 @@ Specifies that the separator between RDNs is a comma (,).
 
 ### -field XCN_CERT_NAME_STR_REVERSE_FLAG
 
-Specifies that the order of the RDNs that make up the distinguished name (DN) is reversed for encoding. The typical DN display order is CN=<i>name</i>,...,DC=<i>com</i>. Use this flag to change the encoding order to DC=<i>com</i>,...,CN=<i>name</i>. An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object sets this flag by default unless you specify  XCN_CERT_NAME_STR_FORWARD_FLAG.
+Specifies that the order of the RDNs that make up the distinguished name (DN) is reversed for encoding. The typical DN display order is CN=<i>name</i>,...,DC=<i>com</i>. Use this flag to change the encoding order to DC=<i>com</i>,...,CN=<i>name</i>. An <a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object sets this flag by default unless you specify  XCN_CERT_NAME_STR_FORWARD_FLAG.
 
 ### -field XCN_CERT_NAME_STR_FORWARD_FLAG
 
@@ -231,13 +231,12 @@ Prevents forcing printable Unicode strings to be encoded by using UTF-8. Use whe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a>

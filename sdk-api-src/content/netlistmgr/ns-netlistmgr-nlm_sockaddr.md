@@ -60,9 +60,8 @@ An IPv4/IPv6 destination address.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanager">INetworkCostManager</a>
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanager">INetworkCostManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanagerevents">INetworkCostManagerEvents</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanagerevents">INetworkCostManagerEvents</a>

@@ -70,11 +70,11 @@ Indicates whether to disable encryption (<b>TRUE</b>) or enable it
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Under normal circumstances, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will not encrypt 
+Under normal circumstances, <a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will not encrypt 
     files and directories with the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute set. It is possible to 
     override the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute and encrypt files. Also, if a file or 
     directory is marked with the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute, it will normally be
@@ -91,9 +91,9 @@ If <b>TRUE</b> is passed in,
 Disable=1</code></pre>
 If the section already exists but <i>Disable</i> is set to 0, it will be set to 1.
 
-Thereafter, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will fail on the 
+Thereafter, <a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will fail on the 
     directory and the files in it, and the code that 
-    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns will be 
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns will be 
     <b>ERROR_DIR_EFS_DISALLOWED</b>. This function does not affect encryption of subdirectories 
     within the given directory.
 
@@ -101,8 +101,8 @@ The user can also manually add or edit the above lines in the Desktop.ini file a
     same effect.
 
 <b>EncryptionDisable</b> affects only 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>. After the directory is 
+    <a href="/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a> and 
+    <a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>. After the directory is 
     encrypted, any new files and new subdirectories created without the 
     <b>FILE_ATTRIBUTE_SYSTEM</b> attribute will be encrypted.
 
@@ -184,29 +184,28 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
+<a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>

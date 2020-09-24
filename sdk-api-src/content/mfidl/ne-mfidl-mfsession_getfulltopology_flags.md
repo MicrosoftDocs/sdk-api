@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology">IMFMediaSession::GetFullTopology</a> method.
+Defines flags for the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology">IMFMediaSession::GetFullTopology</a> method.
 
 ## -enum-fields
 
@@ -60,9 +60,8 @@ Get the full topology for the presentation that the Media Session is currently p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a>
-
+<a href="/windows/desktop/medfound/media-session">Media Session</a>

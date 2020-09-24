@@ -67,7 +67,7 @@ Scope of the device host. If <b>NULL</b>, no scopes are associated with the host
 
 ### -param pNotificationSink [in, optional]
 
-Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehostnotify">IWSDDeviceHostNotify</a> object that specifies the notification sink.
+Reference to an <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehostnotify">IWSDDeviceHostNotify</a> object that specifies the notification sink.
 
 ## -returns
 
@@ -107,7 +107,7 @@ The device host has already been started.
 </dl>
 </td>
 <td width="60%">
-The method failed. It may have failed because the host has not been initialized. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
+The method failed. It may have failed because the host has not been initialized. Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
 
 </td>
 </tr>
@@ -126,5 +126,4 @@ There is no metadata associated with the host.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

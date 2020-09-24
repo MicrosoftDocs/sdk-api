@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICINFO</b> structure contains compression parameters supplied by a video compression driver. The driver fills or updates the structure when it receives the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getinfo">ICM_GETINFO</a> message.
+The <b>ICINFO</b> structure contains compression parameters supplied by a video compression driver. The driver fills or updates the structure when it receives the <a href="/windows/desktop/Multimedia/icm-getinfo">ICM_GETINFO</a> message.
 
 ## -struct-fields
 
@@ -81,7 +81,7 @@ Applicable flags. Zero or more of the following flags can be set:
 </dl>
 </td>
 <td width="60%">
-Driver is requesting to compress all frames. For information about compressing all frames, see the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a> message.
+Driver is requesting to compress all frames. For information about compressing all frames, see the <a href="/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a> message.
 
 </td>
 </tr>
@@ -169,17 +169,16 @@ Name of the module containing VCM compression driver. Normally, a driver does no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a>
+<a href="/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getinfo">ICM_GETINFO</a>
+<a href="/windows/desktop/Multimedia/icm-getinfo">ICM_GETINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>

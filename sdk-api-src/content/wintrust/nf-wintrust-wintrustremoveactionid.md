@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>WintrustRemoveActionID</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For certificate verification, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions. For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> technology signature verification, use the .NET Framework.]
+<p class="CCE_Message">[The <b>WintrustRemoveActionID</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For certificate verification, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions. For <a href="/windows/desktop/SecGloss/a-gly">Authenticode</a> technology signature verification, use the .NET Framework.]
 
-The <b>WintrustRemoveActionID</b> function removes an action added by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a> function. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>WintrustRemoveActionID</b> function removes an action added by the <a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a> function. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 ## -parameters
 
 ### -param pgActionID [in]
 
-A pointer to a <b>GUID</b> structure that identifies the action to remove and the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> that supports that action.
+A pointer to a <b>GUID</b> structure that identifies the action to remove and the <a href="/windows/desktop/SecGloss/t-gly">trust provider</a> that supports that action.
 
 The WinTrust service is designed to work with trust providers implemented by third parties. Each trust provider provides its own unique set of action identifiers. For information about the action identifiers supported by a trust provider, see the documentation for that trust provider.
 
@@ -107,5 +107,4 @@ The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the fu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a>
-
+<a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a>

@@ -63,11 +63,11 @@ The Unicode plain text.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the text is successfully returned in the output argument, the return value is <b>S_OK</b>.
 
-If the method fails, the return value is one of the following <b>HRESULT</b> codes. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method fails, the return value is one of the following <b>HRESULT</b> codes. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -102,7 +102,7 @@ Could not allocate memory for copy of the text.
 
 The host (caller) takes ownership of the returned <b>BSTR</b>.
 
-Other ways to retrieve plain text data are to use <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> or the Text Object Model (TOM) <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">GetText</a> method.
+Other ways to retrieve plain text data are to use <a href="/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> or the Text Object Model (TOM) <a href="/windows/desktop/api/tom/nf-tom-itextrange-gettext">GetText</a> method.
 
 If there is no text in the control, the <b>BSTR</b> is allocated and 0x000D is returned in it.
 
@@ -114,11 +114,11 @@ The returned text will <i>not</i> necessarily be null-terminated.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">GetText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-gettext">GetText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
@@ -130,9 +130,8 @@ The returned text will <i>not</i> necessarily be null-terminated.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a>
+<a href="/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

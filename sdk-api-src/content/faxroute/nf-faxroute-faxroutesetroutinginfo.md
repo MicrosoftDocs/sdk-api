@@ -84,7 +84,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
+If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
 
 ## -remarks
 
@@ -92,13 +92,12 @@ The fax service calls the <b>FaxRouteSetRoutingInfo</b> function to modify routi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-about-the-fax-routing-extension-api">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-about-the-fax-routing-extension-api">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-routing-extension-functions">Fax Routing Extension Functions</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-routing-extension-functions">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxroute/nf-faxroute-faxroutegetroutinginfo">FaxRouteGetRoutingInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/faxroute/nf-faxroute-faxroutegetroutinginfo">FaxRouteGetRoutingInfo</a>

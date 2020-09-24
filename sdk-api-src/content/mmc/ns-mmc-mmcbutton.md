@@ -144,5 +144,4 @@ A pointer to the text for a particular tooltip.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>

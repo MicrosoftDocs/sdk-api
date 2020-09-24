@@ -78,8 +78,8 @@ Pointer to an structure that contains the new credentials.
 
 
 When Microsoft is the primary authenticator (that is, when <i>lpAuthentifoType</i> is "MSV1_0:Interactive" or "Kerberos:Interactive"), the structure used is 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
 
 ### -param lpPreviousAuthentInfoType [in]
 
@@ -104,8 +104,8 @@ Pointer to a structure that contains the credentials used before the authenticat
 
 
 When Microsoft is the primary authenticator, the structure used is 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
 
 ### -param lpStationName [in]
 
@@ -234,7 +234,7 @@ If the function fails, it returns an error code, which can be one of the followi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nppasswordchangenotify">NPPasswordChangeNotify</a> is not supported.
+<a href="/windows/desktop/api/npapi/nf-npapi-nppasswordchangenotify">NPPasswordChangeNotify</a> is not supported.
 
 </td>
 </tr>
@@ -270,13 +270,12 @@ The  <b>NPPasswordChangeNotify</b> function is implemented by credential manager
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a>
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetcaps">NPGetCaps</a>
+<a href="/windows/desktop/api/npapi/nf-npapi-npgetcaps">NPGetCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a>
-
+<a href="/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a>

@@ -129,9 +129,8 @@ This member is reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbolservercallbackproc">SymbolServerCallback</a>
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbolservercallbackproc">SymbolServerCallback</a>

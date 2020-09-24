@@ -101,13 +101,12 @@ Cancel the printing operation as soon as possible.
 
 ## -remarks
 
-Implementations of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iprint-print">IPrint::Print</a> call this method at periodic intervals during the printing process. The <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a> implementation should call back at least after printing each page, so that its client can, if necessary, display useful visual feedback to the user. <b>IPrint::Print</b> can call back multiple times with the same <i>nCntPrinted</i> and <i>nCurPage</i> values, which is sometimes useful when a page being printed is complex and it is appropriate to give a user an opportunity to cancel in mid-page.
+Implementations of <a href="/windows/desktop/api/docobj/nf-docobj-iprint-print">IPrint::Print</a> call this method at periodic intervals during the printing process. The <a href="/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a> implementation should call back at least after printing each page, so that its client can, if necessary, display useful visual feedback to the user. <b>IPrint::Print</b> can call back multiple times with the same <i>nCntPrinted</i> and <i>nCurPage</i> values, which is sometimes useful when a page being printed is complex and it is appropriate to give a user an opportunity to cancel in mid-page.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a>
+<a href="/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>
-
+<a href="/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>

@@ -73,7 +73,7 @@ A Boolean value that specifies whether the connection should be closed if there 
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or network error code such as one of the following values.
+If the function fails, the return value is a <a href="/windows/desktop/Debug/system-error-codes">system error code</a> or network error code such as one of the following values.
 
 <table>
 <tr>
@@ -125,4 +125,3 @@ There are open files on the connection, and <i>fForce</i> parameter was set to <
 </td>
 </tr>
 </table>
-

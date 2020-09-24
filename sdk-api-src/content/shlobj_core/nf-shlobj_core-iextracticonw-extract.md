@@ -94,9 +94,8 @@ Returns S_OK if the function extracted the icon, or S_FALSE if the calling appli
 
 ## -remarks
 
-The icon location and index are the same values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> method. If <b>IExtractIcon::Extract</b> function returns S_FALSE, these values must specify an icon file name and index that form legal parameters for a call to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>. If <b>IExtractIcon::Extract</b> does not return S_FALSE, no assumptions should be made about the meanings of the <i>pszFile</i> and <i>nIconIndex</i> parameters.
+The icon location and index are the same values returned by the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> method. If <b>IExtractIcon::Extract</b> function returns S_FALSE, these values must specify an icon file name and index that form legal parameters for a call to <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>. If <b>IExtractIcon::Extract</b> does not return S_FALSE, no assumptions should be made about the meanings of the <i>pszFile</i> and <i>nIconIndex</i> parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a>

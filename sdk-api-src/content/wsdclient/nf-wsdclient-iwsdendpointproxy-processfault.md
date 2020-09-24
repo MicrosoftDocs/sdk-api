@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Processes a SOAP fault retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdendpointproxy-getfaultinfo">GetFaultInfo</a>.
+Processes a SOAP fault retrieved by <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdendpointproxy-getfaultinfo">GetFaultInfo</a>.
 
 ## -parameters
 
 ### -param pFault [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure containing the fault data.
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure containing the fault data.
 
 ## -returns
 
@@ -104,5 +104,4 @@ The fault was not stored in memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>

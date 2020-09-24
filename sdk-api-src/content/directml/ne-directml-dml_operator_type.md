@@ -52,7 +52,7 @@ api_name:
 
 Defines the type of an operator description.
 
-See [DML_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_operator_desc) for the usage of this enumeration.
+See [DML_OPERATOR_DESC](./ns-directml-dml_operator_desc.md) for the usage of this enumeration.
 
 ## -enum-fields
 
@@ -443,4 +443,3 @@ Indicates the operator described by the [DML_ONE_HOT_OPERATOR_DESC](ns-directml-
 ### -field DML_OPERATOR_RESAMPLE
 
 Indicates the operator described by the [DML_RESAMPLE_OPERATOR_DESC](ns-directml-dml_resample_operator_desc) structure.
-

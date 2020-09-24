@@ -57,9 +57,9 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>LimitExchangeKeyToEncipherment</b> property sets or retrieves a Boolean value that determines whether an AT_KEYEXCHANGE request contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a> and nonrepudiation key usages.
+The <b>LimitExchangeKeyToEncipherment</b> property sets or retrieves a Boolean value that determines whether an AT_KEYEXCHANGE request contains <a href="/windows/desktop/SecGloss/d-gly">digital signature</a> and nonrepudiation key usages.
 
-This property was first introduced in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
+This property was first introduced in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 This property is read/write.
 
@@ -90,9 +90,8 @@ If the value for this property is <b>TRUE</b>, an AT_KEYEXCHANGE request will co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

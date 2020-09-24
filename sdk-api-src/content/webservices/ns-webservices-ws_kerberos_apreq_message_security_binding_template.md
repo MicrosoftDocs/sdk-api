@@ -57,7 +57,7 @@ The security binding template for specifying the use of the Kerberos
         security token with WS-Security.
       
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>
+See also <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>
 
 ## -struct-fields
 
@@ -70,4 +70,3 @@ Application provided security binding properties that cannot be represented in p
 The Windows credential to be used to obtain the Kerberos ticket.  This
           field is required on the client side, but must be <b>NULL</b> on the server
           side.
-

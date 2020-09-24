@@ -65,7 +65,7 @@ A 4-byte signature identifying the file as a PE image. The bytes are "PE\0\0".
 ### -field FileHeader
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a> structure that specifies the file header.
+<a href="/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a> structure that specifies the file header.
 
 ### -field OptionalHeader
 
@@ -87,11 +87,11 @@ typedef struct _IMAGE_NT_HEADERS64 {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-checksummappedfile">CheckSumMappedFile</a>
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-checksummappedfile">CheckSumMappedFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a>
 
 
 
@@ -99,25 +99,24 @@ typedef struct _IMAGE_NT_HEADERS64 {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
+<a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagentheader">ImageNtHeader</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagentheader">ImageNtHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatosection">ImageRvaToSection</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagervatosection">ImageRvaToSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatova">ImageRvaToVa</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagervatova">ImageRvaToVa</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-updatedebuginfofile">UpdateDebugInfoFile</a>
-
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-updatedebuginfofile">UpdateDebugInfoFile</a>

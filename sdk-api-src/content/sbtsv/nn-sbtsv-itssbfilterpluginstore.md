@@ -54,7 +54,7 @@ Filter Plugin Store
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbFilterPluginStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbFilterPluginStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbFilterPluginStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbFilterPluginStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITsSbFilterPluginStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-deleteproperties">DeleteProperties</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-deleteproperties">DeleteProperties</a>
 </td>
 <td align="left" width="63%">
 Deletes a property.
@@ -78,7 +78,7 @@ Deletes a property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-enumerateproperties">EnumerateProperties</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-enumerateproperties">EnumerateProperties</a>
 </td>
 <td align="left" width="63%">
 Enumerates a property set.
@@ -87,7 +87,7 @@ Enumerates a property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-saveproperties">SaveProperties</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-saveproperties">SaveProperties</a>
 </td>
 <td align="left" width="63%">
 Saves a property set.
@@ -98,5 +98,4 @@ Saves a property set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

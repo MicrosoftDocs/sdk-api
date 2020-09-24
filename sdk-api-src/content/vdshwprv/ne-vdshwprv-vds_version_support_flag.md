@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Used to 
     indicate which versions of the VDS interfaces are supported.
@@ -105,9 +105,8 @@ Indicates that the VDS 3.0 interfaces are supported. VDS 3.0 is supported on Win
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovidersupport-getversionsupport">IVdsProviderSupport::GetVersionSupport</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovidersupport-getversionsupport">IVdsProviderSupport::GetVersionSupport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-
+<a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>

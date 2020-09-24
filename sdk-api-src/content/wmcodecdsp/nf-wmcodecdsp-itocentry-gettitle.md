@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetTitle</b> method retrieves the title, set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-settitle">SetTitle</a>, of the entry.
+The <b>GetTitle</b> method retrieves the title, set by a previous call to <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-settitle">SetTitle</a>, of the entry.
 
 ## -parameters
 
@@ -97,9 +97,8 @@ The method returns this error code if <i>pwszTitle</i> is not <b>NULL</b> and th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-settitle">SetTitle</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-settitle">SetTitle</a>

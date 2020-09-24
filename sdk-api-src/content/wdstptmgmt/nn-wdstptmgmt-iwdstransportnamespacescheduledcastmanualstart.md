@@ -54,5 +54,4 @@ An administrator must start transmission on an object of an <b>IWdsTransportName
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcast">IWdsTransportNamespaceScheduledCast</a>
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcast">IWdsTransportNamespaceScheduledCast</a>

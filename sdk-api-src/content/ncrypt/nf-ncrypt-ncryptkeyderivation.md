@@ -60,7 +60,7 @@ Handle of the key derivation function (KDF) key.
 
 ### -param pParameterList [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. The parameters can be specific to a KDF or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
+The address of a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. The parameters can be specific to a KDF or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
 
 <table>
 <tr>
@@ -277,7 +277,7 @@ This function is not supported by the key storage provider.
 
 ## -remarks
 
-You can use the following algorithm identifiers in the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey">NCryptCreatePersistedKey</a> function before calling <b>NCryptKeyDerivation</b>:
+You can use the following algorithm identifiers in the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey">NCryptCreatePersistedKey</a> function before calling <b>NCryptKeyDerivation</b>:
 
 <ul>
 <li><b>BCRYPT_CAPI_KDF_ALGORITHM</b></li>
@@ -288,9 +288,8 @@ You can use the following algorithm identifiers in the <a href="https://docs.mic
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptkeyderivation">BCryptKeyDerivation</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptkeyderivation">BCryptKeyDerivation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptderivekey">NCryptDeriveKey</a>
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptderivekey">NCryptDeriveKey</a>

@@ -77,7 +77,7 @@ Returns the address of the string that was copied, or <b>NULL</b> if the string 
 
 <b>StrDup</b> will allocate storage the size of the original string. If storage allocation is successful, the original string is copied to the duplicate string.
 
-This function uses <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate storage space for the copy of the string. The calling application must free this memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function on the pointer returned by the call to <b>StrDup</b>.
+This function uses <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate storage space for the copy of the string. The calling application must free this memory by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function on the pointer returned by the call to <b>StrDup</b>.
 
 
 #### Examples
@@ -118,4 +118,3 @@ Copy:     This is the buffer text
 
 > [!NOTE]
 > The shlwapi.h header defines StrDup as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

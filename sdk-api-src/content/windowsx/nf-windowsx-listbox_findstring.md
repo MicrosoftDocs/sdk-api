@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Finds the first string in a list box that begins with the specified string. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-findstring">LB_FINDSTRING</a> message explicitly.
+Finds the first string in a list box that begins with the specified string. You can use this macro or send the <a href="/windows/desktop/Controls/lb-findstring">LB_FINDSTRING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,15 +68,14 @@ The zero-based index of the item before the first item to be searched. When the 
 
 ### -param lpszFind
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The string to find.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-findstring">LB_FINDSTRING</a>.
+For more information, see <a href="/windows/desktop/Controls/lb-findstring">LB_FINDSTRING</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-listbox_findstringexact">ListBox_FindStringExact</a>
-
+<a href="/windows/desktop/api/windowsx/nf-windowsx-listbox_findstringexact">ListBox_FindStringExact</a>

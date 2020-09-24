@@ -154,5 +154,4 @@ hr = pInit->SetHKEY(hkey);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>

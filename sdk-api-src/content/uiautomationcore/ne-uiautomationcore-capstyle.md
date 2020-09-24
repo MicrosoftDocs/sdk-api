@@ -90,5 +90,4 @@ Other.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>

@@ -59,12 +59,12 @@ Closes a read batch result handle and frees the memory associated with it.
 
 ### -param hRegReadBatchReply [in]
 
-A handle to a read batch result that was created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatch">ClusterRegCloseReadBatch</a> function.
+A handle to a read batch result that was created by calling the <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatch">ClusterRegCloseReadBatch</a> function.
 
 ## -returns
 
 The function returns one of the following 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -99,13 +99,12 @@ The operation was successful.
 
 ## -remarks
 
-Call the <b>ClusterRegCloseReadBatchReply</b> function to close a read batch result that was created by the  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatch">ClusterRegCloseReadBatch</a> function.
+Call the <b>ClusterRegCloseReadBatchReply</b> function to close a read batch result that was created by the  <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatch">ClusterRegCloseReadBatch</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatch">ClusterRegCloseReadBatch</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatch">ClusterRegCloseReadBatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregreadbatchreplynextcommand">ClusterRegReadBatchReplyNextCommand</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregreadbatchreplynextcommand">ClusterRegReadBatchReplyNextCommand</a>

@@ -56,11 +56,11 @@ The <b>PeerGroupEnumMembers</b> function creates an enumeration of available pee
 
 ### -param hGroup [in]
 
-Handle to the peer group whose members are enumerated. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
+Handle to the peer group whose members are enumerated. This handle is returned by the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 ### -param dwFlags [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_member_flags">PEER_MEMBER_FLAGS</a> flags that indicate which types of members to include in the enumeration. If this value is set to zero, all members of the peer group are included.
+Specifies the <a href="/windows/desktop/api/p2p/ne-p2p-peer_member_flags">PEER_MEMBER_FLAGS</a> flags that indicate which types of members to include in the enumeration. If this value is set to zero, all members of the peer group are included.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ Unicode string that contains the identity of a specific peer whose information i
 ### -param phPeerEnum [out]
 
 Pointer to the enumeration that contains the returned list of peer group members. This handle is passed to  
-	 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to retrieve the items, with each item represented as a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a> structure. When finished, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a> is called to return the memory used by the enumeration. This parameter is required.
+	 <a href="/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to retrieve the items, with each item represented as a pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a> structure. When finished, <a href="/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a> is called to return the memory used by the enumeration. This parameter is required.
 
 ## -returns
 
@@ -133,23 +133,22 @@ The handle to the peer group is invalid.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
 The local node is always the very first item in the enumeration if <i>pwzIdentity</i> is <b>NULL</b>, and <i>dwFlags</i> is set to indicate that the local node is a member of the explicit subset.
 
-By default, every member publishes membership information to the peer group. If <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_property_flags">PEER_MEMBER_DATA_OPTIONAL</a> is set on the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a> data for that peer, this information is only  available when a peer performs an action within the group, for example, publishing a record, updating presence, or issuing a GMC.
+By default, every member publishes membership information to the peer group. If <a href="/windows/desktop/api/p2p/ne-p2p-peer_group_property_flags">PEER_MEMBER_DATA_OPTIONAL</a> is set on the <a href="/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a> data for that peer, this information is only  available when a peer performs an action within the group, for example, publishing a record, updating presence, or issuing a GMC.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetitemcount">PeerGetItemCount</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergetitemcount">PeerGetItemCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>

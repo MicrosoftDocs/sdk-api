@@ -62,13 +62,13 @@ A handle to the image list.
 
 ### -param hbmImage [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to the bitmap that contains the image or images. The number of images is inferred from the width of the bitmap.
 
 ### -param hbmMask [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to the bitmap that contains the mask. If no mask is used with the image list, this parameter is ignored. This parameter can be <b>NULL</b>.
 
@@ -80,7 +80,6 @@ Returns the index of the first new image if successful, or -1 otherwise.
 
 ## -remarks
 
-The <b>ImageList_Add</b> function copies the bitmap to an internal data structure. Be sure to use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete 
+The <b>ImageList_Add</b> function copies the bitmap to an internal data structure. Be sure to use the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete 
 				<i>hbmImage</i> and 
 				<i>hbmMask</i> after the function returns.
-

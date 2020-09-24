@@ -53,10 +53,10 @@ api_name:
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>AddCertTypeToRequestWStrEx</b> method, like the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-addcerttypetorequestwstr">AddCertTypeToRequestWStr</a> method, adds a certificate template (also known as certificate type) to a request.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-addcerttypetorequestwstr">AddCertTypeToRequestWStr</a> method, adds a certificate template (also known as certificate type) to a request.
 
 This method is associated with the Certificate Services enterprise 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/policy-modules">policy module</a>. This method is specialized, and its use is not recommended for most applications. This version can add a V2 template extension into a request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
+<a href="/windows/desktop/SecCrypto/policy-modules">policy module</a>. This method is specialized, and its use is not recommended for most applications. This version can add a V2 template extension into a request. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ## -parameters
 
@@ -93,7 +93,7 @@ Uses a version 2 extension
 
 ### -param pwszOIDOrName [in]
 
-A pointer to a null-terminated character string that represents the fully qualified name of the certificate template that is being added to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This value is interpreted by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>.
+A pointer to a null-terminated character string that represents the fully qualified name of the certificate template that is being added to the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. This value is interpreted by the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>.
 
 ### -param lMajorVersion [in]
 
@@ -114,12 +114,11 @@ The return value is an <b>HRESULT</b>, with S_OK returned if the call is success
 ## -remarks
 
 This method supports only the new request method, 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-createrequestwstr">createRequestWStr</a>. It does not support the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a> method.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll4-createrequestwstr">createRequestWStr</a>. It does not support the 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a> method.
 
 This method can be called multiple times to establish multiple certificate templates for the request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

@@ -61,7 +61,7 @@ Zero-based index of the output stream on this node.
 
 ### -param pDownstreamNode [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node to connect to.
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node to connect to.
 
 ### -param dwInputIndexOnDownstreamNode [in]
 
@@ -129,15 +129,14 @@ A node cannot be connected to itself. If <i>pDownstreamNode</i> specifies the sa
 
 </li>
 </ul>
-However, if the method succeeds, it does not guarantee that the node connection is valid. It is possible to create a partial topology that the topology loader cannot resolve. If so, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopoloader-load">IMFTopoLoader::Load</a> method will fail.
+However, if the method succeeds, it does not guarantee that the node connection is valid. It is possible to create a partial topology that the topology loader cannot resolve. If so, the <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopoloader-load">IMFTopoLoader::Load</a> method will fail.
 
-To break an existing node connection, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-disconnectoutput">IMFTopologyNode::DisconnectOutput</a>.
+To break an existing node connection, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-disconnectoutput">IMFTopologyNode::DisconnectOutput</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

@@ -54,9 +54,9 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>ProviderNameWStr</b> property sets or retrieves the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use.
+The <b>ProviderNameWStr</b> property sets or retrieves the name of the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use.
 
-If the CSP has not been specified, the default value for this property  is "Microsoft Base Cryptographic Provider", and the <b>ProviderNameWStr</b> property is set to an empty string. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
+If the CSP has not been specified, the default value for this property  is "Microsoft Base Cryptographic Provider", and the <b>ProviderNameWStr</b> property is set to an empty string. This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 This property is read/write.
 
@@ -68,17 +68,16 @@ The <b>ProviderNameWStr</b> property affects the behavior of the following metho
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createfilepkcs10wstr">createFilePKCS10WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createfilepkcs10wstr">createFilePKCS10WStr</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-enumcontainerswstr">enumContainersWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-enumcontainerswstr">enumContainersWStr</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>

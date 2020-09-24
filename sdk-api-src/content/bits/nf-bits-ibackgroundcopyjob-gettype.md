@@ -57,7 +57,7 @@ Retrieves the type of transfer being performed, such as a file download or uploa
 ### -param pVal [out]
 
 Type of transfer being performed. For a list of transfer types, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a> enumeration.
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a> enumeration.
 
 ## -returns
 
@@ -95,13 +95,12 @@ The <i>pJobType</i> parameter cannot be <b>NULL</b>.
 ## -remarks
 
 Specify the type of transfer when you 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">create the job</a>.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">create the job</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a>
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a>

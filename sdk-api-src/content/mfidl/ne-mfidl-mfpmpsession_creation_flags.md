@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains flags that define the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a> function.
+Contains flags that define the behavior of the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a> function.
 
 ## -enum-fields
 
@@ -62,5 +62,4 @@ If this flag is set, the Protected Media Path (PMP) Media Session is created in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

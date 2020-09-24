@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Appends one string to another.
-<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a> instead. See Security Considerations. </div><div> </div>
+<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a> instead. See Security Considerations. </div><div> </div>
 
 ## -parameters
 
@@ -94,54 +94,53 @@ If the function fails, the return value is <b>NULL</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcata">StringCbCat</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcata">StringCbCat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatnexa">StringCbCatNEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatnexa">StringCbCatNEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatexa">StringCchCatEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatexa">StringCchCatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatna">StringCchCatN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatna">StringCchCatN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
+<a href="/windows/desktop/menurc/strings">Strings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winbase.h header defines lstrcat as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

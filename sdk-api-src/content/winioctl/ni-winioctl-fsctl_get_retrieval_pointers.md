@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -112,9 +112,9 @@ Cluster Shared Volume File System (CsvFS) | Yes
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
-* [Defragmentation](https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files)
+* [Defragmentation](/windows/desktop/FileIO/defragmenting-files)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)
 * [FSCTL_GET_RETRIEVAL_POINTER_BASE](ni-winioctl-fsctl_get_retrieval_pointer_base.md)
 * [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md)
 * [GetOverlappedResult](../ioapiset/nf-ioapiset-getoverlappedresult.md)
@@ -122,4 +122,3 @@ Cluster Shared Volume File System (CsvFS) | Yes
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
 * [RETRIEVAL_POINTERS_BUFFER](ns-winioctl-retrieval_pointers_buffer.md)
 * [STARTING_VCN_INPUT_BUFFER](ns-winioctl-starting_vcn_input_buffer.md)
-

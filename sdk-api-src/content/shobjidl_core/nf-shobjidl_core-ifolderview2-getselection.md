@@ -62,7 +62,7 @@ If <b>TRUE</b>, this method returns an IShellItemArray containing the parent fol
 
 ### -param ppsia [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
 
 The address of a pointer to an IShellItemArray.
 
@@ -100,4 +100,3 @@ The IShellItemArray returned has zero items.
 </td>
 </tr>
 </table>
-

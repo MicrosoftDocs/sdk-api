@@ -46,9 +46,6 @@ api_name:
  - GPM.GetMigrationTable
 ---
 
-# IGPM::GetMigrationTable
-
-
 ## -description
 
 Loads the migration table at a specified path.
@@ -60,18 +57,6 @@ Loads the migration table at a specified path.
 The path of the migration table to be loaded. Use a null-terminated string.
 
 ### -param ppMigrationTable
-
-TBD
-
-
-
-
-#### - bstrFilePath [in]
-
-The path of the migration table to be loaded.
-
-
-#### - ppTable [out]
 
 The migration table interface that contains the entries from the migration table.
 
@@ -88,9 +73,6 @@ Returns a reference to a <b>GPMMigrationTable</b> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmigrationtable">IGPMMigrationTable</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmigrationtable">IGPMMigrationTable</a>

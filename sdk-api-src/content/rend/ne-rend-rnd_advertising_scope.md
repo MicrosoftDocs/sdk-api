@@ -55,7 +55,7 @@ provides similar functionality.]
 
 Members of the 
 <b>RND_ADVERTISING_SCOPE</b> enumeration specify how widely a conference announcement is distributed. Values correspond to the advertising scope property on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a> interface.
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a> interface.
 
 ## -enum-fields
 
@@ -110,13 +110,12 @@ Mapping between scope string value, enum value, and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_advertisingscope">get_AdvertisingScope</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_advertisingscope">get_AdvertisingScope</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_advertisingscope">put_AdvertisingScope</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_advertisingscope">put_AdvertisingScope</a>

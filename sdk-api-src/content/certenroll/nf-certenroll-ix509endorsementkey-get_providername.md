@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The name of the encryption provider. The default is the Microsoft Platform Crypto Provider. You must set the <b>ProviderName</b> property before you call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-open">Open</a> method. You cannot change the <b>ProviderName</b> property after you have called the <b>Open</b> method.
+The name of the encryption provider. The default is the Microsoft Platform Crypto Provider. You must set the <b>ProviderName</b> property before you call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-open">Open</a> method. You cannot change the <b>ProviderName</b> property after you have called the <b>Open</b> method.
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>

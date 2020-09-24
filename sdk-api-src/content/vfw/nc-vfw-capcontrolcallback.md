@@ -54,7 +54,7 @@ The <b>capControlCallback</b> function is the callback function used for precisi
 
 
 
-To set the callback, send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-capcontrol">WM_CAP_SET_CALLBACK_CAPCONTROL</a> message to the capture window or call the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackoncapcontrol">capSetCallbackOnCapControl</a> macro.
+To set the callback, send the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-capcontrol">WM_CAP_SET_CALLBACK_CAPCONTROL</a> message to the capture window or call the <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackoncapcontrol">capSetCallbackOnCapControl</a> macro.
 
 ## -parameters
 
@@ -76,9 +76,8 @@ The first message sent to the callback procedure sets the <i>nState</i> paramete
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>

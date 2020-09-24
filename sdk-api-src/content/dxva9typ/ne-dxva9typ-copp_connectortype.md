@@ -47,9 +47,6 @@ api_name:
  - COPP_ConnectorType
 ---
 
-# COPP_ConnectorType enumeration
-
-
 ## -description
 
 Specifies the type of physical connector.
@@ -104,34 +101,6 @@ Internal connector. This flag can be combined with the other flags. This flag in
 
 Reserved. Do not use.
 
-
-#### - COPP_ConnectorType_DisplayPortEmbedded
-
-An embedded display port that connects internally to a display device. Also known as an <i>integrated</i> display port.
-
-Applications should not enable High-Bandwidth Digital Content Protection (HDCP)  for embedded display ports.
-
-
-#### - COPP_ConnectorType_DisplayPortExternal
-
-A display port that connects externally to a display device
-
-
-#### - COPP_ConnectorType_SDI
-
-Serial digital image connector.
-          
-
-
-#### - COPP_ConnectorType_UDIEmbedded
-
-An embedded UDI that connects internally to a display device. Also known as an <i>integrated</i> UDI.
-
-
-#### - COPP_ConnectorType_UDIExternal
-
-A Unified Display Interface (UDI) that connects externally to a display device.
-
 ## -remarks
 
 If a connector is described as <i>embedded</i> or <i>integrated</i>, it implies that the connector  is internal. These connectors have "Embedded" in the name of the enumeration constant. 
@@ -140,9 +109,8 @@ Applications should ignore the <b>COPP_ConnectorType_Internal</b> flag and inste
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

@@ -87,14 +87,14 @@ List of client controls.
 ### -param MessageNumber [out]
 
 Pointer to a variable that receives the message identifier for this asynchronous operation. Use this identifier with the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> function to retrieve the results of the operation.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> function to retrieve the results of the operation.
 
 ## -returns
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. See 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
 
 ## -remarks
 
@@ -104,17 +104,16 @@ Multithreading: Calls to <b>ldap_rename_ext</b> are thread-safe.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>
+<a href="/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/modifying-a-directory-entry">Modifying a Directory Entry</a>
+<a href="/previous-versions/windows/desktop/ldap/modifying-a-directory-entry">Modifying a Directory Entry</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
-
+<a href="/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>

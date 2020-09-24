@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DrvPaint</b> function is obsolete, and is no longer called by GDI in Windows 2000 and later. New drivers should implement one or more of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokeandfillpath">DrvStrokeAndFillPath</a>.
+The <b>DrvPaint</b> function is obsolete, and is no longer called by GDI in Windows 2000 and later. New drivers should implement one or more of <a href="/windows/desktop/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>, <a href="/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>, or <a href="/windows/desktop/api/winddi/nf-winddi-drvstrokeandfillpath">DrvStrokeAndFillPath</a>.
 
 ## -parameters
 
@@ -63,4 +63,3 @@ The <b>DrvPaint</b> function is obsolete, and is no longer called by GDI in Wind
 ### -param pptlBrushOrg [in]
 
 ### -param mix [in]
-

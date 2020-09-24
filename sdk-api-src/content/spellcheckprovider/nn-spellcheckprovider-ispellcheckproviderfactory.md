@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-A factory for instantiating a spell checker (<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>) as well as providing functionality for determining which languages are supported.
+A factory for instantiating a spell checker (<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>) as well as providing functionality for determining which languages are supported.
 
   This is instantiated by providers and used by the Spell Checking API.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellCheckProviderFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpellCheckProviderFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellCheckProviderFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpellCheckProviderFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>ISpellCheckProviderFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-createspellcheckprovider">CreateSpellCheckProvider</a>
+<a href="/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-createspellcheckprovider">CreateSpellCheckProvider</a>
 </td>
 <td align="left" width="63%">
 Creates a spell checker (implemented by a spell check provider) that supports the specified language.
@@ -81,7 +81,7 @@ Creates a spell checker (implemented by a spell check provider) that supports th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">IsSupported</a>
+<a href="/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">IsSupported</a>
 </td>
 <td align="left" width="63%">
 Determines if the specified language is supported by this spell checker.
@@ -99,7 +99,7 @@ Determines if the specified language is supported by this spell checker.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-get_supportedlanguages">SupportedLanguages</a>
+<a href="/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-get_supportedlanguages">SupportedLanguages</a>
 
 
 </td>
@@ -116,5 +116,4 @@ Gets the set of languages/dialects supported by the spell checker.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
-
+<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>

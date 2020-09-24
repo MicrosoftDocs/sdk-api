@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Downgrades the frame rate on a digital video (DV) stream. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-splitter-filter">DV Splitter</a> filter exposes this interface.
+Downgrades the frame rate on a digital video (DV) stream. The <a href="/windows/desktop/DirectShow/dv-splitter-filter">DV Splitter</a> filter exposes this interface.
 
-Applications can use this interface to reduce the frame rate on a DV stream, before the stream reaches the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filter. This can be helpful for processor-intensive tasks, such as real-time transcoding.
+Applications can use this interface to reduce the frame rate on a DV stream, before the stream reaches the <a href="/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filter. This can be helpful for processor-intensive tasks, such as real-time transcoding.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVSplitter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVSplitter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVSplitter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVSplitter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDVSplitter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvsplitter-discardalternatevideoframes">DiscardAlternateVideoFrames</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvsplitter-discardalternatevideoframes">DiscardAlternateVideoFrames</a>
 </td>
 <td align="left" width="63%">
 Discards half of the frames in the video stream.
@@ -80,4 +80,3 @@ Discards half of the frames in the video stream.
 </td>
 </tr>
 </table>
-

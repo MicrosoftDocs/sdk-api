@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DrtDeletePnrpBootstrapResolver</b> function deletes a  bootstrap resolver based on the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-namespace-provider-api">Peer Name Resolution Protocol</a> (PNRP).
+The <b>DrtDeletePnrpBootstrapResolver</b> function deletes a  bootstrap resolver based on the <a href="/windows/desktop/P2PSdk/pnrp-namespace-provider-api">Peer Name Resolution Protocol</a> (PNRP).
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Pointer to the created PNRP bootstrap resolver to be deleted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatepnrpbootstrapresolver">DrtCreatePnrpBootstrapResolver</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtcreatepnrpbootstrapresolver">DrtCreatePnrpBootstrapResolver</a>

@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>CertEnumSubjectInSortedCTL</b> function retrieves the first or next TrustedSubject in a sorted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL). A sorted CTL is a CTL created with the CERT_CREATE_CONTEXT_SORTED_FLAG set. Used in a loop, this function can retrieve in sequence all TrustedSubjects in a sorted CTL.
+The <b>CertEnumSubjectInSortedCTL</b> function retrieves the first or next TrustedSubject in a sorted <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL). A sorted CTL is a CTL created with the CERT_CREATE_CONTEXT_SORTED_FLAG set. Used in a loop, this function can retrieve in sequence all TrustedSubjects in a sorted CTL.
 
 ## -parameters
 
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be searched.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be searched.
 
 ### -param ppvNextSubject [in, out]
 
@@ -66,11 +66,11 @@ A pointer to the address of the last TrustedSubject found. To start the enumerat
 ### -param pSubjectIdentifier [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure, uniquely identifying a TrustedSubject. The information in this structure can be a hash or any unique byte sequence.
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure, uniquely identifying a TrustedSubject. The information in this structure can be a hash or any unique byte sequence.
 
 ### -param pEncodedAttributes [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure containing a byte count and a pointer to the TrustedSubject's encoded attributes.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure containing a byte count and a pointer to the TrustedSubject's encoded attributes.
 
 ## -returns
 
@@ -80,19 +80,18 @@ If the function fails, the return value is <b>FALSE</b>. The return value is <b>
 
 ## -remarks
 
-The <b>pbData</b> members of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structures point directly to the encoded bytes. The <b>CRYPT_DER_BLOB</b> structures, themselves, must be allocated and freed by the application, but the memory addressed by the <b>pbData</b> members of these structures is not allocated by the application and must not be freed by the application.
+The <b>pbData</b> members of <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structures point directly to the encoded bytes. The <b>CRYPT_DER_BLOB</b> structures, themselves, must be allocated and freed by the application, but the memory addressed by the <b>pbData</b> members of these structures is not allocated by the application and must not be freed by the application.
 
 If the CTL is not sorted with the CERT_CREATE_CONTEXT_SORTED_FLAG flag set, an error results.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinsortedctl">CertFindSubjectInSortedCTL</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinsortedctl">CertFindSubjectInSortedCTL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate and Certificate Store Maintenance Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate and Certificate Store Maintenance Functions</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital audio stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencddatodconvertertype-property">AVEncDDAtoDConverterType</a> property.
+Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencddatodconvertertype-property">AVEncDDAtoDConverterType</a> property.
 
 ## -enum-fields
 
@@ -64,9 +64,8 @@ High Definition Compatible Digital (HDCD).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

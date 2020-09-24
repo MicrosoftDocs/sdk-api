@@ -68,13 +68,12 @@ Setting the top y-coordinate also changes the height of the rectangle. For examp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-get_hwnd">IMSVidRect::get_HWnd</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidrect-get_hwnd">IMSVidRect::get_HWnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-get_top">IMSVidRect::get_Top</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidrect-get_top">IMSVidRect::get_Top</a>

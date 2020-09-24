@@ -65,5 +65,4 @@ This method returns the following values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
-
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>

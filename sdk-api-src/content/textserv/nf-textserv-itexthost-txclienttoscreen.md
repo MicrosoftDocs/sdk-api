@@ -62,7 +62,7 @@ The client coordinates to convert.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return <b>TRUE</b> if the method succeeds. 
 
@@ -70,15 +70,14 @@ Return <b>FALSE</b> if the method fails.
 
 ## -remarks
 
-This call is valid at any time, although it is allowed to fail. In general, if the text services object needs to translate from client coordinates (for example, for the TOM <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getpoint">GetPoint</a> method) the text services object is visible.
+This call is valid at any time, although it is allowed to fail. In general, if the text services object needs to translate from client coordinates (for example, for the TOM <a href="/windows/desktop/api/tom/nf-tom-itextrange-getpoint">GetPoint</a> method) the text services object is visible.
 
 However, if no conversion is possible, then the method fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>

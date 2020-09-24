@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets text that is retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a> which accessibility tools use to obtain the Name Property of an object.
+Sets text that is retrieved by <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a> which accessibility tools use to obtain the Name Property of an object.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ A pointer to a null-terminated, Unicode string containing the name.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

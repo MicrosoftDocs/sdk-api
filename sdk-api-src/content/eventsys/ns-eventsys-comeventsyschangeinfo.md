@@ -62,7 +62,7 @@ The size of this structure.
 
 ### -field changeType
 
-The type of change that has been made to the subscription. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/ne-eventsys-eoc_changetype">EOC_ChangeType</a>.
+The type of change that has been made to the subscription. For a list of values, see <a href="/windows/desktop/api/eventsys/ne-eventsys-eoc_changetype">EOC_ChangeType</a>.
 
 ### -field objectId
 
@@ -82,5 +82,4 @@ This member is reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange2">IEventObjectChange2</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange2">IEventObjectChange2</a>

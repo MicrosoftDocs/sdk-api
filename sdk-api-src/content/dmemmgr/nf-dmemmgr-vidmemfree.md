@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>VidMemFree</b> function frees <a href="https://docs.microsoft.com/windows-hardware/drivers/">off-screen memory</a> allocated for a display driver by <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>.
+The <b>VidMemFree</b> function frees <a href="/windows-hardware/drivers/">off-screen memory</a> allocated for a display driver by <a href="/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>.
 
 ## -parameters
 
 ### -param pvmh [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-vmemheap">VMEMHEAP</a> structure that represents the DirectDraw heap from which the surface was allocated. The driver obtains this value from the <b>lpHeap</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure originally passed to <b>HeapVidMemAllocAligned</b>.
+Pointer to a <a href="/windows/desktop/api/dmemmgr/ns-dmemmgr-vmemheap">VMEMHEAP</a> structure that represents the DirectDraw heap from which the surface was allocated. The driver obtains this value from the <b>lpHeap</b> member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure originally passed to <b>HeapVidMemAllocAligned</b>.
 
 ### -param ptr [in]
 
@@ -64,13 +64,12 @@ Specifies the FLATPTR offset of the allocated surface. This data type is equival
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>
+<a href="/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-vmemheap">VMEMHEAP</a>
-
+<a href="/windows/desktop/api/dmemmgr/ns-dmemmgr-vmemheap">VMEMHEAP</a>

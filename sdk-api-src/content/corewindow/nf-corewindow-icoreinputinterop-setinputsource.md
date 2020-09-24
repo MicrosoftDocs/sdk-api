@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the input source for an app's <a href="https://docs.microsoft.com/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a> or <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>.
+Sets the input source for an app's <a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a> or <a href="/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>.
 
 ## -parameters
 
@@ -64,13 +64,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>
+<a href="/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>
 
 
 
-<a href="https://docs.microsoft.com/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a>
+<a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop">ICoreInputInterop</a>
-
+<a href="/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop">ICoreInputInterop</a>

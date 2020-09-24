@@ -62,9 +62,8 @@ Represents a position in 3D space, using a right-handed coordinate system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
+<a href="/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

@@ -58,11 +58,10 @@ Font axis, from 0 to [GetFontAxisCount](/windows/win32/api/dwrite/nf-dwrite_3-id
 
 ## -returns
 
-Type: **[DWRITE_FONT_AXIS_ATTRIBUTES](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_attributes)**
+Type: **[DWRITE_FONT_AXIS_ATTRIBUTES](./ne-dwrite_3-dwrite_font_axis_attributes.md)**
 
 The attributes for the given axis, or **DWRITE_FONT_AXIS_ATTRIBUTES_NONE** if *axisIndex* is beyond the font count.
 
 ## -remarks
 
 ## -see-also
-

@@ -56,8 +56,8 @@ A <b>ColorBalanceParams</b> structure contains members that specify the nature o
 You can change the color balance of a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>ColorBalanceParams</b> structure.</li>
-<li>Pass the address of the <b>ColorBalanceParams</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorbalance-setparameters">ColorBalance::SetParameters</a> method of a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object.</li>
-<li>Pass the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object to the <a href="https://docs.microsoft.com/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>ColorBalanceParams</b> structure to the <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorbalance-setparameters">ColorBalance::SetParameters</a> method of a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object.</li>
+<li>Pass the address of the <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object to the <a href="/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields
@@ -79,4 +79,3 @@ Integer in the range -100 through 100 that specifies a change in the amount of g
 Type: <b>INT</b>
 
 Integer in the range -100 through 100 that specifies a change in the amount of blue in the image. If the value is 0, there is no change. As the value moves from 0 to 100, the amount of blue in the image increases and the amount of yellow decreases. As the value moves from 0 to -100, the amount of blue in the image decreases and the amount of yellow increases.
-

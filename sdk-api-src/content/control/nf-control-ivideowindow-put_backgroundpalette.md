@@ -128,13 +128,12 @@ If <i>BackgroundPalette</i> is <b>OATRUE</b> and the video image requires a pall
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_backgroundpalette">IVideoWindow::get_BackgroundPalette</a>
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_backgroundpalette">IVideoWindow::get_BackgroundPalette</a>

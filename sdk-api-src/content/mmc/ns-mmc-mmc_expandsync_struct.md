@@ -58,16 +58,16 @@ The
 The 
 <b>MMC_EXPANDSYNC_STRUCT</b> structure contains information about a scope item that must be expanded synchronously. MMC passes a pointer to an 
 <b>MMC_EXPANDSYNC_STRUCT</b> structure when it calls the snap-in's 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a> method with the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a> notification.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a> method with the 
+<a href="/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a> notification.
 
 ## -struct-fields
 
 ### -field bHandled
 
-A value that specifies whether the snap-in has expanded the specified scope item. If this value is <b>TRUE</b>, the snap-in handles <b>MMC_EXPANDSYNC</b>, and consequently MMC does not send a further <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification to the snap-in.
+A value that specifies whether the snap-in has expanded the specified scope item. If this value is <b>TRUE</b>, the snap-in handles <b>MMC_EXPANDSYNC</b>, and consequently MMC does not send a further <a href="/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification to the snap-in.
 
-The default value for <b>bHandled</b> is <b>FALSE</b>. If the snap-in does not handle <b>MMC_EXPANDSYNC</b> or sets <b>bHandled</b> to <b>FALSE</b>, MMC sends an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification to the snap-in.
+The default value for <b>bHandled</b> is <b>FALSE</b>. If the snap-in does not handle <b>MMC_EXPANDSYNC</b> or sets <b>bHandled</b> to <b>FALSE</b>, MMC sends an <a href="/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification to the snap-in.
 
 ### -field bExpanding
 
@@ -79,22 +79,21 @@ The <b>HSCOPEITEM</b> of the item that must be expanded.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a> notification is sent by MMC when it requires a scope item to be synchronously expanded. Normally, this occurs when a console file is reloaded with a scope item expanded. For more information about handling this notification, see 
+The <a href="/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a> notification is sent by MMC when it requires a scope item to be synchronously expanded. Normally, this occurs when a console file is reloaded with a scope item expanded. For more information about handling this notification, see 
 <b>MMCN_EXPANDSYNC</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a>
-
+<a href="/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The events on the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a> that you can set attention for.
+The events on the <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a> that you can set attention for.
 
 ## -enum-fields
 
@@ -110,5 +110,4 @@ Represents a bitwise combination of all member events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise">ITextInputPanel::Advise Method</a>
-
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise">ITextInputPanel::Advise Method</a>

@@ -56,7 +56,7 @@ Retrieves the current status of an ongoing or complete multicast transmission fr
 
 ### -param hSessionKey [in]
 
-Unique handle returned by the call to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
+Unique handle returned by the call to <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
 
 ### -param puStatus [out]
 
@@ -113,4 +113,3 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 ## -remarks
 
 It is valid to call this function even after a transfer completes as long as the session key has not been closed.
-

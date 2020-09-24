@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Returns the name of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
+Returns the name of a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
     <b>PRESUTIL_GET_RESOURCE_NAME</b> type defines a pointer to this function.
 
 ## -parameters
@@ -59,7 +59,7 @@ Returns the name of a <a href="https://docs.microsoft.com/previous-versions/wind
 ### -param hResource [in]
 
 Resource handle (see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>).
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>).
 
 ### -param pszResourceName [out]
 
@@ -76,5 +76,4 @@ On input, specifies the size of the buffer pointed to by <i>pszResourceName</i>,
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.

@@ -67,21 +67,21 @@ This property is read/write.
 
 A factoid provides recognizer context for recognized ink in the context of a particular field. You specify a factoid if an input field is of a known type, for example, if the input field contains a date.
 
-For more information about factoids and how to use them, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-context-to-improve-accuracy">Improving Tablet PC Recognition Accuracy by Setting Context</a>.
+For more information about factoids and how to use them, see <a href="/windows/desktop/tablet/using-context-to-improve-accuracy">Improving Tablet PC Recognition Accuracy by Setting Context</a>.
 
-Setting the <b>Factoid</b> succeeds only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is <b>NULL</b>. You must set the <b>Factoid</b> before you attach the InkStrokes collection to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> or you must set the Strokes collection to <b>NULL</b> and then set the <b>Factoid</b> (and possibly reattach the InkStrokes collection).
+Setting the <b>Factoid</b> succeeds only if the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is <b>NULL</b>. You must set the <b>Factoid</b> before you attach the InkStrokes collection to the <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> or you must set the Strokes collection to <b>NULL</b> and then set the <b>Factoid</b> (and possibly reattach the InkStrokes collection).
 
-To ensure that ink is recognized in the correct field context, set this property before processing the ink for the first time, such as before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize">Recognize</a> method.
+To ensure that ink is recognized in the correct field context, set this property before processing the ink for the first time, such as before calling the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize">Recognize</a> method.
 
 <div class="alert"><b>Note</b>  All factoids are case sensitive.</div>
 <div> </div>
-This property takes or returns a string parameter and not a class object of the <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid</a> class. The members of this class are of type <b>string</b>.
+This property takes or returns a string parameter and not a class object of the <a href="/windows/desktop/tablet/factoid-constants">Factoid</a> class. The members of this class are of type <b>string</b>.
 
-For the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, this property should only be changed if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns <a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-inkeditstatus">IES_Idle</a>.
+For the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, this property should only be changed if the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns <a href="/windows/desktop/api/inked/ne-inked-inkeditstatus">IES_Idle</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
+<a href="/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
 
 
 
@@ -89,5 +89,4 @@ For the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-contr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
-
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>

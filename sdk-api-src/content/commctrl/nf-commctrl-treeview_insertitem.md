@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Inserts a new item in a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-insertitem">TVM_INSERTITEM</a> message explicitly.
+Inserts a new item in a tree-view control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-insertitem">TVM_INSERTITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -64,9 +64,8 @@ Handle to the tree-view control.
 
 Type: <b>LPTVINSERTSTRUCT</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvinsertstructa">TVINSERTSTRUCT</a> structure that specifies the attributes of the tree-view item.
+Pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-tvinsertstructa">TVINSERTSTRUCT</a> structure that specifies the attributes of the tree-view item.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-endlabeledit">TVN_ENDLABELEDIT</a>
-
+<a href="/windows/desktop/Controls/tvn-endlabeledit">TVN_ENDLABELEDIT</a>

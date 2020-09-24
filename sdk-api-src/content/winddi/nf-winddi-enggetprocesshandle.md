@@ -60,9 +60,8 @@ In Windows 2000 and later, the <b>EngGetProcessHandle</b> function always return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetcurrentprocessid">EngGetCurrentProcessId</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-enggetcurrentprocessid">EngGetCurrentProcessId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetcurrentthreadid">EngGetCurrentThreadId</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-enggetcurrentthreadid">EngGetCurrentThreadId</a>

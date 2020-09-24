@@ -56,7 +56,7 @@ Gets the status of the drag-drop interaction for the viewport this behavior is a
 
 ### -param status [out, retval]
 
-One of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_status">DIRECTMANIPULATION_DRAG_DROP_STATUS</a>.
+One of the values from <a href="/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_status">DIRECTMANIPULATION_DRAG_DROP_STATUS</a>.
 
 ## -returns
 
@@ -68,5 +68,4 @@ This method returns the drag-drop status at the time of the call and not at the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationdragdropbehavior">IDirectManipulationDragDropBehavior</a>
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationdragdropbehavior">IDirectManipulationDragDropBehavior</a>

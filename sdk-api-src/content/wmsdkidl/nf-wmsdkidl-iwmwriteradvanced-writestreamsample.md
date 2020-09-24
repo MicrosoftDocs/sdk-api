@@ -86,7 +86,7 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
@@ -104,7 +104,7 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 
 ### -param pSample [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing the sample.
+Pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing the sample.
 
 ## -returns
 
@@ -160,17 +160,16 @@ Normally the application provides samples to an input file on the <b>IWMWriter</
 
 If the output stream has a time code data unit extension and there is no time code extension on the sample, this method will fail in order not to cause problems later when the file is indexed. All other data unit extensions are optional on the sample. That means that this method will succeed if a data unit extension has been specified for the stream but no actual data extension is present in the sample. <b>WriteStreamSample</b> will write zeros into the file for samples that do not have extensions specified on the sample.
 
-You can use both <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-writesample">IWMWriter::WriteSample</a> and <b>WriteStreamSample</b> to write uncompressed samples and compressed samples to the same stream. However, problems can arise because the writer cannot accurately gauge the bit rate and buffer window usage for the stream samples. Some samples may be dropped as a result.
+You can use both <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-writesample">IWMWriter::WriteSample</a> and <b>WriteStreamSample</b> to write uncompressed samples and compressed samples to the same stream. However, problems can arise because the writer cannot accurately gauge the bit rate and buffer window usage for the stream samples. Some samples may be dropped as a result.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
+<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writing-compressed-samples">Writing Compressed Samples</a>
-
+<a href="/windows/desktop/wmformat/writing-compressed-samples">Writing Compressed Samples</a>

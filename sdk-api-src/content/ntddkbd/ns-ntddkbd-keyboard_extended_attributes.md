@@ -122,7 +122,7 @@ Type: **UCHAR**
 
 String index of a String Descriptor having an IETF Language Tag (Usage ID: 0x2C5).
 
-Actual string can be obtained via [IOCTL_HID_GET_INDEXED_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_indexed_string) IOCTL in kernel-mode drivers or [HidD_GetIndexedString](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring) call in user-mode applications.
+Actual string can be obtained via [IOCTL_HID_GET_INDEXED_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_indexed_string) IOCTL in kernel-mode drivers or [HidD_GetIndexedString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring) call in user-mode applications.
 
 This Language Tag specifies the intended primary locale of the keyboard legend set, conformant to [IETF BCP 47](https://www.rfc-editor.org/rfc/bcp/bcp47.txt) or its successor.
 
@@ -158,4 +158,3 @@ This information comes from HID Keyboard Report Descriptor described in [HID Usa
 [IOCTL_KEYBOARD_QUERY_ATTRIBUTES](ni-ntddkbd-ioctl_keyboard_query_attributes.md)
 
 [HID Usage Table Review Request 42: Consumer Page Keyboard Assist Controls](https://www.usb.org/sites/default/files/hutrr42c_0.pdf)
-

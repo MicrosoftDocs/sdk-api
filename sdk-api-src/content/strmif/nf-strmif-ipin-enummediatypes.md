@@ -57,7 +57,7 @@ The <b>EnumMediaTypes</b> method enumerates the pin's preferred media types.
 
 ### -param ppEnum [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTypes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTypes</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -116,17 +116,16 @@ The pin is not connected. Some pins do not enumerate media types unless the pin 
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTypes</a> interface works like a standard COM enumerator. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enumerating-objects-in-a-filter-graph">Enumerating Objects in a Filter Graph</a>. If the method succeeds, the <b>IEnumMediaTypes</b> interface has an outstanding reference count. Be sure to release it when you are done.
+The <a href="/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTypes</a> interface works like a standard COM enumerator. For more information, see <a href="/windows/desktop/DirectShow/enumerating-objects-in-a-filter-graph">Enumerating Objects in a Filter Graph</a>. If the method succeeds, the <b>IEnumMediaTypes</b> interface has an outstanding reference count. Be sure to release it when you are done.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

@@ -78,9 +78,8 @@ The return value of the function, if it is called successfully.
 ## -returns
 
 <b>TRUE</b> if the specified function was called successfully; otherwise <b>FALSE</b>. To get extended error information, 
-       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-terminateenclave">TerminateEnclave</a>
-
+<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-terminateenclave">TerminateEnclave</a>

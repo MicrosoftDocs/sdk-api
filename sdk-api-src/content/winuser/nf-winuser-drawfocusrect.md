@@ -79,28 +79,27 @@ Because <b>DrawFocusRect</b> is an XOR function, calling it a second time with t
 
 This function draws a rectangle that cannot be scrolled. To scroll an area containing a rectangle drawn by this function, call <b>DrawFocusRect</b> to remove the rectangle from the screen, scroll the area, and then call <b>DrawFocusRect</b> again to draw the rectangle in the new position.
 
-<b>Windows XP:</b> The focus rectangle can now be thicker than 1 pixel, so it is more visible for high-resolution, high-density displays and accessibility needs. This is handled by the SPI_SETFOCUSBORDERWIDTH and SPI_SETFOCUSBORDERHEIGHT in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>.
+<b>Windows XP:</b> The focus rectangle can now be thicker than 1 pixel, so it is more visible for high-resolution, high-density displays and accessibility needs. This is handled by the SPI_SETFOCUSBORDERWIDTH and SPI_SETFOCUSBORDERHEIGHT in <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>.
 
 
 #### Examples
 
-For an example, see "Creating an Owner-Drawn List Box" in <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-boxes">Using List Boxes</a>.
+For an example, see "Creating an Owner-Drawn List Box" in <a href="/windows/desktop/Controls/using-list-boxes">Using List Boxes</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-framerect">FrameRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-framerect">FrameRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
-

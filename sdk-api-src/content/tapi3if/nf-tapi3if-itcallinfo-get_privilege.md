@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_Privilege</b> method gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">call privilege</a> of the application for the current call, such as CP_MONITOR.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">call privilege</a> of the application for the current call, such as CP_MONITOR.
 
 ## -parameters
 
 ### -param pPrivilege [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">CALL_PRIVILEGE</a>.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">CALL_PRIVILEGE</a>.
 
 ## -returns
 
@@ -107,17 +107,16 @@ Insufficient memory exists to perform the operation.
 
 ## -remarks
 
-<b>TAPI 2.1 Cross-Reference: </b><a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
+<b>TAPI 2.1 Cross-Reference: </b><a href="/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">CALL_PRIVILEGE</a>
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">CALL_PRIVILEGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>

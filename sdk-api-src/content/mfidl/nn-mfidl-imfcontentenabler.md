@@ -55,7 +55,7 @@ Implements one step that must be performed for the user to access media content.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFContentEnabler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFContentEnabler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFContentEnabler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFContentEnabler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFContentEnabler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-automaticenable">AutomaticEnable</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-automaticenable">AutomaticEnable</a>
 </td>
 <td align="left" width="63%">
 Performs a content enabling action without any user interaction.
@@ -79,7 +79,7 @@ Performs a content enabling action without any user interaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-cancel">Cancel</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending content enabling action.
@@ -88,7 +88,7 @@ Cancels a pending content enabling action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabledata">GetEnableData</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabledata">GetEnableData</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data for a manual content enabling action.
@@ -97,7 +97,7 @@ Retrieves the data for a manual content enabling action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabletype">GetEnableType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabletype">GetEnableType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of operation that this content enabler performs.
@@ -106,7 +106,7 @@ Retrieves the type of operation that this content enabler performs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenableurl">GetEnableURL</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenableurl">GetEnableURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves a URL for performing a manual content enabling action.
@@ -115,7 +115,7 @@ Retrieves a URL for performing a manual content enabling action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-isautomaticsupported">IsAutomaticSupported</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-isautomaticsupported">IsAutomaticSupported</a>
 </td>
 <td align="left" width="63%">
 Queries whether the content enabler can perform all of its actions automatically.
@@ -124,7 +124,7 @@ Queries whether the content enabler can perform all of its actions automatically
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-monitorenable">MonitorEnable</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-monitorenable">MonitorEnable</a>
 </td>
 <td align="left" width="63%">
 Requests notification when the enabling action is completed.
@@ -135,9 +135,8 @@ Requests notification when the enabling action is completed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
+<a href="/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

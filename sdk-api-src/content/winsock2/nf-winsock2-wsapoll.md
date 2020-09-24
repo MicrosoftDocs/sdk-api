@@ -104,7 +104,7 @@ Returns one of the following values.
 </tr>
 <tr>
 <td>SOCKET_ERROR</td>
-<td>An error occurred. Call the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function to retrieve the extended error code.</td>
+<td>An error occurred. Call the <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function to retrieve the extended error code.</td>
 </tr>
 </table>
  
@@ -119,7 +119,7 @@ Returns one of the following values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +130,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -141,11 +141,11 @@ An exception occurred while reading user input parameters.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed. This error is returned if the [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd) structures  pointed to by the <i>fdarray</i> parameter when requesting socket
+An invalid parameter was passed. This error is returned if the [WSAPOLLFD](./ns-winsock2-wsapollfd.md) structures  pointed to by the <i>fdarray</i> parameter when requesting socket
                        status. This error is also returned if none of the sockets specified in the <b>fd</b> member of any of the <b>WSAPOLLFD</b> structures  pointed to by the <i>fdarray</i> parameter were valid. 
 
 </td>
@@ -153,7 +153,7 @@ An invalid parameter was passed. This error is returned if the [WSAPOLLFD](/wind
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -167,13 +167,13 @@ The function was unable to allocate sufficient memory.
 
 The <b>WSAPoll</b> function is defined on Windows Vista and later. 
 
-The [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd) structures.  An application sets the appropriate flags in the <b>events</b> member of the <b>WSAPOLLFD</b> structure to specify the type of status requested for each corresponding socket.  The <b>WSAPoll</b> function returns the status of a socket in the <b>revents</b> member of the <b>WSAPOLLFD</b> structure.
+The [WSAPOLLFD](./ns-winsock2-wsapollfd.md) structures.  An application sets the appropriate flags in the <b>events</b> member of the <b>WSAPOLLFD</b> structure to specify the type of status requested for each corresponding socket.  The <b>WSAPoll</b> function returns the status of a socket in the <b>revents</b> member of the <b>WSAPOLLFD</b> structure.
 
 For each socket, a caller can request information on read or write status.  Error conditions are always returned, so information on them need not be requested.
 
-The [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd) structure pointed to by the <i>fdarray</i> parameter. All sockets that do not meet these criteria and have no error condition will have the corresponding  <b>revents</b> member set to 0.
+The [WSAPOLLFD](./ns-winsock2-wsapollfd.md) structure pointed to by the <i>fdarray</i> parameter. All sockets that do not meet these criteria and have no error condition will have the corresponding  <b>revents</b> member set to 0.
 
-A combination of the following flags can be set in the [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd) structure for a given socket when requesting status for that socket:<table>
+A combination of the following flags can be set in the [WSAPOLLFD](./ns-winsock2-wsapollfd.md) structure for a given socket when requesting status for that socket:<table>
 <tr>
 <th>Flag</th>
 <th>Description</th>
@@ -201,9 +201,9 @@ A combination of the following flags can be set in the [WSAPOLLFD](/windows/win3
 
 The <b>POLLIN</b> flag is defined as the combination of the <b>POLLRDNORM</b>  and <b>POLLRDBAND</b> flag values. The <b>POLLOUT</b> flag is defined as the same as the <b>POLLWRNORM</b>  flag value.
 
-The [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd) structure must only contain a combination of the above flags that are supported by the Winsock provider. Any other values are considered errors and  <b>WSAPoll</b> will return <b>SOCKET_ERROR</b>. A subsequent call to  the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function will retrieve the extended error code of <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a>. If the <b>POLLPRI</b> flag is set on a socket for the Microsoft Winsock provider, the <b>WSAPoll</b> function will fail.  
+The [WSAPOLLFD](./ns-winsock2-wsapollfd.md) structure must only contain a combination of the above flags that are supported by the Winsock provider. Any other values are considered errors and  <b>WSAPoll</b> will return <b>SOCKET_ERROR</b>. A subsequent call to  the <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function will retrieve the extended error code of <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a>. If the <b>POLLPRI</b> flag is set on a socket for the Microsoft Winsock provider, the <b>WSAPoll</b> function will fail.  
 
-When the [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd) structures pointed to by the <i>fdarray</i> parameter to indicate socket  status:<table>
+When the [WSAPOLLFD](./ns-winsock2-wsapollfd.md) structures pointed to by the <i>fdarray</i> parameter to indicate socket  status:<table>
 <tr>
 <th>Flag</th>
 <th>Description</th>
@@ -246,11 +246,11 @@ With regard to TCP and UDP sockets:
 
 <ul>
 <li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure as normal data as <b>POLLRDNORM</b>.</li>
-<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure, a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> operation is guaranteed to complete without blocking.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure, a subsequent <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a> operation is guaranteed to complete without blocking.</li>
 <li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure by <b>POLLWRNORM</b>.</li>
-<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a>  structure by <b>POLLRDNORM</b>. A subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> is guaranteed to complete without blocking.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a>  structure by <b>POLLRDNORM</b>. A subsequent call to <a href="/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> is guaranteed to complete without blocking.</li>
 <li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure by <b>POLLRDBAND</b>.</li>
-<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when a remote peer shuts down a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a> operation (a TCP FIN was received). A subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> function request will return zero bytes.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when a remote peer shuts down a <a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a> operation (a TCP FIN was received). A subsequent <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a> function request will return zero bytes.</li>
 <li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when the remote peer initiates a graceful disconnect.</li>
 <li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure returned when a remote peer suddenly disconnects.</li>
 <li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when the local socket is closed.</li>
@@ -267,9 +267,8 @@ The timeout argument specifies how long the function is to wait before returning
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)
-
+[WSAPOLLFD](./ns-winsock2-wsapollfd.md)

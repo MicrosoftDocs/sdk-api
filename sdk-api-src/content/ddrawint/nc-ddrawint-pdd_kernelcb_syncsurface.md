@@ -53,7 +53,7 @@ The <i>DdSyncSurfaceData</i> callback function sets and modifies surface data be
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncsurfacedata">DD_SYNCSURFACEDATA</a> structure that contains the surface data.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncsurfacedata">DD_SYNCSURFACEDATA</a> structure that contains the surface data.
 
 ## -returns
 
@@ -61,5 +61,4 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncsurfacedata">DD_SYNCSURFACEDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncsurfacedata">DD_SYNCSURFACEDATA</a>

@@ -72,7 +72,7 @@ If the file exists and was created using Unicode characters, the function writes
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -126,9 +126,8 @@ When looking at values in the registry that specify other registry locations, th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofilesectiona">GetProfileSection</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprofilesectiona">GetProfileSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>

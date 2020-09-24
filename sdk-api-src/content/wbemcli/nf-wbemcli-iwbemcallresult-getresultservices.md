@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>IWbemCallResult::GetResultServices</b> method  retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer, which results from a semisynchronous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">IWbemServices::OpenNamespace</a> when it becomes available.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer, which results from a semisynchronous call to 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">IWbemServices::OpenNamespace</a> when it becomes available.
 
 ## -parameters
 
@@ -64,8 +64,8 @@ The maximum time in milliseconds that this call blocks before it returns. If you
 ### -param ppServices [out]
 
 Cannot be <b>NULL</b>. It receives a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface requested by the original call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">OpenNamespace</a> when it becomes available The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IWbemServices::Release</a>on the returned object when it is no longer required.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface requested by the original call to 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">OpenNamespace</a> when it becomes available The caller must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IWbemServices::Release</a>on the returned object when it is no longer required.
 
 On error, a new object is not returned.
 
@@ -73,15 +73,14 @@ On error, a new object is not returned.
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On error, the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> can be called to obtain more error information.
+On error, the COM function <a href="/windows/win32/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a> can be called to obtain more error information.
 
 COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">IWbemServices::OpenNamespace</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">IWbemServices::OpenNamespace</a>

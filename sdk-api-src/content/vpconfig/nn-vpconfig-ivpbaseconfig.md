@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<code>IVPBaseConfig</code> is implemented on a filter that wraps a hardware device such as a decoder or capture device, if the device has a video port to the graphics adapter. This interface allows the video port to communicate with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter regarding configuration information. The <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a> interface derives from this interface.
+<code>IVPBaseConfig</code> is implemented on a filter that wraps a hardware device such as a decoder or capture device, if the device has a video port to the graphics adapter. This interface allows the video port to communicate with the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter regarding configuration information. The <a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a> interface derives from this interface.
 
 Applications should never use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPBaseConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVPBaseConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPBaseConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVPBaseConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IVPBaseConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getconnectinfo">GetConnectInfo</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getconnectinfo">GetConnectInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the connections supported by the VPE object.
@@ -80,7 +80,7 @@ Retrieves information about the connections supported by the VPE object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getmaxpixelrate">GetMaxPixelRate</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getmaxpixelrate">GetMaxPixelRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum pixel rate the device will output for a given width and height.
@@ -89,7 +89,7 @@ Retrieves the maximum pixel rate the device will output for a given width and he
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getoverlaysurface">GetOverlaySurface</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getoverlaysurface">GetOverlaySurface</a>
 </td>
 <td align="left" width="63%">
 Queries whether the caller should use the driver's overlay surface, and if so, returns a pointer to the surface.
@@ -98,7 +98,7 @@ Queries whether the caller should use the driver's overlay surface, and if so, r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getvideoformats">GetVideoFormats</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getvideoformats">GetVideoFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the video formats the driver supports.
@@ -107,7 +107,7 @@ Retrieves the video formats the driver supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getvpdatainfo">GetVPDataInfo</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getvpdatainfo">GetVPDataInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current video port data information.
@@ -116,7 +116,7 @@ Retrieves the current video port data information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-informvpinputformats">InformVPInputFormats</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-informvpinputformats">InformVPInputFormats</a>
 </td>
 <td align="left" width="63%">
 Informs the device what video formats the video port supports.
@@ -125,7 +125,7 @@ Informs the device what video formats the video port supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setconnectinfo">SetConnectInfo</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setconnectinfo">SetConnectInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the video port connection parameters.
@@ -134,7 +134,7 @@ Sets the video port connection parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setddsurfacekernelhandles">SetDDSurfaceKernelHandles</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setddsurfacekernelhandles">SetDDSurfaceKernelHandles</a>
 </td>
 <td align="left" width="63%">
 Specifies the kernel-mode handles of the DirectDraw surfaces to be used for the overlay suface.
@@ -143,7 +143,7 @@ Specifies the kernel-mode handles of the DirectDraw surfaces to be used for the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setdirectdrawkernelhandle">SetDirectDrawKernelHandle</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setdirectdrawkernelhandle">SetDirectDrawKernelHandle</a>
 </td>
 <td align="left" width="63%">
 Sets the kernel-mode handle to the DirectDraw object.
@@ -152,7 +152,7 @@ Sets the kernel-mode handle to the DirectDraw object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setinvertpolarity">SetInvertPolarity</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setinvertpolarity">SetInvertPolarity</a>
 </td>
 <td align="left" width="63%">
 Reverses the current polarity the driver uses.
@@ -161,7 +161,7 @@ Reverses the current polarity the driver uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setsurfaceparameters">SetSurfaceParameters</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setsurfaceparameters">SetSurfaceParameters</a>
 </td>
 <td align="left" width="63%">
 Informs the device of the layout of the overlay surface.
@@ -170,7 +170,7 @@ Informs the device of the layout of the overlay surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setvideoformat">SetVideoFormat</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setvideoformat">SetVideoFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the video format.
@@ -179,7 +179,7 @@ Sets the video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setvideoportid">SetVideoPortID</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setvideoportid">SetVideoPortID</a>
 </td>
 <td align="left" width="63%">
 Specifies the ID of the hardware video port to use.
@@ -194,5 +194,4 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>
-
+<a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>

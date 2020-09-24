@@ -56,7 +56,7 @@ Performs a reverse conversion of a specified string.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReverseConversion</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReverseConversion</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReverseConversion</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReverseConversion</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,12 +71,12 @@ The <b>ITfReverseConversion</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreverseconversion-doreverseconversion">DoReverseConversion</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreverseconversion-doreverseconversion">DoReverseConversion</a>
 </td>
 <td align="left" width="63%">
 Performs a reverse conversion of the specified string. 
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreverseconversion-doreverseconversion">DoReverseConversion</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/msctf/nf-msctf-itfreverseconversion-doreverseconversion">DoReverseConversion</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
 <div> </div>
 </td>
 </tr>
@@ -85,4 +85,3 @@ Performs a reverse conversion of the specified string.
 ## -remarks
 
 A reverse conversion provides the keystroke sequences required to create the specified string.
-

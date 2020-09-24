@@ -62,9 +62,8 @@ The client that will use the disconnect-reconnect functionality should use the
 
 ### -param apiHandle [out]
 
-Defines a handle that uniquely identifies the client. This parameter cannot be <b>NULL</b>. When you have finished used the handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmandeinitialize">WSManDeinitialize</a> method.
+Defines a handle that uniquely identifies the client. This parameter cannot be <b>NULL</b>. When you have finished used the handle, close it by calling the <a href="/windows/desktop/api/wsman/nf-wsman-wsmandeinitialize">WSManDeinitialize</a> method.
 
 ## -returns
 
 This method returns zero on success. Otherwise, this method returns an error code.
-

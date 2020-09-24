@@ -85,5 +85,4 @@ The signature algorithm for the token binding. The following values are possible
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_result_data">TOKENBINDING_RESULT_DATA</a>
-
+<a href="/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_result_data">TOKENBINDING_RESULT_DATA</a>

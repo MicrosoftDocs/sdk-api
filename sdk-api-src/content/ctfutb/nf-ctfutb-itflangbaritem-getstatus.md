@@ -56,7 +56,7 @@ Obtains the status of a language bar item.
 
 ### -param pdwStatus [out]
 
-Pointer to a <b>DWORD</b> that receives zero or a combination of one or more of the <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_*</a> values that indicate the current status of the item.
+Pointer to a <b>DWORD</b> that receives zero or a combination of one or more of the <a href="/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_*</a> values that indicate the current status of the item.
 
 ## -returns
 
@@ -93,10 +93,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_*
+<a href="/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_*
       </a>
-

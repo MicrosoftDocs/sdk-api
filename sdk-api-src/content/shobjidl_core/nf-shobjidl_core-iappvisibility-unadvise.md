@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Cancels a connection that was previously established by using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a>.
+Cancels a connection that was previously established by using <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a>.
 
 ## -parameters
 
 ### -param dwCookie [in]
 
-A token that uniquely identifies the connection to cancel, which is provided by a previous call to to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a> method.
+A token that uniquely identifies the connection to cancel, which is provided by a previous call to to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a> method.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>

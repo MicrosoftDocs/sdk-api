@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Adds a new page to the end of an existing property sheet. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-addpage">PSM_ADDPAGE</a> message explicitly.
+Adds a new page to the end of an existing property sheet. You can use this macro or send the <a href="/windows/desktop/Controls/psm-addpage">PSM_ADDPAGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
@@ -64,33 +64,32 @@ Handle to the property sheet.
 
 Type: <b>HPROPSHEETPAGE</b>
 
-Handle to the page to add. The page must have been created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function.
+Handle to the page to add. The page must have been created by a previous call to the <a href="/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function.
 
 ## -remarks
 
 The new page should be no larger than the largest page currently in the property sheet because the property sheet is not resized to fit the new page.
 
-A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the <b>PropSheet_AddPage</b> macro in your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nc-prsht-lpfnpspcallbacka">PropSheetPageProc</a> or while handling the following notifications and Microsoft Windows messages:
+A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the <b>PropSheet_AddPage</b> macro in your implementation of <a href="/windows/desktop/api/prsht/nc-prsht-lpfnpspcallbacka">PropSheetPageProc</a> or while handling the following notifications and Microsoft Windows messages:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/psn-apply">PSN_APPLY</a>
+<a href="/windows/desktop/Controls/psn-apply">PSN_APPLY</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a>
+<a href="/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/psn-reset">PSN_RESET</a>
+<a href="/windows/desktop/Controls/psn-reset">PSN_RESET</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Controls/psn-setactive">PSN_SETACTIVE</a>
+<a href="/windows/desktop/Controls/psn-setactive">PSN_SETACTIVE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a>
+<a href="/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
+<a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
 </li>
 </ul>
-If you need to modify a property sheet page while you are handling one of these messages or while <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nc-prsht-lpfnpspcallbacka">PropSheetPageProc</a> is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
-
+If you need to modify a property sheet page while you are handling one of these messages or while <a href="/windows/desktop/api/prsht/nc-prsht-lpfnpspcallbacka">PropSheetPageProc</a> is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.

@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMUBYTEN2</code>
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>.
+A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div>
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten2-ctor">XMUBYTEN2 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmubyten2-ctor">XMUBYTEN2 Constructors</a>

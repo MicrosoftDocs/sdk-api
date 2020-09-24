@@ -50,28 +50,27 @@ api_name:
 
 ## -description
 
-Indicates the system needs to be restarted for the changes to take effect. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-rebootsystem">PSM_REBOOTSYSTEM</a> message explicitly.
+Indicates the system needs to be restarted for the changes to take effect. You can use this macro or send the <a href="/windows/desktop/Controls/psm-rebootsystem">PSM_REBOOTSYSTEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
 ## -remarks
 
-An application should send the PSM_REBOOTSYSTEM message only in response to the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-apply">PSN_APPLY</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a> notification code.
+An application should send the PSM_REBOOTSYSTEM message only in response to the <a href="/windows/desktop/Controls/psn-apply">PSN_APPLY</a> or <a href="/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a> notification code.
 
-This macro causes the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function to return the ID_PSREBOOTSYSTEM value, but only if the user clicks the <b>OK</b> button to close the property sheet. It is the application's responsibility to reboot the system, which can be done by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function.
+This macro causes the <a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function to return the ID_PSREBOOTSYSTEM value, but only if the user clicks the <b>OK</b> button to close the property sheet. It is the application's responsibility to reboot the system, which can be done by using the <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function.
 
 This macro supersedes all <b>PropSheet_RebootSystem</b> macros that precede or follow it.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/psm-restartwindows">PSM_RESTARTWINDOWS</a>
-
+<a href="/windows/desktop/Controls/psm-restartwindows">PSM_RESTARTWINDOWS</a>

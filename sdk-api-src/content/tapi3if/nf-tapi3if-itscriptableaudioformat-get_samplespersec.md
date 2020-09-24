@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_SamplesPerSec</b> method returns the value for the <b>nSamplesPerSec</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 ## -parameters
 
 ### -param pVal [out]
 
 Pointer to the value of the <b>nSamplesPerSec</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 ## -returns
 
@@ -96,9 +96,8 @@ The <i>pVal</i> argument is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat">ITScriptableAudioFormat</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat">ITScriptableAudioFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_samplespersec">put_SamplesPerSec</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_samplespersec">put_SamplesPerSec</a>

@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-The <b>DeleteCAConfiguration</b> method removes a named <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration from the configuration set.
+The <b>DeleteCAConfiguration</b> method removes a named <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration from the configuration set.
 
 ## -parameters
 
 ### -param bstrIdentifier [in]
 
-A string that contains the name for the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> object.
+A string that contains the name for the <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> object.
 
 ## -remarks
 
-The <i>bstrIdentifier</i> value must be one previously set by the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration">CreateCAConfiguration</a> method.
+The <i>bstrIdentifier</i> value must be one previously set by the <a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration">CreateCAConfiguration</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>

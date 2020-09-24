@@ -58,7 +58,7 @@ The
 ### -field PCL_HOOKSWITCHES
 
 Specifies the hookswitch devices available using one or more members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_hook_switch_device">PHONE_HOOK_SWITCH_DEVICE</a> enum.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-phone_hook_switch_device">PHONE_HOOK_SWITCH_DEVICE</a> enum.
 
 ### -field PCL_HANDSETHOOKSWITCHMODES
 
@@ -104,5 +104,4 @@ A generic phone is a phone device that declares itself as available on all addre
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapslong">ITPhone::get_PhoneCapsLong</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapslong">ITPhone::get_PhoneCapsLong</a>

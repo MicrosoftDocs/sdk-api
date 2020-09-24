@@ -54,7 +54,7 @@ Provides an asynchronous callback mechanism used by a credential to notify it of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderCredentialEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderCredentialEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderCredentialEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderCredentialEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICredentialProviderCredentialEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-appendfieldcomboboxitem">AppendFieldComboBoxItem</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-appendfieldcomboboxitem">AppendFieldComboBoxItem</a>
 </td>
 <td align="left" width="63%">
 Communicates to the Logon UI or Credential UI that a combo box needs an item appended and that the UI should be updated.
@@ -78,7 +78,7 @@ Communicates to the Logon UI or Credential UI that a combo box needs an item app
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-deletefieldcomboboxitem">DeleteFieldComboBoxItem</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-deletefieldcomboboxitem">DeleteFieldComboBoxItem</a>
 </td>
 <td align="left" width="63%">
 Communicates to the Logon UI or Credential UI that an item should be deleted from a combo box and that the UI should be updated.
@@ -87,16 +87,16 @@ Communicates to the Logon UI or Credential UI that an item should be deleted fro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-oncreatingwindow">OnCreatingWindow</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-oncreatingwindow">OnCreatingWindow</a>
 </td>
 <td align="left" width="63%">
-Called when the window is created. Enables credentials to retrieve the HWND of the parent window after <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-advise">Advise</a> is called.
+Called when the window is created. Enables credentials to retrieve the HWND of the parent window after <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-advise">Advise</a> is called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldbitmap">SetFieldBitmap</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldbitmap">SetFieldBitmap</a>
 </td>
 <td align="left" width="63%">
 Communicates to the Logon UI or Credential UI that a tile image  field has changed and that the UI should be updated.
@@ -105,7 +105,7 @@ Communicates to the Logon UI or Credential UI that a tile image  field has chang
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldcheckbox">SetFieldCheckbox</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldcheckbox">SetFieldCheckbox</a>
 </td>
 <td align="left" width="63%">
 Communicates to the Logon UI or Credential UI that a checkbox field has changed and that the UI should be updated.
@@ -114,7 +114,7 @@ Communicates to the Logon UI or Credential UI that a checkbox field has changed 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldcomboboxselecteditem">SetFieldComboBoxSelectedItem</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldcomboboxselecteditem">SetFieldComboBoxSelectedItem</a>
 </td>
 <td align="left" width="63%">
 Communicates to the Logon UI or Credential UI that the selected item in a combo box has changed and that the UI should be updated.
@@ -123,7 +123,7 @@ Communicates to the Logon UI or Credential UI that the selected item in a combo 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldinteractivestate">SetFieldInteractiveState</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldinteractivestate">SetFieldInteractiveState</a>
 </td>
 <td align="left" width="63%">
 Communicates to the Logon UI or Credential UI that the interactivity state of a field has changed and that the UI should be updated.
@@ -132,7 +132,7 @@ Communicates to the Logon UI or Credential UI that the interactivity state of a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldstate">SetFieldState</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldstate">SetFieldState</a>
 </td>
 <td align="left" width="63%">
 Communicates to the Logon UI or Credential UI that a field state has changed and that the UI should be updated.
@@ -141,7 +141,7 @@ Communicates to the Logon UI or Credential UI that a field state has changed and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldstring">SetFieldString</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldstring">SetFieldString</a>
 </td>
 <td align="left" width="63%">
 Communicates to the Logon UI or Credential UI that the string associated with a field has changed and that the UI should be updated.
@@ -150,7 +150,7 @@ Communicates to the Logon UI or Credential UI that the string associated with a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldsubmitbutton">SetFieldSubmitButton</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldsubmitbutton">SetFieldSubmitButton</a>
 </td>
 <td align="left" width="63%">
 Enables credentials to set the field that the submit button appears adjacent to.
@@ -161,24 +161,23 @@ Enables credentials to set the field that the submit button appears adjacent to.
 
 ## -remarks
 
-These methods should only be called by a credential passing <b>this</b> as the first parameter. Behavior is undefined if you attempt to call these methods using a credential other than the one activated by the call on <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">Advise</a>. If a credential provider has information on another thread and wants to communicate through that thread's Logon UI or Credential UI, the requests will need to go through the credential that received the <b>Advise</b> call.
+These methods should only be called by a credential passing <b>this</b> as the first parameter. Behavior is undefined if you attempt to call these methods using a credential other than the one activated by the call on <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">Advise</a>. If a credential provider has information on another thread and wants to communicate through that thread's Logon UI or Credential UI, the requests will need to go through the credential that received the <b>Advise</b> call.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Third parties do not implement <b>ICredentialProviderCredentialEvents</b>. An implementation is included with Windows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-providers-in-windows">Credential Providers in Windows 10</a>
+<a href="/windows/desktop/SecAuthN/credential-providers-in-windows">Credential Providers in Windows 10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">ICredentialProviderCredential::Advise</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">ICredentialProviderCredential::Advise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-unadvise">ICredentialProviderCredential::UnAdvise</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-unadvise">ICredentialProviderCredential::UnAdvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a>
-
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a>

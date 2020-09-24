@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets or sets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection on which the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object performs layout analysis.
+Gets or sets the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection on which the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object performs layout analysis.
 
 
 
@@ -63,13 +63,13 @@ This property is read/write.
 
 ## -remarks
 
-This property maintains the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection which the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object analyzes and from which the <b>InkDivider</b> object creates the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object. This property must be assigned a InkStrokes collection in order for the <b>InkDivider</b> object to perform layout analysis.
+This property maintains the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection which the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object analyzes and from which the <b>InkDivider</b> object creates the <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object. This property must be assigned a InkStrokes collection in order for the <b>InkDivider</b> object to perform layout analysis.
 
-You should only assign this property once to a given <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object. Assigning a subsequent <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> object once one has been assigned will cause inaccurate results to be returned. Also, you may not change the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight">LineHeight</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext">RecognizerContext</a> property after a InkStrokes collection is assigned to the <b>Strokes</b> property.
+You should only assign this property once to a given <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object. Assigning a subsequent <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> object once one has been assigned will cause inaccurate results to be returned. Also, you may not change the <a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight">LineHeight</a> or <a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext">RecognizerContext</a> property after a InkStrokes collection is assigned to the <b>Strokes</b> property.
 
-To keep the <b>Strokes</b> property of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object synchronized with an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, use the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-inkadded">InkAdded</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-inkdeleted">InkDeleted</a> events of the <b>InkDisp</b> object to listen for strokes that should be added or removed from the <b>InkDivider</b> object. This covers cases where strokes are added to, deleted from, clipped, or split within the <b>InkDisp</b> object.
+To keep the <b>Strokes</b> property of the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object synchronized with an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, use the <a href="/windows/desktop/tablet/inkdisp-inkadded">InkAdded</a> and <a href="/windows/desktop/tablet/inkdisp-inkdeleted">InkDeleted</a> events of the <b>InkDisp</b> object to listen for strokes that should be added or removed from the <b>InkDivider</b> object. This covers cases where strokes are added to, deleted from, clipped, or split within the <b>InkDisp</b> object.
 
-<div class="alert"><b>Note</b>  Moving, scaling, or other transformations on strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object do not generate <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-inkadded">InkAdded</a> or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-inkdeleted">InkDeleted</a> events. Perform the same transformations on the strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object to keep the <b>Strokes</b> property of the <b>InkDivider</b> object synchronized.</div>
+<div class="alert"><b>Note</b>  Moving, scaling, or other transformations on strokes in the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object do not generate <a href="/windows/desktop/tablet/inkdisp-inkadded">InkAdded</a> or <a href="/windows/desktop/tablet/inkdisp-inkdeleted">InkDeleted</a> events. Perform the same transformations on the strokes in the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object to keep the <b>Strokes</b> property of the <b>InkDivider</b> object synchronized.</div>
 <div> </div>
 
 ## -see-also
@@ -78,9 +78,8 @@ To keep the <b>Strokes</b> property of the <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider Class</a>
+<a href="/windows/desktop/tablet/inkdivider-class">InkDivider Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

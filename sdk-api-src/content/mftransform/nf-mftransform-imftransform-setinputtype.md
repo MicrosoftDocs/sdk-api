@@ -57,11 +57,11 @@ Sets, tests, or clears the media type for an input stream on this Media Foundati
 
 ### -param dwInputStreamID [in]
 
-Input stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
+Input stream identifier. To get the list of stream identifiers, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
 
 ### -param pType [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface, or <b>NULL</b>.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface, or <b>NULL</b>.
 
 ### -param dwFlags [in]
 
@@ -181,16 +181,15 @@ Setting the media type on one stream may change the acceptable types on another 
 An MFT may require the caller to set one or more output types before setting the input type. If so, the method returns <b>MF_E_TRANSFORM_TYPE_NOT_SET</b>.
       
 
-If the MFT supports DirectX Video Acceleration (DXVA) but is unable to find a suitable DXVA configuration (for example, if the graphics driver does not have the right capabilities), the method should return <b>MF_E_UNSUPPORTED_D3D_TYPE</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/supporting-dxva-2-0-in-media-foundation">Supporting DXVA 2.0 in Media Foundation</a>.
+If the MFT supports DirectX Video Acceleration (DXVA) but is unable to find a suitable DXVA configuration (for example, if the graphics driver does not have the right capabilities), the method should return <b>MF_E_UNSUPPORTED_D3D_TYPE</b>. For more information, see <a href="/windows/desktop/medfound/supporting-dxva-2-0-in-media-foundation">Supporting DXVA 2.0 in Media Foundation</a>.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTSetInputType</b>. See <a href="https://docs.microsoft.com/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTSetInputType</b>. See <a href="/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
-
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>

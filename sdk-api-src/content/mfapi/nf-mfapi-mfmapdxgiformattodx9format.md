@@ -56,17 +56,16 @@ Converts a Microsoft DirectX Graphics Infrastructure (DXGI) format identifier to
 
 ### -param dx11 [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> value to convert.
+The <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> value to convert.
 
 ## -returns
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_d3dformat_data">D3DFORMAT</a> value or FOURCC code.
+Returns a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_d3dformat_data">D3DFORMAT</a> value or FOURCC code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfmapdx9formattodxgiformat">MFMapDX9FormatToDXGIFormat</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfmapdx9formattodxgiformat">MFMapDX9FormatToDXGIFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

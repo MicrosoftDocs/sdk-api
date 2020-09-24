@@ -54,7 +54,7 @@ The <b>IEnumTfProperties</b> interface is implemented by the TSF manager to prov
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumTfProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-clone">Clone</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the enumerator object.
@@ -78,7 +78,7 @@ Creates a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-next">Next</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-next">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains the specified number of elements in the enumeration sequence from the current position.
@@ -87,7 +87,7 @@ Obtains the specified number of elements in the enumeration sequence from the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-reset">Reset</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
@@ -96,7 +96,7 @@ Resets the enumerator object by moving the current position to the beginning of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-skip">Skip</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Moves the current position forward in the enumeration sequence by the specified number of elements.
@@ -104,4 +104,3 @@ Moves the current position forward in the enumeration sequence by the specified 
 </td>
 </tr>
 </table>
-

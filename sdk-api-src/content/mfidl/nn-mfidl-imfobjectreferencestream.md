@@ -57,7 +57,7 @@ Stream objects that support <b>IStream</b> can expose this interface to provide 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFObjectReferenceStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFObjectReferenceStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFObjectReferenceStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFObjectReferenceStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFObjectReferenceStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfobjectreferencestream-loadreference">LoadReference</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfobjectreferencestream-loadreference">LoadReference</a>
 </td>
 <td align="left" width="63%">
 Marshals an interface from data stored in the stream.
@@ -81,7 +81,7 @@ Marshals an interface from data stored in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfobjectreferencestream-savereference">SaveReference</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfobjectreferencestream-savereference">SaveReference</a>
 </td>
 <td align="left" width="63%">
 Stores the data needed to marshal an interface across a process boundary.
@@ -92,9 +92,8 @@ Stores the data needed to marshal an interface across a process boundary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-mfserializeattributestostream">MFSerializeAttributesToStream</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-mfserializeattributestostream">MFSerializeAttributesToStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

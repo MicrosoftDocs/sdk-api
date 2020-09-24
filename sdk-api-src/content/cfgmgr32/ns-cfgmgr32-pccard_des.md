@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
@@ -188,5 +188,4 @@ This member is currently unused.
 
 ## -see-also
 
-[PCCARD_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource)
-
+[PCCARD_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource)

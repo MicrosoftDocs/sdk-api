@@ -53,7 +53,7 @@ api_name:
 
 The <b>GetName</b> method retrieves the name of the current extension in the extension-enumeration sequence.
 
- The returned extension name is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string, as in L"2.5.29.31".
+ The returned extension name is an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string, as in L"2.5.29.31".
 
 ## -parameters
 
@@ -66,9 +66,9 @@ A pointer to a value of <b>BSTR</b> type that contains the name of the extension
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and tat the <i>pstrOut</i> parameter is set to the name of the extension.
 
-To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrOut</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrOut</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a <b>String</b> that contains the name of the extension.
@@ -82,11 +82,11 @@ If the extension-enumeration sequence is not referencing a valid extension, <b>G
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-reset">IEnumCERTVIEWEXTENSION::Reset</a>: Moves to the next extension in the enumeration sequence.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-reset">IEnumCERTVIEWEXTENSION::Reset</a>: Moves to the next extension in the enumeration sequence.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-next">IEnumCERTVIEWEXTENSION::Next</a>: Moves to the next extension in the enumeration sequence.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-next">IEnumCERTVIEWEXTENSION::Next</a>: Moves to the next extension in the enumeration sequence.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-skip">IEnumCERTVIEWEXTENSION::Skip</a>: Skips a specified number of extensions.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-skip">IEnumCERTVIEWEXTENSION::Skip</a>: Skips a specified number of extensions.</li>
 </ul>
 
 #### Examples
@@ -109,25 +109,24 @@ if (NULL != bstrExtName)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewextension">IEnumCERTVIEWEXTENSION</a>
+<a href="/windows/desktop/api/certview/nn-certview-ienumcertviewextension">IEnumCERTVIEWEXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getflags">IEnumCERTVIEWEXTENSION::GetFlags</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getflags">IEnumCERTVIEWEXTENSION::GetFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getvalue">IEnumCERTVIEWEXTENSION::GetValue</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getvalue">IEnumCERTVIEWEXTENSION::GetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-next">IEnumCERTVIEWEXTENSION::Next</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-next">IEnumCERTVIEWEXTENSION::Next</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-reset">IEnumCERTVIEWEXTENSION::Reset</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-reset">IEnumCERTVIEWEXTENSION::Reset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-skip">IEnumCERTVIEWEXTENSION::Skip</a>
-
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-skip">IEnumCERTVIEWEXTENSION::Skip</a>

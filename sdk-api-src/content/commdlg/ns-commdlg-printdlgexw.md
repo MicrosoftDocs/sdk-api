@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Contains information that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function uses to initialize the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/print-property-sheet">Print property sheet</a>. After the user closes the property sheet, the system uses this structure to return information about the user's selections.
+Contains information that the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function uses to initialize the <a href="/windows/desktop/dlgbox/print-property-sheet">Print property sheet</a>. After the user closes the property sheet, the system uses this structure to return information about the user's selections.
 
 ## -struct-fields
 
@@ -76,9 +76,9 @@ A handle to the window that owns the property sheet. This member must be a valid
 
 Type: <b>HGLOBAL</b>
 
-A handle to a movable global memory object that contains a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If <b>hDevMode</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVMODE</b> structure and initialize its members. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVMODE</b> members indicate the user's input.
+A handle to a movable global memory object that contains a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If <b>hDevMode</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVMODE</b> structure and initialize its members. The <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVMODE</b> members indicate the user's input.
 
-If <b>hDevMode</b> is <b>NULL</b> on input, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> allocates memory for the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure, initializes its members to indicate the user's input, and returns a handle that identifies it. 
+If <b>hDevMode</b> is <b>NULL</b> on input, <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> allocates memory for the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure, initializes its members to indicate the user's input, and returns a handle that identifies it. 
 
 For more information about the <b>hDevMode</b> and <b>hDevNames</b> members, see the Remarks section at the end of this topic.
 
@@ -86,9 +86,9 @@ For more information about the <b>hDevMode</b> and <b>hDevNames</b> members, see
 
 Type: <b>HGLOBAL</b>
 
-A handle to a movable global memory object that contains a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure. If <b>hDevNames</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVNAMES</b> structure and initialize its members. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVNAMES</b> members contain information for the printer chosen by the user. You can use this information to create a device context or an information context.
+A handle to a movable global memory object that contains a <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure. If <b>hDevNames</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVNAMES</b> structure and initialize its members. The <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVNAMES</b> members contain information for the printer chosen by the user. You can use this information to create a device context or an information context.
 
-The <b>hDevNames</b> member can be <b>NULL</b>, in which case, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> allocates memory for the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure, initializes its members to indicate the user's input, and returns a handle that identifies it. 
+The <b>hDevNames</b> member can be <b>NULL</b>, in which case, <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> allocates memory for the <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure, initializes its members to indicate the user's input, and returns a handle that identifies it. 
 
 For more information about the <b>hDevMode</b> and <b>hDevNames</b> members, see the Remarks section at the end of this topic.
 
@@ -102,13 +102,13 @@ A handle to a device context or an information context, depending on whether the
 
 Type: <b>DWORD</b>
 
-A set of bit flags that you can use to initialize the <b>Print</b> property sheet. When the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, it sets these flags to indicate the user's input. This member can be one or more of the following values. 
+A set of bit flags that you can use to initialize the <b>Print</b> property sheet. When the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, it sets these flags to indicate the user's input. This member can be one or more of the following values. 
 
-To ensure that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> returns the correct values in the <b>dmCopies</b> and <b>dmCollate</b> members of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure, set <b>PD_RETURNDC</b> = <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> = <b>TRUE</b>. In so doing, the <b>nCopies</b> member of the <a href="/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure   is always 1 and <b>PD_COLLATE</b> is always <b>FALSE</b>.
+To ensure that <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> or <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> returns the correct values in the <b>dmCopies</b> and <b>dmCollate</b> members of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure, set <b>PD_RETURNDC</b> = <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> = <b>TRUE</b>. In so doing, the <b>nCopies</b> member of the <a href="/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure   is always 1 and <b>PD_COLLATE</b> is always <b>FALSE</b>.
 
-To ensure that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> returns the correct values in <b>nCopies</b> and <b>PD_COLLATE</b>, set <b>PD_RETURNDC</b> = <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> = <b>FALSE</b>. In so doing, <b>dmCopies</b> is always 1 and  <b>dmCollate</b> is always <b>FALSE</b>.
+To ensure that <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> or <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> returns the correct values in <b>nCopies</b> and <b>PD_COLLATE</b>, set <b>PD_RETURNDC</b> = <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> = <b>FALSE</b>. In so doing, <b>dmCopies</b> is always 1 and  <b>dmCollate</b> is always <b>FALSE</b>.
 
-Starting with Windows Vista, when you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> with  <b>PD_RETURNDC</b> set to <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> set to <b>FALSE</b>, the <b>PrintDlg</b> or <b>PrintDlgEx</b> function sets the number of copies in the  <b>nCopies</b> member of the <a href="/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure, and  it sets the number of copies in the structure represented by the <b>hDC</b> member of the <b>PRINTDLG</b> structure. 
+Starting with Windows Vista, when you call <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> or <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> with  <b>PD_RETURNDC</b> set to <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> set to <b>FALSE</b>, the <b>PrintDlg</b> or <b>PrintDlgEx</b> function sets the number of copies in the  <b>nCopies</b> member of the <a href="/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure, and  it sets the number of copies in the structure represented by the <b>hDC</b> member of the <b>PRINTDLG</b> structure. 
 
 
 When making calls to GDI, you must ignore the value of <b>nCopies</b>, consider the value as 1, and use the returned <b>hDC</b> to avoid printing duplicate copies.
@@ -138,7 +138,7 @@ The default flag that indicates that the <b>All</b> radio button is initially se
 <td width="60%">
 If this flag is set, the <b>Collate</b> check box is selected.
 
-If this flag is set when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, the application must simulate collation of multiple copies. For more information, see the description of the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag.
+If this flag is set when the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, the application must simulate collation of multiple copies. For more information, see the description of the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag.
 
 See <b>PD_NOPAGENUMS</b>.
 
@@ -261,7 +261,7 @@ Prevents the warning message from being displayed when an error occurs.
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the <b>Pages</b> radio button is selected. If none of the <b>PD_PAGENUMS</b>, <b>PD_SELECTION</b>, or <b>PD_CURRENTPAGE</b> flags is set, the <b>All</b> radio button is selected. If this flag is set when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, the <b>lpPageRanges</b> member indicates the page ranges specified by the user. 
+If this flag is set, the <b>Pages</b> radio button is selected. If none of the <b>PD_PAGENUMS</b>, <b>PD_SELECTION</b>, or <b>PD_CURRENTPAGE</b> flags is set, the <b>All</b> radio button is selected. If this flag is set when the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, the <b>lpPageRanges</b> member indicates the page ranges specified by the user. 
 
 </td>
 </tr>
@@ -272,7 +272,7 @@ If this flag is set, the <b>Pages</b> radio button is selected. If none of the <
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the <b>Print to File</b> check box is selected. If this flag is set when <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> returns, the offset indicated by the <b>wOutputOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure contains the string "FILE:". When you call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a> function to start the printing operation, specify this "FILE:" string in the <b>lpszOutput</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a> structure. Specifying this string causes the print subsystem to query the user for the name of the output file. 
+If this flag is set, the <b>Print to File</b> check box is selected. If this flag is set when <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> returns, the offset indicated by the <b>wOutputOffset</b> member of the <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure contains the string "FILE:". When you call the <a href="/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a> function to start the printing operation, specify this "FILE:" string in the <b>lpszOutput</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a> structure. Specifying this string causes the print subsystem to query the user for the name of the output file. 
 
 </td>
 </tr>
@@ -283,7 +283,7 @@ If this flag is set, the <b>Print to File</b> check box is selected. If this fla
 </dl>
 </td>
 <td width="60%">
-Causes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> to return a device context matching the selections the user made in the property sheet. The device context is returned in <b>hDC</b>.
+Causes <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> to return a device context matching the selections the user made in the property sheet. The device context is returned in <b>hDC</b>.
 
 </td>
 </tr>
@@ -294,7 +294,7 @@ Causes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/leg
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function does not display the property sheet. Instead, it sets the <b>hDevNames</b> and <b>hDevMode</b> members to handles to <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> and <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structures that are initialized for the system default printer. Both <b>hDevNames</b> and <b>hDevMode</b> must be <b>NULL</b>, or <b>PrintDlgEx</b> returns an error. 
+If this flag is set, the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function does not display the property sheet. Instead, it sets the <b>hDevNames</b> and <b>hDevMode</b> members to handles to <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> and <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structures that are initialized for the system default printer. Both <b>hDevNames</b> and <b>hDevMode</b> must be <b>NULL</b>, or <b>PrintDlgEx</b> returns an error. 
 
 </td>
 </tr>
@@ -386,7 +386,7 @@ Excludes the <b>Copies</b> and <b>Collate</b> controls from the printer driver p
 
 Type: <b>DWORD</b>
 
-On input, set this member to the initial number of page ranges specified in the <b>lpPageRanges</b> array. When the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, <b>nPageRanges</b> indicates the number of user-specified page ranges stored in the <b>lpPageRanges</b> array. If the <b>PD_NOPAGENUMS</b> flag is specified, this value is not valid.
+On input, set this member to the initial number of page ranges specified in the <b>lpPageRanges</b> array. When the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, <b>nPageRanges</b> indicates the number of user-specified page ranges stored in the <b>lpPageRanges</b> array. If the <b>PD_NOPAGENUMS</b> flag is specified, this value is not valid.
 
 ### -field nMaxPageRanges
 
@@ -398,7 +398,7 @@ The size, in array elements, of the <b>lpPageRanges</b> buffer. This value indic
 
 Type: <b>LPPRINTPAGERANGE</b>
 
-Pointer to a buffer containing an array of <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-printpagerange">PRINTPAGERANGE</a> structures. On input, the array contains the initial page ranges to display in the <b>Pages</b> edit control. When the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, the array contains the page ranges specified by the user. If the <b>PD_NOPAGENUMS</b> flag is specified, this value is not valid. If the <b>PD_NOPAGENUMS</b> flag is not specified, <b>lpPageRanges</b> must be non-<b>NULL</b>.
+Pointer to a buffer containing an array of <a href="/windows/desktop/api/commdlg/ns-commdlg-printpagerange">PRINTPAGERANGE</a> structures. On input, the array contains the initial page ranges to display in the <b>Pages</b> edit control. When the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, the array contains the page ranges specified by the user. If the <b>PD_NOPAGENUMS</b> flag is specified, this value is not valid. If the <b>PD_NOPAGENUMS</b> flag is not specified, <b>lpPageRanges</b> must be non-<b>NULL</b>.
 
 ### -field nMinPage
 
@@ -416,7 +416,7 @@ The maximum value for the page ranges specified in the <b>Pages</b> edit control
 
 Type: <b>DWORD</b>
 
-Contains the initial number of copies for the <b>Copies</b> edit control if <b>hDevMode</b> is <b>NULL</b>; otherwise, the <b>dmCopies</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure contains the initial value. When <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> returns, <b>nCopies</b> contains the actual number of copies the application must print. This value depends on whether the application or the printer driver is responsible for printing multiple copies. If the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag is set in the <b>Flags</b> member, <b>nCopies</b> is always 1 on return, and the printer driver is responsible for printing multiple copies. If the flag is not set, the application is responsible for printing the number of copies specified by <b>nCopies</b>. For more information, see the description of the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag.
+Contains the initial number of copies for the <b>Copies</b> edit control if <b>hDevMode</b> is <b>NULL</b>; otherwise, the <b>dmCopies</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure contains the initial value. When <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> returns, <b>nCopies</b> contains the actual number of copies the application must print. This value depends on whether the application or the printer driver is responsible for printing multiple copies. If the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag is set in the <b>Flags</b> member, <b>nCopies</b> is always 1 on return, and the printer driver is responsible for printing multiple copies. If the flag is not set, the application is responsible for printing the number of copies specified by <b>nCopies</b>. For more information, see the description of the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag.
 
 ### -field hInstance
 
@@ -436,9 +436,9 @@ Type: <b>LPUNKNOWN</b>
 
 A pointer to an application-defined  callback object. 
 
-The object should contain the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback">IPrintDialogCallback</a> class to receive messages for the child dialog box in the lower portion of the <b>General</b> page. 
+The object should contain the <a href="/windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback">IPrintDialogCallback</a> class to receive messages for the child dialog box in the lower portion of the <b>General</b> page. 
 
-The callback object should also contain the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> class to receive a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a> interface. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the callback object for both <b>IID_IPrintDialogCallback</b> and <b>IID_IObjectWithSite</b> to determine which interfaces are supported. 
+The callback object should also contain the <a href="/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> class to receive a pointer to the <a href="/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a> interface. The <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the callback object for both <b>IID_IPrintDialogCallback</b> and <b>IID_IObjectWithSite</b> to determine which interfaces are supported. 
 
 If you do not want to retrieve any of the callback information, set <b>lpCallback</b> to <b>NULL</b>.
 
@@ -453,7 +453,7 @@ The number of property page handles in the
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-Contains an array of property page handles to add to the <b>Print</b> property sheet. The additional property pages follow the <b>General</b> page. Use the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function to create these additional pages. When the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, all the <b>HPROPSHEETPAGE</b> handles in the <b>lphPropertyPages</b> array have been destroyed. If <b>nPropertyPages</b> is zero, <b>lphPropertyPages</b> should be <b>NULL</b>.
+Contains an array of property page handles to add to the <b>Print</b> property sheet. The additional property pages follow the <b>General</b> page. Use the <a href="/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function to create these additional pages. When the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns, all the <b>HPROPSHEETPAGE</b> handles in the <b>lphPropertyPages</b> array have been destroyed. If <b>nPropertyPages</b> is zero, <b>lphPropertyPages</b> should be <b>NULL</b>.
 
 ### -field nStartPage
 
@@ -465,7 +465,7 @@ The property page that is initially displayed. To display the <b>General</b> pag
 
 Type: <b>DWORD</b>
 
-On input, set this member to zero. If the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns S_OK, <b>dwResultAction</b> contains the outcome of the dialog. If <b>PrintDlgEx</b> returns an error, this member should be ignored. The <b>dwResultAction</b> member can be one of the following values. 
+On input, set this member to zero. If the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function returns S_OK, <b>dwResultAction</b> contains the outcome of the dialog. If <b>PrintDlgEx</b> returns an error, this member should be ignored. The <b>dwResultAction</b> member can be one of the following values. 
 
 
 
@@ -507,13 +507,13 @@ The user clicked the <b>Print</b> button. The <b>PRINTDLGEX</b> structure contai
 
 ## -remarks
 
-If both <b>hDevMode</b> and <b>hDevNames</b> are <b>NULL</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> initializes the property sheet using the current default printer. To initialize the property sheet for a different printer, use the <b>wDeviceOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure to specify the name of the printer. 
+If both <b>hDevMode</b> and <b>hDevNames</b> are <b>NULL</b>, <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> initializes the property sheet using the current default printer. To initialize the property sheet for a different printer, use the <b>wDeviceOffset</b> member of the <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure to specify the name of the printer. 
 
-Note that the <b>dmDeviceName</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure also specifies a printer name. However, <b>dmDeviceName</b> is limited to 32 characters, and the <b>wDeviceOffset</b> name is not. If the <b>wDeviceOffset</b> and <b>dmDeviceName</b> names are not the same, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> initializes the property sheet using the printer specified by <b>wDeviceOffset</b>. 
+Note that the <b>dmDeviceName</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure also specifies a printer name. However, <b>dmDeviceName</b> is limited to 32 characters, and the <b>wDeviceOffset</b> name is not. If the <b>wDeviceOffset</b> and <b>dmDeviceName</b> names are not the same, <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> initializes the property sheet using the printer specified by <b>wDeviceOffset</b>. 
 
-If the PD_RETURNDEFAULT flag is set and both <b>hDevMode</b> and <b>hDevNames</b> are <b>NULL</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> uses the <b>hDevNames</b> and <b>hDevMode</b> members to return information about the current default printer without displaying the dialog box.
+If the PD_RETURNDEFAULT flag is set and both <b>hDevMode</b> and <b>hDevNames</b> are <b>NULL</b>, <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> uses the <b>hDevNames</b> and <b>hDevMode</b> members to return information about the current default printer without displaying the dialog box.
 
-During the execution of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>, the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <b>DEVNAMES</b> structures that you specified in the <b>PRINTDLGEX</b> structure may not always contain current data. For this reason, application-specific property pages as well as <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback">IPrintDialogCallback</a> routines for the initial page should use the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a> interface to retrieve information about the state of the current printer. 
+During the execution of <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>, the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <b>DEVNAMES</b> structures that you specified in the <b>PRINTDLGEX</b> structure may not always contain current data. For this reason, application-specific property pages as well as <a href="/windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback">IPrintDialogCallback</a> routines for the initial page should use the <a href="/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a> interface to retrieve information about the state of the current printer. 
 
 
 
@@ -524,7 +524,7 @@ During the execution of <a href="https://docs.microsoft.com/previous-versions/wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+<a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -536,21 +536,20 @@ During the execution of <a href="https://docs.microsoft.com/previous-versions/wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a>
+<a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback">IPrintDialogCallback</a>
+<a href="/windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback">IPrintDialogCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a>
+<a href="/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>
 
 
 
 <b>Reference</b>
-

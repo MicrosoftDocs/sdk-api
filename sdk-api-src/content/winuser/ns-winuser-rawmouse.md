@@ -386,7 +386,7 @@ else if (rawMouse.lLastX != 0 || rawMouse.lLastY != 0)
 }
 ```
 
-In contrast to legacy [WM_MOUSEMOVE](https://docs.microsoft.com/windows/win32/inputdev/wm-mousemove) window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's <b>Mouse Properties</b> sheet. See [About Mouse Input](https://docs.microsoft.com/windows/win32/inputdev/about-mouse-input) for details.
+In contrast to legacy [WM_MOUSEMOVE](/windows/win32/inputdev/wm-mousemove) window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's <b>Mouse Properties</b> sheet. See [About Mouse Input](/windows/win32/inputdev/about-mouse-input) for details.
 
 If mouse wheel is moved, indicated by <b>RI_MOUSE_WHEEL</b> or <b>RI_MOUSE_HWHEEL</b> in <b>usButtonFlags</b>, then <b>usButtonData</b> contains a signed <b>short</b> value that specifies the distance the wheel is rotated.
 
@@ -438,7 +438,7 @@ if ((rawMouse.usButtonFlags & RI_MOUSE_WHEEL) == RI_MOUSE_WHEEL ||
 
 [RAWINPUT](ns-winuser-rawinput.md)
 
-[Raw Input](https://docs.microsoft.com/windows/win32/inputdev/raw-input)
+[Raw Input](/windows/win32/inputdev/raw-input)
 
 <b>Reference</b>
 
@@ -446,11 +446,10 @@ if ((rawMouse.usButtonFlags & RI_MOUSE_WHEEL) == RI_MOUSE_WHEEL ||
 
 [SendInput function](nf-winuser-sendinput.md)
 
-[MOUSE_INPUT_DATA structure](https://docs.microsoft.com/windows/win32/api/ntddmou/ns-ntddmou-mouse_input_data)
+[MOUSE_INPUT_DATA structure](../ntddmou/ns-ntddmou-mouse_input_data.md)
 
-[About Mouse Input (legacy)](https://docs.microsoft.com/windows/win32/inputdev/about-mouse-input)
+[About Mouse Input (legacy)](/windows/win32/inputdev/about-mouse-input)
 
-[Mouse Input Notifications (legacy)](https://docs.microsoft.com/windows/win32/inputdev/mouse-input-notifications)
+[Mouse Input Notifications (legacy)](/windows/win32/inputdev/mouse-input-notifications)
 
 [SystemParametersInfo](nf-winuser-systemparametersinfoa.md)
-

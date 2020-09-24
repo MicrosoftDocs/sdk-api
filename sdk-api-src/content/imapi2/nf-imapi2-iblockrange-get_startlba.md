@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the start sector of the range described by <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a>.
+Retrieves the start sector of the range described by <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a>.
 
 ## -parameters
 
@@ -83,5 +83,4 @@ Invalid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a>

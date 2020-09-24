@@ -261,9 +261,9 @@ The string that contains one or values to compare depending on the <b>CompareOp<
 
 ## -remarks
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on the specific content of the event in a logger session. 
+On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <a href="/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on the specific content of the event in a logger session. 
 
-The <b>PAYLOAD_FILTER_PREDICATE</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function to create a single payload filter for a single payload to be used with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  A single payload filter can also be aggregated with other single payload filters using the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> function.
+The <b>PAYLOAD_FILTER_PREDICATE</b> structure is used with the <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function to create a single payload filter for a single payload to be used with the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  A single payload filter can also be aggregated with other single payload filters using the <a href="/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> function.
 
 Each field has a type specified in the provider manifest that can be used in the <b>Fieldname</b> member of the <b>PAYLOAD_FILTER_PREDICATE</b> structure to filter on that field.  
 
@@ -279,32 +279,31 @@ A <b>Fieldname</b> member that contains a <b>GUID</b> can only be compared when 
 #### Examples
 
 For an example that uses 
-the <b>PAYLOAD_FILTER_PREDICATE</b> structure and the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function to create payload filters to use in filtering on specific conditions in a logger session, see 
-the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
+the <b>PAYLOAD_FILTER_PREDICATE</b> structure and the <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function to create payload filters to use in filtering on specific conditions in a logger session, see 
+the example for the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
+<a href="/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
+<a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a>
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>

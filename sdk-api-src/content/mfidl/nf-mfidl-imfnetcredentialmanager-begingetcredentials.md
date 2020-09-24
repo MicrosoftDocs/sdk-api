@@ -57,11 +57,11 @@ Begins an asynchronous request to retrieve the user's credentials.
 
 ### -param pParam [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfnetcredentialmanagergetparam">MFNetCredentialManagerGetParam</a> structure.
+Pointer to an <a href="/windows/desktop/api/mfidl/ns-mfidl-mfnetcredentialmanagergetparam">MFNetCredentialManagerGetParam</a> structure.
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
 
 ### -param pState [in]
 
@@ -91,5 +91,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialmanager">IMFNetCredentialManager</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialmanager">IMFNetCredentialManager</a>

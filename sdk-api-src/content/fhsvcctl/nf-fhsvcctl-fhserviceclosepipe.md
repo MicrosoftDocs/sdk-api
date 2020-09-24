@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Closes a communication channel to the File History Service opened with <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>.
+Closes a communication channel to the File History Service opened with <a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>.
 
 > [!NOTE] 
 > **FhServiceClosePipe** is deprecated and may be altered or unavailable in future releases.
@@ -60,7 +60,7 @@ Closes a communication channel to the File History Service opened with <a href="
 
 ### -param Pipe [in]
 
-The communication channel handle returned by an earlier <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
+The communication channel handle returned by an earlier <a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
 
 ## -returns
 
@@ -68,9 +68,8 @@ The communication channel handle returned by an earlier <a href="https://docs.mi
 
 ## -remarks
 
-An application should call <b>FhServiceClosePipe</b> once for each communication channel handle it opens with <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>. Closing a communication channel handle multiple times is not supported and may lead to unpredictable behavior.
+An application should call <b>FhServiceClosePipe</b> once for each communication channel handle it opens with <a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>. Closing a communication channel handle multiple times is not supported and may lead to unpredictable behavior.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
-
+<a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>

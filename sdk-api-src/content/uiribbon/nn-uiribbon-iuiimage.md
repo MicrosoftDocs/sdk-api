@@ -55,7 +55,7 @@ The <b>IUIImage</b> interface is implemented by the application and defines the 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIImage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIImage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIImage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUIImage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiimage-getbitmap">GetBitmap</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiimage-getbitmap">GetBitmap</a>
 </td>
 <td align="left" width="63%">
 Retrieves a bitmap to display as an icon in the ribbon and context popup UI of the Ribbon framework.
@@ -81,9 +81,8 @@ Retrieves a bitmap to display as an icon in the ribbon and context popup UI of t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimagefrombitmap">IUIImageFromBitmap</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimagefrombitmap">IUIImageFromBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

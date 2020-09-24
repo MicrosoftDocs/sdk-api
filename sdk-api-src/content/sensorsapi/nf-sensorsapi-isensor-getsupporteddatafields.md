@@ -56,7 +56,7 @@ Retrieves a set of <b>PROPERTYKEY</b>s that represent the data fields the sensor
 
 ### -param ppDataFields [out]
 
-Address of the <a href="https://msdn.microsoft.com/library/ms739549(VS.85).aspx">IPortableDeviceKeyCollection</a>  pointer that receives the list of supported data fields.
+Address of the <a href="/previous-versions//ms739549(v=vs.85)">IPortableDeviceKeyCollection</a>  pointer that receives the list of supported data fields.
 
 ## -returns
 
@@ -93,5 +93,4 @@ NULL was passed in for ppDataFields.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>

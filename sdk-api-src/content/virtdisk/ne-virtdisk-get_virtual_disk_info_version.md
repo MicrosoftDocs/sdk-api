@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains the kinds of virtual hard disk (VHD) information that you can retrieve. For more information, 
-    see [GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info).
+    see [GET_VIRTUAL_DISK_INFO](./ns-virtdisk-get_virtual_disk_info.md).
 
 ## -enum-fields
 
@@ -143,11 +143,11 @@ The state of resilient change tracking (RCT) for the virtual disk.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-[GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)
+[GET_VIRTUAL_DISK_INFO](./ns-virtdisk-get_virtual_disk_info.md)
 
 
 
@@ -155,5 +155,4 @@ The state of resilient change tracking (RCT) for the virtual disk.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

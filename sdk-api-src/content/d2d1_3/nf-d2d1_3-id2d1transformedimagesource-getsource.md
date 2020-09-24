@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Retrieves the source image used to create the transformed image source.
-        This value corresponds to the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createtransformedimagesource">CreateTransformedImageSource</a>.
+        This value corresponds to the value passed to <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createtransformedimagesource">CreateTransformedImageSource</a>.
 
 ## -parameters
 
@@ -63,5 +63,4 @@ Retrieves the source image used to create the transformed image source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1transformedimagesource">ID2D1TransformedImageSource</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1transformedimagesource">ID2D1TransformedImageSource</a>

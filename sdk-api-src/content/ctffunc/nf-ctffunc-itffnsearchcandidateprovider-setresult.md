@@ -64,7 +64,7 @@ App-specified string that enables a text service or IME to optionally provide di
 
 ### -param bstrResult [in]
 
-A string that represents the candidate string chosen by the user.  It should be one of the candidate string values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnsearchcandidateprovider-getsearchcandidates">GetSearchCandidates</a> method.
+A string that represents the candidate string chosen by the user.  It should be one of the candidate string values returned by the <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnsearchcandidateprovider-getsearchcandidates">GetSearchCandidates</a> method.
 
 ## -returns
 
@@ -90,15 +90,14 @@ The method was successful.
 
 ## -remarks
 
-Implementing and calling the <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">SetResult</a> method is optional.
+Implementing and calling the <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">SetResult</a> method is optional.
 
-A text service or IME can return <b>E_PENDING</b> if no corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnsearchcandidateprovider-getsearchcandidates">GetSearchCandidates</a> has been made yet for the value of <i>bstrQuery</i>.
+A text service or IME can return <b>E_PENDING</b> if no corresponding call to <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnsearchcandidateprovider-getsearchcandidates">GetSearchCandidates</a> has been made yet for the value of <i>bstrQuery</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnsearchcandidateprovider-getsearchcandidates">GetSearchCandidates</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnsearchcandidateprovider-getsearchcandidates">GetSearchCandidates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnsearchcandidateprovider">ITfFnSearchCandidateProvider</a>
-
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnsearchcandidateprovider">ITfFnSearchCandidateProvider</a>

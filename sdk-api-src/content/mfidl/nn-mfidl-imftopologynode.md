@@ -61,11 +61,11 @@ Represents a node in a topology. The following node types are supported:
             </li>
 <li>Tee node. Delivers a media stream to two or more nodes.
             </li>
-</ul>To create a new node, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopologynode">MFCreateTopologyNode</a> function.
+</ul>To create a new node, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopologynode">MFCreateTopologyNode</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTopologyNode</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFTopologyNode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTopologyNode</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFTopologyNode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IMFTopologyNode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-clonefrom">CloneFrom</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-clonefrom">CloneFrom</a>
 </td>
 <td align="left" width="63%">
 Copies the data from another topology node into this node.
@@ -89,7 +89,7 @@ Copies the data from another topology node into this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput">ConnectOutput</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput">ConnectOutput</a>
 </td>
 <td align="left" width="63%">
 Connects an output stream from this node to the input stream of another node.
@@ -98,7 +98,7 @@ Connects an output stream from this node to the input stream of another node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-disconnectoutput">DisconnectOutput</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-disconnectoutput">DisconnectOutput</a>
 </td>
 <td align="left" width="63%">
 Disconnects an output stream on this node.
@@ -107,7 +107,7 @@ Disconnects an output stream on this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinput">GetInput</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinput">GetInput</a>
 </td>
 <td align="left" width="63%">
 Retrieves the node that is connected to a specified input stream on this node.
@@ -116,7 +116,7 @@ Retrieves the node that is connected to a specified input stream on this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputcount">GetInputCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputcount">GetInputCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of input streams that currently exist on this node.
@@ -125,7 +125,7 @@ Retrieves the number of input streams that currently exist on this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype">GetInputPrefType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype">GetInputPrefType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the preferred media type for an input stream on this node.
@@ -134,7 +134,7 @@ Retrieves the preferred media type for an input stream on this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getnodetype">GetNodeType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getnodetype">GetNodeType</a>
 </td>
 <td align="left" width="63%">
 Returns the node type.
@@ -143,7 +143,7 @@ Returns the node type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getobject">GetObject</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves the object associated with this node.
@@ -152,7 +152,7 @@ Retrieves the object associated with this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutput">GetOutput</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutput">GetOutput</a>
 </td>
 <td align="left" width="63%">
 Retrieves the node that is connected to a specified output stream on this node.
@@ -161,7 +161,7 @@ Retrieves the node that is connected to a specified output stream on this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutputcount">GetOutputCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutputcount">GetOutputCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of output streams that currently exist on this node.
@@ -170,7 +170,7 @@ Retrieves the number of output streams that currently exist on this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutputpreftype">GetOutputPrefType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutputpreftype">GetOutputPrefType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the preferred media type for an output stream on this node.
@@ -179,7 +179,7 @@ Retrieves the preferred media type for an output stream on this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-gettoponodeid">GetTopoNodeID</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-gettoponodeid">GetTopoNodeID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the node.
@@ -188,25 +188,25 @@ Retrieves the identifier of the node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imftopologynode-remotegetinputpreftype">RemoteGetInputPrefType</a>
+<a href="/windows/desktop/medfound/imftopologynode-remotegetinputpreftype">RemoteGetInputPrefType</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype">GetInputPrefType</a>. (Not used by applications.)
+Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype">GetInputPrefType</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imftopologynode-remotegetoutputpreftype">RemoteGetOutputPrefType</a>
+<a href="/windows/desktop/medfound/imftopologynode-remotegetoutputpreftype">RemoteGetOutputPrefType</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutputpreftype">GetOutputPrefType</a>. (Not used by applications.)
+Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutputpreftype">GetOutputPrefType</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setinputpreftype">SetInputPrefType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setinputpreftype">SetInputPrefType</a>
 </td>
 <td align="left" width="63%">
 Sets the preferred media type for an input stream on this node.
@@ -215,7 +215,7 @@ Sets the preferred media type for an input stream on this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setobject">SetObject</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setobject">SetObject</a>
 </td>
 <td align="left" width="63%">
 Sets the object associated with this node.
@@ -224,7 +224,7 @@ Sets the object associated with this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setoutputpreftype">SetOutputPrefType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setoutputpreftype">SetOutputPrefType</a>
 </td>
 <td align="left" width="63%">
 Sets the preferred media type for an output stream on this node.
@@ -233,7 +233,7 @@ Sets the preferred media type for an output stream on this node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-settoponodeid">SetTopoNodeID</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-settoponodeid">SetTopoNodeID</a>
 </td>
 <td align="left" width="63%">
 Sets the identifier for the node.
@@ -244,17 +244,16 @@ Sets the identifier for the node.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
+<a href="/windows/desktop/medfound/topologies">Topologies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topology-node-attributes">Topology Node Attributes</a>
-
+<a href="/windows/desktop/medfound/topology-node-attributes">Topology Node Attributes</a>

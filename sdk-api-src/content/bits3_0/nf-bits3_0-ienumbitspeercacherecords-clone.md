@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Creates another 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a> enumerator that contains the same enumeration state as the current one.
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a> enumerator that contains the same enumeration state as the current one.
 
 Using this method, a client can record a particular point in the enumeration sequence, and then return to that point at a later time. The new enumerator supports the same interface as the original one.
 
@@ -68,5 +68,4 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a>
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a>

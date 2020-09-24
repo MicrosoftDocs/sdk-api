@@ -51,21 +51,20 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and initializes its members by copying the members of another <b>Size</b> object.
+Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and initializes its members by copying the members of another <b>Size</b> object.
 
 ## -parameters
 
 ### -param size [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a></b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object that is used to initialize this <b>Size</b> object.
+Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object that is used to initialize this <b>Size</b> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>

@@ -64,7 +64,7 @@ A pointer to a GUID that specifies the encoder. This must be an encoder supporte
 
 Type: <b>EncoderParameters**</b>
 
-The address of a pointer to an array of <a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects.
+The address of a pointer to an array of <a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects.
 
 ## -returns
 
@@ -95,4 +95,3 @@ Several circumstances can generate this return value.
 </td>
 </tr>
 </table>
-

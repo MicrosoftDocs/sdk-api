@@ -58,7 +58,7 @@ Destroys the specified conversation list and terminates all conversations associ
 
 Type: <b>HCONVLIST</b>
 
-A handle to the conversation list. This handle must have been created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a> function.
+A handle to the conversation list. This handle must have been created by a previous call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a> function.
 
 ## -returns
 
@@ -68,11 +68,11 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
+The <a href="/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
 
 ## -remarks
 
-An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a> function to terminate individual conversations in the list.
+An application can use the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a> function to terminate individual conversations in the list.
 
 ## -see-also
 
@@ -80,21 +80,20 @@ An application can use the <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
 <b>Reference</b>
-

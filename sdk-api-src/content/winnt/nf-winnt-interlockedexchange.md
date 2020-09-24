@@ -57,11 +57,11 @@ api_name:
 Sets a 32-bit variable to the specified value as an atomic operation.
 
 To operate on a pointer variable, use the 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-interlockedexchangepointer">InterlockedExchangePointer</a> function.
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedexchangepointer">InterlockedExchangePointer</a> function.
 
-To operate on a 16-bit variable, use the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-interlockedexchange16">InterlockedExchange16</a> function.
+To operate on a 16-bit variable, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockedexchange16">InterlockedExchange16</a> function.
 
-To operate on a 64-bit variable, use the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-interlockedexchange64">InterlockedExchange64</a> function.
+To operate on a 64-bit variable, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockedexchange64">InterlockedExchange64</a> function.
 
 ## -parameters
 
@@ -81,18 +81,18 @@ The function returns the initial value of the <i>Target</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://docs.microsoft.com/en-us/cpp/intrinsics/interlockedexchange-intrinsic-functions">_InterlockedExchange</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="/cpp/intrinsics/interlockedexchange-intrinsic-functions">_InterlockedExchange</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/ms683594(v%3Dvs.85)">InterlockedExchangeAcquire</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="/previous-versions/windows/desktop/legacy/ms683594(v=vs.85)">InterlockedExchangeAcquire</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
+<a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
@@ -188,5 +188,4 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

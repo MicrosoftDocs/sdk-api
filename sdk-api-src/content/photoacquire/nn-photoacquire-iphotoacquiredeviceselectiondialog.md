@@ -54,7 +54,7 @@ Provides a dialog box for selecting the device to acquire images from.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireDeviceSelectionDialog</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireDeviceSelectionDialog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireDeviceSelectionDialog</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireDeviceSelectionDialog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPhotoAcquireDeviceSelectionDialog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-domodal">DoModal</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-domodal">DoModal</a>
 </td>
 <td align="left" width="63%">
 Displays a device selection dialog box and retrieves the ID and type of the selected device.
@@ -78,7 +78,7 @@ Displays a device selection dialog box and retrieves the ID and type of the sele
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-setsubmitbuttontext">SetPrompt</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-setsubmitbuttontext">SetPrompt</a>
 </td>
 <td align="left" width="63%">
 Sets the text displayed in the dialog box that prompts the user to select a device.
@@ -87,7 +87,7 @@ Sets the text displayed in the dialog box that prompts the user to select a devi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-settitle">SetTitle</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-settitle">SetTitle</a>
 </td>
 <td align="left" width="63%">
 Sets the title of the device selection dialog box.
@@ -98,5 +98,4 @@ Sets the title of the device selection dialog box.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>

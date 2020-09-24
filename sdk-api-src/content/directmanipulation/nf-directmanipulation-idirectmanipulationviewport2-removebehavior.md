@@ -56,7 +56,7 @@ Removes a behavior from the viewport that matches the given cookie.
 
 ### -param cookie [in]
 
-A valid cookie returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport2-addbehavior">AddBehavior</a> call on the same viewport.
+A valid cookie returned from the <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport2-addbehavior">AddBehavior</a> call on the same viewport.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport2">IDirectManipulationViewport2</a>
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport2">IDirectManipulationViewport2</a>

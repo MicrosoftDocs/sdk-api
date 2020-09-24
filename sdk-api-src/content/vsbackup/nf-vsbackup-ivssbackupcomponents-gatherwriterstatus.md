@@ -59,7 +59,7 @@ The
 ### -param pAsync [out]
 
 Doubly indirect pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object containing the writer status data.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object containing the writer status data.
 
 ## -returns
 
@@ -78,8 +78,8 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 Successfully returned a pointer to an instance of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the valid values returned by the <i>pHrResult</i> parameter.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. See 
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the valid values returned by the <i>pHrResult</i> parameter.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -157,35 +157,34 @@ The writer infrastructure is not operating properly. Check that the Event Servic
 ## -remarks
 
 The caller of this method should also call 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus">IVssBackupComponents::FreeWriterStatus</a> after receiving the status of each writer.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus">IVssBackupComponents::FreeWriterStatus</a> after receiving the status of each writer.
 
-After calling <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a>, requesters must call <b>GatherWriterStatus</b> to cause the writer session to be set to a completed state.
+After calling <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a>, requesters must call <b>GatherWriterStatus</b> to cause the writer session to be set to a completed state.
 
 <div class="alert"><b>Note</b>  This is only necessary on Windows Server 2008 with Service Pack 2 (SP2) and earlier.</div>
 <div> </div>
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> class handles the status message sent by each writer.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> class handles the status message sent by each writer.
 
 The caller is responsible for releasing the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus">IVssBackupComponents::FreeWriterStatus</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus">IVssBackupComponents::FreeWriterStatus</a>

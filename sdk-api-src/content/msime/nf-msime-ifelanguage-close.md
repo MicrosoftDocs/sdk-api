@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Terminates the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
+Terminates the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
-This method must be called after your last use of the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
+This method must be called after your last use of the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ This method must be called after your last use of the <a href="https://docs.micr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
-
+<a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>

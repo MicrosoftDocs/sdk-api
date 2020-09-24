@@ -64,7 +64,7 @@ Anchor position at which to end retrieval of formatted text.
 
 ### -param ppDataObject [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object that contains the formatted text.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object that contains the formatted text.
 
 ## -returns
 
@@ -127,9 +127,8 @@ Text, embedded objects, and any formatting are wrapped into a single <b>IDataObj
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
-
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>

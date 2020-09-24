@@ -55,7 +55,7 @@ Gets and sets media types on an object, such as a media source or media sink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaTypeHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaTypeHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaTypeHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaTypeHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFMediaTypeHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getcurrentmediatype">GetCurrentMediaType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getcurrentmediatype">GetCurrentMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current media type of the object.
@@ -80,7 +80,7 @@ Retrieves the current media type of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getmajortype">GetMajorType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getmajortype">GetMajorType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the major media type of the object.
@@ -90,7 +90,7 @@ Retrieves the major media type of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getmediatypebyindex">GetMediaTypeByIndex</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getmediatypebyindex">GetMediaTypeByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media type from the object's list of supported media types.
@@ -100,7 +100,7 @@ Retrieves a media type from the object's list of supported media types.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getmediatypecount">GetMediaTypeCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getmediatypecount">GetMediaTypeCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of media types in the object's list of supported media types.
@@ -110,7 +110,7 @@ Retrieves the number of media types in the object's list of supported media type
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-ismediatypesupported">IsMediaTypeSupported</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-ismediatypesupported">IsMediaTypeSupported</a>
 </td>
 <td align="left" width="63%">
 Queries whether the object supports a specified media type.
@@ -120,17 +120,17 @@ Queries whether the object supports a specified media type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/remotegetcurrentmediatype">RemoteGetCurrentMediaType</a>
+<a href="/windows/desktop/medfound/remotegetcurrentmediatype">RemoteGetCurrentMediaType</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getcurrentmediatype">GetCurrentMediaType</a>. (Not used by applications.)
+Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getcurrentmediatype">GetCurrentMediaType</a>. (Not used by applications.)
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-setcurrentmediatype">SetCurrentMediaType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-setcurrentmediatype">SetCurrentMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the object media type.
@@ -145,10 +145,10 @@ Sets the object media type.
 This interface is exposed by <i>media-type handlers</i>.
 
 <ul>
-<li> For media sources, get the media-type handler from the stream descriptor by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamdescriptor-getmediatypehandler">IMFStreamDescriptor::GetMediaTypeHandler</a>.</li>
-<li>For media sinks, get the media-type handler by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-getmediatypehandler">IMFStreamSink::GetMediaTypeHandler</a>.</li>
+<li> For media sources, get the media-type handler from the stream descriptor by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamdescriptor-getmediatypehandler">IMFStreamDescriptor::GetMediaTypeHandler</a>.</li>
+<li>For media sinks, get the media-type handler by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-getmediatypehandler">IMFStreamSink::GetMediaTypeHandler</a>.</li>
 </ul>
-If you are implementing a custom media source or media sink, you can create a simple media-type handler by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesimpletypehandler">MFCreateSimpleTypeHandler</a>, or you can provide your own implementation.
+If you are implementing a custom media source or media sink, you can create a simple media-type handler by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatesimpletypehandler">MFCreateSimpleTypeHandler</a>, or you can provide your own implementation.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -159,13 +159,12 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
+<a href="/windows/desktop/medfound/media-types">Media Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>
-
+<a href="/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>

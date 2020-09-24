@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DsGetFriendlyClassName</b> function retrieves the localized name for an object class. This function is obsolete. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname">IDsDisplaySpecifier::GetFriendlyClassName</a> method to perform this function.
+The <b>DsGetFriendlyClassName</b> function retrieves the localized name for an object class. This function is obsolete. New applications should use the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname">IDsDisplaySpecifier::GetFriendlyClassName</a> method to perform this function.
 
 ## -parameters
 
@@ -76,5 +76,4 @@ If no friendly name is set in the display specifiers for the object class, this 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname">IDsDisplaySpecifier::GetFriendlyClassName</a>
-
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname">IDsDisplaySpecifier::GetFriendlyClassName</a>

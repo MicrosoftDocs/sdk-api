@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The GAMMARAMP structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmsetdevicegammaramp">DrvIcmSetDeviceGammaRamp</a> to set the hardware <a href="https://docs.microsoft.com/windows-hardware/drivers/">gamma ramp</a> of a particular display device.
+The GAMMARAMP structure is used by <a href="/windows/desktop/api/winddi/nf-winddi-drvicmsetdevicegammaramp">DrvIcmSetDeviceGammaRamp</a> to set the hardware <a href="/windows-hardware/drivers/">gamma ramp</a> of a particular display device.
 
 ## -struct-fields
 
@@ -72,5 +72,4 @@ Is the 256-entry ramp for the blue color channel.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmsetdevicegammaramp">DrvIcmSetDeviceGammaRamp</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvicmsetdevicegammaramp">DrvIcmSetDeviceGammaRamp</a>

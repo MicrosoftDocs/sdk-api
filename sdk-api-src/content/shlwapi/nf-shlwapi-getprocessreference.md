@@ -51,35 +51,34 @@ api_name:
 
 ## -description
 
-Retrieves the process-specific object supplied by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a>, incrementing the reference count to keep the process alive.
+Retrieves the process-specific object supplied by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a>, incrementing the reference count to keep the process alive.
 
 ## -parameters
 
 ### -param punk [out]
 
-The address of a pointer that, when this function returns successfully, points to the object supplied to the process by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a>. Your application is responsible for freeing this resource when it is no longer needed.
+The address of a pointer that, when this function returns successfully, points to the object supplied to the process by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a>. Your application is responsible for freeing this resource when it is no longer needed.
 
-A pointer to a free-threaded <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. Components can use this interface (through <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>) to prevent the host process from terminating. This value can be <b>NULL</b>, in which case the process reference is no longer made available to components.
+A pointer to a free-threaded <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. Components can use this interface (through <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>) to prevent the host process from terminating. This value can be <b>NULL</b>, in which case the process reference is no longer made available to components.
 
 ## -remarks
 
 There are a number of components, such as Shell extension handlers, that are implemented as DLLs and run in a host process such as Windows Explorer (Explorer.exe) or Windows Internet Explorer (Iexplore.exe). Typically, when the user closes the host process, the component is shut down immediately as well. Such an abrupt termination can create problems for some components. For example, if a component is using a background thread to download data or run user-interface functions, it might need additional time to safely shut itself down.
 
-<b>GetProcessReference</b> allows components that run in a host process to hold a reference on the host process. <b>GetProcessReference</b> increments the host's reference count and returns a pointer to the host's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. By holding that reference, a component can prevent the host process from closing prematurely. After the component has completed its necessary processing, it should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">(*punk)->Release</a> to release the host's reference and allow the process to terminate.
+<b>GetProcessReference</b> allows components that run in a host process to hold a reference on the host process. <b>GetProcessReference</b> increments the host's reference count and returns a pointer to the host's <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. By holding that reference, a component can prevent the host process from closing prematurely. After the component has completed its necessary processing, it should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">(*punk)->Release</a> to release the host's reference and allow the process to terminate.
 
-<div class="alert"><b>Note</b>  If <b>GetProcessReference</b> is successful, the component must release the host's reference when it is no longer needed. Otherwise, all resources associated with the process will remain in memory. The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointed to by *<i>punk</i> can only be used to release this reference. Components cannot use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">(*punk)->QueryInterface</a> to request other interface pointers.</div>
+<div class="alert"><b>Note</b>  If <b>GetProcessReference</b> is successful, the component must release the host's reference when it is no longer needed. Otherwise, all resources associated with the process will remain in memory. The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointed to by *<i>punk</i> can only be used to release this reference. Components cannot use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">(*punk)->QueryInterface</a> to request other interface pointers.</div>
 <div> </div>
-<b>GetProcessReference</b> succeeds only if it is called from from an application which had previously called <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a> to set a process reference.
+<b>GetProcessReference</b> succeeds only if it is called from from an application which had previously called <a href="/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a> to set a process reference.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/apiindex/windows-apisets">Windows API Sets</a>
-
+<a href="/windows/desktop/apiindex/windows-apisets">Windows API Sets</a>

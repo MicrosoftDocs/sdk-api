@@ -109,5 +109,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method should only be used when <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-gettype">IWICColorContext::GetType</a> indicates <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextExifColorSpace</a>.
-
+This method should only be used when <a href="/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-gettype">IWICColorContext::GetType</a> indicates <a href="/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextExifColorSpace</a>.

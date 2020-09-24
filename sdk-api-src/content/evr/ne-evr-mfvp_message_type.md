@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines messages for an enhanced video renderer (EVR) presenter. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideopresenter-processmessage">IMFVideoPresenter::ProcessMessage</a> method.
+Defines messages for an enhanced video renderer (EVR) presenter. This enumeration is used with the <a href="/windows/desktop/api/evr/nf-evr-imfvideopresenter-processmessage">IMFVideoPresenter::ProcessMessage</a> method.
 
 ## -enum-fields
 
@@ -88,9 +88,8 @@ Cancels a frame step. The <i>ulParam</i> parameter is not used and should be zer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

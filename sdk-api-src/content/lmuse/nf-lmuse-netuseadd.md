@@ -79,7 +79,7 @@ A value that specifies the information level of the data. This parameter can be 
 </td>
 <td width="60%">
 Specifies information about the connection between a local device and a shared resource. Information includes the connection status and type. The <i>Buf</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_1">USE_INFO_1</a> structure.
+<a href="/windows/desktop/api/lmuse/ns-lmuse-use_info_1">USE_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Specifies information about the connection between a local device and a shared r
 </td>
 <td width="60%">
 Specifies information about the connection between a local device and a shared resource. Information includes the connection status and type, and a user name and domain name. The <i>Buf</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a> structure.
+<a href="/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Specifies information about the connection between a local device and a shared r
 ### -param buf [in]
 
 A pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>Level</i> parameter. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 ### -param parm_err [out]
 
@@ -110,17 +110,17 @@ A pointer to a value that receives the index of the first member of the informat
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
 You can also use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> functions to redirect a local device to a network resource.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> and <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> functions to redirect a local device to a network resource.
 
 No special group membership is required to call the 
 <b>NetUseAdd</b> function. This function cannot be executed on a remote server except in cases of downlevel compatibility.
 
-This function applies only to the Server Message Block (LAN Manager Workstation) client. The <b>NetUseAdd</b> function does not support Distributed File System (DFS) shares. To add a share using a different network provider (WebDAV or a DFS share, for example), use the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> function.
+This function applies only to the Server Message Block (LAN Manager Workstation) client. The <b>NetUseAdd</b> function does not support Distributed File System (DFS) shares. To add a share using a different network provider (WebDAV or a DFS share, for example), use the <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> or <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> function.
 
 
 If the 
@@ -166,35 +166,34 @@ If the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netusedel">NetUseDel</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netusedel">NetUseDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_1">USE_INFO_1</a>
+<a href="/windows/desktop/api/lmuse/ns-lmuse-use_info_1">USE_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a>
+<a href="/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/use-functions">Use Functions</a>
+<a href="/windows/desktop/NetMgmt/use-functions">Use Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>

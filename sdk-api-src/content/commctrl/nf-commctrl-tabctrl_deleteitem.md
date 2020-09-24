@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes an item from a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-deleteitem">TCM_DELETEITEM</a> message explicitly.
+Removes an item from a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-deleteitem">TCM_DELETEITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -65,4 +65,3 @@ Handle to the tab control.
 Type: <b>int</b>
 
 Index of the item to delete.
-

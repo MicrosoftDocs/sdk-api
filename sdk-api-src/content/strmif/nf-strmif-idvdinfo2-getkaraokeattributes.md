@@ -61,7 +61,7 @@ Specifies the index of the audio stream whose attributes you want to query. See 
 
 ### -param pAttributes [out]
 
-Pointer to a [DVD_KaraokeAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes) structure that is filled with the karaoke attributes.
+Pointer to a [DVD_KaraokeAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes) structure that is filled with the karaoke attributes.
 
 ## -returns
 
@@ -101,7 +101,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ The karaoke attributes for the specified stream are not available.
 
 ## -remarks
 
-This method does not explicitly return the number of channels in the stream. You can obtain that information through a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>. This method is demonstrated in the DVDSample application in <b>CKaraokeDlg::DoModal</b>.
+This method does not explicitly return the number of channels in the stream. You can obtain that information through a call to <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>. This method is demonstrated in the DVDSample application in <b>CKaraokeDlg::DoModal</b>.
 
 The <i>ulStream</i> parameter may be a value from 0 through 7, or one of the following:
 
@@ -165,13 +165,12 @@ The <i>ulStream</i> parameter may be a value from 0 through 7, or one of the fol
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

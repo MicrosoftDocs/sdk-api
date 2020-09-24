@@ -56,19 +56,19 @@ api_name:
 
 The 
 <b>INFCONTEXT</b> structure stores context information that functions such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetlinetexta">SetupGetLineText</a> use to navigate INF files.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetlinetexta">SetupGetLineText</a> use to navigate INF files.
 
 ## -struct-fields
 
 ### -field Inf
 
 Handle to the INF file returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopeninffilea">SetupOpenInfFile</a>.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupopeninffilea">SetupOpenInfFile</a>.
 
 ### -field CurrentInf
 
 Pointer to the current INF file. The <b>Inf</b> member may point to multiple files if they were appended to the open INF file using 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>.
 
 ### -field Section
 
@@ -86,21 +86,20 @@ Line of the current section in the INF file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindfirstlinea">SetupFindFirstLine</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindfirstlinea">SetupFindFirstLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindnextline">SetupFindNextLine</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindnextline">SetupFindNextLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindnextmatchlinea">SetupFindNextMatchLine</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindnextmatchlinea">SetupFindNextMatchLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
-
+<a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>

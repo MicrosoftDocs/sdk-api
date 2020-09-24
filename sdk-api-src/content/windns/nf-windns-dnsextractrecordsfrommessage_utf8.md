@@ -71,7 +71,7 @@ The
 
 ### -param pDnsBuffer [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains the DNS response message.
+A pointer to a <a href="/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains the DNS response message.
 
 ### -param wMessageLength [in]
 
@@ -81,7 +81,7 @@ The size, in bytes, of the message in
 ### -param ppRecord [out]
 
 A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the list of extracted RRs. To free these records, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordlistfree">DnsRecordListFree</a> function.
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordlistfree">DnsRecordListFree</a> function.
 
 ## -returns
 
@@ -104,7 +104,7 @@ DnsExtractRecordsFromMessage_UTF8(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a>
+<a href="/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a>
 
 
 
@@ -112,13 +112,12 @@ DnsExtractRecordsFromMessage_UTF8(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordlistfree">DnsRecordListFree</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordlistfree">DnsRecordListFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnswritequestiontobuffer_utf8">DnsWriteQuestionToBuffer</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnswritequestiontobuffer_utf8">DnsWriteQuestionToBuffer</a>

@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Retrieves the current height of the tree-view items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitemheight">TVM_GETITEMHEIGHT</a> message explicitly.
+Retrieves the current height of the tree-view items. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-getitemheight">TVM_GETITEMHEIGHT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a tree-view control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_setitemheight">TreeView_SetItemHeight</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_setitemheight">TreeView_SetItemHeight</a>

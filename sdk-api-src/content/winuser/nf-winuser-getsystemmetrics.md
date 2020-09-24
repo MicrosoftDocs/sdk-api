@@ -135,7 +135,7 @@ The number of buttons on a mouse, or zero if no mouse is installed.
 </dl>
 </td>
 <td width="60%">
-Reflects the state of the laptop or slate mode, 0 for Slate Mode and non-zero otherwise. When this system metric changes, the system sends a broadcast message via <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> with "ConvertibleSlateMode" in the LPARAM. Note that this system metric doesn't apply to desktop PCs. In that case, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getautorotationstate">GetAutoRotationState</a>.
+Reflects the state of the laptop or slate mode, 0 for Slate Mode and non-zero otherwise. When this system metric changes, the system sends a broadcast message via <a href="/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> with "ConvertibleSlateMode" in the LPARAM. Note that this system metric doesn't apply to desktop PCs. In that case, use <a href="/windows/desktop/api/winuser/nf-winuser-getautorotationstate">GetAutoRotationState</a>.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ The width of the rectangle around the location of a first click in a double-clic
         
 
 To set the width of the double-click rectangle, call 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with SPI_SETDOUBLECLKWIDTH.
+         <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with SPI_SETDOUBLECLKWIDTH.
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ This value is the same as SM_CXDLGFRAME.
 </dl>
 </td>
 <td width="60%">
-The width of the left and right edges of the focus rectangle that the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a> draws. This value is in pixels.
+The width of the left and right edges of the focus rectangle that the <a href="/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a> draws. This value is in pixels.
        
 
 <b>Windows 2000:  </b>This value is not supported.
@@ -264,7 +264,7 @@ This value is the same as SM_CXSIZEFRAME.
 The width of the client area for a full-screen window on the primary display monitor, in pixels. To
        get the coordinates of the portion of the screen that is not obscured by the system taskbar or by application desktop
        toolbars, call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with
+       <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with
        the SPI_GETWORKAREA value.
 
 </td>
@@ -299,7 +299,7 @@ The width of the thumb box in a horizontal scroll bar, in pixels.
 </td>
 <td width="60%">
 The default width of an icon, in pixels. The 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the  dimensions that SM_CXICON and SM_CYICON specifies.
+       <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the  dimensions that SM_CXICON and SM_CYICON specifies.
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ The default width, in pixels, of a maximized top-level window on the primary dis
 The default maximum width of a window that has a caption and sizing borders, in pixels. This metric
        refers to the entire desktop. The user cannot drag the window frame to a size larger than these dimensions. A
        window can override this value by processing the 
-       <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a> message.
+       <a href="/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -405,7 +405,7 @@ The width of a grid cell for a minimized window, in pixels. Each minimized windo
 <td width="60%">
 The minimum tracking width of a window, in pixels. The user cannot drag the window frame to a size
        smaller than these dimensions. A window can override this value by processing the 
-       <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a> message.
+       <a href="/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -431,7 +431,7 @@ The amount of border padding for captioned windows, in pixels.
 <td width="60%">
 The width of the screen of the primary display monitor, in pixels. This is the same value
        obtained by calling 
-       <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> as follows: <code>GetDeviceCaps(
+       <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> as follows: <code>GetDeviceCaps(
        hdcPrimaryMonitor, HORZRES)</code>.
 
 </td>
@@ -568,7 +568,7 @@ The height of the rectangle around the location of a first click in a double-cli
         
 
 To set the height of the double-click rectangle, call 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with SPI_SETDOUBLECLKHEIGHT.
+         <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with SPI_SETDOUBLECLKHEIGHT.
 
 </td>
 </tr>
@@ -619,7 +619,7 @@ This value is the same as SM_CYDLGFRAME.
 <td width="60%">
 The height of the top and bottom edges of the focus rectangle drawn
        by 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a>. This value is in pixels.
+       <a href="/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a>. This value is in pixels.
 
 <b>Windows 2000:  </b>This value is not supported.
 
@@ -646,7 +646,7 @@ This value is the same as SM_CYSIZEFRAME.
 The height of the client area for a full-screen window on the primary display monitor, in pixels. To
        get the coordinates of the portion of the screen not obscured by the system taskbar or by application desktop
        toolbars, call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with
+       <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with
        the SPI_GETWORKAREA value.
 
 </td>
@@ -671,7 +671,7 @@ The height of a horizontal scroll bar, in
 </td>
 <td width="60%">
 The default height of an icon, in pixels. The 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the
+       <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the
        dimensions SM_CXICON and SM_CYICON.
 
 </td>
@@ -720,7 +720,7 @@ The default height, in pixels, of a maximized top-level window on the primary di
 The default maximum height of a window that has a caption and sizing borders, in pixels. This metric
        refers to the entire desktop. The user cannot drag the window frame to a size larger than these dimensions. A
        window can override this value by processing the 
-       <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a> message.
+       <a href="/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -801,7 +801,7 @@ The height of a grid cell for a minimized window, in pixels. Each minimized wind
 <td width="60%">
 The minimum tracking height of a window, in pixels. The user cannot drag the window frame to a size
        smaller than these dimensions. A window can override this value by processing the 
-       <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a> message.
+       <a href="/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -814,7 +814,7 @@ The minimum tracking height of a window, in pixels. The user cannot drag the win
 <td width="60%">
 The height of the screen of the primary display monitor, in pixels. This is the same value
        obtained by calling 
-       <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> as follows: <code>GetDeviceCaps(
+       <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> as follows: <code>GetDeviceCaps(
        hdcPrimaryMonitor, VERTRES)</code>.
 
 </td>
@@ -1098,7 +1098,7 @@ You can use terminal services management tools such as Terminal Services Manager
 This system metric is used in a Terminal Services environment. If the calling process is associated 
         with a Terminal Services client session, the return value is nonzero. If the calling process is 
         associated with the Terminal Services console session, the return value is 0. <b>Windows Server 2003 and Windows XP:  </b>The console session
-        is not necessarily the physical console. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wtsgetactiveconsolesessionid">WTSGetActiveConsoleSessionId</a>.
+        is not necessarily the physical console. For more information, see <a href="/windows/desktop/api/winbase/nf-winbase-wtsgetactiveconsolesessionid">WTSGetActiveConsoleSessionId</a>.
 
 
 
@@ -1209,7 +1209,7 @@ Nonzero if the meanings of the left and right mouse buttons are swapped; otherwi
 </dl>
 </td>
 <td width="60%">
-Reflects the state of the docking mode, 0 for Undocked Mode and non-zero otherwise. When this system metric changes, the system sends a broadcast message via <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> with "SystemDockMode" in the LPARAM.
+Reflects the state of the docking mode, 0 for Undocked Mode and non-zero otherwise. When this system metric changes, the system sends a broadcast message via <a href="/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> with "SystemDockMode" in the LPARAM.
 
 
 
@@ -1264,7 +1264,7 @@ Type: <b>int</b>
 If the function succeeds, the return value is the requested system metric or configuration setting.
 
 If the function fails, the return value is 0. 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> does not provide extended error information.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> does not provide extended error information.
 
 ## -remarks
 
@@ -1272,7 +1272,7 @@ System metrics can vary from display to display.
 
 <b>GetSystemMetrics</b>(SM_CMONITORS) counts only 
     visible display monitors. This is different from 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a>, which enumerates both visible display 
+    <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a>, which enumerates both visible display 
     monitors and invisible  pseudo-monitors that are associated with mirroring drivers. An invisible pseudo-monitor is associated with a pseudo-device used to mirror application drawing for remoting or other purposes.
 
 The SM_ARRANGE setting specifies how the system arranges minimized windows, and consists of a starting 
@@ -1415,15 +1415,15 @@ The device is ready to receive digitizer input.
 </table>
  
 
-This API is not DPI aware, and should not be used if the calling thread is per-monitor DPI aware. For the DPI-aware version of this API, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetricsfordpi">GetSystemMetricsForDPI</a>. For more information on DPI awareness, see <a href="https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">the Windows High DPI documentation.</a>
+This API is not DPI aware, and should not be used if the calling thread is per-monitor DPI aware. For the DPI-aware version of this API, see <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetricsfordpi">GetSystemMetricsForDPI</a>. For more information on DPI awareness, see <a href="/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">the Windows High DPI documentation.</a>
 
 
 
 #### Examples
 
 The following example uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function to determine whether a mouse is installed and whether the mouse buttons are swapped. The example also uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function to retrieve the mouse threshold and speed. It displays the information in the console.
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function to determine whether a mouse is installed and whether the mouse buttons are swapped. The example also uses the 
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function to retrieve the mouse threshold and speed. It displays the information in the console.
 
 <pre class="syntax" xml:space="preserve"><code>#include &lt;windows.h&gt;
 #include &lt;stdio.h&gt;
@@ -1469,13 +1469,12 @@ void main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetricsfordpi">GetSystemMetricsForDPI</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetricsfordpi">GetSystemMetricsForDPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

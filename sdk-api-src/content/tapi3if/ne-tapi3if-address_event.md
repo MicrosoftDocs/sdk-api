@@ -52,19 +52,19 @@ api_name:
 
 The 
 <b>ADDRESS_EVENT</b> enum describes address events. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddressevent-get_event">ITAddressEvent::get_Event</a> method returns a member of this enum to indicate the type of address event that occurred.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddressevent-get_event">ITAddressEvent::get_Event</a> method returns a member of this enum to indicate the type of address event that occurred.
 
 ## -enum-fields
 
 ### -field AE_STATE
 
 The address state has changed. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_state">ITAddress::get_State</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_state">ITAddress::get_State</a>.
 
 ### -field AE_CAPSCHANGE
 
 Address capabilities have changed. See 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddrcapflags--constants">capability flags</a>.
+<a href="/windows/desktop/Tapi/lineaddrcapflags--constants">capability flags</a>.
 
 ### -field AE_RINGING
 
@@ -77,7 +77,7 @@ The address configuration has changed.
 ### -field AE_FORWARD
 
 Forwarding has changed. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>.
 
 ### -field AE_NEWTERMINAL
 
@@ -102,19 +102,18 @@ Last item in this enum.
 ## -remarks
 
 Certain events on PnP devices will not be received until after the first time static terminals are enumerated using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals">ITTerminalSupport::EnumerateStaticTerminals</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals">ITTerminalSupport::get_StaticTerminals</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals">ITTerminalSupport::EnumerateStaticTerminals</a> or 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals">ITTerminalSupport::get_StaticTerminals</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/event-notification">Event Notification
+<a href="/windows/desktop/Tapi/event-notification">Event Notification
 		  overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddressevent-get_event">ITAddressEvent::get_Event</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddressevent-get_event">ITAddressEvent::get_Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>

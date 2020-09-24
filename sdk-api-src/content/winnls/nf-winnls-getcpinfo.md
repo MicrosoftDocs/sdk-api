@@ -58,21 +58,21 @@ api_name:
 ## -description
 
 Retrieves information about any valid installed or available code page. 
-<div class="alert"><b>Note</b>  To obtain additional information about valid installed or available code pages, the application should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  To obtain additional information about valid installed or available code pages, the application should use <a href="/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param CodePage [in]
 
-Identifier for the code page for which to retrieve information. For details, see the <i>CodePage</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a>.
+Identifier for the code page for which to retrieve information. For details, see the <i>CodePage</i> parameter of <a href="/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a>.
 
 ### -param lpCPInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfo">CPINFO</a> structure that receives information about the code page. See the Remarks section.
+Pointer to a <a href="/windows/desktop/api/winnls/ns-winnls-cpinfo">CPINFO</a> structure that receives information about the code page. See the Remarks section.
 
 ## -returns
 
-Returns 1 if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns 1 if successful, or 0 otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 				
 
 <ul>
@@ -81,41 +81,40 @@ Returns 1 if successful, or 0 otherwise. To get extended error information, the 
 
 ## -remarks
 
-See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a>.
+See Remarks for <a href="/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfo">CPINFO</a>
+<a href="/windows/desktop/api/winnls/ns-winnls-cpinfo">CPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>
+<a href="/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getacp">GetACP</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getacp">GetACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
-
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>

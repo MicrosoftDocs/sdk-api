@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>LINEGENERATETONE</b> structure contains information about a tone to be generated. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone">TSPI_lineGenerateTone</a> functions.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a> and 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone">TSPI_lineGenerateTone</a> functions.
 
 ## -struct-fields
 
@@ -85,9 +85,8 @@ This structure is used only for the generation of tones. It is not used for tone
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone">TSPI_lineGenerateTone</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone">TSPI_lineGenerateTone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a>

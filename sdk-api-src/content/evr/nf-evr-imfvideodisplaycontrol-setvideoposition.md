@@ -57,7 +57,7 @@ Sets the source and destination rectangles for the video.
 
 ### -param pnrcSource [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that specifies the source rectangle. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the source rectangle does not change.
+Pointer to an <a href="/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that specifies the source rectangle. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the source rectangle does not change.
 
 ### -param prcDest [in]
 
@@ -109,23 +109,22 @@ The video renderer has been shut down.
 
 ## -remarks
 
-The source rectangle defines which portion of the video is displayed. It is specified in <i>normalized</i> coordinates. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure. To display the entire video image, set the source rectangle to {0, 0, 1, 1}. The default source rectangle is {0, 0, 1, 1}.
+The source rectangle defines which portion of the video is displayed. It is specified in <i>normalized</i> coordinates. For more information, see <a href="/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure. To display the entire video image, set the source rectangle to {0, 0, 1, 1}. The default source rectangle is {0, 0, 1, 1}.
 
 The destination rectangle defines a rectangle within the clipping window where the video appears. It is specified in pixels, relative to the client area of the window. To fill the entire window, set the destination rectangle to {0, 0, <i>width</i>, <i>height</i>}, where <i>width</i> and <i>height</i> are dimensions of the window client area. The default destination rectangle is {0, 0, 0, 0}.
 
 To update just one of these rectangles, set the other parameter to <b>NULL</b>. You can set <i>pnrcSource</i> or <i>prcDest</i> to <b>NULL</b>, but not both.
 
-Before setting the destination rectangle (<i>prcDest</i>), you must set the video window by calling <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideowindow">IMFVideoDisplayControl::SetVideoWindow</a>. (For the Media Foundation version of the EVR, you can also provide the video window in the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatevideorendereractivate">MFCreateVideoRendererActivate</a> function.) If no video window was provided, <b>SetVideoPosition</b> returns E_POINTER.
+Before setting the destination rectangle (<i>prcDest</i>), you must set the video window by calling <a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideowindow">IMFVideoDisplayControl::SetVideoWindow</a>. (For the Media Foundation version of the EVR, you can also provide the video window in the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatevideorendereractivate">MFCreateVideoRendererActivate</a> function.) If no video window was provided, <b>SetVideoPosition</b> returns E_POINTER.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

@@ -79,7 +79,7 @@ The size of the <i>Indices</i> buffer, in <b>DWORDs</b>. This parameter will be 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -87,15 +87,14 @@ The
 <b>ImageEnumerateCertificates</b> function returns information about the certificates currently contained in an image file. It has filtering capabilities which allow certificates containing sections of any single type (or of any type) to be returned.
 
 After the indices of interesting certificates are discovered, they can be passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imagegetcertificatedata">ImageGetCertificateData</a> function to obtain the actual bodies of the certificates.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imagegetcertificatedata">ImageGetCertificateData</a> function to obtain the actual bodies of the certificates.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imagegetcertificatedata">ImageGetCertificateData</a>
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imagegetcertificatedata">ImageGetCertificateData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
-
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>

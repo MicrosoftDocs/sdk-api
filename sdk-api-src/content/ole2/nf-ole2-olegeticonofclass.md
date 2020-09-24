@@ -74,9 +74,8 @@ If the function succeeds, the return value is a handle to a metafile that contai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olemetafilepictfromiconandlabel">OleMetafilePictFromIconAndLabel</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olemetafilepictfromiconandlabel">OleMetafilePictFromIconAndLabel</a>

@@ -76,5 +76,4 @@ FNALLOC(fnMemAlloc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfree">FNFree</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fnfree">FNFree</a>

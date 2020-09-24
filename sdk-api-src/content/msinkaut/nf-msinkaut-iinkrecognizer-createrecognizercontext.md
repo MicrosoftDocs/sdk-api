@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
+Creates a new <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
 
 ## -parameters
 
 ### -param Context [out, retval]
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> for the invoking <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a>.
+Returns a <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> for the invoking <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a>.
 
 ## -returns
 
@@ -105,9 +105,8 @@ An exception occurred inside the method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
-
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>

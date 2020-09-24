@@ -60,11 +60,11 @@ Retrieves the size of the content area for the background defined by the visual 
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
 ### -param hdc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 HDC to use when drawing. This parameter may be set to <b>NULL</b>.
 
@@ -72,13 +72,13 @@ HDC to use when drawing. This parameter may be set to <b>NULL</b>.
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the content area. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
+Value of type <b>int</b> that specifies the part that contains the content area. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part that contains the content area. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part that contains the content area. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param pBoundingRect [in]
 
@@ -94,7 +94,7 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -105,7 +105,7 @@ A visual style can define a content area within each background image. This is t
 
 #### Examples
 
-When applying a theme to an entire client area of a window, you can call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclientrect">GetClientRect</a> to retrieve this area in a <b>RECT</b>, which can be passed via pointer as the <i>pContentRect</i> parameter to <b>GetThemeBackgroundContentRect</b> as in the following example.
+When applying a theme to an entire client area of a window, you can call <a href="/windows/desktop/api/winuser/nf-winuser-getclientrect">GetClientRect</a> to retrieve this area in a <b>RECT</b>, which can be passed via pointer as the <i>pContentRect</i> parameter to <b>GetThemeBackgroundContentRect</b> as in the following example.
 		
 
 
@@ -117,13 +117,12 @@ bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemebackgroundextent">GetThemeBackgroundExtent</a>
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemebackgroundextent">GetThemeBackgroundExtent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/property-typedefs">Property Identifiers</a>
+<a href="/windows/desktop/Controls/property-typedefs">Property Identifiers</a>
 
 
 
 <b>Reference</b>
-

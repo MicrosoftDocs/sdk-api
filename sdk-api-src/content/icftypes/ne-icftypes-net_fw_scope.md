@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 The 
 <b>NET_FW_SCOPE</b> enumerated type  specifies the scope of addresses from which a port can listen.
@@ -77,9 +77,8 @@ Used for boundary checking only. Not valid for application programming.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-enumerated-types">Windows Firewall Enumerated Types</a>
+<a href="/previous-versions/windows/desktop/ics/windows-firewall-enumerated-types">Windows Firewall Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-reference">Windows Firewall Reference</a>
-
+<a href="/previous-versions/windows/desktop/ics/windows-firewall-reference">Windows Firewall Reference</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Deletes a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface pointer from the set.
+Deletes a specified <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface pointer from the set.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Deletes a specified <a href="https://docs.microsoft.com/previous-versions/window
 
 The unique   identifier of a relationship.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface pointer to be deleted is the pointer to the relationship object that represents the relationship the  specified identifier.
+The <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface pointer to be deleted is the pointer to the relationship object that represents the relationship the  specified identifier.
 
 ## -returns
 
@@ -110,7 +110,7 @@ The specified relationship does not exist.
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>. 
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>. 
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>. 
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>. 
 
 </td>
 </tr>
@@ -129,14 +129,14 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 
 ## -remarks
 
-When an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface pointer is deleted from the set, the relationship it represents is not saved when the package is saved.
+When an  <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface pointer is deleted from the set, the relationship it represents is not saved when the package is saved.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
 
@@ -148,11 +148,11 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipset">IOpcRelationshipSet</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipset">IOpcRelationshipSet</a>
 
 
 
@@ -160,15 +160,15 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
@@ -176,5 +176,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
-
+<a href="/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>

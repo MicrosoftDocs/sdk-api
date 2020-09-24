@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts an array of <b>DOUBLE</b> values from a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+Extracts an array of <b>DOUBLE</b> values from a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Extracts an array of <b>DOUBLE</b> values from a <a href="https://docs.microsoft
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ### -param prgn [out]
 
 Type: <b>DOUBLE*</b>
 
-Pointer to a buffer that contains <i>crgn</i> <b>DOUBLE</b> values. When this function returns, the buffer has been initialized with *<i>pcElem</i> <b>DOUBLE</b> elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+Pointer to a buffer that contains <i>crgn</i> <b>DOUBLE</b> values. When this function returns, the buffer has been initialized with *<i>pcElem</i> <b>DOUBLE</b> elements extracted from the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ### -param crgn [in]
 
@@ -76,7 +76,7 @@ The number of elements in the buffer pointed to by <i>prgn</i>.
 
 Type: <b>ULONG*</b>
 
-When this function returns, contains the count of <b>DOUBLE</b> elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+When this function returns, contains the count of <b>DOUBLE</b> elements extracted from the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -returns
 
@@ -96,7 +96,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise, including the fo
 </dl>
 </td>
 <td width="60%">
-The source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> contained more than <i>crgn</i> values.
+The source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> contained more than <i>crgn</i> values.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaid
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> was not of the appropriate type.
+The <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> was not of the appropriate type.
 
 </td>
 </tr>
@@ -115,16 +115,16 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-varia
 
 ## -remarks
 
-This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold an array that consists of a fixed number of <b>DOUBLE</b> values.
+This helper function is used when the calling application expects a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold an array that consists of a fixed number of <b>DOUBLE</b> values.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> has type VT_ARRAY | VT_DOUBLE, this function extracts up to <i>crgn</i> <b>DOUBLE</b> values and places them into the buffer pointed to by <i>prgn</i>.
+If the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> has type VT_ARRAY | VT_DOUBLE, this function extracts up to <i>crgn</i> <b>DOUBLE</b> values and places them into the buffer pointed to by <i>prgn</i>.
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> contains more elements than will fit into the <i>prgn</i> buffer, this function returns an error and sets *<i>pcElem</i> to 0.
+If the <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> contains more elements than will fit into the <i>prgn</i> buffer, this function returns an error and sets *<i>pcElem</i> to 0.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearray">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearray">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>.
 
 
 ```cpp
@@ -151,21 +151,20 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdoublearray">InitVariantFromDoubleArray</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdoublearray">InitVariantFromDoubleArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttodoublevector">PropVariantToDoubleVector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttodoublevector">PropVariantToDoubleVector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-variantgetdoubleelem">VariantGetDoubleElem</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-variantgetdoubleelem">VariantGetDoubleElem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodouble">VariantToDouble</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttodouble">VariantToDouble</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearrayalloc">VariantToDoubleArrayAlloc</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearrayalloc">VariantToDoubleArrayAlloc</a>

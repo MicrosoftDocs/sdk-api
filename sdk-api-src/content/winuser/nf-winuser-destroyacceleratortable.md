@@ -62,13 +62,13 @@ Destroys an accelerator table.
 
 Type: <b>HACCEL</b>
 
-A handle to the accelerator table to be destroyed. This handle must have been created by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a> function.
+A handle to the accelerator table to be destroyed. This handle must have been created by a call to the <a href="/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a> or <a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a> function.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-If the function succeeds, the return value is nonzero. However, if the table has been loaded more than one call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>, the function will return a nonzero value only when <b>DestroyAcceleratorTable</b> has been called an equal number of times.
+If the function succeeds, the return value is nonzero. However, if the table has been loaded more than one call to <a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>, the function will return a nonzero value only when <b>DestroyAcceleratorTable</b> has been called an equal number of times.
 
 If the function fails, the return value is zero.
 
@@ -78,19 +78,19 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyacceleratortablea">CopyAcceleratorTable</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-copyacceleratortablea">CopyAcceleratorTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
+<a href="/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
 
 
 
@@ -98,5 +98,4 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>

@@ -54,7 +54,7 @@ Represents a 2D transformation that affects the rotation of a visual around the 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionRotateTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionRotateTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionRotateTransform</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionRotateTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionRotateTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448976(v=vs.85)">SetAngle</a>
+<a href="/previous-versions/windows/desktop/legacy/hh448976(v=vs.85)">SetAngle</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the Angle property of a rotation transform. The Angle property specifies the rotation angle, in degrees. The default value is zero.
 
@@ -77,7 +77,7 @@ The <b>IDCompositionRotateTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448982(v=vs.85)">SetCenterX</a>
+<a href="/previous-versions/windows/desktop/legacy/hh448982(v=vs.85)">SetCenterX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterX property of a 2D rotation transform.
 
@@ -85,7 +85,7 @@ The <b>IDCompositionRotateTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448988(v=vs.85)">SetCenterY</a>
+<a href="/previous-versions/windows/desktop/legacy/hh448988(v=vs.85)">SetCenterY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterY property of a 2D rotation transform.
 
@@ -103,9 +103,8 @@ The effect is to rotate the coordinate system clockwise or counter-clockwise, an
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>

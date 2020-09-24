@@ -57,11 +57,11 @@ Gets the attribute store for an output stream on this Media Foundation transform
 
 ### -param dwOutputStreamID [in]
 
-Output stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
+Output stream identifier. To get the list of stream identifiers, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
 
 ### -param pAttributes [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -115,17 +115,16 @@ Invalid stream identifier.
 
 Implementation of this method is optional unless the MFT needs to support a particular set of attributes. 
 
-To get the attribute store for the entire MFT, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes">IMFTransform::GetAttributes</a>.
+To get the attribute store for the entire MFT, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes">IMFTransform::GetAttributes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/transform-attributes">Transform Attributes</a>
-
+<a href="/windows/desktop/medfound/transform-attributes">Transform Attributes</a>

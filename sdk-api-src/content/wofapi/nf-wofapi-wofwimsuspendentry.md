@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Temporarily removes a WIM data source from backing files on a volume until the volume is remounted or the data source is updated with <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/nf-wofapi-wofwimupdateentry">WofWimUpdateEntry</a>.
+Temporarily removes a WIM data source from backing files on a volume until the volume is remounted or the data source is updated with <a href="/windows/desktop/api/wofapi/nf-wofapi-wofwimupdateentry">WofWimUpdateEntry</a>.
 
 ## -parameters
 
@@ -72,5 +72,4 @@ If the volume currently has files whose data is derived from the WIM file, the d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-suspend-overlay">FSCTL_SUSPEND_OVERLAY</a>
-
+<a href="/windows-hardware/drivers/ifs/fsctl-suspend-overlay">FSCTL_SUSPEND_OVERLAY</a>

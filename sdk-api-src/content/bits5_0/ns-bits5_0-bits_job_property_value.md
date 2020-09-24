@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Provides the property value of the BITS job based on the value of the <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a> enumeration.
+Provides the property value of the BITS job based on the value of the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a> enumeration.
 
 ## -struct-fields
 
@@ -57,7 +57,7 @@ Provides the property value of the BITS job based on the value of the <a href="h
 
 This value is returned when using the enum property ID 
       <b>BITS_JOB_PROPERTY_ID_COST_FLAGS</b> and is applied as the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy">transfer policy</a> on the BITS job.
+      <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy">transfer policy</a> on the BITS job.
 
 This value is also used when using the <b>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</b> to specify the minimum notification interval.
 
@@ -88,9 +88,8 @@ This value is returned when using the enum property ID <b>BITS_JOB_PROPERTY_USE_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a>
+<a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy">BITS_JOB_TRANSFER_POLICY</a>
-
+<a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy">BITS_JOB_TRANSFER_POLICY</a>

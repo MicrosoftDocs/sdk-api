@@ -56,7 +56,7 @@ Returns the current authorization state of the ACT.
 
 ### -param pState [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a> that specifies the current authorization state of the ACT.
+Pointer to a <a href="/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a> that specifies the current authorization state of the ACT.
 
 ## -returns
 
@@ -93,5 +93,4 @@ The current authorization state was retrieved successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>

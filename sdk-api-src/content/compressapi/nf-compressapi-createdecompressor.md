@@ -59,7 +59,7 @@ Generates a new <b>DECOMPRESSOR_HANDLE</b>.
 The type of compression algorithm and mode to be used by this decompressor.
 
 
-This parameter can have one of the following values optionally combined with the <b>COMPRESS_RAW</b> flag.  Use a "bitwise OR" operator to include <b>COMPRESS_RAW</b> and to create a  block mode decompressor.  If <b>COMPRESS_RAW</b> is not included, the Compression API creates a buffer mode decompressor. For more information about selecting a compression algorithm and mode, see <a href="https://docs.microsoft.com/windows/desktop/cmpapi/using-the-compression-api">Using the Compression API</a>.
+This parameter can have one of the following values optionally combined with the <b>COMPRESS_RAW</b> flag.  Use a "bitwise OR" operator to include <b>COMPRESS_RAW</b> and to create a  block mode decompressor.  If <b>COMPRESS_RAW</b> is not included, the Compression API creates a buffer mode decompressor. For more information about selecting a compression algorithm and mode, see <a href="/windows/desktop/cmpapi/using-the-compression-api">Using the Compression API</a>.
 
 
 
@@ -124,11 +124,11 @@ If the function succeeds, the handle to the specified decompressor.
 
 ## -returns
 
-If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If the compression algorithm fails for some internal reason, the error from <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be <b>ERROR_FUNCTION_FAILED</b>.  If the system can find no compression algorithm matching the specified name and version, the error  can be <b>ERROR_NOT_SUPPORTED</b>.
+If the compression algorithm fails for some internal reason, the error from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be <b>ERROR_FUNCTION_FAILED</b>.  If the system can find no compression algorithm matching the specified name and version, the error  can be <b>ERROR_NOT_SUPPORTED</b>.
 
 ## -see-also
 
@@ -136,5 +136,4 @@ If the compression algorithm fails for some internal reason, the error from <a h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cmpapi/compression-api-functions">Compression API Functions</a>
-
+<a href="/windows/desktop/cmpapi/compression-api-functions">Compression API Functions</a>

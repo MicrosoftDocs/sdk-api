@@ -57,7 +57,7 @@ The <code>get_Mode</code> method retrieves the current mode on a multifunction t
 
 ### -param plMode [out]
 
-Pointer to a variable that receives a flag indicating the current mode setting. The possible values are defined in the [AMTunerModeType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-amtunermodetype) enumeration.
+Pointer to a variable that receives a flag indicating the current mode setting. The possible values are defined in the [AMTunerModeType](/windows/desktop/api/strmif/ne-strmif-amtunermodetype) enumeration.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>

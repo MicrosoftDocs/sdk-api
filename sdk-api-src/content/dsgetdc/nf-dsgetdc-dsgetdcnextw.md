@@ -58,7 +58,7 @@ The <b>DsGetDcNext</b> function retrieves the next domain controller in a domain
 
 ### -param GetDcContextHandle [in]
 
-Contains the domain controller enumeration context handle provided by the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> function.
+Contains the domain controller enumeration context handle provided by the <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> function.
 
 ### -param SockAddressCount [out, optional]
 
@@ -67,20 +67,20 @@ Pointer to a <b>ULONG</b> value that receives the number of elements in the <i>S
 
 ### -param SockAddresses [out, optional]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structures that receives the socket address data for the domain controller. <i>SockAddressCount</i> receives the number of elements in this array.
+Pointer to an array of <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structures that receives the socket address data for the domain controller. <i>SockAddressCount</i> receives the number of elements in this array.
 
 All returned addresses will be of type <b>AF_INET</b> or <b>AF_INET6</b>.
         The <b>sin_port</b> member contains the port from the server record.
             A port of 0 indicates no port is available from DNS.
 
-The caller must free this memory when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
+The caller must free this memory when it is no longer required by calling <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 This parameter is ignored if <i>SockAddressCount</i> is <b>NULL</b>.
 
 ### -param DnsHostName [out, optional]
 
 Pointer to a string pointer that receives the DNS name of the domain controller.
-        This parameter receives <b>NULL</b> if no host name is known. The caller must free this memory when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
+        This parameter receives <b>NULL</b> if no host name is known. The caller must free this memory when it is no longer required by calling <a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
 
 ## -returns
 
@@ -88,18 +88,18 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 or RPC error otherwise. Po
 
 ## -remarks
 
-To reset the enumeration, close the current enumeration by calling <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a> and then reopen the enumeration by calling <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> again.
+To reset the enumeration, close the current enumeration by calling <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a> and then reopen the enumeration by calling <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> again.
 
-The DC returned by <b>DsGetDcNext</b> will not be a Read-only DC (RODC) because those DCs only register site-specific and CName records, and both <b>DsGetDcNext</b> and <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> look for DNS SRV records.
+The DC returned by <b>DsGetDcNext</b> will not be a Read-only DC (RODC) because those DCs only register site-specific and CName records, and both <b>DsGetDcNext</b> and <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> look for DNS SRV records.
 
 The following procedure shows how to get a complete DC list from a computer running Windows Server 2008.
 
 <p class="proch"><b>To obtain a complete list of domain controllers</b>
 
 <ol>
-<li>Use <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> to get a domain controller name.</li>
-<li>Use <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a> to connect to that domain controller.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa">DsGetDomainControllerInfo</a> with InfoLevel 3 (<b>DS_DOMAIN_CONTROLLER_INFO_3</b>) to get the complete list, including RODCs.</li>
+<li>Use <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> to get a domain controller name.</li>
+<li>Use <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a> to connect to that domain controller.</li>
+<li>Call <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa">DsGetDomainControllerInfo</a> with InfoLevel 3 (<b>DS_DOMAIN_CONTROLLER_INFO_3</b>) to get the complete list, including RODCs.</li>
 </ol>
 
 
@@ -110,29 +110,28 @@ The following procedure shows how to get a complete DC list from a computer runn
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
+<a href="/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerating-domain-controllers">Enumerating Domain Controllers</a>
+<a href="/windows/desktop/AD/enumerating-domain-controllers">Enumerating Domain Controllers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
-
+<a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>

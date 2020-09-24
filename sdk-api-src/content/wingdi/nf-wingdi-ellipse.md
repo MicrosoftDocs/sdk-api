@@ -89,25 +89,24 @@ The current position is neither used nor updated by <b>Ellipse</b>.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-filled-shapes">Using Filled Shapes</a>.
+For an example, see <a href="/windows/desktop/gdi/using-filled-shapes">Using Filled Shapes</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arc">Arc
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arc">Arc
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
+<a href="/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
-
+<a href="/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>

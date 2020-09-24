@@ -62,7 +62,7 @@ Pointer to a <b>null</b>-terminated string that specifies the realm. If this par
 
 ### -param ppszUsername [out]
 
-Pointer to a pointer to a <b>null</b>-terminated string. When you have finished using the string, free <i>ppszUsername</i> by calling the  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+Pointer to a pointer to a <b>null</b>-terminated string. When you have finished using the string, free <i>ppszUsername</i> by calling the  <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
 
@@ -99,5 +99,4 @@ The credential was not found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduistoressocredw">CredUIStoreSSOCredW</a>
-
+<a href="/windows/desktop/api/wincred/nf-wincred-creduistoressocredw">CredUIStoreSSOCredW</a>

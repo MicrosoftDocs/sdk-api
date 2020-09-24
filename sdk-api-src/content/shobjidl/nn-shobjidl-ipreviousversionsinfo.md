@@ -54,7 +54,7 @@ Exposes a method that checks for previous versions of server files or folders, s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviousVersionsInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviousVersionsInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviousVersionsInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviousVersionsInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPreviousVersionsInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ipreviousversionsinfo-aresnapshotsavailable">AreSnapshotsAvailable</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ipreviousversionsinfo-aresnapshotsavailable">AreSnapshotsAvailable</a>
 </td>
 <td align="left" width="63%">
 Queries for the availablilty of a Windows Server 2003 volume image recorded by the system at an earlier time.
@@ -102,4 +102,3 @@ public:
         /* [retval][out] */ BOOL *pfAvailable) = 0;
 };</code></pre>
 Note that the shadow copies technology does not store entire copies of older versions unless they are deleted; only the changed bits are stored.
-

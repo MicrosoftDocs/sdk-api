@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-The <b>EMI_METADATA_SIZE</b> structure specifies the size of the  Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> request.
+The <b>EMI_METADATA_SIZE</b> structure specifies the size of the  Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> request.
 
 ## -struct-fields
 
 ### -field MetadataSize
 
-The size of the  EMI metadata (an [EMI_METADATA](/windows/win32/api/emi/ns-emi-emi_metadata_v1) structure) that can be obtained from the device.
+The size of the  EMI metadata (an [EMI_METADATA](./ns-emi-emi_metadata_v1.md) structure) that can be obtained from the device.
 
 ## -remarks
 
-This structure is returned through a successful completion of an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata_size">IOCTL_EMI_GET_METADATA_SIZE</a> IOCTL request.
+This structure is returned through a successful completion of an <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata_size">IOCTL_EMI_GET_METADATA_SIZE</a> IOCTL request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
+<a href="/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata_size">IOCTL_EMI_GET_METADATA_SIZE</a>
-
+<a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata_size">IOCTL_EMI_GET_METADATA_SIZE</a>

@@ -130,21 +130,20 @@ The size of the output buffer provided is not large enough to hold the requested
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get">MibGet</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get">MibGet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_first">MibGetFirst</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get_first">MibGetFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_set">MibSet</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_set">MibSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

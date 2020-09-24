@@ -55,7 +55,7 @@ The <code>IAMStreamSelect</code> interface selects from the available streams on
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStreamSelect</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMStreamSelect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStreamSelect</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMStreamSelect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAMStreamSelect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamselect-count">Count</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamselect-count">Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available streams.
@@ -79,7 +79,7 @@ Retrieves the number of available streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamselect-enable">Enable</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamselect-enable">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a given stream.
@@ -88,7 +88,7 @@ Enables or disables a given stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamselect-info">Info</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamselect-info">Info</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a given stream.
@@ -103,10 +103,9 @@ The following filters implement this interface:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-stream-splitter-filter">MPEG-1 Stream Splitter</a> filter</li>
+<a href="/windows/desktop/DirectShow/mpeg-1-stream-splitter-filter">MPEG-1 Stream Splitter</a> filter</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-splitter">MPEG-2 Splitter</a> filter</li>
+<a href="/windows/desktop/DirectShow/mpeg-2-splitter">MPEG-2 Splitter</a> filter</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/sami--cc--parser-filter">SAMI (CC) Parser</a> filter</li>
+<a href="/windows/desktop/DirectShow/sami--cc--parser-filter">SAMI (CC) Parser</a> filter</li>
 </ul>
-

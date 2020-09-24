@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITextStoreACP::GetStatus</b> method obtains the document status. The document status is returned through the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
+The <b>ITextStoreACP::GetStatus</b> method obtains the document status. The document status is returned through the <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
 
 ## -parameters
 
@@ -93,16 +93,15 @@ The pointer to the TS_STATUS parameter is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getstatus">ITfContextOwner::GetStatus
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getstatus">ITfContextOwner::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
-

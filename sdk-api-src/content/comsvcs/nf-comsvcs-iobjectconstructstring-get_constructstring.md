@@ -66,21 +66,20 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-You can use this method when implementing <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectconstruct-construct">IObjectConstruct::Construct</a>, which is called by the COM+ environment when your component is marked as supporting object construction.
+You can use this method when implementing <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectconstruct-construct">IObjectConstruct::Construct</a>, which is called by the COM+ environment when your component is marked as supporting object construction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--object-constructor-strings">COM+ Object Constructor Strings</a>
+<a href="/windows/desktop/cossdk/com--object-constructor-strings">COM+ Object Constructor Strings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstruct">IObjectConstruct</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstruct">IObjectConstruct</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstructstring">IObjectConstructString</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstructstring">IObjectConstructString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/specifying-an-object-constructor-string-for-a-component">Specifying an Object Constructor String for a Component</a>
-
+<a href="/windows/desktop/cossdk/specifying-an-object-constructor-string-for-a-component">Specifying an Object Constructor String for a Component</a>

@@ -54,7 +54,7 @@ api_name:
 The <b>SetNameEntry</b> method sets a name at a specified index of the  alternate name array.
 
 Before using this method, you must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-reset">ICertEncodeAltName::Reset</a> so that the object knows how many elements are in the array.
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-reset">ICertEncodeAltName::Reset</a> so that the object knows how many elements are in the array.
 
 ## -parameters
 
@@ -109,7 +109,7 @@ The name is an octet string that represents an Internet Protocol address.
 </dl>
 </td>
 <td width="60%">
-The name is a registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+The name is a registered <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The name is an IA5 string that contains a URL in the format <i>Service</i><b>://
 </dl>
 </td>
 <td width="60%">
-The name consists of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a binary <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
+The name consists of an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a binary <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 </td>
 </tr>
@@ -154,9 +154,8 @@ Specifies the alternate name.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>
-
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>

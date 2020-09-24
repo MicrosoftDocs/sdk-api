@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-This method enumerates File History configurations that were discovered on a storage device or network share by the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a> method and returns additional information about each of the discovered configurations.
+This method enumerates File History configurations that were discovered on a storage device or network share by the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a> method and returns additional information about each of the discovered configurations.
 
 > [!NOTE] 
 > **IFhReassociation** is deprecated and may be altered or unavailable in future releases.
@@ -64,11 +64,11 @@ Zero-based index of a discovered configuration.
 
 ### -param UserName [out]
 
-On return, contains a pointer to a string allocated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> containing the name of the user account under which the configuration was last backed up to.
+On return, contains a pointer to a string allocated with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> containing the name of the user account under which the configuration was last backed up to.
 
 ### -param PcName [out]
 
-On return, contains a pointer to a string allocated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> containing the name of the computer from which the configuration was last backed up.
+On return, contains a pointer to a string allocated with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> containing the name of the computer from which the configuration was last backed up.
 
 ### -param BackupTime [out]
 
@@ -82,27 +82,26 @@ If there is no File History configuration with the specified index, the <code>HR
 
 ## -remarks
 
-The caller is responsible for releasing the memory allocated for <i>UserName</i> and <i>PcName</i> by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on each of them.
+The caller is responsible for releasing the memory allocated for <i>UserName</i> and <i>PcName</i> by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on each of them.
 
-In order to perform reassociation, one of the configurations enumerated by this method must be selected using the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-selectconfiguration">IFhReassociation::SelectConfiguration</a> method and then the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a> method needs to be called.
+In order to perform reassociation, one of the configurations enumerated by this method must be selected using the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-selectconfiguration">IFhReassociation::SelectConfiguration</a> method and then the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a> method needs to be called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhreassociation">FhReassociation</a>
+<a href="/windows/desktop/DevNotes/fhreassociation">FhReassociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhreassociation">IFhReassociation</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhreassociation">IFhReassociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-selectconfiguration">IFhReassociation::SelectConfiguration</a>
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-selectconfiguration">IFhReassociation::SelectConfiguration</a>

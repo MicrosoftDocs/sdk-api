@@ -84,7 +84,7 @@ Defines the installation mode. This parameter can be one of the following values
 </td>
 <td width="60%">
 Provide the component and perform any installation necessary to provide the component. If the key file of a component in the requested feature, or a feature parent, is missing, reinstall the feature using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> with the following flag bits set: REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_USERDATA and REINSTALLMODE_SHORTCUT.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> with the following flag bits set: REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_USERDATA and REINSTALLMODE_SHORTCUT.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ REINSTALLMODE flags</b></dt>
 </td>
 <td width="60%">
 Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> to reinstall feature using this parameter for the <i>dwReinstallMode</i> parameter, and then provide the component.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> to reinstall feature using this parameter for the <i>dwReinstallMode</i> parameter, and then provide the component.
 
 </td>
 </tr>
@@ -356,7 +356,7 @@ Unable to detect a source.
  
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 ## -remarks
 
@@ -366,7 +366,7 @@ When the
 The INSTALLMODE_EXISTING option cannot be used in combination with the REINSTALLMODE flag.
 
 Features with components that contain a corrupted file or the wrong version of a file must be explicitly reinstalled by the user, or by having the application call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a>.
 
 
 
@@ -377,9 +377,8 @@ Features with components that contain a corrupted file or the wrong version of a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
+<a href="/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
-
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>

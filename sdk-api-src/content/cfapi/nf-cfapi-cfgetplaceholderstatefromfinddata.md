@@ -60,9 +60,8 @@ The find data information on the file.
 
 ## -returns
 
-Can include <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_placeholder_state">CF_PLACEHOLDER_STATE</a>; The placeholder state.
+Can include <a href="/windows/desktop/api/cfapi/ne-cfapi-cf_placeholder_state">CF_PLACEHOLDER_STATE</a>; The placeholder state.
 
 ## -remarks
 
-The WIN32_FIND_DATA structure is obtained from the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>/<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> functions.
-
+The WIN32_FIND_DATA structure is obtained from the Win32 <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>/<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> functions.

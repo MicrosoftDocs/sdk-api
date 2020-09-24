@@ -57,7 +57,7 @@ Retrieves the stream numbers that apply to a bandwidth step. This method is used
 
 ### -param dwStepNum [in]
 
-Bandwidth step number for which to retrieve information. Set this value to a number between 0, and 1 less than the number of bandwidth steps returned by <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstepcount">IMFASFStreamSelector::GetBandwidthStepCount</a>.
+Bandwidth step number for which to retrieve information. Set this value to a number between 0, and 1 less than the number of bandwidth steps returned by <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstepcount">IMFASFStreamSelector::GetBandwidthStepCount</a>.
 
 ### -param pdwBitrate [out]
 
@@ -65,11 +65,11 @@ Receives the bit rate associated with the bandwidth step.
 
 ### -param rgwStreamNumbers [out]
 
-Address of an array that receives the stream numbers. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getstreamcount">IMFASFStreamSelector::GetStreamCount</a> method.
+Address of an array that receives the stream numbers. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getstreamcount">IMFASFStreamSelector::GetStreamCount</a> method.
 
 ### -param rgSelections [out]
 
-Address of an array that receives the selection status of each stream, as an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-asf_selection_status">ASF_SELECTION_STATUS</a> value. The members of this array correspond to the members of the <i>rgwStreamNumbers</i> array by index. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getstreamcount">IMFASFStreamSelector::GetStreamCount</a> method.
+Address of an array that receives the selection status of each stream, as an <a href="/windows/desktop/api/wmcontainer/ne-wmcontainer-asf_selection_status">ASF_SELECTION_STATUS</a> value. The members of this array correspond to the members of the <i>rgwStreamNumbers</i> array by index. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getstreamcount">IMFASFStreamSelector::GetStreamCount</a> method.
 
 ## -returns
 
@@ -99,9 +99,8 @@ Bandwidth steps are bandwidth levels used for MBR content. If you stream MBR con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstepcount">IMFASFStreamSelector::GetBandwidthStepCount</a>
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstepcount">IMFASFStreamSelector::GetBandwidthStepCount</a>

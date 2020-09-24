@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SID_IDENTIFIER_AUTHORITY</b> structure represents the top-level authority of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+The <b>SID_IDENTIFIER_AUTHORITY</b> structure represents the top-level authority of a <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 ## -struct-fields
 
@@ -102,21 +102,20 @@ The identifier authority value identifies the agency that issued the SID. The fo
 </table>
  
 
-A SID must contain a top-level authority and at least one <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative identifier</a> (RID) value.
+A SID must contain a top-level authority and at least one <a href="/windows/desktop/SecGloss/r-gly">relative identifier</a> (RID) value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid">AllocateAndInitializeSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid">AllocateAndInitializeSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority">GetSidIdentifierAuthority</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority">GetSidIdentifierAuthority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesid">InitializeSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesid">InitializeSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>

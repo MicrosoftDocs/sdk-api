@@ -93,11 +93,11 @@ Value: 0xC0AA0600
 
 ## -remarks
 
-This method release the lock set when you called the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-preparemedia">IDiscFormat2RawCD::PrepareMedia</a> method. You must call this method after the write operation completes or after calling <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">IDiscFormat2RawCD::CancelWrite</a> to cancel a writing operation.
+This method release the lock set when you called the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-preparemedia">IDiscFormat2RawCD::PrepareMedia</a> method. You must call this method after the write operation completes or after calling <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">IDiscFormat2RawCD::CancelWrite</a> to cancel a writing operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
@@ -105,5 +105,4 @@ IDiscFormat2RawCD::CancelWrite
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-preparemedia">IDiscFormat2RawCD::PrepareMedia</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-preparemedia">IDiscFormat2RawCD::PrepareMedia</a>

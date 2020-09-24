@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/ne-spellcheck-corrective_action">CORRECTIVE_ACTION</a>
+<a href="/windows/desktop/api/spellcheck/ne-spellcheck-corrective_action">CORRECTIVE_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>

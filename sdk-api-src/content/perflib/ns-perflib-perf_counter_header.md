@@ -93,7 +93,7 @@ An error that was the result of a performance counter query. The performance lib
 </td>
 <td width="60%">
 The result of a  single-counter, single-instance query; for example,
-  "\Processor(_Total)\% Processor Time". The additional data consists of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_data">PERF_COUNTER_DATA</a> block.
+  "\Processor(_Total)\% Processor Time". The additional data consists of a <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_data">PERF_COUNTER_DATA</a> block.
 
 
 
@@ -105,7 +105,7 @@ The result of a  single-counter, single-instance query; for example,
 </dl>
 </td>
 <td width="60%">
-The result of a  multi-counter, single-instance query; for example, "\Processor(_Total)\*". The additional data consists of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_counters">PERF_MULTI_COUNTERS</a> block followed by  <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_data">PERF_COUNTER_DATA</a> blocks.
+The result of a  multi-counter, single-instance query; for example, "\Processor(_Total)\*". The additional data consists of a <a href="/windows/desktop/api/perflib/ns-perflib-perf_multi_counters">PERF_MULTI_COUNTERS</a> block followed by  <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_data">PERF_COUNTER_DATA</a> blocks.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The result of a  multi-counter, single-instance query; for example, "\Processor(
 </dl>
 </td>
 <td width="60%">
-The result of a single-counter, multi-instance query; for example, "\Processor(*)\% Processor Time". The additional data consists of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
+The result of a single-counter, multi-instance query; for example, "\Processor(*)\% Processor Time". The additional data consists of a <a href="/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
 
 
 
@@ -129,7 +129,7 @@ The result of a single-counter, multi-instance query; for example, "\Processor(*
 <td width="60%">
 The result of a multi-counter, multi-instance query; for example,
   "\Processor(*)\*". The additional data consists of a 
-  <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_counters">PERF_MULTI_COUNTERS</a> block followed by a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
+  <a href="/windows/desktop/api/perflib/ns-perflib-perf_multi_counters">PERF_MULTI_COUNTERS</a> block followed by a <a href="/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
 
 </td>
 </tr>
@@ -145,22 +145,21 @@ Reserved.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block that
+The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function returns a <a href="/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block that
 contains a sequence of <b>PERF_COUNTER_HEADER</b> blocks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_data">PERF_COUNTER_DATA</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_data">PERF_COUNTER_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_counters">PERF_MULTI_COUNTERS</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_multi_counters">PERF_MULTI_COUNTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ne-perflib-perfcounterdatatype">PerfCounterDataType</a>
-
+<a href="/windows/desktop/api/perflib/ne-perflib-perfcounterdatatype">PerfCounterDataType</a>

@@ -56,5 +56,4 @@ Restores the original activity ID to the thread.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a>
-
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a>

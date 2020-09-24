@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-The <b>IX509CertificateTemplate</b> interface represents a certificate request template. It can be used to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> interface.
-
+The <b>IX509CertificateTemplate</b> interface represents a certificate request template. It can be used to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> interface.

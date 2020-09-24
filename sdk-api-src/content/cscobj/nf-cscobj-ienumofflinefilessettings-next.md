@@ -73,5 +73,4 @@ Returns <b>S_OK</b> if the number of elements returned is <i>celt</i>; S_FALSE i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilessettings">IEnumOfflineFilesSettings</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilessettings">IEnumOfflineFilesSettings</a>

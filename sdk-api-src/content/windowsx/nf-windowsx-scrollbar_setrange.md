@@ -52,13 +52,13 @@ api_name:
 
 Sets the range of a scroll bar.
         
-<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a> function, which is deprecated. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a> function, which is deprecated. New applications should use the <a href="/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -76,11 +76,10 @@ The maximum value of the scroll bar.
 
 ### -param fRedraw
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to redraw the control; otherwise <b>FALSE</b>.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a>.
-
+For more information, see <a href="/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a>.

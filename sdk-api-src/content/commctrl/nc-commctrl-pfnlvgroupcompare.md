@@ -47,40 +47,39 @@ api_name:
 
 ## -description
 
-The <b>LVGroupCompare</b> function is an application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a> messages. It defines the ordering of the groups, based on the ID. The 
+The <b>LVGroupCompare</b> function is an application-defined callback function used with the <a href="/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a> and <a href="/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a> messages. It defines the ordering of the groups, based on the ID. The 
 			<b>LVGROUPCOMPARE</b> type defines a pointer to this callback function. <b>LVGroupCompare</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
 ### -param Arg1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 The ID of the first group.
 
 ### -param Arg2
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 The ID of the second group.
 
 ### -param Arg3
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">VOID</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">VOID</a>*</b>
 
-A pointer to the application-defined information. This comes from the message that was called; for <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a> it is <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvinsertgroupsorted">LVINSERTGROUPSORTED.pvData</a>, and for <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a> it is the <i>plv</i> parameter.
+A pointer to the application-defined information. This comes from the message that was called; for <a href="/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a> it is <a href="/windows/desktop/api/commctrl/ns-commctrl-lvinsertgroupsorted">LVINSERTGROUPSORTED.pvData</a>, and for <a href="/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a> it is the <i>plv</i> parameter.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Returns a negative value if the data for <i>Group1_ID</i> is less than the data for <i>Group2_ID</i>, a positive value if it is greater, or zero if it is the same.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvinsertgroupsorted">LVINSERTGROUPSORTED</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-lvinsertgroupsorted">LVINSERTGROUPSORTED</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a>
+<a href="/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a>
-
+<a href="/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a>

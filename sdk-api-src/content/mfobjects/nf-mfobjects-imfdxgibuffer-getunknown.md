@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that was previously stored in the media buffer object.
+Gets an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that was previously stored in the media buffer object.
 
 ## -parameters
 
 ### -param guid [in]
 
-The identifier of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
+The identifier of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
 
 ### -param riid [in]
 
@@ -112,9 +112,8 @@ The specified key was not found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-setunknown">IMFDXGIBuffer::SetUnknown</a>
-
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-setunknown">IMFDXGIBuffer::SetUnknown</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-When transmitted with <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a> messages, 
+When transmitted with <a href="/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a> messages, 
       passes information about a gesture.
 
 ## -struct-fields
@@ -81,9 +81,8 @@ A specific gesture instance with gesture messages starting with <b>GID_START</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtstructures">Structures</a>
+<a href="/windows/desktop/wintouch/mtstructures">Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a>
-
+<a href="/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a>

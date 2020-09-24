@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfinputprocessorprofiles-next">IEnumTfInputProcessorProfiles::Reset</a> method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
+The <a href="/windows/desktop/api/msctf/nf-msctf-ienumtfinputprocessorprofiles-next">IEnumTfInputProcessorProfiles::Reset</a> method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
 
@@ -75,4 +75,3 @@ The method was successful.
 </td>
 </tr>
 </table>
-

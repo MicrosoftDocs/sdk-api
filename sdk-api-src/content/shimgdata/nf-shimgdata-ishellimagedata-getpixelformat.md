@@ -58,7 +58,7 @@ Gets the pixel format of the image.
 
 Type: <b>PixelFormat*</b>
 
-A pointer to a value of type <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
+A pointer to a value of type <a href="/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
 
 ## -returns
 
@@ -87,4 +87,3 @@ The image has not been decoded or the decoding process failed.
 ## -remarks
 
 Values that identify various pixel formats are defined in Gdipluspixelformats.h.
-

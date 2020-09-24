@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-Adds members to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>.
+Adds members to the <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
-
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>

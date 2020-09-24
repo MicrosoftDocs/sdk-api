@@ -61,7 +61,7 @@ Retrieves session information for the specified session on the specified Remote 
 ### -param hServer [in]
 
 A handle to an RD Session Host server. Specify a handle opened by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
       <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the RD Session Host server on which your application 
       is running.
 
@@ -73,17 +73,17 @@ A Remote Desktop Services session identifier. To indicate the session in which t
       <b>WTS_CURRENT_SESSION</b> is specified when querying session information on a remote server, 
       the returned session information will be inconsistent. Do not use the returned data.
 
-You can use the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> 
+You can use the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> 
        function to retrieve the identifiers of all sessions on a specified RD Session Host server.
 
 To query information for another user's session, you must have Query Information permission. For more 
-       information, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services 
+       information, see <a href="/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services 
        Permissions</a>. To modify permissions on a session, use the Remote Desktop Services Configuration administrative 
        tool.
 
 ### -param WTSInfoClass [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_info_class">WTS_INFO_CLASS</a> enumeration that indicates the type of 
+A value of the <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_info_class">WTS_INFO_CLASS</a> enumeration that indicates the type of 
     session information to retrieve in a call to the 
     <b>WTSQuerySessionInformation</b> function.
 
@@ -91,7 +91,7 @@ A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/
 
 A pointer to a variable that receives a pointer to the requested information. The format and contents of the 
       data depend on the information class specified in the <i>WTSInfoClass</i> parameter. To free 
-      the returned buffer, call the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> 
+      the returned buffer, call the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> 
       function.
 
 ### -param pBytesReturned [out]
@@ -104,7 +104,7 @@ A pointer to a variable that receives the size, in bytes, of the data returned i
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -115,7 +115,7 @@ To retrieve the session ID for the current session when Remote Desktop Services 
     will be returned in the <i>ppBuffer</i> parameter. If Remote Desktop Services is not running, calls 
     to <b>WTSQuerySessionInformation</b> fail. In 
     this situation, you can retrieve the current session ID by calling the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-processidtosessionid">ProcessIdToSessionId</a> function.
+    <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-processidtosessionid">ProcessIdToSessionId</a> function.
 
 To determine whether your application is running on the physical console, you must specify 
     <b>WTS_CURRENT_SESSION</b> for the <i>SessionId</i> parameter, and 
@@ -131,29 +131,28 @@ To determine whether your application is running on the physical console, you mu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsconfiginfoa">WTSCONFIGINFO</a>
+<a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsconfiginfoa">WTSCONFIGINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoexa">WTSINFOEX</a>
+<a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoexa">WTSINFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a>
+<a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a>
+<a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a>
+<a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_info_class">WTS_INFO_CLASS</a>
+<a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_info_class">WTS_INFO_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_address">WTS_SESSION_ADDRESS</a>
-
+<a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_address">WTS_SESSION_ADDRESS</a>

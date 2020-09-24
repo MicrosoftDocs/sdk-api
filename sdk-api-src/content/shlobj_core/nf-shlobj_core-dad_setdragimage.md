@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>DAD_SetDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_begindrag">ImageList_BeginDrag</a> instead.]
+<p class="CCE_Message">[<b>DAD_SetDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_begindrag">ImageList_BeginDrag</a> instead.]
 
 Sets the drag image.
 
@@ -66,7 +66,7 @@ A handle to an image list. This parameter uses the zero index in the ImageList.
 
 ### -param pptOffset
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to the coordinates used as the hot spot for dragging the image. The coordinates are relative to upper-left corner of the image.
 
@@ -79,4 +79,3 @@ Returns nonzero if successful, or zero otherwise.
 ## -remarks
 
 You can clear the drag image by setting the <i>him</i> parameter to <code>-1</code> and the <i>pptOffset</i> parameter to <code>NULL</code>. The image must have been set within the same thread.
-

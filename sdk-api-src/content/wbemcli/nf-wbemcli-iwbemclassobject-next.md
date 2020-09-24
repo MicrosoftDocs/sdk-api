@@ -61,10 +61,10 @@ api_name:
 
 The <b>IWbemClassObject::Next</b> method retrieves the 
     next property in an enumeration that started with 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">IWbemClassObject::BeginEnumeration</a>. 
+    <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">IWbemClassObject::BeginEnumeration</a>. 
     This should be called repeatedly to enumerate all the properties until 
     <b>WBEM_S_NO_MORE_DATA</b> returns. If the enumeration is to be terminated early, then 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endenumeration">IWbemClassObject::EndEnumeration</a> should 
+    <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endenumeration">IWbemClassObject::EndEnumeration</a> should 
     be called.
 
 The order of the properties returned during the enumeration is not defined.
@@ -79,16 +79,16 @@ Reserved. This parameter must be 0.
 
 Receives a new <b>BSTR</b> that contains the property name. To prevent memory leaks 
       in the client process, the caller must call 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when the name is no 
+      <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when the name is no 
       longer required. You can set this parameter to <b>NULL</b> if the name is not required.
 
 ### -param pVal [out]
 
 This <b>VARIANT</b> is filled with the value of the property. The method calls 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit">VariantInit</a> on this 
+       <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit">VariantInit</a> on this 
        <b>VARIANT</b>, so the caller should ensure that the <b>VARIANT</b> 
        is not active prior to the call. The caller must use 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> when the value is no 
+       <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> when the value is no 
        longer required.
 
 You can set this parameter to <b>NULL</b> if the value is not required. If an error code 
@@ -107,7 +107,7 @@ This parameter can be <b>NULL</b>. If it is not <b>NULL</b>, it must
 
 Can be <b>NULL</b>. If not <b>NULL</b>, the 
        <b>LONG</b> value pointed to receives information on the origin of the property as 
-       follows. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
+       follows. For more information, see <a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
 
 
 
@@ -145,35 +145,34 @@ For instances:
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The 
        following list lists the value contained within an <b>HRESULT</b>. For general 
        <b>HRESULT</b> values, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
 If the underlying type of the property is an object path, date or time, or another special type, then the 
     returned type does not contain enough information. The caller must examine the 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/cimtype-qualifier">CIMTYPE</a> for the specified property, and determine 
+    <a href="/windows/desktop/WmiSdk/cimtype-qualifier">CIMTYPE</a> for the specified property, and determine 
     if the property is an object reference, date or time, or another special type.
 
 This method also returns 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.
+    <a href="/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">IWbemClassObject::BeginEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">IWbemClassObject::BeginEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endenumeration">IWbemClassObject::EndEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endenumeration">IWbemClassObject::EndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">IWbemClassObject::Get</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">IWbemClassObject::Get</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
-
+<a href="/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>

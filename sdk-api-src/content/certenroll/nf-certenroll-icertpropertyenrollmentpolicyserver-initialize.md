@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>Initialize</b> method initializes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a> object.
+The <b>Initialize</b> method initializes an <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a> object.
 
 ## -parameters
 
 ### -param PropertyFlags [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-enrollmentpolicyserverpropertyflags">EnrollmentPolicyServerPropertyFlags</a> enumeration value that specifies the default certificate enrollment policy (CEP) server. This can be one of the following values.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-enrollmentpolicyserverpropertyflags">EnrollmentPolicyServerPropertyFlags</a> enumeration value that specifies the default certificate enrollment policy (CEP) server. This can be one of the following values.
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ No default policy server URL has been specified.
 </dl>
 </td>
 <td width="60%">
-The policy server URL returned by <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
+The policy server URL returned by <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The policy server URL returned by <a href="https://docs.microsoft.com/windows/de
 
 ### -param AuthFlags [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certcli/ne-certcli-x509enrollmentauthflags">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type used by the client to authenticate itself to the CEP server. This can be one of the following values.
+An <a href="/windows/desktop/api/certcli/ne-certcli-x509enrollmentauthflags">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type used by the client to authenticate itself to the CEP server. This can be one of the following values.
 
 <table>
 <tr>
@@ -140,11 +140,11 @@ Client authentication certificate installed on the local computer and used by th
 
 ### -param EnrollmentServerAuthFlags [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certcli/ne-certcli-x509enrollmentauthflags">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type used by the client to authenticate itself to the CES. See the <i>AuthFlags</i> parameter for the possible values of the enumeration type. For Windows 7, only <b>X509AuthCertificate</b> can be specified.
+An <a href="/windows/desktop/api/certcli/ne-certcli-x509enrollmentauthflags">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type used by the client to authenticate itself to the CES. See the <i>AuthFlags</i> parameter for the possible values of the enumeration type. For Windows 7, only <b>X509AuthCertificate</b> can be specified.
 
 ### -param UrlFlags [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-policyserverurlflags">PolicyServerUrlFlags</a> enumeration value that specifies policy server flags. This can be a bitwise <b>OR</b> of the following values.
+A <a href="/windows/desktop/api/certenroll/ne-certenroll-policyserverurlflags">PolicyServerUrlFlags</a> enumeration value that specifies policy server flags. This can be a bitwise <b>OR</b> of the following values.
 
 <table>
 <tr>
@@ -235,7 +235,7 @@ A <b>BSTR</b> variable that contains the URL for the certificate enrollment serv
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -257,5 +257,4 @@ There was insufficient memory available to a string value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>

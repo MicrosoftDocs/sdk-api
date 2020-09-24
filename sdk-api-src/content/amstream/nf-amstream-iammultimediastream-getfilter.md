@@ -58,7 +58,7 @@ The <code>GetFilter</code> method retrieves the Media Stream filter, which is us
 
 ### -param ppFilter [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter</a> interface pointer.
+Address of a variable that receives an <a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter</a> interface pointer.
 
 ## -returns
 
@@ -101,5 +101,4 @@ If the method succeeds, the caller must release the <b>IMediaStreamFilter</b> in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>

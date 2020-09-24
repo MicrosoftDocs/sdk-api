@@ -58,9 +58,8 @@ Provides metadata for all services hosted by a device.
 
 ### -field Host
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata">WSD_SERVICE_METADATA</a> structure that describes the parent service or the device.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata">WSD_SERVICE_METADATA</a> structure that describes the parent service or the device.
 
 ### -field Hosted
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata_list">WSD_SERVICE_METADATA_LIST</a> structure that represents the singly linked list of services hosted by the parent service.
-
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata_list">WSD_SERVICE_METADATA_LIST</a> structure that represents the singly linked list of services hosted by the parent service.

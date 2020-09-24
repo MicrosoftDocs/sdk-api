@@ -64,9 +64,8 @@ The folders are deleted based on the resource policy until the disk resource con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_folderactions">IDataManager::FolderActions</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_folderactions">IDataManager::FolderActions</a>

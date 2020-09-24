@@ -58,11 +58,11 @@ The <b>FWPM_CLASSIFY_OPTION0</b> structure is used to define unicast and multica
 
 ### -field type
 
-An [FWP_CLASSIFY_OPTION_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type) value.
+An [FWP_CLASSIFY_OPTION_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type) value.
 
 ### -field value
 
-An [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) structure.
+An [FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) structure.
 
 ## -remarks
 
@@ -121,21 +121,20 @@ The following table lists possible values for the members of a <b>FWPM_CLASSIFY_
 </table>
  
 
-<b>FWPM_CLASSIFY_OPTION0</b> is a specific implementation of FWPM_CLASSIFY_OPTION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_CLASSIFY_OPTION0</b> is a specific implementation of FWPM_CLASSIFY_OPTION. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWPM_CLASSIFY_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0)
+[FWPM_CLASSIFY_OPTIONS0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0)
 
 
 
-[FWP_CLASSIFY_OPTION_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type)
+[FWP_CLASSIFY_OPTION_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type)
 
 
 
-[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
+[FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

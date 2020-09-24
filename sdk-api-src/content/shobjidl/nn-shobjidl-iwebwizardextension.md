@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a> interface by exposing methods to set the wizard extension's initial URL, and a specific URL in case of an error.
+Extends the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a> interface by exposing methods to set the wizard extension's initial URL, and a specific URL in case of an error.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebWizardExtension</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>. <b>IWebWizardExtension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebWizardExtension</b> interface inherits from <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>. <b>IWebWizardExtension</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWebWizardExtension</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwebwizardextension-seterrorurl">SetErrorURL</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwebwizardextension-seterrorurl">SetErrorURL</a>
 </td>
 <td align="left" width="63%">
 Specifies the URL of a page that displays when a user experiences an error while navigating through the wizard extension pages.
@@ -78,7 +78,7 @@ Specifies the URL of a page that displays when a user experiences an error while
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwebwizardextension-setinitialurl">SetInitialURL</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwebwizardextension-setinitialurl">SetInitialURL</a>
 </td>
 <td align="left" width="63%">
 Sets the URL of the initial server-provided HTML page in a hosted wizard.
@@ -89,5 +89,4 @@ Sets the URL of the initial server-provided HTML page in a hosted wizard.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>
-
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>

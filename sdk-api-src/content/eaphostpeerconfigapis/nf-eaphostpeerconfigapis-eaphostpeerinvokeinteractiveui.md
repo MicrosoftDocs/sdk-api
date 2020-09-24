@@ -52,7 +52,7 @@ api_name:
 
 Raises an interactive user interface used to get credentials from the user. For example, this function can be used to raise a UI that retrieves credentials from a smart card, and prompts the user to enter the corresponding PIN.
 
-<b>EapHostPeerInvokeInteractiveUI</b> must be called on threads that have COM initialized for <a href="https://msdn.microsoft.com/library/ms810413.aspx">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> must be called before exiting.
+<b>EapHostPeerInvokeInteractiveUI</b> must be called on threads that have COM initialized for <a href="/previous-versions/ms810413(v=msdn.10)">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> must be called before exiting.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ The size, in bytes, of the buffer pointed to by the <i>pUIContextData</i> parame
 
 ### -param pUIContextData [in]
 
-A pointer to a buffer that contains the supplicant UI context data from EAPHost. The context data is returned by  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext">EapHostPeerGetUIContext</a>. The buffer  is of size <i>dwSizeOfUIContextData</i>.
+A pointer to a buffer that contains the supplicant UI context data from EAPHost. The context data is returned by  <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext">EapHostPeerGetUIContext</a>. The buffer  is of size <i>dwSizeOfUIContextData</i>.
 
 ### -param pdwSizeOfDataFromInteractiveUI [out]
 
@@ -74,17 +74,17 @@ A pointer to a DWORD  that represents the size, in bytes, of the buffer pointed 
 
 ### -param ppDataFromInteractiveUI [out]
 
-A pointer to a pointer to a byte buffer that  contains data from the interactive UI necessary for authentication to continue. The parameter <i>ppDataFromInteractiveUI</i> should be passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetuicontext">EapHostPeerSetUIContext</a> as the IN parameter <i>pUIContextData</i>. After consuming the data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>. The buffer is of size <i>pdwSizeofDataFromInteractiveUI</i>.
+A pointer to a pointer to a byte buffer that  contains data from the interactive UI necessary for authentication to continue. The parameter <i>ppDataFromInteractiveUI</i> should be passed to <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetuicontext">EapHostPeerSetUIContext</a> as the IN parameter <i>pUIContextData</i>. After consuming the data, this memory must be freed by calling <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>. The buffer is of size <i>pdwSizeofDataFromInteractiveUI</i>.
 
 ### -param ppEapError [out]
 
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory">EapHostPeerFreeErrorMemory</a>.
+A pointer to a pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory">EapHostPeerFreeErrorMemory</a>.
 
 ## -remarks
 
 The supplicant should call [EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED](/windows/win32/eaphost/eap-related-error-and-information-constants) is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <b>EapHostPeerInvokeInteractiveUI</b>. 
 
-If called,<b>EapHostPeerInvokeInteractiveUI</b> raises the user interface for the EAP method after the supplicant calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext">EapHostPeerGetUIContext</a>. This occurs when a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket">EapHostPeerProcessReceivedPacket</a> 
+If called,<b>EapHostPeerInvokeInteractiveUI</b> raises the user interface for the EAP method after the supplicant calls <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext">EapHostPeerGetUIContext</a>. This occurs when a call to <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket">EapHostPeerProcessReceivedPacket</a> 
    returns the <b>EapHostPeerResponseInvokeUi</b>action code. <b>EapHostPeerGetUIContext</b>returns UI context that 
    the supplicant then passes to <b>EapHostPeerInvokeInteractiveUI</b> to raise the UI.
 
@@ -94,13 +94,12 @@ If called,<b>EapHostPeerInvokeInteractiveUI</b> raises the user interface for th
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext">EapHostPeerGetUIContext</a>
+<a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext">EapHostPeerGetUIContext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryinteractiveuiinputfields">EapHostPeerQueryInteractiveUIInputFields</a>
+<a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryinteractiveuiinputfields">EapHostPeerQueryInteractiveUIInputFields</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetuicontext">EapHostPeerSetUIContext</a>
-
+<a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetuicontext">EapHostPeerSetUIContext</a>

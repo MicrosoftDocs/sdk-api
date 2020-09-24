@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IDDrawExclModeVideo</code> interface enables video playback in DirectDraw exclusive full-screen mode. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer Filter</a> implements this interface. Game applications can use DirectDraw in exclusive full-screen mode and continue playing video. For example, the video can be in the background and graphics can be used on top of it. The application passes in a DirectDraw object and primary surface, and these are passed to the Overlay Mixer filter in the filter graph.
+The <code>IDDrawExclModeVideo</code> interface enables video playback in DirectDraw exclusive full-screen mode. The <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer Filter</a> implements this interface. Game applications can use DirectDraw in exclusive full-screen mode and continue playing video. For example, the video can be in the background and graphics can be used on top of it. The application passes in a DirectDraw object and primary surface, and these are passed to the Overlay Mixer filter in the filter graph.
 
 The DVD graph builder object uses <code>IDDrawExclModeVideo</code> to play DVD content while in DirectDraw exclusive full-screen mode. This interface can also be used alone to play MPEG-1 or AVI videos in games.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDDrawExclModeVideo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDDrawExclModeVideo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDDrawExclModeVideo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDDrawExclModeVideo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDDrawExclModeVideo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-getddrawobject">GetDDrawObject</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-getddrawobject">GetDDrawObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DirectDraw object being used by the Overlay Mixer.
@@ -81,7 +81,7 @@ Retrieves the DirectDraw object being used by the Overlay Mixer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-getddrawsurface">GetDDrawSurface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-getddrawsurface">GetDDrawSurface</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DirectDraw surface being used by the Overlay Mixer.
@@ -90,7 +90,7 @@ Retrieves the DirectDraw surface being used by the Overlay Mixer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-getnativevideoprops">GetNativeVideoProps</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-getnativevideoprops">GetNativeVideoProps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the width, height, and aspect ratio of the Overlay Mixer's primary stream.
@@ -99,7 +99,7 @@ Retrieves the width, height, and aspect ratio of the Overlay Mixer's primary str
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setcallbackinterface">SetCallbackInterface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setcallbackinterface">SetCallbackInterface</a>
 </td>
 <td align="left" width="63%">
 Specifies the callback interface to the Overlay Mixer so that the calling application can be notified about adjustments to the display during video playback.
@@ -108,7 +108,7 @@ Specifies the callback interface to the Overlay Mixer so that the calling applic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setddrawobject">SetDDrawObject</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setddrawobject">SetDDrawObject</a>
 </td>
 <td align="left" width="63%">
 Sets the DirectDraw object to be used in subsequent drawing.
@@ -117,7 +117,7 @@ Sets the DirectDraw object to be used in subsequent drawing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setddrawsurface">SetDDrawSurface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setddrawsurface">SetDDrawSurface</a>
 </td>
 <td align="left" width="63%">
 Sets the DirectDraw surface to be used in subsequent drawing.
@@ -126,7 +126,7 @@ Sets the DirectDraw surface to be used in subsequent drawing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setdrawparameters">SetDrawParameters</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setdrawparameters">SetDrawParameters</a>
 </td>
 <td align="left" width="63%">
 Specifies which part of the original video will appear at which position of the screen.
@@ -134,4 +134,3 @@ Specifies which part of the original video will appear at which position of the 
 </td>
 </tr>
 </table>
-

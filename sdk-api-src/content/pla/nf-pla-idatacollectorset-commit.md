@@ -68,7 +68,7 @@ Indicates whether you want to save, update, flush, or validate the data collecto
 
 ### -param validation [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that you use to retrieve the validation error of each property whose value is not valid or is ignored. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">IValueMap::Count</a> property is zero if there were no errors or warnings.
+An <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that you use to retrieve the validation error of each property whose value is not valid or is ignored. The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">IValueMap::Count</a> property is zero if there were no errors or warnings.
 
 ## -returns
 
@@ -128,7 +128,7 @@ You are trying to commit a new set, but a set with the specified name already ex
 
 ## -remarks
 
-If you save the set, use the specified <i>name</i> and <i>server</i> parameter values when calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a> method to retrieve the set.
+If you save the set, use the specified <i>name</i> and <i>server</i> parameter values when calling the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a> method to retrieve the set.
 
 The <i>name</i> parameter can contain an optional namespace; however, you should always specify the namespace. If you do not specify the namespace, PLA uses "Service" for computers running Windows Vista and "Legacy" for computers running operating systems prior to Windows Vista. The following table lists the possible namespace values. 
 
@@ -143,7 +143,7 @@ Autosession
 
 </td>
 <td>
-Contains ETW <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-an-autologger-session">AutoLogger</a> sessions. The collector starts when the computer starts, cannot be stopped, and the status is undefined.
+Contains ETW <a href="/windows/desktop/ETW/configuring-and-starting-an-autologger-session">AutoLogger</a> sessions. The collector starts when the computer starts, cannot be stopped, and the status is undefined.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ Session
 
 </td>
 <td>
-Contains <a href="https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal">Event Tracing for Windows</a> (ETW) trace sessions. These sets cannot be scheduled. If you use this namespace, the set must contain only one data collector and it must be a trace data collector.
+Contains <a href="/windows/desktop/ETW/event-tracing-portal">Event Tracing for Windows</a> (ETW) trace sessions. These sets cannot be scheduled. If you use this namespace, the set must contain only one data collector and it must be a trace data collector.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Contains read-only data collector sets that cannot be scheduled; however, you ca
 
 Note that the Service namespace can be used in place of the Legacy namespace on computers running operating systems prior to Windows Vista.
 
-To determine the validation errors that occurred, retrieve the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a> interface for each error in the value map collection. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_key">IValueMapItem::Key</a> property contains the XPath of the element in error, for example, /AlertDataCollector/TaskArguments. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_value">IValueMapItem::Value</a> property contains the HRESULT value, which can be an error or warning (success code). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_description">IValueMapItem::Description</a> property contains the message text associated with the error.
+To determine the validation errors that occurred, retrieve the <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a> interface for each error in the value map collection. The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_key">IValueMapItem::Key</a> property contains the XPath of the element in error, for example, /AlertDataCollector/TaskArguments. The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_value">IValueMapItem::Value</a> property contains the HRESULT value, which can be an error or warning (success code). The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_description">IValueMapItem::Description</a> property contains the message text associated with the error.
 
 Typically, any errors that occur will be one of the following HRESULT values in the value map collection.
 
@@ -217,7 +217,7 @@ PLA_E_PROPERTY_CONFLICT
 
 </td>
 <td>
-The property conflicts with another property, for example, both <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">LogAppend</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logcircular">LogCircular</a> are <b>VARIANT_TRUE</b>.
+The property conflicts with another property, for example, both <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">LogAppend</a> and <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logcircular">LogCircular</a> are <b>VARIANT_TRUE</b>.
 
 </td>
 </tr>
@@ -225,13 +225,12 @@ The property conflicts with another property, for example, both <a href="https:/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-delete">IDataCollectorSet::Delete</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-delete">IDataCollectorSet::Delete</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a>

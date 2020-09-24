@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -remarks
 
-This property must be <b>TRUE</b> for <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-setvalue">IUIAutomationValuePattern::SetValue</a> to succeed.
-
+This property must be <b>TRUE</b> for <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-setvalue">IUIAutomationValuePattern::SetValue</a> to succeed.

@@ -64,19 +64,19 @@ GUID that identifies the counter set to which this instance belongs.
 
 ### -field dwSize
 
-Size, in bytes, of the instance block. The instance block contains this structure, followed by one or more <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a> blocks, and ends with the instance name.
+Size, in bytes, of the instance block. The instance block contains this structure, followed by one or more <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a> blocks, and ends with the instance name.
 
 ### -field InstanceId
 
 Identifier that uniquely identifies this instance. 
 
-The provider specified the identifier when calling <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfcreateinstance">PerfCreateInstance</a>.
+The provider specified the identifier when calling <a href="/windows/desktop/api/perflib/nf-perflib-perfcreateinstance">PerfCreateInstance</a>.
 
 ### -field InstanceNameOffset
 
 Byte offset from the beginning of this structure to the null-terminated Unicode instance name.
 
-The provider specified the instance name when calling <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfcreateinstance">PerfCreateInstance</a>.
+The provider specified the instance name when calling <a href="/windows/desktop/api/perflib/nf-perflib-perfcreateinstance">PerfCreateInstance</a>.
 
 ### -field InstanceNameSize
 
@@ -84,21 +84,20 @@ Size, in bytes, of the instance name. The size includes the null-terminator.
 
 ## -remarks
 
-The <b>Offset</b> member of  <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a> contains the byte offset from the beginning of the <b>PERF_COUNTERSET_INSTANCE</b> block to the counter's raw counter value.
+The <b>Offset</b> member of  <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a> contains the byte offset from the beginning of the <b>PERF_COUNTERSET_INSTANCE</b> block to the counter's raw counter value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfcreateinstance">PerfCreateInstance</a>
+<a href="/windows/desktop/api/perflib/nf-perflib-perfcreateinstance">PerfCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdeleteinstance">PerfDeleteInstance</a>
+<a href="/windows/desktop/api/perflib/nf-perflib-perfdeleteinstance">PerfDeleteInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfqueryinstance">PerfQueryInstance</a>
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfqueryinstance">PerfQueryInstance</a>

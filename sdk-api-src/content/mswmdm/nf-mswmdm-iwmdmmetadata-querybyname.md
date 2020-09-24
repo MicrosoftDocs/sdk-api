@@ -57,11 +57,11 @@ The <b>QueryByName</b> method retrieves the value of a property specified by nam
 
 ### -param pwszTagName [in]
 
-Pointer to a wide-character <b>null</b>-terminated string specifying the property name. A list of standard property name constants is given in <a href="https://docs.microsoft.com/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>.
+Pointer to a wide-character <b>null</b>-terminated string specifying the property name. A list of standard property name constants is given in <a href="/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>.
 
 ### -param pType [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-tag-datatype">WMDM_TAG_DATATYPE</a> enumerated value describing the type of data retrieved by <i>pValue</i>.
+An <a href="/windows/desktop/WMDM/wmdm-tag-datatype">WMDM_TAG_DATATYPE</a> enumerated value describing the type of data retrieved by <i>pValue</i>.
 
 ### -param pValue [out]
 
@@ -80,21 +80,20 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
+<a href="/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
-
+<a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>

@@ -69,7 +69,7 @@ A pointer to where the CLSID that can emulate <i>clsidOld</i> objects is retriev
 
 ## -returns
 
-This function can return the following values, as well as any error values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring">CLSIDFromString</a> function.
+This function can return the following values, as well as any error values returned by the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring">CLSIDFromString</a> function.
 
 <table>
 <tr>
@@ -113,9 +113,8 @@ There was an error reading the registry.
 
 ## -remarks
 
-<b>CoGetTreatAsClass</b> returns the <a href="https://docs.microsoft.com/windows/desktop/com/treatas">TreatAs</a> entry in the registry for the specified object. The <b>TreatAs</b> entry, if set, is the CLSID of a registered object (an application) that can emulate the object in question. The <b>TreatAs</b> entry is set through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cotreatasclass">CoTreatAsClass</a> function. Emulation allows an application to open and edit an object of a different format, while retaining the original format of the object. Objects of the original CLSID are activated and treated as objects of the second CLSID. When the object is saved, this may result in loss of edits not supported by the original format. If there is no <b>TreatAs</b> entry for the specified object, this function returns the CLSID of the original object (<i>clsidOld</i>).
+<b>CoGetTreatAsClass</b> returns the <a href="/windows/desktop/com/treatas">TreatAs</a> entry in the registry for the specified object. The <b>TreatAs</b> entry, if set, is the CLSID of a registered object (an application) that can emulate the object in question. The <b>TreatAs</b> entry is set through a call to the <a href="/windows/desktop/api/objbase/nf-objbase-cotreatasclass">CoTreatAsClass</a> function. Emulation allows an application to open and edit an object of a different format, while retaining the original format of the object. Objects of the original CLSID are activated and treated as objects of the second CLSID. When the object is saved, this may result in loss of edits not supported by the original format. If there is no <b>TreatAs</b> entry for the specified object, this function returns the CLSID of the original object (<i>clsidOld</i>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cotreatasclass">CoTreatAsClass</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-cotreatasclass">CoTreatAsClass</a>

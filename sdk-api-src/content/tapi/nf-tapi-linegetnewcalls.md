@@ -66,19 +66,19 @@ Address on the given open line device. An address identifier is permanently asso
 ### -param dwSelect
 
 Selection of calls that are requested. This parameter uses one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallselect--constants">LINECALLSELECT_ Constants</a>.
+<a href="/windows/desktop/Tapi/linecallselect--constants">LINECALLSELECT_ Constants</a>.
 
 ### -param lpCallList
 
 Pointer to a variably sized data structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalllist">LINECALLLIST</a>. Upon successful completion of the request, call handles to all selected calls are returned in this structure. Prior to calling 
+<a href="/windows/desktop/api/tapi/ns-tapi-linecalllist">LINECALLLIST</a>. Upon successful completion of the request, call handles to all selected calls are returned in this structure. Prior to calling 
 <b>lineGetNewCalls</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
 
 
 <div class="alert"><b>Note</b>  If the size parameters in the structure are not correct, there is a possibility that data could get overwritten. For more information on setting structure sizes, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic. </div>
+<a href="/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic. </div>
 <div> </div>
 
 ## -returns
@@ -93,31 +93,30 @@ An application can use
 <b>lineGetNewCalls</b> to obtain handles to calls for which it currently has no handles. The application can select the calls for which handles are to be returned by basing this selection on scope (calls on a specified line, or calls on a specified address). For example, an application can request call handles to all calls on a given address for which it currently has no handle. The application is always given monitor privilege to the new call handles. Also, when opening a line, an application uses this function to become aware of existing calls.
 
 The application can invoke 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a> for each call in the list to determine the call's information and status, respectively. It can use 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a> to change its privilege to owner.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a> and 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a> for each call in the list to determine the call's information and status, respectively. It can use 
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a> to change its privilege to owner.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalllist">LINECALLLIST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecalllist">LINECALLLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a>

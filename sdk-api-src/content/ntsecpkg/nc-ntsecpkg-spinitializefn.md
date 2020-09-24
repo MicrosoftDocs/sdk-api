@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SpInitialize</b> function is called once by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to provide a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> with general security information and a dispatch table of support functions. The security package should save the information and do internal initialization processing, if any is needed.
+The <b>SpInitialize</b> function is called once by the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to provide a <a href="/windows/desktop/SecGloss/s-gly">security package</a> with general security information and a dispatch table of support functions. The security package should save the information and do internal initialization processing, if any is needed.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ A unique identifier the LSA assigns to each security package. The value is valid
 ### -param Parameters [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_parameters">SECPKG_PARAMETERS</a> structure containing primary domain and machine state information.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_parameters">SECPKG_PARAMETERS</a> structure containing primary domain and machine state information.
 
 ### -param FunctionTable [in]
 
@@ -75,23 +75,22 @@ If the function fails, return an NTSTATUS error code indicating the reason it fa
 
 ## -remarks
 
-If <b>SpInitialize</b> returns an NTSTATUS error code to the LSA, the package will be unloaded, and the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) will not include it in the list of available security packages.
+If <b>SpInitialize</b> returns an NTSTATUS error code to the LSA, the package will be unloaded, and the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) will not include it in the list of available security packages.
 
 SSP/APs must implement the <b>SpInitialize</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the SSP/AP's implementation of the <b>SpInitialize</b> function must be in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure passed to the LSA from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure passed to the LSA from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_parameters">SECPKG_PARAMETERS</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_parameters">SECPKG_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>

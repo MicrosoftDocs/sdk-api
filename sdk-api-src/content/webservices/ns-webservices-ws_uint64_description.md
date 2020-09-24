@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-An optional type description used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UINT64_TYPE</a> to specify constraints on the set of values
+An optional type description used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UINT64_TYPE</a> to specify constraints on the set of values
                 which can be deserialized.
 
 ## -struct-fields
@@ -64,4 +64,3 @@ The minimum value.
 ### -field maxValue
 
 The maximum value.
-

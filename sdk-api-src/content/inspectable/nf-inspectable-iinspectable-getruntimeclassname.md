@@ -57,7 +57,7 @@ Gets the fully qualified name of the current Windows Runtime object.
 
 ### -param className [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
+Type: <b><a href="/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
 
 The fully qualified name of the current Windows Runtime object.
 
@@ -111,7 +111,7 @@ Failed to allocate <i>className</i> string.
 
 Use the <b>GetRuntimeClassName</b> method to retrieve the namespace-qualified name of a Windows Runtime object.
 
-The caller is responsible for freeing the <i>className</i> string by using the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function.   
+The caller is responsible for freeing the <i>className</i> string by using the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function.   
 
 The following table shows example class name strings that cold be returned by the <b>GetRuntimeClassName</b> method.
 
@@ -148,9 +148,8 @@ The <b>GetRuntimeClassName</b> method returns <b>E_ILLEGAL_METHOD_CALL</b> if th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
+<a href="/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

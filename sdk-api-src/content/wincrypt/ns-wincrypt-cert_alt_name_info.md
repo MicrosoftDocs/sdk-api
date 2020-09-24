@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>CERT_ALT_NAME_INFO</b> structure is used in encoding and decoding extensions for subject or issuer <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificates</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Revocation Lists</a> (CRLs), and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Trust Lists</a> (CTLs).
+The <b>CERT_ALT_NAME_INFO</b> structure is used in encoding and decoding extensions for subject or issuer <a href="/windows/desktop/SecGloss/c-gly">certificates</a>, <a href="/windows/desktop/SecGloss/c-gly">Certificate Revocation Lists</a> (CRLs), and <a href="/windows/desktop/SecGloss/c-gly">Certificate Trust Lists</a> (CTLs).
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> creates an instance of this structure when performed on a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member with its structure's <b>pszObjId</b> member set to szOID_SUBJECT_ALT_NAME or szOID_ISSUER_ALT_NAME.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> creates an instance of this structure when performed on a 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member with its structure's <b>pszObjId</b> member set to szOID_SUBJECT_ALT_NAME or szOID_ISSUER_ALT_NAME.
 
-An instance of this structure can be used as input to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> to create an appropriate <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>.
+An instance of this structure can be used as input to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> to create an appropriate <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>.
 
 ## -struct-fields
 
@@ -71,9 +71,8 @@ Number of elements in the <b>rgAltEntry</b> array.
 ### -field rgAltEntry
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structures.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a>

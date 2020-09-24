@@ -105,9 +105,8 @@ The identity of the primary module of an enclave.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-enclave_identity">ENCLAVE_IDENTITY</a>
+<a href="/windows/desktop/api/ntenclv/ns-ntenclv-enclave_identity">ENCLAVE_IDENTITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetenclaveinformation">EnclaveGetEnclaveInformation</a>
-
+<a href="/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetenclaveinformation">EnclaveGetEnclaveInformation</a>

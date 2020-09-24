@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Specifies the value that is added to or subtracted from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value">IRangeValueProvider::Value</a> property 
+Specifies the value that is added to or subtracted from the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value">IRangeValueProvider::Value</a> property 
         when a small change is made, such as when an arrow key is pressed.
         
 
@@ -81,9 +81,8 @@ numeric_limits<double>::quiet_NaN( )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irangevalueprovider">IRangeValueProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irangevalueprovider">IRangeValueProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

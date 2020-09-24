@@ -127,22 +127,21 @@ Used by NPS user interface to mark whether an attribute is used in profiles for 
 
 ### -field PROPERTY_ATTRIBUTE_ENUM_FILTERS
 
-Used by filter configuration attributes <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_FILTER</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_QUARANTINE_IPFILTER</a>. See MS-Filter section in <a href="https://www.ietf.org/rfc/rfc2548.txt">RFC 2548</a> for more information.
+Used by filter configuration attributes <a href="/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_FILTER</a> and <a href="/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_QUARANTINE_IPFILTER</a>. See MS-Filter section in <a href="https://www.ietf.org/rfc/rfc2548.txt">RFC 2548</a> for more information.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties">DICTIONARYPROPERTIES</a> enumeration type contains the attributes collection property, <b>PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION</b>.
+<a href="/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties">DICTIONARYPROPERTIES</a> enumeration type contains the attributes collection property, <b>PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">ATTRIBUTEID</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributeid">ATTRIBUTEID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributesyntax">ATTRIBUTESYNTAX</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributesyntax">ATTRIBUTESYNTAX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties">DICTIONARYPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties">DICTIONARYPROPERTIES</a>

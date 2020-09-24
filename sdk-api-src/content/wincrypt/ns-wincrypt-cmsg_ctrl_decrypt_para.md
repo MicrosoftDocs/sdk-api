@@ -55,10 +55,10 @@ api_name:
 ## -description
 
 The <b>CMSG_CTRL_DECRYPT_PARA</b> structure contains information used to decrypt an enveloped message for a key transport recipient. This structure is passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> if the <i>dwCtrlType</i> parameter is CMSG_CTRL_DECRYPT.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> if the <i>dwCtrlType</i> parameter is CMSG_CTRL_DECRYPT.
 
-For information about how CryptoAPI supports <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability, see the Remarks section of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>.
+For information about how CryptoAPI supports <a href="/windows/desktop/SecGloss/s-gly">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability, see the Remarks section of 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>.
 
 ## -struct-fields
 
@@ -70,11 +70,11 @@ The size, in bytes, of this structure.
 
 ### -field DUMMYUNIONNAME.hCryptProv
 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Cryptographic service provider</a> (CSP) handle. The CNG function <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a> is called to determine the union choice.
+<a href="/windows/desktop/SecGloss/c-gly">Cryptographic service provider</a> (CSP) handle. The CNG function <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a> is called to determine the union choice.
 
 ### -field DUMMYUNIONNAME.hNCryptKey
 
-A handle to the CNG <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Cryptographic service provider</a> (CSP). The CNG function, <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a>, is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function, <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncrypttranslatehandle">NCryptTranslateHandle</a>, will be called to convert the CryptoAPI <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
+A handle to the CNG <a href="/windows/desktop/SecGloss/c-gly">Cryptographic service provider</a> (CSP). The CNG function, <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a>, is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function, <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncrypttranslatehandle">NCryptTranslateHandle</a>, will be called to convert the CryptoAPI <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
 
 ### -field dwKeySpec
 
@@ -121,5 +121,4 @@ Index of the recipient in the message associated with the <b>hCryptProv</b> priv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> for a specified tablet context.
+Retrieves an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> for a specified tablet context.
 
 ## -parameters
 
@@ -64,18 +64,18 @@ A pointer to the digitizer object specified by the tablet context identifier.
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-A tablet context identifier is specific to a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object. Two <b>RealTimeStylus Class</b> objects can have different context identifiers for the same tablet object. A tablet context identifier is only valid while a <b>RealTimeStylus Class</b> object is enabled. If a <b>RealTimeStylus Class</b> object is disabled and then re-enabled, the tablet context identifier for each tablet object may have a different value than when the <b>RealTimeStylus Class</b> object was first enabled.
+A tablet context identifier is specific to a <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object. Two <b>RealTimeStylus Class</b> objects can have different context identifiers for the same tablet object. A tablet context identifier is only valid while a <b>RealTimeStylus Class</b> object is enabled. If a <b>RealTimeStylus Class</b> object is disabled and then re-enabled, the tablet context identifier for each tablet object may have a different value than when the <b>RealTimeStylus Class</b> object was first enabled.
 
-This method can be called even if <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_enabled">IRealTimeStylus::Enabled Property</a> returns <b>false</b> as long as the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusdisabled">IStylusPlugin::RealTimeStylusDisabled Method</a> has not finished processing data in the queue. This method can be called until the last asynchronous plug-in receives <b>IStylusPlugin::RealTimeStylusDisabled Method</b>.
+This method can be called even if <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_enabled">IRealTimeStylus::Enabled Property</a> returns <b>false</b> as long as the <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusdisabled">IStylusPlugin::RealTimeStylusDisabled Method</a> has not finished processing data in the queue. This method can be called until the last asynchronous plug-in receives <b>IStylusPlugin::RealTimeStylusDisabled Method</b>.
 
 
 #### Examples
 
-The following C++ example code uses the tablet context identifier to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object.
+The following C++ example code uses the tablet context identifier to get a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object.
 
 
 ```cpp
@@ -114,13 +114,12 @@ if (SUCCEEDED(g_pRealTimeStylus->GetAllTabletContextIds(&ulTcidCount, &pTcids)))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettabletcontextidfromtablet">IRealTimeStylus::GetTabletContextIdFromTablet Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettabletcontextidfromtablet">IRealTimeStylus::GetTabletContextIdFromTablet Method</a>
 
 
 
 <b>RealTimeStylus Class</b>
-

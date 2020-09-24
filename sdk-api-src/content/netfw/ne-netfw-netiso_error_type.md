@@ -78,5 +78,4 @@ Maximum value for testing purposes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationdiagnoseconnectfailureandgetinfo">NetworkIsolationDiagnoseConnectFailureAndGetInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationdiagnoseconnectfailureandgetinfo">NetworkIsolationDiagnoseConnectFailureAndGetInfo</a>

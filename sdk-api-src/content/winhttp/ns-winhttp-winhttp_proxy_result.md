@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WINHTTP_PROXY_RESULT</b> structure contains  collection of proxy result entries provided by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>.
+The <b>WINHTTP_PROXY_RESULT</b> structure contains  collection of proxy result entries provided by <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>.
 
 ## -struct-fields
 
@@ -62,17 +62,16 @@ The number of entries in the <b>pEntries</b> array.
 
 ### -field pEntries
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a> structures.
+A pointer to an array of <a href="/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a>
+<a href="/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpfreeproxyresult">WinHttpFreeProxyResult</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpfreeproxyresult">WinHttpFreeProxyResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>
-
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>

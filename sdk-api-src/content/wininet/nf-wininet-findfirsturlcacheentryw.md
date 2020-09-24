@@ -63,7 +63,7 @@ A pointer to a string that contains the source name pattern to search for. This 
 ### -param lpFirstCacheEntryInfo [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure.
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure.
 
 ### -param lpcbCacheEntryInfo [in, out]
 
@@ -73,8 +73,8 @@ Pointer to a variable that specifies the size of the
 ## -returns
 
 Returns a handle that the application can use in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a> function to retrieve subsequent entries in the cache. If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a> function to retrieve subsequent entries in the cache. If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ERROR_INSUFFICIENT_BUFFER indicates that the size of 
 <i>lpFirstCacheEntryInfo</i> as specified by 
@@ -83,17 +83,17 @@ ERROR_INSUFFICIENT_BUFFER indicates that the size of
 
 ## -remarks
 
-The handle returned from <b>FindFirstUrlCacheEntry</b> is used in all subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a>. At the end of the enumeration, the application should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findcloseurlcache">FindCloseUrlCache</a>.
+The handle returned from <b>FindFirstUrlCacheEntry</b> is used in all subsequent calls to <a href="/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a>. At the end of the enumeration, the application should call 
+<a href="/windows/desktop/api/wininet/nf-wininet-findcloseurlcache">FindCloseUrlCache</a>.
 
 <b>FindFirstUrlCacheEntry</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a> return variable size information. If ERROR_INSUFFICIENT_BUFFER is returned, the application should allocate a buffer of the size specified by 
+<a href="/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a> return variable size information. If ERROR_INSUFFICIENT_BUFFER is returned, the application should allocate a buffer of the size specified by 
 <i>lpdwFirstCacheEntryInfoBufferSize</i>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-b-using-buffers">Using Buffers</a>.
+<a href="/windows/desktop/WinInet/appendix-b-using-buffers">Using Buffers</a>.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -104,9 +104,8 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
+<a href="/windows/desktop/WinInet/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>

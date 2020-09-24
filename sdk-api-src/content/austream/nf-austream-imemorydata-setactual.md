@@ -66,9 +66,8 @@ Returns S_OK if successful or E_POINTER if the required parameter is <b>NULL</b>
 
 ## -remarks
 
-This method is usually called by the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiostreamsample">IAudioStreamSample</a> object, rather than by the application.
+This method is usually called by the <a href="/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream</a> or <a href="/windows/desktop/api/austream/nn-austream-iaudiostreamsample">IAudioStreamSample</a> object, rather than by the application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>
-
+<a href="/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>

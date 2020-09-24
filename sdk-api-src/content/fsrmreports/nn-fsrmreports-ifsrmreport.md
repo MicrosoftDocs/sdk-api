@@ -52,18 +52,18 @@ api_name:
 
 Used to configure the description and filters for a single report.
 
-To create this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-createreport">IFsrmReportJob::CreateReport</a> method.
+To create this interface, call the <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-createreport">IFsrmReportJob::CreateReport</a> method.
 
 The following methods return this interface:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-enumreports">IFsrmReportJob::EnumReports</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-enumreports">IFsrmReportJob::EnumReports</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmReport</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmReport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmReport</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmReport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -79,7 +79,7 @@ The <b>IFsrmReport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-delete">Delete</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Removes this report object from the report job object.
@@ -88,7 +88,7 @@ Removes this report object from the report job object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-getfilter">GetFilter</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-getfilter">GetFilter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of the specified report filter.
@@ -97,7 +97,7 @@ Retrieves the current value of the specified report filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-setfilter">SetFilter</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-setfilter">SetFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the current value of the specified report filter.
@@ -115,7 +115,7 @@ Sets the current value of the specified report filter.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-get_description">Description</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-get_description">Description</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves or sets the description of the report.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-get_lastgeneratedfilenameprefix">LastGeneratedFileNamePrefix</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-get_lastgeneratedfilenameprefix">LastGeneratedFileNamePrefix</a>
 
 
 </td>
@@ -147,7 +147,7 @@ Retrieves the report's generated file name for the last time the report was run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-get_name">Name</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-get_name">Name</a>
 
 
 </td>
@@ -163,7 +163,7 @@ Retrieves or sets the name of the report.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-get_type">Type</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreport-get_type">Type</a>
 
 
 </td>
@@ -177,4 +177,3 @@ Retrieves the type of report to generate.
 </td>
 </tr>
 </table>
-

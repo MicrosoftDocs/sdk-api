@@ -57,7 +57,7 @@ The <b>SetCertificateExtension</b> method adds a new extension to the certificat
 
 ### -param strExtensionName [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the extension to set. The string must be 31 or less nonnull characters in length.
+Specifies the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the extension to set. The string must be 31 or less nonnull characters in length.
 
 ### -param Type [in]
 
@@ -216,20 +216,19 @@ VT_BSTR
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-Use extensions to include additional information with the certificate, such as supplemental subject or usage information. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/extension-handlers">Extension Handlers</a>.
+Use extensions to include additional information with the certificate, such as supplemental subject or usage information. For more information, see <a href="/windows/desktop/SecCrypto/extension-handlers">Extension Handlers</a>.
 
-Call the <b>SetCertificateExtension</b> method from your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy2::VerifyRequest</a> method. You must call 
-the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> method before calling the <b>SetCertificateExtension</b> method.
+Call the <b>SetCertificateExtension</b> method from your implementation of the <a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy2::VerifyRequest</a> method. You must call 
+the <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> method before calling the <b>SetCertificateExtension</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
-
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>

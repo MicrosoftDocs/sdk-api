@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Gets a property from the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> within the IDList as a variant, using the key.
+Gets a property from the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> within the IDList as a variant, using the key.
 
 ## -parameters
 
 ### -param pidl [in]
 
-A PIDL identifying the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
+A PIDL identifying the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
 ### -param rkey
 
@@ -85,21 +85,20 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method is useful when using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex">IShellFolder2::GetDetailsEx</a>, as is returns a variant rather than a <b>PROPVARIANT</b>.
+This method is useful when using <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex">IShellFolder2::GetDetailsEx</a>, as is returns a variant rather than a <b>PROPVARIANT</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
+<a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh289343(v=vs.85)">GetPropertyFromIDList</a>
+<a href="/previous-versions/windows/desktop/legacy/hh289343(v=vs.85)">GetPropertyFromIDList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex">IShellFolder2::GetDetailsEx</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex">IShellFolder2::GetDetailsEx</a>

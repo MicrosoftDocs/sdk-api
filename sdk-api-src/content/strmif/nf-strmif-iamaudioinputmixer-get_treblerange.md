@@ -57,7 +57,7 @@ The <code>get_TrebleRange</code> method retrieves the treble range for this inpu
 
 ### -param pRange [out]
 
-Receives the largest valid value for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_treble">IAMAudioInputMixer::put_Treble</a>. For example, 6.0 means that any value between –6.0 and 6.0 is valid.
+Receives the largest valid value for the <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_treble">IAMAudioInputMixer::put_Treble</a>. For example, 6.0 means that any value between –6.0 and 6.0 is valid.
 
 ## -returns
 
@@ -65,13 +65,12 @@ If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_treble">IAMAudioInputMixer::put_Treble</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_treble">IAMAudioInputMixer::put_Treble</a>

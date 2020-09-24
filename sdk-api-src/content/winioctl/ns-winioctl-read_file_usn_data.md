@@ -53,7 +53,7 @@ api_name:
 
 Specifies the versions of the update sequence number (USN) change journal supported by the 
     application. This structure is the input structure to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_file_usn_data">FSCTL_READ_FILE_USN_DATA</a> control code.
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_file_usn_data">FSCTL_READ_FILE_USN_DATA</a> control code.
 
 ## -struct-fields
 
@@ -69,9 +69,8 @@ The highest version of the USN change journal accepted by the application. If th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

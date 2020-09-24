@@ -87,7 +87,7 @@ The address of a variable that receives a pointer to a value that indicates whet
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -96,4 +96,3 @@ Returns S_OK if successful or an error value otherwise.
 The returned value is &lt;0 if the caller's endpoint occurs earlier in the text than the target endpoint; 
 			0 if the caller's endpoint is at the same location as the target endpoint; and 
 			&gt;0 if the caller's endpoint occurs later in the text than the target endpoint.
-

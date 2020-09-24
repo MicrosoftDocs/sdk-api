@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Retrieves information on the cache entry associated with the specified URL, taking into account any redirections that are applied in offline mode by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> function.
+<a href="/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> function.
 
 ## -parameters
 
@@ -64,9 +64,9 @@ A pointer to a <b>null</b>-terminated string that contains the name of the cache
 ### -param lpCacheEntryInfo [in, out, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure that receives information about the cache entry. A buffer should be allocated for this parameter. 
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure that receives information about the cache entry. A buffer should be allocated for this parameter. 
 
-Since the required size of the buffer is not known in advance,  it is best to allocate a buffer adequate to handle the size of most <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> entries. There is no cache entry size limit, so applications that need to enumerate the cache must be prepared to allocate variable-sized buffers.
+Since the required size of the buffer is not known in advance,  it is best to allocate a buffer adequate to handle the size of most <a href="/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> entries. There is no cache entry size limit, so applications that need to enumerate the cache must be prepared to allocate variable-sized buffers.
 
 ### -param lpcbCacheEntryInfo [in, out, optional]
 
@@ -92,7 +92,7 @@ This parameter is reserved and must be 0.
 ## -returns
 
 Returns <b>TRUE</b> if the URL was located, or <b>FALSE</b> otherwise. Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for specific error information. Possible errors include the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for specific error information. Possible errors include the following.
 
 <table>
 <tr>
@@ -131,7 +131,7 @@ The buffer referenced by
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -142,9 +142,8 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
+<a href="/windows/desktop/WinInet/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>

@@ -92,9 +92,8 @@ Film grain synthesis data buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
+<a href="/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer">ID3D11VideoContext::GetDecoderBuffer</a>
-
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer">ID3D11VideoContext::GetDecoderBuffer</a>

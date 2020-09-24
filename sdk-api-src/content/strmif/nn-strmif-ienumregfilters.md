@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This interface has been deprecated. New applications should call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-enummatchingfilters">IFilterMapper2::EnumMatchingFilters</a>, which enumerates monikers and returns a pointer to the <b>IEnumMoniker</b> interface.</div>
+<div class="alert"><b>Note</b>  This interface has been deprecated. New applications should call <a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-enummatchingfilters">IFilterMapper2::EnumMatchingFilters</a>, which enumerates monikers and returns a pointer to the <b>IEnumMoniker</b> interface.</div>
 <div> </div>
-This interface provides methods for enumerating registered filters. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-enummatchingfilters">IFilterMapper::EnumMatchingFilters</a> method returns a pointer to this interface. However, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper">IFilterMapper</a> has been deprecated in favor of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a>.
+This interface provides methods for enumerating registered filters. The <a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-enummatchingfilters">IFilterMapper::EnumMatchingFilters</a> method returns a pointer to this interface. However, <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper">IFilterMapper</a> has been deprecated in favor of <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumRegFilters</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumRegFilters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumRegFilters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumRegFilters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IEnumRegFilters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumregfilters-clone">Clone</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ienumregfilters-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Not currently implemented.
@@ -80,7 +80,7 @@ Not currently implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumregfilters-next">Next</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ienumregfilters-next">Next</a>
 </td>
 <td align="left" width="63%">
 Fills an array with the next filters that meet the requirements.
@@ -89,16 +89,16 @@ Fills an array with the next filters that meet the requirements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumregfilters-reset">Reset</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ienumregfilters-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-Makes the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumregfilters-next">Next</a> method start again, beginning at the first filter.
+Makes the <a href="/windows/desktop/api/strmif/nf-strmif-ienumregfilters-next">Next</a> method start again, beginning at the first filter.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumregfilters-skip">Skip</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ienumregfilters-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Not currently implemented.
@@ -109,5 +109,4 @@ Not currently implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>

@@ -54,7 +54,7 @@ api_name:
 The <b>IEnumCERTVIEWROW</b> interface represents a row-enumeration sequence that contains the data in the rows of the Certificate Services view, allowing further access to the columns, attributes, and extensions associated with each row.
 
 The row-enumeration sequence is obtained through a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a> method. After this enumeration sequence is obtained, the <b>IEnumCERTVIEWROW</b> methods can be used to perform the following tasks:<ul>
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a> method. After this enumeration sequence is obtained, the <b>IEnumCERTVIEWROW</b> methods can be used to perform the following tasks:<ul>
 <li>Navigate through the enumeration sequence.</li>
 <li>Obtain other objects for enumerating the columns, certificate extensions, or attributes associated with a specific row.</li>
 <li>Retrieve the maximum number of rows for the view.</li>
@@ -67,7 +67,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWROW</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEnumCERTVIEWROW</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWROW</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEnumCERTVIEWROW</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -89,49 +89,49 @@ Reserved for future use.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewattribute">EnumCertViewAttribute</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewattribute">EnumCertViewAttribute</a>
 </td>
 <td align="left" width="63%">
 Obtains an instance of an attribute-enumeration sequence for the current row of the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewcolumn">EnumCertViewColumn</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewcolumn">EnumCertViewColumn</a>
 </td>
 <td align="left" width="63%">
 Obtains an instance of a column-enumeration sequence for the current row of the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewextension">EnumCertViewExtension</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewextension">EnumCertViewExtension</a>
 </td>
 <td align="left" width="63%">
 Obtains an instance of an extension-enumeration sequence for the current row of the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-getmaxindex">GetMaxIndex</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-getmaxindex">GetMaxIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum valid index value after all the rows in the row-enumeration sequence have been referenced.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-next">Next</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-next">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next row in the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-reset">Reset</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves to the beginning of the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-skip">Skip</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of rows in the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
@@ -140,9 +140,8 @@ Skips a specified number of rows in the row-enumeration sequence.</p> (Inherited
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView</a>
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

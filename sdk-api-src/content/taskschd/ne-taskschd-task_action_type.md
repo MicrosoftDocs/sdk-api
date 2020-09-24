@@ -62,45 +62,44 @@ This action performs a command-line operation. For example, the action can run a
 
 ### -field TASK_ACTION_COM_HANDLER
 
-This action fires a handler. This action can only be used if the task <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V2.
+This action fires a handler. This action can only be used if the task <a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V2.
 
 ### -field TASK_ACTION_SEND_EMAIL
 
-This action sends email message. This action can only be used if the task <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V2.
+This action sends email message. This action can only be used if the task <a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V2.
 
 ### -field TASK_ACTION_SHOW_MESSAGE
 
-This action shows a message box. This action can only be used if the task <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V2.
+This action shows a message box. This action can only be used if the task <a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V2.
 
 ## -remarks
 
-The action type is defined when the action is created and cannot be changed later. For C++ development, see <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create">IActionCollection::Create</a>. For scripting development, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/actioncollection-create">ActionCollection.Create</a>.
+The action type is defined when the action is created and cannot be changed later. For C++ development, see <a href="/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create">IActionCollection::Create</a>. For scripting development, see <a href="/windows/desktop/TaskSchd/actioncollection-create">ActionCollection.Create</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iexecaction">IExecAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iexecaction">IExecAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction">IShowMessageAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction">IShowMessageAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>

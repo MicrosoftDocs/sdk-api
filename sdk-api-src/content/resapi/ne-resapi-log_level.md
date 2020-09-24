@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Represents the severity of the log event passed to the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> callback function.
+    <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> callback function.
 
 ## -enum-fields
 
@@ -69,7 +69,7 @@ The event is reporting a failure that might have happened, but it is uncertain w
 ### -field LOG_ERROR
 
 The event affects a single component, but other components are not affected and the integrity of the rest 
-      of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> is not compromised.
+      of the <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> is not compromised.
 
 ### -field LOG_SEVERE
 
@@ -78,9 +78,8 @@ The event is reporting a severe failure that affects multiple components, or the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a>

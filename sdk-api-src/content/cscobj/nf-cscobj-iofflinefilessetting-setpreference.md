@@ -59,7 +59,7 @@ Sets a per-computer or per-user preference associated with an Offline Files sett
 
 Specifies the value associated with the preference.
 
-If multiple values are associated with the preference, the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> type includes <b>VT_ARRAY</b> and the values are stored in a <b>SAFEARRAY</b>.
+If multiple values are associated with the preference, the <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> type includes <b>VT_ARRAY</b> and the values are stored in a <b>SAFEARRAY</b>.
 
 ### -param dwScope [in]
 
@@ -95,5 +95,4 @@ It is important to note that policy cannot be set through the Offline Files API.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>

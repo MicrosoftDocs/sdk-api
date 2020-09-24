@@ -56,7 +56,7 @@ The <b>GetConnectivity</b> method returns the connectivity state of the network.
 
 ### -param pConnectivity [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connectivity">NLM_CONNECTIVITY</a> enumeration value that contains a bitmask  that specifies the connectivity state of this network.
+Pointer to a <a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connectivity">NLM_CONNECTIVITY</a> enumeration value that contains a bitmask  that specifies the connectivity state of this network.
 
 ## -returns
 
@@ -64,9 +64,8 @@ Returns S_OK if the method succeeds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connectivity">NLM_CONNECTIVITY</a>
-
+<a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connectivity">NLM_CONNECTIVITY</a>

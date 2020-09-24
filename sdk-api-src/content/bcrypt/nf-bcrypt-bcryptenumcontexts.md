@@ -95,9 +95,9 @@ After this function returns, this value contains the number of bytes that were c
 
 ### -param ppBuffer [in, out]
 
-The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_contexts">CRYPT_CONTEXTS</a> structure that receives the set of contexts retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
+The address of a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_contexts">CRYPT_CONTEXTS</a> structure that receives the set of contexts retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
 
-If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
+If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
 If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the variable pointed to by the <i>pcbBuffer</i> parameter and return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
@@ -260,9 +260,8 @@ NTSTATUS EnumContexts_SelfAlloc()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_contexts">CRYPT_CONTEXTS</a>
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_contexts">CRYPT_CONTEXTS</a>

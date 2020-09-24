@@ -58,7 +58,7 @@ Creates a hardware memory barrier (fence) that prevents the CPU from re-ordering
 
 Use this macro or the interlocked functions when the order of memory read and write operations is critical for program operation.
 
-The <b>_ReadBarrier</b>, <b>_WriteBarrier</b>, and <b>_ReadWriteBarrier</b> compiler intrinsics prevent compiler re-ordering only. With Visual Studio 2003, <b>volatile</b> to <b>volatile</b> references are ordered; the compiler will not re-order <b>volatile</b> variable access. With Visual Studio 2005, the compiler also uses acquire semantics for read operations on <b>volatile</b> variables and release semantics for write operations on <b>volatile</b> variables (when supported by the CPU). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-multiprocessor-issues">Synchronization and Multiprocessor Issues</a>.
+The <b>_ReadBarrier</b>, <b>_WriteBarrier</b>, and <b>_ReadWriteBarrier</b> compiler intrinsics prevent compiler re-ordering only. With Visual Studio 2003, <b>volatile</b> to <b>volatile</b> references are ordered; the compiler will not re-order <b>volatile</b> variable access. With Visual Studio 2005, the compiler also uses acquire semantics for read operations on <b>volatile</b> variables and release semantics for write operations on <b>volatile</b> variables (when supported by the CPU). For more information, see <a href="/windows/desktop/Sync/synchronization-and-multiprocessor-issues">Synchronization and Multiprocessor Issues</a>.
 
 This macro can be called on all processor platforms where Windows is supported, but it  has no effect on some platforms. The definition varies from platform to platform. The following are some definitions of this macro in Winnt.h.
 
@@ -87,5 +87,4 @@ MemoryBarrier (
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
-
+<a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>

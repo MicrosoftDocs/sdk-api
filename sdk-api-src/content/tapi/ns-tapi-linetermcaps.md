@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINETERMCAPS</b> structure describes the capabilities of a line's terminal device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure can contain an array of 
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure can contain an array of 
 <b>LINETERMCAPS</b> structures.
 
 ## -struct-fields
@@ -64,17 +64,17 @@ The
 ### -field dwTermDev
 
 Device type of the terminal. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermdev--constants">LINETERMDEV_ Constants</a>.
+<a href="/windows/desktop/Tapi/linetermdev--constants">LINETERMDEV_ Constants</a>.
 
 ### -field dwTermModes
 
 Terminal mode(s) the terminal device is able to deal with. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ Constants</a>.
 
 ### -field dwTermSharing
 
 Sharing modes for the terminal device. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermsharing--constants">LINETERMSHARING_ Constants</a>.
+<a href="/windows/desktop/Tapi/linetermsharing--constants">LINETERMSHARING_ Constants</a>.
 
 ## -remarks
 
@@ -82,17 +82,16 @@ This structure may not be extended.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>

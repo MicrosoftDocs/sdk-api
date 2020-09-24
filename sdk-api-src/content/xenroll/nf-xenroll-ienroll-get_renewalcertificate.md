@@ -62,9 +62,8 @@ This property is read/write.
 
 ## -remarks
 
-For more information about how to create a certificate renewal request, see <a href="https://msdn.microsoft.com/library/ms867026.aspx#certenroll_topic8">Creating a Renewal Request</a> in Creating Certificate Requests Using the Certificate Enrollment Control and CryptoAPI.
+For more information about how to create a certificate renewal request, see <a href="/previous-versions/ms867026(v=msdn.10)#certenroll_topic8">Creating a Renewal Request</a> in Creating Certificate Requests Using the Certificate Enrollment Control and CryptoAPI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>

@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IAMTuner</code> interface controls a TV tuner. This interface is the base class for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner</a> interface, which inherits all of the <code>IAMTuner</code> methods. For more information on controlling a TV tuner using Microsoft DirectShow, see the <b>IAMTVTuner</b> documentation.
+The <code>IAMTuner</code> interface controls a TV tuner. This interface is the base class for the <a href="/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner</a> interface, which inherits all of the <code>IAMTuner</code> methods. For more information on controlling a TV tuner using Microsoft DirectShow, see the <b>IAMTVTuner</b> documentation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTuner</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTuner</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTuner</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTuner</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAMTuner</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-channelminmax">ChannelMinMax</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-channelminmax">ChannelMinMax</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum and maximum channel available.
@@ -79,7 +79,7 @@ Retrieves the minimum and maximum channel available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-get_channel">get_Channel</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-get_channel">get_Channel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the TV channel that the tuner is set to.
@@ -88,7 +88,7 @@ Retrieves the TV channel that the tuner is set to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-get_countrycode">get_CountryCode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-get_countrycode">get_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the country/region code.
@@ -97,7 +97,7 @@ Retrieves the country/region code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-get_mode">get_Mode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-get_mode">get_Mode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current mode on a multifunction tuner.
@@ -106,7 +106,7 @@ Retrieves the current mode on a multifunction tuner.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-get_tuningspace">get_TuningSpace</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-get_tuningspace">get_TuningSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the storage index for regional fine tuning.
@@ -115,7 +115,7 @@ Retrieves the storage index for regional fine tuning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-getavailablemodes">GetAvailableModes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-getavailablemodes">GetAvailableModes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuner's supported modes.
@@ -124,7 +124,7 @@ Retrieves the tuner's supported modes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-logon">Logon</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-logon">Logon</a>
 </td>
 <td align="left" width="63%">
 Logs a user onto the system.
@@ -133,7 +133,7 @@ Logs a user onto the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-logout">Logout</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-logout">Logout</a>
 </td>
 <td align="left" width="63%">
 Logs a user off the system.
@@ -142,7 +142,7 @@ Logs a user off the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-put_channel">put_Channel</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-put_channel">put_Channel</a>
 </td>
 <td align="left" width="63%">
 Sets the TV channel.
@@ -151,7 +151,7 @@ Sets the TV channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-put_countrycode">put_CountryCode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-put_countrycode">put_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Sets the country/region code to establish the frequency to use.
@@ -160,7 +160,7 @@ Sets the country/region code to establish the frequency to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-put_mode">put_Mode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-put_mode">put_Mode</a>
 </td>
 <td align="left" width="63%">
 Sets a multifunction tuner to the specified mode.
@@ -169,7 +169,7 @@ Sets a multifunction tuner to the specified mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-put_tuningspace">put_TuningSpace</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-put_tuningspace">put_TuningSpace</a>
 </td>
 <td align="left" width="63%">
 Sets a storage index for regional channel-to-frequency mappings.
@@ -178,16 +178,16 @@ Sets a storage index for regional channel-to-frequency mappings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-registernotificationcallback">RegisterNotificationCallBack</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-registernotificationcallback">RegisterNotificationCallBack</a>
 </td>
 <td align="left" width="63%">
-Allows an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtunernotification">IAMTunerNotification</a> interface to receive event notifications when the tuner changes state. (Not implemented.)
+Allows an object that implements the <a href="/windows/desktop/api/strmif/nn-strmif-iamtunernotification">IAMTunerNotification</a> interface to receive event notifications when the tuner changes state. (Not implemented.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-signalpresent">SignalPresent</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-signalpresent">SignalPresent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the strength of the signal on a given channel.
@@ -196,7 +196,7 @@ Retrieves the strength of the signal on a given channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-unregisternotificationcallback">UnRegisterNotificationCallBack</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-unregisternotificationcallback">UnRegisterNotificationCallBack</a>
 </td>
 <td align="left" width="63%">
 Unregisters an object for event notifications. (Not implemented.)
@@ -204,4 +204,3 @@ Unregisters an object for event notifications. (Not implemented.)
 </td>
 </tr>
 </table>
-

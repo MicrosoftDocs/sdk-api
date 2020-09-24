@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The SOCKADDR_IN structure specifies a transport address and port for the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet">AF_INET</a> address family.
+  <a href="/windows-hardware/drivers/network/af-inet">AF_INET</a> address family.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ A transport protocol port number.
 ### -field sin_addr
 
 An 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff556972(v=vs.85)">IN_ADDR</a> structure that contains an IPv4 transport
+     <a href="/previous-versions/windows/hardware/drivers/ff556972(v=vs.85)">IN_ADDR</a> structure that contains an IPv4 transport
      address.
 
 ### -field sin_zero
@@ -84,17 +84,16 @@ All of the data in the SOCKADDR_IN structure, except for the address family, mus
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet">AF_INET</a>
+<a href="/windows-hardware/drivers/network/af-inet">AF_INET</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff556972(v=vs.85)">IN_ADDR</a>
+<a href="/previous-versions/windows/hardware/drivers/ff556972(v=vs.85)">IN_ADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)
-
+[SOCKADDR_STORAGE](./ns-ws2def-sockaddr_storage_lh.md)

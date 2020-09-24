@@ -60,9 +60,8 @@ The maximum storage for scalars (counted as 4 bytes each) in ray payloads in ray
 
 ### -field MaxAttributeSizeInBytes
 
-The maximum number of scalars (counted as 4 bytes each) that can be used for attributes in pipelines that contain this shader. The value cannot exceed <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_MAX_ATTRIBUTE_SIZE_IN_BYTES</a>.
+The maximum number of scalars (counted as 4 bytes each) that can be used for attributes in pipelines that contain this shader. The value cannot exceed <a href="/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_MAX_ATTRIBUTE_SIZE_IN_BYTES</a>.
 
 ## -remarks
 
 A raytracing pipeline needs one raytracing shader configuration.  If multiple shader configurations are present, such as one in each collection to enable independent driver compilation for each one, they must all match when combined into a raytracing pipeline.
-

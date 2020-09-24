@@ -61,18 +61,17 @@ The macro returns the fiber data for the currently running fiber.
 ## -remarks
 
 The fiber data is the value passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a> function in the <i>lpParameter</i> parameter. This value is also received as the parameter to the fiber function. It is stored as part of the fiber state information.
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a> function in the <i>lpParameter</i> parameter. This value is also received as the parameter to the fiber function. It is stored as part of the fiber state information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
-
+<a href="/windows/desktop/ProcThread/fibers">Fibers</a>

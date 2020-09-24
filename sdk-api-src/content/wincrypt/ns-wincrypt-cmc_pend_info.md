@@ -55,15 +55,14 @@ api_name:
 ## -description
 
 The <b>CMC_PEND_INFO</b> structure is a possible member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_status_info">CMC_STATUS_INFO</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_status_info">CMC_STATUS_INFO</a> structure.
 
 ## -struct-fields
 
 ### -field PendToken
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the pending request information.
+A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the pending request information.
 
 ### -field PendTime
 
 <b>FILETIME</b> containing the request.
-

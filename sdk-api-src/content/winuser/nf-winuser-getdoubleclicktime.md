@@ -69,7 +69,7 @@ The return value specifies the current double-click time, in milliseconds. The m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
@@ -77,5 +77,4 @@ The return value specifies the current double-click time, in milliseconds. The m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdoubleclicktime">SetDoubleClickTime</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setdoubleclicktime">SetDoubleClickTime</a>

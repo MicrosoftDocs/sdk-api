@@ -63,10 +63,10 @@ Contains information used to process toolbar notification codes. This structure 
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field iItem
 
@@ -76,10 +76,10 @@ Command identifier of the button associated with the notification code.
 
 ### -field tbButton
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structure that contains information about the toolbar button associated with the notification code. This member only contains valid information with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-queryinsert">TBN_QUERYINSERT</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-querydelete">TBN_QUERYDELETE</a> notification codes.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structure that contains information about the toolbar button associated with the notification code. This member only contains valid information with the <a href="/windows/desktop/Controls/tbn-queryinsert">TBN_QUERYINSERT</a> and <a href="/windows/desktop/Controls/tbn-querydelete">TBN_QUERYDELETE</a> notification codes.
 
 ### -field cchText
 
@@ -89,7 +89,7 @@ Count of characters in the button text.
 
 ### -field pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Address of a character buffer that contains the button text.
 
@@ -98,10 +98,9 @@ Address of a character buffer that contains the button text.
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that defines the area covered by the button.
+<a href="/windows/desktop/Controls/common-control-versions">Version 5.80.</a> A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that defines the area covered by the button.
 
 ## -remarks
 
 > [!NOTE]
 > The commctrl.h header defines NMTOOLBAR as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

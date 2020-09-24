@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies which variable-length coding (VLC) table to use for entropy coding. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpvintravlctable-property">AVEncMPVIntraVLCTable</a> property.
+Specifies which variable-length coding (VLC) table to use for entropy coding. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencmpvintravlctable-property">AVEncMPVIntraVLCTable</a> property.
 
 ## -enum-fields
 
@@ -68,9 +68,8 @@ The encoder uses the alternate "intra" VLC table for MPEG-2.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifies the gesture type specified in <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmrendergesture">DwmRenderGesture</a>.
+Identifies the gesture type specified in <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmrendergesture">DwmRenderGesture</a>.
 
 ## -enum-fields
 
@@ -97,4 +97,3 @@ An abort of the pen press and hold.
 ### -field GT_TOUCH_PRESSANDTAP
 
 A touch press and tap.
-

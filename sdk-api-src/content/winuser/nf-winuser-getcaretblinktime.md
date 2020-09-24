@@ -68,11 +68,11 @@ If the function succeeds, the return value is the blink time, in milliseconds.
 A return value of <b>INFINITE</b> indicates that the caret does not blink.
 
 A return value is zero indicates that the function has failed.
-             To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+             To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
+<a href="/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -84,5 +84,4 @@ A return value is zero indicates that the function has failed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcaretblinktime">SetCaretBlinkTime</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setcaretblinktime">SetCaretBlinkTime</a>

@@ -61,7 +61,7 @@ The handle of a <b>Signature</b> element.
 
 ### -param hKey [in, optional]
 
-The handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> to use to verify the signature value on 
+The handle of the <a href="/windows/desktop/SecGloss/p-gly">public key</a> to use to verify the signature value on 
     the <b>SignedInfo</b> element.
     This parameter must be <b>NULL</b> for HMAC-based signature algorithms.
 
@@ -92,4 +92,3 @@ Only default implementations for the signature and digest are used. When this fl
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

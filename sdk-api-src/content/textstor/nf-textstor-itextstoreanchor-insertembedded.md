@@ -160,29 +160,28 @@ The caller does not have a read/write lock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-queryinsertembedded">ITextStoreAnchor::QueryInsertEmbedded
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-queryinsertembedded">ITextStoreAnchor::QueryInsertEmbedded
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED
+<a href="/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-ie--constants">TS_IE_* Constants
+<a href="/windows/desktop/TSF/ts-ie--constants">TS_IE_* Constants
       </a>
-

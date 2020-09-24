@@ -98,7 +98,7 @@ The method returns <b>S_OK</b>.
 
 ## -remarks
 
-An application can use the specified point in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfrompoint">WindowFromPoint</a> function to get the handle  of the window, which usually can be used to find the client-rectangle coordinates (although a notable exception is with <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Controls</a>).
+An application can use the specified point in the <a href="/windows/desktop/api/winuser/nf-winuser-windowfrompoint">WindowFromPoint</a> function to get the handle  of the window, which usually can be used to find the client-rectangle coordinates (although a notable exception is with <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Controls</a>).
 
 ## -see-also
 
@@ -106,11 +106,11 @@ An application can use the specified point in the <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getpoint">GetPoint</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getpoint">GetPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -118,5 +118,4 @@ An application can use the specified point in the <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

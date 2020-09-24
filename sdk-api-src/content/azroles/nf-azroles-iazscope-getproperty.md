@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object property  with the specified property ID.
 
 ## -parameters
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -70,7 +70,7 @@ Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azrol
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_applicationdata">ApplicationData</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_applicationdata">ApplicationData</a> property
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_description">Description</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_description">Description</a> property
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_name">Name</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_name">Name</a> property
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministrators">PolicyAdministrators</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministrators">PolicyAdministrators</a> property
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministratorsname">PolicyAdministratorsName</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministratorsname">PolicyAdministratorsName</a> property
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyreaders">PolicyReaders</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyreaders">PolicyReaders</a> property
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyreadersname">PolicyReadersName</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyreadersname">PolicyReadersName</a> property
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_bizruleswritable">BizrulesWritable</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_bizruleswritable">BizrulesWritable</a> property
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_canbedelegated">CanBeDelegated</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_canbedelegated">CanBeDelegated</a> property
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_writable">Writable</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_writable">Writable</a> property
 
 </td>
 </tr>
@@ -182,9 +182,8 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object property.
+A pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object property.
 
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

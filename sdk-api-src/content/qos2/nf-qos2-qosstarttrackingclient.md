@@ -50,18 +50,18 @@ api_name:
 
 ## -description
 
-The <b>QOSStartTrackingClient</b> function notifies the QOS subsystem of the existence of a new client. Calling this function increases the likelihood that the QOS subsystem will have gathered sufficient information on the network path to assist when calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a> to set the flow. <div class="alert"><b>Note</b>  This call is not required to add a flow with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosaddsockettoflow">QOSAddSocketToFlow</a> function although it is highly recommended.  Not calling this function may require network experiments to be started during the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a> call and can result in <b>QOSSetFlow</b> failing with <b>ERROR_NETWORK_BUSY</b> on initial use.</div>
+The <b>QOSStartTrackingClient</b> function notifies the QOS subsystem of the existence of a new client. Calling this function increases the likelihood that the QOS subsystem will have gathered sufficient information on the network path to assist when calling <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a> to set the flow. <div class="alert"><b>Note</b>  This call is not required to add a flow with the <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosaddsockettoflow">QOSAddSocketToFlow</a> function although it is highly recommended.  Not calling this function may require network experiments to be started during the <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a> call and can result in <b>QOSSetFlow</b> failing with <b>ERROR_NETWORK_BUSY</b> on initial use.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param DestAddr [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the IP address of the client device.  Clients are identified by their IP address and address family.  Any port number specified in the sockaddr structure will be ignored.
+A pointer to a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the IP address of the client device.  Clients are identified by their IP address and address family.  Any port number specified in the sockaddr structure will be ignored.
 
 ### -param Flags
 
@@ -140,7 +140,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -232,9 +232,8 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>
+<a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

@@ -52,7 +52,7 @@ api_name:
 
 Determines which resources the specified connection is authorized to connect to.
 
-Remote Desktop Gateway (RD Gateway) calls this method after a user has been successfully authenticated. The authorization plug-in should then use the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeconnectionsink">ITSGAuthorizeConnectionSink</a>  interface to notify RD Gateway about the result of authorization.
+Remote Desktop Gateway (RD Gateway) calls this method after a user has been successfully authenticated. The authorization plug-in should then use the <a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeconnectionsink">ITSGAuthorizeConnectionSink</a>  interface to notify RD Gateway about the result of authorization.
 
 ## -parameters
 
@@ -102,7 +102,7 @@ The number of bytes referenced by the <i>cookie</i> parameter.
 
 ### -param pSink [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeresourcesink">ITSGAuthorizeResourceSink</a> interface that the authorization plug-in must use to notify RD Gateway about the result of authorization.
+A pointer to an <a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeresourcesink">ITSGAuthorizeResourceSink</a> interface that the authorization plug-in must use to notify RD Gateway about the result of authorization.
 
 ## -returns
 
@@ -112,7 +112,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 If this method returns <b>S_OK</b>, RD Gateway waits for the authorization 
     plug-in to call a method of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeresourcesink">ITSGAuthorizeResourceSink</a> interface. If any 
+    <a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeresourcesink">ITSGAuthorizeResourceSink</a> interface. If any 
     other value is returned, RD Gateway immediately denies the  authorization request.
 
 If authorization requires more than 1 second, we recommend starting a separate thread to perform 
@@ -123,5 +123,4 @@ For a sample that uses the <b>AuthorizeResource</b> method, see the [Remote Desk
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgpolicyengine">ITSGPolicyEngine</a>
-
+<a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgpolicyengine">ITSGPolicyEngine</a>

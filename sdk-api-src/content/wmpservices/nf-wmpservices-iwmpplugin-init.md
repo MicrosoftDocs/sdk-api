@@ -70,5 +70,4 @@ It is possible at any given time that multiple instances of Windows Media Player
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>
-
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>

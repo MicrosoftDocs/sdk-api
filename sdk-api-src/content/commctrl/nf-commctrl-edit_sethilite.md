@@ -56,7 +56,7 @@ This macro is not implemented.
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the edit control.
 
@@ -71,4 +71,3 @@ The index of the first character that is highlighted.
 Type: <b>int</b>
 
 The index of the last character that is highlighted.
-

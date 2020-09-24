@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
+Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
 
 ## -struct-fields
 
@@ -64,9 +64,9 @@ Defines the initialization parameters passed to the window procedure of an appli
 
 Type: <b>LPVOID</b>
 
-Contains additional data which may be used to create the window. If the window is being created as a result of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function, this member contains the value of the <i>lpParam</i> parameter specified in the function call.
+Contains additional data which may be used to create the window. If the window is being created as a result of a call to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> or <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function, this member contains the value of the <i>lpParam</i> parameter specified in the function call.
 
-If the window being created is a MDI client window, this member contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If the window being created is a MDI child window, this member contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a> structure.
+If the window being created is a MDI client window, this member contains a pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If the window being created is a MDI child window, this member contains a pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a> structure.
 
  If the window is being created from a dialog template, this member is the address of a <b>SHORT</b> value that specifies the size, in bytes, of the window creation data. The value is immediately followed by the creation data. For more information, see the following Remarks section.
 
@@ -116,7 +116,7 @@ The x-coordinate of the upper left corner of the new window. If the new window i
 
 Type: <b>LONG</b>
 
-The style for the new window. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">Window Styles</a>.
+The style for the new window. For a list of possible values, see <a href="/windows/desktop/winmsg/window-styles">Window Styles</a>.
 
 ### -field lpszName
 
@@ -134,11 +134,11 @@ A pointer to a null-terminated string or an atom that specifies the class name o
 
 Type: <b>DWORD</b>
 
-The extended window style for the new window. For a list of possible values, see  <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">Extended Window Styles</a>.
+The extended window style for the new window. For a list of possible values, see  <a href="/windows/desktop/winmsg/extended-window-styles">Extended Window Styles</a>.
 
 ## -remarks
 
-Because the <b>lpszClass</b> member can contain a pointer to a local (and thus inaccessable) atom, do not obtain the class name by using this member. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a> function instead.
+Because the <b>lpszClass</b> member can contain a pointer to a local (and thus inaccessable) atom, do not obtain the class name by using this member. Use the <a href="/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a> function instead.
 
  You should access the data represented by the <b>lpCreateParams</b> member using a pointer that has been declared using the <b>UNALIGNED</b> type, because the pointer may not be <b>DWORD</b> aligned. This is demonstrated in the following example:
 
@@ -170,7 +170,7 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)->lpCreateParams)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/about-the-multiple-document-interface">About the Multiple Document Interface</a>
+<a href="/windows/desktop/winmsg/about-the-multiple-document-interface">About the Multiple Document Interface</a>
 
 
 
@@ -178,15 +178,15 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)->lpCreateParams)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a>
 
 
 
@@ -194,5 +194,4 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)->lpCreateParams)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

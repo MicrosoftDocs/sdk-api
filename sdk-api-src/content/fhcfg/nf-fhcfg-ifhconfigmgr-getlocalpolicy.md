@@ -72,23 +72,22 @@ Receives the value of the numeric parameter for the specified local policy.
 
 ## -remarks
 
-Each local policy contains a numeric parameter that specifies how or when the File History feature backs up files and folders. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a> enumeration for more information about the local policies that can be specified.
+Each local policy contains a numeric parameter that specifies how or when the File History feature backs up files and folders. See the <a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a> enumeration for more information about the local policies that can be specified.
 
-To set the numeric parameter value for a local policy, use the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">IFhConfigMgr::SetLocalPolicy</a> method.
+To set the numeric parameter value for a local policy, use the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">IFhConfigMgr::SetLocalPolicy</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a>
+<a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
+<a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">IFhConfigMgr::SetLocalPolicy</a>
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">IFhConfigMgr::SetLocalPolicy</a>

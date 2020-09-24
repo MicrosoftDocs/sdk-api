@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the type of comparison to perform in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-gettimefilter">IOfflineFilesItemFilter::GetTimeFilter</a> method.
+Specifies the type of comparison to perform in the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-gettimefilter">IOfflineFilesItemFilter::GetTimeFilter</a> method.
 
 ## -enum-fields
 
@@ -82,5 +82,4 @@ Check whether the item value is greater than or equal to the filter value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-gettimefilter">IOfflineFilesItemFilter::GetTimeFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-gettimefilter">IOfflineFilesItemFilter::GetTimeFilter</a>

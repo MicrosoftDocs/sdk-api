@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Clears all of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> objects from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
+Clears all of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> objects from the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
 ## -parameters
 
@@ -101,13 +101,12 @@ An unspecified error occurred.
 
 ## -remarks
 
-To clear only one extended property at a time, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove">Remove</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
+To clear only one extended property at a time, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove">Remove</a> method of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove">Remove Method [IInkExtendedProperties Interface]</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove">Remove Method [IInkExtendedProperties Interface]</a>

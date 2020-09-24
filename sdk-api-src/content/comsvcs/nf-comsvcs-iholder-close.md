@@ -62,43 +62,42 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This closes a Resource Dispenser's Holder, after which the Resource Dispenser probably released.
 
-Before closing, any remaining inventory is destroyed by calling back to the Resource Dispenser's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">IDispenserDriver::DestroyResource</a> method.
+Before closing, any remaining inventory is destroyed by calling back to the Resource Dispenser's <a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">IDispenserDriver::DestroyResource</a> method.
 
 
 
 The following sequence describes how to close down a Resource Dispenser:
 
 <ol>
-<li>Obtain a reference to the Resource Dispenser (the object that exposes <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>).
+<li>Obtain a reference to the Resource Dispenser (the object that exposes <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>).
 </li>
 <li>Call a method in Resource Dispenser whose implementation calls <b>IHolder::Close</b>.
 </li>
-<li><b>IHolder::Close</b> destroys any remaining inventory by calling back to Resource Dispenser's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">IDispenserDriver::DestroyResource</a> method.
+<li><b>IHolder::Close</b> destroys any remaining inventory by calling back to Resource Dispenser's <a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">IDispenserDriver::DestroyResource</a> method.
 </li>
 <li><b>IHolder::Close</b> calls the Dispenser Manager to remove this Holder from the Holder list. (If no Holders remain, the Dispenser Manager object deletes itself.)
 </li>
-<li><b>IHolder::Close</b> releases its reference to Resource Dispenser's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a> interface. This is the reason you need a reference in step 1; otherwise, the Resource Dispenser would delete itself prematurely before the subsequent steps can be completed.
+<li><b>IHolder::Close</b> releases its reference to Resource Dispenser's <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a> interface. This is the reason you need a reference in step 1; otherwise, the Resource Dispenser would delete itself prematurely before the subsequent steps can be completed.
 </li>
 <li><b>IHolder::Close</b> returns to the Resource Dispenser.
 </li>
-<li>The Resource Dispenser calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">IDispenserDriver::DestroyResource</a>. The Holder now deletes itself.
+<li>The Resource Dispenser calls <a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">IDispenserDriver::DestroyResource</a>. The Holder now deletes itself.
 </li>
 <li>The method called in step 2 now returns.
 </li>
 <li>Release your final reference to the Resource Dispenser, which now deletes itself.
 </li>
 </ol>
-Note that the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager-registerdispenser">IDispenserManager::RegisterDispenser</a> method does not call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on its <i>pDispenserDriver</i> object, but <b>IHolder::Close</b> does perform a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on <i>pDispenserDriver</i>. This can cause the Resource Dispenser object to be destroyed prematurely. To prevent this premature destruction, the caller of <b>IHolder::Close</b> must hold a reference to the Resource Dispenser object as described in steps 1 and 5.
+Note that the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager-registerdispenser">IDispenserManager::RegisterDispenser</a> method does not call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on its <i>pDispenserDriver</i> object, but <b>IHolder::Close</b> does perform a <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on <i>pDispenserDriver</i>. This can cause the Resource Dispenser object to be destroyed prematurely. To prevent this premature destruction, the caller of <b>IHolder::Close</b> must hold a reference to the Resource Dispenser object as described in steps 1 and 5.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>

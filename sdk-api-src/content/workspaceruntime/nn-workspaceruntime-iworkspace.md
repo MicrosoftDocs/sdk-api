@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that provide information about a connection in RemoteApp and Desktop Connection. This interface is implemented by the Remote Desktop Services workspace runtime. These methods are called by custom clients that implement the <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
+Exposes methods that provide information about a connection in RemoteApp and Desktop Connection. This interface is implemented by the Remote Desktop Services workspace runtime. These methods are called by custom clients that implement the <a href="/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWorkspace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-getprocessid">GetProcessId</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-getprocessid">GetProcessId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the process ID of the current connection in RemoteApp and Desktop Connection.
@@ -78,7 +78,7 @@ Retrieves the process ID of the current connection in RemoteApp and Desktop Conn
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-getworkspacenames">GetWorkspaceNames</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-getworkspacenames">GetWorkspaceNames</a>
 </td>
 <td align="left" width="63%">
 Retrieves the names of the connections in the current process.
@@ -87,7 +87,7 @@ Retrieves the names of the connections in the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-startremoteapplication">StartRemoteApplication</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-startremoteapplication">StartRemoteApplication</a>
 </td>
 <td align="left" width="63%">
 Starts a RemoteApp program.
@@ -95,4 +95,3 @@ Starts a RemoteApp program.
 </td>
 </tr>
 </table>
-

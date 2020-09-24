@@ -54,7 +54,7 @@ The
 <b>NS_CONTEXT_CONNECT_FN</b> command is the connect function for helpers. Helpers expose a connect function that enables NetShell to connect to the helper. NetShell calls a helper connect function before calling other helper functions.
 
 The connect function is registered with NetShell using the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of a connect function. Be aware that <b>SampleConnect</b> is a placeholder for the application-defined function name.
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of a connect function. Be aware that <b>SampleConnect</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -73,19 +73,18 @@ A helper connect function is called by NetShell before NetShell calls the contex
 If the context is remotable, specified by absence of the CMD_FLAG_LOCAL flag, the connect function should accept the computer name on which the function should operate next, and attempt to validate its ability to communicate with that computer.
 
 If the context commands are dynamic, the context should call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> again with its latest set of commands.
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> again with its latest set of commands.
 
 Each helper is responsible for maintaining its own connection to remote computers. If access is not possible, a helper should display an appropriate error message, and must fail on the connect function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
+<a href="/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
+<a href="/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>

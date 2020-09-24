@@ -52,10 +52,10 @@ api_name:
 
 The 
 WbemTextFlagEnum constant defines the content of generated object text and is used by 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-getobjecttext-">SWbemObject.GetObjectText_</a>.
+<a href="/windows/desktop/WmiSdk/swbemobject-getobjecttext-">SWbemObject.GetObjectText_</a>.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library;. script languages must use the value of the constant directly, unless they use Windows Script Host (WSH) XML file format. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
+<a href="/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 ## -enum-fields
 
@@ -65,9 +65,8 @@ Excludes qualifier flavors from the object text.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
+<a href="/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemobjecttextformatenum">WbemObjectTextFormatEnum</a>
-
+<a href="/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemobjecttextformatenum">WbemObjectTextFormatEnum</a>

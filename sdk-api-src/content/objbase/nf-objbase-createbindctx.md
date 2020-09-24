@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Returns a pointer to an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> (a bind context object). This object stores information about a particular moniker-binding operation.
+Returns a pointer to an implementation of <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> (a bind context object). This object stores information about a particular moniker-binding operation.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ This parameter is reserved and must be 0.
 
 ### -param ppbc [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>* pointer variable that receives the interface pointer to the new bind context object. When the function is successful, the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the bind context. A <b>NULL</b> value for the bind context indicates that an error occurred.
+Address of an <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>* pointer variable that receives the interface pointer to the new bind context object. When the function is successful, the caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the bind context. A <b>NULL</b> value for the bind context indicates that an error occurred.
 
 ## -returns
 
@@ -76,7 +76,7 @@ This function can return the standard return values E_OUTOFMEMORY and S_OK.
 <ol>
 <li>Get a pointer to a bind context by calling the <b>CreateBindCtx</b> function.
 </li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> method on the moniker, retrieving an interface pointer to the object to which the moniker refers. 
+<li>Call the <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> method on the moniker, retrieving an interface pointer to the object to which the moniker refers. 
 </li>
 <li>Release the bind context.</li>
 <li>Use the interface pointer.</li>
@@ -95,27 +95,26 @@ pbc-&gt;Release();
 // pInterface now points to the object; safe to use pInterface 
 pInterface-&gt;Release(); 
 </code></pre>
-Bind contexts are also used in other methods of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface besides <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> and in the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> function. 
+Bind contexts are also used in other methods of the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface besides <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> and in the <a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> function. 
 
 A bind context retains references to the objects that are bound during the binding operation, causing the bound objects to remain active (keeping the object's server running) until the bind context is released. Reusing a bind context when subsequent operations bind to the same object can improve performance. You should, however, release the bind context as soon as possible, because you could be keeping the objects activated unnecessarily.
 
-A bind context contains a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure, which contains parameters that apply to all steps in a binding operation. When you create a bind context using <b>CreateBindCtx</b>, the fields of the <b>BIND_OPTS</b> structure are initialized as follows.
+A bind context contains a <a href="/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure, which contains parameters that apply to all steps in a binding operation. When you create a bind context using <b>CreateBindCtx</b>, the fields of the <b>BIND_OPTS</b> structure are initialized as follows.
 
 <pre class="syntax" xml:space="preserve"><code>cbStruct = sizeof(BIND_OPTS) 
 grfFlags = 0 
 grfMode = STGM_READWRITE 
 dwTickCountDeadline = 0</code></pre>
-You can call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-setbindoptions">IBindCtx::SetBindOptions</a> method to modify these default values.
+You can call the <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-setbindoptions">IBindCtx::SetBindOptions</a> method to modify these default values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>

@@ -56,7 +56,7 @@ Deletes the resource specified in the resource URI.
 
 ### -param resourceUri [in]
 
-The URI of the resource to be deleted. You can also use an <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object to specify the resource.
+The URI of the resource to be deleted. You can also use an <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object to specify the resource.
 
 ### -param flags [in, optional]
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/session-delete">Session.Delete</a>
-
+<a href="/windows/desktop/WinRM/session-delete">Session.Delete</a>

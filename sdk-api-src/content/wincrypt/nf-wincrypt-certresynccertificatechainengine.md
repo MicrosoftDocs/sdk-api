@@ -63,5 +63,4 @@ The chain engine to resynchronize.
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

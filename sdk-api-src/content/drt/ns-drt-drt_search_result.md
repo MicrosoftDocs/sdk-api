@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>DRT_SEARCH_RESULT</b> contains the registration entry and the type of match of the search result returned by <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a> when the <i>hEvent</i> passed into  <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> is signaled.
+The <b>DRT_SEARCH_RESULT</b> contains the registration entry and the type of match of the search result returned by <a href="/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a> when the <i>hEvent</i> passed into  <a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> is signaled.
 
 ## -struct-fields
 
@@ -61,11 +61,11 @@ The size of the <b>DRT_SEARCH_RESULT</b> structure.
 
 ### -field type
 
-Specifies  the exactness of the search. This member corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_match_type">DRT_MATCH_TYPE</a> enumeration.
+Specifies  the exactness of the search. This member corresponds to the <a href="/windows/desktop/api/drt/ne-drt-drt_match_type">DRT_MATCH_TYPE</a> enumeration.
 
 ### -field pvContext
 
-Pointer to the context data passed to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> API.
+Pointer to the context data passed to the <a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> API.
 
 ### -field registration
 
@@ -73,13 +73,12 @@ Contains the registration result.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_match_type">DRT_MATCH_TYPE</a>
+<a href="/windows/desktop/api/drt/ne-drt-drt_match_type">DRT_MATCH_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>

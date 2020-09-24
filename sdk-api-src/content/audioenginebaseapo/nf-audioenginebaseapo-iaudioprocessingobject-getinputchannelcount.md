@@ -69,5 +69,4 @@ The input channel count that is returned refers to the input side of the APO.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudioprocessingobject">IAudioProcessingObject</a>
-
+<a href="/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudioprocessingobject">IAudioProcessingObject</a>

@@ -66,7 +66,7 @@ Part-of-title number with title. 0xffffffff if not a simple linear movie.
 
 ### -field TimeCode
 
-Timecode. Use [DVD_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_timecode) for current playback time. 0xFFFFFFFF if not a simple linear movie.
+Timecode. Use [DVD_TIMECODE](/windows/desktop/api/strmif/ns-strmif-dvd_timecode) for current playback time. 0xFFFFFFFF if not a simple linear movie.
 
 ## -remarks
 
@@ -74,5 +74,4 @@ Timecode. Use [DVD_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strm
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

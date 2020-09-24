@@ -59,7 +59,7 @@ Notification for data being read from a device service data session.
 
 ### -param deviceService [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> session object on which the data was read.
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> session object on which the data was read.
 
 ### -param deviceServiceData [in]
 
@@ -93,5 +93,4 @@ This byte array contains the byte-by-byte copy of data read from the device serv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>

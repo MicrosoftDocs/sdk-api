@@ -60,9 +60,8 @@ An integer value between 0 and 100 that indicates the percentage of the total nu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a>
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a>
-
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a>

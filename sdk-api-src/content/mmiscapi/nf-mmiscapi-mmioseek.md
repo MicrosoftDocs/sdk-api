@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>mmioSeek</b> function changes the current file position in a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
+The <b>mmioSeek</b> function changes the current file position in a file opened by using the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 ## -parameters
 
@@ -115,4 +115,3 @@ Returns the new file position, in bytes, relative to the beginning of the file. 
 Seeking to an invalid location in the file, such as past the end of the file, might not cause <b>mmioSeek</b> to return an error, but it might cause subsequent I/O operations on the file to fail.
 
 To locate the end of a file, call <b>mmioSeek</b> with <i>lOffset</i> set to zero and <i>iOrigin</i> set to SEEK_END.
-

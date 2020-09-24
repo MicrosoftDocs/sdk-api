@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWMSyncReader</b> interface provides the ability to read ASF files using synchronous calls. This is in contrast to many of the methods in <b>IWMReader</b>, which are called asynchronously.
 
-You get a pointer to an <b>IWMSyncReader</b> interface when you create a new synchronous reader object with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatesyncreader">WMCreateSyncReader</a>.
+You get a pointer to an <b>IWMSyncReader</b> interface when you create a new synchronous reader object with a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatesyncreader">WMCreateSyncReader</a>.
 
 In addition to enabling synchronous reading, the methods of <b>IWMSyncReader</b> are tailored to meet the demands of editing applications. Default playback from <b>IWMSyncReader</b> delivers uncompressed samples for the default streams of all outputs. However, you can manipulate the selected streams during streaming without having to enable manual stream selection. You can also receive compressed or uncompressed samples, though you cannot change between them during streaming. Samples are delivered by either output number or stream number, so you can receive uncompressed samples from mutually exclusive streams.
 
@@ -62,7 +62,7 @@ Use of this interface, as well as the implementation of an <b>IStream</b> COM ob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSyncReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMSyncReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSyncReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMSyncReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IWMSyncReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-close">Close</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-close">Close</a>
 </td>
 <td align="left" width="63%">
 Removes a file from the synchronous reader.
@@ -86,7 +86,7 @@ Removes a file from the synchronous reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getmaxoutputsamplesize">GetMaxOutputSampleSize</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getmaxoutputsamplesize">GetMaxOutputSampleSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum sample size for an output in the file.
@@ -95,7 +95,7 @@ Retrieves the maximum sample size for an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getmaxstreamsamplesize">GetMaxStreamSampleSize</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getmaxstreamsamplesize">GetMaxStreamSampleSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum sample size for a stream in the file.
@@ -104,7 +104,7 @@ Retrieves the maximum sample size for a stream in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample">GetNextSample</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample">GetNextSample</a>
 </td>
 <td align="left" width="63%">
 Gets the next sample from the file.
@@ -113,7 +113,7 @@ Gets the next sample from the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputcount">GetOutputCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputcount">GetOutputCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of outputs in the file.
@@ -122,7 +122,7 @@ Retrieves the number of outputs in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputformat">GetOutputFormat</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputformat">GetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves one output format for one output in the file.
@@ -131,7 +131,7 @@ Retrieves one output format for one output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputformatcount">GetOutputFormatCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputformatcount">GetOutputFormatCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of formats supported by an output in the file.
@@ -140,7 +140,7 @@ Retrieves the number of formats supported by an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputnumberforstream">GetOutputNumberForStream</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputnumberforstream">GetOutputNumberForStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output number that corresponds to a stream in the file.
@@ -149,7 +149,7 @@ Retrieves the output number that corresponds to a stream in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputprops">GetOutputProps</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputprops">GetOutputProps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current properties of an output in the file.
@@ -158,7 +158,7 @@ Retrieves the current properties of an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputsetting">GetOutputSetting</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputsetting">GetOutputSetting</a>
 </td>
 <td align="left" width="63%">
 Retrieves a setting for a particular output by name.
@@ -167,7 +167,7 @@ Retrieves a setting for a particular output by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getreadstreamsamples">GetReadStreamSamples</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getreadstreamsamples">GetReadStreamSamples</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether a stream is configured to deliver uncompressed samples.
@@ -176,7 +176,7 @@ Ascertains whether a stream is configured to deliver uncompressed samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getstreamnumberforoutput">GetStreamNumberForOutput</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getstreamnumberforoutput">GetStreamNumberForOutput</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current stream number that corresponds to an output number in the file.
@@ -185,7 +185,7 @@ Retrieves the current stream number that corresponds to an output number in the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getstreamselected">GetStreamSelected</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getstreamselected">GetStreamSelected</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether or not a particular stream is selected for sample delivery.
@@ -194,7 +194,7 @@ Retrieves whether or not a particular stream is selected for sample delivery.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-open">Open</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a file for reading.
@@ -203,7 +203,7 @@ Opens a file for reading.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-openstream">OpenStream</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-openstream">OpenStream</a>
 </td>
 <td align="left" width="63%">
 Opens a stream for reading.
@@ -212,7 +212,7 @@ Opens a stream for reading.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputprops">SetOutputProps</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputprops">SetOutputProps</a>
 </td>
 <td align="left" width="63%">
 Sets the properties of an output in the file.
@@ -221,7 +221,7 @@ Sets the properties of an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">SetOutputSetting</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">SetOutputSetting</a>
 </td>
 <td align="left" width="63%">
 Sets a named setting for an output in the file.
@@ -230,7 +230,7 @@ Sets a named setting for an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange">SetRange</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange">SetRange</a>
 </td>
 <td align="left" width="63%">
 Sets a start time and duration for playback.
@@ -239,7 +239,7 @@ Sets a start time and duration for playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe">SetRangeByFrame</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe">SetRangeByFrame</a>
 </td>
 <td align="left" width="63%">
 Sets a start time and duration for playback based upon the frame number of a frame-indexed video stream.
@@ -248,7 +248,7 @@ Sets a start time and duration for playback based upon the frame number of a fra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples">SetReadStreamSamples</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples">SetReadStreamSamples</a>
 </td>
 <td align="left" width="63%">
 Sets a stream to deliver compressed or uncompressed samples.
@@ -257,7 +257,7 @@ Sets a stream to deliver compressed or uncompressed samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setstreamsselected">SetStreamsSelected</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setstreamsselected">SetStreamsSelected</a>
 </td>
 <td align="left" width="63%">
 Sets the streams for which the reader will deliver samples.
@@ -266,9 +266,8 @@ Sets the streams for which the reader will deliver samples.
 </tr>
 </table> 
 
-For information on which interfaces can be obtained by calling the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/synchronous-reader-object">Synchronous Reader Object</a>.
+For information on which interfaces can be obtained by calling the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/synchronous-reader-object">Synchronous Reader Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>

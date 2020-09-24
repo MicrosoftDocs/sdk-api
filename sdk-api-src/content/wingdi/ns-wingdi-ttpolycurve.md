@@ -83,35 +83,34 @@ The type of curve described by the structure. This member can be one of the foll
 
 ### -field cpfx
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a> structures in the array.
+The number of <a href="/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a> structures in the array.
 
 ### -field apfx
 
-Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a> structures that define the polyline or Bézier spline.
+Specifies an array of <a href="/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a> structures that define the polyline or Bézier spline.
 
 ## -remarks
 
-When an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getglyphoutlinea">GetGlyphOutline</a> function, a glyph outline for a TrueType character is returned in a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a> structure, followed by as many <b>TTPOLYCURVE</b> structures as are required to describe the glyph. All points are returned as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a> structures and represent absolute positions, not relative moves. The starting point specified by the <b>pfxStart</b> member of the <b>TTPOLYGONHEADER</b> structure is the point at which the outline for a contour begins. The <b>TTPOLYCURVE</b> structures that follow can be either polyline records or spline records.
+When an application calls the <a href="/windows/desktop/api/wingdi/nf-wingdi-getglyphoutlinea">GetGlyphOutline</a> function, a glyph outline for a TrueType character is returned in a <a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a> structure, followed by as many <b>TTPOLYCURVE</b> structures as are required to describe the glyph. All points are returned as <a href="/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a> structures and represent absolute positions, not relative moves. The starting point specified by the <b>pfxStart</b> member of the <b>TTPOLYGONHEADER</b> structure is the point at which the outline for a contour begins. The <b>TTPOLYCURVE</b> structures that follow can be either polyline records or spline records.
 
 Polyline records are a series of points; lines drawn between the points describe the outline of the character. Spline records represent the quadratic curves (that is, quadratic b-splines) used by TrueType.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getglyphoutlinea">GetGlyphOutline</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getglyphoutlinea">GetGlyphOutline</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a>

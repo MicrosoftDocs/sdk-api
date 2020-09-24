@@ -56,11 +56,10 @@ Retrieves the current rendering priority of the device.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/ne-d2d1_2-d2d1_rendering_priority">D2D1_RENDERING_PRIORITY</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_2/ne-d2d1_2-d2d1_rendering_priority">D2D1_RENDERING_PRIORITY</a></b>
 
 The current rendering priority of the device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>
-
+<a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>

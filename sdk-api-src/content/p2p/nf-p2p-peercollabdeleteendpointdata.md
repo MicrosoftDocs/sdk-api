@@ -56,7 +56,7 @@ The <b>PeerCollabDeleteEndpointData</b> function deletes the peer endpoint data 
 
 ### -param pcEndpoint [in]
 
-Pointer to a [PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint) structure that contains the peer endpoint information to delete from the current peer node.
+Pointer to a [PEER_ENDPOINT](./ns-p2p-peer_endpoint.md) structure that contains the peer endpoint information to delete from the current peer node.
 
 ## -returns
 
@@ -93,17 +93,16 @@ One of the arguments is invalid.
 
 ## -remarks
 
-The function <b>PeerCollabDeleteEndpointData</b> is used to remove cached endpoint data previously retrieved by  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabrefreshendpointdata">PeerCollabRefreshEndpointData</a> when it is no longer required. Any data obtained through <b>PeerCollabRefreshEndpointData</b> remains in memory until <b>PeerCollabDeleteEndpointData</b> is called.
+The function <b>PeerCollabDeleteEndpointData</b> is used to remove cached endpoint data previously retrieved by  <a href="/windows/desktop/api/p2p/nf-p2p-peercollabrefreshendpointdata">PeerCollabRefreshEndpointData</a> when it is no longer required. Any data obtained through <b>PeerCollabRefreshEndpointData</b> remains in memory until <b>PeerCollabDeleteEndpointData</b> is called.
 
 ## -see-also
 
-[PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint)
+[PEER_ENDPOINT](./ns-p2p-peer_endpoint.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabrefreshendpointdata">PeerCollabRefreshEndpointData</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabrefreshendpointdata">PeerCollabRefreshEndpointData</a>

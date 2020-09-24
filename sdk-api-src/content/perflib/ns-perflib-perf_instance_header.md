@@ -84,33 +84,32 @@ identifier. Clients, however, should tolerate instances with duplicate combinati
 
 identifier. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfenumeratecountersetinstances">PerfEnumerateCounterSetInstances</a> function gets a sequence of  
+The <a href="/windows/desktop/api/perflib/nf-perflib-perfenumeratecountersetinstances">PerfEnumerateCounterSetInstances</a> function gets a sequence of  
 
 <b>PERF_INSTANCE_HEADER</b> blocks.  
 
   
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function gets a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block that may  
+The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function gets a <a href="/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block that may  
 
-contain <b>PERF_INSTANCE_HEADER</b> blocks within the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
+contain <b>PERF_INSTANCE_HEADER</b> blocks within the <a href="/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_instance_header">PERF_INSTANCE_HEADER</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_instance_header">PERF_INSTANCE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfenumeratecountersetinstances">PerfEnumerateCounterSetInstances</a>
+<a href="/windows/desktop/api/perflib/nf-perflib-perfenumeratecountersetinstances">PerfEnumerateCounterSetInstances</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>

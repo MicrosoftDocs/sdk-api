@@ -56,7 +56,7 @@ Sets the amount of blur to be applied to the image.
 
 ### -param animation [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>*</b>
+Type: <b><a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>*</b>
 
 An animation that represents how the amount of blur changes over time. You can compute the blur radius of the kernel by multiplying the standard deviation by 3. 
           The units of both the standard deviation and blur radius are DIPs. A value of zero DIPs disables this effect entirely. 
@@ -70,5 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiongaussianblureffect">IDCompositionGaussianBlurEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiongaussianblureffect">IDCompositionGaussianBlurEffect</a>

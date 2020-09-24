@@ -70,13 +70,13 @@ The center point of the automation element (or a point in the bounding rectangle
 
 If successful, returns S_OK.
 
-If not successful, returns a standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
+If not successful, returns a standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>.
 
 ## -remarks
 
-This function requires the calling process to have UIAccess or higher privileges.  If the caller does not have the required privileges, the call to <b>AccNotifyTouchInteraction</b> fails and returns <b>E_ACCESSDENIED</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-securityoverview">Security Considerations for Assistive Technologies</a> and <a href="https://msdn.microsoft.com/library/bb384691.aspx">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
+This function requires the calling process to have UIAccess or higher privileges.  If the caller does not have the required privileges, the call to <b>AccNotifyTouchInteraction</b> fails and returns <b>E_ACCESSDENIED</b>. For more information, see <a href="/windows/desktop/WinAuto/uiauto-securityoverview">Security Considerations for Assistive Technologies</a> and <a href="/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
 
-When an AT is consuming touch data (such as when using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a> function), the shell and applications that the AT interacts with through the Windows Automation API are not aware that the user is interacting through touch. For the system to expose touch-related functionality to the user, the AT must use <b>AccNotifyTouchInteraction</b> to notify the system that it is performing the interaction in response to user touch input.
+When an AT is consuming touch data (such as when using the <a href="/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a> function), the shell and applications that the AT interacts with through the Windows Automation API are not aware that the user is interacting through touch. For the system to expose touch-related functionality to the user, the AT must use <b>AccNotifyTouchInteraction</b> to notify the system that it is performing the interaction in response to user touch input.
 
 
 #### Examples
@@ -127,13 +127,12 @@ HRESULT PerformTouchBasedInteraction(IUIAutomationElement *pTargetElement,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accsetrunningutilitystate">AccSetRunningUtilityState</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-accsetrunningutilitystate">AccSetRunningUtilityState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterpointerinputtarget">UnregisterPointerInputTarget</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-unregisterpointerinputtarget">UnregisterPointerInputTarget</a>

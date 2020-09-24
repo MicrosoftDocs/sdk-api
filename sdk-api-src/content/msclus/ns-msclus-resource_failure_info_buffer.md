@@ -63,9 +63,8 @@ The version of this structure. Set this parameter to <b>RESOURCE_FAILURE_INFO_VE
 
 ### -field Info
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-resource_failure_info">RESOURCE_FAILURE_INFO</a> structure that contains information about the failover attempts for the resource failure.
+The <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-resource_failure_info">RESOURCE_FAILURE_INFO</a> structure that contains information about the failover attempts for the resource failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

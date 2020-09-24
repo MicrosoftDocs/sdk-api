@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>TAG_TYPE</b> structure specifies tags used for the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a> function.
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a> function.
 
 ## -struct-fields
 
@@ -124,5 +124,4 @@ Multiple copies of the tag is allowed. Tag must be present.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a>

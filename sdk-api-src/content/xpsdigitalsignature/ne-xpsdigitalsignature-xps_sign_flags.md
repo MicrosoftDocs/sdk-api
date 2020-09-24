@@ -70,11 +70,11 @@ signing the package.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getflags">IXpsSigningOptions::GetFlags</a>
+<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getflags">IXpsSigningOptions::GetFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setflags">IXpsSigningOptions::SetFlags</a>
+<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setflags">IXpsSigningOptions::SetFlags</a>
 
 
 
@@ -83,4 +83,3 @@ signing the package.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-

@@ -57,7 +57,7 @@ The <code>Load</code> method loads properties from the media property bag into t
 
 ### -param pPropBag [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag</a> interface of a media property bag created by the caller.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag</a> interface of a media property bag created by the caller.
 
 ### -param pErrorLog [in]
 
@@ -120,7 +120,7 @@ Filter graph is not in a stopped state.
 
 ## -remarks
 
-Call this method on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter to write the properties into the AVI stream. Call the method when the filter is stopped, before you run the filter graph to author the file. When the graph runs, the filter writes the INFO chunks into the AVI header.
+Call this method on the <a href="/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter to write the properties into the AVI stream. Call the method when the filter is stopped, before you run the filter graph to author the file. When the graph runs, the filter writes the INFO chunks into the AVI header.
 
 The following code example adds an IART (author name) INFO chunk to a file:
 
@@ -149,13 +149,12 @@ VariantClear(&amp;val);
 </td>
 </tr>
 </table></span></div>
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser</a> do not support this method.
+The <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter and the <a href="/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser</a> do not support this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag Interface</a>

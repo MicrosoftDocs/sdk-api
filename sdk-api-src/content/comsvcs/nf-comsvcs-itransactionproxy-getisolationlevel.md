@@ -56,7 +56,7 @@ Retrieves the isolation level of the non-DTC transaction.
 
 ### -param __MIDL__ITransactionProxy0000 [out, retval]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms679234.aspx">ISOLATIONLEVEL</a> value that specifies the isolation level of the non-DTC transaction.
+A pointer to an <a href="/previous-versions/windows/desktop/ms679234(v=vs.85)">ISOLATIONLEVEL</a> value that specifies the isolation level of the non-DTC transaction.
 
 ## -returns
 
@@ -64,5 +64,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproxy">ITransactionProxy</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproxy">ITransactionProxy</a>

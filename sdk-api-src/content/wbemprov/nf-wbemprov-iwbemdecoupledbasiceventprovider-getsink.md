@@ -53,7 +53,7 @@ api_name:
 
 The 
 <b>IWbemDecoupledBasicEventProvider::GetSink</b> method retrieves an 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> object for event forwarding to WMI. This method provides for fully concurrent access.
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> object for event forwarding to WMI. This method provides for fully concurrent access.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ Reserved for future use.
 ### -param a_Sink [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> instance used to forward events to WMI.
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> instance used to forward events to WMI.
 
 ## -returns
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
-

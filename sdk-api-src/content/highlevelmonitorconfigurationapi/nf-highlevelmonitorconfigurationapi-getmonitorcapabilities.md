@@ -58,7 +58,7 @@ Retrieves the configuration capabilities of a monitor. Call this function to fin
 
 ### -param hMonitor [in]
 
-Handle to a physical monitor. To get the monitor handle, call <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor">GetPhysicalMonitorsFromHMONITOR</a> or <a href="/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
 
 ### -param pdwMonitorCapabilities [out]
 
@@ -86,31 +86,31 @@ The capabilities flags returned in <i>pdwMonitorCapabilities</i> specify which h
 </tr>
 <tr>
 <td><b>MC_CAPS_BRIGHTNESS</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorbrightness">GetMonitorBrightness</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorbrightness">SetMonitorBrightness</a> functions.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorbrightness">GetMonitorBrightness</a> and <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorbrightness">SetMonitorBrightness</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_COLOR_TEMPERATURE</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorcolortemperature">GetMonitorColorTemperature</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorcolortemperature">SetMonitorColorTemperature</a> functions.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorcolortemperature">GetMonitorColorTemperature</a> and <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorcolortemperature">SetMonitorColorTemperature</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_CONTRAST</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorcontrast">GetMonitorContrast</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorcontrast">SetMonitorContrast</a> functions.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorcontrast">GetMonitorContrast</a> and <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorcontrast">SetMonitorContrast</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_DEGAUSS</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-degaussmonitor">DegaussMonitor</a> function.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-degaussmonitor">DegaussMonitor</a> function.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_DISPLAY_AREA_POSITION</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareaposition">GetMonitorDisplayAreaPosition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareaposition">SetMonitorDisplayAreaPosition</a> functions.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareaposition">GetMonitorDisplayAreaPosition</a> and <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareaposition">SetMonitorDisplayAreaPosition</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_DISPLAY_AREA_SIZE</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareasize">GetMonitorDisplayAreaSize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareasize">SetMonitorDisplayAreaSize</a> functions.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareasize">GetMonitorDisplayAreaSize</a> and <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareasize">SetMonitorDisplayAreaSize</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_MONITOR_TECHNOLOGY_TYPE</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitortechnologytype">GetMonitorTechnologyType</a> function.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitortechnologytype">GetMonitorTechnologyType</a> function.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_NONE</b></td>
@@ -118,23 +118,23 @@ The capabilities flags returned in <i>pdwMonitorCapabilities</i> specify which h
 </tr>
 <tr>
 <td><b>MC_CAPS_RED_GREEN_BLUE_DRIVE</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluedrive">GetMonitorRedGreenOrBlueDrive</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluedrive">SetMonitorRedGreenOrBlueDrive</a> functions.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluedrive">GetMonitorRedGreenOrBlueDrive</a> and <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluedrive">SetMonitorRedGreenOrBlueDrive</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_RED_GREEN_BLUE_GAIN</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluegain">GetMonitorRedGreenOrBlueGain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluegain">SetMonitorRedGreenOrBlueGain</a> functions.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluegain">GetMonitorRedGreenOrBlueGain</a> and <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluegain">SetMonitorRedGreenOrBlueGain</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_RESTORE_FACTORY_COLOR_DEFAULTS</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorycolordefaults">RestoreMonitorFactoryColorDefaults</a> function.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorycolordefaults">RestoreMonitorFactoryColorDefaults</a> function.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_RESTORE_FACTORY_DEFAULTS</b></td>
-<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults">RestoreMonitorFactoryDefaults</a> function.</td>
+<td>The monitor supports the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults">RestoreMonitorFactoryDefaults</a> function.</td>
 </tr>
 <tr>
 <td><b>MC_RESTORE_FACTORY_DEFAULTS_ENABLES_MONITOR_SETTINGS</b></td>
-<td>If this flag is present, calling the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults">RestoreMonitorFactoryDefaults</a> function enables all of the monitor settings used by the high-level monitor configuration functions. For more information, see the Remarks section in <b>RestoreMonitorFactoryDefaults</b>.</td>
+<td>If this flag is present, calling the <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults">RestoreMonitorFactoryDefaults</a> function enables all of the monitor settings used by the high-level monitor configuration functions. For more information, see the Remarks section in <b>RestoreMonitorFactoryDefaults</b>.</td>
 </tr>
 </table>
  
@@ -188,5 +188,4 @@ The color temperature flags returned in <i>pdwSupportedColorTemperatures</i> spe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
-
+<a href="/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>

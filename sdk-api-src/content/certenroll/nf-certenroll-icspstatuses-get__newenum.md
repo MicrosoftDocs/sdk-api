@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>

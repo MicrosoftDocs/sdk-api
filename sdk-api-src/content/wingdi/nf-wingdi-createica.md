@@ -74,7 +74,7 @@ This parameter is ignored and should be set to <b>NULL</b>. It is provided only 
 
 ### -param pdm [in]
 
-A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>lpdvmInit</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
+A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>lpdvmInit</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
 
 ## -returns
 
@@ -84,7 +84,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-When you no longer need the information DC, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function.
+When you no longer need the information DC, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function.
 
 
 
@@ -99,21 +99,20 @@ When you no longer need the information DC, call the <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
+<a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>

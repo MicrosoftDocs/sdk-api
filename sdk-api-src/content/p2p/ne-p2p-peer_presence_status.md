@@ -90,5 +90,4 @@ The user is actively participating in the peer collaboration network.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>

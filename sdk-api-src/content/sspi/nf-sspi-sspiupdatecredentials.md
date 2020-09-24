@@ -58,7 +58,7 @@ Updates the credentials associated with the specified context.
 
 ### -param ContextHandle [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure retrieved during a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiunmarshalcreduicontext">SspiUnmarshalCredUIContext</a> function.
+A pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure retrieved during a previous call to the <a href="/windows/desktop/api/sspi/nf-sspi-sspiunmarshalcreduicontext">SspiUnmarshalCredUIContext</a> function.
 
 ### -param CredType [in]
 
@@ -98,7 +98,7 @@ The credential is a certificate.
 </dl>
 </td>
 <td width="60%">
-The credential is authentication data from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
+The credential is authentication data from a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 </td>
 </tr>
@@ -117,4 +117,3 @@ The values with which to update the specified credentials.
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
-

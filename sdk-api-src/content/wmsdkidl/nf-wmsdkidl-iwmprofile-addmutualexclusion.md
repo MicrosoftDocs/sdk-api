@@ -62,7 +62,7 @@ The <b>AddMutualExclusion</b> method adds a mutual exclusion object to the profi
 
 ### -param pME [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> interface of the mutual exclusion object to include in the profile. You must configure the mutual exclusion object by using the methods of the <b>IWMMutualExclusion</b> interface prior to using this method to add the mutual exclusion object to the profile.
+Pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> interface of the mutual exclusion object to include in the profile. You must configure the mutual exclusion object by using the methods of the <b>IWMMutualExclusion</b> interface prior to using this method to add the mutual exclusion object to the profile.
 
 ## -returns
 
@@ -121,25 +121,24 @@ A stream number in the mutual exclusion object being added is not part of the pr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
+<a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getmutualexclusion">IWMProfile::GetMutualExclusion</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getmutualexclusion">IWMProfile::GetMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-removemutualexclusion">IWMProfile::RemoveMutualExclusion</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-removemutualexclusion">IWMProfile::RemoveMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/mutual-exclusion">Mutual Exclusion</a>
-
+<a href="/windows/desktop/wmformat/mutual-exclusion">Mutual Exclusion</a>

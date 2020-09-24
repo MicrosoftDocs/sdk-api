@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Acts as the entry point for creating an <a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a> object.
+Acts as the entry point for creating an <a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a> object.
 
 ## -parameters
 
@@ -83,9 +83,8 @@ If the <b>CreateDocumentPackageTargetForPrintJob</b> method completes successful
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>
+<a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetargetfactory">IPrintDocumentPackageTargetFactory</a>
-
+<a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetargetfactory">IPrintDocumentPackageTargetFactory</a>

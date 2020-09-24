@@ -84,5 +84,4 @@ The return value is the identifier of the thread that created the window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Overview</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows Overview</a>

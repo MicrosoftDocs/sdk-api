@@ -72,7 +72,7 @@ Index of the image in the WIM which is applied.
 
 ### -param DataSourceId [out]
 
-On successful return, contains the data source used to identify the entry.  This data source can be used to create new files with <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/nf-wofapi-wofsetfiledatalocation">WofSetFileDataLocation</a>.
+On successful return, contains the data source used to identify the entry.  This data source can be used to create new files with <a href="/windows/desktop/api/wofapi/nf-wofapi-wofsetfiledatalocation">WofSetFileDataLocation</a>.
 
 ## -returns
 
@@ -80,5 +80,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-add-overlay">FSCTL_ADD_OVERLAY</a>
-
+<a href="/windows-hardware/drivers/ifs/fsctl-add-overlay">FSCTL_ADD_OVERLAY</a>

@@ -100,29 +100,28 @@ Type: <b>UINT</b>
 
 Type: <b>IUknown*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the <a href="https://docs.microsoft.com/windows/desktop/shell/profiles-directory">MenuBand</a> object.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the <a href="/windows/desktop/shell/profiles-directory">MenuBand</a> object.
 
 ### -field pidlFolder
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the shell folder portion of the menu.
+The <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the shell folder portion of the menu.
 
 ### -field pidlItem
 
 Type: <b>PUITEMID_CHILD</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the selected item in the shell folder portion of the menu.
+The <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the selected item in the shell folder portion of the menu.
 
 ### -field psf
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface for the folder associated with the shell folder portion of the menu.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface for the folder associated with the shell folder portion of the menu.
 
 ### -field pvUserData
 
 Type: <b>void*</b>
 
 A pointer to a user-defined data structure.
-

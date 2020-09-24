@@ -93,25 +93,24 @@ The name-service handle is invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 The 
 <b>RpcNsGroupMbrInqDone</b> function frees an inquiry context created by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a> function. An application calls 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a> function. An application calls 
 <b>RpcNsGroupMbrInqDone</b> after viewing RPC group members using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a> function.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a> function.
 
 <div class="alert"><b>Note</b>  Windows 2000 Active Directory supports this function. Earlier versions of Windows NT support the use of this function with Cell Directory Service (CDS) only.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a>
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a>

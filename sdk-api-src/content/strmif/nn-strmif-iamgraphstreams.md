@@ -53,11 +53,11 @@ api_name:
 
 The <code>IAMGraphStreams</code> interface controls a filter graph that renders a live source. A live source is one that streams data in real time, such as a capture device or a network broadcast. The Filter Graph Manager implements this interface.
 
-Applications can use this interface to specify how the graph handles latency and synchronization when it renders a live source. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/live-sources">Live Sources</a>.
+Applications can use this interface to specify how the graph handles latency and synchronization when it renders a live source. For more information, see <a href="/windows/desktop/DirectShow/live-sources">Live Sources</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMGraphStreams</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMGraphStreams</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMGraphStreams</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMGraphStreams</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IAMGraphStreams</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-findupstreaminterface">FindUpstreamInterface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-findupstreaminterface">FindUpstreamInterface</a>
 </td>
 <td align="left" width="63%">
 Searches the filter graph for a specified interface, upstream from a specified pin.
@@ -81,7 +81,7 @@ Searches the filter graph for a specified interface, upstream from a specified p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-setmaxgraphlatency">SetMaxGraphLatency</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-setmaxgraphlatency">SetMaxGraphLatency</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum latency for the graph.
@@ -90,7 +90,7 @@ Sets the maximum latency for the graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset">SyncUsingStreamOffset</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset">SyncUsingStreamOffset</a>
 </td>
 <td align="left" width="63%">
 Enables or disables synchronization using time-stamp offsets.
@@ -98,4 +98,3 @@ Enables or disables synchronization using time-stamp offsets.
 </td>
 </tr>
 </table>
-

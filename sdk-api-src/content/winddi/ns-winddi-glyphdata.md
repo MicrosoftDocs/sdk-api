@@ -58,7 +58,7 @@ The GLYPHDATA structure contains information about an individual glyph.
 
 ### -field gdf
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a> union that contains a pointer to either a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure or a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure, depending on whether, respectively, the glyph data is in the form of a bitmap or an outline.
+Specifies a <a href="/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a> union that contains a pointer to either a <a href="/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure or a <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure, depending on whether, respectively, the glyph data is in the form of a bitmap or an outline.
 
 ### -field hg
 
@@ -86,27 +86,26 @@ Specifies a FIX value containing the distance between the baseline and the ink b
 
 ### -field rclInk
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that describes the ink box in which the glyph fits. The sides of the ink box are parallel to the x and y axes.
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that describes the ink box in which the glyph fits. The sides of the ink box are parallel to the x and y axes.
 
 ### -field ptqD
 
-Specifies a POINTQF structure that contains the character increment vector, D = A + B + C. The high-order WORDs of <b>ptqD</b> are 28.4 device coordinates. The low-order WORDs of this member provide additional precision. For a description of the POINTQF structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
+Specifies a POINTQF structure that contains the character increment vector, D = A + B + C. The high-order WORDs of <b>ptqD</b> are 28.4 device coordinates. The low-order WORDs of this member provide additional precision. For a description of the POINTQF structure, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ## -remarks
 
 The quantities A, B, and C mentioned in the descriptions of GLYPHDATA members are simple tranforms of the notional space versions into 28.4 device coordinates. A is the left sidebearing amount, the width of the space to the left of the glyph, B is the width of the glyph, and C is the right sidebearing amount, the width of the space to the right of the glyph. For some glyphs, A and/or C can be negative, indicating that the glyph extends farther to the left and/or right than is usually the case.
 
-For a description of the FIX data type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
+For a description of the FIX data type, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>

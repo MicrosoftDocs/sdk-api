@@ -57,36 +57,35 @@ api_name:
 
 ## -description
 
-The <b>AllocateLocallyUniqueId</b> function allocates a locally unique identifier (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LUID</a>).
+The <b>AllocateLocallyUniqueId</b> function allocates a locally unique identifier (<a href="/windows/desktop/SecGloss/l-gly">LUID</a>).
 
 ## -parameters
 
 ### -param Luid [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that receives the allocated LUID.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that receives the allocated LUID.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero. 
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The allocated <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> is unique to the local system only, and uniqueness is guaranteed only until the system is next restarted.
+The allocated <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> is unique to the local system only, and uniqueness is guaranteed only until the system is next restarted.
 
-The allocated <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> is guaranteed  to be nonzero if this function succeeds.
+The allocated <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> is guaranteed  to be nonzero if this function succeeds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>

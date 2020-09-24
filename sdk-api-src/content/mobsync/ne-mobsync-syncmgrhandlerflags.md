@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure as flags that apply to the current handler.
+Used in the <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure as flags that apply to the current handler.
 
 ## -enum-fields
 
@@ -62,7 +62,7 @@ The current handler provides a property sheet dialog.
 
 ### -field SYNCMGRHANDLER_MAYESTABLISHCONNECTION
 
-May call back the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-establishconnection">ISyncMgrSynchronizeCallback::EstablishConnection</a> method. This value is ignored in <b>Windows Vista and later</b>.
+May call back the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-establishconnection">ISyncMgrSynchronizeCallback::EstablishConnection</a> method. This value is ignored in <b>Windows Vista and later</b>.
 
 ### -field SYNCMGRHANDLER_ALWAYSLISTHANDLER
 
@@ -80,5 +80,4 @@ All flags are still valid for previous versions of Windows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>
-
+<a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>

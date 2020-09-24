@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-The <b>SECPKG_SUPPLEMENTAL_CRED_ARRAY</b> structure contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a> information. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex2">LsaApLogonUserEx2</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_update_primary_credentials">UpdateCredentials</a> functions.
+The <b>SECPKG_SUPPLEMENTAL_CRED_ARRAY</b> structure contains <a href="/windows/desktop/SecGloss/s-gly">supplemental credentials</a> information. This structure is used by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex2">LsaApLogonUserEx2</a> and 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_update_primary_credentials">UpdateCredentials</a> functions.
 
 ## -struct-fields
 
@@ -71,4 +71,3 @@ The number of supplemental credentials in the <b>Credentials</b> member.
 ### -field Credentials
 
 An array containing supplemental credentials.
-

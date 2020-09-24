@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Duplication flags for use by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssduplicatesnapshot">PssDuplicateSnapshot</a>.
+Duplication flags for use by <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssduplicatesnapshot">PssDuplicateSnapshot</a>.
 
 ## -enum-fields
 
@@ -60,10 +60,9 @@ No flag.
 
 ### -field PSS_DUPLICATE_CLOSE_SOURCE
 
-Free the source handle. This will only succeed if you set the  <b>PSS_CREATE_USE_VM_ALLOCATIONS</b> flag when you called <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psscapturesnapshot">PssCaptureSnapshot</a> to create the snapshot and handle. The handle will be freed  even if duplication fails.
+Free the source handle. This will only succeed if you set the  <b>PSS_CREATE_USE_VM_ALLOCATIONS</b> flag when you called <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psscapturesnapshot">PssCaptureSnapshot</a> to create the snapshot and handle. The handle will be freed  even if duplication fails.
 The close operation does not protect against concurrent access to the same descriptor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
-
+<a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>

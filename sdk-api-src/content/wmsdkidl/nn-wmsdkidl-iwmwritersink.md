@@ -56,7 +56,7 @@ This interface exists on the writer file sink object, the writer network sink ob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMWriterSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMWriterSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMWriterSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-allocatedataunit">AllocateDataUnit</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-allocatedataunit">AllocateDataUnit</a>
 </td>
 <td align="left" width="63%">
 Creates a buffer object to receive a data unit.
@@ -80,7 +80,7 @@ Creates a buffer object to receive a data unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-isrealtime">IsRealTime</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-isrealtime">IsRealTime</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the sink requires samples to be sent in real time.
@@ -89,7 +89,7 @@ Ascertains whether the sink requires samples to be sent in real time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-ondataunit">OnDataUnit</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-ondataunit">OnDataUnit</a>
 </td>
 <td align="left" width="63%">
 Called by the writer object when a data unit is ready for the sink.
@@ -98,7 +98,7 @@ Called by the writer object when a data unit is ready for the sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-onendwriting">OnEndWriting</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-onendwriting">OnEndWriting</a>
 </td>
 <td align="left" width="63%">
 Called by the writer when all data units have been sent.
@@ -107,7 +107,7 @@ Called by the writer when all data units have been sent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-onheader">OnHeader</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-onheader">OnHeader</a>
 </td>
 <td align="left" width="63%">
 Called by the writer when the ASF header is ready for the sink.
@@ -120,17 +120,16 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-file-sink-object">Writer File Sink Object</a>
+<a href="/windows/desktop/wmformat/writer-file-sink-object">Writer File Sink Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>
+<a href="/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-push-sink-object">Writer Push Sink Object</a>
-
+<a href="/windows/desktop/wmformat/writer-push-sink-object">Writer Push Sink Object</a>

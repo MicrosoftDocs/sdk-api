@@ -56,7 +56,7 @@ Sets the upper portion of the brightness transfer curve.
 
 ### -param whitePoint [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a></b>
+Type: <b>const <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a></b>
 
 The upper portion of the brightness transfer curve. The white point adjusts the appearance of the brighter portions of the image. 
 This vector is for both the x value and the y value, in that order. Each of the values must be between 0 and 1, inclusive.
@@ -69,5 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionbrightnesseffect">IDCompositionBrightnessEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionbrightnesseffect">IDCompositionBrightnessEffect</a>

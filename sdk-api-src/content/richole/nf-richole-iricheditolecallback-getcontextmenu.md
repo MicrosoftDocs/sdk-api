@@ -56,7 +56,7 @@ Queries the application for a context menu to use on a right-click event.
 
 ### -param seltype
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Selection type. The value, which specifies the contents of the new selection, can be one or more of the following values.
 
@@ -121,7 +121,7 @@ More than one COM object.
 </dl>
 </td>
 <td width="60%">
-Indicates that a context menu for a right-mouse drag drop should be generated. The <i>lpoleobj</i> parameter is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface for the object being dropped.
+Indicates that a context menu for a right-mouse drag drop should be generated. The <i>lpoleobj</i> parameter is a pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface for the object being dropped.
 
 </td>
 </tr>
@@ -133,28 +133,28 @@ Type: <b>LPOLEOBJECT</b>
 
 Pointer to an interface. If the 
 					<i>seltype</i> parameter includes the <b>SEL_OBJECT</b> flag, 
-					<i>lpoleobj</i> is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface for the first selected COM object. If 
+					<i>lpoleobj</i> is a pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface for the first selected COM object. If 
 					<i>seltype</i> includes the <b>GCM_RIGHTMOUSEDROP</b> flag, 
 					<i>lpoleobj</i> is a pointer to an 
-					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface. Otherwise, 
+					<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface. Otherwise, 
 					<i>lpoleobj</i> is <b>NULL</b>. If you hold on to the interface pointer, you must call 
-					the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method to increment the object's reference count.
+					the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method to increment the object's reference count.
 
 ### -param lpchrg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>*</b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a> structure containing the current selection.
+Pointer to a <a href="/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a> structure containing the current selection.
 
 ### -param lphmenu
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMENU</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HMENU</a>*</b>
 
 The handle of a context menu to use. This parameter is ignored if an error is returned. A rich edit control destroys the menu when it is finished with it so the client should not.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the method fails, it can be the following value.
 
@@ -178,21 +178,20 @@ There was an invalid argument.
 
 ## -remarks
 
-When the user selects an item from the context window, a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message is sent to the parent window of the rich edit control.
+When the user selects an item from the context window, a <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> message is sent to the parent window of the rich edit control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-getcontextmenuex">GETCONTEXTMENUEX</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-getcontextmenuex">GETCONTEXTMENUEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
+<a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
 
 
 
 <b>Reference</b>
-

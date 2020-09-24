@@ -57,7 +57,7 @@ The <code>SetOverlayFX</code> method applies the specified effects to the overla
 
 ### -param dwOverlayFX [in]
 
-Value specifying which effects to apply. The value must be a logical combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-amoverlayfx">AMOVERLAYFX</a> enumeration, or the method returns E_INVALIDARG.
+Value specifying which effects to apply. The value must be a logical combination of flags from the <a href="/windows/desktop/api/strmif/ne-strmif-amoverlayfx">AMOVERLAYFX</a> enumeration, or the method returns E_INVALIDARG.
 
 ## -returns
 
@@ -109,9 +109,8 @@ The application must call this method while the filter graph is running. The eff
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamoverlayfx">IAMOverlayFX Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamoverlayfx">IAMOverlayFX Interface</a>

@@ -62,5 +62,4 @@ The paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpaint">ID2D1SvgPaint</a>
-
+<a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpaint">ID2D1SvgPaint</a>

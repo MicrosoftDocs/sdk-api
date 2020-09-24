@@ -75,18 +75,18 @@ If the entry name matches an existing entry,
 If the entry name does not match an existing entry, 
        <b>RasSetEntryProperties</b> creates a new 
        phone-book entry. For new entries, call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasvalidateentrynamea">RasValidateEntryName</a> function to validate the 
+       <a href="/windows/desktop/api/ras/nf-ras-rasvalidateentrynamea">RasValidateEntryName</a> function to validate the 
        entry name before calling 
        <b>RasSetEntryProperties</b>.
 
 ### -param arg3 [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure that specifies the 
+Pointer to the <a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure that specifies the 
        new connection data to be associated with the phone-book entry indicated by the 
        <i>lpszEntry</i> parameter.
 
 The caller must provide values for the following members in the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure.
+       <a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure.
 
 <ul>
 <li><b>dwSize</b></li>
@@ -105,7 +105,7 @@ If values are not provided for these members,
 
 The structure might be followed by an array of null-terminated alternate phone number strings. The last 
        string is terminated by two consecutive null characters. The <b>dwAlternateOffset</b> 
-       member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure contains the offset to 
+       member of the <a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure contains the offset to 
        the first string.
 
 ### -param arg4 [in]
@@ -117,8 +117,8 @@ Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i>
 
 Pointer to a buffer that specifies device-specific configuration information. This is opaque TAPI device 
       configuration information. For more information about TAPI device configuration, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a> function in 
-      <a href="https://docs.microsoft.com/windows/desktop/Tapi/telephony-application-programming-interfaces">Telephony Application Programming Interfaces (TAPI)</a> 
+      <a href="/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a> function in 
+      <a href="/windows/desktop/Tapi/telephony-application-programming-interfaces">Telephony Application Programming Interfaces (TAPI)</a> 
       in the Platform SDK.
       
 
@@ -137,7 +137,7 @@ Specifies the size, in bytes, of the <i>lpbDeviceInfo</i> buffer.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is one of the following error codes or a value from 
-       <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> 
+       <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> 
        or WinError.h.
 
 <table>
@@ -185,7 +185,7 @@ The phone book is corrupted or missing components.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure pointed to by the 
+The <a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure pointed to by the 
         <i>lpRasEntry</i> parameter does not contain adequate information, or the specified entry 
         does not exist in the phone book. See the description for <i>lpRasEntry</i> to see what 
         information is required.
@@ -200,8 +200,8 @@ When setting properties for an all-users connection, if the calling application 
     non-<b>NULL</b> value for the phone-book parameter, <i>lpszPhonebook</i>, 
     the phone-book file must be located in the phone-book directory beneath the all-users application data path. To 
     obtain the correct location for the phone-book file, first call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> with a 
-    <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value of <b>CSIDL_COMMON_APPDATA</b>. 
+    <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> with a 
+    <a href="/windows/desktop/shell/csidl">CSIDL</a> value of <b>CSIDL_COMMON_APPDATA</b>. 
     <b>SHGetFolderPath</b> returns the all-users 
     application data path. Append the following string to this path:
 
@@ -221,25 +221,24 @@ The combined path is the correct location for the phone-book file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
+<a href="/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasvalidateentrynamea">RasValidateEntryName</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasvalidateentrynamea">RasValidateEntryName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

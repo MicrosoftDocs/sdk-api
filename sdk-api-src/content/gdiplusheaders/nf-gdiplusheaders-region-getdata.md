@@ -69,7 +69,7 @@ Type: <b>UINT</b>
 Integer that specifies the size, in bytes, of the 
 					<i>buffer</i> array. The size of the 
 					<i>buffer</i> array can be greater than or equal to the number of bytes required to store the region data. The exact number of bytes required can be determined by calling the 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize">Region::GetDataSize</a> method.
+					<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize">Region::GetDataSize</a> method.
 
 ### -param sizeFilled [out]
 
@@ -81,18 +81,18 @@ Optional. Pointer to an
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Ok</a>, which is an element of the 
+If the method succeeds, it returns <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Ok</a>, which is an element of the 
 						<b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
 The 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize">Region::GetDataSize</a> method can be used before the <b>Region::GetData</b> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data and set the 
+				<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize">Region::GetDataSize</a> method can be used before the <b>Region::GetData</b> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data and set the 
 				<i>buffer</i> parameter to point to the buffer.
 
 
@@ -135,4 +135,3 @@ VOID Example_GetData(HDC)
    delete pData;
 }
 ```
-

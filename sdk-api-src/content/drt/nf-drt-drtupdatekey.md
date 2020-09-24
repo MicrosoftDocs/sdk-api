@@ -56,7 +56,7 @@ The <b>DrtUpdateKey</b> function updates the application data associated with a 
 
 ### -param hKeyRegistration [in]
 
-The DRT handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function specifying a registered key within the DRT instance.
+The DRT handle returned by the <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function specifying a registered key within the DRT instance.
 
 ### -param pAppData [in]
 
@@ -112,9 +112,8 @@ The system is out of memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtunregisterkey">DrtUnregisterKey</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtunregisterkey">DrtUnregisterKey</a>

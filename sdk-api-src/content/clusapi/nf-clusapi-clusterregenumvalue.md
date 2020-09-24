@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Enumerates the 
-    values of an open <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
+    values of an open <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 ## -parameters
 
@@ -205,7 +205,7 @@ One of the output buffers (<i>lpszValueName</i> or <i>lpbData</i>) is
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
+<dt><b><a href="/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -217,5 +217,4 @@ The operation failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>

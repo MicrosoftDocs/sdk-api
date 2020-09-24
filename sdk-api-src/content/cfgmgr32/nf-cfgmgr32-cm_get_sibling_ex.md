@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_sibling">CM_Get_Sibling</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_sibling">CM_Get_Sibling</a> instead.]
 
-The <b>CM_Get_Sibling_Ex</b> function obtains a device instance handle to the next sibling node of a specified device node, in a local or a remote machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-tree">device tree</a>.
+The <b>CM_Get_Sibling_Ex</b> function obtains a device instance handle to the next sibling node of a specified device node, in a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.
 
 ## -parameters
 
@@ -81,17 +81,16 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-To enumerate all children of a device node in the local machine's device tree, first call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a> to obtain a handle to the first child node, then call <b>CM_Get_Sibling_Ex</b> to obtain handles for the rest of the children.
+To enumerate all children of a device node in the local machine's device tree, first call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a> to obtain a handle to the first child node, then call <b>CM_Get_Sibling_Ex</b> to obtain handles for the rest of the children.
 
-For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>.
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_sibling">CM_Get_Sibling</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_sibling">CM_Get_Sibling</a>

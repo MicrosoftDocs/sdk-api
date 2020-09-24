@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Destructor for the [CWbemGlueFactory](/windows/win32/api/wbemglue/nl-wbemglue-cwbemgluefactory) class.
+Destructor for the [CWbemGlueFactory](./nl-wbemglue-cwbemgluefactory.md) class.
 
 ## -remarks
 
@@ -50,4 +50,3 @@ Destructor for the [CWbemGlueFactory](/windows/win32/api/wbemglue/nl-wbemglue-cw
 
 f1_keywords: 
  - "wbemglue/CWbemGlueFactory.CWbemGlueFactory"
-

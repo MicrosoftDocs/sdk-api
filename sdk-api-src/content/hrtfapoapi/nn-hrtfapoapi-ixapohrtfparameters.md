@@ -54,7 +54,7 @@ The interface used to set parameters that control how head-related transfer func
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPOHrtfParameters</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAPOHrtfParameters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPOHrtfParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAPOHrtfParameters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IXAPOHrtfParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setenvironment">SetEnvironment</a>
+<a href="/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setenvironment">SetEnvironment</a>
 </td>
 <td align="left" width="63%">
 Selects the acoustic environment to simulate.
@@ -78,7 +78,7 @@ Selects the acoustic environment to simulate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourcegain">SetSourceGain</a>
+<a href="/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourcegain">SetSourceGain</a>
 </td>
 <td align="left" width="63%">
 Sets the custom direct-path gain value for the current source position. Valid only for sounds played with the HrtfDistanceDecayType custom decay type.
@@ -87,7 +87,7 @@ Sets the custom direct-path gain value for the current source position. Valid on
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceorientation">SetSourceOrientation</a>
+<a href="/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceorientation">SetSourceOrientation</a>
 </td>
 <td align="left" width="63%">
 Set the rotation matrix for the source orientation, with respect to the listener's coordinate system.
@@ -96,7 +96,7 @@ Set the rotation matrix for the source orientation, with respect to the listener
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceposition">SetSourcePosition</a>
+<a href="/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceposition">SetSourcePosition</a>
 </td>
 <td align="left" width="63%">
 Sets the position of the sound relative to the listener.
@@ -107,9 +107,8 @@ Sets the position of the sound relative to the listener.
 
 ## -remarks
 
-Create instances of the XAPO interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-createhrtfapo">CreateHrtfApo</a> function.
+Create instances of the XAPO interface by calling the <a href="/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-createhrtfapo">CreateHrtfApo</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/xaudio2/interfaces">Interfaces</a>

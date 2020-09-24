@@ -70,5 +70,4 @@ Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>

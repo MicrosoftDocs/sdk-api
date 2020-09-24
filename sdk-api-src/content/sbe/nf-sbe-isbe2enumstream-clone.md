@@ -56,7 +56,7 @@ Creates a copy of the enumerator object. The copy starts with the same enumerati
 
 ### -param ppIEnumStream [out]
 
-Receives a pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a> interface of the new enumerator object. This method allocates memory for the stream enumeration object. The caller is responsible for releasing the interface.
+Receives a pointer to the  <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a> interface of the new enumerator object. This method allocates memory for the stream enumeration object. The caller is responsible for releasing the interface.
 
 ## -returns
 
@@ -104,5 +104,4 @@ Out of memory for enumeration object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>

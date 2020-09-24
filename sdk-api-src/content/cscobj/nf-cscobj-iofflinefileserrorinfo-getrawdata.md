@@ -57,7 +57,7 @@ Retrieves a block of bytes containing internal data associated with the error. T
 
 ### -param ppBlob [out]
 
-Receives the address of a BYTE_BLOB structure describing the raw data.  The caller must free this memory block by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+Receives the address of a BYTE_BLOB structure describing the raw data.  The caller must free this memory block by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 
@@ -69,5 +69,4 @@ The BYTE_BLOB structure is defined in Wtypes.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileserrorinfo">IOfflineFilesErrorInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileserrorinfo">IOfflineFilesErrorInfo</a>

@@ -58,9 +58,9 @@ Retrieves the entry identifier of the object that has been designated
 
 ### -param lpIAB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
+Type: <b><a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
+Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
 				that specifies the address book object.
 
 ### -param ulFlags
@@ -93,9 +93,9 @@ Pointer to a variable of type <b>DWORD</b> that
 
 ### -param lpsbEID
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a>*</b>
+Type: <b><a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a>*</b>
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> 
+Pointer to a variable of type <a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> 
 				that specifies the entry identifier of the ME object on return.
 
 ### -param hwnd
@@ -143,4 +143,3 @@ information will be displayed to the user so that the user has the option
 of changing it as necessary.
 </div>
 <div> </div>
-

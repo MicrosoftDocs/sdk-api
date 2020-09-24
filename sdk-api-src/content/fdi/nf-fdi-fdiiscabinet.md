@@ -56,31 +56,30 @@ The <b>FDIIsCabinet</b> function determines whether a file is a cabinet and, if 
 
 ### -param hfdi [in]
 
-A valid FDI context handle returned  by <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>.
+A valid FDI context handle returned  by <a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>.
 
 ### -param hf [in]
 
-An application-defined value to keep track of the opened file. This value must be of the same type as values used by the File I/O functions passed to <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>.
+An application-defined value to keep track of the opened file. This value must be of the same type as values used by the File I/O functions passed to <a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>.
 
 ### -param pfdici [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fdi/ns-fdi-fdicabinetinfo">FDICABINETINFO</a> structure that receives the cabinet details, in the event the file is actually a cabinet.
+Pointer to an <a href="/windows/desktop/api/fdi/ns-fdi-fdicabinetinfo">FDICABINETINFO</a> structure that receives the cabinet details, in the event the file is actually a cabinet.
 
 ## -returns
 
 If the file is a cabinet, the function returns <b>TRUE</b> ; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
+Extended error information is provided in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/ns-fdi-fdicabinetinfo">FDICABINETINFO</a>
+<a href="/windows/desktop/api/fdi/ns-fdi-fdicabinetinfo">FDICABINETINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
+<a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fditruncatecabinet">FDITruncateCabinet</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fditruncatecabinet">FDITruncateCabinet</a>

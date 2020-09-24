@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>CreateNtmsMedia</b> function creates a PMID and side (or sides) for a new piece of offline media. The media is placed in the media pool specified for <i>lpPhysicalMedia</i>.
@@ -62,17 +62,17 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMedia [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that contains information about the medium to create. For a description of the applicable members, see Remarks.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that contains information about the medium to create. For a description of the applicable members, see Remarks.
 
 ### -param lpList [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that specifies array of sides associated with the medium. For a description of the applicable members, see Remarks.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that specifies array of sides associated with the medium. For a description of the applicable members, see Remarks.
 
 ### -param dwOptions [in]
 
@@ -245,7 +245,7 @@ The function executed successfully.
 ## -remarks
 
 The <i>lpMedia</i> parameter must point to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure, whose <b>dwType</b> parameter is NTMS_PHYSICAL_MEDIA. The following is a list of members and descriptions for the 
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure, whose <b>dwType</b> parameter is NTMS_PHYSICAL_MEDIA. The following is a list of members and descriptions for the 
 <b>NTMS_OBJECTINFORMATION</b> structure.
 
 <table>
@@ -257,8 +257,8 @@ The <i>lpMedia</i> parameter must point to an
 <td><b>dwSize</b></td>
 <td>[in] 
 <b>CreateNtmsMedia</b> verifies that this size equals the length of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure. It returns ERROR_INVALID_PARAMETER if the size is incorrect.</td>
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure containing an 
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure. It returns ERROR_INVALID_PARAMETER if the size is incorrect.</td>
 </tr>
 <tr>
 <td><b>dwType</b></td>
@@ -304,7 +304,7 @@ Note that the name that appears in the RSM user interface for a partition is thi
  
 
 The following is a list of members and descriptions for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure.
 
 <table>
 <tr>
@@ -363,7 +363,7 @@ The following is a list of members and descriptions for the
 <tr>
 <td><b>dwNumberOfPartitions</b></td>
 <td>[in] Defines the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structures representing sides for this medium. 
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structures representing sides for this medium. 
 <b>CreateNtmsMedia</b> checks to ensure that the number of sides specified matches the number of sides implied by the media pool to which it is to be assigned. If they do not match, ERROR_MEDIA_INCOMPATIBLE is returned.</td>
 </tr>
 <tr>
@@ -392,7 +392,7 @@ RSM updates this member when it mounts the newly-imported medium for the first t
  
 
 The <i>lpList</i> parameter must point to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure whose <b>dwType</b> is NTMS_PARTITION with the following information.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure whose <b>dwType</b> is NTMS_PARTITION with the following information.
 
 <table>
 <tr>
@@ -403,8 +403,8 @@ The <i>lpList</i> parameter must point to an
 <td><b>dwSize</b></td>
 <td>[in] 
 <b>CreateNtmsMedia</b> verifies that the provided size matches the expected length of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a> structure. It returns ERROR_INVALID_PARAMETER if the size is incorrect.</td>
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure containing an 
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a> structure. It returns ERROR_INVALID_PARAMETER if the size is incorrect.</td>
 </tr>
 <tr>
 <td><b>dwType</b></td>
@@ -511,5 +511,4 @@ RSM updates this member when it mounts the newly-imported medium for the first t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>

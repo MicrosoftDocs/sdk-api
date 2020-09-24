@@ -58,5 +58,4 @@ You can create an instance of this interface by using the UpdateSession coclass.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>

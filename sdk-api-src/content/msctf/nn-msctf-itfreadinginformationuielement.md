@@ -54,7 +54,7 @@ The <b>ITfCandidateListUIElement</b> interface is implemented by a text service 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReadingInformationUIElement</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReadingInformationUIElement</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReadingInformationUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReadingInformationUIElement</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfReadingInformationUIElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-getcontext">GetContext</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-getcontext">GetContext</a>
 </td>
 <td align="left" width="63%">
 Returns the target ITfContext of this reading information UI.
@@ -78,7 +78,7 @@ Returns the target ITfContext of this reading information UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa382693(v=vs.85)">GetErrorIndex</a>
+<a href="/previous-versions/windows/desktop/legacy/aa382693(v=vs.85)">GetErrorIndex</a>
 </td>
 <td align="left" width="63%">
 Returns the char index where the typing error occurs.
@@ -87,7 +87,7 @@ Returns the char index where the typing error occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-getmaxreadingstringlength">GetMaxReadingStringLength</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-getmaxreadingstringlength">GetMaxReadingStringLength</a>
 </td>
 <td align="left" width="63%">
 Returns the max string count of the reading information UI.
@@ -96,7 +96,7 @@ Returns the max string count of the reading information UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-getstring">GetString</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Returns the string on the reading information UI.
@@ -105,7 +105,7 @@ Returns the string on the reading information UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-getupdatedflags">GetUpdatedFlags</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-getupdatedflags">GetUpdatedFlags</a>
 </td>
 <td align="left" width="63%">
 Returns the flag that tells which part of this element was updated.
@@ -114,7 +114,7 @@ Returns the flag that tells which part of this element was updated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-isverticalorderpreferred">IsVerticalOrderPreferred</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadinginformationuielement-isverticalorderpreferred">IsVerticalOrderPreferred</a>
 </td>
 <td align="left" width="63%">
 Returns if the UI prefers to be shown in vertical order.
@@ -122,4 +122,3 @@ Returns if the UI prefers to be shown in vertical order.
 </td>
 </tr>
 </table>
-

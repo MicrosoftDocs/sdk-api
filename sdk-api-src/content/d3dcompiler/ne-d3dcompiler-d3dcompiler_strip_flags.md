@@ -76,7 +76,7 @@ Remove private data.
 
 <div class="alert"><b>Note</b>  This value is supported by the D3dcompiler_47.dll or later version of the file.</div>
 <div> </div>
-Remove the root signature. Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl">Specifying Root Signatures in HLSL</a> for more information on using Direct3D12 with HLSL.
+Remove the root signature. Refer to <a href="/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl">Specifying Root Signatures in HLSL</a> for more information on using Direct3D12 with HLSL.
 
 ### -field D3DCOMPILER_STRIP_FORCE_DWORD
 
@@ -84,9 +84,8 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -remarks
 
-These flags are used by <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dstripshader">D3DStripShader</a>.
+These flags are used by <a href="/windows/desktop/direct3dhlsl/d3dstripshader">D3DStripShader</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-enums">Enumerations</a>
-
+<a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-enums">Enumerations</a>

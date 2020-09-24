@@ -58,7 +58,7 @@ Selects and positions an item in a Shell View.
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that uniquely identifies the item of interest.
+A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that uniquely identifies the item of interest.
 
 ### -param uFlags
 
@@ -68,13 +68,12 @@ One of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svsif">_S
 
 ### -param ppt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the new position.
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the new position.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

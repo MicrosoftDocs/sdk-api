@@ -72,13 +72,13 @@ Reserved; must be <b>NULL</b>.
 ### -param arg3 [in, out]
 
 Pointer to a buffer that, on output, receives an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structures, one for each AutoDial entry associated with the address specified by the <i>lpszAddress</i> parameter. 
+<a href="/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structures, one for each AutoDial entry associated with the address specified by the <i>lpszAddress</i> parameter. 
 
 
 
 
 On input, set the <b>dwSize</b> member of the first 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structure in the buffer to sizeof(RASAUTODIALENTRY) to identify the version of the structure.
+<a href="/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structure in the buffer to sizeof(RASAUTODIALENTRY) to identify the version of the structure.
 
 If <i>lpAutoDialEntries</i> is <b>NULL</b>, 
 <b>RasGetAutodialAddress</b> sets the <i>lpdwcbAutoDialEntries</i> and <i>lpdwcAutoDialEntries</i> parameters to indicate the required buffer size, in bytes, and the number of AutoDial entries.
@@ -100,7 +100,7 @@ Pointer to a variable that receives the number of structure elements returned in
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ If the function fails, the return value is one of the following error codes or a
 </td>
 <td width="60%">
 The <b>dwSize</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structure is an invalid value.
+<a href="/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structure is an invalid value.
 
 </td>
 </tr>
@@ -179,21 +179,20 @@ This value is of type <b>REG_SZ</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumautodialaddressesa">RasEnumAutodialAddresses</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasenumautodialaddressesa">RasEnumAutodialAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetautodialaddressa">RasSetAutodialAddress</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetautodialaddressa">RasSetAutodialAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

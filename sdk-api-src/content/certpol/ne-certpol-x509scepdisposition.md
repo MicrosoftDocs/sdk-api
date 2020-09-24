@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X509SCEPDisposition</b> enumeration   describes the resulting disposition of a request to process a response message. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a> interface.
+The <b>X509SCEPDisposition</b> enumeration   describes the resulting disposition of a request to process a response message. This enumeration is used by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a> interface.
 
 ## -enum-fields
 
@@ -72,5 +72,4 @@ The request has not completed yet.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-processresponsemessage">ProcessResponseMessage</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-processresponsemessage">ProcessResponseMessage</a>

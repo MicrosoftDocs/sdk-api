@@ -65,7 +65,7 @@ A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associa
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
 
 ## -remarks
 
@@ -77,9 +77,8 @@ Additionally, D3D12 supports narrow strings for names, using the **WKPDID_D3DDeb
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/directx-12-programming-environment-set-up">Direct3D 12 Programming Environment Setup</a>
+<a href="/windows/desktop/direct3d12/directx-12-programming-environment-set-up">Direct3D 12 Programming Environment Setup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>

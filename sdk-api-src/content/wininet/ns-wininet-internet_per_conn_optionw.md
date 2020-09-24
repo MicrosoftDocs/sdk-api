@@ -295,7 +295,7 @@ Pointer to a string value.
 #### ftValue
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ### -field dwValue
 
@@ -316,7 +316,7 @@ Unsigned long integer value.
 ##### - Value.ftValue
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 
 ##### - Value.pszValue
@@ -326,17 +326,17 @@ Pointer to a string value.
 ## -remarks
 
 In Internet Explorer 5, only the ANSI versions of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a> will work with the 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> and 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a> will work with the 
 <b>INTERNET_PER_CONN_OPTION</b> structure. The Unicode versions will support the 
 <b>INTERNET_PER_CONN_OPTION</b> structure in later versions of Internet Explorer.
 
 For queries that return strings, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> allocates the memory for the 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> allocates the memory for the 
 <b>pszValue</b> member of the structure. The calling application must free this memory using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function when it has finished using the string.
+<a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function when it has finished using the string.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -347,13 +347,12 @@ For queries that return strings,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_per_conn_option_lista">INTERNET_PER_CONN_OPTION_LIST</a>
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_per_conn_option_lista">INTERNET_PER_CONN_OPTION_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>

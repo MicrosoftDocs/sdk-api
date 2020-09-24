@@ -56,13 +56,12 @@ Sets the client specified by <i>punkClient</i>.
 
 ### -param punkClient [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that specifies the client used by the desk bar.
+A pointer to a variable of type <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that specifies the client used by the desk bar.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

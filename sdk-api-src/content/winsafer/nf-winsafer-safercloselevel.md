@@ -52,8 +52,8 @@ api_name:
 ## -description
 
 The <b>SaferCloseLevel</b> function closes a SAFER_LEVEL_HANDLE that was opened by using the  
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-saferidentifylevel">SaferIdentifyLevel</a> function or 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-safercreatelevel">SaferCreateLevel</a> function.
+<a href="/windows/desktop/api/winsafer/nf-winsafer-saferidentifylevel">SaferIdentifyLevel</a> function or 
+the <a href="/windows/desktop/api/winsafer/nf-winsafer-safercreatelevel">SaferCreateLevel</a> function.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ The SAFER_LEVEL_HANDLE to be closed.
 ## -returns
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

@@ -59,7 +59,7 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
+<a href="/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
 
 
@@ -67,11 +67,11 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariaproperties">CurrentAriaProperties</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariaproperties">CurrentAriaProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
 
 
 
@@ -83,9 +83,8 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ariaspecification">UI Automation for W3C Accessible Rich Internet Applications Specification</a>
+<a href="/windows/desktop/WinAuto/uiauto-ariaspecification">UI Automation for W3C Accessible Rich Internet Applications Specification</a>
 
 
 
 <a href="https://www.w3.org/WAI/intro/aria">WAI-ARIA Overview</a>
-

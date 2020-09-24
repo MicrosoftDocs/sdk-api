@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust collision.
+The <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structure contains information about a <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust collision.
 
 ## -struct-fields
 
@@ -77,7 +77,7 @@ Type of the collision. The following table shows the possible values.
 </dl>
 </td>
 <td width="60%">
-Collision between <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects.
+Collision between <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Collision between cross-references.
 </dl>
 </td>
 <td width="60%">
-Collision that is not a collision between <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects or cross-references.
+Collision that is not a collision between <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects or cross-references.
 
 </td>
 </tr>
@@ -139,5 +139,4 @@ The following table lists the possible values for this member when the <b>Type</
 
 ### -field Name
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the collision record.
-
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the collision record.

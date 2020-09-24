@@ -57,19 +57,19 @@ The <i>HyphenateProc</i> function is an application–defined
 
 ### -param pszWord [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
 
 Pointer to the word to hyphenate.
 
 ### -param langid [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LANGID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LANGID</a></b>
 
 Current language ID for the control.
 
 ### -param ichExceed [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Index of the character in the passed string that exceeds the line width.
 
@@ -100,4 +100,3 @@ An application must install the callback function by specifying the address of t
 
 
 <b>Reference</b>
-

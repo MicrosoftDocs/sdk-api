@@ -58,14 +58,14 @@ The
 <b>IWbemLocator::ConnectServer</b> method creates a connection through DCOM to a WMI namespace on the computer specified in the <i>strNetworkResource</i> parameter.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemlocator-connectserver">SWbemLocator.ConnectServer</a> can connect with computers running IPv6 using an IPv6 address in the <i>strNetworkResource</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi">IPv6 and IPv4 Support in WMI</a>.
+<a href="/windows/desktop/WmiSdk/swbemlocator-connectserver">SWbemLocator.ConnectServer</a> can connect with computers running IPv6 using an IPv6 address in the <i>strNetworkResource</i> parameter. For more information, see <a href="/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi">IPv6 and IPv4 Support in WMI</a>.
 
 ## -parameters
 
 ### -param strNetworkResource [in]
 
 Pointer to a valid <b>BSTR</b> that contains the object path of the correct WMI namespace. For local access to the default namespace, use a simple object path: "root\default" or "\\.\root\default". For access to the default namespace on a remote computer using COM or Microsoft-compatible networking, include the computer name: "\\myserver\root\default".  For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/describing-a-wmi-namespace-object-path">Describing a WMI Namespace Object Path</a>. The computer name also can  be a DNS name or IP  address. Starting with Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemlocator-connectserver">SWbemLocator.ConnectServer</a> can connect with computers running IPv6 using an IPv6 address. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi">IPv6 and IPv4 Support in WMI</a>.
+<a href="/windows/desktop/WmiSdk/describing-a-wmi-namespace-object-path">Describing a WMI Namespace Object Path</a>. The computer name also can  be a DNS name or IP  address. Starting with Windows Vista, <a href="/windows/desktop/WmiSdk/swbemlocator-connectserver">SWbemLocator.ConnectServer</a> can connect with computers running IPv6 using an IPv6 address. For more information, see <a href="/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi">IPv6 and IPv4 Support in WMI</a>.
 
 ### -param strUser [in]
 
@@ -137,13 +137,13 @@ NT LAN Manager authentication is used and this parameter should contain an NTLM 
 ### -param pCtx [in]
 
 Typically, this is <b>NULL</b>. Otherwise, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object required by one or more dynamic class providers. The values in the context object must be specified in the documentation for the providers in question. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object required by one or more dynamic class providers. The values in the context object must be specified in the documentation for the providers in question. For more information about this parameter, see 
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 ### -param ppNamespace [out]
 
 Receives a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> object bound to the specified namespace. This pointer has a positive reference count. The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IWbemServices::Release</a> on the pointer when it is no longer required. This pointer is set to point to <b>NULL</b> when there is an error.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> object bound to the specified namespace. This pointer has a positive reference count. The caller must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IWbemServices::Release</a> on the pointer when it is no longer required. This pointer is set to point to <b>NULL</b> when there is an error.
 
 ## -returns
 
@@ -151,18 +151,18 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 
 COM-specific error codes may be returned if network problems cause you to lose the remote connection to WMI.
 
-These error return codes are defined in the Wbemcli.h file in the WMI section of the PSDK \Include directory. For more information see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants">WMI Error Constants</a>.
+These error return codes are defined in the Wbemcli.h file in the WMI section of the PSDK \Include directory. For more information see <a href="/windows/desktop/WmiSdk/wmi-error-constants">WMI Error Constants</a>.
 
 ## -remarks
 
-Do not specify <i>strUser</i>, <i>strPassword</i>, or <i>strAuthority</i>  when making a connection to a local namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-on-a-remote-computer">Connecting to WMI on a Remote Computer</a>.
+Do not specify <i>strUser</i>, <i>strPassword</i>, or <i>strAuthority</i>  when making a connection to a local namespace. For more information, see <a href="/windows/desktop/WmiSdk/connecting-to-wmi-on-a-remote-computer">Connecting to WMI on a Remote Computer</a>.
 
-For more information on how to use <b>ConnectServer</b>, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-connection-to-a-wmi-namespace">Creating a Connection to a WMI Namespace</a>. Note that the connection to <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemlocator">IWbemLocator</a> is one of the connections that you must shut down at the end of your application, as described in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/cleaning-up-and-shutting-down-a-wmi-application">Cleaning up and Shutting Down a WMI Application</a>.
+For more information on how to use <b>ConnectServer</b>, see <a href="/windows/desktop/WmiSdk/creating-a-connection-to-a-wmi-namespace">Creating a Connection to a WMI Namespace</a>. Note that the connection to <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemlocator">IWbemLocator</a> is one of the connections that you must shut down at the end of your application, as described in <a href="/windows/desktop/WmiSdk/cleaning-up-and-shutting-down-a-wmi-application">Cleaning up and Shutting Down a WMI Application</a>.
 
 
 #### Examples
 
-For multiple samples that use the <b>ConnectServer</b> method, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-c---application-examples">WMI C++ Application Examples</a>.
+For multiple samples that use the <b>ConnectServer</b> method, see <a href="/windows/desktop/WmiSdk/wmi-c---application-examples">WMI C++ Application Examples</a>.
 
 For an example of using smi2smir.xml in a C++ code sample to connect to a WMI namespace, see the <a href="https://Code.MSDN.Microsoft.Com/CppCheckOSBitness-a16c69e4">Check OS bitness in C++</a> sample in the MSDN Code gallery.
 
@@ -210,21 +210,20 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-on-a-remote-computer">Connecting to WMI on a Remote Computer</a>
+<a href="/windows/desktop/WmiSdk/connecting-to-wmi-on-a-remote-computer">Connecting to WMI on a Remote Computer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-application-using-c-">Creating a WMI Application Using C++</a>
+<a href="/windows/desktop/WmiSdk/creating-a-wmi-application-using-c-">Creating a WMI Application Using C++</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemlocator">IWbemLocator</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemlocator">IWbemLocator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
 <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_connect_options">WBEM_CONNECT_OPTIONS</a>
-

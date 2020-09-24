@@ -69,13 +69,12 @@ This method returns the current video port index being used by the Video Port Ma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivpmanager">IVPManager Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivpmanager">IVPManager Interface</a>
 
 
 
-[SetVideoPortIndex](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivpmanager-setvideoportindex)
-
+[SetVideoPortIndex](/windows/desktop/api/strmif/nf-strmif-ivpmanager-setvideoportindex)

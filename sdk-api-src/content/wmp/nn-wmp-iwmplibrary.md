@@ -54,7 +54,7 @@ The <b>IWMPLibrary</b> interface represents a library.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibrary</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPLibrary</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibrary</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPLibrary</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPLibrary</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_mediacollection">get_mediaCollection</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_mediacollection">get_mediaCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the <b>IWMPMediacollection</b> interface for the current library.
@@ -78,7 +78,7 @@ Retrieves a pointer to the <b>IWMPMediacollection</b> interface for the current 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name">get_name</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name">get_name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name of the current library.
@@ -87,7 +87,7 @@ Retrieves the display name of the current library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type">get_type</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type">get_type</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates the library type.
@@ -96,7 +96,7 @@ Retrieves a value that indicates the library type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrary-isidentical">isIdentical</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary-isidentical">isIdentical</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the supplied object is the same as the current one.
@@ -107,9 +107,8 @@ Retrieves a value that indicates whether the supplied object is the same as the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype">IWMPLibraryServices::getLibraryByType</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype">IWMPLibraryServices::getLibraryByType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

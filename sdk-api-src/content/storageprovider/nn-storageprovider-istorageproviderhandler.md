@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with a specific file or folder.
+Retrieves the <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with a specific file or folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageProviderHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageProviderHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,28 +69,28 @@ The <b>IStorageProviderHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfromfileid">GetPropertyHandlerFromFileId</a>
+<a href="/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfromfileid">GetPropertyHandlerFromFileId</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided file identifier.
+Gets an instance of <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided file identifier.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfrompath">GetPropertyHandlerFromPath</a>
+<a href="/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfrompath">GetPropertyHandlerFromPath</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided path.
+Gets an instance of <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided path.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfromuri">GetPropertyHandlerFromUri</a>
+<a href="/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfromuri">GetPropertyHandlerFromUri</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided URI.
+Gets an instance of <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided URI.
 
 </td>
 </tr>
@@ -102,4 +102,3 @@ Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/stor
 
 </div>
 <div> </div>
-

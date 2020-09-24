@@ -54,36 +54,35 @@ api_name:
 
 ## -description
 
-The <b>HTTP_SERVICE_BINDING_BASE</b> structure is a placeholder for the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_binding_a">HTTP_SERVICE_BINDING_A</a> structure and the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_binding_w">HTTP_SERVICE_BINDING_W</a> structure.
+The <b>HTTP_SERVICE_BINDING_BASE</b> structure is a placeholder for the <a href="/windows/desktop/api/http/ns-http-http_service_binding_a">HTTP_SERVICE_BINDING_A</a> structure and the <a href="/windows/desktop/api/http/ns-http-http_service_binding_w">HTTP_SERVICE_BINDING_W</a> structure.
 
 ## -struct-fields
 
 ### -field Type
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_binding_type">HTTP_SERVICE_BINDING_TYPE</a> value that indicates whether the data is in ASCII or Unicode.
+Pointer to an <a href="/windows/desktop/api/http/ne-http-http_service_binding_type">HTTP_SERVICE_BINDING_TYPE</a> value that indicates whether the data is in ASCII or Unicode.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  <p class="note">The first member of both the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_binding_a">HTTP_SERVICE_BINDING_A</a> structure and the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_binding_w">HTTP_SERVICE_BINDING_W</a> structure is a <b>HTTP_SERVICE_BINDING_BASE</b> structure.  Therefore, an array of either of the first two structures can be indicated by a pointer to a <b>HTTP_SERVICE_BINDING_BASE</b> structure.
+<div class="alert"><b>Note</b>  <p class="note">The first member of both the  <a href="/windows/desktop/api/http/ns-http-http_service_binding_a">HTTP_SERVICE_BINDING_A</a> structure and the <a href="/windows/desktop/api/http/ns-http-http_service_binding_w">HTTP_SERVICE_BINDING_W</a> structure is a <b>HTTP_SERVICE_BINDING_BASE</b> structure.  Therefore, an array of either of the first two structures can be indicated by a pointer to a <b>HTTP_SERVICE_BINDING_BASE</b> structure.
 
-<p class="note">The <b>ServiceNames</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure is cast to a  pointer to a <b>HTTP_SERVICE_BINDING_BASE</b> structure for this purpose.
+<p class="note">The <b>ServiceNames</b> member of the <a href="/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure is cast to a  pointer to a <b>HTTP_SERVICE_BINDING_BASE</b> structure for this purpose.
 
 </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_binding_a">HTTP_SERVICE_BINDING_A</a>
+<a href="/windows/desktop/api/http/ns-http-http_service_binding_a">HTTP_SERVICE_BINDING_A</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_binding_type">HTTP_SERVICE_BINDING_TYPE</a>
+<a href="/windows/desktop/api/http/ne-http-http_service_binding_type">HTTP_SERVICE_BINDING_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_binding_w">HTTP_SERVICE_BINDING_W</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_service_binding_w">HTTP_SERVICE_BINDING_W</a>

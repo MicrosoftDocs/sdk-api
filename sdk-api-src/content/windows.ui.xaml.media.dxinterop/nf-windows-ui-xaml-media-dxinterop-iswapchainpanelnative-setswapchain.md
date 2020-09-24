@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the DirectX swap chain for <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a>.
+Sets the DirectX swap chain for <a href="/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a>.
 
 ## -parameters
 
 ### -param swapChain [in]
 
-A configured <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>.
+A configured <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative">ISwapChainPanelNative</a>
-
+<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative">ISwapChainPanelNative</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
 <b>SetTargetComputer</b> method selects the computer that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a> interface operates on, allowing remote task management and enumeration.
+<a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a> interface operates on, allowing remote task management and enumeration.
 
 ## -parameters
 
@@ -150,5 +150,4 @@ For a Windows Server 2003, Windows XP computer to create, monitor, or control 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>

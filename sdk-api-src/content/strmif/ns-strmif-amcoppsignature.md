@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>AMCOPPSignature</b> structure contains the signature needed for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-sessionsequencestart">IAMCertifiedOutputProtection::SessionSequenceStart</a> method.
+The <b>AMCOPPSignature</b> structure contains the signature needed for the <a href="/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-sessionsequencestart">IAMCertifiedOutputProtection::SessionSequenceStart</a> method.
 
 ## -struct-fields
 
@@ -62,9 +62,8 @@ Buffer that contains the signature. For more information, see the Remarks sectio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

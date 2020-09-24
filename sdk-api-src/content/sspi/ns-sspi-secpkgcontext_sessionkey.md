@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_SessionKey</b> structure contains information about the session key used for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
+The <b>SecPkgContext_SessionKey</b> structure contains information about the session key used for the <a href="/windows/desktop/SecGloss/s-gly">security context</a>. This structure is returned by the <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ Size, in bytes, of the session key.
 ### -field SessionKey
 
 The session key for the security context.
-

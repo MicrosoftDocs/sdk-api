@@ -66,7 +66,7 @@ Converts a DNS-style host name to a NetBIOS-style computer name.
 
 ### -param Hostname [in]
 
-The DNS name. If the DNS name is not a valid, translatable name, the function fails. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/computer-names">Computer Names</a>.
+The DNS name. If the DNS name is not a valid, translatable name, the function fails. For more information, see <a href="/windows/desktop/SysInfo/computer-names">Computer Names</a>.
 
 ### -param ComputerName [out]
 
@@ -79,14 +79,14 @@ On input, specifies the size of the buffer, in <b>TCHARs</b>. On output, receive
 
 
 
-If the buffer is too small, the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA, and <i>nSize</i> receives the required buffer size, not including the terminating null character.
+If the buffer is too small, the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA, and <i>nSize</i> receives the required buffer size, not including the terminating null character.
 
 ## -returns
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible values include the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible values include the following.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ The <i>ComputerName</i> buffer is too small. The <i>nSize</i> parameter contains
 This function performs a textual mapping of the name. This convention limits the names of computers to be the common subset of the names. (Specifically, the leftmost label of the DNS name is truncated to 15-bytes of OEM characters.) Therefore, do not use this function to convert a DNS domain name to a NetBIOS domain name. There is no textual mapping for domain names.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -122,14 +122,13 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
+<a href="/windows/desktop/SysInfo/system-information-functions">System
     Information Functions</a>
-

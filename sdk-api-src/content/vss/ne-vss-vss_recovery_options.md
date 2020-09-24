@@ -68,5 +68,4 @@ Volume safety checks should not be performed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-recoverset">IVssBackupComponentsEx3::RecoverSet</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-recoverset">IVssBackupComponentsEx3::RecoverSet</a>

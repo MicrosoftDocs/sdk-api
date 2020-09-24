@@ -57,7 +57,7 @@ Called when the presentation clock is set on the sample-grabber sink.
 
 ### -param pPresentationClock [in]
 
-Pointer to the presentation clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface.
+Pointer to the presentation clock's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface.
 
 ## -returns
 
@@ -87,5 +87,4 @@ This method should return quickly, or it might interfere with playback. Do not b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a>

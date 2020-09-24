@@ -56,7 +56,7 @@ Closes a touch input handle, frees process memory associated with it, and invali
 
 ### -param hTouchInput [in]
 
-The touch input handle received in the <b>LPARAM</b> of a touch message. The function fails with <b>ERROR_INVALID_HANDLE</b> if this handle is not valid. Note that the handle is not valid after it has been used in a successful call to <b>CloseTouchInputHandle</b> or after it has been passed to <a href="https://docs.microsoft.com/windows/desktop/wintouch/sendmessage--postmessage--and-related-functions">DefWindowProc, PostMessage, SendMessage</a> or one of their variants.
+The touch input handle received in the <b>LPARAM</b> of a touch message. The function fails with <b>ERROR_INVALID_HANDLE</b> if this handle is not valid. Note that the handle is not valid after it has been used in a successful call to <b>CloseTouchInputHandle</b> or after it has been passed to <a href="/windows/desktop/wintouch/sendmessage--postmessage--and-related-functions">DefWindowProc, PostMessage, SendMessage</a> or one of their variants.
 
 ## -returns
 
@@ -65,17 +65,16 @@ If the function succeeds, the return value is nonzero.
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-Calling <b>CloseTouchInputHandle</b> will not free memory associated with values retrieved in a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo">GetTouchInputInfo</a>. Values in structures passed to <b>GetTouchInputInfo</b>  will be valid until you delete them.
+Calling <b>CloseTouchInputHandle</b> will not free memory associated with values retrieved in a call to <a href="/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo">GetTouchInputInfo</a>. Values in structures passed to <b>GetTouchInputInfo</b>  will be valid until you delete them.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtfunctions">Functions</a>
+<a href="/windows/desktop/wintouch/mtfunctions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo">GetTouchInputInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo">GetTouchInputInfo</a>

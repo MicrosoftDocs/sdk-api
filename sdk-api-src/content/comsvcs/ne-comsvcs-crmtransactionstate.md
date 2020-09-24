@@ -74,5 +74,4 @@ The transaction is in doubt.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_transactionstate">ICrmMonitorLogRecords::get_TransactionState</a>
-
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_transactionstate">ICrmMonitorLogRecords::get_TransactionState</a>

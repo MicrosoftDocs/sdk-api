@@ -83,5 +83,4 @@ Windows XP calls this method when the user changes the current theme. The curren
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpskinmanager">IWMPSkinManager Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpskinmanager">IWMPSkinManager Interface</a>

@@ -61,7 +61,7 @@ Pointer to the destination buffer where the data will be copied. The caller allo
 
 ### -param cbDestBuffer [in]
 
-Size of the destination buffer, in bytes. To get the required size, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-getcontiguouslength">IMF2DBuffer::GetContiguousLength</a>.
+Size of the destination buffer, in bytes. To get the required size, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-getcontiguouslength">IMF2DBuffer::GetContiguousLength</a>.
 
 ## -returns
 
@@ -98,17 +98,16 @@ Invalid size specified in <i>pbDestBuffer</i>.
 
 ## -remarks
 
-If the original buffer is not contiguous, this method converts the contents into contiguous format during the copy. For a definition of contiguous as it applies to 2-D buffers, see the Remarks section in <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface.
+If the original buffer is not contiguous, this method converts the contents into contiguous format during the copy. For a definition of contiguous as it applies to 2-D buffers, see the Remarks section in <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
-
+<a href="/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>

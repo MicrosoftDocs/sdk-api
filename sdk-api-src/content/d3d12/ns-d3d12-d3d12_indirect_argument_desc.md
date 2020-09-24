@@ -56,7 +56,7 @@ Describes an indirect argument (an indirect parameter), for use with a command s
 
 ### -field Type
 
-A single <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_indirect_argument_type">D3D12_INDIRECT_ARGUMENT_TYPE</a> enumeration constant.
+A single <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_indirect_argument_type">D3D12_INDIRECT_ARGUMENT_TYPE</a> enumeration constant.
 
 ### -field VertexBuffer
 
@@ -101,13 +101,12 @@ Specifies the root index of the UAV.
 
 ## -remarks
 
-Use this structure with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_command_signature_desc">D3D12_COMMAND_SIGNATURE_DESC</a> structure.
+Use this structure with the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_command_signature_desc">D3D12_COMMAND_SIGNATURE_DESC</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/example-root-signatures">Example Root Signatures</a>
-
+<a href="/windows/desktop/direct3d12/example-root-signatures">Example Root Signatures</a>

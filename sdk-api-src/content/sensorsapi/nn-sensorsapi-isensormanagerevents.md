@@ -52,9 +52,8 @@ api_name:
 
 The callback interface for receiving sensor manager events.
 
-To receive event notifications, first call <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-seteventsink">ISensorManager::SetEventSink</a>.
+To receive event notifications, first call <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-seteventsink">ISensorManager::SetEventSink</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>
-
+<a href="/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>

@@ -56,11 +56,11 @@ Creates a channel to communicate with the Microsoft Direct3D device or the graph
 
 ### -param ChannelType [in]
 
-Specifies the type of channel, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_authenticated_channel_type">D3D11_AUTHENTICATED_CHANNEL_TYPE</a> enumeration.
+Specifies the type of channel, as a member of the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_authenticated_channel_type">D3D11_AUTHENTICATED_CHANNEL_TYPE</a> enumeration.
 
 ### -param ppAuthenticatedChannel [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11authenticatedchannel">ID3D11AuthenticatedChannel</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11authenticatedchannel">ID3D11AuthenticatedChannel</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -74,5 +74,4 @@ If <i>ChannelType</i> is <b>D3D11_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE</b> or <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>

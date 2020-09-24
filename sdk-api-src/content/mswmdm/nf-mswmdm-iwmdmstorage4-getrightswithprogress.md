@@ -57,11 +57,11 @@ The <b>GetRightsWithProgress</b> method retrieves the rights information for the
 
 ### -param pIProgressCallback [in]
 
-Optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3</a> interface to be used by Windows Media Device Manager to report progress back to the application.
+Optional pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3</a> interface to be used by Windows Media Device Manager to report progress back to the application.
 
 ### -param ppRights [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a> structures that contain the storage object rights information. Memory for this array is allocated by Windows Media Device Manager. When the calling application has finished accessing this array, the memory must be freed by using <b>CoTaskMemFree</b>.
+Pointer to an array of <a href="/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a> structures that contain the storage object rights information. Memory for this array is allocated by Windows Media Device Manager. When the calling application has finished accessing this array, the memory must be freed by using <b>CoTaskMemFree</b>.
 
 ### -param pnRightsCount [out]
 
@@ -76,7 +76,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -84,11 +84,10 @@ Object rights describe the usage permissions for digital media content. For exam
 
 Retrieving rights from a licensed file can sometimes be a lengthy request; this function allows a rights request to be performed asynchronously.
 
-The secure content provider can generate event notifications on the callback <i>pIProgressCallback</i> in addition to the progress notifications. Examples of such events include acquiring a secure clock, initializing DRM, and so on. These events are described in <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-progress3">IWMDMProgress3::Progress3</a>.
+The secure content provider can generate event notifications on the callback <i>pIProgressCallback</i> in addition to the progress notifications. Examples of such events include acquiring a secure clock, initializing DRM, and so on. These events are described in <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-progress3">IWMDMProgress3::Progress3</a>.
 
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a>, except it returns progress, and does not provide a MAC for parameter verification.
+This method is identical to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a>, except it returns progress, and does not provide a MAC for parameter verification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>

@@ -59,7 +59,7 @@ The <b>SetProfile</b> method specifies the profile to use for the current writin
 
 ### -param pProfile [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
+Pointer to an <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
 
 ## -returns
 
@@ -147,7 +147,7 @@ For video streams:
 <ul>
 <li>The <b>formattype</b> is not <b>WMFORMAT_VideoInfo</b>.</li>
 <li><b>cbFormat</b> is not equal to sizeof(<b>WMVIDEOINFOHEADER</b>).</li>
-<li>The bit rate specified through <b>IWMStreamConfig</b> is not equal to the value of <b>dwBitrate</b> in the <b>VIDEOINFOHEADER</b>. (Does not apply if <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbitrate">IWMStreamConfig::SetBitrate</a> was used to set a bit rate of zero.)</li>
+<li>The bit rate specified through <b>IWMStreamConfig</b> is not equal to the value of <b>dwBitrate</b> in the <b>VIDEOINFOHEADER</b>. (Does not apply if <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbitrate">IWMStreamConfig::SetBitrate</a> was used to set a bit rate of zero.)</li>
 <li>On uncompressed video streams, <b>bmiHeader.biSizeImage</b> has been specified incorrectly.</li>
 <li>The rectangle width or height specified in the <b>bmiHeader</b> is not valid for the compression type. (Some types require two- or four-byte alignment.)</li>
 <li>Any member of the <b>rcSource</b> or <b>rcTarget</b> rectangles is negative.</li>
@@ -186,21 +186,20 @@ The maximum number of streams in a profile is 63, as defined by the constant WM_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
+<a href="/windows/desktop/wmformat/attributes">Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
+<a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setprofilebyid">IWMWriter::SetProfileByID</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setprofilebyid">IWMWriter::SetProfileByID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-use-profiles-with-the-writer">To Use Profiles with the Writer</a>
-
+<a href="/windows/desktop/wmformat/to-use-profiles-with-the-writer">To Use Profiles with the Writer</a>

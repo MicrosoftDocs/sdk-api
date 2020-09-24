@@ -65,9 +65,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-When the app is finished with the AMSI API it must call <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>.
+When the app is finished with the AMSI API it must call <a href="/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>
-
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>

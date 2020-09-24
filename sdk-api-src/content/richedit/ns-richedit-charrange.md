@@ -60,13 +60,13 @@ If the <b>cpMin</b> and <b>cpMax</b> members are equal, the range is empty. The 
 
 ### -field cpMin
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Character position index immediately preceding the first character in the range.
 
 ### -field cpMax
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Character position immediately following the last character in the range.
 
@@ -81,4 +81,3 @@ Character position immediately following the last character in the range.
 
 
 <b>Reference</b>
-

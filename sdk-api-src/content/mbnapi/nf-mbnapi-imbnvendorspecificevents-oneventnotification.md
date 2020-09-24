@@ -59,7 +59,7 @@ Notification method signaling a change event from the underlying Mobile Broadban
 
 ### -param vendorOperation [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificoperation">IMbnVendorSpecificOperation</a> interface representing the device on which the event has occurred.
+A <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificoperation">IMbnVendorSpecificOperation</a> interface representing the device on which the event has occurred.
 
 ### -param vendorSpecificData [in]
 
@@ -75,5 +75,4 @@ This byte array contains the byte by byte copy of data returned by underlying mi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificevents">IMbnVendorSpecificEvents</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificevents">IMbnVendorSpecificEvents</a>

@@ -51,31 +51,30 @@ api_name:
 
 ## -description
 
-The <b>ColorMap</b> structure contains two <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> objects. Several methods of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> class adjust image colors by using a color remap table, which is an array of <b>ColorMap</b> structures.
+The <b>ColorMap</b> structure contains two <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> objects. Several methods of the <a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> class adjust image colors by using a color remap table, which is an array of <b>ColorMap</b> structures.
 
 ## -struct-fields
 
 ### -field oldColor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
+Type: <b><a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
 
 The original color.
 
 ### -field newColor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
+Type: <b><a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
 
 The new color.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a>
+<a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-color-remap-table-use">Using a Color Remap Table</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-a-color-remap-table-use">Using a Color Remap Table</a>

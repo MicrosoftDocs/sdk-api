@@ -54,7 +54,7 @@ Describes the dependency of one package on another package.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageDependency2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>. <b>IAppxManifestPackageDependency2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageDependency2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>. <b>IAppxManifestPackageDependency2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxManifestPackageDependency2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency2-getmaxmajorversiontested">GetMaxMajorVersionTested</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency2-getmaxmajorversiontested">GetMaxMajorVersionTested</a>
 </td>
 <td align="left" width="63%">
 Returns the maximum major version number of  the package that is tested to be compatible
@@ -81,5 +81,4 @@ with the current package.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>

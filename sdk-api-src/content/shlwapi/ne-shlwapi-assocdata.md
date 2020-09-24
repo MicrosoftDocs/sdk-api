@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> to define the type of data that is to be returned.
+Used by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> to define the type of data that is to be returned.
 
 ## -enum-fields
 
@@ -70,15 +70,14 @@ Defaults to user specified association.
 
 ### -field ASSOCDATA_EDITFLAGS
 
-<b>Internet Explorer version 6 or later</b>. Gets the data stored in the EditFlags value of a file association <a href="https://docs.microsoft.com/windows/desktop/shell/fa-progids">PROGID</a> registry key. This value consists of one or more <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-filetypeattributeflags">FILETYPEATTRIBUTEFLAGS</a>. Compare against those values to determine which attributes have been set.
+<b>Internet Explorer version 6 or later</b>. Gets the data stored in the EditFlags value of a file association <a href="/windows/desktop/shell/fa-progids">PROGID</a> registry key. This value consists of one or more <a href="/windows/desktop/api/shlwapi/ne-shlwapi-filetypeattributeflags">FILETYPEATTRIBUTEFLAGS</a>. Compare against those values to determine which attributes have been set.
 
 ### -field ASSOCDATA_VALUE
 
-<b>Internet Explorer version 6 or later</b>. Uses the <i>pwszExtra</i> parameter from the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> method as the value name.
+<b>Internet Explorer version 6 or later</b>. Uses the <i>pwszExtra</i> parameter from the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> method as the value name.
 
 ### -field ASSOCDATA_MAX
 
 #### - ASSOCDATA_QUERYCLASSSTORE
 
 If this value is present, applications should check the Windows 2000 class store.
-

@@ -64,9 +64,8 @@ This should be the last call that you make in your callback because your applica
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-applicationrecoveryinprogress">ApplicationRecoveryInProgress</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-applicationrecoveryinprogress">ApplicationRecoveryInProgress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>

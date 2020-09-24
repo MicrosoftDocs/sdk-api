@@ -74,7 +74,7 @@ The vertical position to scroll to.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -84,4 +84,3 @@ The scroll area is normalized to range from 0.0 to 100.0. If the position is set
 scrolls to the beginning of the 
 visible region, and if the position is set to 100.0, it  scrolls to the end of the visible region. 
 Pass -1.0 for the percent parameters if no scrolling occurs on that axis.
-

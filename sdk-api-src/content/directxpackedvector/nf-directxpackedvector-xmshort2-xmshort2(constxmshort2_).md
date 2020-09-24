@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMSHORT2</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a>.
+A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshort2-ctor">XMSHORT2 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmshort2-ctor">XMSHORT2 Constructors</a>

@@ -95,5 +95,4 @@ To set a record integer field to <b>NULL_INTEGER</b>, set <i>iValue</i> to <b>MS
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Record Processing Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Record Processing Functions</a>

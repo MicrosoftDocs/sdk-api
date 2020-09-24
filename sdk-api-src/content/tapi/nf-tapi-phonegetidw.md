@@ -64,7 +64,7 @@ Handle to an open phone device.
 ### -param lpDeviceID
 
 Pointer to a data structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> where the device identifier is returned. Upon successful completion of the request, this location is filled with the device identifier. The format of the returned information depends on the method used by the device class (API) for naming devices.
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> where the device identifier is returned. Upon successful completion of the request, this location is filled with the device identifier. The format of the returned information depends on the method used by the device class (API) for naming devices.
 
 ### -param lpszDeviceClass
 
@@ -82,7 +82,7 @@ The
 <b>phoneGetID</b> function can be used to retrieve a phone device identifier given a phone handle. It can also be used to obtain the device identifier of the media device (for device classes such as COM, wave, MIDI, phone, line, or NDIS) associated with the opened phone device. The names of these device class are not case sensitive. This identifier can then be used with the appropriate media API to select the corresponding device.
 
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-device-classes">TAPI Device Classes</a> for device class names.
+<a href="/windows/desktop/Tapi/tapi-device-classes">TAPI Device Classes</a> for device class names.
 
 A vendor that defines a device-specific media type also needs to define the corresponding device-specific (proprietary) API to manage devices of the media type. To avoid collisions on device class names assigned independently by different vendors, a vendor should select a name that uniquely identifies both the vendor and, following it, the media type. For example: "intel/video".
 
@@ -95,13 +95,12 @@ A vendor that defines a device-specific media type also needs to define the corr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
-
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>

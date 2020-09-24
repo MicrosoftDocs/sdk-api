@@ -56,11 +56,11 @@ The <b>RemoveIscsiConnection</b> function removes a connection from an active se
 
 ### -param UniqueSessionId [in]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that specifies the unique session identifier of the session that the connection belongs to.
+A pointer to a structure of type <a href="/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that specifies the unique session identifier of the session that the connection belongs to.
 
 ### -param ConnectionId [in]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870817(v=vs.85)">ISCSI_UNIQUE_CONNECTION_ID</a> that specifies the connection to remove.
+A pointer to a structure of type <a href="/previous-versions/windows/desktop/legacy/bb870817(v=vs.85)">ISCSI_UNIQUE_CONNECTION_ID</a> that specifies the connection to remove.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 ## -remarks
 
-The <b>RemoveIscsiConnection</b> function will not remove the last connection of a session or the leading connection of a session. The caller must close the session by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-logoutiscsitarget">LogoutIscsiTarget</a> to remove the last connection.
+The <b>RemoveIscsiConnection</b> function will not remove the last connection of a session or the leading connection of a session. The caller must close the session by calling <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-logoutiscsitarget">LogoutIscsiTarget</a> to remove the last connection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-logoutiscsitarget">LogoutIscsiTarget</a>
-
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-logoutiscsitarget">LogoutIscsiTarget</a>

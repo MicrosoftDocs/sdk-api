@@ -82,7 +82,7 @@ A set of bit flags that specify the conditions under which  the security event t
 <td width="60%">
 Do not change auditing options for the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a> functions.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 <td width="60%">
 Audit successful occurrences of the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a> functions.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 <td width="60%">
 Audit failed attempts to cause the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a> functions.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 <td width="60%">
 Do not audit the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a> functions.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 <td width="60%">
 Do not change auditing options for the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 <td width="60%">
 Audit successful occurrences of the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 <td width="60%">
 Do not audit successful occurrences of the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 <td width="60%">
 Audit failed attempts to cause the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 <td width="60%">
 Do not audit failed attempts to cause the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 <td width="60%">
 Do not audit the specified event type.
 
-This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
+This value is valid for the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a> and <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a> functions.
 
 </td>
 </tr>
@@ -211,25 +211,24 @@ A <b>GUID</b> structure that specifies an audit-policy category.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditcomputeeffectivepolicybysid">AuditComputeEffectivePolicyBySid</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditcomputeeffectivepolicybysid">AuditComputeEffectivePolicyBySid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditcomputeeffectivepolicybytoken">AuditComputeEffectivePolicyByToken</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditcomputeeffectivepolicybytoken">AuditComputeEffectivePolicyByToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditqueryperuserpolicy">AuditQueryPerUserPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysystempolicy">AuditQuerySystemPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetperuserpolicy">AuditSetPerUserPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a>

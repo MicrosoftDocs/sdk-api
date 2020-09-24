@@ -164,7 +164,7 @@ Make the item unselectable. It will be displayed in gray and will not respond to
 
 #### SMIF_TRACKPOPUP
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> to create the pop-up menu.
+Use <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> to create the pop-up menu.
 
 
 
@@ -195,4 +195,3 @@ This item is newly installed or should be brought to the user's attention.
 Type: <b>int</b>
 
 When <b>SMIF_ICON</b> is set, the index of the requested icon in the toolbar image list.
-

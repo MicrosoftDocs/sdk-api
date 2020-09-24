@@ -56,7 +56,7 @@ The <b>SetStatus</b> method enables an authoring tool to receive information abo
 
 ### -param pStatusFunction [in]
 
-Specifies a callback function that conforms to the <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nc-evalcom2-lpevalcomcallback">LPEVALCOMCALLBACK</a> specification.  The <i>pStatusFunction</i> can be <b>NULL</b>.
+Specifies a callback function that conforms to the <a href="/windows/desktop/api/evalcom2/nc-evalcom2-lpevalcomcallback">LPEVALCOMCALLBACK</a> specification.  The <i>pStatusFunction</i> can be <b>NULL</b>.
 
 ### -param pContext
 
@@ -86,13 +86,12 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
+<a href="/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
+<a href="/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-
+<a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>

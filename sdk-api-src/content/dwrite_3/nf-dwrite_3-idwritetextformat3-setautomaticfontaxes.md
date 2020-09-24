@@ -52,7 +52,7 @@ Sets the automatic font axis options.
 
 ### -param automaticFontAxes
 
-Type: **[DWRITE_AUTOMATIC_FONT_AXES](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes)**
+Type: **[DWRITE_AUTOMATIC_FONT_AXES](./ne-dwrite_3-dwrite_automatic_font_axes.md)**
 
 Automatic font axis options.
 
@@ -65,4 +65,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

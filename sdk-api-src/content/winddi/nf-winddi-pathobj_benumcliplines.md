@@ -56,11 +56,11 @@ The <b>PATHOBJ_bEnumClipLines</b> function enumerates clipped line segments from
 
 ### -param ppo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure containing the clipped line segments that are to be enumerated.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure containing the clipped line segments that are to be enumerated.
 
 ### -param cb
 
-Specifies the size of the output buffer, in bytes. GDI does not write beyond this point in the buffer. The value of this parameter must be large enough to hold a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipline">CLIPLINE</a> structure with at least one <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-run">RUN</a> structure. The driver should allocate space for several RUN structures.
+Specifies the size of the output buffer, in bytes. GDI does not write beyond this point in the buffer. The value of this parameter must be large enough to hold a <a href="/windows/desktop/api/winddi/ns-winddi-clipline">CLIPLINE</a> structure with at least one <a href="/windows/desktop/api/winddi/ns-winddi-run">RUN</a> structure. The driver should allocate space for several RUN structures.
 
 ### -param pcl
 
@@ -76,21 +76,20 @@ The return value is <b>TRUE</b> if more line segments are to be enumerated, indi
 
 ## -remarks
 
-The enumeration must be started with <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a> before the driver makes this call.
+The enumeration must be started with <a href="/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a> before the driver makes this call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipline">CLIPLINE</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-clipline">CLIPLINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-run">RUN</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-run">RUN</a>

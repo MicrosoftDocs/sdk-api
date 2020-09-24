@@ -88,20 +88,19 @@ Returns one of the following values.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setreferrer">IAttachmentExecute::SetReferrer</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setreferrer">IAttachmentExecute::SetReferrer</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setsource">IAttachmentExecute::SetSource</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setsource">IAttachmentExecute::SetSource</a>
 </li>
 </ul>
 The information returned by <b>IAttachmentExecute::CheckPolicy</b> enables an application to modify its UI appropriately for the situation.
 			
 
-<b>IAttachmentExecute::CheckPolicy</b> requires the application first to call either <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a>.
-
+<b>IAttachmentExecute::CheckPolicy</b> requires the application first to call either <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a>.

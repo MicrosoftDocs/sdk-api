@@ -64,11 +64,11 @@ TBD
 
 ### -param resultsSize [in]
 
-The number of file IDs that can be stored in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a> object that the <i>findSimilarResults</i> parameter points to.
+The number of file IDs that can be stored in the <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a> object that the <i>findSimilarResults</i> parameter points to.
 
 ### -param findSimilarResults [out, optional]
 
-A pointer to a location that will receive the returned  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a> interface pointer. The caller must release this interface when it is no longer needed.
+A pointer to a location that will receive the returned  <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a> interface pointer. The caller must release this interface when it is no longer needed.
 
 ## -returns
 
@@ -80,5 +80,4 @@ The file IDs that are returned in the <i>findSimilarResults</i> parameter may in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>

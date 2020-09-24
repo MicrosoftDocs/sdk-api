@@ -78,13 +78,12 @@ If the <b>HDC</b> is not valid, the return value is (BOOL)-1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
+<a href="/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
+<a href="/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rectvisible">RectVisible</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rectvisible">RectVisible</a>

@@ -67,16 +67,15 @@ A pointer to the condition variable.
 ## -remarks
 
 The <b>WakeAllConditionVariable</b> wakes all 
-    waiting threads while the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakeconditionvariable">WakeConditionVariable</a> 
+    waiting threads while the <a href="/windows/desktop/api/synchapi/nf-synchapi-wakeconditionvariable">WakeConditionVariable</a> 
     wakes only a single thread. Waking one thread is similar to setting an auto-reset event, while waking all threads 
     is similar to pulsing a manual reset event but more reliable (see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a> for details).
+    <a href="/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a> for details).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/condition-variables">Condition Variables</a>
+<a href="/windows/desktop/Sync/condition-variables">Condition Variables</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

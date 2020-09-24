@@ -51,19 +51,19 @@ api_name:
 ## -description
 
 Allocates a packet to be sent with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a> function.
+    <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a> function.
 
 ## -parameters
 
 ### -param hProvider [in]
 
 <b>HANDLE</b> passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
+      <a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
 
 ### -param hClientRequest [in]
 
 Handle to the client request received in the 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
+      <a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
 
 ### -param uSize [in]
 
@@ -72,25 +72,24 @@ Size of the buffer to be allocated.
 ## -returns
 
 Address of allocated buffer, or <b>NULL</b> if the allocation failed. For extended error 
-      information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+      information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketfree">PxePacketFree</a>
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketfree">PxePacketFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
+<a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
+<a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

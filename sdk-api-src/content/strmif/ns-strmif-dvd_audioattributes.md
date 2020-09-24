@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <code>DVD_AudioAttributes</code> structure is used in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a> to receive the various audio attributes of the disc.
+The <code>DVD_AudioAttributes</code> structure is used in <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a> to receive the various audio attributes of the disc.
 
 ## -struct-fields
 
 ### -field AppMode
 
-Indicates the current audio mode. If the mode returned is DVD_AudioMode_Karaoke, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getkaraokeattributes">IDvdInfo2::GetKaraokeAttributes</a> to get more info.
+Indicates the current audio mode. If the mode returned is DVD_AudioMode_Karaoke, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getkaraokeattributes">IDvdInfo2::GetKaraokeAttributes</a> to get more info.
 
 ### -field AppModeData
 
@@ -72,11 +72,11 @@ An <b>LCID</b> value indicating the language of the audio stream. Is zero if no 
 
 ### -field LanguageExtension
 
-A [DVD_AUDIO_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext) enumeration that will be filled in if any information is available on the disc.
+A [DVD_AUDIO_LANG_EXT](/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext) enumeration that will be filled in if any information is available on the disc.
 
 ### -field fHasMultichannelInfo
 
-Indicates whether multichannel attributes are present. If <b>TRUE</b>, it means there is additional mixing information available, such as for SurroundSound. Call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> to retrieve the multichannel information.
+Indicates whether multichannel attributes are present. If <b>TRUE</b>, it means there is additional mixing information available, such as for SurroundSound. Call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> to retrieve the multichannel information.
 
 ### -field dwFrequency
 
@@ -96,5 +96,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

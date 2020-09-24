@@ -61,43 +61,42 @@ Restores character transmission for a specified communications device and places
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 A communications device is placed in a break state by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function. Character transmission is then suspended until the break state is cleared by calling 
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function. Character transmission is then suspended until the break state is cleared by calling 
 <b>ClearCommBreak</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a>

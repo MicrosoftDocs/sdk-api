@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback Interface</a>

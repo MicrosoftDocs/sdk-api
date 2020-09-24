@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the end sector of the range specified by the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a> interface.
+Retrieves the end sector of the range specified by the <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a> interface.
 
 ## -parameters
 
@@ -87,5 +87,4 @@ The sector number returned by this method is included in the range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a>

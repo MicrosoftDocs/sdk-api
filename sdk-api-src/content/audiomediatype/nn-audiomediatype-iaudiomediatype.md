@@ -50,33 +50,32 @@ api_name:
 
 ## -description
 
-The <code>IAudioMediaType</code> interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format. An sAPO also returns this interface in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>.
+The <code>IAudioMediaType</code> interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format. An sAPO also returns this interface in response to a call to <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>.
 
 <code>IAudioMediaType</code> inherits from <b>IUnknown</b> and also supports the following methods:
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-getaudioformat">IAudioMediaType::GetAudioFormat</a>
+<a href="/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-getaudioformat">IAudioMediaType::GetAudioFormat</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-getuncompressedaudioformat">IAudioMediaType::GetUncompressedAudioFormat</a>
+<a href="/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-getuncompressedaudioformat">IAudioMediaType::GetUncompressedAudioFormat</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-iscompressedformat">IAudioMediaType::IsCompressedFormat</a>
+<a href="/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-iscompressedformat">IAudioMediaType::IsCompressedFormat</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-isequal">IAudioMediaType::IsEqual</a>
+<a href="/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-isequal">IAudioMediaType::IsEqual</a>
 
 
 </dd>
 </dl>
-

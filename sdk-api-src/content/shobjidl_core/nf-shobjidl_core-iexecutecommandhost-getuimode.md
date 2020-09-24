@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enables an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand">IExplorerCommand</a>-based Shell verb handler to query the UI mode of the host component from which the application was invoked.
+Enables an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand">IExplorerCommand</a>-based Shell verb handler to query the UI mode of the host component from which the application was invoked.
 
 ## -parameters
 
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandhost">IExecuteCommandHost</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandhost">IExecuteCommandHost</a>

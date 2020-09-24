@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CQPAGE</b> structure is used to define a query page added to a form in the query dialog box with the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddpagesproc">CQAddPagesProc</a> callback function.
+The <b>CQPAGE</b> structure is used to define a query page added to a form in the query dialog box with the <a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddpagesproc">CQAddPagesProc</a> callback function.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Reserved. This member must be zero.
 
 ### -field pPageProc
 
-Pointer to a query page callback function defined by the query form extension. This callback function is used to notify the extension of events in the page and takes  the form of the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqpageproc">CQPageProc</a> callback function.
+Pointer to a query page callback function defined by the query form extension. This callback function is used to notify the extension of events in the page and takes  the form of the <a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqpageproc">CQPageProc</a> callback function.
 
 ### -field hInstance
 
@@ -84,29 +84,28 @@ Contains the identifier of the dialog resource in <b>hInstance</b>  used for the
 
 ### -field pDlgProc
 
-Pointer to the dialog box procedure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>.
+Pointer to the dialog box procedure. For more information, see <a href="/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>.
 
 ### -field lParam
 
-An extension-defined 32-bit value passed in the <b>lParam</b> member of the <b>CQPAGE</b> structure passed as the <i>pPage</i> parameter in  the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqpageproc">CQPageProc</a> callback function.
+An extension-defined 32-bit value passed in the <b>lParam</b> member of the <b>CQPAGE</b> structure passed as the <i>pPage</i> parameter in  the <a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqpageproc">CQPageProc</a> callback function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddpagesproc">CQAddPagesProc</a>
+<a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddpagesproc">CQAddPagesProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqpageproc">CQPageProc</a>
+<a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqpageproc">CQPageProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages">IQueryForm::AddPages</a>
-
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages">IQueryForm::AddPages</a>

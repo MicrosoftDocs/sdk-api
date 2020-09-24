@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>HASHALGORITHM_ENUM</b> enumeration type specifies signing and hashing algorithms. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a> structures.
+The <b>HASHALGORITHM_ENUM</b> enumeration type specifies signing and hashing algorithms. It is used by the <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> and <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a> structures.
 
 ## -enum-fields
 
@@ -68,9 +68,8 @@ Represents a Digital Signature Algorithm (DSA) that uses the Secure Hashing Algo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a>
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a>
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a>

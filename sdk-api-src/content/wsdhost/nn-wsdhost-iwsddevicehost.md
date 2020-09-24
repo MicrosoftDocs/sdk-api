@@ -54,11 +54,11 @@ Represents a DPWS-compliant device . The device host will announce its presence 
 
 The caller can register user-implemented services with the device host. These services will be exposed in the device metadata and the services will be available over the network. Messages bound for these services will be automatically dispatched into the service object.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehostadvanced">WSDCreateDeviceHostAdvanced</a> to create an object that exposes this interface.
+Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> or <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehostadvanced">WSDCreateDeviceHostAdvanced</a> to create an object that exposes this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDDeviceHost</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDDeviceHost</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDDeviceHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDDeviceHost</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWSDDeviceHost</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">AddDynamicService</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">AddDynamicService</a>
 </td>
 <td align="left" width="63%">
 Registers a service object for incoming requests, but does not add the service to the device host metadata. This is used for transient (dynamic) services.
@@ -82,7 +82,7 @@ Registers a service object for incoming requests, but does not add the service t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes an instance of an <b>IWSDDeviceHost</b> object.
@@ -91,7 +91,7 @@ Initializes an instance of an <b>IWSDDeviceHost</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerporttype">RegisterPortType</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerporttype">RegisterPortType</a>
 </td>
 <td align="left" width="63%">
 Registers a port type for incoming messages.
@@ -100,7 +100,7 @@ Registers a port type for incoming messages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a>
 </td>
 <td align="left" width="63%">
 Registers a service object for incoming requests and adds the service to the device host metadata.
@@ -109,25 +109,25 @@ Registers a service object for incoming requests and adds the service to the dev
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-removedynamicservice">RemoveDynamicService</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-removedynamicservice">RemoveDynamicService</a>
 </td>
 <td align="left" width="63%">
-Unregisters a service object that was registered using <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">AddDynamicService</a>. 
+Unregisters a service object that was registered using <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">AddDynamicService</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-retireservice">RetireService</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-retireservice">RetireService</a>
 </td>
 <td align="left" width="63%">
-Unregisters a service object that was registered using  <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> and removes the service from the device host metadata.
+Unregisters a service object that was registered using  <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> and removes the service from the device host metadata.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-setmetadata">SetMetadata</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-setmetadata">SetMetadata</a>
 </td>
 <td align="left" width="63%">
 Sets the metadata for a device, excluding user-defined service metadata.
@@ -136,7 +136,7 @@ Sets the metadata for a device, excluding user-defined service metadata.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-setservicediscoverable">SetServiceDiscoverable</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-setservicediscoverable">SetServiceDiscoverable</a>
 </td>
 <td align="left" width="63%">
 Controls whether or not the service is advertised
@@ -146,7 +146,7 @@ Controls whether or not the service is advertised
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-signalevent">SignalEvent</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-signalevent">SignalEvent</a>
 </td>
 <td align="left" width="63%">
 Notifies all subscribed clients that an event has occurred.
@@ -155,7 +155,7 @@ Notifies all subscribed clients that an event has occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the device host and publishes the device host using a WS-Discovery Hello message.
@@ -164,7 +164,7 @@ Starts the device host and publishes the device host using a WS-Discovery Hello 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-stop">Stop</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Sends a WS-Discovery Bye message and stops the host.
@@ -173,7 +173,7 @@ Sends a WS-Discovery Bye message and stops the host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-terminate">Terminate</a>
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-terminate">Terminate</a>
 </td>
 <td align="left" width="63%">
 Terminates the host and releases any attached services.
@@ -187,17 +187,17 @@ Terminates the host and releases any attached services.
 After retrieving this interface, the application would then:
 
 <ol>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerporttype">RegisterPortType</a> method to register all necessary port types.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-setmetadata">SetMetadata</a> to describe the device and optionally call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> one or more times to register services described in the service host metadata.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> method to start the device host and to publish the device using WS-Discovery.After starting the device host, you can optionally:
+<li>Call the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerporttype">RegisterPortType</a> method to register all necessary port types.</li>
+<li>Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-setmetadata">SetMetadata</a> to describe the device and optionally call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> one or more times to register services described in the service host metadata.</li>
+<li>Call the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> method to start the device host and to publish the device using WS-Discovery.After starting the device host, you can optionally:
 
 <ol>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">AddDynamicService</a> for services not described in the service host metadata (for example, an ad hoc print job).</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-retireservice">RetireService</a> to terminate action on and disconnect a service activated by the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> method.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-signalevent">SignalEvent</a> method to indicate that notifications should be sent for subscriptions relating to a particular event.</li>
+<li>Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">AddDynamicService</a> for services not described in the service host metadata (for example, an ad hoc print job).</li>
+<li>Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-retireservice">RetireService</a> to terminate action on and disconnect a service activated by the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> method.</li>
+<li>Call the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-signalevent">SignalEvent</a> method to indicate that notifications should be sent for subscriptions relating to a particular event.</li>
 </ol>
 </li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-stop">Stop</a> method to terminate host execution and terminate publication of the device.</li>
+<li>Call the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-stop">Stop</a> method to terminate host execution and terminate publication of the device.</li>
 </ol>
 
 
@@ -205,5 +205,4 @@ An <b>IWSDDeviceHost</b> object can provide an object for a service on demand (u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WsdApi/overview-of-the-wsdapi-interfaces">Overview of the WSDAPI Interfaces</a>
-
+<a href="/windows/desktop/WsdApi/overview-of-the-wsdapi-interfaces">Overview of the WSDAPI Interfaces</a>

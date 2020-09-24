@@ -64,9 +64,8 @@ Note that by removing the providers from the collection, you are also removing t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-remove">ITraceDataProviderCollection::Remove</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-remove">ITraceDataProviderCollection::Remove</a>

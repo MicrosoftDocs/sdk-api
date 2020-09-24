@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Deposits licensing information previously collected and gathered using the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgathermigrationblob">SLGatherMigrationBlob</a> function.
+Deposits licensing information previously collected and gathered using the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgathermigrationblob">SLGatherMigrationBlob</a> function.
 
 ## -parameters
 
@@ -96,4 +96,3 @@ Access denied (API requires admin privileges).
 </td>
 </tr>
 </table>
-

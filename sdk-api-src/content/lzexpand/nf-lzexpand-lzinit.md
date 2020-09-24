@@ -64,8 +64,8 @@ If the function succeeds, the return value is a new LZ file handle.
 
 If the function fails, the return value is an LZERROR_* code. These codes have values less than zero. Note that 
 <b>LZInit</b> calls neither 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor 
+<a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.
 
 The following is the list of the error codes that 
 <b>LZInit</b> can return upon failure.
@@ -122,7 +122,7 @@ The file is compressed with an unrecognized compression algorithm.
 </table>
  
 
-There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+There is no extended error information for this function; do not call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -195,9 +195,8 @@ CsvFs will do redirected IO for compressed files.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
+<a href="/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>

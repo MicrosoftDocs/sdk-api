@@ -60,7 +60,7 @@ The <b>BTH_L2CAP_EVENT_INFO</b> structure contains data about events associated 
 
 ### -field bthAddress
 
-Remote radio address with which the L2CAP event is associated, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatemultipledevices">BTH_ADDR</a> structure.
+Remote radio address with which the L2CAP event is associated, in the form of a <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatemultipledevices">BTH_ADDR</a> structure.
 
 ### -field psm
 
@@ -80,10 +80,9 @@ Notifications for a destroyed channel are only to be sent for channels that have
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatemultipledevices">BTH_ADDR</a>
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatemultipledevices">BTH_ADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothenablediscovery">Bluetooth and WM_DEVICECHANGE
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothenablediscovery">Bluetooth and WM_DEVICECHANGE
 			 Messages</a>
-

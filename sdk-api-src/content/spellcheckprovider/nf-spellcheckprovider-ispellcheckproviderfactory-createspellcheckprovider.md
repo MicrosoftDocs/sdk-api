@@ -108,7 +108,7 @@ Successful.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">ISpellCheckProviderFactory::IsSupported</a> can be called to determine if <i>languageTag</i> is supported.
+<a href="/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">ISpellCheckProviderFactory::IsSupported</a> can be called to determine if <i>languageTag</i> is supported.
 
 ## -see-also
 
@@ -116,13 +116,12 @@ Successful.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
+<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckproviderfactory">ISpellCheckProviderFactory</a>
+<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckproviderfactory">ISpellCheckProviderFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">ISpellCheckProviderFactory::IsSupported</a>
-
+<a href="/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">ISpellCheckProviderFactory::IsSupported</a>

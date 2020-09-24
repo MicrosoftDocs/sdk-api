@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Descriptions for each of the possible values specified in the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_possiblevalues">PossibleValues</a> 
+    <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_possiblevalues">PossibleValues</a> 
     property.
 
 This property is read/write.
@@ -63,11 +63,10 @@ This property is read/write.
 ## -remarks
 
 There is a one-to-one relationship between these descriptions and the list of possible values specified in the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_possiblevalues">PossibleValues</a> property. If you 
+    <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_possiblevalues">PossibleValues</a> property. If you 
     do not want to specify a description for one of the values in the list, set the corresponding item in the array to 
     an empty string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>

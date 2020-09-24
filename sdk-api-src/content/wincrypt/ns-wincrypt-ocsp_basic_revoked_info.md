@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>OCSP_BASIC_REVOKED_INFO</b> structure contains the reason a certificate was revoked. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structure uses this structure.
+The <b>OCSP_BASIC_REVOKED_INFO</b> structure contains the reason a certificate was revoked. The <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structure uses this structure.
 
 ## -struct-fields
 
 ### -field RevocationDate
 
-Date that the certificate was revoked. For more information, see the <b>RevocationDate</b> member description for <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_entry">CRL_ENTRY</a>.
+Date that the certificate was revoked. For more information, see the <b>RevocationDate</b> member description for <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_entry">CRL_ENTRY</a>.
 
 ### -field dwCrlReasonCode
 
@@ -89,7 +89,7 @@ No reason was specified for revocation.
 </dl>
 </td>
 <td width="60%">
-It is known or suspected that the subject's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> or other aspects of the subject validated in the certificate are compromised.
+It is known or suspected that the subject's <a href="/windows/desktop/SecGloss/p-gly">private key</a> or other aspects of the subject validated in the certificate are compromised.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ It is known or suspected that the subject's <a href="https://docs.microsoft.com/
 </dl>
 </td>
 <td width="60%">
-It is known or suspected that the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA's) private key or other aspects of the CA validated in the certificate are compromised.
+It is known or suspected that the <a href="/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA's) private key or other aspects of the CA validated in the certificate are compromised.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ The certificate has been placed on hold.
 </dl>
 </td>
 <td width="60%">
-The certificate has been removed from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
+The certificate has been removed from the <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
@@ -163,9 +163,8 @@ The certificate has been removed from the <a href="https://docs.microsoft.com/wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_entry">CRL_ENTRY</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_entry">CRL_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a>

@@ -87,7 +87,7 @@ Position style. This member can be one of the following values:
 
 ### -field ptCurrentPos
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the coordinates of the upper left corner of the composition window.
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the coordinates of the upper left corner of the composition window.
 
 ### -field rcArea
 
@@ -99,9 +99,8 @@ Some IME windows adjust the composition window position specified by the system 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>

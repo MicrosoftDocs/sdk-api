@@ -85,7 +85,7 @@ BOOL set to <b>TRUE</b> if dwFreshnessTime has been updated.
 
 ### -field dwFreshnessTime
 
-If <b>fHasFreshnessTime</b> is <b>TRUE</b>, holds the CurrentTime minus the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list's</a> (CRL's). This time is in seconds.
+If <b>fHasFreshnessTime</b> is <b>TRUE</b>, holds the CurrentTime minus the <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list's</a> (CRL's). This time is in seconds.
 
 ### -field pCrlInfo
 
@@ -93,5 +93,4 @@ For CRL base revocation checking, a non-<b>NULL</b> pointer to a CERT_REVOCATION
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a>

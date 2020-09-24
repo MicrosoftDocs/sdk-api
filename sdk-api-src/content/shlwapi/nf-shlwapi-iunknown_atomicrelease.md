@@ -66,7 +66,7 @@ The address of a pointer to a COM interface.
 
 ## -remarks
 
-If <i>ppunk</i> points to a <b>NULL</b> pointer, no operation is performed. Otherwise, <i>ppunk</i> is assumed to be the address of a COM interface pointer, derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. The function calls the interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method then sets the interface pointer to <b>NULL</b>.
+If <i>ppunk</i> points to a <b>NULL</b> pointer, no operation is performed. Otherwise, <i>ppunk</i> is assumed to be the address of a COM interface pointer, derived from <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. The function calls the interface's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method then sets the interface pointer to <b>NULL</b>.
 
 
 #### Examples
@@ -85,4 +85,3 @@ void sample()
     // At this point, pstm is NULL
 }
 ```
-

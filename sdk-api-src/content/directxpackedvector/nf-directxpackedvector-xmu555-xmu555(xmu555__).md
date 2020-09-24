@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMU555</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>.
+A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>.
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.</div>
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>

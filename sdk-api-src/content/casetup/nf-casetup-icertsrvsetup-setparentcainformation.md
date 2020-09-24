@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SetParentCAInformation</b> method sets the parent <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) information for a subordinate CA configuration. This facilitates retrieval and installation of the subordinate certificate directly from the parent CA. The parent CA must be a Microsoft CA.
+The <b>SetParentCAInformation</b> method sets the parent <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) information for a subordinate CA configuration. This facilitates retrieval and installation of the subordinate certificate directly from the parent CA. The parent CA must be a Microsoft CA.
 
 ## -parameters
 
@@ -67,5 +67,4 @@ For more information about setup properties, see <a href="/windows/win32/api/cas
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

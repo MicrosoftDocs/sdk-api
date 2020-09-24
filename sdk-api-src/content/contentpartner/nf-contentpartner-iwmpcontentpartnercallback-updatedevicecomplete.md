@@ -52,7 +52,7 @@ api_name:
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
-The <b>UpdateDeviceComplete</b> method notifies Windows Media Player that the online store has finished processing a call to <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-updatedevice">IWMPContentPartner::UpdateDevice</a>.
+The <b>UpdateDeviceComplete</b> method notifies Windows Media Player that the online store has finished processing a call to <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-updatedevice">IWMPContentPartner::UpdateDevice</a>.
 
 ## -parameters
 
@@ -88,5 +88,4 @@ This method should be called in response to <b>UpdateDevice</b>, following the c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>

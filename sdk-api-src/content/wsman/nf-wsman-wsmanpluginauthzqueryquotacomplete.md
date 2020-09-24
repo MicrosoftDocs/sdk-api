@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Called from the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota">WSManPluginAuthzQueryQuota</a> plug-in entry point and  must be called whether or not the plug-in can carry out the request.
+Called from the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota">WSManPluginAuthzQueryQuota</a> plug-in entry point and  must be called whether or not the plug-in can carry out the request.
 
 ## -parameters
 
 ### -param senderDetails [in]
 
-A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota">WSManPluginAuthzQueryQuota</a> plug-in call.
+A pointer  to the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota">WSManPluginAuthzQueryQuota</a> plug-in call.
 
 ### -param flags [in]
 
@@ -64,7 +64,7 @@ Reserved for future use. Must be zero.
 
 ### -param quota [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_authz_quota">WSMAN_AUTHZ_QUOTA</a> structure that specifies quota information for a specific user.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_authz_quota">WSMAN_AUTHZ_QUOTA</a> structure that specifies quota information for a specific user.
 
 ### -param errorCode [in]
 
@@ -81,4 +81,3 @@ The method returns <b>ERROR_SUCCESS</b> if it succeeded; otherwise,  it returns 
 ## -remarks
 
 If the <i>quota</i> parameter is <b>null</b> and the <i>errorCode</i> is <b>NO_ERROR</b>, the method returns <b>ERROR_INVALID_PARAMETER</b> and the plug-in returns the default quota information.  If the plug-in is not returning a quota, the authorization plug-in should not specify that quotas are available in the configuration because performance might be affected.
-

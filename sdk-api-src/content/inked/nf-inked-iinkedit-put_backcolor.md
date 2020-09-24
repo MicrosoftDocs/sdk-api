@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the background color for the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
+Gets or sets the background color for the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
 
 This property is read/write.
 
@@ -67,5 +67,4 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

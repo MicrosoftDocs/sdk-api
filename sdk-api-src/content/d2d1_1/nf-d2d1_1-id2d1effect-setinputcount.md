@@ -87,7 +87,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -remarks
 
-Most effects do not support a variable number of inputs. Use <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)">ID2D1Properties::GetValue</a> with the <b>D2D1_PROPERTY_MIN_INPUTS</b> and <b>D2D1_PROPERTY_MAX_INPUTS</b> values to determine the number of inputs supported by an effect.
+Most effects do not support a variable number of inputs. Use <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)">ID2D1Properties::GetValue</a> with the <b>D2D1_PROPERTY_MIN_INPUTS</b> and <b>D2D1_PROPERTY_MAX_INPUTS</b> values to determine the number of inputs supported by an effect.
 
 If the input count is less than the minimum or more than the maximum supported inputs, the call will fail.
 
@@ -99,21 +99,20 @@ If the method fails, the existing input and input count will remain unchanged.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getoutput">ID2D1Effect::GetOutput</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getoutput">ID2D1Effect::GetOutput</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>

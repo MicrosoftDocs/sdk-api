@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the check state of a radio button or check box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-getcheck">BM_GETCHECK</a> message explicitly.
+Gets the check state of a radio button or check box. You can use this macro or send the <a href="/windows/desktop/Controls/bm-getcheck">BM_GETCHECK</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 ## -remarks
 
 If the button has a style other than those listed, the return value is zero.
-

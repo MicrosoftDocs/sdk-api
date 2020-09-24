@@ -69,9 +69,9 @@ The flags that can be used to control the search. It can be any combination of <
 
 ### -param str [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a></b>
+Type: <b><a href="/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a> value that specifies the type of string that is to be returned.
+The <a href="/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a> value that specifies the type of string that is to be returned.
 
 ### -param pszAssoc [in]
 
@@ -154,13 +154,12 @@ Returns a standard COM error value, including the following:
 
 ## -remarks
 
-This function is a wrapper for the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface. The <b>AssocQueryString</b> function is intended to simplify the process of using <b>IQueryAssociations</b> interface.
+This function is a wrapper for the <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface. The <b>AssocQueryString</b> function is intended to simplify the process of using <b>IQueryAssociations</b> interface.
 
-Once an item is selected, the host must decide which (if any) preview handler is available for that item. Preview handlers are typically registered on file name extensions or ProgID, but some preview handlers are only instantiated for items within particular shell folders (the MAPI preview handler is associated with any items that came from the MAPI Shell folder, for example). Thus, the host must use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> to determine which preview handler to use. For further discussion of how the file and protocol association functions work, see <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>.
+Once an item is selected, the host must decide which (if any) preview handler is available for that item. Preview handlers are typically registered on file name extensions or ProgID, but some preview handlers are only instantiated for items within particular shell folders (the MAPI preview handler is associated with any items that came from the MAPI Shell folder, for example). Thus, the host must use <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> to determine which preview handler to use. For further discussion of how the file and protocol association functions work, see <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>.
 
 
 
 
 > [!NOTE]
 > The shlwapi.h header defines AssocQueryString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

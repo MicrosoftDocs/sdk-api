@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Contains flags that specify whether the Media Engine will play protected content, and whether the Media Engine will use the <a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a> (PMP).
+Contains flags that specify whether the Media Engine will play protected content, and whether the Media Engine will use the <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a> (PMP).
 
 ## -enum-fields
 
 ### -field MF_MEDIA_ENGINE_ENABLE_PROTECTED_CONTENT
 
-Enable playback of protected content. The Media Engine will not play DRM-protected content unless this flag is set. If you set this flag, also set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-media-engine-content-protection-manager">MF_MEDIA_ENGINE_CONTENT_PROTECTION_MANAGER</a> attribute.
+Enable playback of protected content. The Media Engine will not play DRM-protected content unless this flag is set. If you set this flag, also set the <a href="/windows/desktop/medfound/mf-media-engine-content-protection-manager">MF_MEDIA_ENGINE_CONTENT_PROTECTION_MANAGER</a> attribute.
 
 ### -field MF_MEDIA_ENGINE_USE_PMP_FOR_ALL_CONTENT
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a> (PMP) for all playback, including clear (non-protected) content.
+Use the <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a> (PMP) for all playback, including clear (non-protected) content.
 
 ### -field MF_MEDIA_ENGINE_USE_UNPROTECTED_PMP
 
@@ -68,13 +68,12 @@ Create the PMP inside an unprotected process. You can use this option to play cl
 
 ## -remarks
 
-These flags are used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-media-engine-content-protection-flags">MF_MEDIA_ENGINE_CONTENT_PROTECTION_FLAGS</a> attribute.
+These flags are used with the <a href="/windows/desktop/medfound/mf-media-engine-content-protection-flags">MF_MEDIA_ENGINE_CONTENT_PROTECTION_FLAGS</a> attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-
+<a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>

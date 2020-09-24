@@ -68,5 +68,4 @@ The RCM service is stopping.
 
 ## -remarks
 
-This enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WTS_SERVICE_STATE</a> structure.
-
+This enumeration type is used by the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WTS_SERVICE_STATE</a> structure.

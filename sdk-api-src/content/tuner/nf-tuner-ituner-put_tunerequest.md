@@ -56,7 +56,7 @@ The <b>put_TuneRequest</b> method sets the tune request currently in effect for 
 
 ### -param TuneRequest [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> object that will be used to set the Network Provider.
+Pointer to an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> object that will be used to set the Network Provider.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Calling this method initiates a tuning operation based on the properties of the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>

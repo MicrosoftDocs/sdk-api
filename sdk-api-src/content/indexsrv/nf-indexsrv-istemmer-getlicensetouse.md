@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the license information for this <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation.
+Gets the license information for this <a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Gets the license information for this <a href="https://docs.microsoft.com/window
 
 Type: <b>const WCHAR**</b>
 
-Pointer to a variable that receives a pointer to the license information for this <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation.
+Pointer to a variable that receives a pointer to the license information for this <a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation.
 
 ## -returns
 
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Windows Search does not enforce license restrictions. The implementation determines the storage method for the license information.
-

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_DSA_PARAMETER_HEADER</b> structure is used to contain parameter header information for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_DSA_PARAMETERS</a> property in the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function.
+The <b>BCRYPT_DSA_PARAMETER_HEADER</b> structure is used to contain parameter header information for a <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key. This structure is used with the <a href="/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_DSA_PARAMETERS</a> property in the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function.
 
 ## -struct-fields
 
@@ -102,9 +102,8 @@ The single memory block consists of the following items:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>
-
+<a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>

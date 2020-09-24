@@ -54,7 +54,7 @@ The <b>IWMPErrorItem</b> interface provides a way to access error information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPErrorItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPErrorItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPErrorItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_customurl">get_customUrl</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_customurl">get_customUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL of a website that displays specific information about codec download failure.
@@ -78,7 +78,7 @@ Retrieves the URL of a website that displays specific information about codec do
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errorcode">get_errorCode</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errorcode">get_errorCode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current error code.
@@ -87,7 +87,7 @@ Retrieves the current error code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errorcontext">get_errorContext</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errorcontext">get_errorContext</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the context of the error.
@@ -96,7 +96,7 @@ Retrieves a value indicating the context of the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errordescription">get_errorDescription</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errordescription">get_errorDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the error.
@@ -105,7 +105,7 @@ Retrieves a description of the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_remedy">get_remedy</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_remedy">get_remedy</a>
 </td>
 <td align="left" width="63%">
 Reserved for future use.
@@ -123,19 +123,18 @@ Retrieve a pointer to an <b>IWMPErrorItem</b> interface with the following metho
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperror-get_item">get_item</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmperror-get_item">get_item</a>
 </td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem2">IWMPErrorItem2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem2">IWMPErrorItem2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

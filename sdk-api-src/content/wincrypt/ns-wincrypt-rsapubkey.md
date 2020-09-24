@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>RSAPUBKEY</b> structure contains information specific to the particular public key contained in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>.
+The <b>RSAPUBKEY</b> structure contains information specific to the particular public key contained in the <a href="/windows/desktop/SecGloss/k-gly">key BLOB</a>.
 
 ## -struct-fields
 
@@ -63,7 +63,7 @@ Set to RSA1 (0x31415352) for public keys and to RSA2 (0x32415352) for private ke
 
 
 
-<div class="alert"><b>Note</b>  The hexadecimal values are the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> encoding of RSA1 and RSA2.</div>
+<div class="alert"><b>Note</b>  The hexadecimal values are the <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> encoding of RSA1 and RSA2.</div>
 <div> </div>
 
 ### -field bitlen
@@ -76,13 +76,12 @@ The public exponent.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)">DSSPUBKEY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)">DSSPUBKEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>

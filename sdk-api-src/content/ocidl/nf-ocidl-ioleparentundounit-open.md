@@ -56,7 +56,7 @@ Opens a new parent undo unit, which becomes part of the containing unit's undo s
 
 ### -param pPUU [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a> pointer to the parent undo unit to be opened.
+An <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a> pointer to the parent undo unit to be opened.
 
 ## -returns
 
@@ -64,17 +64,16 @@ This method returns S_OK if the parent undo unit was successfully opened or it i
 
 ## -remarks
 
-The specified parent unit is created and remains open. The undo manager then calls the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-add">IOleParentUndoUnit::Add</a> or <b>IOleParentUndoUnit::Open</b> methods on this parent unit to add new units to it. This parent unit receives any additional undo units until its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-close">IOleParentUndoUnit::Close</a> method is called.
+The specified parent unit is created and remains open. The undo manager then calls the <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-add">IOleParentUndoUnit::Add</a> or <b>IOleParentUndoUnit::Open</b> methods on this parent unit to add new units to it. This parent unit receives any additional undo units until its <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-close">IOleParentUndoUnit::Close</a> method is called.
 
-The parent unit specified by <i>pPUU</i> is not added to the undo stack until its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-close">IOleParentUndoUnit::Close</a> method is called with the <i>fCommit</i> parameter set to <b>TRUE</b>.
+The parent unit specified by <i>pPUU</i> is not added to the undo stack until its <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-close">IOleParentUndoUnit::Close</a> method is called with the <i>fCommit</i> parameter set to <b>TRUE</b>.
 
 The parent undo unit or undo manager must contain any undo unit given to it unless it is blocked. If it is blocked, it must return S_OK but should do nothing else.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-open">IOleParentUndoUnit::Open</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-open">IOleParentUndoUnit::Open</a>

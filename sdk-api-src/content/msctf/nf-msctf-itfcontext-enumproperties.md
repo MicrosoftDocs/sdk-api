@@ -56,7 +56,7 @@ Obtains a document property enumerator.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties</a> interface pointer that receives the enumerator object.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties</a> interface pointer that receives the enumerator object.
 
 ## -returns
 
@@ -115,10 +115,9 @@ A memory allocation failure occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties
+<a href="/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>

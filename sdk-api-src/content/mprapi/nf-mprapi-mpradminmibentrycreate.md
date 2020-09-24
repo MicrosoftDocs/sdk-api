@@ -58,7 +58,7 @@ The
 ### -param hMibServer [in]
 
 Handle to the router on which to execute this call. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
 
 ### -param dwPid [out]
 
@@ -71,7 +71,7 @@ Specifies the routing protocol that exported the variable.
 ### -param lpEntry [in]
 
 Pointer to an opaque data 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/mib-structures">structure</a>. The data structure's format is determined by the router manager or router manager client servicing the call. The data structure should contain information that specifies the variable being created and the value to assign to the variable.
+<a href="/previous-versions/windows/desktop/mib/mib-structures">structure</a>. The data structure's format is determined by the router manager or router manager client servicing the call. The data structure should contain information that specifies the variable being created and the value to assign to the variable.
 
 ### -param dwEntrySize [in]
 
@@ -140,29 +140,28 @@ Do not pass in <b>NULL</b> for the <i>lpEntry</i> parameter because the resultin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/mib-structures">MIB Structures</a>
+<a href="/previous-versions/windows/desktop/mib/mib-structures">MIB Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrydelete">MprAdminMIBEntryDelete</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrydelete">MprAdminMIBEntryDelete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a>
+<a href="/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
+<a href="/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
+<a href="/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/transport-identifiers">Transport Identifiers</a>
-
+<a href="/windows/desktop/RRAS/transport-identifiers">Transport Identifiers</a>

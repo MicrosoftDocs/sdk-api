@@ -68,7 +68,7 @@ Specifies which groups of the <i>hglrcSrc</i> rendering state are to be copied t
 
 ## -returns
 
-If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -78,25 +78,24 @@ You can copy the same state information available only with the <b>glPushAttrib<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
+<a href="/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/glpushattrib">glPushAttrib</a>
+<a href="/windows/desktop/OpenGL/glpushattrib">glPushAttrib</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext">wglCreateContext</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext">wglCreateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglcreatelayercontext">wglCreateLayerContext</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglcreatelayercontext">wglCreateLayerContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglsharelists">wglShareLists</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglsharelists">wglShareLists</a>

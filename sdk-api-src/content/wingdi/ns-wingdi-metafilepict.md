@@ -84,7 +84,7 @@ A handle to a memory metafile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
+<a href="/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -96,5 +96,4 @@ A handle to a memory metafile.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclipboarddata">SetClipboardData</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setclipboarddata">SetClipboardData</a>

@@ -57,7 +57,7 @@ Sets the time source for the presentation clock. The time source is the object t
 
 ### -param pTimeSource [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationtimesource">IMFPresentationTimeSource</a> interface of the time source.
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationtimesource">IMFPresentationTimeSource</a> interface of the time source.
 
 ## -returns
 
@@ -107,15 +107,14 @@ The time source has not been initialized.
 
 The presentation clock cannot start until it has a time source.
 
-The time source is automatically registered to receive state change notifications from the clock, through the time source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a> interface, which all time sources must implement.
+The time source is automatically registered to receive state change notifications from the clock, through the time source's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a> interface, which all time sources must implement.
 
-This time source have a frequency of 10 MHz. See <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getclockcharacteristics">IMFClock::GetClockCharacteristics</a>. If not, the method returns MF_E_CLOCK_NOT_SIMPLE.
+This time source have a frequency of 10 MHz. See <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getclockcharacteristics">IMFClock::GetClockCharacteristics</a>. If not, the method returns MF_E_CLOCK_NOT_SIMPLE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

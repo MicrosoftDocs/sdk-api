@@ -65,17 +65,16 @@ If the method fails, the return value is one of the following error codes.
 
 Use the 
 <b>Restore</b> method to cancel changes made by calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a> method.
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-apply">ISdo::Apply</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-apply">ISdo::Apply</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a>

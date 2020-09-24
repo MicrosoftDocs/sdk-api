@@ -56,7 +56,7 @@ Retrieves the error messages associated with a particular error and language cod
 
 ### -param apiHandle [in]
 
-Specifies the API handle returned by a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmaninitialize">WSManInitialize</a> call. This parameter  cannot be <b>NULL</b>.
+Specifies the API handle returned by a <a href="/windows/desktop/api/wsman/nf-wsman-wsmaninitialize">WSManInitialize</a> call. This parameter  cannot be <b>NULL</b>.
 
 ### -param flags
 
@@ -85,4 +85,3 @@ Specifies the actual number of characters written to the output buffer, includin
 ## -returns
 
 This method returns zero on success. Otherwise, this method returns an error code.
-

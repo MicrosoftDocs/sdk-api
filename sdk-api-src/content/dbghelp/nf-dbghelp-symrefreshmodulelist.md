@@ -57,7 +57,7 @@ Refreshes the module list for the process.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ## -returns
 
@@ -65,16 +65,15 @@ If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 This function enumerates the loaded modules for the process and effectively calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function for each module. This same process is performed by <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> if <i>fInvadeProcess</i> is <b>TRUE</b>.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function for each module. This same process is performed by <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> if <i>fInvadeProcess</i> is <b>TRUE</b>.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>

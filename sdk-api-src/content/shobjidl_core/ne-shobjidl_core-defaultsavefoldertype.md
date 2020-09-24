@@ -56,7 +56,7 @@ Specifies the default save location.
 
 ### -field DSFT_DETECT
 
-The current user determines the save folder. If the current user is the library's owner,  use the private save location (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-defaultsavefoldertype">DSFT_PRIVATE</a>). If the current user is not the library's owner, use the public save location (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-defaultsavefoldertype">DSFT_PUBLIC</a>).
+The current user determines the save folder. If the current user is the library's owner,  use the private save location (<a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-defaultsavefoldertype">DSFT_PRIVATE</a>). If the current user is not the library's owner, use the public save location (<a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-defaultsavefoldertype">DSFT_PUBLIC</a>).
 
 ### -field DSFT_PRIVATE
 
@@ -73,14 +73,13 @@ These values cannot be combined.
 <h3><a id="Used_By"></a><a id="used_by"></a><a id="USED_BY"></a>Used By</h3>
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getdefaultsavefolder">IShellLibrary::GetDefaultSaveFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getdefaultsavefolder">IShellLibrary::GetDefaultSaveFolder</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-setdefaultsavefolder">IShellLibrary::SetDefaultSaveFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-setdefaultsavefolder">IShellLibrary::SetDefaultSaveFolder</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>

@@ -73,7 +73,7 @@ The action code. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Provide debug trace information. The <i>data</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
+Provide debug trace information. The <i>data</i> parameter is a pointer to an <a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
 
 <b>DbgHelp 6.0 and earlier:  </b>This value is not supported.
 
@@ -122,21 +122,20 @@ The format of this parameter depends on the value of the <i>action</i> parameter
 
 ### -param context [in]
 
-The context information provided by calling <a href="https://docs.microsoft.com/previous-versions/ff797954(v=vs.85)">SymbolServerSetOptions</a> with SSRVOPT_SETCONTEXT.
+The context information provided by calling <a href="/previous-versions/ff797954(v=vs.85)">SymbolServerSetOptions</a> with SSRVOPT_SETCONTEXT.
 
 ## -returns
 
 To indicate success, return <b>TRUE</b>.
 
 To indicate failure, return <b>FALSE</b> and call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to indicate an error condition. If you do not handle a particular action code, you should also return <b>FALSE</b>. (Returning <b>TRUE</b> in this case may have unintended consequences.)
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to indicate an error condition. If you do not handle a particular action code, you should also return <b>FALSE</b>. (Returning <b>TRUE</b> in this case may have unintended consequences.)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>

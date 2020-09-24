@@ -87,7 +87,7 @@ The <b>IDWritePixelSnapping</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/dd371281(v=vs.85)">IsPixelSnappingDisabled</a>
+<a href="/previous-versions/windows/win32/legacy/dd371281(v=vs.85)">IsPixelSnappingDisabled</a>
 </td>
 <td align="left" width="63%">
  Determines whether pixel snapping is disabled. The recommended default is <b>FALSE</b>, unless doing animation that requires subpixel vertical placement.
@@ -95,4 +95,3 @@ The <b>IDWritePixelSnapping</b> interface has these methods.
 </td>
 </tr>
 </table>
-

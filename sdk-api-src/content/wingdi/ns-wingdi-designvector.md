@@ -68,7 +68,7 @@ Number of values in the <b>dvValues</b> array.
 
 ### -field dvValues
 
-An array specifying the values of the axes of a multiple master OpenType font. This array corresponds to the <b>axlAxisInfo</b> array in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a> structure.
+An array specifying the values of the axes of a multiple master OpenType font. This array corresponds to the <b>axlAxisInfo</b> array in the <a href="/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a> structure.
 
 ## -remarks
 
@@ -78,25 +78,24 @@ The PostScript Open Type Font does not support multiple master functionality.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontmemresourceex">AddFontMemResourceEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-addfontmemresourceex">AddFontMemResourceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourceexa">RemoveFontResourceEx</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-removefontresourceexa">RemoveFontResourceEx</a>

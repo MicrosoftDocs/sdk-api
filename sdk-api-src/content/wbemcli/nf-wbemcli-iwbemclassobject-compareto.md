@@ -90,7 +90,7 @@ Ignore default values of properties. This flag is only meaningful when comparing
 #### WBEM_FLAG_IGNORE_FLAVOR
 
 Ignore qualifier flavors. This flag still takes qualifier values into account, but ignores flavor distinctions such as propagation rules and override restrictions (for more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>).
+<a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>).
 
 
 
@@ -107,21 +107,20 @@ Assume that the objects being compared are instances of the same class. Conseque
 ### -param pCompareTo [in]
 
 Object in comparison. This pointer must point to a valid 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> instance. It cannot be <b>NULL</b>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> instance. It cannot be <b>NULL</b>.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
+<a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
 
 
 
 <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_comparison_flag">WBEM_COMPARISON_FLAG</a>
-

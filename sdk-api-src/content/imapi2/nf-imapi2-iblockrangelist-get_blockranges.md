@@ -56,7 +56,7 @@ Returns the list of sector ranges in the form of a safe array of variants of typ
 
 ### -param value [out, retval]
 
-List of sector ranges. Each element of the list is a VARIANT of type VT_Dispatch. Query the pdispVal member of the variant for the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a> interface.
+List of sector ranges. Each element of the list is a VARIANT of type VT_Dispatch. Query the pdispVal member of the variant for the <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a> interface.
 
 ## -returns
 
@@ -97,9 +97,8 @@ Value: 0x8007000E
 
 ## -remarks
 
-The order of sector ranges in <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> is taken into account during burning. The sector ranges having lower indexes in the safe array returned by <b>IBlockRangeList::get_BlockRanges</b> are written before those with higher indexes.
+The order of sector ranges in <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> is taken into account during burning. The sector ranges having lower indexes in the safe array returned by <b>IBlockRangeList::get_BlockRanges</b> are written before those with higher indexes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a>

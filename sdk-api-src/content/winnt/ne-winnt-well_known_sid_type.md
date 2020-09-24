@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WELL_KNOWN_SID_TYPE</b> enumeration is a list of commonly used <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs). Programs can pass these values to the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a> function to create a SID from this list.
+The <b>WELL_KNOWN_SID_TYPE</b> enumeration is a list of commonly used <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs). Programs can pass these values to the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a> function to create a SID from this list.
 
 ## -enum-fields
 
@@ -518,17 +518,16 @@ Indicates a SID for removable storage capability for app containers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Allowing Anonymous Access</a>
+<a href="/windows/desktop/SecAuthZ/allowing-anonymous-access">Allowing Anonymous Access</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-iswellknownsid">IsWellKnownSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-iswellknownsid">IsWellKnownSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/well-known-sids">Well-known SIDs</a>
-
+<a href="/windows/desktop/SecAuthZ/well-known-sids">Well-known SIDs</a>

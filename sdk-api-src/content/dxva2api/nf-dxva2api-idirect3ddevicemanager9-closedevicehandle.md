@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Closes a Direct3D device handle. Call this method to release a device handle retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">IDirect3DDeviceManager9::OpenDeviceHandle</a> method.
+Closes a Direct3D device handle. Call this method to release a device handle retrieved by the <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">IDirect3DDeviceManager9::OpenDeviceHandle</a> method.
 
 ## -parameters
 
@@ -93,9 +93,8 @@ Invalid handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
+<a href="/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>
-
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>

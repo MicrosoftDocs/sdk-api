@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-An <b>IInkD2DRenderer</b> object enables the rendering of ink strokes onto the designated  Direct2D device context of a Universal Windows app, instead of the default <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.inkcanvas">InkCanvas</a> control.
+An <b>IInkD2DRenderer</b> object enables the rendering of ink strokes onto the designated  Direct2D device context of a Universal Windows app, instead of the default <a href="/uwp/api/windows.ui.xaml.controls.inkcanvas">InkCanvas</a> control.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkD2DRenderer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkD2DRenderer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkD2DRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkD2DRenderer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IInkD2DRenderer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw">Draw</a>
+<a href="/windows/desktop/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw">Draw</a>
 </td>
 <td align="left" width="63%">
 Renders the ink stroke to the designated  Direct2D device context of the app.
@@ -84,7 +84,7 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_ink/ink-renderer-interfaces">Ink renderer interfaces</a>
+<a href="/previous-versions/windows/desktop/input_ink/ink-renderer-interfaces">Ink renderer interfaces</a>
 
 
 
@@ -92,7 +92,7 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
+<a href="/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
 
 
 
@@ -101,4 +101,3 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
-

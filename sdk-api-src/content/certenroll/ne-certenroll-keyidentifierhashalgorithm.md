@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>KeyIdentifierHashAlgorithm</b> enumeration type specifies the algorithm used to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This enumeration is used by the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-computekeyidentifier">ComputeKeyIdentifier</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a> interface, and the key identifier can be used to initialize the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsubjectkeyidentifier">IX509ExtensionSubjectKeyIdentifier</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionauthoritykeyidentifier">IX509ExtensionAuthorityKeyIdentifier</a>  objects.
+The <b>KeyIdentifierHashAlgorithm</b> enumeration type specifies the algorithm used to <a href="/windows/desktop/SecGloss/h-gly">hash</a> the <a href="/windows/desktop/SecGloss/p-gly">public key</a> in a <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. This enumeration is used by the  <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-computekeyidentifier">ComputeKeyIdentifier</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a> interface, and the key identifier can be used to initialize the  <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsubjectkeyidentifier">IX509ExtensionSubjectKeyIdentifier</a> and <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionauthoritykeyidentifier">IX509ExtensionAuthorityKeyIdentifier</a>  objects.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ The default hash algorithm. This is redundant with the <b>SKIHashSha1</b> value.
 
 ### -field SKIHashSha1
 
-A 160-bit SHA-1 hash of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded public key, excluding the tag, length, and number of unused bits.
+A 160-bit SHA-1 hash of a <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded public key, excluding the tag, length, and number of unused bits.
 
 ### -field SKIHashCapiSha1
 
@@ -74,25 +74,24 @@ A 256-bit SHA256 (SHA-2) hash of a DER-encoded public key, including the tag, le
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-computekeyidentifier">ComputeKeyIdentifier</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-computekeyidentifier">ComputeKeyIdentifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionauthoritykeyidentifier">IX509ExtensionAuthorityKeyIdentifier</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionauthoritykeyidentifier">IX509ExtensionAuthorityKeyIdentifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsubjectkeyidentifier">IX509ExtensionSubjectKeyIdentifier</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsubjectkeyidentifier">IX509ExtensionSubjectKeyIdentifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>

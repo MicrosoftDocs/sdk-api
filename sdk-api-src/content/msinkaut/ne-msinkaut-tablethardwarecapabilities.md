@@ -80,9 +80,8 @@ This enumeration is a flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_hardwarecapabilities">HardwareCapabilities Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_hardwarecapabilities">HardwareCapabilities Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>

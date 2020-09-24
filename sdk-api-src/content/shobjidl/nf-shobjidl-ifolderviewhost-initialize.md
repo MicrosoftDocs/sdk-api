@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes the object that hosts an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> object.
+Initializes the object that hosts an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> object.
 
 ## -parameters
 
@@ -58,11 +58,11 @@ Initializes the object that hosts an <a href="https://docs.microsoft.com/windows
 
 Type: <b>HWND</b>
 
-The handle of the window that contains the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ifolderviewhost">IFolderViewHost</a> object.
+The handle of the window that contains the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ifolderviewhost">IFolderViewHost</a> object.
 
 ### -param pdo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
 The address of a pointer to a data object.
 
@@ -77,4 +77,3 @@ The address of a pointer to a <b>RECT</b> structure that specifies the dimension
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

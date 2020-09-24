@@ -68,5 +68,4 @@ Assign a fixed UDP port from a specified range of UDP ports.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportservicepolicy2-get_udpportpolicy">IWdsTransportServicePolicy2::UdpPortPolicy Property</a>
-
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportservicepolicy2-get_udpportpolicy">IWdsTransportServicePolicy2::UdpPortPolicy Property</a>

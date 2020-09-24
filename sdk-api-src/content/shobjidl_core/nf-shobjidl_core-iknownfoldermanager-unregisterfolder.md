@@ -58,7 +58,7 @@ Remove a known folder from the registry, which makes it unknown to the known fol
 
 Type: <b>REFKNOWNFOLDERID</b>
 
-<b>GUID</b> or <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that represents the known folder.
+<b>GUID</b> or <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that represents the known folder.
 
 ## -returns
 
@@ -78,7 +78,7 @@ Returns S_OK if successful, or an error value otherwise, including the following
 </dl>
 </td>
 <td width="60%">
-Among other things, this value can indicate that the <i>rfid</i> parameter references a <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that is not present on the system. Not all <b>KNOWNFOLDERID</b> values are present on all systems. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-getfolderids">IKnownFolderManager::GetFolderIds</a> to retrieve the set of <b>KNOWNFOLDERID</b> values known to the current system.
+Among other things, this value can indicate that the <i>rfid</i> parameter references a <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that is not present on the system. Not all <b>KNOWNFOLDERID</b> values are present on all systems. Use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-getfolderids">IKnownFolderManager::GetFolderIds</a> to retrieve the set of <b>KNOWNFOLDERID</b> values known to the current system.
 
 </td>
 </tr>
@@ -91,13 +91,12 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-registerfolder">IKnownFolderManager::RegisterFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-registerfolder">IKnownFolderManager::RegisterFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

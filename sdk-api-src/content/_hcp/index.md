@@ -16,5 +16,4 @@ Overview of the Hardware Counter Profiling technology.
 The Hardware Counter Profiling technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Hardware Counter Profiling](https://docs.microsoft.com/previous-versions/windows/desktop/hcp)
-
+* [Hardware Counter Profiling](/previous-versions/windows/desktop/hcp)

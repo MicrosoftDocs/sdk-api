@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Flags used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> to specify details of a known folder redirection such as permissions and ownership for the redirected folder.
+Flags used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> to specify details of a known folder redirection such as permissions and ownership for the redirected folder.
 
 ## -enum-fields
 
@@ -72,7 +72,7 @@ Set the owner of a newly created target folder.  If the user belongs to the Admi
 
 ### -field KF_REDIRECT_CHECK_ONLY
 
-Do not perform a redirection, simply check whether redirection has occurred. If so, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> returns S_OK; if not, or if some actions remain to be completed, it returns S_FALSE.
+Do not perform a redirection, simply check whether redirection has occurred. If so, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> returns S_OK; if not, or if some actions remain to be completed, it returns S_FALSE.
 
 ### -field KF_REDIRECT_WITH_UI
 
@@ -100,7 +100,7 @@ Reserved. Do not use.
 
 ## -remarks
 
-The <b><b>KF_REDIRECT_OWNER_USER</b></b> and <b><b>KF_REDIRECT_SET_OWNER_EXPLICIT</b></b> flags provide ownership checks for the target folder, if that folder exists. By default, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> does not perform ownership checks. KF_REDIRECT_OWNER_USER and KF_REDIRECT_SET_OWNER_EXPLICIT are only valid if called together.
+The <b><b>KF_REDIRECT_OWNER_USER</b></b> and <b><b>KF_REDIRECT_SET_OWNER_EXPLICIT</b></b> flags provide ownership checks for the target folder, if that folder exists. By default, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> does not perform ownership checks. KF_REDIRECT_OWNER_USER and KF_REDIRECT_SET_OWNER_EXPLICIT are only valid if called together.
 
 The <b>KF_REDIRECT_FLAGS</b> type is defined in Shobjidl.h as shown here.
 
@@ -111,5 +111,4 @@ typedef DWORD KF_REDIRECT_FLAGS;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

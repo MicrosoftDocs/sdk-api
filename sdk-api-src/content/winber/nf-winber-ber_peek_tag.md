@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ber_peek_tag</b> function returns the tag of the next element to be parsed in the supplied <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+The <b>ber_peek_tag</b> function returns the tag of the next element to be parsed in the supplied <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 ## -parameters
 
 ### -param pBerElement [in]
 
-Pointer to the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+Pointer to the source <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 ### -param pLen [out]
 
@@ -64,21 +64,20 @@ Returns the length of the next element to be parsed.
 
 ## -returns
 
-Returns the tag of the next element to be read in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure. LBER_DEFAULT is returned if there is no further data to be read.
+Returns the tag of the next element to be read in the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure. LBER_DEFAULT is returned if there is no further data to be read.
 
 ## -remarks
 
-The decoding position within the <i>pBerElement</i> parameter is unchanged by this call; that is, the fact that <b>ber_peek_tag</b> has been called does not affect future use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+The decoding position within the <i>pBerElement</i> parameter is unchanged by this call; that is, the fact that <b>ber_peek_tag</b> has been called does not affect future use of the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_first_element">ber_first_element</a>
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_first_element">ber_first_element</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_next_element">ber_next_element</a>
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_next_element">ber_next_element</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_skip_tag">ber_skip_tag</a>
-
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_skip_tag">ber_skip_tag</a>

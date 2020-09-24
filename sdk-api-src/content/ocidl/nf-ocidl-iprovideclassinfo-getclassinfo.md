@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> interface for the object's type information. The type information for an object corresponds to the object's <a href="https://msdn.microsoft.com/">coclass</a> entry in a type library.
+Retrieves a pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> interface for the object's type information. The type information for an object corresponds to the object's <a href="https://msdn.microsoft.com/">coclass</a> entry in a type library.
 
 ## -parameters
 
 ### -param ppTI [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> pointer variable that receives the interface pointer to the object's type information. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the returned interface pointer if this method returns successfully.
+A pointer to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> pointer variable that receives the interface pointer to the object's type information. The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the returned interface pointer if this method returns successfully.
 
 ## -returns
 
@@ -94,7 +94,7 @@ The address in <i>ppTI</i> is not valid. For example, it may be <b>NULL</b>.
 ## -remarks
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-This method must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> before returning. If the object loads the type information from a type library, the type library itself will call <b>AddRef</b> in creating the pointer.
+This method must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> before returning. If the object loads the type information from a type library, the type library itself will call <b>AddRef</b> in creating the pointer.
 
 Because the caller cannot specify a locale identifier (LCID) when calling this method, this method must assume the neutral language, that is, LANGID_NEUTRAL, and use this value to determine what locale-specific type information to return.
 
@@ -102,5 +102,4 @@ This method must be implemented; E_NOTIMPL is not an acceptable return value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo">IProvideClassInfo</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo">IProvideClassInfo</a>

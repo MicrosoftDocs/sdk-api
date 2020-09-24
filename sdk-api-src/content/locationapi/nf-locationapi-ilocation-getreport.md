@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Retrieves a location report.
@@ -63,7 +63,7 @@ Retrieves a location report.
 
 ### -param ppLocationReport [out]
 
-Address of a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> that receives the specified location report.
+Address of a pointer to <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> that receives the specified location report.
 
 ## -returns
 
@@ -166,11 +166,11 @@ Out of memory.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface for specific location report types.   Call <b>QueryInterface</b> to retrieve a pointer to the correct report type.
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface for specific location report types.   Call <b>QueryInterface</b> to retrieve a pointer to the correct report type.
 
 When <b>GetReport</b> is called, it may result in a notification being displayed in the taskbar, and a Location Activity event being logged in Event Viewer, if it is the application's first use of location.
 
-<div class="alert"><b>Note</b>  When an application first starts, or when a new location sensor is enabled, <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">GetReportStatus</a> may report a status of <b>REPORT_RUNNING</b>  shortly before the new location report is available. Therefore, an initial call to <b>GetReport</b> can return an error (<b>ERROR_NO_DATA</b>) or a value that is not from the expected location sensor, even if <b>GetReportStatus</b> indicates a status of <b>REPORT_RUNNING</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">GetReportStatus</a> for a description of a workaround for this issue.</div>
+<div class="alert"><b>Note</b>  When an application first starts, or when a new location sensor is enabled, <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">GetReportStatus</a> may report a status of <b>REPORT_RUNNING</b>  shortly before the new location report is available. Therefore, an initial call to <b>GetReport</b> can return an error (<b>ERROR_NO_DATA</b>) or a value that is not from the expected location sensor, even if <b>GetReportStatus</b> indicates a status of <b>REPORT_RUNNING</b>. See <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">GetReportStatus</a> for a description of a workaround for this issue.</div>
 <div> </div>
 
 #### Examples
@@ -191,4 +191,3 @@ if (SUCCEEDED(hr))
 }
 
 ```
-

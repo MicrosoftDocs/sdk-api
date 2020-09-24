@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a> object with the character attributes of the current range.
+Gets an <a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a> object with the character attributes of the current range.
 
 ## -parameters
 
@@ -58,19 +58,18 @@ Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itext
 
 Type: <b>ITextFont2**</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a> object.
+The <a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a> object.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setfont2">ITextRange2::SetFont2</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrange2-setfont2">ITextRange2::SetFont2</a>

@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINEQUEUEENTRY</b> structure provides the information for a single queue entry. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a> structure can contain an array of 
+<a href="/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a> structure can contain an array of 
 <b>LINEQUEUEENTRY</b> structures. This structure requires TAPI 3.0 version negotiation.
 
 ## -struct-fields
@@ -75,13 +75,12 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetqueuelista">lineGetQueueList</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetqueuelista">lineGetQueueList</a>

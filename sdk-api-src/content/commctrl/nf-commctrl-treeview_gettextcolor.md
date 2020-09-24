@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Retrieves the current text color of the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-gettextcolor">TVM_GETTEXTCOLOR</a> message explicitly.
+Retrieves the current text color of the control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-gettextcolor">TVM_GETTEXTCOLOR</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a tree-view control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_settextcolor">TreeView_SetTextColor</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_settextcolor">TreeView_SetTextColor</a>

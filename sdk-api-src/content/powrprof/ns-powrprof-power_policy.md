@@ -61,34 +61,33 @@ Contains power policy settings that are unique to each power scheme.
 ### -field user
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-user_power_policy">USER_POWER_POLICY</a> structure that defines user power policy settings.
+<a href="/windows/desktop/api/powrprof/ns-powrprof-user_power_policy">USER_POWER_POLICY</a> structure that defines user power policy settings.
 
 ### -field mach
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_power_policy">MACHINE_POWER_POLICY</a> structure that defines computer power policy settings.
+<a href="/windows/desktop/api/powrprof/ns-powrprof-machine_power_policy">MACHINE_POWER_POLICY</a> structure that defines computer power policy settings.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-enumpwrschemes">EnumPwrSchemes</a>
+<a href="/windows/desktop/api/powrprof/nf-powrprof-enumpwrschemes">EnumPwrSchemes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_power_policy">MACHINE_POWER_POLICY</a>
+<a href="/windows/desktop/api/powrprof/ns-powrprof-machine_power_policy">MACHINE_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-readpwrscheme">ReadPwrScheme</a>
+<a href="/windows/desktop/api/powrprof/nf-powrprof-readpwrscheme">ReadPwrScheme</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a>
+<a href="/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-user_power_policy">USER_POWER_POLICY</a>
+<a href="/windows/desktop/api/powrprof/ns-powrprof-user_power_policy">USER_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-writepwrscheme">WritePwrScheme</a>
-
+<a href="/windows/desktop/api/powrprof/nf-powrprof-writepwrscheme">WritePwrScheme</a>

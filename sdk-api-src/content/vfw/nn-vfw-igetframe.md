@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <b>IGetFrame</b> interface supports extracting, decompressing, and displaying individual frames from an open stream. Uses <a href="https://docs.microsoft.com/previous-versions/dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="https://docs.microsoft.com/previous-versions/dd757100(v=vs.85)">IUnknown::AddRef</a>, <a href="https://docs.microsoft.com/previous-versions/dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
+The <b>IGetFrame</b> interface supports extracting, decompressing, and displaying individual frames from an open stream. Uses <a href="/previous-versions/dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="/previous-versions/dd757100(v=vs.85)">IUnknown::AddRef</a>, <a href="/previous-versions/dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetFrame</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetFrame</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetFrame</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetFrame</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IGetFrame</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-igetframe-begin">Begin</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-igetframe-begin">Begin</a>
 </td>
 <td align="left" width="63%">
 Prepares to extract and decompress copies of video frames from a stream.
@@ -79,7 +79,7 @@ Prepares to extract and decompress copies of video frames from a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-igetframe-end">End</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-igetframe-end">End</a>
 </td>
 <td align="left" width="63%">
 Ends frame extraction and decompression.
@@ -88,7 +88,7 @@ Ends frame extraction and decompression.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-igetframe-getframe">GetFrame</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-igetframe-getframe">GetFrame</a>
 </td>
 <td align="left" width="63%">
 Retrieves a decompressed copy of a frame from a stream.
@@ -97,7 +97,7 @@ Retrieves a decompressed copy of a frame from a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-igetframe-setformat">SetFormat</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-igetframe-setformat">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the image format of the frames being extracted.
@@ -108,9 +108,8 @@ Sets the image format of the frames being extracted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

@@ -57,7 +57,7 @@ Enumerates the first stream with a ::$DATA stream type in the specified file or
     directory.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirststreamtransactedw">FindFirstStreamTransactedW</a> 
+    <a href="/windows/desktop/api/winbase/nf-winbase-findfirststreamtransactedw">FindFirstStreamTransactedW</a> 
     function.
 
 ## -parameters
@@ -69,7 +69,7 @@ The fully qualified file name.
 ### -param InfoLevel [in]
 
 The information level of the returned data. This parameter is one of the values in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-stream_info_levels">STREAM_INFO_LEVELS</a> enumeration type.
+      <a href="/windows/desktop/api/fileapi/ne-fileapi-stream_info_levels">STREAM_INFO_LEVELS</a> enumeration type.
 
 <table>
 <tr>
@@ -84,7 +84,7 @@ The information level of the returned data. This parameter is one of the values 
 </td>
 <td width="60%">
 The data is returned in a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure.
+        <a href="/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure.
 
 </td>
 </tr>
@@ -102,33 +102,30 @@ Reserved for future use. This parameter must be zero.
 ## -returns
 
 If the function succeeds, the return value is a search handle that can be used in subsequent calls to the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function.
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
-       error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If no streams can be found, the function fails and 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+If no  streams can be found, the function fails and 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_HANDLE_EOF</b> (38).
        
 If the filesystem does not support streams, the function fails and
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_INVALID_PARAMETER</b> (87).
 
 
 ## -remarks
 
-The <b>FindFirstStreamW</b> function opens a search 
-    handle and returns information about the first :$DATA stream in the specified file or directory. For 
-    files, this is always the default data stream, "::$DATA". Directories do not have :$DATA streams by default, but may
-    have them set after they have been created. If a queried directory does not have a :$DATA stream, the returned handle
-    is HANDLE_INVALID and GetLastError() returns ERROR_HANDLE_EOF.
-    If the filesystem does not support streams, the returned handle is HANDLE_INVALID and GetLastError() returns
-    ERROR_HANDLE_INVALID.
-    After the search handle has been established, use it in the
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function to 
+The <b>FindFirstStreamW</b> function opens a search handle and returns information about the first
+    $DATA stream in the specified file or directory.
+    For files, this is always the default, unnamed data stream, "::$DATA". Directories do not have $DATA streams by default
+    and cannot have an unnamed data stream, but may have named data streams set after they have been created.
+    After the search handle has been established, use it in calls to the
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function to 
     search for other streams in the specified file or directory. When the search handle is no longer needed, it should 
-    be closed using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
+    be closed using the <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -194,25 +191,24 @@ SMB 3.0 supports list of streams less than or equal to 64K.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirststreamtransactedw">FindFirstStreamTransactedW</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-findfirststreamtransactedw">FindFirstStreamTransactedW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-stream_info_levels">STREAM_INFO_LEVELS</a>
+<a href="/windows/desktop/api/fileapi/ne-fileapi-stream_info_levels">STREAM_INFO_LEVELS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
-
+<a href="/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>

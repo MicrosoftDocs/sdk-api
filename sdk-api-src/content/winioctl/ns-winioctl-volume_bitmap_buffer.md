@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Represents the occupied and available clusters on a disk. This structure is the output buffer for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a> control code.
 
 ## -struct-fields
 
@@ -74,9 +74,8 @@ The <b>BitmapSize</b> member is the number of clusters on the volume starting fr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmentation</a>
+<a href="/windows/desktop/FileIO/defragmenting-files">Defragmentation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a>

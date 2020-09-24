@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-sizerecttomin">MCM_SIZERECTTOMIN</a> message explicitly.
+Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-sizerecttomin">MCM_SIZERECTTOMIN</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
@@ -65,4 +65,3 @@ Handle to a month calendar control.
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 On entry, contains a pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that describes a region that is greater than or equal to the size necessary to fit the desired number of calendars. When this function returns, contains the minimum <b>RECT</b> structure that fits this number of calendars.
-

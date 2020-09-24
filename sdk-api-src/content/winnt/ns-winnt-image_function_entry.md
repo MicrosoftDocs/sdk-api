@@ -88,9 +88,8 @@ typedef struct _IMAGE_FUNCTION_ENTRY64 {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
+<a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>

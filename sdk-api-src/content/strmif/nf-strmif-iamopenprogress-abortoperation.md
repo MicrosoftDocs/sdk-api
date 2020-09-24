@@ -61,9 +61,8 @@ Returns S_OK if successful, or an <b>HRESULT</b> value indicating the cause of t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamopenprogress">IAMOpenProgress Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamopenprogress">IAMOpenProgress Interface</a>

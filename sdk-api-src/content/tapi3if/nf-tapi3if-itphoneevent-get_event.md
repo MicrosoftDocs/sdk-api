@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_Event</b> method returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_event">PHONE_EVENT</a> value specifying the type of phone event that occurred.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-phone_event">PHONE_EVENT</a> value specifying the type of phone event that occurred.
 
 ## -parameters
 
 ### -param pEvent [out]
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_event">PHONE_EVENT</a> descriptor of the event.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-phone_event">PHONE_EVENT</a> descriptor of the event.
 
 ## -returns
 
@@ -67,5 +67,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent">ITPhoneEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent">ITPhoneEvent</a>

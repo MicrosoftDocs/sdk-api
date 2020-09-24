@@ -70,7 +70,7 @@ Internet Engineering Task Force (IETF) RFC 3066 describes the recommended encodi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
 
 
 
@@ -79,4 +79,3 @@ Internet Engineering Task Force (IETF) RFC 3066 describes the recommended encodi
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-

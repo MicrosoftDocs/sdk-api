@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
+Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
 
 ## -parameters
 
@@ -78,5 +78,4 @@ Unauthorization completed successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>

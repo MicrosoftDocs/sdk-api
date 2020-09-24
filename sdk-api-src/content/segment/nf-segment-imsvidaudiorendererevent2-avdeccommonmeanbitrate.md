@@ -60,9 +60,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommonmeanbitrate">AVDecCommonMeanBitRate Property</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommonmeanbitrate">AVDecCommonMeanBitRate Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>

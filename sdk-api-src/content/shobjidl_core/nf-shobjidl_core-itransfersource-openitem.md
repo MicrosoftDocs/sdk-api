@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Opens the item for copying. Returns an object that can be enumerated for resources (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a>).
+Opens the item for copying. Returns an object that can be enumerated for resources (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a>).
 
 ## -parameters
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be opened.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be opened.
 
 ### -param flags [in]
 
@@ -70,7 +70,7 @@ The flags that control the file operation. One or more of the <a href="/windows/
 
 Type: <b>REFIID</b>
 
-A reference to the IID (the interface ID or GUID) of the interface to return in <i>ppv</i>.  This should be an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a> or an interface derived from <b>IShellItemResources</b>.
+A reference to the IID (the interface ID or GUID) of the interface to return in <i>ppv</i>.  This should be an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a> or an interface derived from <b>IShellItemResources</b>.
 
 ### -param ppv [out]
 
@@ -189,4 +189,3 @@ Operation requires elevated privileges.
 </td>
 </tr>
 </table>
-

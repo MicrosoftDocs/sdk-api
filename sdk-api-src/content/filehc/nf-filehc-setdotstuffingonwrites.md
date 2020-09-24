@@ -56,7 +56,7 @@ Enables dot-stuffing properties on the write path of the file handle cache of th
 
 ### -param pContext [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that contains context information.
+A pointer to an <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure that contains context information.
 
 ### -param fEnable [in]
 
@@ -72,5 +72,4 @@ Returns <b>TRUE</b> if the function succeeds; otherwise, it is <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
-
+<a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>

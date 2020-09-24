@@ -53,17 +53,17 @@ api_name:
 
 ## -description
 
-Invoked by Microsoft Media Foundation to receive the response, provided by the server, in response to a previously sent HTTP or HTTPS request. Media Foundation invokes this method only after having successfully invoked the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endsendrequest">EndSendRequest</a> method.
+Invoked by Microsoft Media Foundation to receive the response, provided by the server, in response to a previously sent HTTP or HTTPS request. Media Foundation invokes this method only after having successfully invoked the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endsendrequest">EndSendRequest</a> method.
 
 ## -parameters
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object that is implemented by Microsoft Media Foundation.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object that is implemented by Microsoft Media Foundation.
 
 ### -param punkState
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a state object, defined by Microsoft Media Foundation. This parameter can be NULL.
+Pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a state object, defined by Microsoft Media Foundation. This parameter can be NULL.
 
 ## -returns
 
@@ -90,5 +90,4 @@ Successfully started the asynchronous operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

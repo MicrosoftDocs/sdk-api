@@ -70,13 +70,12 @@ The table is a new table.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-createtable">ISimilarity::CreateTable</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-createtable">ISimilarity::CreateTable</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-createtable">ISimilarityFileIdTable::CreateTable</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-createtable">ISimilarityFileIdTable::CreateTable</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtable">ISimilarityTraitsTable::CreateTable</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtable">ISimilarityTraitsTable::CreateTable</a>

@@ -56,9 +56,9 @@ Finds named entities of a specified type in a tokenized string, and returns the 
 
 ### -param pEntity [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>*</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object identifying the type of named entity to locate.
+A pointer to an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object identifying the type of named entity to locate.
 
 ### -param pszInputString [in]
 
@@ -68,7 +68,7 @@ An input string in which to search for named entity keywords.
 
 ### -param pTokenCollection [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-itokencollection">ITokenCollection</a>*</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-itokencollection">ITokenCollection</a>*</b>
 
 A pointer to the tokenization of the string in the <i>pszInputString</i> parameter.
 
@@ -88,7 +88,7 @@ Receives a pointer to the number of tokens covered by the named entity keyword t
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to the value of the named entity that was found, as a Unicode string. The caller must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. An <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-inamedentity">INamedEntity</a> object can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ientity-getnamedentity">GetNamedEntity</a> method of <i>pEntity</i> and passing the string that was received in this parameter.
+Receives a pointer to the value of the named entity that was found, as a Unicode string. The caller must free the string by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. An <a href="/windows/desktop/api/structuredquery/nn-structuredquery-inamedentity">INamedEntity</a> object can be obtained by calling the <a href="/windows/desktop/api/structuredquery/nf-structuredquery-ientity-getnamedentity">GetNamedEntity</a> method of <i>pEntity</i> and passing the string that was received in this parameter.
 
 ## -returns
 
@@ -98,5 +98,4 @@ Returns S_OK if the token sequence beginning at position <i>cTokensBegin</i> den
 
 ## -remarks
 
-The method finds only named entities authored with keywords in the schema, not named entities recognized by an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object.
-
+The method finds only named entities authored with keywords in the schema, not named entities recognized by an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object.

@@ -98,11 +98,11 @@ Count of the credentials returned in the <i>Credentials</i> array.
 ### -param Credential [out]
 
 Pointer to an array of pointers to credentials.
-The returned credential is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
+The returned credential is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
 
 ## -returns
 
-The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned.
+The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned.
 
 <table>
 <tr>
@@ -149,14 +149,13 @@ A flag that is not valid was specified for the <i>Flags</i> parameter, or <b>CRE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wincred.h header defines CredEnumerate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

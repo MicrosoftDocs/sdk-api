@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getitemrect">LB_GETITEMRECT</a> message explicitly.
+Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-getitemrect">LB_GETITEMRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -71,4 +71,3 @@ The zero-based index of the item in the list box.
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the client coordinates for the item in the list box.
-

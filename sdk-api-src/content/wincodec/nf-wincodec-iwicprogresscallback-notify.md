@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<b>Notify</b> method is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecprogressnotification-registerprogressnotification">RegisterProgressNotification</a>.
+<b>Notify</b> method is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecprogressnotification-registerprogressnotification">RegisterProgressNotification</a>.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The current frame number.
 
 ### -param operation [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicprogressoperation">WICProgressOperation</a></b>
+Type: <b><a href="/windows/desktop/api/wincodec/ne-wincodec-wicprogressoperation">WICProgressOperation</a></b>
 
 The operation on which progress is being reported.
 
@@ -80,5 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicprogresscallback">IWICProgressCallback</a>
-
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicprogresscallback">IWICProgressCallback</a>

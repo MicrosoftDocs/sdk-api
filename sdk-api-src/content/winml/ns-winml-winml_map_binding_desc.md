@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Contains properties for the binding of type map.
 
@@ -64,7 +64,7 @@ Element count in the map binding.
 
 ### -field KeyType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_tensor_data_type">WINML_TENSOR_DATA_TYPE</a> containing the key element tensor data type.
+A <a href="/windows/desktop/api/winml/ne-winml-winml_tensor_data_type">WINML_TENSOR_DATA_TYPE</a> containing the key element tensor data type.
 
 ### -field pStringKeys
 
@@ -76,7 +76,7 @@ A pointer to the key data of type int.
 
 ### -field Fields
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_tensor_data_type">WINML_TENSOR_DATA_TYPE</a> containing the field element tensor data type.
+A <a href="/windows/desktop/api/winml/ne-winml-winml_tensor_data_type">WINML_TENSOR_DATA_TYPE</a> containing the field element tensor data type.
 
 ### -field pStringFields
 
@@ -93,4 +93,3 @@ A Pointer to the field data of type string.
 ### -field pDoubleFields
 
 A pointer to the field data of type int.
-

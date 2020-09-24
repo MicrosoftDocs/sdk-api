@@ -54,7 +54,7 @@ Manages cancellation requests on an outbound method call and monitors the curren
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICancelMethodCalls</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICancelMethodCalls</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICancelMethodCalls</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICancelMethodCalls</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICancelMethodCalls</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel">Cancel</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Requests that a method call be canceled.
@@ -78,7 +78,7 @@ Requests that a method call be canceled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-testcancel">TestCancel</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-testcancel">TestCancel</a>
 </td>
 <td align="left" width="63%">
 Determines whether a call has been canceled.
@@ -89,5 +89,4 @@ Determines whether a call has been canceled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>

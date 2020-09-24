@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -95,7 +95,7 @@ The **IOCTL_VOLUME_IS_CLUSTERED** control code is valid only if the Cluster serv
 The **ERROR_GEN_FAILURE** error indicates that the computer that currently owns the disk on which the volume resides is a server cluster node, but either the disk is a Physical Disk resource currently in an offline state or the disk is not a Physical Disk resource. To determine which of these situations exists, use the following steps:
 
 1. Call the [ClusterEnum](../clusapi/nf-clusapi-clusterenum.md) function to enumerate all Physical Disk resources in the cluster.
-1. Search each enumerated Physical Disk resource for the volume by calling the [ClusterResourceControl](../clusapi/nf-clusapi-clusterresourcecontrol) function with [CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO](https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info). If you cannot find the volume among the Physical Disk resources in the cluster, the volume does not reside on a Physical Disk resource.
+1. Search each enumerated Physical Disk resource for the volume by calling the [ClusterResourceControl](../clusapi/nf-clusapi-clusterresourcecontrol) function with [CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO](/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info). If you cannot find the volume among the Physical Disk resources in the cluster, the volume does not reside on a Physical Disk resource.
 
 The **ERROR_INVALID_FUNCTION** error indicates that the computer that currently owns the disk on which the volume resides is not a server cluster node or the disk is not a Physical Disk resource. To determine whether a computer is a server cluster node, call the [GetNodeClusterState](../clusapi/nf-clusapi-getnodeclusterstate.md) function.
 
@@ -111,5 +111,4 @@ Cluster Shared Volume File System (CsvFS) | Yes
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
-
+* [Volume Management Control Codes](/windows/desktop/FileIO/volume-management-control-codes)

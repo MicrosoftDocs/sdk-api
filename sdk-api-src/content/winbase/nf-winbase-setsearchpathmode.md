@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the per-process mode that the <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> 
+Sets the per-process mode that the <a href="/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> 
     function uses when locating files.
 
 ## -parameters
@@ -114,24 +114,24 @@ If the operation completes successfully, the
 
 If the operation fails, the <b>SetSearchPathMode</b> 
        function returns zero. To get extended error information, call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 If the <b>SetSearchPathMode</b> function fails because a 
        parameter value is not valid, the value returned by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function will be 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function will be 
        <b>ERROR_INVALID_PARAMETER</b>.
 
 If the <b>SetSearchPathMode</b> function fails because 
        the combination of current state and parameter value is not valid, the value returned by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function will be 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function will be 
        <b>ERROR_ACCESS_DENIED</b>. For more information, see the Remarks section.
 
 ## -remarks
 
 If the <b>SetSearchPathMode</b> function has not been 
     successfully called for the current process, the search mode used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> function is obtained from the system registry. For 
-    more information, see <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>.
+    <a href="/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> function is obtained from the system registry. For 
+    more information, see <a href="/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>.
 
 After the <b>SetSearchPathMode</b> function has been 
     successfully called for the current process, the setting in the system registry is ignored in favor of the mode 
@@ -143,7 +143,7 @@ If the <b>SetSearchPathMode</b> function has been
      safe mode is set permanently for the calling process. Any subsequent calls to the 
      <b>SetSearchPathMode</b> function from within that process 
      that attempt to change the search mode will fail with <b>ERROR_ACCESS_DENIED</b> from the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+     <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <div class="alert"><b>Note</b>  Because setting safe search mode permanently cannot be disabled for the life of the process for which is was 
      set, it should be used with careful consideration. This is particularly true for DLL development, where the user 
@@ -214,9 +214,8 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>
-
+<a href="/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>

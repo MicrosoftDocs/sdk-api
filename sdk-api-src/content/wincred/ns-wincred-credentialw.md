@@ -93,7 +93,7 @@ If <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b> or <b>CRED_TYPE_DOMAIN_CERTIF
 </dl>
 </td>
 <td width="60%">
-Bit is set if this credential has a <b>TargetName</b> member set to the same value as the <b>UserName</b> member. Such a credential is one designed to store the <b>CredentialBlob</b> for a specific user. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> function.
+Bit is set if this credential has a <b>TargetName</b> member set to the same value as the <b>UserName</b> member. Such a credential is one designed to store the <b>CredentialBlob</b> for a specific user. For more information, see the <a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> function.
 
 This bit can only be specified if <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b> or <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>.
 
@@ -384,7 +384,7 @@ The user name of the account used to connect to <b>TargetName</b>.
 
 If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b>, this member can be either a _DomainName\\UserName_ or a UPN.
 
-If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>, this member must be a marshaled certificate reference created by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with a CertCredential.
+If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>, this member must be a marshaled certificate reference created by calling <a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with a CertCredential.
 
 If the credential <b>Type</b> is <b>CRED_TYPE_GENERIC</b>, this member can be non-<b>NULL</b>, but the credential manager ignores the member.
 
@@ -394,4 +394,3 @@ This member cannot be longer than <b>CRED_MAX_USERNAME_LENGTH</b> (513) characte
 
 > [!NOTE]
 > The wincred.h header defines CREDENTIAL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

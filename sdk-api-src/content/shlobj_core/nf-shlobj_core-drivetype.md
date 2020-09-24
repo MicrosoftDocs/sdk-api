@@ -154,13 +154,12 @@ The drive is a RAM disk.
 
 ## -remarks
 
-<b>DriveType</b> is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype">RealDriveType</a>. <b>RealDriveType</b> is the preferred function.
+<b>DriveType</b> is equivalent to calling <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype">RealDriveType</a>. <b>RealDriveType</b> is the preferred function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype">RealDriveType</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype">RealDriveType</a>

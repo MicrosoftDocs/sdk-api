@@ -60,7 +60,7 @@ The
 
 ### -param ppAsync [out]
 
-Doubly indirect pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> instance.
+Doubly indirect pointer to an <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> instance.
 
 ## -returns
 
@@ -79,7 +79,7 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 Successfully returned a pointer to an instance of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the valid values returned by the <i>pHrResult</i> parameter.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. Refer to <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the valid values returned by the <i>pHrResult</i> parameter.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -138,7 +138,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 <td width="60%">
 An unexpected error occurred during communication with writers. The error code is logged in the error log file. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -146,48 +146,47 @@ An unexpected error occurred during communication with writers. The error code i
 
 ## -remarks
 
-When working in component mode (<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a> was called with a select components argument of <b>TRUE</b>), writers can determine the success or failure of the backup of any component explicitly included in the Backup Components Document components by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupsucceeded">IVssComponent::GetBackupSucceeded</a>. Therefore, a well-behaved backup application (requester) must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">IVssBackupComponents::SetBackupSucceeded</a> after each component has been processed and prior to calling 
+When working in component mode (<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a> was called with a select components argument of <b>TRUE</b>), writers can determine the success or failure of the backup of any component explicitly included in the Backup Components Document components by using 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupsucceeded">IVssComponent::GetBackupSucceeded</a>. Therefore, a well-behaved backup application (requester) must call 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">IVssBackupComponents::SetBackupSucceeded</a> after each component has been processed and prior to calling 
 <b>BackupComplete</b>.
 
-Do not call this method if the call to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> failed. For more information about how requesters use  <b>DoSnapshotSet</b>, <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">SetBackupSucceeded</a>, and <b>BackupComplete</b> in a backup operation, see <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a> and <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-actual-backup-of-files">Overview of Actual Backup Of Files</a>.
+Do not call this method if the call to <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> failed. For more information about how requesters use  <b>DoSnapshotSet</b>, <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">SetBackupSucceeded</a>, and <b>BackupComplete</b> in a backup operation, see <a href="/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a> and <a href="/windows/desktop/VSS/overview-of-actual-backup-of-files">Overview of Actual Backup Of Files</a>.
 
 This operation is asynchronous. The caller can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> interface method in the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface to determine the status of the notification.
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> interface method in the returned 
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface to determine the status of the notification.
 
-After calling <b>BackupComplete</b>, requesters must call <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">GatherWriterStatus</a> to cause the writer session to be set to a completed state.
+After calling <b>BackupComplete</b>, requesters must call <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">GatherWriterStatus</a> to cause the writer session to be set to a completed state.
 
 <div class="alert"><b>Note</b>  This is only necessary on Windows Server 2008 with Service Pack 2 (SP2) and earlier.</div>
 <div> </div>
 The backup application can choose to abort the backup at any time after the shadow copy is created by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-cancel">IVssAsync::Cancel</a>.
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-cancel">IVssAsync::Cancel</a>.
 
-The calling application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources held by the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> when it is no longer needed.
+The calling application is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources held by the returned 
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> when it is no longer needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-cancel">IVssAsync::Cancel</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-cancel">IVssAsync::Cancel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">IVssBackupComponents::SetBackupSucceeded</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">IVssBackupComponents::SetBackupSucceeded</a>

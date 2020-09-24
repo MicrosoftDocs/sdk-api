@@ -66,17 +66,16 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 COM+ applications can use one of two types of security: role-based security or process access permissions. If role-based security is being used by the application but is currently disabled, either at the application or component level, <i>pfIsEnabled</i> is  <b>FALSE</b>. Similarly, if the COM+ application uses process access permissions instead of role-based security, <i>pfIsEnabled</i> is <b>FALSE</b>.
 
-You can use this method to find out whether role-based security is enabled before you check role membership using <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallcontext-iscallerinrole">IsCallerInRole</a>. The reason for doing this is that <b>IsCallerInRole</b> is <b>TRUE</b> when role-based security is not enabled.
+You can use this method to find out whether role-based security is enabled before you check role membership using <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallcontext-iscallerinrole">IsCallerInRole</a>. The reason for doing this is that <b>IsCallerInRole</b> is <b>TRUE</b> when role-based security is not enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>
+<a href="/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/role-based-security-administration">Role-Based Security</a>
-
+<a href="/windows/desktop/cossdk/role-based-security-administration">Role-Based Security</a>

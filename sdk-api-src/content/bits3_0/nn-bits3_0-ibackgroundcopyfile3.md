@@ -59,7 +59,7 @@ To get an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>. <b>IBackgroundCopyFile3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile3</b> interface inherits from <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a> and <a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>. <b>IBackgroundCopyFile3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IBackgroundCopyFile3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-gettemporaryname">GetTemporaryName</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-gettemporaryname">GetTemporaryName</a>
 </td>
 <td align="left" width="63%">
 Gets the full path of the temporary file that contains the content of the download.
@@ -83,7 +83,7 @@ Gets the full path of the temporary file that contains the content of the downlo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-getvalidationstate">GetValidationState</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-getvalidationstate">GetValidationState</a>
 </td>
 <td align="left" width="63%">
 Gets the validation state of this file.
@@ -92,7 +92,7 @@ Gets the validation state of this file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-isdownloadedfrompeer">IsDownloadedFromPeer</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-isdownloadedfrompeer">IsDownloadedFromPeer</a>
 </td>
 <td align="left" width="63%">
 Gets a value that determines if any part of the file was downloaded from a peer.
@@ -101,7 +101,7 @@ Gets a value that determines if any part of the file was downloaded from a peer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-setvalidationstate">SetValidationState</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyfile3-setvalidationstate">SetValidationState</a>
 </td>
 <td align="left" width="63%">
 Sets the validation state of this file.
@@ -112,9 +112,8 @@ Sets the validation state of this file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>
-
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>

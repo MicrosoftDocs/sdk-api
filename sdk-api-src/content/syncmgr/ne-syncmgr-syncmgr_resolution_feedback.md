@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes Sync Manager resolution feedback. Used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrresolutionhandler">ISyncMgrResolutionHandler</a>.
+Describes Sync Manager resolution feedback. Used by <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrresolutionhandler">ISyncMgrResolutionHandler</a>.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ Proceed to the next conflict.
 ### -field SYNCMGR_RF_CANCEL
 
  Cancels resolution of any more conflicts in the set.
-

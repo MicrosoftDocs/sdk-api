@@ -54,7 +54,7 @@ Provides methods for creating a language-specific stemmer. The stemmer generates
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStemmer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStemmer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStemmer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStemmer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IStemmer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-generatewordforms">GenerateWordForms</a>
+<a href="/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-generatewordforms">GenerateWordForms</a>
 </td>
 <td align="left" width="63%">
-Generates alternative forms for a word and puts these forms in the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordformsink">IWordFormSink</a> object.
+Generates alternative forms for a word and puts these forms in the <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iwordformsink">IWordFormSink</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-getlicensetouse">GetLicenseToUse</a>
+<a href="/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-getlicensetouse">GetLicenseToUse</a>
 </td>
 <td align="left" width="63%">
 Gets the license information for this <b>IStemmer</b> implementation.
@@ -87,7 +87,7 @@ Gets the license information for this <b>IStemmer</b> implementation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-init">Init</a>
+<a href="/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the stemmer.
@@ -102,4 +102,3 @@ Initializes the stemmer.
 Implement this interface to create a custom stemmer for a language. Windows Search calls the methods of this interface to generate inflected forms for words identified when building an index.
 
 Stemmer components for Windows Search run in the Local Security context. They should be written to manage buffers and the stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer.
-

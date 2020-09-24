@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This function can be used by a provider to parse RELAY-FORW messages and their nested OPTION_RELAY_MSG messages.   The information returned can be used to construct a RELAY-REPL packet using the <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxedhcpv6createrelayrepl">PxeDhcpv6CreateRelayRepl</a> function.  
+This function can be used by a provider to parse RELAY-FORW messages and their nested OPTION_RELAY_MSG messages.   The information returned can be used to construct a RELAY-REPL packet using the <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxedhcpv6createrelayrepl">PxeDhcpv6CreateRelayRepl</a> function.  
 
 For more information about RELAY-FORW and OPTION_RELAY_MSG messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
@@ -66,7 +66,7 @@ The size in bytes of the RELAY-FORW message pointed to by the <i>pRelayForwPacke
 
 ### -param pRelayMessages [out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_nested_relay_message">PXE_DHCPV6_NESTED_RELAY_MESSAGE</a> structures initialized by this routine.  The array’s size is specified by <i>nRelayMessages</i>.  Elements of this array are initialized to point to the nested chain of relay packets encoded in OPTION_RELAY_MSG.  Index 0 is the outermost nested OPTION_RELAY_MSG packet. As the index increases the pointers correspond to more deeply nested OPTION_RELAY_MSG packets.
+An array of <a href="/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_nested_relay_message">PXE_DHCPV6_NESTED_RELAY_MESSAGE</a> structures initialized by this routine.  The array’s size is specified by <i>nRelayMessages</i>.  Elements of this array are initialized to point to the nested chain of relay packets encoded in OPTION_RELAY_MSG.  Index 0 is the outermost nested OPTION_RELAY_MSG packet. As the index increases the pointers correspond to more deeply nested OPTION_RELAY_MSG packets.
 
 ### -param nRelayMessages [in]
 
@@ -87,4 +87,3 @@ Specifies a pointer to a <b>ULONG</b> value which on success will be set to the 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
-

@@ -66,11 +66,11 @@ The value to be converted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam">GET_Y_LPARAM</a>
+<a href="/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam">GET_Y_LPARAM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a>
+<a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a>
 
 
 
@@ -78,5 +78,4 @@ The value to be converted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
-
+<a href="/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>

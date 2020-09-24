@@ -56,7 +56,7 @@ Gets the identifier of a provider from the enumerator.
 
 ### -param PublisherEnum [in]
 
-A handle to the registered providers enumerator that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenpublisherenum">EvtOpenPublisherEnum</a> function returns.
+A handle to the registered providers enumerator that the <a href="/windows/desktop/api/winevt/nf-winevt-evtopenpublisherenum">EvtOpenPublisherEnum</a> function returns.
 
 ### -param PublisherIdBufferSize [in]
 
@@ -97,7 +97,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
@@ -112,11 +112,10 @@ This list of provider names is not sorted alphabetically.
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/getting-a-provider-s-metadata-">Getting a Provider's Metadata</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/getting-a-provider-s-metadata-">Getting a Provider's Metadata</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenpublishermetadata">EvtOpenPublisherMetadata</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtopenpublishermetadata">EvtOpenPublisherMetadata</a>

@@ -50,22 +50,21 @@ api_name:
 
 ## -description
 
-Cancels a registration to receive notification when the system is suspended or resumed. Similar to <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerunregistersuspendresumenotification">PowerUnregisterSuspendResumeNotification</a> but operates in user mode.
+Cancels a registration to receive notification when the system is suspended or resumed. Similar to <a href="/windows/desktop/api/powerbase/nf-powerbase-powerunregistersuspendresumenotification">PowerUnregisterSuspendResumeNotification</a> but operates in user mode.
 
 ## -parameters
 
 ### -param Handle [in, out]
 
-A handle to a registration obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registersuspendresumenotification">RegisterSuspendResumeNotification</a> function.
+A handle to a registration obtained by calling the <a href="/windows/desktop/api/winuser/nf-winuser-registersuspendresumenotification">RegisterSuspendResumeNotification</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registersuspendresumenotification">RegisterSuspendResumeNotification</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-registersuspendresumenotification">RegisterSuspendResumeNotification</a>

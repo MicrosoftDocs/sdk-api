@@ -68,7 +68,7 @@ The
 <b>IWbemServices::ExecQuery</b> method executes a query to retrieve objects.
 
 For the valid types of queries that can be performed, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>.
+<a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>.
 
 ## -parameters
 
@@ -78,7 +78,7 @@ Valid <b>BSTR</b> that contains one of the query languages supported by Windows 
 
 ### -param strQuery [in]
 
-Valid <b>BSTR</b> that contains the text of the query. This parameter cannot be <b>NULL</b>. For more information on building WMI query strings, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a> and the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a> reference.
+Valid <b>BSTR</b> that contains the text of the query. This parameter cannot be <b>NULL</b>. For more information on building WMI query strings, see <a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a> and the <a href="/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a> reference.
 
 ### -param lFlags [in]
 
@@ -95,8 +95,8 @@ If this flag is set, WMI retrieves the amended qualifiers stored in the localize
 #### WBEM_FLAG_FORWARD_ONLY
 
 This flag causes a forward-only enumerator to be returned. Forward-only enumerators are generally much faster and use less memory than conventional enumerators but do not allow calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-clone">Clone</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-clone">Clone</a> or 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a>.
 
 
 
@@ -109,7 +109,7 @@ This flag causes Windows Management to retain pointers to objects of the enumera
 #### WBEM_FLAG_RETURN_IMMEDIATELY
 
 This flag causes this to be a semisynchronous call. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 
 
@@ -132,18 +132,18 @@ This flag causes direct access to the provider for the class specified without a
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that can be used by the provider that is providing the requested classes or instances. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that can be used by the provider that is providing the requested classes or instances. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 ### -param ppEnum [out]
 
-If no error occurs, this receives the enumerator that allows the caller to retrieve the instances in the result set of the query. It is not an error for the query to have a result set with 0 instances. This is determined only by attempting to iterate through the instances. This object returns with a positive reference count. The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the object is no longer required.
+If no error occurs, this receives the enumerator that allows the caller to retrieve the instances in the result set of the query. It is not an error for the query to have a result set with 0 instances. This is determined only by attempting to iterate through the instances. This object returns with a positive reference count. The caller must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the object is no longer required.
 
 ## -returns
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a>.
+On failure, you can obtain any available information from the COM function <a href="/windows/win32/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
 COM-specific error codes also can be returned if network problems cause you to lose the remote connection to Windows Management.
 
@@ -151,20 +151,19 @@ COM-specific error codes also can be returned if network problems cause you to l
 
 The 
 <b>IWbemServices::ExecQuery</b> method processes the query specified in the <i>strQuery</i> parameter and creates an enumerator through which the caller can access the query results. The enumerator is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a> interface; the query results are instances of class objects made available through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a> interface; the query results are instances of class objects made available through the 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface.
 
 There are limits to the number of "AND" and "OR" keywords that can be used in WQL queries.  Large numbers of WQL keywords used in a complex query can cause WMI to return the <b>WBEM_E_QUOTA_VIOLATION</b> error code as an <b>HRESULT</b> value.  The limit of WQL keywords depends on how complex the query is.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">IWbemServices::ExecQueryAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">IWbemServices::ExecQueryAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
-
+<a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>

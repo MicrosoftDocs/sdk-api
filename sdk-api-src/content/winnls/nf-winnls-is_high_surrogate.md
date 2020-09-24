@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Determines if a character is a UTF-16 high <a href="https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters">surrogate</a> code point, ranging from 0xd800 to 0xdbff, inclusive.
+Determines if a character is a UTF-16 high <a href="/windows/desktop/Intl/surrogates-and-supplementary-characters">surrogate</a> code point, ranging from 0xd800 to 0xdbff, inclusive.
 
 ## -parameters
 
@@ -60,21 +60,20 @@ Character to test.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-is_low_surrogate">IS_LOW_SURROGATE</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-is_low_surrogate">IS_LOW_SURROGATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-is_surrogate_pair">IS_SURROGATE_PAIR</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-is_surrogate_pair">IS_SURROGATE_PAIR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
+<a href="/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters">Surrogates and Supplementary Characters</a>
-
+<a href="/windows/desktop/Intl/surrogates-and-supplementary-characters">Surrogates and Supplementary Characters</a>

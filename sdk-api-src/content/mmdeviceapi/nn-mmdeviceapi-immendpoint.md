@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-The <b>IMMEndpoint</b> interface represents an <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint device</a>. A client obtains a reference to an <b>IMMEndpoint</b> interface instance by following these steps:
+The <b>IMMEndpoint</b> interface represents an <a href="/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint device</a>. A client obtains a reference to an <b>IMMEndpoint</b> interface instance by following these steps:
 
 <ol>
-<li>By using one of the techniques described in <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>, obtain a reference to the <b>IMMDevice</b> interface of an audio endpoint device.</li>
+<li>By using one of the techniques described in <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>, obtain a reference to the <b>IMMDevice</b> interface of an audio endpoint device.</li>
 <li>Call the <b>IMMDevice::QueryInterface</b> method with parameter <i>iid</i> set to <b>REFIID</b> IID_IMMEndpoint.</li>
 </ol>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMMEndpoint</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMEndpoint</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMMEndpoint</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMEndpoint</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMMEndpoint</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immendpoint-getdataflow">GetDataFlow</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immendpoint-getdataflow">GetDataFlow</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the endpoint is associated with a rendering device or a capture device.
@@ -85,13 +85,12 @@ Indicates whether the endpoint is associated with a rendering device or a captur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>
-
+<a href="/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>

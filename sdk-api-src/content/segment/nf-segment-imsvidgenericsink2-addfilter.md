@@ -88,9 +88,8 @@ The method succeeded.
 
 ## -remarks
 
-Use this method to insert additional filters to the graph other than the sink filter. To specify the sink filter, call <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink-setsinkfilter">IMSVidGenericSink::SetSinkFilter</a>.
+Use this method to insert additional filters to the graph other than the sink filter. To specify the sink filter, call <a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink-setsinkfilter">IMSVidGenericSink::SetSinkFilter</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidgenericsink2">IMSVidGenericSink2 Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidgenericsink2">IMSVidGenericSink2 Interface</a>

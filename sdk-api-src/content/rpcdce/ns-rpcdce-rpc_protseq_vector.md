@@ -70,14 +70,13 @@ Array of pointers to protocol-sequence strings. The number of pointers present i
 The protocol-sequence vector contains a count member (<b>Count</b>), followed by an array of pointers to protocol-sequence strings (<b>Protseq</b>).
 
 The protocol-sequence vector is a read-only vector. To obtain a protocol-sequence vector, a server application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>. The RPC run-time library allocates memory for the protocol-sequence vector. The server application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcprotseqvectorfree">RpcProtseqVectorFree</a> to free the protocol-sequence vector.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>. The RPC run-time library allocates memory for the protocol-sequence vector. The server application calls 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcprotseqvectorfree">RpcProtseqVectorFree</a> to free the protocol-sequence vector.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcprotseqvectorfree">RpcProtseqVectorFree</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcprotseqvectorfree">RpcProtseqVectorFree</a>

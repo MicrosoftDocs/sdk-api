@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains values that specify the event type described by a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiaeventargs">UiaEventArgs</a> structure.
+Contains values that specify the event type described by a <a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiaeventargs">UiaEventArgs</a> structure.
 
 ## -enum-fields
 
@@ -80,11 +80,10 @@ An event raised by a change in editable text.
 
 ### -field EventArgsType_Changes
 
-An event raised by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisechangesevent">UiaRaiseChangesEvent</a>.
+An event raised by calling <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisechangesevent">UiaRaiseChangesEvent</a>.
 
 ### -field EventArgsType_Notification
 
-An event raised by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisenotificationevent">UiaRaiseNotificationEvent</a>.
+An event raised by calling <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisenotificationevent">UiaRaiseNotificationEvent</a>.
 
 ### -field EventArgsType_ActiveTextPositionChanged
-

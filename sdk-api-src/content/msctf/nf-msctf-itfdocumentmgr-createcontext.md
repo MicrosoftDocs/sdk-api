@@ -56,7 +56,7 @@ Creates a context object.
 
 ### -param tidOwner [in]
 
-The client identifier. For an application, this value is provided by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate</a>. For a text service, this value is provided in the text service <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> method.
+The client identifier. For an application, this value is provided by a previous call to <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate</a>. For a text service, this value is provided in the text service <a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> method.
 
 ### -param dwFlags [in]
 
@@ -64,15 +64,15 @@ Reserved, must be zero.
 
 ### -param punk [in]
 
-Pointer to an object that supports the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink">ITfContextOwnerCompositionSink</a> interfaces. This value can be <b>NULL</b>.
+Pointer to an object that supports the <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> or <a href="/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink">ITfContextOwnerCompositionSink</a> interfaces. This value can be <b>NULL</b>.
 
 ### -param ppic [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> pointer that receives the context.
+Address of an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> pointer that receives the context.
 
 ### -param pecTextStore [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value that receives an edit cookie for the new context. This value identifies the context in various methods.
+Pointer to a <a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value that receives an edit cookie for the new context. This value identifies the context in various methods.
 
 ## -returns
 
@@ -131,44 +131,43 @@ An unspecified error occurred.
 
 ## -remarks
 
-All references to the <i>punk</i> parameter are released when the context is destroyed or when the context is removed from the stack with the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop</a> method.
+All references to the <i>punk</i> parameter are released when the context is destroyed or when the context is removed from the stack with the <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink">ITfContextOwnerCompositionSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink">ITfContextOwnerCompositionSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
+<a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfeditcookie">TfEditCookie
+<a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie
       </a>
-

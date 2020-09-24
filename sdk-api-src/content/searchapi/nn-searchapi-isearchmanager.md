@@ -54,7 +54,7 @@ Provides methods for controlling the Search service. This interface manages sett
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,17 +69,17 @@ The <b>ISearchManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_bypasslist">get_BypassList</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_bypasslist">get_BypassList</a>
 </td>
 <td align="left" width="63%">
-Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setproxy">ISearchManager::SetProxy</a>.
+Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setproxy">ISearchManager::SetProxy</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_localbypass">get_LocalBypass</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_localbypass">get_LocalBypass</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that determines whether the proxy server should be bypassed to find the item or URL.
@@ -89,16 +89,16 @@ Retrieves a value that determines whether the proxy server should be bypassed to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_portnumber">get_PortNumber</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_portnumber">get_PortNumber</a>
 </td>
 <td align="left" width="63%">
-Retrieves the port number used to communicate with the proxy server. This port number is stored in the indexer and is set by the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setproxy">ISearchManager::SetProxy</a> method.
+Retrieves the port number used to communicate with the proxy server. This port number is stored in the indexer and is set by the <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setproxy">ISearchManager::SetProxy</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_proxyname">get_ProxyName</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_proxyname">get_ProxyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy name to be used by the protocol handler.
@@ -108,7 +108,7 @@ Retrieves the proxy name to be used by the protocol handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_useproxy">get_UseProxy</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_useproxy">get_UseProxy</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy server to be used.
@@ -118,7 +118,7 @@ Retrieves the proxy server to be used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_useragent">get_UserAgent</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-get_useragent">get_UserAgent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user agent string.
@@ -128,16 +128,16 @@ Retrieves the user agent string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-getcatalog">GetCatalog</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-getcatalog">GetCatalog</a>
 </td>
 <td align="left" width="63%">
-Retrieves a catalog by name and creates a new <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a> object for that catalog.
+Retrieves a catalog by name and creates a new <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a> object for that catalog.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-getindexerversion">GetIndexerVersion</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-getindexerversion">GetIndexerVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version of the current indexer in two chunks: the major version signifier and the minor version signifier.
@@ -146,7 +146,7 @@ Retrieves the version of the current indexer in two chunks: the major version si
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-getindexerversionstr">GetIndexerVersionStr</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-getindexerversionstr">GetIndexerVersionStr</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version of the current indexer as a single string.
@@ -155,7 +155,7 @@ Retrieves the version of the current indexer as a single string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-getparameter">GetParameter</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-getparameter">GetParameter</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -164,7 +164,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-put_useragent">put_UserAgent</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-put_useragent">put_UserAgent</a>
 </td>
 <td align="left" width="63%">
 Sets the user agent string that a user agent passes to website and services to identify itself. 
@@ -174,7 +174,7 @@ Sets the user agent string that a user agent passes to website and services to i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setparameter">SetParameter</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setparameter">SetParameter</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -183,7 +183,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setproxy">SetProxy</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setproxy">SetProxy</a>
 </td>
 <td align="left" width="63%">
 Stores information in the indexer that determines how the indexer will work and communicate with a proxy server.
@@ -195,4 +195,3 @@ Stores information in the indexer that determines how the indexer will work and 
 ## -remarks
 
 For a sample that demonstrates ways to specify which files to re-index and how, see the [ReindexMatchingUrls](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/ReindexMatchingUrls) sample.
-

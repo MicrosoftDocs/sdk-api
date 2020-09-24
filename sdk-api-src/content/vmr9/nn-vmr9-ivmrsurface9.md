@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IVMRSurface9</code> interface is implemented on the media samples used by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>. Filters can use this interface to access the underlying Direct3D surface on which the media sample is based. Filters must always lock and unlock the surface using the methods available on this interface. Filters must never call lock or unlock directly on the Direct3D surface interface returned from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurface-getsurface">GetSurface</a> method. Applications do not use this interface.
+The <code>IVMRSurface9</code> interface is implemented on the media samples used by the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>. Filters can use this interface to access the underlying Direct3D surface on which the media sample is based. Filters must always lock and unlock the surface using the methods available on this interface. Filters must never call lock or unlock directly on the Direct3D surface interface returned from the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurface-getsurface">GetSurface</a> method. Applications do not use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurface9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurface9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurface9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurface9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IVMRSurface9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-getsurface">GetSurface</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-getsurface">GetSurface</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attached Direct3D surface interface.
@@ -79,7 +79,7 @@ Retrieves the attached Direct3D surface interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-issurfacelocked">IsSurfaceLocked</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-issurfacelocked">IsSurfaceLocked</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the Direct3D surface attached to this media sample is locked.
@@ -88,7 +88,7 @@ Indicates whether the Direct3D surface attached to this media sample is locked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-locksurface">LockSurface</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-locksurface">LockSurface</a>
 </td>
 <td align="left" width="63%">
 Locks the attached Direct3D surface.
@@ -97,7 +97,7 @@ Locks the attached Direct3D surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-unlocksurface">UnlockSurface</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-unlocksurface">UnlockSurface</a>
 </td>
 <td align="left" width="63%">
 Unlocks the attached Direct3D surface.
@@ -112,5 +112,4 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

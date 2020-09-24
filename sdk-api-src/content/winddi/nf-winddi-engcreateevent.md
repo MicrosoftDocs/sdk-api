@@ -68,13 +68,12 @@ Pointer to a location in which a valid event object is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeleteevent">EngDeleteEvent</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeleteevent">EngDeleteEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engsetevent">EngSetEvent</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engsetevent">EngSetEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwaitforsingleobject">EngWaitForSingleObject</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engwaitforsingleobject">EngWaitForSingleObject</a>

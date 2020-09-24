@@ -67,7 +67,7 @@ Specifies the product code for the product.
 Specifies the property to be retrieved.  
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/required-properties">Required Properties</a> are guaranteed to be available, but other properties are available only if that property is set. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/properties">Properties</a>. The properties in the following list can be retrieved only from applications that are installed.
+<a href="/windows/desktop/Msi/required-properties">Required Properties</a> are guaranteed to be available, but other properties are available only if that property is set. For more information, see <a href="/windows/desktop/Msi/properties">Properties</a>. The properties in the following list can be retrieved only from applications that are installed.
 
 <table>
 <tr>
@@ -81,7 +81,7 @@ The
 </td>
 <td width="60%">
 Support link. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/arphelplink">ARPHELPLINK</a> property.
+the <a href="/windows/desktop/Msi/arphelplink">ARPHELPLINK</a> property.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/arphelplink">ARPHELP
 </td>
 <td width="60%">
 Support telephone. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/arphelptelephone">ARPHELPTELEPHONE</a> property.
+the <a href="/windows/desktop/Msi/arphelptelephone">ARPHELPTELEPHONE</a> property.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/arphelptelephone">AR
 </dl>
 </td>
 <td width="60%">
-The last time this product received service. The value of this property is replaced each time a patch is applied or removed from the product or the /v <a href="https://docs.microsoft.com/windows/desktop/Msi/command-line-options">Command-Line Option</a> is used to repair the product.  If the product has received no repairs or patches this property contains the time this product was installed on this computer.
+The last time this product received service. The value of this property is replaced each time a patch is applied or removed from the product or the /v <a href="/windows/desktop/Msi/command-line-options">Command-Line Option</a> is used to repair the product.  If the product has received no repairs or patches this property contains the time this product was installed on this computer.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The last time this product received service. The value of this property is repla
 Installed language.
 
 
-<b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 and earlier</a>:  </b>Not supported.
+<b><a href="/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 and earlier</a>:  </b>Not supported.
 
 
 
@@ -128,7 +128,7 @@ Installed language.
 </td>
 <td width="60%">
 Installed product name. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/productname">ProductName</a> property.
+the <a href="/windows/desktop/Msi/productname">ProductName</a> property.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/productname">Product
 </td>
 <td width="60%">
 Installation location. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpinstalllocation">ARPINSTALLLOCATION</a> property.
+the <a href="/windows/desktop/Msi/arpinstalllocation">ARPINSTALLLOCATION</a> property.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpinstalllocation">
 </td>
 <td width="60%">
 Installation source. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/sourcedir">SourceDir</a> property.
+the <a href="/windows/desktop/Msi/sourcedir">SourceDir</a> property.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Local cached package.
 </td>
 <td width="60%">
 Publisher. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/manufacturer">Manufacturer</a> property.
+the <a href="/windows/desktop/Msi/manufacturer">Manufacturer</a> property.
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/manufacturer">Manufa
 </td>
 <td width="60%">
 URL information. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpurlinfoabout">ARPURLINFOABOUT</a> property.
+the <a href="/windows/desktop/Msi/arpurlinfoabout">ARPURLINFOABOUT</a> property.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpurlinfoabout">ARP
 </td>
 <td width="60%">
 URL update information. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpurlupdateinfo">ARPURLUPDATEINFO</a> property.
+the <a href="/windows/desktop/Msi/arpurlupdateinfo">ARPURLUPDATEINFO</a> property.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpurlupdateinfo">AR
 </td>
 <td width="60%">
 Minor product version derived from 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/productversion">ProductVersion</a> property.
+the <a href="/windows/desktop/Msi/productversion">ProductVersion</a> property.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/productversion">Prod
 </td>
 <td width="60%">
 Major product version derived from 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/productversion">ProductVersion</a> property.
+the <a href="/windows/desktop/Msi/productversion">ProductVersion</a> property.
 
 </td>
 </tr>
@@ -226,7 +226,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/productversion">Prod
 </td>
 <td width="60%">
 Product version. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/productversion">ProductVersion</a> property.
+the <a href="/windows/desktop/Msi/productversion">ProductVersion</a> property.
 
 </td>
 </tr>
@@ -244,7 +244,7 @@ To retrieve the product ID, registered owner, or registered company from applica
 <tr>
 <td>ProductID</td>
 <td>The product identifier for the product. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/productid">ProductID</a> property.</td>
+the <a href="/windows/desktop/Msi/productid">ProductID</a> property.</td>
 </tr>
 <tr>
 <td>RegCompany</td>
@@ -266,7 +266,7 @@ To retrieve the instance type of the product, set <i>szProperty</i> to the follo
 </tr>
 <tr>
 <td>InstanceType</td>
-<td>A missing value or a value of 0 (zero) indicates a normal product installation.  A value of 1 (one) indicates a product installed using a multiple instance transform and the MSINEWINSTANCE property.   Available with the installer running Windows Server 2003 or Windows XP with SP1.  For more information see, <a href="https://docs.microsoft.com/windows/desktop/Msi/installing-multiple-instances-of-products-and-patches">Installing Multiple Instances of Products and Patches</a>.</td>
+<td>A missing value or a value of 0 (zero) indicates a normal product installation.  A value of 1 (one) indicates a product installed using a multiple instance transform and the MSINEWINSTANCE property.   Available with the installer running Windows Server 2003 or Windows XP with SP1.  For more information see, <a href="/windows/desktop/Msi/installing-multiple-instances-of-products-and-patches">Installing Multiple Instances of Products and Patches</a>.</td>
 </tr>
 </table>
  
@@ -289,7 +289,7 @@ The advertised properties in the following list can be retrieved from applicatio
 <tr>
 <td>INSTALLPROPERTY_PRODUCTNAME</td>
 <td>Human readable product name. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/productname">ProductName</a> property.</td>
+the <a href="/windows/desktop/Msi/productname">ProductName</a> property.</td>
 </tr>
 <tr>
 <td>INSTALLPROPERTY_ASSIGNMENTTYPE</td>
@@ -303,17 +303,17 @@ Equals 1 (one) if the product is advertised or installed per-machine for all use
 <tr>
 <td>INSTALLPROPERTY_PACKAGECODE</td>
 <td>Identifier of the package this product was installed from. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/package-codes">Package Codes</a>.</td>
+<a href="/windows/desktop/Msi/package-codes">Package Codes</a>.</td>
 </tr>
 <tr>
 <td>INSTALLPROPERTY_VERSION</td>
 <td>Product version derived from 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/productversion">ProductVersion</a> property.</td>
+the <a href="/windows/desktop/Msi/productversion">ProductVersion</a> property.</td>
 </tr>
 <tr>
 <td>INSTALLPROPERTY_PRODUCTICON</td>
 <td>Primary icon for the package. For more information, see 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpproducticon">ARPPRODUCTICON</a> property.</td>
+the <a href="/windows/desktop/Msi/arpproducticon">ARPPRODUCTICON</a> property.</td>
 </tr>
 <tr>
 <td>INSTALLPROPERTY_PACKAGENAME</td>
@@ -321,7 +321,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpproducticon">ARPP
 </tr>
 <tr>
 <td>INSTALLPROPERTY_AUTHORIZED_LUA_APP</td>
-<td>A value of one (1) indicates a product that can be serviced by non-administrators using <a href="https://docs.microsoft.com/windows/desktop/Msi/user-account-control--uac--patching">User Account Control (UAC) Patching</a>. A missing value or a value of 0 (zero) indicates that least-privilege patching is not enabled. Available in Windows Installer 3.0 or later.</td>
+<td>A value of one (1) indicates a product that can be serviced by non-administrators using <a href="/windows/desktop/Msi/user-account-control--uac--patching">User Account Control (UAC) Patching</a>. A missing value or a value of 0 (zero) indicates that least-privilege patching is not enabled. Available in Windows Installer 3.0 or later.</td>
 </tr>
 </table>
 
@@ -409,7 +409,7 @@ The product is unadvertised or uninstalled.
 <td width="60%">
 The property is unrecognized.
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetproductinfoa">MsiGetProductInfo</a> function  returns   ERROR_UNKNOWN_PROPERTY if the application being queried is advertised and not installed.</div>
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/msi/nf-msi-msigetproductinfoa">MsiGetProductInfo</a> function  returns   ERROR_UNKNOWN_PROPERTY if the application being queried is advertised and not installed.</div>
 <div> </div>
 </td>
 </tr>
@@ -423,9 +423,9 @@ When the
 <i>pcchValueBuf</i> contains the size of the string, in characters, without counting the null character.
 
 <b>MsiGetProductInfo</b>(INSTALLPROPERTY_LOCALPACKAGE) does not necessarily return a path to the cached package. The cached package is for internal use only. Maintenance mode installations should be invoked through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigureproducta">MsiConfigureProduct</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigureproductexa">MsiConfigureProductEx</a> functions.
+<a href="/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>, 
+<a href="/windows/desktop/api/msi/nf-msi-msiconfigureproducta">MsiConfigureProduct</a>, or 
+<a href="/windows/desktop/api/msi/nf-msi-msiconfigureproductexa">MsiConfigureProductEx</a> functions.
 
 If you attempt to use <b>MsiGetProductInfo</b> to query an advertised product  for a property that is only available to installed products, the function returns   ERROR_UNKNOWN_PROPERTY. For example, if the application is advertised and not installed, a query for the INSTALLPROPERTY_INSTALLLOCATION property returns an error of ERROR_UNKNOWN_PROPERTY.
 
@@ -438,13 +438,12 @@ If you attempt to use <b>MsiGetProductInfo</b> to query an advertised product  f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
+<a href="/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
-
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>

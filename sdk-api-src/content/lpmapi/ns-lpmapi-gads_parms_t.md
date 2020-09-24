@@ -57,11 +57,11 @@ The
 
 ### -field Gads_serv_hdr
 
-General information and length information for the guaranteed service Adspec object (this structure), expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservservicehdr">IntServServiceHdr</a> structure.
+General information and length information for the guaranteed service Adspec object (this structure), expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservservicehdr">IntServServiceHdr</a> structure.
 
 ### -field Gads_Ctot_hdr
 
-Parameter header for the guaranteed service Adspec, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a> structure.
+Parameter header for the guaranteed service Adspec, expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a> structure.
 
 ### -field Gads_Ctot
 
@@ -69,7 +69,7 @@ Parameter associated with <b>Gads_Ctot_hdr</b>.
 
 ### -field Gads_Dtot_hdr
 
-Parameter header for the guaranteed service Adspec, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a> structure.
+Parameter header for the guaranteed service Adspec, expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a> structure.
 
 ### -field Gads_Dtot
 
@@ -77,7 +77,7 @@ Parameter associated with <b>Gads_Dtot_hdr</b>.
 
 ### -field Gads_Csum_hdr
 
-Parameter header for the guaranteed service Adspec, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a> structure.
+Parameter header for the guaranteed service Adspec, expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a> structure.
 
 ### -field Gads_Csum
 
@@ -85,7 +85,7 @@ Parameter associated with <b>Gads_Csum</b>.
 
 ### -field Gads_Dsum_hdr
 
-Parameter header for the guaranteed service Adspec, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a> structure.
+Parameter header for the guaranteed service Adspec, expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a> structure.
 
 ### -field Gads_Dsum
 
@@ -97,9 +97,8 @@ This object may be followed by override general parameter values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservservicehdr">IntServServiceHdr</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservservicehdr">IntServServiceHdr</a>

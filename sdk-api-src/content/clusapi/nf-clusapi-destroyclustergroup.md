@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-Deletes the specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> from a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. Unlike 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-deleteclustergroup">DeleteClusterGroup</a> the group can contain resources 
+Deletes the specified <a href="/previous-versions/windows/desktop/mscs/groups">group</a> from a 
+    <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. Unlike 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-deleteclustergroup">DeleteClusterGroup</a> the group can contain resources 
     and it can be online. The <b>PCLUSAPI_DESTROY_CLUSTER_GROUP</b> type defines a pointer to this function.
 
 ## -parameters
@@ -67,7 +67,7 @@ This parameter takes a handle to the cluster group to be destroyed.
 
 ## -returns
 
-This function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. If the 
+This function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. If the 
        operation completes successfully the function returns <b>ERROR_SUCCESS</b> (0). Any other 
        returned system error code would indicate that the 
        operation failed.
@@ -78,21 +78,20 @@ The <b>PCLUSAPI_DESTROY_CLUSTER_GROUP</b> type defines a pointer to this functio
 
 <b>DestroyClusterGroup</b> does not close the group 
      handle specified by the <i>hGroup</i> parameter. To avoid memory leaks, be sure to close this handle with 
-     the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a> function.
+     the <a href="/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a> function.
 
 Do not call <b>DestroyClusterGroup</b> from a resource 
      DLL. For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-deleteclustergroup">DeleteClusterGroup</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-deleteclustergroup">DeleteClusterGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the call types used by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>.
+Specifies the call types used by <a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>.
 
 ## -enum-fields
 
@@ -78,5 +78,4 @@ An asynchronous call has arrived with a new logical thread identifier and the ob
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>

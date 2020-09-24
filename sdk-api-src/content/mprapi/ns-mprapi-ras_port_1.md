@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>RAS_PORT_1</b> structure contains detailed information regarding a specific RAS port, such as line speed or errors. For more general information about a port, such as port condition or port name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>.
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>.
 
 ## -struct-fields
 
@@ -71,7 +71,7 @@ Handle to the connection.
 ### -field dwHardwareCondition
 
 Specifies a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-ras_hardware_condition">RAS_HARDWARE_CONDITION</a> structure.
+<a href="/windows/desktop/api/mprapi/ne-mprapi-ras_hardware_condition">RAS_HARDWARE_CONDITION</a> structure.
 
 ### -field dwLineSpeed
 
@@ -127,18 +127,17 @@ Specifies a percentage indicating the degree to which data transmitted on this c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS
+<a href="/windows/desktop/RRAS/ras-administration-structures">RAS
 		  Administration Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-ras_hardware_condition">RAS_HARDWARE_CONDITION</a>
+<a href="/windows/desktop/api/mprapi/ne-mprapi-ras_hardware_condition">RAS_HARDWARE_CONDITION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

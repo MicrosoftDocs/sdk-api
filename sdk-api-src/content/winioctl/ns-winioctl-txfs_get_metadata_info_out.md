@@ -57,7 +57,7 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains the version information about the miniversion that is created.
 
@@ -67,11 +67,11 @@ Contains the version information about the miniversion that is created.
 
 ### -field TxfFileId.LowPart
 
-The lower half of the TxfId of the file referenced by the handle used to call <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info">FSCTL_TXFS_GET_METADATA_INFO</a>. It is unique within a resource manager.
+The lower half of the TxfId of the file referenced by the handle used to call <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info">FSCTL_TXFS_GET_METADATA_INFO</a>. It is unique within a resource manager.
 
 ### -field TxfFileId.HighPart
 
-The higher half of the TxfId of the file referenced by the handle used to call <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info">FSCTL_TXFS_GET_METADATA_INFO</a>. It is unique within a resource manager.
+The higher half of the TxfId of the file referenced by the handle used to call <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info">FSCTL_TXFS_GET_METADATA_INFO</a>. It is unique within a resource manager.
 
 ### -field LockingTransaction
 
@@ -111,5 +111,4 @@ Indicates the state of the transaction that has locked the file. Valid values ar
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info">FSCTL_TXFS_GET_METADATA_INFO</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info">FSCTL_TXFS_GET_METADATA_INFO</a>

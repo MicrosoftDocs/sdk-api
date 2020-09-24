@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/renderingparametersupdate">RenderingParametersUpdate</a> event.
+Unregisters an event handler for the <a href="/windows/desktop/mediastreaming/renderingparametersupdate">RenderingParametersUpdate</a> event.
 
 ## -parameters
 
 ### -param token [in]
 
-A reference to a token obtained from the <a href="https://msdn.microsoft.com/3CEED740-19EA-4CC6-B3F8-F9DE9C6DCC58">add_RenderingParametersUpdate</a> method when the event handler was registered.
+A reference to a token obtained from the <a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-add_renderingparametersupdate">add_RenderingParametersUpdate</a> method when the event handler was registered.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
-
+<a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>

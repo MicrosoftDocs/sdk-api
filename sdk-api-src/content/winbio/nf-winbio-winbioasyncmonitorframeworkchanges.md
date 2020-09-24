@@ -59,7 +59,7 @@ Starts an asynchronous monitor of changes to the biometric framework. Currently,
 
 ### -param FrameworkHandle [in]
 
-Handle to the framework session opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>.
+Handle to the framework session opened by calling <a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>.
 
 ### -param ChangeTypes [in]
 
@@ -84,7 +84,7 @@ A biometric unit has been attached to or detached from the computer.
 
 ## -returns
 
-The function returns an <b>HRESULT</b> indicating success or failure. Note that success indicates only that the function arguments were valid. Failures encountered during the execution of the operation will be returned asynchronously to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure using the notification method specified in <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>.
+The function returns an <b>HRESULT</b> indicating success or failure. Note that success indicates only that the function arguments were valid. Failures encountered during the execution of the operation will be returned asynchronously to a <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure using the notification method specified in <a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>.
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ The <i>FrameworkHandle</i> argument must represent an asynchronous framework ses
 
 ## -remarks
 
-Once started, this monitor will continue generating events until the client application calls <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocancel">WinBioCancel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocloseframework">WinBioCloseFramework</a>. Creating a monitor for <b>WINBIO_FRAMEWORK_CHANGE_UNIT</b> events will generate two types of asynchronous notifications:
+Once started, this monitor will continue generating events until the client application calls <a href="/windows/desktop/api/winbio/nf-winbio-winbiocancel">WinBioCancel</a> or <a href="/windows/desktop/api/winbio/nf-winbio-winbiocloseframework">WinBioCloseFramework</a>. Creating a monitor for <b>WINBIO_FRAMEWORK_CHANGE_UNIT</b> events will generate two types of asynchronous notifications:
 
 <table>
 <tr>
@@ -158,15 +158,14 @@ A biometric unit is detached.
 </table>
  
 
-The <b>WinBioAsyncMonitorFrameworkChanges</b> function uses a handle to the framework session opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>.  The framework allocates a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure  and uses it to return information about operation success or failure. If a biometric unit is attached to or detached from the computer, the framework sets the <b>Operation</b> member of the structure. If a problem is encountered during the operation, the framework uses the <b>WINBIO_ASYNC_RESULT</b> structure to return error information. The structure is returned to the application callback or to the application message queue, depending on the value you set in the <i>NotificationMethod</i> parameter of the <b>WinBioAsyncOpenFramework</b> function.
+The <b>WinBioAsyncMonitorFrameworkChanges</b> function uses a handle to the framework session opened by calling <a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>.  The framework allocates a <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure  and uses it to return information about operation success or failure. If a biometric unit is attached to or detached from the computer, the framework sets the <b>Operation</b> member of the structure. If a problem is encountered during the operation, the framework uses the <b>WINBIO_ASYNC_RESULT</b> structure to return error information. The structure is returned to the application callback or to the application message queue, depending on the value you set in the <i>NotificationMethod</i> parameter of the <b>WinBioAsyncOpenFramework</b> function.
 
 <ul>
-<li>If you choose to receive completion notices by using a callback, you must implement a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nc-winbio-pwinbio_async_completion_callback">PWINBIO_ASYNC_COMPLETION_CALLBACK</a> function and set the  <i>NotificationMethod</i> parameter to <b>WINBIO_ASYNC_NOTIFY_CALLBACK</b>.</li>
-<li>If you choose to receive completion notices by using the application message queue, you must set the  <i>NotificationMethod</i> parameter to <b>WINBIO_ASYNC_NOTIFY_MESSAGE</b>. The framework returns a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> pointer to the <b>LPARAM</b> field of the window message.</li>
+<li>If you choose to receive completion notices by using a callback, you must implement a <a href="/windows/desktop/api/winbio/nc-winbio-pwinbio_async_completion_callback">PWINBIO_ASYNC_COMPLETION_CALLBACK</a> function and set the  <i>NotificationMethod</i> parameter to <b>WINBIO_ASYNC_NOTIFY_CALLBACK</b>.</li>
+<li>If you choose to receive completion notices by using the application message queue, you must set the  <i>NotificationMethod</i> parameter to <b>WINBIO_ASYNC_NOTIFY_MESSAGE</b>. The framework returns a <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> pointer to the <b>LPARAM</b> field of the window message.</li>
 </ul>
-Notifications are   returned in an <b>EnumServiceProviders</b> structure nested inside the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure. You must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the <b>WINBIO_ASYNC_RESULT</b> structure after you have finished using it.
+Notifications are   returned in an <b>EnumServiceProviders</b> structure nested inside the <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure. You must call <a href="/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the <b>WINBIO_ASYNC_RESULT</b> structure after you have finished using it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>

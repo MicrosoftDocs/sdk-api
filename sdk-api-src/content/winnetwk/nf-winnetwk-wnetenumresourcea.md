@@ -54,14 +54,14 @@ api_name:
 
 The
 				<b>WNetEnumResource</b> function continues an enumeration of network resources that was started by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a> function.
 
 ## -parameters
 
 ### -param hEnum [in]
 
 Handle that identifies an enumeration instance. This handle must be returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a> function.
 
 ### -param lpcCount [in, out]
 
@@ -123,7 +123,7 @@ There are no more entries. The buffer contents are undefined.
  
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -171,7 +171,7 @@ The network is unavailable. (This condition is tested before <i>hEnum</i> is tes
 </td>
 <td width="60%">
 A network-specific error occurred. To obtain a description of the error, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
 
 </td>
 </tr>
@@ -181,8 +181,8 @@ A network-specific error occurred. To obtain a description of the error, call th
 
 The 
 <b>WNetEnumResource</b> function does not enumerate users connected to a share; you can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netconnectionenum">NetConnectionEnum</a> function to accomplish this task. To enumerate hidden shares, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a> function.
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netconnectionenum">NetConnectionEnum</a> function to accomplish this task. To enumerate hidden shares, call the 
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a> function.
 
 An application cannot set the <i>lpBuffer</i> parameter to <b>NULL</b> and retrieve the required buffer size from the <i>lpBufferSize</i> parameter. Instead, the application should allocate a buffer of a reasonable size—16 kilobytes is typical—and use the value of <i>lpBufferSize</i> for error detection.
 
@@ -190,7 +190,7 @@ An application cannot set the <i>lpBuffer</i> parameter to <b>NULL</b> and retri
 #### Examples
 
 For a code sample that illustrates an application-defined function that enumerates all the resources on a network, see 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/enumerating-network-resources">Enumerating Network Resources</a>.
+<a href="/windows/desktop/WNet/enumerating-network-resources">Enumerating Network Resources</a>.
 
 <div class="code"></div>
 
@@ -202,23 +202,22 @@ For a code sample that illustrates an application-defined function that enumerat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcloseenum">WNetCloseEnum</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcloseenum">WNetCloseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

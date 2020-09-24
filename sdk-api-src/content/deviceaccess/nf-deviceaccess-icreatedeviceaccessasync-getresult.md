@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a> object that's bound to the device interface that's specified in a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a> function.
+Retrieves an <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a> object that's bound to the device interface that's specified in a call to the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a> function.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ An interface identifier that indicates what type of device access interface the 
 
 ### -param deviceAccess [out]
 
-If the binding was successful, contains an interface of the type that was supplied to the initial call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a>.
+If the binding was successful, contains an interface of the type that was supplied to the initial call to <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a>.
 
 ## -returns
 
@@ -98,5 +98,4 @@ The asynchronous operation wasn't in a valid state. The bind operation was eithe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>
-
+<a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>

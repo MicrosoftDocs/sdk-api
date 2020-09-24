@@ -56,7 +56,7 @@ Called to allow a system language bar item extension to add items to a system la
 
 ### -param pMenu [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu">ITfMenu</a> interface that the system language bar item uses to add items to the system language bar menu.
+Pointer to an <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu">ITfMenu</a> interface that the system language bar item uses to add items to the system language bar menu.
 
 ## -returns
 
@@ -93,10 +93,9 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu">ITfMenu
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu">ITfMenu
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a>
-
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a>

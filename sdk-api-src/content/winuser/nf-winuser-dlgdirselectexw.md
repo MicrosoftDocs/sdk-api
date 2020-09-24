@@ -52,19 +52,19 @@ api_name:
 
 ## -description
 
-Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlista">DlgDirList</a> function and that the selection is a drive letter, filename, or directory name.
+Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the <a href="/windows/desktop/api/winuser/nf-winuser-dlgdirlista">DlgDirList</a> function and that the selection is a drive letter, filename, or directory name.
 
 ## -parameters
 
 ### -param hwndDlg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the dialog box that contains the list box.
 
 ### -param lpString [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer that receives the selected path.
 
@@ -84,11 +84,11 @@ The identifier of a list box in the dialog box.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the current selection is a directory name, the return value is nonzero.
 
-If the current selection is not a directory name, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the current selection is not a directory name, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -97,7 +97,7 @@ The <b>DlgDirSelectEx</b> function copies the selection to the buffer pointed to
                 <i>lpString</i> does not change. 
 If the string is as long or longer than the buffer, the buffer will contain the truncated string with a terminating null character.
 
-<b>DlgDirSelectEx</b> sends <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a> messages to the list box. The function does not allow more than one filename to be returned from a list box. The list box must not be a multiple-selection list box. If it is, this function does not return a zero value and 
+<b>DlgDirSelectEx</b> sends <a href="/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a> and <a href="/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a> messages to the list box. The function does not allow more than one filename to be returned from a list box. The list box must not be a multiple-selection list box. If it is, this function does not return a zero value and 
                 <i>lpString</i> remains unchanged. 
 
 <b>Windows 95 or later</b>: <b>DlgDirSelectExW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://www.microsoft.com/download/details.aspx?id=4237">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
@@ -105,7 +105,7 @@ If the string is as long or longer than the buffer, the buffer will contain the 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-boxes">Creating a Directory Listing in a Single-selection List Box</a>.
+For an example, see <a href="/windows/desktop/Controls/using-list-boxes">Creating a Directory Listing in a Single-selection List Box</a>.
 
 <div class="code"></div>
 
@@ -114,25 +114,24 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlista">DlgDirList</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dlgdirlista">DlgDirList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlistcomboboxa">DlgDirListComboBox</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dlgdirlistcomboboxa">DlgDirListComboBox</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirselectcomboboxexa">DlgDirSelectComboBoxEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dlgdirselectcomboboxexa">DlgDirSelectComboBoxEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a>
+<a href="/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a>
+<a href="/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a>
 
 
 
 <b>Reference</b>
-

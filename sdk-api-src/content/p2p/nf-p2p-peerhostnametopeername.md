@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PeerHostNameToPeerName</b> function decodes a host name returned by <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peernametopeerhostname">PeerNameToPeerHostName</a> into the peer name string it represents.
+The <b>PeerHostNameToPeerName</b> function decodes a host name returned by <a href="/windows/desktop/api/p2p/nf-p2p-peernametopeerhostname">PeerNameToPeerHostName</a> into the peer name string it represents.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Pointer to a zero-terminated Unicode string that contains the host name to decod
 
 ### -param ppwzPeerName [out]
 
-Pointer to the address of the zero-terminated Unicode string that contains the decoded peer name. The returned  string must be released with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Pointer to the address of the zero-terminated Unicode string that contains the decoded peer name. The returned  string must be released with <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -returns
 
@@ -97,5 +97,4 @@ There is not enough memory to perform the specified operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peernametopeerhostname">PeerNameToPeerHostName</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peernametopeerhostname">PeerNameToPeerHostName</a>

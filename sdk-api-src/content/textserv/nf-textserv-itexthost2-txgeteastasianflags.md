@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>.
+Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include <a href="/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ The East Asian flags.
 </tr>
 <tr>
 <td width="40%"><a id="ES_NOIME"></a><a id="es_noime"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_NOIME</a></b></dt>
+<dt><b><a href="/windows/desktop/Controls/rich-edit-control-styles">ES_NOIME</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -77,7 +77,7 @@ IME input is suppressed.
 </tr>
 <tr>
 <td width="40%"><a id="ES_SELFIME"></a><a id="es_selfime"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a></b></dt>
+<dt><b><a href="/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,11 +89,10 @@ The rich edit client handles IME imput.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
-
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>

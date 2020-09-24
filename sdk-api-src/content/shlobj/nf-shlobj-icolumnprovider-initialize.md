@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider">IColumnProvider</a> interface.
+Initializes an <a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider">IColumnProvider</a> interface.
 
 ## -parameters
 
@@ -58,11 +58,10 @@ Initializes an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn
 
 Type: <b>LPCSHCOLUMNINIT</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumninit">SHCOLUMNINIT</a> structure with initialization information, including the folder whose contents are to be displayed.
+An <a href="/windows/desktop/api/shlobj/ns-shlobj-shcolumninit">SHCOLUMNINIT</a> structure with initialization information, including the folder whose contents are to be displayed.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

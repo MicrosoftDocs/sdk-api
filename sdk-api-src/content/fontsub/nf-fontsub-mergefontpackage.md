@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>MergeFontPackage</b> function manipulates fonts created by <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a>. It is slightly more flexible than its name might suggest: it can appropriately handle all of the subset fonts and font packages created by <b>CreateFontPackage</b>. It can turn a font package into a working font, and it can merge a Delta font package into an appropriately prepared working font.
+The <b>MergeFontPackage</b> function manipulates fonts created by <a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a>. It is slightly more flexible than its name might suggest: it can appropriately handle all of the subset fonts and font packages created by <b>CreateFontPackage</b>. It can turn a font package into a working font, and it can merge a Delta font package into an appropriately prepared working font.
 
-Typically, <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> creates subset fonts and font packages to pass to a printer or print server; <b>MergeFontPackage</b> runs on that printer or print server.
+Typically, <a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> creates subset fonts and font packages to pass to a printer or print server; <b>MergeFontPackage</b> runs on that printer or print server.
 
 ## -parameters
 
@@ -101,7 +101,7 @@ Specifies what kind of process to perform. Select one of these values; they cann
 <td width="60%">
 Copies a simple working font; see remarks below.
 
-<i>puchMergeFontBuffer</i> will be ignored; <i>puchFontPackageBuffer</i> should contain a working font created by <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_SUBSET; this working font will simply be copied to <i>ppuchDestBuffer</i>.
+<i>puchMergeFontBuffer</i> will be ignored; <i>puchFontPackageBuffer</i> should contain a working font created by <a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_SUBSET; this working font will simply be copied to <i>ppuchDestBuffer</i>.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Copies a simple working font; see remarks below.
 <td width="60%">
 Turns a font package into a mergeable working font; see remarks below.
 
-<i>puchMergeFontBuffer</i> will be ignored; <i>puchFontPackageBuffer</i> should contain a mergeable working font created by <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_SUBSET1. The result in **<i>ppuchDestBuffer</i> will be a working font that may be merged with later.
+<i>puchMergeFontBuffer</i> will be ignored; <i>puchFontPackageBuffer</i> should contain a mergeable working font created by <a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_SUBSET1. The result in **<i>ppuchDestBuffer</i> will be a working font that may be merged with later.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Turns a font package into a mergeable working font; see remarks below.
 <td width="60%">
 Merges a Delta font package into a mergeable working font; see remarks below.
 
-*<i>puchFontPackageBuffer</i> should contain a font package created by <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_DELTA and <i>puchMergeFontBuffer</i> should contain a font package created by a prior call to <b>MergeFontPackage</b> with <i>usMode</i> set to TTFMFP_SUBSET1 or TTFMFP_DELTA. The resulting merged font in **<i>ppuchDestBuffer</i> will be a working font that may be merged with later.
+*<i>puchFontPackageBuffer</i> should contain a font package created by <a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_DELTA and <i>puchMergeFontBuffer</i> should contain a font package created by a prior call to <b>MergeFontPackage</b> with <i>usMode</i> set to TTFMFP_SUBSET1 or TTFMFP_DELTA. The resulting merged font in **<i>ppuchDestBuffer</i> will be a working font that may be merged with later.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Must be set to <b>NULL</b>.
 
 If the function is successful, returns zero.
 
-Otherwise, returns a nonzero value. See <a href="https://docs.microsoft.com/windows/desktop/gdi/font-package-function-error-messages">Font-Package Function Error Messages</a> for possible error returns.
+Otherwise, returns a nonzero value. See <a href="/windows/desktop/gdi/font-package-function-error-messages">Font-Package Function Error Messages</a> for possible error returns.
 
 ## -remarks
 
@@ -166,19 +166,19 @@ This function handles four distinct, related entities, each representing a subse
 <tr>
 <td>Simple working font</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TFCFP_SUBSET.</td>
+<a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TFCFP_SUBSET.</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>Font package</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_SUBSET1.</td>
+<a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_SUBSET1.</td>
 <td>No</td>
 </tr>
 <tr>
 <td>Delta font package</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_DELTA.</td>
+<a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> with <i>usSubsetFormat</i> set to TTFCFP_DELTA.</td>
 <td>No</td>
 </tr>
 <tr>
@@ -190,17 +190,16 @@ This function handles four distinct, related entities, each representing a subse
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_allocproc">CFP_ALLOCPROC</a>
+<a href="/windows/desktop/api/fontsub/nc-fontsub-cfp_allocproc">CFP_ALLOCPROC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_freeproc">CFP_FREEPROC</a>
+<a href="/windows/desktop/api/fontsub/nc-fontsub-cfp_freeproc">CFP_FREEPROC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_reallocproc">CFP_REALLOCPROC</a>
+<a href="/windows/desktop/api/fontsub/nc-fontsub-cfp_reallocproc">CFP_REALLOCPROC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a>
-
+<a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a>

@@ -53,8 +53,8 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>AddNameValuePairToSignatureWStr</b> method adds the authenticated name-value pair of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> to the request. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) interprets the meaning of the name-value pair.
-		 This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
+The <b>AddNameValuePairToSignatureWStr</b> method adds the authenticated name-value pair of an <a href="/windows/desktop/SecGloss/a-gly">attribute</a> to the request. The <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) interprets the meaning of the name-value pair.
+		 This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 ## -parameters
 
@@ -76,9 +76,8 @@ The <b>AddNameValuePairToSignatureWStr</b> method is used  to add attributes to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
 
 
 
 <b>IEnroll4</b>
-

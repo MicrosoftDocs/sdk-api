@@ -56,7 +56,7 @@ Retrieves the URI for the hash algorithm used to create block hashes in the bloc
 
 ### -param hashMethod [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a>**</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a>**</b>
 
 The hash algorithm used in this block map.
 
@@ -68,11 +68,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The <i>hashMethod</i> value corresponds to the <b>HashMethod</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/blockmapschema/element-blockmap">BlockMap</a> root element. 
+The <i>hashMethod</i> value corresponds to the <b>HashMethod</b> attribute of the <a href="/uwp/schemas/blockmapschema/element-blockmap">BlockMap</a> root element. 
 
-<b>GetHashMethod</b> returns supported URIs for <a href="https://docs.microsoft.com/uwp/schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-digestmethod">DigestMethod</a>s.
+<b>GetHashMethod</b> returns supported URIs for <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-digestmethod">DigestMethod</a>s.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>

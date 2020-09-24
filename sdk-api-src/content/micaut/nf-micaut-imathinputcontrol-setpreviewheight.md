@@ -94,7 +94,7 @@ The height specified by the <i>Height</i> parameter is outside the control's bou
 ## -remarks
 
 The preview area has predefined minimum and maximum sizes that depend on the current height of the control.
-If the method returns <b>S_FALSE</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getpreviewheight">GetPreviewHeight</a> method will return the actual size characteristics of the control.
+If the method returns <b>S_FALSE</b>, the <a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getpreviewheight">GetPreviewHeight</a> method will return the actual size characteristics of the control.
 
 The following image shows the Math Input Control with the default preview height.
 
@@ -127,13 +127,12 @@ The following image shows the Math Input Control with a custom preview height.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/customizing-the-math-input-control">Customizing the Math Input Control</a>
+<a href="/windows/desktop/tablet/customizing-the-math-input-control">Customizing the Math Input Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getpreviewheight">GetPreviewHeight</a>
+<a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getpreviewheight">GetPreviewHeight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>

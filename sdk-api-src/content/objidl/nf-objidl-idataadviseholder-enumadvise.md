@@ -56,7 +56,7 @@ Returns an object that can be used to enumerate the current advisory connections
 
 ### -param ppenumAdvise [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> pointer variable that receives the interface pointer to the new enumerator object. If the implementation returns <b>NULL</b> in *<i>ppenumAdvise</i>, there are no connections to advise sinks at this time.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> pointer variable that receives the interface pointer to the new enumerator object. If the implementation returns <b>NULL</b> in *<i>ppenumAdvise</i>, there are no connections to advise sinks at this time.
 
 ## -returns
 
@@ -64,19 +64,18 @@ This method returns S_OK if the enumerator object is successfully instantiated o
 
 ## -remarks
 
-This method must supply a pointer to an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> interface. Its methods allow you to enumerate the data stored in an array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a> structures. You get a pointer to the OLE implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> through a call to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-createdataadviseholder">CreateDataAdviseHolder</a>, and then call <b>IDataAdviseHolder::EnumAdvise</b> to implement <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-enumdadvise">IDataObject::EnumDAdvise</a>.
+This method must supply a pointer to an implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> interface. Its methods allow you to enumerate the data stored in an array of <a href="/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a> structures. You get a pointer to the OLE implementation of <a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> through a call to <a href="/windows/desktop/api/ole2/nf-ole2-createdataadviseholder">CreateDataAdviseHolder</a>, and then call <b>IDataAdviseHolder::EnumAdvise</b> to implement <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-enumdadvise">IDataObject::EnumDAdvise</a>.
 
 Adding more advisory connections while the enumerator object is active has an undefined effect on the enumeration that results from this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-enumdadvise">IDataObject::EnumDAdvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-enumdadvise">IDataObject::EnumDAdvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>

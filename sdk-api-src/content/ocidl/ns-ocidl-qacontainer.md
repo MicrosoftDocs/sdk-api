@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies container information for <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">IQuickActivate::QuickActivate</a>.
+Specifies container information for <a href="/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">IQuickActivate::QuickActivate</a>.
 
 ## -struct-fields
 
@@ -62,23 +62,23 @@ The size of the structure, in bytes.
 
 ### -field pClientSite
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface in the container.
+A pointer to an <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface in the container.
 
 ### -field pAdviseSink
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iadvisesinkex">IAdviseSinkEx</a> interface in the container.
+A pointer to an <a href="/windows/desktop/api/ocidl/nn-ocidl-iadvisesinkex">IAdviseSinkEx</a> interface in the container.
 
 ### -field pPropertyNotifySink
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a> interface in the container.
+A pointer to an <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a> interface in the container.
 
 ### -field pUnkEventSink
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the container's sink object.
+A pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the container's sink object.
 
 ### -field dwAmbientFlags
 
-The number of ambient properties supplied by the container using values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-qacontainerflags">QACONTAINERFLAGS</a> enumeration.
+The number of ambient properties supplied by the container using values from the <a href="/windows/desktop/api/ocidl/ne-ocidl-qacontainerflags">QACONTAINERFLAGS</a> enumeration.
 
 ### -field colorFore
 
@@ -94,7 +94,7 @@ Specifies Font, an ambient property supplied by the container with a DISPID = -7
 
 ### -field pUndoMgr
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a> interface in the container.
+A pointer to an <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a> interface in the container.
 
 ### -field dwAppearance
 
@@ -110,25 +110,24 @@ Specifies Palette, an ambient property supplied by the container with a DISPID =
 
 ### -field pBindHost
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775076(v=vs.85)">IBindHost</a> interface in the container.
+A pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775076(v=vs.85)">IBindHost</a> interface in the container.
 
 ### -field pOleControlSite
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a> interface in the container's site object.
+A pointer to the <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a> interface in the container's site object.
 
 ### -field pServiceProvider
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a> interface in the container.
+A pointer to the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a> interface in the container.
 
 ## -remarks
 
-If an interface pointer in the <b>QACONTAINER</b> structure is <b>NULL</b> it does not indicate that the interface is not supported. In this situation, the control should use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to obtain the interface pointer in the standard manner.
+If an interface pointer in the <b>QACONTAINER</b> structure is <b>NULL</b> it does not indicate that the interface is not supported. In this situation, the control should use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to obtain the interface pointer in the standard manner.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">IQuickActivate::QuickActivate</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">IQuickActivate::QuickActivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-qacontainerflags">QACONTAINERFLAGS</a>
-
+<a href="/windows/desktop/api/ocidl/ne-ocidl-qacontainerflags">QACONTAINERFLAGS</a>

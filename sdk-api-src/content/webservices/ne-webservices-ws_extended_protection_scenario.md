@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Defines how <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a> is validated. For most configurations, the runtime can automatically determine what needs to 
-                be validated based on the presence of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. However, if the SSL connection is terminated at 
+Defines how <a href="/windows/desktop/wsw/extended-protection">Extended Protection</a> is validated. For most configurations, the runtime can automatically determine what needs to 
+                be validated based on the presence of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. However, if the SSL connection is terminated at 
                 an intermediary such as a proxy prior to reaching the server then the validation method must change, and this scenario cannot be automatically detected.
             
 
@@ -66,5 +66,4 @@ There is no SSL connection between the client and the server, or the SSL connect
 ### -field WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL
 
 An SSL connection exists but is terminated at an intermediary. The connection between the intermediary and the server may or may not
-                    use SSL. When this property is set, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a> must be set as well.
-
+                    use SSL. When this property is set, <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a> must be set as well.

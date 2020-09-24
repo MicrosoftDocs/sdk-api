@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Releases the input context and unlocks the memory associated in the input context. An application must call this function for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetcontext">ImmGetContext</a> function.
+Releases the input context and unlocks the memory associated in the input context. An application must call this function for each call to the <a href="/windows/desktop/api/imm/nf-imm-immgetcontext">ImmGetContext</a> function.
 
 ## -parameters
 
@@ -70,13 +70,12 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetcontext">ImmGetContext</a>
+<a href="/windows/desktop/api/imm/nf-imm-immgetcontext">ImmGetContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

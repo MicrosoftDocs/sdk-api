@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>IMDSPStorage4</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3</a> for supporting virtual storages (such as playlists and albums) and metadata.
+The <b>IMDSPStorage4</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3</a> for supporting virtual storages (such as playlists and albums) and metadata.
 
-<div class="alert"><b>Note</b>  Unless the service provider has added the device parameter <b>UseExtendedWmdm</b> with a value of 1, Windows Media Device Manager will not call this interface. See <a href="https://docs.microsoft.com/windows/desktop/WMDM/device-parameters">Device Parameters</a> for more information about this.</div>
+<div class="alert"><b>Note</b>  Unless the service provider has added the device parameter <b>UseExtendedWmdm</b> with a value of 1, Windows Media Device Manager will not call this interface. See <a href="/windows/desktop/WMDM/device-parameters">Device Parameters</a> for more information about this.</div>
 <div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorage4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3</a>. <b>IMDSPStorage4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorage4</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3</a>. <b>IMDSPStorage4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMDSPStorage4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-createstoragewithmetadata">CreateStorageWithMetadata</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-createstoragewithmetadata">CreateStorageWithMetadata</a>
 </td>
 <td align="left" width="63%">
 Creates a new storage supporting metadata, and returns a pointer to the <b>IMDSPStorage</b> interface on the newly created storage. The new storage can be created at the same level or can be inserted into the current storage.
@@ -81,7 +81,7 @@ Creates a new storage supporting metadata, and returns a pointer to the <b>IMDSP
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-findstorage">FindStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-findstorage">FindStorage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the storage through its unique identification (ID).
@@ -90,7 +90,7 @@ Retrieves the storage through its unique identification (ID).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getparent">GetParent</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getparent">GetParent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parent storage object.
@@ -99,7 +99,7 @@ Retrieves the parent storage object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getreferences">GetReferences</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getreferences">GetReferences</a>
 </td>
 <td align="left" width="63%">
 Retrieves references of an association object.
@@ -108,7 +108,7 @@ Retrieves references of an association object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getspecifiedmetadata">GetSpecifiedMetadata</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getspecifiedmetadata">GetSpecifiedMetadata</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified metadata.
@@ -117,7 +117,7 @@ Retrieves the specified metadata.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-setreferences">SetReferences</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-setreferences">SetReferences</a>
 </td>
 <td align="left" width="63%">
 Sets references of an association object.
@@ -128,17 +128,16 @@ Sets references of an association object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>

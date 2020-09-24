@@ -52,10 +52,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetKeyParam</b> function customizes various aspects of a session key's operations. The values set by this function are not persisted to memory and can only be used with in a single session.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetKeyParam</b> function customizes various aspects of a session key's operations. The values set by this function are not persisted to memory and can only be used with in a single session.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a> does not permit setting values for key exchange or signature keys; however, custom providers can define values that can be set for its keys.
+<a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a> does not permit setting values for key exchange or signature keys; however, custom providers can define values that can be set for its keys.
 
 ## -parameters
 
@@ -87,8 +87,8 @@ For all key types, this parameter can contain one of the following values.
 </td>
 <td width="60%">
 <i>pbData</i> points to an appropriate 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>. This is used when exchanging session keys with the Microsoft Base Digital Signature Standard (DSS), Diffie-Hellman Cryptographic Provider, or compatible CSPs. After a key is agreed upon with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> function, the session key is enabled for use by setting its algorithm type.
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>. This is used when exchanging session keys with the Microsoft Base Digital Signature Standard (DSS), Diffie-Hellman Cryptographic Provider, or compatible CSPs. After a key is agreed upon with the 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> function, the session key is enabled for use by setting its algorithm type.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ For all key types, this parameter can contain one of the following values.
 </dl>
 </td>
 <td width="60%">
-<i>pbData</i> is the address of a buffer that contains the X.509 certificate that has been encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER). The public key in the certificate must match the corresponding signature or exchange key.
+<i>pbData</i> is the address of a buffer that contains the X.509 certificate that has been encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER). The public key in the certificate must match the corresponding signature or exchange key.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ For all key types, this parameter can contain one of the following values.
 </td>
 <td width="60%">
 <i>pbData</i> points to a <b>DWORD</b> value that specifies zero or more permission flags. For a description of these flags, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>.
 
 </td>
 </tr>
@@ -119,8 +119,8 @@ For all key types, this parameter can contain one of the following values.
 </dl>
 </td>
 <td width="60%">
-<i>pbData</i> points to a <b>BYTE</b> array that specifies a new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">salt value</a> to be made part of the session key. The size of the salt value varies depending on the CSP being used. Before setting this value, determine the size of the salt value by calling 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a> function. Salt values are used to make the session keys more unique, which makes dictionary attacks more difficult. The salt value is zero by default for Microsoft Base Cryptographic Provider.
+<i>pbData</i> points to a <b>BYTE</b> array that specifies a new <a href="/windows/desktop/SecGloss/s-gly">salt value</a> to be made part of the session key. The size of the salt value varies depending on the CSP being used. Before setting this value, determine the size of the salt value by calling 
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a> function. Salt values are used to make the session keys more unique, which makes dictionary attacks more difficult. The salt value is zero by default for Microsoft Base Cryptographic Provider.
 
 </td>
 </tr>
@@ -131,8 +131,8 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt
 </td>
 <td width="60%">
 <i>pbData</i> points to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the salt. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/specifying-a-salt-value">Specifying a Salt Value</a>.
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the salt. For more information, see 
+<a href="/windows/desktop/SecCrypto/specifying-a-salt-value">Specifying a Salt Value</a>.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt
  
 
 
-If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) key is specified by the <i>hKey</i> parameter, the <i>dwParam</i> value can also be set to one of the following values.
+If a <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) key is specified by the <i>hKey</i> parameter, the <i>dwParam</i> value can also be set to one of the following values.
 
 
 
@@ -155,8 +155,8 @@ If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital
 </dl>
 </td>
 <td width="60%">
-<i>pbData</i> points to the generator G from the DSS <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>. The data is in the form of a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure, where the <b>pbData</b> member is the value, and the <b>cbData</b> member is the length of the value. The value is expected with no header information and in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> form.
+<i>pbData</i> points to the generator G from the DSS <a href="/windows/desktop/SecGloss/k-gly">key BLOB</a>. The data is in the form of a 
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure, where the <b>pbData</b> member is the value, and the <b>cbData</b> member is the length of the value. The value is expected with no header information and in <a href="/windows/desktop/SecGloss/l-gly">little-endian</a> form.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital
 </td>
 <td width="60%">
 <i>pbData</i> points to the prime modulus P of a DSS key BLOB. The data is in the form of a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure. The <b>pbData</b> member is the value, and the <b>cbData</b> member is the length of the value. The value is expected with no header information and in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> form.
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure. The <b>pbData</b> member is the value, and the <b>cbData</b> member is the length of the value. The value is expected with no header information and in <a href="/windows/desktop/SecGloss/l-gly">little-endian</a> form.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital
 </dl>
 </td>
 <td width="60%">
-<i>pbData</i> points to the prime Q of a DSS key BLOB. The data is in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure where the <b>pbData</b> member is the value, and the <b>cbData</b> member is the length of the value. The value is expected with no header information and in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> form.
+<i>pbData</i> points to the prime Q of a DSS key BLOB. The data is in the form of a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure where the <b>pbData</b> member is the value, and the <b>cbData</b> member is the length of the value. The value is expected with no header information and in <a href="/windows/desktop/SecGloss/l-gly">little-endian</a> form.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ After the P, Q, and G values have been set, a call that specifies the KP_X value
  
 
 
-If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie-Hellman algorithm</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key is specified by <i>hKey</i>, the <i>dwParam</i> value can also be set to one of the following values.
+If a <a href="/windows/desktop/SecGloss/d-gly">Diffie-Hellman algorithm</a> or <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key is specified by <i>hKey</i>, the <i>dwParam</i> value can also be set to one of the following values.
 
 
 
@@ -210,7 +210,7 @@ If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie-
 </dl>
 </td>
 <td width="60%">
-Sets the information for an imported <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie-Hellman</a> key. The <i>pbData</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cms_dh_key_info">CMS_DH_KEY_INFO</a> structure that contains the key information to be set.
+Sets the information for an imported <a href="/windows/desktop/SecGloss/d-gly">Diffie-Hellman</a> key. The <i>pbData</i> parameter is the address of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cms_dh_key_info">CMS_DH_KEY_INFO</a> structure that contains the key information to be set.
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ Sets the information for an imported <a href="https://docs.microsoft.com/windows
 </dl>
 </td>
 <td width="60%">
-Sets the public parameters (P, Q, G, and so on) of a DSS or Diffie-Hellman key. The key handle for this key must be in the PREGEN state, generated with the CRYPT_PREGEN flag. The <i>pbData</i> parameter must be a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure where the data in this structure is a DHPUBKEY_VER3 or DSSPUBKEY_VER3 BLOB. The function copies the public parameters from this <b>CRYPT_INTEGER_BLOB</b> structure to the key handle. After this call is made, the KP_X parameter value should be used with <b>CryptSetKeyParam</b> to create the actual private key. The KP_PUB_PARAMS parameter is used as one call rather than multiple calls with the parameter values KP_P, KP_Q, and KP_G.
+Sets the public parameters (P, Q, G, and so on) of a DSS or Diffie-Hellman key. The key handle for this key must be in the PREGEN state, generated with the CRYPT_PREGEN flag. The <i>pbData</i> parameter must be a pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure where the data in this structure is a DHPUBKEY_VER3 or DSSPUBKEY_VER3 BLOB. The function copies the public parameters from this <b>CRYPT_INTEGER_BLOB</b> structure to the key handle. After this call is made, the KP_X parameter value should be used with <b>CryptSetKeyParam</b> to create the actual private key. The KP_PUB_PARAMS parameter is used as one call rather than multiple calls with the parameter values KP_P, KP_Q, and KP_G.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ Sets the public parameters (P, Q, G, and so on) of a DSS or Diffie-Hellman key. 
  
 
 
-If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">block cipher</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> is specified by the <i>hKey</i> parameter, the <i>dwParam</i> value can also be set to one of the following values.
+If a <a href="/windows/desktop/SecGloss/b-gly">block cipher</a> <a href="/windows/desktop/SecGloss/s-gly">session key</a> is specified by the <i>hKey</i> parameter, the <i>dwParam</i> value can also be set to one of the following values.
 
 
 
@@ -253,7 +253,7 @@ This value type can only be used with RC2 keys and has been added because of the
 </dl>
 </td>
 <td width="60%">
-Sets the highest <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">Transport Layer Security</a> (TLS) version allowed. This property only applies to SSL and TLS keys. The <i>pbData</i> parameter is the address of a <b>DWORD</b> variable that contains the highest TLS version number supported.
+Sets the highest <a href="/windows/desktop/SecGloss/t-gly">Transport Layer Security</a> (TLS) version allowed. This property only applies to SSL and TLS keys. The <i>pbData</i> parameter is the address of a <b>DWORD</b> variable that contains the highest TLS version number supported.
 
 </td>
 </tr>
@@ -278,7 +278,7 @@ The initialization vector is set to zero by default for the Microsoft Base Crypt
 </dl>
 </td>
 <td width="60%">
-Set the key value for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Data Encryption Standard</a> (DES) key. The <i>pbData</i> parameter is the address of a buffer that contains the key. This buffer must be the same length as the key. This property only applies to DES keys.
+Set the key value for a <a href="/windows/desktop/SecGloss/d-gly">Data Encryption Standard</a> (DES) key. The <i>pbData</i> parameter is the address of a buffer that contains the key. This buffer must be the same length as the key. This property only applies to DES keys.
 
 </td>
 </tr>
@@ -288,7 +288,7 @@ Set the key value for a <a href="https://docs.microsoft.com/windows/desktop/SecG
 </dl>
 </td>
 <td width="60%">
-Set the padding mode. The <i>pbData</i> parameter is a pointer to a <b>DWORD</b> value that receives a numeric identifier that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">padding</a> method used by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher</a>. This can be one of the following values.
+Set the padding mode. The <i>pbData</i> parameter is a pointer to a <b>DWORD</b> value that receives a numeric identifier that identifies the <a href="/windows/desktop/SecGloss/p-gly">padding</a> method used by the <a href="/windows/desktop/SecGloss/c-gly">cipher</a>. This can be one of the following values.
 
 
 
@@ -317,8 +317,8 @@ The padding uses zeros. This padding method is not supported by the Microsoft su
 </dl>
 </td>
 <td width="60%">
-<i>pbData</i> points to a <b>DWORD</b> value that specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher mode</a> to be used. For a list of the defined cipher modes, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>. The cipher mode is set to CRYPT_MODE_CBC by default for the Microsoft Base Cryptographic Provider.
+<i>pbData</i> points to a <b>DWORD</b> value that specifies the <a href="/windows/desktop/SecGloss/c-gly">cipher mode</a> to be used. For a list of the defined cipher modes, see 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>. The cipher mode is set to CRYPT_MODE_CBC by default for the Microsoft Base Cryptographic Provider.
 
 </td>
 </tr>
@@ -328,7 +328,7 @@ The padding uses zeros. This padding method is not supported by the Microsoft su
 </dl>
 </td>
 <td width="60%">
-<i>pbData</i> points to a <b>DWORD</b> value that indicates the number of bits processed per cycle when the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">Output Feedback</a> (OFB) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Cipher Feedback</a> (CFB) cipher mode is used. The number of bits processed per cycle is set to 8 by default for the Microsoft Base Cryptographic Provider.
+<i>pbData</i> points to a <b>DWORD</b> value that indicates the number of bits processed per cycle when the <a href="/windows/desktop/SecGloss/o-gly">Output Feedback</a> (OFB) or <a href="/windows/desktop/SecGloss/c-gly">Cipher Feedback</a> (CFB) cipher mode is used. The number of bits processed per cycle is set to 8 by default for the Microsoft Base Cryptographic Provider.
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ The padding uses zeros. This padding method is not supported by the Microsoft su
  
 
 
-If an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a> key is specified in the <i>hKey</i> parameter, the <i>dwParam</i> parameter value can be the following value.
+If an <a href="/windows/desktop/SecGloss/r-gly">RSA</a> key is specified in the <i>hKey</i> parameter, the <i>dwParam</i> parameter value can be the following value.
 
 
 
@@ -351,7 +351,7 @@ If an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a
 </dl>
 </td>
 <td width="60%">
-Set the Optimal Asymmetric Encryption Padding (OAEP)  (PKCS #1 version 2) parameters for the key. The <i>pbData</i> parameter is the address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the OAEP label. This property only applies to RSA keys.
+Set the Optimal Asymmetric Encryption Padding (OAEP)  (PKCS #1 version 2) parameters for the key. The <i>pbData</i> parameter is the address of a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the OAEP label. This property only applies to RSA keys.
 
 </td>
 </tr>
@@ -384,7 +384,7 @@ A pointer to a buffer initialized with the value to be set before calling <b>Cry
 
 ### -param dwFlags [in]
 
-Used only when <i>dwParam</i> is KP_ALGID. The <i>dwFlags</i> parameter is used to pass in flag values for the enabled key. The <i>dwFlags</i> parameter can hold values such as the key size and the other flag values allowed when generating the same type of key with <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>. For information about allowable flag values, see 
+Used only when <i>dwParam</i> is KP_ALGID. The <i>dwFlags</i> parameter is used to pass in flag values for the enabled key. The <i>dwFlags</i> parameter can hold values such as the key size and the other flag values allowed when generating the same type of key with <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>. For information about allowable flag values, see 
 <b>CryptGenKey</b>.
 
 ## -returns
@@ -392,7 +392,7 @@ Used only when <i>dwParam</i> is KP_ALGID. The <i>dwFlags</i> parameter is used 
 If the function succeeds, the return value is nonzero (TRUE).
 
 If the function fails, the return value is zero (FALSE). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by "NTE" are generated by the particular CSP being used. Some possible error codes follow.
 
@@ -408,7 +408,7 @@ The error codes prefaced by "NTE" are generated by the particular CSP being used
 </dl>
 </td>
 <td width="60%">
-The CSP context is currently being used by another <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a>.
+The CSP context is currently being used by another <a href="/windows/desktop/SecGloss/p-gly">process</a>.
 
 </td>
 </tr>
@@ -493,35 +493,34 @@ Some CSPs have hard-coded P, Q, and G values. If this is the case, then using KP
 
 ## -remarks
 
-If the KP_Q, KP_P, or KP_X parameters are set on a PREGEN Diffie-Hellman or DSS key, the key lengths must be compatible with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key length</a> set using the upper 16 bits of the <i>dwFlags</i> parameter when the key was created using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>. If no key length was set in <b>CryptGenKey</b>, the default key length was used. This will create an error if a nondefault key length is used to set P, Q, or X.
+If the KP_Q, KP_P, or KP_X parameters are set on a PREGEN Diffie-Hellman or DSS key, the key lengths must be compatible with the <a href="/windows/desktop/SecGloss/k-gly">key length</a> set using the upper 16 bits of the <i>dwFlags</i> parameter when the key was created using <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>. If no key length was set in <b>CryptGenKey</b>, the default key length was used. This will create an error if a nondefault key length is used to set P, Q, or X.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-duplicating-a-session-key">Example C Program: Duplicating a Session Key</a>.
+For an example that uses this function, see <a href="/windows/desktop/SecCrypto/example-c-program-duplicating-a-session-key">Example C Program: Duplicating a Session Key</a>.
 For more code that uses this function, see 
-						<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-setting-and-getting-session-key-parameters">Example C Program: Setting and Getting Session Key Parameters</a> .
+						<a href="/windows/desktop/SecCrypto/example-c-program-setting-and-getting-session-key-parameters">Example C Program: Setting and Getting Session Key Parameters</a> .
 				
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>

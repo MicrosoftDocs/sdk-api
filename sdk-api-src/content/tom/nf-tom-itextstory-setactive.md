@@ -58,19 +58,18 @@ Sets the active state of a story.
 
 Type: <b>long</b>
 
-The active state. For values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-getactive">ITextStory::GetActive</a> method.
+The active state. For values, see the <a href="/windows/desktop/api/tom/nf-tom-itextstory-getactive">ITextStory::GetActive</a> method.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-getactive">ITextStory::GetActive</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextstory-getactive">ITextStory::GetActive</a>

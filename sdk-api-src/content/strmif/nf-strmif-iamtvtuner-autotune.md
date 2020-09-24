@@ -71,17 +71,16 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 TV channels generally map to a unique frequency depending on regional variances. To avoid interference between multiple transmitters that are assigned the same channel when they are in close geographic proximity, small frequency offsets are introduced at each transmitter. In the United States, this offset ranges up to +/– 26.25 kilohertz (kHz).
 
-This method handles the channel-to-frequency conversion and scans for the most precise frequency. Store these values by calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-storeautotune">IAMTVTuner::StoreAutoTune</a> method. You can find base frequencies for channels in the appendix <a href="https://docs.microsoft.com/windows/desktop/DirectShow/international-analog-tv-tuning">International Analog TV Tuning</a>.
+This method handles the channel-to-frequency conversion and scans for the most precise frequency. Store these values by calling the <a href="/windows/desktop/api/strmif/nf-strmif-iamtvtuner-storeautotune">IAMTVTuner::StoreAutoTune</a> method. You can find base frequencies for channels in the appendix <a href="/windows/desktop/DirectShow/international-analog-tv-tuning">International Analog TV Tuning</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>

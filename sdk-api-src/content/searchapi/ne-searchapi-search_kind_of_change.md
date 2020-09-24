@@ -70,7 +70,7 @@ An item was modified.
 
 ### -field SEARCH_CHANGE_MOVE_RENAME
 
-An item was moved or renamed. Not currently supported for use with <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-onitemschanged">ISearchPersistentItemsChangedSink::OnItemsChanged</a>.
+An item was moved or renamed. Not currently supported for use with <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-onitemschanged">ISearchPersistentItemsChangedSink::OnItemsChanged</a>.
 
 ### -field SEARCH_CHANGE_SEMANTICS_DIRECTORY
 
@@ -90,7 +90,7 @@ SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, and SEARCH_CHANGE_MODIFY are mutually e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965367(v=vs.85)">INLINE_NOTIFY_DATA_CHANGE_ENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa965367(v=vs.85)">INLINE_NOTIFY_DATA_CHANGE_ENTRY</a>
 
 
 
@@ -98,5 +98,4 @@ SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, and SEARCH_CHANGE_MODIFY are mutually e
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_item_change">SEARCH_ITEM_CHANGE</a>
-
+<a href="/windows/desktop/api/searchapi/ns-searchapi-search_item_change">SEARCH_ITEM_CHANGE</a>

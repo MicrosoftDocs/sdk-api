@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/histogram">Histogram effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/histogram">Histogram effect</a>.
 
 ## -enum-fields
 
@@ -68,7 +68,7 @@ The default is 256.
 Specifies the channel used to generate the histogram. This effect has a single data output corresponding to the specified channel.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channel_selector">D2D1_CHANNEL_SELECTOR</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channel_selector">D2D1_CHANNEL_SELECTOR</a>.
 
 The default is D2D1_CHANNEL_SELECTOR_R.
 
@@ -80,4 +80,3 @@ The output array.
 The type is FLOAT[].
 
 ### -field D2D1_HISTOGRAM_PROP_FORCE_DWORD
-

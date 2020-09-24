@@ -68,9 +68,8 @@ Bi-predictive (B) picture.
 
 ## -remarks
 
-This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfsampleextension-videoencodepicturetype">MFSampleExtension_VideoEncodePictureType</a> sample attribute.
+This enumeration is used with the <a href="/windows/desktop/medfound/mfsampleextension-videoencodepicturetype">MFSampleExtension_VideoEncodePictureType</a> sample attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

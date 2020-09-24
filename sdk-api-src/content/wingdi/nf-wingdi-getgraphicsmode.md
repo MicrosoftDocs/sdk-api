@@ -84,17 +84,16 @@ Otherwise, the return value is zero.
 
 ## -remarks
 
-An application can set the graphics mode for a device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a> function.
+An application can set the graphics mode for a device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a>

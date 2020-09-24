@@ -85,9 +85,8 @@ The function fails if the MFT does not represent a hardware device with a valid 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a>
-
+<a href="/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a>

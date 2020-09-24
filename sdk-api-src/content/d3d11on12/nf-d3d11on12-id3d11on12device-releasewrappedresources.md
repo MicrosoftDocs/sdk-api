@@ -58,7 +58,7 @@ Releases D3D11 resources that were wrapped for D3D 11on12.
 
 Type: <b>ID3D11Resource*</b>
 
-Specifies a pointer to a set of D3D11 resources, defined by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>.
+Specifies a pointer to a set of D3D11 resources, defined by <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>.
 
 ### -param NumResources
 
@@ -70,10 +70,10 @@ Count of the number of resources.
 
 Call this method prior to calling Flush, to insert resource barriers to the appropriate "out" state, and to mark that they should then be expected to be in the "in" state.
           If no resource list is provided, all wrapped resources are transitioned.
-          These resources will be marked as “not acquired” in hazard tracking until <a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources">ID3D11On12Device::AcquireWrappedResources</a> is called.
+          These resources will be marked as “not acquired” in hazard tracking until <a href="/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources">ID3D11On12Device::AcquireWrappedResources</a> is called.
         
 
-Keyed mutex resources cannot be provided to this method; use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a> instead.
+Keyed mutex resources cannot be provided to this method; use <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a> instead.
         
 
 
@@ -118,11 +118,10 @@ void D3D1211on12::RenderUI()
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/nn-d3d11on12-id3d11on12device">ID3D11On12Device</a>
-
+<a href="/windows/desktop/api/d3d11on12/nn-d3d11on12-id3d11on12device">ID3D11On12Device</a>

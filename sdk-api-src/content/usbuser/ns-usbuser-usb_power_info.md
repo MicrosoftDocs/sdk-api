@@ -54,41 +54,41 @@ api_name:
 
 ## -description
 
-The <b>USB_POWER_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve device power state that the host controller power policy specifies for the indicated system power state.
+The <b>USB_POWER_INFO</b> structure is used with the <a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve device power state that the host controller power policy specifies for the indicated system power state.
 
 ## -struct-fields
 
 ### -field SystemState
 
-On input, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the system power state.
+On input, a <a href="/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the system power state.
 
 ### -field HcDevicePowerState
 
-On output, an <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the host controller.
+On output, an <a href="/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the host controller.
 
 ### -field HcDeviceWake
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller is in a wake state.
+On output, a <a href="/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller is in a wake state.
 
 ### -field HcSystemWake
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller can wake the system.
+On output, a <a href="/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller can wake the system.
 
 ### -field RhDevicePowerState
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the root hub.
+On output, a <a href="/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the root hub.
 
 ### -field RhDeviceWake
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub is in a wake state.
+On output, a <a href="/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub is in a wake state.
 
 ### -field RhSystemWake
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub can wake the system.
+On output, a <a href="/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub can wake the system.
 
 ### -field LastSystemSleepState
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the last system sleep state.
+On output, a <a href="/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the last system sleep state.
 
 ### -field CanWakeup
 
@@ -100,13 +100,12 @@ A Boolean value that indicates whether the host controller is powered when in th
 
 ## -remarks
 
-The <b>USB_POWER_INFO</b> structure is used with the USBUSER_GET_POWER_STATE_MAP user-mode request. For more information about this request, see <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
+The <b>USB_POWER_INFO</b> structure is used with the USBUSER_GET_POWER_STATE_MAP user-mode request. For more information about this request, see <a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
+<a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
-
+<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>

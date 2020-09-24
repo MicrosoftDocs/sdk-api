@@ -60,7 +60,7 @@ The number of destination IPv4/IPv6 addresses in the list.
 
 ### -param pDestIPAddrList [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_sockaddr">NLM_SOCKADDR</a> structure containing a list of destination IPv4/IPv6 addresses to register for cost or data plan status change notification.
+A <a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_sockaddr">NLM_SOCKADDR</a> structure containing a list of destination IPv4/IPv6 addresses to register for cost or data plan status change notification.
 
 ### -param bAppend
 
@@ -121,7 +121,7 @@ The request is not supported. This error is returned if either an IPv4 or IPv6 s
 </dl>
 </td>
 <td width="60%">
-This method was called after registering for <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanagerevents">INetworkCostManagerEvents</a> by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>. See Remark for more information.
+This method was called after registering for <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanagerevents">INetworkCostManagerEvents</a> by calling <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>. See Remark for more information.
 
 </td>
 </tr>
@@ -129,19 +129,18 @@ This method was called after registering for <a href="https://docs.microsoft.com
 
 ## -remarks
 
-This method must be called before <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>. Once <b>IConnectionPoint::Advise</b> is called, this method will not complete successfully until last sink calls <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">IConnectionPoint::UnAdvise</a>. However, this method can be called multiple times prior to the call to<b>IConnectionPoint::Advise</b>.
+This method must be called before <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>. Once <b>IConnectionPoint::Advise</b> is called, this method will not complete successfully until last sink calls <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">IConnectionPoint::UnAdvise</a>. However, this method can be called multiple times prior to the call to<b>IConnectionPoint::Advise</b>.
 
  If a list of destination addresses indicated by <i>pDestIPAddrList</i>  contains duplicate addresses, only one of each will be used to notify cost changes. Callers can clear a list of destinations by calling this function with <i>length</i> set to 0, <i>destIPAddrList</i> set NULL, and <i>bAppend</i> set FALSE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">IConnectionPoint::UnAdvise</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">IConnectionPoint::UnAdvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanager">INetworkCostManager</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanager">INetworkCostManager</a>

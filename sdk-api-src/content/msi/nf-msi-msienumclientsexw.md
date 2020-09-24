@@ -53,10 +53,10 @@ api_name:
 ## -description
 
 The 
-<b>MsiEnumClientsEx</b> function enumerates the installed applications that use a specified component. The function retrieves a  <a href="https://docs.microsoft.com/windows/desktop/Msi/product-codes">product code</a> for an application each time it is called.
+<b>MsiEnumClientsEx</b> function enumerates the installed applications that use a specified component. The function retrieves a  <a href="/windows/desktop/Msi/product-codes">product code</a> for an application each time it is called.
 
 
-<b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
+<b><a href="/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
 
 ## -parameters
 
@@ -355,4 +355,3 @@ The function failed.
 
 > [!NOTE]
 > The msi.h header defines MsiEnumClientsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

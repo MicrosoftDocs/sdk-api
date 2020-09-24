@@ -64,9 +64,8 @@ Integer that specifies the number of DHCP server policy conditions in <i>Element
 
 ### -field Elements
 
-Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_cond">DHCP_POL_COND</a>  structures.
+Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_cond">DHCP_POL_COND</a>  structures.
 
 ### -field Elements.size_is
 
 ### -field Elements.size_is.NumElements
-

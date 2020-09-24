@@ -106,7 +106,7 @@ The task is suspended.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-irunnabletask-kill">IRunnableTask::Kill</a> has been called on the thread, but the thread has not yet completely shut down.
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-irunnabletask-kill">IRunnableTask::Kill</a> has been called on the thread, but the thread has not yet completely shut down.
 
 </td>
 </tr>
@@ -126,4 +126,3 @@ The task is finished.
 ## -remarks
 
 This method must be implemented.
-

@@ -56,13 +56,13 @@ Draws the insert icon in the parent window of the specified drag list box.
 
 ### -param handParent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the parent window of the drag list box.
 
 ### -param hLB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the drag list box.
 
@@ -71,4 +71,3 @@ A handle to the drag list box.
 Type: <b>int</b>
 
 The identifier of the icon item to be drawn.
-

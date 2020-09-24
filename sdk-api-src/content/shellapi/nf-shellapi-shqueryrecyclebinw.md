@@ -66,7 +66,7 @@ The address of a <b>null</b>-terminated string of maximum length MAX_PATH to con
 
 Type: <b>LPSHQUERYRBINFO</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shqueryrbinfo">SHQUERYRBINFO</a> structure that receives the Recycle Bin information. The <b>cbSize</b> member of the structure must be set to the size of the structure before calling this API.
+The address of a <a href="/windows/desktop/api/shellapi/ns-shellapi-shqueryrbinfo">SHQUERYRBINFO</a> structure that receives the Recycle Bin information. The <b>cbSize</b> member of the structure must be set to the size of the structure before calling this API.
 
 ## -returns
 
@@ -87,5 +87,4 @@ With Windows 2000, if <b>NULL</b> is passed in the <i>pszRootPath</i> parameter
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shemptyrecyclebina">SHEmptyRecycleBin</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shemptyrecyclebina">SHEmptyRecycleBin</a>

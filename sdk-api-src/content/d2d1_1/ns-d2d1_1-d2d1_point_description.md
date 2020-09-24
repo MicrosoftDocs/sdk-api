@@ -76,5 +76,4 @@ The length of the section of the path stretching from the start of the path  to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1pathgeometry1-computepointandsegmentatlength(float_uint32_constd2d1_matrix_3x2_f_d2d1_point_description)">ID2D1PathGeometry1::ComputePointAndSegmentAtLength</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1pathgeometry1-computepointandsegmentatlength(float_uint32_constd2d1_matrix_3x2_f_d2d1_point_description)">ID2D1PathGeometry1::ComputePointAndSegmentAtLength</a>

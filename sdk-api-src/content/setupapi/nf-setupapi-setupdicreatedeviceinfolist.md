@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> and optionally associates the set with a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> and a top-level window.
+The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> and optionally associates the set with a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> and a top-level window.
 
 ## -parameters
 
@@ -66,27 +66,26 @@ A handle to the top-level window to use for any user interface that is related t
 
 ## -returns
 
-The function returns a handle to an empty device information set if it is successful. Otherwise, it returns <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+The function returns a handle to an empty device information set if it is successful. Otherwise, it returns <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The caller of this function must delete the returned device information set when it is no longer needed by calling <b>SetupDiDestroyDeviceInfoList</b>. 
 
-To create a device information list for a remote computer use <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolistexa">SetupDiCreateDeviceInfoListEx</a>.
+To create a device information list for a remote computer use <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolistexa">SetupDiCreateDeviceInfoListEx</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolistexa">SetupDiCreateDeviceInfoListEx</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolistexa">SetupDiCreateDeviceInfoListEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistclass">SetupDiGetDeviceInfoListClass</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistclass">SetupDiGetDeviceInfoListClass</a>

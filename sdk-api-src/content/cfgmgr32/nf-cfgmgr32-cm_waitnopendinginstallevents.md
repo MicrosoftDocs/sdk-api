@@ -112,7 +112,7 @@ The time-out interval elapsed, and installation activities are still pending.
 </dl>
 </td>
 <td width="60%">
-The function failed. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> for additional error information.
+The function failed. Call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for additional error information.
 
 </td>
 </tr>
@@ -126,13 +126,12 @@ If a non-zero time-out value is specified, then <b>CMP_WaitNoPendingInstallEvent
 
 New installation events can occur at any time. This function just indicates that there are no pending installation activities at the moment it is called.
 
-This function is typically used by <a href="https://docs.microsoft.com/windows-hardware/drivers/">device installation applications</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-a-device-installation-application">Writing a Device Installation Application</a>.
+This function is typically used by <a href="/windows-hardware/drivers/">device installation applications</a>. For more information, see <a href="/windows-hardware/drivers/install/writing-a-device-installation-application">Writing a Device Installation Application</a>.
 
 Do not call this function while processing any events inside of a system-initiated callback function that is expected to return within a short amount of time.  This includes service startup (for example in the <b>ServiceMain</b> callback function) or while processing any control in the service handler (for example, the <b>Handler</b> callback function), or from installation components such as class-installers or co-installers.
 
-For Windows XP (with no service pack installed), this function must be called from <a href="https://docs.microsoft.com/windows-hardware/drivers/">session zero</a>, with administrator privileges. For Windows XP with Service Pack 1 (SP1) and later versions of Windows, the function can be called from any session, and administrator privileges are not required.
+For Windows XP (with no service pack installed), this function must be called from <a href="/windows-hardware/drivers/">session zero</a>, with administrator privileges. For Windows XP with Service Pack 1 (SP1) and later versions of Windows, the function can be called from any session, and administrator privileges are not required.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/cm-waitnopendinginstallevents">CM_WaitNoPendingInstallEvents</a>
-
+<a href="/windows-hardware/drivers/install/cm-waitnopendinginstallevents">CM_WaitNoPendingInstallEvents</a>

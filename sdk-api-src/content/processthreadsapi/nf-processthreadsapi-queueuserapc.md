@@ -64,12 +64,12 @@ Adds a user-mode asynchronous procedure call (APC) object to the APC queue of th
 ### -param pfnAPC [in]
 
 A pointer to the application-supplied APC function to be called when the specified thread performs an alertable wait operation. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-papcfunc">APCProc</a>.
+<a href="/windows/desktop/api/winnt/nc-winnt-papcfunc">APCProc</a>.
 
 ### -param hThread [in]
 
 A handle to the thread. The handle must have the <b>THREAD_SET_CONTEXT</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
+<a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
 ### -param dwData [in]
 
@@ -79,8 +79,8 @@ A single value that is passed to the APC function pointed to by the <i>pfnAPC</i
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>Windows Server 2003 and Windows XP:  </b>There are no error values defined for this function that can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>Windows Server 2003 and Windows XP:  </b>There are no error values defined for this function that can be retrieved by calling 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -91,37 +91,36 @@ The APC support provided in the operating system allows an application to queue 
 Each thread has its own APC queue. The queuing of an APC is a request for the thread to call the APC function. The operating system issues a software interrupt to direct the thread to call the APC function.
 
 When a user-mode APC is queued, the thread is not directed to call the APC function unless it is in an alertable state. After the thread is in an alertable state, the thread handles all pending APCs in first in, first out (FIFO) order, and the wait operation returns <b>WAIT_IO_COMPLETION</b>. A thread enters an alertable state by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-signalobjectandwait">SignalObjectAndWait</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> to perform an alertable wait operation.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a>, 
+<a href="/windows/desktop/api/winbase/nf-winbase-signalobjectandwait">SignalObjectAndWait</a>, 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>, 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>, or 
+<a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> to perform an alertable wait operation.
 
 If an application queues an APC before the thread begins running, the thread begins by calling the APC function. After the thread calls an APC function, it calls the APC functions for all APCs in its APC queue.
 
 It is possible to sleep or wait for an object within the APC. If you perform an alertable wait inside an APC, it will recursively dispatch the APCs. This can cause a stack overflow.
 
 When the thread is terminated using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread">TerminateThread</a> function, the APCs in its APC queue are lost. The APC functions are not called.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> or 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread">TerminateThread</a> function, the APCs in its APC queue are lost. The APC functions are not called.
 
 When the thread is in the process of being terminated, calling QueueUserAPC to add to the thread's APC queue will fail with <b>(31) ERROR_GEN_FAILURE</b>.
 
-Note that the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> functions are implemented using an APC as the completion notification callback mechanism.
+Note that the <a href="/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>, 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>, and <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> functions are implemented using an APC as the completion notification callback mechanism.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0400 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-papcfunc">APCProc</a>
+<a href="/windows/desktop/api/winnt/nc-winnt-papcfunc">APCProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>
+<a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

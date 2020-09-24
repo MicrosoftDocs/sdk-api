@@ -68,13 +68,12 @@ There is a backup in progress for this CSV.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-set-shared-volume-backup-mode">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-set-shared-volume-backup-mode">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-clus_shared_volume_backup_mode">CLUS_SHARED_VOLUME_BACKUP_MODE</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-clus_shared_volume_backup_mode">CLUS_SHARED_VOLUME_BACKUP_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

@@ -80,5 +80,4 @@ Pointer to the next <b>DSMCC_ELEMENT</b> structure in the list, or <b>NULL</b> i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>

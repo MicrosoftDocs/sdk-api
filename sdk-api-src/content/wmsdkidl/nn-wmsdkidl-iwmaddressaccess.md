@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWMAddressAccess</b> interface controls IP access lists on the writer network sink object. Applications can use this interface to exclude specific IP addresses, or ranges of IP addresses, from connecting to the network sink. To obtain this interface, call <b>QueryInterface</b> on another interface of the writer network sink object.
 
-This interface supports only Internet Protocol version 4 (IPv4) addresses. The <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess2">IWMAddressAccess2</a> interface inherits <b>IWMAddressAccess</b> and adds support for IPv6 addresses.
+This interface supports only Internet Protocol version 4 (IPv4) addresses. The <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess2">IWMAddressAccess2</a> interface inherits <b>IWMAddressAccess</b> and adds support for IPv6 addresses.
 
 
 
@@ -64,31 +64,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess2">IWMAddressAccess2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess2">IWMAddressAccess2</a>
 </td>
 <td> IID_IWMAddressAccess2 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections">IWMClientConnections</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections">IWMClientConnections</a>
 </td>
 <td>IID_IWMClientConnections</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections2">IWMClientConnections2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections2">IWMClientConnections2</a>
 </td>
 <td>IID_IWMClientConnections2</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink</a>
 </td>
 <td>IID_IWMWriterNetworkSink</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a>
 </td>
 <td>IID_IWMWriterSink</td>
 </tr>
@@ -96,7 +96,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMAddressAccess</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMAddressAccess</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMAddressAccess</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMAddressAccess</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -111,7 +111,7 @@ The <b>IWMAddressAccess</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-addaccessentry">AddAccessEntry</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-addaccessentry">AddAccessEntry</a>
 </td>
 <td align="left" width="63%">
 Adds an entry to the access list.
@@ -120,7 +120,7 @@ Adds an entry to the access list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-getaccessentry">GetAccessEntry</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-getaccessentry">GetAccessEntry</a>
 </td>
 <td align="left" width="63%">
 Retrieves an entry from the access list.
@@ -129,7 +129,7 @@ Retrieves an entry from the access list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-getaccessentrycount">GetAccessEntryCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-getaccessentrycount">GetAccessEntryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of entries in the access list.
@@ -138,7 +138,7 @@ Retrieves the number of entries in the access list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-removeaccessentry">RemoveAccessEntry</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-removeaccessentry">RemoveAccessEntry</a>
 </td>
 <td align="left" width="63%">
 Removes an entry from the access list.
@@ -149,9 +149,8 @@ Removes an entry from the access list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>
-
+<a href="/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>

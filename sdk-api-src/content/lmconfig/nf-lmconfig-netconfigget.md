@@ -52,7 +52,7 @@ api_name:
 
 The
 				<b>NetConfigGet</b> function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">registry</a>.
+<a href="/windows/desktop/SysInfo/registry">registry</a>.
 
 ## -parameters
 
@@ -71,4 +71,3 @@ TBD
 ### -param parameter
 
 TBD
-

@@ -240,9 +240,8 @@ The number of context switches.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
+<a href="/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a>
-
+<a href="/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a>

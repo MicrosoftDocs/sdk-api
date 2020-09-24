@@ -133,7 +133,7 @@ An invalid argument was received.
 </dl>
 </td>
 <td width="60%">
-The method was called after <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-process">Process</a> has been called.
+The method was called after <a href="/windows/desktop/api/recapis/nf-recapis-process">Process</a> has been called.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ The method was called after <a href="https://docs.microsoft.com/windows/desktop/
 
 ## -remarks
 
-The word list passed in as the second parameter must already exist. You create a word list by using the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-makewordlist">MakeWordList</a> function. The <b>SetWordList</b> function does not alter the word list.
+The word list passed in as the second parameter must already exist. You create a word list by using the <a href="/windows/desktop/api/recapis/nf-recapis-makewordlist">MakeWordList</a> function. The <b>SetWordList</b> function does not alter the word list.
 
 To clear the wordlist, pass <b>NULL</b> as the second parameter.
 
@@ -149,9 +149,8 @@ It is recommended that you limit the length of individual words in the wordlist 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-addwordstowordlist">AddWordsToWordList Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-addwordstowordlist">AddWordsToWordList Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-makewordlist">MakeWordList Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-makewordlist">MakeWordList Function</a>

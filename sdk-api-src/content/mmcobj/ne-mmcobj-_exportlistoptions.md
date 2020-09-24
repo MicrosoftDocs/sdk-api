@@ -54,14 +54,14 @@ api_name:
 
 The 
 <b>ExportListOptions</b> enumeration is used by the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-exportlist">View.ExportList</a> method and specifies options when writing list view contents to a file. These values can be combined using a bitwise OR operation. This enumeration applies to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
+<a href="/previous-versions/windows/desktop/mmc/view-exportlist">View.ExportList</a> method and specifies options when writing list view contents to a file. These values can be combined using a bitwise OR operation. This enumeration applies to the 
+<a href="/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
 
 ## -enum-fields
 
 ### -field ExportListOptions_Default
 
-Default list export option. If this is the only flag specified in the call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-exportlist">View.ExportList</a>, then the list view contents are exported as comma-delimited ANSI text.
+Default list export option. If this is the only flag specified in the call to <a href="/previous-versions/windows/desktop/mmc/view-exportlist">View.ExportList</a>, then the list view contents are exported as comma-delimited ANSI text.
 
 ### -field ExportListOptions_Unicode
 
@@ -77,9 +77,8 @@ The exported list contains only currently selected items.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-object">View object</a>
+<a href="/previous-versions/windows/desktop/mmc/view-object">View object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-exportlist">View.ExportList</a>
-
+<a href="/previous-versions/windows/desktop/mmc/view-exportlist">View.ExportList</a>

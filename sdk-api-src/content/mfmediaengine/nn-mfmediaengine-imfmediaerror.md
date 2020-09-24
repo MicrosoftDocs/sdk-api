@@ -54,7 +54,7 @@ Provides the current error status for the Media Engine.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaError</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaError</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaError</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaError</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaError</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-geterrorcode">GetErrorCode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-geterrorcode">GetErrorCode</a>
 </td>
 <td align="left" width="63%">
 Gets the error code.
@@ -78,7 +78,7 @@ Gets the error code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-getextendederrorcode">GetExtendedErrorCode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-getextendederrorcode">GetExtendedErrorCode</a>
 </td>
 <td align="left" width="63%">
 Gets the extended error code.
@@ -87,7 +87,7 @@ Gets the extended error code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-seterrorcode">SetErrorCode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-seterrorcode">SetErrorCode</a>
 </td>
 <td align="left" width="63%">
 Sets the error code.
@@ -96,7 +96,7 @@ Sets the error code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-setextendederrorcode">SetExtendedErrorCode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-setextendederrorcode">SetExtendedErrorCode</a>
 </td>
 <td align="left" width="63%">
 Sets the extended error code.
@@ -109,9 +109,8 @@ Sets the extended error code.
 
 The <b>IMFMediaError</b> interface corresponds to the <b>MediaError</b> object in HTML5.
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-geterror">IMFMediaEngine::GetError</a>.
+To get a pointer to this interface, call <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-geterror">IMFMediaEngine::GetError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

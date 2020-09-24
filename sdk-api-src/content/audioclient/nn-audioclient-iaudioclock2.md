@@ -53,17 +53,17 @@ api_name:
 The <b>IAudioClock2</b> interface is used to get the current device position.
 		
 
-To get a reference to the <b>IAudioClock2</b> interface, the application must call <b>IAudioClock::QueryInterface</b> to request the interface pointer from the stream object's  <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock</a> interface.
+To get a reference to the <b>IAudioClock2</b> interface, the application must call <b>IAudioClock::QueryInterface</b> to request the interface pointer from the stream object's  <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock</a> interface.
 	
 
-The client obtains a reference to the <b>IAudioClock</b> interface of a stream object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioClock.
+The client obtains a reference to the <b>IAudioClock</b> interface of a stream object by calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioClock.
 	
 
-When releasing an <b>IAudioClock2</b> interface instance, the client must call the interface's <b>Release</b> method from the same thread as the call to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> that created the object.
+When releasing an <b>IAudioClock2</b> interface instance, the client must call the interface's <b>Release</b> method from the same thread as the call to <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> that created the object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClock2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClock2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClock2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClock2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IAudioClock2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock2-getdeviceposition">GetDevicePosition</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock2-getdeviceposition">GetDevicePosition</a>
 </td>
 <td align="left" width="63%">
 Gets the current device position, in frames, directly from  the hardware.
@@ -89,13 +89,12 @@ Gets the current device position, in frames, directly from  the hardware.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock</a>
-
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock</a>

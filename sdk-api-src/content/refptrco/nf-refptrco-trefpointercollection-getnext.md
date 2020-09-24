@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetNext</b> method gets a pointer to the next instance in the collection.
@@ -63,9 +63,8 @@ The <b>GetNext</b> method gets a pointer to the next instance in the collection.
 
 ### -param pos [ref]
 
-Denotes the position of an item in a <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> collection.
+Denotes the position of an item in a <a href="/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> collection.
 
 ## -returns
 
-The <b>GetNext</b> method returns the address of the next item by position in the <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> collection.
-
+The <b>GetNext</b> method returns the address of the next item by position in the <a href="/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> collection.

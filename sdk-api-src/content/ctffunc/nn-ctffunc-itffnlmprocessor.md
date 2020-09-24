@@ -52,11 +52,11 @@ api_name:
 
 The <b>ITfFnLMProcessor</b> interface is implemented by the language model text service and is used by an application or text service to enable alternate language model processing.
 
-The application or text service obtains this interface from a thread manager object by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">ITfThreadMgr::GetFunctionProvider</a> with GUID_MASTERLM_FUNCTIONPROVIDER and then calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnLMProcessor. If <b>ITfThreadMgr::GetFunctionProvider</b> fails, then no language model processor is installed.
+The application or text service obtains this interface from a thread manager object by calling <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">ITfThreadMgr::GetFunctionProvider</a> with GUID_MASTERLM_FUNCTIONPROVIDER and then calling <a href="/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnLMProcessor. If <b>ITfThreadMgr::GetFunctionProvider</b> fails, then no language model processor is installed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnLMProcessor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnLMProcessor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnLMProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnLMProcessor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfFnLMProcessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-getreconversion">GetReconversion</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-getreconversion">GetReconversion</a>
 </td>
 <td align="left" width="63%">
 Obtains an ITfCandidateList object for a range from the language model text service.
@@ -80,7 +80,7 @@ Obtains an ITfCandidateList object for a range from the language model text serv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-invokefunc">InvokeFunc</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-invokefunc">InvokeFunc</a>
 </td>
 <td align="left" width="63%">
 Invokes a function of the language model text service.
@@ -89,7 +89,7 @@ Invokes a function of the language model text service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-invokekey">InvokeKey</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-invokekey">InvokeKey</a>
 </td>
 <td align="left" width="63%">
 Called to enable the language model text service to process a key event.
@@ -98,7 +98,7 @@ Called to enable the language model text service to process a key event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-querykey">QueryKey</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-querykey">QueryKey</a>
 </td>
 <td align="left" width="63%">
 Called to determine if the language model text service handles a key event.
@@ -107,7 +107,7 @@ Called to determine if the language model text service handles a key event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-querylangid">QueryLangID</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-querylangid">QueryLangID</a>
 </td>
 <td align="left" width="63%">
 Determines if the language model text service supports a particular language.
@@ -116,7 +116,7 @@ Determines if the language model text service supports a particular language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-queryrange">QueryRange</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-queryrange">QueryRange</a>
 </td>
 <td align="left" width="63%">
 Obtains the range of text that a reconversion applies to.
@@ -125,7 +125,7 @@ Obtains the range of text that a reconversion applies to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-reconvert">Reconvert</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnlmprocessor-reconvert">Reconvert</a>
 </td>
 <td align="left" width="63%">
 Invokes the reconversion process in the language model text service for a range.
@@ -136,19 +136,18 @@ Invokes the reconversion process in the language model text service for a range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction
+<a href="/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">ITfThreadMgr::GetFunctionProvider</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">ITfThreadMgr::GetFunctionProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

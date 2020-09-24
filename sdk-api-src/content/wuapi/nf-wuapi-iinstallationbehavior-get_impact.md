@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-installationimpact">InstallationImpact</a> enumeration that  indicates how the installation or uninstallation of the update  affects  the computer.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-installationimpact">InstallationImpact</a> enumeration that  indicates how the installation or uninstallation of the update  affects  the computer.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationbehavior">IInstallationBehavior</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationbehavior">IInstallationBehavior</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The 
-<b>UnregisterWaitEvent</b> method calls the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-unregisterwait">UnregisterWait</a> function 
+<b>UnregisterWaitEvent</b> method calls the <a href="/windows/desktop/api/winbase/nf-winbase-unregisterwait">UnregisterWait</a> function 
 to tell the thread pool to stop waiting on the handle indicated by the wait block at the given index. Releases the refcounts in the wait block and frees the wait block. Removes the wait block from the list of wait blocks.
 
 ## -parameters
@@ -59,7 +59,7 @@ to tell the thread pool to stop waiting on the handle indicated by the wait bloc
 ### -param index
 
 Index on appropriate item in the array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms734804(v=vs.85)">THREADPOOLWAITBLOCK</a> structures.
+<a href="/previous-versions/windows/desktop/legacy/ms734804(v=vs.85)">THREADPOOLWAITBLOCK</a> structures.
 
 ## -returns
 
@@ -67,5 +67,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
-
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>

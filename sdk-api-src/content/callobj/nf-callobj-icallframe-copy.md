@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Creates a copy of this call frame and all of its associated data.
-<div class="alert"><b>Warning</b>  The call frame does not clean up the copied data automatically. Therefore once the copy is returned then the user is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-free">Free</a> on the frame copy. This must be done to avoid a memory leak.</div><div> </div>
+<div class="alert"><b>Warning</b>  The call frame does not clean up the copied data automatically. Therefore once the copy is returned then the user is responsible for calling <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-free">Free</a> on the frame copy. This must be done to avoid a memory leak.</div><div> </div>
 
 ## -parameters
 
@@ -61,11 +61,11 @@ Determines whether the copied call frame data can be shared with data in the par
 
 ### -param pWalker [in]
 
-A pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a> interface. The <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframewalker-onwalkinterface">OnWalkInterface</a> method will be called for each interface pointer that is copied. If this parameter is not provided, then any interface pointer that is copied will be passed to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>.
+A pointer to an instance of the <a href="/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a> interface. The <a href="/windows/desktop/api/callobj/nf-callobj-icallframewalker-onwalkinterface">OnWalkInterface</a> method will be called for each interface pointer that is copied. If this parameter is not provided, then any interface pointer that is copied will be passed to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>.
 
 ### -param ppFrame [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a> pointer to a copy of the call frame.
+A pointer to an <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a> pointer to a copy of the call frame.
 
 ## -returns
 
@@ -73,9 +73,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Copying a frame is like unmarshalling a marshaled frame. The call frame can only be copied if it has in-parameters. If the call frame is invoked, it cannot be copied. The copy method copies interface pointers as binary values and no referenced count adjustments are performed. But if this behavior is desired, then a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a> can be used.
+Copying a frame is like unmarshalling a marshaled frame. The call frame can only be copied if it has in-parameters. If the call frame is invoked, it cannot be copied. The copy method copies interface pointers as binary values and no referenced count adjustments are performed. But if this behavior is desired, then a pointer to <a href="/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a> can be used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

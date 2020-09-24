@@ -92,9 +92,8 @@ Network Access Protection (NAP) uses the <b>ISOLATION_STATE</b> value to determi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">NAP IsolationState</a>
+<a href="/windows/desktop/api/naptypes/ne-naptypes-isolationstate">NAP IsolationState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eappapis/nc-eappapis-notificationhandler">NotificationHandler</a>
-
+<a href="/windows/desktop/api/eappapis/nc-eappapis-notificationhandler">NotificationHandler</a>

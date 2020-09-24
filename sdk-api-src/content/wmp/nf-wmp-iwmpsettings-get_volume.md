@@ -88,9 +88,8 @@ A value of zero specifies no volume (muted). A value of 100 specifies full volum
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_volume">IWMPSetting::put_volume</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_volume">IWMPSetting::put_volume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>

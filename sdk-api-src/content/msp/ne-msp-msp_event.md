@@ -60,22 +60,22 @@ The <b>MSP_EVENT</b> enumerator defines the type of event information contained 
 ### -field ME_ADDRESS_EVENT
 
 The event buffer is an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733454(v=vs.85)">MSP_ADDRESS_EVENT_INFO</a> structure.
+<a href="/previous-versions/windows/desktop/legacy/ms733454(v=vs.85)">MSP_ADDRESS_EVENT_INFO</a> structure.
 
 ### -field ME_CALL_EVENT
 
 The event buffer is an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733464(v=vs.85)">MSP_CALL_EVENT_INFO</a> structure.
+<a href="/previous-versions/windows/desktop/legacy/ms733464(v=vs.85)">MSP_CALL_EVENT_INFO</a> structure.
 
 ### -field ME_TSP_DATA
 
 The event buffer is an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733475(v=vs.85)">MSP_TSP_DATA</a> structure.
+<a href="/previous-versions/windows/desktop/legacy/ms733475(v=vs.85)">MSP_TSP_DATA</a> structure.
 
 ### -field ME_PRIVATE_EVENT
 
 The event buffer is an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733472(v=vs.85)">MSP_PRIVATE_EVENT_INFO</a> structure.
+<a href="/previous-versions/windows/desktop/legacy/ms733472(v=vs.85)">MSP_PRIVATE_EVENT_INFO</a> structure.
 
 ### -field ME_ASR_TERMINAL_EVENT
 
@@ -87,7 +87,7 @@ The event buffer is an
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
 
 
 
@@ -95,5 +95,4 @@ The event buffer is an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

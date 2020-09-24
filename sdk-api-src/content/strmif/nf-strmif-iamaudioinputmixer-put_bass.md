@@ -86,7 +86,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Invalid argument. Must be in range given by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_bassrange">IAMAudioInputMixer::get_BassRange</a>.
+Invalid argument. Must be in range given by <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_bassrange">IAMAudioInputMixer::get_BassRange</a>.
 
 </td>
 </tr>
@@ -98,13 +98,12 @@ This method boosts or cuts the signal's bass before it is recorded, by the numbe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_bass">IAMAudioInputMixer::get_Bass</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_bass">IAMAudioInputMixer::get_Bass</a>

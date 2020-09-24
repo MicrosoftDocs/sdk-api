@@ -95,5 +95,4 @@ To hash a URL into a single byte, set <i>cbHash</i> = sizeof(BYTE) and <i>pbHash
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-hashdata">HashData</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-hashdata">HashData</a>

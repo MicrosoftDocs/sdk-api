@@ -62,7 +62,7 @@ A handle to the device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the vertices of the polylines, in logical units. The polylines are specified consecutively.
+A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the vertices of the polylines, in logical units. The polylines are specified consecutively.
 
 ### -param asz [in]
 
@@ -86,21 +86,20 @@ The current position is neither used nor updated by this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo</a>

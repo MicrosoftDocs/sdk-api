@@ -79,13 +79,12 @@ The method succeeded.
 
 ## -remarks
 
-You must call <b>Flush</b> after the last sample has been passed into the ASF multiplexer and before you call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end">IMFASFMultiplexer::End</a>. This causes all output media samples in progress to be completed. After calling <b>Flush</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket">IMFASFMultiplexer::GetNextPacket</a> in a loop until all the pending media samples have been packetized.
+You must call <b>Flush</b> after the last sample has been passed into the ASF multiplexer and before you call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end">IMFASFMultiplexer::End</a>. This causes all output media samples in progress to be completed. After calling <b>Flush</b>, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket">IMFASFMultiplexer::GetNextPacket</a> in a loop until all the pending media samples have been packetized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/generating-new-asf-data-packets">Generating New ASF Data Packets</a>
+<a href="/windows/desktop/medfound/generating-new-asf-data-packets">Generating New ASF Data Packets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>

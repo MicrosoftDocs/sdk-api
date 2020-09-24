@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Retrieves a media type that was wrapped in another media type by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfwrapmediatype">MFWrapMediaType</a> function.
+Retrieves a media type that was wrapped in another media type by the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfwrapmediatype">MFWrapMediaType</a> function.
 
 ## -parameters
 
 ### -param pWrap
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type that was retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfwrapmediatype">MFWrapMediaType</a>.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type that was retrieved by <a href="/windows/desktop/api/mfapi/nf-mfapi-mfwrapmediatype">MFWrapMediaType</a>.
 
 ### -param ppOrig
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the original media type. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the original media type. The caller must release the interface.
 
 ## -returns
 
@@ -77,5 +77,4 @@ This function is available on the following platforms if the Windows Media Forma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

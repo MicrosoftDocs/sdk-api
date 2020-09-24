@@ -77,17 +77,16 @@ Contains the identifier of the protocol that obtained the service information. S
 #### - Service
 
 Specifies an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_server_entry">IPX_SERVER_ENTRY</a> structure.
+<a href="/windows/desktop/api/stm/ns-stm-ipx_server_entry">IPX_SERVER_ENTRY</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_server_entry">IPX_SERVER_ENTRY</a>
+<a href="/windows/desktop/api/stm/ns-stm-ipx_server_entry">IPX_SERVER_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-structures">Service Table Management Structures</a>
-
+<a href="/windows/desktop/RRAS/service-table-management-structures">Service Table Management Structures</a>

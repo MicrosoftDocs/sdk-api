@@ -115,9 +115,8 @@ Applications running on the user's computer are not required to use this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings2">IWMPSettings2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings2">IWMPSettings2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-get_mediaaccessrights">IWMPSettings2::get_mediaAccessRights</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-get_mediaaccessrights">IWMPSettings2::get_mediaAccessRights</a>

@@ -52,17 +52,17 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CryptCATCDFEnumCatAttributes</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATCDFEnumCatAttributes</b> function enumerates catalog-level attributes within the <b>CatalogHeader</b> section of a catalog definition file (CDF). <b>CryptCATCDFEnumCatAttributes</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
+The <b>CryptCATCDFEnumCatAttributes</b> function enumerates catalog-level attributes within the <b>CatalogHeader</b> section of a catalog definition file (CDF). <b>CryptCATCDFEnumCatAttributes</b> is called by <a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>.
 
 ## -parameters
 
 ### -param pCDF [in]
 
-A pointer to a [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure.
+A pointer to a [CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure.
 
 ### -param pPrevAttr [in]
 
-A pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure for a catalog attribute in the CDF pointed to by <i>pCDF</i>.
+A pointer to a [CRYPTCATATTRIBUTE](/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure for a catalog attribute in the CDF pointed to by <i>pCDF</i>.
 
 ### -param pfnParseError [in]
 
@@ -70,7 +70,7 @@ A pointer to a user-defined function to handle file parse errors.
 
 ## -returns
 
-Upon success, this function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure. The <b>CryptCATCDFEnumCatAttributes</b> function returns a <b>NULL</b> pointer if it fails.
+Upon success, this function returns a pointer to a [CRYPTCATATTRIBUTE](/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure. The <b>CryptCATCDFEnumCatAttributes</b> function returns a <b>NULL</b> pointer if it fails.
 
 ## -remarks
 
@@ -101,13 +101,12 @@ The following example shows the correct sequence of assignments for the <i>pPrev
 
 ## -see-also
 
-[CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)
+[CRYPTCATATTRIBUTE](/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)
 
 
 
-[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)
+[CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>
-
+<a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>

@@ -54,7 +54,7 @@ Creates Direct2D resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>. <b>ID2D1Factory1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory1</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>. <b>ID2D1Factory1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>ID2D1Factory1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-createdevice">CreateDevice</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-createdevice">CreateDevice</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a> object.
+Creates a <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory1-createdrawingstateblock-overload">CreateDrawingStateBlock</a>
+<a href="/windows/desktop/Direct2D/id2d1factory1-createdrawingstateblock-overload">CreateDrawingStateBlock</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a new drawing state block, this can be used in subsequent
     SaveDrawingState and RestoreDrawingState operations on the render target.
@@ -87,33 +87,33 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-creategdimetafile">CreateGdiMetafile</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-creategdimetafile">CreateGdiMetafile</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile">ID2D1GdiMetafile</a> object that you can use to replay metafile content. 
+Creates a new <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile">ID2D1GdiMetafile</a> object that you can use to replay metafile content. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-createpathgeometry">CreatePathGeometry</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-createpathgeometry">CreatePathGeometry</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1">ID2D1PathGeometry1</a> object.
+Creates an <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1">ID2D1PathGeometry1</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory1-createstrokestyle-overload">CreateStrokeStyle</a>
+<a href="/windows/desktop/Direct2D/id2d1factory1-createstrokestyle-overload">CreateStrokeStyle</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a> object.
+<td align="left" width="63%">Overloaded. Creates a <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-geteffectproperties">GetEffectProperties</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-geteffectproperties">GetEffectProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties of an effect.
@@ -122,7 +122,7 @@ Retrieves the properties of an effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-getregisteredeffects">GetRegisteredEffects</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-getregisteredeffects">GetRegisteredEffects</a>
 </td>
 <td align="left" width="63%">
 Returns the class IDs of the currently registered effects and global effects on this factory.
@@ -131,7 +131,7 @@ Returns the class IDs of the currently registered effects and global effects on 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstream">RegisterEffectFromStream</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstream">RegisterEffectFromStream</a>
 </td>
 <td align="left" width="63%">
 Registers an effect within the factory instance with the property XML specified as a stream.
@@ -140,7 +140,7 @@ Registers an effect within the factory instance with the property XML specified 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">RegisterEffectFromString</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">RegisterEffectFromString</a>
 </td>
 <td align="left" width="63%">
 Registers an effect within the factory instance with the property XML specified as a string.
@@ -149,7 +149,7 @@ Registers an effect within the factory instance with the property XML specified 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-unregistereffect">UnregisterEffect</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-unregistereffect">UnregisterEffect</a>
 </td>
 <td align="left" width="63%">
 Unregisters an  effect within the factory instance that corresponds to the <i>classId</i> provided. 
@@ -164,13 +164,12 @@ The <b>ID2D1Factory1</b> interface is used to create devices, register and unreg
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/multi-threaded-direct2d-apps">Multithreaded Direct2D Apps</a>
-
+<a href="/windows/desktop/Direct2D/multi-threaded-direct2d-apps">Multithreaded Direct2D Apps</a>

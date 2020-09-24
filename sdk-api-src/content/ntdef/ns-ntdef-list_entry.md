@@ -72,49 +72,48 @@ For a <b>LIST_ENTRY</b> structure that serves as the list header, the <b>Blink</
 
 ## -remarks
 
-A <b>LIST_ENTRY</b> structure that describes the list head must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializelisthead">InitializeListHead</a>.
+A <b>LIST_ENTRY</b> structure that describes the list head must have been initialized by calling <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializelisthead">InitializeListHead</a>.
 
 A driver can access the <b>Flink</b> or <b>Blink</b> members of a <b>LIST_ENTRY</b>, but the members must only be updated by the system routines supplied for this purpose.
 
-For more information about how to use <b>LIST_ENTRY</b> structures to implement a doubly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
+For more information about how to use <b>LIST_ENTRY</b> structures to implement a doubly linked list, see <a href="/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/91640a96-abad-424e-b9bd-301dad2b6aac">ExInterlockedInsertHeadList</a>
+<a href="/previous-versions/ff545397(v=vs.85)">ExInterlockedInsertHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd322d64-4005-426c-b3ce-0fe8f6ce868e">ExInterlockedInsertTailList</a>
+<a href="/previous-versions/ff545402(v=vs.85)">ExInterlockedInsertTailList</a>
 
 
 
-<a href="https://msdn.microsoft.com/d024da2c-9629-4907-98b8-a29dc6022ac0">ExInterlockedRemoveHeadList</a>
+<a href="/previous-versions/ff545427(v=vs.85)">ExInterlockedRemoveHeadList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-insertheadlist">InsertHeadList</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-insertheadlist">InsertHeadList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-inserttaillist">InsertTailList</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-inserttaillist">InsertTailList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-islistempty">IsListEmpty</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-islistempty">IsListEmpty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeentrylist">RemoveEntryList</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeentrylist">RemoveEntryList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removetaillist">RemoveTailList</a>
-
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removetaillist">RemoveTailList</a>

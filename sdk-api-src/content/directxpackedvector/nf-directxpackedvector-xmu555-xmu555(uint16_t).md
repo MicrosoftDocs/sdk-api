@@ -54,7 +54,7 @@ Initializes a new instance of <code>XMU555</code> from a <code>uint16_t</code> v
 	component data in a packed format.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a> from a
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a> from a
 	<code>uint16_t</code> variable containing component data in a packed format.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -104,9 +104,8 @@ The last 1 bits (bit 15) of <b>Packed</b> assigned, as an integer, to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>

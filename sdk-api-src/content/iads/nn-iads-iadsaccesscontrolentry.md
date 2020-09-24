@@ -59,13 +59,13 @@ The <b>IADsAccessControlEntry</b> interface is a dual
 
 An object can have a number of ACEs, one for each client or a group of clients. ACEs are maintained in an 
     access-control list (ACL) which implements the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a> interface. That is, a client 
+    <a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a> interface. That is, a client 
     must use an ACL to access an ACE. To access the ACL, retrieve the  security descriptor of the object that 
-    implements the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface. 
+    implements the  <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface. 
     The following procedures describe how to manage access controls over an ADSI object.
 
 Some of the <b>IADsAccessControlEntry</b> property 
-    values, such as <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">AccessMask</a> and 
+    values, such as <a href="/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">AccessMask</a> and 
     <b>AceFlags</b>, will be different 
     for different object types. For example, an Active Directory object will use the 
     <b>ADS_RIGHT_GENERIC_READ</b> member of the 
@@ -74,11 +74,11 @@ Some of the <b>IADsAccessControlEntry</b> property
     property, but the equivalent access right for a file object is <b>FILE_GENERIC_READ</b>. It is 
     not safe to assume that all property values will be the same for Active Directory objects and non-Active Directory 
     objects. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/ADSI/security-descriptors-on-files-and-registry-keys">Security Descriptors on Files and Registry Keys</a>.
+    <a href="/windows/desktop/ADSI/security-descriptors-on-files-and-registry-keys">Security Descriptors on Files and Registry Keys</a>.
 <p class="proch"><b>To managing access controls over an ADSI object</b>
 <ol>
 <li>Retrieve the security descriptor for the object that implements the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface.</li>
+     <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface.</li>
 <li>Retrieve the ACL from the security descriptor.</li>
 <li>Work with the ACE, or ACEs, of the object in the 
      ACL.</li>
@@ -91,13 +91,12 @@ Some of the <b>IADsAccessControlEntry</b> property
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IAccessControlList</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IAccessControlList</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

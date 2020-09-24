@@ -56,21 +56,20 @@ Contains input data for a <b>D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION</b> co
 
 ### -field Parameters
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data.
+A <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data.
 
 ### -field DecoderHandle
 
-A handle to the decoder device. Get this from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodecoder-getdriverhandle">ID3D11VideoDecoder::GetDriverHandle</a>.
+A handle to the decoder device. Get this from <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodecoder-getdriverhandle">ID3D11VideoDecoder::GetDriverHandle</a>.
 
 ### -field CryptoSessionHandle
 
-A handle to the cryptographic session. Get this from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcryptosessionhandle">ID3D11CryptoSession::GetCryptoSessionHandle</a>.
+A handle to the cryptographic session. Get this from <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcryptosessionhandle">ID3D11CryptoSession::GetCryptoSessionHandle</a>.
 
 ### -field DeviceHandle
 
-A handle to the Direct3D device. Get this from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-queryauthenticatedchannel">D3D11VideoContext::QueryAuthenticatedChannel</a> using <b>D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE</b>.
+A handle to the Direct3D device. Get this from <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-queryauthenticatedchannel">D3D11VideoContext::QueryAuthenticatedChannel</a> using <b>D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
-
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>

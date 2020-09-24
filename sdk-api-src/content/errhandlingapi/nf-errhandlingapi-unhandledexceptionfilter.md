@@ -66,8 +66,8 @@ An application-defined function that passes unhandled exceptions to the debugger
 ### -param ExceptionInfo [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure that specifies a description of the exception and the processor context at the time of the exception. This pointer is the return value of a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a> function.
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure that specifies a description of the exception and the processor context at the time of the exception. This pointer is the return value of a call to the 
+<a href="/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a> function.
 
 ## -returns
 
@@ -99,7 +99,7 @@ The process is being debugged, so the exception should be passed (as second chan
 </td>
 <td width="60%">
 If the SEM_NOGPFAULTERRORBOX flag was specified in a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>, no Application Error message box is displayed. The function returns control to the exception handler, which is free to take any appropriate action.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>, no Application Error message box is displayed. The function returns control to the exception handler, which is free to take any appropriate action.
 
 </td>
 </tr>
@@ -108,32 +108,31 @@ If the SEM_NOGPFAULTERRORBOX flag was specified in a previous call to
 ## -remarks
 
 If the process is not being debugged, the function displays an <b>Application Error</b> message box, depending on the current error mode. The default behavior is to display the dialog box, but this can be disabled by specifying SEM_NOGPFAULTERRORBOX in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> function.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> function.
 
 The system uses 
 <b>UnhandledExceptionFilter</b> internally to handle exceptions that occur during process and thread creation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>
+<a href="/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setunhandledexceptionfilter">SetUnhandledExceptionFilter</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setunhandledexceptionfilter">SetUnhandledExceptionFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling-functions">Structured Exception Handling Functions</a>
+<a href="/windows/desktop/Debug/structured-exception-handling-functions">Structured Exception Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling">Structured Exception Handling Overview</a>
-
+<a href="/windows/desktop/Debug/structured-exception-handling">Structured Exception Handling Overview</a>

@@ -98,9 +98,9 @@ A value of the <a href="/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicsc
 
 ### -param ppVirtualChannel [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a>**</b>
+Type: <b><a href="/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a>**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a> interface pointer that receives the channel object.
+The address of an <a href="/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a> interface pointer that receives the channel object.
 
 ## -returns
 
@@ -110,5 +110,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelmanager">IWRdsGraphicsChannelManager</a>
-
+<a href="/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelmanager">IWRdsGraphicsChannelManager</a>

@@ -91,5 +91,4 @@ The <b>WSANSCLASSINFO</b> structure is defined differently depending on whether 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFO</a>
-
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFO</a>

@@ -55,8 +55,8 @@ api_name:
 The
 				<b>WNetAddConnection</b> function enables the calling application to connect a local device to a network resource. A successful connection is persistent, meaning that the system automatically restores the connection during subsequent logon operations.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Other Windows-based applications should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> or the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> function.</div><div> </div>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> or the 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -81,7 +81,7 @@ A pointer to a constant <b>null</b>-terminated string that specifies the name of
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -184,7 +184,7 @@ An entry for the device specified in the <i>lpLocalName</i> parameter is already
 </td>
 <td width="60%">
 A network-specific error occurred. To obtain a description of the error, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
 
 </td>
 </tr>
@@ -226,10 +226,10 @@ The network is unavailable.
 ## -remarks
 
 On Windows Server 2003 and Windows XP, the WNet functions create and delete network drive letters in the MS-DOS device namespace associated with a logon session because MS-DOS devices are identified by AuthenticationID (a  
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> function. The call to the <b>GetLogicalDrives</b> function does not return network drive letters created by WNet function calls under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
+<a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> function. The call to the <b>GetLogicalDrives</b> function does not return network drive letters created by WNet function calls under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
+<a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
 
 On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem calls the <b>WNetAddConnection</b> function, then the mapped drive is visible to all user logon sessions.  
 
@@ -242,31 +242,30 @@ On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona">WNetCancelConnection</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona">WNetCancelConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

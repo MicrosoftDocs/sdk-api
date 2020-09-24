@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Cancels a callback registration that was made by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscregisterforchanges">WscRegisterForChanges</a> function.
+Cancels a callback registration that was made by a call to the <a href="/windows/desktop/api/wscapi/nf-wscapi-wscregisterforchanges">WscRegisterForChanges</a> function.
 
 ## -parameters
 
 ### -param hRegistrationHandle [in]
 
-The handle to the registration context returned as the <i>phCallbackRegistration</i> of the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscregisterforchanges">WscRegisterForChanges</a> function.
+The handle to the registration context returned as the <i>phCallbackRegistration</i> of the <a href="/windows/desktop/api/wscapi/nf-wscapi-wscregisterforchanges">WscRegisterForChanges</a> function.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns <b>S_OK</b> if the function succeeds, otherwise returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscregisterforchanges">WscRegisterForChanges</a>
-
+<a href="/windows/desktop/api/wscapi/nf-wscapi-wscregisterforchanges">WscRegisterForChanges</a>

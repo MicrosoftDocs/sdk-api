@@ -53,21 +53,21 @@ api_name:
 ## -description
 
 Returns handles to the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/core-resources">core</a>,  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a>, 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a>,  and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum</a> resources. The <b>PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX</b> type defines a pointer to this function.
+    <a href="/previous-versions/windows/desktop/mscs/core-resources">core</a>,  <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a>, 
+    <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a>,  and 
+    <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum</a> resources. The <b>PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hClusterIn [in]
 
-The cluster handle (see <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>).
+The cluster handle (see <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>).
 
 ### -param phClusterNameResourceOut [out]
 
 A pointer to a resource handle to the core 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource for the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, which stores the cluster name.
+      <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource for the 
+      <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, which stores the cluster name.
 
 ### -param phClusterQuorumResourceOut [out]
 
@@ -75,22 +75,21 @@ Not used.
 
 ### -param dwDesiredAccess [in]
 
-The requested access privileges. This  might be any combination of <b>GENERIC_READ</b> (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or M<b>AXIMUM_ALLOWED</b> (0x02000000). If this value is zero (0), an undefined error  might be returned. Using <b>GENERIC_ALL</b> is the same as calling <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetcoreclusterresources">ResUtilGetCoreClusterResources</a>.
+The requested access privileges. This  might be any combination of <b>GENERIC_READ</b> (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or M<b>AXIMUM_ALLOWED</b> (0x02000000). If this value is zero (0), an undefined error  might be returned. Using <b>GENERIC_ALL</b> is the same as calling <a href="/windows/desktop/api/resapi/nf-resapi-resutilgetcoreclusterresources">ResUtilGetCoreClusterResources</a>.
 
 
 #### - phClusterQuorumResource [out]
 
 A pointer to a resource handle to the cluster's 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>.
+      <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>.
 
 ## -returns
 
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>

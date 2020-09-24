@@ -52,10 +52,10 @@ api_name:
 
 The 
 WbemComparisonFlagEnum constants define the settings for object comparison and are used by 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-compareto-">SWbemObject.CompareTo_</a>.
+<a href="/windows/desktop/WmiSdk/swbemobject-compareto-">SWbemObject.CompareTo_</a>.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library; script languages must use the value of the constant directly, unless they use the Windows Script Host (WSH) XML file format. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
+<a href="/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 ## -enum-fields
 
@@ -65,7 +65,7 @@ Used to compare all properties, qualifiers, and flavors.
 
 ### -field wbemComparisonFlagIgnoreQualifiers
 
-Ignores all qualifiers (including <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier">Key</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers">Dynamic</a>) in comparison.
+Ignores all qualifiers (including <a href="/windows/desktop/WmiSdk/key-qualifier">Key</a> and <a href="/windows/desktop/WmiSdk/standard-wmi-qualifiers">Dynamic</a>) in comparison.
 
 ### -field wbemComparisonFlagIgnoreObjectSource
 
@@ -89,5 +89,4 @@ Ignore qualifier flavors. This constant still takes qualifier values into accoun
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
-
+<a href="/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>

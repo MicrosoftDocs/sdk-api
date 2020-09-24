@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Restores access to resources that were previously offered by calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">IDXGIDevice4::OfferResources1</a>.
+Restores access to resources that were previously offered by calling <a href="/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">IDXGIDevice4::OfferResources1</a>.
 
 ## -parameters
 
@@ -64,13 +64,13 @@ The number of resources in the <i>ppResources</i> argument and <i>pResults</i> a
 
 Type: <b>IDXGIResource*</b>
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> interfaces for the resources to reclaim.
+An array of pointers to <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> interfaces for the resources to reclaim.
 
 ### -param pResults [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a>*</b>
+Type: <b><a href="/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a>*</b>
 
-A pointer to an array that receives <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a> values. Each value in the array corresponds to a resource at the same index that the <i>ppResources</i> parameter specifies.  The caller can pass in <b>NULL</b>, if the caller intends to fill the resources with new content regardless of whether the old content was discarded.
+A pointer to an array that receives <a href="/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a> values. Each value in the array corresponds to a resource at the same index that the <i>ppResources</i> parameter specifies.  The caller can pass in <b>NULL</b>, if the caller intends to fill the resources with new content regardless of whether the old content was discarded.
 
 ## -returns
 
@@ -80,15 +80,14 @@ This method returns an HRESULT success or error code, including E_INVALIDARG if 
 
 ## -remarks
 
-After you call <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">OfferResources1</a> to offer one or more resources, you must call <b>ReclaimResources1</b> before you can use those resources again.
+After you call <a href="/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">OfferResources1</a> to offer one or more resources, you must call <b>ReclaimResources1</b> before you can use those resources again.
 
-To reclaim shared resources, call <b>ReclaimResources1</b> only on one of the sharing devices.  To ensure exclusive access to the resources, you must use an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> object and then call <b>ReclaimResources1</b> only while you hold the mutex.
+To reclaim shared resources, call <b>ReclaimResources1</b> only on one of the sharing devices.  To ensure exclusive access to the resources, you must use an <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> object and then call <b>ReclaimResources1</b> only while you hold the mutex.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgidevice4">IDXGIDevice4</a>
+<a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgidevice4">IDXGIDevice4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a>
-
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a>

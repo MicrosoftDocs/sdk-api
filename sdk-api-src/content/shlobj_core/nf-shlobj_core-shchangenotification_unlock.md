@@ -60,11 +60,10 @@ Unlocks shared memory for a change notification.
 
 Type: <b>HANDLE</b>
 
-A handle to the memory lock. This is the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotification_lock">SHChangeNotification_Lock</a> when it locked the memory.
+A handle to the memory lock. This is the handle returned by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotification_lock">SHChangeNotification_Lock</a> when it locked the memory.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> on success; otherwise, <b>FALSE</b>.
-

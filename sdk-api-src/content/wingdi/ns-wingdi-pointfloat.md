@@ -68,13 +68,12 @@ Specifies the vertical (y) coordinate of a point.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/structures">Structures</a>
-
+<a href="/windows/desktop/OpenGL/structures">Structures</a>

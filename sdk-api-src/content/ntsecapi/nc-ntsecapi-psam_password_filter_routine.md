@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-The <b>PasswordFilter</b> function is implemented by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">password filter</a> DLL. The value returned by this function determines whether the new password is accepted by the system. All of the password filters installed on a system must return <b>TRUE</b> for the password change to take effect.
+The <b>PasswordFilter</b> function is implemented by a <a href="/windows/desktop/SecGloss/p-gly">password filter</a> DLL. The value returned by this function determines whether the new password is accepted by the system. All of the password filters installed on a system must return <b>TRUE</b> for the password change to take effect.
 
 ## -parameters
 
 ### -param AccountName [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that represents the name of the user whose password changed.
+Pointer to a <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that represents the name of the user whose password changed.
 
 ### -param FullName [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that represents the full name of the user whose password changed.
+Pointer to a <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that represents the full name of the user whose password changed.
 
 ### -param Password [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that represents the new plaintext password. When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information on protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+Pointer to a <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that represents the new plaintext password. When you have finished using the password, clear it from memory by calling the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information on protecting the password, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 ### -param SetOperation [in]
 
@@ -84,7 +84,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-
 </dl>
 </td>
 <td width="60%">
-Return <b>TRUE</b> if the new password is valid with respect to the password policy implemented in the password filter DLL. When <b>TRUE</b> is returned, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) continues to evaluate the password by calling any other password filters installed on the system.
+Return <b>TRUE</b> if the new password is valid with respect to the password policy implemented in the password filter DLL. When <b>TRUE</b> is returned, the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) continues to evaluate the password by calling any other password filters installed on the system.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ This function must use the __stdcall calling convention and must be exported by 
 
 When the <b>PasswordFilter</b> routine is running, processing is blocked until the routine is finished. When appropriate, move any lengthy processing to a separate thread prior to returning from this routine.
 
-This function is called only for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">password filters</a> that are installed and registered on a system.
+This function is called only for <a href="/windows/desktop/SecGloss/p-gly">password filters</a> that are installed and registered on a system.
 
 Any process exception that is not handled within this function may cause security-related failures system-wide. Structured exception handling should be used when appropriate.
 
@@ -121,28 +121,27 @@ Any process exception that is not handled within this function may cause securit
 <tr>
 <td>Programming issues when implementing a password filter DLL</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/password-filter-programming-considerations">Password Filter Programming Considerations</a>
+<a href="/windows/desktop/SecMgmt/password-filter-programming-considerations">Password Filter Programming Considerations</a>
 </td>
 </tr>
 <tr>
 <td>How to install and register your own password filter DLL</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/installing-and-registering-a-password-filter-dll">Installing and Registering a Password Filter DLL</a>
+<a href="/windows/desktop/SecMgmt/installing-and-registering-a-password-filter-dll">Installing and Registering a Password Filter DLL</a>
 </td>
 </tr>
 <tr>
 <td>The password filter DLL provided by Microsoft </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/strong-password-enforcement-and-passfilt-dll">Strong Password Enforcement and Passfilt.dll</a>
+<a href="/windows/desktop/SecMgmt/strong-password-enforcement-and-passfilt-dll">Strong Password Enforcement and Passfilt.dll</a>
 </td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_init_notification_routine">InitializeChangeNotify</a>
+<a href="/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_init_notification_routine">InitializeChangeNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_notification_routine">PasswordChangeNotify</a>
-
+<a href="/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_notification_routine">PasswordChangeNotify</a>

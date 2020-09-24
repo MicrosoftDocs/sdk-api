@@ -60,5 +60,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent">IUpdateDownloadContent</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent">IUpdateDownloadContent</a>

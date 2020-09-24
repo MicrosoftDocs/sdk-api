@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets the current unbiased interrupt-time count, in a more precise form than <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
+Gets the current unbiased interrupt-time count, in a more precise form than <a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
 
 ## -parameters
 
@@ -65,40 +65,39 @@ A pointer to a ULONGLONG in which to receive the unbiased interrupt-time count i
 
 ## -remarks
 
-<b>QueryUnbiasedInterruptTimePrecise</b> is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> routine, but is more precise. The interrupt time reported by <b>QueryUnbiasedInterruptTime</b> is based on the latest tick of the system clock timer. The system clock timer is the hardware timer that periodically generates interrupts for the system clock. The uniform period between system clock timer interrupts is referred to as a system clock tick, and is typically in the range of 0.5 milliseconds to 15.625 milliseconds, depending on the hardware platform. The interrupt time value retrieved by <b>QueryUnbiasedInterruptTime</b> is accurate within a system clock tick.
+<b>QueryUnbiasedInterruptTimePrecise</b> is similar to the <a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> routine, but is more precise. The interrupt time reported by <b>QueryUnbiasedInterruptTime</b> is based on the latest tick of the system clock timer. The system clock timer is the hardware timer that periodically generates interrupts for the system clock. The uniform period between system clock timer interrupts is referred to as a system clock tick, and is typically in the range of 0.5 milliseconds to 15.625 milliseconds, depending on the hardware platform. The interrupt time value retrieved by <b>QueryUnbiasedInterruptTime</b> is accurate within a system clock tick.
 
-To provide a system time value that is more precise than that of <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a>, <b>QueryUnbiasedInterruptTimePrecise</b> reads the timer hardware directly,  therefore a <b>QueryUnbiasedInterruptTimePrecise</b> call can be slower than a <b>QueryUnbiasedInterruptTime</b> call.
+To provide a system time value that is more precise than that of <a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a>, <b>QueryUnbiasedInterruptTimePrecise</b> reads the timer hardware directly,  therefore a <b>QueryUnbiasedInterruptTimePrecise</b> call can be slower than a <b>QueryUnbiasedInterruptTime</b> call.
 
-Call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerytimeincrement">KeQueryTimeIncrement</a> routine to determine the duration of a system clock tick.
+Call the <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerytimeincrement">KeQueryTimeIncrement</a> routine to determine the duration of a system clock tick.
 
-Also see Remarks in <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a>.
+Also see Remarks in <a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a>.
 
 <div class="alert"><b>Note</b>  The <b>QueryUnbiasedInterruptTimePrecise</b> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the <a href="https://msdn.microsoft.com/default.aspx">Microsoft Developer Network (MSDN)</a> Web site.</div>
 <div> </div>
 To compile an application that uses this function, define _WIN32_WINNT as 0x0601 or later. For more information, see
-				<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+				<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/interrupt-time">Interrupt Time</a>
+<a href="/windows/desktop/SysInfo/interrupt-time">Interrupt Time</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime">QueryInterruptTime</a>
+<a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime">QueryInterruptTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise">QueryInterruptTimePrecise</a>
+<a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise">QueryInterruptTimePrecise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a>
+<a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">System Power States</a>
+<a href="/windows/desktop/Power/system-power-states">System Power States</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/windows-time">Windows Time</a>
-
+<a href="/windows/desktop/SysInfo/windows-time">Windows Time</a>

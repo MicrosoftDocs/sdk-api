@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> function. It is called when a portion of 
+    <a href="/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> function. It is called when a portion of 
     a copy or move operation is completed. The <b>PCOPYFILE2_PROGRESS_ROUTINE</b> type defines a 
     pointer to this callback function. 
     <b>CopyFile2ProgressRoutine</b> is a placeholder for the 
@@ -62,17 +62,17 @@ An application-defined callback function used with the
 
 ### -param *pMessage [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_message">COPYFILE2_MESSAGE</a> structure.
+Pointer to a <a href="/windows/desktop/api/winbase/ns-winbase-copyfile2_message">COPYFILE2_MESSAGE</a> structure.
 
 ### -param pvCallbackContext [in, optional]
 
 Copy of value passed in the <b>pvCallbackContext</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> structure 
-      passed to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a>.
+      <a href="/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> structure 
+      passed to <a href="/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a>.
 
 ## -returns
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-copyfile2_message_action">COPYFILE2_MESSAGE_ACTION</a> 
+Value from the <a href="/windows/desktop/api/winbase/ne-winbase-copyfile2_message_action">COPYFILE2_MESSAGE_ACTION</a> 
       enumeration indicating what action should be taken.
 
 <table>
@@ -100,7 +100,7 @@ Continue the copy operation.
 </dl>
 </td>
 <td width="60%">
-Cancel the copy operation. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> function 
+Cancel the copy operation. The <a href="/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> function 
         will fail, return 
         <code>HRESULT_FROM_WIN32(ERROR_REQUEST_ABORTED)</code> and any 
         partially copied fragments will be deleted.
@@ -115,12 +115,12 @@ Cancel the copy operation. The <a href="https://docs.microsoft.com/windows/deskt
 </dl>
 </td>
 <td width="60%">
-Stop the copy operation. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> function will 
+Stop the copy operation. The <a href="/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> function will 
         fail, return <code>HRESULT_FROM_WIN32(ERROR_REQUEST_ABORTED)</code> 
         and any partially copied fragments will be left intact. The operation can be restarted using the 
         <b>COPY_FILE_RESUME_FROM_PAUSE</b> flag only if 
         <b>COPY_FILE_RESTARTABLE</b> was set in the <b>dwCopyFlags</b> member 
-        of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> 
+        of the <a href="/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> 
         structure passed to the <b>CopyFile2</b> function.
 
 </td>
@@ -134,7 +134,7 @@ Stop the copy operation. The <a href="https://docs.microsoft.com/windows/desktop
 </td>
 <td width="60%">
 Continue the copy operation but do not call the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback function 
+        <a href="/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback function 
         again for this operation.
 
 </td>
@@ -147,7 +147,7 @@ Continue the copy operation but do not call the
 </dl>
 </td>
 <td width="60%">
-Pause the copy operation. In most cases the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> 
+Pause the copy operation. In most cases the <a href="/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> 
         function will fail and return 
         <code>HRESULT_FROM_WIN32(ERROR_REQUEST_PAUSED)</code> and any 
         partially copied fragments will be left intact (except for the header written that is used to resume the copy 
@@ -168,7 +168,7 @@ The <b>COPYFILE2_CALLBACK_STREAM_FINISHED</b> message is the last message for a 
 To compile an application that uses the <b>PCOPYFILE2_PROGRESS_ROUTINE</b> 
     function pointer type, define the <b>_WIN32_WINNT</b> macro as 0x0601 or later. For more 
     information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -228,4 +228,3 @@ Yes
 </td>
 </tr>
 </table>
-

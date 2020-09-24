@@ -46,7 +46,7 @@ ms.custom: 19H1
 
 ## -description
 
-An application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML) functions. It processes Dynamic Data Exchange (DDE) transactions. The 
+An application-defined callback function used with the <a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML) functions. It processes Dynamic Data Exchange (DDE) transactions. The 
 			<b>PFNCALLBACK</b> type defines a pointer to this callback function. <i>DdeCallback</i> is a placeholder for the application-defined function name. 
 
 ## -parameters
@@ -113,10 +113,10 @@ A DDE callback function should return <b>TRUE</b> or <b>FALSE</b> when it finish
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a>
+<a href="/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a>
+<a href="/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a>
 </li>
 </ul>
 
@@ -126,13 +126,13 @@ A DDE callback function should return a DDE handle, the <b>CBR_BLOCK</b> return 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advreq">XTYP_ADVREQ</a>
+<a href="/windows/desktop/dataxchg/xtyp-advreq">XTYP_ADVREQ</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a>
+<a href="/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a>
+<a href="/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a>
 </li>
 </ul>
 
@@ -142,13 +142,13 @@ A DDE callback function should return <b>DDE_FACK</b>, <b>DDE_FBUSY</b>, or <b>D
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advdata">XTYP_ADVDATA</a>
+<a href="/windows/desktop/dataxchg/xtyp-advdata">XTYP_ADVDATA</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>
+<a href="/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>
+<a href="/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>
 </li>
 </ul>
 
@@ -158,41 +158,41 @@ The transaction types that belong to this class are for notification purposes on
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a>
+<a href="/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-connect-confirm">XTYP_CONNECT_CONFIRM</a>
+<a href="/windows/desktop/dataxchg/xtyp-connect-confirm">XTYP_CONNECT_CONFIRM</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-disconnect">XTYP_DISCONNECT</a>
+<a href="/windows/desktop/dataxchg/xtyp-disconnect">XTYP_DISCONNECT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-error">XTYP_ERROR</a>
+<a href="/windows/desktop/dataxchg/xtyp-error">XTYP_ERROR</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-monitor">XTYP_MONITOR</a>
+<a href="/windows/desktop/dataxchg/xtyp-monitor">XTYP_MONITOR</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-register">XTYP_REGISTER</a>
+<a href="/windows/desktop/dataxchg/xtyp-register">XTYP_REGISTER</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a>
+<a href="/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-unregister">XTYP_UNREGISTER</a>
+<a href="/windows/desktop/dataxchg/xtyp-unregister">XTYP_UNREGISTER</a>
 </li>
 </ul>
 
 The callback function is called asynchronously for transactions that do not involve the creation or termination of conversations. An application that does not frequently accept incoming messages will have reduced DDE performance because the Dynamic Data Exchange Management Library (DDEML) uses messages to initiate transactions. 
 
-An application must register the callback function by specifying a pointer to the function in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
+An application must register the callback function by specifying a pointer to the function in a call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
 
 ## -see-also
 
 <b>Conceptual</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeenablecallback">DdeEnableCallback</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeenablecallback">DdeEnableCallback</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>

@@ -56,11 +56,11 @@ Determines whether one LSN is greater than another LSN. The two LSNs must be fro
 
 ### -param plsn1 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to be compared with  <i>plsn2</i>.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to be compared with  <i>plsn2</i>.
 
 ### -param plsn2 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to be compared with  <i>plsn1</i>.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to be compared with  <i>plsn1</i>.
 
 ## -returns
 
@@ -74,13 +74,12 @@ LSNs from different streams are not comparable. Do not use this function to comp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/nf-clfs-clfslsnequal">LsnEqual</a>
+<a href="/windows/desktop/api/clfs/nf-clfs-clfslsnequal">LsnEqual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/nf-clfs-clfslsnless">LsnLess</a>
+<a href="/windows/desktop/api/clfs/nf-clfs-clfslsnless">LsnLess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/nf-clfs-clfslsnnull">LsnNull</a>
-
+<a href="/windows/desktop/api/clfs/nf-clfs-clfslsnnull">LsnNull</a>

@@ -53,7 +53,7 @@ api_name:
 Default constructor for <code>XMSHORTN4</code>.
     
 
-Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a>.
+Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
@@ -70,9 +70,8 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshortn4-ctor">XMSHORTN4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmshortn4-ctor">XMSHORTN4 Constructors</a>

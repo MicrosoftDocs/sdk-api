@@ -56,7 +56,7 @@ Queries whether a media presentation requires the Protected Media Path (PMP).
 
 ### -param pPresentationDescriptor [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of a presentation descriptor. The presentation descriptor is created by the media source, and describes the presentation.
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of a presentation descriptor. The presentation descriptor is created by the media source, and describes the presentation.
 
 ## -returns
 
@@ -93,13 +93,12 @@ This presentation does not require a protected environment.
 
 ## -remarks
 
-If this function returns <b>S_OK</b>, it means the PMP is required for this presentation. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a> to create the PMP session object.
+If this function returns <b>S_OK</b>, it means the PMP is required for this presentation. Call <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a> to create the PMP session object.
 
-If the function returns <b>S_FALSE</b>, you can use the unprotected pipeline. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatemediasession">MFCreateMediaSession</a> to create the regular Media Session object.
+If the function returns <b>S_FALSE</b>, you can use the unprotected pipeline. Call <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatemediasession">MFCreateMediaSession</a> to create the regular Media Session object.
 
-Internally, this function checks whether any of the stream descriptors in the presentation have the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sd-protected-attribute">MF_SD_PROTECTED</a> attribute with the value <b>TRUE</b>.
+Internally, this function checks whether any of the stream descriptors in the presentation have the <a href="/windows/desktop/medfound/mf-sd-protected-attribute">MF_SD_PROTECTED</a> attribute with the value <b>TRUE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

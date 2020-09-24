@@ -121,7 +121,7 @@ The process cannot access the file because it is being used by another process. 
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -139,17 +139,17 @@ These two categories correspond to specific and wildcard port reservation reques
 
 The <b>CreatePersistentUdpPortReservation</b> function provides the ability for an application or service to reserve persistently a block of UDP ports.  Persistent TCP reservations are recorded in a persistent store for the UDP module in Windows. 
 
-A caller obtains a persistent port reservation by specifying how many ports are required and whether a specific range is needed. If the request can be satisfied, the <b>CreatePersistentUdpPortReservation</b> function returns a unique opaque ULONG64 token, which subsequently identifies the reservation. A persistent UDP port reservation may be released by calling the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a> function. Note that the token for a given persistent UDP port reservation may change each time the system is restarted.
+A caller obtains a persistent port reservation by specifying how many ports are required and whether a specific range is needed. If the request can be satisfied, the <b>CreatePersistentUdpPortReservation</b> function returns a unique opaque ULONG64 token, which subsequently identifies the reservation. A persistent UDP port reservation may be released by calling the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a> function. Note that the token for a given persistent UDP port reservation may change each time the system is restarted.
 
 
 
-Windows does not implement inter-component security for persistent reservations obtained using these functions. This means that if a component is granted the ability to obtain any persistent port reservations, that component automatically gains the ability to consume any persistent port reservations granted to any other component on the system. Process-level security is enforced for runtime reservations, but such control cannot be extended to persistent reservations created using the created using the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a> or  <b>CreatePersistentUdpPortReservation</b> function.
+Windows does not implement inter-component security for persistent reservations obtained using these functions. This means that if a component is granted the ability to obtain any persistent port reservations, that component automatically gains the ability to consume any persistent port reservations granted to any other component on the system. Process-level security is enforced for runtime reservations, but such control cannot be extended to persistent reservations created using the created using the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a> or  <b>CreatePersistentUdpPortReservation</b> function.
 
 
 
-Once a persistent UDP port reservation has been obtained, an application can request port assignments from the UDP port reservation by opening a UDP socket, then calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> function specifying the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a> IOCTL and passing the reservation token before issuing a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function on the socket. 
+Once a persistent UDP port reservation has been obtained, an application can request port assignments from the UDP port reservation by opening a UDP socket, then calling the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> function specifying the <a href="/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a> IOCTL and passing the reservation token before issuing a call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function on the socket. 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL can be used to request a runtime reservation for a block of TCP or UDP ports. For runtime port reservations, the port pool requires that reservations be consumed from the process on whose socket the reservation was granted. Runtime port reservations last only as long as the lifetime of the socket on which the <b>SIO_ACQUIRE_PORT_RESERVATION</b> IOCTL was called.  In contrast, persistent port reservations created using the <b>CreatePersistentUdpPortReservation</b> function may be consumed by any process with the ability to obtain persistent reservations. 
+The <a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL can be used to request a runtime reservation for a block of TCP or UDP ports. For runtime port reservations, the port pool requires that reservations be consumed from the process on whose socket the reservation was granted. Runtime port reservations last only as long as the lifetime of the socket on which the <b>SIO_ACQUIRE_PORT_RESERVATION</b> IOCTL was called.  In contrast, persistent port reservations created using the <b>CreatePersistentUdpPortReservation</b> function may be consumed by any process with the ability to obtain persistent reservations. 
 
 
 
@@ -157,41 +157,40 @@ The <b>CreatePersistentUdpPortReservation</b> function can only be called by a u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistenttcpportreservation">DeletePersistentTcpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistenttcpportreservation">DeletePersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistenttcpportreservation">LookupPersistentTcpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistenttcpportreservation">LookupPersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation">LookupPersistentUdpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation">LookupPersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a>
+<a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a>
+<a href="/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)">SIO_RELEASE_PORT_RESERVATION</a>
+<a href="/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)">SIO_RELEASE_PORT_RESERVATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>

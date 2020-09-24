@@ -77,5 +77,4 @@ Array of certificate reference numbers.
 ### -field rgExtension
 
 Array of pointers to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> certificate extensions to be added.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> certificate extensions to be added.

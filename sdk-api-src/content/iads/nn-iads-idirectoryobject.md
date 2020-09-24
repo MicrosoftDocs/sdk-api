@@ -53,13 +53,13 @@ api_name:
 The <b>IDirectoryObject</b> interface is a non-Automation COM interface that provides clients with direct access to directory service objects. The interface enables access by means of a direct over-the-wire protocol, rather than through the ADSI attribute cache. Using the over-the-wire protocol optimizes performance. With <b>IDirectoryObject</b>, a client can get, or set, any number of object attributes with one method call. Unlike the corresponding Automation methods, which are invoked in batch, those of <b>IDirectoryObject</b> are executed when they are called. <b>IDirectoryObject</b> performs no attribute caching.
    
 
-Non-Automation clients can call the methods of <b>IDirectoryObject</b> to optimize performance and take advantage of native directory service interfaces. Automation clients cannot use <b>IDirectoryObject</b>. Instead, they should use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a> interface.
+Non-Automation clients can call the methods of <b>IDirectoryObject</b> to optimize performance and take advantage of native directory service interfaces. Automation clients cannot use <b>IDirectoryObject</b>. Instead, they should use the  <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a> interface.
 
 Of the ADSI system-supplied providers, only the LDAP provider supports this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectoryObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectoryObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectoryObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectoryObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDirectoryObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">CreateDSObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">CreateDSObject</a>
 </td>
 <td align="left" width="63%">
 Creates a directory service object.
@@ -83,7 +83,7 @@ Creates a directory service object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-deletedsobject">DeleteDSObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-deletedsobject">DeleteDSObject</a>
 </td>
 <td align="left" width="63%">
 Deletes a directory service object.
@@ -92,7 +92,7 @@ Deletes a directory service object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">GetObjectAttributes</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">GetObjectAttributes</a>
 </td>
 <td align="left" width="63%">
 Gets one or more attributes of a directory service object.
@@ -101,7 +101,7 @@ Gets one or more attributes of a directory service object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectinformation">GetObjectInformation</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectinformation">GetObjectInformation</a>
 </td>
 <td align="left" width="63%">
 Gets data about a directory service object.
@@ -110,7 +110,7 @@ Gets data about a directory service object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">SetObjectAttributes</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">SetObjectAttributes</a>
 </td>
 <td align="left" width="63%">
 Sets one or more attributes of a directory service object.
@@ -121,5 +121,4 @@ Sets one or more attributes of a directory service object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>

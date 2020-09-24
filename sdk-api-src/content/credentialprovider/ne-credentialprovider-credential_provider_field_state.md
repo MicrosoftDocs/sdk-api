@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the state of a single field in the Credential UI. Used by <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a> and <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldstate">ICredentialProviderCredentialEvents::SetFieldState</a>. The behavior of fields may vary depending on the current field state.
+Specifies the state of a single field in the Credential UI. Used by <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a> and <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldstate">ICredentialProviderCredentialEvents::SetFieldState</a>. The behavior of fields may vary depending on the current field state.
 
 ## -enum-fields
 
@@ -71,4 +71,3 @@ Show the field when in the deselected state. This value is only valid for a <a h
 ### -field CPFS_DISPLAY_IN_BOTH
 
 Show the field both when the credential tile is selected and when it is not selected.
-

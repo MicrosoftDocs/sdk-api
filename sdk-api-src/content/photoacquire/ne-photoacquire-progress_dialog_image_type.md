@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <code>PROGRESS_DIALOG_IMAGE_TYPE</code> enumeration type indicates the image type set in <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-setimage">IPhotoProgressDialog::SetImage</a>.
+The <code>PROGRESS_DIALOG_IMAGE_TYPE</code> enumeration type indicates the image type set in <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-setimage">IPhotoProgressDialog::SetImage</a>.
 
 ## -enum-fields
 
@@ -74,9 +74,8 @@ Specifies a bitmap thumbnail (up to 128 x 128 pixels, although it will be scaled
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>
+<a href="/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-setimage">IPhotoAcquireProgressDialog::SetImage</a>
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-setimage">IPhotoAcquireProgressDialog::SetImage</a>

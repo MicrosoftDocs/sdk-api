@@ -80,5 +80,4 @@ The subject name (such as "CN=service.com") of the specified
 certificate.  The supplied subject name string must be in a format acceptable to
 CERT_FIND_SUBJECT_NAME-based
 search.
-                (See <a href="https://msdn.microsoft.com/library/aa376064.aspx">CertFindCertificateInStore</a>.)
-
+                (See <a href="/windows/win32/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>.)

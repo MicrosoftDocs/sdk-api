@@ -70,7 +70,7 @@ When <b>NULL</b>, a new array is copied from <i>hdpaSource</i>.
 
                     
 
-This parameter can also contain an array created with <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_create">DPA_Create</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_createex">DPA_CreateEx</a>. The data is overwritten but the original delta size and heap handle retained.
+This parameter can also contain an array created with <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_create">DPA_Create</a> or <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_createex">DPA_CreateEx</a>. The data is overwritten but the original delta size and heap handle retained.
 
 ## -returns
 
@@ -80,5 +80,4 @@ The handle to the new or altered DPA (<i>hdpaNew</i>) if successful; otherwise, 
 
 ## -remarks
 
-<b>DPA_Clone</b> is not exported by name or declared in a public header file. To use it, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 331 from ComCtl32.dll to obtain a function pointer.
-
+<b>DPA_Clone</b> is not exported by name or declared in a public header file. To use it, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 331 from ComCtl32.dll to obtain a function pointer.

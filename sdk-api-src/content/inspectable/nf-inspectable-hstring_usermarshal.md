@@ -47,41 +47,21 @@ api_name:
  - HSTRING_UserMarshal
 ---
 
-# HSTRING_UserMarshal function
-
-
 ## -description
 
-Marshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object into the RPC buffer.
+Marshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object into the RPC buffer.
 
 ## -parameters
 
 ### -param arg1
 
-TBD
+The data used by RPC.
 
 ### -param arg2
 
-TBD
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - pBuffer [in, out]
-
 The current buffer. This pointer may or may not be aligned on entry.
 
-
-#### - pFlags [in]
-
-The data used by RPC.
-
-
-#### - ppidl [in]
+### -param arg3
 
 The string.
 
@@ -91,5 +71,4 @@ The value obtained from the returned <b>HRESULT</b> value is <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

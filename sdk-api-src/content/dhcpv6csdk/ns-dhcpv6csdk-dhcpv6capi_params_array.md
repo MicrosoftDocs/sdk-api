@@ -64,5 +64,4 @@ Number of parameters in the array.
 
 ### -field Params
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_params">DHCPV6CAPI_PARAMS</a> structure that contains a parameter.
-
+Pointer to a <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_params">DHCPV6CAPI_PARAMS</a> structure that contains a parameter.

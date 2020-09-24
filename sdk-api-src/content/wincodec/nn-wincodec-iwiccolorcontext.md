@@ -54,7 +54,7 @@ Exposes methods for color management.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICColorContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICColorContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICColorContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICColorContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICColorContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-getexifcolorspace">GetExifColorSpace</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-getexifcolorspace">GetExifColorSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the EXIF color space color context.
@@ -78,7 +78,7 @@ Retrieves the EXIF color space color context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-getprofilebytes">GetProfileBytes</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-getprofilebytes">GetProfileBytes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color context profile.
@@ -87,7 +87,7 @@ Retrieves the color context profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-gettype">GetType</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color context type.
@@ -96,7 +96,7 @@ Retrieves the color context type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-initializefromexifcolorspace">InitializeFromExifColorSpace</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-initializefromexifcolorspace">InitializeFromExifColorSpace</a>
 </td>
 <td align="left" width="63%">
 Initializes the color context using an EXIF color space.
@@ -105,7 +105,7 @@ Initializes the color context using an EXIF color space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-initializefromfilename">InitializeFromFilename</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-initializefromfilename">InitializeFromFilename</a>
 </td>
 <td align="left" width="63%">
 Initializes the color context from the given file.
@@ -114,7 +114,7 @@ Initializes the color context from the given file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-initializefrommemory">InitializeFromMemory</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-initializefrommemory">InitializeFromMemory</a>
 </td>
 <td align="left" width="63%">
 Initializes the color context from a memory block.
@@ -125,7 +125,6 @@ Initializes the color context from a memory block.
 
 ## -remarks
 
-A Color Context is an abstraction for a color profile. The profile can either be loaded from a file (like "sRGB Color Space Profile.icm"), read from a memory buffer, or can be defined by an EXIF color space. The system color profile directory can be obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/getcolordirectory">GetColorDirectory</a>.
+A Color Context is an abstraction for a color profile. The profile can either be loaded from a file (like "sRGB Color Space Profile.icm"), read from a memory buffer, or can be defined by an EXIF color space. The system color profile directory can be obtained by calling <a href="/previous-versions/windows/desktop/wcs/getcolordirectory">GetColorDirectory</a>.
 
 Once a color context has been initialized, it cannot be re-initialized.
-

@@ -67,11 +67,11 @@ Contains a <b>VARIANT</b> that specifies the new values of the property.
 This method supports the standard return values, as well as the following.
       
 
-For more information, and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information, and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-The assignment of the new property values, performed by <b>Put</b> takes place in the property cache only. To propagate the changes to the directory store, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> on the object after calling <b>Put</b>.
+The assignment of the new property values, performed by <b>Put</b> takes place in the property cache only. To propagate the changes to the directory store, call  <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> on the object after calling <b>Put</b>.
 
 To manipulate the property values beyond a simple assignment, use  <b>Put</b> to append  or remove a value from an existing array of attribute values.
 
@@ -147,22 +147,21 @@ CoUninitialize();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property
+<a href="/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
-

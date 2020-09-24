@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Elements of the <b>TF_DA_ATTR_INFO</b> enumeration are used to specify text conversion data in the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE</a> structure.
+Elements of the <b>TF_DA_ATTR_INFO</b> enumeration are used to specify text conversion data in the <a href="/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE</a> structure.
 
 ## -enum-fields
 
@@ -86,6 +86,5 @@ Reserved for the system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE
       </a>
-

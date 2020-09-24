@@ -56,7 +56,7 @@ Retrieves the type of package that is represented by the package info.
 
 ### -param packageType [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_payload_package_type">APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_payload_package_type">APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE</a>*</b>
 
 The type of package.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>

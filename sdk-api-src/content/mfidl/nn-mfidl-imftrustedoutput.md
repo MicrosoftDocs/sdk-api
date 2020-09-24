@@ -57,7 +57,7 @@ The policy engine uses this interface to negotiate what type of content protecti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTrustedOutput</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTrustedOutput</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTrustedOutput</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTrustedOutput</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFTrustedOutput</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-getoutputtrustauthoritybyindex">GetOutputTrustAuthorityByIndex</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-getoutputtrustauthoritybyindex">GetOutputTrustAuthorityByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets an OTA, specified by index.
@@ -82,7 +82,7 @@ Gets an OTA, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-getoutputtrustauthoritycount">GetOutputTrustAuthorityCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-getoutputtrustauthoritycount">GetOutputTrustAuthorityCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of OTAs provided by this trusted output.
@@ -92,7 +92,7 @@ Gets the number of OTAs provided by this trusted output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-isfinal">IsFinal</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-isfinal">IsFinal</a>
 </td>
 <td align="left" width="63%">
 Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
@@ -108,5 +108,4 @@ If an MFT supports <b>IMFTrustedOutput</b>, it must expose the interface through
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

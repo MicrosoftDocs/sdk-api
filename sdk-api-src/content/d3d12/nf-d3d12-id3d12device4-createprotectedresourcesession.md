@@ -55,7 +55,7 @@ Creates an object that represents a session for content protection. You can then
 
 ### -param pDesc [in]
 
-Type: **const [D3D12_PROTECTED_RESOURCE_SESSION_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_protected_resource_session_desc)\***
+Type: **const [D3D12_PROTECTED_RESOURCE_SESSION_DESC](./ns-d3d12-d3d12_protected_resource_session_desc.md)\***
 
 A pointer to a constant **D3D12_PROTECTED_RESOURCE_SESSION_DESC** structure, describing the session to create.
 
@@ -63,17 +63,16 @@ A pointer to a constant **D3D12_PROTECTED_RESOURCE_SESSION_DESC** structure, des
 
 Type: **REFIID**
 
-A reference to the globally unique identifier (**GUID**) of the [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) interface.
+A reference to the globally unique identifier (**GUID**) of the [ID3D12ProtectedResourceSession](./nn-d3d12-id3d12protectedresourcesession.md) interface.
 
 ### -param ppSession [out]
 
 Type: **void\*\***
 
-A pointer to a memory block that receives an [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) interface pointer to the created session object.
+A pointer to a memory block that receives an [ID3D12ProtectedResourceSession](./nn-d3d12-id3d12protectedresourcesession.md) interface pointer to the created session object.
 
 ## -returns
 
 ## -remarks
 
 ## -see-also
-

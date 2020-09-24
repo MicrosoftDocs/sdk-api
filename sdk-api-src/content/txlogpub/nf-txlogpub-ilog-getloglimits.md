@@ -72,5 +72,4 @@ The limits returned by this method may include records that have not yet been wr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
-
+<a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>

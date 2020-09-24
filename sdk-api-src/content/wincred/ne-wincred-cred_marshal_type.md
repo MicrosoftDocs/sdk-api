@@ -54,21 +54,20 @@ api_name:
 
 ## -description
 
-The <b>CRED_MARSHAL_TYPE</b> enumeration specifies the types of credential to be marshaled by <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> or unmarshaled by <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala">CredUnmarshalCredential</a>.
+The <b>CRED_MARSHAL_TYPE</b> enumeration specifies the types of credential to be marshaled by <a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> or unmarshaled by <a href="/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala">CredUnmarshalCredential</a>.
 
 ## -enum-fields
 
 ### -field CertCredential
 
-Specifies that the credential is a certificate reference described by a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-cert_credential_info">CERT_CREDENTIAL_INFO</a> structure.
+Specifies that the credential is a certificate reference described by a <a href="/windows/desktop/api/wincred/ns-wincred-cert_credential_info">CERT_CREDENTIAL_INFO</a> structure.
 
 ### -field UsernameTargetCredential
 
-Specifies that the credential is a reference to a CRED_FLAGS_USERNAME_TARGET credential described by a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
+Specifies that the credential is a reference to a CRED_FLAGS_USERNAME_TARGET credential described by a <a href="/windows/desktop/api/wincred/ns-wincred-username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
 
 ### -field BinaryBlobCredential
 
 ### -field UsernameForPackedCredentials
 
 ### -field BinaryBlobForSystem
-

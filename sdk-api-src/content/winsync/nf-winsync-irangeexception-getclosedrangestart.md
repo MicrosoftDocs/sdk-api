@@ -105,5 +105,4 @@ When<i>pbClosedRangeStart</i> is too small. In this case, the required number of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irangeexception">IRangeException Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irangeexception">IRangeException Interface</a>

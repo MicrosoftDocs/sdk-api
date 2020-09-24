@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-Deallocates a string allocated previously by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringbytelen">SysAllocStringByteLen</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-sysreallocstring">SysReAllocString</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen">SysAllocStringLen</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysreallocstringlen">SysReAllocStringLen</a>.
+Deallocates a string allocated previously by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>, <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringbytelen">SysAllocStringByteLen</a>, <a href="/windows/desktop/api/oleauto/nf-oleauto-sysreallocstring">SysReAllocString</a>, <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen">SysAllocStringLen</a>, or <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysreallocstringlen">SysReAllocStringLen</a>.
 
 ## -parameters
 
 ### -param bstrString [in, optional]
 
 The previously allocated string. If this parameter is <b>NULL</b>, the function simply returns.
-

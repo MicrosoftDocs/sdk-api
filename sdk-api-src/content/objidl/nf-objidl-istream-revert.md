@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>Revert</b> method discards all changes that have been made to a transacted stream since the last 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> call. On streams open in direct mode and streams using the COM compound file implementation of <b>IStream::Revert</b>, this method has no effect.
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> call. On streams open in direct mode and streams using the COM compound file implementation of <b>IStream::Revert</b>, this method has no effect.
 
 ## -parameters
 
@@ -65,9 +65,8 @@ The <b>Revert</b> method discards changes made to a transacted stream since the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a>

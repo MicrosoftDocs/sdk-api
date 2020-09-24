@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>INetDiagHelperEx</b> interface provides methods that extend on the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a> interface to capture and provide information associated with diagnoses and resolution of network-related issues.
+The <b>INetDiagHelperEx</b> interface provides methods that extend on the <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a> interface to capture and provide information associated with diagnoses and resolution of network-related issues.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelperEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelperEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelperEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelperEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INetDiagHelperEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reconfirmlowhealth">INetDiagHelperEx::ReconfirmLowHealth</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reconfirmlowhealth">INetDiagHelperEx::ReconfirmLowHealth</a>
 </td>
 <td align="left" width="63%">
 Adds a second Low Health pass after hypotheses have been diagnosed and before repairs are retrieved. This method is optional when building a Helper Class extension.
@@ -78,7 +78,7 @@ Adds a second Low Health pass after hypotheses have been diagnosed and before re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reproducefailure">INetDiagHelperEx::ReproduceFailure</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reproducefailure">INetDiagHelperEx::ReproduceFailure</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.
@@ -87,7 +87,7 @@ Reserved for system use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-setutilities">INetDiagHelperEx::SetUtilities</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-setutilities">INetDiagHelperEx::SetUtilities</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.
@@ -98,5 +98,4 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

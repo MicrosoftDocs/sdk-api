@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-Frees memory that was allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">IMFMediaType::GetRepresentation</a> method.
+Frees memory that was allocated by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">IMFMediaType::GetRepresentation</a> method.
 
 ## -parameters
 
 ### -param guidRepresentation [in]
 
-GUID that was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
+GUID that was passed to the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
 
 ### -param pvRepresentation [in]
 
-Pointer to the buffer that was returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
+Pointer to the buffer that was returned by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
 
 ## -returns
 
@@ -78,5 +78,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>

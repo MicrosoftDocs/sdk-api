@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IndexByObjectId</b> property retrieves the index of an extension in the collection by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+The <b>IndexByObjectId</b> property retrieves the index of an extension in the collection by <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 This property is read-only.
 
@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a>

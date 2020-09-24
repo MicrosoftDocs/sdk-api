@@ -52,38 +52,37 @@ api_name:
 
 <p class="CCE_Message">[The WlxChangePasswordNotify function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to indicate it has changed a password.
-<div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>This allows <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> to notify other network providers on the computer to update their passwords as well.
+Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to indicate it has changed a password.
+<div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>This allows <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> to notify other network providers on the computer to update their passwords as well.
 
 This function has been superseded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify_ex">WlxChangePasswordNotifyEx</a> function.
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify_ex">WlxChangePasswordNotifyEx</a> function.
 
 ## -parameters
 
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 ### -param pMprInfo [in]
 
 Points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a> structure that contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Multiple Provider Router</a> (MPR) information. Winlogon will call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to free all the data pointed to by this structure when it is done with it.
+<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a> structure that contains <a href="/windows/desktop/SecGloss/m-gly">Multiple Provider Router</a> (MPR) information. Winlogon will call <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to free all the data pointed to by this structure when it is done with it.
 
 ### -param dwChangeInfo [in]
 
 Changes the information flags from 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/network-provider-api">Network Provider API</a>.
+<a href="/windows/desktop/SecAuthN/network-provider-api">Network Provider API</a>.
 
 ## -returns
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify_ex">WlxChangePasswordNotifyEx</a> function returns zero if the function call succeeds. Any other value indicates an error.
+The <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify_ex">WlxChangePasswordNotifyEx</a> function returns zero if the function call succeeds. Any other value indicates an error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a>
+<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>

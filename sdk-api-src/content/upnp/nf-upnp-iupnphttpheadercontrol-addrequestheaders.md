@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnphttpheadercontrol">IUPnPHttpHeaderControl</a>::<b>AddRequestHeaders</b> method adds the supplied HTTP header to an HTTP request.
+The <a href="/windows/desktop/api/upnp/nn-upnp-iupnphttpheadercontrol">IUPnPHttpHeaderControl</a>::<b>AddRequestHeaders</b> method adds the supplied HTTP header to an HTTP request.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnphttpheadercontrol">IUPnPHttpHeaderControl</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnphttpheadercontrol">IUPnPHttpHeaderControl</a>

@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-Frees a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure.
+Frees a <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure.
 
 ## -parameters
 
 ### -param pssa [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure.
+Pointer to a <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure.
 
 ## -returns
 
@@ -67,32 +67,31 @@ Returns S_OK if successful. The function returns a nonzero HRESULT value if it d
 
 ## -remarks
 
-When your application is finished with a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure, it should free the associated memory by calling this function. After this function is called, the pointers retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstring_pcoutchars">ScriptString_pcOutChars</a>, <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstring_plogattr">ScriptString_pLogAttr</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstring_psize">ScriptString_pSize</a> that are associated with the <i>pssa</i> parameter are invalid.
+When your application is finished with a <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure, it should free the associated memory by calling this function. After this function is called, the pointers retrieved from <a href="/windows/desktop/api/usp10/nf-usp10-scriptstring_pcoutchars">ScriptString_pcOutChars</a>, <a href="/windows/desktop/api/usp10/nf-usp10-scriptstring_plogattr">ScriptString_pLogAttr</a>, and <a href="/windows/desktop/api/usp10/nf-usp10-scriptstring_psize">ScriptString_pSize</a> that are associated with the <i>pssa</i> parameter are invalid.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
+<a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstring_plogattr">ScriptString_pLogAttr</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstring_plogattr">ScriptString_pLogAttr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstring_psize">ScriptString_pSize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstring_psize">ScriptString_pSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstring_pcoutchars">ScriptString_pcOutChars</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstring_pcoutchars">ScriptString_pcOutChars</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

@@ -100,13 +100,12 @@ See the remarks for <b>SetLogClientID</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
+<a href="/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid">IWMReaderAdvanced2::SetLogClientID</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid">IWMReaderAdvanced2::SetLogClientID</a>

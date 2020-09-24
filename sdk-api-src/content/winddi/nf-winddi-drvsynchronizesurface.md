@@ -56,11 +56,11 @@ The <b>DrvSynchronizeSurface</b> function informs the driver that GDI needs to w
 
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the surface on which the drawing synchronization is to occur.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the surface on which the drawing synchronization is to occur.
 
 ### -param prcl
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that represents the surface that GDI will draw into, or <b>NULL</b>. If this does not collide with the drawing operation in progress, the driver can elect to let GDI draw without waiting for the coprocessor to complete.
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that represents the surface that GDI will draw into, or <b>NULL</b>. If this does not collide with the drawing operation in progress, the driver can elect to let GDI draw without waiting for the coprocessor to complete.
 
 ### -param fl
 
@@ -72,19 +72,19 @@ Is a flag that specifies the event for which GDI is making the synchronization r
 
 #### DSS_TIMER_EVENT
 
-GDI is calling this function due to a synchronization timer event. Timer events are generated for only those drivers that specify the GCAPS2_SYNCTIMER bit of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
+GDI is calling this function due to a synchronization timer event. Timer events are generated for only those drivers that specify the GCAPS2_SYNCTIMER bit of the <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 
 
 #### DSS_FLUSH_EVENT
 
-GDI is calling this function due to a synchronization flush event. These flush events are generated for only those drivers that specify the GCAPS2_SYNCFLUSH bit of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
+GDI is calling this function due to a synchronization flush event. These flush events are generated for only those drivers that specify the GCAPS2_SYNCFLUSH bit of the <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 ## -remarks
 
 This function allows drawing operations performed by a device's coprocessor to be coordinated with GDI.
 
-<b>DrvSynchronizeSurface</b> can be optionally implemented in display drivers. GDI calls this function only if it is hooked by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. GDI calls <b>DrvSynchronizeSurface</b> just before drawing directly onto the device surface.
+<b>DrvSynchronizeSurface</b> can be optionally implemented in display drivers. GDI calls this function only if it is hooked by <a href="/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. GDI calls <b>DrvSynchronizeSurface</b> just before drawing directly onto the device surface.
 
 <b>DrvSynchronizeSurface</b> is intended to support devices that use a coprocessor for drawing. Such a device can start a long drawing operation and return to GDI while the operation continues. If the device driver does not perform all drawing operations to the surface, it is possible that a subsequent drawing operation will be handled by GDI. In this case, it is necessary for GDI to wait for the coprocessor to complete its work before GDI can draw on the surface.
 
@@ -94,13 +94,12 @@ This function should return when it is safe for GDI to draw on the surface withi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsynchronize">DrvSynchronize</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvsynchronize">DrvSynchronize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>

@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>MMC_VIEW_TYPE</b> enumeration specifies a result view type and is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure.
+<a href="/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure.
 
 ## -enum-fields
 
@@ -72,5 +72,4 @@ The view type is a control view.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a>
-
+<a href="/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a>

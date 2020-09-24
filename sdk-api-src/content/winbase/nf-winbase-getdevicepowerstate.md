@@ -61,7 +61,7 @@ A handle to an object on the device, such as a file or socket, or a handle to th
 ### -param pfOn [out]
 
 A pointer to the variable that receives the 
-<a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">power state</a>. This value is <b>TRUE</b> if the device is in the working state. Otherwise, it is <b>FALSE</b>.
+<a href="/windows/desktop/Power/system-power-states">power state</a>. This value is <b>TRUE</b> if the device is in the working state. Otherwise, it is <b>FALSE</b>.
 
 ## -returns
 
@@ -78,17 +78,16 @@ To ensure maximum battery life on a laptop computer, use
 <b>GetDevicePowerState</b> to reduce power consumption. For example, if a disk is currently powered down, accessing the disk will cause it to spin up, resulting in increased power consumption and reduced battery life.
 
 Applications should defer or limit access to devices wherever possible while the system is running on battery power. To determine whether the system is running on battery power, and the remaining battery life, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/system-power-status">System Power Status</a>
-
+<a href="/windows/desktop/Power/system-power-status">System Power Status</a>

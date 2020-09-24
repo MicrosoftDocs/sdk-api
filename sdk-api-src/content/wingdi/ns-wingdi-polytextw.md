@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>POLYTEXT</b> structure describes how the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polytextouta">PolyTextOut</a> function should draw a string of text.
+The <b>POLYTEXT</b> structure describes how the <a href="/windows/desktop/api/wingdi/nf-wingdi-polytextouta">PolyTextOut</a> function should draw a string of text.
 
 ## -struct-fields
 
@@ -70,11 +70,11 @@ The vertical reference point for the string. The string is aligned to this point
 
 ### -field n
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <b>lpstr</b>.
+The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <b>lpstr</b>.
 
 ### -field lpstr
 
-Pointer to a string of text to be drawn by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polytextouta">PolyTextOut</a> function. This string need not be null-terminated, since <b>n</b> specifies the length of the string.
+Pointer to a string of text to be drawn by the <a href="/windows/desktop/api/wingdi/nf-wingdi-polytextouta">PolyTextOut</a> function. This string need not be null-terminated, since <b>n</b> specifies the length of the string.
 
 ### -field uiFlags
 
@@ -105,18 +105,17 @@ Pointer to an array containing the width value for each character in the string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polytextouta">PolyTextOut</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polytextouta">PolyTextOut</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wingdi.h header defines POLYTEXT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

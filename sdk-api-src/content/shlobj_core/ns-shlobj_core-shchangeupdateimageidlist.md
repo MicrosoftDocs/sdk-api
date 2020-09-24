@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[<b>SHChangeUpdateImageIDList</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Stores the information used as parameters to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> in a form mimicking an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> so that they can be used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>.
+Stores the information used as parameters to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> in a form mimicking an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> so that they can be used by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ The size of the structure, in bytes.
 
 Type: <b>int</b>
 
-The zero-based index of the icon in the file specified by <b>szName</b>. Obtain this value by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> and retrieving the value pointed to by <i>piIndex</i>.
+The zero-based index of the icon in the file specified by <b>szName</b>. Obtain this value by calling <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> and retrieving the value pointed to by <i>piIndex</i>.
 
 ### -field iCurIndex
 
@@ -82,13 +82,13 @@ The zero-based index in the system image list of the icon being updated.
 
 Type: <b>UINT</b>
 
-Flags that determine the icon attributes. Obtain this value by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> and retrieving the value pointed to by <i>pwFlags</i>. These two flags are relevant to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a>.
+Flags that determine the icon attributes. Obtain this value by calling <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> and retrieving the value pointed to by <i>pwFlags</i>. These two flags are relevant to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a>.
 
 
 
 #### GIL_NOTFILENAME
 
-The location is not a file name/index pair. Calling applications that decide to extract the icon from the location must call this object's <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract">IExtractIcon::Extract</a> method to obtain the desired icon images.
+The location is not a file name/index pair. Calling applications that decide to extract the icon from the location must call this object's <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract">IExtractIcon::Extract</a> method to obtain the desired icon images.
 
 
 
@@ -102,7 +102,7 @@ The calling application should create a document icon using the specified icon.
 
 Type: <b>WCHAR[MAX_PATH]</b>
 
-A null-terminated Unicode string that specifies the fully qualified path of the file that contains the icon. Obtain this value by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> and retrieving the value pointed to by <i>szIconFile</i>.
+A null-terminated Unicode string that specifies the fully qualified path of the file that contains the icon. Obtain this value by calling <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a> and retrieving the value pointed to by <i>szIconFile</i>.
 
 ### -field cbZero
 
@@ -117,7 +117,7 @@ The identifier of the process sending the SHCNE_UPDATEIMAGE notification.
 
 ## -remarks
 
-This example demonstrates the use of <b>SHChangeUpdateImageIDList</b> and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangedwordasidlist">SHChangeDWORDAsIDList</a> by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> to mimic the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> function.
+This example demonstrates the use of <b>SHChangeUpdateImageIDList</b> and <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangedwordasidlist">SHChangeDWORDAsIDList</a> by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> to mimic the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> function.
 
                 
 
@@ -170,9 +170,8 @@ void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">IExtractIcon::GetIconLocation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangedwordasidlist">SHChangeDWORDAsIDList</a>
-
+<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangedwordasidlist">SHChangeDWORDAsIDList</a>

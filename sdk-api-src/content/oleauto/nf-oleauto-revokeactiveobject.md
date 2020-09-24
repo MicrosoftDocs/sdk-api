@@ -56,7 +56,7 @@ Ends an object's status as active.
 
 ### -param dwRegister [in]
 
-A handle previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registeractiveobject">RegisterActiveObject</a>.
+A handle previously returned by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registeractiveobject">RegisterActiveObject</a>.
 
 ### -param pvReserved
 
@@ -65,4 +65,3 @@ Reserved for future use. Must be null.
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

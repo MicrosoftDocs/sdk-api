@@ -58,7 +58,7 @@ An optional (it can be `nullptr`) pointer to a [DNS_SERVICE_CANCEL](ns-windns-dn
 
 ## -returns
 
-If successful, returns **DNS_REQUEST_PENDING**; otherwise, returns the appropriate DNS-specific error code as defined in `Winerror.h`. For extended error information, call [GetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+If successful, returns **DNS_REQUEST_PENDING**; otherwise, returns the appropriate DNS-specific error code as defined in `Winerror.h`. For extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
@@ -67,4 +67,3 @@ This function is asynchronous. The registration callback will be called once the
 The registration is tied to the lifetime of the calling process. If the process goes away, the service will be automatically deregistered.
 
 ## -see-also
-

@@ -158,17 +158,16 @@ This method must be called before any of the other methods of <b>ISCPSecureQuery
 
 This method is called after any certificate exchanges have been successfully finished. The secure content provider fills in the parameters with the flags and data that describe its requirements for making decisions about the content.
 
-If the secure content provider sets the WMDM_SCP_RIGHTS_DATA flag, then Windows Media Device Manager sends the amount of data specified in <i>pdwMinRightsData</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getrights">ISCPSecureQuery::GetRights</a>.
+If the secure content provider sets the WMDM_SCP_RIGHTS_DATA flag, then Windows Media Device Manager sends the amount of data specified in <i>pdwMinRightsData</i> by calling <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getrights">ISCPSecureQuery::GetRights</a>.
 
-If the secure content provider sets the WMDM_SCP_EXAMINE_DATA flag, then Windows Media Device Manager sends the amount of data specified in <i>pdwMinExamineData</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ISCPSecureQuery::ExamineData</a>.
+If the secure content provider sets the WMDM_SCP_EXAMINE_DATA flag, then Windows Media Device Manager sends the amount of data specified in <i>pdwMinExamineData</i> by calling <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ISCPSecureQuery::ExamineData</a>.
 
-If the secure content provider sets the WMDM_SCP_DECIDE_DATA flag, then Windows Media Device Manager sends the amount of data specified in <i>pdwMinDecideData</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-makedecision">ISCPSecureQuery::MakeDecision</a>.
+If the secure content provider sets the WMDM_SCP_DECIDE_DATA flag, then Windows Media Device Manager sends the amount of data specified in <i>pdwMinDecideData</i> by calling <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-makedecision">ISCPSecureQuery::MakeDecision</a>.
 
-If no examine flags are set, Windows Media Device Manager does not make any more calls. If no decide flags are set, Windows Media Device Manager still calls <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ISCPSecureQuery::ExamineData</a>.
+If no examine flags are set, Windows Media Device Manager does not make any more calls. If no decide flags are set, Windows Media Device Manager still calls <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ISCPSecureQuery::ExamineData</a>.
 
 If this method does not return S_OK, then Windows Media Device Manager does not make any further calls to this secure content provider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>

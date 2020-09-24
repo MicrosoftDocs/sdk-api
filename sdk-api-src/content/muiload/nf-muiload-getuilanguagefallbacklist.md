@@ -68,17 +68,16 @@ Pointer to a buffer in which the function retrieves the size of the retrieved la
 
 ## -returns
 
-Returns <b>TRUE</b> if the function retrieves a list of fallback languages or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if the function retrieves a list of fallback languages or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>
-
+<a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>

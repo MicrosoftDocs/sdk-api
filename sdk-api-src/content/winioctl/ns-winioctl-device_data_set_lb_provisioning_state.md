@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Output structure for the <b>DeviceDsmAction_Allocation</b> action of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
 ## -struct-fields
@@ -119,7 +119,7 @@ Space for <b>SlabAllocationBitMap</b> should be allocated based on the number of
 Slab size is determined by the <b>OptimalUnmapGranularity</b> member of 
      the <a href="/windows/win32/api/winioctl/ns-winioctl-device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
      structure returned from an 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> 
+     <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> 
      control code. The length of the data set range provided should be a multiple of 
      <b>OptimalUnmapGranularity</b>. When the range length is not a multiple of 
      <b>OptimalUnmapGranularity</b>, it is reduced to be a multiple.
@@ -137,7 +137,7 @@ If the slab allocation total returned in <b>SlabAllocationBitMapBitCount</b> is 
 
 If the requested slab size is too large (for example if it is larger than the maximum transfer length of the 
     HBA) then the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     can fail with <b>ERROR_INVALID_PARAMETER</b>.
 
 ## -see-also
@@ -146,9 +146,8 @@ If the requested slab size is too large (for example if it is larger than the ma
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
+<a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>

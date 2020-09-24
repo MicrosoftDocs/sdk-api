@@ -87,7 +87,7 @@ This member controls the way the source and destination bitmaps are interpreted.
 
 ## -remarks
 
-When the <b>AlphaFormat</b> member is AC_SRC_ALPHA, the source bitmap must be 32 bpp. If it is not, the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a> function will fail.
+When the <b>AlphaFormat</b> member is AC_SRC_ALPHA, the source bitmap must be 32 bpp. If it is not, the <a href="/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a> function will fail.
 
 When the <b>BlendOp</b> member is AC_SRC_OVER, the source bitmap is placed over the destination bitmap based on the alpha values of the source pixels.
 
@@ -202,13 +202,12 @@ If the source has both the <b>SourceConstantAlpha</b> (that is, it is not 0xFF) 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
+<a href="/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
-
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>

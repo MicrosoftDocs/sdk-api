@@ -96,13 +96,12 @@ The text service does not support the integration style.
 If an app needs a keyboard-integrated experience, it can set a <b>GUID</b> for the desired type of 
     integration experience.  If the text service supports the integration style, it should return <b>S_OK</b>.
           If it's not supported, it should return <b>E_NOTIMPL</b>.  When called, the text service may adjust its respond to
-    keyboard interaction for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielement">ITfCandidateListUIElement</a> object, for example, until <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementsink-enduielement">ITfUIElementSink::EndUIElement</a> is called.
+    keyboard interaction for the lifetime of the <a href="/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielement">ITfCandidateListUIElement</a> object, for example, until <a href="/windows/desktop/api/msctf/nf-msctf-itfuielementsink-enduielement">ITfUIElementSink::EndUIElement</a> is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfintegratablecandidatelistuielement">ITfIntegratableCandidateListUIElement</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfintegratablecandidatelistuielement">ITfIntegratableCandidateListUIElement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementsink-enduielement">ITfUIElementSink::EndUIElement</a>
-
+<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementsink-enduielement">ITfUIElementSink::EndUIElement</a>

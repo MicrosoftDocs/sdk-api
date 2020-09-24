@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-The <b>IAzRoleDefinitions</b> interface represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> objects.
-
+The <b>IAzRoleDefinitions</b> interface represents a collection of <a href="/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> objects.

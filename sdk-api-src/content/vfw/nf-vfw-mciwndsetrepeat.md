@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSetRepeat</b> macro sets the repeat flag associated with continuous playback. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setrepeat">MCIWNDM_SETREPEAT</a> message.
+The <b>MCIWndSetRepeat</b> macro sets the repeat flag associated with continuous playback. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-setrepeat">MCIWNDM_SETREPEAT</a> message.
 
 ## -parameters
 
@@ -67,4 +67,3 @@ New state of the repeat flag. Specify <b>TRUE</b> to turn on continuous playback
 The <b>MCIWndSetRepeat</b> macro only affects playback that the user initiates by hitting the play button on the toolbar. It will not affect playback started with the <b>MCIWndPlay</b> macro.
 
 Currently, MCIAVI is the only device that supports continuous playback.
-

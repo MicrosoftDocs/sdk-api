@@ -73,7 +73,7 @@ If true, display a username/password prompt to the caller; otherwise, do not dis
 
 If the function succeeds, the return value is NO_ERROR. 
 
-If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+If the function fails, the return value is a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -186,7 +186,7 @@ An entry for the device is already in the user profile.
 </dl>
 </td>
 <td width="60%">
-A network-specific error occurred. Call the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function to obtain a description of the error.
+A network-specific error occurred. Call the <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function to obtain a description of the error.
 
 </td>
 </tr>
@@ -231,17 +231,16 @@ The <b>WNetRestoreConnectionW</b> function is not supported on Windows Vista an
 
 
 
-To call this function, first call the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load Mpr.dll. Then call the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to retrieve the address of the <b>WNetRestoreConnectionW</b> function. 
+To call this function, first call the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load Mpr.dll. Then call the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to retrieve the address of the <b>WNetRestoreConnectionW</b> function. 
 
 <b>WNetRestoreConnectionW</b> is used by Winlogon to restore all persistent drive mappings during the interactive logon process. The function is also called by the Microsoft Windows Shell to reconnect individual drives at the user's request. This can occur, for example, when a drive fails to reconnect at logon and the user double-clicks the drive under the My Computer virtual folder.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 			 Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 			 Networking Functions</a>
-

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <code>VMR9ProcAmpControl</code> structure specifies the image adjustments to be performed on a video stream. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9).
+The <code>VMR9ProcAmpControl</code> structure specifies the image adjustments to be performed on a video stream. This structure is used with the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9).
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Size of the structure, in bytes. The value must be <code>sizeof(VMR9ProcAmpContr
 
 ### -field dwFlags
 
-Bitwise combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9procampcontrolflags">VMR9ProcAmpControlFlags</a> enumeration, indicating which properties the driver supports.
+Bitwise combination of flags from the <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9procampcontrolflags">VMR9ProcAmpControlFlags</a> enumeration, indicating which properties the driver supports.
 
 ### -field Brightness
 
@@ -82,9 +82,8 @@ Specifies the image saturation. Saturation alters the color intensity of the ima
 
 ## -remarks
 
-The valid range of values for each property depends on the graphics device driver. Call the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getprocampcontrolrange">IVMRMixerControl9::GetProcAmpControlRange</a> method to get the range for each property.
+The valid range of values for each property depends on the graphics device driver. Call the <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getprocampcontrolrange">IVMRMixerControl9::GetProcAmpControlRange</a> method to get the range for each property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

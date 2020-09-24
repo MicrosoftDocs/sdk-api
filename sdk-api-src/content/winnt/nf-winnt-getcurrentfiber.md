@@ -61,19 +61,18 @@ The macro returns the address of the currently running fiber.
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a> functions return the fiber address when the fiber is created. The 
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> and 
+<a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a> functions return the fiber address when the fiber is created. The 
 <b>GetCurrentFiber</b> macro allows you to retrieve the address at any other time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
-
+<a href="/windows/desktop/ProcThread/fibers">Fibers</a>

@@ -85,32 +85,31 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 By overriding the default routines used by the client stub to manage memory, 
 <b>RpcSsSetClientAllocFree</b> establishes the memory allocation and memory freeing mechanisms. Note that the default routines are free and malloc, unless the remote call occurs within manager code. In this case, the default memory–management routines are 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a> and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>.
 
 Note that when 
 <b>RpcSsSetClientAllocFree</b> reclaims the memory resources, it also makes the context handle <b>NULL</b>.
 
 <div class="alert"><b>Note</b>  <b>RpcSsSetClientAllocFree</b> raises exceptions, unlike 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetclientallocfree">RpcSmSetClientAllocFree</a>, which returns the error code.</div>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetclientallocfree">RpcSmSetClientAllocFree</a>, which returns the error code.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetclientallocfree">RpcSmSetClientAllocFree</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetclientallocfree">RpcSmSetClientAllocFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>

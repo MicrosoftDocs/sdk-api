@@ -67,9 +67,8 @@ If the current item is the last item in the list, or if the list is empty, this 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhscopeiterator">IFhScopeIterator</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhscopeiterator">IFhScopeIterator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-getitem">IFhScopeIterator::GetItem</a>
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-getitem">IFhScopeIterator::GetItem</a>

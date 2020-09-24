@@ -76,5 +76,4 @@ RRAS does not expect the application to return any specific value; any value ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_enable_igmp_callback">PMGM_ENABLE_IGMP_CALLBACK</a>
-
+<a href="/windows/desktop/api/mgm/nc-mgm-pmgm_enable_igmp_callback">PMGM_ENABLE_IGMP_CALLBACK</a>

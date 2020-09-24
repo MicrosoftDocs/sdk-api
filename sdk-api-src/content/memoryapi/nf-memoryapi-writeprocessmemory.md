@@ -87,7 +87,7 @@ A pointer to a variable that receives the number of bytes transferred into the s
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function fails if the requested write operation crosses into an area of the process that is inaccessible.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function fails if the requested write operation crosses into an area of the process that is inaccessible.
 
 ## -remarks
 
@@ -97,17 +97,16 @@ The entire area to be written to must be accessible, and if it is not accessible
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
+<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/process-functions-for-debugging">Process Functions for Debugging</a>
+<a href="/windows/desktop/Debug/process-functions-for-debugging">Process Functions for Debugging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a>

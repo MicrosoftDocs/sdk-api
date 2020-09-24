@@ -54,19 +54,18 @@ api_name:
 
 ## -description
 
-The <b>KERB_INTERACTIVE_UNLOCK_LOGON</b> structure contains information used to unlock a workstation that has been locked during an interactive <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
+The <b>KERB_INTERACTIVE_UNLOCK_LOGON</b> structure contains information used to unlock a workstation that has been locked during an interactive <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 ## -struct-fields
 
 ### -field Logon
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> structure that specifies the interactive logon session. The <b>MessageType</b> member of the <b>KERB_INTERACTIVE_LOGON</b> structure must be set to <b>KerbWorkstationUnlockLogon</b>.
+A <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> structure that specifies the interactive logon session. The <b>MessageType</b> member of the <b>KERB_INTERACTIVE_LOGON</b> structure must be set to <b>KerbWorkstationUnlockLogon</b>.
 
 ### -field LogonId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that contains the identity of the user attempting to unlock the workstation.
+A <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that contains the identity of the user attempting to unlock the workstation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>
-
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>

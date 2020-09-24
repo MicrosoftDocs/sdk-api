@@ -51,18 +51,18 @@ api_name:
 ## -description
 
 This operation finishes writing an attribute to the current element.
-      If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> is called the Writer does not permit another element
+      If <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> is called the Writer does not permit another element
         or attribute to be written until <b>WsWriteEndAttribute</b> is called.
 
 ## -parameters
 
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -96,4 +96,3 @@ The operation is not allowed due to the current state of the object.
 </td>
 </tr>
 </table>
-

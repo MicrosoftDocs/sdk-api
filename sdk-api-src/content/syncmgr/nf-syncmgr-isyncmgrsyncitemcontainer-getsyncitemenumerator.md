@@ -56,9 +56,9 @@ Gets an interface that enumerates the handler's sync items.
 
 ### -param ppenum [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrsyncitems">IEnumSyncMgrSyncItems</a>**</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrsyncitems">IEnumSyncMgrSyncItems</a>**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrsyncitems">IEnumSyncMgrSyncItems</a> instance. <b>IEnumSyncMgrSyncItems</b> can be used to retrieve an interface for each sync item in the set.
+When this method returns, contains the address of a pointer to an <a href="/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrsyncitems">IEnumSyncMgrSyncItems</a> instance. <b>IEnumSyncMgrSyncItems</b> can be used to retrieve an interface for each sync item in the set.
 
 ## -returns
 
@@ -68,9 +68,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method replaces the older <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-enumsyncmgritems">EnumSyncMgrItems</a> method. The older method returned an enumerator interface which returned a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgritem">SYNCMGRITEM</a> structure for each sync item. To get the data previously provided by that structure, Sync Center calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on each item's <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a> interface to request a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynciteminfo">ISyncMgrSyncItemInfo</a> interface.
+This method replaces the older <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-enumsyncmgritems">EnumSyncMgrItems</a> method. The older method returned an enumerator interface which returned a <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgritem">SYNCMGRITEM</a> structure for each sync item. To get the data previously provided by that structure, Sync Center calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on each item's <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a> interface to request a corresponding <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynciteminfo">ISyncMgrSyncItemInfo</a> interface.
 
-The number of enumerated items can be obtained through the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitemcount">ISyncMgrSyncItemContainer::GetSyncItemCount</a> method.
+The number of enumerated items can be obtained through the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitemcount">ISyncMgrSyncItemContainer::GetSyncItemCount</a> method.
 
 
 #### Examples
@@ -97,4 +97,3 @@ STDMETHODIMP CMyDeviceHandler::GetSyncItemEnumerator(
 }
 
 ```
-

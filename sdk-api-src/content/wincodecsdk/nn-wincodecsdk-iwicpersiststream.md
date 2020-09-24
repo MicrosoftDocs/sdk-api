@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that provide additional load and save methods that take <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a>.
+Exposes methods that provide additional load and save methods that take <a href="/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPersistStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>. <b>IWICPersistStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPersistStream</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>. <b>IWICPersistStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICPersistStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicpersiststream-loadex">LoadEx</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicpersiststream-loadex">LoadEx</a>
 </td>
 <td align="left" width="63%">
 Loads a stream using the given parameters. 
@@ -78,7 +78,7 @@ Loads a stream using the given parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicpersiststream-saveex">SaveEx</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicpersiststream-saveex">SaveEx</a>
 </td>
 <td align="left" width="63%">
 Saves the stream using the given parameters.
@@ -86,4 +86,3 @@ Saves the stream using the given parameters.
 </td>
 </tr>
 </table>
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the correct size and position of a header control within the parent window. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-layout">HDM_LAYOUT</a> message explicitly.
+Retrieves the correct size and position of a header control within the parent window. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-layout">HDM_LAYOUT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndHD [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
@@ -77,4 +77,3 @@ The <b>Header_Layout</b> macro is defined as follows:
     (BOOL)SendMessage((hwndHD), HDM_LAYOUT, 0, \
 
     (LPARAM)(LPHDLAYOUT)(playout))</code></pre>
-

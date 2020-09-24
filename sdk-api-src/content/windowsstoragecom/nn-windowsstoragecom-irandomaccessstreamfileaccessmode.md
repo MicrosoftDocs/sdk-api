@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides access to the file access mode that was used when the <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
+Provides access to the file access mode that was used when the <a href="/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRandomAccessStreamFileAccessMode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRandomAccessStreamFileAccessMode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRandomAccessStreamFileAccessMode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRandomAccessStreamFileAccessMode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IRandomAccessStreamFileAccessMode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-irandomaccessstreamfileaccessmode-getmode">GetMode</a>
+<a href="/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-irandomaccessstreamfileaccessmode-getmode">GetMode</a>
 </td>
 <td align="left" width="63%">
-Retrieves the file access mode that was used when the <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
+Retrieves the file access mode that was used when the <a href="/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
 
 </td>
 </tr>
@@ -80,9 +80,8 @@ Retrieves the file access mode that was used when the <a href="https://docs.micr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a>
+<a href="/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>
-
+<a href="/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>

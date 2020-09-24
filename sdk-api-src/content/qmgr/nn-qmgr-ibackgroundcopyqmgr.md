@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IBackgroundCopyQMgr</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IBackgroundCopyQMgr</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>IBackgroundCopyQMgr</b> interface to create a new group, retrieve an existing group, or enumerate all groups in the queue. A group contains a download job.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyQMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyQMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyQMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyQMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IBackgroundCopyQMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyqmgr-creategroup">CreateGroup</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyqmgr-creategroup">CreateGroup</a>
 </td>
 <td align="left" width="63%">
 Creates a new group and adds it to the queue.
@@ -80,7 +80,7 @@ Creates a new group and adds it to the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyqmgr-enumgroups">EnumGroups</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyqmgr-enumgroups">EnumGroups</a>
 </td>
 <td align="left" width="63%">
 Enumerates the groups in the queue.
@@ -89,7 +89,7 @@ Enumerates the groups in the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyqmgr-getgroup">GetGroup</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyqmgr-getgroup">GetGroup</a>
 </td>
 <td align="left" width="63%">
 Retrieves an existing group from the queue.
@@ -97,4 +97,3 @@ Retrieves an existing group from the queue.
 </td>
 </tr>
 </table>
-

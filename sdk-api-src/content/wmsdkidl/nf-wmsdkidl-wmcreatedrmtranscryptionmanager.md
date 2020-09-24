@@ -56,9 +56,8 @@ The <b>WMCreateDRMTranscryptionManager</b> function creates a manager for DRM tr
 
 ### -param ppTranscryptionManager
 
-Address of a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798365(v=vs.85)">IWMDRMTranscryptionManager</a> interface of the newly created DRM transcryptor object manager.
+Address of a pointer to the <a href="/previous-versions/windows/desktop/legacy/dd798365(v=vs.85)">IWMDRMTranscryptionManager</a> interface of the newly created DRM transcryptor object manager.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

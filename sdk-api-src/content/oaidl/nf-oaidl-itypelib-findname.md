@@ -60,7 +60,7 @@ The name to search for.
 
 ### -param lHashVal [in]
 
-A hash value to speed up the search, computed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-lhashvalofnamesys">LHashValOfNameSys</a> function. If <i>lHashVal</i> = 0, a value is computed.
+A hash value to speed up the search, computed by the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-lhashvalofnamesys">LHashValOfNameSys</a> function. If <i>lHashVal</i> = 0, a value is computed.
 
 ### -param ppTInfo [out]
 
@@ -129,5 +129,4 @@ Passing *<i>pcFound</i> = <i>n</i> indicates that there is enough room in the <i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>

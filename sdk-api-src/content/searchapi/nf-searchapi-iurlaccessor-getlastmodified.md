@@ -56,9 +56,9 @@ Gets the time stamp identifying when the URL was last modified.
 
 ### -param pftLastModified [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
 
-Receives a pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> identifying the time stamp when the URL was last modified.
+Receives a pointer to a variable of type <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> identifying the time stamp when the URL was last modified.
 
 ## -returns
 
@@ -72,4 +72,3 @@ This method is used to determine whether a URL has changed since the last time i
             
 
 Directory URLs are always processed regardless of the time stamp returned by this method.
-

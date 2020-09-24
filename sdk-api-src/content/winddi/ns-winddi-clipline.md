@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The CLIPLINE structure gives the driver access to a portion of a line between two <a href="https://docs.microsoft.com/windows-hardware/drivers/">clip regions</a> used for drawing.
+The CLIPLINE structure gives the driver access to a portion of a line between two <a href="/windows-hardware/drivers/">clip regions</a> used for drawing.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Specifies a POINTFIX structure that contains the end point of the line.
 
 ### -field lStyleState
 
-Is a pair of 16-bit values supplied by GDI whenever the driver calls <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>. These two values are packed into a LONG and specify the style offset back to the first pixel of the line segment. This is the first pixel that would be rendered if the line were not clipped. This value allows the styling for the remainder of the line to be computed. Refer to <a href="https://docs.microsoft.com/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a> for additional information.
+Is a pair of 16-bit values supplied by GDI whenever the driver calls <a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>. These two values are packed into a LONG and specify the style offset back to the first pixel of the line segment. This is the first pixel that would be rendered if the line were not clipped. This value allows the styling for the remainder of the line to be computed. Refer to <a href="/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a> for additional information.
 
 ### -field c
 
@@ -76,23 +76,22 @@ Specifies the number of RUN structures in the <b>arun</b> array.
 
 ### -field arun
 
-Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-run">RUN</a> structures. The RUN structures describe the start and stop portions of the clip line.
+Is an array of <a href="/windows/desktop/api/winddi/ns-winddi-run">RUN</a> structures. The RUN structures describe the start and stop portions of the clip line.
 
 ## -remarks
 
-The CLIPLINE structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>. The CLIPLINE structure contains the original, unclipped control points of the line segment.
+The CLIPLINE structure is used by <a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>. The CLIPLINE structure contains the original, unclipped control points of the line segment.
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a> for a description of the POINTFIX structure.
+See <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a> for a description of the POINTFIX structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-run">RUN</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-run">RUN</a>

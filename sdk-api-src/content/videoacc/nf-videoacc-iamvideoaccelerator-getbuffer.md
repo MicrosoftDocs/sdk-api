@@ -63,15 +63,15 @@ Specifies the surface type:
 <li>To get a pointer to  a compressed surface, specify one of the DXVA surface types defined in dxva.h. </li>
 <li>To get a pointer to an uncompressed output surface, set this parameter to 0xFFFFFFFF. </li>
 </ul>
-The value 0xFFFFFFFF is valid only between calls to <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> and <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a>.
+The value 0xFFFFFFFF is valid only between calls to <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> and <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a>.
 
 ### -param dwBufferIndex [in]
 
 The zero-based index of the surface, within the pool of surfaces that were allocated  for the specified surface type.
 
 <ul>
-<li>Compressed surfaces: To get the number of allocated surfaces for each surface type, call <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalcompbufferinfo">IAMVideoAccelerator::GetInternalCompBufferInfo</a>.</li>
-<li>Uncompressed surfaces: The buffer index must equal the <b>dwDestSurfaceIndex</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvabeginframeinfo">AMVABeginFrameInfo</a> structure that was passed to the most recent <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> call.</li>
+<li>Compressed surfaces: To get the number of allocated surfaces for each surface type, call <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalcompbufferinfo">IAMVideoAccelerator::GetInternalCompBufferInfo</a>.</li>
+<li>Uncompressed surfaces: The buffer index must equal the <b>dwDestSurfaceIndex</b> member of the <a href="/previous-versions/windows/desktop/api/amva/ns-amva-amvabeginframeinfo">AMVABeginFrameInfo</a> structure that was passed to the most recent <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> call.</li>
 </ul>
 
 ### -param bReadOnly [in]
@@ -80,7 +80,7 @@ Specifies whether the decoder will write to the surface memory. For read-only ac
 
 ### -param ppBuffer [out]
 
-Receives a pointer to the surface memory. To get the size of the buffer in bytes, call the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalcompbufferinfo">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method. The size is given in the <b>dwBytesToAllocate</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvacompbufferinfo">AMVACompBufferInfo</a> structure that corresponds to <i>dwTypeIndex</i>.
+Receives a pointer to the surface memory. To get the size of the buffer in bytes, call the <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalcompbufferinfo">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method. The size is given in the <b>dwBytesToAllocate</b> member of the <a href="/previous-versions/windows/desktop/api/amva/ns-amva-amvacompbufferinfo">AMVACompBufferInfo</a> structure that corresponds to <i>dwTypeIndex</i>.
 
 ### -param lpStride [out]
 
@@ -178,22 +178,21 @@ The pins on the decoder and video renderer filters are not connected.
 
 If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
-This method locks and obtains access to a single buffer. Buffers are identified by type and by index within that type. The <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalcompbufferinfo">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method returns the number of surface types in its <i>pdwNumTypesCompBuffers</i> parameter. This number defines the valid range for <i>dwTypeIndex</i>. For each type, the <b>dwNumCompBuffers</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvacompbufferinfo">AMVACompBufferInfo</a> structure gives the number of buffers, which defines the valid range for <i>dwBufferIndex</i>. 
+This method locks and obtains access to a single buffer. Buffers are identified by type and by index within that type. The <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalcompbufferinfo">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method returns the number of surface types in its <i>pdwNumTypesCompBuffers</i> parameter. This number defines the valid range for <i>dwTypeIndex</i>. For each type, the <b>dwNumCompBuffers</b> member of the <a href="/previous-versions/windows/desktop/api/amva/ns-amva-amvacompbufferinfo">AMVACompBufferInfo</a> structure gives the number of buffers, which defines the valid range for <i>dwBufferIndex</i>. 
       
 
-To release the buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-releasebuffer">IAMVideoAccelerator::ReleaseBuffer</a>.
+To release the buffer, call <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-releasebuffer">IAMVideoAccelerator::ReleaseBuffer</a>.
 
 Until all compressed buffers are released, it is possible that the calling thread will hold the Win16 lock or the DirectDraw lock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
+<a href="/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
-
+<a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>

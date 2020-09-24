@@ -54,7 +54,7 @@ Represents a 3D transformation that affects the rotation of a visual along an ar
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionRotateTransform3D</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>. <b>IDCompositionRotateTransform3D</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionRotateTransform3D</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>. <b>IDCompositionRotateTransform3D</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448933(v=vs.85)">SetAngle</a>
+<a href="/previous-versions/windows/desktop/legacy/hh448933(v=vs.85)">SetAngle</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the Angle property of a 3D rotation transform. The Angle property specifies the rotation angle, in degrees. The default value is zero.
 
@@ -77,7 +77,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setaxisx">SetAxisX</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setaxisx">SetAxisX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AxisX property of a 3D rotation transform. The AxisX property specifies the x-coordinate for the axis vector of rotation. The default value is zero.
 
@@ -85,7 +85,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setaxisy">SetAxisY</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setaxisy">SetAxisY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AxisY property of a rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation.  The default value is zero.
 
@@ -93,7 +93,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setaxisz">SetAxisZ</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setaxisz">SetAxisZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
 
@@ -101,7 +101,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcenterx">SetCenterX</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setcenterx">SetCenterX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.
 
@@ -109,7 +109,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcentery">SetCenterY</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setcentery">SetCenterY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
 
@@ -117,7 +117,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcenterz">SetCenterZ</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setcenterz">SetCenterZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterZ property of a 3D rotation transform. The CenterZ property specifies the z-coordinate of the point about which the rotation is performed. The default value is zero.
 
@@ -143,13 +143,12 @@ When setting the axis to a non-default value, you should always set all three ax
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>

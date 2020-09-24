@@ -66,5 +66,4 @@ The drop-down list is always rebuilt before it is displayed, so there is no reas
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iautocompletedropdown">IAutoCompleteDropDown</a>
-
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-iautocompletedropdown">IAutoCompleteDropDown</a>

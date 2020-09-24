@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Retrieves the date and time value at a specified property into a caller's 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. All times are stored 
+    <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. All times are stored 
     and returned as Coordinated Universal Time (UTC).
 
 ## -parameters
@@ -70,9 +70,9 @@ Must be CGD_DEFAULT.
 
 ### -param pftDateTime [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
 
-Specifies caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+Specifies caller-allocated <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ## -returns
 
@@ -92,7 +92,7 @@ Returns one of the following values:
 </dl>
 </td>
 <td width="60%">
-<i>pftDateTime</i> contains a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>. 
+<i>pftDateTime</i> contains a valid <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>. 
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Returns one of the following values:
 </td>
 <td width="60%">
 The property has been present in the past but its value has been removed. 
-					The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> has been zero'ed. 
+					The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> has been zero'ed. 
 
 </td>
 </tr>
@@ -126,4 +126,3 @@ No data found for this property name.
 To retrieve a single level property, set <i>pszPropertyName</i> to the property name. 
 
 To retrieve a value from a multi-value (hierarchical) property, include the desired index as part of <i>pszPropertyName</i> using the form: toplevel/secondlevel[1]/thirdlevel. NOTE: the first element of a set is index 1, so index [0] is invalid.
-

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains process mitigation policy settings for legacy extension point DLLs. The <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a> functions use this structure.
+Contains process mitigation policy settings for legacy extension point DLLs. The <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> and <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a> functions use this structure.
 
 ## -struct-fields
 
@@ -83,4 +83,3 @@ Prevents legacy extension point DLLs from being loaded into the process.
 #### - ReservedFlags : 31
 
 This member is reserved for system use.
-

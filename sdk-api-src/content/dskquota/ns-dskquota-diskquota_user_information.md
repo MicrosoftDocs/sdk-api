@@ -65,7 +65,7 @@ The disk space charged to the user, in bytes. This is the amount of information 
 ### -field QuotaThreshold
 
 The warning threshold for the user, in bytes. You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotalogflags">IDiskQuotaControl::SetQuotaLogFlags</a> method to configure the system to generate a system logfile entry when the disk space charged to the user exceeds this value.
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotalogflags">IDiskQuotaControl::SetQuotaLogFlags</a> method to configure the system to generate a system logfile entry when the disk space charged to the user exceeds this value.
 
 ### -field QuotaLimit
 
@@ -74,18 +74,17 @@ The quota limit for the user, in bytes. If this value is -1, the user has an unl
 
 
 
-You can use the <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotalogflags">IDiskQuotaControl::SetQuotaLogFlags</a> method to configure the system to generate a system logfile entry when the disk space charged to the user exceeds this value. You can also use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotastate">IDiskQuotaControl::SetQuotaState</a> method to configure the system to deny additional disk space to the user when the disk space charged to the user exceeds this value.
+You can use the <a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotalogflags">IDiskQuotaControl::SetQuotaLogFlags</a> method to configure the system to generate a system logfile entry when the disk space charged to the user exceeds this value. You can also use the 
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotastate">IDiskQuotaControl::SetQuotaState</a> method to configure the system to deny additional disk space to the user when the disk space charged to the user exceeds this value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotalogflags">IDiskQuotaControl::SetQuotaLogFlags</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotalogflags">IDiskQuotaControl::SetQuotaLogFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotastate">IDiskQuotaControl::SetQuotaState</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotastate">IDiskQuotaControl::SetQuotaState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotainformation">IDiskQuotaUser::GetQuotaInformation</a>
-
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotainformation">IDiskQuotaUser::GetQuotaInformation</a>

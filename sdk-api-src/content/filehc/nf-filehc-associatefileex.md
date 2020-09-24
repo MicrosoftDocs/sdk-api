@@ -70,9 +70,8 @@ The terminating dot is used by the NNTP/SMTP protocol to identify the end of mes
 
 ## -returns
 
-Returns a pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that was obtained. If the function fails, it returns <b>NULL</b>.
+Returns a pointer to the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure that was obtained. If the function fails, it returns <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
-
+<a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>

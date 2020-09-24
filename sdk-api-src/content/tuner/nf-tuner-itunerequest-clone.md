@@ -64,9 +64,8 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-This method performs a "deep copy" of the object; in other words it copies all sub-objects as well, including <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/components-object">Components</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/languagecomponenttype-object">LanguageComponentType</a> objects, and so on.
+This method performs a "deep copy" of the object; in other words it copies all sub-objects as well, including <a href="/previous-versions/windows/desktop/mstv/components-object">Components</a>, <a href="/previous-versions/windows/desktop/mstv/languagecomponenttype-object">LanguageComponentType</a> objects, and so on.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest Interface</a>

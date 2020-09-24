@@ -70,5 +70,4 @@ Maximum value for testing only.
 
 ## -see-also
 
-[IPSEC_TOKEN0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)
-
+[IPSEC_TOKEN0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)

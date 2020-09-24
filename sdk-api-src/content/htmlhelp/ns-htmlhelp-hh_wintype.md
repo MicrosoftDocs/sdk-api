@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Use this structure to specify or modify the attributes of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644703(v=vs.85)">window type</a>.
+Use this structure to specify or modify the attributes of a <a href="/previous-versions/windows/desktop/legacy/ms644703(v=vs.85)">window type</a>.
 
 ## -struct-fields
 
@@ -107,7 +107,7 @@ Specifies the handle of the window if the window has been created.
 
 ### -field hwndCaller
 
-Specifies the window that will receive HTML Help notification messages. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/about-notification-messages">Notification messages</a> are sent via Windows <b>WM_NOTIFY</b> messages.
+Specifies the window that will receive HTML Help notification messages. <a href="/previous-versions/windows/desktop/htmlhelp/about-notification-messages">Notification messages</a> are sent via Windows <b>WM_NOTIFY</b> messages.
 
 ### -field paInfoTypes
 
@@ -217,14 +217,13 @@ When a <b>HH_WINTYPE</b> structure is passed to <b>HtmlHelp()</b> using the <b>H
 <h3><a id="Used_by"></a><a id="used_by"></a><a id="USED_BY"></a>Used by</h3>
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/hh-set-win-type-command">HH_SET_WIN_TYPE</a>
+<a href="/previous-versions/windows/desktop/htmlhelp/hh-set-win-type-command">HH_SET_WIN_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/hh-get-win-type-command">HH_GET_WIN_TYPE</a>
+<a href="/previous-versions/windows/desktop/htmlhelp/hh-get-win-type-command">HH_GET_WIN_TYPE</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>
-
+<a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>

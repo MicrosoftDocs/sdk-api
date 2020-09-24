@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Inline function that converts from filter cutoff frequencies expressed in hertz to the radian frequency values used in the <b>Frequency</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
+Inline function that converts from filter cutoff frequencies expressed in hertz to the radian frequency values used in the <b>Frequency</b> member of the <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ The cutoff frequency in hertz. Frequencies greater than SampleRate ÷ 6 are clam
 
 ### -param SampleRate [in]
 
-The sample rate of the audio data affected by the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
+The sample rate of the audio data affected by the <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 ## -returns
 
-Returns a radian frequency for use in the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
+Returns a radian frequency for use in the <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 ## -remarks
 
@@ -77,5 +77,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
-
+<a href="/windows/desktop/xaudio2/functions">XAudio2 Functions</a>

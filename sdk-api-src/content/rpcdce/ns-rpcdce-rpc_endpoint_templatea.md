@@ -64,7 +64,7 @@ This field is reserved and must be set to 0.
 
 ### -field ProtSeq
 
-Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.  Only <a href="https://docs.microsoft.com/windows/desktop/Rpc/protocol-sequence-constants">ncalrpc</a>, ncacn_ip_tcp, and ncacn_np are supported.  This value must not be <b>NULL</b>.
+Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.  Only <a href="/windows/desktop/Rpc/protocol-sequence-constants">ncalrpc</a>, ncacn_ip_tcp, and ncacn_np are supported.  This value must not be <b>NULL</b>.
 
 ### -field Endpoint
 
@@ -72,11 +72,11 @@ Optional pointer to the endpoint-address information to use in creating a bindin
 
 ### -field SecurityDescriptor
 
-Pointer to an optional parameter provided for the security subsystem. Used only for <a href="https://docs.microsoft.com/windows/desktop/Rpc/protocol-sequence-constants">ncacn_np</a> and ncalrpc protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended.
+Pointer to an optional parameter provided for the security subsystem. Used only for <a href="/windows/desktop/Rpc/protocol-sequence-constants">ncacn_np</a> and ncalrpc protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended.
 
 ### -field Backlog
 
-Backlog queue length for the <a href="https://docs.microsoft.com/windows/desktop/Rpc/protocol-sequence-constants">ncacn_ip_tcp</a> protocol sequence. All other protocol sequences ignore this parameter. Use <b>RPC_C_PROTSEQ_MAX_REQS_DEFAULT</b> to specify the default value.  See Remarks for more informatation.
+Backlog queue length for the <a href="/windows/desktop/Rpc/protocol-sequence-constants">ncacn_ip_tcp</a> protocol sequence. All other protocol sequences ignore this parameter. Use <b>RPC_C_PROTSEQ_MAX_REQS_DEFAULT</b> to specify the default value.  See Remarks for more informatation.
 
 ## -remarks
 
@@ -95,5 +95,4 @@ An application developer should balance memory footprint versus scalability requ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInqBindings</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInqBindings</a>

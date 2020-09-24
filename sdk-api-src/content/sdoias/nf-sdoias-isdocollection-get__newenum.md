@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>get__NewEnum</b> method retrieves an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface for a Server Data Objects (SDO) collection.
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface for a Server Data Objects (SDO) collection.
 
 ## -parameters
 
 ### -param ppEnumVARIANT [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer. On successful return the <b>IUnknown</b> interface pointer, points to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer. On successful return the <b>IUnknown</b> interface pointer, points to an 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
 
 This parameter must not be <b>NULL</b>.
 
@@ -79,5 +79,4 @@ Initialize the SDO before calling this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
-
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Aborts the <a href="https://docs.microsoft.com/windows/desktop/wsw/service-proxy">service proxy</a>, and cancels any pending I/O on the service proxy.
+Aborts the <a href="/windows/desktop/wsw/service-proxy">service proxy</a>, and cancels any pending I/O on the service proxy.
 
 ## -parameters
 
 ### -param serviceProxy [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing the service proxy to abort.
+Pointer to a <a href="/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing the service proxy to abort.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
 
 ## -returns
 
@@ -86,15 +86,14 @@ One or more arguments are invalid.
 
 ## -remarks
 
-<b>WsAbortServiceProxy</b> shows the following  behavior depending on the state of service proxy (see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_proxy_state">WS_SERVICE_PROXY_STATE</a> enumeration for possible states):<ul>
+<b>WsAbortServiceProxy</b> shows the following  behavior depending on the state of service proxy (see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_service_proxy_state">WS_SERVICE_PROXY_STATE</a> enumeration for possible states):<ul>
 <li>If the service proxy is opening and in the WS_SERVICE_PROXY_STATE_OPENING state, you can call <b>WsAbortServiceProxy</b> to abort the opening operation. The service proxy will
                 cancel all pending I/O and transition back to WS_SERVICE_PROXY_STATE_CREATED state.</li>
 <li>If the service proxy is already open and in the WS_SERVICE_PROXY_STATE_OPEN state, <b>WsAbortServiceProxy</b> will cause the service proxy to abort all underlying channels and transition to the 
-            WS_SERVICE_PROXY_STATE_FAULTED state. Once the abort is initiated, the service proxy will not accept any new calls. The application can call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscloseserviceproxy">WsCloseServiceProxy</a> to close it</li>
+            WS_SERVICE_PROXY_STATE_FAULTED state. Once the abort is initiated, the service proxy will not accept any new calls. The application can call <a href="/windows/desktop/api/webservices/nf-webservices-wscloseserviceproxy">WsCloseServiceProxy</a> to close it</li>
 <li>If the service proxy is closing and in the WS_SERVICE_PROXY_STATE_CLOSING state, all underlying channels are aborted, and the service proxy tansitions to the WS_SERVICE_PROXY_STATE_CLOSED state. 
 </li>
 </ul>
 
 
-For an example of using this function, see <a href="https://docs.microsoft.com/windows/desktop/wsw/servicecancellationexample">ServiceCancellationExample</a>.
-
+For an example of using this function, see <a href="/windows/desktop/wsw/servicecancellationexample">ServiceCancellationExample</a>.

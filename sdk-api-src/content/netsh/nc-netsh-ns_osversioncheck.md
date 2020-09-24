@@ -52,9 +52,9 @@ api_name:
 
 The 
 <b>NS_OSVERSIONCHECK</b> command is the operating system check function for helpers. This function can be called on a per-function basis, and verifies whether the associated function is supported on the specified operating system. This function is registered within the 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_group_entry">CMD_GROUP_ENTRY</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a> parameter of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of an operating system check function. Be aware that <b>SampleOsVersionCheck</b> is a placeholder for the application-defined function name.
+<a href="/windows/desktop/api/netsh/ns-netsh-cmd_group_entry">CMD_GROUP_ENTRY</a> or 
+<a href="/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a> parameter of the 
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of an operating system check function. Be aware that <b>SampleOsVersionCheck</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -83,15 +83,14 @@ Returns <b>TRUE</b> of the command or group should be available, <b>FALSE</b> if
 ## -remarks
 
 Parameters passed by this function are retrieved from WMI. Refer to the latest 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-reference">WMI documentation</a> to obtain these parameter definitions.
+<a href="/windows/desktop/WmiSdk/wmi-reference">WMI documentation</a> to obtain these parameter definitions.
 
 The operating system check function is useful for commands used by administrators who manage down-level servers or computers from a more recent version of Windows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page">Windows WMI</a>
-
+<a href="/windows/desktop/WmiSdk/wmi-start-page">Windows WMI</a>

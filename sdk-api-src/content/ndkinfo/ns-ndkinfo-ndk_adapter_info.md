@@ -58,7 +58,7 @@ The <b>NDK_ADAPTER_INFO</b> structure specifies information about limits and cap
 
 ### -field Version
 
-The  major and minor versions of the NDK interface (<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>).
+The  major and minor versions of the NDK interface (<a href="/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>).
 
 ### -field VendorId
 
@@ -169,7 +169,7 @@ Set if the provider writes incoming data into the consumer’s buffer in order. 
 <td width="60%">
  
 
-Set if the provider does not require special access rights on the sink buffer for an RDMA read request. When this flag is set, the consumer is not required to use the NDK_MR_FLAG_RDMA_READ_SINK or NDK_OP_FLAG_RDMA_READ_SINK flags when it registers sink buffers for RDMA read requests.  The consumer can also use logical address mappings directly (with a token obtained with the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_get_privileged_memory_region_token">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>  function) as RDMA read sink buffers.  This is similar to access to local buffers for RDMA write, send, and receive operations.
+Set if the provider does not require special access rights on the sink buffer for an RDMA read request. When this flag is set, the consumer is not required to use the NDK_MR_FLAG_RDMA_READ_SINK or NDK_OP_FLAG_RDMA_READ_SINK flags when it registers sink buffers for RDMA read requests.  The consumer can also use logical address mappings directly (with a token obtained with the  <a href="/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_get_privileged_memory_region_token">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>  function) as RDMA read sink buffers.  This is similar to access to local buffers for RDMA write, send, and receive operations.
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ Set if the provider does not require special access rights on the sink buffer fo
 </dl>
 </td>
 <td width="60%">
-Set if the provider supports programmatically controlled interrupt moderation for each completion queue (CQ). When this flag is set, an NDK consumer can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_control_cq_interrupt_moderation">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a> function in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_cq_dispatch">NDK_CQ_DISPATCH</a> table.
+Set if the provider supports programmatically controlled interrupt moderation for each completion queue (CQ). When this flag is set, an NDK consumer can use the <a href="/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_control_cq_interrupt_moderation">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a> function in the <a href="/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_cq_dispatch">NDK_CQ_DISPATCH</a> table.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Set if the provider supports concurrent processing of multiple connections with 
 </dl>
 </td>
 <td width="60%">
-Set if the provider supports invalidation of the local token specified in the first <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a> passed to an <i>NdkRead</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_read">NDK_FN_READ</a>) function when completing the read request.
+Set if the provider supports invalidation of the local token specified in the first <a href="/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a> passed to an <i>NdkRead</i> (<a href="/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_read">NDK_FN_READ</a>) function when completing the read request.
 
 <b>Note</b>  This value is supported only in NDKPI 1.2 (Windows Server 2012 R2) and later.
 
@@ -236,21 +236,20 @@ Set if the provider supports loopback connections. That is, loopback  from a loc
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_query_adapter_info">NDK_FN_QUERY_ADAPTER_INFO</a> function retrieves the <b>NDK_ADAPTER_INFO</b>, which contains information on various limits and capabilities of the adapter.
+The <a href="/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_query_adapter_info">NDK_FN_QUERY_ADAPTER_INFO</a> function retrieves the <b>NDK_ADAPTER_INFO</b>, which contains information on various limits and capabilities of the adapter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_cq_dispatch">NDK_CQ_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_cq_dispatch">NDK_CQ_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_control_cq_interrupt_moderation">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>
+<a href="/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_control_cq_interrupt_moderation">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_get_privileged_memory_region_token">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>
+<a href="/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_get_privileged_memory_region_token">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
-
+<a href="/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>

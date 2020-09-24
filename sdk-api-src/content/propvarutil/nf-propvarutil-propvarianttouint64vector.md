@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a <b>ULONGLONG</b> vector.
+Extracts data from a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a <b>ULONGLONG</b> vector.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/pro
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param prgn [out]
 
 Type: <b>ULONGLONG*</b>
 
-Points to a buffer containing <i>crgn</i>   <b>ULONGLONG</b> values. When this function returns, the buffer has been initialized with <i>pcElem</i>   <b>ULONGLONG</b> elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
+Points to a buffer containing <i>crgn</i>   <b>ULONGLONG</b> values. When this function returns, the buffer has been initialized with <i>pcElem</i>   <b>ULONGLONG</b> elements extracted from the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
 ### -param crgn [in]
 
@@ -76,7 +76,7 @@ Size of the buffer pointed to by <i>prgn</i>, in elements.
 
 Type: <b>ULONG*</b>
 
-When this function returns, contains the count of <b>ULONGLONG</b> values extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+When this function returns, contains the count of <b>ULONGLONG</b> values extracted from the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
 
@@ -107,7 +107,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 </dl>
 </td>
 <td width="60%">
-The source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> contained more than <i>crgn</i> values. The buffer pointed to by <i>prgn</i>.
+The source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> contained more than <i>crgn</i> values. The buffer pointed to by <i>prgn</i>.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ The source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-pr
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> was not of the appropriate type.
+The <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> was not of the appropriate type.
 
 </td>
 </tr>
@@ -126,14 +126,14 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-p
 
 ## -remarks
 
-This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold an vector of <b>ULONGLONG</b> values with a fixed number of elements.
+This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold an vector of <b>ULONGLONG</b> values with a fixed number of elements.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type <b>VT_VECTOR</b> | <b>VT_UI8</b> or <b>VT_ARRAY</b> | <b>VT_UI8</b>, this helper function extracts up to <i>crgn</i>   <b>ULONGLONG</b> values and places them into the buffer pointed to by <i>prgn</i>. If the <b>PROPVARIANT</b> contains more elements than will fit into the <i>prgn</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type <b>VT_VECTOR</b> | <b>VT_UI8</b> or <b>VT_ARRAY</b> | <b>VT_UI8</b>, this helper function extracts up to <i>crgn</i>   <b>ULONGLONG</b> values and places them into the buffer pointed to by <i>prgn</i>. If the <b>PROPVARIANT</b> contains more elements than will fit into the <i>prgn</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint64vector">PropVariantToUInt64Vector</a> to access a <b>ULONGLONG</b> vector value in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint64vector">PropVariantToUInt64Vector</a> to access a <b>ULONGLONG</b> vector value in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
 
 ```cpp
@@ -157,21 +157,20 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromuint64vector">InitPropVariantFromUInt64Vector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromuint64vector">InitPropVariantFromUInt64Vector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetuint64elem">PropVariantGetUInt64Elem</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetuint64elem">PropVariantGetUInt64Elem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint64">PropVariantToUInt64</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint64">PropVariantToUInt64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint64vectoralloc">PropVariantToUInt64VectorAlloc</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttouint64vectoralloc">PropVariantToUInt64VectorAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttouint64array">VariantToUInt64Array</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttouint64array">VariantToUInt64Array</a>

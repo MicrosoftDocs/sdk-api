@@ -88,7 +88,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the name of the computer that established the session. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_0">SESSION_INFO_0</a> structures.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_0">SESSION_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Return the name of the computer that established the session. The <i>bufptr</i> 
 </td>
 <td width="60%">
 Return the name of the computer, name of the user, and open files, pipes, and devices on the computer. The <i>bufptr</i>  parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_1">SESSION_INFO_1</a> structures.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_1">SESSION_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Return the name of the computer, name of the user, and open files, pipes, and de
 </td>
 <td width="60%">
 In addition to the information indicated for level 1, return the type of client and how the user established the session. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_2">SESSION_INFO_2</a> structures.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_2">SESSION_INFO_2</a> structures.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ In addition to the information indicated for level 1, return the type of client 
 </td>
 <td width="60%">
 Return the name of the computer, name of the user, and active and idle times for the session. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a> structures.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a> structures.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Return the name of the computer, name of the user, and active and idle times for
 </td>
 <td width="60%">
 Return the name of the computer; name of the user; open files, pipes, and devices on the computer; and the name of the transport the client is using. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_502">SESSION_INFO_502</a> structures.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_502">SESSION_INFO_502</a> structures.
 
 </td>
 </tr>
@@ -143,13 +143,13 @@ Return the name of the computer; name of the user; open files, pipes, and device
 Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter.
 
 This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b>.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b>.
 
 ### -param prefmaxlen [in]
 
 Specifies the preferred maximum length of returned data, in bytes. If you specify <b>MAX_PREFERRED_LENGTH</b>, the function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns <b>ERROR_MORE_DATA</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ### -param entriesread [out]
 
@@ -270,8 +270,8 @@ Only members of the Administrators or Server Operators local group can successfu
 <b>NetSessionEnum</b> function at level 1 or level 2. No special group membership is required for level 0 or level 10 calls.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> and 
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
 
 
 #### Examples
@@ -279,7 +279,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 The following code sample demonstrates how to retrieve information about current sessions using a call to the 
 <b>NetSessionEnum</b> function. The sample calls 
 <b>NetSessionEnum</b>, specifying information level 10 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a>). The sample loops through the entries and prints the retrieved information. Finally, the code prints the total number of sessions enumerated and frees the memory allocated for the information buffer.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a>). The sample loops through the entries and prints the retrieved information. Finally, the code prints the total number of sessions enumerated and frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -407,40 +407,39 @@ int wmain(int argc, wchar_t *argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessiongetinfo">NetSessionGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsessiongetinfo">NetSessionGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_0">SESSION_INFO_0</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_0">SESSION_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_1">SESSION_INFO_1</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_1">SESSION_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_2">SESSION_INFO_2</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_2">SESSION_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_502">SESSION_INFO_502</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-session_info_502">SESSION_INFO_502</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/session-functions">Session
+<a href="/windows/desktop/NetShare/session-functions">Session
 		  Functions</a>
-

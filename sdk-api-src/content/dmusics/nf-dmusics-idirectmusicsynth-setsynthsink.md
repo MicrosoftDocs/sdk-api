@@ -56,7 +56,7 @@ The <code>SetSynthSink</code> method establishes the connection of the synth to 
 
 ### -param pSynthSink
 
-Pointer to the synth sink. This parameter either points to the <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a> sink object to connect to the synth, or is <b>NULL</b> to disconnect the synth from its current synth sink.
+Pointer to the synth sink. This parameter either points to the <a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a> sink object to connect to the synth, or is <b>NULL</b> to disconnect the synth from its current synth sink.
 
 ## -returns
 
@@ -112,9 +112,8 @@ This approach allows a synthesizer to connect to many different styles of audio 
 
 For more information, see the description of the <b>IDirectMusic</b> interface in the Microsoft Windows SDK documentation.
 
-The <i>pSynthSink</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
+The <i>pSynthSink</i> parameter follows the <a href="/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>
-
+<a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>

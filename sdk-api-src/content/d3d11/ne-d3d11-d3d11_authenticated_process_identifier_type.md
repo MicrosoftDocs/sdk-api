@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of process that is identified in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_restricted_shared_resource_process_output">D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT</a> structure.
+Specifies the type of process that is identified in the <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_restricted_shared_resource_process_output">D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT</a> structure.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ Handle to a process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
-
+<a href="/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>

@@ -56,7 +56,7 @@ To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJobHttpOptions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyJobHttpOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJobHttpOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyJobHttpOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IBackgroundCopyJobHttpOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate">GetClientCertificate</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate">GetClientCertificate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the client certificate from the job.
@@ -80,7 +80,7 @@ Retrieves the client certificate from the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getcustomheaders">GetCustomHeaders</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getcustomheaders">GetCustomHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves the custom HTTP headers from the job.
@@ -89,7 +89,7 @@ Retrieves the custom HTTP headers from the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getsecurityflags">GetSecurityFlags</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getsecurityflags">GetSecurityFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
@@ -98,7 +98,7 @@ Retrieves the flags for HTTP that determine whether the certificate revocation l
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate">RemoveClientCertificate</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate">RemoveClientCertificate</a>
 </td>
 <td align="left" width="63%">
 Removes the client certificate from the job.
@@ -107,7 +107,7 @@ Removes the client certificate from the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">SetClientCertificateByID</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">SetClientCertificateByID</a>
 </td>
 <td align="left" width="63%">
 Specifies the identifier of the client certificate to use for client authentication in an HTTPS (SSL) request. 
@@ -116,7 +116,7 @@ Specifies the identifier of the client certificate to use for client authenticat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname">SetClientCertificateByName</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname">SetClientCertificateByName</a>
 </td>
 <td align="left" width="63%">
 Specifies the subject name of the client certificate to use for client authentication in an HTTPS (SSL) request. 
@@ -125,7 +125,7 @@ Specifies the subject name of the client certificate to use for client authentic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders">SetCustomHeaders</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders">SetCustomHeaders</a>
 </td>
 <td align="left" width="63%">
 Specifies one or more custom HTTP headers to include in HTTP requests.
@@ -134,7 +134,7 @@ Specifies one or more custom HTTP headers to include in HTTP requests.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags">SetSecurityFlags</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags">SetSecurityFlags</a>
 </td>
 <td align="left" width="63%">
 Sets flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
@@ -145,5 +145,4 @@ Sets flags for HTTP that determine whether the certificate revocation list is ch
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
-
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>

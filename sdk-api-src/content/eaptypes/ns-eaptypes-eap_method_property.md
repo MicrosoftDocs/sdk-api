@@ -58,11 +58,11 @@ An <b>EAP_METHOD_PROPERTY</b> structure  contains an EAP method property.
 
 ### -field eapMethodPropertyType
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_type">EAP_METHOD_PROPERTY_TYPE</a> enumeration value that describes the type of the EAP method property.
+An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_type">EAP_METHOD_PROPERTY_TYPE</a> enumeration value that describes the type of the EAP method property.
 
 ### -field eapMethodPropertyValueType
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a> enumeration value that describes the data type of the value specified in <b>eapMethodPropertyValue</b>.
+An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a> enumeration value that describes the data type of the value specified in <b>eapMethodPropertyValue</b>.
 
 ### -field eapMethodPropertyValue.switch_is
 
@@ -70,7 +70,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-
 
 ### -field eapMethodPropertyValue
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_value">EAP_METHOD_PROPERTY_VALUE</a> union that contains the method property value.
+An <a href="/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_value">EAP_METHOD_PROPERTY_VALUE</a> union that contains the method property value.
 
 ## -see-also
 
@@ -78,9 +78,8 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_array">EAP_METHOD_PROPERTY_ARRAY</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_array">EAP_METHOD_PROPERTY_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>
-
+<a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>

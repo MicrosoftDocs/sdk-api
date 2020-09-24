@@ -78,7 +78,7 @@ The DC layout. This parameter can be one or more of the following values.
 </dl>
 </td>
 <td width="60%">
-Disables any reflection during <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> operations.
+Disables any reflection during <a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> operations.
 
 </td>
 </tr>
@@ -144,18 +144,17 @@ Once the LAYOUT_RTL flag is selected, flags normally specifying right or left ar
 
 <b>SetLayout</b> cannot modify drawing directly into the bits of a DIB.
 
-For more information, see "Window Layout and Mirroring" in <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Window Features</a>.
+For more information, see "Window Layout and Mirroring" in <a href="/windows/desktop/winmsg/window-features">Window Features</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getlayout">GetLayout
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getlayout">GetLayout
       </a>
-

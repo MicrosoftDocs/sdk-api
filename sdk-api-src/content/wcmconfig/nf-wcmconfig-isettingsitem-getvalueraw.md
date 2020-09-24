@@ -59,7 +59,7 @@ Gets the value from the current item as
 
 ### -param Data [out]
 
-An array of BYTE pointers, allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, of length DataSize.
+An array of BYTE pointers, allocated with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, of length DataSize.
 
 ### -param DataSize [out]
 
@@ -122,5 +122,4 @@ Indicates that there is no value for the item.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

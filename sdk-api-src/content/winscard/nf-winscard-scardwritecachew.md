@@ -52,14 +52,14 @@ api_name:
 
 ## -description
 
-The <b>SCardWriteCache</b> function writes a name-value pair from a smart card to the global cache maintained by the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-resource-manager">Smart Card Resource Manager</a>.
+The <b>SCardWriteCache</b> function writes a name-value pair from a smart card to the global cache maintained by the <a href="/windows/desktop/SecAuthN/smart-card-resource-manager">Smart Card Resource Manager</a>.
 
 ## -parameters
 
 ### -param hContext [in]
 
-A handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
+A handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
 
 ### -param CardIdentifier [in]
 
@@ -85,7 +85,7 @@ The size, in bytes, of the <i>Data</i> buffer.
 
 If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>. 
 
-If the function fails, it returns one of the following error codes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+If the function fails, it returns one of the following error codes. For more information, see <a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 <table>
 <tr>
@@ -108,10 +108,9 @@ The size of the specified name-value pair exceeds the maximum size defined for t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreadcachea">SCardReadCache</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardreadcachea">SCardReadCache</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winscard.h header defines SCardWriteCache as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

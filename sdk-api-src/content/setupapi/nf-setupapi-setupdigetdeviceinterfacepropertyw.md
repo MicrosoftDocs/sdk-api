@@ -57,19 +57,19 @@ The <b>SetupDiGetDeviceInterfaceProperty</b> function retrieves a device propert
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device interface for which to retrieve a device interface property.
+A handle to a <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device interface for which to retrieve a device interface property.
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to retrieve a device interface property.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to retrieve a device interface property.
 
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device interface property key of the device interface property to retrieve.
+A pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device interface property key of the device interface property to retrieve.
 
 ### -param PropertyType [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
+A pointer to a <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
 
 ### -param PropertyBuffer [out]
 
@@ -89,7 +89,7 @@ This parameter must be set to zero.
 
 ## -returns
 
-<b>SetupDiGetDeviceInterfaceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+<b>SetupDiGetDeviceInterfaceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log. Other error codes can be set by the device installer functions that are called by this API.
 
@@ -224,21 +224,20 @@ The caller does not have Administrator privileges.
 
 ## -remarks
 
-<b>SetupDiGetDeviceInterfaceProperty</b> is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>. 
+<b>SetupDiGetDeviceInterfaceProperty</b> is part of the <a href="/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>. 
 
 SetupAPI supports only a Unicode version of <b>SetupDiGetDeviceInterfaceProperty</b>. 
 
 A caller of <b>SetupDiGetDeviceInterfaceProperty</b> must be a member of the Administrators group to set a device interface property. 
 
-To obtain the device property keys that represent the device properties that are set for a device interface, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys">SetupDiGetDeviceInterfacePropertyKeys</a>.
+To obtain the device property keys that represent the device properties that are set for a device interface, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys">SetupDiGetDeviceInterfacePropertyKeys</a>.
 
-To set a device interface property, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacepropertyw">SetupDiSetDeviceInterfaceProperty</a>.
+To set a device interface property, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacepropertyw">SetupDiSetDeviceInterfaceProperty</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys">SetupDiGetDeviceInterfacePropertyKeys</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys">SetupDiGetDeviceInterfacePropertyKeys</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacepropertyw">SetupDiSetDeviceInterfaceProperty</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacepropertyw">SetupDiSetDeviceInterfaceProperty</a>

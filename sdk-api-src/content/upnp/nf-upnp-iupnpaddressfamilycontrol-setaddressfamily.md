@@ -110,8 +110,8 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 The address family flag must be set at the appropriate time in order to affect the search:
 
 <ul>
-<li>For an asynchronous search, set the address family flag prior to calling the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a> method.</li>
-<li>For a synchronous search, set the address family flag prior to calling either the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbyudn">IUPnPDeviceFinder::FindByUDN</a> or <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbytype">IUPnPDeviceFinder::FindByType</a> method.</li>
+<li>For an asynchronous search, set the address family flag prior to calling the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a> method.</li>
+<li>For a synchronous search, set the address family flag prior to calling either the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbyudn">IUPnPDeviceFinder::FindByUDN</a> or <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbytype">IUPnPDeviceFinder::FindByType</a> method.</li>
 </ul>
 
 
@@ -148,9 +148,8 @@ Scenario 3: an application sets the address family flag to UPNP_ADDRESSFAMILY_BO
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-getaddressfamily">GetAddressFamily</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-getaddressfamily">GetAddressFamily</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>

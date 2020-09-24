@@ -64,7 +64,7 @@ Number of elements in the <b>TraceProviderInfoArray</b> array.
 
 ### -field TraceProviderInfoArray
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_provider_info">TRACE_PROVIDER_INFO</a> structures that contain information about each provider such as its name and unique identifier.
+Array of <a href="/windows/desktop/api/tdh/ns-tdh-trace_provider_info">TRACE_PROVIDER_INFO</a> structures that contain information about each provider such as its name and unique identifier.
 
 
 #### - Padding
@@ -73,5 +73,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a>

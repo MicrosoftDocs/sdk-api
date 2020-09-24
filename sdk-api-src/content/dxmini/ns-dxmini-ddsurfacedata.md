@@ -60,7 +60,7 @@ The DDSURFACEDATA structure is used by DirectDraw to represent a surface to the 
 
 ### -field ddsCaps
 
-Points to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that contains the creation capabilities used to describe the surface.
+Points to a <a href="/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that contains the creation capabilities used to describe the surface.
 
 ### -field dwSurfaceOffset
 
@@ -84,7 +84,7 @@ Specifies the surface pitch, in bytes.
 
 ### -field dwOverlayFlags
 
-Indicates a set of flags that specify the current user-mode DDOVER_<i>Xxx</i> flags set by <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>. This member is a bitwise OR of any of the following values:
+Indicates a set of flags that specify the current user-mode DDOVER_<i>Xxx</i> flags set by <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>. This member is a bitwise OR of any of the following values:
 
 <table>
 <tr>
@@ -355,7 +355,7 @@ Specifies the overlay destination height, in pixels. This field is used only by 
 
 ### -field dwVideoPortId
 
-If this surface is being fed by a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object, this field indicates the ID of the VPE object, an integer in the range (0 - (maximum number of hardware video ports -1 )); otherwise, this field is -1.
+If this surface is being fed by a <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object, this field indicates the ID of the VPE object, an integer in the range (0 - (maximum number of hardware video ports -1 )); otherwise, this field is -1.
 
 ### -field dwFormatFlags
 
@@ -412,7 +412,7 @@ DDPF_BUMPLUMINANCE
 
 </td>
 <td>
-The luminance data in pixel format is valid. This flag is used when hanging luminance off bumpmap surfaces. The bitmask for the luminance portion of the pixel is then indicated by the <b>dwBumpLuminanceBitCount</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure.
+The luminance data in pixel format is valid. This flag is used when hanging luminance off bumpmap surfaces. The bitmask for the luminance portion of the pixel is then indicated by the <b>dwBumpLuminanceBitCount</b> member of the <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure.
 
 </td>
 </tr>
@@ -432,7 +432,7 @@ DDPF_FOURCC
 
 </td>
 <td>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> code is valid.
+The <a href="/windows-hardware/drivers/">FOURCC</a> code is valid.
 
 </td>
 </tr>
@@ -442,7 +442,7 @@ DDPF_LUMINANCE
 
 </td>
 <td>
-The luminance data in the pixel format is valid. This flag is used for luminance only or luminance plus alpha surfaces; the bit depth is then indicated by the <b>dwLuminanceBitCount</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure.
+The luminance data in the pixel format is valid. This flag is used for luminance only or luminance plus alpha surfaces; the bit depth is then indicated by the <b>dwLuminanceBitCount</b> member of the <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure.
 
 </td>
 </tr>
@@ -560,7 +560,7 @@ The surface is in RGBZ format.
 
 ### -field dwFormatFourCC
 
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> code.
+Specifies the <a href="/windows-hardware/drivers/">FOURCC</a> code.
 
 ### -field dwFormatBitCount
 
@@ -596,13 +596,12 @@ Are reserved for use by the miniport driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>

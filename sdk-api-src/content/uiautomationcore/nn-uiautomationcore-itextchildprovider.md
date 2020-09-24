@@ -54,11 +54,10 @@ Provides access to a text-based control (or an object embedded in text) that is 
 
 ## -remarks
 
-An element that implements the [TextChild control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/textchild-control-pattern) must be a child, or descendent, of an element that supports the [Text control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
+An element that implements the [TextChild control pattern](/windows/desktop/WinAuto/textchild-control-pattern) must be a child, or descendent, of an element that supports the [Text control pattern](/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
 
-It is not required that this element also implement the [Text control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
+It is not required that this element also implement the [Text control pattern](/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
 
 ## -see-also
 
-[Text control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange), [TextChild control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/textchild-control-pattern), [UI Automation Providers Overview](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview)
-
+[Text control pattern](/windows/desktop/WinAuto/uiauto-implementingtextandtextrange), [TextChild control pattern](/windows/desktop/WinAuto/textchild-control-pattern), [UI Automation Providers Overview](/windows/desktop/WinAuto/uiauto-providersoverview)

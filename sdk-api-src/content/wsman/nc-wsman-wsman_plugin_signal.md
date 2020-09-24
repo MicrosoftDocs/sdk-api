@@ -60,7 +60,7 @@ The DLL entry point name for this method must be
 
 ### -param *requestDetails [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> 
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> 
       structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 ### -param flags [in]
@@ -85,7 +85,7 @@ Specifies the signal that is received from the client. The following codes are c
 #### WSMAN_SIGNAL_SHELL_CODE_TERMINATE
 
 The shell or Command Prompt window was closed. The plug-in should call the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> 
+        <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> 
         function.
 
 
@@ -93,7 +93,7 @@ The shell or Command Prompt window was closed. The plug-in should call the
 #### WSMAN_SIGNAL_SHELL_CODE_CTRL_C
 
 The signal for CTRL+C was received, and the process was halted. The plug-in should call the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> 
+        <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> 
         function.
 
 
@@ -101,7 +101,7 @@ The signal for CTRL+C was received, and the process was halted. The plug-in shou
 #### WSMAN_SIGNAL_SHELL_CODE_CTRL_BREAK
 
 The signal for CTRL+BREAK was received, and the process was halted. The plug-in should call the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> 
+        <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> 
         function.
 
 ## -remarks
@@ -110,8 +110,7 @@ A signal can be received for processing a CTRL+C sequence or one of many other t
     callback is called once for each signal that is received. The plug-in determines which signals cause commands 
     and/or shells to be shut down. Because signals are shell-specific, the plug-in must initiate the shutdown by 
     calling the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method. For 
+    <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method. For 
     each call, the plug-in should call 
     <b>WSManPluginOperationComplete</b> to 
     acknowledge receipt and to allow the next signal to be received.
-

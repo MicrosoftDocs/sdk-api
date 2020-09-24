@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
+Represents a property inside an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 ## -struct-fields
 
 ### -field value
 
-A field of type <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_char16a">MI_Char16A</a>.
+A field of type <a href="/windows/desktop/api/mi/ns-mi-mi_char16a">MI_Char16A</a>.
 
 ### -field exists
 
@@ -91,4 +91,3 @@ Used while adding and setting properties on an <b>MI_Instance</b> to indicate th
 #### MI_FLAG_ADOPT ((1 << 31))
 
 Used while adding and setting properties on an <b>MI_Instance</b> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
-

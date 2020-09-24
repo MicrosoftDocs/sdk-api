@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies application management actions supported by an application publisher. These flags are bitmasks passed to <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getpossibleactions">IShellApp::GetPossibleActions</a>.
+Specifies application management actions supported by an application publisher. These flags are bitmasks passed to <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getpossibleactions">IShellApp::GetPossibleActions</a>.
 
 ## -enum-fields
 
@@ -86,7 +86,7 @@ Not applicable to published applications.
 
 ### -field APPACTION_ADDLATER
 
-Indicates that the application supports scheduled installation.  If this bit is set, then the Control Panel's Add or Remove Programs application presents the user an <b>Add Later</b> button. If you select <b>Add Later</b>, you are prompted to select the desired time of installation. The <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-install">IPublishedApp::Install</a> method is then called with the installation time.
+Indicates that the application supports scheduled installation.  If this bit is set, then the Control Panel's Add or Remove Programs application presents the user an <b>Add Later</b> button. If you select <b>Add Later</b>, you are prompted to select the desired time of installation. The <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-install">IPublishedApp::Install</a> method is then called with the installation time.
 
 ### -field APPACTION_UNSCHEDULE
 
@@ -95,4 +95,3 @@ Obsolete.
 ## -remarks
 
 The Add or Remove Programs application in Control Panel uses only <b><b>APPACTION_INSTALL</b></b> and <b><b>APPACTION_ADDLATER</b></b> for published applications.
-

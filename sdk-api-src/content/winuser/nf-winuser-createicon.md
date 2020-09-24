@@ -102,11 +102,11 @@ Type: <b>HICON</b>
 
 If the function succeeds, the return value is a handle to an icon.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height supported by the current display driver, because the system cannot create icons of other sizes. To determine the width and height supported by the display driver, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function, specifying the <b>SM_CXICON</b> or <b>SM_CYICON</b> value. 
+The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height supported by the current display driver, because the system cannot create icons of other sizes. To determine the width and height supported by the display driver, use the <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function, specifying the <b>SM_CXICON</b> or <b>SM_CYICON</b> value. 
 
 <b>CreateIcon</b> applies the following truth table to the AND and XOR bitmasks.
 
@@ -139,12 +139,12 @@ The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height 
 </table>
  
 
-When you are finished using the icon, destroy it using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
+When you are finished using the icon, destroy it using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-icons">Creating an Icon</a>.
+For an example, see <a href="/windows/desktop/menurc/using-icons">Creating an Icon</a>.
 
 <div class="code"></div>
 
@@ -154,13 +154,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
 <b>Other Resources</b>
-

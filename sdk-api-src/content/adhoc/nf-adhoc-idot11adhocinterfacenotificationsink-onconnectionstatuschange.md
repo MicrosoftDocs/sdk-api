@@ -93,9 +93,8 @@ The method failed.
 
 ## -remarks
 
-This notification is triggered when the connection status changes as a result of connection and disconnection requests issued by the current application. It is also triggered when other applications issue successful connection  and disconnection requests using the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> methods or the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-functions">Native Wifi functions</a>.
+This notification is triggered when the connection status changes as a result of connection and disconnection requests issued by the current application. It is also triggered when other applications issue successful connection  and disconnection requests using the <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> methods or the <a href="/windows/desktop/NativeWiFi/native-wifi-functions">Native Wifi functions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterfacenotificationsink">IDot11AdHocInterfaceNotificationSink</a>
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterfacenotificationsink">IDot11AdHocInterfaceNotificationSink</a>

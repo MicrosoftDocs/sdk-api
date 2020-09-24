@@ -70,11 +70,10 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of a pointer to the interface specified by <i>riid</i>, usually <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>.
+The address of a pointer to the interface specified by <i>riid</i>, usually <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

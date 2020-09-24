@@ -58,13 +58,12 @@ Contains a desired value for polarity of a pin or channel.
 
 ### -field Polarity
 
-The desired polarity for the pin or channel as a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a> value. The polarity is either Active High or Active Low.
+The desired polarity for the pin or channel as a <a href="/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a> value. The polarity is either Active High or Active Low.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a>
-
+<a href="/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a>

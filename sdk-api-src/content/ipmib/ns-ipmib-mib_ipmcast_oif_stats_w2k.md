@@ -50,9 +50,6 @@ api_name:
  - MIB_IPMCAST_OIF_STATS
 ---
 
-# MIB_IPMCAST_OIF_STATS_W2K structure
-
-
 ## -description
 
 The 
@@ -71,9 +68,6 @@ Specifies the outgoing interface to which these statistics are related.
 Type: <b>DWORD</b>
 
 Specifies the address of the next hop that corresponds to <b>dwOutIfIndex</b>. The <b>dwOutIfIndex</b> and <b>dwIfNextHopIPAddr</b> members uniquely identify a next hop on point-to-multipoint interfaces, where one interface connects to multiple networks. Examples of point-to-multipoint interfaces include non-broadcast multiple-access (NBMA) interfaces, and the internal interface on which all dial-up clients connect. 
-
-
-
 
 For Ethernet and other broadcast interfaces, specify zero. Also specify zero for point-to-point interfaces, which are identified by only <b>dwOutIfIndex</b>.
 
@@ -113,5 +107,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Ser
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>

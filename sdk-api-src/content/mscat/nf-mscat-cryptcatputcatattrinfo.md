@@ -58,7 +58,7 @@ The <b>CryptCATPutCatAttrInfo</b> function allocates memory for a catalog file a
 
 ### -param hCatalog [in]
 
-A handle to the catalog obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> functions.
+A handle to the catalog obtained from the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> functions.
 
 ### -param pwszReferenceTag [in]
 
@@ -113,7 +113,7 @@ The attribute is an ASCII string.
 </dl>
 </td>
 <td width="60%">
-The attribute is a cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+The attribute is a cryptographic <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 </td>
 </tr>
@@ -162,10 +162,10 @@ A pointer to a memory buffer that contains the attribute value.
 
 ## -returns
 
-A pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure that contains the catalog attribute. The caller must not free this pointer or any of its members.
+A pointer to a [CRYPTCATATTRIBUTE](/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure that contains the catalog attribute. The caller must not free this pointer or any of its members.
 
 
-If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
+If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
 
 
 
@@ -197,4 +197,3 @@ The operating system ran out of memory during the operation.
 </td>
 </tr>
 </table>
-

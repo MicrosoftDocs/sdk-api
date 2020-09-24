@@ -56,7 +56,7 @@ Instructs the undo manager to invoke undo actions back through the redo stack, d
 
 ### -param pUU [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a> pointer to the top level unit to redo. If this parameter is <b>NULL</b>, the most recently added top level unit is used.
+An <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a> pointer to the top level unit to redo. If this parameter is <b>NULL</b>, the most recently added top level unit is used.
 
 ## -returns
 
@@ -104,31 +104,30 @@ The undo manager is disabled.
 
 ## -remarks
 
-This method calls the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> method on each top-level undo unit. Then, it releases that undo unit.
+This method calls the <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> method on each top-level undo unit. Then, it releases that undo unit.
 
-Note that the specified undo unit must be a top-level unit, typically retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enumredoable">IOleUndoManager::EnumRedoable</a>.
+Note that the specified undo unit must be a top-level unit, typically retrieved through <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enumredoable">IOleUndoManager::EnumRedoable</a>.
 
 In case an error is returned from the undo unit, the undo manager needs to attempt to rollback the state of the document to recover from the error by performing actions on the undo stack.
 
 No matter what the success of the rollback, the undo manager should always clear both stacks before returning the error.
 
-If the undo manager has called the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> method on more than one top-level unit, it should only rollback the unit that returned the error. The top-level units that succeeded should not be rolled back.
+If the undo manager has called the <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a> method on more than one top-level unit, it should only rollback the unit that returned the error. The top-level units that succeeded should not be rolled back.
 
-The undo manager must also keep track of whether units were added to the opposite stack so it won't attempt rollback if nothing was added. See the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a> interface for detailed description of error handling.
+The undo manager must also keep track of whether units were added to the opposite stack so it won't attempt rollback if nothing was added. See the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a> interface for detailed description of error handling.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enumredoable">IOleUndoManager::EnumRedoable</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enumredoable">IOleUndoManager::EnumRedoable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-undoto">IOleUndoManager::UndoTo</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-undoto">IOleUndoManager::UndoTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a>

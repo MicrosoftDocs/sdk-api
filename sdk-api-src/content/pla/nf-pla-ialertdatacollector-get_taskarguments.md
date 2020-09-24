@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_task">IAlertDataCollector::Task</a> property.
+Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_task">IAlertDataCollector::Task</a> property.
 
 This property is read/write.
 
@@ -87,7 +87,7 @@ PLA provides the following substitution variables that you can include in your a
 </tr>
 <tr>
 <td>{usertext}</td>
-<td>String from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_taskusertextarguments">IAlertDataCollector::TaskUserTextArguments</a> property.</td>
+<td>String from the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_taskusertextarguments">IAlertDataCollector::TaskUserTextArguments</a> property.</td>
 </tr>
 <tr>
 <td>{value}</td>
@@ -96,9 +96,8 @@ PLA provides the following substitution variables that you can include in your a
 </table>
  
 
-Typically, if you use the substitution variables, you specify them in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_taskusertextarguments">TaskUserTextArguments</a>, where you do not have to escape the braces, and then specify {usertext} in this property.
+Typically, if you use the substitution variables, you specify them in <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_taskusertextarguments">TaskUserTextArguments</a>, where you do not have to escape the braces, and then specify {usertext} in this property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>

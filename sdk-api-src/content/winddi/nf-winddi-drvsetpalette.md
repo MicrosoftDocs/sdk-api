@@ -56,11 +56,11 @@ The <b>DrvSetPalette</b> function requests that the driver realize the palette f
 
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> structure, which identifies the device whose palette is to be realized. This parameter is the device handle returned to GDI by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+Handle to the physical device's <a href="/windows-hardware/drivers/">PDEV</a> structure, which identifies the device whose palette is to be realized. This parameter is the device handle returned to GDI by <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param ppalo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-palobj">PALOBJ</a> structure from which the colors (RGB values) should be queried.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-palobj">PALOBJ</a> structure from which the colors (RGB values) should be queried.
 
 ### -param fl
 
@@ -77,7 +77,7 @@ SP_DEFAULT
 
 </td>
 <td>
-The palette is the device's complete default palette. The <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-palobj">PALOBJ</a> can be ignored, but contains the correct contents.
+The palette is the device's complete default palette. The <a href="/windows/desktop/api/winddi/ns-winddi-palobj">PALOBJ</a> can be ignored, but contains the correct contents.
 
 </td>
 </tr>
@@ -99,19 +99,18 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
  The driver sets the hardware palette to match the entries in the given palette as closely as possible.
 
-Only indexed palettes are realizeable. The RC_PALETTE bit of the <b>flRasterCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure specifies whether a device has a realizeable palette.
+Only indexed palettes are realizeable. The RC_PALETTE bit of the <b>flRasterCaps</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure specifies whether a device has a realizeable palette.
 
 <b>DrvSetPalette</b> is required for display drivers that support realizeable palettes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepalette">EngDeletePalette</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeletepalette">EngDeletePalette</a>

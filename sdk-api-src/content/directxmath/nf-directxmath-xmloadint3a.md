@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Loads 16-byte aligned data into the <b>x</b>, <b>y</b>, and <b>z</b> components of an
-  <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>, without type checking.
+  <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>, without type checking.
 <div class="alert"><b>Note</b>  This function is provided for backward compatibility with the Xbox Math library. You should use
   <b>XMLoadInt3A</b> when you load integer data, and
   <a href="https://msdn.microsoft.com/009681d9-8e9b-4436-bd76-0c38c9035d10">XMLoadFloat3A</a> when you load floating point data.</div><div> </div>
@@ -64,15 +64,15 @@ Address of the 16-byte aligned data to load.
 
 ## -returns
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
 
 ## -remarks
 
-The w component of the returned <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> is initialized to 0.
+The w component of the returned <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> is initialized to 0.
 
-To convert the loaded <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> into float values, use
-   <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectoruinttofloat">XMConvertVectorUIntToFloat</a> or
-   <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectorinttofloat">XMConvertVectorIntToFloat</a>.
+To convert the loaded <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> into float values, use
+   <a href="/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectoruinttofloat">XMConvertVectorUIntToFloat</a> or
+   <a href="/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectorinttofloat">XMConvertVectorIntToFloat</a>.
 
 The following pseudocode shows you the operation of the function.
 
@@ -98,5 +98,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>

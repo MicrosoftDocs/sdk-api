@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SecurityDescriptor</b> property specifies or retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.
+The <b>SecurityDescriptor</b> property specifies or retrieves the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> for the <a href="/windows/desktop/SecGloss/p-gly">private key</a>.
 
 This property is read/write.
 
@@ -60,7 +60,7 @@ This property is read/write.
 
 ## -remarks
 
-To use the security descriptor, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function included with the Microsoft Authorization API and specify the string returned by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-getdefaultsecuritydescriptor">GetDefaultSecurityDescriptor</a> method.
+To use the security descriptor, you must call the <a href="/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function included with the Microsoft Authorization API and specify the string returned by the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-getdefaultsecuritydescriptor">GetDefaultSecurityDescriptor</a> method.
 
 The security descriptor is used to define access to private keys for the computer and user in the following manner:<ul>
 <li>By default, only local administrators and services running under the LocalSystem account can access private keys associated with the computer account.</li>
@@ -72,5 +72,4 @@ If the key is not open when you specify a descriptor, the property value  will b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

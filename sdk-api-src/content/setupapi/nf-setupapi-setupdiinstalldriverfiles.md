@@ -50,29 +50,29 @@ api_name:
 
 ## -description
 
-The <b>SetupDiInstallDriverFiles</b> function is the default handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installdevicefiles">DIF_INSTALLDEVICEFILES</a> installation request.
+The <b>SetupDiInstallDriverFiles</b> function is the default handler for the <a href="/windows-hardware/drivers/install/dif-installdevicefiles">DIF_INSTALLDEVICEFILES</a> installation request.
 
 ## -parameters
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device information element that represents the device for which to install files. The device information set must not contain remote elements.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device information element that represents the device for which to install files. The device information set must not contain remote elements.
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The caller of <b>SetupDiInstallDriverFiles</b> must be a member of the Administrators group if this function is being used to install files. However, if this function is being used to build up a file queue, membership in the Administrators group is not required.
 
-<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiInstallDriverFiles</b> and only in those situations where the class installer must perform driver file installation operations after <b>SetupDiInstallDriverFiles</b> completes the default driver file installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDriverFiles</b> when the installer processes a DIF_INSTALLDEVICEFILES request. For more information about calling the default handler, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiInstallDriverFiles</b> and only in those situations where the class installer must perform driver file installation operations after <b>SetupDiInstallDriverFiles</b> completes the default driver file installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDriverFiles</b> when the installer processes a DIF_INSTALLDEVICEFILES request. For more information about calling the default handler, see <a href="/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
-The operation of <b>SetupDiInstallDriverFiles</b> is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldevice">SetupDiInstallDevice</a> function. However, this function performs only the file copy operations that are performed by <b>SetupDiInstallDevice</b>. 
+The operation of <b>SetupDiInstallDriverFiles</b> is similar to the <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldevice">SetupDiInstallDevice</a> function. However, this function performs only the file copy operations that are performed by <b>SetupDiInstallDevice</b>. 
 
 A driver must be selected for the specified device information set or element before this function is called.
 
@@ -82,9 +82,8 @@ The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldevice">SetupDiInstallDevice</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldevice">SetupDiInstallDevice</a>

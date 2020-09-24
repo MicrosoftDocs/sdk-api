@@ -70,9 +70,8 @@ This method can return one of these values.
 ## -remarks
 
 <b>GetColumnText</b> allocates the string for the result and stores its pointer at the location specified by pText. The caller must free the memory using 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iheaderctrl">IHeaderCtrl</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iheaderctrl">IHeaderCtrl</a>

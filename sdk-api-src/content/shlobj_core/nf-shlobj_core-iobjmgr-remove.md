@@ -56,9 +56,9 @@ Removes an object from the collection of managed objects.
 
 ### -param punk [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object to be removed from the list.
+The address of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object to be removed from the list.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns S_OK if successful, or a COM error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr">IObjMgr</a>
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr">IObjMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-append">IObjMgr::Append</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-append">IObjMgr::Append</a>

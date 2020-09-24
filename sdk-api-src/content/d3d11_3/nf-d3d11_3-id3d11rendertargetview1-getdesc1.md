@@ -63,5 +63,4 @@ A pointer to a <a href="/windows/win32/api/d3d11_3/ns-d3d11_3-d3d11_render_targe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11rendertargetview1">ID3D11RenderTargetView1</a>
-
+<a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11rendertargetview1">ID3D11RenderTargetView1</a>

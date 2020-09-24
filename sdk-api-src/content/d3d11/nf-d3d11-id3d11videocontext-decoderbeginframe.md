@@ -56,11 +56,11 @@ Starts a decoding operation to decode a video frame.
 
 ### -param pDecoder [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface. To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder">ID3D11VideoDevice::CreateVideoDecoder</a>.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface. To get this pointer, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder">ID3D11VideoDevice::CreateVideoDecoder</a>.
 
 ### -param pView [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoderoutputview">ID3D11VideoDecoderOutputView</a> interface. This interface describes the resource that will receive the decoded frame. To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoderoutputview">ID3D11VideoDevice::CreateVideoDecoderOutputView</a>.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoderoutputview">ID3D11VideoDecoderOutputView</a> interface. This interface describes the resource that will receive the decoded frame. To get this pointer, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoderoutputview">ID3D11VideoDevice::CreateVideoDecoderOutputView</a>.
 
 ### -param ContentKeySize [in]
 
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-After this method is called, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-submitdecoderbuffers">ID3D11VideoContext::SubmitDecoderBuffers</a> to perform decoding operations. When all decoding operations have been executed, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderendframe">ID3D11VideoContext::DecoderEndFrame</a>.
+After this method is called, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-submitdecoderbuffers">ID3D11VideoContext::SubmitDecoderBuffers</a> to perform decoding operations. When all decoding operations have been executed, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderendframe">ID3D11VideoContext::DecoderEndFrame</a>.
 
 
 
-Each call to <b>DecoderBeginFrame</b> must have a matching call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderendframe">DecoderEndFrame</a>. In most cases you cannot nest <b>DecoderBeginFrame</b> calls, but some codecs, such as  like VC-1, can have nested <b>DecoderBeginFrame</b> calls for special operations like post processing.
+Each call to <b>DecoderBeginFrame</b> must have a matching call to <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderendframe">DecoderEndFrame</a>. In most cases you cannot nest <b>DecoderBeginFrame</b> calls, but some codecs, such as  like VC-1, can have nested <b>DecoderBeginFrame</b> calls for special operations like post processing.
 
 The following encryption scenarios are supported through the content key:
 
@@ -92,5 +92,4 @@ The following encryption scenarios are supported through the content key:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>

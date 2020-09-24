@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>TOKEN_ELEVATION_TYPE</b> enumeration indicates the elevation type of token being queried by the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>  function.
+The <b>TOKEN_ELEVATION_TYPE</b> enumeration indicates the elevation type of token being queried by the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>  function.
 
 ## -enum-fields
 
@@ -69,4 +69,3 @@ The token is an elevated token.
 ### -field TokenElevationTypeLimited
 
 The token is a limited token.
-

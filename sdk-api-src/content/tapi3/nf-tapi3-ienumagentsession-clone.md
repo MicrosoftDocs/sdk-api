@@ -58,7 +58,7 @@ The
 ### -param ppEnum [out]
 
 Pointer to new 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a> interface.
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a> interface.
 
 ## -returns
 
@@ -118,10 +118,9 @@ Failed for unknown reasons.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a> interface returned by <b>IEnumAgentSession::Clone</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a> interface returned by <b>IEnumAgentSession::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumAgentSession</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>

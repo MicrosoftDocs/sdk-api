@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Only files that return the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getcapabilities">capability flag</a> OF_CAP_CANSWITCHTO can be switched to.
-
+Only files that return the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getcapabilities">capability flag</a> OF_CAP_CANSWITCHTO can be switched to.

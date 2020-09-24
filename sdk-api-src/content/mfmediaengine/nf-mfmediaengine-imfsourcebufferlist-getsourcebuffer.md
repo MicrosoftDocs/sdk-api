@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> at the specified index in the list.
+Gets the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> at the specified index in the list.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ The source buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebufferlist">IMFSourceBufferList</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebufferlist">IMFSourceBufferList</a>

@@ -62,7 +62,7 @@ A zero based index value indicating the output pin through which to transform th
 
 ### -param p [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milpoint2d">MIL_2DPOINTD</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milpoint2d">MIL_2DPOINTD</a>*</b>
 
 A pointer to the point to transform.
 
@@ -74,7 +74,7 @@ A value indicating whether the point is being transformed from front to back in 
 
 ### -param pContext [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectrendercontext">IMILBitmapEffectRenderContext</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectrendercontext">IMILBitmapEffectRenderContext</a>*</b>
 
 The render context to use for the transformation.
 
@@ -89,4 +89,3 @@ When this method returns, contains a value indicating whether the point transfor
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

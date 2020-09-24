@@ -98,17 +98,16 @@ If the destination rectangle is smaller than the client area of the video window
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-setdestinationposition">IBasicVideo::SetDestinationPosition</a>
+<a href="/windows/desktop/api/control/nf-control-ibasicvideo-setdestinationposition">IBasicVideo::SetDestinationPosition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_bordercolor">IVideoWindow::get_BorderColor</a>
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_bordercolor">IVideoWindow::get_BorderColor</a>

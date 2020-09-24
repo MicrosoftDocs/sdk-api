@@ -73,9 +73,8 @@ The caller of this function must be running as an elevated process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>
+<a href="/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-functions">MDM Registration Functions</a>
-
+<a href="/windows/desktop/MDMReg/mdm-registration-functions">MDM Registration Functions</a>

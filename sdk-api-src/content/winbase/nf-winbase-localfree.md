@@ -58,22 +58,22 @@ api_name:
 ## -description
 
 Frees the specified local memory object and invalidates its handle.
-<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param hMem [in]
 
 A handle to the local memory object. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function. It is not safe to free memory allocated with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function. It is not safe to free memory allocated with <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>NULL</b>.
 
 If the function fails, the return value is equal to a handle to the local memory object. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -84,9 +84,9 @@ If the <i>hMem</i> parameter is <b>NULL</b>,
 
 The 
 <b>LocalFree</b> function will free a locked memory object. A locked memory object has a lock count greater than zero. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> function locks a local memory object and increments the lock count by one. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localunlock">LocalUnlock</a> function unlocks it and decrements the lock count by one. To get the lock count of a local memory object, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localflags">LocalFlags</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> function locks a local memory object and increments the lock count by one. The 
+<a href="/windows/desktop/api/winbase/nf-winbase-localunlock">LocalUnlock</a> function unlocks it and decrements the lock count by one. To get the lock count of a local memory object, use the 
+<a href="/windows/desktop/api/winbase/nf-winbase-localflags">LocalFlags</a> function.
 
 If an application is running under a debug version of the system, 
 <b>LocalFree</b> will issue a message that tells you that a locked object is being freed. If you are debugging the application, 
@@ -96,40 +96,39 @@ If an application is running under a debug version of the system,
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
+<a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localflags">LocalFlags</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localflags">LocalFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localunlock">LocalUnlock</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localunlock">LocalUnlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
-

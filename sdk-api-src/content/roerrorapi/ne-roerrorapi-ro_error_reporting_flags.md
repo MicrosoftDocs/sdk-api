@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Specifies the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a> and <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a> functions.
+Specifies the behavior of the <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a> and <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a> functions.
 
 
 ## -enum-fields
@@ -74,19 +74,19 @@ Error functions raise structured exceptions, even if no debugger is present.  Th
 
 ### -field RO_ERROR_REPORTING_USESETERRORINFO
 
-Error functions report error strings through a COM object that is attached to the COM channel through the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a> infrastructure. For the <b>SetRestrictedErrorInfo</b> call to succeed, the thread must be initialized into COM.
+Error functions report error strings through a COM object that is attached to the COM channel through the <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a> infrastructure. For the <b>SetRestrictedErrorInfo</b> call to succeed, the thread must be initialized into COM.
 
 
 ### -field RO_ERROR_REPORTING_SUPPRESSSETERRORINFO
 
-Error functions do not report error strings through a COM object that is attached to the COM channel through the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a> infrastructure.
+Error functions do not report error strings through a COM object that is attached to the COM channel through the <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a> infrastructure.
 
 
 ## -remarks
 
 
 
-Use the <b>RO_ERROR_REPORTING_FLAGS</b> enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function to specify the behavior of the  <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>, <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw">RoOriginateErrorW</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerrorw">RoTransformErrorW</a> functions.
+Use the <b>RO_ERROR_REPORTING_FLAGS</b> enumeration with the <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function to specify the behavior of the  <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>, <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw">RoOriginateErrorW</a>,  <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>, and <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerrorw">RoTransformErrorW</a> functions.
 
 
 
@@ -96,32 +96,31 @@ Use the <b>RO_ERROR_REPORTING_FLAGS</b> enumeration with the <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags">RoGetErrorReportingFlags</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags">RoGetErrorReportingFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw">RoOriginateErrorW</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw">RoOriginateErrorW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerrorw">RoTransformErrorW</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerrorw">RoTransformErrorW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a>
  
 
  
-

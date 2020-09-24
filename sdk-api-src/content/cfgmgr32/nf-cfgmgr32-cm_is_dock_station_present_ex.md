@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a> instead.]
 
-The <b>CM_Is_Dock_Station_Present_Ex</b> function identifies whether a <a href="https://docs.microsoft.com/windows-hardware/drivers/">docking station</a> is present in a local or a remote machine.
+The <b>CM_Is_Dock_Station_Present_Ex</b> function identifies whether a <a href="/windows-hardware/drivers/">docking station</a> is present in a local or a remote machine.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Pointer to a Boolean value that indicates whether a docking station is present i
 
 ### -param hMachine [in, optional]
 
-Supplies a machine handle that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
+Supplies a machine handle that is returned by <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -78,17 +78,17 @@ Use this function to determine whether a docking station is present in a local o
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a> identifies whether a docking station is present in a local machine.
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a> identifies whether a docking station is present in a local machine.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
 
 </li>
 </ul>
@@ -96,13 +96,12 @@ Use this function to determine whether a docking station is present in a local o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present">CM_Is_Dock_Station_Present</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc">CM_Request_Eject_PC</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc">CM_Request_Eject_PC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex">CM_Request_Eject_PC_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex">CM_Request_Eject_PC_Ex</a>

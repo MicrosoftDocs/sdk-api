@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the name of the record type. This is useful if you want to print out the type of the record, because each UDT has it's own <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
+Gets the name of the record type. This is useful if you want to print out the type of the record, because each UDT has it's own <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
 
 ## -parameters
 
@@ -118,9 +118,8 @@ The state of the type library is not valid for this operation.
 
 ## -remarks
 
-The caller must free the BSTR by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller must free the BSTR by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

@@ -49,44 +49,26 @@ api_name:
  - POLICY_ELEMENT
 ---
 
-# POLICY_ELEMENT structure
-
-
 ## -description
 
-The 
-<b>POLICY_ELEMENT</b> structure contains an RSVP policy element.
+The <b>POLICY_ELEMENT</b> structure contains an RSVP policy element.
 
 ## -struct-fields
 
 ### -field targetEndpointAddress
+TBD
 
 ### -field issuerEndpointAddress
+TBD
 
 ### -field issuedTokenParameters
+TBD
 
 ### -field privacyNoticeLink
+TBD
 
 ### -field privacyNoticeVersion
+TBD
 
 ### -field useManagedPresentation
-
- 
-
-
-
-
-#### - ucPeData
-
-Policy Element data.
-
-
-#### - usPeLength
-
-Length of the Policy Element, in bytes.
-
-
-#### - usPeType
-
-Policy Element type.
-
+TBD

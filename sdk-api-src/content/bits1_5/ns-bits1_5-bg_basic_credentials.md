@@ -65,7 +65,7 @@ If <strong>NULL</strong>, default credentials for this session context are used.
 
 A null-terminated string that contains the password in plaintext. The password is limited to 65536 characters, not including the null terminator. The password can be blank. Set it to <strong>NULL</strong> if <strong>UserName</strong> is <strong>NULL</strong>. BITS encrypts the password before persisting the job if a network disconnect occurs or the user logs off.
 
-Live ID encoded passwords are supported through Negotiate 2. For more information about Live IDs, see the <a href="https://msdn.microsoft.com/library/bb404787.aspx">Windows Live ID SDK</a>.
+Live ID encoded passwords are supported through Negotiate 2. For more information about Live IDs, see the <a href="/office/">Windows Live ID SDK</a>.
 
 ## -remarks
 
@@ -92,5 +92,4 @@ You can specify the user name like this.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials_union">BG_AUTH_CREDENTIALS_UNION</a>
-
+<a href="/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials_union">BG_AUTH_CREDENTIALS_UNION</a>

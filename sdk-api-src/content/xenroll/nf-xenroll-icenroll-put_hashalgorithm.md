@@ -64,9 +64,9 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>HashAlgorithm</b> property sets or retrieves only   the signature <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a> used to sign the PKCS #10 certification request.
+The <b>HashAlgorithm</b> property sets or retrieves only   the signature <a href="/windows/desktop/SecGloss/h-gly">hashing algorithm</a> used to sign the PKCS #10 certification request.
 
-This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
@@ -74,25 +74,25 @@ This property is read/write.
 
 ## -remarks
 
-This  signature <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a> is not to be confused with the <i>hashing algorithm</i> used to sign the certificate. The enrollment control currently supports any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">OID</a> for <i>hashing algorithms</i>, plus the following display name values: SHA1 (the default), MD2, and MD5. When retrieving this property, the retrieved value is in OID format (that is, SHA1 appears as 1.3.14.3.2.29). When setting this property, the corresponding OID format can be used as an alternative to the text shown for the defined friendly values.
+This  signature <a href="/windows/desktop/SecGloss/h-gly">hashing algorithm</a> is not to be confused with the <i>hashing algorithm</i> used to sign the certificate. The enrollment control currently supports any <a href="/windows/desktop/SecGloss/o-gly">OID</a> for <i>hashing algorithms</i>, plus the following display name values: SHA1 (the default), MD2, and MD5. When retrieving this property, the retrieved value is in OID format (that is, SHA1 appears as 1.3.14.3.2.29). When setting this property, the corresponding OID format can be used as an alternative to the text shown for the defined friendly values.
 
-The Certificate Enrollment Control considers the value of the <b>HashAlgorithm</b> property  as a hint to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a> to use for signing the PKCS #10 certification request. If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) supports the algorithm specified in the <b>HashAlgorithm</b> property, the algorithm will be used. Otherwise, the Certificate Enrollment Control will try to use SHA1. If SHA1 is not supported by the CSP, then MD5 will be tried. If neither SHA1 nor MD5 is supported, the Certificate Enrollment Control will try to use the first <i>hashing algorithm</i> returned from the CSP.
+The Certificate Enrollment Control considers the value of the <b>HashAlgorithm</b> property  as a hint to the <a href="/windows/desktop/SecGloss/h-gly">hashing algorithm</a> to use for signing the PKCS #10 certification request. If the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) supports the algorithm specified in the <b>HashAlgorithm</b> property, the algorithm will be used. Otherwise, the Certificate Enrollment Control will try to use SHA1. If SHA1 is not supported by the CSP, then MD5 will be tried. If neither SHA1 nor MD5 is supported, the Certificate Enrollment Control will try to use the first <i>hashing algorithm</i> returned from the CSP.
 
 
 The <b>HashAlgorithm</b>  property affects the behavior of the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
 </li>
 </ul>
 
 
 If both the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll3-get_hashalgid">HashAlgID</a> and <b>HashAlgorithm</b> properties are set, whichever is last updated will specify which <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a> will be used to sign the PKCS #10 certification request.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll3-get_hashalgid">HashAlgID</a> and <b>HashAlgorithm</b> properties are set, whichever is last updated will specify which <a href="/windows/desktop/SecGloss/h-gly">hashing algorithm</a> will be used to sign the PKCS #10 certification request.
 
 
 #### Examples
@@ -125,4 +125,3 @@ else
 if ( NULL != bstrMyHashAlg )
     SysFreeString( bstrMyHashAlg);
 ```
-

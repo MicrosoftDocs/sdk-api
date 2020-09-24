@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Represents a multimedia sample with spatial sound information. Every <b>IMFSpatialAudioSample</b> contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects.
+Represents a multimedia sample with spatial sound information. Every <b>IMFSpatialAudioSample</b> contains one or more <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSpatialAudioSample</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>. <b>IMFSpatialAudioSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSpatialAudioSample</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>. <b>IMFSpatialAudioSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,28 +70,28 @@ The <b>IMFSpatialAudioSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudiosample-addspatialaudioobject">AddSpatialAudioObject</a>
+<a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudiosample-addspatialaudioobject">AddSpatialAudioObject</a>
 </td>
 <td align="left" width="63%">
-Adds a new spatial audio object, represented by an <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> object, to the     sample.
+Adds a new spatial audio object, represented by an <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> object, to the     sample.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudiosample-getobjectcount">GetObjectCount</a>
+<a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudiosample-getobjectcount">GetObjectCount</a>
 </td>
 <td align="left" width="63%">
-Gets the count of spatial audio objects, represented by <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects, in the sample.
+Gets the count of spatial audio objects, represented by <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects, in the sample.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudiosample-getspatialaudioobjectbyindex">GetSpatialAudioObjectByIndex</a>
+<a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudiosample-getspatialaudioobjectbyindex">GetSpatialAudioObjectByIndex</a>
 </td>
 <td align="left" width="63%">
-Returns the spatial audio object, represented by an <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> object, corresponding to the specified index.
+Returns the spatial audio object, represented by an <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> object, corresponding to the specified index.
 
 </td>
 </tr>
@@ -99,5 +99,4 @@ Returns the spatial audio object, represented by an <a href="https://docs.micros
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>

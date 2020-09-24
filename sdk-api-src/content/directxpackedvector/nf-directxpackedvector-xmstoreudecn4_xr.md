@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stores an extended range <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4">XMUDECN4</a> into an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. This type stores a 10:10:10:2 normalized GPU format using the Extended Range (XR) with the color bias set to match DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM.
+Stores an extended range <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4">XMUDECN4</a> into an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. This type stores a 10:10:10:2 normalized GPU format using the Extended Range (XR) with the color bias set to match DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM.
 
 ## -parameters
 
@@ -89,16 +89,15 @@ pDestination->v = ((uint32_t)N.v[3] << 30) |
 ```
 
 
-For more details on the Extended Range (XR) with Bias conversion, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/xr-bias-color-channel-conversion-rules">XR_BIAS Color Channel Conversion Rules</a>. 
+For more details on the Extended Range (XR) with Bias conversion, see <a href="/windows-hardware/drivers/display/xr-bias-color-channel-conversion-rules">XR_BIAS Color Channel Conversion Rules</a>. 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadudecn4_xr">XMLoadUDecN4_XR</a>
-
+<a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadudecn4_xr">XMLoadUDecN4_XR</a>

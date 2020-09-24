@@ -99,5 +99,4 @@ The collection is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>

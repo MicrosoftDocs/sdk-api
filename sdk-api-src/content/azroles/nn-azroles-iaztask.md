@@ -54,7 +54,7 @@ The <b>IAzTask</b> interface describes a set of operations.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzTask</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzTask</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzTask</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzTask</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,16 +70,16 @@ The <b>IAzTask</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-addoperation">AddOperation</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-addoperation">AddOperation</a>
 </td>
 <td align="left" width="63%">
-Adds the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name to the task.
+Adds the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name to the task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-addpropertyitem">AddPropertyItem</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-addpropertyitem">AddPropertyItem</a>
 </td>
 <td align="left" width="63%">
 Adds the specified entity to the specified list.
@@ -88,7 +88,7 @@ Adds the specified entity to the specified list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-addtask">AddTask</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-addtask">AddTask</a>
 </td>
 <td align="left" width="63%">
 Adds the <b>IAzTask</b> object with the specified name to the task.
@@ -97,16 +97,16 @@ Adds the <b>IAzTask</b> object with the specified name to the task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-deleteoperation">DeleteOperation</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-deleteoperation">DeleteOperation</a>
 </td>
 <td align="left" width="63%">
-Removes the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name from the task.
+Removes the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name from the task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-deletepropertyitem">DeletePropertyItem</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-deletepropertyitem">DeletePropertyItem</a>
 </td>
 <td align="left" width="63%">
 Removes the specified entity from the specified list.
@@ -115,7 +115,7 @@ Removes the specified entity from the specified list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-deletetask">DeleteTask</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-deletetask">DeleteTask</a>
 </td>
 <td align="left" width="63%">
 Removes the <b>IAzTask</b> object with the specified name from the task.
@@ -124,7 +124,7 @@ Removes the <b>IAzTask</b> object with the specified name from the task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>IAzTask</b> object property with the specified property ID.
@@ -133,7 +133,7 @@ Returns the <b>IAzTask</b> object property with the specified property ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the specified value to the <b>IAzTask</b> object property with the specified property ID.
@@ -142,7 +142,7 @@ Sets the specified value to the <b>IAzTask</b> object property with the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a>
 </td>
 <td align="left" width="63%">
 Persists changes made to the <b>IAzTask</b> object.
@@ -160,7 +160,7 @@ Persists changes made to the <b>IAzTask</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_applicationdata">ApplicationData</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_applicationdata">ApplicationData</a>
 
 
 </td>
@@ -176,7 +176,7 @@ Sets or retrieves an opaque field that can be used by the application to store i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrule">BizRule</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrule">BizRule</a>
 
 
 </td>
@@ -192,7 +192,7 @@ Sets or retrieves the text of the script that implements the business rule (BizR
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizruleimportedpath">BizRuleImportedPath</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizruleimportedpath">BizRuleImportedPath</a>
 
 
 </td>
@@ -208,7 +208,7 @@ Sets or retrieves the path to the file from which the BizRule is imported.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrulelanguage">BizRuleLanguage</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrulelanguage">BizRuleLanguage</a>
 
 
 </td>
@@ -224,7 +224,7 @@ Sets or retrieves the scripting language in which the BizRule is implemented.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_description">Description</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_description">Description</a>
 
 
 </td>
@@ -240,7 +240,7 @@ Sets or retrieves a comment that describes the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_isroledefinition">IsRoleDefinition</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_isroledefinition">IsRoleDefinition</a>
 
 
 </td>
@@ -256,7 +256,7 @@ Sets or retrieves a value that indicates whether the task is a role definition.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_name">Name</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_name">Name</a>
 
 
 </td>
@@ -272,7 +272,7 @@ Sets or retrieves the name of the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_operations">Operations</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_operations">Operations</a>
 
 
 </td>
@@ -288,7 +288,7 @@ Retrieves the operations associated with the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_tasks">Tasks</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_tasks">Tasks</a>
 
 
 </td>
@@ -304,7 +304,7 @@ Retrieves the tasks associated with the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_writable">Writable</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_writable">Writable</a>
 
 
 </td>
@@ -318,4 +318,3 @@ Retrieves a value that indicates whether the task can be modified by the user co
 </td>
 </tr>
 </table>
-

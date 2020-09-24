@@ -69,19 +69,18 @@ Returns E_NOTIMPL.
 
 ## -remarks
 
-If VITC mode is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">IAMTimecodeReader::SetTCRMode</a> method, you must specify which line or lines will contain timecode information. To read VITC on specific multiple lines, the caller would make successive calls to <code>IAMTimecodeReader::put_VITCLine</code>, once for each line desired.
+If VITC mode is specified in the <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">IAMTimecodeReader::SetTCRMode</a> method, you must specify which line or lines will contain timecode information. To read VITC on specific multiple lines, the caller would make successive calls to <code>IAMTimecodeReader::put_VITCLine</code>, once for each line desired.
 
 Set the high bit to add to the list of lines for readers that test across multiple lines.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-get_vitcline">IAMTimecodeReader::get_VITCLine</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-get_vitcline">IAMTimecodeReader::get_VITCLine</a>

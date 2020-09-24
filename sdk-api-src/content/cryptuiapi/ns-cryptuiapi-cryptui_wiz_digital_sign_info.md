@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_INFO</b> structure contains information about digital signing. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_INFO</b> structure contains information about digital signing. This structure is used by the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The size, in bytes, of the structure.
 
 ### -field dwSubjectChoice
 
-A value that indicates the entity that is to be signed. This member is required if <b>CRYPTUI_WIZ_NO_UI</b> is specified in the <i>dwFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function. This can be one of the following values.
+A value that indicates the entity that is to be signed. This member is required if <b>CRYPTUI_WIZ_NO_UI</b> is specified in the <i>dwFlags</i> parameter of the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function. This can be one of the following values.
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ A value that indicates the entity that is to be signed. This member is required 
 </dl>
 </td>
 <td width="60%">
-The memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> specified by the <b>pSignBlobInfo</b> member is to be signed.
+The memory <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> specified by the <b>pSignBlobInfo</b> member is to be signed.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_
 
 A value that specifies the location of the certificate that is used to sign the entity. The default value is zero. This can be one of the following values.
 
-<div class="alert"><b>Note</b>  If <b>CRYPTUI_WIZ_NO_UI</b> is specified in the <i>dwFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function, this value must be either <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> or <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b>.</div>
+<div class="alert"><b>Note</b>  If <b>CRYPTUI_WIZ_NO_UI</b> is specified in the <i>dwFlags</i> parameter of the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function, this value must be either <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> or <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b>.</div>
 <div> </div>
 <table>
 <tr>
@@ -130,7 +130,7 @@ A value that specifies the location of the certificate that is used to sign the 
 </dl>
 </td>
 <td width="60%">
-The certificate is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointed to by the <b>pSigningCertContext</b> member.
+The certificate is contained in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointed to by the <b>pSigningCertContext</b> member.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ The certificates in the My store are used.
 
 ### -field pSigningCertContext
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> is specified for the <b>dwSigningCertChoice</b> member.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the <a href="/windows/desktop/SecGloss/c-gly">certificate</a> to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> is specified for the <b>dwSigningCertChoice</b> member.
 
 ### -field pSigningCertStore
 
@@ -229,5 +229,4 @@ A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
-
+<a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>

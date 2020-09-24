@@ -66,15 +66,15 @@ A pointer to a variable that receives the current performance-counter value, in 
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. On systems that run Windows XP or later, the function will always succeed and will thus never return zero.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. On systems that run Windows XP or later, the function will always succeed and will thus never return zero.
 
 ## -remarks
 
-For more info about this function and its usage, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>.
+For more info about this function and its usage, see <a href="/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>
+<a href="/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>
 
 
 
@@ -82,15 +82,15 @@ For more info about this function and its usage, see <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime">GetSystemTimePreciseAsFileTime</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime">GetSystemTimePreciseAsFileTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
+<a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a>
+<a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a>
 
 
 
@@ -98,9 +98,8 @@ For more info about this function and its usage, see <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time">Time</a>
+<a href="/windows/desktop/SysInfo/time">Time</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/winmsg/timers">Timers</a>
-
+<a href="/windows/win32/winmsg/timers">Timers</a>

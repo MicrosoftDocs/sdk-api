@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getselectionmark">LVM_GETSELECTIONMARK</a> message.
+Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="/windows/desktop/Controls/lvm-getselectionmark">LVM_GETSELECTIONMARK</a> message.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
 
@@ -66,5 +66,4 @@ The selection mark is the item index from which a multiple selection starts.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setselectionmark">ListView_SetSelectionMark</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setselectionmark">ListView_SetSelectionMark</a>

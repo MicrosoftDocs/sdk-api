@@ -56,7 +56,7 @@ The <b>PeerGroupCreate</b> function creates a new peer group.
 
 ### -param pProperties [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a> structure that specifies the specific details of the group, such as the peer group names, invitation lifetimes, and presence lifetimes. This parameter is required.
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a> structure that specifies the specific details of the group, such as the peer group names, invitation lifetimes, and presence lifetimes. This parameter is required.
 
 The following members must be set:<ul>
 <li><b>pwzCreatorPeerName</b></li>
@@ -194,29 +194,28 @@ The peer identity specified as the Group Creator has been deleted or is in the p
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a> must be called by the group creator immediately after creation. If this does not take place, users given an invitation will call PeerGroupConnect successfully but they will not be able to listen and will eventually receive the connection failed event. 
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a> must be called by the group creator immediately after creation. If this does not take place, users given an invitation will call PeerGroupConnect successfully but they will not be able to listen and will eventually receive the connection failed event. 
 
-An application  obtains an identity by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitycreate">PeerIdentityCreate</a>, or any other method that returns an identity name string. This identity  serves as the owner of the group, and is the initial member of the peer group when created.
+An application  obtains an identity by calling <a href="/windows/desktop/api/p2p/nf-p2p-peeridentitycreate">PeerIdentityCreate</a>, or any other method that returns an identity name string. This identity  serves as the owner of the group, and is the initial member of the peer group when created.
 
-For applications that utilize passwords, it is recommended the passwords are handled securely  by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptoProtectMemory</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> functions.
+For applications that utilize passwords, it is recommended the passwords are handled securely  by calling the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptoProtectMemory</a> and <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties"> PEER_GROUP_PROPERTIES</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_group_properties"> PEER_GROUP_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupclose">PeerGroupClose</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupclose">PeerGroupClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>

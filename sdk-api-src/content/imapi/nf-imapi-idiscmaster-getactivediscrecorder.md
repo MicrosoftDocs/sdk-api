@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 Retrieves an interface pointer to the active disc recorder. The active disc recorder is the recorder where a burn will occur when 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">RecordDisc</a> is called.
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">RecordDisc</a> is called.
 
 ## -parameters
 
 ### -param ppRecorder [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a> interface of the currently selected disc recorder.
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a> interface of the currently selected disc recorder.
 
 ## -returns
 
@@ -69,10 +69,9 @@ S_OK is returned on success, but other success codes may be returned as a result
 There is no default active disc recorder. An application using this method must specifically select both an active mastering format and an active disc recorder before initiating a burn.
 
 <div class="alert"><b>Note</b>  The active disc recorder can be invalidated by removing the device or changing the active disc mastering format. For example, a USB CD-R device may be disconnected from the machine while the application is still running (the application is alerted to this condition by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifypnpactivity">IDiscMasterProgressEvents::NotifyPnPActivity</a>). In either case, you must select a new active disc recorder.</div>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifypnpactivity">IDiscMasterProgressEvents::NotifyPnPActivity</a>). In either case, you must select a new active disc recorder.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>

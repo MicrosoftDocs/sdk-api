@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/sharpen-effect">Sharpen effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/sharpen-effect">Sharpen effect</a>.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ The D2D1_SHARPEN_PROP_SHARPNESS property is a float value indicating how much to
 The D2D1_SHARPEN_PROP_THRESHOLD property is a float value.  The allowed range is 0.0 to 1.0. The default value is 0.0.
 
 ### -field D2D1_SHARPEN_PROP_FORCE_DWORD
-

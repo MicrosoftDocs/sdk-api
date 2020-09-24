@@ -58,7 +58,7 @@ Turns on the face-recognition or iris-monitoring mechanism for the specified bio
 
 ### -param SessionHandle [in]
 
-An asynchronous handle for the biometric session that you obtained by  calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> function with the <i>PoolType</i> parameter set to <b>WINBIO_POOL_SYSTEM</b>.
+An asynchronous handle for the biometric session that you obtained by  calling the <a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> function with the <i>PoolType</i> parameter set to <b>WINBIO_POOL_SYSTEM</b>.
 
 ### -param UnitId [in]
 
@@ -67,7 +67,7 @@ The identifier of the biometric unit for which you want to turn on the  face-rec
 ## -returns
 
 If the function parameters are acceptable, it returns <b>S_OK</b>. If the function parameters are not acceptable, it returns an <b>HRESULT</b> value that indicates the error.  
-Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -110,29 +110,28 @@ The session handle does not correspond to an asynchronous biometric session.
 </table>
  
 
-The actual success or failure of the operation itself is returned to the your notification function in a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure.
+The actual success or failure of the operation itself is returned to the your notification function in a <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure.
 
 ## -remarks
 
 A single biometric session can have only one active presence monitor at any point in time.
 
-After you successfully call <b>WinBioMonitorPresence</b>, your notification  function receives notifications in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure with an <b>Operation</b> member equal to <b>WINBIO_OPERATION_MONITOR_PRESENCE</b>. You should then examine the <b>Parameters.MonitorPresence</b> member of the <b>WINBIO_ASYNC_RESULT</b> structure for more information.
+After you successfully call <b>WinBioMonitorPresence</b>, your notification  function receives notifications in the form of a <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure with an <b>Operation</b> member equal to <b>WINBIO_OPERATION_MONITOR_PRESENCE</b>. You should then examine the <b>Parameters.MonitorPresence</b> member of the <b>WINBIO_ASYNC_RESULT</b> structure for more information.
 
-To stop receiving notifications, call either <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocancel">WinBioCancel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioclosesession">WinBioCloseSession</a> with the original asynchronous handle value.
+To stop receiving notifications, call either <a href="/windows/desktop/api/winbio/nf-winbio-winbiocancel">WinBioCancel</a> or <a href="/windows/desktop/api/winbio/nf-winbio-winbioclosesession">WinBioCloseSession</a> with the original asynchronous handle value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a>
+<a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocancel">WinBioCancel</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbiocancel">WinBioCancel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioclosesession">WinBioCloseSession</a>
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioclosesession">WinBioCloseSession</a>

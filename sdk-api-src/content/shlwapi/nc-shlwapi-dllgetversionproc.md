@@ -58,12 +58,12 @@ Implemented by many of the Windows Shell DLLs to allow applications to obtain DL
 
 #### - pdvi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a>*</b>
+Type: <b><a href="/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a> structure that receives the version information. The <b>cbSize</b> member must be filled in before you call this function.
+A pointer to a <a href="/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a> structure that receives the version information. The <b>cbSize</b> member must be filled in before you call this function.
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. DLLs that are shipped with Windows 2000 or later systems may return a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a> structure. To maintain backward compatibility, the first member of a <b>DLLVERSIONINFO2</b> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a> structure.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. DLLs that are shipped with Windows 2000 or later systems may return a <a href="/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a> structure. To maintain backward compatibility, the first member of a <b>DLLVERSIONINFO2</b> structure is a <a href="/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a> structure.
 
 ## -returns
 
@@ -75,5 +75,4 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 This function is exported by name from each DLL that implements it. Currently, most of the Windows Shell and controls DLLs implement <b>DllGetVersion</b>. These include, but are not limited to, Shell32.dll, Comctl32.dll, Shdocvw.dll, and Shlwapi.dll.
 
-To call this function, use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to obtain the function pointer. The DLLGETVERSIONPROC type is used as the data type to define a pointer to a <b>DllGetVersion</b> function. Use the pointer when calling the function dynamically by loading the library and getting the function's address. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell and Shlwapi DLL Versions</a> for a detailed discussion of the different file versions, and how to use <b>DllGetVersion</b>.
-
+To call this function, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to obtain the function pointer. The DLLGETVERSIONPROC type is used as the data type to define a pointer to a <b>DllGetVersion</b> function. Use the pointer when calling the function dynamically by loading the library and getting the function's address. See <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell and Shlwapi DLL Versions</a> for a detailed discussion of the different file versions, and how to use <b>DllGetVersion</b>.

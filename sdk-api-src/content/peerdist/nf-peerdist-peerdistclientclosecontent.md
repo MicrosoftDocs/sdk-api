@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>PeerDistClientCloseContent</b> function closes the content handle opened by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
+The <b>PeerDistClientCloseContent</b> function closes the content handle opened by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
 
 ## -parameters
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param hContentHandle [in]
 
-A <b>PEERDIST_CONTENT_HANDLE</b> opened  by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
+A <b>PEERDIST_CONTENT_HANDLE</b> opened  by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
 
 ## -returns
 
@@ -99,9 +99,8 @@ The <i>hPeerDist</i> or <i>hContent</i> handle is invalid.
 
 This function will cancel all pending asynchronous operations associated with the provided <i>hContentHandle</i>.
 
- All handles opened by the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> function must be closed by <b>PeerDistClientCloseContent</b>.
+ All handles opened by the <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> function must be closed by <b>PeerDistClientCloseContent</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>

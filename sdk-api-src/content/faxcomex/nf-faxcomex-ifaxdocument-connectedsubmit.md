@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxDocument::ConnectedSubmit</b> method submits a single fax document to the connected <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>. The method returns an array of fax job ID strings, one for each recipient of the fax.
+The <b>IFaxDocument::ConnectedSubmit</b> method submits a single fax document to the connected <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>. The method returns an array of fax job ID strings, one for each recipient of the fax.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The <b>IFaxDocument::ConnectedSubmit</b> method submits a single fax document to
 
 Type: <b>IFaxServer*</b>
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a> interface that specifies a connected fax server.
+An <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a> interface that specifies a connected fax server.
 
 ### -param pvFaxOutgoingJobIDs [out, retval]
 
@@ -74,17 +74,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  To succeed, the <b>IFaxDocument::ConnectedSubmit</b> method requires that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a> object have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
+<div class="alert"><b>Note</b>  To succeed, the <b>IFaxDocument::ConnectedSubmit</b> method requires that the <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a> object have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
 <div> </div>
-This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-error-codes">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
+This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="/previous-versions/windows/desktop/fax/-mfax-fax-error-codes">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
 
-To use this method, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT_LOW</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT_NORMAL</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT_HIGH</a> access right, depending on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-priority-vb">IFaxDocument::get_Priority</a> of the fax document.
+To use this method, a user must have the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT_LOW</a>, <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT_NORMAL</a>, or <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT_HIGH</a> access right, depending on the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-priority-vb">IFaxDocument::get_Priority</a> of the fax document.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>

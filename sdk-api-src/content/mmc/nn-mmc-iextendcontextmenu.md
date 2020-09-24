@@ -57,7 +57,7 @@ When a user right-clicks items that belong to a snap-in and are also in the scop
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendContextMenu</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendContextMenu</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendContextMenu</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendContextMenu</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IExtendContextMenu</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-addmenuitems">AddMenuItems</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-addmenuitems">AddMenuItems</a>
 </td>
 <td align="left" width="63%">
 Enables the extension to add menu items.
@@ -81,7 +81,7 @@ Enables the extension to add menu items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">Command</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">Command</a>
 </td>
 <td align="left" width="63%">
 Indicates that an extension item on a context menu was selected.
@@ -92,13 +92,12 @@ Indicates that an extension item on a context menu was selected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
-
+<a href="/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FLOATOBJ_GreaterThan</b> function determines whether the first <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a> is greater than the second FLOATOBJ.
+The <b>FLOATOBJ_GreaterThan</b> function determines whether the first <a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a> is greater than the second FLOATOBJ.
 
 ## -parameters
 
@@ -72,5 +72,4 @@ The FLOATOBJ<b>_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>

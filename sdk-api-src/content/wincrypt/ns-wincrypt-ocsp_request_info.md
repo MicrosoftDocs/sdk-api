@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>OCSP_REQUEST_INFO</b> structure contains information for an  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request as specified by <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560</a>. The RFC specifies that a single request can contain a sequence of certificates for which statuses are required. The  <b>rgRequestEntry</b> member of this structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_entry">OCSP_REQUEST_ENTRY</a> structure for each certificate in a sequence.
+The <b>OCSP_REQUEST_INFO</b> structure contains information for an  <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request as specified by <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560</a>. The RFC specifies that a single request can contain a sequence of certificates for which statuses are required. The  <b>rgRequestEntry</b> member of this structure contains an <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_entry">OCSP_REQUEST_ENTRY</a> structure for each certificate in a sequence.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ A value that indicates the protocol version of the OCSP request.
 
 ### -field pRequestorName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure that contains the name bound to the certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> of the requester.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure that contains the name bound to the certificate <a href="/windows/desktop/SecGloss/p-gly">public key</a> of the requester.
 
 ### -field cRequestEntry
 
@@ -76,7 +76,7 @@ The number of elements in the <b>rgRequestEntry</b> array.
 
 ### -field rgRequestEntry
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_entry">OCSP_REQUEST_ENTRY</a> structures.
+An array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_entry">OCSP_REQUEST_ENTRY</a> structures.
 
 ### -field cExtension
 
@@ -84,21 +84,20 @@ The number of elements in the <b>rgExtension</b> array.
 
 ### -field rgExtension
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains information about the request.
+An array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains information about the request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_entry">OCSP_REQUEST_ENTRY</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_entry">OCSP_REQUEST_ENTRY</a>
 
 
 
 <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560 Online Certificate Status Protocol</a>
-

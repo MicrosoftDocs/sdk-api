@@ -102,9 +102,8 @@ The string value is caller allocated and the caller is responsible for freeing i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_name">IFont::get_Name</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_name">IFont::get_Name</a>

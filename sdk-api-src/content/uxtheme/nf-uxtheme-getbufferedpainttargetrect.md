@@ -58,7 +58,7 @@ Retrieves the target rectangle specified by BeginBufferedPaint.
 
 Type: <b>HPAINTBUFFER</b>
 
-Handle to the buffered paint context obtained through <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
+Handle to the buffered paint context obtained through <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 ### -param prc [out]
 
@@ -68,11 +68,10 @@ When this function returns, contains the requested rectangle.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
 If this function fails, the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure at <i>prc</i> is set to empty.
-

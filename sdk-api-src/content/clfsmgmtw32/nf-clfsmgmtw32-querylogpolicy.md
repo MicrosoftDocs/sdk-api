@@ -60,7 +60,7 @@ The handle to the log to query.
 
 ### -param ePolicyType [in]
 
-Specifies the type of policy to query for. Policy types are enumerated in <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>.
+Specifies the type of policy to query for. Policy types are enumerated in <a href="/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>.
 
 ### -param pPolicyBuffer [out]
 
@@ -75,17 +75,16 @@ A pointer to the size of <i>pPolicyBuffer</i>. If the buffer is not large enough
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
+<a href="/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
+<a href="/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-removelogpolicy">RemoveLogPolicy</a>
-
+<a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-removelogpolicy">RemoveLogPolicy</a>

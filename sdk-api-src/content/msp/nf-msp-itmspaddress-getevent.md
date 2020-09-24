@@ -150,9 +150,8 @@ Users of the MSP base classes: This method locks the event list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
+<a href="/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

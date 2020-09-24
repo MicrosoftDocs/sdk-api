@@ -99,9 +99,8 @@ Pointer to array of UCS-4 characters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtestsex">TTRunValidationTestsEx</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtestsex">TTRunValidationTestsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparams">TTVALIDATIONTESTSPARAMS</a>
-
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparams">TTVALIDATIONTESTSPARAMS</a>

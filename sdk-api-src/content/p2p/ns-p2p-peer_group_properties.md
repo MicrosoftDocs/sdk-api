@@ -64,7 +64,7 @@ Size of the structure, in bytes.
 
 ### -field dwFlags
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_property_flags">PEER_GROUP_PROPERTY_FLAGS</a> flags that describe the behavior of a peer group. The default value is zero (0), which indicates that flags are not set.
+<a href="/windows/desktop/api/p2p/ne-p2p-peer_group_property_flags">PEER_GROUP_PROPERTY_FLAGS</a> flags that describe the behavior of a peer group. The default value is zero (0), which indicates that flags are not set.
 
 ### -field pwzCloud
 
@@ -80,7 +80,7 @@ Specifies the name of a peer group that is registered with the PNRP service. The
 
 ### -field pwzCreatorPeerName
 
-Specifies the  peer name associated with the Peer group creator. The maximum size of this field is 137 Unicode characters. If this structure member is <b>NULL</b>, the implementation uses the identity obtained from <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetdefault">PeerIdentityGetDefault</a>.
+Specifies the  peer name associated with the Peer group creator. The maximum size of this field is 137 Unicode characters. If this structure member is <b>NULL</b>, the implementation uses the identity obtained from <a href="/windows/desktop/api/p2p/nf-p2p-peeridentitygetdefault">PeerIdentityGetDefault</a>.
 
 ### -field pwzFriendlyName
 
@@ -92,7 +92,7 @@ Contains a comment used to describe a peer group. The maximum size of this field
 
 ### -field ulMemberDataLifetime
 
-Specifies the lifetime, in seconds, of peer group member data (<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a>). The minimum value for this field is 8 hours, and the maximum is 10 years. The default value is 2,419,200 seconds, or 28 days.
+Specifies the lifetime, in seconds, of peer group member data (<a href="/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a>). The minimum value for this field is 8 hours, and the maximum is 10 years. The default value is 2,419,200 seconds, or 28 days.
 
 If this value is set to zero (0), member data has the maximum allowable lifetime, which is the time remaining in the lifetime of the administrator who issues the credentials for a member.
 
@@ -102,7 +102,7 @@ Specifies the lifetime, in seconds, of presence information published to a peer 
 
 ### -field dwAuthenticationSchemes
 
-<b>Windows Vista or later.</b> Logical OR of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_authentication_scheme">PEER_GROUP_AUTHENTICATION_SCHEME</a> enumeration values that indicate the types of authentication supported by the peer group.
+<b>Windows Vista or later.</b> Logical OR of <a href="/windows/desktop/api/p2p/ne-p2p-peer_group_authentication_scheme">PEER_GROUP_AUTHENTICATION_SCHEME</a> enumeration values that indicate the types of authentication supported by the peer group.
 
 ### -field pwzGroupPassword
 
@@ -114,13 +114,12 @@ Specifies the lifetime, in seconds, of presence information published to a peer 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupsetproperties">PeerGroupSetProperties</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupsetproperties">PeerGroupSetProperties</a>

@@ -62,26 +62,25 @@ If the function succeeds, the return value is <b>S_OK</b>. Otherwise, the functi
 ## -remarks
 
 After calling this method, you cannot call other methods of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a> interface because all data has been deleted for the GPO.
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a> interface because all data has been deleted for the GPO.
 
 <div class="alert"><b>Note</b>  A policy refresh will not automatically be triggered when the local Group Policy object is deleted using the <b>Delete</b> method.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-save">Save</a>
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-save">Save</a>

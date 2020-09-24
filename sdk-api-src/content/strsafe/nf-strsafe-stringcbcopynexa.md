@@ -54,11 +54,11 @@ api_name:
 
 Copies the specified number of bytes from one string to another. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbCopyNEx</b> adds to the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
+<b>StringCbCopyNEx</b> adds to the functionality of <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCbCopyNEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://msdn.microsoft.com/library/xdsywd25.aspx">strncpy, wcsncpy, _tcsncpy</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strncpy-strncpy-l-wcsncpy-wcsncpy-l-mbsncpy-mbsncpy-l">strncpy, wcsncpy, _tcsncpy</a></li>
 </ul>
 
 ## -parameters
@@ -171,7 +171,7 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -220,7 +220,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 <b>StringCbCopyNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCopyNEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
-While this routine is meant as a replacement for <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/xdsywd25(v=vs.100)">strncpy</a>, there are differences in behavior. If <i>cbSrc</i> is larger than the number of bytes in <i>pszSrc</i>, <b>StringCbCopyNEx</b>—unlike <b>strncpy</b>—does not continue to pad <i>pszDest</i> with null characters until <i>cbSrc</i> bytes have been copied.
+While this routine is meant as a replacement for <a href="/previous-versions/visualstudio/visual-studio-2010/xdsywd25(v=vs.100)">strncpy</a>, there are differences in behavior. If <i>cbSrc</i> is larger than the number of bytes in <i>pszSrc</i>, <b>StringCbCopyNEx</b>—unlike <b>strncpy</b>—does not continue to pad <i>pszDest</i> with null characters until <i>cbSrc</i> bytes have been copied.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
@@ -265,9 +265,8 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>

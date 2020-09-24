@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_interpolation_mode_constd2d1_rect_f_constd2d1_matrix_4x4_f)">DrawBitmap</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> APIs. In addition, color context information can be passed to the bitmap.
+Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_interpolation_mode_constd2d1_rect_f_constd2d1_matrix_4x4_f)">DrawBitmap</a> and <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> APIs. In addition, color context information can be passed to the bitmap.
 
 ## -parameters
 
 ### -param size
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
 
 The pixel size of the bitmap to be created.
 
@@ -74,13 +74,13 @@ The pitch of the source data, if specified.
 
 ### -param bitmapProperties [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_properties1">D2D1_BITMAP_PROPERTIES1</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_properties1">D2D1_BITMAP_PROPERTIES1</a>*</b>
 
 The properties of the bitmap to be created.
 
 ### -param bitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>**</b>
 
 When this method returns, contains the address of a pointer to a new bitmap object.
 
@@ -115,21 +115,20 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -remarks
 
-The new bitmap can be used as a target for <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-settarget">SetTarget</a> if it is created with <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_bitmap_options">D2D1_BITMAP_OPTIONS_TARGET</a>.
+The new bitmap can be used as a target for <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-settarget">SetTarget</a> if it is created with <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_bitmap_options">D2D1_BITMAP_OPTIONS_TARGET</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_properties1">D2D1_BITMAP_PROPERTIES1</a>
+<a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_properties1">D2D1_BITMAP_PROPERTIES1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a>
+<a href="/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>

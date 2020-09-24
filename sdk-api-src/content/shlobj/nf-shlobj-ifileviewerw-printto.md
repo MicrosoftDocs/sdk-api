@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-Prints a file. The Shell specifies the name of the file to print by calling the file viewer's [IPersistFile::Load](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
+Prints a file. The Shell specifies the name of the file to print by calling the file viewer's [IPersistFile::Load](/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ A user interface suppression flag. If this parameter is **TRUE**, the file viewe
 ## -remarks
 
 ## -see-also
-

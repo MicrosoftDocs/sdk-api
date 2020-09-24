@@ -73,5 +73,4 @@ The following scenarios illustrate the functionality of this method:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-securityproperty">SecurityProperty</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-securityproperty">SecurityProperty</a>

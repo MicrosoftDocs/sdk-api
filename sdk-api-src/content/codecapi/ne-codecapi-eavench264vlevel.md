@@ -126,9 +126,8 @@ Supported in Windows 8.1 and later.
 
 ## -remarks
 
-This values are used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-mpeg2-level-attribute">MF_MT_MPEG2_LEVEL</a> attribute.
+This values are used with the <a href="/windows/desktop/medfound/mf-mt-mpeg2-level-attribute">MF_MT_MPEG2_LEVEL</a> attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

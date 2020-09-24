@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines column information. Used by members of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager">IColumnManager</a> interface.
+Defines column information. Used by members of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager">IColumnManager</a> interface.
 
 ## -struct-fields
 
@@ -64,19 +64,19 @@ The size of the structure, in bytes.
 
 Type: <b>DWORD</b>
 
-One or more values from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-cm_mask">CM_MASK</a> enumeration that specify which members of this structure are valid.
+One or more values from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-cm_mask">CM_MASK</a> enumeration that specify which members of this structure are valid.
 
 ### -field dwState
 
 Type: <b>DWORD</b>
 
-One or more values from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-cm_state">CM_STATE</a> enumeration that specify the state of the column.
+One or more values from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-cm_state">CM_STATE</a> enumeration that specify the state of the column.
 
 ### -field uWidth
 
 Type: <b>UINT</b>
 
-One of the members of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-cm_set_width_value">CM_SET_WIDTH_VALUE</a> enumeration that specifies the column width.
+One of the members of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-cm_set_width_value">CM_SET_WIDTH_VALUE</a> enumeration that specifies the column width.
 
 ### -field uDefaultWidth
 
@@ -95,4 +95,3 @@ The ideal width of the column.
 Type: <b>WCHAR[MAX_COLUMN_NAME_LEN]</b>
 
 A buffer of size MAX_COLUMN_NAME_LEN that contains the name of the column as a null-terminated Unicode string.
-

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Aborts all current operations on the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">service host</a>.
+Aborts all current operations on the specified <a href="/windows/desktop/wsw/service-host">service host</a>.
 
 ## -parameters
 
 ### -param serviceHost [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a>  structure representing the service host on which to abort operations.
+Pointer to a <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a>  structure representing the service host on which to abort operations.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
 
 ## -returns
 
@@ -88,11 +88,10 @@ One or more arguments are invalid.
 
 <b>WsAbortServiceHost</b> aborts all  listeners on the service host, and as a result, no new channels are accepted from the client. All channels currently being used by the service host to service messages are aborted as well. 
 
-If a call is pending and it has a cancel callback registered through the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsregisteroperationforcancel">WsRegisterOperationForCancel</a> function, the callback is called. However, the runtime still waits for the call to complete. 
+If a call is pending and it has a cancel callback registered through the <a href="/windows/desktop/api/webservices/nf-webservices-wsregisteroperationforcancel">WsRegisterOperationForCancel</a> function, the callback is called. However, the runtime still waits for the call to complete. 
 
 
            
 
 For more information on registering for cancellation notification,
-                see  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsregisteroperationforcancel">WsRegisterOperationForCancel</a>.
-
+                see  <a href="/windows/desktop/api/webservices/nf-webservices-wsregisteroperationforcancel">WsRegisterOperationForCancel</a>.

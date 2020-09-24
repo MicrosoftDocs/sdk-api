@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CloseDatabase</b> method closes the currently open Windows Installer package or merge module.  Windows Installer packages or merge modules can be opened by using the <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opendatabase">OpenDatabase</a> method.
+The <b>CloseDatabase</b> method closes the currently open Windows Installer package or merge module.  Windows Installer packages or merge modules can be opened by using the <a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opendatabase">OpenDatabase</a> method.
 
 ## -parameters
 
@@ -75,17 +75,16 @@ The method succeeded.
 </table>
  
 
-This method can also return one or more of the errors returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function. The error is converted to <b>HRESULTS</b> using the <b>HRESULT_FROM_WIN32</b> function.
+This method can also return one or more of the errors returned by the <a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function. The error is converted to <b>HRESULTS</b> using the <b>HRESULT_FROM_WIN32</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
+<a href="/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
+<a href="/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-
+<a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>

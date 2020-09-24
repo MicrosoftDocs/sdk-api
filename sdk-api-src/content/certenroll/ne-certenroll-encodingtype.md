@@ -152,7 +152,7 @@ Enumeration values are tried in the following order:
 
 ### -field XCN_CRYPT_STRING_BASE64X509CRLHEADER
 
-The string is base64 encoded with beginning and ending <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) headers. This is shown in the following example.
+The string is base64 encoded with beginning and ending <a href="/windows/desktop/SecGloss/x-gly">X.509</a> <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) headers. This is shown in the following example.
 
 <pre class="syntax" xml:space="preserve"><code>-----BEGIN X509 CRL-----
 MIIDBjCCAm8CAQAwcTERMA8GA1UEAxMIcXV1eC5jb20xDzANBgNVBAsTBkJyYWlu
@@ -220,9 +220,8 @@ Removes the carriage return control character from the encoded string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
-
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>

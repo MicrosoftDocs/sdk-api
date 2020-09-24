@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmenableblurbehindwindow">DwmEnableBlurBehindWindow</a> function.
+Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmenableblurbehindwindow">DwmEnableBlurBehindWindow</a> function.
 
 ## -struct-fields
 
 ### -field dwFlags
 
-A bitwise combination of <a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-bb-constants">DWM Blur Behind</a> constant values that indicates which of the members of this structure have been set.
+A bitwise combination of <a href="/windows/desktop/dwm/dwm-bb-constants">DWM Blur Behind</a> constant values that indicates which of the members of this structure have been set.
 
 ### -field fEnable
 
@@ -73,4 +73,3 @@ The region within the client area where the blur behind will be applied. A <b>NU
 ### -field fTransitionOnMaximized
 
 <b>TRUE</b> if the window's colorization should transition to match the maximized windows; otherwise, <b>FALSE</b>.
-

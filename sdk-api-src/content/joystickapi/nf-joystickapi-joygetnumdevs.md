@@ -62,13 +62,12 @@ The <b>joyGetNumDevs</b> function returns the number of joysticks supported by t
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/previous-versions/dd757107(v=vs.85)">joyGetPos</a> function to determine whether a given joystick is physically attached to the system. If the specified joystick is not connected, <b>joyGetPos</b> returns a JOYERR_UNPLUGGED error value.
+Use the <a href="/previous-versions/dd757107(v=vs.85)">joyGetPos</a> function to determine whether a given joystick is physically attached to the system. If the specified joystick is not connected, <b>joyGetPos</b> returns a JOYERR_UNPLUGGED error value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
+<a href="/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
-
+<a href="/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>

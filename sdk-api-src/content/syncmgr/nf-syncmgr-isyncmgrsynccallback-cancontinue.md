@@ -75,7 +75,7 @@ Type: <b>HRESULT</b>
 </tr>
 <tr>
 <td>S_FALSE</td>
-<td>A cancellation has been requested. The handler should call <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a>, specifying SYNCMGR_PS_CANCELED in the <i>nStatus</i> parameter.</td>
+<td>A cancellation has been requested. The handler should call <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a>, specifying SYNCMGR_PS_CANCELED in the <i>nStatus</i> parameter.</td>
 </tr>
 <tr>
 <td>E_INVALIDARG</td>
@@ -88,7 +88,7 @@ If <i>pszItemID</i> is <b>NULL</b> or an empty string, the return value depends 
 
 ## -remarks
 
-A synchronization can be canceled by the user by clicking the <b>Stop</b> or <b>Stop All</b> task on the context menu or the command module. It can also be canceled when an application calls one of the stop methods of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> interface.
+A synchronization can be canceled by the user by clicking the <b>Stop</b> or <b>Stop All</b> task on the context menu or the command module. It can also be canceled when an application calls one of the stop methods of the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> interface.
 
 By implementing this functionality as a separate method, the handler can check for a cancellation without reporting progress.
 
@@ -97,7 +97,7 @@ By implementing this functionality as a separate method, the handler can check f
 
 
 
-The following example shows the usage of <b>ISyncMgrSyncCallback::CanContinue</b> by the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">Synchronize</a> method.
+The following example shows the usage of <b>ISyncMgrSyncCallback::CanContinue</b> by the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">Synchronize</a> method.
 
 
 ```cpp
@@ -124,4 +124,3 @@ HRESULT CMyDeviceHandler::Synchronize(...)
 }
 
 ```
-

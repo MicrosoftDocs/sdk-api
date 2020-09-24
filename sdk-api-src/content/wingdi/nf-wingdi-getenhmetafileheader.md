@@ -67,7 +67,7 @@ The size, in bytes, of the buffer to receive the data. Only this many bytes will
 
 ### -param lpEnhMetaHeader [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enhmetaheader">ENHMETAHEADER</a> structure that receives the header record. If this parameter is <b>NULL</b>, the function returns the size of the header record.
+A pointer to an <a href="/windows/desktop/api/wingdi/ns-wingdi-enhmetaheader">ENHMETAHEADER</a> structure that receives the header record. If this parameter is <b>NULL</b>, the function returns the size of the header record.
 
 ## -returns
 
@@ -81,17 +81,16 @@ The record that contains the enhanced-metafile header is always the first record
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enhmetaheader">ENHMETAHEADER</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-enhmetaheader">ENHMETAHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>

@@ -54,7 +54,7 @@ Exposes a method that is used to communicate focus changes for a user input obje
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputObjectSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInputObjectSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputObjectSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInputObjectSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IInputObjectSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobjectsite-onfocuschangeis">OnFocusChangeIS</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobjectsite-onfocuschangeis">OnFocusChangeIS</a>
 </td>
 <td align="left" width="63%">
 Informs the browser that the focus has changed.
@@ -84,5 +84,4 @@ You do not typically implement this interface. <b>IInputObjectSite</b> is implem
 
 You use <b>IInputObjectSite</b> if you are implementing a Shell object that takes user input.
 
-<b>IInputObjectSite</b> is derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. The listed method is specific to <b>IInputObjectSite</b>.
-
+<b>IInputObjectSite</b> is derived from <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. The listed method is specific to <b>IInputObjectSite</b>.

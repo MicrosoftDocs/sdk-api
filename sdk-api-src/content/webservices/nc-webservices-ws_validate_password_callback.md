@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Validates a username/password pair
-on the receiver side.  When a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a> 
+on the receiver side.  When a <a href="/windows/desktop/api/webservices/ns-webservices-ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a> 
 containing this callback is included in the security description, this callback
 is invoked for each received message at the server.  This callback is expected 
 to return S_OKif the username/password pair was successfully validated, S_FALSE 
@@ -66,7 +66,7 @@ but it will never be invoked when a channel is not open.  In the
 current drop, this callback is always invoked synchronously.  In the
 next drop, this callback will be invoked synchronously for synchronous
 message receives and asynchronously for asynchronous message receives,
-but it will always be invoked <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_callback_model">short</a>when it is invoked asynchronously.
+but it will always be invoked <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">short</a>when it is invoked asynchronously.
 
 ## -parameters
 
@@ -93,4 +93,3 @@ Specifies where additional error information should be stored if the function fa
 ## -returns
 
 This callback function does not return a value.
-

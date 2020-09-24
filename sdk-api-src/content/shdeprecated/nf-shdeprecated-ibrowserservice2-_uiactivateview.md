@@ -59,11 +59,10 @@ Deprecated. Allows a derived class to request that the base class update the bro
 
 Type: <b>UINT</b>
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-svuia_status">SVUIA_STATUS</a> enumeration declaring the browser view's state value.
+A member of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-svuia_status">SVUIA_STATUS</a> enumeration declaring the browser view's state value.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

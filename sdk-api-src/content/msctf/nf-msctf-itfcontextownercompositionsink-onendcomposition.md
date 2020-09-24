@@ -56,7 +56,7 @@ Called when a composition is terminated.
 
 ### -param pComposition [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> object that represents the composition terminated.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> object that represents the composition terminated.
 
 ## -returns
 
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionSink interface](nn-msctf-itfcontextownercompositionsink.md)
-

@@ -68,9 +68,9 @@ The final value of the animation.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 ## -remarks
 
@@ -78,9 +78,8 @@ When the specified offset is reached, the property or properties affected by thi
 
 Because animation segments must be added in increasing order, this method fails if the <i>endOffset</i> parameter is less than or equal to the <i>beginOffset</i> parameter of the previous segment. This method also fails if this is the first segment to be added to the animation function.
 
-After this method is called, all methods on this animation object fail except the <a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-reset">IDCompositionAnimation::Reset</a> method.
+After this method is called, all methods on this animation object fail except the <a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-reset">IDCompositionAnimation::Reset</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>
-
+<a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>

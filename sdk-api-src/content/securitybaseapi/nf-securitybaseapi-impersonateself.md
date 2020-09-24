@@ -56,52 +56,51 @@ api_name:
 
 ## -description
 
-The <b>ImpersonateSelf</b> function obtains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> that impersonates the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> of the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a>. The token is assigned to the calling thread.
+The <b>ImpersonateSelf</b> function obtains an <a href="/windows/desktop/SecGloss/a-gly">access token</a> that impersonates the <a href="/windows/desktop/SecGloss/s-gly">security context</a> of the calling <a href="/windows/desktop/SecGloss/p-gly">process</a>. The token is assigned to the calling thread.
 
 ## -parameters
 
 ### -param ImpersonationLevel [in]
 
 Specifies a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type that supplies the impersonation level of the new token.
+<a href="/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type that supplies the impersonation level of the new token.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>ImpersonateSelf</b> function is used for tasks such as enabling a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privilege</a> for a single thread rather than for the entire process or for changing the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) for a single thread.
+The <b>ImpersonateSelf</b> function is used for tasks such as enabling a <a href="/windows/desktop/SecGloss/p-gly">privilege</a> for a single thread rather than for the entire process or for changing the default <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) for a single thread.
 
 The server can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a> function when the impersonation is complete.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a> function when the impersonation is complete.
 
 For this function to succeed, the DACL protecting the process token must grant the TOKEN_DUPLICATE right to itself.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-impersonatenamedpipeclient">ImpersonateNamedPipeClient</a>
+<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-impersonatenamedpipeclient">ImpersonateNamedPipeClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
-
+<a href="/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>

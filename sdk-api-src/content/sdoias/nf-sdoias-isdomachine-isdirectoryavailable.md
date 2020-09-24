@@ -69,16 +69,15 @@ If the method fails, the return value is one of the following error codes.
 ## -remarks
 
 Before calling this method, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a> method to attach to the SDO computer.
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a> method to attach to the SDO computer.
 
 <div class="alert"><b>Important</b>  Always returns <b>VARIANT_FALSE</b> in the current implementation.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>

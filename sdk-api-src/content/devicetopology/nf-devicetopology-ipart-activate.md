@@ -146,49 +146,49 @@ The <b>Activate</b> method supports the following function-specific control inte
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass">IAudioBass</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass">IAudioBass</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioinputselector">IAudioInputSelector</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioinputselector">IAudioInputSelector</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioloudness">IAudioLoudness</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioloudness">IAudioLoudness</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange">IAudioMidrange</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange">IAudioMidrange</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiooutputselector">IAudioOutputSelector</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiooutputselector">IAudioOutputSelector</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble">IAudioTreble</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble">IAudioTreble</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel">IAudioVolumeLevel</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel">IAudioVolumeLevel</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicespecificproperty">IDeviceSpecificProperty</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-idevicespecificproperty">IDeviceSpecificProperty</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksformatsupport">IKsFormatSupport</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksformatsupport">IKsFormatSupport</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription</a>
 </li>
 </ul>
-To obtain the interface ID of the function-specific control interface of a part, call the part's <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a> method. To obtain the interface ID of a function-specific control interface type, use the <b>__uuidof</b> operator. For example, the interface ID of <b>IAudioAutoGainControl</b> is defined as follows:
+To obtain the interface ID of the function-specific control interface of a part, call the part's <a href="/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a> method. To obtain the interface ID of a function-specific control interface type, use the <b>__uuidof</b> operator. For example, the interface ID of <b>IAudioAutoGainControl</b> is defined as follows:
 
 <pre class="syntax" xml:space="preserve"><code>
 const IID IID_IAudioAutoGainControl  __uuidof(IAudioAutoGainControl)
@@ -197,9 +197,8 @@ For more information about the <b>__uuidof</b> operator, see the Windows SDK doc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>

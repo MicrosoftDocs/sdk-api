@@ -56,7 +56,7 @@ A write-only stream interface into which an application writes print job data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IXpsPrintJobStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjobstream-close">Close</a>
+<a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjobstream-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the stream and indicates that the entire document has been written.
@@ -82,26 +82,25 @@ Closes the stream and indicates that the entire document has been written.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjobstream-close">Close</a> method must be called before this interface is released.</div>
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjobstream-close">Close</a> method must be called before this interface is released.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
+<a href="/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjob">IXpsPrintJob</a>
+<a href="/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjob">IXpsPrintJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob">StartXpsPrintJob</a>
+<a href="/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob">StartXpsPrintJob</a>
 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-

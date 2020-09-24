@@ -57,12 +57,12 @@ Retrieves a file stream interface that you can use to access the contents of the
 ### -param accessMode [in]
 
 One or more access modes. For possible values, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilestreamingmode">FsrmFileStreamingMode</a> enumeration.
+      <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilestreamingmode">FsrmFileStreamingMode</a> enumeration.
 
 ### -param interfaceType [in]
 
 The type of streaming interface to use. For possible interface types, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilestreaminginterfacetype">FsrmFileStreamingInterfaceType</a> 
+      <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilestreaminginterfacetype">FsrmFileStreamingInterfaceType</a> 
       enumeration.
 
 ### -param pStreamInterface [out]
@@ -78,13 +78,12 @@ The method returns the following return values.
 ## -remarks
 
 To ensure the caller can be authorized for access, it must be a module that has its 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduledefinition-get_needsfilecontent">IFsrmPipelineModuleDefinition::NeedsFileContent</a> 
+    <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduledefinition-get_needsfilecontent">IFsrmPipelineModuleDefinition::NeedsFileContent</a> 
     property set to <b>TRUE</b>. If the <i>accessMode</i> parameter is set to 
     <b>FsrmFileStreamingMode_Write</b>, the caller must also be a storage module and have its 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduledefinition-get_updatesfilecontent">IFsrmStorageModuleDefinition::UpdatesFileContent</a> 
+    <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduledefinition-get_updatesfilecontent">IFsrmStorageModuleDefinition::UpdatesFileContent</a> 
     property set to <b>TRUE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>

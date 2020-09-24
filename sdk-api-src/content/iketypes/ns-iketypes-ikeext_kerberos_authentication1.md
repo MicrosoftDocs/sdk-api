@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_KERBEROS_AUTHENTICATION1</b> structure contains information needed for preshared key authentication.
-[IKEEXT_KERBEROS_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0) is available.</div><div> </div>
+[IKEEXT_KERBEROS_AUTHENTICATION0](./ns-iketypes-ikeext_eap_authentication0.md) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -110,5 +110,4 @@ The Kerberos proxy server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

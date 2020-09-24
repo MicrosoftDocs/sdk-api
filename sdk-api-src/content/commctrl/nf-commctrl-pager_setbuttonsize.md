@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the current button size for the pager control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-setbuttonsize">PGM_SETBUTTONSIZE</a> message explicitly.
+Sets the current button size for the pager control. You can use this macro or send the <a href="/windows/desktop/Controls/pgm-setbuttonsize">PGM_SETBUTTONSIZE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the pager control.
 
@@ -68,9 +68,8 @@ Value of type <b>int</b> that contains the new button size, in pixels.
 
 ## -remarks
 
-If the pager control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/pager-control-styles">PGS_HORZ</a> style, the button size determines the width of the pager buttons. If the pager control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/pager-control-styles">PGS_VERT</a> style, the button size determines the height of the pager buttons. By default, the pager control sets its button size to three-fourths of the width of the scroll bar.
+If the pager control has the <a href="/windows/desktop/Controls/pager-control-styles">PGS_HORZ</a> style, the button size determines the width of the pager buttons. If the pager control has the <a href="/windows/desktop/Controls/pager-control-styles">PGS_VERT</a> style, the button size determines the height of the pager buttons. By default, the pager control sets its button size to three-fourths of the width of the scroll bar.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-pager_getbuttonsize">Pager_GetButtonSize</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-pager_getbuttonsize">Pager_GetButtonSize</a>

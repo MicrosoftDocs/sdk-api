@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>InitializeFromRawData</b> method initializes the object from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) GUID, an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> directory name, or an Internet Protocol (IP) address contained in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded byte array.
+The <b>InitializeFromRawData</b> method initializes the object from a <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) GUID, an <a href="/windows/desktop/SecGloss/x-gly">X.500</a> directory name, or an Internet Protocol (IP) address contained in a <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded byte array.
 
 ## -parameters
 
 ### -param Type [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration value that identifies the type of name represented by the input string. This must be one of the following values.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration value that identifies the type of name represented by the input string. This must be one of the following values.
 
 <table>
 <tr>
@@ -100,7 +100,7 @@ The name is a GUID.
 
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that identifies the type of Unicode encoding applied to the <i>strRawData</i> parameter.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that identifies the type of Unicode encoding applied to the <i>strRawData</i> parameter.
 
 ### -param strRawData [in]
 
@@ -110,7 +110,7 @@ A <b>BSTR</b> variable that contains the DER-encoded data.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -132,9 +132,9 @@ The object is already initialized.
 
 ## -remarks
 
-The raw data is a byte array that has been encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER). You must specify the  byte array as a Unicode encoded string.
+The raw data is a byte array that has been encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER). You must specify the  byte array as a Unicode encoded string.
 
-If you use this method to specify a DSA GUID (XCN_CERT_ALT_NAME_GUID), the GUID is associated with the XCN_OID_NTDS_REPLICATION (1.3.6.1.4.1.311.25.1) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and encoded as an octet string (byte array). You can retrieve the OID by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_objectid">ObjectId</a> property. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_rawdata">RawData</a> property to retrieve the encoded byte array.
+If you use this method to specify a DSA GUID (XCN_CERT_ALT_NAME_GUID), the GUID is associated with the XCN_OID_NTDS_REPLICATION (1.3.6.1.4.1.311.25.1) <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and encoded as an octet string (byte array). You can retrieve the OID by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_objectid">ObjectId</a> property. You can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_rawdata">RawData</a> property to retrieve the encoded byte array.
 
 If you use this method to specify any of the following name types, the method returns <b>E_INVALIDARG</b>.<table>
 <tr>
@@ -163,7 +163,7 @@ If you use this method to specify any of the following name types, the method re
 </tr>
 <tr>
 <td>XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME</td>
-<td>The name is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).</td>
+<td>The name is a <a href="/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).</td>
 </tr>
 <tr>
 <td>XCN_CERT_ALT_NAME_OTHER_NAME</td>
@@ -174,9 +174,8 @@ If you use this method to specify any of the following name types, the method re
 
 
 
-You can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromothername">InitializeFromOtherName</a> method to specify an OID and a corresponding name string, and you can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromstring">InitializeFromString</a> method to specify an email address, a DNS name, a URL, a registered OID, or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).
+You can use the <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromothername">InitializeFromOtherName</a> method to specify an OID and a corresponding name string, and you can use the <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromstring">InitializeFromString</a> method to specify an email address, a DNS name, a URL, a registered OID, or a <a href="/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>

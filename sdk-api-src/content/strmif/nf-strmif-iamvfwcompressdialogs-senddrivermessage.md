@@ -75,13 +75,12 @@ Return value varies depending on the implementation within each driver.
 
 You should never need to use this method. This method can send any private message to the video compressor (codec). Behavior might be undetermined in response to arbitrary messages; use this method at your own risk.
 
-This method calls the Video for Windows video compression manager (VCM) <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icsendmessage">ICSendMessage</a> function to send the message.
+This method calls the Video for Windows video compression manager (VCM) <a href="/windows/desktop/api/vfw/nf-vfw-icsendmessage">ICSendMessage</a> function to send the message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvfwcompressdialogs">IAMVfwCompressDialogs Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvfwcompressdialogs">IAMVfwCompressDialogs Interface</a>

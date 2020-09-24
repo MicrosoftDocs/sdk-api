@@ -50,7 +50,6 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-fontcollection-fontcollection(constfontcollection_)">FontCollection</a> class is an abstract base class. It contains methods for enumerating the font families in a collection of fonts. Objects built from this class include the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-installedfontcollection">InstalledFontCollection</a> and 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> classes.
-
+The <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-fontcollection-fontcollection(constfontcollection_)">FontCollection</a> class is an abstract base class. It contains methods for enumerating the font families in a collection of fonts. Objects built from this class include the 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-installedfontcollection">InstalledFontCollection</a> and 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> classes.

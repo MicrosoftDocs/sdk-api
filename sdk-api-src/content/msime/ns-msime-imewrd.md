@@ -88,7 +88,7 @@ Size of the comment, in bytes, of <b>pvComment</b>.
 
 ### -field uct
 
-Type of comment. This must be one of the values of the <a href="https://docs.microsoft.com/windows/desktop/api/msime/ne-msime-imeuct">IMEUCT</a> enumeration.
+Type of comment. This must be one of the values of the <a href="/windows/desktop/api/msime/ne-msime-imeuct">IMEUCT</a> enumeration.
 
 ### -field pvComment
 
@@ -96,21 +96,20 @@ Comment string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-existword">IFEDictionary::ExistWord</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-existword">IFEDictionary::ExistWord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">IFEDictionary::GetWords</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">IFEDictionary::GetWords</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">IFEDictionary::NextWords</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">IFEDictionary::NextWords</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-registerword">IFEDictionary::RegisterWord</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-registerword">IFEDictionary::RegisterWord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ne-msime-imeuct">IMEUCT</a>
-
+<a href="/windows/desktop/api/msime/ne-msime-imeuct">IMEUCT</a>

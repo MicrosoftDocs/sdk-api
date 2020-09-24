@@ -70,15 +70,14 @@ Pointer to the allocated memory or <b>NULL</b> if an error occurred.
 
 ## -remarks
 
-If you used the <b>-MemoryRoutines</b> when calling <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, you must implement this callback function. You pass the name of your callback function to <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a>.
+If you used the <b>-MemoryRoutines</b> when calling <a href="/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, you must implement this callback function. You pass the name of your callback function to <a href="/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a>.
 
-<b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>.
+<b>Windows Vista:  </b>The <a href="/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nc-perflib-perf_mem_free">FreeMemory</a>
+<a href="/windows/desktop/api/perflib/nc-perflib-perf_mem_free">FreeMemory</a>
 
 
 
 <a href="/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a>
-

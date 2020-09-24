@@ -58,7 +58,7 @@ Permits the container to remove any of its menu elements from the in-place compo
 
 Type: <b>HMENU</b>
 
-A handle to the in-place composite menu that was constructed by calls to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-insertmenussb">IShellBrowser::InsertMenusSB</a> and the  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> function.
+A handle to the in-place composite menu that was constructed by calls to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-insertmenussb">IShellBrowser::InsertMenusSB</a> and the  <a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> function.
 
 ## -returns
 
@@ -68,7 +68,7 @@ Returns S_OK if successful, or a COM-defined error value otherwise.
 
 ## -remarks
 
-This method is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-removemenus">IOleInPlaceFrame::RemoveMenus</a> method.
+This method is similar to the <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-removemenus">IOleInPlaceFrame::RemoveMenus</a> method.
 
 The object should always permit the container to remove its menu elements from the composite menu before deactivating the shared user interface.
 
@@ -77,5 +77,4 @@ The method is called by the object application while it is being UI-deactivated 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>

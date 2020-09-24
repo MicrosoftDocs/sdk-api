@@ -60,7 +60,7 @@ The <b>FLOWDESCRIPTOR</b> structure specifies one or more filters for a given FL
 
 ### -field FlowSpec
 
-Flow specification (FLOWSPEC), provided as a <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
+Flow specification (FLOWSPEC), provided as a <a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
 
 ### -field NumFilters
 
@@ -68,13 +68,12 @@ Number of filters provided in <b>FilterList</b>.
 
 ### -field FilterList
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec">RSVP_FILTERSPEC</a> structure containing FILTERSPEC information.
+Pointer to a <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec">RSVP_FILTERSPEC</a> structure containing FILTERSPEC information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec">RSVP_FILTERSPEC</a>
-
+<a href="/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec">RSVP_FILTERSPEC</a>

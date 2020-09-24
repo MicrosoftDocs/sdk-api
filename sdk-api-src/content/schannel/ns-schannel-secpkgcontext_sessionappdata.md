@@ -56,7 +56,7 @@ api_name:
 
 The <b>SecPkgContext_SessionAppData</b> structure stores application data for a session context.
 
-This attribute is supported only by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
+This attribute is supported only by the Schannel <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
 ## -struct-fields
 
@@ -71,4 +71,3 @@ Count of bytes used by <b>pbAppData</b>.
 ### -field pbAppData
 
 Pointer to a <b>BYTE</b> that represents the session application data.
-

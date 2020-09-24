@@ -56,7 +56,7 @@ api_name:
 
 The
   <b>ADSPROPERROR</b> structure is used to pass error
-  data to the notification object with the <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropsenderrormessage">ADsPropSendErrorMessage</a> function or the <a href="https://docs.microsoft.com/windows/desktop/AD/wm-adsprop-notify-error">WM_ADSPROP_NOTIFY_ERROR</a> message.
+  data to the notification object with the <a href="/windows/desktop/api/adsprop/nf-adsprop-adspropsenderrormessage">ADsPropSendErrorMessage</a> function or the <a href="/windows/desktop/AD/wm-adsprop-notify-error">WM_ADSPROP_NOTIFY_ERROR</a> message.
 
 ## -struct-fields
 
@@ -86,9 +86,8 @@ Pointer to a NULL-terminated Unicode string that contains the error message to b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropsenderrormessage">ADsPropSendErrorMessage</a>
+<a href="/windows/desktop/api/adsprop/nf-adsprop-adspropsenderrormessage">ADsPropSendErrorMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/wm-adsprop-notify-error">WM_ADSPROP_NOTIFY_ERROR</a>
-
+<a href="/windows/desktop/AD/wm-adsprop-notify-error">WM_ADSPROP_NOTIFY_ERROR</a>

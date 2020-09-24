@@ -72,7 +72,7 @@ Set (0x1) to prevent the process from generating dynamic code or modifying exist
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AllowThreadOptOut
 
-Set (0x1) to allow threads to opt out of the restrictions on dynamic code generation by calling the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation">SetThreadInformation</a> function with the <i>ThreadInformation</i> parameter set to <b>ThreadDynamicCodePolicy</b>; otherwise leave unset (0x0). You should not use the <b>AllowThreadOptOut</b> and <b>ThreadDynamicCodePolicy</b> settings together to provide strong security. These settings are only intended to enable applications to adapt their code more easily for full dynamic code restrictions.
+Set (0x1) to allow threads to opt out of the restrictions on dynamic code generation by calling the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation">SetThreadInformation</a> function with the <i>ThreadInformation</i> parameter set to <b>ThreadDynamicCodePolicy</b>; otherwise leave unset (0x0). You should not use the <b>AllowThreadOptOut</b> and <b>ThreadDynamicCodePolicy</b> settings together to provide strong security. These settings are only intended to enable applications to adapt their code more easily for full dynamic code restrictions.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AllowRemoteDowngrade
 
@@ -86,9 +86,8 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>

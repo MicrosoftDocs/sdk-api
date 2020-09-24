@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>.
+Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>.
 
 ## -parameters
 
 ### -param pRequest [in]
 
-The pointer that the caller is passing to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a>.
+The pointer that the caller is passing to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a>.
 
 ### -param fSpyed [in]
 
@@ -68,22 +68,21 @@ A pointer to the actual allocation for which the size is to be determined.
 
 ## -remarks
 
-The <b>PreGetSize</b> method receives as its <i>pRequest</i> parameter the pointer the caller is passing to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>. It must then return a pointer to the actual allocation, which may have altered <i>pRequest</i> in the implementation of either the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prealloc">PreAlloc</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prerealloc">PreRealloc</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>. The pointer to the true allocation is then passed to <b>GetSize</b> as its <i>pv</i> parameter.
+The <b>PreGetSize</b> method receives as its <i>pRequest</i> parameter the pointer the caller is passing to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>. It must then return a pointer to the actual allocation, which may have altered <i>pRequest</i> in the implementation of either the <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prealloc">PreAlloc</a> or the <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prerealloc">PreRealloc</a> method of <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>. The pointer to the true allocation is then passed to <b>GetSize</b> as its <i>pv</i> parameter.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a> then returns the size determined, and COM passes this value to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postgetsize">IMallocSpy::PostGetSize</a> in <i>cbActual</i>.
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a> then returns the size determined, and COM passes this value to <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postgetsize">IMallocSpy::PostGetSize</a> in <i>cbActual</i>.
 
-The size determined by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a> is the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsize">HeapSize</a> function. This is the size originally requested. For example, a memory allocation request of 27 bytes returns an allocation of 32 bytes and <b>GetSize</b> returns 27.
+The size determined by <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a> is the value returned by the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapsize">HeapSize</a> function. This is the size originally requested. For example, a memory allocation request of 27 bytes returns an allocation of 32 bytes and <b>GetSize</b> returns 27.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postgetsize">IMallocSpy::PostGetSize</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postgetsize">IMallocSpy::PostGetSize</a>

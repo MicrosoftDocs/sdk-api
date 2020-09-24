@@ -100,13 +100,13 @@ The client requests notifications when there is an incoming call.
 
 ## -remarks
 
-The following table lists the <a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> methods called by each member.
+The following table lists the <a href="/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> methods called by each member.
 
 <table class="clsStd">
 <tr>
 <th>Name</th>
 <th>
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> method called</th>
+<a href="/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> method called</th>
 </tr>
 <tr>
 <td>
@@ -405,9 +405,8 @@ fsetINCOMING_CALL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-listentoserverevents-vb">IFaxServer::ListenToServerEvents</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-listentoserverevents-vb">IFaxServer::ListenToServerEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a>
-
+<a href="/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a>

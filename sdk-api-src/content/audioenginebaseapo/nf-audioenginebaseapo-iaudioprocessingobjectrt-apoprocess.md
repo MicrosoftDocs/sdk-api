@@ -88,9 +88,8 @@ The <code>APOProcess</code> method must not change the data in the ppOutputConne
 
 The <code>APOProcess</code> method is called from a real-time processing thread. The implementation of this method must not touch paged memory and it should not call any system blocking routines.
 
-For a detailed look at an implementation of this method, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/windows-vista-sapo-feature-reference">Swap sample code</a> and refer to the Swapapolfx.cpp file.
+For a detailed look at an implementation of this method, see the <a href="/windows-hardware/drivers/audio/windows-vista-sapo-feature-reference">Swap sample code</a> and refer to the Swapapolfx.cpp file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/windows-vista-sapo-feature-reference">Swap sample code</a>
-
+<a href="/windows-hardware/drivers/audio/windows-vista-sapo-feature-reference">Swap sample code</a>

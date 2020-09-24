@@ -64,7 +64,7 @@ A pointer to a null-terminated string that names a font resource file.
 
 ### -param fl [in]
 
-The characteristics of the font to be removed from the system. In order for the font to be removed, the flags used must be the same as when the font was added with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> function. See the <b>AddFontResourceEx</b> function for more information.
+The characteristics of the font to be removed from the system. In order for the font to be removed, the flags used must be the same as when the font was added with the <a href="/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> function. See the <b>AddFontResourceEx</b> function for more information.
 
 ### -param pdv [in]
 
@@ -78,11 +78,11 @@ If the function fails, the return value is zero. No extended error information i
 
 ## -remarks
 
-This function will only remove the font if the flags specified are the same as when then font was added with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> function.
+This function will only remove the font if the flags specified are the same as when then font was added with the <a href="/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> function.
 
 When you try to replace an existing font file that contains a font with outstanding references to it, you might get an error that indicates that the original font can't be deleted because it’s in use even after you call <b>RemoveFontResourceEx</b>. If your app requires that the font file be replaced, to reduce the resource count of the original font to zero, call <b>RemoveFontResourceEx</b> in a loop as shown in this example code. If you continue to get errors, this is an indication that the font file remains loaded in other sessions. Make sure the font isn't listed in the font registry and restart the system to ensure the font is unloaded from all sessions.
 
-<div class="alert"><b>Note</b>  Apps where the original font file is in use will still be able to access the original file and won't use the new font until the font reloads. Call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> to reload the font.  We recommend that you call <b>AddFontResourceEx</b> the same number of times as the call to <b>RemoveFontResourceEx</b> succeeded as shown in this example code.</div>
+<div class="alert"><b>Note</b>  Apps where the original font file is in use will still be able to access the original file and won't use the new font until the font reloads. Call <a href="/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> to reload the font.  We recommend that you call <b>AddFontResourceEx</b> the same number of times as the call to <b>RemoveFontResourceEx</b> succeeded as shown in this example code.</div>
 <div> </div>
 <pre class="syntax" xml:space="preserve"><code>
 int i = 0;
@@ -107,17 +107,16 @@ while( i-- )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
-
+<a href="/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>

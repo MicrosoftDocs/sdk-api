@@ -105,13 +105,12 @@ The <i>plVolume</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal">ITBasicAudioTerminal</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal">ITBasicAudioTerminal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_volume">put_Volume</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_volume">put_Volume</a>

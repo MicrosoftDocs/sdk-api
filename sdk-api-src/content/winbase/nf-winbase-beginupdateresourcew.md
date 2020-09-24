@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Retrieves a handle that can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function to add, delete, or replace resources in a binary module.
+Retrieves a handle that can be used by the <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function to add, delete, or replace resources in a binary module.
 
 ## -parameters
 
@@ -66,27 +66,27 @@ The binary file in which to update resources. An application must be able to obt
 
 Type: <b>BOOL</b>
 
-Indicates whether to delete the <i>pFileName</i> parameter's existing resources. If this parameter is <b>TRUE</b>, existing resources are deleted and the updated file includes only resources added with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function. If this parameter is <b>FALSE</b>, the updated file includes existing resources unless they are explicitly deleted or replaced by using <b>UpdateResource</b>.
+Indicates whether to delete the <i>pFileName</i> parameter's existing resources. If this parameter is <b>TRUE</b>, existing resources are deleted and the updated file includes only resources added with the <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function. If this parameter is <b>FALSE</b>, the updated file includes existing resources unless they are explicitly deleted or replaced by using <b>UpdateResource</b>.
 
 ## -returns
 
 Type: <b>HANDLE</b>
 
-If the function succeeds, the return value is a handle that can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-endupdateresourcea">EndUpdateResource</a> functions. The return value is <b>NULL</b> if the specified file is not a PE, the file does not exist, or the file cannot be opened for writing. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is a handle that can be used by the <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> and <a href="/windows/desktop/api/winbase/nf-winbase-endupdateresourcea">EndUpdateResource</a> functions. The return value is <b>NULL</b> if the specified file is not a PE, the file does not exist, or the file cannot be opened for writing. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 It is recommended that the resource file is not loaded before this function is called. However, if that file is already loaded, it will not cause an error to be returned.
 
-There are some restrictions on resource updates in files that contain  Resource Configuration(RC Config) data: LN files and the associated .mui files. Details on which types of resources are allowed to be updated in these files are in the Remarks section for the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function.
+There are some restrictions on resource updates in files that contain  Resource Configuration(RC Config) data: LN files and the associated .mui files. Details on which types of resources are allowed to be updated in these files are in the Remarks section for the <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function.
 
-This function can update resources within modules that contain both code and resources. As noted above, there are restrictions on resource updates in LN files and .mui files, both of which contain RC Config data; details of the restrictions are in the reference for the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function.
+This function can update resources within modules that contain both code and resources. As noted above, there are restrictions on resource updates in LN files and .mui files, both of which contain RC Config data; details of the restrictions are in the reference for the <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function.
 			
 
 
 #### Examples
 
-For an example see, <a href="https://docs.microsoft.com/windows/desktop/menurc/using-resources">Updating Resources</a>.
+For an example see, <a href="/windows/desktop/menurc/using-resources">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -102,7 +102,7 @@ For an example see, <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-endupdateresourcea">EndUpdateResource</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-endupdateresourcea">EndUpdateResource</a>
 
 
 
@@ -110,9 +110,8 @@ For an example see, <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
+<a href="/windows/desktop/menurc/resources">Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>

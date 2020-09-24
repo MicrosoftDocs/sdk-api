@@ -68,5 +68,4 @@ The array of exports with which the subobject is associated.
 
 ## -remarks
 
-Depending on the flags specified in the optional <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a> subobject for opting into cross linkage, the exports being associated don’t necessarily have to be present in the current state object, or one that has been seen yet, to be resolved later, on raytracing pipeline state object (RTPSO) creation for example.
-
+Depending on the flags specified in the optional <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a> subobject for opting into cross linkage, the exports being associated don’t necessarily have to be present in the current state object, or one that has been seen yet, to be resolved later, on raytracing pipeline state object (RTPSO) creation for example.

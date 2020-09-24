@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Called from the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_user">WSManPluginAuthzUser</a> plug-in entry point and  reports either a successful or failed user connection authorization.
+Called from the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_user">WSManPluginAuthzUser</a> plug-in entry point and  reports either a successful or failed user connection authorization.
 
 ## -parameters
 
 ### -param senderDetails [in]
 
-A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_user">WSManPluginAuthzUser</a> plug-in call.
+A pointer  to the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_user">WSManPluginAuthzUser</a> plug-in call.
 
 ### -param flags [in]
 
@@ -64,7 +64,7 @@ Reserved for future use. Must be set to zero.
 
 ### -param userAuthorizationContext [in, optional]
 
-Specifies a plug-in defined context that is used to help track user context information. This context can be returned to multiple calls, to this call, or to an operation call.  The plug-in manages reference counting for all calls.  If the user record times out or re-authorization is required, the WinRM infrastructure calls <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_release_context">WSManPluginAuthzReleaseContext</a>.
+Specifies a plug-in defined context that is used to help track user context information. This context can be returned to multiple calls, to this call, or to an operation call.  The plug-in manages reference counting for all calls.  If the user record times out or re-authorization is required, the WinRM infrastructure calls <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_release_context">WSManPluginAuthzReleaseContext</a>.
 
 ### -param impersonationToken [in, optional]
 
@@ -94,4 +94,3 @@ The method returns <b>ERROR_SUCCESS</b> if it succeeded; otherwise,  it returns 
 If the impersonation token passed into <i>senderDetails</i> is not the identity with which the operation should be performed, or if no impersonation token is available and the plug-in specifies a new  identity to carry out the request, the plug-in should return the new <i>impersonationToken</i> that the WSMan infrastructure will use to impersonate the client before calling into the operation plug-in. If an impersonation token is provided in the <i>senderDetails</i> and the plug-in wants to carry out the operation under that identity, the plug-in should copy the impersonation token from the <i>senderDetails</i> into the <i>impersonationToken</i> parameter. If the plug-in wants to carry out the request under the context of the Internet Information Services (IIS) host process, the <i>impersonationToken</i> should be <b>NULL</b>. If the <i>impersonationToken</i> is <b>NULL</b>, the thread will impersonate the process token before calling into the operation plug-in. 
 
 If the <i>userIsAdministrator</i> parameter is set to <b>TRUE</b>, the user is allowed to view and delete shells owned by different users.
-

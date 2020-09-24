@@ -56,7 +56,7 @@ Creates a proxy for the specified remote interface.
 
 ### -param pUnkOuter [in]
 
-A controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface; used for aggregation.
+A controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface; used for aggregation.
 
 ### -param riid [in]
 
@@ -64,7 +64,7 @@ The identifier of the interface to proxy.
 
 ### -param ppProxy [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a> interface to control marshaling.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a> interface to control marshaling.
 
 ### -param ppv [out]
 
@@ -76,17 +76,16 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a> interface must not delegate to the outer controlling <b>IUnknown</b>.
+The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a> interface must not delegate to the outer controlling <b>IUnknown</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">IPSFactoryBuffer</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">IPSFactoryBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/proxy">Proxy</a>
-
+<a href="/windows/desktop/com/proxy">Proxy</a>

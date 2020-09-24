@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <b>SCardLocateCards</b> function searches the readers listed in the <i>rgReaderStates</i> parameter for a card with an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ATR string</a> that matches one of the card names specified in <i>mszCards</i>, returning immediately with the result.
+The <b>SCardLocateCards</b> function searches the readers listed in the <i>rgReaderStates</i> parameter for a card with an <a href="/windows/desktop/SecGloss/a-gly">ATR string</a> that matches one of the card names specified in <i>mszCards</i>, returning immediately with the result.
 
 ## -parameters
 
 ### -param hContext [in]
 
-A handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
+A handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
 
 ### -param mszCards [in]
 
@@ -66,7 +66,7 @@ A multiple string that contains the names of the cards to search for.
 
 ### -param rgReaderStates [in, out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a> structures that, on input, specify the readers to search and that, on output, receives the result.
+An array of <a href="/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a> structures that, on input, specify the readers to search and that, on output, receives the result.
 
 ### -param cReaders [in]
 
@@ -100,7 +100,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -109,12 +109,12 @@ An error code. For more information, see
 ## -remarks
 
 This service is especially useful when used in conjunction with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a>. If no matching cards are found by means of <b>SCardLocateCards</b>, the calling application may use <b>SCardGetStatusChange</b> to wait for card availability changes.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a>. If no matching cards are found by means of <b>SCardLocateCards</b>, the calling application may use <b>SCardGetStatusChange</b> to wait for card availability changes.
 
-The <b>SCardLocateCards</b> function is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> tracking function. For more information on other tracking functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-tracking-functions">Smart Card Tracking Functions</a>.
+The <b>SCardLocateCards</b> function is a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> tracking function. For more information on other tracking functions, see 
+<a href="/windows/desktop/SecAuthN/smart-card-tracking-functions">Smart Card Tracking Functions</a>.
 
-Calling this function should be done outside of a transaction. If an application begins a transaction with the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardbegintransaction">SCardBeginTransaction</a> function and then calls this function, it resets the <i>hCard</i> parameter (of type <b>SCARDHANDLE</b>) of the <b>SCardBeginTransaction</b> function.
+Calling this function should be done outside of a transaction. If an application begins a transaction with the <a href="/windows/desktop/api/winscard/nf-winscard-scardbegintransaction">SCardBeginTransaction</a> function and then calls this function, it resets the <i>hCard</i> parameter (of type <b>SCARDHANDLE</b>) of the <b>SCardBeginTransaction</b> function.
 
 <b>Windows Server 2008 R2 and Windows 7:  </b>Calling this function within a transaction could result in your computer becoming unresponsive.
 
@@ -257,17 +257,16 @@ return hr;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a>
+<a href="/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardcancel">SCardCancel</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardcancel">SCardCancel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a>

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Specifies the next action that the WebDAV client should take after  a successful call to the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
+Specifies the next action that the WebDAV client should take after  a successful call to the <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
 
 ## -enum-fields
 
 ### -field DefaultBehavior
 
-Retry the connection request without using the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function. This is the same as the default behavior if no callback function is registered.
+Retry the connection request without using the <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function. This is the same as the default behavior if no callback function is registered.
 
 ### -field RetryRequest
 
-Retry the connection request using the credentials that were retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> function.
+Retry the connection request using the credentials that were retrieved by the <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> function.
 
 ### -field CancelRequest
 
@@ -68,5 +68,4 @@ Cancel the connection request.
 
 ## -remarks
 
-This enumeration provides the values for the <i>NextStep</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
-
+This enumeration provides the values for the <i>NextStep</i> parameter of the <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.

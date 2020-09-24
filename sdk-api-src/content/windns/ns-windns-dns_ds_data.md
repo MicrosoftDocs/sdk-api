@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DNS_DS_DATA</b> structure represents a DS  resource record (RR) as specified in section 2 of  <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a> and is used to verify the contents of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>.
+The <b>DNS_DS_DATA</b> structure represents a DS  resource record (RR) as specified in section 2 of  <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a> and is used to verify the contents of <a href="/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ A value that represents the method to choose which public key is used to verify 
 
 ### -field chAlgorithm
 
-A value that specifies the  algorithm defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The possible values are shown in the following table.
+A value that specifies the  algorithm defined by <a href="/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The possible values are shown in the following table.
 
 <table>
 <tr>
@@ -166,9 +166,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-structures">DNS Structures</a>
+<a href="/windows/desktop/DNS/dns-structures">DNS Structures</a>
 
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-

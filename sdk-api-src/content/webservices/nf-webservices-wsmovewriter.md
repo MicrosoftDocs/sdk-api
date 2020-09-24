@@ -68,7 +68,7 @@ If this is non-<b>NULL</b>, then whether or not the new position could be moved 
         
 
 If this is <b>NULL</b>, and the position could not be moved to, then the function will return <b>WS_E_INVALID_FORMAT</b>.
-        (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+        (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 ### -param error [in, optional]
 
@@ -120,7 +120,7 @@ The input data was not in the expected format or did not have the expected value
 
 ## -remarks
 
-This can only be used on a writer that is set to an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
+This can only be used on a writer that is set to an <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
       
 
 If the found parameter is not <b>NULL</b>, then it will indicate there whether or not it could
@@ -131,4 +131,3 @@ If the found parameter is <b>NULL</b>, and the requested node is not found, it w
       
 
 Once positioned, the writer will then insert new data before the position specified.
-

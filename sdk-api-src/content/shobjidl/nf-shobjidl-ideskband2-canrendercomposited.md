@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Indicates the deskband's ability to be displayed as translucent.
-<div class="alert"><b>Important</b>  You should use <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
+<div class="alert"><b>Important</b>  You should use <a href="/windows/desktop/shell/taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
 
 ## -parameters
 
@@ -66,4 +66,3 @@ When this method returns, contains a <b>BOOL</b> indicating ability.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

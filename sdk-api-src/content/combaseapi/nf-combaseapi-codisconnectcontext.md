@@ -113,7 +113,7 @@ The current context cannot be disconnected.
 </dl>
 </td>
 <td width="60%">
-An object tried to call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectcontext">CoDisconnectContext</a> on the context it is residing in. This would cause the function to time-out and deadlock if <i>dwTimeout</i> were set to INFINITE.
+An object tried to call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectcontext">CoDisconnectContext</a> on the context it is residing in. This would cause the function to time-out and deadlock if <i>dwTimeout</i> were set to INFINITE.
 
 
 </td>
@@ -124,7 +124,7 @@ An object tried to call <a href="https://docs.microsoft.com/windows/desktop/api/
 
 The <b>CoDisconnectContext</b> function is used to support unloading services in shared service hosts where you must unload your service's binaries without affecting other COM servers that are running in the same process. If you control the process lifetime and you do not unload until the process exits, the COM infrastructure will perform the necessary cleanup automatically and you do not have to call this function.
 
-The <b>CoDisconnectContext</b> function enables a server to correctly disconnect all external clients of all objects in the current context. Default contexts cannot be disconnected. To use <b>CoDisconnectContext</b>, you must first create a context that can be disconnected and register your class factories for objects from which you want to disconnect within that context. You can do this with the <a href="https://docs.microsoft.com/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a> interface.
+The <b>CoDisconnectContext</b> function enables a server to correctly disconnect all external clients of all objects in the current context. Default contexts cannot be disconnected. To use <b>CoDisconnectContext</b>, you must first create a context that can be disconnected and register your class factories for objects from which you want to disconnect within that context. You can do this with the <a href="/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a> interface.
 
 
 
@@ -139,7 +139,7 @@ It is not safe to unload the DLL that hosts the service until <b>CoDisconnectCon
 The <b>CoDisconnectContext</b> function performs the following tasks:
 
 <ul>
-<li>Calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a> on all objects in the current context.</li>
+<li>Calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a> on all objects in the current context.</li>
 <li>Blocks until all objects have been disconnected or the time-out has expired.</li>
 </ul>
 The <b>CoDisconnectContext</b> function has the following limitations:
@@ -182,9 +182,8 @@ HRESULT __stdcall DisconnectCallback(ComCallData *pv)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>
-
+<a href="/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>

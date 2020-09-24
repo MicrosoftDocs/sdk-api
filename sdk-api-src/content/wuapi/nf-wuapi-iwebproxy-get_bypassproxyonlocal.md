@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-The value of the <b>BypassProxyOnLocal</b> property is ignored if the value of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_autodetect">AutoDetect</a> property is set to <b>VARIANT_TRUE</b>.
+The value of the <b>BypassProxyOnLocal</b> property is ignored if the value of the <a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_autodetect">AutoDetect</a> property is set to <b>VARIANT_TRUE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Called from the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> interface to enumerate the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> interfaces that are implemented.
+Called from the <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> interface to enumerate the <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> interfaces that are implemented.
 
 ## -parameters
 
 ### -param refiid [in]
 
-IID of the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> interface. This IID is defined in Imepad.h as <b>IID_IImePadApplet</b>. This is for <b>IImePadApplet</b>'s future enhancement
+IID of the <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> interface. This IID is defined in Imepad.h as <b>IID_IImePadApplet</b>. This is for <b>IImePadApplet</b>'s future enhancement
 
 ### -param lpIIDList [in, out]
 
@@ -68,5 +68,4 @@ Pointer to a APPLETIIDLIST structure. Sets the applet's IID list and count.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimespecifyapplets">IImeSpecifyApplets</a>
-
+<a href="/windows/desktop/api/imepad/nn-imepad-iimespecifyapplets">IImeSpecifyApplets</a>

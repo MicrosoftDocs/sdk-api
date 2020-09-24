@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>.
+The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in <a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ This calculation accounts for the minimum size of the DD_MORESURFACECAPS structu
 
 ### -field ddsCapsMore
 
-Specifies a DDSCAPSEX structure that provides the extensions to <b>ddcaps.ddsCaps</b> that describe the types of extended surfaces the driver can create. When a DDCAPS structure is returned to the application, it is a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure manufactured from <b>DDCAPS.ddsCaps</b> and <b>DD_MORESURFACECAPS.ddsCapsMore</b>. A DDSCAPSEX structure is the same as a DDSCAPS2 structure without the <b>dwCaps</b> member.
+Specifies a DDSCAPSEX structure that provides the extensions to <b>ddcaps.ddsCaps</b> that describe the types of extended surfaces the driver can create. When a DDCAPS structure is returned to the application, it is a <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure manufactured from <b>DDCAPS.ddsCaps</b> and <b>DD_MORESURFACECAPS.ddsCapsMore</b>. A DDSCAPSEX structure is the same as a DDSCAPS2 structure without the <b>dwCaps</b> member.
 
 ### -field tagNTExtendedHeapRestrictions
 
@@ -104,9 +104,8 @@ This structure contains the caps bits added to the <b>DDCAPS.ddsCaps</b> structu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
+<a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a>

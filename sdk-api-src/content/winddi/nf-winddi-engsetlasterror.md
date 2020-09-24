@@ -70,5 +70,4 @@ Only the last error code to be set is retrievable; that is, consecutive calls to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetlasterror">EngGetLastError</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-enggetlasterror">EngGetLastError</a>

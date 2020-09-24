@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Provides the methods to access the property sheet settings of a task.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideTaskPage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProvideTaskPage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideTaskPage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProvideTaskPage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IProvideTaskPage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-iprovidetaskpage-getpage">GetPage</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-iprovidetaskpage-getpage">GetPage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property sheet pages associated with a task.
@@ -82,22 +82,21 @@ Retrieves the property sheet pages associated with a task.
 
 ## -remarks
 
-This is the primary interface of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task object</a>. To create a task object, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a> for existing tasks or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">ITaskScheduler::NewWorkItem</a> for new tasks.
+This is the primary interface of the <a href="/windows/desktop/TaskSchd/t">task object</a>. To create a task object, call 
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a> for existing tasks or 
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">ITaskScheduler::NewWorkItem</a> for new tasks.
 
 
 #### Examples
 
-For more information and example code for this interface, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-retrieving-a-task-page">C/C++ Code Example: Retrieving a Task Page</a>.
+For more information and example code for this interface, see <a href="/windows/desktop/TaskSchd/c-c-code-example-retrieving-a-task-page">C/C++ Code Example: Retrieving a Task Page</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">ITaskScheduler::NewWorkItem</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">ITaskScheduler::NewWorkItem</a>

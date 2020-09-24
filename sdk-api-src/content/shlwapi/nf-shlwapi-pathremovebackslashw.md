@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Removes the trailing backslash from a given path.
-<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslash">PathCchRemoveBackslash</a> or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslashex">PathCchRemoveBackslashEx</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslash">PathCchRemoveBackslash</a> or <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslashex">PathCchRemoveBackslashEx</a> function in its place.</div><div> </div>
 
 ## -parameters
 
@@ -77,4 +77,3 @@ A pointer that, when this function returns successfully and if a backslash has b
 
 > [!NOTE]
 > The shlwapi.h header defines PathRemoveBackslash as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

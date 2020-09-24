@@ -64,21 +64,20 @@ The flick action is a Scroll Down command.
 
 ## -remarks
 
-When the user performs a pen flick that is assigned to a scrolling command, the <a href="https://docs.microsoft.com/windows/desktop/tablet/wm-tablet-flick-message">WM_TABLET_FLICK Message</a> sends the direction of the scrolling command as part of the <a href="https://docs.microsoft.com/windows/desktop/api/tabflicks/ns-tabflicks-flick_data">FLICK_DATA Structure</a>.
+When the user performs a pen flick that is assigned to a scrolling command, the <a href="/windows/desktop/tablet/wm-tablet-flick-message">WM_TABLET_FLICK Message</a> sends the direction of the scrolling command as part of the <a href="/windows/desktop/api/tabflicks/ns-tabflicks-flick_data">FLICK_DATA Structure</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tabflicks/ns-tabflicks-flick_data">flick_data structure</a>
+<a href="/windows/desktop/api/tabflicks/ns-tabflicks-flick_data">flick_data structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">flicks gestures</a>
+<a href="/windows/desktop/tablet/flicks-gestures">flicks gestures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms703447(v=vs.85)">responding to pen flicks</a>
+<a href="/previous-versions/windows/desktop/ms703447(v=vs.85)">responding to pen flicks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/wm-tablet-flick-message">wm_tablet_flick message</a>
-
+<a href="/windows/desktop/tablet/wm-tablet-flick-message">wm_tablet_flick message</a>

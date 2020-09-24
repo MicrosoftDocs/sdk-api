@@ -90,39 +90,38 @@ An asynchronous session.
 
 ### -param callback [in, optional]
 
-If the session is asynchronous, this parameter can be a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a> callback function.
+If the session is asynchronous, this parameter can be a pointer to a <a href="/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a> callback function.
 
 ## -returns
 
 If the function succeeds, the return value is a handle to the newly created session.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-When you have finished using the session, call the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a> function.
+When you have finished using the session, call the <a href="/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/using-wct">Using WCT</a>.
+<a href="/windows/desktop/Debug/using-wct">Using WCT</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a>
+<a href="/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
+<a href="/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/wait-chain-traversal">Wait Chain Traversal</a>
+<a href="/windows/desktop/Debug/wait-chain-traversal">Wait Chain Traversal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a>
-
+<a href="/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a>

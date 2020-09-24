@@ -56,33 +56,32 @@ Specifies how the desktop wallpaper should be displayed.
 
 ### -field DWPOS_CENTER
 
-Center the image; do not stretch. This is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_CENTER</a> style in <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
+Center the image; do not stretch. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_CENTER</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
 ### -field DWPOS_TILE
 
-Tile the image across all monitors. This is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_TILE</a> style in <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
+Tile the image across all monitors. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_TILE</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
 ### -field DWPOS_STRETCH
 
-Stretch the image to exactly fit on the monitor. This is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_STRETCH</a> style in <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
+Stretch the image to exactly fit on the monitor. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_STRETCH</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
 ### -field DWPOS_FIT
 
-Stretch the image to exactly the height or width of the monitor without changing its aspect ratio or cropping the image. This can result in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getbackgroundcolor">colored letterbox bars</a> on either side or on above and below of the image. This is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_KEEPASPECT</a> style in <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
+Stretch the image to exactly the height or width of the monitor without changing its aspect ratio or cropping the image. This can result in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getbackgroundcolor">colored letterbox bars</a> on either side or on above and below of the image. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_KEEPASPECT</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
 ### -field DWPOS_FILL
 
-Stretch the image to fill the screen, cropping the image as necessary to avoid letterbox bars. This is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_CROPTOFIT</a> style in <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
+Stretch the image to fill the screen, cropping the image as necessary to avoid letterbox bars. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_CROPTOFIT</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
 ### -field DWPOS_SPAN
 
-Spans a single image across all monitors attached to the system. This flag has no <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> equivalent.
+Spans a single image across all monitors attached to the system. This flag has no <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> equivalent.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getposition">IDesktopWallpaper::GetPosition</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getposition">IDesktopWallpaper::GetPosition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setposition">IDesktopWallpaper::SetPosition</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setposition">IDesktopWallpaper::SetPosition</a>

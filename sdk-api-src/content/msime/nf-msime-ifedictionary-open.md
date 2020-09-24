@@ -52,7 +52,7 @@ api_name:
 
 Opens a dictionary file.
 
-This method opens an existing dictionary file and associates it with this <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object. To implement a multiple dictionary facility, multiple open and release procedures must be carried out.
+This method opens an existing dictionary file and associates it with this <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object. To implement a multiple dictionary facility, multiple open and release procedures must be carried out.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Points to a <b>NULL</b>-terminated file name string to be opened. If <i>pchDictP
 
 ### -param pshf [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header of the opened file. Can be <b>NULL</b>.
+The <a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header of the opened file. Can be <b>NULL</b>.
 
 ## -returns
 
@@ -79,9 +79,8 @@ One of the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
-
+<a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>

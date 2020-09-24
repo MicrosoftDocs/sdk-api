@@ -58,9 +58,8 @@ Represents an element, attribute, or CDATA content.
 
 ### -field node
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a>.
 
 ### -field text
 
 The text content.
-

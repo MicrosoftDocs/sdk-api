@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The DDVIDEOPORTDATA structure is used by DirectDraw to represent a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object to the kernel-mode video miniport driver.
+The DDVIDEOPORTDATA structure is used by DirectDraw to represent a <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object to the kernel-mode video miniport driver.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Specifies the ID of this hardware video port, an integer in the range (0 - (maxi
 
 ### -field dwVPFlags
 
-Indicates a set of flags that specify the current user mode DDVP_<i>Xxx</i> flags set by <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>. This member can be a bitwise OR of any of the following flags:
+Indicates a set of flags that specify the current user mode DDVP_<i>Xxx</i> flags set by <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>. This member can be a bitwise OR of any of the following flags:
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ DDVP_IGNOREVBIXCROP
 
 </td>
 <td>
-The video data should ignore the left and right cropping coordinates when cropping the <a href="https://docs.microsoft.com/windows-hardware/drivers/">vertical blanking interval (VBI)</a> data.
+The video data should ignore the left and right cropping coordinates when cropping the <a href="/windows-hardware/drivers/">vertical blanking interval (VBI)</a> data.
 
 </td>
 </tr>
@@ -257,5 +257,4 @@ Reserved for use by the miniport driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>

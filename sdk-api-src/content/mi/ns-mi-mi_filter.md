@@ -52,15 +52,14 @@ api_name:
 
 ## -description
 
-Contains a reference to the function table <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_filterft">MI_FilterFT</a>.
+Contains a reference to the function table <a href="/windows/desktop/api/mi/ns-mi-mi_filterft">MI_FilterFT</a>.
 
 ## -struct-fields
 
 ### -field ft
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_filterft">MI_FilterFT</a> function table.
+Pointer to the <a href="/windows/desktop/api/mi/ns-mi-mi_filterft">MI_FilterFT</a> function table.
 
 ### -field reserved
 
 Reserved for internal use.
-

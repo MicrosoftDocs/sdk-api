@@ -52,14 +52,14 @@ api_name:
 
 ## -description
 
-Retrieves the value associated with the specified variable name from the <a href="https://docs.microsoft.com/windows/desktop/Debug/source-server-and-source-indexing">Source Server</a> token.
+Retrieves the value associated with the specified variable name from the <a href="/windows/desktop/Debug/source-server-and-source-indexing">Source Server</a> token.
 
 ## -parameters
 
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param Token [in]
 
@@ -87,7 +87,7 @@ The size of the <i>Value</i> buffer, in characters.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -100,4 +100,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 > [!NOTE]
 > The dbghelp.h header defines SymGetSourceVarFromToken as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

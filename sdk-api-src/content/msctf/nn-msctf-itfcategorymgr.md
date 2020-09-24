@@ -58,7 +58,7 @@ The category manager uses an internal table, accessed with keys called GUID atom
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCategoryMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCategoryMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCategoryMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCategoryMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITfCategoryMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumcategoriesinitem">EnumCategoriesInItem</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumcategoriesinitem">EnumCategoriesInItem</a>
 </td>
 <td align="left" width="63%">
 Obtains an IEnumGUID interface that enumerates all categories to which the specified GUID belongs.
@@ -82,7 +82,7 @@ Obtains an IEnumGUID interface that enumerates all categories to which the speci
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumitemsincategory">EnumItemsInCategory</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumitemsincategory">EnumItemsInCategory</a>
 </td>
 <td align="left" width="63%">
 Obtains an IEnumGUID interface that enumerates all GUIDs included in the specified category.
@@ -91,7 +91,7 @@ Obtains an IEnumGUID interface that enumerates all GUIDs included in the specifi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-findclosestcategory">FindClosestCategory</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-findclosestcategory">FindClosestCategory</a>
 </td>
 <td align="left" width="63%">
 Finds the category closest to the specified GUID from a list of categories.
@@ -100,7 +100,7 @@ Finds the category closest to the specified GUID from a list of categories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguid">GetGUID</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguid">GetGUID</a>
 </td>
 <td align="left" width="63%">
 Obtains a GUID from the internal table using its atom.
@@ -109,7 +109,7 @@ Obtains a GUID from the internal table using its atom.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddescription">GetGUIDDescription</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddescription">GetGUIDDescription</a>
 </td>
 <td align="left" width="63%">
 Obtains the description of the specified GUID from the Windows registry.
@@ -118,7 +118,7 @@ Obtains the description of the specified GUID from the Windows registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddword">GetGUIDDWORD</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddword">GetGUIDDWORD</a>
 </td>
 <td align="left" width="63%">
 Obtains the DWORD value of the specified GUID from the Windows registry.
@@ -127,7 +127,7 @@ Obtains the DWORD value of the specified GUID from the Windows registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-isequaltfguidatom">IsEqualTfGuidAtom</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-isequaltfguidatom">IsEqualTfGuidAtom</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified atom represents the specified GUID in the internal table.
@@ -136,7 +136,7 @@ Determines whether the specified atom represents the specified GUID in the inter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">RegisterCategory</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">RegisterCategory</a>
 </td>
 <td align="left" width="63%">
 Adds a specified GUID to the specified category in the Windows registry.
@@ -145,7 +145,7 @@ Adds a specified GUID to the specified category in the Windows registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguid">RegisterGUID</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguid">RegisterGUID</a>
 </td>
 <td align="left" width="63%">
 Adds a GUID to the internal table and obtains an atom for the GUID.
@@ -154,7 +154,7 @@ Adds a GUID to the internal table and obtains an atom for the GUID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddescription">RegisterGUIDDescription</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddescription">RegisterGUIDDescription</a>
 </td>
 <td align="left" width="63%">
 Enters a description for a GUID previously registered in the Windows registry.
@@ -163,7 +163,7 @@ Enters a description for a GUID previously registered in the Windows registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddword">RegisterGUIDDWORD</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddword">RegisterGUIDDWORD</a>
 </td>
 <td align="left" width="63%">
 Enters a DWORD value for a GUID previously registered in the Windows registry.
@@ -172,7 +172,7 @@ Enters a DWORD value for a GUID previously registered in the Windows registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregistercategory">UnregisterCategory</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregistercategory">UnregisterCategory</a>
 </td>
 <td align="left" width="63%">
 Removes a specified GUID from the specified category in the Windows registry.
@@ -181,7 +181,7 @@ Removes a specified GUID from the specified category in the Windows registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddescription">UnregisterGUIDDescription</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddescription">UnregisterGUIDDescription</a>
 </td>
 <td align="left" width="63%">
 Removes the description for a GUID from the Windows registry.
@@ -190,7 +190,7 @@ Removes the description for a GUID from the Windows registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddword">UnregisterGUIDDWORD</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddword">UnregisterGUIDDWORD</a>
 </td>
 <td align="left" width="63%">
 Removes the DWORD value for a GUID from the Windows registry.
@@ -201,9 +201,8 @@ Removes the DWORD value for a GUID from the Windows registry.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Count</b> property gets the number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configurations  in the configuration set.
+The <b>Count</b> property gets the number of <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configurations  in the configuration set.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>

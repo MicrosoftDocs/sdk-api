@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertAddStoreToCollection</b> function adds a sibling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> to a collection certificate store. When a certificate store has been added to a collection store, all of the certificates, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs) in the store that has been added to the collection store can be retrieved by using find or enumerate function calls that use the collection store.
+The <b>CertAddStoreToCollection</b> function adds a sibling <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> to a collection certificate store. When a certificate store has been added to a collection store, all of the certificates, <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), and <a href="/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs) in the store that has been added to the collection store can be retrieved by using find or enumerate function calls that use the collection store.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Handle of a sibling store to be added to the collection store. For more informat
 
 ### -param dwUpdateFlags [in]
 
-Indicates whether <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificates</a>, CRLs, and CTLs can be added to the new sibling store member of the collection store. To enable addition, set <i>dwUpdateFlag</i> to CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG.   To disable additions, set <i>dwUpdateFlag</i> to zero.
+Indicates whether <a href="/windows/desktop/SecGloss/c-gly">certificates</a>, CRLs, and CTLs can be added to the new sibling store member of the collection store. To enable addition, set <i>dwUpdateFlag</i> to CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG.   To disable additions, set <i>dwUpdateFlag</i> to zero.
 
 ### -param dwPriority [in]
 
@@ -78,19 +78,19 @@ If the function fails, it returns zero and the store was not added.
 
 ## -remarks
 
-A collection store has the same <b>HCERTSTORE</b> handle as a single store; thus, almost all functions that apply to any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> also apply to any collection store. Enumeration and search processes span all of the stores in a collection store; however, functions such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore">CertAddCertificateLinkToStore</a> that add links to stores cannot be used with collection stores.
+A collection store has the same <b>HCERTSTORE</b> handle as a single store; thus, almost all functions that apply to any <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> also apply to any collection store. Enumeration and search processes span all of the stores in a collection store; however, functions such as 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore">CertAddCertificateLinkToStore</a> that add links to stores cannot be used with collection stores.
 
 When a certificate, CRL, or CTL is added to a collection store, the list of sibling stores in the collection is searched in priority order to find the first store that allows adding. Adding is enabled if CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG was set in the <b>CertAddStoreToCollection</b> call. With any function that adds elements to a store, if a store that allows adding does not return success, the addition function continues on to the next store without providing notification.
 
 When a collection store and its sibling stores are closed with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> using CERT_CLOSE_STORE_FORCE_FLAG, the collection store must be closed before its sibling stores. If CERT_CLOSE_STORE_FORCE_FLAG is not used, the stores can be closed in any order.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> using CERT_CLOSE_STORE_FORCE_FLAG, the collection store must be closed before its sibling stores. If CERT_CLOSE_STORE_FORCE_FLAG is not used, the stores can be closed in any order.
 
 
 #### Examples
 
 The following example shows adding a sibling certificate store to a collection certificate store. For a full example including the complete context for this example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-collection-and-sibling-certificate-store-operations">Example C Program: Collection and Sibling Certificate Store Operations</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-collection-and-sibling-certificate-store-operations">Example C Program: Collection and Sibling Certificate Store Operations</a>.
 
 
 ```cpp
@@ -202,9 +202,8 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certremovestorefromcollection">CertRemoveStoreFromCollection</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certremovestorefromcollection">CertRemoveStoreFromCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>

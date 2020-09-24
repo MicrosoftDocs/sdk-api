@@ -56,7 +56,7 @@ Creates the remote desktop plug-in object. Use this object if the application is
 
 ### -param ppPlugin
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfremotedesktopplugin">IMFRemoteDesktopPlugin</a> interface of the plug-in object. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfremotedesktopplugin">IMFRemoteDesktopPlugin</a> interface of the plug-in object. The caller must release the interface.
 
 ## -returns
 
@@ -94,5 +94,4 @@ Remote desktop connections are not allowed by the current session policy.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

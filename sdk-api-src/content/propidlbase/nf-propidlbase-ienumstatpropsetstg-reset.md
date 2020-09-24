@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure array.
+The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure array.
 
 ## -parameters
 
@@ -75,4 +75,3 @@ The enumeration sequence was successfully reset to the beginning of the enumerat
 </td>
 </tr>
 </table>
-

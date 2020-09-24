@@ -58,7 +58,7 @@ Retrieves the average frames per second from a video stream.
 
 ### -param pFrameTime [out]
 
-Pointer to a <b>STREAM_TIME</b> value that indicates the average time per frame in 100-nanosecond units. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/multimedia-streaming-data-types">Multimedia Streaming Data Types</a>.)
+Pointer to a <b>STREAM_TIME</b> value that indicates the average time per frame in 100-nanosecond units. (See <a href="/windows/desktop/DirectShow/multimedia-streaming-data-types">Multimedia Streaming Data Types</a>.)
 
 ## -returns
 
@@ -66,5 +66,4 @@ Returns S_OK if successful or E_POINTER if the pointer is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
-
+<a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>

@@ -86,13 +86,12 @@ This method validates that the endpoint specified in <i>bstrOutputDevice</i> is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">About MMDevice API</a>
+<a href="/windows/desktop/CoreAudio/mmdevice-api">About MMDevice API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig">IWMPAudioRenderConfig</a>
-
+<a href="/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig">IWMPAudioRenderConfig</a>

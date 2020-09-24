@@ -67,5 +67,4 @@ This macro is defined as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling</a>
-
+<a href="/windows/desktop/com/error-handling-in-com">Error Handling</a>

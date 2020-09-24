@@ -168,9 +168,8 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdecodercaps">IDvdInfo2::GetDecoderCaps</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdecodercaps">IDvdInfo2::GetDecoderCaps</a>

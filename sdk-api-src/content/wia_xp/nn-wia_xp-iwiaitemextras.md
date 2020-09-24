@@ -54,7 +54,7 @@ The <b>IWiaItemExtras</b> interface provides several methods that enable applica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaItemExtras</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaItemExtras</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaItemExtras</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaItemExtras</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,28 +69,28 @@ The <b>IWiaItemExtras</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-cancelpendingio">CancelPendingIO</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-cancelpendingio">CancelPendingIO</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-cancelpendingio">IWiaItemExtras::CancelPendingIO</a> method cancels all pending input/output operations on the driver.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-cancelpendingio">IWiaItemExtras::CancelPendingIO</a> method cancels all pending input/output operations on the driver.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-escape">Escape</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-escape">Escape</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-escape">IWiaItemExtras::Escape</a> method sends a request for a vendor-specific I/O operation to a still image device.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-escape">IWiaItemExtras::Escape</a> method sends a request for a vendor-specific I/O operation to a still image device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-getextendederrorinfo">GetExtendedErrorInfo</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-getextendederrorinfo">GetExtendedErrorInfo</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-getextendederrorinfo">IWiaItemExtras::GetExtendedErrorInfo</a> method gets a string from the device driver that contains information about the most recent error. Call this method after an error during an operation on a WIA item (such as data transfer).
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-getextendederrorinfo">IWiaItemExtras::GetExtendedErrorInfo</a> method gets a string from the device driver that contains information about the most recent error. Call this method after an error during an operation on a WIA item (such as data transfer).
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwi
 
 ## -remarks
 
-The <b>IWiaItemExtras</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
+The <b>IWiaItemExtras</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
 <table class="clsStd">
 <tr>
@@ -107,21 +107,20 @@ The <b>IWiaItemExtras</b> interface, like all Component Object Model (COM) inter
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a>
 </td>
 <td>Increments reference count.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
 </td>
 <td>Decrements reference count.</td>
 </tr>
 </table>
-

@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Specifies a buffer for the 
-        <a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3ddxvadevice9-execute">IDirect3DDXVADevice9::Execute</a>  method.
+        <a href="/windows/desktop/medfound/idirect3ddxvadevice9-execute">IDirect3DDXVADevice9::Execute</a>  method.
 
 ## -struct-fields
 
@@ -71,9 +71,8 @@ The size of the relevant data in the buffer, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3ddxvadevice9">IDirect3DDXVADevice9</a>
-
+<a href="/windows/desktop/medfound/idirect3ddxvadevice9">IDirect3DDXVADevice9</a>

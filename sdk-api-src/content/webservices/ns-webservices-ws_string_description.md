@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-This type description is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a> and is optional.
+This type description is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a> and is optional.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
 
@@ -65,4 +65,3 @@ Specifies the minimum number of characters.
 ### -field maxCharCount
 
 Specifies the maximum number of characters.
-

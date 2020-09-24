@@ -55,21 +55,21 @@ api_name:
 ## -description
 
 Contains information returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function.
+<a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function.
 
 ## -struct-fields
 
 ### -field ModuleWriteFlags
 
 The module write operation flags. This member can be one or more of the values in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
 
 This member is ignored unless the callback type is <b>IncludeModuleCallback</b> or <b>ModuleCallback</b>.
 
 ### -field ThreadWriteFlags
 
 The thread write operation flags. This member can be one or more of the values in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
 
 This member is ignored unless the callback type is <b>IncludeThreadCallback</b>, <b>ThreadCallback</b>, or <b>ThreadExCallback</b>.
 
@@ -99,7 +99,7 @@ This member is ignored unless the callback type is <b>CancelCallback</b>.
 
 ### -field Cancel
 
-Controls whether the dump should be canceled. If the callback function returns <b>TRUE</b> and <b>Cancel</b> is <b>TRUE</b>, the dump will be canceled. In this case, the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function fails and the dump is not valid.
+Controls whether the dump should be canceled. If the callback function returns <b>TRUE</b> and <b>Cancel</b> is <b>TRUE</b>, the dump will be canceled. In this case, the <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function fails and the dump is not valid.
 
 This member is ignored unless the callback type is <b>CancelCallback</b>.
 
@@ -111,13 +111,13 @@ This member is ignored unless the callback type is <b>WriteKernelMinidumpCallbac
 
 ### -field VmRegion
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info">MINIDUMP_MEMORY_INFO</a> structure that describes the virtual memory region. The region base and size must be aligned on a page boundary. The region size can be set to 0 to filter out the region.
+A <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info">MINIDUMP_MEMORY_INFO</a> structure that describes the virtual memory region. The region base and size must be aligned on a page boundary. The region size can be set to 0 to filter out the region.
 
 This member is ignored unless the callback type is <b>IncludeVmRegionCallback</b>.
 
 ### -field Continue
 
-Controls whether the dump should be continued. If the callback function returns <b>TRUE</b> and <b>Continue</b> is <b>TRUE</b>, the dump will be continued. Otherwise, the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function fails and the dump is not valid.
+Controls whether the dump should be continued. If the callback function returns <b>TRUE</b> and <b>Continue</b> is <b>TRUE</b>, the dump will be continued. Otherwise, the <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function fails and the dump is not valid.
 
 This member is ignored unless the callback type is <b>IncludeVmRegionCallback</b>.
 
@@ -137,13 +137,12 @@ This member is ignored unless the callback type is <b>ReadMemoryFailureCallback<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a>
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
+<a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a>
-
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a>

@@ -94,5 +94,4 @@ Failed to subscribe to the event source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>

@@ -67,7 +67,7 @@ The service provider's handle to the call to be dropped. The call state of <i>hd
 ### -param lpsUserUserInfo
 
 This pointer is only valid if <b>dwSize</b> is nonzero. It specifies a pointer to a <b>null</b>-terminated string containing user-user information to be sent to the remote party as part of the call disconnect. This pointer is <b>NULL</b> if no user-user information is to be sent. User-user information is only sent if supported by the underlying network (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
 
 ### -param dwSize
 
@@ -76,7 +76,7 @@ The size in bytes of the user-user information in <i>lpsUserUserInfo</i>. If <i>
 ## -returns
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSTATE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_USERUSERINFOTOOBIG, LINEERR_OPERATIONUNAVAIL.
 
@@ -86,7 +86,7 @@ The service provider returns LINEERR_INVALCALLSTATE if the current state of the 
 
 When invoking 
 <b>TSPI_lineDrop</b>, related calls can sometimes be affected as well. For example, dropping a conference call may drop all individual participating calls. 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a> messages are sent to TAPI for all calls whose call state is affected. Typically, a dropped call transitions to the <i>idle</i> state. Invoking 
+<a href="/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a> messages are sent to TAPI for all calls whose call state is affected. Typically, a dropped call transitions to the <i>idle</i> state. Invoking 
 <b>TSPI_lineDrop</b> on a call in the <i>offering</i> state rejects the call. Not all telephone networks provide this capability.
 
 In situations where the call to be dropped is a consultation call established during transfer or conference call establishment, the original call that was placed in the <i>OnHoldPending</i> state is reconnected to and it typically re-enters the <i>connected</i> call state.
@@ -99,17 +99,16 @@ TAPI has the option to send user-user information at the time of the drop. Even 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>

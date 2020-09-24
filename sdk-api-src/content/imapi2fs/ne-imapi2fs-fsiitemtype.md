@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines values for the file system item that was found using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-exists">IFileSystemImage::Exists</a> method.
+Defines values for the file system item that was found using the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-exists">IFileSystemImage::Exists</a> method.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ The specified item is a file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-exists">IFileSystemImage::Exists</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-exists">IFileSystemImage::Exists</a>

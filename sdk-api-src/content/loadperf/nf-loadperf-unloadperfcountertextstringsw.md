@@ -58,7 +58,7 @@ Unloads performance objects and counters from the computer for the specified app
 
 ### -param lpCommandLine [in]
 
-Null-terminated string that consists of one or more arbitrary letters, a space, and then the name of the application. The name of the application must match the <b>drivername</b> key value found in the initialization (.ini) file used to <a href="https://docs.microsoft.com/windows/desktop/api/loadperf/nf-loadperf-loadperfcountertextstringsa">load the text strings</a>.
+Null-terminated string that consists of one or more arbitrary letters, a space, and then the name of the application. The name of the application must match the <b>drivername</b> key value found in the initialization (.ini) file used to <a href="/windows/desktop/api/loadperf/nf-loadperf-loadperfcountertextstringsa">load the text strings</a>.
 
 ### -param bQuietModeArg [in]
 
@@ -70,11 +70,11 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
 
-This function provides an API to the functionality provided by <b>Unlodctr</b> tool. For more information, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/removing-counter-names-and-descriptions-from-the-registry">Removing Counter Names and Descriptions from the Registry</a>.
+This function provides an API to the functionality provided by <b>Unlodctr</b> tool. For more information, see <a href="/windows/desktop/PerfCtrs/removing-counter-names-and-descriptions-from-the-registry">Removing Counter Names and Descriptions from the Registry</a>.
 
 
 
@@ -85,5 +85,4 @@ This function provides an API to the functionality provided by <b>Unlodctr</b> t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/loadperf/nf-loadperf-loadperfcountertextstringsa">LoadPerfCounterTextStrings</a>
-
+<a href="/windows/desktop/api/loadperf/nf-loadperf-loadperfcountertextstringsa">LoadPerfCounterTextStrings</a>

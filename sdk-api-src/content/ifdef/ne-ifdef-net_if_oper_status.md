@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The NET_IF_OPER_STATUS enumeration type defines the current 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> operational
+  <a href="/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> operational
   status.
 
 ## -enum-fields
@@ -96,4 +96,3 @@ Specifies that the network interface is not ready to transmit or receive data be
 Specifies that the network interface is not ready to transmit or receive data because underlying
      interfaces are down. This state is more specific than, but similar to, the NET_IF_OPER_STATUS_DOWN
      state.
-

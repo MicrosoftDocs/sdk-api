@@ -67,13 +67,13 @@ Retrieves the position of the mouse cursor, in screen coordinates.
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the screen coordinates of the cursor.
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the screen coordinates of the cursor.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-Returns nonzero if successful or zero otherwise. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns nonzero if successful or zero otherwise. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -81,18 +81,18 @@ The cursor position is always specified in screen coordinates and is not affecte
 
 The calling process must have <b>WINSTA_READATTRIBUTES</b> access to the window station.
 
-The input desktop must be the current desktop when you call <b>GetCursorPos</b>. Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddesktop">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
+The input desktop must be the current desktop when you call <b>GetCursorPos</b>. Call <a href="/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="/windows/desktop/api/winuser/nf-winuser-setthreaddesktop">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-cursors">Using the Keyboard to Move the Cursor</a>.
+For an example, see <a href="/windows/desktop/menurc/using-cursors">Using the Keyboard to Move the Cursor</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
 
 
 
@@ -100,15 +100,15 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessagepos">GetMessagePos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessagepos">GetMessagePos</a>
 
 
 
@@ -116,7 +116,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -124,13 +124,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>

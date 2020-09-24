@@ -54,7 +54,7 @@ Represents a media keys used for decrypting media data using a Digital Rights Ma
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaKeys</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaKeys</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaKeys</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaKeys</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaKeys</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediakeys-createsession">CreateSession</a>
+<a href="/windows/desktop/medfound/imfmediakeys-createsession">CreateSession</a>
 </td>
 <td align="left" width="63%">
 Creates a media key session object using the specified initialization data and custom data.
@@ -80,7 +80,7 @@ Creates a media key session object using the specified initialization data and c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeys-get_keysystem">get_KeySystem</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeys-get_keysystem">get_KeySystem</a>
 </td>
 <td align="left" width="63%">
 Gets the key system string the <b>IMFMediaKeys</b> object was created with.
@@ -89,7 +89,7 @@ Gets the key system string the <b>IMFMediaKeys</b> object was created with.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeys-getsuspendnotify">GetSuspendNotify</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeys-getsuspendnotify">GetSuspendNotify</a>
 </td>
 <td align="left" width="63%">
 Gets the suspend notify interface of the Content Decryption Module (CDM).
@@ -98,7 +98,7 @@ Gets the suspend notify interface of the Content Decryption Module (CDM).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediakeys-shutdown">Shutdown</a>
+<a href="/windows/desktop/medfound/imfmediakeys-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 
@@ -109,5 +109,4 @@ Gets the suspend notify interface of the Content Decryption Module (CDM).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

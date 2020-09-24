@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Performs an operation that applies to a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a>. The 
+    <a href="/previous-versions/windows/desktop/mscs/resource-types">resource type</a>. The 
     <b>PRESOURCE_TYPE_CONTROL_ROUTINE</b> type defines a pointer to this function.
 
 ## -parameters
@@ -62,9 +62,9 @@ Type of resource to be affected by the operation.
 
 ### -param ControlCode [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">Control code</a> that represents the operation to be 
+<a href="/previous-versions/windows/desktop/mscs/about-control-codes">Control code</a> that represents the operation to be 
        performed. For a list of valid values for the <i>ControlCode</i> parameter, see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-control-codes">Resource Type Control Codes</a>.
+       <a href="/previous-versions/windows/desktop/mscs/resource-type-control-codes">Resource Type Control Codes</a>.
 
 ### -param InBuffer [in]
 
@@ -94,7 +94,7 @@ Number of bytes in the buffer pointed to by <i>OutBuffer</i> that actually conta
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error 
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error 
        code.
 
 <table>
@@ -110,7 +110,7 @@ If the operation fails, the function returns a
 </td>
 <td width="60%">
 The resource DLL requested that the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> perform default processing (if any) 
+         <a href="/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> perform default processing (if any) 
          for <i>ControlCode</i> in addition to processing supplied by the DLL (if any).
 
 </td>
@@ -119,19 +119,18 @@ The resource DLL requested that the
 
 ## -remarks
 
-Some control codes should be handled by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>, 
+Some control codes should be handled by the <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>, 
      while others should be left to the Resource Monitor. For effective implementation strategies of the 
      <b>ResourceTypeControl</b> entry-point function, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-resourcetypecontrol">Implementing ResourceTypeControl</a>.
+     <a href="/previous-versions/windows/desktop/mscs/implementing-resourcetypecontrol">Implementing ResourceTypeControl</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
+See <a href="/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>

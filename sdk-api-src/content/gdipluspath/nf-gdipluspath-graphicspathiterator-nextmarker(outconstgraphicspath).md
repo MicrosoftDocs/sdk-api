@@ -57,9 +57,9 @@ The <b>GraphicsPathIterator::NextMarker</b> method gets the next marker-delimite
 
 ### -param path [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved section.
+Pointer to a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved section.
 
 ## -returns
 
@@ -69,16 +69,16 @@ This method returns the number of data points in the retrieved section. If there
 
 ## -remarks
 
-A path has an array of data points that define its lines and curves. You can call a path's <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-setmarker">SetMarker</a> method to designate certain points in the array as markers. Those marker points divide the path into sections.
+A path has an array of data points that define its lines and curves. You can call a path's <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-setmarker">SetMarker</a> method to designate certain points in the array as markers. Those marker points divide the path into sections.
 
-The first time you call the <b>GraphicsPathIterator::NextMarker</b> method of an iterator, it gets the first marker-delimited section of that iterator's associated path. The second time, it gets the second section, and so on. Each time you call <a href="https://docs.microsoft.com/previous-versions/ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a>, it returns the number of data points in the retrieved section. When there are no sections remaining, it returns 0.
+The first time you call the <b>GraphicsPathIterator::NextMarker</b> method of an iterator, it gets the first marker-delimited section of that iterator's associated path. The second time, it gets the second section, and so on. Each time you call <a href="/previous-versions/ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a>, it returns the number of data points in the retrieved section. When there are no sections remaining, it returns 0.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object and adds five figures to the path. The calls to the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-setmarker">SetMarker</a> method place two markers in the path. The first marker is at the end of a figure, and the second marker is in the middle of a figure. The code passes the address of the <b>GraphicsPath</b> object to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. Then the code calls the iterator's <b>GraphicsPathIterator::NextMarker</b> method twice to obtain the second marker-delimited section of the path. Finally, the code draws the retrieved section of the path.
+The following example creates a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object and adds five figures to the path. The calls to the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-setmarker">SetMarker</a> method place two markers in the path. The first marker is at the end of a figure, and the second marker is in the middle of a figure. The code passes the address of the <b>GraphicsPath</b> object to a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. Then the code calls the iterator's <b>GraphicsPathIterator::NextMarker</b> method twice to obtain the second marker-delimited section of the path. Finally, the code draws the retrieved section of the path.
 
 
 ```cpp
@@ -125,29 +125,28 @@ VOID NextMarkerExample(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-getpathdata">GetPathData</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-getpathdata">GetPathData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextsubpath(outconstgraphicspath_outbool)">GraphicsPathIterator::NextSubpath Methods</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextsubpath(outconstgraphicspath_outbool)">GraphicsPathIterator::NextSubpath Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextmarker(outconstgraphicspath)">NextMarker</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextmarker(outconstgraphicspath)">NextMarker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>

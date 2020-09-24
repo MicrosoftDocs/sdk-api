@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides an initializer for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> structure when there is no associated dictionary ID.
+Provides an initializer for a <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> structure when there is no associated dictionary ID.
 
 ## -parameters
 
@@ -67,4 +67,3 @@ The following is example usage:
       
 
 <code>WS_XML_STRING myString = WS_XML_STRING_VALUE("MyString");</code>
-

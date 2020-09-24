@@ -82,9 +82,8 @@ The method succeeded.
 
 ## -remarks
 
-This method is equivalent to setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmresamp-filterquality">MFPKEY_WMRESAMP_FILTERQUALITY</a> property.
+This method is equivalent to setting the <a href="/windows/desktop/medfound/mfpkey-wmresamp-filterquality">MFPKEY_WMRESAMP_FILTERQUALITY</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops">IWMResamplerProps Interface</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops">IWMResamplerProps Interface</a>

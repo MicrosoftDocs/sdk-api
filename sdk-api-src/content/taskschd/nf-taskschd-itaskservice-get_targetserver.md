@@ -63,5 +63,4 @@ This property returns an empty string when the user passes an IP address, Localh
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>

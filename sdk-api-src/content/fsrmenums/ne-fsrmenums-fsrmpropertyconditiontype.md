@@ -118,13 +118,12 @@ The property condition is met if the property value matches the specified patter
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfileconditionproperty-get_operator">IFsrmFileConditionProperty.Operator</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfileconditionproperty-get_operator">IFsrmFileConditionProperty.Operator</a>
 
 
 
-[IFsrmPropertyCondition.Type](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_type)
-
+[IFsrmPropertyCondition.Type](../fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_type.md)

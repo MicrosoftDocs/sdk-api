@@ -70,7 +70,7 @@ The number of elements in the <i>pPacketProperties</i> array.
 
 ### -field pPacketProperties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_property">PACKET_PROPERTY</a> structures.
+An array of <a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_property">PACKET_PROPERTY</a> structures.
 
 ### -field cButtons
 
@@ -86,9 +86,8 @@ The <b>PACKET_DESCRIPTION</b> structure defines the logical layout of the packet
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-addstroke">AddStroke Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-addstroke">AddStroke Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription Function</a>

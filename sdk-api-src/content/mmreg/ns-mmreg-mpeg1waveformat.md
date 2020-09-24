@@ -58,7 +58,7 @@ The <code>MPEG1WAVEFORMAT</code> structure describes the format of MPEG-1 audio 
 
 ### -field wfx
 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains information about the audio format. See Remarks.
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains information about the audio format. See Remarks.
 
 ### -field fwHeadLayer
 
@@ -310,7 +310,7 @@ Specifies the most significant bit of the PTS. The <b>dwPTSLow</b> and <b>dwPTSH
 
 ## -remarks
 
-For MPEG-1 audio, the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure defined in the <b>wfx</b> member must have the following values.
+For MPEG-1 audio, the <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure defined in the <b>wfx</b> member must have the following values.
 
 <table>
 <tr>
@@ -353,15 +353,14 @@ If the bit rate is variable or the sampling frequency is 44.1 kHz, the audio fra
 </tr>
 <tr>
 <td><b>cbSize</b></td>
-<td>Specifies the size of the format data after the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, in bytes. For the standard <b>MPEG1WAVEFORMAT</b> structure, this value is 22 bytes.</td>
+<td>Specifies the size of the format data after the <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, in bytes. For the standard <b>MPEG1WAVEFORMAT</b> structure, this value is 22 bytes.</td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-media-types">MPEG-1 Media Types</a>
-
+<a href="/windows/desktop/DirectShow/mpeg-1-media-types">MPEG-1 Media Types</a>

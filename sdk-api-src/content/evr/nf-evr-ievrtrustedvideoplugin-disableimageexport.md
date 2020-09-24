@@ -83,23 +83,22 @@ The method succeeded.
 
 ## -remarks
 
-An EVR plug-in might expose a way for the application to get a copy of the video frames. For example, the standard EVR presenter implements <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getcurrentimage">IMFVideoDisplayControl::GetCurrentImage</a>.
+An EVR plug-in might expose a way for the application to get a copy of the video frames. For example, the standard EVR presenter implements <a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getcurrentimage">IMFVideoDisplayControl::GetCurrentImage</a>.
 
 If the plug-in supports image exporting, this method enables or disables it. Before this method has been called for the first time, the EVR assumes that the mechanism is enabled.
 
 If the plug-in does not support image exporting, this method should return S_OK and ignore the value of <i>bDisable</i>. If the method fails, the EVR treats it as a failure to enforce the policy, which will probably cause playback to stop.
 
-While image exporting is disabled, any associated export method, such as <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getcurrentimage">GetCurrentImage</a>, should return MF_E_LICENSE_INCORRECT_RIGHTS.
+While image exporting is disabled, any associated export method, such as <a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getcurrentimage">GetCurrentImage</a>, should return MF_E_LICENSE_INCORRECT_RIGHTS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a>
+<a href="/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-
+<a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>

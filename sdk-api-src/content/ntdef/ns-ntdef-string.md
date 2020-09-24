@@ -78,41 +78,40 @@ Pointer to a buffer used to contain a string of characters.
 
 ## -remarks
 
-The <b>ANSI_STRING</b> structure is used to pass ANSI strings. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlinitansistring">RtlInitAnsiString</a> routine to initialize an <b>ANSI_STRING</b>.
+The <b>ANSI_STRING</b> structure is used to pass ANSI strings. Use the <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlinitansistring">RtlInitAnsiString</a> routine to initialize an <b>ANSI_STRING</b>.
 
 If the string is null-terminated, <b>Length</b> does not include the terminating <b>NULL</b>.
 
-The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that if the string is passed to a conversion routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a> the returned string does not exceed the buffer size.
+The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that if the string is passed to a conversion routine such as <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a> the returned string does not exceed the buffer size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff558741(v=vs.85)">OEM_STRING</a>
+<a href="/previous-versions/windows/hardware/drivers/ff558741(v=vs.85)">OEM_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlansistringtounicodesize">RtlAnsiStringToUnicodeSize</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlansistringtounicodesize">RtlAnsiStringToUnicodeSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfreeansistring">RtlFreeAnsiString</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfreeansistring">RtlFreeAnsiString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlinitansistring">RtlInitAnsiString</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlinitansistring">RtlInitAnsiString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansisize">RtlUnicodeStringToAnsiSize</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansisize">RtlUnicodeStringToAnsiSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>
 
 
 
-[UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
-
+[UNICODE_STRING](./ns-ntdef-_unicode_string.md)

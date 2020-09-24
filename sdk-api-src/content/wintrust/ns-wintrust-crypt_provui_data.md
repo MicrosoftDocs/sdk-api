@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPT_PROVUI_DATA</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_PROVUI_DATA</b> structure provides user interface (UI) data for a provider. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a> structure.
+The <b>CRYPT_PROVUI_DATA</b> structure provides user interface (UI) data for a provider. This structure is used by the <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a> structure.
 
 ## -struct-fields
 
@@ -98,5 +98,4 @@ A pointer to a <b>null</b>-terminated string for the text used when a signature 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a>
-
+<a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a>

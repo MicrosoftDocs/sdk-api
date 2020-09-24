@@ -74,7 +74,7 @@ On input, the client must supply a pointer to a buffer.
 
 
 On output, <i>pbBuffer</i> contains one or more sets of MFE statistics. Each set of MFE statistics is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> structure.
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> structure.
 
 ### -param pdwNumEntries [in, out]
 
@@ -100,7 +100,7 @@ Determines the data structure returned.
 </dl>
 </td>
 <td width="60%">
-Include statistics corresponding to <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>.
+Include statistics corresponding to <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Include statistics corresponding to <a href="https://docs.microsoft.com/windows/
 </dl>
 </td>
 <td width="60%">
-Include statistics corresponding to <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a>.
+Include statistics corresponding to <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a>.
 
 </td>
 </tr>
@@ -176,16 +176,16 @@ No more MFE statistics are available. Zero or more sets of MFE statistics were r
 ## -remarks
 
 This function is used to begin sequential retrieval of MFE statistics; use 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfestats">MgmGetNextMfeStats</a> to continue the retrieval process.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfestats">MgmGetNextMfeStats</a> to continue the retrieval process.
 
 In general, to retrieve MFE statistics, first call 
 <b>MgmGetFirstMfeStats</b>. Then, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfestats">MgmGetNextMfeStats</a> one or more times, until there are no more MFEs to return. Each call to 
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfestats">MgmGetNextMfeStats</a> one or more times, until there are no more MFEs to return. Each call to 
 <b>MgmGetNextMfeStats</b> should begin after the last MFE returned by the previous call to 
 <b>MgmGetNextMfeStats</b> (or the initial call to 
 <b>MgmGetFirstMfeStats</b>) To do this, the client specifies the last source and group in the buffer returned by a previous call.
 
-The MFE statistics are returned in either an <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a> structure determined by the <i>dwFlags</i> parameter.
+The MFE statistics are returned in either an <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> or <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a> structure determined by the <i>dwFlags</i> parameter.
 
 <div class="alert"><b>Note</b>  The minimum size of the buffer pointed to by <i>pbBuffer</i> is not fixed; it is different for each set of MFE statistics. Use the 
 <b>sizeof</b> macro to determine the size of each set of statistics returned in the buffer.</div>
@@ -193,17 +193,16 @@ The MFE statistics are returned in either an <a href="https://docs.microsoft.com
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetmfestats">MgmGetMfeStats</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetmfestats">MgmGetMfeStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfestats">MgmGetNextMfeStats</a>
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfestats">MgmGetNextMfeStats</a>

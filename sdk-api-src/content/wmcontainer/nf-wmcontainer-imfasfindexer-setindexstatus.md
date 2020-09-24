@@ -57,7 +57,7 @@ Configures the index for a stream.
 
 ### -param pbIndexDescriptor [in]
 
-The index descriptor to set. The index descriptor is an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_index_descriptor">ASF_INDEX_DESCRIPTOR</a> structure, optionally followed by index-specific data.
+The index descriptor to set. The index descriptor is an <a href="/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_index_descriptor">ASF_INDEX_DESCRIPTOR</a> structure, optionally followed by index-specific data.
 
 ### -param cbIndexDescriptor [in]
 
@@ -102,7 +102,7 @@ At attempt was made to change the index status in a seek-only scenario. For more
 
 ## -remarks
 
-You must make all calls to <b>SetIndexStatus</b> before making any calls to <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-generateindexentries">IMFASFIndexer::GenerateIndexEntries</a>.
+You must make all calls to <b>SetIndexStatus</b> before making any calls to <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-generateindexentries">IMFASFIndexer::GenerateIndexEntries</a>.
 
 The indexer object is configured to create temporal indexes for each stream by default. Call this method only if you want to override the default settings.
 
@@ -110,9 +110,8 @@ You cannot use this method in an index reading scenario.  You can only use this 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>

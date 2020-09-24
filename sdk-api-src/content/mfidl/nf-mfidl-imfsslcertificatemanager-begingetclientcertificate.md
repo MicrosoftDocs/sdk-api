@@ -60,7 +60,7 @@ A null-terminated string that contains the URL for which a client-side SSL certi
 
 ### -param pCallback [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
 
 ### -param pState [in]
 
@@ -72,13 +72,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-When the operation completes, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-endgetclientcertificate">IMFSSLCertificateManager::EndGetClientCertificate</a> to complete the asynchronous request.
+When the operation completes, the callback object's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-endgetclientcertificate">IMFSSLCertificateManager::EndGetClientCertificate</a> to complete the asynchronous request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/calling-asynchronous-methods">Calling Asynchronous Methods</a>
+<a href="/windows/desktop/medfound/calling-asynchronous-methods">Calling Asynchronous Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager">IMFSSLCertificateManager</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager">IMFSSLCertificateManager</a>

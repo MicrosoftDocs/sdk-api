@@ -60,9 +60,9 @@ This property is read/write.
 
 ## -remarks
 
-When reading or writing your own XML for a task, the event subscription is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-subscription-eventtriggertype-element">Subscription</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, the event subscription is specified using the <a href="/windows/desktop/TaskSchd/taskschedulerschema-subscription-eventtriggertype-element">Subscription</a> element of the Task Scheduler schema.
 
-For more information about writing a query string for certain events, see <a href="https://msdn.microsoft.com/library/aa385231(VS.85).aspx">Event Selection</a> and <a href="https://msdn.microsoft.com/library/aa385771(VS.85).aspx">Subscribing to Events</a>.
+For more information about writing a query string for certain events, see <a href="/previous-versions//aa385231(v=vs.85)">Event Selection</a> and <a href="/windows/win32/wes/subscribing-to-events">Subscribing to Events</a>.
 
 
 #### Examples
@@ -81,9 +81,8 @@ The following query string defines a subscription to all level 2 events in the S
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-ieventtrigger">IEventTrigger</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-ieventtrigger">IEventTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

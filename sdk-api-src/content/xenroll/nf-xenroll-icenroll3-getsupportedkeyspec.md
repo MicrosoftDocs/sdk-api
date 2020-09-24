@@ -54,7 +54,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>GetSupportedKeySpec</b> method retrieves information regarding the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) support for signature and/or exchange operations. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a> interface.
+The <b>GetSupportedKeySpec</b> method retrieves information regarding the current <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) support for signature and/or exchange operations. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a> interface.
 
 The values retrieved by this method are dependent upon the current CSP.
 
@@ -62,14 +62,14 @@ The values retrieved by this method are dependent upon the current CSP.
 
 ### -param pdwKeySpec [out]
 
-A pointer to a <b>LONG</b> that receives a bit flag that indicates whether the current CSP supports <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature keys</a>.
+A pointer to a <b>LONG</b> that receives a bit flag that indicates whether the current CSP supports <a href="/windows/desktop/SecGloss/e-gly">exchange</a> and <a href="/windows/desktop/SecGloss/s-gly">signature keys</a>.
 
 ## -returns
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a value that indicates whether the current CSP supports exchange and signature keys. If the CSP does not support this method, an error is returned.
@@ -104,13 +104,12 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>

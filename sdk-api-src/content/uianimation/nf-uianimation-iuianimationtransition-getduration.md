@@ -60,7 +60,7 @@ The duration of the transition, in seconds.
 
 ## -returns
 
-If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 <table>
 <tr>
@@ -93,7 +93,7 @@ The storyboard for this transition is currently in the schedule.
 
 ## -remarks
 
-An application should typically call the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-isdurationknown">IUIAnimationTransition::IsDurationKnown</a> method before calling this method. This method should not be called when the storyboard to which the transition has been added is scheduled or playing.
+An application should typically call the <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-isdurationknown">IUIAnimationTransition::IsDurationKnown</a> method before calling this method. This method should not be called when the storyboard to which the transition has been added is scheduled or playing.
 
 
 #### Examples
@@ -124,9 +124,8 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-isdurationknown">IUIAnimationTransition::IsDurationKnown</a>
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-isdurationknown">IUIAnimationTransition::IsDurationKnown</a>

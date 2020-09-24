@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> instance following the layout of type information.
+Saves the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> instance following the layout of type information.
 
 ## -parameters
 
@@ -133,9 +133,8 @@ The state of the type library is not valid for this operation.
 
 ## -remarks
 
-You should not call any other <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> methods after calling <b>SaveAllChanges</b>.
+You should not call any other <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> methods after calling <b>SaveAllChanges</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>

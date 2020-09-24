@@ -70,9 +70,8 @@ An array of identifiers for the video present targets in the VidPN topology.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-adapter">Adapter</a>
+<a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-adapter">Adapter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>

@@ -56,31 +56,31 @@ Describes the capabilities of a Microsoft Direct3D 11 video processor.
 
 ### -field DeviceCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_device_caps">D3D11_VIDEO_PROCESSOR_DEVICE_CAPS</a>  enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_device_caps">D3D11_VIDEO_PROCESSOR_DEVICE_CAPS</a>  enumeration.
 
 ### -field FeatureCaps
 
-A bitwise <b>OR</b> of zero or more flags from the   <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_feature_caps">D3D11_VIDEO_PROCESSOR_FEATURE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the   <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_feature_caps">D3D11_VIDEO_PROCESSOR_FEATURE_CAPS</a> enumeration.
 
 ### -field FilterCaps
 
-A bitwise <b>OR</b> of zero or more flags from the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_filter_caps">D3D11_VIDEO_PROCESSPR_FILTER_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the  <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_filter_caps">D3D11_VIDEO_PROCESSPR_FILTER_CAPS</a> enumeration.
 
 ### -field InputFormatCaps
 
-A bitwise <b>OR</b> of zero or more flags from the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_format_caps">D3D11_VIDEO_PROCESSOR_FORMAT_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the  <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_format_caps">D3D11_VIDEO_PROCESSOR_FORMAT_CAPS</a> enumeration.
 
 ### -field AutoStreamCaps
 
-A bitwise <b>OR</b> of zero or more flags from the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_auto_stream_caps">D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the  <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_auto_stream_caps">D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a> enumeration.
 
 ### -field StereoCaps
 
-A bitwise <b>OR</b> of zero or more flags from the   <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_caps">D3D11_VIDEO_PROCESSOR_STEREO_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the   <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_caps">D3D11_VIDEO_PROCESSOR_STEREO_CAPS</a> enumeration.
 
 ### -field RateConversionCapsCount
 
-The number of frame-rate conversion capabilities. To enumerate the frame-rate conversion capabilities, call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorrateconversioncaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps</a> method.
+The number of frame-rate conversion capabilities. To enumerate the frame-rate conversion capabilities, call the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorrateconversioncaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps</a> method.
 
 ### -field MaxInputStreams
 
@@ -98,9 +98,8 @@ The <b>MaxStreamStates</b> member gives the maximum number of stream states that
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a>
-
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a>

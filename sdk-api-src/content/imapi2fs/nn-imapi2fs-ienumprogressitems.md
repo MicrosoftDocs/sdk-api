@@ -52,11 +52,11 @@ api_name:
 
 Use this interface to enumerate a collection of progress items.
 
-To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_enumprogressitems">IProgressItems::get_EnumProgressItems</a> method.
+To get this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_enumprogressitems">IProgressItems::get_EnumProgressItems</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumProgressItems</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumProgressItems</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumProgressItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumProgressItems</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IEnumProgressItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-clone">Clone</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -80,7 +80,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-next">Next</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of items in the enumeration sequence.
@@ -89,7 +89,7 @@ Retrieves a specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/imapi/ienumprogressitems-remotenext">RemoteNext</a>
+<a href="/windows/desktop/imapi/ienumprogressitems-remotenext">RemoteNext</a>
 </td>
 <td align="left" width="63%">
 Supports a remote client that wants to retrieve a specified number of items in the enumeration sequence.
@@ -98,7 +98,7 @@ Supports a remote client that wants to retrieve a specified number of items in t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-reset">Reset</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -107,7 +107,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-skip">Skip</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of items in the enumeration sequence.
@@ -122,9 +122,8 @@ This is a <b>EnumProgressItems</b> object in script.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>

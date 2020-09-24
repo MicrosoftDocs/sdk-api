@@ -123,7 +123,7 @@ Automatic Updates is paused.
 You cannot search for updates if the following conditions are true:
 
 <ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface is set to <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssManagedServer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssDefault</a>.</li>
+<li>The <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface is set to <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssManagedServer</a> or <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssDefault</a>.</li>
 <li>The managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.</li>
 </ul>
 </td>
@@ -134,7 +134,7 @@ You cannot search for updates if the following conditions are true:
 
 This method requires administrator permissions.
 
-Callers should call <b>Resume</b> after calling the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-pause">Pause</a> method as soon as they no longer need to pause automatic updating.
+Callers should call <b>Resume</b> after calling the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-pause">Pause</a> method as soon as they no longer need to pause automatic updating.
 
 This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implementing the interface has been locked down.
 
@@ -142,5 +142,4 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implemen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>

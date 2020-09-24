@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a> interface to provide  functionality for dynamically setting the output media type of the record sink or preview sink.
+Extends the <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a> interface to provide  functionality for dynamically setting the output media type of the record sink or preview sink.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>IMFCaptureSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink2-setoutputmediatype">SetOutputMediaType</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink2-setoutputmediatype">SetOutputMediaType</a>
 </td>
 <td align="left" width="63%">
 Dynamically sets the output media type of the record sink or preview sink.
@@ -80,5 +80,4 @@ Dynamically sets the output media type of the record sink or preview sink.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

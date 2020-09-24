@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a> instance using the given array of patches.
+Creates a new <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a> instance using the given array of patches.
 
 ## -parameters
 
 ### -param patches [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_gradient_mesh_patch">D2D1_GRADIENT_MESH_PATCH</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_gradient_mesh_patch">D2D1_GRADIENT_MESH_PATCH</a>*</b>
 
 A pointer to the array containing the patches to be used in this mesh.
 
@@ -68,7 +68,7 @@ The number of patches in the patches argument to read.
 
 ### -param gradientMesh [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a>**</b>
 
 When this method returns, contains the address of a pointer to the new gradient mesh.
 
@@ -80,5 +80,4 @@ S_OK if successful, otherwise a failure HRESULT.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>

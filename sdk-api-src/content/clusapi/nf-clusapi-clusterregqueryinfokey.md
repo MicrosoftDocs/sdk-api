@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns information about a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
+Returns information about a  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 ## -parameters
 
@@ -91,9 +91,8 @@ If not <b>NULL</b>, pointer to the time of the most recent modification to the s
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>

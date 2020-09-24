@@ -75,7 +75,7 @@ Pointer to the port utilized by the local DRT instance.
 
 ### -param phTransport [out]
 
-Pointer to a DRT transport handle specified in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
+Pointer to a DRT transport handle specified in the <a href="/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
 
 ## -returns
 
@@ -144,7 +144,7 @@ An unexpected error has occurred.  See TraceError for reason.
 </table>
  
 
-<div class="alert"><b>Note</b>  This function may also return errors from underlying calls to <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyunicastipaddresschange">NotifyUnicastIpAddressChange</a>,<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>, <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>, <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v=vs.85)">Bind</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>, <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio">CreateThreadpoolIo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup">CreateThreadpoolCleanupGroup</a> and <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>.</div>
+<div class="alert"><b>Note</b>  This function may also return errors from underlying calls to <a href="/windows/desktop/api/netioapi/nf-netioapi-notifyunicastipaddresschange">NotifyUnicastIpAddressChange</a>,<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>, <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>, <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>, <a href="/previous-versions/windows/hardware/network/ff566268(v=vs.85)">Bind</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>, <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio">CreateThreadpoolIo</a>, <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup">CreateThreadpoolCleanupGroup</a> and <a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -155,9 +155,8 @@ When using the Distributed Routing Table API in Windows XP with Service Pack 2
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a>
+<a href="/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeleteipv6udptransport">DrtDeleteIpv6UdpTransport</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtdeleteipv6udptransport">DrtDeleteIpv6UdpTransport</a>

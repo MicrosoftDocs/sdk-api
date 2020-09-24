@@ -50,32 +50,32 @@ api_name:
 
 ## -description
 
-The <b>ISignerCertificate</b> interface represents a signing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that enables you to sign a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. When you initialize the interface, the Certificate Enrollment Control retrieves the signing certificate from the personal store and uses it to find an associated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. You can use the private key to sign a PKCS #7 or a CMC request but not a PKCS #10 request. PKCS #10 requests must be signed by using the private key associated with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> included in the request. Self-signed certificates can be signed by using the private key associated with the request or the private key associated with the signing certificate. This is summarized in the following table.<table>
+The <b>ISignerCertificate</b> interface represents a signing <a href="/windows/desktop/SecGloss/c-gly">certificate</a> that enables you to sign a <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. When you initialize the interface, the Certificate Enrollment Control retrieves the signing certificate from the personal store and uses it to find an associated <a href="/windows/desktop/SecGloss/p-gly">private key</a>. You can use the private key to sign a PKCS #7 or a CMC request but not a PKCS #10 request. PKCS #10 requests must be signed by using the private key associated with the <a href="/windows/desktop/SecGloss/p-gly">public key</a> included in the request. Self-signed certificates can be signed by using the private key associated with the request or the private key associated with the signing certificate. This is summarized in the following table.<table>
 <tr>
 <th>Request type (Interface)</th>
 <th>Signing certificates</th>
 </tr>
 <tr>
-<td>PKCS #7(<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>)
+<td>PKCS #7(<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>)
 
 </td>
 <td>1</td>
 </tr>
 <tr>
-<td>PKCS #10(<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10)</a>
+<td>PKCS #10(<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10)</a>
 
 
 </td>
 <td>0</td>
 </tr>
 <tr>
-<td>CMC(<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>)
+<td>CMC(<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>)
 
 </td>
 <td>0 or more</td>
 </tr>
 <tr>
-<td>Self-signed(<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>)
+<td>Self-signed(<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>)
 
 </td>
 <td>0 or 1</td>
@@ -85,7 +85,7 @@ The <b>ISignerCertificate</b> interface represents a signing <a href="https://do
 
 
 
-When signing a CMC request, the data to be signed consists of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded <b>CmcData</b> object wrapped in a CMS <b>SignedData</b> object. The <b>encryptedDigest</b> field of the <b>SignerInfo</b> object contains a signature, and multiple <b>SignerInfo</b> objects can be associated with the request.
+When signing a CMC request, the data to be signed consists of a <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded <b>CmcData</b> object wrapped in a CMS <b>SignedData</b> object. The <b>encryptedDigest</b> field of the <b>SignerInfo</b> object contains a signature, and multiple <b>SignerInfo</b> objects can be associated with the request.
 <pre class="syntax" xml:space="preserve"><code>
 ---------------------------------------------------------------------
 -- CMC request data
@@ -128,11 +128,11 @@ SignerInfo ::= SEQUENCE
     encryptedDigest             EncryptedDigest,
     unauthenticatedAttributes   [1] IMPLICIT Attributes OPTIONAL
 }
-</code></pre>Each <b>ISignerCertificate</b> object is associated with one <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that identifies the hashing and public key algorithms used. This object is created and initialized when the <b>ISignerCertificate</b> object is initialized.
+</code></pre>Each <b>ISignerCertificate</b> object is associated with one <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that identifies the hashing and public key algorithms used. This object is created and initialized when the <b>ISignerCertificate</b> object is initialized.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificate</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISignerCertificate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificate</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISignerCertificate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -148,7 +148,7 @@ The <b>ISignerCertificate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a signing certificate.
@@ -165,7 +165,7 @@ Initializes the object from a signing certificate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_certificate">Certificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_certificate">Certificate</a>
 
 
 </td>
@@ -177,7 +177,7 @@ Retrieves a DER-encoded byte array that contains the certificate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_parentwindow">ParentWindow</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_parentwindow">ParentWindow</a>
 
 
 </td>
@@ -189,7 +189,7 @@ Specifies or retrieves the ID of the window used to display the signing certific
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-put_pin">Pin</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-put_pin">Pin</a>
 
 
 </td>
@@ -201,7 +201,7 @@ Specifies a personal identification number that authenticates smart card users.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_privatekey">PrivateKey</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_privatekey">PrivateKey</a>
 
 
 </td>
@@ -213,19 +213,19 @@ Retrieves the private key associated with the <b>ISignerCertificate</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_signatureinformation">SignatureInformation</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_signatureinformation">SignatureInformation</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that contains information about the certificate signature.
+Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that contains information about the certificate signature.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_silent">Silent</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_silent">Silent</a>
 
 
 </td>
@@ -237,7 +237,7 @@ Specifies or retrieves a Boolean value that indicates whether the user is notifi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_uicontextmessage">UIContextMessage</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_uicontextmessage">UIContextMessage</a>
 
 
 </td>
@@ -250,13 +250,12 @@ Specifies or retrieves a string that contains user interface text associated wit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificates">ISignerCertificates</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificates">ISignerCertificates</a>

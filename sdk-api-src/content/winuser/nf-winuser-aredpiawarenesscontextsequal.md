@@ -73,5 +73,4 @@ Returns <b>TRUE</b> if the values are equal, otherwise <b>FALSE</b>.
 
 ## -remarks
 
-A <b>DPI_AWARENESS_CONTEXT</b> contains multiple pieces of information. For example, it includes both the current and the inherited <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> values. <b>AreDpiAwarenessContextsEqual</b> ignores informational flags and determines if the values are equal. You can't use a direct bitwise comparison because of these informational flags.
-
+A <b>DPI_AWARENESS_CONTEXT</b> contains multiple pieces of information. For example, it includes both the current and the inherited <a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> values. <b>AreDpiAwarenessContextsEqual</b> ignores informational flags and determines if the values are equal. You can't use a direct bitwise comparison because of these informational flags.

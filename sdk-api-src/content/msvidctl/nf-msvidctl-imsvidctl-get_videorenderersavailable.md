@@ -56,7 +56,7 @@ The <b>get_VideoRenderersAvailable</b> method retrieves a collection of video re
 
 ### -param pVal [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices</a> interface pointer. The caller must release the interface.
+Receives an <a href="/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices</a> interface pointer. The caller must release the interface.
 
 ## -returns
 
@@ -64,16 +64,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-This method returns a collection of video renderer devices. Use the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices</a> pointer to enumerate the collection.
+This method returns a collection of video renderer devices. Use the returned <a href="/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices</a> pointer to enumerate the collection.
 
-<div class="alert"><b>Note</b>  In the current implementation, the collection always contains exactly one item: an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)">MSVidVideoRenderer</a> object that represents the Video Mixing Renderer filter.</div>
+<div class="alert"><b>Note</b>  In the current implementation, the collection always contains exactly one item: an <a href="/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)">MSVidVideoRenderer</a> object that represents the Video Mixing Renderer filter.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorendereractive">IMSVidCtl::get_VideoRendererActive</a>
-
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorendereractive">IMSVidCtl::get_VideoRendererActive</a>

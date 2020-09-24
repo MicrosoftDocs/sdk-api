@@ -64,13 +64,12 @@ Returns <b>E_NOTIMPL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccess-addprogram">AddProgram</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccess-addprogram">AddProgram</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccess-setprogram">SetProgram</a>
-
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccess-setprogram">SetProgram</a>

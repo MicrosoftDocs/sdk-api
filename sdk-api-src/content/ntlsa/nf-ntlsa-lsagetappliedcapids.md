@@ -56,11 +56,11 @@ The <b>LsaGetAppliedCAPIDs</b> function returns an array of central access polic
 
 ### -param SystemName [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the specific computer. The name can have the form of "ComputerName" or "\\ComputerName". If this parameter is <b>NULL</b>, then the function returns the CAPIDs of the local computer.
+A pointer to an <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the specific computer. The name can have the form of "ComputerName" or "\\ComputerName". If this parameter is <b>NULL</b>, then the function returns the CAPIDs of the local computer.
 
 ### -param CAPIDs [out]
 
-A pointer to a variable that receives an array of pointers to CAPIDs that identify the CAPs available on the specified computer. When you have finished using the CAPIDs, call the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a> function on each element in the array and the entire array.
+A pointer to a variable that receives an array of pointers to CAPIDs that identify the CAPs available on the specified computer. When you have finished using the CAPIDs, call the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a> function on each element in the array and the entire array.
 
 ### -param CAPIDCount [out]
 
@@ -70,7 +70,7 @@ A pointer to a variable that receives the number of CAPs that are available on t
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
-If the function fails, the return value is one of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to  convert the <b>NTSTATUS</b> code to a Windows error code.
+If the function fails, the return value is one of the <a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>. You can use the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to  convert the <b>NTSTATUS</b> code to a Windows error code.
 
 ## -remarks
 
@@ -78,5 +78,4 @@ For specific details about the central access policies, you can query the attrib
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/centralized-authorization-policy">Centralized Authorization Policy</a>
-
+<a href="/windows/desktop/SecAuthZ/centralized-authorization-policy">Centralized Authorization Policy</a>

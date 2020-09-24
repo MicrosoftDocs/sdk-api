@@ -62,7 +62,7 @@ As the persistent resource's data is opaque, once initialized it cannot be copie
 
 The persistent resource is only written to during initialization of an operator and is thereafter immutable; all subsequent executions are guaranteed not to write to the persistent resource.
 
-The supplied buffer range to be bound as the persistent buffer must have its start offset aligned to [DML_PERSISTENT_BUFFER_ALIGNMENT](/windows/desktop/direct3d12/direct3d-directml-constants). The type of the heap underlying the buffer must be <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a>.
+The supplied buffer range to be bound as the persistent buffer must have its start offset aligned to [DML_PERSISTENT_BUFFER_ALIGNMENT](/windows/desktop/direct3d12/direct3d-directml-constants). The type of the heap underlying the buffer must be <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a>.
 
 ## -parameters
 
@@ -77,4 +77,3 @@ An optional pointer to a [DML_BINDING_DESC](/windows/desktop/api/directml/ns-dir
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
 
 [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable)
-

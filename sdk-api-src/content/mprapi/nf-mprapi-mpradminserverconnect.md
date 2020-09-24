@@ -115,13 +115,12 @@ The specified computer is not running the Routing and RAS service.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverdisconnect">MprAdminServerDisconnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverdisconnect">MprAdminServerDisconnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

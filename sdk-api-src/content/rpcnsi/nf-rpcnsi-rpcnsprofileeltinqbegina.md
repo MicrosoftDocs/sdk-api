@@ -137,7 +137,7 @@ Searches the profile for elements that contain the interface identification and 
 ### -param IfId
 
 Pointer to the interface identification of the profile elements to be returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function. 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function. 
 
 
 
@@ -147,7 +147,7 @@ The <i>IfId</i> parameter is used only when specifying a value of RPC_C_PROFILE_
 ### -param VersOption
 
 Specifies how the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function uses the <i>IfId</i> parameter. This parameter is used only when specifying a value of RPC_C_PROFILE_MATCH_BY_IF or RPC_C_PROFILE_MATCH_BY_BOTH for <i>InquiryType</i>. Otherwise, this parameter is ignored and a 0 value can be specified. 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function uses the <i>IfId</i> parameter. This parameter is used only when specifying a value of RPC_C_PROFILE_MATCH_BY_IF or RPC_C_PROFILE_MATCH_BY_BOTH for <i>InquiryType</i>. Otherwise, this parameter is ignored and a 0 value can be specified. 
 
 
 
@@ -206,7 +206,7 @@ Returns profile elements that offer the same major version of the specified inte
 </td>
 <td width="60%">
 Returns profile elements that offer a version of the specified interface UUID less than or equal to the specified major and minor version. (For example, if the <i>IfId</i> contained V2.0 and the profile contained elements with V1.3, V2.0, and V2.1, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function returns elements with V1.3 and V2.0.)
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function returns elements with V1.3 and V2.0.)
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ Returns profile elements that offer a version of the specified interface UUID le
 ### -param MemberNameSyntax
 
 Syntax of <i>MemberName</i>, and the return parameter <i>MemberName</i> in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function. 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function. 
 
 
 
@@ -225,13 +225,13 @@ To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\So
 ### -param MemberName
 
 Pointer to the member name that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function looks for in profile elements. The <i>MemberName</i> parameter is used only when specifying a value of RPC_C_PROFILE_MATCH_BY_MBR or RPC_C_PROFILE_MATCH_BY_BOTH for <i>InquiryType</i>. Otherwise, <i>MemberName</i> is ignored and a null value can be specified.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function looks for in profile elements. The <i>MemberName</i> parameter is used only when specifying a value of RPC_C_PROFILE_MATCH_BY_MBR or RPC_C_PROFILE_MATCH_BY_BOTH for <i>InquiryType</i>. Otherwise, <i>MemberName</i> is ignored and a null value can be specified.
 
 ### -param InquiryContext
 
 Returns a pointer to a name-service handle for use with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqdone">RpcNsProfileEltInqDone</a> functions.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> and 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqdone">RpcNsProfileEltInqDone</a> functions.
 
 ## -returns
 
@@ -321,7 +321,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -330,7 +330,7 @@ The
 <b>RpcNsProfileEltInqBegin</b> function creates an inquiry context for viewing the elements in a profile.
 
 Using the <i>InquiryType</i> parameter, an application specifies which of the following profile elements are to be returned from calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a>:
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a>:
 
 <ul>
 <li>The default element</li>
@@ -340,11 +340,11 @@ Using the <i>InquiryType</i> parameter, an application specifies which of the fo
 <li>Elements with both the specified interface identification and member name</li>
 </ul>
 Before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a>, the application must first call 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a>, the application must first call 
 <b>RpcNsProfileEltInqBegin</b> to create an inquiry context.
 
 When finished viewing the profile elements, the application calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqdone">RpcNsProfileEltInqDone</a> function to delete the inquiry context.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqdone">RpcNsProfileEltInqDone</a> function to delete the inquiry context.
 
 <div class="alert"><b>Note</b>  Windows 2000 Active Directory supports this function. Earlier versions of Windows NT support the use of this function with Cell Directory Service (CDS) only.</div>
 <div> </div>
@@ -357,13 +357,12 @@ When finished viewing the profile elements, the application calls the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqdone">RpcNsProfileEltInqDone</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqdone">RpcNsProfileEltInqDone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a>
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a>

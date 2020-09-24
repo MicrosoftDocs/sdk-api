@@ -54,7 +54,7 @@ Exposes methods used by the Remote Desktop Services service to perform the licen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolLicenseConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolLicenseConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolLicenseConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolLicenseConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWRdsProtocolLicenseConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-protocolcomplete">ProtocolComplete</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-protocolcomplete">ProtocolComplete</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol whether the licensing process completed successfully.
@@ -78,7 +78,7 @@ Notifies the protocol whether the licensing process completed successfully.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-requestclientlicense">RequestClientLicense</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-requestclientlicense">RequestClientLicense</a>
 </td>
 <td align="left" width="63%">
 Requests a license from the client.
@@ -87,7 +87,7 @@ Requests a license from the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-requestlicensingcapabilities">RequestLicensingCapabilities</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-requestlicensingcapabilities">RequestLicensingCapabilities</a>
 </td>
 <td align="left" width="63%">
 Requests license capabilities from the client.
@@ -96,7 +96,7 @@ Requests license capabilities from the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-sendclientlicense">SendClientLicense</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-sendclientlicense">SendClientLicense</a>
 </td>
 <td align="left" width="63%">
 Sends a license to the client.
@@ -108,4 +108,3 @@ Sends a license to the client.
 ## -remarks
 
 To avoid a possible deadlock when calling any of the methods on this interface, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread.
-

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus">ISearchCatalogManager::GetCatalogStatus</a> to determine the reason the catalog is paused.
+Used by <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus">ISearchCatalogManager::GetCatalogStatus</a> to determine the reason the catalog is paused.
 
 ## -enum-fields
 
@@ -99,4 +99,3 @@ Paused by external request.
 ### -field CATALOG_PAUSED_REASON_UPGRADING
 
 Paused by upgrading.
-

@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-When you pass a profile type obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_currentprofiletypes">CurrentProfileTypes</a> property, make sure that you pass only one profile type to <b>get_NotificationsDisabled</b> and <b>put_NotificationsDisabled</b>. Note that <b>get_CurrentProfileTypes</b> can return multiple profiles.
+When you pass a profile type obtained from the <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_currentprofiletypes">CurrentProfileTypes</a> property, make sure that you pass only one profile type to <b>get_NotificationsDisabled</b> and <b>put_NotificationsDisabled</b>. Note that <b>get_CurrentProfileTypes</b> can return multiple profiles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>

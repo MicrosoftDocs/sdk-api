@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imagegetdigeststream">ImageGetDigestStream</a> function to process data.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imagegetdigeststream">ImageGetDigestStream</a> function to process data.
 
 The <b>DIGEST_FUNCTION</b> type defines a pointer to this callback function. 
 <b>DigestFunction</b> is a placeholder for the application-defined function name.
@@ -61,7 +61,7 @@ The <b>DIGEST_FUNCTION</b> type defines a pointer to this callback function.
 ### -param refdata [in]
 
 A user-supplied handle to the digest. This value is passed as a parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imagegetdigeststream">ImageGetDigestStream</a> function.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imagegetdigeststream">ImageGetDigestStream</a> function.
 
 ### -param pData [in]
 
@@ -81,9 +81,8 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imagegetdigeststream">ImageGetDigestStream</a>
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imagegetdigeststream">ImageGetDigestStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
-
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>

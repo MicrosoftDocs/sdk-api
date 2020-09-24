@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>QOS_DIFFSERV_RULE</b> structure is used in conjunction with the traffic control object 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a> to provide Diffserv rules for a given flow.
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a> to provide Diffserv rules for a given flow.
 
 ## -struct-fields
 
@@ -107,5 +107,4 @@ Valid range is 0-7
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
-
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>

@@ -56,11 +56,11 @@ Retrieves the physical monitors associated with a Direct3D device.
 
 ### -param pDirect3DDevice9 [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a> interface of the Direct3D device.
+Pointer to the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a> interface of the Direct3D device.
 
 ### -param dwPhysicalMonitorArraySize [in]
 
-Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of the array, call <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromidirect3ddevice9">GetNumberOfPhysicalMonitorsFromIDirect3DDevice9</a>.
+Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of the array, call <a href="/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromidirect3ddevice9">GetNumberOfPhysicalMonitorsFromIDirect3DDevice9</a>.
 
 ### -param pPhysicalMonitorArray [out]
 
@@ -75,9 +75,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 A single Direct3D device can be associated with more than one physical monitor. This function returns a handle and a text description for each physical monitor.
       
 
-When you are done using the monitor handles, close them by passing the <i>pPhysicalMonitorArray</i> array to the <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-destroyphysicalmonitors">DestroyPhysicalMonitors</a> function.
+When you are done using the monitor handles, close them by passing the <i>pPhysicalMonitorArray</i> array to the <a href="/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-destroyphysicalmonitors">DestroyPhysicalMonitors</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
-
+<a href="/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>

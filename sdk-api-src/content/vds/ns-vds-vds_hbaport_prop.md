@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
     properties of an HBA port.
@@ -76,36 +76,35 @@ The port WWN of the HBA port.
 ### -field type
 
 The type of the HBA port enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_type">VDS_HBAPORT_TYPE</a>.
+      <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_type">VDS_HBAPORT_TYPE</a>.
 
 ### -field status
 
 The status of the HBA port enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_status">VDS_HBAPORT_STATUS</a>.
+      <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_status">VDS_HBAPORT_STATUS</a>.
 
 ### -field ulPortSpeed
 
 The speed of the HBA port enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_speed_flag">VDS_HBAPORT_SPEED_FLAG</a>.
+      <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_speed_flag">VDS_HBAPORT_SPEED_FLAG</a>.
 
 ### -field ulSupportedPortSpeed
 
 The set of supported speeds of the HBA port, one bit set for each of the supported speeds  enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_speed_flag">VDS_HBAPORT_SPEED_FLAG</a>.
+      <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_speed_flag">VDS_HBAPORT_SPEED_FLAG</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_speed_flag">VDS_HBAPORT_SPEED_FLAG</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_speed_flag">VDS_HBAPORT_SPEED_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_status">VDS_HBAPORT_STATUS</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_status">VDS_HBAPORT_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_type">VDS_HBAPORT_TYPE</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_type">VDS_HBAPORT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_wwn">VDS_WWN</a>
-
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_wwn">VDS_WWN</a>

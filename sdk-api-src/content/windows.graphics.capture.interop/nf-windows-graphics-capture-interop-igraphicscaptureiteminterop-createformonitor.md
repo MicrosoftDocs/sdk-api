@@ -57,7 +57,7 @@ The monitor handle that represents the monitor to capture.
 
 Type: **REFIID**
 
-GUID for the type returned. Supported value: [GraphicsCaptureItem](https://docs.microsoft.com/uwp/api/windows.graphics.capture.graphicscaptureitem).
+GUID for the type returned. Supported value: [GraphicsCaptureItem](/uwp/api/windows.graphics.capture.graphicscaptureitem).
 
 ### -param result
 
@@ -74,4 +74,3 @@ The return error code.
 ## -remarks
 
 ## -see-also
-

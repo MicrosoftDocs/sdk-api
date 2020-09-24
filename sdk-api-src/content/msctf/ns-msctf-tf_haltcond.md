@@ -56,7 +56,7 @@ The <b>TF_HALTCOND</b> structure is used to contain conditions of a range shift.
 
 ### -field pHaltRange
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that halts the shift. If the range shift encounters this range during the shift, the shift halts. This member can be <b>NULL</b>.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that halts the shift. If the range shift encounters this range during the shift, the shift halts. This member can be <b>NULL</b>.
 
 ### -field aHaltPos
 
@@ -79,21 +79,20 @@ Contains a set of flags that modify the behavior of the range shift. This can be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftend">ITfRange::ShiftEnd
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftend">ITfRange::ShiftEnd
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstart">ITfRange::ShiftStart
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstart">ITfRange::ShiftStart
       </a>
 
 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
-

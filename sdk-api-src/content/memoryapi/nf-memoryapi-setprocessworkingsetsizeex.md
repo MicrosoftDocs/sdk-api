@@ -66,7 +66,7 @@ Sets the minimum and maximum working set sizes for the specified process.
 A handle to the process whose working set sizes is to be set.
 
 The handle must have <b>PROCESS_SET_QUOTA</b> access rights. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+<a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param dwMinimumWorkingSetSize [in]
 
@@ -152,52 +152,51 @@ This flag cannot be used with <b>QUOTA_LIMITS_HARDWS_MAX_DISABLE</b>.
 If the function is succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the function fails, the return value is zero. To get extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the function fails, the return value is zero. To get extended error information, call 
 <b>GetLastError</b>.
 
 ## -remarks
 
-The working set of a process is the set of memory pages in the virtual address space of the process that are currently resident in physical memory. These pages are available for an application to use without triggering a page fault. For more information about page faults, see <a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">Working Set</a>. The minimum and maximum working set sizes affect the virtual memory paging behavior of a process.
+The working set of a process is the set of memory pages in the virtual address space of the process that are currently resident in physical memory. These pages are available for an application to use without triggering a page fault. For more information about page faults, see <a href="/windows/desktop/Memory/working-set">Working Set</a>. The minimum and maximum working set sizes affect the virtual memory paging behavior of a process.
 
-The working set of the specified process can be emptied by specifying the value (<b>SIZE_T</b>)–1 for both the minimum and maximum working set sizes. This removes as many pages as possible from the working set. The <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-emptyworkingset">EmptyWorkingSet</a> function can also be used for this purpose.
+The working set of the specified process can be emptied by specifying the value (<b>SIZE_T</b>)–1 for both the minimum and maximum working set sizes. This removes as many pages as possible from the working set. The <a href="/windows/desktop/api/psapi/nf-psapi-emptyworkingset">EmptyWorkingSet</a> function can also be used for this purpose.
 
 If the values of either <i>dwMinimumWorkingSetSize</i> or <i>dwMaximumWorkingSetSize</i> are greater than the process' current working set sizes, the specified process must have the <b>SE_INC_WORKING_SET_NAME</b> privilege. All users generally have this privilege. For more information about security privileges, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a>.
+<a href="/windows/desktop/SecAuthZ/privileges">Privileges</a>.
 
 <b>Windows Server 2003:  </b>The specified process must have the <b>SE_INC_BASE_PRIORITY_NAME</b> privilege. Users in the Administrators and Power Users groups generally have this privilege.
 
 The operating system allocates working set sizes on a first-come, first-served basis. For example, if an application successfully sets 40 megabytes as its minimum working set size on a 64-megabyte system, and a second application requests a 40-megabyte working set size, the operating system denies the second application's request.
 
 By default, using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function to set an application's minimum and maximum working set sizes does not guarantee that the requested memory will be reserved, or that it will remain resident at all times. When an application is idle, or a low-memory situation causes a demand for memory, the operating system can reduce the application's working set below its minimum working set limit. If memory is abundant, the system might allow an application to exceed its maximum working set limit. The <b>QUOTA_LIMITS_HARDWS_MIN_ENABLE</b> and <b>QUOTA_LIMITS_HARDWS_MAX_ENABLE</b> flags enable you to ensure that limits are enforced.
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function to set an application's minimum and maximum working set sizes does not guarantee that the requested memory will be reserved, or that it will remain resident at all times. When an application is idle, or a low-memory situation causes a demand for memory, the operating system can reduce the application's working set below its minimum working set limit. If memory is abundant, the system might allow an application to exceed its maximum working set limit. The <b>QUOTA_LIMITS_HARDWS_MIN_ENABLE</b> and <b>QUOTA_LIMITS_HARDWS_MAX_ENABLE</b> flags enable you to ensure that limits are enforced.
 
 When you increase the working set size of an application, you are taking away physical memory from the rest of the system. This can degrade the performance of other applications and the system as a whole. It can also lead to failures of operations that require physical memory to be present (for example, creating processes, threads, and kernel pool). Thus, you must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function carefully. You must always consider the performance of the whole system when you are designing an application.
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function carefully. You must always consider the performance of the whole system when you are designing an application.
 
 An application can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a> function to lock ranges of the application's virtual address space in memory; however, that can potentially degrade the performance of the system.
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a> function to lock ranges of the application's virtual address space in memory; however, that can potentially degrade the performance of the system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex">GetProcessWorkingSetSizeEx</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex">GetProcessWorkingSetSizeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-working-set">Process Working Set</a>
+<a href="/windows/desktop/ProcThread/process-working-set">Process Working Set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
+<a href="/windows/desktop/ProcThread/child-processes">Processes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">Working Set</a>
-
+<a href="/windows/desktop/Memory/working-set">Working Set</a>

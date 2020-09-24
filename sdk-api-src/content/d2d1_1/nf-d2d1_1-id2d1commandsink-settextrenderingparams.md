@@ -56,7 +56,7 @@ Indicates more detailed text rendering parameters.
 
 ### -param textRenderingParams [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
+Type: <b><a href="/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
 
 The parameters to use for text rendering.
 
@@ -68,13 +68,12 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settags">ID2D1RenderTarget::SetTags</a>
-
+<a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settags">ID2D1RenderTarget::SetTags</a>

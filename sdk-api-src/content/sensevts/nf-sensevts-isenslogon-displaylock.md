@@ -85,34 +85,33 @@ The method returns successfully.
 
 SENS calls this method to notify an application that the screen display is locked.
 
-<div class="alert"><b>Important</b>  This function will not work with multiple logins through Remote Desktop Services and does not support Remote Desktop Services or Fast-User Switching scenarios. Desktop applications can register for session changes notifications by calling <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification">WTSRegisterSessionNotification</a>. Services can handle session change notifications via SERVICE_CONTROL_SESSIONCHANGE control codes in their <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> callback function.</div>
+<div class="alert"><b>Important</b>  This function will not work with multiple logins through Remote Desktop Services and does not support Remote Desktop Services or Fast-User Switching scenarios. Desktop applications can register for session changes notifications by calling <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification">WTSRegisterSessionNotification</a>. Services can handle session change notifications via SERVICE_CONTROL_SESSIONCHANGE control codes in their <a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> callback function.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
+<a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isenslogon">ISensLogon</a>
+<a href="/windows/desktop/api/sensevts/nn-sensevts-isenslogon">ISensLogon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-displayunlock">ISensLogon::DisplayUnLock</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-displayunlock">ISensLogon::DisplayUnLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-startscreensaver">ISensLogon::StartScreenSaver</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-startscreensaver">ISensLogon::StartScreenSaver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-stopscreensaver">ISensLogon::StopScreenSaver</a>
-
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-stopscreensaver">ISensLogon::StopScreenSaver</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used internally by the <a href="https://docs.microsoft.com/windows/desktop/wsw/service-proxy">service proxy</a>  to format the specified arguments according to the specified metadata and send them in a message. The application should 
+Used internally by the <a href="/windows/desktop/wsw/service-proxy">service proxy</a>  to format the specified arguments according to the specified metadata and send them in a message. The application should 
                 never call this function directly.
 
 ## -parameters
@@ -61,7 +61,7 @@ Pointer to a WS_SERVICE_PROXY structure representing the service proxy.
 
 ### -param operation [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_operation_description">WS_OPERATION_DESCRIPTION</a> structure containing the metadata for the call.
+Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_operation_description">WS_OPERATION_DESCRIPTION</a> structure containing the metadata for the call.
 
 ### -param arguments [in, optional]
 
@@ -72,11 +72,11 @@ The number of elements must correspond to the number of parameters specified as 
 
 ### -param heap [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a> from which memory is allocated for the call.
+Pointer to a <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="/windows/desktop/wsw/heap">heap</a> from which memory is allocated for the call.
 
 ### -param callProperties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_call_property">WS_CALL_PROPERTY</a> structures containing the call properties.
+An array of <a href="/windows/desktop/api/webservices/ns-webservices-ws_call_property">WS_CALL_PROPERTY</a> structures containing the call properties.
 
 ### -param callPropertyCount [in]
 
@@ -88,7 +88,7 @@ Pointer to information for invoking the function asynchronously. Pass <b>NULL</b
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -189,4 +189,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
-

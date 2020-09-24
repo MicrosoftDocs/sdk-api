@@ -56,18 +56,18 @@ Handles creating an decoder instance.
 
 ### -param *createContext [in]
 
-The createContext that was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a>used during channel creation.
+The createContext that was specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a>used during channel creation.
 
 ### -param readCallback [in]
 
 The function that should be used to read the message data.  This callback
-                    should only be used in response to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_start_callback">WS_DECODER_START_CALLBACK</a>,
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_decode_callback">WS_DECODER_DECODE_CALLBACK</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callback">WS_DECODER_END_CALLBACK</a> 
+                    should only be used in response to the <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_start_callback">WS_DECODER_START_CALLBACK</a>,
+                    <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_decode_callback">WS_DECODER_DECODE_CALLBACK</a> and <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callback">WS_DECODER_END_CALLBACK</a> 
                     callbacks.
 
 ### -param *readContext [in]
 
-The read context that should be passed to the provided <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a>.
+The read context that should be passed to the provided <a href="/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a>.
                 
 
 
@@ -136,4 +136,3 @@ The channel will create decoder instances as necessary.  Each decoder
                instance however should not assume that it will see all messages from a
                channel, as the channel may use multiple decoder instances for processing
                messages.
-

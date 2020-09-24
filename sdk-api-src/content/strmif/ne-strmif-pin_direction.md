@@ -66,9 +66,8 @@ Output pin.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-querydirection">IPin::QueryDirection</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-querydirection">IPin::QueryDirection</a>

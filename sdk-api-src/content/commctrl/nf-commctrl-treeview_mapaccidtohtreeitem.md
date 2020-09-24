@@ -50,27 +50,26 @@ api_name:
 
 ## -description
 
-Maps an accessibility ID to an <b>HTREEITEM</b>. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-mapaccidtohtreeitem">TVM_MAPACCIDTOHTREEITEM</a> message explicitly.
+Maps an accessibility ID to an <b>HTREEITEM</b>. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-mapaccidtohtreeitem">TVM_MAPACCIDTOHTREEITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param id
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The accessibility ID to map to an <b>HTREEITEM</b>.
 
 ## -remarks
 
-To use <b>TreeView_MapAccIDToHTREEITEM</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
+To use <b>TreeView_MapAccIDToHTREEITEM</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
 
-<div class="alert"><b>Note</b>  The accessibility ID is not the same as that mentioned in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibleobject">IAccessibleObject</a>. This is a unique ID used for treeview items as long as treeitems do not exceed the max limit of <b>UINT</b>.
+<div class="alert"><b>Note</b>  The accessibility ID is not the same as that mentioned in <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibleobject">IAccessibleObject</a>. This is a unique ID used for treeview items as long as treeitems do not exceed the max limit of <b>UINT</b>.
 </div>
 <div> </div>
-

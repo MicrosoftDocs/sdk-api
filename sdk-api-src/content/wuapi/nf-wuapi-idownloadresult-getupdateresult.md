@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a> interface that contains the download information for a specified update.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a> interface that contains the download information for a specified update.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The index of the update.
 
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a> interface that contains the results for the specified update.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a> interface that contains the results for the specified update.
 
 ## -returns
 
@@ -70,5 +70,4 @@ error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadresult">IDownloadResult</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadresult">IDownloadResult</a>

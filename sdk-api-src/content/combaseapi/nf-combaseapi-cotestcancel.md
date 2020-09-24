@@ -95,11 +95,10 @@ The call has been canceled by the client.
 
 Server objects should call <b>CoTestCancel</b> at least once before returning to detect client cancellation requests. Doing so can save the server unnecessary work if the client has issued a cancellation request, and it can reduce the client's wait time if it has set the cancel timeout as RPC_C_CANCEL_INFINITE_TIMEOUT. Furthermore, if the server object detects a cancellation request before returning from a pending call, it can clean up any memory, marshaled interfaces, or handles it has created or obtained. 
 
-<b>CoTestCancel</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a> to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a> interface on the current cancel object and then calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-testcancel">ICancelMethodCalls::TestCancel</a>. Objects that implement custom marshaling should first call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext">CoSwitchCallContext</a> to install the appropriate call context object.
+<b>CoTestCancel</b> calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a> to obtain the <a href="/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a> interface on the current cancel object and then calls <a href="/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-testcancel">ICancelMethodCalls::TestCancel</a>. Objects that implement custom marshaling should first call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext">CoSwitchCallContext</a> to install the appropriate call context object.
 
 This function does not test cancellation for asynchronous calls.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IFilterGraph</code> interface provides methods for building a filter graph. An application can use it to add filters to the graph, connect or disconnect filters, remove filters, and perform other basic operations. However, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface inherits from this interface and provides additional methods that are more sophisticated. Therefore, applications should use <b>IGraphBuilder</b> rather than using <code>IFilterGraph</code> directly.
+The <code>IFilterGraph</code> interface provides methods for building a filter graph. An application can use it to add filters to the graph, connect or disconnect filters, remove filters, and perform other basic operations. However, the <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface inherits from this interface and provides additional methods that are more sophisticated. Therefore, applications should use <b>IGraphBuilder</b> rather than using <code>IFilterGraph</code> directly.
 
 The filter graph manager implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterGraph</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterGraph</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterGraph</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterGraph</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IFilterGraph</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-addfilter">AddFilter</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-addfilter">AddFilter</a>
 </td>
 <td align="left" width="63%">
 Adds a filter to the graph.
@@ -81,7 +81,7 @@ Adds a filter to the graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-connectdirect">ConnectDirect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-connectdirect">ConnectDirect</a>
 </td>
 <td align="left" width="63%">
 Connects two pins directly (without intervening filters).
@@ -90,7 +90,7 @@ Connects two pins directly (without intervening filters).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-disconnect">Disconnect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects a specified pin.
@@ -99,7 +99,7 @@ Disconnects a specified pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-enumfilters">EnumFilters</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-enumfilters">EnumFilters</a>
 </td>
 <td align="left" width="63%">
 Provides an enumerator for all filters in the graph.
@@ -108,7 +108,7 @@ Provides an enumerator for all filters in the graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-findfilterbyname">FindFilterByName</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-findfilterbyname">FindFilterByName</a>
 </td>
 <td align="left" width="63%">
 Finds a filter that was added with a specified name.
@@ -117,7 +117,7 @@ Finds a filter that was added with a specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-reconnect">Reconnect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-reconnect">Reconnect</a>
 </td>
 <td align="left" width="63%">
 Breaks the existing pin connection and reconnects it to the same pin.
@@ -126,7 +126,7 @@ Breaks the existing pin connection and reconnects it to the same pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-removefilter">RemoveFilter</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-removefilter">RemoveFilter</a>
 </td>
 <td align="left" width="63%">
 Removes a filter from the graph.
@@ -135,7 +135,7 @@ Removes a filter from the graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-setdefaultsyncsource">SetDefaultSyncSource</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-setdefaultsyncsource">SetDefaultSyncSource</a>
 </td>
 <td align="left" width="63%">
 Sets the reference clock to the default clock.
@@ -143,4 +143,3 @@ Sets the reference clock to the default clock.
 </td>
 </tr>
 </table>
-

@@ -51,25 +51,25 @@ api_name:
 
 ## -description
 
-The <b>DecryptMessage (Digest)</b> function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>.
+The <b>DecryptMessage (Digest)</b> function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity <a href="/windows/desktop/SecGloss/h-gly">hash</a>.
 
-The Digest <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) provides encryption and decryption confidentiality for messages exchanged between client and server as a SASL mechanism only.
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (Digest)</a> and <b>DecryptMessage (Digest)</b> can be called at the same time from two different threads in a single <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Support Provider Interface</a> (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.</div><div> </div>
+The Digest <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) provides encryption and decryption confidentiality for messages exchanged between client and server as a SASL mechanism only.
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (Digest)</a> and <b>DecryptMessage (Digest)</b> can be called at the same time from two different threads in a single <a href="/windows/desktop/SecGloss/s-gly">Security Support Provider Interface</a> (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.</div><div> </div>
 
 ## -parameters
 
 ### -param phContext [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> to be used to decrypt the message.
+A handle to the <a href="/windows/desktop/SecGloss/s-gly">security context</a> to be used to decrypt the message.
 
 ### -param pMessage [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure. On input, the structure references one or more 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures. At least one of these must be of type SECBUFFER_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+<a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure. On input, the structure references one or more 
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures. At least one of these must be of type SECBUFFER_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
 When using the Digest SSP, on input, the structure references one or more 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures. One of these must be of type SECBUFFER_DATA or SECBUFFER_STREAM, and it must contain the encrypted message.
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures. One of these must be of type SECBUFFER_DATA or SECBUFFER_STREAM, and it must contain the encrypted message.
 
 ### -param MessageSeqNo [in]
 
@@ -107,8 +107,8 @@ The message was not encrypted, but a header or trailer was produced.
 </dl>
 </td>
 <td width="60%">
-When using the Digest SSP, use this flag when the security context is set to verify the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">signature</a> only. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/quality-of-protection">Quality of Protection</a>.
+When using the Digest SSP, use this flag when the security context is set to verify the <a href="/windows/desktop/SecGloss/d-gly">signature</a> only. For more information, see 
+<a href="/windows/desktop/SecAuthN/quality-of-protection">Quality of Protection</a>.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The cipher chosen for the security context is not supported. Used with the Diges
 </dl>
 </td>
 <td width="60%">
-The data in the input buffer is incomplete. The application needs to read more data from the server and call <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage">DecryptMessage (Digest)</a> again.
+The data in the input buffer is incomplete. The application needs to read more data from the server and call <a href="/windows/desktop/api/sspi/nf-sspi-decryptmessage">DecryptMessage (Digest)</a> again.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ The message was not received in the correct sequence.
 </dl>
 </td>
 <td width="60%">
-Neither confidentiality nor <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">integrity</a> are supported by the security context. Used with the Digest SSP.
+Neither confidentiality nor <a href="/windows/desktop/SecGloss/i-gly">integrity</a> are supported by the security context. Used with the Digest SSP.
 
 </td>
 </tr>
@@ -212,17 +212,16 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (Digest)</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (Digest)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>

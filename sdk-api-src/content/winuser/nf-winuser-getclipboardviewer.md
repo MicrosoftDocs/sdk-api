@@ -61,11 +61,11 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is the handle to the first window in the clipboard viewer chain. 
 
-If there is no clipboard viewer, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If there is no clipboard viewer, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
+<a href="/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -73,7 +73,7 @@ If there is no clipboard viewer, the return value is <b>NULL</b>. To get extende
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboardowner">GetClipboardOwner</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclipboardowner">GetClipboardOwner</a>
 
 
 
@@ -81,5 +81,4 @@ If there is no clipboard viewer, the return value is <b>NULL</b>. To get extende
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclipboardviewer">SetClipboardViewer</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setclipboardviewer">SetClipboardViewer</a>

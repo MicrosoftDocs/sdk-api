@@ -64,7 +64,7 @@ Text that replaces the current text in this range. If null, the current text is 
 
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -108,9 +108,9 @@ Out of memory.
 
 ## -remarks
 
-<b>ITextRange::SetText</b> replaces the text in the range with the new text. In contrast, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-typetext">TypeText</a> replaces the selection with the text <i>bstr</i> and leaves the selection as an insertion point just following the inserted text, just as if you had typed the text in. For UI selection behavior, see <b>TypeText</b>.
+<b>ITextRange::SetText</b> replaces the text in the range with the new text. In contrast, <a href="/windows/desktop/api/tom/nf-tom-itextselection-typetext">TypeText</a> replaces the selection with the text <i>bstr</i> and leaves the selection as an insertion point just following the inserted text, just as if you had typed the text in. For UI selection behavior, see <b>TypeText</b>.
 
-If, after you call <b>ITextRange::SetText</b>, you call <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a>, you get back the same text that you set with the <b>ITextRange::SetText</b> method (unless some other range has changed that text in between the calls).
+If, after you call <b>ITextRange::SetText</b>, you call <a href="/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a>, you get back the same text that you set with the <b>ITextRange::SetText</b> method (unless some other range has changed that text in between the calls).
 
 ## -see-also
 
@@ -118,11 +118,11 @@ If, after you call <b>ITextRange::SetText</b>, you call <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">GetText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-gettext">GetText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -130,9 +130,8 @@ If, after you call <b>ITextRange::SetText</b>, you call <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-typetext">TypeText</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-typetext">TypeText</a>

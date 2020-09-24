@@ -86,5 +86,4 @@ UrlUnescape(pszUrl, NULL, NULL, dwFlags | URL_UNESCAPE_INPLACE)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlunescapea">UrlUnescape</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlunescapea">UrlUnescape</a>

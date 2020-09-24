@@ -61,11 +61,11 @@ TBD
 
 ### -param pv
 
-After the <code>IPropertyStore::GetValue</code> method returns successfully, this parameter points to a <a href="https://msdn2.microsoft.com/library/aa912007.aspx">PROPVARIANT </a> structure that contains data about the property.
+After the <code>IPropertyStore::GetValue</code> method returns successfully, this parameter points to a <a href="/previous-versions/aa912007(v=msdn.10)">PROPVARIANT </a> structure that contains data about the property.
 
 ### -param Key
 
-A reference to the PROPERTYKEY structure that is retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>. The PROPERTYKEY structure also contains a globally unique identifier (GUID) for the property.
+A reference to the PROPERTYKEY structure that is retrieved through <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>. The PROPERTYKEY structure also contains a globally unique identifier (GUID) for the property.
 
 ## -returns
 
@@ -75,13 +75,12 @@ INPLACE_S_TRUNCATED is returned to indicate that the returned PROPVARIANT was co
 
 ## -remarks
 
-If the PROPERTYKEY referenced in key is not present in the property store, this method returns S_OK and the <a href="https://msdn2.microsoft.com/library/aa912007.aspx">vt </a> member of the structure that is pointed to by pv is set to VT_EMPTY.
+If the PROPERTYKEY referenced in key is not present in the property store, this method returns S_OK and the <a href="/previous-versions/aa912007(v=msdn.10)">vt </a> member of the structure that is pointed to by pv is set to VT_EMPTY.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>

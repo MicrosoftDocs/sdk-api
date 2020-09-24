@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of a file system type.
 
@@ -62,7 +62,7 @@ Defines the properties of a file system type.
 
 ### -field type
 
-The file system types enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>. Valid types are FAT, FAT32, NTFS, CDFS and UDF.
+The file system types enumerated by <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>. Valid types are FAT, FAT32, NTFS, CDFS and UDF.
 
 ### -field wszName
 
@@ -70,7 +70,7 @@ The file system types enumerated by <a href="https://docs.microsoft.com/windows/
 
 ### -field ulFlags
 
-The file system flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_flag">VDS_FILE_SYSTEM_FLAG</a>.
+The file system flags enumerated by <a href="/windows/desktop/api/vds/ne-vds-vds_file_system_flag">VDS_FILE_SYSTEM_FLAG</a>.
 
 ### -field ulCompressionFlags
 
@@ -86,21 +86,20 @@ A string containing all characters that are not valid for this file system type.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-queryfilesystemtypes">IVdsService::QueryFileSystemTypes</a>method returns this structure to report the property details of a file-system type.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-queryfilesystemtypes">IVdsService::QueryFileSystemTypes</a>method returns this structure to report the property details of a file-system type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-queryfilesystemtypes">IVdsService::QueryFileSystemTypes</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsservice-queryfilesystemtypes">IVdsService::QueryFileSystemTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_flag">VDS_FILE_SYSTEM_FLAG</a>
+<a href="/windows/desktop/api/vds/ne-vds-vds_file_system_flag">VDS_FILE_SYSTEM_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
-
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>

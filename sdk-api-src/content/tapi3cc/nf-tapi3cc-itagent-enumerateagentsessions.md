@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>EnumerateAgentSessions</b> method enumerates the current agent sessions. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_agentsessions">get_AgentSessions</a> method.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_agentsessions">get_AgentSessions</a> method.
 
 ## -parameters
 
 ### -param ppEnumAgentSession [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a> agent session enumerator.
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a> agent session enumerator.
 
 ## -returns
 
@@ -108,30 +108,29 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a> interface returned by <b>ITAgent::EnumerateAgentSessions</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a> interface returned by <b>ITAgent::EnumerateAgentSessions</b>. The application must call <b>Release</b> on the 
 <b>IEnumAgentSession</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-createsession">ITAgent::CreateSession</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-createsession">ITAgent::CreateSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-createsessionwithpin">ITAgent::CreateSessionWithPIN</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-createsessionwithpin">ITAgent::CreateSessionWithPIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_agentsessions">get_AgentSessions</a>
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_agentsessions">get_AgentSessions</a>

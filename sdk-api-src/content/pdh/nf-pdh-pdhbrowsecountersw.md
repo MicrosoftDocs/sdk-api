@@ -56,7 +56,7 @@ Displays a  <b>Browse Counters</b> dialog box that the user can use to select on
 			
 
 To use handles to data sources, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersha">PdhBrowseCountersH</a> function.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersha">PdhBrowseCountersH</a> function.
 
 ## -parameters
 
@@ -71,21 +71,21 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
 ## -remarks
 
 Note that the dialog
    box can return PDH_DIALOG_CANCELLED if <b>bSingleCounterPerDialog</b>is <b>FALSE</b> and the user clicks the  <b>Close</b> button, so your error handling would have to account for this.
 
-For information on using this function, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/browsing-counters">Browsing Counters</a>.
+For information on using this function, see <a href="/windows/desktop/PerfCtrs/browsing-counters">Browsing Counters</a>.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/browsing-performance-counters">Browsing Performance Counters</a>.
+<a href="/windows/desktop/PerfCtrs/browsing-performance-counters">Browsing Performance Counters</a>.
 
 <div class="code"></div>
 
@@ -97,7 +97,7 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nc-pdh-counterpathcallback">CounterPathCallBack</a>
+<a href="/windows/desktop/api/pdh/nc-pdh-counterpathcallback">CounterPathCallBack</a>
 
 
 
@@ -105,5 +105,4 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersha">PdhBrowseCountersH</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersha">PdhBrowseCountersH</a>

@@ -50,34 +50,33 @@ api_name:
 
 ## -description
 
-When used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368375(v=vs.85)">CLUSPROP_DWORD</a> structure, 
+When used with the <a href="/previous-versions/windows/desktop/legacy/aa368375(v=vs.85)">CLUSPROP_DWORD</a> structure, 
     enables or disables the functionality of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a> property of 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a>.
+    <a href="/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a> property of 
+    <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> <a href="/previous-versions/windows/desktop/mscs/resources">resources</a>.
 
 ## -enum-fields
 
 ### -field CLUSPROP_IPADDR_ENABLENETBIOS_DISABLED
 
 Disable the functionality of the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a> property.
+       <a href="/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a> property.
 
 ### -field CLUSPROP_IPADDR_ENABLENETBIOS_ENABLED
 
 Enable the functionality of the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a> property.
+       <a href="/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a> property.
 
 ### -field CLUSPROP_IPADDR_ENABLENETBIOS_TRACK_NIC
 
 Enable the functionality of the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a> property if the NIC to 
+       <a href="/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a> property if the NIC to 
        which the IP Address resource is bound has enabled NetBIOS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a>
+<a href="/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

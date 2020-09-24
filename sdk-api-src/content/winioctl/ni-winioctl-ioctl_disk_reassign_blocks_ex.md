@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -95,8 +95,7 @@ The [REASSIGN_BLOCKS_EX](ns-winioctl-reassign_blocks_ex.md) structure that the *
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)
 * [IOCTL_DISK_REASSIGN_BLOCKS](ni-winioctl-ioctl_disk_reassign_blocks.md)
 * [REASSIGN_BLOCKS](ns-winioctl-reassign_blocks.md)
 * [REASSIGN_BLOCKS_EX](ns-winioctl-reassign_blocks_ex.md)
-

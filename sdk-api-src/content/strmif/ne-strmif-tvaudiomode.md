@@ -104,10 +104,10 @@ The <b>TVAudioMode</b> flags fall into two groups.
 <div> </div>
 The mode flags represent the tuner's current audio mode. The preset flags represent settings that can take effect in the future, if the audio signal changes. Often, the secondary audio program is not available, or is available only in mono. An application can use the preset flags to store the user's preferred language while providing a reasonble experience when that language is not available.
 
-The following remarks describe how the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio</a> methods interpret these flags.
+The following remarks describe how the <a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio</a> methods interpret these flags.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-put_tvaudiomode">IAMTVAudio::put_TVAudioMode</a>:
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-put_tvaudiomode">IAMTVAudio::put_TVAudioMode</a>:
         
 
 <ul>
@@ -133,13 +133,13 @@ Except for language C, the tuner always streams the same language over both audi
 Example: The caller sets <b>AMTVAUDIO_PRESET_STEREO</b> | <b>AMTVAUDIO_PRESET_LANG_B</b>. Suppose the current program is available in language A with stereo or language B with mono. The driver selects language B (mono), because that flag takes precedence. Later, the program switches to a commercial that is only available in language A. The driver switches to language A, because language B is not available. When the program resumes, the driver switches back to language B.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-getavailabletvaudiomodes">IAMTVAudio::GetAvailableTVAudioModes</a>: This method returns the modes that are currently available in the signal. This method never returns preset flags.
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-getavailabletvaudiomodes">IAMTVAudio::GetAvailableTVAudioModes</a>: This method returns the modes that are currently available in the signal. This method never returns preset flags.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-gethardwaresupportedtvaudiomodes">IAMTVAudio::GetHardwareSupportedTVAudioModes</a>: This method returns all of the modes supported by the hardware, including preset modes.
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-gethardwaresupportedtvaudiomodes">IAMTVAudio::GetHardwareSupportedTVAudioModes</a>: This method returns all of the modes supported by the hardware, including preset modes.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-get_tvaudiomode">IAMTVAudio::get_TVAudioMode</a>: This method returns the current mode. This method never returns preset flags.
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-get_tvaudiomode">IAMTVAudio::get_TVAudioMode</a>: This method returns the current mode. This method never returns preset flags.
 
 <h3><a id="Mask_Constants"></a><a id="mask_constants"></a><a id="MASK_CONSTANTS"></a>Mask Constants</h3>
 The following constants are defined in Strmif.h:
@@ -171,9 +171,8 @@ DWORD PresetFlags(DWORD AudioMode)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>

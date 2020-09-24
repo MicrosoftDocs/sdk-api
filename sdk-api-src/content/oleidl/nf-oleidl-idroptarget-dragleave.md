@@ -78,7 +78,7 @@ There is insufficient memory available for this operation.
 
 ## -remarks
 
-You do not call this method directly. The <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method in either of the following cases:
+You do not call this method directly. The <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method in either of the following cases:
 
 <ul>
 <li>When the user drags the cursor out of a given target window.</li>
@@ -88,25 +88,24 @@ To implement <b>IDropTarget::DragLeave</b>, you must remove any target feedback 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>

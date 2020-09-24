@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-irunningtask-refresh">IRunningTask::Refresh</a> method is called before the property value is returned.
+The <a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-refresh">IRunningTask::Refresh</a> method is called before the property value is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>

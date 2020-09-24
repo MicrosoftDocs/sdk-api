@@ -111,7 +111,7 @@ key=string
       .
       .</code></pre>
 An application can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a> function to retrieve a string from a specified initialization file.
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a> function to retrieve a string from a specified initialization file.
 
 The <i>lpDefault</i> parameter must point to a valid string, even if the string is empty (that is, even if its first character is a <b>null</b> character).
 
@@ -153,9 +153,8 @@ When looking at values in the registry that specify other registry locations, th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>

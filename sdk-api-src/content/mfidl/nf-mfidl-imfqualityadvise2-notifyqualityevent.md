@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Forwards an <a href="https://docs.microsoft.com/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> event from the media sink.
+Forwards an <a href="/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> event from the media sink.
 
 ## -parameters
 
 ### -param pEvent [in]
 
-A pointer to the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface.
+A pointer to the event's <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface.
 
 ### -param pdwFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_quality_advise_flags">MF_QUALITY_ADVISE_FLAGS</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/mfidl/ne-mfidl-mf_quality_advise_flags">MF_QUALITY_ADVISE_FLAGS</a> enumeration.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2">IMFQualityAdvise2</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2">IMFQualityAdvise2</a>

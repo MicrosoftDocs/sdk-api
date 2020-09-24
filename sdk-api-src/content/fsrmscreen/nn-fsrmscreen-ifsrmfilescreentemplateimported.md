@@ -52,9 +52,8 @@ api_name:
 
 Used to save imported file screen templates.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilescreentemplates">IFsrmExportImport::ImportFileScreenTemplates</a> method returns this interface.
+The <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilescreentemplates">IFsrmExportImport::ImportFileScreenTemplates</a> method returns this interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplate">IFsrmFileScreenTemplate</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplate">IFsrmFileScreenTemplate</a>

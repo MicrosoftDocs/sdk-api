@@ -47,8 +47,8 @@ Summarizes the specified heap.
 ### -param hHeap
 
 A handle to the heap to be summarized. This handle is returned by either the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+      <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+      <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ### -param dwFlags
 
@@ -65,4 +65,3 @@ Returns S_OK on success.
 ## -remarks
 
 ## -see-also
-

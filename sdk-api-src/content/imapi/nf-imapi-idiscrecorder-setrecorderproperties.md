@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 Accepts an 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> pointer for an object with all the properties that the application wishes to change. Sparse settings are supported. It is recommended, however, to query for a property set using 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderproperties">GetRecorderProperties</a>, modify only those settings of interest, and then call 
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> pointer for an object with all the properties that the application wishes to change. Sparse settings are supported. It is recommended, however, to query for a property set using 
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderproperties">GetRecorderProperties</a>, modify only those settings of interest, and then call 
 <b>SetRecorderProperties</b> to change all values simultaneously.
 
 ## -parameters
@@ -60,7 +60,7 @@ Accepts an
 ### -param pPropStg [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface that the disc recorder can use to retrieve new settings on various properties.
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface that the disc recorder can use to retrieve new settings on various properties.
 
 ## -returns
 
@@ -72,9 +72,8 @@ Some properties are read-only, such as MaxWriteSpeed. Both read-only properties 
 
 After calling 
 <b>SetRecorderProperties</b>, an application should verify property settings by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderproperties">GetRecorderProperties</a>.
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderproperties">GetRecorderProperties</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>

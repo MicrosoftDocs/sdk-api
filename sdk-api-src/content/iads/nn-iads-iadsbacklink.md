@@ -55,9 +55,8 @@ The <b>IADsBackLink</b> interface provides methods for an ADSI client to access 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsbacklink-property-methods">IADsBackLink Property Methods</a>
+<a href="/windows/desktop/ADSI/iadsbacklink-property-methods">IADsBackLink Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

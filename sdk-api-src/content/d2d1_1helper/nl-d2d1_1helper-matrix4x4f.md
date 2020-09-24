@@ -64,7 +64,7 @@ The <b>Matrix4x4F</b> class represents a 4-by-4 matrix and provides convenience 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-determinant">Determinant</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-determinant">Determinant</a>
 </td>
 <td align="left" width="63%">
 Calculates the determinant of the matrix.
@@ -73,7 +73,7 @@ Calculates the determinant of the matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-isidentity">IsIdentity</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-isidentity">IsIdentity</a>
 </td>
 <td align="left" width="63%">
 Indicates whether this matrix is the identity matrix.
@@ -82,7 +82,7 @@ Indicates whether this matrix is the identity matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-perspectiveprojection">PerspectiveProjection</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-perspectiveprojection">PerspectiveProjection</a>
 </td>
 <td align="left" width="63%">
 A perspective transformation given a depth value.
@@ -91,25 +91,25 @@ A perspective transformation given a depth value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-reinterpretbasetype(d2d1_matrix_4x4_f)">ReinterpretBaseType</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-reinterpretbasetype(d2d1_matrix_4x4_f)">ReinterpretBaseType</a>
 </td>
 <td align="left" width="63%">
-Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
+Converts the specified <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh848012(v=vs.85)">ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix)</a>
+<a href="/previous-versions/windows/desktop/legacy/hh848012(v=vs.85)">ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix)</a>
 </td>
 <td align="left" width="63%">
-Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
+Converts the specified <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationarbitraryaxis">RotationArbitraryAxis</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationarbitraryaxis">RotationArbitraryAxis</a>
 </td>
 <td align="left" width="63%">
 Determines the 3-D Rotation matrix for an arbitrary axis.
@@ -118,7 +118,7 @@ Determines the 3-D Rotation matrix for an arbitrary axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationx">RotationX</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationx">RotationX</a>
 </td>
 <td align="left" width="63%">
 Rotates the transform matrix around the X axis.
@@ -127,7 +127,7 @@ Rotates the transform matrix around the X axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationy">RotationY</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationy">RotationY</a>
 </td>
 <td align="left" width="63%">
 Rotates the transform matrix around the Y axis.
@@ -136,7 +136,7 @@ Rotates the transform matrix around the Y axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationz">RotationZ</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationz">RotationZ</a>
 </td>
 <td align="left" width="63%">
 Rotates the transform matrix around the Z axis.
@@ -145,7 +145,7 @@ Rotates the transform matrix around the Z axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-scale">Scale</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-scale">Scale</a>
 </td>
 <td align="left" width="63%">
 Scales the perspective plane of the matrix.
@@ -154,7 +154,7 @@ Scales the perspective plane of the matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-setproduct">SetProduct</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-setproduct">SetProduct</a>
 </td>
 <td align="left" width="63%">
 Multiplies the two matrices and stores the result in this matrix.
@@ -163,7 +163,7 @@ Multiplies the two matrices and stores the result in this matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-skewx">SkewX</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-skewx">SkewX</a>
 </td>
 <td align="left" width="63%">
 Skews the matrix in the X direction.
@@ -172,7 +172,7 @@ Skews the matrix in the X direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-skewy">SkewY</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-skewy">SkewY</a>
 </td>
 <td align="left" width="63%">
 Skews the matrix in the Y direction.
@@ -207,7 +207,7 @@ The <b>Matrix4x4F</b> class has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-determinant">Determinant</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-determinant">Determinant</a>
 </td>
 <td align="left" width="63%">
 Calculates the determinant of the matrix.
@@ -216,7 +216,7 @@ Calculates the determinant of the matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-isidentity">IsIdentity</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-isidentity">IsIdentity</a>
 </td>
 <td align="left" width="63%">
 Indicates whether this matrix is the identity matrix.
@@ -225,7 +225,7 @@ Indicates whether this matrix is the identity matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-perspectiveprojection">PerspectiveProjection</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-perspectiveprojection">PerspectiveProjection</a>
 </td>
 <td align="left" width="63%">
 A perspective transformation given a depth value.
@@ -234,25 +234,25 @@ A perspective transformation given a depth value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-reinterpretbasetype(d2d1_matrix_4x4_f)">ReinterpretBaseType</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-reinterpretbasetype(d2d1_matrix_4x4_f)">ReinterpretBaseType</a>
 </td>
 <td align="left" width="63%">
-Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
+Converts the specified <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh848012(v=vs.85)">ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix)</a>
+<a href="/previous-versions/windows/desktop/legacy/hh848012(v=vs.85)">ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix)</a>
 </td>
 <td align="left" width="63%">
-Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
+Converts the specified <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationarbitraryaxis">RotationArbitraryAxis</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationarbitraryaxis">RotationArbitraryAxis</a>
 </td>
 <td align="left" width="63%">
 Determines the 3-D Rotation matrix for an arbitrary axis.
@@ -261,7 +261,7 @@ Determines the 3-D Rotation matrix for an arbitrary axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationx">RotationX</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationx">RotationX</a>
 </td>
 <td align="left" width="63%">
 Rotates the transform matrix around the X axis.
@@ -270,7 +270,7 @@ Rotates the transform matrix around the X axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationy">RotationY</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationy">RotationY</a>
 </td>
 <td align="left" width="63%">
 Rotates the transform matrix around the Y axis.
@@ -279,7 +279,7 @@ Rotates the transform matrix around the Y axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationz">RotationZ</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-rotationz">RotationZ</a>
 </td>
 <td align="left" width="63%">
 Rotates the transform matrix around the Z axis.
@@ -288,7 +288,7 @@ Rotates the transform matrix around the Z axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-scale">Scale</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-scale">Scale</a>
 </td>
 <td align="left" width="63%">
 Scales the perspective plane of the matrix.
@@ -297,7 +297,7 @@ Scales the perspective plane of the matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-setproduct">SetProduct</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-setproduct">SetProduct</a>
 </td>
 <td align="left" width="63%">
 Multiplies the two matrices and stores the result in this matrix.
@@ -306,7 +306,7 @@ Multiplies the two matrices and stores the result in this matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-skewx">SkewX</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-skewx">SkewX</a>
 </td>
 <td align="left" width="63%">
 Skews the matrix in the X direction.
@@ -315,7 +315,7 @@ Skews the matrix in the X direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-skewy">SkewY</a>
+<a href="/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-skewy">SkewY</a>
 </td>
 <td align="left" width="63%">
 Skews the matrix in the Y direction.
@@ -328,9 +328,9 @@ Indicates whether this matrix is the identity matrix.
 
 A perspective transformation given a depth value.
 
-Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
+Converts the specified <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
 
-Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
+Converts the specified <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <b>Matrix4x4F</b> without making a copy.
 
 Determines the 3-D Rotation matrix for an arbitrary axis.
 
@@ -366,4 +366,3 @@ Multiplies this matrix with the specified matrix and returns the result.
 </td>
 </tr>
 </table>Multiplies this matrix with the specified matrix and returns the result.
-

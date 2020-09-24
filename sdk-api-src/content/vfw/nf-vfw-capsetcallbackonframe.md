@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capSetCallbackOnFrame</b> macro sets a preview callback function in the application. AVICap calls this procedure when the capture window captures preview frames. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-frame">WM_CAP_SET_CALLBACK_FRAME</a> message.
+The <b>capSetCallbackOnFrame</b> macro sets a preview callback function in the application. AVICap calls this procedure when the capture window captures preview frames. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-frame">WM_CAP_SET_CALLBACK_FRAME</a> message.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle to a capture window.
 
 ### -param fpProc
 
-Pointer to the preview callback function, of type <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed callback function.
+Pointer to the preview callback function, of type <a href="/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed callback function.
 
 ## -remarks
 
@@ -68,13 +68,12 @@ The capture window calls the callback function before displaying preview frames.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/creating-a-frame-callback-function">Creating a Frame Callback Function</a>
+<a href="/windows/desktop/Multimedia/creating-a-frame-callback-function">Creating a Frame Callback Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

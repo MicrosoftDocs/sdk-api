@@ -63,7 +63,7 @@ A handle to the registry key. The handle must be opened with the <b>KEY_WRITE</b
 
 ### -param KeySetInformationClass [in]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_key_set_information_class">KEY_SET_INFORMATION_CLASS</a> value that 
+A <a href="/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_key_set_information_class">KEY_SET_INFORMATION_CLASS</a> value that 
       specifies the kind of information to be set.
 
 ### -param KeySetInformation [in]
@@ -89,11 +89,10 @@ The forms and significance of <b>NTSTATUS</b> error codes are listed in the Ntst
 ## -remarks
 
 The associated import library, Ntdll.lib, is available in the 
-    WDK. You can also use the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to 
+    WDK. You can also use the <a href="/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and 
+    <a href="/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to 
     Ntdll.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>
-
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>

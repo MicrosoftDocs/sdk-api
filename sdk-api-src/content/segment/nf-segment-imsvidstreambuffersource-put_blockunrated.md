@@ -99,9 +99,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_unrateddelay">IMSVidStreamBufferSource::put_UnratedDelay</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_unrateddelay">IMSVidStreamBufferSource::put_UnratedDelay</a>

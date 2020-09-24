@@ -56,7 +56,7 @@ Gets an empty stream that receives the new version of the file being copied.
 
 ### -param ppstm [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
 The address of a pointer to the new stream.
 
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The property handler author calls <b>IDestinationStreamFactory::GetDestinationStream</b> to get a new empty stream that the new version of the file will write to. The handler builds the destination stream manually, copying from the source stream as necessary.
-

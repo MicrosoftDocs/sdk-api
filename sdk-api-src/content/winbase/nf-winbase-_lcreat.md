@@ -126,7 +126,7 @@ System. Not found by directory search.
 
 ## -returns
 
-If the function succeeds, the return value is a file handle. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function succeeds, the return value is a file handle. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -138,5 +138,4 @@ Use the <b>_lcreat</b> function with care. It can open any file, even one alread
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>

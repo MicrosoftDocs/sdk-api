@@ -54,9 +54,9 @@ api_name:
 
 Removes the file name extension from a path, if one is present.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremoveextensiona">PathRemoveExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathremoveextensiona">PathRemoveExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-<div class="alert"><b>Note</b>This function, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremoveextensiona">PathRemoveExtension</a> to prevent the possibility of a buffer overrun.</div>
+<div class="alert"><b>Note</b>This function, should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathremoveextensiona">PathRemoveExtension</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 
@@ -71,4 +71,3 @@ The size of the buffer pointed to by <i>pszPath</i>, in characters.
 ## -returns
 
 This function returns <b>S_OK</b> if the function was successful, <b>S_FALSE</b> if no extension was found, or an error code otherwise.
-

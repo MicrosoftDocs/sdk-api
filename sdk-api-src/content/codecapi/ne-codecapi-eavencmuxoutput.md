@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of output stream produced by a multiplexer. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmuxoutputstreamtype">AVEncMuxOutputStreamType</a> property.
+Specifies the type of output stream produced by a multiplexer. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencmuxoutputstreamtype">AVEncMuxOutputStreamType</a> property.
 
 ## -enum-fields
 
@@ -68,9 +68,8 @@ The multiplexer outputs a transport stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

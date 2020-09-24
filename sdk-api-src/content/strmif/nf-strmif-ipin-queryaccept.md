@@ -57,7 +57,7 @@ The <code>QueryAccept</code> method determines whether the pin accepts a specifi
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type.
+Pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type.
 
 ## -returns
 
@@ -98,21 +98,20 @@ A return value of S_OK indicates that the pin will accept the media type, either
 
 Any other return value, including S_FALSE, means that the pin rejects the media type. Therefore, test for S_OK explicitly; do not use the <b>SUCCEEDED</b> macro.
 
-If the filter is running, a return value of S_OK is ambiguous. The pin might accept a format change on the next media sample, without reconnecting; or it might need to reconnect. If the pin supports the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection</a> interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicqueryaccept">IPinConnection::DynamicQueryAccept</a> method, which specifically tests whether the pin can accept the new type without reconnecting.
+If the filter is running, a return value of S_OK is ambiguous. The pin might accept a format change on the next media sample, without reconnecting; or it might need to reconnect. If the pin supports the <a href="/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection</a> interface, call the <a href="/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicqueryaccept">IPinConnection::DynamicQueryAccept</a> method, which specifically tests whether the pin can accept the new type without reconnecting.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>
+<a href="/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

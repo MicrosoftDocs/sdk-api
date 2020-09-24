@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>WTHelperCertCheckValidSignature</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For certificate verification, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions. For Microsoft <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> technology signature verification, use the .NET Framework.]
+<p class="CCE_Message">[The <b>WTHelperCertCheckValidSignature</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For certificate verification, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions. For Microsoft <a href="/windows/desktop/SecGloss/a-gly">Authenticode</a> technology signature verification, use the .NET Framework.]
 
-The <b>WTHelperCertCheckValidSignature</b> function checks whether a signature is valid.  It can be used by trust providers to get an initial assessment of the validity of a signature before calling the function pointed to by the <b>pfnFinalPolicy</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a> structure.
+The <b>WTHelperCertCheckValidSignature</b> function checks whether a signature is valid.  It can be used by trust providers to get an initial assessment of the validity of a signature before calling the function pointed to by the <b>pfnFinalPolicy</b> member of a <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a> structure.
 
 ## -parameters
 
 ### -param pProvData
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_data">CRYPT_PROVIDER_DATA</a> structure that contains the signer and countersigner information.
+A pointer to the <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_data">CRYPT_PROVIDER_DATA</a> structure that contains the signer and countersigner information.
 
 ## -returns
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of possible error values, see <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a>.
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of possible error values, see <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a>.

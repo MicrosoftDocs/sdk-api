@@ -66,21 +66,20 @@ The return value is a handle to the window associated with the specified DC. If 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdcex">GetDCEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdcex">GetDCEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdc">GetWindowDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowdc">GetWindowDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>

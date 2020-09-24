@@ -56,7 +56,7 @@ Determines whether this text font object has the same properties as the specifie
 
 ### -param pFont
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>*</b>
 
 The text font object to compare against.
 
@@ -70,7 +70,7 @@ A variable that is <b>tomTrue</b> if the font objects have the same properties o
 
 Type: <b>HRESULT</b>
 
-If the text font objects have the same properties, the method succeeds and returns <b>S_OK</b>. If the text font objects do not have the same properties, the method fails and returns <b>S_FALSE</b>. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the text font objects have the same properties, the method succeeds and returns <b>S_OK</b>. If the text font objects do not have the same properties, the method fails and returns <b>S_FALSE</b>. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 ## -remarks
 
@@ -82,7 +82,7 @@ The text font objects are equal only if <i>pFont</i> belongs to the same Text Ob
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -90,5 +90,4 @@ The text font objects are equal only if <i>pFont</i> belongs to the same Text Ob
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

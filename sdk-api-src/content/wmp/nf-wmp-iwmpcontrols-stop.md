@@ -84,21 +84,20 @@ When Windows Media Player is stopped, the current playback point in the media it
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-next">IWMPControls::next</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-next">IWMPControls::next</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-pause">IWMPControls::pause</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-pause">IWMPControls::pause</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-play">IWMPControls::play</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-play">IWMPControls::play</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-previous">IWMPControls::previous</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-previous">IWMPControls::previous</a>

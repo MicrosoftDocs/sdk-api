@@ -65,7 +65,7 @@ This method can return one of these values.
 ## -remarks
 
 MMC calls the method for the first time if 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">IRequiredExtensions::GetFirstExtension</a> returns an S_OK value. MMC iterates the list of required extensions to add by calling <b>IRequiredExtensions::GetNextExtension</b> until it returns a value other than S_OK.
+<a href="/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">IRequiredExtensions::GetFirstExtension</a> returns an S_OK value. MMC iterates the list of required extensions to add by calling <b>IRequiredExtensions::GetNextExtension</b> until it returns a value other than S_OK.
 
 If this method returns S_OK, MMC adds the extension snap-in specified by pExtCLSID and then calls <b>IRequiredExtensions::GetNextExtension</b> again to get the next extension snap-in in the list.
 
@@ -73,9 +73,8 @@ If another value is returned, MMC considers the return an indicator of the end o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-irequiredextensions">IRequiredExtensions</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-irequiredextensions">IRequiredExtensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">IRequiredExtensions::GetFirstExtension</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">IRequiredExtensions::GetFirstExtension</a>

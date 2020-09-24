@@ -63,9 +63,9 @@ A pointer to a buffer that contains the file's extension. This should include th
 
 ### -param ptype [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED</a>*</b>
+Type: <b><a href="/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED</a> value that indicates the perceived type.
+A pointer to a <a href="/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED</a> value that indicates the perceived type.
 
 ### -param pflag [out]
 
@@ -77,7 +77,7 @@ A pointer to a value that indicates the source of the perceived type information
 
 #### PERCEIVEDFLAG_UNDEFINED (0x0000)
 
-No perceived type was found (<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED_TYPE_UNSPECIFIED</a>).
+No perceived type was found (<a href="/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED_TYPE_UNSPECIFIED</a>).
 
 
 
@@ -130,4 +130,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 This function first compares the extension against a hard-coded set of extensions known to Windows. If that search fails to reveal a match, the registered associations under HKEY_CLASSES_ROOT are searched for a key that matches the extension and contains a PerceivedType value. If that value is found, the extension set is again searched for a match. If again no match is found, the perceived type is determined to be PERCEIVED_TYPE_CUSTOM. If either a key that matches the extension or a PerceivedType value is not found, the perceived type is reported as PERCEIVED_TYPE_UNSPECIFIED.
-

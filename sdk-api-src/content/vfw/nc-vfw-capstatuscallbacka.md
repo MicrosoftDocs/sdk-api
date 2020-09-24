@@ -56,7 +56,7 @@ The <b>capStatusCallback</b> function is the status callback function used with 
 
 
 
-To set the callback, send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-status">WM_CAP_SET_CALLBACK_STATUS</a> message to the capture window or call the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonstatus">capSetCallbackOnStatus</a> macro.
+To set the callback, send the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-status">WM_CAP_SET_CALLBACK_STATUS</a> message to the capture window or call the <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonstatus">capSetCallbackOnStatus</a> macro.
 
 ## -parameters
 
@@ -85,9 +85,8 @@ During capture operations, the first message sent to the callback function is al
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>

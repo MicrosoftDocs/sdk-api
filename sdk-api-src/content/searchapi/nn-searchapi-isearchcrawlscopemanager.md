@@ -54,7 +54,7 @@ Provides methods that notify the search engine of containers to crawl and/or wat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchCrawlScopeManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchCrawlScopeManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchCrawlScopeManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchCrawlScopeManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISearchCrawlScopeManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adddefaultscoperule">AddDefaultScopeRule</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adddefaultscoperule">AddDefaultScopeRule</a>
 </td>
 <td align="left" width="63%">
 Adds a URL as the default scope for this rule.
@@ -79,7 +79,7 @@ Adds a URL as the default scope for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-addhierarchicalscope">AddHierarchicalScope</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-addhierarchicalscope">AddHierarchicalScope</a>
 </td>
 <td align="left" width="63%">
 Adds a hierarchical scope to the search engine.
@@ -89,7 +89,7 @@ Adds a hierarchical scope to the search engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-addroot">AddRoot</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-addroot">AddRoot</a>
 </td>
 <td align="left" width="63%">
 Adds a new search root to the search engine.
@@ -99,7 +99,7 @@ Adds a new search root to the search engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adduserscoperule">AddUserScopeRule</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adduserscoperule">AddUserScopeRule</a>
 </td>
 <td align="left" width="63%">
 Adds a new crawl scope rule when the user creates a new rule or adds a URL to be indexed.
@@ -108,7 +108,7 @@ Adds a new crawl scope rule when the user creates a new rule or adds a URL to be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-enumerateroots">EnumerateRoots</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-enumerateroots">EnumerateRoots</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of all the roots of which this instance of the <b>ISearchCrawlScopeManager</b> is aware.
@@ -118,7 +118,7 @@ Returns an enumeration of all the roots of which this instance of the <b>ISearch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-enumeratescoperules">EnumerateScopeRules</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-enumeratescoperules">EnumerateScopeRules</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of all the scope rules of which this instance of the <b>ISearchCrawlScopeManager</b> interface is aware.
@@ -128,7 +128,7 @@ Returns an enumeration of all the scope rules of which this instance of the <b>I
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-getparentscopeversionid">GetParentScopeVersionId</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-getparentscopeversionid">GetParentScopeVersionId</a>
 </td>
 <td align="left" width="63%">
 Gets the version ID of the parent inclusion URL.
@@ -137,7 +137,7 @@ Gets the version ID of the parent inclusion URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-haschildscoperule">HasChildScopeRule</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-haschildscoperule">HasChildScopeRule</a>
 </td>
 <td align="left" width="63%">
 Identifies whether a given URL has a child rule in scope.
@@ -147,7 +147,7 @@ Identifies whether a given URL has a child rule in scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-hasparentscoperule">HasParentScopeRule</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-hasparentscoperule">HasParentScopeRule</a>
 </td>
 <td align="left" width="63%">
 Identifies whether a given URL has a parent rule in scope.
@@ -157,7 +157,7 @@ Identifies whether a given URL has a parent rule in scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscope">IncludedInCrawlScope</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscope">IncludedInCrawlScope</a>
 </td>
 <td align="left" width="63%">
 Retrieves an indicator of whether the specified URL is included in the crawl scope.
@@ -167,7 +167,7 @@ Retrieves an indicator of whether the specified URL is included in the crawl sco
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscopeex">IncludedInCrawlScopeEx</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscopeex">IncludedInCrawlScopeEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves an indicator of whether and why the specified URL is included in the crawl scope.
@@ -176,7 +176,7 @@ Retrieves an indicator of whether and why the specified URL is included in the c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-removedefaultscoperule">RemoveDefaultScopeRule</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-removedefaultscoperule">RemoveDefaultScopeRule</a>
 </td>
 <td align="left" width="63%">
 Removes a default scope rule from the search engine.
@@ -185,7 +185,7 @@ Removes a default scope rule from the search engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-removeroot">RemoveRoot</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-removeroot">RemoveRoot</a>
 </td>
 <td align="left" width="63%">
 Removes a search root from the search engine.
@@ -195,7 +195,7 @@ Removes a search root from the search engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-removescoperule">RemoveScopeRule</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-removescoperule">RemoveScopeRule</a>
 </td>
 <td align="left" width="63%">
 Removes a scope rule from the search engine.
@@ -204,7 +204,7 @@ Removes a scope rule from the search engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-reverttodefaultscopes">RevertToDefaultScopes</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-reverttodefaultscopes">RevertToDefaultScopes</a>
 </td>
 <td align="left" width="63%">
 Reverts to the default scopes.
@@ -213,7 +213,7 @@ Reverts to the default scopes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-saveall">SaveAll</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-saveall">SaveAll</a>
 </td>
 <td align="left" width="63%">
 Commits all changes to the search engine.
@@ -233,9 +233,8 @@ For a sample that demonstrates how to define command line options for Crawl Scop
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
+<a href="/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-extidx-csm">Using the Crawl Scope Manager</a>
-
+<a href="/windows/desktop/search/-search-3x-wds-extidx-csm">Using the Crawl Scope Manager</a>

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>IDsAdminCreateObj::CreateModal</b> method displays the object creation wizard and returns the newly created object. The <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-initialize">IDsAdminCreateObj::Initialize</a> method must be called before <b>IDsAdminCreateObj::CreateModal</b> can be called.
+The <b>IDsAdminCreateObj::CreateModal</b> method displays the object creation wizard and returns the newly created object. The <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-initialize">IDsAdminCreateObj::Initialize</a> method must be called before <b>IDsAdminCreateObj::CreateModal</b> can be called.
 
 ## -parameters
 
 ### -param hwndParent [in]
 
-Contains the window handle of the owner of the wizard. This value cannot be <b>NULL</b>. Use the result of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdesktopwindow">GetDesktopWindow</a> function if no parent window is available.
+Contains the window handle of the owner of the wizard. This value cannot be <b>NULL</b>. Use the result of the <a href="/windows/desktop/api/winuser/nf-winuser-getdesktopwindow">GetDesktopWindow</a> function if no parent window is available.
 
 ### -param ppADsObj [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a> interface pointer that receives the newly created object. This parameter receives <b>NULL</b> if the object creation wizard fails or is canceled. The caller must release this interface when it is no longer required. This parameter may be <b>NULL</b> if this object is not required.
+Pointer to an <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a> interface pointer that receives the newly created object. This parameter receives <b>NULL</b> if the object creation wizard fails or is canceled. The caller must release this interface when it is no longer required. This parameter may be <b>NULL</b> if this object is not required.
 
 ## -returns
 
@@ -71,25 +71,24 @@ Returns an OLE-defined error code or one of the following values.
 
 ## -remarks
 
-If the user cancels the object creation wizard, this method returns S_FALSE.  If <i>ppADsObj</i> is not <b>NULL</b>, <i>ppADsObj</i> receives a <b>NULL</b> value. Because of this, the use of the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> macro to determine if <i>ppADsObj</i> is valid should be avoided. Always test the contents of <i>ppADsObj</i> for a non-<b>NULL</b> value before using the interface pointer.
+If the user cancels the object creation wizard, this method returns S_FALSE.  If <i>ppADsObj</i> is not <b>NULL</b>, <i>ppADsObj</i> receives a <b>NULL</b> value. Because of this, the use of the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> macro to determine if <i>ppADsObj</i> is valid should be avoided. Always test the contents of <i>ppADsObj</i> for a non-<b>NULL</b> value before using the interface pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdesktopwindow">GetDesktopWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdesktopwindow">GetDesktopWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadmincreateobj">IDsAdminCreateObj</a>
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadmincreateobj">IDsAdminCreateObj</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-initialize">IDsAdminCreateObj::Initialize</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-initialize">IDsAdminCreateObj::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a>
-
+<a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a>

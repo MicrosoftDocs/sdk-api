@@ -61,17 +61,16 @@ Set the DPI awareness for the current thread to the provided value.
 
 ### -param dpiContext [in]
 
-The new <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> for the current thread. This context includes the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> value.
+The new <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> for the current thread. This context includes the <a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> value.
 
 ## -returns
 
-The old <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> for the thread. If the <i>dpiContext</i> is invalid, the thread will not be updated and the return value will be <b>NULL</b>. You can use this value to restore the old <b>DPI_AWARENESS_CONTEXT</b> after overriding it with a predefined value.
+The old <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> for the thread. If the <i>dpiContext</i> is invalid, the thread will not be updated and the return value will be <b>NULL</b>. You can use this value to restore the old <b>DPI_AWARENESS_CONTEXT</b> after overriding it with a predefined value.
 
 ## -remarks
 
-Use this API to change the <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> for the thread from the default value for the app.
+Use this API to change the <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> for the thread from the default value for the app.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>
-
+<a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>

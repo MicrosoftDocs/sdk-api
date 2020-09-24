@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Unmarshals a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object from the RPC buffer.
+Unmarshals a <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object from the RPC buffer.
 
 ## -parameters
 
@@ -132,9 +132,8 @@ Insufficient memory for this function to perform.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object does not have the correct dimensions, does not have the correct features, or memory cannot be reallocated.
+The <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object does not have the correct dimensions, does not have the correct features, or memory cannot be reallocated.
 
 </td>
 </tr>
 </table>
-

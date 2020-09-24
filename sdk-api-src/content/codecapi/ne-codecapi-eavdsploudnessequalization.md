@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies whether loudness equalization is enabled in an audio decoder or digital signal processor (DSP). This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdsploudnessequalization-property">AVDSPLoudnessEqualization</a> property.
+Specifies whether loudness equalization is enabled in an audio decoder or digital signal processor (DSP). This enumeration is used with the <a href="/windows/desktop/DirectShow/avdsploudnessequalization-property">AVDSPLoudnessEqualization</a> property.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ Loudness equalization is a DSP process that maintains a consistent volume level 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

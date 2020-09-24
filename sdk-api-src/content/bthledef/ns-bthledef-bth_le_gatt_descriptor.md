@@ -80,21 +80,20 @@ The handle to the Bluetooth LE GATT profile attributes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_descriptor_type">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
+<a href="/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_descriptor_type">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_uuid">BTH_LE_UUID</a>
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_uuid">BTH_LE_UUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetdescriptorvalue">BluetoothGATTGetDescriptorValue</a>
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetdescriptorvalue">BluetoothGATTGetDescriptorValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetdescriptors">BluetoothGATTGetDescriptors</a>
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetdescriptors">BluetoothGATTGetDescriptors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetdescriptorvalue">BluetoothGATTSetDescriptorValue</a>
-
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetdescriptorvalue">BluetoothGATTSetDescriptorValue</a>

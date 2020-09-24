@@ -52,16 +52,16 @@ api_name:
 
 The 
 <b>ITScriptableAudioFormat</b> interface is used by scriptable clients to get the audio format from, or set the audio format for, the track. The interface provides properties for each member from the 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfiletrack-get_audioformatforscripting">ITFileTrack::get_AudioFormatForScripting</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfiletrack-get_emptyaudioformatforscripting">ITFileTrack::get_EmptyAudioFormatForScripting</a> methods create the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itfiletrack-get_audioformatforscripting">ITFileTrack::get_AudioFormatForScripting</a> and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itfiletrack-get_emptyaudioformatforscripting">ITFileTrack::get_EmptyAudioFormatForScripting</a> methods create the 
 <b>ITScriptableAudioFormat</b> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITScriptableAudioFormat</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITScriptableAudioFormat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITScriptableAudioFormat</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITScriptableAudioFormat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>ITScriptableAudioFormat</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_avgbytespersec">get_AvgBytesPerSec</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_avgbytespersec">get_AvgBytesPerSec</a>
 </td>
 <td align="left" width="63%">
 Gets the value for the <b>nAvgBytesPerSec</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -85,7 +85,7 @@ Gets the value for the <b>nAvgBytesPerSec</b> member in the <b>WAVEFORMATEX</b> 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_bitspersample">get_BitsPerSample</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_bitspersample">get_BitsPerSample</a>
 </td>
 <td align="left" width="63%">
 Gets the value for the <b>wBitsPerSample</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -94,7 +94,7 @@ Gets the value for the <b>wBitsPerSample</b> member in the <b>WAVEFORMATEX</b> s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_blockalign">get_BlockAlign</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_blockalign">get_BlockAlign</a>
 </td>
 <td align="left" width="63%">
 Gets the value for the <b>nBlockAlign</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -103,17 +103,17 @@ Gets the value for the <b>nBlockAlign</b> member in the <b>WAVEFORMATEX</b> stru
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_channels">get_Channels</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_channels">get_Channels</a>
 </td>
 <td align="left" width="63%">
 Gets the value for the <b>nChannels</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_formattag">get_FormatTag</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_formattag">get_FormatTag</a>
 </td>
 <td align="left" width="63%">
 Gets the value for the <b>wFormatTag</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -122,7 +122,7 @@ Gets the value for the <b>wFormatTag</b> member in the <b>WAVEFORMATEX</b> struc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_samplespersec">get_SamplesPerSec</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_samplespersec">get_SamplesPerSec</a>
 </td>
 <td align="left" width="63%">
 Gets the value for the <b>nSamplesPerSec</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -131,7 +131,7 @@ Gets the value for the <b>nSamplesPerSec</b> member in the <b>WAVEFORMATEX</b> s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_avgbytespersec">put_AvgBytesPerSec</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_avgbytespersec">put_AvgBytesPerSec</a>
 </td>
 <td align="left" width="63%">
 Sets the value for the <b>nAvgBytesPerSec</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -140,7 +140,7 @@ Sets the value for the <b>nAvgBytesPerSec</b> member in the <b>WAVEFORMATEX</b> 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_bitspersample">put_BitsPerSample</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_bitspersample">put_BitsPerSample</a>
 </td>
 <td align="left" width="63%">
 Sets the value for the <b>wBitsPerSample</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -149,7 +149,7 @@ Sets the value for the <b>wBitsPerSample</b> member in the <b>WAVEFORMATEX</b> s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_blockalign">put_BlockAlign</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_blockalign">put_BlockAlign</a>
 </td>
 <td align="left" width="63%">
 Sets the value for the <b>nBlockAlign</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -158,7 +158,7 @@ Sets the value for the <b>nBlockAlign</b> member in the <b>WAVEFORMATEX</b> stru
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_channels">put_Channels</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_channels">put_Channels</a>
 </td>
 <td align="left" width="63%">
 Sets the value for the <b>nChannels</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -167,7 +167,7 @@ Sets the value for the <b>nChannels</b> member in the <b>WAVEFORMATEX</b> struct
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_formattag">put_FormatTag</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_formattag">put_FormatTag</a>
 </td>
 <td align="left" width="63%">
 Sets the value for the <b>wFormatTag</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -176,7 +176,7 @@ Sets the value for the <b>wFormatTag</b> member in the <b>WAVEFORMATEX</b> struc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_samplespersec">put_SamplesPerSec</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_samplespersec">put_SamplesPerSec</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the <b>nSamplesPerSec</b> member in the <b>WAVEFORMATEX</b> structure.
@@ -184,4 +184,3 @@ Sets the value of the <b>nSamplesPerSec</b> member in the <b>WAVEFORMATEX</b> st
 </td>
 </tr>
 </table>
-

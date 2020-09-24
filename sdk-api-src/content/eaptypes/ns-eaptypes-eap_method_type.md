@@ -58,7 +58,7 @@ The <b>EAP_METHOD_TYPE</b> structure contains  type, identification, and author 
 
 ### -field eapType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a> structure that contains the ID for the EAP method as well as specific vendor information.
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a> structure that contains the ID for the EAP method as well as specific vendor information.
 
 ### -field dwAuthorId
 
@@ -70,5 +70,4 @@ The numeric ID for the author of the EAP method.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a>
-
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the processing mode for the voice capture DSP. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmaaecma-system-modeproperty">MFPKEY_WMAAECMA_SYSTEM_MODE </a> property.
+Specifies the processing mode for the voice capture DSP. This enumeration is used with the <a href="/windows/desktop/medfound/mfpkey-wmaaecma-system-modeproperty">MFPKEY_WMAAECMA_SYSTEM_MODE </a> property.
 
 ## -enum-fields
 
@@ -84,13 +84,12 @@ Uninitialized. This value is the initial value of the MFPKEY_WMAAECMA_SYSTEM_MOD
 
 ## -remarks
 
-In all modes, the DSP applies noise suppression and automatic gain control by default. To disable noise suppression, set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmaaecma-featr-nsproperty">MFPKEY_WMAAECMA_FEATR_NS</a> property. To disable automatic gain control, set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmaaecma-featr-agcproperty">MFPKEY_WMAAECMA_FEATR_AGC</a> property.
+In all modes, the DSP applies noise suppression and automatic gain control by default. To disable noise suppression, set the <a href="/windows/desktop/medfound/mfpkey-wmaaecma-featr-nsproperty">MFPKEY_WMAAECMA_FEATR_NS</a> property. To disable automatic gain control, set the <a href="/windows/desktop/medfound/mfpkey-wmaaecma-featr-agcproperty">MFPKEY_WMAAECMA_FEATR_AGC</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/voicecapturedmo">Voice Capture</a>
-
+<a href="/windows/desktop/medfound/voicecapturedmo">Voice Capture</a>

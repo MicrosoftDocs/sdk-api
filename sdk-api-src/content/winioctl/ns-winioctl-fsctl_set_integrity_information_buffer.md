@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Input buffer passed with the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a> control 
+     <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a> control 
      code.
 
 ## -struct-fields
@@ -155,9 +155,8 @@ If <b>FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF</b> is specified and the fil
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

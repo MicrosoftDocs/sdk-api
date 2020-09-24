@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Causes the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control to redraw.
+Causes the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control to redraw.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

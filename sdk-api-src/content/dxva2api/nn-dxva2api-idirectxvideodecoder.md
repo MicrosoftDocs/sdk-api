@@ -52,11 +52,11 @@ api_name:
 
 Represents a DirectX Video Acceleration (DXVA) video decoder device.
 
- To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-createvideodecoder">IDirectXVideoDecoderService::CreateVideoDecoder</a>.
+ To get a pointer to this interface, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-createvideodecoder">IDirectXVideoDecoderService::CreateVideoDecoder</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoDecoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectXVideoDecoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoDecoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectXVideoDecoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirectXVideoDecoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-beginframe">BeginFrame</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-beginframe">BeginFrame</a>
 </td>
 <td align="left" width="63%">
 Starts the decoding operation.
@@ -81,7 +81,7 @@ Starts the decoding operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-endframe">EndFrame</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-endframe">EndFrame</a>
 </td>
 <td align="left" width="63%">
 Signals the end of the decoding operation.
@@ -91,7 +91,7 @@ Signals the end of the decoding operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute">Execute</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute">Execute</a>
 </td>
 <td align="left" width="63%">
 Executes a decoding operation on the current frame.
@@ -101,7 +101,7 @@ Executes a decoding operation on the current frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer">GetBuffer</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a DXVA decoder buffer.
@@ -111,7 +111,7 @@ Gets a pointer to a DXVA decoder buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getcreationparameters">GetCreationParameters</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getcreationparameters">GetCreationParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the parameters that were used to create this device.
@@ -121,7 +121,7 @@ Gets the parameters that were used to create this device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getvideodecoderservice">GetVideoDecoderService</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getvideodecoderservice">GetVideoDecoderService</a>
 </td>
 <td align="left" width="63%">
 Gets the DXVA decoder service that created this decoder device.
@@ -131,10 +131,10 @@ Gets the DXVA decoder service that created this decoder device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-releasebuffer">ReleaseBuffer</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-releasebuffer">ReleaseBuffer</a>
 </td>
 <td align="left" width="63%">
-Releases a buffer that was obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer">GetBuffer</a>.
+Releases a buffer that was obtained by calling <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer">GetBuffer</a>.
         
 
 </td>
@@ -147,9 +147,8 @@ The <b>IDirectXVideoDecoder</b> methods make calls to the Direct3D device. There
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
+<a href="/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

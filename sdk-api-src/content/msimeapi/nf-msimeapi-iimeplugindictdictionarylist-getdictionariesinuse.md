@@ -112,5 +112,4 @@ Other errors.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msimeapi/nn-msimeapi-iimeplugindictdictionarylist">IImePlugInDictDictionaryList</a>
-
+<a href="/windows/desktop/api/msimeapi/nn-msimeapi-iimeplugindictdictionarylist">IImePlugInDictDictionaryList</a>

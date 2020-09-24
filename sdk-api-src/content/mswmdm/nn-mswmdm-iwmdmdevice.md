@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IWMDMDevice</b> interface provides methods to examine and explore a single portable device. The interface can be used to get information about a device and enumerate its storages. <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2</a> extends the capabilities of this interface.
+The <b>IWMDMDevice</b> interface provides methods to examine and explore a single portable device. The interface can be used to get information about a device and enumerate its storages. <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2</a> extends the capabilities of this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWMDMDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-enumstorage">EnumStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-enumstorage">EnumStorage</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage">IWMDMEnumStorage</a> interface to enumerate the storages on a device.
+Retrieves an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage">IWMDMEnumStorage</a> interface to enumerate the storages on a device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getdeviceicon">GetDeviceIcon</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getdeviceicon">GetDeviceIcon</a>
 </td>
 <td align="left" width="63%">
 Retrieves a handle to the icon that the device manufacturer wants to display when the device is connected.
@@ -87,7 +87,7 @@ Retrieves a handle to the icon that the device manufacturer wants to display whe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getformatsupport">GetFormatSupport</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getformatsupport">GetFormatSupport</a>
 </td>
 <td align="left" width="63%">
 Retrieves all the formats supported by the device, including codecs and file formats.
@@ -96,7 +96,7 @@ Retrieves all the formats supported by the device, including codecs and file for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getmanufacturer">GetManufacturer</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getmanufacturer">GetManufacturer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the manufacturer of the device.
@@ -105,7 +105,7 @@ Retrieves the name of the manufacturer of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getname">GetName</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the human-readable name of the device.
@@ -114,7 +114,7 @@ Retrieves the human-readable name of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getpowersource">GetPowerSource</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getpowersource">GetPowerSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the power source and the percentage of power remaining for the device.
@@ -123,7 +123,7 @@ Retrieves information about the power source and the percentage of power remaini
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getserialnumber">GetSerialNumber</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getserialnumber">GetSerialNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves a serial number that uniquely identifies the device.
@@ -132,7 +132,7 @@ Retrieves a serial number that uniquely identifies the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getstatus">GetStatus</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves device status information.
@@ -141,7 +141,7 @@ Retrieves device status information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-gettype">GetType</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the operations supported by the device.
@@ -150,7 +150,7 @@ Retrieves the operations supported by the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getversion">GetVersion</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getversion">GetVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the manufacturer-defined version number of the device.
@@ -159,7 +159,7 @@ Retrieves the manufacturer-defined version number of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-sendopaquecommand">SendOpaqueCommand</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-sendopaquecommand">SendOpaqueCommand</a>
 </td>
 <td align="left" width="63%">
 Sends a device-specific command to the device through Windows Media Device Manager.
@@ -170,13 +170,12 @@ Sends a device-specific command to the device through Windows Media Device Manag
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3">IWMDMDevice3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3">IWMDMDevice3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

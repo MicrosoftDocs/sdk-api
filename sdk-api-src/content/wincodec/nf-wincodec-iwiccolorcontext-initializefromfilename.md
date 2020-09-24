@@ -72,9 +72,8 @@ Once a color context has been initialized, it can't be re-initialized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/getcolordirectory">GetColorDirectory</a>
+<a href="/previous-versions/windows/desktop/wcs/getcolordirectory">GetColorDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>
-
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>

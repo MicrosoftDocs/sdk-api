@@ -84,9 +84,8 @@ Indicates that the filter's video pin has been created.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_exseekcapabilities">IAMExtendedSeeking::get_ExSeekCapabilities</a> for descriptions of how the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter sets these flags.
+See <a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_exseekcapabilities">IAMExtendedSeeking::get_ExSeekCapabilities</a> for descriptions of how the <a href="/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter sets these flags.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

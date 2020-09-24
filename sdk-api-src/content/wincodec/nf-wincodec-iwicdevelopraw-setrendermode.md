@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Sets the current <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a>.
+Sets the current <a href="/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a>.
 
 ## -parameters
 
 ### -param RenderMode [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a></b>
+Type: <b><a href="/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a></b>
 
 The render mode to use.
 
@@ -66,4 +66,3 @@ The render mode to use.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

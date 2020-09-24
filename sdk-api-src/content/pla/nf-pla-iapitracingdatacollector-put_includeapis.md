@@ -64,13 +64,12 @@ You can use this property to limit the functions that PLA logs to this list of f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_excludeapis">IApiTracingDataCollector::ExcludeApis</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_excludeapis">IApiTracingDataCollector::ExcludeApis</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_logapinamesonly">IApiTracingDataCollector::LogApiNamesOnly</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_logapinamesonly">IApiTracingDataCollector::LogApiNamesOnly</a>

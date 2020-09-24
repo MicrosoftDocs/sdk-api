@@ -56,7 +56,7 @@ Gets the content type of the message.
 
 ### -param *encoderContext [in]
 
-The encoder instance returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a>.
+The encoder instance returned by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a>.
 
 ### -param *contentType [in]
 
@@ -126,11 +126,10 @@ The content type and content encoding returned must remain valid until the
               callback is invoked again, or the encoder is freed.
             
 
-For <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
+For <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
               is returned, the HTTP header "Content-Encoding" will be added to the message
               with this value.
             
 
 For other channel bindings, it is an error to return a non-zero length 
               content encoding.
-

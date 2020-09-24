@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Defines the interface for callbacks from <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets">IReferenceTracker::FindTrackerTargets</a>. The implementation of this interface must pass any <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget">IReferenceTrackerTarget</a> instances it finds to the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback-foundtrackertarget">FoundTrackerTarget</a> method.
+Defines the interface for callbacks from <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets">IReferenceTracker::FindTrackerTargets</a>. The implementation of this interface must pass any <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget">IReferenceTrackerTarget</a> instances it finds to the <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback-foundtrackertarget">FoundTrackerTarget</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFindReferenceTargetsCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFindReferenceTargetsCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFindReferenceTargetsCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFindReferenceTargetsCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFindReferenceTargetsCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback-foundtrackertarget">FoundTrackerTarget</a>
+<a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback-foundtrackertarget">FoundTrackerTarget</a>
 </td>
 <td align="left" width="63%">
 Called whenever a XAML object reference tracker target is found.
@@ -77,4 +77,3 @@ Called whenever a XAML object reference tracker target is found.
 </td>
 </tr>
 </table>
-

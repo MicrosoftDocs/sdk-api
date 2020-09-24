@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined function that serves as a vectored exception handler. Specify this address when calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler">AddVectoredExceptionHandler</a> function. The <b>PVECTORED_EXCEPTION_HANDLER</b> type defines a pointer to this callback function. 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler">AddVectoredExceptionHandler</a> function. The <b>PVECTORED_EXCEPTION_HANDLER</b> type defines a pointer to this callback function. 
 <b>VectoredHandler</b> is a placeholder for the application-defined name.
 
 ## -parameters
@@ -59,7 +59,7 @@ An application-defined function that serves as a vectored exception handler. Spe
 ### -param *ExceptionInfo [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure that receives the exception record.
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure that receives the exception record.
 
 ## -returns
 
@@ -71,9 +71,8 @@ The handler should not call functions that acquire synchronization objects or al
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/vectored-exception-handling">Vectored Exception Handling</a>
-
+<a href="/windows/desktop/Debug/vectored-exception-handling">Vectored Exception Handling</a>

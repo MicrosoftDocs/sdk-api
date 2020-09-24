@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes the relative description type for a property description, as determined by the <i>relativeDescriptionType</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element.
+Describes the relative description type for a property description, as determined by the <i>relativeDescriptionType</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element.
 
 ## -enum-fields
 
@@ -101,4 +101,3 @@ Priority type.
 ## -remarks
 
 These values are defined in propsys.h and propsys.idl.
-

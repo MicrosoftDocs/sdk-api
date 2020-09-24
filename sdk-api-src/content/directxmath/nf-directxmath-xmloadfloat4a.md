@@ -50,27 +50,26 @@ api_name:
 
 ## -description
 
-Loads an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)">XMFLOAT4A</a> into an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+Loads an <a href="/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)">XMFLOAT4A</a> into an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 ## -parameters
 
 ### -param pSource [in]
 
-Address of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)">XMFLOAT4A</a> structure to load.
+Address of the <a href="/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)">XMFLOAT4A</a> structure to load.
 
 ## -returns
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
 
 ## -remarks
 
-The members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)">XMFLOAT4A</a> are loaded into the corresponding members of the returned
-   <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+The members of the <a href="/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)">XMFLOAT4A</a> are loaded into the corresponding members of the returned
+   <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>

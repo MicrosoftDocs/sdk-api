@@ -66,7 +66,7 @@ Reserved for internal use by the operating system.
 
 ### -field BeingDebugged
 
-Indicates whether the specified process is currently being debugged. The <b>PEB</b> structure, however, is an internal operating-system structure whose layout may change in the future. It is best to use the <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> function instead.
+Indicates whether the specified process is currently being debugged. The <b>PEB</b> structure, however, is an internal operating-system structure whose layout may change in the future. It is best to use the <a href="/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> function instead.
 
 ### -field Reserved2
 
@@ -78,11 +78,11 @@ Reserved for internal use by the operating system.
 
 ### -field Ldr
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb_ldr_data">PEB_LDR_DATA</a> structure that contains information about the loaded modules for the process.
+A pointer to a <a href="/windows/desktop/api/winternl/ns-winternl-peb_ldr_data">PEB_LDR_DATA</a> structure that contains information about the loaded modules for the process.
 
 ### -field ProcessParameters
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a> structure that contains process parameter information such as the command line.
+A pointer to an <a href="/windows/desktop/api/winternl/ns-winternl-rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a> structure that contains process parameter information such as the command line.
 
 ### -field Reserved4
 
@@ -140,17 +140,16 @@ The syntax for this structure on 64-bit Windows is as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>
+<a href="/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb_ldr_data">PEB_LDR_DATA</a>
+<a href="/windows/desktop/api/winternl/ns-winternl-peb_ldr_data">PEB_LDR_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a>
+<a href="/windows/desktop/api/winternl/ns-winternl-rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/zwqueryinformationprocess">ZwQueryInformationProcess</a>
-
+<a href="/windows/desktop/ProcThread/zwqueryinformationprocess">ZwQueryInformationProcess</a>

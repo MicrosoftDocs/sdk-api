@@ -52,9 +52,9 @@ api_name:
 
 The 
 <b>IWbemHiPerfProvider::CreateRefresher</b> method creates a refresher. The returned refresher will be used in subsequent calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum">IWbemHiPerfProvider::CreateRefreshableEnum</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject">IWbemHiPerfProvider::CreateRefreshableObject</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-stoprefreshing">IWbemHiPerfProvider::StopRefreshing</a>.
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum">IWbemHiPerfProvider::CreateRefreshableEnum</a>, 
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject">IWbemHiPerfProvider::CreateRefreshableObject</a>, and 
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-stoprefreshing">IWbemHiPerfProvider::StopRefreshing</a>.
 <div class="alert"><b>Note</b>  If a provider does not implement this method, it must return <b>WBEM_E_PROVIDER_NOT_CAPABLE</b>. A provider must implement this method to support refresher operations.</div><div> </div>
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
 
 ### -param lFlags [in]
 
@@ -71,7 +71,7 @@ Reserved. This parameter must be 0 (zero).
 ### -param ppRefresher [out]
 
 Pointer to hold the reference to the provider's implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a> interface.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a> interface.
 
 ## -returns
 
@@ -80,7 +80,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 ## -remarks
 
 The provider must supply its own implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a> interface. It is valid for WMI to request multiple refreshers, each of which will be used for its own refresh operations.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a> interface. It is valid for WMI to request multiple refreshers, each of which will be used for its own refresh operations.
 
 When you release a refresher, the provider should clean up any refreshable objects or enumerators that were added to the refresher.
 
@@ -117,11 +117,11 @@ HRESULT CHiPerfProvider::CreateRefresher(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
+<a href="/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfProvider</a>
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfProvider</a>
 
 
 
@@ -129,9 +129,8 @@ Making an Instance Provider into a High-Performance Provider
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
+<a href="/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>
-
+<a href="/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>

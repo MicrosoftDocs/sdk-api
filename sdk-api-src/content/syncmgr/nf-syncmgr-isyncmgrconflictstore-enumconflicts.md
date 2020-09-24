@@ -68,9 +68,9 @@ A pointer to the sync item ID as a Unicode string.
 
 ### -param ppEnum [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrconflict">IEnumSyncMgrConflict</a>**</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrconflict">IEnumSyncMgrConflict</a>**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrconflict">IEnumSyncMgrConflict</a> interface pointer.
+The address of an <a href="/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrconflict">IEnumSyncMgrConflict</a> interface pointer.
 
 ## -returns
 
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If the sync handler, sync item, or partner name is <b>NULL</b>, the conflict store ignores that parameter.
-

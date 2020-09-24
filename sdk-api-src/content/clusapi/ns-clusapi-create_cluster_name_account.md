@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Describes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">cluster name</a> resource and domain credentials used by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusternameaccount">CreateClusterNameAccount</a> function to add a cluster to a domain. <b>PCREATE_CLUSTER_NAME_ACCOUNT</b> defines a pointer to this structure.
+Describes a <a href="/previous-versions/windows/desktop/mscs/network-name">cluster name</a> resource and domain credentials used by the <a href="/windows/desktop/api/clusapi/nf-clusapi-createclusternameaccount">CreateClusterNameAccount</a> function to add a cluster to a domain. <b>PCREATE_CLUSTER_NAME_ACCOUNT</b> defines a pointer to this structure.
 
 ## -struct-fields
 
@@ -92,5 +92,4 @@ The management point type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>

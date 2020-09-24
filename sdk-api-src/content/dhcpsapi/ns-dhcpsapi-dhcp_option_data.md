@@ -64,7 +64,7 @@ Specifies the number of option data elements listed in <b>Elements</b>.
 
 ### -field Elements
 
-Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data_element">DHCP_OPTION_DATA_ELEMENT</a> structures that contain the data elements associated with this particular option element.
+Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data_element">DHCP_OPTION_DATA_ELEMENT</a> structures that contain the data elements associated with this particular option element.
 
 ### -field Elements.size_is
 
@@ -72,5 +72,4 @@ Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data_element">DHCP_OPTION_DATA_ELEMENT</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data_element">DHCP_OPTION_DATA_ELEMENT</a>

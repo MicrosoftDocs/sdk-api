@@ -63,43 +63,42 @@ Handle to the RAS connection to hang up.
 
 If the function succeeds, the return value should be <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value should be a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value should be a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 ## -remarks
 
 RAS  calls this entry point from 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>, if the <b>szCustomDialDll</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure for the entry being dialed specifies a custom-dialing DLL.
+<a href="/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>, if the <b>szCustomDialDll</b> member of the 
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure for the entry being dialed specifies a custom-dialing DLL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
+<a href="/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomdialfn">RasCustomDial</a>
+<a href="/windows/desktop/api/ras/nc-ras-rascustomdialfn">RasCustomDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nc-rasdlg-rascustomdialdlgfn">RasCustomDialDlg</a>
+<a href="/windows/desktop/api/rasdlg/nc-rasdlg-rascustomdialdlgfn">RasCustomDialDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nc-rasdlg-rascustomentrydlgfn">RasCustomEntryDlg</a>
+<a href="/windows/desktop/api/rasdlg/nc-rasdlg-rascustomentrydlgfn">RasCustomEntryDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>
+<a href="/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

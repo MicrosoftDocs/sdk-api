@@ -51,15 +51,15 @@ api_name:
 ## -description
 
 The <b>WbemFlagEnum</b> enumeration defines constants 
-    that are used by <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execquery">SWbemServices.ExecQuery</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execqueryasync">SWbemServices.ExecQueryAsync</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-subclassesof">SWbemServices.SubclassesOf</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-instancesof">SWbemServices.InstancesOf</a>.
+    that are used by <a href="/windows/desktop/WmiSdk/swbemservices-execquery">SWbemServices.ExecQuery</a>, 
+    <a href="/windows/desktop/WmiSdk/swbemservices-execqueryasync">SWbemServices.ExecQueryAsync</a>, 
+    <a href="/windows/desktop/WmiSdk/swbemservices-subclassesof">SWbemServices.SubclassesOf</a>, and 
+    <a href="/windows/desktop/WmiSdk/swbemservices-instancesof">SWbemServices.InstancesOf</a>.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this 
     library; script languages must use the value of the constant directly, unless they use the Windows Script Host 
     (WSH) XML file format. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
+    <a href="/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 ## -enum-fields
 
@@ -79,16 +79,16 @@ Causes WMI to retain pointers to objects of the enumeration until the client rel
 
 Causes a forward-only enumerator to be returned. Use this flag in combination with 
       <b>wbemFlagReturnImmediately</b> to request semisynchronous access. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+      <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 You can only iterate (as in a VBScript For Each statement) through a forward-only enumerator one time. The 
       memory containing the instances is released by WMI so that the enumerator cannot be rewound. Therefore, the 
-      <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobjectset-count">SWbemObjectSet.Count</a> method cannot be used since 
+      <a href="/windows/desktop/WmiSdk/swbemobjectset-count">SWbemObjectSet.Count</a> method cannot be used since 
       it requires rewinding the enumerator.
 
 Forward-only enumerators are generally much faster and use less 
       memory than conventional enumerators, but they do not allow calls to 
-      <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-clone-">SWbemObject.Clone</a>.
+      <a href="/windows/desktop/WmiSdk/swbemobject-clone-">SWbemObject.Clone</a>.
 
 ### -field wbemFlagNoErrorObject
 
@@ -101,13 +101,13 @@ Causes asynchronous calls to return an error object in the event of an error.
 ### -field wbemFlagSendStatus
 
 Causes asynchronous calls to send status updates to the 
-     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsink-onprogress">SWbemSink.OnProgress</a> event handler for your object 
+     <a href="/windows/desktop/WmiSdk/swbemsink-onprogress">SWbemSink.OnProgress</a> event handler for your object 
      sink.
 
 ### -field wbemFlagDontSendStatus
 
 Prevents asynchronous calls from sending status updates to the 
-     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsink-onprogress">SWbemSink.OnProgress</a> event handler for your object 
+     <a href="/windows/desktop/WmiSdk/swbemsink-onprogress">SWbemSink.OnProgress</a> event handler for your object 
      sink.
 
 ### -field wbemFlagEnsureLocatable
@@ -120,7 +120,7 @@ Prevents asynchronous calls from sending status updates to the
 
 Causes WMI to return class amendment data along with the base class definition. For more information about 
      amended qualifiers, see 
-     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/localizing-wmi-class-information">Localizing WMI Class Information</a>.
+     <a href="/windows/desktop/WmiSdk/localizing-wmi-class-information">Localizing WMI Class Information</a>.
 
 ### -field wbemFlagGetDefault
 
@@ -130,13 +130,12 @@ Causes WMI to return class amendment data along with the base class definition. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-a-semisynchronous-call-with-vbscript">Making a Semisynchronous Call with VBScript</a>
+<a href="/windows/desktop/WmiSdk/making-a-semisynchronous-call-with-vbscript">Making a Semisynchronous Call with VBScript</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
-
+<a href="/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>

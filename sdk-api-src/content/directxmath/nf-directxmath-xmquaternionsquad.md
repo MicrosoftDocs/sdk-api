@@ -85,20 +85,19 @@ The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quate
     where the X, Y, and Z components are the vector part and the W component is the scalar part.
 
 The use of this method requires some setup before its use. See
-   <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionsquadsetup">XMQuaternionSquadSetup</a> for details.
+   <a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionsquadsetup">XMQuaternionSquadSetup</a> for details.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionsquadsetup">XMQuaternionSquadSetup</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionsquadsetup">XMQuaternionSquadSetup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionsquadv">XMQuaternionSquadV</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionsquadv">XMQuaternionSquadV</a>

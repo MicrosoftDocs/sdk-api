@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The DDBLTBATCH structure passes bit block transfer (bitblt) operations to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">IDirectDrawSurface7::BltBatch</a> method.
+The DDBLTBATCH structure passes bit block transfer (bitblt) operations to the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">IDirectDrawSurface7::BltBatch</a> method.
 
 ## -struct-fields
 
@@ -82,7 +82,7 @@ Uses either the alpha information in pixel format or the alpha channel surface a
 
 #### DDBLT_ALPHADESTCONSTOVERRIDE
 
-Uses the <b>dwAlphaDestConst</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the alpha channel for the destination surface for this bitblt.
+Uses the <b>dwAlphaDestConst</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the alpha channel for the destination surface for this bitblt.
 
 
 
@@ -94,13 +94,13 @@ The destination surface becomes more transparent as the alpha value increases (0
 
 #### DDBLT_ALPHADESTSURFACEOVERRIDE
 
-Uses the <b>lpDDSAlphaDest</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the alpha channel for the destination surface for this bitblt.
+Uses the <b>lpDDSAlphaDest</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the alpha channel for the destination surface for this bitblt.
 
 
 
 #### DDBLT_ALPHAEDGEBLEND
 
-Uses the <b>dwAlphaEdgeBlend</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the alpha channel for the edges of the image that border the color key colors.
+Uses the <b>dwAlphaEdgeBlend</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the alpha channel for the edges of the image that border the color key colors.
 
 
 
@@ -112,7 +112,7 @@ Uses either the alpha information in pixel format or the alpha channel surface a
 
 #### DDBLT_ALPHASRCCONSTOVERRIDE
 
-Uses the <b>dwAlphaSrcConst</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the source alpha channel for this bitblt.
+Uses the <b>dwAlphaSrcConst</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the source alpha channel for this bitblt.
 
 
 
@@ -124,7 +124,7 @@ The source surface becomes more transparent as the alpha value increases (0 is o
 
 #### DDBLT_ALPHASRCSURFACEOVERRIDE
 
-Uses the <b>lpDDSAlphaSrc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the alpha channel source for this bitblt.
+Uses the <b>lpDDSAlphaSrc</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the alpha channel source for this bitblt.
 
 
 
@@ -136,19 +136,19 @@ Performs this bitblt asynchronously through the first in, first out (FIFO) hardw
 
 #### DDBLT_COLORFILL
 
-Uses the <b>dwFillColor</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the RGB color that fills the destination rectangle on the destination surface.
+Uses the <b>dwFillColor</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the RGB color that fills the destination rectangle on the destination surface.
 
 
 
 #### DDBLT_DDFX
 
-Uses the <b>dwDDFX</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure to specify the effects to use for this bitblt.
+Uses the <b>dwDDFX</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure to specify the effects to use for this bitblt.
 
 
 
 #### DDBLT_DDROPS
 
-Uses the <b>dwDDROP</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure to specify the raster operations (ROPS) that are not part of the Win32 API.
+Uses the <b>dwDDROP</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure to specify the raster operations (ROPS) that are not part of the Win32 API.
 
 
 
@@ -160,7 +160,7 @@ Uses the color key that is associated with the destination surface.
 
 #### DDBLT_KEYDESTOVERRIDE
 
-Uses the <b>ddckDestColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the color key for the destination surface.
+Uses the <b>ddckDestColorkey</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the color key for the destination surface.
 
 
 
@@ -172,51 +172,50 @@ Uses the color key that is associated with the source surface.
 
 #### DDBLT_KEYSRCOVERRIDE
 
-Uses the <b>ddckSrcColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the color key for the source surface.
+Uses the <b>ddckSrcColorkey</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the color key for the source surface.
 
 
 
 #### DDBLT_ROP
 
-Uses the <b>dwROP</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure for the ROP for this bitblt. These ROPs are the same as those defined in the Win32 API.
+Uses the <b>dwROP</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure for the ROP for this bitblt. These ROPs are the same as those defined in the Win32 API.
 
 
 
 #### DDBLT_ROTATIONANGLE
 
-Uses the <b>dwRotationAngle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the rotation angle (specified in 1/100s of a degree) for the surface.
+Uses the <b>dwRotationAngle</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the rotation angle (specified in 1/100s of a degree) for the surface.
 
 
 
 #### DDBLT_ZBUFFER
 
-Performs a z-buffered bitblt, using the z-buffers that are attached to the source and destination surfaces and the <b>dwZBufferOpCode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer opcode.
+Performs a z-buffered bitblt, using the z-buffers that are attached to the source and destination surfaces and the <b>dwZBufferOpCode</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer opcode.
 
 
 
 #### DDBLT_ZBUFFERDESTCONSTOVERRIDE
 
-Performs a z-buffered bitblt, using the <b>dwZDestConst</b> and <b>dwZBufferOpCode</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer and z-buffer opcode, respectively, for the destination.
+Performs a z-buffered bitblt, using the <b>dwZDestConst</b> and <b>dwZBufferOpCode</b> members of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer and z-buffer opcode, respectively, for the destination.
 
 
 
 #### DDBLT_ZBUFFERDESTOVERRIDE
 
-Performs a z-buffered bitblt, using the <b>lpDDSZBufferDest</b> and <b>dwZBufferOpCode</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer and z-buffer opcode, respectively, for the destination.
+Performs a z-buffered bitblt, using the <b>lpDDSZBufferDest</b> and <b>dwZBufferOpCode</b> members of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer and z-buffer opcode, respectively, for the destination.
 
 
 
 #### DDBLT_ZBUFFERSRCCONSTOVERRIDE
 
-Performs a z-buffered bitblt, using the <b>dwZSrcConst</b> and <b>dwZBufferOpCode</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer and z-buffer opcode, respectively, for the source.
+Performs a z-buffered bitblt, using the <b>dwZSrcConst</b> and <b>dwZBufferOpCode</b> members of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer and z-buffer opcode, respectively, for the source.
 
 
 
 #### DDBLT_ZBUFFERSRCOVERRIDE
 
-Performs a z-buffered bitblt, using the <b>lpDDSZBufferSrc</b> and <b>dwZBufferOpCode</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer and z-buffer opcode, respectively, for the source.
+Performs a z-buffered bitblt, using the <b>lpDDSZBufferSrc</b> and <b>dwZBufferOpCode</b> members of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer and z-buffer opcode, respectively, for the source.
 
 ### -field lpDDBltFx
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure that specifies additional bitblt effects.
-
+Address of a <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure that specifies additional bitblt effects.

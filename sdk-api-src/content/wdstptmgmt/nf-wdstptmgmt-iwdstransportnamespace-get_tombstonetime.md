@@ -63,9 +63,8 @@ If the namespace has not been deregistered, this property fails with an error th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_tombstoned">Tombstoned Property</a>
-
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_tombstoned">Tombstoned Property</a>

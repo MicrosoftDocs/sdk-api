@@ -52,9 +52,9 @@ api_name:
 
 The 
 <b>IWbemCallResult::GetResultObject</b> method attempts to retrieve an object from a previous semisynchronous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a>. If the object is not yet available, the call returns <b>WBEM_S_TIMEDOUT</b>. Also, before invoking this method to get the resulting object, you may call 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus">IWbemCallResult::GetCallStatus</a> until it returns <b>WBEM_S_NO_ERROR</b>, indicating that the original semisynchronous operation is complete.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> or 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a>. If the object is not yet available, the call returns <b>WBEM_S_TIMEDOUT</b>. Also, before invoking this method to get the resulting object, you may call 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus">IWbemCallResult::GetCallStatus</a> until it returns <b>WBEM_S_NO_ERROR</b>, indicating that the original semisynchronous operation is complete.
 
 ## -parameters
 
@@ -78,13 +78,12 @@ COM-specific error codes may also be returned if network problems cause you to l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a>

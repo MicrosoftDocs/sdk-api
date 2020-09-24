@@ -66,13 +66,12 @@ The bitmask of valid flag values. This constant is not itself a valid flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfigex">IEVRFilterConfigEx</a>
+<a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfigex">IEVRFilterConfigEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
-
+<a href="/windows/desktop/medfound/video-quality-management">Video Quality Management</a>

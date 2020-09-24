@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>AddAttribute</b> method adds a metadata attribute. To change the value of an existing attribute, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-modifyattribute">IWMHeaderInfo3::ModifyAttribute</a> method.
+The <b>AddAttribute</b> method adds a metadata attribute. To change the value of an existing attribute, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-modifyattribute">IWMHeaderInfo3::ModifyAttribute</a> method.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ Pointer to a <b>WORD</b>. On successful completion of the method, this value is 
 
 ### -param Type [in]
 
-Type of data used for the new attribute. For more information about the types of data supported, see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>.
+Type of data used for the new attribute. For more information about the types of data supported, see <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>.
 
 ### -param wLangIndex [in]
 
@@ -168,12 +168,11 @@ This method appends a null character to the end of the string passed in <i>pwszN
 
 When setting attributes for MP3 files, the metadata editor automatically inserts a byte-order mark in accordance with the Unicode specification. If you manually insert a byte-order mark, this method will not fail, but the value will then have two marks, which can cause problems when reading the attribute.
 
-The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
+The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="/windows/desktop/wmformat/attributes">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
 
 <div class="alert"><b>Note</b>  Be careful to use the correct type representations of values. For example, when setting WM/MediaClassPrimaryID or WM/MediaClassSecondaryID attributes the values need to be represented as GUIDs converted to a byte array instead of strings converted to a byte array.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>

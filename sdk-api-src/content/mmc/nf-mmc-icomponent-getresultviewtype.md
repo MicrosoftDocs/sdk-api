@@ -58,14 +58,14 @@ The <b>IComponent::GetResultViewType</b> method
 ### -param cookie [in]
 
 A value that specifies the snapin-provided unique identifier for the scope item. For more details about 
-      cookies in MMC, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/cookies">Cookies</a>.
+      cookies in MMC, see <a href="/previous-versions/windows/desktop/mmc/cookies">Cookies</a>.
 
 ### -param ppViewType [out]
 
 A pointer to the address of a string that specifies the view to display for the specified 
       <i>cookie</i>. The callee (snap-in) allocates the view type string using the COM API function 
-      <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
-      <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+      <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
+      <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 The string that is returned depends on the view type:
 
@@ -86,7 +86,7 @@ For standard list views, MMC does not use this value. If the snap-in uses only s
 For a taskpad view that uses MMC taskpad templates, <i>ppViewType</i> should point to 
           the address of a string that contains the resource path to the taskpad template and a group name that 
           identifies the taskpad. Be aware that MMC passes the group name in calls to 
-          <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a> methods to enable the snap-in to 
+          <a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a> methods to enable the snap-in to 
           identify the particular taskpad that is being displayed (this is important if the snap-in has multiple 
           taskpads).
 
@@ -189,7 +189,7 @@ New in MMC 1.2. In a standard list view, this option tells MMC to hide scope ite
 #### MMC_VIEW_OPTIONS_FILTERED (0x0008)
 
 Notifies MMC that the snap-in supports filtered views. See 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-filtered-views">Adding Filtered Views</a>.
+        <a href="/previous-versions/windows/desktop/mmc/adding-filtered-views">Adding Filtered Views</a>.
 
 
 
@@ -197,8 +197,8 @@ Notifies MMC that the snap-in supports filtered views. See
 
 New in MMC 1.2. In a standard list view, this option tells MMC to lexically sort all scope items 
         (including extensions) first, followed by all result items. The 
-        <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompare">IResultDataCompare</a> and 
-        <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interfaces are ignored when 
+        <a href="/windows/desktop/api/mmc/nn-mmc-iresultdatacompare">IResultDataCompare</a> and 
+        <a href="/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interfaces are ignored when 
         this option is set.
 
 
@@ -243,12 +243,12 @@ This method can return one of these values.
 ## -remarks
 
 The callee (snap-in) allocates the view type string using COM API function 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+    <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
+    <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 MMC calls <b>GetResultViewType</b> when a 
     snap-in scope item is selected. When switching from a standard list view to a custom view, the snap-in must call 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814792(v=vs.85)">IConsole2::SelectScopeItem</a> to reselect the item 
+    <a href="/previous-versions/windows/desktop/legacy/aa814792(v=vs.85)">IConsole2::SelectScopeItem</a> to reselect the item 
     and force MMC to call <b>GetResultViewType</b> 
     again. This enables the snap-in to specify the appropriate custom OCX or webpage so that MMC can load 
     it. When switching from a custom view to a standard list view, MMC automatically calls 
@@ -261,15 +261,14 @@ Given a Unicode string, the font linking feature determines the best font for th
     is not to use font linking, because there is a small performance hit when MMC searches for the appropriate 
     font.
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/cookies">cookie</a> is a pointer to a structure that contains information 
+A <a href="/previous-versions/windows/desktop/mmc/cookies">cookie</a> is a pointer to a structure that contains information 
     unique to a specific item. It is passed in through the <b>lParam</b> member of a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure.
+    <a href="/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>

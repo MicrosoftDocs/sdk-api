@@ -56,11 +56,11 @@ Adds a specified item change to the group that is currently open.
 
 ### -param pbOwnerReplicaId [in]
 
-The replica ID of the replica where <i>pChangeVersion</i> and <i>pCreationVersion</i> are valid. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
+The replica ID of the replica where <i>pChangeVersion</i> and <i>pCreationVersion</i> are valid. The ID format must match the format that is specified by the <a href="/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
 
 ### -param pbItemId [in]
 
-The ID of the item. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
+The ID of the item. The ID format must match the format that is specified by the <a href="/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
 
 ### -param pChangeVersion [in]
 
@@ -72,7 +72,7 @@ The creation version of the item.
 
 ### -param dwFlags [in]
 
-Flags that specify the state of the item change. For the flag values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getflags">ISyncChange::GetFlags</a>.
+Flags that specify the state of the item change. For the flag values, see <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getflags">ISyncChange::GetFlags</a>.
 
 ### -param dwWorkForChange [in]
 
@@ -150,14 +150,13 @@ The <b>ISyncChangeBatchBase</b> object has been sent to a change applier or to t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
+<a href="/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure
 </a>
-

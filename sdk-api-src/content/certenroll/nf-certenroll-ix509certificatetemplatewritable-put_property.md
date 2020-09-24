@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Property</b> property specifies or retrieves a property value for the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> object.
+The <b>Property</b> property specifies or retrieves a property value for the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> object.
 
 This property is read/write.
 
@@ -64,5 +64,4 @@ Currently, TemplatePropSecurityDescriptor is the only property that you can set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>

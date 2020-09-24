@@ -82,7 +82,7 @@ Number of elements in the <i>pamvaBufferInfo</i> array.
 
 ### -param pamvaBufferInfo [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvabufferinfo">AMVABUFFERINFO</a> structures.
+Pointer to an array of <a href="/previous-versions/windows/desktop/api/amva/ns-amva-amvabufferinfo">AMVABUFFERINFO</a> structures.
 
 ## -returns
 
@@ -183,13 +183,12 @@ Private data can be passed to and from a driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
+<a href="/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
-
+<a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>

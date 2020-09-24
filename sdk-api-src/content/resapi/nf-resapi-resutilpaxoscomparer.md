@@ -56,11 +56,11 @@ Compares two Paxos tags and indicates whether they have the same values.
 
 ### -param left [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the first Paxos tag to use in the comparison.
+The <a href="/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the first Paxos tag to use in the comparison.
 
 ### -param right [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the second  Paxos tag to use in the comparison.
+The <a href="/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the second  Paxos tag to use in the comparison.
 
 ## -returns
 
@@ -68,5 +68,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-pax
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>

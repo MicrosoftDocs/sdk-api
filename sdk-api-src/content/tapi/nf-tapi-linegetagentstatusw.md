@@ -68,14 +68,14 @@ Address on the open line device whose agent status is to be queried. An address 
 ### -param lpAgentStatus
 
 Pointer to a variably sized structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentstatus">LINEAGENTSTATUS</a>. Upon successful completion of the request, this structure is filled with agent status information. Prior to calling 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentstatus">LINEAGENTSTATUS</a>. Upon successful completion of the request, this structure is filled with agent status information. Prior to calling 
 <b>lineGetAgentStatus</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
 
 
 <div class="alert"><b>Note</b>  If the size parameters in the structure are not correct, there is a possibility that memory could get overwritten. For more information on setting structure sizes, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic.</div>
+<a href="/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic.</div>
 <div> </div>
 
 ## -returns
@@ -86,18 +86,17 @@ LINEERR_INVALADDRESSID, LINEERR_INVALLINEHANDLE, LINEERR_INVALPOINTER, LINEERR_N
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentstatus">LINEAGENTSTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentstatus">LINEAGENTSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 ## -remarks
 
 > [!NOTE]
 > The tapi.h header defines lineGetAgentStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

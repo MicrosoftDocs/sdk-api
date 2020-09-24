@@ -62,17 +62,16 @@ Number of elements in the <b>FieldInfoArray</b> array.
 
 ### -field FieldType
 
-Type of field information in  the <b>FieldInfoArray</b> array. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-event_field_type">EVENT_FIELD_TYPE</a> enumeration.
+Type of field information in  the <b>FieldInfoArray</b> array. For possible values, see the <a href="/windows/desktop/api/tdh/ne-tdh-event_field_type">EVENT_FIELD_TYPE</a> enumeration.
 
 ### -field FieldInfoArray
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_field_info">PROVIDER_FIELD_INFO</a> structures that define the field's name, description and value.
+Array of <a href="/windows/desktop/api/tdh/ns-tdh-provider_field_info">PROVIDER_FIELD_INFO</a> structures that define the field's name, description and value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfieldinformation">TdhEnumerateProviderFieldInformation</a>
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfieldinformation">TdhEnumerateProviderFieldInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhqueryproviderfieldinformation">TdhQueryProviderFieldInformation</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhqueryproviderfieldinformation">TdhQueryProviderFieldInformation</a>

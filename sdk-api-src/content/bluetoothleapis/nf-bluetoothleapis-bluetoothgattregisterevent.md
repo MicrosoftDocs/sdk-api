@@ -61,7 +61,7 @@ Handle to the service.
 
 ### -param EventType [in]
 
-A value from <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>. Currently, only <b>CharacteristicValueChangedEvent</b> is supported.
+A value from <a href="/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>. Currently, only <b>CharacteristicValueChangedEvent</b> is supported.
 
 ### -param EventParameterIn [in]
 
@@ -77,7 +77,7 @@ Context to pass to <i>Callback</i>.
 
 ### -param pEventHandle [out]
 
-Pointer to buffer to receive a handle for the registration.  Profile drivers must pass this handle when calling <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattunregisterevent">BluetoothGATTUnregisterEvent</a>.
+Pointer to buffer to receive a handle for the registration.  Profile drivers must pass this handle when calling <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattunregisterevent">BluetoothGATTUnregisterEvent</a>.
 
 ### -param Flags [in]
 
@@ -150,13 +150,12 @@ A parameter was invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>
+<a href="/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/nc-bthledef-pfnbluetooth_gatt_event_callback">Bluetooth GATT Event Callback Function</a>
+<a href="/windows/desktop/api/bthledef/nc-bthledef-pfnbluetooth_gatt_event_callback">Bluetooth GATT Event Callback Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattunregisterevent">BluetoothGATTUnregisterEvent</a>
-
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattunregisterevent">BluetoothGATTUnregisterEvent</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITextStoreACP::GetActiveView</b> method returns a <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> data type that specifies the current active view.
+The <b>ITextStoreACP::GetActiveView</b> method returns a <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> data type that specifies the current active view.
 
 ## -parameters
 
@@ -64,10 +64,9 @@ This method has no return values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
+<a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

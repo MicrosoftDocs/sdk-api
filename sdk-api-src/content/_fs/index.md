@@ -34,9 +34,8 @@ To develop Data Access and Storage, you need these headers:
  * [wow64apiset.h](../wow64apiset/index.md)
 
 For programming guidance for this technology, see:
-* [Removable Storage Manager](https://docs.microsoft.com/windows/desktop/data-access-and-storage)
-* [Common Log File System](https://docs.microsoft.com/windows/desktop/data-access-and-storage)
+* [Removable Storage Manager](/windows/desktop/data-access-and-storage)
+* [Common Log File System](/windows/desktop/data-access-and-storage)
 * [Local File Systems](/windows/desktop/fileio)
 * [Kernel Transaction Manager](/windows/desktop/ktm)
 * [Network Share Management](/windows/desktop/netshare)
-

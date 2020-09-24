@@ -63,11 +63,11 @@ The maximum number of transforms allowed in a single transform. In the current r
 
 ### -param pSensorDevices [in]
 
-A collection of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> objects representing the available sensors.
+A collection of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> objects representing the available sensors.
 
 ### -param pAttributes [in, optional]
 
-The attribute store to be populated by the sensor transform. The only required attribute for sensor transforms is <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-stf-version-info">MF_STF_VERSION_INFO</a>.
+The attribute store to be populated by the sensor transform. The only required attribute for sensor transforms is <a href="/windows/desktop/medfound/mf-stf-version-info">MF_STF_VERSION_INFO</a>.
 
 ## -returns
 
@@ -75,5 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensortransformfactory">IMFSensorTransformFactory</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensortransformfactory">IMFSensorTransformFactory</a>

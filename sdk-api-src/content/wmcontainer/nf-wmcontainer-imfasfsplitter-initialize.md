@@ -57,7 +57,7 @@ Resets the Advanced Systems Format (ASF) splitter and configures it to parse dat
 
 ### -param pIContentInfo [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of a ContentInfo object that describes the data to be parsed.
+Pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of a ContentInfo object that describes the data to be parsed.
 
 ## -returns
 
@@ -94,9 +94,8 @@ The <i>pIContentInfo</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
+<a href="/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>

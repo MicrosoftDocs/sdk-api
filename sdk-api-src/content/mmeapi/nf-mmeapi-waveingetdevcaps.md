@@ -60,7 +60,7 @@ Identifier of the waveform-audio output device. It can be either a device identi
 
 ### -param pwic
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743839(v=vs.85)">WAVEINCAPS</a> structure to be filled with information about the capabilities of the device.
+Pointer to a <a href="/previous-versions/dd743839(v=vs.85)">WAVEINCAPS</a> structure to be filled with information about the capabilities of the device.
 
 ### -param cbwic
 
@@ -116,9 +116,8 @@ Use this function to determine the number of waveform-audio input devices presen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

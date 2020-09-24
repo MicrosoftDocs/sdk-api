@@ -57,7 +57,7 @@ api_name:
 ]
 
 
-The <b>GenerateKeySeed</b> method generates a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DRM</a> key seed.
+The <b>GenerateKeySeed</b> method generates a <a href="/windows/desktop/wmformat/wmformat-glossary">DRM</a> key seed.
 
 ## -parameters
 
@@ -79,5 +79,4 @@ This method is used infrequently because the same key seed should be used for mu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>

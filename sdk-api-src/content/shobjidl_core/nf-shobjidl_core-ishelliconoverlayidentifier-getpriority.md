@@ -72,5 +72,4 @@ If more than one icon overlay is available for an object, the one with highest p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier">IShellIconOverlayIdentifier</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier">IShellIconOverlayIdentifier</a>

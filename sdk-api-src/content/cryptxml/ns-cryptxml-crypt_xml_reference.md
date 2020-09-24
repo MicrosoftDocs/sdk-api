@@ -80,7 +80,7 @@ A pointer to a null-terminated Unicode string that contains the value of the <b>
 
 ### -field DigestMethod
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the digest method.
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the digest method.
 
 ### -field DigestValue
 
@@ -92,5 +92,4 @@ The number of elements in the array pointed to by the <b>rgTransform</b> member.
 
 ### -field rgTransform
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_transform_info">CRYPT_XML_TRANSFORM_INFO</a> structures  that contain information about the transform applied to the signed data.
-
+An array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_transform_info">CRYPT_XML_TRANSFORM_INFO</a> structures  that contain information about the transform applied to the signed data.

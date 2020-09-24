@@ -51,36 +51,35 @@ api_name:
 ## -description
 
 Discards the specified local memory object. The lock count of the memory object must be zero.
-<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param h [in]
 
 A handle to the local memory object. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function.
 
 ## -remarks
 
 Although 
 <b>LocalDiscard</b> discards the object's memory block, the handle to the object remains valid. A process can subsequently pass the handle to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function to allocate another local memory object identified by the same handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function to allocate another local memory object identified by the same handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
+<a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
-

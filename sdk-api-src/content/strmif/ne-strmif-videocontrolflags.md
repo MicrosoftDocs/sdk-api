@@ -74,15 +74,14 @@ In software, simulates an external trigger when the stream has the VideoControlF
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl</a> interface uses this enumerated data type.
+The <a href="/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl</a> interface uses this enumerated data type.
 
 Multiple capture buffers are queued to a capture driver and are filled at a fixed rate once the stream is put into the "run" state. If the VideoControlFlag_ExternalTriggerEnable flag is set, a filled buffer is not passed up from the WDM capture driver for compression, display, or writing to a file until the external event happens.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl</a>

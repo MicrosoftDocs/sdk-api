@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Initializes a newly created proxy using data written into the stream by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a> function, and returns an interface pointer to that proxy.
+Initializes a newly created proxy using data written into the stream by a previous call to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a> function, and returns an interface pointer to that proxy.
 
 ## -parameters
 
@@ -73,7 +73,7 @@ The address of pointer variable that receives the interface pointer requested in
 
 ## -returns
 
-This function can return the standard return value E_FAIL, errors returned by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>, and the following values.
+This function can return the standard return value E_FAIL, errors returned by <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>, and the following values.
 
 <table>
 <tr>
@@ -109,7 +109,7 @@ The interface pointer was unmarshaled successfully.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> function was not called on the current thread before this function was called.
+The <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> function was not called on the current thread before this function was called.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-c
 </dl>
 </td>
 <td width="60%">
-The object application has been disconnected from the remoting system (for example, as a result of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a> function).
+The object application has been disconnected from the remoting system (for example, as a result of a call to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a> function).
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ An error occurred reading the registration database.
 </dl>
 </td>
 <td width="60%">
-The final <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> of this function for the requested interface returned E_NOINTERFACE.
+The final <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> of this function for the requested interface returned E_NOINTERFACE.
 
 </td>
 </tr>
@@ -159,17 +159,16 @@ The <b>CoUnmarshalInterface</b> function performs the following tasks:
 <ol>
 <li>Reads from the stream the CLSID to be used to create an instance of the proxy.
 </li>
-<li>Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> pointer to the proxy that is to do the unmarshaling. If the object uses COM's default marshaling implementation, the pointer thus obtained is to an instance of the generic proxy object. If the marshaling is occurring between two threads in the same process, the pointer is to an instance of the in-process free threaded marshaler. If the object provides its own marshaling code, <b>CoUnmarshalInterface</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function, passing the CLSID it read from the marshaling stream. <b>CoCreateInstance</b> creates an instance of the object's proxy and returns an <b>IMarshal</b> interface pointer to the proxy.</li>
-<li>Using whichever IMarshal interface pointer it has acquired, the function then calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-unmarshalinterface">IMarshal::UnmarshalInterface</a> and, if appropriate, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-releasemarshaldata">IMarshal::ReleaseMarshalData</a>. 
+<li>Gets an <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> pointer to the proxy that is to do the unmarshaling. If the object uses COM's default marshaling implementation, the pointer thus obtained is to an instance of the generic proxy object. If the marshaling is occurring between two threads in the same process, the pointer is to an instance of the in-process free threaded marshaler. If the object provides its own marshaling code, <b>CoUnmarshalInterface</b> calls the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function, passing the CLSID it read from the marshaling stream. <b>CoCreateInstance</b> creates an instance of the object's proxy and returns an <b>IMarshal</b> interface pointer to the proxy.</li>
+<li>Using whichever IMarshal interface pointer it has acquired, the function then calls <a href="/windows/desktop/api/objidl/nf-objidl-imarshal-unmarshalinterface">IMarshal::UnmarshalInterface</a> and, if appropriate, <a href="/windows/desktop/api/objidl/nf-objidl-imarshal-releasemarshaldata">IMarshal::ReleaseMarshalData</a>. 
 </li>
 </ol>
 The primary caller of this function is COM itself, from within interface proxies or stubs that unmarshal an interface pointer. There are, however, some situations in which you might call <b>CoUnmarshalInterface</b>. For example, if you are implementing a stub, your implementation would call <b>CoUnmarshalInterface</b> when the stub receives an interface pointer as a parameter in a method call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-unmarshalinterface">IMarshal::UnmarshalInterface</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imarshal-unmarshalinterface">IMarshal::UnmarshalInterface</a>

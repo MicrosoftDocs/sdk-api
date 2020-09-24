@@ -97,7 +97,7 @@ The text will be clipped to the rectangle.
 </dl>
 </td>
 <td width="60%">
-The <i>lpString</i> array refers to an array returned from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> and should be parsed directly by GDI as no further language-specific processing is required. Glyph indexing only applies to TrueType fonts, but the flag can be used for bitmap and vector fonts to indicate that no further language processing is necessary and GDI should process the string directly. Note that all glyph indexes are 16-bit values even though the string is assumed to be an array of 8-bit values for raster fonts.
+The <i>lpString</i> array refers to an array returned from <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> and should be parsed directly by GDI as no further language-specific processing is required. Glyph indexing only applies to TrueType fonts, but the flag can be used for bitmap and vector fonts to indicate that no further language processing is necessary and GDI should process the string directly. Note that all glyph indexes are 16-bit values even though the string is assumed to be an array of 8-bit values for raster fonts.
 
 For ExtTextOutW, the glyph indexes are saved to a metafile. However, to display the correct characters the metafile must be played back using the same font. For ExtTextOutA, the glyph indexes are not saved.
 
@@ -159,7 +159,7 @@ When this is set, the array pointed to by <i>lpDx</i> contains pairs of values. 
 </dl>
 </td>
 <td width="60%">
-<b>Middle East language edition of Windows:</b> If this value is specified and a Hebrew or Arabic font is selected into the device context, the string is output using right-to-left reading order. If this value is not specified, the string is output in left-to-right order. The same effect can be achieved by setting the TA_RTLREADING value in <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>. This value is preserved for backward compatibility.
+<b>Middle East language edition of Windows:</b> If this value is specified and a Hebrew or Arabic font is selected into the device context, the string is output using right-to-left reading order. If this value is not specified, the string is output in left-to-right order. The same effect can be achieved by setting the TA_RTLREADING value in <a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>. This value is preserved for backward compatibility.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ A pointer to a string that specifies the text to be drawn. The string does not n
 
 ### -param c [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>.
+The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>.
 
 This value may not exceed 8192.
 
@@ -194,7 +194,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The current text-alignment settings for the specified device context determine how the reference point is used to position the text. The text-alignment settings are retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a> function. The text-alignment settings are altered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function. You can use the following values for text alignment. Only one flag can be chosen from those that affect horizontal and vertical alignment. In addition, only one of the two flags that alter the current position can be chosen.
+The current text-alignment settings for the specified device context determine how the reference point is used to position the text. The text-alignment settings are retrieved by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a> function. The text-alignment settings are altered by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function. You can use the following values for text alignment. Only one flag can be chosen from those that affect horizontal and vertical alignment. In addition, only one of the two flags that alter the current position can be chosen.
 
 
 
@@ -298,16 +298,16 @@ The current position is updated after each text output call. The current positio
 
 If the <i>lpDx</i> parameter is <b>NULL</b>, the <b>ExtTextOut</b> function uses the default spacing between characters. The character-cell origins and the contents of the array pointed to by the <i>lpDx</i> parameter are specified in logical units. A character-cell origin is defined as the upper-left corner of the character cell.
 
-By default, the current position is not used or updated by this function. However, an application can call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function with the <i>fMode</i> parameter set to TA_UPDATECP to permit the system to use and update the current position each time the application calls <b>ExtTextOut</b> for a specified device context. When this flag is set, the system ignores the <i>X</i> and <i>Y</i> parameters on subsequent <b>ExtTextOut</b> calls.
+By default, the current position is not used or updated by this function. However, an application can call the <a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function with the <i>fMode</i> parameter set to TA_UPDATECP to permit the system to use and update the current position each time the application calls <b>ExtTextOut</b> for a specified device context. When this flag is set, the system ignores the <i>X</i> and <i>Y</i> parameters on subsequent <b>ExtTextOut</b> calls.
 
 For the ANSI version of <b>ExtTextOut</b>, the <i>lpDx</i> array has the same number of INT values as there are bytes in <i>lpString</i>. For DBCS characters, you can apportion the dx in the <i>lpDx</i> entries between the lead byte and the trail byte, as long as the sum of the two bytes adds up to the desired dx. For DBCS characters with the Unicode version of <b>ExtTextOut</b>, each Unicode glyph gets a single <i>pdx</i> entry.
 
-Note, the <i>alpDx</i> values from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentexpointa">GetTextExtentExPoint</a> are not the same as the <i>lpDx</i> values for <b>ExtTextOut</b>. To use the <i>alpDx</i> values in <i>lpDx</i>, you must first process them.
+Note, the <i>alpDx</i> values from <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentexpointa">GetTextExtentExPoint</a> are not the same as the <i>lpDx</i> values for <b>ExtTextOut</b>. To use the <i>alpDx</i> values in <i>lpDx</i>, you must first process them.
 
 
 #### Examples
 
-For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
+For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
@@ -319,15 +319,15 @@ For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a>
 
 
 
@@ -335,17 +335,16 @@ For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a>

@@ -55,7 +55,7 @@ The
 <b>SetRestoreMetadata</b> method sets writer-specific metadata for the current component.
 
 Only a writer can call this method, and only in the context of implementing 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>.
 
 ## -parameters
 
@@ -124,7 +124,7 @@ Private metadata has already been written for this component.
 </td>
 <td width="60%">
 The method was called outside of the context of a writer handling a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
 
 </td>
 </tr>
@@ -138,13 +138,12 @@ The format need not conform to any VSS metadata specification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoremetadata">IVssComponent::GetRestoreMetadata</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoremetadata">IVssComponent::GetRestoreMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>

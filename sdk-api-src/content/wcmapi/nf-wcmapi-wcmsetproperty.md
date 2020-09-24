@@ -69,7 +69,7 @@ The profile name.
 
 ### -param Property [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_property">WCM_PROPERTY</a></b>
+Type: <b><a href="/windows/desktop/api/wcmapi/ne-wcmapi-wcm_property">WCM_PROPERTY</a></b>
 
 The WCM property to set.
 
@@ -109,50 +109,49 @@ The type of data stored in the <i>pbData</i> parameter will vary, depending on w
 <tr>
 <td>wcm_global_property_domain_policy</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
+<a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
 </td>
 </tr>
 <tr>
 <td>wcm_global_property_minimize_policy</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
+<a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
 </td>
 </tr>
 <tr>
 <td>wcm_global_property_roaming_policy</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
+<a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
 </td>
 </tr>
 <tr>
 <td>wcm_global_property_powermanagement_policy</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
+<a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
 </td>
 </tr>
 <tr>
 <td>wcm_intf_property_connection_cost</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_connection_cost_data">WCM_CONNECTION_COST_DATA</a>
+<a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_connection_cost_data">WCM_CONNECTION_COST_DATA</a>
 </td>
 </tr>
 <tr>
 <td>wcm_intf_property_dataplan_status</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_dataplan_status">WCM_DATAPLAN_STATUS</a>
+<a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_dataplan_status">WCM_DATAPLAN_STATUS</a>
 </td>
 </tr>
 <tr>
 <td>wcm_intf_property_hotspot_profile</td>
-<td>Variable-length XML string. See the <a href="https://docs.microsoft.com/uwp/schemas/mobilebroadbandschema/hotspotprofile/schema-root">HotSpotProfile schema</a> for more information.</td>
+<td>Variable-length XML string. See the <a href="/uwp/schemas/mobilebroadbandschema/hotspotprofile/schema-root">HotSpotProfile schema</a> for more information.</td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/uwp/schemas/mobilebroadbandschema/hotspotprofile/schema-root">HotSpotProfile schema</a>
+<a href="/uwp/schemas/mobilebroadbandschema/hotspotprofile/schema-root">HotSpotProfile schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_property">WCM_PROPERTY</a>
-
+<a href="/windows/desktop/api/wcmapi/ne-wcmapi-wcm_property">WCM_PROPERTY</a>

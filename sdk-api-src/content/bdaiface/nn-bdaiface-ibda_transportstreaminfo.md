@@ -54,11 +54,11 @@ api_name:
 <div> </div>
 
 
-The <b>IBDA_TransportStreamInfo</b> interface returns the time when the most recent Program Association Table (PAT) section was received. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> implements this interface and registers it as a graph service. To obtain a pointer to this interface, call <b>IServiceProvider::QueryService</b> with the service identifier <b>SID_BDA_TransportStreamInfo</b>.
+The <b>IBDA_TransportStreamInfo</b> interface returns the time when the most recent Program Association Table (PAT) section was received. The <a href="/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> implements this interface and registers it as a graph service. To obtain a pointer to this interface, call <b>IServiceProvider::QueryService</b> with the service identifier <b>SID_BDA_TransportStreamInfo</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_TransportStreamInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_TransportStreamInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_TransportStreamInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_TransportStreamInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IBDA_TransportStreamInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_transportstreaminfo-get_pattabletickcount">get_PatTableTickCount</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_transportstreaminfo-get_pattabletickcount">get_PatTableTickCount</a>
 </td>
 <td align="left" width="63%">
 Returns the time when the most recent PAT section was received.
@@ -88,5 +88,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

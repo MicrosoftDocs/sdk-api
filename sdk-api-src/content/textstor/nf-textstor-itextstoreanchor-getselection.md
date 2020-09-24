@@ -56,7 +56,7 @@ The <b>ITextStoreAnchor::GetSelection</b> method returns the offset of a text se
 
 ### -param ulIndex [in]
 
-Specifies the text selections that start the process. If the <a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">TF_DEFAULT_SELECTION</a> constant is specified for this parameter, the input selection starts the process, and only a single selection (the one appropriate for input operations) will be returned.
+Specifies the text selections that start the process. If the <a href="/windows/desktop/TSF/miscellaneous-framework-constants">TF_DEFAULT_SELECTION</a> constant is specified for this parameter, the input selection starts the process, and only a single selection (the one appropriate for input operations) will be returned.
 
 ### -param ulCount [in]
 
@@ -64,7 +64,7 @@ Specifies the maximum number of selections to return.
 
 ### -param pSelection [out]
 
-Receives the style, start, and end character positions of the selected text. These values are put into the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR</a> structure.
+Receives the style, start, and end character positions of the selected text. These values are put into the <a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR</a> structure.
 
 ### -param pcFetched [out]
 
@@ -138,20 +138,20 @@ The document has no selection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/edit-contexts">Edit Contexts</a>
+<a href="/windows/desktop/TSF/edit-contexts">Edit Contexts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-setselection">ITextStoreAnchor::SetSelection
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-setselection">ITextStoreAnchor::SetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">Miscellaneous Framework Constants</a>
+<a href="/windows/desktop/TSF/miscellaneous-framework-constants">Miscellaneous Framework Constants</a>
 
 
 
@@ -159,6 +159,5 @@ TF_DEFAULT_SELECTION
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
       </a>
-

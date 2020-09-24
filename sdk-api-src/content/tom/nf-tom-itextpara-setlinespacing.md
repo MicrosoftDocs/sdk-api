@@ -58,7 +58,7 @@ Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 
 Type: <b>long</b>
 
-Value of new line-spacing rule. For a list of possible rule values and further discussion, see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">ITextPara::GetLineSpacingRule</a> method.
+Value of new line-spacing rule. For a list of possible rule values and further discussion, see the <a href="/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">ITextPara::GetLineSpacingRule</a> method.
 
 ### -param Spacing [in]
 
@@ -70,7 +70,7 @@ Value of new line spacing. If the line-spacing rule treats the <i>Spacing</i> va
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::SetLineSpacing</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::SetLineSpacing</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -144,11 +144,11 @@ The line-spacing rule and line spacing work together, and as a result, they must
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">GetLineSpacingRule</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">GetLineSpacingRule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -156,5 +156,4 @@ The line-spacing rule and line spacing work together, and as a result, they must
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

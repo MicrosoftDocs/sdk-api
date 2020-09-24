@@ -61,14 +61,14 @@ api_name:
 
 Sets a preferred processor for a thread. The system schedules threads on their preferred processors whenever possible.
 
-On a system with more than 64 processors, this function sets the preferred processor to a logical processor in the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a> to which the calling thread is assigned. Use the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex">SetThreadIdealProcessorEx</a> function to specify a processor group and preferred processor.
+On a system with more than 64 processors, this function sets the preferred processor to a logical processor in the <a href="/windows/desktop/ProcThread/processor-groups">processor group</a> to which the calling thread is assigned. Use the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex">SetThreadIdealProcessorEx</a> function to specify a processor group and preferred processor.
 
 ## -parameters
 
 ### -param hThread [in]
 
 A handle to the thread whose preferred processor is to be set. The handle must have the THREAD_SET_INFORMATION access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+<a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 ### -param dwIdealProcessor [in]
 
@@ -79,49 +79,48 @@ The number of the preferred processor for the thread. This value is zero-based. 
 If the function succeeds, the return value is the previous preferred processor.
 
 If the function fails, the return value is (DWORD) – 1. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-You can use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function to determine the number of processors on the computer. You can also use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a> function to check the processors on which the thread is allowed to run. Note that 
+You can use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function to determine the number of processors on the computer. You can also use the 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a> function to check the processors on which the thread is allowed to run. Note that 
 <b>GetProcessAffinityMask</b> returns a bitmask whereas 
 <b>SetThreadIdealProcessor</b> uses an integer value to represent the processor.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0400 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-processors">Multiple Processors</a>
+<a href="/windows/desktop/ProcThread/multiple-processors">Multiple Processors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadaffinitymask">SetThreadAffinityMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setthreadaffinitymask">SetThreadAffinityMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex">SetThreadIdealProcessorEx</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex">SetThreadIdealProcessorEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
-
+<a href="/windows/desktop/ProcThread/multiple-threads">Threads</a>

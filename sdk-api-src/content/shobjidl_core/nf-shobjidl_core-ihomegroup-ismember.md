@@ -68,7 +68,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The following code snippet shows how to create an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup">IHomeGroup</a> and call <b>IHomeGroup::IsMember</b>.
+The following code snippet shows how to create an instance of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup">IHomeGroup</a> and call <b>IHomeGroup::IsMember</b>.
          
                 
 
@@ -100,17 +100,16 @@ hr = spHomeGroup->IsMember(&fIsHGMember);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a>
+<a href="/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup">IHomeGroup</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup">IHomeGroup</a>

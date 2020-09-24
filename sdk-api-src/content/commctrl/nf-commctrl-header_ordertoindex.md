@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves an index value for an item based on its order in the header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/hdm-ordertoindex">HDM_ORDERTOINDEX</a> message explicitly.
+Retrieves an index value for an item based on its order in the header control. You can use this macro or send the <a href="/windows/desktop/controls/hdm-ordertoindex">HDM_ORDERTOINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control.
 
@@ -65,4 +65,3 @@ A handle to a header control.
 Type: <b>int</b>
 
 The order that the item appears within the header control, from left to right. The index value of the item in the far left column would be 0, the next item to the right would be 1, and so on.
-

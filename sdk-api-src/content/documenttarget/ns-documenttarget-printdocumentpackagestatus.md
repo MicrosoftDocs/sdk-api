@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines a payload to be used by the <a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated">PackageStatusUpdated</a> method. This structure is a generic version of XPS_JOB_STATUS.
+Defines a payload to be used by the <a href="/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated">PackageStatusUpdated</a> method. This structure is a generic version of XPS_JOB_STATUS.
 
 ## -struct-fields
 
@@ -82,5 +82,4 @@ The error state of the job.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated">PackageStatusUpdated</a>
-
+<a href="/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated">PackageStatusUpdated</a>

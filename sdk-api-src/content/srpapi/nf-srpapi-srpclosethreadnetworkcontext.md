@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 <div class="alert"><b>Note</b>  Windows Information Protection (WIP) policy can be applied on Windows 10, version 1607.</div>
-<div> </div>Restores a thread back to the original context, which may have been optionally returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/srpapi/nf-srpapi-srpcreatethreadnetworkcontext">SrpCreateThreadNetworkContext</a>.
+<div> </div>Restores a thread back to the original context, which may have been optionally returned from <a href="/previous-versions/windows/desktop/api/srpapi/nf-srpapi-srpcreatethreadnetworkcontext">SrpCreateThreadNetworkContext</a>.
 
 ## -parameters
 
@@ -64,4 +64,3 @@ A handle to the original context’s token.
 ## -returns
 
 If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
-

@@ -62,15 +62,14 @@ The index.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-The index is used with the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getstory">ITextDocument2:: GetStory</a> method.
+The index is used with the <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getstory">ITextDocument2:: GetStory</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>

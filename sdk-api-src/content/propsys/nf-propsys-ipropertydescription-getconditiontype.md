@@ -55,7 +55,7 @@ Gets the condition type and default condition operation to use when displaying t
 
 ### -param pcontype [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_condition_type">PROPDESC_CONDITION_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_condition_type">PROPDESC_CONDITION_TYPE</a>*</b>
 
 A pointer to a value that indicates the condition type.
 
@@ -73,13 +73,12 @@ Always returns <b>S_OK</b>.
 
 ## -remarks
 
-For more information, see the <i>conditionType</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+For more information, see the <i>conditionType</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

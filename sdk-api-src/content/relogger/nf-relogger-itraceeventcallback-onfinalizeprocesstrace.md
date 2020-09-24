@@ -56,7 +56,7 @@ The <b>OnFinalizeProcessTrace</b> trace method indicates that a trace is about t
 
 ### -param Relogger [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>*</b>
+Type: <b><a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>*</b>
 
 The trace relogger that was used to register this callback and relog this trace.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a>
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a>

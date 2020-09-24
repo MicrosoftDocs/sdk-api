@@ -60,11 +60,10 @@ This property is read-only.
 
 ## -remarks
 
-An application can have multiple groups of attendees. For example, an application can define a "Moderators" group and a "Spectators" group. Attendees that belong to the "Moderators" group are granted interactive control, while attendees in the "Spectators" group are  only granted access to view the session.  The application achieves this  implementation by creating two invitation objects, one for each group. When an attendee connects, the application can verify which group the attendee belongs to by checking the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitation-get_groupname">GroupName</a> property of the invitation object used for authentication.  If the group name is "Spectators," the application sets the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_controllevel">ControlLevel</a> property for the attendee to CTRL_LEVEL_VIEW. If the group name is "Moderators," it sets the <b>ControlLevel</b> property to CTRL_LEVEL_INTERACTIVE.
+An application can have multiple groups of attendees. For example, an application can define a "Moderators" group and a "Spectators" group. Attendees that belong to the "Moderators" group are granted interactive control, while attendees in the "Spectators" group are  only granted access to view the session.  The application achieves this  implementation by creating two invitation objects, one for each group. When an attendee connects, the application can verify which group the attendee belongs to by checking the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitation-get_groupname">GroupName</a> property of the invitation object used for authentication.  If the group name is "Spectators," the application sets the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_controllevel">ControlLevel</a> property for the attendee to CTRL_LEVEL_VIEW. If the group name is "Moderators," it sets the <b>ControlLevel</b> property to CTRL_LEVEL_INTERACTIVE.
 
 If this property is accessed on the viewer side, it returns a dummy invitation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a> structure that contains the specified width and height.
+Creates a <a href="/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a> structure that contains the specified width and height.
 
 ## -parameters
 
@@ -68,7 +68,6 @@ The height of the size. The default value is 0.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
 
 The new size structure.
-

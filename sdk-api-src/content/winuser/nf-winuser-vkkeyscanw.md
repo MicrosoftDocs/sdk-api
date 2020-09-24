@@ -58,7 +58,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscanexa">VkKeyScanEx</a> function. You can still use <b>VkKeyScan</b>, however, if you do not need to specify a keyboard layout.]
+<p class="CCE_Message">[This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscanexa">VkKeyScanEx</a> function. You can still use <b>VkKeyScan</b>, however, if you do not need to specify a keyboard layout.]
 
 Translates a character to the corresponding virtual-key code and shift state for the current keyboard.
 
@@ -159,7 +159,7 @@ For keyboard layouts that use the right-hand ALT key as a shift key (for example
 
 Translations for the numeric keypad (<b>VK_NUMPAD0</b> through <b>VK_DIVIDE</b>) are ignored. This function is intended to translate characters into keystrokes from the main keyboard section only. For example, the character "7" is translated into VK_7, not VK_NUMPAD7.
 
-<b>VkKeyScan</b> is used by applications that send characters by using the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a> and <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> messages.
+<b>VkKeyScan</b> is used by applications that send characters by using the <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a> and <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> messages.
 
 
 
@@ -174,23 +174,23 @@ Translations for the numeric keypad (<b>VK_NUMPAD0</b> through <b>VK_DIVIDE</b>)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeynametexta">GetKeyNameText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeynametexta">GetKeyNameText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -198,17 +198,16 @@ Translations for the numeric keypad (<b>VK_NUMPAD0</b> through <b>VK_DIVIDE</b>)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscanexa">VkKeyScanEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscanexa">VkKeyScanEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+<a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
-
+<a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>

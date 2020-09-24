@@ -64,9 +64,8 @@ If the Microsoft tag bit is set, Microsoft provides the tag. All other tags must
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points">Reparse Points</a>
-
+<a href="/windows/desktop/FileIO/reparse-points">Reparse Points</a>

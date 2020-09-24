@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Test the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) for intersection with a triangle.
+Test the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) for intersection with a triangle.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ A vector describing the triangle.
 
 ## -returns
 
-A boolean value indicating whether the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) intersects the triangle.
+A boolean value indicating whether the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) intersects the triangle.
 
 ## -remarks
 
@@ -76,7 +76,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 
 
@@ -85,4 +85,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

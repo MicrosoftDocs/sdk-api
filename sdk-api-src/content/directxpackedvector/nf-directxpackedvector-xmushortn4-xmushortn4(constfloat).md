@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushortn4">XMUSHORTN4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushortn4">XMUSHORTN4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMUSHORTN4** from a four element <code>float</code> array argument.
 
@@ -94,7 +94,6 @@ instance._w = _w1;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushortn4">XMUSHORTN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushortn4">XMUSHORTN4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmushortn4-ctor">XMUSHORTN4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmushortn4-ctor">XMUSHORTN4 Constructors</a>

@@ -59,7 +59,7 @@ The security binding template for specifying the use of an application
         used to establish the secure conversation.
       
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>
+See also <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>
 
 ## -struct-fields
 
@@ -71,4 +71,3 @@ Application provided security binding properties that cannot be represented in p
 
 Application provided additional security properties for the service channel
           that cannot be represented in policy. Only policy specified security properties is used if no additional properties are specified here.
-

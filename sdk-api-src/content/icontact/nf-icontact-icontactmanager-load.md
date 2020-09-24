@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Loads an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object with the data from the contact 
+Loads an <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object with the data from the contact 
 		referenced by the computer-local contact ID.
 
 ## -parameters
@@ -63,9 +63,9 @@ Specifies the contact ID to load.
 
 ### -param ppContact [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
 
-Specifies the destination <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object.
+Specifies the destination <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object.
 
 ## -returns
 
@@ -104,9 +104,8 @@ Could not find this contact ID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontact-getcontactid">GetContactID</a>
+<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontact-getcontactid">GetContactID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a>
-
+<a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a>

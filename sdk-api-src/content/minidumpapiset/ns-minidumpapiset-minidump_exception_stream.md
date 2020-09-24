@@ -67,7 +67,7 @@ A variable for alignment.
 ### -field ExceptionRecord
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception">MINIDUMP_EXCEPTION</a> structure.
+<a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception">MINIDUMP_EXCEPTION</a> structure.
 
 ### -field ThreadContext
 
@@ -80,7 +80,7 @@ In this context, a data stream is a set of data in a minidump file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception">MINIDUMP_EXCEPTION</a>
+<a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception">MINIDUMP_EXCEPTION</a>
 
 
 
@@ -88,5 +88,4 @@ In this context, a data stream is a set of data in a minidump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
-
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>

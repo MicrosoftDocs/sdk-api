@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The interpolation mode the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/3d-perspective-transform">3D perspective transform effect</a> uses on the image.
+The interpolation mode the <a href="/windows/desktop/Direct2D/3d-perspective-transform">3D perspective transform effect</a> uses on the image.
           There are 5 scale modes that range in quality and speed.
 
 ## -enum-fields
@@ -76,4 +76,3 @@ Uses 4 linear samples within a single pixel for good edge anti-aliasing. This mo
 Uses anisotropic filtering to sample a pattern according to the transformed shape of the bitmap.
 
 ### -field D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_FORCE_DWORD
-

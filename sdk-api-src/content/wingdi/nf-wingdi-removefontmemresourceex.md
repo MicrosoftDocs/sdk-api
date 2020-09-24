@@ -60,7 +60,7 @@ The <b>RemoveFontMemResourceEx</b> function removes the fonts added from a memor
 
 ### -param h [in]
 
-A handle to the font-resource. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontmemresourceex">AddFontMemResourceEx</a> function.
+A handle to the font-resource. This handle is returned by the <a href="/windows/desktop/api/wingdi/nf-wingdi-addfontmemresourceex">AddFontMemResourceEx</a> function.
 
 ## -returns
 
@@ -70,21 +70,20 @@ If the function fails, the return value is zero. No extended error information i
 
 ## -remarks
 
-This function removes a font that was added by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontmemresourceex">AddFontMemResourceEx</a> function. To remove the font, specify the same path and flags as were used in <b>AddFontMemResourceEx</b>. This function will only remove the font that is specified by <i>fh</i>.
+This function removes a font that was added by the <a href="/windows/desktop/api/wingdi/nf-wingdi-addfontmemresourceex">AddFontMemResourceEx</a> function. To remove the font, specify the same path and flags as were used in <b>AddFontMemResourceEx</b>. This function will only remove the font that is specified by <i>fh</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontmemresourceex">AddFontMemResourceEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-addfontmemresourceex">AddFontMemResourceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
-
+<a href="/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>

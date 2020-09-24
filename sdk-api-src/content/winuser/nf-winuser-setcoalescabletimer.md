@@ -87,7 +87,7 @@ If the sum of <i>uElapse</i> and <i>uToleranceDelay</i> exceeds <b>USER_TIMER_MA
 
 Type: <b>TIMERPROC</b>
 
-A pointer to the function to be notified when the time-out value elapses. For more information about the function, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a>. If <i>lpTimerFunc</i> is <b>NULL</b>, the system posts a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message to the application queue. The <b>hwnd</b> member of the message's <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure contains the value of the <i>hWnd</i> parameter.
+A pointer to the function to be notified when the time-out value elapses. For more information about the function, see <a href="/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a>. If <i>lpTimerFunc</i> is <b>NULL</b>, the system posts a <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message to the application queue. The <b>hwnd</b> member of the message's <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure contains the value of the <i>hWnd</i> parameter.
 
 ### -param uToleranceDelay [in]
 
@@ -158,25 +158,25 @@ An invalid value. If <i>uToleranceDelay</i> is set to an invalid value, the func
 
 Type: <b>UINT_PTR</b>
 
-If the function succeeds and the <i>hWnd</i> parameter is <b>NULL</b>, the return value is an integer identifying the new timer. An application can pass this value to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a> function to destroy the timer.
+If the function succeeds and the <i>hWnd</i> parameter is <b>NULL</b>, the return value is an integer identifying the new timer. An application can pass this value to the <a href="/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a> function to destroy the timer.
 
-If the function succeeds and the <i>hWnd</i> parameter is not <b>NULL</b>, then the return value is a nonzero integer. An application can pass the value of the <i>nIDEvent</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a> function to destroy the timer.
+If the function succeeds and the <i>hWnd</i> parameter is not <b>NULL</b>, then the return value is a nonzero integer. An application can pass the value of the <i>nIDEvent</i> parameter to the <a href="/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a> function to destroy the timer.
 
-If the function fails to create a timer, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails to create a timer, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-An application can process <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages by including a <b>WM_TIMER</b> case statement in the window procedure or by specifying a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a> callback function when creating the timer. When you specify a <b>TimerProc</b> callback function, the default window procedure calls the callback function when it processes <b>WM_TIMER</b>. Therefore, you need to dispatch messages in the calling thread, even when you use <b>TimerProc</b> instead of processing <b>WM_TIMER</b>.
+An application can process <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages by including a <b>WM_TIMER</b> case statement in the window procedure or by specifying a <a href="/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a> callback function when creating the timer. When you specify a <b>TimerProc</b> callback function, the default window procedure calls the callback function when it processes <b>WM_TIMER</b>. Therefore, you need to dispatch messages in the calling thread, even when you use <b>TimerProc</b> instead of processing <b>WM_TIMER</b>.
 
-The <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message contains the value of the <i>nIDEvent</i> parameter. 
+The <i>wParam</i> parameter of the <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message contains the value of the <i>nIDEvent</i> parameter. 
 
 The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Another window can have its own timer which has the same identifier as a timer owned by another window. The timers are distinct. 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
+<a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
 			
 
-When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is used and   <b>SetCoalescableTimer</b>  behaves the same as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>.
+When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is used and   <b>SetCoalescableTimer</b>  behaves the same as <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>.
 
 ## -see-also
 
@@ -188,19 +188,19 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesetcoalescabletimer">KeSetCoalescableTimer</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesetcoalescabletimer">KeSetCoalescableTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimerex">KeSetTimer</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimerex">KeSetTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
 
 
 
@@ -212,21 +212,20 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/timers">Timers</a>
+<a href="/windows/desktop/winmsg/timers">Timers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/using-timers">Using TimersCoalescing timers sample</a>
+<a href="/windows/desktop/winmsg/using-timers">Using TimersCoalescing timers sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
-
+<a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>

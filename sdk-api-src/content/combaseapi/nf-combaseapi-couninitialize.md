@@ -61,11 +61,11 @@ Closes the COM library on the current thread, unloads all DLLs loaded by the thr
 
 ## -remarks
 
-A thread must call <b>CoUninitialize</b> once for each successful call it has made to the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> function, including any call that returns S_FALSE. Only the <b>CoUninitialize</b> call corresponding to the <b>CoInitialize</b> or <b>CoInitializeEx</b> call that initialized the library can close it.
+A thread must call <b>CoUninitialize</b> once for each successful call it has made to the <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> function, including any call that returns S_FALSE. Only the <b>CoUninitialize</b> call corresponding to the <b>CoInitialize</b> or <b>CoInitializeEx</b> call that initialized the library can close it.
 
 
 
-Calls to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> must be balanced by calls to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a>. The <b>OleUninitialize</b> function calls <b>CoUninitialize</b> internally, so applications that call <b>OleUninitialize</b> do not also need to call <b>CoUninitialize</b>.
+Calls to <a href="/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> must be balanced by calls to <a href="/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a>. The <b>OleUninitialize</b> function calls <b>CoUninitialize</b> internally, so applications that call <b>OleUninitialize</b> do not also need to call <b>CoUninitialize</b>.
 
 
 
@@ -73,17 +73,16 @@ Calls to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-ol
 
 
 
-Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>, <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>, or <b>CoUninitialize</b> from the <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function.
+Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>, <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>, or <b>CoUninitialize</b> from the <a href="/windows/desktop/Dlls/dllmain">DllMain</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a>

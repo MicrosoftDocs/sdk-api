@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>DrvIcmSetDeviceGammaRamp</b> function sets the hardware <a href="https://docs.microsoft.com/windows-hardware/drivers/">gamma ramp</a> of the specified display device.
+The <b>DrvIcmSetDeviceGammaRamp</b> function sets the hardware <a href="/windows-hardware/drivers/">gamma ramp</a> of the specified display device.
 
 ## -parameters
 
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. This identifies the physical device whose gamma ramp is to be set.
+Handle to the physical device's <a href="/windows-hardware/drivers/">PDEV</a>. This identifies the physical device whose gamma ramp is to be set.
 
 ### -param iFormat
 
@@ -66,7 +66,7 @@ Specifies the data format of the buffer to which <i>lpRamp</i> points. This para
 
 Pointer to the buffer containing the gamma ramp to be set on the device. The format of the data in this buffer is determined by <i>iFormat</i>.
 
-When <i>iFormat</i> is IGRF_RGB_256WORDS, <i>lpRamp</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gammaramp">GAMMARAMP</a> structure that defines the 256-entry ramps to be set for each of the red, blue, and green color channels. Each value is described using 16-bit precision. If the hardware has fewer bits of precision, it should downshift and use the most significant bits, without rounding.
+When <i>iFormat</i> is IGRF_RGB_256WORDS, <i>lpRamp</i> points to a <a href="/windows/desktop/api/winddi/ns-winddi-gammaramp">GAMMARAMP</a> structure that defines the 256-entry ramps to be set for each of the red, blue, and green color channels. Each value is described using 16-bit precision. If the hardware has fewer bits of precision, it should downshift and use the most significant bits, without rounding.
 
 ## -returns
 
@@ -78,9 +78,8 @@ Drivers for display devices with loadable hardware gamma ramps should implement 
 
 <b>DrvIcmSetDeviceGammaRamp</b> should fail if it is called with any other value besides IGRF_RGB_256WORDS in <i>iFormat</i>.
 
-The driver hooks this function by setting the GCAPS2_CHANGEGAMMARAMP flag in the <b>flGraphicsCaps2</b> field of the DEVINFO structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>. If the driver is running in a palettized 8bpp mode, this capability is optional.
+The driver hooks this function by setting the GCAPS2_CHANGEGAMMARAMP flag in the <b>flGraphicsCaps2</b> field of the DEVINFO structure passed to <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>. If the driver is running in a palettized 8bpp mode, this capability is optional.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>

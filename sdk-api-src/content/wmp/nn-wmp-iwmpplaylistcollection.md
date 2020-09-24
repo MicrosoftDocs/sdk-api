@@ -55,7 +55,7 @@ The <b>IWMPPlaylistCollection</b> interface provides methods for manipulating th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlaylistCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPPlaylistCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlaylistCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPPlaylistCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWMPPlaylistCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getall">getAll</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getall">getAll</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object containing all of the playlists in the library.
@@ -79,7 +79,7 @@ Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object contai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">getByName</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">getByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object containing playlists with the specified name, if any exist.
@@ -88,7 +88,7 @@ Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object contai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-importplaylist">importPlaylist</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-importplaylist">importPlaylist</a>
 </td>
 <td align="left" width="63%">
 Adds a static playlist to the library.
@@ -97,7 +97,7 @@ Adds a static playlist to the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-isdeleted">isDeleted</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-isdeleted">isDeleted</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the specified playlist is in the deleted items folder.
@@ -106,7 +106,7 @@ Retrieves a value indicating whether the specified playlist is in the deleted it
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-newplaylist">newPlaylist</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-newplaylist">newPlaylist</a>
 </td>
 <td align="left" width="63%">
 Creates a new, empty playlist in the library.
@@ -115,7 +115,7 @@ Creates a new, empty playlist in the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-remove">remove</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-remove">remove</a>
 </td>
 <td align="left" width="63%">
 Removes a playlist from the library.
@@ -133,13 +133,12 @@ No longer supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylistarray">IWMPPlaylistArray Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylistarray">IWMPPlaylistArray Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

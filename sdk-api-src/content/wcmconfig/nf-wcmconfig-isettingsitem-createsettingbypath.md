@@ -60,7 +60,7 @@ A pointer to the path.
 
 ### -param Setting [out]
 
-A pointer to the newly created <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> item.
+A pointer to the newly created <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> item.
 
 ## -returns
 
@@ -141,10 +141,9 @@ Indicates that the path contains an unrecognized XML escape sequence.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  When creating a scalar list item, you must set a value on the resulting <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> before releasing it, or it will not be persisted.</div>
+<div class="alert"><b>Note</b>  When creating a scalar list item, you must set a value on the resulting <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> before releasing it, or it will not be persisted.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

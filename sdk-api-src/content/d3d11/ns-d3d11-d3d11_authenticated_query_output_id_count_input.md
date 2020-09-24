@@ -56,7 +56,7 @@ Contains input data for a <b>D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT</b> query
 
 ### -field Input
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_input">D3D11_AUTHENTICATED_QUERY_INPUT</a> structure that contains the GUID for the query and other data.
+A <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_input">D3D11_AUTHENTICATED_QUERY_INPUT</a> structure that contains the GUID for the query and other data.
 
 ### -field DeviceHandle
 
@@ -68,5 +68,4 @@ A handle to the cryptographic session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
-
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>

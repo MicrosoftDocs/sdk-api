@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-The <b>ColorLUT::SetParameters</b> method sets the parameters of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorlut">ColorLUT</a> object.
+The <b>ColorLUT::SetParameters</b> method sets the parameters of this <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorlut">ColorLUT</a> object.
 
 ## -parameters
 
 ### -param lut [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorlutparams">ColorLUTParams</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorlutparams">ColorLUTParams</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorlutparams">ColorLUTParams</a> structure that specifies the parameters.
+Pointer to a <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorlutparams">ColorLUTParams</a> structure that specifies the parameters.
 
 ## -returns
 
@@ -67,9 +67,8 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorlut">ColorLUT</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorlut">ColorLUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorlut-getparameters">ColorLUT::GetParameters</a>
-
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorlut-getparameters">ColorLUT::GetParameters</a>

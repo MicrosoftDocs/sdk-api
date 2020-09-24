@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-loadchangedata">IAsynchronousDataRetriever::LoadChangeData</a> has finished successfully.
+Indicates that <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-loadchangedata">IAsynchronousDataRetriever::LoadChangeData</a> has finished successfully.
 
 ## -parameters
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-idataretrievercallback">IDataRetrieverCallback Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-idataretrievercallback">IDataRetrieverCallback Interface</a>

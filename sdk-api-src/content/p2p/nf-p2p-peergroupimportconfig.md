@@ -56,7 +56,7 @@ The <b>PeerGroupImportConfig</b> function imports a peer group configuration for
 
 ### -param pwzXML [in]
 
-Specifies a Unicode string that contains a previously exported (using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupexportconfig">PeerGroupExportConfig</a>) peer group configuration. For the specific XML format of the  string, see to the Remarks section of this topic. This parameter is required.
+Specifies a Unicode string that contains a previously exported (using <a href="/windows/desktop/api/p2p/nf-p2p-peergroupexportconfig">PeerGroupExportConfig</a>) peer group configuration. For the specific XML format of the  string, see to the Remarks section of this topic. This parameter is required.
 
 ### -param pwzPassword [in]
 
@@ -119,11 +119,11 @@ A peer group configuration already exists, and <i>fOverwrite</i> is set to false
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
-To generate a peer group configuration, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupexportconfig">PeerGroupExportConfig</a>, pass in an identity to export,  a password, and a handle to the peer group.
+To generate a peer group configuration, call <a href="/windows/desktop/api/p2p/nf-p2p-peergroupexportconfig">PeerGroupExportConfig</a>, pass in an identity to export,  a password, and a handle to the peer group.
 
 The configuration XML string appears in the following format:
 
@@ -147,4 +147,3 @@ The configuration XML string appears in the following format:
     &lt;!-- base64/PKCS7 encoded GMC chain --&gt;
   &lt;/GMC&gt;
 &lt;/PEERGROUPCONFIG&gt;</code></pre>
-

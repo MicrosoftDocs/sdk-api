@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about a folder band. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb">IShellFolderBand::GetBandInfoSFB</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb">IShellFolderBand::SetBandInfoSFB</a> methods.
+Contains information about a folder band. This structure is used with the <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb">IShellFolderBand::GetBandInfoSFB</a> and <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb">IShellFolderBand::SetBandInfoSFB</a> methods.
 
 ## -struct-fields
 
@@ -166,23 +166,23 @@ State bits. One of the values listed for <b>dwStateMask</b>.
 
 ### -field crBkgnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> that contains the background color of the band.
+A <a href="/windows/desktop/gdi/colorref">COLORREF</a> that contains the background color of the band.
 
 ### -field crBtnLt
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> that contains the light button color.
+<a href="/windows/desktop/gdi/colorref">COLORREF</a> that contains the light button color.
 
 ### -field crBtnDk
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> that contains the dark button color.
+<a href="/windows/desktop/gdi/colorref">COLORREF</a> that contains the dark button color.
 
 ### -field wViewMode
 
@@ -214,13 +214,12 @@ Type: <b>WORD</b>
 
 ### -field psf
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object.
 
 ### -field pidl
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
 A PIDL.
-

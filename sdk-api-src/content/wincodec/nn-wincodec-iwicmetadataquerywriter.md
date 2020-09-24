@@ -54,7 +54,7 @@ Exposes methods for setting or removing metadata blocks and items to an encoder 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataQueryWriter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>. <b>IWICMetadataQueryWriter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataQueryWriter</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>. <b>IWICMetadataQueryWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICMetadataQueryWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataquerywriter-removemetadatabyname">RemoveMetadataByName</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataquerywriter-removemetadatabyname">RemoveMetadataByName</a>
 </td>
 <td align="left" width="63%">
 Removes a metadata item from a specific location using a metadata query expression.
@@ -78,7 +78,7 @@ Removes a metadata item from a specific location using a metadata query expressi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataquerywriter-setmetadatabyname">SetMetadataByName</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataquerywriter-setmetadatabyname">SetMetadataByName</a>
 </td>
 <td align="left" width="63%">
 Sets a metadata item to a specific location.
@@ -89,7 +89,7 @@ Sets a metadata item to a specific location.
 
 ## -remarks
 
-A metadata query writer uses metadata query expressions to set or remove metadata. For more information on the metadata query language, see the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>.
+A metadata query writer uses metadata query expressions to set or remove metadata. For more information on the metadata query language, see the <a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>.
 
 
 #### Examples
@@ -127,21 +127,20 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-jpegmetadataencoding">How-to: Re-encode a JPEG Image with Metadata</a>
+<a href="/windows/desktop/wic/-wic-codec-jpegmetadataencoding">How-to: Re-encode a JPEG Image with Metadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
+<a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
+<a href="/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
-
+<a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>

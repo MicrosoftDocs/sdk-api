@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 The <b>CloseMetaFile</b> function closes a metafile device context and returns a handle that identifies a Windows-format metafile.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-closeenhmetafile">CloseEnhMetaFile</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="/windows/desktop/api/wingdi/nf-wingdi-closeenhmetafile">CloseEnhMetaFile</a>.</div><div> </div>
 
 ## -parameters
 
@@ -70,47 +70,46 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-To convert a Windows-format metafile into a new enhanced-format metafile, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function.
+To convert a Windows-format metafile into a new enhanced-format metafile, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function.
 
-When an application no longer needs the Windows-format metafile handle, it should delete the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a> function.
+When an application no longer needs the Windows-format metafile handle, it should delete the handle by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-closeenhmetafile">CloseEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-closeenhmetafile">CloseEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-copymetafilea">CopyMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-copymetafilea">CopyMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createmetafilea">CreateMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createmetafilea">CreateMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getmetafilebitsex">GetMetaFileBitsEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getmetafilebitsex">GetMetaFileBitsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playmetafile">PlayMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-playmetafile">PlayMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>

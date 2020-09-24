@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Indicates whether to enable or disable Async Register and Deregister for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
+Indicates whether to enable or disable Async Register and Deregister for <a href="/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
 
 ## -enum-fields
 
 ### -field SCNRT_ENABLE
 
-Enable Async Register and Deregister for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
+Enable Async Register and Deregister for <a href="/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
 
 ### -field SCNRT_DISABLE
 
-Disable Async Register and Deregister for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
+Disable Async Register and Deregister for <a href="/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>
-
+<a href="/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>

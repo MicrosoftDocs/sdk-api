@@ -45,9 +45,6 @@ api_name:
  - FNSEEK
 ---
 
-# FNSEEK macro
-
-
 ## -description
 
 The <b>FNSEEK</b> macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FDI context.
@@ -58,33 +55,19 @@ The <b>FNSEEK</b> macro provides the declaration for the application-defined cal
 
 An application-defined value used to identify the open file.
 
-
-#### - dist
-
-The number of bytes to move the file pointer.
-
-
-#### - seektype
-
-The starting point for the file pointer move.
-
 ## -remarks
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/ms235323(VS.80).aspx">_lseek</a>.
 
-
-#### Examples
-
+## Examples
 
 ```cpp
 FNSEEK(fnFileSeek)
 {
     return SetFilePointer((HANDLE)hf, dist, NULL, seektype);
 }
-
 ```
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>

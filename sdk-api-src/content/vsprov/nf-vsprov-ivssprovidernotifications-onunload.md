@@ -101,9 +101,8 @@ If <i>bForceUnload</i> is <b>TRUE</b>, the return value must be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidernotifications">IVssProviderNotifications</a>
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidernotifications">IVssProviderNotifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onload">OnLoad</a>
-
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onload">OnLoad</a>

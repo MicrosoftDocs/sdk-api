@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Specifies the provider that implements <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider">ISelectionProvider</a> 
+Specifies the provider that implements <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider">ISelectionProvider</a> 
         and acts as the container for the calling object.
         
 
@@ -61,9 +61,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionitemprovider">ISelectionItemProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionitemprovider">ISelectionItemProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

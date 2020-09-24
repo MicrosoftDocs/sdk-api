@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiSetClassProperty</b> function sets a class property for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
+The <b>SetupDiSetClassProperty</b> function sets a class property for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
 
 ## -parameters
 
@@ -63,11 +63,11 @@ A pointer to a GUID that identifies the device setup class or device interface c
 
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the device class property to set.
+A pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the device class property to set.
 
 ### -param PropertyType [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device class property. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
+A <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device class property. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
 
 ### -param PropertyBuffer [in, optional]
 
@@ -97,7 +97,7 @@ One of the following values, which specifies whether the class is a device setup
 
 ## -returns
 
-<b>SetupDiSetClassProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+<b>SetupDiSetClassProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log. 
 
@@ -232,7 +232,7 @@ The caller does not have Administrator privileges.
 
 ## -remarks
 
-<b>SetupDiSetClassProperty</b> is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>.
+<b>SetupDiSetClassProperty</b> is part of the <a href="/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>.
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetClassProperty</b>. 
 
@@ -240,25 +240,24 @@ A caller of <b>SetupDiSetClassProperty</b> must be a member of the Administrator
 
 <b>SetupDiSetClassProperty</b> enforces requirements on the property-data-type identifier and the property value. 
 
-To obtain the device property keys that represent the device properties that are set for a device class on a local computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>.
+To obtain the device property keys that represent the device properties that are set for a device class on a local computer, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>.
 
-To retrieve a device class property on a local computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyw">SetupDiGetClassProperty</a>, and to retrieve a device class property on a remote computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>.
+To retrieve a device class property on a local computer, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyw">SetupDiGetClassProperty</a>, and to retrieve a device class property on a remote computer, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>.
 
-To set a device class property on a remote computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>.
+To set a device class property on a remote computer, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyw">SetupDiGetClassProperty</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyw">SetupDiGetClassProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>

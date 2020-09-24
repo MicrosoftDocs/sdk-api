@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Performs application-specific <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostRestore</a> operations.
+Performs application-specific <a href="/windows/desktop/VSS/vssgloss-p">PostRestore</a> operations.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The name of the component or component set. This should match the name in the me
 
 ### -param wszComponentLogicalPath [in, optional]
 
-The <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">logical path</a> of the component or component set. This should match the logical path in the metadata that the <i>wszWriterMetadata</i> parameter points to.
+The <a href="/windows/desktop/VSS/logical-pathing-of-components">logical path</a> of the component or component set. This should match the logical path in the metadata that the <i>wszWriterMetadata</i> parameter points to.
 
 ### -param bNoRollForward [in]
 
@@ -80,5 +80,4 @@ During application restore, Windows Server Backup calls this method after restor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationrestoresupport">IWsbApplicationRestoreSupport</a>
-
+<a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationrestoresupport">IWsbApplicationRestoreSupport</a>

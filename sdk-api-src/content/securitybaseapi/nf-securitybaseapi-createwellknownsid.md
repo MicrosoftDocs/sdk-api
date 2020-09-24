@@ -63,7 +63,7 @@ The <b>CreateWellKnownSid</b> function creates a SID for predefined aliases.
 
 ### -param WellKnownSidType [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-well_known_sid_type">WELL_KNOWN_SID_TYPE</a> enumeration that specifies what the SID will identify.
+Member of the <a href="/windows/desktop/api/winnt/ne-winnt-well_known_sid_type">WELL_KNOWN_SID_TYPE</a> enumeration that specifies what the SID will identify.
 
 ### -param DomainSid [in, optional]
 
@@ -82,21 +82,20 @@ A pointer to a <b>DWORD</b> that contains the number of bytes available at <i>pS
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equaldomainsid">EqualDomainSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equaldomainsid">EqualDomainSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getwindowsaccountdomainsid">GetWindowsAccountDomainSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getwindowsaccountdomainsid">GetWindowsAccountDomainSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-iswellknownsid">IsWellKnownSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-iswellknownsid">IsWellKnownSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-well_known_sid_type">WELL_KNOWN_SID_TYPE</a>
-
+<a href="/windows/desktop/api/winnt/ne-winnt-well_known_sid_type">WELL_KNOWN_SID_TYPE</a>

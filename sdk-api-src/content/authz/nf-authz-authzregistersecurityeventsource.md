@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AuthzRegisterSecurityEventSource</b> function registers a security event source with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
+The <b>AuthzRegisterSecurityEventSource</b> function registers a security event source with the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
 
 ## -parameters
 
@@ -70,7 +70,7 @@ A pointer to a handle to the registered security event source.
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -87,5 +87,4 @@ The LSA API  verifies the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzunregistersecurityeventsource">AuthzUnregisterSecurityEventSource</a>
-
+<a href="/windows/desktop/api/authz/nf-authz-authzunregistersecurityeventsource">AuthzUnregisterSecurityEventSource</a>

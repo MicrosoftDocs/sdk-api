@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Describes a set of retrieved disks that can be used as log disks for the specified data disk.This is a data structure for a value list that is returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-eligible-logdisks">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_LOGDISKS</a> control code.
+Describes a set of retrieved disks that can be used as log disks for the specified data disk.This is a data structure for a value list that is returned by the <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-eligible-logdisks">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_LOGDISKS</a> control code.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ When <b>TRUE</b>, the result set includes all the offline disks in the available
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>

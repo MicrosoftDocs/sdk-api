@@ -92,17 +92,16 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
+<a href="/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-stringcollectionchange">IWMPEvents3::StringCollectionChange</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents3-stringcollectionchange">IWMPEvents3::StringCollectionChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

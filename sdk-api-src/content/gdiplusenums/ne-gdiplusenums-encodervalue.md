@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>EncoderValue</b> enumeration specifies values that can be passed as arguments to image encoders. For more information about image encoders, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a> .
+The <b>EncoderValue</b> enumeration specifies values that can be passed as arguments to image encoders. For more information about image encoders, see <a href="/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a> .
 
 ## -enum-fields
 
@@ -154,4 +154,3 @@ For a TIFF image, specifies the page frame dimension
 ### -field EncoderValueColorTypeGray
 
 ### -field EncoderValueColorTypeRGB
-

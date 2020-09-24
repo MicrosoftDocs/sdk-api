@@ -56,7 +56,7 @@ The <b>put_Status</b> method sets the requested or actual status of the componen
 
 ### -param Status [in]
 
-A variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/componentstatus">ComponentStatus</a> that specifies the status value.
+A variable of type <a href="/previous-versions/windows/desktop/mstv/componentstatus">ComponentStatus</a> that specifies the status value.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Use this method to activate or inactivate a stream component.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_status">IComponent::get_Status</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_status">IComponent::get_Status</a>

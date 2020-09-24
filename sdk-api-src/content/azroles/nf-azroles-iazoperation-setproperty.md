@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>SetProperty</b> method sets the specified value to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  with the specified property ID.
+The <b>SetProperty</b> method sets the specified value to the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  with the specified property ID.
 
 ## -parameters
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  to set. The following table shows the possible values.
+Property ID of the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  to set. The following table shows the possible values.
 
 <table>
 <tr>
@@ -70,7 +70,7 @@ Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azrol
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_applicationdata">ApplicationData</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_applicationdata">ApplicationData</a> property
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_description">Description</a>  property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_description">Description</a>  property
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the   <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_name">Name</a> property
+Also accessed through the   <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_name">Name</a> property
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Also accessed through the   <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Also accessed through the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a> property
+Also accessed through the  <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a> property
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Also accessed through the  <a href="https://docs.microsoft.com/windows/desktop/a
 
 ### -param varProp [in]
 
-The value to set to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
+The value to set to the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
 
 <table>
 <tr>
@@ -171,5 +171,4 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-submit">Submit</a> method to persist any changes made by this method.
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-submit">Submit</a> method to persist any changes made by this method.

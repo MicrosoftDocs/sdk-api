@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Optional flags that control the behavior of <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a>.
+Optional flags that control the behavior of <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a>.
 
 ## -enum-fields
 
@@ -60,5 +60,4 @@ Do not flush the command buffer. This can potentially cause an infinite loop if 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

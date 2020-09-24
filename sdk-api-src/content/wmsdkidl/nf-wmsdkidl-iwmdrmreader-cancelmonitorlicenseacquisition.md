@@ -55,7 +55,7 @@ api_name:
 ]
 
 
-The <b>CancelMonitorLicenseAcquisition</b> method cancels a current call to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition">MonitorLicenseAcquisition</a> method.
+The <b>CancelMonitorLicenseAcquisition</b> method cancels a current call to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition">MonitorLicenseAcquisition</a> method.
 
 ## -parameters
 
@@ -69,5 +69,4 @@ This method terminates the thread that periodically checks the license store to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>

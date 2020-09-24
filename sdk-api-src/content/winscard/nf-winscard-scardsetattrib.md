@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>SCardSetAttrib</b> function sets the given <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> attribute for the given handle. It does not affect the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader driver</a>, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a>. Not all attributes are supported by all readers (nor can they be set at all times) as many of the attributes are under direct control of the transport protocol.
+The <b>SCardSetAttrib</b> function sets the given <a href="/windows/desktop/SecGloss/r-gly">reader</a> attribute for the given handle. It does not affect the <a href="/windows/desktop/SecGloss/s-gly">state</a> of the <a href="/windows/desktop/SecGloss/r-gly">reader</a>, <a href="/windows/desktop/SecGloss/r-gly">reader driver</a>, or <a href="/windows/desktop/SecGloss/s-gly">smart card</a>. Not all attributes are supported by all readers (nor can they be set at all times) as many of the attributes are under direct control of the transport protocol.
 
 ## -parameters
 
 ### -param hCard [in]
 
 Reference value returned from 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
 
 ### -param dwAttrId [in]
 
@@ -79,7 +79,7 @@ Identifier for the attribute to set. The values are write-only. Note that vendor
 </dl>
 </td>
 <td width="60%">
-Suppress sending of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> IFSD packet from the reader to the card. (Can be used if the currently inserted card does not support an IFSD request.)
+Suppress sending of <a href="/windows/desktop/SecGloss/t-gly">T=1</a> IFSD packet from the reader to the card. (Can be used if the currently inserted card does not support an IFSD request.)
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ An error code. For more information, see
 ## -remarks
 
 The <b>SCardSetAttrib</b> function is a direct card access function. For information about other direct access functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/direct-card-access-functions">Direct Card Access Functions</a>.
+<a href="/windows/desktop/SecAuthN/direct-card-access-functions">Direct Card Access Functions</a>.
 
 
 #### Examples
@@ -155,9 +155,8 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetattrib">SCardGetAttrib</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardgetattrib">SCardGetAttrib</a>

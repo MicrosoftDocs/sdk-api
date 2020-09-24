@@ -66,7 +66,7 @@ The handle to the call whose parameters are to be changed. The call state can be
 ### -param dwBearerMode
 
 The new bearer mode for the call. The <i>dwBearerMode</i> parameter can have only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linebearermode--constants">LINEBEARERMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/linebearermode--constants">LINEBEARERMODE_ constants</a>.
 
 ### -param dwMinRate
 
@@ -79,12 +79,12 @@ An upper bound for the call's new data rate. This is the maximum data rate TAPI 
 ### -param lpDialParams
 
 A pointer to the new dial parameters for the call, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>. If this parameter is <b>NULL</b>, it indicates that the call's current dialing parameters are to be used.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>. If this parameter is <b>NULL</b>, it indicates that the call's current dialing parameters are to be used.
 
 ## -returns
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_RATEUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_NOMEM, LINEERR_INVALBEARERMODE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALPOINTER, LINEERR_OPERATIONFAILED, LINEERR_INVALRATE, LINEERR_RESOURCEUNAVAIL, LINEERR_BEARERMODEUNAVAIL.
 
@@ -94,17 +94,16 @@ This operation is used to change the parameters of an existing call. Examples of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall">TSPI_lineMakeCall</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall">TSPI_lineMakeCall</a>

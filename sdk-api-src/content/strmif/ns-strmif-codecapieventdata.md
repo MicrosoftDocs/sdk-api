@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CodecAPIEventData</b> structure contains event data for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-codecapi-event">EC_CODECAPI_EVENT</a> event. This event is sent by codecs that support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> interface.
+The <b>CodecAPIEventData</b> structure contains event data for the <a href="/windows/desktop/DirectShow/ec-codecapi-event">EC_CODECAPI_EVENT</a> event. This event is sent by codecs that support the <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> interface.
 
 ## -struct-fields
 
@@ -69,13 +69,12 @@ Reserved; do not use.
 
 ## -remarks
 
-This structure may be followed by addition data, depending on the codec event. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">ICodecAPI::RegisterForEvent</a>.
+This structure may be followed by addition data, depending on the codec event. For more information, see <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">ICodecAPI::RegisterForEvent</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">ICodecAPI::RegisterForEvent</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">ICodecAPI::RegisterForEvent</a>

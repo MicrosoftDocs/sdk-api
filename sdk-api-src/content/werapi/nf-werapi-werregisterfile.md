@@ -151,7 +151,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -175,20 +175,19 @@ The registered file is added to the report only when additional data is requeste
 For crashes and non-responses, the operating system automatically provides error reporting (you do not need to provide any error reporting code in your application). If you use this function to register a file, the operating system will add the file to the error report created at the time of a crash or non-response (this file is added in addition to the files the operating system already collects).
 
 
-For generic event reporting, the application has to use the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportaddfile">WerReportAddFile</a> function instead. Alternatively, calling the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function with the  WER_SUBMIT_ADD_REGISTERED_DATA flag will include the files that the <b>WerRegisterFile</b> function added.
+For generic event reporting, the application has to use the <a href="/windows/desktop/api/werapi/nf-werapi-werreportaddfile">WerReportAddFile</a> function instead. Alternatively, calling the <a href="/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function with the  WER_SUBMIT_ADD_REGISTERED_DATA flag will include the files that the <b>WerRegisterFile</b> function added.
 
 
-To remove the file from the list, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a> function.
+To remove the file from the list, call the <a href="/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

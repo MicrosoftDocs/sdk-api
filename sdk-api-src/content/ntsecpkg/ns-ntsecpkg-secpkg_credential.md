@@ -112,5 +112,4 @@ The list of packages. This member is only relevant to SPNego.
 
 ### -field MarshaledSuppliedCreds
 
-The supplied credentials that are marshaled. This member contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplied_credential">SECPKG_SUPPLIED_CREDENTIAL</a> 	structure.
-
+The supplied credentials that are marshaled. This member contains a <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplied_credential">SECPKG_SUPPLIED_CREDENTIAL</a> 	structure.

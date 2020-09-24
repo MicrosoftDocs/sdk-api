@@ -55,11 +55,11 @@ Configures an Advanced Systems Format (ASF) mutual exclusion object, which manag
 
 A common example of mutual exclusion is a set of streams that each include the same content encoded at a different bit rate. The stream that is used is determined by the available bandwidth to the reader.
 
-An <b>IMFASFMutualExclusion</b> interface exists for every ASF mutual exclusion object. A pointer to this interface is obtained when you create the object using the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createmutualexclusion">IMFASFProfile::CreateMutualExclusion</a> method.
+An <b>IMFASFMutualExclusion</b> interface exists for every ASF mutual exclusion object. A pointer to this interface is obtained when you create the object using the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createmutualexclusion">IMFASFProfile::CreateMutualExclusion</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFMutualExclusion</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFMutualExclusion</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFMutualExclusion</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFMutualExclusion</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMFASFMutualExclusion</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">AddRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">AddRecord</a>
 </td>
 <td align="left" width="63%">
 Adds a record to the mutual exclusion object. A record specifies streams that are mutually exclusive with the streams in all other records.
@@ -83,7 +83,7 @@ Adds a record to the mutual exclusion object. A record specifies streams that ar
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addstreamforrecord">AddStreamForRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addstreamforrecord">AddStreamForRecord</a>
 </td>
 <td align="left" width="63%">
 Adds a stream number to a record in the ASF mutual exclusion object.
@@ -92,7 +92,7 @@ Adds a stream number to a record in the ASF mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-clone">Clone</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the ASF mutual exclusion object.
@@ -101,7 +101,7 @@ Creates a copy of the ASF mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getrecordcount">GetRecordCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getrecordcount">GetRecordCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of records in the ASF mutual exclusion object.
@@ -110,7 +110,7 @@ Retrieves the number of records in the ASF mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getstreamsforrecord">GetStreamsForRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getstreamsforrecord">GetStreamsForRecord</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream numbers contained in a record in the ASF mutual exclusion object.
@@ -119,7 +119,7 @@ Retrieves the stream numbers contained in a record in the ASF mutual exclusion o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-gettype">GetType</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of mutual exclusion represented by the ASF mutual exclusion object.
@@ -128,7 +128,7 @@ Retrieves the type of mutual exclusion represented by the ASF mutual exclusion o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-removerecord">RemoveRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-removerecord">RemoveRecord</a>
 </td>
 <td align="left" width="63%">
 Removes a record from the ASF mutual exclusion object.
@@ -137,7 +137,7 @@ Removes a record from the ASF mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-removestreamfromrecord">RemoveStreamFromRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-removestreamfromrecord">RemoveStreamFromRecord</a>
 </td>
 <td align="left" width="63%">
 Removes a stream number from a record in the ASF mutual exclusion object.
@@ -146,7 +146,7 @@ Removes a stream number from a record in the ASF mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-settype">SetType</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-settype">SetType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of mutual exclusion that is represented by the ASF mutual exclusion object.
@@ -161,9 +161,8 @@ An ASF profile object can support multiple mutual exclusions. Each must be confi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
-
+<a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>

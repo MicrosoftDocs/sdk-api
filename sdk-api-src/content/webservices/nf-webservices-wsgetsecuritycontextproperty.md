@@ -60,7 +60,7 @@ The security context that is queried for its property.
 
 ### -param id [in]
 
-The id of the property (one of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_context_property_id">WS_SECURITY_CONTEXT_PROPERTY_ID</a>).
+The id of the property (one of <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_context_property_id">WS_SECURITY_CONTEXT_PROPERTY_ID</a>).
 
 ### -param value
 
@@ -117,4 +117,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
-

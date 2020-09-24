@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-An application-defined callback function that processes enumerated user interface language information provided by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a> function. The UILANGUAGE_ENUMPROC type defines a pointer to this callback function. <b>EnumUILanguagesProc</b> is a placeholder for the application-defined function name.
+An application-defined callback function that processes enumerated user interface language information provided by the <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a> function. The UILANGUAGE_ENUMPROC type defines a pointer to this callback function. <b>EnumUILanguagesProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Application-defined value.
 
 #### - lpUILanguageString [in]
 
-Pointer to a buffer containing a null-terminated string representing a user interface language identifier or language name, depending on the value for the <i>dwFlags</i> parameter passed in the call to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>.
+Pointer to a buffer containing a null-terminated string representing a user interface language identifier or language name, depending on the value for the <i>dwFlags</i> parameter passed in the call to <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>.
 
 ## -returns
 
@@ -73,7 +73,7 @@ Returns <b>TRUE</b> to continue enumeration or <b>FALSE</b> otherwise.
 
 ## -remarks
 
-An <b>EnumUILanguagesProc</b> function can carry out any task. The application registers this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a> function.
+An <b>EnumUILanguagesProc</b> function can carry out any task. The application registers this function by passing its address to the <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a> function.
 
 If MUI_LANGUAGE_ID was specified in the call to <b>EnumUILanguages</b>, the language strings passed to this function will be hexadecimal language 
 
@@ -101,13 +101,12 @@ delegate System.Boolean EnumUILanguagesProc(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
-
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>

@@ -56,29 +56,28 @@ The <b>TF_SELECTION</b> structure contains text selection data.
 
 ### -field range
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that specifies the selected text.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that specifies the selected text.
 
 ### -field style
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE</a> structure that contains selection data.
+A <a href="/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE</a> structure that contains selection data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getselection">ITfContext::GetSelection
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getselection">ITfContext::GetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-setselection">ITfContext::SetSelection
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-setselection">ITfContext::SetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE
       </a>
-

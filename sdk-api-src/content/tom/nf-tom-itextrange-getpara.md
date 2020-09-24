@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object with the paragraph attributes of the specified range.
+Gets an <a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object with the paragraph attributes of the specified range.
 
 ## -parameters
 
 ### -param ppPara
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>**</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>**</b>
 
-The pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object.
+The pointer to the <a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object.
 
 ## -returns
 
@@ -68,7 +68,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 ## -remarks
 
-For plain-text controls, these objects do not vary from range to range, but in rich-text solutions, they do. See the section on <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> for further details.
+For plain-text controls, these objects do not vary from range to range, but in rich-text solutions, they do. See the section on <a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> for further details.
 
 ## -see-also
 
@@ -76,11 +76,11 @@ For plain-text controls, these objects do not vary from range to range, but in r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -88,5 +88,4 @@ For plain-text controls, these objects do not vary from range to range, but in r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -72,5 +72,4 @@ A <b>Case Ignore List</b> attribute represents an ordered sequence of case insen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>

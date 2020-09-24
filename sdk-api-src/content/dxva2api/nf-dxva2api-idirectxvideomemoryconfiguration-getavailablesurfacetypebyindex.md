@@ -97,9 +97,8 @@ The index was out of range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration">IDirectXVideoMemoryConfiguration</a>
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration">IDirectXVideoMemoryConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>
-
+<a href="/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>

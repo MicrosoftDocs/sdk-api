@@ -202,67 +202,66 @@ A pointer to a <b>NULL</b>-terminated string that is the name of the computer on
 Type: <b>LPSERVICE_ADDRESSES</b>
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_addresses">SERVICE_ADDRESSES</a> structure that contains an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> structures. Each 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_addresses">SERVICE_ADDRESSES</a> structure that contains an array of 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> structures. Each 
 <b>SERVICE_ADDRESS</b> structure contains information about a network service address. 
 
 
 
 
 A network service can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> function to determine the local address of the system.
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> function to determine the local address of the system.
 
 ### -field ServiceSpecificInfo
 
 Type: <b>BLOB</b>
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a> structure that specifies service-defined information. 
+						<a href="/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a> structure that specifies service-defined information. 
 
 
 
 
 <div class="alert"><b>Note</b>  In general, the data pointed to by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a> structure's <b>pBlobData</b> member must not contain any pointers. That is because only the network service knows the format of the data; copying the data without such knowledge would lead to pointer invalidation. If the data pointed to by <b>pBlobData</b> contains variable-sized elements, offsets from <b>pBlobData</b> can be used to indicate the location of those elements. There is one exception to this general rule: when <b>pBlobData</b> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. This is possible because both the 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a> structure's <b>pBlobData</b> member must not contain any pointers. That is because only the network service knows the format of the data; copying the data without such knowledge would lead to pointer invalidation. If the data pointed to by <b>pBlobData</b> contains variable-sized elements, offsets from <b>pBlobData</b> can be used to indicate the location of those elements. There is one exception to this general rule: when <b>pBlobData</b> points to a 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. This is possible because both the 
 <b>SERVICE_TYPE_INFO_ABS</b> structure, and any 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures it contains are predefined, and thus their formats are known to the operating system.</div>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures it contains are predefined, and thus their formats are known to the operating system.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getservicea">GetService</a>
+<a href="/windows/desktop/api/nspapi/nf-nspapi-getservicea">GetService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_addresses">SERVICE_ADDRESSES</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_addresses">SERVICE_ADDRESSES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
+<a href="/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
 
 ## -remarks
 
 > [!NOTE]
 > The nspapi.h header defines SERVICE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

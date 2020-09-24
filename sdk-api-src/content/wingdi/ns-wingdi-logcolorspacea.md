@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/c">color space</a>.
+The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="/previous-versions/windows/desktop/wcs/c">color space</a>.
 
 ## -struct-fields
 
@@ -184,17 +184,16 @@ If the lcsCSType member is set to LCS_sRGB or LCS_WINDOWS_COLOR_SPACE, the other
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-cmyk">CMYK</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-cmyk">CMYK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>

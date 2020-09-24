@@ -51,40 +51,39 @@ api_name:
 ## -description
 
 Deallocate all resources that are allocated by a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> function.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> function.
 
 ## -parameters
 
 ### -param LoadedImage [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure. This structure is obtained through a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> function.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure. This structure is obtained through a call to the 
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
 <b>UnMapAndLoad</b> function must be used to deallocate all resources that are allocated by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>. This function also writes a new checksum value into the image before the file is closed. This ensures that if a file is changed, it can be successfully loaded by the system loader.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>. This function also writes a new checksum value into the image before the file is closed. This ensures that if a file is changed, it can be successfully loaded by the system loader.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>
-
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>

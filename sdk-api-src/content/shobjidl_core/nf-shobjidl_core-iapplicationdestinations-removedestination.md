@@ -56,15 +56,15 @@ Removes a single destination from the <b>Recent</b> and <b>Frequent</b> categori
 
 ### -param punk [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> that represents the destination to remove.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> that represents the destination to remove.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-Returns S_OK if successful, or a standard COM error value otherwise. If the object pointed to by <i>punk</i> is not an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>, the method returns E_INVALIDARG.
+Returns S_OK if successful, or a standard COM error value otherwise. If the object pointed to by <i>punk</i> is not an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>, the method returns E_INVALIDARG.
 
 ## -remarks
 
@@ -74,21 +74,20 @@ If the item is pinned to the list by the user, it is not removed but its usage d
 
 An application can call <b>RemoveDestination</b> without knowing if the item pointed to by <i>punk</i> is currently in the list. If there is no existing data on the item (in which case it is not in the <b>Recent</b> or <b>Frequent</b> list), this method does nothing and returns S_OK.
 
-If the application has an explicit Application User Model ID (AppUserModelID), you must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid">IApplicationDestinations::SetAppID</a> before you call this method.
+If the application has an explicit Application User Model ID (AppUserModelID), you must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid">IApplicationDestinations::SetAppID</a> before you call this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations">IApplicationDestinations</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations">IApplicationDestinations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removealldestinations">IApplicationDestinations::RemoveAllDestinations</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removealldestinations">IApplicationDestinations::RemoveAllDestinations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid">IApplicationDestinations::SetAppID</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid">IApplicationDestinations::SetAppID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-
+<a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>

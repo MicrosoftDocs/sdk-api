@@ -48,7 +48,7 @@ In multi-adapter operation, identifies the physical adapter of the device this o
 
 ### -field InputFormat
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the input and reference resources.
+A [DXGI_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the input and reference resources.
 
 ### -field BlockSize
 
@@ -85,4 +85,3 @@ The allocation size of the motion estimator heap in the L1 memory pool. L1 is ty
 ## -remarks
 
 ## -see-also
-

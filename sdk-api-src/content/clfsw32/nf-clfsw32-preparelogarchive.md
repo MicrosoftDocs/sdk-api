@@ -52,13 +52,13 @@ api_name:
 
 Prepares a physical log for archival.  The function takes a  snapshot of the current active log, builds an ordered set of log archive descriptors for the active log extents, and returns a log archive context.
 
- By passing this log archive context to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getnextlogarchiveextent">GetNextLogArchiveExtent</a>, a client can iterate through the set of log archive extents to archive the log. You can also specify a range of records to archive.
+ By passing this log archive context to <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getnextlogarchiveextent">GetNextLogArchiveExtent</a>, a client can iterate through the set of log archive extents to archive the log. You can also specify a range of records to archive.
 
 ## -parameters
 
 ### -param hLog [in]
 
-A handle to the log that is  obtained by a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.  
+A handle to the log that is  obtained by a successful call to <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.  
 
 This handle can be the handle to a dedicated or multiplexed log.
 
@@ -76,13 +76,13 @@ The size of the <i>pszBaseLogFileName</i> buffer, in wide characters.
 
 ### -param plsnLow [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the low end of the range of the  active log where the log client needs log archival information. 
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the low end of the range of the  active log where the log client needs log archival information. 
 
 If this parameter is omitted, the low end of the range defaults to the LSN of the log archive tail.
 
 ### -param plsnHigh [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the LSN of the high end of the range of the  active log where the log client needs log archival information. 
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the LSN of the high end of the range of the  active log where the log client needs log archival information. 
 
 If this parameter is omitted, the high end of the range defaults to the next LSN to be written to the log.
 
@@ -104,21 +104,21 @@ A pointer to a variable  that specifies the exact length  of the base log, in by
 
 ### -param plsnBase [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to receive the base log sequence number (LSN) of the active log.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to receive the base log sequence number (LSN) of the active log.
 
 ### -param plsnLast [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to receive the highest valid LSN in the active log.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to receive the highest valid LSN in the active log.
 
 ### -param plsnCurrentArchiveTail [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to receive the current LSN of the archive tail of the log.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to receive the current LSN of the archive tail of the log.
 
 ### -param ppvArchiveContext [out]
 
 A pointer to the variable that receives a pointer to an  archive context that the system allocates.  
 
-The archive context maintains the cursor state of the archival iterator and the log handle context.  The archival client is responsible for releasing the context by calling <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a>.
+The archive context maintains the cursor state of the archival iterator and the log handle context.  The archival client is responsible for releasing the context by calling <a href="/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a>.
 
 ## -returns
 
@@ -126,33 +126,32 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the possible error codes:
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the possible error codes:
 
 ## -remarks
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a> to free the archive context, or memory leaks can occur.
+You must call <a href="/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a> to free the archive context, or memory leaks can occur.
 
-Until you call <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a>, containers that are being archived cannot be recycled.
+Until you call <a href="/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a>, containers that are being archived cannot be recycled.
 
-You can only perform one archive operation at a time per handle that  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a> returns.
+You can only perform one archive operation at a time per handle that  <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a> returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getnextlogarchiveextent">GetNextLogArchiveExtent</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-getnextlogarchiveextent">GetNextLogArchiveExtent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogarchivemetadata">ReadLogArchiveMetadata</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-readlogarchivemetadata">ReadLogArchiveMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a>

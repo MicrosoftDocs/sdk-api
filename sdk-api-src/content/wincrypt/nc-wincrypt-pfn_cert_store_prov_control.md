@@ -51,27 +51,26 @@ api_name:
 ## -description
 
 The <b>CertStoreProvControl</b> callback function supports the <b>CertControlStore</b> API. All of the API's parameters are passed straight through to the callback. For details, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 ## -parameters
 
 ### -param hStoreProv [in, out]
 
-<b>HCERTSTOREPROV</b> handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> passed from the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
+<b>HCERTSTOREPROV</b> handle to a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> passed from the call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 ### -param dwFlags [in]
 
-Passed from the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
+Passed from the call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 ### -param dwCtrlType [in]
 
-Control action to be taken. Passed from the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
+Control action to be taken. Passed from the call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 ### -param *pvCtrlPara [in, optional]
 
-A pointer to a buffer whose structure and content is determined by the values of <i>dwFlags</i> and <i>dwCtrlType</i>. Passed from the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
+A pointer to a buffer whose structure and content is determined by the values of <i>dwFlags</i> and <i>dwCtrlType</i>. Passed from the call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
 ## -returns
 
 Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if it fails.
-

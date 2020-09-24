@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Stores position information for an item. Used with message <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-setitempos">SFVM_SETITEMPOS</a>.
+Stores position information for an item. Used with message <a href="/windows/desktop/shell/sfvm-setitempos">SFVM_SETITEMPOS</a>.
 
 ## -struct-fields
 
@@ -60,11 +60,10 @@ Stores position information for an item. Used with message <a href="https://docs
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> for the item.
+A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> for the item.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure indicating the position of the item.
-
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure indicating the position of the item.

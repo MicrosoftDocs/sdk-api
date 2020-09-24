@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the tab-stop positions in a list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-settabstops">LB_SETTABSTOPS</a> message explicitly.
+Sets the tab-stop positions in a list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-settabstops">LB_SETTABSTOPS</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -74,5 +74,4 @@ A pointer to an array of integers containing the tab stops. The integers represe
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-settabstops">LB_SETTABSTOPS</a>.
-
+For more information, see <a href="/windows/desktop/Controls/lb-settabstops">LB_SETTABSTOPS</a>.

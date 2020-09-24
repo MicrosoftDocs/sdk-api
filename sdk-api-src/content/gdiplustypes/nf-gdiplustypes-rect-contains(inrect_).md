@@ -52,8 +52,8 @@ api_name:
 
 <span>This topic lists the 
 			Contains methods of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> class. For a complete list of methods for the 
-			<b>Rect</b> class, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-rect-methods">Rect Methods</a>. 
+			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> class. For a complete list of methods for the 
+			<b>Rect</b> class, see <a href="/windows/desktop/gdiplus/-gdiplus-class-rect-methods">Rect Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -61,32 +61,31 @@ api_name:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inrect_)">Contains(Rect&)</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inrect_)">Contains(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inrect_)">Rect::Contains</a> method determines whether another rectangle is inside this rectangle.
+The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inrect_)">Rect::Contains</a> method determines whether another rectangle is inside this rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inconstpoint_)">Contains(Point&)</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inconstpoint_)">Contains(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inconstpoint_)">Rect::Contains</a> method determines whether a point is inside this rectangle.
+The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inconstpoint_)">Rect::Contains</a> method determines whether a point is inside this rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms534986(v=vs.85)">Contains(INT,INT)</a>
+<a href="/previous-versions/ms534986(v=vs.85)">Contains(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/ms534986(v=vs.85)">Rect::Contains</a><i>x</i><i>y</i>) is inside this rectangle.
+The <a href="/previous-versions/ms534986(v=vs.85)">Rect::Contains</a><i>x</i><i>y</i>) is inside this rectangle.
 
 </td>
 </tr>
 </table>
 
 ## -parameters
-

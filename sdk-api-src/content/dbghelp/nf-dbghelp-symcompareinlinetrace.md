@@ -57,7 +57,7 @@ Compares two inline traces.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param Address1 [in]
 
@@ -161,4 +161,3 @@ The inline contexts are different.
 </td>
 </tr>
 </table>
-

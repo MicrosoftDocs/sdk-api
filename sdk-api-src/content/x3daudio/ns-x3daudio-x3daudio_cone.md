@@ -90,12 +90,11 @@ Reverb send level scaler on/beyond outer cone. This must be within 0.0f to 2.0f.
 
 ## -remarks
 
-For a detailed explanation of sound cones see <a href="https://docs.microsoft.com/windows/desktop/xaudio2/sound-cones">Sound Cones</a>.
+For a detailed explanation of sound cones see <a href="/windows/desktop/xaudio2/sound-cones">Sound Cones</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

@@ -56,7 +56,7 @@ Returns the sector-aligned block offset that is contained in the specified LSN.
 
 ### -param plsn [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure from which the block offset is to be retrieved.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure from which the block offset is to be retrieved.
 
 ## -returns
 
@@ -69,19 +69,18 @@ The block offset that is returned by this function is a multiple of the sector s
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/enumerating-log-containers">Enumerating Log Containers</a>.
+For an example that uses this function, see <a href="/previous-versions/windows/desktop/clfs/enumerating-log-containers">Enumerating Log Containers</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsncontainer">LsnContainer</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsncontainer">LsnContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsncreate">LsnCreate</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsncreate">LsnCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsnrecordsequence">LsnRecordSequence</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsnrecordsequence">LsnRecordSequence</a>

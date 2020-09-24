@@ -69,6 +69,5 @@ This method supports the standard return value E_UNEXPECTED, in addition to the 
 ## -remarks
 
 <b>IPropertyStorage::DeleteMultiple</b> must delete as many of the indicated properties as are in the current property set. If a deletion of a stream- or storage-valued property occurs while that property is open, the deletion will succeed and place the previously returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer in the reverted state.
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> or 
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer in the reverted state.

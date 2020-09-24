@@ -60,11 +60,11 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param GlobalFilterInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a> structure that contains the enable/disable settings for the DHCPv6 server's allow/deny lists.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a> structure that contains the enable/disable settings for the DHCPv6 server's allow/deny lists.
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -97,5 +97,4 @@ An error occurred while accessing the DHCP server's database.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a>

@@ -54,7 +54,7 @@ Provides methods of interaction with a connected identity provider.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConnectedIdentityProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConnectedIdentityProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConnectedIdentityProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConnectedIdentityProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IConnectedIdentityProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iconnectedidentityprovider-connectidentity">ConnectIdentity</a>
+<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iconnectedidentityprovider-connectidentity">ConnectIdentity</a>
 </td>
 <td align="left" width="63%">
 Connects an identity to a domain user.
@@ -78,7 +78,7 @@ Connects an identity to a domain user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iconnectedidentityprovider-disconnectidentity">DisconnectIdentity</a>
+<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iconnectedidentityprovider-disconnectidentity">DisconnectIdentity</a>
 </td>
 <td align="left" width="63%">
 Disconnects an online identity from the current domain user.
@@ -87,7 +87,7 @@ Disconnects an online identity from the current domain user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iconnectedidentityprovider-geturl">GetUrl</a>
+<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iconnectedidentityprovider-geturl">GetUrl</a>
 </td>
 <td align="left" width="63%">
 Returns the URL string for the specified wizard or webpage.
@@ -95,4 +95,3 @@ Returns the URL string for the specified wizard or webpage.
 </td>
 </tr>
 </table>
-

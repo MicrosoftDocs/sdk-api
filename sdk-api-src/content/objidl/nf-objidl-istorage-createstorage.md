@@ -61,7 +61,7 @@ A pointer to a wide character null-terminated Unicode string that contains the n
 
 ### -param grfMode [in]
 
-A value that specifies the access mode to use when opening the newly created storage object. For more information and a description of possible values, see <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>.
+A value that specifies the access mode to use when opening the newly created storage object. For more information and a description of possible values, see <a href="/windows/desktop/Stg/stgm-constants">STGM Constants</a>.
 
 ### -param reserved1 [in]
 
@@ -74,7 +74,7 @@ Reserved for future use; must be zero.
 ### -param ppstg [out]
 
 A pointer, when successful, to the location of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the newly created storage object. This parameter is set to <b>NULL</b> if an error occurs.
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the newly created storage object. This parameter is set to <b>NULL</b> if an error occurs.
 
 ## -returns
 
@@ -95,9 +95,8 @@ If a storage object with the same name already exists and <i>grfMode</i> is set 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a>

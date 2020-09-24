@@ -65,9 +65,9 @@ This property is read/write.
 
 ## -remarks
 
-The value of this property is always Disabled if it is used on a system that has Microsoft Windows XP Tablet PC Edition installed but no recognizers are present. If used on a system with Windows Vista or Windows XP Tablet PC Edition installed, the value can be set to any of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-inkmode">InkMode</a> enumeration type.
+The value of this property is always Disabled if it is used on a system that has Microsoft Windows XP Tablet PC Edition installed but no recognizers are present. If used on a system with Windows Vista or Windows XP Tablet PC Edition installed, the value can be set to any of the values in the <a href="/windows/desktop/api/inked/ne-inked-inkmode">InkMode</a> enumeration type.
 
-This property should be changed only if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
+This property should be changed only if the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
 
 ## -see-also
 
@@ -75,9 +75,8 @@ This property should be changed only if the <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-inkmode">InkMode Enumeration</a>
-
+<a href="/windows/desktop/api/inked/ne-inked-inkmode">InkMode Enumeration</a>

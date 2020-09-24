@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used by Windows 2000 to hold information about a component. This structure replaces the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-ie4component">IE4COMPONENT</a> structure.
+Used by Windows 2000 to hold information about a component. This structure replaces the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-ie4component">IE4COMPONENT</a> structure.
 
 ## -struct-fields
 
@@ -96,7 +96,7 @@ Website
 
 #### COMP_TYPE_CONTROL
 
-ActiveX control. This value is valid only for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem">IActiveDesktop::AddDesktopItem</a>.
+ActiveX control. This value is valid only for <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem">IActiveDesktop::AddDesktopItem</a>.
 
 ### -field fChecked
 
@@ -118,9 +118,9 @@ A value that is set to <b>TRUE</b> if the component is scrollable, or <b>FALSE</
 
 ### -field cpPos
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a></b>
+Type: <b><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a> structure containing position and size information.
+A <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a> structure containing position and size information.
 
 ### -field wszFriendlyName
 
@@ -166,13 +166,12 @@ Split screen
 
 ### -field csiOriginal
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a></b>
+Type: <b><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a> structure with the state of the component when it was first added.
+A <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a> structure with the state of the component when it was first added.
 
 ### -field csiRestored
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a></b>
+Type: <b><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a> structure with the restored state of the component.
-
+A <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a> structure with the restored state of the component.

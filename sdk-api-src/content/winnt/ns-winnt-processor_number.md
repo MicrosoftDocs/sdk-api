@@ -72,5 +72,4 @@ This parameter is reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
-
+<a href="/windows/desktop/ProcThread/processor-groups">Processor Groups</a>

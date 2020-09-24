@@ -72,9 +72,8 @@ This method fails if the channel type is <b>D3DAUTHENTICATEDCHANNEL_D3D9</b>, be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
+<a href="/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a>

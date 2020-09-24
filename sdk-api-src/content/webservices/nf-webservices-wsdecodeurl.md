@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Evaluates the components of an URL to determine its "scheme". A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> value is encapsulated in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_url">WS_URL</a> structure and a reference to the structure is returned via output parameter. 
+Evaluates the components of an URL to determine its "scheme". A <a href="/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> value is encapsulated in a <a href="/windows/desktop/api/webservices/ns-webservices-ws_url">WS_URL</a> structure and a reference to the structure is returned via output parameter. 
                 If the scheme is not recognized, the function returns WS_E_INVALID_FORMAT.    
                 Only scheme types identified in  <b>WS_URL_SCHEME_TYPE</b> are supported.
 
@@ -58,7 +58,7 @@ Evaluates the components of an URL to determine its "scheme". A <a href="https:/
 
 ### -param url [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a>  representation of the URL to evaluate.
+A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a>  representation of the URL to evaluate.
 
 ### -param flags [in]
 
@@ -66,15 +66,15 @@ Determines the URL scheme evaluation method.  See <a href="/windows/win32/api/we
 
 ### -param heap [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> in which to allocate the returned URL reference.
+A pointer to a <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> in which to allocate the returned URL reference.
 
 ### -param outUrl
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_url">WS_URL</a> structure that encapsulates the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> value.
+Reference to the <a href="/windows/desktop/api/webservices/ns-webservices-ws_url">WS_URL</a> structure that encapsulates the <a href="/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> value.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -149,4 +149,3 @@ If no port is specified the default port for that scheme is returned.
             
 
 If no port is specified for the soap.udp scheme 0xFFFFFFFF is returned as the default.
-

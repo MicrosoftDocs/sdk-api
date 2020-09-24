@@ -60,7 +60,7 @@ GUID that specifies the network on which this event occurred.
 
 ### -param flags [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_property_change">NLM_NETWORK_PROPERTY_CHANGE</a> enumeration value that specifies the network property that changed.
+<a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_property_change">NLM_NETWORK_PROPERTY_CHANGE</a> enumeration value that specifies the network property that changed.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns S_OK if the method succeeds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkevents">INetworkEvents</a>
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkevents">INetworkEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_property_change">NLM_NETWORK_PROPERTY_CHANGE</a>
-
+<a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_property_change">NLM_NETWORK_PROPERTY_CHANGE</a>

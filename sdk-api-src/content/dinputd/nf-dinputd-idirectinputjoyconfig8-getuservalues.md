@@ -56,7 +56,7 @@ The <b>IDirectInputJoyConfig8::GetUserValues </b>method obtains information abou
 
 ### -param arg1
 
-Points to a structure that receives information about the user joystick configuration. The caller must initialize the <b>dwSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dijoyuservalues">DIJOYUSERVALUES</a> structure before calling this method.
+Points to a structure that receives information about the user joystick configuration. The caller must initialize the <b>dwSize</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoyuservalues">DIJOYUSERVALUES</a> structure before calling this method.
 
 ### -param arg2
 
@@ -76,7 +76,7 @@ Indicates that the user configuration settings (the <b>ruv</b> member of the DIJ
 
 Indicates that the global port driver (the <b>wszGlobalDriver</b> member of the DIJOYUSERVALUES structure) is being requested. 
 
-A list of valid global drivers can be obtained by enumerating the list of joystick types. If the joystick type has the JOY_HWS_ISGAMEPORTDRIVER flag set in the <b>dwFlags</b> member of the JOYHWSETTINGS structure, then the <b>wszCallout</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure contains the name of a driver that can be used as a global driver. 
+A list of valid global drivers can be obtained by enumerating the list of joystick types. If the joystick type has the JOY_HWS_ISGAMEPORTDRIVER flag set in the <b>dwFlags</b> member of the JOYHWSETTINGS structure, then the <b>wszCallout</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure contains the name of a driver that can be used as a global driver. 
 
 
 
@@ -105,4 +105,3 @@ One or more parameters was invalid.
 </td>
 </tr>
 </table>
-

@@ -55,11 +55,11 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 
 
-The <b>IMSVidFilePlayback2</b> interface enables the client to specify a DirectShow source filter for playback. It is implemented by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfileplaybackdevice">MSVidFilePlaybackDevice</a> object.
+The <b>IMSVidFilePlayback2</b> interface enables the client to specify a DirectShow source filter for playback. It is implemented by the <a href="/previous-versions/windows/desktop/mstv/msvidfileplaybackdevice">MSVidFilePlaybackDevice</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFilePlayback2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidFilePlayback2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFilePlayback2</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidFilePlayback2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMSVidFilePlayback2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfileplayback2-put___sourcefilter">put___SourceFilter</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidfileplayback2-put___sourcefilter">put___SourceFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the CLSID of a DirectShow source filter to use for this source.
@@ -83,7 +83,7 @@ Sets the CLSID of a DirectShow source filter to use for this source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfileplayback2-put__sourcefilter">put__SourceFilter</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidfileplayback2-put__sourcefilter">put__SourceFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the CLSID of a DirectShow source filter to use for this source. The CLSID is specified as a string.
@@ -98,9 +98,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

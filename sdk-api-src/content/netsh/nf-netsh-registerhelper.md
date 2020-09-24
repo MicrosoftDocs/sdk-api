@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>RegisterHelper</b> function is called from within a helper's exposed 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_dll_init_fn">InitHelperDll</a> function, and registers the helper with the NetShell context.
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_dll_init_fn">InitHelperDll</a> function, and registers the helper with the NetShell context.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ Attributes of the helper.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_dll_init_fn">InitHelperDll</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_dll_init_fn">InitHelperDll</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>

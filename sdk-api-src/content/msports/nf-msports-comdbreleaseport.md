@@ -56,7 +56,7 @@ api_name:
 
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
+Handle to the COM port database that was returned by <a href="/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 ### -param ComNumber [in]
 
@@ -123,13 +123,12 @@ The routine could not access the database. To get extended error information, ca
 
 <b>ComDBReleasePort</b> runs in user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
+For more information, see <a href="/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimnextfreeport">ComDBClaimNextFreePort</a>
+<a href="/windows/desktop/api/msports/nf-msports-comdbclaimnextfreeport">ComDBClaimNextFreePort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>
-
+<a href="/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>

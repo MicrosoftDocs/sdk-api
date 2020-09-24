@@ -57,7 +57,7 @@ The <b>GetObjectInformation</b> method requests information that the access cont
 ### -param pObjectInfo [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure. Your implementation must fill this structure to pass information back to the access control editor.
+<a href="/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure. Your implementation must fill this structure to pass information back to the access control editor.
 
 ## -returns
 
@@ -68,21 +68,20 @@ Returns a nonzero error code if an error occurs.
 ## -remarks
 
 The system does not free the string pointers that you return in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure.
+<a href="/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a>
-
+<a href="/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a>

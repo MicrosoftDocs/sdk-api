@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to read the credentials transferred from the Winlogon of the temporary session to the Winlogon of the destination session.
+Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to read the credentials transferred from the Winlogon of the temporary session to the Winlogon of the destination session.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -67,5 +67,4 @@ Returns <b>TRUE</b> if credentials were transferred and <b>FALSE</b> if the tran
 ## -remarks
 
 In order to access this function, the GINA DLL must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a> structure.
-
+<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a> structure.

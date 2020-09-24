@@ -57,13 +57,13 @@ Locks a range of vertex data and obtains a pointer to the vertex buffer memory.
 
 ### -param OffsetToLock [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Offset into the vertex data to lock, in bytes. To lock the entire vertex buffer, specify 0 for both parameters, SizeToLock and OffsetToLock.
 
 ### -param SizeToLock [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the vertex data to lock, in bytes. To lock the entire vertex buffer, specify 0 for both parameters, SizeToLock and OffsetToLock.
 
@@ -75,7 +75,7 @@ VOID* pointer to a memory buffer containing the returned vertex data.
 
 ### -param Flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Combination of zero or more locking flags that describe the type of lock to perform. For this method, the valid flags are: 
     
@@ -88,7 +88,7 @@ Combination of zero or more locking flags that describe the type of lock to perf
 <li>D3DLOCK_READONLY</li>
 <li>D3DLOCK_NOOVERWRITE</li>
 </ul>
-For a description of the flags, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlock">D3DLOCK</a>.
+For a description of the flags, see <a href="/windows/desktop/direct3d9/d3dlock">D3DLOCK</a>.
 
 ## -returns
 
@@ -102,17 +102,16 @@ As a general rule, do not hold a lock across more than one frame. When working w
 
 The D3DLOCK_DISCARD and D3DLOCK_NOOVERWRITE flags are valid only on buffers created with D3DUSAGE_DYNAMIC.
 
-For information about using D3DLOCK_DISCARD or D3DLOCK_NOOVERWRITE with <b>IDirect3DVertexBuffer9::Lock</b>, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/performance-optimizations">Using Dynamic Vertex and Index Buffers</a>.
+For information about using D3DLOCK_DISCARD or D3DLOCK_NOOVERWRITE with <b>IDirect3DVertexBuffer9::Lock</b>, see <a href="/windows/desktop/direct3d9/performance-optimizations">Using Dynamic Vertex and Index Buffers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexbuffer9-unlock">IDirect3DVertexBuffer9::Unlock</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexbuffer9-unlock">IDirect3DVertexBuffer9::Unlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>
-
+<a href="/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>

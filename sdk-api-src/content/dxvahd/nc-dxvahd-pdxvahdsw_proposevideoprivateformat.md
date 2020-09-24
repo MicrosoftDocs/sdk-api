@@ -68,7 +68,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -remarks
 
-This function is called when the application calls <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">IDXVAHD_Device::CreateVideoSurface</a>  if  the following conditions are true:
+This function is called when the application calls <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">IDXVAHD_Device::CreateVideoSurface</a>  if  the following conditions are true:
 
 <ul>
 <li>The type of input surface is <b>DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE</b>.</li>
@@ -76,7 +76,7 @@ This function is called when the application calls <a href="https://docs.microso
 </ul>
 This function enbles the plug-in device  to propose an alternate format with an equivalent memory layout. For example, if the application requests AYUV, the plug-in device might allocate a surface of type <b>D3DFMT_A8R8G8B8</b>.
 
-If the function succeeds, the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">CreateVideoSurface</a> method attempts to create a surface with the format returned in <i>pFormat</i>. 
+If the function succeeds, the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">CreateVideoSurface</a> method attempts to create a surface with the format returned in <i>pFormat</i>. 
 
 
 #### Examples
@@ -105,17 +105,16 @@ HRESULT CALLBACK ProposeVideoPrivateFormat(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
+<a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">IDXVAHD_Device::CreateVideoSurface</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">IDXVAHD_Device::CreateVideoSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

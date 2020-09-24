@@ -56,7 +56,7 @@ Gets the names of the columns used to sort the current folder.
 
 ### -param pbstrSortColumns [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a>*</b>
 
 A <b>BSTR</b> that contains the column names.
 
@@ -65,4 +65,3 @@ A <b>BSTR</b> that contains the column names.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

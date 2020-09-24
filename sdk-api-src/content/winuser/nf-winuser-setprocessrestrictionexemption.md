@@ -79,9 +79,8 @@ When set to TRUE, indicates a request to disable exemption for the calling proce
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Any process can call this function, including desktop and Windows Store app processes and processes that use IL code.
-

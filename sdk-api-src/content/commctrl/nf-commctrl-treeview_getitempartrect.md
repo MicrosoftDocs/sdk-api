@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the largest possible bounding rectangle that constitutes the "hit zone" for a specified part of an item. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitempartrect">TVM_GETITEMPARTRECT</a> message explicitly.
+Retrieves the largest possible bounding rectangle that constitutes the "hit zone" for a specified part of an item. Use this macro or send the <a href="/windows/desktop/Controls/tvm-getitempartrect">TVM_GETITEMPARTRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -81,4 +81,3 @@ ID of the item part. This value must be <b>TVGIPR_BUTTON</b> (0x0001).
 ## -remarks
 
 This message returns the largest possible bounding rectangle such that for every (x,y) coordinate within the rectangle, a click by the user at that coordinate would constitute a hit on that part of the item.
-

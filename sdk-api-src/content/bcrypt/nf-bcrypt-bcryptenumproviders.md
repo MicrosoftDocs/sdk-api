@@ -56,7 +56,7 @@ The <b>BCryptEnumProviders</b> function obtains all of the CNG providers that su
 
 ### -param pszAlgId [in]
 
-A pointer to a null-terminated Unicode string that identifies the algorithm to obtain the providers for. This can be one of the predefined <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or another algorithm identifier.
+A pointer to a null-terminated Unicode string that identifies the algorithm to obtain the providers for. This can be one of the predefined <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or another algorithm identifier.
 
 ### -param pImplCount [out]
 
@@ -64,7 +64,7 @@ A pointer to a <b>ULONG</b> variable to receive the number of elements in the <i
 
 ### -param ppImplList [out]
 
-The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_provider_name">BCRYPT_PROVIDER_NAME</a> structures to receive the collection of providers that support the specified algorithm. The <i>pImplCount</i> parameter receives the number of elements in this array. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
+The address of an array of <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_provider_name">BCRYPT_PROVIDER_NAME</a> structures to receive the collection of providers that support the specified algorithm. The <i>pImplCount</i> parameter receives the number of elements in this array. This memory must be freed when it is no longer needed by passing this pointer to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
 ### -param dwFlags [in]
 
@@ -121,13 +121,12 @@ A memory allocation failure occurred.
 
 ## -remarks
 
-<b>BCryptEnumProviders</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a>.
+<b>BCryptEnumProviders</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_provider_name">BCRYPT_PROVIDER_NAME</a>
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_provider_name">BCRYPT_PROVIDER_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a>

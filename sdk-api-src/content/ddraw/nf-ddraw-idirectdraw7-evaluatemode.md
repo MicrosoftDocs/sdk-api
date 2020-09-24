@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used after a call to <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-startmodetest">IDirectDraw7::StartModeTest</a> to pass or fail each mode that the test presents and to step through the modes until the test is complete.
+Used after a call to <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-startmodetest">IDirectDraw7::StartModeTest</a> to pass or fail each mode that the test presents and to step through the modes until the test is complete.
 
 ## -parameters
 
@@ -92,9 +92,9 @@ If it fails or on completion, the method can return one of the following error v
 
 ## -remarks
 
-You can use <b>EvaluateMode</b> in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-startmodetest">IDirectDraw7::StartModeTest</a> method to determine the maximum refresh rate that an EDID monitor and display adapter combination can support for each screen resolution.
+You can use <b>EvaluateMode</b> in conjunction with the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-startmodetest">IDirectDraw7::StartModeTest</a> method to determine the maximum refresh rate that an EDID monitor and display adapter combination can support for each screen resolution.
 
-Specifically, a call to <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-startmodetest">IDirectDraw7::StartModeTest</a> directs DirectDraw to establish a set of testable resolutions and to display a mode based on the first resolution in the set. Subsequent calls to <b>EvaluateMode</b> can be used to pass or fail each mode and to advance the test to the next display mode. The method steps through the testable resolutions starting with the highest refresh rate supported for a given resolution. After a refresh rate for a given resolution passes, testing of lower refresh rates for that resolution is skipped.
+Specifically, a call to <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-startmodetest">IDirectDraw7::StartModeTest</a> directs DirectDraw to establish a set of testable resolutions and to display a mode based on the first resolution in the set. Subsequent calls to <b>EvaluateMode</b> can be used to pass or fail each mode and to advance the test to the next display mode. The method steps through the testable resolutions starting with the highest refresh rate supported for a given resolution. After a refresh rate for a given resolution passes, testing of lower refresh rates for that resolution is skipped.
 
 
 
@@ -102,9 +102,8 @@ When the test is initiated, or whenever a mode is passed or failed, DirectDraw b
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>EvaluateMode</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>EvaluateMode</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

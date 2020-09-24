@@ -56,7 +56,7 @@ The <b>DrvNotify</b> function allows a display driver to be notified about certa
 
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the primary surface for which notification is occurring.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the primary surface for which notification is occurring.
 
 ### -param iType
 
@@ -86,5 +86,4 @@ A display driver can optionally implement <b>DrvNotify</b>. GDI will call <b>Drv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engquerydeviceattribute">EngQueryDeviceAttribute</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engquerydeviceattribute">EngQueryDeviceAttribute</a>

@@ -299,7 +299,7 @@ Retrieves a list of supported paper sizes. The <i>pOutput</i> buffer receives an
 </dl>
 </td>
 <td width="60%">
-Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
+Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
 
 </td>
 </tr>
@@ -452,9 +452,9 @@ If the function returns -1, this may mean either that the capability is not supp
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-The <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure pointed to by the <i>pDevMode</i> parameter may be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function.
+The <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure pointed to by the <i>pDevMode</i> parameter may be obtained by calling the <a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function.
 
-If a printer driver supports custom device capabilities, the driver must call the <a href="https://docs.microsoft.com/windows/desktop/printdocs/setprinterdata">SetPrinterData</a> function for each custom capability. The <b>SetPrinterData</b> function adds the appropriate printer data to the print system, which enables 32-bit applications to access the custom capabilities on 64-bit Windows installations.
+If a printer driver supports custom device capabilities, the driver must call the <a href="/windows/desktop/printdocs/setprinterdata">SetPrinterData</a> function for each custom capability. The <b>SetPrinterData</b> function adds the appropriate printer data to the print system, which enables 32-bit applications to access the custom capabilities on 64-bit Windows installations.
 
 For each custom capability, you must first add printer data that describes the type of the capability. To do this, when you call <b>SetPrinterData</b>, set the <i>pValueName</i> string to <b>CustomDeviceCapabilityType_Xxx</b>, where "Xxx" is the hexadecimal representation of the capability. For example, you might have "CustomDeviceCapabilityType_1234". The registry data that you set must be of the <b>REG_DWORD</b> type, and you must set its value to one of the following:
 
@@ -478,37 +478,36 @@ If the custom capability is an array of items, you must call <b>SetPinterData</b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
+<a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>

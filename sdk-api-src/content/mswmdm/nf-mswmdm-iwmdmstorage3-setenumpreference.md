@@ -57,7 +57,7 @@ The <b>SetEnumPreference</b> method sets the preferred view mode for the storage
 
 ### -param pMode [in, out]
 
-Desired mode of the storage enumerator. For more details on the mode, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-storage-enum-mode">WMDM_STORAGE_ENUM_MODE</a>. If the value of <i>pMode</i> is set to ENUM_MODE_USE_DEVICE_PREF, then upon return it is set to ENUM_MODE_RAW or ENUM_MODE_METADATA_VIEWS, based on the device preference.
+Desired mode of the storage enumerator. For more details on the mode, see <a href="/windows/desktop/WMDM/wmdm-storage-enum-mode">WMDM_STORAGE_ENUM_MODE</a>. If the value of <i>pMode</i> is set to ENUM_MODE_USE_DEVICE_PREF, then upon return it is set to ENUM_MODE_RAW or ENUM_MODE_METADATA_VIEWS, based on the device preference.
 
 ### -param nViews [in]
 
@@ -67,7 +67,7 @@ This parameter is ignored if the value of <i>pMode</i> is ENUM_MODE_RAW or if th
 
 If the value of <i>pMode</i> is ENUM_MODE_METADATA_VIEWS or if the value of <i>pMode</i> is ENUM_MODE_USE_DEVICE_PREF and the device prefers metadata views, this parameter can still be 0. In this case, Windows Media Device Manager uses its default metadata views.
 
-If the value of <i>nViews</i> is 0, <i>ppViews</i> must be <b>NULL</b>. If the value of <i>nViews</i> is not 0, <i>ppViews</i> must point to an array of <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmmetadataview">WMDMMetadataView</a> structures with <i>nViews</i> elements.
+If the value of <i>nViews</i> is 0, <i>ppViews</i> must be <b>NULL</b>. If the value of <i>nViews</i> is not 0, <i>ppViews</i> must point to an array of <a href="/windows/desktop/WMDM/wmdmmetadataview">WMDMMetadataView</a> structures with <i>nViews</i> elements.
 
 ### -param pViews [in]
 
@@ -77,7 +77,7 @@ This parameter is ignored if the value of <i>pMode</i> is ENUM_MODE_RAW or if th
 
 If the value of <i>pMode</i> is ENUM_MODE_METADATA_VIEWS or if the value of <i>pMode</i> is ENUM_MODE_USE_DEVICE_PREF and the device prefers metadata views, this parameter can still be <b>NULL</b>. In this case Windows Media Device Manager uses its default metadata views.
 
-The value of this parameter must be <b>NULL</b> if the value of <i>nViews</i> is 0. If the value of <i>nViews</i> is not 0, <i>ppViews</i> must point to an array of <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmmetadataview">WMDMMetadataView</a> structures with <i>nViews</i> elements.
+The value of this parameter must be <b>NULL</b> if the value of <i>nViews</i> is 0. If the value of <i>nViews</i> is not 0, <i>ppViews</i> must point to an array of <a href="/windows/desktop/WMDM/wmdmmetadataview">WMDMMetadataView</a> structures with <i>nViews</i> elements.
 
 ## -returns
 
@@ -158,29 +158,28 @@ An unspecified error occurred.
 
 ## -remarks
 
-Windows Media Device Manager can present metadata views of the content on the device. It walks through all the content on a top-level storage (such as internal memory or a storage card) and returns a storage enumerator that presents the content organized by the metadata of the content. The definition of a metadata view is provided through a <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmmetadataview">WMDMMetadataView</a> structure.
+Windows Media Device Manager can present metadata views of the content on the device. It walks through all the content on a top-level storage (such as internal memory or a storage card) and returns a storage enumerator that presents the content organized by the metadata of the content. The definition of a metadata view is provided through a <a href="/windows/desktop/WMDM/wmdmmetadataview">WMDMMetadataView</a> structure.
 
 This behavior is controlled by the <i>pMode</i> parameter. If the <i>pMode</i> is set to ENUM_MODE_RAW, Windows Media Device Manager returns an enumerator that mirrors the hierarchy of the file system on the storage of the device. If the <i>pMode</i> is set to ENUM_MODE_METADATA_VIEWS, Windows Media Device Manager generates metadata views.
 
-Devices indicate their preference by setting the device parameter <i>UseMetadataViews</i> at the time the device is installed. For more information about <i>UseMetadataViews</i>, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/device-parameters">Device Parameters</a>. If the application will let the device decide on the kind of storage enumerator returned, it should set <i>pMode</i> to ENUM_MODE_USE_DEVICE_PREF.
+Devices indicate their preference by setting the device parameter <i>UseMetadataViews</i> at the time the device is installed. For more information about <i>UseMetadataViews</i>, see <a href="/windows/desktop/WMDM/device-parameters">Device Parameters</a>. If the application will let the device decide on the kind of storage enumerator returned, it should set <i>pMode</i> to ENUM_MODE_USE_DEVICE_PREF.
 
-After this method is called, later calls to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a> will behave according to the storage enumeration preference set by this method. This method can be called again to change the behavior of subsequent <b>IWMDMStorage::EnumStorage</b> calls.
+After this method is called, later calls to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a> will behave according to the storage enumeration preference set by this method. This method can be called again to change the behavior of subsequent <b>IWMDMStorage::EnumStorage</b> calls.
 
 This method should typically be called on the top-level storage. If this method is called on any of the storages in metadata view, it will return WMDM_E_NOTSUPPORTED.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmmetadataview">WMDMMetadataView</a>
-
+<a href="/windows/desktop/WMDM/wmdmmetadataview">WMDMMetadataView</a>

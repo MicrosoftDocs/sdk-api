@@ -57,31 +57,30 @@ The <b>MetafileHeader::GetType</b> method gets the type of the associated metafi
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafiletype">MetafileType</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafiletype">MetafileType</a></b>
 
-This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafiletype">MetafileType</a> enumeration that indicates the type of the associated metafile.
+This method returns an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafiletype">MetafileType</a> enumeration that indicates the type of the associated metafile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
+<a href="/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
+<a href="/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafiletype">MetafileType</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafiletype">MetafileType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>

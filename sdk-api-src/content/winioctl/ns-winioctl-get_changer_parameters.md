@@ -152,7 +152,7 @@ The changer uses removable cartridge magazines for some or all storage slots.
 </td>
 <td width="60%">
 The ELEMENT_STATUS_ACCESS flag in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element_status">CHANGER_ELEMENT_STATUS</a> structure for a data transport element is invalid when the transport element contains a cleaning cartridge.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element_status">CHANGER_ELEMENT_STATUS</a> structure for a data transport element is invalid when the transport element contains a cleaning cartridge.
 
 </td>
 </tr>
@@ -727,5 +727,4 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_parameters">IOCTL_CHANGER_GET_PARAMETERS</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_parameters">IOCTL_CHANGER_GET_PARAMETERS</a>

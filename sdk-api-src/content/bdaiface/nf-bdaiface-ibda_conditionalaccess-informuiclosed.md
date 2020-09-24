@@ -60,7 +60,7 @@ Specifies the dialog number.
 
 ### -param CloseReason [in]
 
-Specifies the reason for closing the dialog, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/ne-bdaiface-uiclosereasontype">UICloseReasonType</a> enumeration.
+Specifies the reason for closing the dialog, as a member of the <a href="/windows/desktop/api/bdaiface/ne-bdaiface-uiclosereasontype">UICloseReasonType</a> enumeration.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If the method succeeds, it returns <b>S_OK</b>. It returns <b>S_FALSE</b> if a d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>

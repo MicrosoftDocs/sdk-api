@@ -180,5 +180,4 @@ The operation succeeded and the reference to the assembly was removed. The assem
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
-
+<a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>

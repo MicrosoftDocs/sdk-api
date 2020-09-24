@@ -96,9 +96,8 @@ Defines shortcut menu restrictions used by [IDefaultFolderMenuInitialize::GetMen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-getmenurestrictions">IDefaultFolderMenuInitialize::GetMenuRestrictions</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-getmenurestrictions">IDefaultFolderMenuInitialize::GetMenuRestrictions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-setmenurestrictions">IDefaultFolderMenuInitialize::SetMenuRestrictions</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-setmenurestrictions">IDefaultFolderMenuInitialize::SetMenuRestrictions</a>

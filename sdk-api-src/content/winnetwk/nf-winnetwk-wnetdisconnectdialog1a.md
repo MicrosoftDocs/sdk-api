@@ -55,7 +55,7 @@ api_name:
 
 The
 				<b>WNetDisconnectDialog1</b> function attempts to disconnect a network resource. If the underlying network returns ERROR_OPEN_FILES, the function prompts the user for confirmation. If there is any error, the function informs the user. The function requires a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-discdlgstructa">DISCDLGSTRUCT</a> to specify the parameters for the disconnect attempt.
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-discdlgstructa">DISCDLGSTRUCT</a> to specify the parameters for the disconnect attempt.
 
 ## -parameters
 
@@ -69,7 +69,7 @@ Pointer to a
 If the function succeeds, the return value is NO_ERROR. If the user cancels the dialog box, the return value is –1.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -139,7 +139,7 @@ There is insufficient memory to start the dialog box.
 </td>
 <td width="60%">
 A network-specific error occurred. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function to obtain a description of the error.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function to obtain a description of the error.
 
 </td>
 </tr>
@@ -147,32 +147,31 @@ A network-specific error occurred. Call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-discdlgstructa">DISCDLGSTRUCT</a>
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-discdlgstructa">DISCDLGSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog">WNetConnectionDialog</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog">WNetConnectionDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog">WNetDisconnectDialog</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog">WNetDisconnectDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winnetwk.h header defines WNetDisconnectDialog1 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

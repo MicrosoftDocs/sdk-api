@@ -56,7 +56,7 @@ For stereoscopic 3D video, specifies how the Media Engine renders the 3D video c
 
 ### -param outputType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-mf3dvideooutputtype">MF3DVideoOutputType</a> enumeration that specifies the 3D video rendering mode.
+A member of the <a href="/windows/desktop/api/mftransform/ne-mftransform-mf3dvideooutputtype">MF3DVideoOutputType</a> enumeration that specifies the 3D video rendering mode.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>

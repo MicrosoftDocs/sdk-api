@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Called by the Windows Biometric Framework to return results from the   asynchronous <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a> function. The client application must implement this function.
+Called by the Windows Biometric Framework to return results from the   asynchronous <a href="/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a> function. The client application must implement this function.
 
 
 <div class="alert"><b>Important</b>  We recommend that, beginning with Windows 8, you no longer use the  <b>PWINBIO_CAPTURE_CALLBACK</b>/<b>WinBioCaptureSampleWithCallback</b> combination. Instead, do the following:<ul>
-<li>Implement a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nc-winbio-pwinbio_async_completion_callback">PWINBIO_ASYNC_COMPLETION_CALLBACK</a> function to receive notice when the operation completes.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> function. Pass the address of your callback in the <i>CallbackRoutine</i> parameter. Pass  <b>WINBIO_ASYNC_NOTIFY_CALLBACK</b> in the <i>NotificationMethod</i> parameter. Retrieve an asynchronous session handle.</li>
-<li>Use the asynchronous session handle to call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>. When the operation finishes, the Windows Biometric Framework will allocate and initialize a  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure with the results and invoke your callback with a pointer to the results structure.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> from your callback implementation to release the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure after you have finished using it.</li>
+<li>Implement a <a href="/windows/desktop/api/winbio/nc-winbio-pwinbio_async_completion_callback">PWINBIO_ASYNC_COMPLETION_CALLBACK</a> function to receive notice when the operation completes.</li>
+<li>Call the <a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> function. Pass the address of your callback in the <i>CallbackRoutine</i> parameter. Pass  <b>WINBIO_ASYNC_NOTIFY_CALLBACK</b> in the <i>NotificationMethod</i> parameter. Retrieve an asynchronous session handle.</li>
+<li>Use the asynchronous session handle to call <a href="/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>. When the operation finishes, the Windows Biometric Framework will allocate and initialize a  <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure with the results and invoke your callback with a pointer to the results structure.</li>
+<li>Call <a href="/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> from your callback implementation to release the <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure after you have finished using it.</li>
 </ul>
 </div>
 <div> </div>
@@ -66,7 +66,7 @@ Called by the Windows Biometric Framework to return results from the   asynchron
 
 ### -param CaptureCallbackContext [in, optional]
 
-Pointer to a buffer defined by the application and passed to the <i>CaptureCallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a> function. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform or to maintain additional information about the biometric capture.
+Pointer to a buffer defined by the application and passed to the <i>CaptureCallbackContext</i> parameter of the <a href="/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a> function. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform or to maintain additional information about the biometric capture.
 
 ### -param OperationStatus [in]
 
@@ -107,7 +107,7 @@ Currently, the Windows Biometric Framework supports only fingerprint readers. Th
 
 #### Examples
 
-The following code example captures a sample asynchronously by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a> and passing a pointer to a custom callback function, CaptureSampleCallback. Link to the Winbio.lib static library and include the following header files:
+The following code example captures a sample asynchronously by calling <a href="/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a> and passing a pointer to a custom callback function, CaptureSampleCallback. Link to the Winbio.lib static library and include the following header files:
 
 <ul>
 <li>Windows.h</li>
@@ -241,9 +241,8 @@ e_Exit:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-reject-detail-constants">WINBIO_REJECT_DETAIL Constants</a>
+<a href="/windows/desktop/SecBioMet/winbio-reject-detail-constants">WINBIO_REJECT_DETAIL Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a>
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a>

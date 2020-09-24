@@ -57,7 +57,7 @@ The number of command lists to be executed.
 
 ### -param ppCommandLists [in]
 
-The array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> command lists to be executed.
+The array of <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> command lists to be executed.
 
 ## -remarks
 
@@ -69,9 +69,9 @@ Applications are encouraged to batch together command list executions to reduce 
 
 ### Runtime validation
 
-Bundles can't be submitted to a command queue directly. If a bundle is passed to this method, the runtime will drop the call. The runtime will also drop the call if the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> has not been called on any of the command lists.
+Bundles can't be submitted to a command queue directly. If a bundle is passed to this method, the runtime will drop the call. The runtime will also drop the call if the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> has not been called on any of the command lists.
 
-The runtime will detect if the command allocators associated with the command lists have been reset after <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> was called.  The runtime will drop the call and remove the device in this situation.
+The runtime will detect if the command allocators associated with the command lists have been reset after <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> was called.  The runtime will drop the call and remove the device in this situation.
 
 The runtime will drop the call and remove the device if the command queue fence indicates that a previous execution of any of the command lists has not yet completed.
 
@@ -132,9 +132,8 @@ void D3D1211on12::OnRender()
 }
 ```
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>

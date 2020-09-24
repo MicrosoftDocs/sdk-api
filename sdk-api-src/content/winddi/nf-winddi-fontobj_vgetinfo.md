@@ -56,7 +56,7 @@ The <b>FONTOBJ_vGetInfo</b> function retrieves information about an associated f
 
 ### -param pfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure to be queried.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure to be queried.
 
 ### -param cjSize [in]
 
@@ -64,13 +64,12 @@ Specifies the size in bytes of the buffer pointed to by <i>pfi</i>.
 
 ### -param pfi
 
-Pointer to a buffer previously allocated by the driver. GDI writes a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontinfo">FONTINFO</a> structure to this buffer.
+Pointer to a buffer previously allocated by the driver. GDI writes a <a href="/windows/desktop/api/winddi/ns-winddi-fontinfo">FONTINFO</a> structure to this buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontinfo">FONTINFO</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fontinfo">FONTINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>

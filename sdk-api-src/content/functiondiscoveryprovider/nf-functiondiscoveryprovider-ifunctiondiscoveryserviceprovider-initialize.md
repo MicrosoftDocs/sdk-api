@@ -58,7 +58,7 @@ Initializes an object that provides a specific interface that has been bound to 
 
 ### -param pIFunctionInstance [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface that represents the underlying resource.
+A pointer to an <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface that represents the underlying resource.
 
 ### -param riid [in]
 
@@ -107,5 +107,4 @@ Any error code indicates failure. The provider should return an appropriate erro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryserviceprovider">IFunctionDiscoveryServiceProvider</a>
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryserviceprovider">IFunctionDiscoveryServiceProvider</a>

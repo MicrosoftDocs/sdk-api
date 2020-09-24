@@ -48,7 +48,7 @@ In multi-adapter operation, identifies the physical adapter of the device this o
 
 ### -field InputFormat
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the input resources.
+A [DXGI_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the input resources.
 
 ### -field BlockSizeFlags
 
@@ -67,4 +67,3 @@ A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range.md) structure re
 When the format is not supported with motion estimation, *BlockSizeFlags* will be set to [D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAG_NONE](ne-d3d12video-d3d12_video_motion_estimator_search_block_size_flags.md), *PrecisionFlags* will be set to [D3D12_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_FLAG_NONE](ne-d3d12video-d3d12_video_motion_estimator_vector_precision_flags.md), and the *SizeRange* will be set to all zeros.
 
 ## -see-also
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EMI_MEASUREMENT_UNIT</b> enumeration represents the available units of energy measurements that can be retrieved from a device by using <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>.
+The <b>EMI_MEASUREMENT_UNIT</b> enumeration represents the available units of energy measurements that can be retrieved from a device by using <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>.
 
 ## -enum-fields
 
@@ -60,19 +60,18 @@ The energy measurement is returned in picowatt-hours.
 
 ## -remarks
 
-When a component calls [EMI_METADATA](/windows/win32/api/emi/ns-emi-emi_metadata_v1) structure output parameter.
+When a component calls [EMI_METADATA](./ns-emi-emi_metadata_v1.md) structure output parameter.
 
 In devices that implement<b>EMI_VERSION_V1</b>, picowatt-hours is the only supported unit.
 
 ## -see-also
 
-[EMI_METADATA](/windows/win32/api/emi/ns-emi-emi_metadata_v1)
+[EMI_METADATA](./ns-emi-emi_metadata_v1.md)
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
+<a href="/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>
-
+<a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>

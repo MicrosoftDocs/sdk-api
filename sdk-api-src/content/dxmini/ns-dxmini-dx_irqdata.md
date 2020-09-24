@@ -291,5 +291,4 @@ The device can generate V-sync IRQs for hardware video port number 9.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>

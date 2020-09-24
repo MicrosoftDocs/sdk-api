@@ -56,15 +56,15 @@ Gets the story collection object used to enumerate the stories in a document.
 
 ### -param ppStories
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a>**</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a>**</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a> pointer.
+The <a href="/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a> pointer.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ Not implemented; only one story in this document.
 
 ## -remarks
 
-Invoke this method only if <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstorycount">ITextDocument::GetStoryCount</a> returns a value greater than 1.
+Invoke this method only if <a href="/windows/desktop/api/tom/nf-tom-itextdocument-getstorycount">ITextDocument::GetStoryCount</a> returns a value greater than 1.
 
 ## -see-also
 
@@ -94,15 +94,15 @@ Invoke this method only if <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstorycount">GetStoryCount</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-getstorycount">GetStoryCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a>
 
 
 
@@ -110,5 +110,4 @@ Invoke this method only if <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -85,7 +85,7 @@ Type: <b>UINT</b>
 If the function succeeds, the return value is the length of the string copied to the buffer, in 
 						characters, not including the terminating null character.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -103,33 +103,32 @@ Using this function incorrectly might compromise the security of your program. I
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addatomw">AddAtom</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-addatomw">AddAtom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deleteatom">DeleteAtom</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-deleteatom">DeleteAtom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findatoma">FindAtom</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-findatoma">FindAtom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaldeleteatom">GlobalDeleteAtom</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globaldeleteatom">GlobalDeleteAtom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfindatoma">GlobalFindAtom</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globalfindatoma">GlobalFindAtom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a>
 
 
 
 <b>Reference</b>
-

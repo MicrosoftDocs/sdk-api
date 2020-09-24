@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>DhcpGetThreadOptions</b> function  retrieves the current thread options as set by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>.
+The <b>DhcpGetThreadOptions</b> function  retrieves the current thread options as set by <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>.
 
 ## -parameters
 
 ### -param pFlags [out]
 
-Set of bit flags as set by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>. If no thread options are  set, the return value is 0. Currently, the only bit flag that can be set is as follows.
+Set of bit flags as set by a previous call to <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>. If no thread options are  set, the return value is 0. Currently, the only bit flag that can be set is as follows.
 
 <table>
 <tr>
@@ -73,13 +73,13 @@ Do not access the directory service while the DHCP thread is executing. After th
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumservers">DhcpEnumServers</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumservers">DhcpEnumServers</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddserver">DhcpAddServer</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddserver">DhcpAddServer</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeleteserver">DhcpDeleteServer</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeleteserver">DhcpDeleteServer</a>
 </li>
 </ul>
 </td>
@@ -92,9 +92,8 @@ Reserved. This parameter must be set to null.
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>

@@ -66,7 +66,7 @@ api_name:
 
 The 
 <b>IWbemServices::CreateClassEnum</b> method returns an enumerator for all classes that satisfy selection criteria. The caller must use the returned enumerator to retrieve the class definitions, calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a> to obtain each class or blocks of classes. It finishes by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IEnumWbemClassObject::Release</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a> to obtain each class or blocks of classes. It finishes by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IEnumWbemClassObject::Release</a>.
 <div class="alert"><b>Note</b>  It is not an error for the returned enumerator to have 0 (zero) elements.</div><div> </div>
 
 ## -parameters
@@ -102,15 +102,15 @@ This flag forces the enumeration to include only pure instances of this class, e
 #### WBEM_FLAG_RETURN_IMMEDIATELY
 
 This flag causes  a semisynchronous call. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 
 
 #### WBEM_FLAG_FORWARD_ONLY
 
 This flag causes a forward-only enumerator to be returned. Typically, forward-only enumerators are  faster and use less memory than conventional enumerators, but they do not allow calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-clone">Clone</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-clone">Clone</a> or 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a>.
 
 
 
@@ -121,34 +121,33 @@ This flag causes WMI to retain pointers to objects of the enumeration until the 
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that can be used by the provider that is providing the requested classes. The values in the context object must be specified in the documentation for the provider. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that can be used by the provider that is providing the requested classes. The values in the context object must be specified in the documentation for the provider. For more information about this parameter, see 
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 ### -param ppEnum [out]
 
-Receives the pointer to the enumerator. The returned object has a positive reference count. The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the pointer when it is no longer required.
+Receives the pointer to the enumerator. The returned object has a positive reference count. The caller must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the pointer when it is no longer required.
 
 ## -returns
 
 This method returns an <b>HRESULT</b> that indicates the status of a method call. The following list lists the value contained withinan <b>HRESULT</b>.
 
-On failure, you can obtain available information from the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a>.
+On failure, you can obtain available information from the COM function <a href="/windows/win32/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
 COM-specific error codes also can be returned if network problems cause you to lose the remote connection to Windows Management.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createclassenumasync">IWbemServices::CreateClassEnumAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createclassenumasync">IWbemServices::CreateClassEnumAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
-
+<a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>

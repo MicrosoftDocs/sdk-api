@@ -56,7 +56,7 @@ The <b>EngUnmapEvent</b> function cleans up the kernel-mode resources allocated 
 
 ### -param pEvent [in]
 
-Pointer to an event object returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
+Pointer to an event object returned from a previous call to <a href="/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
 
 ## -returns
 
@@ -64,19 +64,18 @@ Pointer to an event object returned from a previous call to <a href="https://doc
 
 ## -remarks
 
-The display driver should call <b>EngUnmapEvent</b> when it is notified that the process (typically <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>) that created the user-mode event has terminated. The display driver can also call <b>EngUnmapEvent</b> to perform its own cleanup. The display and miniport drivers should not touch the event object after <b>EngUnmapEvent</b> has been called.
+The display driver should call <b>EngUnmapEvent</b> when it is notified that the process (typically <a href="/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>) that created the user-mode event has terminated. The display driver can also call <b>EngUnmapEvent</b> to perform its own cleanup. The display and miniport drivers should not touch the event object after <b>EngUnmapEvent</b> has been called.
 
-The display driver can call <b>EngUnmapEvent</b> only for an event object returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>. It must not call this function for an event object returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>.
+The display driver can call <b>EngUnmapEvent</b> only for an event object returned by <a href="/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>. It must not call this function for an event object returned by <a href="/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>

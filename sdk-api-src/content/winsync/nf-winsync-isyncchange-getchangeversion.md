@@ -56,7 +56,7 @@ Gets the version that is associated with this change.
 
 ### -param pbCurrentReplicaId [in]
 
-The ID of the replica that owns this change. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> property of the provider.
+The ID of the replica that owns this change. The ID format must match the format that is specified by the <a href="/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> property of the provider.
 
 ### -param pVersion [out]
 
@@ -142,9 +142,8 @@ The item has change units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC VERSION Structure</a>
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC VERSION Structure</a>

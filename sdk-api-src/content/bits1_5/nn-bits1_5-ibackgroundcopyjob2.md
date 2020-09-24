@@ -55,17 +55,17 @@ Use the
 
 The 
 <b>IBackgroundCopyJob2</b> interface inherits from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> interface. 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> interface. 
 
 To get an 
 <b>IBackgroundCopyJob2</b> interface pointer, call the <b>IBackgroundCopyJob::QueryInterface</b> method using <code>__uuidof(IBackgroundCopyJob2)</code> for the interface identifier. Use the 
 <b>IBackgroundCopyJob2</b> interface pointer to call both the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> and 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> and 
 <b>IBackgroundCopyJob2</b> methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>. <b>IBackgroundCopyJob2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob2</b> interface inherits from <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>. <b>IBackgroundCopyJob2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IBackgroundCopyJob2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getnotifycmdline">GetNotifyCmdLine</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getnotifycmdline">GetNotifyCmdLine</a>
 </td>
 <td align="left" width="63%">
 Retrieves the program that is executed when the job enters the error or transferred state.
@@ -89,7 +89,7 @@ Retrieves the program that is executed when the job enters the error or transfer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplydata">GetReplyData</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplydata">GetReplyData</a>
 </td>
 <td align="left" width="63%">
 Retrieves an in-memory copy of the reply data.
@@ -98,7 +98,7 @@ Retrieves an in-memory copy of the reply data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyfilename">GetReplyFileName</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyfilename">GetReplyFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the file that contains the reply data.
@@ -107,7 +107,7 @@ Retrieves the name of the file that contains the reply data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyprogress">GetReplyProgress</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyprogress">GetReplyProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves progress information that indicates how many bytes of the reply file have been downloaded to the client.
@@ -116,17 +116,17 @@ Retrieves progress information that indicates how many bytes of the reply file h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-removecredentials">RemoveCredentials</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-removecredentials">RemoveCredentials</a>
 </td>
 <td align="left" width="63%">
 Removes credentials set by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">SetCredentials</a> method.
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">SetCredentials</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">SetCredentials</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">SetCredentials</a>
 </td>
 <td align="left" width="63%">
 Specifies the credentials to use for a proxy or server user authentication.
@@ -135,7 +135,7 @@ Specifies the credentials to use for a proxy or server user authentication.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">SetNotifyCmdLine</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">SetNotifyCmdLine</a>
 </td>
 <td align="left" width="63%">
 Specifies a program to execute when the job enters the error or transferred state.
@@ -144,7 +144,7 @@ Specifies a program to execute when the job enters the error or transferred stat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">SetReplyFileName</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">SetReplyFileName</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the file to contain the reply data of an upload-reply job.
@@ -155,5 +155,4 @@ Specifies the name of the file to contain the reply data of an upload-reply job.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
-
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>

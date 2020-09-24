@@ -83,9 +83,8 @@ Method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_duration">get_Duration</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_duration">get_Duration</a>

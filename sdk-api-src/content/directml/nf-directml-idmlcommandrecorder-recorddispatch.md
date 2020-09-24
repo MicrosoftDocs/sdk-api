@@ -55,7 +55,7 @@ Records execution of a dispatchable object (an operator initializer, or a compil
 
 This method doesn't submit the execution to the GPU; it merely records it onto the command list. You are responsible for closing the command list and submitting it to the Direct3D 12 command queue.
 
-Prior to execution of this call on the GPU, all resources bound must be in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_UNORDERED_ACCESS</a> state, or a
+Prior to execution of this call on the GPU, all resources bound must be in the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_UNORDERED_ACCESS</a> state, or a
         state implicitly promotable to <b>D3D12_RESOURCE_STATE_UNORDERED_ACCESS</b>, such as <b>D3D12_RESOURCE_STATE_COMMON</b>. After this call completes, the resources
         remain in the <b>D3D12_RESOURCE_STATE_UNORDERED_ACCESS</b> state. The only exception to this is for upload heaps bound when executing an
         operator initializer and while one or more tensors has the [DML_TENSOR_FLAG_OWNED_BY_DML](/windows/desktop/api/directml/ne-directml-dml_tensor_flags) flag set. In that case, any
@@ -70,14 +70,14 @@ This method resets the following state on the command list.
 
 Although this method takes a binding table representing the resources to bind to the pipeline, it doesn't
         set the descriptor heaps containing the descriptors themselves. Therefore, your application is responsible for
-        calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps">ID3D12GraphicsCommandList::SetDescriptorHeaps</a> to bind the correct descriptor heaps to the pipeline.
+        calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps">ID3D12GraphicsCommandList::SetDescriptorHeaps</a> to bind the correct descriptor heaps to the pipeline.
 
 If [DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE](/windows/desktop/api/directml/ne-directml-dml_execution_flags) was not set when compiling the operator, then all bindings must
         be set on the binding table before <b>RecordDispatch</b> is called, otherwise the behavior is undefined. Otherwise,
         if the <b>_DESCRIPTORS_VOLATILE</b> flag is set, binding of resources may be deferred until the Direct3D 12 command list is
         submitted to the command queue for execution.
 
-This method acts logically like a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch">ID3D12GraphicsCommandList::Dispatch</a>. As such, unordered access view (UAV) barriers are
+This method acts logically like a call to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch">ID3D12GraphicsCommandList::Dispatch</a>. As such, unordered access view (UAV) barriers are
         necessary to ensure correct ordering if there are data dependencies between dispatches. This method does not
         insert UAV barriers on input nor output resources. Your application must ensure that the correct UAV barriers
         are performed on any inputs if their contents depend on an upstream dispatch, and on any outputs if there are
@@ -91,10 +91,10 @@ This method doesn't hold references to any of the interfaces passed in. It is yo
 
 ### -param commandList
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> interface representing the command list to record the execution into. The command list must be open and must have type
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_DIRECT</a> or <b>D3D12_COMMAND_LIST_TYPE_COMPUTE</b>.
+A pointer to an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> interface representing the command list to record the execution into. The command list must be open and must have type
+          <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_DIRECT</a> or <b>D3D12_COMMAND_LIST_TYPE_COMPUTE</b>.
 
 ### -param dispatchable
 
@@ -116,4 +116,3 @@ A pointer to an [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idm
 
 
 [IDMLCommandRecorder](/windows/desktop/api/directml/nn-directml-idmlcommandrecorder)
-

@@ -82,13 +82,12 @@ Enumerates only those linked or embedded objects that are currently in the runni
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-enumobjects">IOleContainer::EnumObjects</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-enumobjects">IOleContainer::EnumObjects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nf-vbinterf-ivbgetcontrol-enumcontrols">IVBGetControl::EnumControls</a>
-
+<a href="/windows/desktop/api/vbinterf/nf-vbinterf-ivbgetcontrol-enumcontrols">IVBGetControl::EnumControls</a>

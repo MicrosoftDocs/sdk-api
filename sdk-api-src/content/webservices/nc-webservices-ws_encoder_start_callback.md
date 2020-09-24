@@ -56,7 +56,7 @@ Starts encoding a message.
 
 ### -param *encoderContext [in]
 
-The encoder instance returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a>.
+The encoder instance returned by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a>.
 
 ### -param *asyncContext [in, optional]
 
@@ -110,6 +110,5 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-The encoder can use the callback passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a> to
+The encoder can use the callback passed to <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a> to
               write the encoded data of the message.
-

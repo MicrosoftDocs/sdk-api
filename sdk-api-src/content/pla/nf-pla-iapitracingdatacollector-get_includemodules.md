@@ -72,9 +72,8 @@ This property  limits the  trace to a subset of those DLLs. For example, you can
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_exepath">IApiTracingDataCollector::ExePath</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_exepath">IApiTracingDataCollector::ExePath</a>

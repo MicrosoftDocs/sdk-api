@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CERT_DH_PARAMETERS</b> structure contains parameters associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie/Hellman</a> public key algorithm.
+The <b>CERT_DH_PARAMETERS</b> structure contains parameters associated with a <a href="/windows/desktop/SecGloss/d-gly">Diffie/Hellman</a> public key algorithm.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ Prime modulus P. The most significant bit of the most significant byte must alwa
 ### -field g
 
 Generator G. Must be the same length as <b>p</b> (must be padded with 0x00 bytes if it is less).
-

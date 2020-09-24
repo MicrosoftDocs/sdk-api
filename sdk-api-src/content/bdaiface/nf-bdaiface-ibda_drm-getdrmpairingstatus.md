@@ -56,7 +56,7 @@ The <b>GetDRMPairingStatus</b> method queries the status of the DRM handshake.
 
 ### -param pdwStatus [out]
 
-Receives a value from the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/ne-bdaiface-bda_drmpairingerror">BDA_DrmPairingError</a> enumeration.
+Receives a value from the <a href="/windows/desktop/api/bdaiface/ne-bdaiface-bda_drmpairingerror">BDA_DrmPairingError</a> enumeration.
 
 ### -param phError [out]
 
@@ -97,5 +97,4 @@ The device does not support this functionality, or the handshake is still in pro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_drm">IBDA_DRM Interface</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_drm">IBDA_DRM Interface</a>

@@ -56,7 +56,7 @@ The <b>get_Allocator_ID</b> method retrieves an identifier for the VMR filter's 
 
 ### -param ID [out]
 
-Receives the identifier. If the returned value is -1, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">MSVidVideoRenderer</a> object will assign a default identifier when it builds the filter graph.
+Receives the identifier. If the returned value is -1, the <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">MSVidVideoRenderer</a> object will assign a default identifier when it builds the filter graph.
 
 ## -returns
 
@@ -86,5 +86,4 @@ The identifier is for application use; it is not used by the VMR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>

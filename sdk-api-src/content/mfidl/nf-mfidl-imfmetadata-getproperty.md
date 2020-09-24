@@ -58,11 +58,11 @@ Gets the value of a metadata property.
 ### -param pwszName [in]
 
 A pointer to a null-terminated string that containings the name of the property.
-          To get the list of property names, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getallpropertynames">IMFMetadata::GetAllPropertyNames</a>.
+          To get the list of property names, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getallpropertynames">IMFMetadata::GetAllPropertyNames</a>.
 
 ### -param ppvValue [out]
 
-Pointer to a <b>PROPVARIANT</b> that receives the value of the property. The <b>PROPVARIANT</b> type depends on the property. For multivalued properties, the <b>PROPVARIANT</b> is a <b>VT_VECTOR</b> type. The caller must free the <b>PROPVARIANT</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>.
+Pointer to a <b>PROPVARIANT</b> that receives the value of the property. The <b>PROPVARIANT</b> type depends on the property. For multivalued properties, the <b>PROPVARIANT</b> is a <b>VT_VECTOR</b> type. The caller must free the <b>PROPVARIANT</b> by calling <a href="/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>.
 
 ## -returns
 
@@ -101,9 +101,8 @@ The requested property was not found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-metadata">Media Metadata</a>
-
+<a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>

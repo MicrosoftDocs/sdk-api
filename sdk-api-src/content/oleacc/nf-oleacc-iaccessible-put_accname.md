@@ -51,9 +51,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-put_accname">IAccessible::put_accName</a> is no longer supported. ]
+<p class="CCE_Message">[<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-put_accname">IAccessible::put_accName</a> is no longer supported. ]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-put_accname">IAccessible::put_accName</a> method is no longer supported. Client applications should use a control-specific workaround, such as the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowtexta">SetWindowText</a> function. Servers should return E_NOTIMPL.
+The <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-put_accname">IAccessible::put_accName</a> method is no longer supported. Client applications should use a control-specific workaround, such as the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowtexta">SetWindowText</a> function. Servers should return E_NOTIMPL.
 
 ## -parameters
 
@@ -71,5 +71,4 @@ Not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
-
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>

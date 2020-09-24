@@ -56,8 +56,8 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>enumContainers</b> method retrieves the names of containers for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a> property. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+The <b>enumContainers</b> method retrieves the names of containers for the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) specified by the 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a> property. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ Specifies the ordinal position of the container whose name will be retrieved. Sp
 
 ### -param pbstr [out]
 
-A pointer to a <b>BSTR</b> variable that receives the name of the container. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> variable that receives the name of the container. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
@@ -80,7 +80,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. The va
 ## -remarks
 
 If the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a> property value has not been set, the default value (usually Microsoft Base Cryptographic Provider) of <b>ProviderName</b> as set in the registry, is used.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a> property value has not been set, the default value (usually Microsoft Base Cryptographic Provider) of <b>ProviderName</b> as set in the registry, is used.
 
 This method is disabled when  the Certificate Enrollment Control is executed as a scripted control.
 
@@ -107,25 +107,24 @@ while ( S_OK == pEnroll->enumContainers(nCon, &bstrCon) )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a>
-
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a>

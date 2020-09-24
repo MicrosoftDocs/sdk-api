@@ -64,7 +64,7 @@ Specifies the number of attributes to obtain.
 
 ### -param paFilterAttrs [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to verify.
+Pointer to the <a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to verify.
 
 ### -param dwFlags [in]
 
@@ -105,15 +105,14 @@ The <i>paPos</i> anchor is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-retrieverequestedattrs">ITextStoreAnchor::RetrieveRequestedAttrs
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-retrieverequestedattrs">ITextStoreAnchor::RetrieveRequestedAttrs
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID
+<a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID
       </a>
-

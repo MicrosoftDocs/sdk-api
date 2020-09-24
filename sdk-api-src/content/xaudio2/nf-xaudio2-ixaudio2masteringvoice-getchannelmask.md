@@ -56,7 +56,7 @@ Returns the channel mask for this voice.
 
 ### -param pChannelmask [out]
 
-Returns the channel mask for this voice. This corresponds to the <b>dwChannelMask</b> member of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure.
+Returns the channel mask for this voice. This corresponds to the <b>dwChannelMask</b> member of the  <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure.
 
 ## -returns
 
@@ -64,7 +64,7 @@ This method does not return a value.
 
 ## -remarks
 
-The <i>pChannelMask</i> argument is a bit-mask of the various channels in the speaker geometry reported by the audio system. This information is needed for the <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize">X3DAudioInitialize</a> <i>SpeakerChannelMask</i> parameter.
+The <i>pChannelMask</i> argument is a bit-mask of the various channels in the speaker geometry reported by the audio system. This information is needed for the <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize">X3DAudioInitialize</a> <i>SpeakerChannelMask</i> parameter.
 
 
 
@@ -95,5 +95,4 @@ Windows 10 (XAudio2.9);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice">IXAudio2MasteringVoice</a>
-
+<a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice">IXAudio2MasteringVoice</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::SendPolicyData</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-notifysettingschange">IWRdsProtocolManager::NotifySettingsChange</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::SendPolicyData</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-notifysettingschange">IWRdsProtocolManager::NotifySettingsChange</a>.]
 
 Sends computer policy settings to the custom protocol. These settings are a combination of listener policies and Group Policy settings.
 
@@ -58,13 +58,12 @@ Sends computer policy settings to the custom protocol. These settings are a comb
 
 ### -param pPolicyData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_policy_data">WTS_POLICY_DATA</a> structure that contains computer policy settings.
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_policy_data">WTS_POLICY_DATA</a> structure that contains computer policy settings.
 
 ## -remarks
 
-The <b>SendPolicyData</b> method is the second method called by the Remote Desktop Services service during a connection sequence.  The protocol must call the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-onready">OnReady</a> method after this method is called, or the connection is dropped.
+The <b>SendPolicyData</b> method is the second method called by the Remote Desktop Services service during a connection sequence.  The protocol must call the <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-onready">OnReady</a> method after this method is called, or the connection is dropped.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>

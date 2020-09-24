@@ -98,7 +98,7 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgenerator">IRdcGenerator</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgenerator">IRdcGenerator</a>
 
 
 
@@ -107,4 +107,3 @@ This method can return one of these values.
 
 
 <a href="/windows/win32/api/msrdc/ns-msrdc-rdcbufferpointer">RdcBufferPointer</a>
-

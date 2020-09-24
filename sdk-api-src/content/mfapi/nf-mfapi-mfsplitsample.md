@@ -49,7 +49,7 @@ Split up a combined media sample back into individual samples.
 
 ### -param pSample
 
-A pointer to an [IMFSample](/windows/win32/api/mfobjects/nn-mfobjects-imfsample) representing a combined sample to be split.
+A pointer to an [IMFSample](../mfobjects/nn-mfobjects-imfsample.md) representing a combined sample to be split.
 
 ### -param pOutputSamples
 
@@ -57,7 +57,7 @@ Receives a pointer to an array of output samples from the split operation.
 
 ### -param dwOutputSampleMaxCount
 
-The maximum output array size. Call [IMFSample::GetBufferCount](/windows/win32/api/mfobjects/nf-mfobjects-imfsample-getbuffercount) on the sample provided in *pSample* to find out an upper bound.
+The maximum output array size. Call [IMFSample::GetBufferCount](../mfobjects/nf-mfobjects-imfsample-getbuffercount.md) on the sample provided in *pSample* to find out an upper bound.
 
 ### -param pdwOutputSampleCount
 
@@ -70,4 +70,3 @@ Output parameter that receives the number of samples contained in the pOutputSam
 Combine samples by calling [MFCombineSamples](nf-mfapi-mfsplitsample.md)
 
 ## -see-also
-

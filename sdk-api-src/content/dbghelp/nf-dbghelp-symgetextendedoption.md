@@ -83,9 +83,8 @@ The value of the specified symbol option.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_extended_options">IMAGEHLP_EXTENDED_OPTIONS</a>
+<a href="/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_extended_options">IMAGEHLP_EXTENDED_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetextendedoption">SymSetExtendedOption</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetextendedoption">SymSetExtendedOption</a>

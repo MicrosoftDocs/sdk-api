@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-Specifies the type of serialized data. Use a value from this enumeration when calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a>.
+Specifies the type of serialized data. Use a value from this enumeration when calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a>.
 
 ## -enum-fields
 
 ### -field D3D12_SERIALIZED_DATA_RAYTRACING_ACCELERATION_STRUCTURE
 
 The serialized data is a raytracing acceleration structure.
-

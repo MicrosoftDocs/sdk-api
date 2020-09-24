@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>FIND_NAME_BUFFER</b> structure contains information about a local network session. One or more <b>FIND_NAME_BUFFER</b> structures follows a <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_header">FIND_NAME_HEADER</a> structure when an application specifies the <b>NCBFINDNAME</b> command in the ncb_command member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
+The <b>FIND_NAME_BUFFER</b> structure contains information about a local network session. One or more <b>FIND_NAME_BUFFER</b> structures follows a <a href="/windows/desktop/api/nb30/ns-nb30-find_name_header">FIND_NAME_HEADER</a> structure when an application specifies the <b>NCBFINDNAME</b> command in the ncb_command member of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
 
 ## -struct-fields
 
@@ -90,17 +90,16 @@ Specifies additional routing information.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_header">FIND_NAME_HEADER</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-find_name_header">FIND_NAME_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
+<a href="/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-
+<a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>

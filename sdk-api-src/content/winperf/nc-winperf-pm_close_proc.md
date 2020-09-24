@@ -64,9 +64,8 @@ This function should return ERROR_SUCCESS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_collect_proc">CollectPerformanceData</a>
+<a href="/windows/desktop/api/winperf/nc-winperf-pm_collect_proc">CollectPerformanceData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>

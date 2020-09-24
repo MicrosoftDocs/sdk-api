@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the current border size for the pager control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-setborder">PGM_SETBORDER</a> message explicitly.
+Sets the current border size for the pager control. You can use this macro or send the <a href="/windows/desktop/Controls/pgm-setborder">PGM_SETBORDER</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the pager control.
 
@@ -66,4 +66,3 @@ Type: <b>int</b>
 
 New size of the border, in pixels. This value should not be larger than the pager button or less than zero. If <i>iBorder</i> is too large, the border will be drawn the same size as the button. If 
 <i>iBorder</i> is negative, the border size will be set to zero.
-

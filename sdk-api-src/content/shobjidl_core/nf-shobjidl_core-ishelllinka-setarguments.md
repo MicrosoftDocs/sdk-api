@@ -74,11 +74,11 @@ This method is useful when creating a link to an application that takes special 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">IShellLink::GetArguments</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">IShellLink::GetArguments</a>
 
 
 
@@ -87,4 +87,3 @@ This method is useful when creating a link to an application that takes special 
 
 
 <b>IShellLinkW</b>
-

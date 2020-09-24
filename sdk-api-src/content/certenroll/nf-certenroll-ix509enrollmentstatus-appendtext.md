@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AppendText</b> method appends a string to the status information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_text">Text</a> property.
+The <b>AppendText</b> method appends a string to the status information contained in the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_text">Text</a> property.
 
 ## -parameters
 
@@ -62,9 +62,8 @@ A <b>BSTR</b> variable that contains the text to add.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SigningFlags</b> property gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration.
+The <b>SigningFlags</b> property gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration.
 
 This property is read/write.
 
@@ -128,5 +128,4 @@ If you specify <b>OCSP_SF_ALLOW_SIGNINGCERT_AUTOENROLLMENT</b>, you must also sp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

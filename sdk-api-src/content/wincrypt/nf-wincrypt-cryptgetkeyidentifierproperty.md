@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetKeyIdentifierProperty</b> acquires a specific property from a specified key identifier.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetKeyIdentifierProperty</b> acquires a specific property from a specified key identifier.
 
 ## -parameters
 
 ### -param pKeyIdentifier [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> that contains the key identifier.
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> that contains the key identifier.
 
 ### -param dwPropId [in]
 
@@ -119,14 +119,14 @@ If <i>dwPropId</i> is CERT_KEY_PROV_INFO_PROP_ID, <i>pvData</i> points to a CRYP
 If <i>dwPropId</i> is not CERT_KEY_PROV_INFO_PROP_ID, <i>pvData</i> points to an array of bytes that contains the property of the key identifier.
 
 To get the size of this information for memory allocation purposes, this parameter can be <b>NULL</b> when the CRYPT_KEYID_ALLOC_FLAG is not set. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 When the CRYPT_KEYID_ALLOC_FLAG is set, <i>pvData</i> is the address of a pointer to the buffer that will be updated. Because memory is allocated and its pointer is stored at *<i>pvData</i>, <i>pvData</i> must not be <b>NULL</b>.
 
 ### -param pcbData [in, out]
 
 A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer pointed to by the <i>pvData</i> parameter. When the function returns, the <b>DWORD</b> contains the number of bytes stored in the buffer. The size contained in the variable pointed to by <i>pcbData</i> can indicate a size larger than the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure because the structure can contain pointers to auxiliary data. This size is the sum of the size needed by the structure and all auxiliary data. 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure because the structure can contain pointers to auxiliary data. This size is the sum of the size needed by the structure and all auxiliary data. 
 
 
 
@@ -141,17 +141,16 @@ When the CRYPT_KEYID_ALLOC_FLAG is set, <i>pcbData</i> is the address of a point
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties">CryptEnumKeyIdentifierProperties</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties">CryptEnumKeyIdentifierProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Identifier Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Key Identifier Functions</a>

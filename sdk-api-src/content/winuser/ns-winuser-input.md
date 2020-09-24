@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> to store information for synthesizing input events such as keystrokes, mouse movement, and mouse clicks.
+Used by <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> to store information for synthesizing input events such as keystrokes, mouse movement, and mouse clicks.
 
 ## -struct-fields
 
@@ -108,25 +108,25 @@ The event is a hardware event. Use the <b>hi</b> structure of the union.
 
 ### -field DUMMYUNIONNAME.mi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mouseinput">MOUSEINPUT</a></b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-mouseinput">MOUSEINPUT</a></b>
 
 The information about a simulated mouse event.
 
 ### -field DUMMYUNIONNAME.ki
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-keybdinput">KEYBDINPUT</a></b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-keybdinput">KEYBDINPUT</a></b>
 
 The information about a simulated keyboard event.
 
 ### -field DUMMYUNIONNAME.hi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-hardwareinput">HARDWAREINPUT</a></b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-hardwareinput">HARDWAREINPUT</a></b>
 
 The information about a simulated hardware event.
 
 ## -remarks
 
-<b> INPUT_KEYBOARD</b> supports nonkeyboard input methods, such as handwriting recognition or voice recognition, as if it were text input by using the <b>KEYEVENTF_UNICODE</b> flag. For more information, see the remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-keybdinput">KEYBDINPUT</a>.
+<b> INPUT_KEYBOARD</b> supports nonkeyboard input methods, such as handwriting recognition or voice recognition, as if it were text input by using the <b>KEYEVENTF_UNICODE</b> flag. For more information, see the remarks section of <a href="/windows/desktop/api/winuser/ns-winuser-keybdinput">KEYBDINPUT</a>.
 
 ## -see-also
 
@@ -134,23 +134,23 @@ The information about a simulated hardware event.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-hardwareinput">HARDWAREINPUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-hardwareinput">HARDWAREINPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-keybdinput">KEYBDINPUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-keybdinput">KEYBDINPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mouseinput">MOUSEINPUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-mouseinput">MOUSEINPUT</a>
 
 
 
@@ -158,13 +158,12 @@ The information about a simulated hardware event.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-keybd_event">keybd_event</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-keybd_event">keybd_event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mouse_event">mouse_event</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-mouse_event">mouse_event</a>

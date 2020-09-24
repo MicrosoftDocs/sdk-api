@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Length</b> property gets or sets the strength of the key to one of the values supported by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
+The <b>Length</b> property gets or sets the strength of the key to one of the values supported by the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>

@@ -60,14 +60,14 @@ api_name:
 Locks the specified file  for exclusive access  by the calling process.
 
 To specify additional options, for example creating a shared lock or for block-on-fail operation, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a> function.
 
 ## -parameters
 
 ### -param hFile [in]
 
 A handle to the file. The file handle must have been created with the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+<a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ### -param dwFileOffsetLow [in]
 
@@ -90,14 +90,14 @@ The high-order 32 bits of the length of the byte range to be locked.
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If the call to <b>LockFile</b> completes synchronously, a completion entry may not be queued when a completion port is associated with the file handle.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a> function unlocks a file region locked by 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a> function unlocks a file region locked by 
 <b>LockFile</b>.
 
 Locking a region of a file gives the threads of the locking process exclusive access to the specified region using this file handle. If the file handle is  inherited by a process created by the locking process, the child process is not granted access to the locked region. If the locking process opens the file a second time, it cannot access the specified region through this second handle until it unlocks the region.
@@ -106,11 +106,11 @@ Locking a region of a file does not prevent reading from a mapped file view.
 
 You can lock bytes that are beyond the end of the current  file. This is useful to coordinate adding records to the end of a file.
 
-Exclusive locks cannot overlap an existing locked region of a file. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a>.
+Exclusive locks cannot overlap an existing locked region of a file. For more information, see <a href="/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a>.
 
 If 
 <b>LockFile</b> cannot lock a region of a file, it returns zero immediately. It does not block. To issue a file lock request that will block until the lock is acquired, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a> without the <b>LOCKFILE_FAIL_IMMEDIATELY</b> flag.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a> without the <b>LOCKFILE_FAIL_IMMEDIATELY</b> flag.
 
 If a process terminates with a portion of a file locked or closes a file that has outstanding locks, the locks are unlocked by the operating system. However, the time it takes for the operating system to unlock these locks depends upon available system resources. Therefore, it is recommended that your process explicitly unlock all files it has locked when it terminates. If this is not done, access to these files may be denied if the operating system has not yet unlocked them.
 
@@ -178,23 +178,22 @@ Yes
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/appending-one-file-to-another-file">Appending One File to Another File</a>.
+<a href="/windows/desktop/FileIO/appending-one-file-to-another-file">Appending One File to Another File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a>

@@ -69,15 +69,15 @@ The value specifies the width of the eraser pen tip in ink space units.
 
 You cannot assign negative values to this property.
 
-This property applies only when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode">EditingMode</a> property is set to <b>IOEM_Delete</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode">EraserMode</a> property is set to <b>IOERM_PointErase</b>.
+This property applies only when the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode">EditingMode</a> property is set to <b>IOEM_Delete</b> and the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode">EraserMode</a> property is set to <b>IOERM_PointErase</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode">EditingMode Property [InkOverlay Class]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode">EditingMode Property [InkOverlay Class]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode">EraserMode Property [InkOverlay Class]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode">EraserMode Property [InkOverlay Class]</a>
 
 
 
@@ -85,13 +85,12 @@ This property applies only when the <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode">InkOverlayEraserMode Enumeration</a>
-
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode">InkOverlayEraserMode Enumeration</a>

@@ -54,7 +54,7 @@ The <b>INetFwPolicy2</b> interface allows an application or service to access th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwPolicy2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwPolicy2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwPolicy2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwPolicy2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>INetFwPolicy2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_blockallinboundtraffic">get_BlockAllInboundTraffic</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_blockallinboundtraffic">get_BlockAllInboundTraffic</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the BlockAllInboundTraffic property. This property indicates  whether inbound traffic is blocked for a specified profile.
@@ -79,7 +79,7 @@ Gets the value of the BlockAllInboundTraffic property. This property indicates  
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_currentprofiletypes">get_CurrentProfileTypes</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_currentprofiletypes">get_CurrentProfileTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bitmask of the currently active profile.
@@ -88,7 +88,7 @@ Retrieves the bitmask of the currently active profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultinboundaction">get_DefaultInboundAction</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultinboundaction">get_DefaultInboundAction</a>
 </td>
 <td align="left" width="63%">
 Gets the value for the default action for inbound traffic. It can be either allowed or blocked.
@@ -97,7 +97,7 @@ Gets the value for the default action for inbound traffic. It can be either allo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultoutboundaction">get_DefaultOutboundAction</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultoutboundaction">get_DefaultOutboundAction</a>
 </td>
 <td align="left" width="63%">
 Gets the value for the default action for outbound traffic. It can be either allowed or blocked.
@@ -106,7 +106,7 @@ Gets the value for the default action for outbound traffic. It can be either all
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_excludedinterfaces">get_ExcludedInterfaces</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_excludedinterfaces">get_ExcludedInterfaces</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the ExcludedInterfaces property.  This property contains the list of interfaces excluded from a specified profile's firewall rules.
@@ -115,7 +115,7 @@ Gets the value of the ExcludedInterfaces property.  This property contains the l
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_firewallenabled">get_FirewallEnabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_firewallenabled">get_FirewallEnabled</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the FirewallEnabled property. This property indicates whether the firewall is enabled or disabled for a specified profile.
@@ -124,7 +124,7 @@ Gets the value of the FirewallEnabled property. This property indicates whether 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_isrulegroupcurrentlyenabled">get_IsRuleGroupCurrentlyEnabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_isrulegroupcurrentlyenabled">get_IsRuleGroupCurrentlyEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines whether a specified group of firewall rules is enabled or disabled for the current profile, considering the firewall's state, BlockAllInboundTraffic state and group policy overrides state.
@@ -133,7 +133,7 @@ Determines whether a specified group of firewall rules is enabled or disabled fo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-isrulegroupenabled">get_IsRuleGroupEnabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-isrulegroupenabled">get_IsRuleGroupEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines whether a specified group of firewall rules is enabled or disabled.
@@ -142,7 +142,7 @@ Determines whether a specified group of firewall rules is enabled or disabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_localpolicymodifystate">get_LocalPolicyModifyState</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_localpolicymodifystate">get_LocalPolicyModifyState</a>
 </td>
 <td align="left" width="63%">
 Determines if adding or setting a rule or group of rules will take effect in the current firewall profile.
@@ -151,7 +151,7 @@ Determines if adding or setting a rule or group of rules will take effect in the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_notificationsdisabled">get_NotificationsDisabled</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_notificationsdisabled">get_NotificationsDisabled</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the NotificationsDisabled property.  This property indicates  whether notifications are enabled or disabled for a specified profile.
@@ -160,7 +160,7 @@ Gets the value of the NotificationsDisabled property.  This property indicates  
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_rules">get_Rules</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_rules">get_Rules</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the Rules property.
@@ -169,7 +169,7 @@ Gets the value of the Rules property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_servicerestriction">get_ServiceRestriction</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_servicerestriction">get_ServiceRestriction</a>
 </td>
 <td align="left" width="63%">
 Retrieves the interface to manipulate the Windows Source Hardening (WSH) store.
@@ -178,7 +178,7 @@ Retrieves the interface to manipulate the Windows Source Hardening (WSH) store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_unicastresponsestomulticastbroadcastdisabled">get_UnicastResponsesToMulticastBroadcastDisabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_unicastresponsestomulticastbroadcastdisabled">get_UnicastResponsesToMulticastBroadcastDisabled</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the UnicastResponseToMulticastBroadcastDisabled property.  This property indicates whether the firewall should allow unicast incoming responses to outgoing multicast and
@@ -188,7 +188,7 @@ Gets the value of the UnicastResponseToMulticastBroadcastDisabled property.  Thi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_blockallinboundtraffic">put_BlockAllInboundTraffic</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_blockallinboundtraffic">put_BlockAllInboundTraffic</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the BlockALlInboundTraffic property. This property indicates  whether inbound traffic is blocked for a specified profile.
@@ -197,7 +197,7 @@ Sets the value of the BlockALlInboundTraffic property. This property indicates  
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultinboundaction">put_DefaultInboundAction</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultinboundaction">put_DefaultInboundAction</a>
 </td>
 <td align="left" width="63%">
 Sets the value for the default action for inbound traffic. It can be either allowed or blocked.
@@ -206,7 +206,7 @@ Sets the value for the default action for inbound traffic. It can be either allo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultoutboundaction">put_DefaultOutboundAction</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultoutboundaction">put_DefaultOutboundAction</a>
 </td>
 <td align="left" width="63%">
 Gets the value for the default action for outbound traffic. It can be either allowed or blocked.
@@ -215,7 +215,7 @@ Gets the value for the default action for outbound traffic. It can be either all
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_excludedinterfaces">put_ExcludedInterfaces</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_excludedinterfaces">put_ExcludedInterfaces</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the ExcludedInterfaces property.  This property contains the list of interfaces excluded from a specified profile's firewall rules.
@@ -224,7 +224,7 @@ Sets the value of the ExcludedInterfaces property.  This property contains the l
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_firewallenabled">put_FirewallEnabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_firewallenabled">put_FirewallEnabled</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the FirewallEnabled property. This property indicates whether the firewall is enabled or disabled for a specified profile.
@@ -233,7 +233,7 @@ Sets the value of the FirewallEnabled property. This property indicates whether 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_notificationsdisabled">put_NotificationsDisabled</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_notificationsdisabled">put_NotificationsDisabled</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the NotificationsDisabled property. This property indicates  whether notifications are enabled or disabled for a specified profile.
@@ -242,7 +242,7 @@ Sets the value of the NotificationsDisabled property. This property indicates  w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_unicastresponsestomulticastbroadcastdisabled">put_UnicastResponsesToMulticastBroadcastDisabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_unicastresponsestomulticastbroadcastdisabled">put_UnicastResponsesToMulticastBroadcastDisabled</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the UnicastResponseToMulticastBroadcastDisabled setting. This property indicates whether the firewall should allow unicast incoming responses to outgoing multicast and
@@ -260,7 +260,7 @@ Sets the value of the UnicastResponseToMulticastBroadcastDisabled setting. This 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_blockallinboundtraffic">BlockAllInboundTraffic</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_blockallinboundtraffic">BlockAllInboundTraffic</a>
 
 
 </td>
@@ -272,7 +272,7 @@ Access to the property that indicates that inbound traffic should be blocked by 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_currentprofiletypes">CurrentProfileTypes</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_currentprofiletypes">CurrentProfileTypes</a>
 
 
 </td>
@@ -284,7 +284,7 @@ Retrieves the bitmask of the currently active profile.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultinboundaction">DefaultInboundAction</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultinboundaction">DefaultInboundAction</a>
 
 
 </td>
@@ -296,7 +296,7 @@ Access to the property that specifies the default action for inbound traffic.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultoutboundaction">DefaultOutboundAction</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_defaultoutboundaction">DefaultOutboundAction</a>
 
 
 </td>
@@ -308,7 +308,7 @@ Access to the property that specifies the default action for outbound.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-enablerulegroup">EnableRuleGroup</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-enablerulegroup">EnableRuleGroup</a>
 
 
 </td>
@@ -320,7 +320,7 @@ Enables or disables a specified group of rules.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_excludedinterfaces">ExcludedInterfaces</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_excludedinterfaces">ExcludedInterfaces</a>
 
 
 </td>
@@ -332,7 +332,7 @@ Access to a list of interfaces on which firewall settings are excluded.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_firewallenabled">FirewallEnabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_firewallenabled">FirewallEnabled</a>
 
 
 </td>
@@ -344,7 +344,7 @@ Access to the property that indicates whether the firewall is enabled.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_notificationsdisabled">NotificationsDisabled</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_notificationsdisabled">NotificationsDisabled</a>
 
 
 </td>
@@ -356,7 +356,7 @@ Access to the property that indicates whether interactive firewall notifications
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-restorelocalfirewalldefaults">RestoreLocalFirewallDefaults</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-restorelocalfirewalldefaults">RestoreLocalFirewallDefaults</a>
 
 
 </td>
@@ -368,7 +368,7 @@ Restores the local firewall configuration to its default state.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_rules">Rules</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_rules">Rules</a>
 
 
 </td>
@@ -380,7 +380,7 @@ Access to the Rules property for this policy.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_servicerestriction">ServiceRestriction</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_servicerestriction">ServiceRestriction</a>
 
 
 </td>
@@ -392,7 +392,7 @@ Access to the Windows Service Hardening (WSH) store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_unicastresponsestomulticastbroadcastdisabled">UnicastResponsesToMulticastBroadcastDisabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_unicastresponsestomulticastbroadcastdisabled">UnicastResponsesToMulticastBroadcastDisabled</a>
 
 
 </td>
@@ -411,9 +411,8 @@ The Windows Firewall/Internet Connection Sharing  service must be running to acc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

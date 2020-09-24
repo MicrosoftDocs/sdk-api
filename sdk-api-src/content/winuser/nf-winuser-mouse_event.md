@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>mouse_event</b> function synthesizes mouse motion and button clicks.
-<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -286,7 +286,7 @@ Set if the second X button was pressed or released.
 
 Type: <b>ULONG_PTR</b>
 
-An additional value associated with the mouse event. An application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information.
+An additional value associated with the mouse event. An application calls <a href="/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information.
 
 ## -remarks
 
@@ -302,7 +302,7 @@ If the <b>MOUSEEVENTF_ABSOLUTE</b> value is not specified,
 				<i>dx</i> and 
 				<i>dy</i> specify relative motions from when the last mouse event was generated (the last reported position). Positive values mean the mouse moved right (or down); negative values mean the mouse moved left (or up). 
 
-Relative mouse motion is subject to the settings for mouse speed and acceleration level. An end user sets these values using the Mouse application in Control Panel. An application obtains and sets these values with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function. 
+Relative mouse motion is subject to the settings for mouse speed and acceleration level. An end user sets these values using the Mouse application in Control Panel. An application obtains and sets these values with the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function. 
 
 The system applies two tests to the specified relative mouse motion when applying acceleration. If the specified distance along either the x or y axis is greater than the first mouse threshold value, and the mouse acceleration level is not zero, the operating system doubles the distance. If the specified distance along either the x- or y-axis is greater than the second mouse threshold value, and the mouse acceleration level is equal to two, the operating system doubles the distance that resulted from applying the first threshold test. It is thus possible for the operating system to multiply relatively-specified mouse motion along the x- or y-axis by up to four times.
 
@@ -317,11 +317,11 @@ The <b>mouse_event</b> function is used to synthesize mouse events by applicatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
@@ -333,5 +333,4 @@ The <b>mouse_event</b> function is used to synthesize mouse events by applicatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

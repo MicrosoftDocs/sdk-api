@@ -64,11 +64,11 @@ Pointer to an array of volume levels. Each element is a value of type <b>float</
 
 ### -param ChangedChannel [in]
 
-The number of the channel whose volume level changed. Use this value as an index into the <i>NewChannelVolumeArray</i> array. If the session submix contains <i>n</i> channels, the channels are numbered from 0 to <i>n</i>– 1. If more than one channel might have changed (for example, as a result of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setallvolumes">IChannelAudioVolume::SetAllVolumes</a> method), the value of <i>ChangedChannel</i> is (<b>DWORD</b>)(–1).
+The number of the channel whose volume level changed. Use this value as an index into the <i>NewChannelVolumeArray</i> array. If the session submix contains <i>n</i> channels, the channels are numbered from 0 to <i>n</i>– 1. If more than one channel might have changed (for example, as a result of a call to the <a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setallvolumes">IChannelAudioVolume::SetAllVolumes</a> method), the value of <i>ChangedChannel</i> is (<b>DWORD</b>)(–1).
 
 ### -param EventContext [in]
 
-The event context value. This is the same value that the caller passed to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume">IChannelAudioVolume::SetChannelVolume</a> or <b>IChannelAudioVolume::SetAllVolumes</b> method in the call that initiated the change in volume level of the channel. For more information, see Remarks.
+The event context value. This is the same value that the caller passed to the <a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume">IChannelAudioVolume::SetChannelVolume</a> or <b>IChannelAudioVolume::SetAllVolumes</b> method in the call that initiated the change in volume level of the channel. For more information, see Remarks.
 
 ## -returns
 
@@ -80,17 +80,16 @@ The session manager calls this method each time a call to the <b>IChannelAudioVo
 
 The <i>EventContext</i> parameter provides a means for a client to distinguish between a channel-volume change that it initiated and one that some other client initiated. When calling the <b>IChannelAudioVolume::SetChannelVolume</b> or <b>IChannelAudioVolume::SetAllVolumes</b> method, a client passes in an <i>EventContext</i> parameter value that its implementation of the <b>OnChannelVolumeChanged</b> method can recognize.
 
-For a code example that implements the methods in the <b>IAudioSessionEvents</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-session-events">Audio Session Events</a>.
+For a code example that implements the methods in the <b>IAudioSessionEvents</b> interface, see <a href="/windows/desktop/CoreAudio/audio-session-events">Audio Session Events</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setallvolumes">IChannelAudioVolume::SetAllVolumes</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setallvolumes">IChannelAudioVolume::SetAllVolumes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume">IChannelAudioVolume::SetChannelVolume</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume">IChannelAudioVolume::SetChannelVolume</a>

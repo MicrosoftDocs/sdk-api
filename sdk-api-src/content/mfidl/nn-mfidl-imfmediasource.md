@@ -57,7 +57,7 @@ Media sources are objects that generate media data. For example, the data might 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSource</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>. <b>IMFMediaSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSource</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>. <b>IMFMediaSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFMediaSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">CreatePresentationDescriptor</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">CreatePresentationDescriptor</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the media source's presentation descriptor.
@@ -81,7 +81,7 @@ Retrieves a copy of the media source's presentation descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-getcharacteristics">GetCharacteristics</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-getcharacteristics">GetCharacteristics</a>
 </td>
 <td align="left" width="63%">
 Retrieves the characteristics of the media source.
@@ -90,7 +90,7 @@ Retrieves the characteristics of the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-pause">Pause</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses all active streams in the media source.
@@ -99,16 +99,16 @@ Pauses all active streams in the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/remotecreatepresentationdescriptor">RemoteCreatePresentationDescriptor</a>
+<a href="/windows/desktop/medfound/remotecreatepresentationdescriptor">RemoteCreatePresentationDescriptor</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">CreatePresentationDescriptor</a>. (Not used by applications.)
+Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">CreatePresentationDescriptor</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the media source and releases the resources it is using.
@@ -117,7 +117,7 @@ Shuts down the media source and releases the resources it is using.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start">Start</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts, seeks, or restarts the media source by specifying where to start playback.
@@ -126,7 +126,7 @@ Starts, seeks, or restarts the media source by specifying where to start playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-stop">Stop</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops all active streams in the media source.
@@ -137,22 +137,21 @@ Stops all active streams in the media source.
 
 ## -remarks
 
-In Windows 8, this interface is extended with <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>.
+In Windows 8, this interface is extended with <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>.
 
-For some device sources, such as cameras or microphones, the **IMFMediaSource** also implements the [IKsControl](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol) which can be used by user mode applications to issue KSPROPERTY, KSEVENT and KSMETHOD operations to the underlying device driver.
+For some device sources, such as cameras or microphones, the **IMFMediaSource** also implements the [IKsControl](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol) which can be used by user mode applications to issue KSPROPERTY, KSEVENT and KSMETHOD operations to the underlying device driver.
 
 > [!NOTE] 
-> This interface is optional and may not be available. If this interface is not available, [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) will return E_NOINTERFACE.
+> This interface is optional and may not be available. If this interface is not available, [QueryInterface](../unknwn/nf-unknwn-iunknown-queryinterface(refiid_void).md) will return E_NOINTERFACE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
-
+<a href="/windows/desktop/medfound/media-sources">Media Sources</a>

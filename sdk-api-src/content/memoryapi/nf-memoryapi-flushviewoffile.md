@@ -75,17 +75,17 @@ The number of bytes to be flushed. If <i>dwNumberOfBytesToFlush</i> is zero, the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Flushing a range of a mapped view initiates writing of dirty pages within that range to the disk. Dirty pages are those whose contents have changed since the file view was mapped. The <b>FlushViewOfFile</b> function does not flush the file metadata, and it does not wait to  return until  the changes are flushed from the underlying hardware disk cache and physically written to disk. To flush all the dirty pages plus the metadata for the file and ensure that they are physically written to disk, call <b>FlushViewOfFile</b> and then call the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function.
+Flushing a range of a mapped view initiates writing of dirty pages within that range to the disk. Dirty pages are those whose contents have changed since the file view was mapped. The <b>FlushViewOfFile</b> function does not flush the file metadata, and it does not wait to  return until  the changes are flushed from the underlying hardware disk cache and physically written to disk. To flush all the dirty pages plus the metadata for the file and ensure that they are physically written to disk, call <b>FlushViewOfFile</b> and then call the <a href="/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function.
 
 When flushing a memory-mapped file over a network, 
 <b>FlushViewOfFile</b> guarantees that the data has been written from the local computer, but not that the data resides on the remote computer. The server can cache the data on the remote side. Therefore, 
 <b>FlushViewOfFile</b> can return before the data has been physically written to disk.
 
-When modifying a file through a mapped view, the last modification timestamp may not be updated automatically.  If required, the caller should use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfiletime">SetFileTime</a> to set the timestamp.
+When modifying a file through a mapped view, the last modification timestamp may not be updated automatically.  If required, the caller should use <a href="/windows/desktop/api/fileapi/nf-fileapi-setfiletime">SetFileTime</a> to set the timestamp.
 
 In Windows Server 2012, this function is supported by the following technologies.
 
@@ -153,27 +153,26 @@ When CsvFs is paused this call might fail with an error indicating that there is
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/reading-and-writing-from-a-file-view">Reading and Writing From a File View</a>.
+<a href="/windows/desktop/Memory/reading-and-writing-from-a-file-view">Reading and Writing From a File View</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/creating-a-file-view">Creating a File View</a>
+<a href="/windows/desktop/Memory/creating-a-file-view">Creating a File View</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">File Mapping Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">File Mapping Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>

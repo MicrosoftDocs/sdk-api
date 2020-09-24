@@ -54,11 +54,11 @@ The
 <b>ITPhoneDeviceSpecificEvent</b> exposes methods that allow an application to retrieve information about a phone device-specific event.
 
 For a code example that illustrates how to create this interface, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-and-address-device-specific-events">Phone and Address Device-specific Events</a> topic.
+<a href="/windows/desktop/Tapi/phone-and-address-device-specific-events">Phone and Address Device-specific Events</a> topic.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPhoneDeviceSpecificEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPhoneDeviceSpecificEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPhoneDeviceSpecificEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPhoneDeviceSpecificEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITPhoneDeviceSpecificEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphonedevicespecificevent-get_lparam1">get_lParam1</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphonedevicespecificevent-get_lparam1">get_lParam1</a>
 </td>
 <td align="left" width="63%">
 Gets the first device-specific buffer.
@@ -82,7 +82,7 @@ Gets the first device-specific buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphonedevicespecificevent-get_lparam2">get_lParam2</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphonedevicespecificevent-get_lparam2">get_lParam2</a>
 </td>
 <td align="left" width="63%">
 Gets the second device-specific buffer.
@@ -91,7 +91,7 @@ Gets the second device-specific buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphonedevicespecificevent-get_lparam3">get_lParam3</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphonedevicespecificevent-get_lparam3">get_lParam3</a>
 </td>
 <td align="left" width="63%">
 Gets the third device-specific buffer.
@@ -100,13 +100,12 @@ Gets the third device-specific buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphonedevicespecificevent-get_phone">get_Phone</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphonedevicespecificevent-get_phone">get_Phone</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface pointer for a phone device event.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface pointer for a phone device event.
 
 </td>
 </tr>
 </table>
-

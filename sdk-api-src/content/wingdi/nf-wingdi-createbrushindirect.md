@@ -58,7 +58,7 @@ The <b>CreateBrushIndirect</b> function creates a logical brush that has the spe
 
 ### -param plbrush [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure that contains information about the brush.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure that contains information about the brush.
 
 ## -returns
 
@@ -70,39 +70,38 @@ If the function fails, the return value is <b>NULL</b>.
 
 A brush is a bitmap that the system uses to paint the interiors of filled shapes.
 
-After an application creates a brush by calling <b>CreateBrushIndirect</b>, it can select it into any device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function.
+After an application creates a brush by calling <b>CreateBrushIndirect</b>, it can select it into any device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function.
 
 A brush created by using a monochrome bitmap (one color plane, one bit per pixel) is drawn using the current text and background colors. Pixels represented by a bit set to 0 are drawn with the current text color; pixels represented by a bit set to 1 are drawn with the current background color.
 
-When you no longer need the brush, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the brush, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 <b>ICM:</b> No color is done at brush creation. However, color management is performed when the brush is selected into an ICM-enabled device context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brush-functions">Brush Functions</a>
+<a href="/windows/desktop/gdi/brush-functions">Brush Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brushes">Brushes Overview</a>
+<a href="/windows/desktop/gdi/brushes">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbrushorgex">GetBrushOrgEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getbrushorgex">GetBrushOrgEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>

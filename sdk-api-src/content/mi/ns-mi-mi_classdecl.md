@@ -152,5 +152,4 @@ Provider functions.
 
 ### -field owningClass
 
-Owning <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object, if any.
-
+Owning <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object, if any.

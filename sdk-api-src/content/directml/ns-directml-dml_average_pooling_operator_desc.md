@@ -98,7 +98,6 @@ A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-ty
 
 ### -field IncludePadding
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if pad pixels should be included when calculating values for the edges, otherwise <b>FALSE</b>.
-

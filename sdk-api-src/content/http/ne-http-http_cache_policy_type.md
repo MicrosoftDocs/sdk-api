@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>HTTP_CACHE_POLICY_TYPE</b> enumeration type defines available cache policies. It is used to restrict the values of the <b>Policy</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_cache_policy">HTTP_CACHE_POLICY</a> structure, which in turn is used in the <i>pCachePolicy</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a> function to specify how a response fragment is cached.
+<a href="/windows/desktop/api/http/ns-http-http_cache_policy">HTTP_CACHE_POLICY</a> structure, which in turn is used in the <i>pCachePolicy</i> parameter of the 
+<a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a> function to specify how a response fragment is cached.
 
 ## -enum-fields
 
@@ -79,9 +79,8 @@ Terminates the enumeration; not used to determine policy.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_cache_policy">HTTP_CACHE_POLICY</a>
+<a href="/windows/desktop/api/http/ns-http-http_cache_policy">HTTP_CACHE_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>

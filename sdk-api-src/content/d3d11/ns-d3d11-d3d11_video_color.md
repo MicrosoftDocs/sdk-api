@@ -56,11 +56,11 @@ Defines a color value for Microsoft Direct3D 11 video.
 
 ### -field YCbCr
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color_ycbcra">D3D11_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
+A <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color_ycbcra">D3D11_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
 
 ### -field RGBA
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color_rgba">D3D11_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
+A <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color_rgba">D3D11_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
 
 ## -remarks
 
@@ -68,9 +68,8 @@ The anonymous union can represent both RGB and YCbCr colors. The interpretation 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/about-yuv-video">About YUV Video</a>
+<a href="/windows/desktop/medfound/about-yuv-video">About YUV Video</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
-
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>

@@ -57,7 +57,7 @@ The <b>ICertAdmin</b> interface is used to perform the following tasks:
 <ul>
 <li>Authorize or deny a certificate request.</li>
 <li>Revoke an issued certificate.</li>
-<li>Trigger the generation of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).</li>
+<li>Trigger the generation of a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).</li>
 <li>Get the current CRL for the server.</li>
 <li>Determine whether a certificate is valid.</li>
 </ul>When you use the <b>ICertAdmin</b> interface, you have write-only access to request attributes and certificate extensions, but no direct access to other request and certificate properties.
@@ -70,7 +70,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertAdmin</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertAdmin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertAdmin</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertAdmin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,73 +85,72 @@ The <b>ICertAdmin</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-denyrequest">DenyRequest</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-denyrequest">DenyRequest</a>
 </td>
 <td align="left" width="63%">
 Denies a certificate request.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-getcrl">GetCRL</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-getcrl">GetCRL</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the current CRL.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-getrevocationreason">GetRevocationReason</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-getrevocationreason">GetRevocationReason</a>
 </td>
 <td align="left" width="63%">
 Returns a value that specifies the reason a certificate was revoked.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-importcertificate">ImportCertificate</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-importcertificate">ImportCertificate</a>
 </td>
 <td align="left" width="63%">
 Imports a previously issued certificate.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a>
 </td>
 <td align="left" width="63%">
 Checks the validity of a certificate.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-publishcrl">PublishCRL</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-publishcrl">PublishCRL</a>
 </td>
 <td align="left" width="63%">
 Publishes a new CRL.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ResubmitRequest</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ResubmitRequest</a>
 </td>
 <td align="left" width="63%">
 Submits a pended certificate request to the policy module.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-revokecertificate">RevokeCertificate</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-revokecertificate">RevokeCertificate</a>
 </td>
 <td align="left" width="63%">
 Revokes a certificate on a specified date.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-setcertificateextension">SetCertificateExtension</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-setcertificateextension">SetCertificateExtension</a>
 </td>
 <td align="left" width="63%">
 Adds a new extension to a certificate to be issued.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-setrequestattributes">SetRequestAttributes</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-setrequestattributes">SetRequestAttributes</a>
 </td>
 <td align="left" width="63%">
 Sets the attributes of a certificate request.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 </table>
-

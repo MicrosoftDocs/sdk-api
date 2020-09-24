@@ -70,13 +70,13 @@ A handle to the accelerator table to copy.
 
 Type: <b>LPACCEL</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures that receives the accelerator-table information.
+An array of <a href="/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures that receives the accelerator-table information.
 
 ### -param cAccelEntries [in]
 
 Type: <b>int</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures to copy to the buffer pointed to by the 
+The number of <a href="/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures to copy to the buffer pointed to by the 
      <i>lpAccelDst</i> parameter.
 
 ## -returns
@@ -88,7 +88,7 @@ If
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a>
 
 
 
@@ -96,19 +96,19 @@ If
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
+<a href="/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
 
 
 
@@ -116,10 +116,9 @@ If
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines CopyAcceleratorTable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

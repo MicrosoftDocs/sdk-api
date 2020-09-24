@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information specific to an <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw-tooltip">NM_CUSTOMDRAW</a> notification code sent by a tooltip control.
+Contains information specific to an <a href="/windows/desktop/Controls/nm-customdraw-tooltip">NM_CUSTOMDRAW</a> notification code sent by a tooltip control.
 
 ## -struct-fields
 
@@ -66,8 +66,7 @@ Contains general custom draw information.
 
 ### -field uDrawFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies how tooltip text will be formatted when it is displayed. An application may change this field to alter the way text is drawn. This value is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a> function internally. All values for the 
+Specifies how tooltip text will be formatted when it is displayed. An application may change this field to alter the way text is drawn. This value is passed to the <a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a> function internally. All values for the 
 					<i>uFormat</i> parameter of <b>DrawText</b> are valid.
-

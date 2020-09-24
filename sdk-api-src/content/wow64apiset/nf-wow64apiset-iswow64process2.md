@@ -58,36 +58,35 @@ api_name:
 ## -description
 
 Determines whether the specified process is running under 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>; also returns additional machine process and architecture information.
+<a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>; also returns additional machine process and architecture information.
 
 ## -parameters
 
 ### -param hProcess [in]
 
-A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param pProcessMachine [out]
 
-On success, returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/SysInfo/image-file-machine-constants">IMAGE_FILE_MACHINE_*</a> value. The value will be  <b>IMAGE_FILE_MACHINE_UNKNOWN</b> if the target process is not a <a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a> process; otherwise, it will identify the type of WoW process.
+On success, returns a pointer to an <a href="/windows/desktop/SysInfo/image-file-machine-constants">IMAGE_FILE_MACHINE_*</a> value. The value will be  <b>IMAGE_FILE_MACHINE_UNKNOWN</b> if the target process is not a <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a> process; otherwise, it will identify the type of WoW process.
 
 ### -param pNativeMachine [out, optional]
 
-On success, returns a pointer to a possible <a href="https://docs.microsoft.com/windows/desktop/SysInfo/image-file-machine-constants">IMAGE_FILE_MACHINE_*</a> value identifying the native architecture of host system.
+On success, returns a pointer to a possible <a href="/windows/desktop/SysInfo/image-file-machine-constants">IMAGE_FILE_MACHINE_*</a> value identifying the native architecture of host system.
 
 ## -returns
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-<b>IsWow64Process2</b> provides an improved direct replacement for IsWow64Process. In addition to determining if the specified process is running under <a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>, <b>IsWow64Process2</b> returns the following information:
+<b>IsWow64Process2</b> provides an improved direct replacement for IsWow64Process. In addition to determining if the specified process is running under <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>, <b>IsWow64Process2</b> returns the following information:
 
 <ul>
 <li>Whether the target process, specified by <i>hProcess</i>, is running under Wow or not.</li>
 <li>The architecture of the target process.</li>
 <li> Optionally, the architecture of the host system.</li>
 </ul>
-

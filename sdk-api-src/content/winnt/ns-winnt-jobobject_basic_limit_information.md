@@ -79,9 +79,9 @@ If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_JOB_TIME</b>, this member is 
 The system adds the current time of the processes associated with the job to this limit. For example, if you set this limit to 1 minute, and the job has a process that has accumulated 5 minutes of user-mode time, the limit actually enforced is 6 minutes.
 
 The system periodically checks to determine whether the sum of the user-mode execution time for all processes is greater than this end-of-job limit. If it is, the action specified in the <b>EndOfJobTimeAction</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a> structure is carried out. By default, all processes are terminated and the status code is set to <b>ERROR_NOT_ENOUGH_QUOTA</b>.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a> structure is carried out. By default, all processes are terminated and the status code is set to <b>ERROR_NOT_ENOUGH_QUOTA</b>.
 
-To register  for  notification when this limit is exceeded without terminating processes, use the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
+To register  for  notification when this limit is exceeded without terminating processes, use the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
 
 ### -field LimitFlags
 
@@ -129,7 +129,7 @@ If any process associated with the job creates a child process using the <b>CREA
 
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member  is a 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member  is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -142,16 +142,16 @@ This limit requires use of a
 </td>
 <td width="60%">
 Forces a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> function with the <b>SEM_NOGPFAULTERRORBOX</b> flag for each process associated with the job. 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> function with the <b>SEM_NOGPFAULTERRORBOX</b> flag for each process associated with the job. 
 
 
 
 
 If an exception occurs and the system calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> function, the debugger will be given a chance to act. If there is no debugger, the functions returns <b>EXCEPTION_EXECUTE_HANDLER</b>. Normally, this will cause termination of the process with the exception code as the exit status.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> function, the debugger will be given a chance to act. If there is no debugger, the functions returns <b>EXCEPTION_EXECUTE_HANDLER</b>. Normally, this will cause termination of the process with the exception code as the exit status.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -166,10 +166,10 @@ This limit requires use of a
 Causes all processes associated with the job to limit the job-wide sum of their committed memory. When a process attempts to commit memory that would exceed the job-wide limit, it fails. If the job object is associated with a completion port, a <b>JOB_OBJECT_MSG_JOB_MEMORY_LIMIT</b> message is sent to the completion port.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
-To register  for  notification when this limit is exceeded while allowing processes to continue to commit memory, use the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
+To register  for  notification when this limit is exceeded while allowing processes to continue to commit memory, use the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ Establishes a user-mode execution time limit for the job. The <b>PerJobUserTimeL
 Causes all processes associated with the job to terminate when the last handle to the job is closed.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -218,7 +218,7 @@ Preserves any job time limits you previously set. As long as this flag is set, y
 </td>
 <td width="60%">
 Causes all processes associated with the job to use the same priority class. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>. The <b>PriorityClass</b> member contains additional information.
+<a href="/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>. The <b>PriorityClass</b> member contains additional information.
 
 If the job is nested, the effective priority class is the lowest priority class in the  job chain.
 
@@ -236,7 +236,7 @@ Causes all processes associated with the job to limit their committed memory. Wh
 If the job is nested, the effective memory limit is the most restrictive memory limit in the  job chain.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -280,7 +280,7 @@ Allows any process associated with the job to create child processes that are no
 If the job is nested and its immediate job object allows breakaway, the child process breaks away from the immediate job object and from each job in the parent job chain, moving up the hierarchy until it reaches a job that does not permit breakaway. If the immediate job object does not allow breakaway, the child process does not break away even if jobs in its parent job chain allow it.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -336,7 +336,7 @@ If you try to associate a process with a job, and this causes the active process
 If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_AFFINITY</b>, this member is the processor affinity for all processes associated with the job. Otherwise, this member is ignored.
 
 The affinity must be a subset of the system affinity mask obtained by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a> function. The affinity of each thread is set to this value, but threads are free to subsequently set their affinity, as long as it is a subset of the specified affinity mask. Processes cannot set their own affinity mask.
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a> function. The affinity of each thread is set to this value, but threads are free to subsequently set their affinity, as long as it is a subset of the specified affinity mask. Processes cannot set their own affinity mask.
 
 ### -field PriorityClass
 
@@ -353,21 +353,21 @@ The valid values are 0 to 9. Use 0 for the least favorable scheduling class rela
 ## -remarks
 
 Processes can still empty their working sets using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function with (<b>SIZE_T</b>)-1, even when <b>JOB_OBJECT_LIMIT_WORKINGSET</b> is used. However, you cannot use <b>SetProcessWorkingSetSize</b> change the minimum or maximum working set size of a process in a job object.
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function with (<b>SIZE_T</b>)-1, even when <b>JOB_OBJECT_LIMIT_WORKINGSET</b> is used. However, you cannot use <b>SetProcessWorkingSetSize</b> change the minimum or maximum working set size of a process in a job object.
 
 The system increments the active process count when you attempt to associate a process with a job. If the limit is exceeded, the system decrements the active process count only when the process terminates and all handles to the process are closed. Therefore, if you have an open handle to a process that has been terminated in such a manner, you cannot associate any new processes until the handle is closed and the active process count is below the limit.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a>
 
 
 
@@ -375,13 +375,12 @@ The system increments the active process count when you attempt to associate a p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>

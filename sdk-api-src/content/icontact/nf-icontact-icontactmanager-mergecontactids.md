@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Makes an old Contact ID resolve to the same value as a new Contact ID. 
-		Subsequent calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactmanager-load">IContactManager::Load</a> with the old contact ID 
+		Subsequent calls to <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactmanager-load">IContactManager::Load</a> with the old contact ID 
 		now loads the new contact ID contact.
 
 ## -parameters
@@ -91,4 +91,3 @@ Address change was successful.
 </td>
 </tr>
 </table>
-

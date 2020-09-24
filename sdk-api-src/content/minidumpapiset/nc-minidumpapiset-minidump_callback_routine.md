@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>. It receives extended minidump information.
+<a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>. It receives extended minidump information.
 
 The <b>MINIDUMP_CALLBACK_ROUTINE</b> type defines a pointer to this callback function. 
 <b>MiniDumpCallback</b> is a placeholder for the application-defined function name.
@@ -78,7 +78,7 @@ If the function succeeds, return <b>TRUE</b>; otherwise, return <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
@@ -86,5 +86,4 @@ If the function succeeds, return <b>TRUE</b>; otherwise, return <b>FALSE</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
-
+<a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>

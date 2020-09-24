@@ -82,11 +82,11 @@ Pointer to a wide-character string that contains the output file name.
 
 ### -param ppf [out]
 
-Address of a pointer that receives the multiplexer's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface.
+Address of a pointer that receives the multiplexer's <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface.
 
 ### -param ppSink [out]
 
-Address of a pointer that receives the file writer's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a> interface. Can be <b>NULL</b>.
+Address of a pointer that receives the file writer's <a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a> interface. Can be <b>NULL</b>.
 
 ## -returns
 
@@ -134,21 +134,20 @@ Failure.
 
 ## -remarks
 
-This method creates a multiplexer filter based on the value of the <i>pType</i> parameter. For AVI, it creates the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux Filter</a>. For ASF, it creates the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a>. For other values, it creates the filter identified by the CLSID. It adds the multiplexer to the filter graph, and returns a pointer to its <b>IBaseFilter</b> interface in the <i>ppf</i> parameter.
+This method creates a multiplexer filter based on the value of the <i>pType</i> parameter. For AVI, it creates the <a href="/windows/desktop/DirectShow/avi-mux-filter">AVI Mux Filter</a>. For ASF, it creates the <a href="/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a>. For other values, it creates the filter identified by the CLSID. It adds the multiplexer to the filter graph, and returns a pointer to its <b>IBaseFilter</b> interface in the <i>ppf</i> parameter.
 
-If the multiplexer supports the <b>IFileSinkFilter</b> interface, the method calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter-setfilename">IFileSinkFilter::SetFileName</a> to set the output file name, using the value given in the <i>lpwstrFile</i> parameter. If the multiplexer does not support <b>IFileSinkFilter</b> interface, the method adds the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/file-writer-filter">File Writer Filter</a> to the filter graph, connects the multiplexer to the file writer, and uses the file writer's <b>IFileSinkFilter</b> interface to call <b>SetFileName</b>. If the <i>pSink</i> parameter is not <b>NULL</b>, it receives a pointer to the <b>IFileSinkFilter</b> interface.
+If the multiplexer supports the <b>IFileSinkFilter</b> interface, the method calls <a href="/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter-setfilename">IFileSinkFilter::SetFileName</a> to set the output file name, using the value given in the <i>lpwstrFile</i> parameter. If the multiplexer does not support <b>IFileSinkFilter</b> interface, the method adds the <a href="/windows/desktop/DirectShow/file-writer-filter">File Writer Filter</a> to the filter graph, connects the multiplexer to the file writer, and uses the file writer's <b>IFileSinkFilter</b> interface to call <b>SetFileName</b>. If the <i>pSink</i> parameter is not <b>NULL</b>, it receives a pointer to the <b>IFileSinkFilter</b> interface.
 
-You can use the pointer to the multiplexer filter, returned in the <i>ppf</i> parameter, as the <i>pSink</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-renderstream">ICaptureGraphBuilder2::RenderStream</a> method.
+You can use the pointer to the multiplexer filter, returned in the <i>ppf</i> parameter, as the <i>pSink</i> parameter in the <a href="/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-renderstream">ICaptureGraphBuilder2::RenderStream</a> method.
 
-For custom multiplexer filters, the method fails if the filter does not support a connection on its output pin before its input pins are connected. For example, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wavdest-filter-sample">WavDest Filter Sample</a> included with the SDK has this limitation.
+For custom multiplexer filters, the method fails if the filter does not support a connection on its output pin before its input pins are connected. For example, the <a href="/windows/desktop/DirectShow/wavdest-filter-sample">WavDest Filter Sample</a> included with the SDK has this limitation.
 
 If the method succeeds, the <b>IBaseFilter</b> interface returned in the <i>ppf</i> parameter has an outstanding reference count. If the method succeeds and <i>pSink</i> is not <b>NULL</b>, the <b>IFileSinkFilter</b> interface also has an outstanding reference count. Be sure to release both interfaces when you are done using them.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>

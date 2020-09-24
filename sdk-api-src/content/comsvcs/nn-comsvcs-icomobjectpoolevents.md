@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Notifies the subscriber when a new object is added to the pool. The subscriber is also notified when a transactional or non-transactional object is obtained or returned to the pool. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber when a new object is added to the pool. The subscriber is also notified when a transactional or non-transactional object is obtained or returned to the pool. The events are published to the subscriber using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectPoolEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPoolEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectPoolEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPoolEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComObjectPoolEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolgetfromtx">OnObjPoolGetFromTx</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolgetfromtx">OnObjPoolGetFromTx</a>
 </td>
 <td align="left" width="63%">
 Generated when a transactional object is obtained from the pool.
@@ -78,7 +78,7 @@ Generated when a transactional object is obtained from the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolgetobject">OnObjPoolGetObject</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolgetobject">OnObjPoolGetObject</a>
 </td>
 <td align="left" width="63%">
 Generated when a non-transactional object is obtained from the pool.
@@ -87,7 +87,7 @@ Generated when a non-transactional object is obtained from the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolputobject">OnObjPoolPutObject</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolputobject">OnObjPoolPutObject</a>
 </td>
 <td align="left" width="63%">
 Generated when a new object is added to the pool.
@@ -96,7 +96,7 @@ Generated when a new object is added to the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolrecycletotx">OnObjPoolRecycleToTx</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolrecycletotx">OnObjPoolRecycleToTx</a>
 </td>
 <td align="left" width="63%">
 Generated when a transactional object is returned to the pool.
@@ -107,9 +107,8 @@ Generated when a transactional object is returned to the pool.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
-
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

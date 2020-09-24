@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains the virtual IP address assigned to a session. This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function when you specify "WTSSessionAddressV4" for the <i>WTSInfoClass</i> parameter.
+Contains the virtual IP address assigned to a session. This structure is returned by the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function when you specify "WTSSessionAddressV4" for the <i>WTSInfoClass</i> parameter.
 
 ## -struct-fields
 
@@ -64,13 +64,12 @@ A null-terminated string that contains the address family. Always set this membe
 
 ### -field Address
 
-The virtual IP address assigned to the session. The format of this address is identical to that used in the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a> structure.
+The virtual IP address assigned to the session. The format of this address is identical to that used in the <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a>
-
+<a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a>

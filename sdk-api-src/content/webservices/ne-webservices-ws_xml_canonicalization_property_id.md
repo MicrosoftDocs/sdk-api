@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 Identifies each XML canonicalization property and its associated
-        value.  This enumeration is used within the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a>.
+        value.  This enumeration is used within the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a>.
 
 ## -enum-fields
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
           the <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES
@@ -68,7 +68,7 @@ A <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_qname">WS_XML_QNAME</a> structure that contains the elements to be omitted during canonicalization.  If one or more
+A <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_qname">WS_XML_QNAME</a> structure that contains the elements to be omitted during canonicalization.  If one or more
           elements in the XML input match the specified name and namespace, then
           all such elements and the subtrees rooted at them are omitted from the
           canonical output.  This property can be used to implement enveloped
@@ -80,7 +80,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 ### -field WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE
 
 A <b>ULONG</b> that specifies the size of the buffer in which canonical bytes are accumulated.  Once at least this
-          many bytes are generated, or canonicalization is ended by a call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a>or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a>, the canonical bytes are
+          many bytes are generated, or canonicalization is ended by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a>or <a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a>, the canonical bytes are
           written to the output specified at the start of canonicalization.  If this is
           not specified, a default buffer size of 1024 is used.
-

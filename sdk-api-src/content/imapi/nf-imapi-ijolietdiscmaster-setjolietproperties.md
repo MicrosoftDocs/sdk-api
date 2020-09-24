@@ -57,7 +57,7 @@ Sets the Joliet properties.
 ### -param pPropStg [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface that the Joliet interface can use to retrieve new settings on various properties.
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface that the Joliet interface can use to retrieve new settings on various properties.
 
 ## -returns
 
@@ -66,16 +66,15 @@ S_OK is returned on success, but other success codes may be returned as a result
 ## -remarks
 
 Applications should query for a property set using 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getjolietproperties">GetJolietProperties</a>, modify only those settings of interest, and then call 
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getjolietproperties">GetJolietProperties</a>, modify only those settings of interest, and then call 
 <b>SetJolietProperties</b> to change all values simultaneously.
 
 Some properties are read-only. Both read-only properties and unsupported properties are ignored without generating an error (see IMAPI_S_PROPERTIESIGNORED). For example, someone could submit a property set to this interface and attempt to change the ClearlyNeverHeardOfBefore property. Because ClearlyNeverHeardOfBefore is an unknown value, the property is ignored and the method succeeds.
 
 After calling 
 <b>SetJolietProperties</b>, an application should verify property settings by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getjolietproperties">GetJolietProperties</a>.
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getjolietproperties">GetJolietProperties</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>

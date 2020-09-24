@@ -55,7 +55,7 @@ api_name:
 
 The 
 <b>MsiOpenDatabase</b> function opens a database file for data access. This function returns a handle that should be closed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
 ## -parameters
 
@@ -146,21 +146,21 @@ The
 ## -remarks
 
 To make and save changes to a database first open the database in transaction (MSIDBOPEN_TRANSACT), create (MSIDBOPEN_CREATE or MSIDBOPEN_CREATEDIRECT), or direct (MSIDBOPEN_DIRECT) mode. After making the changes, always call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidatabasecommit">MsiDatabaseCommit</a> before closing the database handle. 
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msidatabasecommit">MsiDatabaseCommit</a> before closing the database handle. 
 <b>MsiDatabaseCommit</b> flushes all buffers.
 
 Always call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidatabasecommit">MsiDatabaseCommit</a> on a database that has been opened in direct mode (MSIDBOPEN_DIRECT or MSIDBOPEN_CREATEDIRECT) before closing the database's handle. Failure to do this may corrupt the database.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msidatabasecommit">MsiDatabaseCommit</a> on a database that has been opened in direct mode (MSIDBOPEN_DIRECT or MSIDBOPEN_CREATEDIRECT) before closing the database's handle. Failure to do this may corrupt the database.
 
 Because 
 <b>MsiOpenDatabase</b> initiates database access, it cannot be used with a running installation.
 
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
 
 <div class="alert"><b>Note</b>  When a database is opened as the output of another database, the summary information stream of the output database is actually a read-only mirror of the original database, and, thus, cannot be changed. Additionally, it is not persisted with the database. To create or modify the summary information for the output database, it must be closed and reopened.</div>
 <div> </div>
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -171,9 +171,8 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/a-database-and-patch-example">A Database and Patch Example</a>
+<a href="/windows/desktop/Msi/a-database-and-patch-example">A Database and Patch Example</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>

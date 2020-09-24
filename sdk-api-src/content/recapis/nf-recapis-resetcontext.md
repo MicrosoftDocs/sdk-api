@@ -106,5 +106,4 @@ An invalid argument was received.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-clonecontext">CloneContext Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-clonecontext">CloneContext Function</a>

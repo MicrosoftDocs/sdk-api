@@ -107,5 +107,4 @@ If this function fails, the state of the registry for all its classes is undefin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a>
-
+<a href="/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a>

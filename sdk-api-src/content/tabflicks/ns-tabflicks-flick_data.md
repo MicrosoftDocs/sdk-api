@@ -96,29 +96,28 @@ Contains additional information about <b>iFlickActionCommandCode</b>.
 
 ## -remarks
 
-Windows Vista sends the <b>FLICK_DATA</b> structure to an application along with the <a href="https://docs.microsoft.com/windows/desktop/tablet/wm-tablet-flick-message">WM_TABLET_FLICK Message</a> when a pen flick occurs.
+Windows Vista sends the <b>FLICK_DATA</b> structure to an application along with the <a href="/windows/desktop/tablet/wm-tablet-flick-message">WM_TABLET_FLICK Message</a> when a pen flick occurs.
 
-The value of <i>iActionArgument</i> depends on the value of <i>iFlickActionCommandCode</i>. For example, if <i>iFlickCommandCode</i> is FLICKACTION_COMMANDCODE_SCROLL, the value of <i>iActionArgument</i> is one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/tabflicks/ne-tabflicks-scrolldirection">SCROLLDIRECTION Enumeration</a>.
+The value of <i>iActionArgument</i> depends on the value of <i>iFlickActionCommandCode</i>. For example, if <i>iFlickCommandCode</i> is FLICKACTION_COMMANDCODE_SCROLL, the value of <i>iActionArgument</i> is one of the values in the <a href="/windows/desktop/api/tabflicks/ne-tabflicks-scrolldirection">SCROLLDIRECTION Enumeration</a>.
 
 If <i>iFlickCommandCode</i> is <b>FLICKACTION_COMMANDCODE_CUSTOMKEY</b>, the value of <i>iActionArgument</i> indicates the key stroke. The <i>fControlModifier</i>, <i>fMenuModifier</i>, <i>fAltGRModifier</i>, <i>fWinModifier</i>, and <i>fShiftModifier</i> fields indicate whether the pen action activates a modifier key. For example, if the user assigns a pen flick to the key stroke, CTRL+N, <i>fControlModifier</i> is <b>true</b> and <i>iActionArgument</i> is the virtual code key, VK_N.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tabflicks/ne-tabflicks-flickaction_commandcode">FLICKACTION_COMMANDCODE Enumeration</a>
+<a href="/windows/desktop/api/tabflicks/ne-tabflicks-flickaction_commandcode">FLICKACTION_COMMANDCODE Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tabflicks/ne-tabflicks-flickdirection">flickdirection enumeration</a>
+<a href="/windows/desktop/api/tabflicks/ne-tabflicks-flickdirection">flickdirection enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">flicks gestures</a>
+<a href="/windows/desktop/tablet/flicks-gestures">flicks gestures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms703447(v=vs.85)">responding to pen flicks</a>
+<a href="/previous-versions/windows/desktop/ms703447(v=vs.85)">responding to pen flicks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/wm-tablet-flick-message">wm_tablet_flick message</a>
-
+<a href="/windows/desktop/tablet/wm-tablet-flick-message">wm_tablet_flick message</a>

@@ -54,30 +54,29 @@ api_name:
 ## -description
 
 Contains information needed by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_position">IOCTL_CHANGER_SET_POSITION</a> control code to set the changer's robotic transport mechanism to the specified element address.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_position">IOCTL_CHANGER_SET_POSITION</a> control code to set the changer's robotic transport mechanism to the specified element address.
 
 ## -struct-fields
 
 ### -field Transport
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that indicates the transport to be moved. The <b>ElementType</b> member must be ChangerTransport.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that indicates the transport to be moved. The <b>ElementType</b> member must be ChangerTransport.
 
 ### -field Destination
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that indicates the final destination of the transport. The <b>ElementType</b> member must be one of the following values: ChangerSlot, ChangerDrive, or ChangerIEPort.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that indicates the final destination of the transport. The <b>ElementType</b> member must be one of the following values: ChangerSlot, ChangerDrive, or ChangerIEPort.
 
 ### -field Flip
 
 If this member is <b>TRUE</b>, the media currently carried by <b>Transport</b> should be flipped. Otherwise, it should not. This member is valid only if the <b>Features0</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a> structure is CHANGER_MEDIUM_FLIP.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a> structure is CHANGER_MEDIUM_FLIP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_position">IOCTL_CHANGER_SET_POSITION</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_position">IOCTL_CHANGER_SET_POSITION</a>

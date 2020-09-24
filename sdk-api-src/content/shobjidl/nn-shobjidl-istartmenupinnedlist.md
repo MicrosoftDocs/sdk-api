@@ -54,7 +54,7 @@ Exposes a method that unpins an application shortcut from the <b>Start</b> menu 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStartMenuPinnedList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStartMenuPinnedList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStartMenuPinnedList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStartMenuPinnedList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IStartMenuPinnedList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-istartmenupinnedlist-removefromlist">RemoveFromList</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-istartmenupinnedlist-removefromlist">RemoveFromList</a>
 </td>
 <td align="left" width="63%">
 <b>Windows Vista</b>: Removes an item from the <b>Start</b> menu pinned list, which is the list in the upper left position of the <b>Start</b> menu.
@@ -88,12 +88,11 @@ The <b>IStartMenuPinnedList</b> interface has these methods.
 Windows provides an implementation of this interface as CLSID_StartMenuPin. Third parties do not provide their own implementation.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
-Any shortcut installed by an application might have been subsequently pinned by the user, and there is no way for an application to know this. Therefore, we recommend that, during uninstallation, all applications call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-istartmenupinnedlist-removefromlist">IStartMenuPinnedList::RemoveFromList</a> on each shortcut they installed.
+Any shortcut installed by an application might have been subsequently pinned by the user, and there is no way for an application to know this. Therefore, we recommend that, during uninstallation, all applications call <a href="/windows/desktop/api/shobjidl/nf-shobjidl-istartmenupinnedlist-removefromlist">IStartMenuPinnedList::RemoveFromList</a> on each shortcut they installed.
 
 
 
-Note that <b>IStartMenuPinnedList</b> does not remove the shortcuts themselves, it only unpins them. Applications first call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-istartmenupinnedlist-removefromlist">IStartMenuPinnedList::RemoveFromList</a> on a shortcut, then delete that shortcut.
+Note that <b>IStartMenuPinnedList</b> does not remove the shortcuts themselves, it only unpins them. Applications first call <a href="/windows/desktop/api/shobjidl/nf-shobjidl-istartmenupinnedlist-removefromlist">IStartMenuPinnedList::RemoveFromList</a> on a shortcut, then delete that shortcut.
 
 <h3><a id="Compatibility"></a><a id="compatibility"></a><a id="COMPATIBILITY"></a>Compatibility</h3>
-In Windows 8, the Start screen replaces the legacy Start menu. CLSID_StartMenuPin and <b>IStartMenuPinnedList</b> are present in Windows 8 to provide backward compatibility with existing applications, but they do not affect <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh761490(v=win.10)">tiles</a> pinned to the Windows 8 Start screen. CLSID_StartMenuPin and <b>IStartMenuPinnedList</b> do continue to impact items pinned to the Windows 8 desktop taskbar.
-
+In Windows 8, the Start screen replaces the legacy Start menu. CLSID_StartMenuPin and <b>IStartMenuPinnedList</b> are present in Windows 8 to provide backward compatibility with existing applications, but they do not affect <a href="/previous-versions/windows/apps/hh761490(v=win.10)">tiles</a> pinned to the Windows 8 Start screen. CLSID_StartMenuPin and <b>IStartMenuPinnedList</b> do continue to impact items pinned to the Windows 8 desktop taskbar.

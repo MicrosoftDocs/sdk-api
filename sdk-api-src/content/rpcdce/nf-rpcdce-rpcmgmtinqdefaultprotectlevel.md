@@ -62,7 +62,7 @@ Authentication service for which to return the default authentication level. Val
 ### -param AuthnLevel
 
 Returns the default authentication level for the specified authentication service. The authentication level determines the degree to which authenticated communications between the client and server are protected. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication Level Constants</a>.
+<a href="/windows/desktop/Rpc/authentication-level-constants">Authentication Level Constants</a>.
 
 ## -returns
 
@@ -97,7 +97,7 @@ Unknown authentication service.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -107,9 +107,8 @@ An application calls the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqcomtimeout">RpcMgmtInqComTimeout</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqcomtimeout">RpcMgmtInqComTimeout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>

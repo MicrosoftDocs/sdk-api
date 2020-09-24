@@ -70,5 +70,4 @@ This enumeration value marks the end of the enumeration values. It can be used t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgeteventinfo">EvtGetEventInfo</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgeteventinfo">EvtGetEventInfo</a>

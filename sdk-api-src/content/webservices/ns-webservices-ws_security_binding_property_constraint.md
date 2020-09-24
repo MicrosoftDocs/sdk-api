@@ -67,14 +67,14 @@ The id of the security binding property.  The following security
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME</a>
 This property constraint may be specified when the
-                      <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_constraint_type">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE</a>security binding is specified.
+                      <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_constraint_type">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE</a>security binding is specified.
                     
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_constraint_type">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_constraint_type">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
@@ -100,8 +100,7 @@ The total size of the allowedValues array, in bytes.  This
 
 ### -field out
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     fields of the property structure will be filled out as follows:
 
 ### -field out.securityBindingProperty
-

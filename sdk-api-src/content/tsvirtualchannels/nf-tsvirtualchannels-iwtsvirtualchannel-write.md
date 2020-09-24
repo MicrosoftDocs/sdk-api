@@ -52,7 +52,7 @@ api_name:
 
 Starts a write request on the channel. All writes are considered asynchronous. Calling this method copies the contents of <i>pBuffer</i> and returns immediately, so  the buffer can be reclaimed. Because of the memory copy, too many <b>Write()</b> calls may result in allocating too much memory by the client.
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">Close()</a> call on this channel will cancel any pending writes.
+A <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">Close()</a> call on this channel will cancel any pending writes.
 
 ## -parameters
 
@@ -74,5 +74,4 @@ Returns <b>S_OK</b> if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannel">IWTSVirtualChannel</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannel">IWTSVirtualChannel</a>

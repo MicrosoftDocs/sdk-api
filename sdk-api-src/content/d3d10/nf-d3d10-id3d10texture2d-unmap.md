@@ -51,16 +51,16 @@ api_name:
 
 ## -description
 
-Invalidate the pointer to the resource that was retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture2d-map">ID3D10Texture2D::Map</a>, and re-enable GPU access to the resource.
+Invalidate the pointer to the resource that was retrieved by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10texture2d-map">ID3D10Texture2D::Map</a>, and re-enable GPU access to the resource.
 
 ## -parameters
 
 ### -param Subresource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Subresource</a> to be unmapped. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-d3d10calcsubresource">D3D10CalcSubresource</a> for more details.
+<a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Subresource</a> to be unmapped. See <a href="/windows/desktop/api/d3d10/nf-d3d10-d3d10calcsubresource">D3D10CalcSubresource</a> for more details.
 
 ## -remarks
 
@@ -79,5 +79,4 @@ Unmap in Direct3D 10 is analogous to resource Unlock in Direct3D 9.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10texture2d">ID3D10Texture2D Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10texture2d">ID3D10Texture2D Interface</a>

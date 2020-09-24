@@ -108,7 +108,7 @@ unsigned short
 
 ### -field MI_DATETIME
 
-Structure holding a union of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_interval">MI_Interval</a>.
+Structure holding a union of <a href="/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a> or <a href="/windows/desktop/api/mi/ns-mi-mi_interval">MI_Interval</a>.
 
 ### -field MI_STRING
 
@@ -116,7 +116,7 @@ MI_CHAR*
 
 ### -field MI_REFERENCE
 
-This is encoded as an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>, but usually only the key properties are set.
+This is encoded as an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>, but usually only the key properties are set.
 
 ### -field MI_INSTANCE
 
@@ -187,4 +187,3 @@ Array of <b>MI_INSTANCE</b> types.
 ### -field MI_ARRAY
 
 MI_ARRAY is not an actual type, rather this is the bit that signifies  the type is an array.
-

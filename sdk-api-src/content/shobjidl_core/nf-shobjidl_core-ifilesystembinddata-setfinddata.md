@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Stores file system information in a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure. This information is used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">ParseDisplayName</a>.
+Stores file system information in a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure. This information is used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">ParseDisplayName</a>.
 
 ## -parameters
 
 ### -param pfd [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that specifies the data you want to store.
+A pointer to the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that specifies the data you want to store.
 
 ## -returns
 
@@ -68,5 +68,4 @@ Always returns <b>S_OK</b>.
 
 ## -remarks
 
-After the client stores the file information, the instance of the object itself must be stored in a bind context by using the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">IBindCtx::RegisterObjectParam</a> method with the <i>pszKey</i> parameter set to <code>L"File System Bind Data"</code>.
-
+After the client stores the file information, the instance of the object itself must be stored in a bind context by using the <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">IBindCtx::RegisterObjectParam</a> method with the <i>pszKey</i> parameter set to <code>L"File System Bind Data"</code>.

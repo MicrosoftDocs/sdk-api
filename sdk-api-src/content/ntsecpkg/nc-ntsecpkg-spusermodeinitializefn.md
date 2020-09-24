@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-The <b>SpUserModeInitialize</b> function is called when a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a>/<a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> (SSP/AP) DLL is loaded into the process space of a client/server application. This function provides the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> tables for each <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> in the SSP/AP DLL.
+The <b>SpUserModeInitialize</b> function is called when a <a href="/windows/desktop/SecGloss/s-gly">security support provider</a>/<a href="/windows/desktop/SecGloss/a-gly">authentication package</a> (SSP/AP) DLL is loaded into the process space of a client/server application. This function provides the 
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> tables for each <a href="/windows/desktop/SecGloss/s-gly">security package</a> in the SSP/AP DLL.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ Pointer that returns the version of the SSP/AP DLL.
 ### -param *ppTables [out]
 
 Pointer that returns an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structures. Each structure is a table of pointers to the user-mode functions implemented by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> deployed in the SSP/AP DLL.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structures. Each structure is a table of pointers to the user-mode functions implemented by a <a href="/windows/desktop/SecGloss/s-gly">security package</a> deployed in the SSP/AP DLL.
 
 ### -param pcTables [out]
 
@@ -83,10 +83,9 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 The <b>SpUserModeInitialize</b> function must be implemented by SSP/AP DLLs that contain user-mode security packages.
 
 The <i>ppTables</i> parameter should contain one 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> for each user-mode security package deployed in the DLL. For more information on deploying security packages in DLLs, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/user-mode-initialization">User Mode Initialization</a>.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> for each user-mode security package deployed in the DLL. For more information on deploying security packages in DLLs, see 
+<a href="/windows/desktop/SecAuthN/user-mode-initialization">User Mode Initialization</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>

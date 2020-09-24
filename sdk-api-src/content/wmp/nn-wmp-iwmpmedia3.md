@@ -54,7 +54,7 @@ The <b>IWMPMedia3</b> interface provides methods that supplement the <b>IWMPMedi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia2">IWMPMedia2</a>. <b>IWMPMedia3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia3</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia2">IWMPMedia2</a>. <b>IWMPMedia3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPMedia3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getattributecountbytype">getAttributeCountByType</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getattributecountbytype">getAttributeCountByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of attributes associated with the specified attribute type.
@@ -78,7 +78,7 @@ Retrieves the number of attributes associated with the specified attribute type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getiteminfobytype">getItemInfoByType</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getiteminfobytype">getItemInfoByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the attribute corresponding to the specified attribute type and index.
@@ -89,9 +89,8 @@ Retrieves the value of the attribute corresponding to the specified attribute ty
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia2">IWMPMedia2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia2">IWMPMedia2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

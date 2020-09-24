@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure that contains the result of the event.
+Retrieves a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure that contains the result of the event.
 
 ## -parameters
 
 ### -param pEvent [out]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure that provides data about the event.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure that provides data about the event.
 
 ## -returns
 
@@ -109,9 +109,8 @@ Event is not yet available or the asynchronous operation has not completed.
 
 ## -remarks
 
-This method should only be called by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a> and only after the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object has signaled that the operation has completed.
+This method should only be called by <a href="/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a> and only after the <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object has signaled that the operation has completed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>

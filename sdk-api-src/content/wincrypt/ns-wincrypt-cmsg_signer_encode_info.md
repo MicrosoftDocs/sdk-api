@@ -55,10 +55,10 @@ api_name:
 ## -description
 
 The <b>CMSG_SIGNER_ENCODE_INFO</b> structure contains signer information. It is passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign">CryptMsgCountersign</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>, and optionally to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> as a member of 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure, if the <i>dwMsgType</i> parameter is CMSG_SIGNED.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign">CryptMsgCountersign</a>, 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>, and optionally to 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> as a member of 
+the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure, if the <i>dwMsgType</i> parameter is CMSG_SIGNED.
 
 ## -struct-fields
 
@@ -69,23 +69,23 @@ The size, in bytes, of this structure.
 ### -field pCertInfo
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure that contains the  
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure that contains the  
 
 
 <b>Issuer</b>, <b>SerialNumber</b>, and <b>SubjectPublicKeyInfo</b> members.
 
-The <b>pbData</b> members of the <b>Issuer</b> and <b>SerialNumber</b> structures combined uniquely identify a certificate. The <b>Algorithm</b> member of the <b>SubjectPublicKeyInfo</b> structure specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> encryption algorithm used.
+The <b>pbData</b> members of the <b>Issuer</b> and <b>SerialNumber</b> structures combined uniquely identify a certificate. The <b>Algorithm</b> member of the <b>SubjectPublicKeyInfo</b> structure specifies the <a href="/windows/desktop/SecGloss/h-gly">hash</a> encryption algorithm used.
 
 ### -field DUMMYUNIONNAME
 
 ### -field DUMMYUNIONNAME.hCryptProv
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
-If <b>HashEncryptionAlgorithm</b> is set to szOID_PKIX_NO_SIGNATURE, this handle can be the handle of a CSP acquired by using the <i>dwFlags</i> parameter set to <b>CRYPT_VERIFYCONTEXT</b>. The CNG function <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a> is called to determine the union choice.
+A handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
+If <b>HashEncryptionAlgorithm</b> is set to szOID_PKIX_NO_SIGNATURE, this handle can be the handle of a CSP acquired by using the <i>dwFlags</i> parameter set to <b>CRYPT_VERIFYCONTEXT</b>. The CNG function <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a> is called to determine the union choice.
 
 ### -field DUMMYUNIONNAME.hNCryptKey
 
-A handle to the CNG CSP. The CNG function <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a> is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncrypttranslatehandle">NCryptTranslateHandle</a> will be called to convert the CryptoAPI <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
+A handle to the CNG CSP. The CNG function <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a> is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncrypttranslatehandle">NCryptTranslateHandle</a> will be called to convert the CryptoAPI <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
 
 ### -field DUMMYUNIONNAME.hBCryptKey
 
@@ -130,7 +130,7 @@ Keys used to create and verify digital signatures.
 ### -field HashAlgorithm
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the hash algorithm.
+						<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the hash algorithm.
 
 ### -field pvHashAuxInfo
 
@@ -143,12 +143,12 @@ The number of elements in the <b>rgAuthAttr</b> array. If no authenticated attri
 ### -field rgAuthAttr
 
 An array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each of which contains authenticated attribute information. 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each of which contains authenticated attribute information. 
 
 
 
 
-The PKCS #9 standard dictates that if there are any attributes, there must be at least two: the content type <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and the hash of the message. These attributes are automatically added by the system.
+The PKCS #9 standard dictates that if there are any attributes, there must be at least two: the content type <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and the hash of the message. These attributes are automatically added by the system.
 
 ### -field cUnauthAttr
 
@@ -156,20 +156,20 @@ The number of elements in the <b>rgUnauthAttr</b> array. If there are no unauthe
 
 ### -field rgUnauthAttr
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each of which contains unauthenticated attribute information. Unauthenticated attributes can contain <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">countersignatures</a>, among other uses.
+An array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each of which contains unauthenticated attribute information. Unauthenticated attributes can contain <a href="/windows/desktop/SecGloss/c-gly">countersignatures</a>, among other uses.
 
 ### -field SignerId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> structure that contains a unique identifier of the signer's certificate. This member can optionally be used with PKCS #7 with Cryptographic Message Syntax (CMS). If this member is not <b>NULL</b> and its <b>dwIdChoice</b> member is not zero, it is used to identify  the certificate instead of the <b>Issuer</b> and <b>SerialNumber</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure pointed to by <b>pCertInfo</b>.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> structure that contains a unique identifier of the signer's certificate. This member can optionally be used with PKCS #7 with Cryptographic Message Syntax (CMS). If this member is not <b>NULL</b> and its <b>dwIdChoice</b> member is not zero, it is used to identify  the certificate instead of the <b>Issuer</b> and <b>SerialNumber</b> members of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure pointed to by <b>pCertInfo</b>.
 						CMS supports the KEY_IDENTIFIER and ISSUER_SERIAL_NUMBER CERT_ID structures. PKCS version 1.5 supports only the ISSUER_SERIAL_NUMBER CERT_ID choice. This member is  used with CMS for PKCS #7 processing and can be used only if CMSG_SIGNER_ENCODE_INFO_HAS_CMS_FIELDS is defined.
 
 ### -field HashEncryptionAlgorithm
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure optionally used with PKCS #7 with CMS. If this member is not <b>NULL</b>, the algorithm identified is used instead of the SubjectPublicKeyInfo.Algorithm algorithm.
+						<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure optionally used with PKCS #7 with CMS. If this member is not <b>NULL</b>, the algorithm identified is used instead of the SubjectPublicKeyInfo.Algorithm algorithm.
 If this member is set to szOID_PKIX_NO_SIGNATURE, the signature value contains only the hash octets. 
 
-For RSA, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> encryption algorithm is normally the same as the public key algorithm. For DSA, the hash encryption algorithm is normally a DSS signature algorithm.
+For RSA, the <a href="/windows/desktop/SecGloss/h-gly">hash</a> encryption algorithm is normally the same as the public key algorithm. For DSA, the hash encryption algorithm is normally a DSS signature algorithm.
 
 This member is  used with CMS for PKCS #7 processing and can be used only if CMSG_SIGNER_ENCODE_INFO_HAS_CMS_FIELDS is defined.
 
@@ -180,21 +180,20 @@ This member is present only if CMSG_SIGNER_ENCODE_INFO_HAS_CMS_FIELDS is defined
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign">CryptMsgCountersign</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign">CryptMsgCountersign</a>

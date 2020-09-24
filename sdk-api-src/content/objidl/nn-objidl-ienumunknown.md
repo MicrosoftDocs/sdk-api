@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Enumerates objects with the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. It can be used to enumerate through the objects in a component containing multiple objects.
+Enumerates objects with the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. It can be used to enumerate through the objects in a component containing multiple objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumUnknown</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumUnknown</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumUnknown</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumUnknown</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumUnknown</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-clone">Clone</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ienumunknown-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumerator that contains the same enumeration state as the current one.
@@ -78,7 +78,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-next">Next</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ienumunknown-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -87,7 +87,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-reset">Reset</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ienumunknown-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -96,7 +96,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-skip">Skip</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ienumunknown-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.
@@ -107,5 +107,4 @@ Skips over the specified number of items in the enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecontainer">IOleContainer</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecontainer">IOleContainer</a>

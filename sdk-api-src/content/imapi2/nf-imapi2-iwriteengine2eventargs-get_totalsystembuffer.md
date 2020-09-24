@@ -84,13 +84,12 @@ Value: 0x80004003
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_freesystembuffer">IWriteEngine2EventArgs::get_FreeSystemBuffer</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_freesystembuffer">IWriteEngine2EventArgs::get_FreeSystemBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_usedsystembuffer">IWriteEngine2EventArgs::get_UsedSystemBuffer</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_usedsystembuffer">IWriteEngine2EventArgs::get_UsedSystemBuffer</a>

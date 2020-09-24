@@ -55,13 +55,13 @@ api_name:
 
 ## -description
 
-The <b>INSNetSourceCreator</b> interface creates an administrative network source <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">plug-in</a>. You can use an administrative network source plug-in to cache passwords and to locate the appropriate proxy server to use for Internet operations.
+The <b>INSNetSourceCreator</b> interface creates an administrative network source <a href="/windows/desktop/wmformat/wmformat-glossary">plug-in</a>. You can use an administrative network source plug-in to cache passwords and to locate the appropriate proxy server to use for Internet operations.
 
-To get a pointer to the <b>INSNetSourceCreator</b> interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with <b>CLSID_ClientNetManager</b> as the <i>REFCLSID</i> parameter.
+To get a pointer to the <b>INSNetSourceCreator</b> interface, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with <b>CLSID_ClientNetManager</b> as the <i>REFCLSID</i> parameter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSNetSourceCreator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INSNetSourceCreator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSNetSourceCreator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INSNetSourceCreator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -83,7 +83,7 @@ Reserved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-getnetsourceadmininterface">GetNetSourceAdminInterface</a>
+<a href="/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-getnetsourceadmininterface">GetNetSourceAdminInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an administrative network source object.
@@ -120,7 +120,7 @@ Reserved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-initialize">Initialize</a>
+<a href="/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the network source creator.
@@ -129,7 +129,7 @@ Initializes the network source creator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the network source creator.
@@ -140,5 +140,4 @@ Shuts down the network source creator.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>

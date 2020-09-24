@@ -126,7 +126,7 @@ For the following flags, the method returns the value OATRUE or OAFALSE in the <
 </tr>
 <tr>
 <td>ED_DEVCAP_NEEDS_CALIBRATING</td>
-<td>Device needs calibrating. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-calibrate">IAMExtDevice::Calibrate</a>.</td>
+<td>Device needs calibrating. See <a href="/windows/desktop/api/strmif/nf-strmif-iamextdevice-calibrate">IAMExtDevice::Calibrate</a>.</td>
 </tr>
 <tr>
 <td>ED_DEVCAP_TIMECODE_READ</td>
@@ -350,7 +350,7 @@ In Windows XP Service Pack 2 and later, the following additional flags are suppo
 To use these constants, include the header file Xprtdefs.h.
 
 <h3><a id="DV_Implementation"></a><a id="dv_implementation"></a><a id="DV_IMPLEMENTATION"></a>DV Implementation</h3>
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> and UVC drivers support the following behaviors.
+The <a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> and UVC drivers support the following behaviors.
 
 The ED_DEVCAP_NORMAL_RATE flag returns the frame rate.
 
@@ -370,7 +370,7 @@ The ED_DEVCAP_NORMAL_RATE flag returns the frame rate.
 </table>
  
 
-For MSDV only, the ED_DEVCAP_DEVICE_TYPE flag returns the device type. Possible values are shown in the following table.  For UVC devices, use the <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo</a> interface instead.
+For MSDV only, the ED_DEVCAP_DEVICE_TYPE flag returns the device type. Possible values are shown in the following table.  For UVC devices, use the <a href="/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo</a> interface instead.
 
 <table>
 <tr>
@@ -397,9 +397,8 @@ For MSDV only, the ED_DEVCAP_DEVICE_TYPE flag returns the device type. Possible 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice Interface</a>

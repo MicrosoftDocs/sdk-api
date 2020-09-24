@@ -135,7 +135,7 @@ Hexadecimal only format.
 </dl>
 </td>
 <td width="60%">
-Hexadecimal format with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> character display.
+Hexadecimal format with <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> character display.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ Tries the following, in order:
 </dl>
 </td>
 <td width="60%">
-Base64, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) beginning and ending headers.
+Base64, with <a href="/windows/desktop/SecGloss/x-gly">X.509</a> <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) beginning and ending headers.
 
 </td>
 </tr>
@@ -264,7 +264,7 @@ A pointer to a buffer that receives the returned sequence of bytes. If this para
 
 ### -param pcbBinary [in, out]
 
-A pointer to a <b>DWORD</b> variable that, on entry, contains the size, in bytes, of the <i>pbBinary</i> buffer. After the function returns, this variable contains the number of bytes copied to the buffer. If this value is not large enough to contain all of the data, the function fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_MORE_DATA</b>.
+A pointer to a <b>DWORD</b> variable that, on entry, contains the size, in bytes, of the <i>pbBinary</i> buffer. After the function returns, this variable contains the number of bytes copied to the buffer. If this value is not large enough to contain all of the data, the function fails and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_MORE_DATA</b>.
 
 If <i>pbBinary</i> is <b>NULL</b>, the <b>DWORD</b> pointed to by <i>pcbBinary</i> is ignored.
 
@@ -337,10 +337,9 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa">CryptBinaryToString</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa">CryptBinaryToString</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wincrypt.h header defines CryptStringToBinary as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

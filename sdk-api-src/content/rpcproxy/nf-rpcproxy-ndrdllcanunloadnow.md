@@ -56,9 +56,8 @@ The <b>NdrDllCanUnloadNow</b> function determines whether the DLL that implement
 
 ### -param pPSFactoryBuffer [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">CStdPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">CStdPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
 
 ## -returns
 
 Returns S_OK if the DLL can be unloaded. Otherwise, it returns S_FALSE if the DLL cannot be unloaded.
-

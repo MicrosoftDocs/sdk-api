@@ -105,33 +105,32 @@ The <b>SetArcDirection</b> function specifies the direction in which the followi
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-chord">Chord</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-chord">Chord</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-pie">Pie</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-pie">Pie</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rectangle">Rectangle</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rectangle">Rectangle</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-roundrect">RoundRect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-roundrect">RoundRect</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
-
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>

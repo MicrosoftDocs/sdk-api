@@ -53,19 +53,18 @@ api_name:
 ## -description
 
 The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION0</b> structure stores information needed for pre-shared key authentication.
-[IKEEXT_PRESHARED_KEY_AUTHENTICATION1](/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication1) is available.</div><div> </div>
+[IKEEXT_PRESHARED_KEY_AUTHENTICATION1](./ns-iketypes-ikeext_certificate_authentication1.md) is available.</div><div> </div>
 
 ## -struct-fields
 
 ### -field presharedKey
 
-The pre-shared key specified by [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob).
+The pre-shared key specified by [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob).
 
 ## -see-also
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

@@ -96,9 +96,8 @@ Could not create the error object.
 
 ## -remarks
 
-This function returns a pointer to a generic error object, which you can use with <b>QueryInterface</b> on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a> to set its contents. You can then pass the resulting object to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>. The generic error object implements both <b>ICreateErrorInfo</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>.
+This function returns a pointer to a generic error object, which you can use with <b>QueryInterface</b> on <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a> to set its contents. You can then pass the resulting object to <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>. The generic error object implements both <b>ICreateErrorInfo</b> and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/error-handling-api-functions">Error-Handling API Functions</a>
-
+<a href="/previous-versions/windows/desktop/automat/error-handling-api-functions">Error-Handling API Functions</a>

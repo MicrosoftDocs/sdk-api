@@ -60,7 +60,7 @@ This method limits query results to only function instances with a property key 
 
 ### -param Key [in]
 
-The property key (PKEY) for the constraint. For more information about PKEYs, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/key-definitions">Key Definitions</a>.
+The property key (PKEY) for the constraint. For more information about PKEYs, see <a href="/previous-versions/windows/desktop/fundisc/key-definitions">Key Definitions</a>.
 
 ### -param pv [in]
 
@@ -149,9 +149,8 @@ If multiple constraints are added, all constraints must be supported to satisfy 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
+<a href="/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollectionquery">IFunctionInstanceCollectionQuery</a>
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollectionquery">IFunctionInstanceCollectionQuery</a>

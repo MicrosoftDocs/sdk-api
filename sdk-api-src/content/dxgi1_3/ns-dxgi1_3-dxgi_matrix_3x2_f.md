@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents a 3x2 matrix. Used with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmatrixtransform">GetMatrixTransform</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmatrixtransform">SetMatrixTransform</a> to indicate the scaling and translation transform for <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.swapchainpanel0">SwapChainPanel</a> swap chains.
+Represents a 3x2 matrix. Used with <a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmatrixtransform">GetMatrixTransform</a> and <a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmatrixtransform">SetMatrixTransform</a> to indicate the scaling and translation transform for <a href="/uwp/api/windows.ui.xaml.controls.swapchainpanel0">SwapChainPanel</a> swap chains.
 
 ## -struct-fields
 
@@ -80,5 +80,4 @@ The value in the third row and second column of the matrix.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>

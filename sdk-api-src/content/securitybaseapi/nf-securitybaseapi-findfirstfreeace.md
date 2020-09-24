@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-The <b>FindFirstFreeAce</b> function retrieves a pointer to the first free byte in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
+The <b>FindFirstFreeAce</b> function retrieves a pointer to the first free byte in an <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 ## -parameters
 
@@ -76,21 +76,20 @@ If the function succeeds, the function returns nonzero.
       
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace">GetAce</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace">GetAce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation">GetAclInformation</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation">GetAclInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>

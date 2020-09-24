@@ -50,25 +50,24 @@ api_name:
 
 ## -description
 
-Gets the state for a specified group. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getgroupstate">LVM_GETGROUPSTATE</a> message explicitly.
+Gets the state for a specified group. Use this macro or send the <a href="/windows/desktop/Controls/lvm-getgroupstate">LVM_GETGROUPSTATE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param dwGroupId [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the group by <b>iGroupId</b> (see  <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a> structure).
+Specifies the group by <b>iGroupId</b> (see  <a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a> structure).
 
 ### -param dwMask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the state values to retrieve. This is a combination of the flags listed for the <b>state</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>.
-
+Specifies the state values to retrieve. This is a combination of the flags listed for the <b>state</b> member of <a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>.

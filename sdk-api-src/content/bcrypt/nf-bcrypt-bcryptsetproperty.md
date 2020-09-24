@@ -61,7 +61,7 @@ A handle that represents the CNG object to set the property value for.
 
 ### -param pszProperty [in]
 
-A pointer to a null-terminated Unicode string that contains the name of the property to set. This can be one of the predefined <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a> or a custom property identifier.
+A pointer to a null-terminated Unicode string that contains the name of the property to set. This can be one of the predefined <a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a> or a custom property identifier.
 
 ### -param pbInput [in]
 
@@ -137,7 +137,6 @@ The named property specified by the <i>pszProperty</i> parameter is not supporte
 
 ## -remarks
 
-Depending on what processor modes a provider supports, <b>BCryptSetProperty</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, any pointers passed to <b>BCryptSetProperty</b> must refer to nonpaged (or locked) memory. If the object specified in the <i>hObject</i> parameter is a handle, it must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
+Depending on what processor modes a provider supports, <b>BCryptSetProperty</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, any pointers passed to <b>BCryptSetProperty</b> must refer to nonpaged (or locked) memory. If the object specified in the <i>hObject</i> parameter is a handle, it must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
-

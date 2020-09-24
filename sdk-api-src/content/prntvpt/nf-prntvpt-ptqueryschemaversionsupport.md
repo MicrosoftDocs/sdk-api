@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the highest (latest) version of the <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a> that the specified printer supports.
+Retrieves the highest (latest) version of the <a href="/windows/desktop/printdocs/printschema">Print Schema</a> that the specified printer supports.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ A pointer to the highest version.
 
 If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b> contains an error code.
 
-For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 ## -remarks
 
@@ -79,13 +79,12 @@ The first version of the Print Schema was released with Windows Vista and is ver
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
+<a href="/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

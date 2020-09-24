@@ -64,9 +64,8 @@ Callers of <b>EngGetCurrentProcessId</b> should treat the returned ID as a read-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetcurrentthreadid">EngGetCurrentThreadId</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-enggetcurrentthreadid">EngGetCurrentThreadId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetprocesshandle">EngGetProcessHandle</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-enggetprocesshandle">EngGetProcessHandle</a>

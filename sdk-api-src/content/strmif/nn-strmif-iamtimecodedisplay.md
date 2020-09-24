@@ -59,11 +59,11 @@ This interface is not intended for rendering in a DirectShow filter graph; it is
 
 <b>Hardware Requirements</b>
 
-See the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport</a> interface for hardware requirements.
+See the <a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport</a> interface for hardware requirements.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeDisplay</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeDisplay</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeDisplay</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeDisplay</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IAMTimecodeDisplay</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplay">GetTCDisplay</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplay">GetTCDisplay</a>
 </td>
 <td align="left" width="63%">
 Retrieves current settings of the timecode character generator output.
@@ -87,7 +87,7 @@ Retrieves current settings of the timecode character generator output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplayenable">GetTCDisplayEnable</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplayenable">GetTCDisplayEnable</a>
 </td>
 <td align="left" width="63%">
 Determines whether an external device's timecode character generator output is enabled or disabled.
@@ -96,7 +96,7 @@ Determines whether an external device's timecode character generator output is e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-settcdisplay">SetTCDisplay</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-settcdisplay">SetTCDisplay</a>
 </td>
 <td align="left" width="63%">
 Sets the timecode character generator output characteristics.
@@ -105,7 +105,7 @@ Sets the timecode character generator output characteristics.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-settcdisplayenable">SetTCDisplayEnable</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-settcdisplayenable">SetTCDisplayEnable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables an external device's timecode character output generator.
@@ -113,4 +113,3 @@ Enables or disables an external device's timecode character output generator.
 </td>
 </tr>
 </table>
-

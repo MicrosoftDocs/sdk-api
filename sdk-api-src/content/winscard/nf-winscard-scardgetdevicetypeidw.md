@@ -58,15 +58,15 @@ The <b>SCardGetDeviceTypeId</b> function gets the device type identifier of the 
 
 ### -param hContext [in]
 
-Handle that identifies the resource manager context for the query. You can set the resource manager context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. This parameter cannot be NULL.
+Handle that identifies the resource manager context for the query. You can set the resource manager context by calling the <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. This parameter cannot be NULL.
 
 ### -param szReaderName [in]
 
-Reader name. You can get this value by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a> function.
+Reader name. You can get this value by calling the <a href="/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a> function.
 
 ### -param pdwDeviceTypeId [in, out]
 
-The actual device type identifier. The list of reader types returned by this function are listed under <b>ReaderType</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/smclib/ns-smclib-_scard_reader_capabilities">SCARD_READER_CAPABILITIES</a> structure.
+The actual device type identifier. The list of reader types returned by this function are listed under <b>ReaderType</b> member in the <a href="/windows-hardware/drivers/ddi/content/smclib/ns-smclib-_scard_reader_capabilities">SCARD_READER_CAPABILITIES</a> structure.
 
 ## -returns
 
@@ -96,7 +96,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -106,4 +106,3 @@ An error code. For more information, see
 
 > [!NOTE]
 > The winscard.h header defines SCardGetDeviceTypeId as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

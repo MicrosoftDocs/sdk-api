@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IATSCTuningSpace</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsctuningspace-object">ATSCTuningSpace</a> objects, which represent any tuning space with an ATSC network type. Microsoft provides a default ATSC tuning space with Windows XP, and also with DirectX 9.0. Third parties such as cable providers may install a custom tuning space using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer</a> interface. An ATSCTuningSpace object creates tune requests that expose <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatscchanneltunerequest">IATSCChannelTuneRequest</a>.
+The <b>IATSCTuningSpace</b> interface is implemented on <a href="/previous-versions/windows/desktop/mstv/atsctuningspace-object">ATSCTuningSpace</a> objects, which represent any tuning space with an ATSC network type. Microsoft provides a default ATSC tuning space with Windows XP, and also with DirectX 9.0. Third parties such as cable providers may install a custom tuning space using the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer</a> interface. An ATSCTuningSpace object creates tune requests that expose <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatscchanneltunerequest">IATSCChannelTuneRequest</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCTuningSpace</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace</a>. <b>IATSCTuningSpace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace</a>. <b>IATSCTuningSpace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IATSCTuningSpace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-get_maxminorchannel">get_MaxMinorChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-get_maxminorchannel">get_MaxMinorChannel</a>
 </td>
 <td align="left" width="63%">
 Gets the highest minor channel number for this tuning space.
@@ -78,7 +78,7 @@ Gets the highest minor channel number for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-get_maxphysicalchannel">get_MaxPhysicalChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-get_maxphysicalchannel">get_MaxPhysicalChannel</a>
 </td>
 <td align="left" width="63%">
 Gets the highest physical channel number ever allowed for this tuning space.
@@ -87,7 +87,7 @@ Gets the highest physical channel number ever allowed for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-get_minminorchannel">get_MinMinorChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-get_minminorchannel">get_MinMinorChannel</a>
 </td>
 <td align="left" width="63%">
 Gets the lowest minor channel number ever allowed for this tuning space.
@@ -96,7 +96,7 @@ Gets the lowest minor channel number ever allowed for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-get_minphysicalchannel">get_MinPhysicalChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-get_minphysicalchannel">get_MinPhysicalChannel</a>
 </td>
 <td align="left" width="63%">
 Gets the lowest physical channel number ever allowed for this tuning space.
@@ -105,7 +105,7 @@ Gets the lowest physical channel number ever allowed for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-put_maxminorchannel">put_MaxMinorChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-put_maxminorchannel">put_MaxMinorChannel</a>
 </td>
 <td align="left" width="63%">
 Sets the highest minor channel number for this tuning space.
@@ -114,7 +114,7 @@ Sets the highest minor channel number for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-put_maxphysicalchannel">put_MaxPhysicalChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-put_maxphysicalchannel">put_MaxPhysicalChannel</a>
 </td>
 <td align="left" width="63%">
 Sets the highest physical channel number ever allowed for this tuning space.
@@ -123,7 +123,7 @@ Sets the highest physical channel number ever allowed for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-put_minminorchannel">put_MinMinorChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-put_minminorchannel">put_MinMinorChannel</a>
 </td>
 <td align="left" width="63%">
 Sets the lowest minor channel number ever allowed for this tuning space.
@@ -132,7 +132,7 @@ Sets the lowest minor channel number ever allowed for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-put_minphysicalchannel">put_MinPhysicalChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsctuningspace-put_minphysicalchannel">put_MinPhysicalChannel</a>
 </td>
 <td align="left" width="63%">
 Sets the lowest physical channel number ever allowed for this tuning space.
@@ -145,15 +145,14 @@ Sets the lowest physical channel number ever allowed for this tuning space.
 
 If the minimum and maximum channels are set, and the user specifies a channel that is greater than the maximum, the tuner automatically wraps around to the minimum value.
 
-To set the minimum and maximum major channel, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-put_minchannel">IAnalogTVTuningSpace::put_MinChannel</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-put_maxchannel">IAnalogTVTuningSpace::put_MaxChannel</a>.
+To set the minimum and maximum major channel, call <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-put_minchannel">IAnalogTVTuningSpace::put_MinChannel</a> and <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-put_maxchannel">IAnalogTVTuningSpace::put_MaxChannel</a>.
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IATSCTuningSpace)</code>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

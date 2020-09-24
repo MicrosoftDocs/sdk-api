@@ -45,7 +45,7 @@ Provides data for calls to [ID3D11VideoDevice2::CheckFeatureSupport](nf-d3d11_4-
 
 ### -field DecoderDesc
 
-A [D3D11_VIDEO_DECODER_DESC](/windows/win32/api/d3d11/ns-d3d11-d3d11_video_decoder_desc) structure containing the decoder description for the decoder to be used with decode histogram.
+A [D3D11_VIDEO_DECODER_DESC](../d3d11/ns-d3d11-d3d11_video_decoder_desc.md) structure containing the decoder description for the decoder to be used with decode histogram.
 
 ### -field Components
 
@@ -64,4 +64,3 @@ The bit depth of the bin counter.  The counter is always stored in a 32-bit valu
 ## -see-also
 
 [ID3D11VideoDevice2::CheckFeatureSupport](nf-d3d11_4-id3d11videodevice2-checkfeaturesupport.md)
-

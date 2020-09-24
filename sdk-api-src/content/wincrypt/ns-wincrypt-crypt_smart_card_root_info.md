@@ -60,15 +60,14 @@ The <b>CRYPT_SMART_CARD_ROOT_INFO</b> structure contains the smart card and sess
 
 ### -field rgbCardID
 
-An array of bytes that specify the smart card IDs retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function with the <i>dwParam</i> parameter set to <b>PP_SMARTCARD_GUID</b>.
+An array of bytes that specify the smart card IDs retrieved by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function with the <i>dwParam</i> parameter set to <b>PP_SMARTCARD_GUID</b>.
 
 ### -field luid
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-root_info_luid">ROOT_INFO_LUID</a> structure that specifies a session authentication ID from an access token.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-root_info_luid">ROOT_INFO_LUID</a> structure that specifies a session authentication ID from an access token.
 
 ## -remarks
 
-The <b>luid</b> member value comes from the <b>AuthenticationId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a> structure retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function.
+The <b>luid</b> member value comes from the <b>AuthenticationId</b> member of the <a href="/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a> structure retrieved by calling the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function.
 
-A certificate context can include an array of multiple <b>CRYPT_SMART_CARD_ROOT_INFO</b> structures, one for each <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>) that the certificate propagation service has added to a root certificate.
-
+A certificate context can include an array of multiple <b>CRYPT_SMART_CARD_ROOT_INFO</b> structures, one for each <a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>) that the certificate propagation service has added to a root certificate.

@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Represents a video output for an <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) session.
+Represents a video output for an <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) session.
 
 To get a pointer to this interface, call one of the following functions:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromidirect3ddevice9object">OPMGetVideoOutputsFromIDirect3DDevice9Object</a>
+<a href="/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromidirect3ddevice9object">OPMGetVideoOutputsFromIDirect3DDevice9Object</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromhmonitor">OPMGetVideoOutputsFromHMONITOR</a>
+<a href="/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromhmonitor">OPMGetVideoOutputsFromHMONITOR</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOPMVideoOutput</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOPMVideoOutput</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOPMVideoOutput</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOPMVideoOutput</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IOPMVideoOutput</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure">Configure</a>
+<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure">Configure</a>
 </td>
 <td align="left" width="63%">
 Configures a video output.
@@ -88,7 +88,7 @@ Configures a video output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">COPPCompatibleGetInformation</a>
+<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">COPPCompatibleGetInformation</a>
 </td>
 <td align="left" width="63%">
 Sends a status request to the display driver. Use this method when OPM is emulating Certified Output Protection Manager (COPP).
@@ -99,7 +99,7 @@ Sends a status request to the display driver. Use this method when OPM is emulat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization">FinishIntialization</a>
+<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization">FinishIntialization</a>
 </td>
 <td align="left" width="63%">
 Completes the initialization sequence for an OPM session.
@@ -108,7 +108,7 @@ Completes the initialization sequence for an OPM session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation">GetInformation</a>
+<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation">GetInformation</a>
 </td>
 <td align="left" width="63%">
 Sends a status request to the display driver.
@@ -119,7 +119,7 @@ Sends a status request to the display driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-startinitialization">StartInitialization</a>
+<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-startinitialization">StartInitialization</a>
 </td>
 <td align="left" width="63%">
 Begins the initialization sequence for an OPM session.
@@ -130,13 +130,12 @@ Begins the initialization sequence for an OPM session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-interfaces">OPM Interfaces</a>
+<a href="/windows/desktop/medfound/opm-interfaces">OPM Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

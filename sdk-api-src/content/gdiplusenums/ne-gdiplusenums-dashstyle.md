@@ -82,5 +82,4 @@ Specifies a user-defined, custom dashed line.
 ## -remarks
 
 A custom dashed line is created by calling the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashpattern">Pen::SetDashPattern</a> method, which takes an array of values for the dash lengths and the space lengths.
-
+				<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashpattern">Pen::SetDashPattern</a> method, which takes an array of values for the dash lengths and the space lengths.

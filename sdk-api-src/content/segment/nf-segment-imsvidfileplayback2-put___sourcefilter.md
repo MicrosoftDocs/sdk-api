@@ -87,9 +87,8 @@ The method succeeded.
 
 ## -remarks
 
-If the CLSID is GUID_NULL, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfileplaybackdevice">MSVidFilePlaybackDevice</a> object uses the default source filter for the file name given in <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfileplayback-put_filename">IMSVidFilePlayback::put_FileName</a>.
+If the CLSID is GUID_NULL, the <a href="/previous-versions/windows/desktop/mstv/msvidfileplaybackdevice">MSVidFilePlaybackDevice</a> object uses the default source filter for the file name given in <a href="/windows/desktop/api/segment/nf-segment-imsvidfileplayback-put_filename">IMSVidFilePlayback::put_FileName</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidfileplayback2">IMSVidFilePlayback2 Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback2">IMSVidFilePlayback2 Interface</a>

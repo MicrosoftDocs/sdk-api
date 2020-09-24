@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>CanUserWritePwrScheme</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications written for Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> instead.]
+<p class="CCE_Message">[<b>CanUserWritePwrScheme</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications written for Windows Vista and later should use <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> instead.]
 
 Determines whether the current user has sufficient privilege to write a power scheme.
 
@@ -61,7 +61,7 @@ Determines whether the current user has sufficient privilege to write a power sc
 If the current user has sufficient privilege to write a power scheme, the function returns <b>TRUE</b>.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
 
 <table>
 <tr>
@@ -85,17 +85,16 @@ The current user does not have sufficient privilege to write a power scheme.
 
 This function is useful if your application is impersonating a user.
 
-For more information on using PowrProf.h, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>.
+For more information on using PowrProf.h, see <a href="/windows/desktop/Power/power-schemes">Power Schemes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>
+<a href="/windows/desktop/Power/power-schemes">Power Schemes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-writepwrscheme">WritePwrScheme</a>
-
+<a href="/windows/desktop/api/powrprof/nf-powrprof-writepwrscheme">WritePwrScheme</a>

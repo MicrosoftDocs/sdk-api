@@ -93,7 +93,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -105,17 +105,16 @@ A persistent unique identifier is used to uniquely identify content stored on a 
 
 This method allows searching for a storage based on persistent unique identifier while <b>IMDSPStorage2::GetStorage</b> allows searching for a storage based on name.
 
-Windows Media Device Manager calls this method only for devices that can be synchronized with Windows Media Player. See <a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a> for more information.
+Windows Media Device Manager calls this method only for devices that can be synchronized with Windows Media Player. See <a href="/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a>
+<a href="/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getstorage">IMDSPStorage2::GetStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getstorage">IMDSPStorage2::GetStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the type of identities to enumerate. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-getidentityenum">IIdentityProvider::GetIdentityEnum</a> and <a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-enumerateidentities">IIdentityStore::EnumerateIdentities</a> methods.
+Specifies the type of identities to enumerate. This enumeration is used by the <a href="/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-getidentityenum">IIdentityProvider::GetIdentityEnum</a> and <a href="/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-enumerateidentities">IIdentityStore::EnumerateIdentities</a> methods.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ Enumerate all identities.
 ### -field IDENTITIES_ME_ONLY
 
 Enumerate only identities associated with the current user.
-

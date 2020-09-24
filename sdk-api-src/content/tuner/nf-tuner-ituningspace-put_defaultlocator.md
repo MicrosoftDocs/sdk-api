@@ -56,7 +56,7 @@ The <b>put_DefaultLocator</b> method sets the default locator for this tuning sp
 
 ### -param LocatorVal [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> interface of the locator object.
+Pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> interface of the locator object.
 
 ## -returns
 
@@ -64,11 +64,10 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_defaultlocator">ITuningSpace::get_DefaultLocator</a> for more information about the default locator.
+See <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_defaultlocator">ITuningSpace::get_DefaultLocator</a> for more information about the default locator.
 
-For DVB tuning spaces, the sytem type (cable, terrestrial, or satelite) of the tuning space must match the locator object. Otherwise, the method returns DISP_E_TYPEMISMATCH. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace-put_systemtype">IDVBTuningSpace::put_SystemType</a>.
+For DVB tuning spaces, the sytem type (cable, terrestrial, or satelite) of the tuning space must match the locator object. Otherwise, the method returns DISP_E_TYPEMISMATCH. For more information, see <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace-put_systemtype">IDVBTuningSpace::put_SystemType</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>

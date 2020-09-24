@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is in ink mode, deletion mode, or selecting/editing mode.
+Gets or sets a value that specifies whether the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is in ink mode, deletion mode, or selecting/editing mode.
 
 
 
@@ -65,9 +65,9 @@ This property is read/write.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> objects generate an error if you change the <b>EditingMode</b> property while ink is being collected. To avoid this conflict, make sure the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink">CollectingInk</a> property is <b>FALSE</b> before changing the <b>EditingMode</b> property.
+The <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> and <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> objects generate an error if you change the <b>EditingMode</b> property while ink is being collected. To avoid this conflict, make sure the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink">CollectingInk</a> property is <b>FALSE</b> before changing the <b>EditingMode</b> property.
 
-For more information about erasing ink, see <a href="https://docs.microsoft.com/windows/desktop/tablet/erasing-ink-with-the-pen">Erasing Ink with the Pen</a>.
+For more information about erasing ink, see <a href="/windows/desktop/tablet/erasing-ink-with-the-pen">Erasing Ink with the Pen</a>.
 
 ## -see-also
 
@@ -75,5 +75,4 @@ For more information about erasing ink, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
-
+<a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>

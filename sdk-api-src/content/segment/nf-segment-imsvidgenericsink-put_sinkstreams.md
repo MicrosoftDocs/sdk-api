@@ -69,5 +69,4 @@ Returns E_NOTIMPL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidgenericsink">IMSVidGenericSink Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidgenericsink">IMSVidGenericSink Interface</a>

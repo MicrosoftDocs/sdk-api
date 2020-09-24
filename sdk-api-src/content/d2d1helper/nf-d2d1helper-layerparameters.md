@@ -50,33 +50,33 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a> structure.
+Creates a <a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a> structure.
 
 ## -parameters
 
 ### -param contentBounds [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
-The content bounds of the layer. Content outside these bounds is not guaranteed to render.  The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-infiniterect">D2D1::InfiniteRect</a>.
+The content bounds of the layer. Content outside these bounds is not guaranteed to render.  The default value is <a href="/windows/desktop/api/d2d1helper/nf-d2d1helper-infiniterect">D2D1::InfiniteRect</a>.
 
 ### -param geometricMask [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
 
 A mask that specifies the area of the  layer that is composited into the render target, or <b>NULL</b>. The default value is <b>NULL</b>.
 
 ### -param maskAntialiasMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE</a></b>
 
-A value that specifies the antialiasing mode for the  geometric mask. The default value is   <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE_PER_PRIMITIVE</a>.
+A value that specifies the antialiasing mode for the  geometric mask. The default value is   <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE_PER_PRIMITIVE</a>.
 
 ### -param maskTransform
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
-A value that specifies the transform that is applied to the geometric mask when composing the layer. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-identitymatrix">D2D1::IdentityMatrix</a>.
+A value that specifies the transform that is applied to the geometric mask when composing the layer. The default value is <a href="/windows/desktop/api/d2d1helper/nf-d2d1helper-identitymatrix">D2D1::IdentityMatrix</a>.
 
 ### -param opacity
 
@@ -86,40 +86,39 @@ An opacity that is applied uniformly to all resources in the layer when composit
 
 ### -param opacityBrush
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 A brush that is used to alter the opacity of the layer. The brush 
 is mapped to the layer, and the alpha channel of each mapped brush pixel is multiplied by the corresponding layer pixel.  The default value is <b>NULL</b>.
 
 ### -param layerOptions
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options">D2D1_LAYER_OPTIONS</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options">D2D1_LAYER_OPTIONS</a></b>
 
-A value that specifies whether the layer intends to render text with ClearType antialiasing. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options">D2D1_LAYER_OPTIONS_NONE</a>.
+A value that specifies whether the layer intends to render text with ClearType antialiasing. The default value is <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options">D2D1_LAYER_OPTIONS_NONE</a>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a></b>
 
 A structure that contains the content bounds, mask information, opacity settings, and other options for a layer resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE</a>
+<a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options">D2D1_LAYER_OPTIONS</a>
+<a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options">D2D1_LAYER_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a>
+<a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-layers-overview">Layers Overview</a>
-
+<a href="/windows/desktop/Direct2D/direct2d-layers-overview">Layers Overview</a>

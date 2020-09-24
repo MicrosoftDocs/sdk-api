@@ -56,11 +56,11 @@ Retrieves multiple sensor properties.
 
 ### -param pKeys [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms739549(VS.85).aspx">IPortableDeviceKeyCollection</a> interface containing the <b>PROPERTYKEY</b> collection for the property values being requested. Set to <b>NULL</b> to retrieve all supported properties.
+Pointer to an <a href="/previous-versions//ms739549(v=vs.85)">IPortableDeviceKeyCollection</a> interface containing the <b>PROPERTYKEY</b> collection for the property values being requested. Set to <b>NULL</b> to retrieve all supported properties.
 
 ### -param ppProperties [out]
 
-Address of an <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> pointer that receives the pointer to the requested property values.
+Address of an <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceValues</a> pointer that receives the pointer to the requested property values.
 
 ## -returns
 
@@ -89,7 +89,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The sensor driver does not support at least one of the specified properties. Each unsupported property <b>PROPVARIANT</b> returned through the <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface will have its error value set to <b>HRESULT_FROM_WIN32 
+The sensor driver does not support at least one of the specified properties. Each unsupported property <b>PROPVARIANT</b> returned through the <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceValues</a> interface will have its error value set to <b>HRESULT_FROM_WIN32 
 (ERROR_NOT_FOUND)</b>.
 
 
@@ -110,26 +110,25 @@ NULL was passed in for ppProperties.
 
 ## -remarks
 
-This method enables you to retrieve the values of multiple properties, such as the sensor make, model, and serial number, by making a single call. To retrieve a single property, call <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperty">ISensor::GetProperty</a>.
+This method enables you to retrieve the values of multiple properties, such as the sensor make, model, and serial number, by making a single call. To retrieve a single property, call <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperty">ISensor::GetProperty</a>.
 
 The <b>IPortableDeviceKeyCollection</b> and <b>IPortableDeviceValues</b> interfaces are defined by the Windows Portable Devices API. 
 
 
 #### Examples
 
-For an example of how to retrieve properties from a sensor,  see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/setting-and-retrieving-sensor-properties">Setting and Retrieving Sensor Properties</a>.
+For an example of how to retrieve properties from a sensor,  see <a href="/windows/desktop/SensorsAPI/setting-and-retrieving-sensor-properties">Setting and Retrieving Sensor Properties</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/sensor-properties">Sensor Properties</a>
+<a href="/windows/desktop/SensorsAPI/sensor-properties">Sensor Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-setproperties">SetProperties</a>
-
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-setproperties">SetProperties</a>

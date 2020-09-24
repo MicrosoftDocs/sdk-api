@@ -47,8 +47,6 @@ api_name:
  - AddERExcludedApplicationW
 ---
 
-# AddERExcludedApplicationW function
-
 ## -description
 
 [The AddERExcludedApplication function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [WerAddExcludedApplication function](../werapi/nf-werapi-weraddexcludedapplication.md).]

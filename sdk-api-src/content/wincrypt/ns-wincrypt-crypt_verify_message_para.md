@@ -64,7 +64,7 @@ Size of this structure in bytes.
 
 ### -field dwMsgAndCertEncodingType
 
-Type of encoding used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Type of encoding used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -79,17 +79,17 @@ Currently defined encoding types are:
 
 This member is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> to be used to verify a signed message. The CSP identified by this handle is used for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing</a> and for signature verification.Unless there is a strong reason for using a specific cryptographic provider, set to  zero to use the default RSA or DSS provider.
+<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> to be used to verify a signed message. The CSP identified by this handle is used for <a href="/windows/desktop/SecGloss/h-gly">hashing</a> and for signature verification.Unless there is a strong reason for using a specific cryptographic provider, set to  zero to use the default RSA or DSS provider.
 
 This member's data type is <b>HCRYPTPROV</b>.
 
 ### -field pfnGetSignerCertificate
 
-A pointer to the callback function used to get the signer's certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>. If <b>NULL</b>, the default callback is used. The default callback tries to get the signer <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> from the message's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
+A pointer to the callback function used to get the signer's certificate <a href="/windows/desktop/SecGloss/c-gly">context</a>. If <b>NULL</b>, the default callback is used. The default callback tries to get the signer <a href="/windows/desktop/SecGloss/c-gly">certificate context</a> from the message's <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 An application defined–callback function that gets the signer's certificate can be used in place of the default. It is passed the certificate identifier of the signer (its issuer and serial number) and a handle to its cryptographic signed message's certificate store.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_get_signer_certificate">CryptGetSignerCertificateCallback</a> for the callback functions signature and arguments.
+See <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_get_signer_certificate">CryptGetSignerCertificateCallback</a> for the callback functions signature and arguments.
 
 ### -field pvGetArg
 
@@ -97,7 +97,7 @@ Argument to pass to the callback function. Typically, this gets and verifies the
 
 ### -field pStrongSignPara
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains parameters used for strong signing. If you set this member and the function successfully verifies the signature, the function will then check for a strong signature. If the signature is not strong, the operation will fail and set the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> value to <b>NTE_BAD_ALGID</b>.
+Optional pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains parameters used for strong signing. If you set this member and the function successfully verifies the signature, the function will then check for a strong signature. If the signature is not strong, the operation will fail and set the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> value to <b>NTE_BAD_ALGID</b>.
 
 <div class="alert"><b>Note</b>  You can use the <b>pStrongSignPara</b> member  only if <b>CRYPT_VERIFY_MESSAGE_PARA_HAS_EXTRA_FIELDS</b> is defined by using the <b>#define</b> directive before including Wincrypt.h. If <b>CRYPT_VERIFY_MESSAGE_PARA_HAS_EXTRA_FIELDS</b> is defined, you must zero all unused fields.</div>
 <div> </div>
@@ -109,36 +109,35 @@ This structure is passed to the following functions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage">CryptDecodeMessage</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage">CryptDecodeMessage</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>

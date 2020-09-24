@@ -88,13 +88,12 @@ If this method retrieves an empty string, the Windows Media Player ActiveX contr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">About MMDevice API</a>
+<a href="/windows/desktop/CoreAudio/mmdevice-api">About MMDevice API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig">IWMPAudioRenderConfig</a>
-
+<a href="/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig">IWMPAudioRenderConfig</a>

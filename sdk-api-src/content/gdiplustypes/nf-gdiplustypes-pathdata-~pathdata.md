@@ -4,7 +4,7 @@ title: PathData::~PathData
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: Destructor for the [**PathData**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-pathdata) class.
+description: Destructor for the [**PathData**](./nl-gdiplustypes-pathdata.md) class.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,8 @@ dev_langs:
 
 ## -description
 
-Destructor for the [**PathData**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-pathdata) class.
+Destructor for the [**PathData**](./nl-gdiplustypes-pathdata.md) class.
 
 ## -remarks
 
 ## -see-also
-

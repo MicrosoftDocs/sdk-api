@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 Initiates a mirror operation for a virtual disk.  Once the mirroring operation is initiated 
-    it will not complete until either <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a> or 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> is called to cancel all I/O on the 
+    it will not complete until either <a href="/windows/desktop/FileIO/cancelio">CancelIo</a> or 
+    <a href="/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> is called to cancel all I/O on the 
     <i>VirtualDiskHandle</i>, leaving the original file as the current  or 
     <a href="/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">BreakMirrorVirtualDisk</a> is called to stop using 
     the original file and only use the mirror. 
@@ -109,7 +109,7 @@ Address of a
 ### -param Overlapped [in]
 
 Address of an 
-     <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>structure. This parameter is required.
+     <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>structure. This parameter is required.
 
 ## -returns
 
@@ -118,7 +118,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -see-also
 
@@ -130,5 +130,4 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>

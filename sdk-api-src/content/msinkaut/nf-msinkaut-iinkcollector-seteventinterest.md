@@ -120,21 +120,21 @@ An exception occurred during processing.
 
 ## -remarks
 
-All ink collector events can be toggled by using this method. Most of these events are turned off by default for performance reasons. The only events that are on by default are <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange</a>, and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a>.
+All ink collector events can be toggled by using this method. Most of these events are turned off by default for performance reasons. The only events that are on by default are <a href="/windows/desktop/tablet/inkcollector-stroke">Stroke</a>, <a href="/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange</a>, and <a href="/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a>.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newpackets">NewPackets</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newinairpackets">NewInAirPackets</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursordown">CursorDown</a> events carefully, in particular because they may have an adverse effect on ink performance if too much code is executed in the event handlers.
+Use the <a href="/windows/desktop/tablet/inkcollector-newpackets">NewPackets</a>, <a href="/windows/desktop/tablet/inkcollector-newinairpackets">NewInAirPackets</a> and <a href="/windows/desktop/tablet/inkcollector-cursordown">CursorDown</a> events carefully, in particular because they may have an adverse effect on ink performance if too much code is executed in the event handlers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursordown">CursorDown Event</a>
+<a href="/windows/desktop/tablet/inkcollector-cursordown">CursorDown Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange Event</a>
+<a href="/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-geteventinterest">GetEventInterest Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-geteventinterest">GetEventInterest Method</a>
 
 
 
@@ -142,17 +142,16 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
+<a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newpackets">NewPackets Event</a>
+<a href="/windows/desktop/tablet/inkcollector-newpackets">NewPackets Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke Event</a>
-
+<a href="/windows/desktop/tablet/inkcollector-stroke">Stroke Event</a>

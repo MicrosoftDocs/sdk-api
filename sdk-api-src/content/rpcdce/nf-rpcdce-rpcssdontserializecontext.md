@@ -71,26 +71,25 @@ It is recommended that, if your distributed application invokes the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/multithreaded-clients-and-context-handles">Multithreaded Clients and Context Handles</a>
+<a href="/windows/desktop/Rpc/multithreaded-clients-and-context-handles">Multithreaded Clients and Context Handles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcsscontextlockexclusive">RpcSsContextLockExclusive</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcsscontextlockexclusive">RpcSsContextLockExclusive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcsscontextlockshared">RpcSsContextLockShared</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcsscontextlockshared">RpcSsContextLockShared</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/server-context-run-down-routine">Server
+<a href="/windows/desktop/Rpc/server-context-run-down-routine">Server
 		  Context Run-down Routine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/context-handle-noserialize">context_handle_noserialize</a>
+<a href="/windows/desktop/Midl/context-handle-noserialize">context_handle_noserialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/context-handle-serialize">context_handle_serialize</a>
-
+<a href="/windows/desktop/Midl/context-handle-serialize">context_handle_serialize</a>

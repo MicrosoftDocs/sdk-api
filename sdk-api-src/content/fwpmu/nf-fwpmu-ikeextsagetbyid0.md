@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>IkeextSaGetById0</b> function retrieves an IKE/AuthIP security association (SA) from the database.
-<div class="alert"><b>Note</b>  <b>IkeextSaGetById0</b> is the specific implementation of IkeextSaGetById used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsagetbyid1">IkeextSaGetById1</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsagetbyid2">IkeextSaGetById2</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IkeextSaGetById0</b> is the specific implementation of IkeextSaGetById used in Windows Vista. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsagetbyid1">IkeextSaGetById1</a> is available. For Windows 8, <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsagetbyid2">IkeextSaGetById2</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -59,7 +59,7 @@ The <b>IkeextSaGetById0</b> function retrieves an IKE/AuthIP security associatio
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param id [in]
 
@@ -69,7 +69,7 @@ The SA identifier.
 
 ### -param sa [out]
 
-Type: [IKEEXT_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0)**</b>
+Type: [IKEEXT_SA_DETAILS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0)**</b>
 
 Address of the SA details.
 
@@ -102,7 +102,7 @@ The SA was retrieved successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -122,19 +122,18 @@ Failure to communicate with the remote or local firewall engine.
 
 ## -remarks
 
-The caller must free <i>sa</i> by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
+The caller must free <i>sa</i> by a call to <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
-The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_READ</a> access to the IKE/AuthIP security associations database. See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
+The caller needs <a href="/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_READ</a> access to the IKE/AuthIP security associations database. See <a href="/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-ike-functions">IKE/AuthIP Functions</a>
+<a href="/windows/desktop/FWP/fwp-ike-functions">IKE/AuthIP Functions</a>
 
 
 
-[IKEEXT_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0)
+[IKEEXT_SA_DETAILS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
-
+<a href="/windows/desktop/FWP/fwp-functions">WFP  Functions</a>

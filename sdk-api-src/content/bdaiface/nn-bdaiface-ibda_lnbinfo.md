@@ -54,7 +54,7 @@ The <b>IBDA_LNBInfo</b> interface is implemented on a BDA device filter, specifi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_LNBInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_LNBInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_LNBInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_LNBInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_LNBInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-get_highlowswitchfrequency">get_HighLowSwitchFrequency</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-get_highlowswitchfrequency">get_HighLowSwitchFrequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the frequency of the high-low switch.
@@ -78,7 +78,7 @@ Retrieves the frequency of the high-low switch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-get_localoscilatorfrequencyhighband">get_LocalOscilatorFrequencyHighBand</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-get_localoscilatorfrequencyhighband">get_LocalOscilatorFrequencyHighBand</a>
 </td>
 <td align="left" width="63%">
 Retrieves the high band of the local oscillator frequency.
@@ -87,7 +87,7 @@ Retrieves the high band of the local oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-get_localoscilatorfrequencylowband">get_LocalOscilatorFrequencyLowBand</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-get_localoscilatorfrequencylowband">get_LocalOscilatorFrequencyLowBand</a>
 </td>
 <td align="left" width="63%">
 Retrieves the low band of the local oscillator frequency.
@@ -96,7 +96,7 @@ Retrieves the low band of the local oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-put_highlowswitchfrequency">put_HighLowSwitchFrequency</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-put_highlowswitchfrequency">put_HighLowSwitchFrequency</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency of the high-low switch.
@@ -105,7 +105,7 @@ Specifies the frequency of the high-low switch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-put_localoscilatorfrequencyhighband">put_LocalOscilatorFrequencyHighBand</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-put_localoscilatorfrequencyhighband">put_LocalOscilatorFrequencyHighBand</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency of the local oscillator high band.
@@ -114,7 +114,7 @@ Specifies the frequency of the local oscillator high band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-put_localoscilatorfrequencylowband">put_LocalOscilatorFrequencyLowBand</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_lnbinfo-put_localoscilatorfrequencylowband">put_LocalOscilatorFrequencyLowBand</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency of the local oscillator's low band.
@@ -129,5 +129,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

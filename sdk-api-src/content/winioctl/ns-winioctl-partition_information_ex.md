@@ -60,7 +60,7 @@ Contains partition information for standard <i>AT-style</i> master boot record (
 ### -field PartitionStyle
 
 The format of the partition. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>.
+<a href="/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>.
 
 ### -field StartingOffset
 
@@ -85,38 +85,37 @@ If this member is <b>TRUE</b>, the partition is rewritable. The value of this pa
 ### -field DUMMYUNIONNAME.Mbr
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_mbr">PARTITION_INFORMATION_MBR</a> structure that specifies partition information specific to master boot record (MBR) disks. The MBR partition format is the standard <i>AT-style</i> format.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_mbr">PARTITION_INFORMATION_MBR</a> structure that specifies partition information specific to master boot record (MBR) disks. The MBR partition format is the standard <i>AT-style</i> format.
 
 ### -field DUMMYUNIONNAME.Gpt
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_gpt">PARTITION_INFORMATION_GPT</a> structure that specifies partition information specific to GUID partition table (GPT) disks. The GPT format corresponds to the EFI partition format.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_gpt">PARTITION_INFORMATION_GPT</a> structure that specifies partition information specific to GUID partition table (GPT) disks. The GPT format corresponds to the EFI partition format.
 
 ## -remarks
 
-If the partition is on a disk formatted as type master boot record (MBR), partition size totals are limited. For more information, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>.
+If the partition is on a disk formatted as type master boot record (MBR), partition size totals are limited. For more information, see the Remarks section of <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
+<a href="/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_gpt">PARTITION_INFORMATION_GPT</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_gpt">PARTITION_INFORMATION_GPT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_mbr">PARTITION_INFORMATION_MBR</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_mbr">PARTITION_INFORMATION_MBR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
-
+<a href="/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>

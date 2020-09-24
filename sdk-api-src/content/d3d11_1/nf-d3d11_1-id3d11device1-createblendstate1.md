@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Creates a blend-state object that encapsulates blend state for the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger stage</a> and allows the configuration of logic operations.
+Creates a blend-state object that encapsulates blend state for the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger stage</a> and allows the configuration of logic operations.
 
 ## -parameters
 
 ### -param pBlendStateDesc [in]
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/win32/api/d3d11_1/ns-d3d11_1-d3d11_blend_desc1">D3D11_BLEND_DESC1</a> structure that describes blend state.
+A pointer to a  <a href="/windows/win32/api/d3d11_1/ns-d3d11_1-d3d11_blend_desc1">D3D11_BLEND_DESC1</a> structure that describes blend state.
 
 ### -param ppBlendState [out, optional]
 
@@ -78,4 +78,3 @@ An app can create up to 4096 unique blend-state objects. For each object created
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
-

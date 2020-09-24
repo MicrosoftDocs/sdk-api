@@ -55,7 +55,7 @@ This topic applies to Windows XP or later.
 
 The <b>IMSVidAnalogTunerEvent</b> interface is used to receive events from non-BDA analong tuners.
 
-This interface is an outgoing connection-point interface. To receive events related to analong tuning, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidanalogtunerdevice">MSVidAnalogTunerDevice</a> object to establish a connection.
+This interface is an outgoing connection-point interface. To receive events related to analong tuning, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="/previous-versions/windows/desktop/mstv/msvidanalogtunerdevice">MSVidAnalogTunerDevice</a> object to establish a connection.
 
 ## -remarks
 
@@ -63,9 +63,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidtunerevent">IMSVidTunerEvent</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsvidtunerevent">IMSVidTunerEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>

@@ -157,7 +157,7 @@ The revocation status of the certificate or one of the certificates in the certi
 </dl>
 </td>
 <td width="60%">
-One of the certificates in the chain was issued by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> that the original certificate had certified.
+One of the certificates in the chain was issued by a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> that the original certificate had certified.
 
 </td>
 </tr>
@@ -272,7 +272,7 @@ The revocation status of the certificate or one of the certificates in the certi
 </dl>
 </td>
 <td width="60%">
-The end certificate does not have any resultant issuance policies, and one of the issuing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> certificates has a policy constraints extension requiring it.
+The end certificate does not have any resultant issuance policies, and one of the issuing <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> certificates has a policy constraints extension requiring it.
 
 </td>
 </tr>
@@ -346,7 +346,7 @@ The certificate chain is not complete.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) used to create this chain was not time valid.
+A <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) used to create this chain was not time valid.
 
 </td>
 </tr>
@@ -482,7 +482,7 @@ This certificate is peer trusted. This status code applies to certificates only.
 </dl>
 </td>
 <td width="60%">
-This certificate's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) validity has been extended. This status code applies to certificates only.
+This certificate's <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) validity has been extended. This status code applies to certificates only.
 
 <b>Windows Vista and Windows Server 2008:  </b>Support for this flag begins.
 
@@ -495,7 +495,7 @@ This certificate's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/
 </dl>
 </td>
 <td width="60%">
-The certificate was found in either a store pointed to by the  <b>hExclusiveRoot</b> or <b>hExclusiveTrustedPeople</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> structure.
+The certificate was found in either a store pointed to by the  <b>hExclusiveRoot</b> or <b>hExclusiveTrustedPeople</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> structure.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>Support for this flag begins.
 
@@ -519,7 +519,7 @@ The certificate chain created is a complex chain. This status code applies to ch
 </dl>
 </td>
 <td width="60%">
-A non-self-signed intermediate CA certificate was found in the store pointed to  by the <b>hExclusiveRoot</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> structure. The CA certificate is treated as a trust anchor for the certificate chain. This flag will only be set if the <b>CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG</b> value is set in the <b>dwExclusiveFlags</b> member of the <b>CERT_CHAIN_ENGINE_CONFIG</b> structure.
+A non-self-signed intermediate CA certificate was found in the store pointed to  by the <b>hExclusiveRoot</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> structure. The CA certificate is treated as a trust anchor for the certificate chain. This flag will only be set if the <b>CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG</b> value is set in the <b>dwExclusiveFlags</b> member of the <b>CERT_CHAIN_ENGINE_CONFIG</b> structure.
 
 If this flag is set, the <b>CERT_TRUST_IS_SELF_SIGNED</b> and the <b>CERT_TRUST_IS_PARTIAL_CHAIN</b><b>dwErrorStatus</b> flags will not be set.
 
@@ -531,13 +531,12 @@ If this flag is set, the <b>CERT_TRUST_IS_SELF_SIGNED</b> and the <b>CERT_TRUST_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a>

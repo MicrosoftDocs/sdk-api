@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-The <b>Initialize</b> method initializes the object. This method should be called once, immediately after creating the object. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getsection">IMpeg2Data::GetSection</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-gettable">IMpeg2Data::GetTable</a> methods call this method internally, so typically an application will not call it.
+The <b>Initialize</b> method initializes the object. This method should be called once, immediately after creating the object. The <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getsection">IMpeg2Data::GetSection</a> and <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-gettable">IMpeg2Data::GetTable</a> methods call this method internally, so typically an application will not call it.
 
 ## -parameters
 
 ### -param requestType [in]
 
-Specifies the request type, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-mpeg_request_type">MPEG_REQUEST_TYPE</a> value.
+Specifies the request type, as an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-mpeg_request_type">MPEG_REQUEST_TYPE</a> value.
 
 ### -param pMpeg2Data [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
+Pointer to the <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
 
 ### -param pContext [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
+Pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
 
 ### -param pid [in]
 
@@ -76,7 +76,7 @@ Specifies a table identifier (TID), indicating which table sections to retrieve.
 
 ### -param pFilter [in]
 
-Optional pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
+Optional pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
 
 ### -param timeout [in]
 
@@ -147,5 +147,4 @@ This method is either synchronous or asynchronous, depending on the request type
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>

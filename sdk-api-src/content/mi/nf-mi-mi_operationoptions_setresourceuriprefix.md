@@ -56,7 +56,7 @@ Sets the resource URI prefix to use for an operation.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 ### -param ruriPrefix
 
@@ -64,9 +64,8 @@ A null-terminated string that represents the resource URI to use for the operati
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getresourceuriprefix">MI_OperationOptions_GetResourceUriPrefix</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getresourceuriprefix">MI_OperationOptions_GetResourceUriPrefix</a>

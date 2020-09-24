@@ -79,11 +79,11 @@ Identifier of the waveform-audio input device to open. It can be either a device
 
 ### -param pwfx
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the desired format for recording waveform-audio data. You can free this structure immediately after <b>waveInOpen</b> returns.
+Pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the desired format for recording waveform-audio data. You can free this structure immediately after <b>waveInOpen</b> returns.
 
 ### -param dwCallback
 
-Pointer to a fixed callback function, an event handle, a handle to a window, or the identifier of a thread to be called during waveform-audio recording to process messages related to the progress of recording. If no callback function is required, this value can be zero. For more information on the callback function, see <a href="https://docs.microsoft.com/previous-versions/dd743849(v=vs.85)">waveInProc</a>.
+Pointer to a fixed callback function, an event handle, a handle to a window, or the identifier of a thread to be called during waveform-audio recording to process messages related to the progress of recording. If no callback function is required, this value can be zero. For more information on the callback function, see <a href="/previous-versions/dd743849(v=vs.85)">waveInProc</a>.
 
 ### -param dwInstance
 
@@ -215,19 +215,18 @@ Attempted to open with an unsupported waveform-audio format.
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/previous-versions/dd743844(v=vs.85)">waveInGetNumDevs</a> function to determine the number of waveform-audio input devices present on the system. The device identifier specified by <i>uDeviceID</i> varies from zero to one less than the number of devices present. The WAVE_MAPPER constant can also be used as a device identifier.
+Use the <a href="/previous-versions/dd743844(v=vs.85)">waveInGetNumDevs</a> function to determine the number of waveform-audio input devices present on the system. The device identifier specified by <i>uDeviceID</i> varies from zero to one less than the number of devices present. The WAVE_MAPPER constant can also be used as a device identifier.
       
 
-If you choose to have a window or thread receive callback information, the following messages are sent to the window procedure or thread to indicate the progress of waveform-audio input: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-wim-open">MM_WIM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-wim-close">MM_WIM_CLOSE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-wim-data">MM_WIM_DATA</a>.
+If you choose to have a window or thread receive callback information, the following messages are sent to the window procedure or thread to indicate the progress of waveform-audio input: <a href="/windows/desktop/Multimedia/mm-wim-open">MM_WIM_OPEN</a>, <a href="/windows/desktop/Multimedia/mm-wim-close">MM_WIM_CLOSE</a>, and <a href="/windows/desktop/Multimedia/mm-wim-data">MM_WIM_DATA</a>.
       
 
-If you choose to have a function receive callback information, the following messages are sent to the function to indicate the progress of waveform-audio input: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wim-open">WIM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wim-close">WIM_CLOSE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wim-data">WIM_DATA</a>.
+If you choose to have a function receive callback information, the following messages are sent to the function to indicate the progress of waveform-audio input: <a href="/windows/desktop/Multimedia/wim-open">WIM_OPEN</a>, <a href="/windows/desktop/Multimedia/wim-close">WIM_CLOSE</a>, and <a href="/windows/desktop/Multimedia/wim-data">WIM_DATA</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

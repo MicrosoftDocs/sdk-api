@@ -57,14 +57,14 @@ api_name:
 
 ## -description
 
-The <b>AddAccessAllowedAceEx</b> function adds an access-allowed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL).
+The <b>AddAccessAllowedAceEx</b> function adds an access-allowed <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL).
 
 ## -parameters
 
 ### -param pAcl [in, out]
 
 A pointer to a DACL. The <b>AddAccessAllowedAceEx</b> function adds an access-allowed ACE to the end of this DACL. The ACE is in the form of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
 
 ### -param dwAceRevision [in]
 
@@ -73,7 +73,7 @@ Specifies the revision level of the DACL being modified. This value can be ACL_R
 ### -param AceFlags [in]
 
 A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ The ACE is inherited by container objects.
 </dl>
 </td>
 <td width="60%">
-The ACE does not apply to the object to which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) is assigned, but it can be inherited by child objects.
+The ACE does not apply to the object to which the <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) is assigned, but it can be inherited by child objects.
 
 </td>
 </tr>
@@ -135,19 +135,19 @@ The ACE is inherited by noncontainer objects.
 ### -param AccessMask [in]
 
 A set of bit flags that use the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> format. These flags specify the access rights that the new ACE allows for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> format. These flags specify the access rights that the new ACE allows for the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 ### -param pSid [in]
 
 A pointer to a 
-SID that identifies the user, group, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> to which the new ACE allows access.
+SID that identifies the user, group, or <a href="/windows/desktop/SecGloss/l-gly">logon session</a> to which the new ACE allows access.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
 
 <table>
 <tr>
@@ -225,37 +225,36 @@ The ACE was successfully added.
 ## -remarks
 
 The caller must ensure that ACEs are added to the DACL in the correct order. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl">Order of ACEs in a DACL</a>.
+<a href="/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl">Order of ACEs in a DACL</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex">AddAccessDeniedAceEx</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex">AddAccessDeniedAceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessaceex">AddAuditAccessAceEx</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessaceex">AddAuditAccessAceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>

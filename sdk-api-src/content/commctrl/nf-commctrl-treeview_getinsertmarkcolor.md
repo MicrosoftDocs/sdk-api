@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Retrieves the color used to draw the insertion mark for the tree view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getinsertmarkcolor">TVM_GETINSERTMARKCOLOR</a> message explicitly.
+Retrieves the color used to draw the insertion mark for the tree view. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-getinsertmarkcolor">TVM_GETINSERTMARKCOLOR</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_setinsertmarkcolor">TreeView_SetInsertMarkColor</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_setinsertmarkcolor">TreeView_SetInsertMarkColor</a>

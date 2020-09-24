@@ -119,7 +119,7 @@ With a composite effect:
 
 <b>D2D1_COMPOSITE_MODE_DESTINATION_COPY</b> is equivalent to <b>D2D1_COMPOSITE_MODE_SOURCE_COPY</b> with the inputs inverted.</li>
 <li>
-As a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a>: 
+As a parameter to <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a>: 
 <b>D2D1_COMPOSITE_MODE_DESTINATION_COPY</b> is a no-op since the destination is already in the selected target.</li>
 </ul>
 <h3><a id="Sample_code"></a><a id="sample_code"></a><a id="SAMPLE_CODE"></a>Sample code</h3>
@@ -127,5 +127,4 @@ For an example that uses composite modes, download the <a href="https://github.c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a>

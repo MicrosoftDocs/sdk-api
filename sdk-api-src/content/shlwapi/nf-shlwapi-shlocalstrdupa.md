@@ -66,7 +66,7 @@ A pointer to a null-terminated, Unicode string to be copied.
 
 Type: <b>PTSTR*</b>
 
-The address of a pointer to an allocated string that, when this function returns successfully, receives the result. <b>SHLocalStrDup</b> allocates memory for this string with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. You should free the string with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> when it is no longer needed.
+The address of a pointer to an allocated string that, when this function returns successfully, receives the result. <b>SHLocalStrDup</b> allocates memory for this string with <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. You should free the string with <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> when it is no longer needed.
 
 ## -returns
 
@@ -78,4 +78,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 > [!NOTE]
 > The shlwapi.h header defines SHLocalStrDup as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

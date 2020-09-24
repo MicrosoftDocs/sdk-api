@@ -84,11 +84,11 @@ The number of wide chars actually returned in <i>szName</i>.
 
 ### -param pMetaData [out]
 
-A pointer to an <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/assemblymetadata-structure">ASSEMBLYMETADATA</a> structure that contains the assembly metadata.
+A pointer to an <a href="/dotnet/framework/unmanaged-api/metadata/assemblymetadata-structure">ASSEMBLYMETADATA</a> structure that contains the assembly metadata.
 
 ### -param pdwAssemblyFlags [out]
 
-Flags that describe the metadata applied to an assembly. This value is a combination of one or more <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corassemblyflags-enumeration">CorAssemblyFlags</a> values.
+Flags that describe the metadata applied to an assembly. This value is a combination of one or more <a href="/dotnet/framework/unmanaged-api/metadata/corassemblyflags-enumeration">CorAssemblyFlags</a> values.
 
 ## -returns
 
@@ -96,5 +96,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>

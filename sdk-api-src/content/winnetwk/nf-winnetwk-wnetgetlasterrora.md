@@ -90,13 +90,13 @@ The
 <b>WNetGetLastError</b> when a WNet function returns ERROR_EXTENDED_ERROR.
 
 Like the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function, 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function, 
 <b>WNetGetLastError</b> returns extended error information, which is maintained on a per-thread basis. Unlike <b>GetLastError</b>, the 
 <b>WNetGetLastError</b> function can return a string for reporting errors that are not described by any existing error code in WinError.h.
 
 For more information about using an application-defined error handler that calls the 
 <b>WNetGetLastError</b> function, see 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/retrieving-network-errors">Retrieving Network Errors</a>.
+<a href="/windows/desktop/WNet/retrieving-network-errors">Retrieving Network Errors</a>.
 
 
 
@@ -107,11 +107,10 @@ For more information about using an application-defined error handler that calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

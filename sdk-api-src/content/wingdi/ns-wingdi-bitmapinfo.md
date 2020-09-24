@@ -60,7 +60,7 @@ The <b>BITMAPINFO</b> structure defines the dimensions and color information for
 
 ### -field bmiHeader
 
-A <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that contains information about the dimensions of color format.
+A <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that contains information about the dimensions of color format.
 
 .
 
@@ -69,24 +69,24 @@ A <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMA
 The <b>bmiColors</b> member contains one of the following:
 
 <ul>
-<li>An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>. The elements of the array that make up the color table.</li>
+<li>An array of <a href="/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>. The elements of the array that make up the color table.</li>
 <li>An array of 16-bit unsigned integers that specifies indexes into the currently realized logical palette. This use of <b>bmiColors</b> is allowed for functions that use DIBs. When <b>bmiColors</b> elements contain indexes to a realized logical palette, they must also call the following bitmap functions:
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
-The <i>iUsage</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> must be set to DIB_PAL_COLORS.
+The <i>iUsage</i> parameter of <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> must be set to DIB_PAL_COLORS.
 
 </li>
 </ul>
-The number of entries in the array depends on the values of the <b>biBitCount</b> and <b>biClrUsed</b> members of the <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
+The number of entries in the array depends on the values of the <b>biBitCount</b> and <b>biClrUsed</b> members of the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
 
 The colors in the <b>bmiColors</b> table appear in order of importance. For more information, see the Remarks section.
 
@@ -105,29 +105,28 @@ A bitmap is packed when the bitmap array immediately follows the <b>BITMAPINFO</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
+<a href="/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>

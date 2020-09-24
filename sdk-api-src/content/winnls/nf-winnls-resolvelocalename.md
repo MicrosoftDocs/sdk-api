@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-Finds a possible <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a> match for the supplied name.
+Finds a possible <a href="/windows/desktop/Intl/locale-names">locale name</a> match for the supplied name.
 
 ## -parameters
 
@@ -74,13 +74,13 @@ Pointer to a buffer in which this function retrieves the locale name that is the
 
 ### -param cchLocaleName [in]
 
-Size, in characters, of the buffer indicated by <i>lpLocaleName</i>. The maximum possible length of a locale name, including a terminating null character, is the value of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_MAX_LENGTH</a>. This is the recommended size to supply in this parameter.
+Size, in characters, of the buffer indicated by <i>lpLocaleName</i>. The maximum possible length of a locale name, including a terminating null character, is the value of <a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_MAX_LENGTH</a>. This is the recommended size to supply in this parameter.
 
 ## -returns
 
 Returns the size of the buffer containing the locale name, including the terminating null character, if successful.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
 </ul>
@@ -89,19 +89,18 @@ The function returns 0 if it does not succeed. To get extended error information
 
 The retrieved locale name indicates a specific locale, including language and country/region, even if the input language is neutral. For example, an input of "en" for English (United States) causes the function to retrieve "en-US".
 
-This function can retrieve data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application, nor does the return of a valid locale guarantee that it will be valid on another computer. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
+This function can retrieve data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application, nor does the return of a valid locale guarantee that it will be valid on another computer. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
-<b>Beginning in Windows 8:</b> Language tags obtained from the <a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace must be converted by  <b>ResolveLocaleName</b> before they can be used with any National Language Support functions.
+<b>Beginning in Windows 8:</b> Language tags obtained from the <a href="/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace must be converted by  <b>ResolveLocaleName</b> before they can be used with any National Language Support functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a>
-
+<a href="/uwp/api/Windows.Globalization">Windows.Globalization</a>

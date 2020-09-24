@@ -131,9 +131,8 @@ If the type description inherits from another type description, this function is
 
 
 
-The caller should use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the BSTRs referenced by <i>pBstrName</i>, <i>pBstrDocString</i>, and <i>pBstrHelpFile</i>.
+The caller should use <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the BSTRs referenced by <i>pBstrName</i>, <i>pBstrDocString</i>, and <i>pBstrHelpFile</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

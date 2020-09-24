@@ -77,17 +77,16 @@ Array of data representing the OpenGL function to be performed.
 ## -remarks
 
 The coordinates in <b>rclBounds</b> are in OpenGL pixel coordinates, which generally equate to window coordinates. 
-		For example, if the <a href="https://docs.microsoft.com/windows/desktop/OpenGL/glbitmap">glBitmap</a> function has width1 and height1, the bounds will be 0, 0, width1, height1.
+		For example, if the <a href="/windows/desktop/OpenGL/glbitmap">glBitmap</a> function has width1 and height1, the bounds will be 0, 0, width1, height1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows NT, Windows 2000, and Windows 95/98</a>
-
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows NT, Windows 2000, and Windows 95/98</a>

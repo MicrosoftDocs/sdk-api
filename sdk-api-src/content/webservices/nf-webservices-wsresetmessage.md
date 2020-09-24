@@ -60,7 +60,7 @@ A pointer to the Message  object to reset.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -91,4 +91,3 @@ When a message is reset, its underlying heap is reset.
 
 Reusing a message object to receive or send multiple messages is is generally
                 more efficient than creating and free'ing the message object for each message.
-

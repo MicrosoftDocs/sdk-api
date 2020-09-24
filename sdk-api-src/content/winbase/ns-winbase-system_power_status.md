@@ -192,7 +192,7 @@ The percentage of full battery charge remaining. This member can be a value in t
 
 ### -field SystemStatusFlag
 
-The status of battery saver. To participate in energy conservation, avoid resource intensive tasks when battery saver is on. To be notified when this value changes, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpowersettingnotification">RegisterPowerSettingNotification</a> function with the <a href="https://docs.microsoft.com/windows/desktop/Power/power-setting-guids">power setting GUID</a>, <b>GUID_POWER_SAVING_STATUS</b>. 
+The status of battery saver. To participate in energy conservation, avoid resource intensive tasks when battery saver is on. To be notified when this value changes, call the <a href="/windows/desktop/api/winuser/nf-winuser-registerpowersettingnotification">RegisterPowerSettingNotification</a> function with the <a href="/windows/desktop/Power/power-setting-guids">power setting GUID</a>, <b>GUID_POWER_SAVING_STATUS</b>. 
 
 <table>
 <tr>
@@ -226,7 +226,7 @@ Battery saver on. Save energy where  possible.
 
 <div class="alert"><b>Note</b>  This flag and the <b>GUID_POWER_SAVING_STATUS</b> GUID were introduced in Windows 10. This flag was previously reserved, named <b>Reserved1</b>, and had a value of 0.</div>
 <div> </div>
-For general information about battery saver, see <a href="https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver">battery saver (in the hardware component guidelines)</a>.
+For general information about battery saver, see <a href="/windows-hardware/design/component-guidelines/battery-saver">battery saver (in the hardware component guidelines)</a>.
 
 ### -field BatteryLifeTime
 
@@ -242,13 +242,12 @@ The system is only capable of estimating <b>BatteryFullLifeTime</b> based on cal
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmpowerstatuschange">PBT_APMPOWERSTATUSCHANGE</a>
+<a href="/windows/desktop/Power/pbt-apmpowerstatuschange">PBT_APMPOWERSTATUSCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver">battery saver (in the hardware component guidelines)</a>
-
+<a href="/windows-hardware/design/component-guidelines/battery-saver">battery saver (in the hardware component guidelines)</a>

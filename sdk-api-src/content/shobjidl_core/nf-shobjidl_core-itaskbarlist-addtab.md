@@ -68,7 +68,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Any type of window can be added to the taskbar, but it is recommended that the window at least have the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_CAPTION</a> style.
+Any type of window can be added to the taskbar, but it is recommended that the window at least have the <a href="/windows/desktop/winmsg/window-styles">WS_CAPTION</a> style.
 
-Any window added with this method must be removed with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist-deletetab">DeleteTab</a> method when the added window is destroyed.
-
+Any window added with this method must be removed with the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist-deletetab">DeleteTab</a> method when the added window is destroyed.

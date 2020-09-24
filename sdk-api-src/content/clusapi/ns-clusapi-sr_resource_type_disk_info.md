@@ -66,7 +66,6 @@ The cluster resource identifier of the disk.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 <a href="/windows/win32/api/clusapi/ns-clusapi-sr_resource_type_eligible_disks_result">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
-

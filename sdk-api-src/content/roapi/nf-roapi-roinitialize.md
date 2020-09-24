@@ -59,7 +59,7 @@ Initializes the Windows Runtime on the current thread with the specified concurr
 
 ### -param initType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a></b>
 
 The concurrency model for the thread. The default is <b>RO_INIT_MULTITHREADED</b>.
 
@@ -103,7 +103,7 @@ The Windows Runtime is already initialized on this thread.
 </dl>
 </td>
 <td width="60%">
-A previous call to <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a> specified the concurrency model for this thread as multithread apartment (MTA). This could also indicate that a change from neutral-threaded apartment to single-threaded apartment has occurred.
+A previous call to <a href="/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a> specified the concurrency model for this thread as multithread apartment (MTA). This could also indicate that a change from neutral-threaded apartment to single-threaded apartment has occurred.
 
 </td>
 </tr>
@@ -113,17 +113,16 @@ A previous call to <a href="https://docs.microsoft.com/windows/desktop/api/roapi
 
 Use the <b>RoInitialize</b> function to initialize a thread in the Windows Runtime. All threads that activate and interact with Windows Runtime objects must be initialized prior to calling into the Windows Runtime. 
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rouninitialize">RoUninitialize</a> function to close the Windows Runtime on the current thread. Each successful call to <b>RoInitialize</b>, including those that return <b>S_FALSE</b>, must be balanced by a corresponding call to <b>RoUninitialize</b>.
+Call the <a href="/windows/desktop/api/roapi/nf-roapi-rouninitialize">RoUninitialize</a> function to close the Windows Runtime on the current thread. Each successful call to <b>RoInitialize</b>, including those that return <b>S_FALSE</b>, must be balanced by a corresponding call to <b>RoUninitialize</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a>
+<a href="/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rouninitialize">RoUninitialize</a>
-
+<a href="/windows/desktop/api/roapi/nf-roapi-rouninitialize">RoUninitialize</a>

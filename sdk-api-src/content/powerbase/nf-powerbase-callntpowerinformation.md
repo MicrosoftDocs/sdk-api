@@ -123,8 +123,8 @@ The <i>lpInBuffer</i> parameter must be <b>NULL</b>; otherwise the
         
 
 The <i>lpOutputBuffer</i> buffer receives one 
-         <a href="https://docs.microsoft.com/windows/desktop/Power/processor-power-information-str">PROCESSOR_POWER_INFORMATION</a> 
-         structure for each processor that is installed on the system. Use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function to retrieve the number of processors.
+         <a href="/windows/desktop/Power/processor-power-information-str">PROCESSOR_POWER_INFORMATION</a> 
+         structure for each processor that is installed on the system. Use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function to retrieve the number of processors.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ The <i>lpInBuffer</i> parameter must be <b>NULL</b>; otherwise, the
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_battery_state">SYSTEM_BATTERY_STATE</a> structure containing 
+         <a href="/windows/desktop/api/winnt/ns-winnt-system_battery_state">SYSTEM_BATTERY_STATE</a> structure containing 
          information about the current system battery.
 
 </td>
@@ -199,7 +199,7 @@ The <i>lpOutputBuffer</i> buffer receives a <b>ULONG</b> value
          containing the system execution state buffer. This value may contain any combination of the following values: 
          <b>ES_SYSTEM_REQUIRED</b>, <b>ES_DISPLAY_REQUIRED</b>, or 
          <b>ES_USER_PRESENT</b>. For more information, see the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a> function.
+         <a href="/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a> function.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ The <i>lpInBuffer</i> parameter must be <b>NULL</b>, otherwise, the
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_capabilities">SYSTEM_POWER_CAPABILITIES</a> structure 
+         <a href="/windows/desktop/api/winnt/ns-winnt-system_power_capabilities">SYSTEM_POWER_CAPABILITIES</a> structure 
          containing the current system power capabilities.
 
 This information represents the currently supported power capabilities. It may change as drivers are 
@@ -236,7 +236,7 @@ The <i>lpInBuffer</i> parameter must be <b>NULL</b>; otherwise, the
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-information-str">SYSTEM_POWER_INFORMATION</a> structure.
+         <a href="/windows/desktop/Power/system-power-information-str">SYSTEM_POWER_INFORMATION</a> structure.
 
 Applications can use this level to retrieve information about the idleness of the system.
 
@@ -250,13 +250,13 @@ Applications can use this level to retrieve information about the idleness of th
 </td>
 <td width="60%">
 If <i>lpInBuffer</i> is not <b>NULL</b>, the function applies the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> values passed in 
+        <a href="/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> values passed in 
         <i>lpInBuffer</i> to the current system power policy used while the system is running on AC 
         (utility) power.
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> structure containing 
+         <a href="/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> structure containing 
          the current system power policy used while the system is running on AC (utility) power.
 
 </td>
@@ -273,7 +273,7 @@ The <i>lpInBuffer</i> parameter must be <b>NULL</b>; otherwise, the
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> structure 
+         <a href="/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> structure 
          containing the current system power policy used while the system is running on AC (utility) power.
 
 </td>
@@ -286,13 +286,13 @@ The <i>lpOutputBuffer</i> buffer receives a
 </td>
 <td width="60%">
 If <i>lpInBuffer</i> is not <b>NULL</b>, the function applies the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> values 
+        <a href="/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> values 
         passed in <i>lpInBuffer</i> to the current system power policy used while the system is 
         running on battery power.
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> structure containing 
+         <a href="/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> structure containing 
          the current system power policy used while the system is running on battery power.
 
 </td>
@@ -431,42 +431,41 @@ Changes made to the current system power policy using
     are not persistent; that is, the changes are not stored as part of a power scheme. Any changes to system power 
     policy made with <b>CallNtPowerInformation</b> may be 
     overwritten by changes to a policy scheme made by the user in the Power Options control panel program, or by 
-    subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-writepwrscheme">WritePwrScheme</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a>, or other power scheme 
+    subsequent calls to <a href="/windows/desktop/api/powrprof/nf-powrprof-writepwrscheme">WritePwrScheme</a>, 
+    <a href="/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a>, or other power scheme 
     functions.
 
-For more information on using PowrProf.h, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power 
+For more information on using PowrProf.h, see <a href="/windows/desktop/Power/power-schemes">Power 
     Schemes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-administrator_power_policy">ADMINISTRATOR_POWER_POLICY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-administrator_power_policy">ADMINISTRATOR_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/processor-power-information-str">PROCESSOR_POWER_INFORMATION</a>
+<a href="/windows/desktop/Power/processor-power-information-str">PROCESSOR_POWER_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_battery_state">SYSTEM_BATTERY_STATE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-system_battery_state">SYSTEM_BATTERY_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_capabilities">SYSTEM_POWER_CAPABILITIES</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-system_power_capabilities">SYSTEM_POWER_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/system-power-information-str">SYSTEM_POWER_INFORMATION</a>
+<a href="/windows/desktop/Power/system-power-information-str">SYSTEM_POWER_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a>

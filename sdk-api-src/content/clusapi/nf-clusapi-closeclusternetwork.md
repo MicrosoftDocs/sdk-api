@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Closes a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_NETWORK</b> type defines a pointer to this function.
+Closes a  <a href="/previous-versions/windows/desktop/mscs/networks">network</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_NETWORK</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -83,7 +83,7 @@ The operation was successful.
 </dl>
 </td>
 <td width="60%">
-The operation was not successful; call the function  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for more information.
+The operation was not successful; call the function  <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for more information.
 
 </td>
 </tr>
@@ -91,5 +91,4 @@ The operation was not successful; call the function  <a href="https://docs.micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>

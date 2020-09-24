@@ -66,7 +66,7 @@ The
 ### -param IfcHandle [in]
 
 Handle associated with the interface on which flows are to be enumerated. This handle is obtained by a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
 
 ### -param pEnumHandle [in, out]
 
@@ -93,7 +93,7 @@ Pointer to the size of the client-provided buffer or the number of bytes used by
 ### -param Buffer [out]
 
 Pointer to the buffer containing flow enumerations. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-enumeration_buffer">ENUMERATION_BUFFER</a> for more information about flow enumerations.
+<a href="/windows/desktop/api/traffic/ns-traffic-enumeration_buffer">ENUMERATION_BUFFER</a> for more information about flow enumerations.
 
 ## -returns
 
@@ -177,7 +177,7 @@ Do not request zero flows, or pass a buffer with a size equal to zero or pointer
 If an enumeration token pointer has been invalidated by traffic control (due to the deletion of a flow), continuing to enumerate flows is not allowed, and the call will return ERROR_INVALID_DATA. Under this circumstance, the process of enumeration must start over. This circumstance can occur when the next flow to be enumerated is deleted while enumeration is in progress.
 
 To get the total number of flows for a given interface, call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a> and specify <b>GUID_QOS_FLOW_COUNT</b>.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a> and specify <b>GUID_QOS_FLOW_COUNT</b>.
 
 <div class="alert"><b>Note</b>  Use of the 
 <b>TcEnumerateFlows</b> function requires administrative privilege.</div>
@@ -185,9 +185,8 @@ To get the total number of flows for a given interface, call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a>
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a>

@@ -50,7 +50,7 @@ api_name:
 ## -description
 
 The <b>WINHTTP_ASYNC_RESULT</b> structure contains the result of a call to an asynchronous function. This structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a> prototype.
+<a href="/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a> prototype.
 
 ## -struct-fields
 
@@ -71,7 +71,7 @@ Return value from an asynchronous Microsoft Windows HTTP Services (WinHTTP) func
 </td>
 <td width="60%">
 The error occurred during a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a>.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a>.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ The error occurred during a call to
 </td>
 <td width="60%">
 The error occurred during a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpquerydataavailable">WinHttpQueryDataAvailable</a>.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpquerydataavailable">WinHttpQueryDataAvailable</a>.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ The error occurred during a call to
 </td>
 <td width="60%">
 The error occurred during a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The error occurred during a call to
 </td>
 <td width="60%">
 The error occurred during a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwritedata">WinHttpWriteData</a>.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwritedata">WinHttpWriteData</a>.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The error occurred during a call to
 </td>
 <td width="60%">
 The error occurred during a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>.
 
 </td>
 </tr>
@@ -132,11 +132,10 @@ Contains the error code if
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
-

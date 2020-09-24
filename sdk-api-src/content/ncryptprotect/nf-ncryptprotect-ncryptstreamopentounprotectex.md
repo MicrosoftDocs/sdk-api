@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Opens a stream object that can be used to decrypt large amounts of data to the same  protection descriptor used for encryption.Call <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a> to perform the decryption. To decrypt smaller messages such as keys and passwords, call <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>.
+Opens a stream object that can be used to decrypt large amounts of data to the same  protection descriptor used for encryption.Call <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a> to perform the decryption. To decrypt smaller messages such as keys and passwords, call <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>.
 
 ## -parameters
 
@@ -92,4 +92,3 @@ Returns a status code that indicates the success or failure of the function.
 <li>NTE_BAD_TYPE</li>
 <li>NTE_DECRYPTION_FAILURE</li>
 </ul>
-

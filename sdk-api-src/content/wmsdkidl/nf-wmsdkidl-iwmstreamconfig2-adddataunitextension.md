@@ -59,7 +59,7 @@ The <b>AddDataUnitExtension</b> method adds a data unit extension system to the 
 
 ### -param guidExtensionSystemID [in]
 
-A GUID that identifies the data unit extension system. This can be one of the predefined GUIDs listed in <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>, or a GUID whose value is understood by a custom player application.
+A GUID that identifies the data unit extension system. This can be one of the predefined GUIDs listed in <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>, or a GUID whose value is understood by a custom player application.
 
 ### -param cbExtensionDataSize [in]
 
@@ -121,13 +121,12 @@ The method cannot allocate memory to hold the new data unit extension.
 
 Passing the GUID of an existing data unit extension system does not cause an error. The old system is destroyed and replaced by the new one.
 
-The new value will not take effect in the profile until you call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream">IWMProfile::ReconfigStream</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2">IWMStreamConfig2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension">IWMStreamConfig2::GetDataUnitExtension</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension">IWMStreamConfig2::GetDataUnitExtension</a>

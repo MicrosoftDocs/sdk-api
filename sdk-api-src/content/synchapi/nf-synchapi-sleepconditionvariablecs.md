@@ -62,7 +62,7 @@ Sleeps on the specified condition variable and releases the specified critical s
 
 ### -param ConditionVariable [in, out]
 
-A pointer to the condition variable. This variable must be initialized using the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializeconditionvariable">InitializeConditionVariable</a> function.
+A pointer to the condition variable. This variable must be initialized using the <a href="/windows/desktop/api/synchapi/nf-synchapi-initializeconditionvariable">InitializeConditionVariable</a> function.
 
 ### -param CriticalSection [in, out]
 
@@ -77,26 +77,25 @@ The time-out interval, in milliseconds. If the time-out interval elapses, the fu
 If the function succeeds, the return value is nonzero.
 
 If the function fails or the time-out interval elapses, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include <b>ERROR_TIMEOUT</b>, which indicates that the time-out interval has elapsed before another thread has attempted to wake the sleeping thread.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include <b>ERROR_TIMEOUT</b>, which indicates that the time-out interval has elapsed before another thread has attempted to wake the sleeping thread.
 
 ## -remarks
 
-A thread that is sleeping on a condition variable can be woken before the specified time-out interval has elapsed  using the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakeconditionvariable">WakeConditionVariable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakeallconditionvariable">WakeAllConditionVariable</a> function. In this case, the thread wakes when the wake processing is complete, and not when its time-out interval elapses. After the thread is woken, it re-acquires the critical section it released when the thread entered the sleeping state.
+A thread that is sleeping on a condition variable can be woken before the specified time-out interval has elapsed  using the <a href="/windows/desktop/api/synchapi/nf-synchapi-wakeconditionvariable">WakeConditionVariable</a> or <a href="/windows/desktop/api/synchapi/nf-synchapi-wakeallconditionvariable">WakeAllConditionVariable</a> function. In this case, the thread wakes when the wake processing is complete, and not when its time-out interval elapses. After the thread is woken, it re-acquires the critical section it released when the thread entered the sleeping state.
 
 Condition variables are subject to spurious wakeups (those not associated with an explicit wake) and stolen wakeups (another thread manages to run before the woken thread). Therefore, you should recheck a predicate (typically in a <b>while</b> loop) after a sleep operation returns.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/Sync/using-condition-variables">Using Condition Variables</a>.
+For an example that uses this function, see <a href="/windows/desktop/Sync/using-condition-variables">Using Condition Variables</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/condition-variables">Condition Variables</a>
+<a href="/windows/desktop/Sync/condition-variables">Condition Variables</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

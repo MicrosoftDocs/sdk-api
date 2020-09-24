@@ -62,13 +62,12 @@ Returns <b>TRUE</b> if the Media Engine automatically begins playback, or <b>FAL
 
 This method corresponds to the <b>autoplay</b> attribute of the <b>HTMLMediaElement</b> interface in HTML5.
 
-If this method returns <b>TRUE</b>, playback begins automatically after the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">IMFMediaEngine::Load</a> method completes. Otherwise, playback begins when the application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">IMFMediaEngine::Play</a>.
+If this method returns <b>TRUE</b>, playback begins automatically after the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">IMFMediaEngine::Load</a> method completes. Otherwise, playback begins when the application calls <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">IMFMediaEngine::Play</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setautoplay">IMFMediaEngine::SetAutoPlay</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setautoplay">IMFMediaEngine::SetAutoPlay</a>

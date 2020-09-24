@@ -56,7 +56,7 @@ The <b>get_DefaultLocator</b> method retrieves the default locator for this tuni
 
 ### -param LocatorVal [out]
 
-Address of a variable that receives a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> interface. The caller must release the interface.
+Address of a variable that receives a pointer to <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -70,9 +70,8 @@ If the tuning space does not have a default locator, this method succeeds but re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_defaultlocator">ITuningSpace::put_DefaultLocator</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_defaultlocator">ITuningSpace::put_DefaultLocator</a>

@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>GetMarkerCount</b> method returns the number of <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">markers</a> currently in the header section of the ASF file.
+The <b>GetMarkerCount</b> method returns the number of <a href="/windows/desktop/wmformat/wmformat-glossary">markers</a> currently in the header section of the ASF file.
 
 ## -parameters
 
@@ -110,21 +110,20 @@ The method failed for an unspecified reason.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarker">IWMHeaderInfo::GetMarker</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarker">IWMHeaderInfo::GetMarker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/markers">Markers</a>
-
+<a href="/windows/desktop/wmformat/markers">Markers</a>

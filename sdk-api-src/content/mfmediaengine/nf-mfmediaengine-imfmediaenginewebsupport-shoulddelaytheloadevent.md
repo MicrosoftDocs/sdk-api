@@ -60,5 +60,4 @@ True if connection to Web audio should delay the page's load event; otherwise, f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginewebsupport">IMFMediaEngineWebSupport</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginewebsupport">IMFMediaEngineWebSupport</a>

@@ -113,7 +113,7 @@ Number of WER registered entries (memory blocks, metadata, files) exceeds max (<
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -125,13 +125,12 @@ This API is for applications that have multiple processes interacting with each 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisteradditionalprocess">WerUnregisterAdditionalProcess</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werunregisteradditionalprocess">WerUnregisterAdditionalProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

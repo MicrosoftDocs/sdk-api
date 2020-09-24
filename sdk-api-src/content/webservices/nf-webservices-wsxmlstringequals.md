@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Compares two <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> objects for equality.  The operation performs an ordinal comparison
+Compares two <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> objects for equality.  The operation performs an ordinal comparison
         of the character values contained by the String objects.
 
 ## -parameters
@@ -65,7 +65,7 @@ A pointer to the second string to compare.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -114,4 +114,3 @@ One or more parameters are not correct.
 ## -remarks
 
 This function is typically used to compare localNames and namespaces in XML.
-

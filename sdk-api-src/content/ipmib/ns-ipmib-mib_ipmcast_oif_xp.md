@@ -50,9 +50,6 @@ api_name:
  - MIB_IPMCAST_OIF
 ---
 
-# MIB_IPMCAST_OIF_XP structure
-
-
 ## -description
 
 The 
@@ -74,34 +71,26 @@ Reserved. This member should be zero.
 
 ### -field dwReserved1
 
- 
-
-
-
-
-#### - pvReserved
-
-Reserved. This member should be <b>NULL</b>.
+Reserved. This member should be zero.
 
 ## -remarks
 
-The <b>MIB_IPMCAST_MFE</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/RRAS/multicast-group-manager-functions">Multicast Group Manager functions</a>. The <b>MIB_IPMCAST_OIF</b> structure is retrieved as a member of the <b>MIB_IPMCAST_MFE</b> structure  using the <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetmfe">MgmGetMfe</a> function.
+The <b>MIB_IPMCAST_MFE</b> structure is used by the <a href="/windows/desktop/RRAS/multicast-group-manager-functions">Multicast Group Manager functions</a>. The <b>MIB_IPMCAST_OIF</b> structure is retrieved as a member of the <b>MIB_IPMCAST_MFE</b> structure  using the <a href="/windows/desktop/api/mgm/nf-mgm-mgmgetmfe">MgmGetMfe</a> function.
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Server 2008and later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_stats_lh">MIB_IPMCAST_OIF_STATS</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_stats_lh">MIB_IPMCAST_OIF_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetmfe">MgmGetMfe</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetmfe">MgmGetMfe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/multicast-group-manager-functions">Multicast Group Manager functions</a>
-
+<a href="/windows/desktop/RRAS/multicast-group-manager-functions">Multicast Group Manager functions</a>

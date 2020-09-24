@@ -54,7 +54,7 @@ The
 <b>put_RingVolume</b> method requests that the phone change its ring volume.
 
 The application must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> before invoking this method; otherwise, the invocation fails.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> before invoking this method; otherwise, the invocation fails.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ If the phone is currently ringing (RingMode != 0), the new volume takes effect i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_ringvolume">get_RingVolume</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_ringvolume">get_RingVolume</a>

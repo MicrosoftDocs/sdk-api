@@ -54,7 +54,7 @@ Implements methods that get data from a Digital Video Broadcast (DVB) data broad
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbDataBroadcastIDDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbDataBroadcastIDDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbDataBroadcastIDDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbDataBroadcastIDDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDvbDataBroadcastIDDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdatabroadcastiddescriptor-getdatabroadcastid">GetDataBroadcastID</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdatabroadcastiddescriptor-getdatabroadcastid">GetDataBroadcastID</a>
 </td>
 <td align="left" width="63%">
 Gets the broadcast identifier from a DVB data broadcast ID descriptor.
@@ -78,7 +78,7 @@ Gets the broadcast identifier from a DVB data broadcast ID descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdatabroadcastiddescriptor-getidselectorbytes">GetIDSelectorBytes</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdatabroadcastiddescriptor-getidselectorbytes">GetIDSelectorBytes</a>
 </td>
 <td align="left" width="63%">
 Get the selector from a DVB data broadcast ID descriptor.
@@ -87,7 +87,7 @@ Get the selector from a DVB data broadcast ID descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdatabroadcastiddescriptor-getlength">GetLength</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdatabroadcastiddescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of a DVB data broadcast ID descriptor.
@@ -96,7 +96,7 @@ Gets the body length of a DVB data broadcast ID descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdatabroadcastiddescriptor-gettag">GetTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdatabroadcastiddescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies a DVB data broadcast ID descriptor.
@@ -104,4 +104,3 @@ Gets the tag that identifies a DVB data broadcast ID descriptor.
 </td>
 </tr>
 </table>
-

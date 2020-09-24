@@ -56,13 +56,13 @@ api_name:
 
 ## -description
 
-Contains information about a <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a> notification message.
+Contains information about a <a href="/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a> notification message.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 The <b>code</b> member of this structure identifies the notification message being sent.
 
@@ -86,11 +86,11 @@ A pointer to an item identifier list that identifies an item in the container id
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a>
+<a href="/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+<a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -98,11 +98,11 @@ A pointer to an item identifier list that identifies an item in the container id
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc">OFNHookProc</a>
+<a href="/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc">OFNHookProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-ofnotifya">OFNOTIFY</a>
+<a href="/windows/desktop/api/commdlg/ns-commdlg-ofnotifya">OFNOTIFY</a>
 
 
 
@@ -116,4 +116,3 @@ A pointer to an item identifier list that identifies an item in the container id
 
 > [!NOTE]
 > The commdlg.h header defines OFNOTIFYEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

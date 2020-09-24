@@ -56,13 +56,13 @@ Fired when an unhandled script error occurs.
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741505(v=vs.85)">IHTMLWindow2</a>*</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741505(v=vs.85)">IHTMLWindow2</a>*</b>
 
 The window or frame in which the script error occurred.
 
 ### -param scriptError [in]
 
-Type: <b><a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescripterror">IActiveScriptError</a>*</b>
+Type: <b><a href="/scripting/winscript/reference/iactivescripterror">IActiveScriptError</a>*</b>
 
 The object that contains info about the script error that occurred.
 
@@ -86,5 +86,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationscriptevents">IWebApplicationScriptEvents</a>
-
+<a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationscriptevents">IWebApplicationScriptEvents</a>

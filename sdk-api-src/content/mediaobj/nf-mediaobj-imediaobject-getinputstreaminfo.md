@@ -61,7 +61,7 @@ Zero-based index of an input stream on the DMO.
 
 ### -param pdwFlags [out]
 
-Pointer to a variable that receives a bitwise combination of zero or more <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_input_stream_info_flags">DMO_INPUT_STREAM_INFO_FLAGS</a> flags.
+Pointer to a variable that receives a bitwise combination of zero or more <a href="/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_input_stream_info_flags">DMO_INPUT_STREAM_INFO_FLAGS</a> flags.
 
 ## -returns
 
@@ -111,9 +111,8 @@ Success
 
 The DMO_INPUT_STREAMF_HOLDS_BUFFERS flag indicates that the DMO performs lookahead on the incoming data.
 
-The application must be sure to allocate sufficient buffers for the DMO to process the input. Call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputsizeinfo">IMediaObject::GetInputSizeInfo</a> method to determine the buffer requirements.
+The application must be sure to allocate sufficient buffers for the DMO to process the input. Call the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputsizeinfo">IMediaObject::GetInputSizeInfo</a> method to determine the buffer requirements.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>

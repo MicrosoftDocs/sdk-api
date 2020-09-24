@@ -62,17 +62,16 @@ The <b>HSWDEVICE</b> handle to close.
 
 ## -remarks
 
-After <b>SwDeviceClose</b> returns, the operating system is guaranteed to not call the <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function, and any calls to Software Device API functions that were in progress are  guaranteed to have completed.
+After <b>SwDeviceClose</b> returns, the operating system is guaranteed to not call the <a href="/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function, and any calls to Software Device API functions that were in progress are  guaranteed to have completed.
 
 You can call <b>SwDeviceClose</b> at any time even if the callback function hasn't been called yet.
 
-In Windows 8, you can't call <b>SwDeviceClose</b> inside the <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function.  Doing so will cause a deadlock.  Be careful of releasing a ref counted object that will call <b>SwDeviceClose</b> when its destructor runs.  In Windows 8.1, this restriction is lifted, and you can call <b>SwDeviceClose</b> inside the callback function.
+In Windows 8, you can't call <b>SwDeviceClose</b> inside the <a href="/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function.  Doing so will cause a deadlock.  Be careful of releasing a ref counted object that will call <b>SwDeviceClose</b> when its destructor runs.  In Windows 8.1, this restriction is lifted, and you can call <b>SwDeviceClose</b> inside the callback function.
 
-By calling <b>SwDeviceClose</b>, you initiate the process of removing a device from PnP.  The call to <b>SwDeviceClose</b> returns before this removal is complete.  But you can safely call <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a> immediately  after <b>SwDeviceClose</b>.  The new create will be queued until the previous removal processing completes, and then the device will be re-created.
+By calling <b>SwDeviceClose</b>, you initiate the process of removing a device from PnP.  The call to <b>SwDeviceClose</b> returns before this removal is complete.  But you can safely call <a href="/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a> immediately  after <b>SwDeviceClose</b>.  The new create will be queued until the previous removal processing completes, and then the device will be re-created.
 
 PnP removal makes the device "Not present." PnP removal of a device is the same us unplugging a USB device.  All the persisted property state for the device remains in memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>
-
+<a href="/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>

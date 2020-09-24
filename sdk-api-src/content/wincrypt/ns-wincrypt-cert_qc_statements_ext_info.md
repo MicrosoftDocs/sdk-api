@@ -64,7 +64,7 @@ A value that represents the size, in bytes, of the <b>rgStatement</b> array.
 
 ### -field rgStatement
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_qc_statement">CERT_QC_STATEMENT</a> structures that contains the sequence of statements that make up the QC statements extension.
+An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_qc_statement">CERT_QC_STATEMENT</a> structures that contains the sequence of statements that make up the QC statements extension.
 
 ## -see-also
 
@@ -73,4 +73,3 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-
 
 
 <a href="https://www.ietf.org/rfc/rfc3739.txt">RFC 3739</a>
-

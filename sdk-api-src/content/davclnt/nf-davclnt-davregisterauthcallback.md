@@ -56,7 +56,7 @@ Registers an application-defined callback function that the WebDAV client can us
 
 ### -param CallBack [in]
 
-A pointer to a function of type <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">PFNDAVAUTHCALLBACK</a>.
+A pointer to a function of type <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">PFNDAVAUTHCALLBACK</a>.
 
 ### -param Version [in]
 
@@ -70,9 +70,8 @@ If the function succeeds, the return value is an opaque handle. Note that <b>OPA
 
 The WebDAV client uses the callback function when it is unable to connect to a remote resource using default credentials.
 
-To unregister the callback function, use the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davunregisterauthcallback">DavUnregisterAuthCallback</a> function, passing the returned opaque handle in the <i>hCallback</i>  parameter.
+To unregister the callback function, use the <a href="/windows/desktop/api/davclnt/nf-davclnt-davunregisterauthcallback">DavUnregisterAuthCallback</a> function, passing the returned opaque handle in the <i>hCallback</i>  parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davunregisterauthcallback">DavUnregisterAuthCallback</a>
-
+<a href="/windows/desktop/api/davclnt/nf-davclnt-davunregisterauthcallback">DavUnregisterAuthCallback</a>

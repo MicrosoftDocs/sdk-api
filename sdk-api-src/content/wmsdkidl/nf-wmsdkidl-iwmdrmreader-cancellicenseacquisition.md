@@ -55,7 +55,7 @@ api_name:
 ]
 
 
-The <b>CancelLicenseAcquisition</b> method cancels a current call to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense">AcquireLicense</a> method.
+The <b>CancelLicenseAcquisition</b> method cancels a current call to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense">AcquireLicense</a> method.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>

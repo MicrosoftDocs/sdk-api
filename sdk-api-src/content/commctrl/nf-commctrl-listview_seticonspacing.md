@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the spacing between icons in list-view controls set to the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_ICON</a> style. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-seticonspacing">LVM_SETICONSPACING</a> message explicitly.
+Sets the spacing between icons in list-view controls set to the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_ICON</a> style. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-seticonspacing">LVM_SETICONSPACING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
 
@@ -78,4 +78,3 @@ The
 				<i>cx</i> and <i>cy</i> parameters are relative to the upper-left corner of an icon bitmap. Therefore, to set spacing between icons that do not overlap, the <i>cx</i> or <i>cy</i> values must include the size of the icon, plus the amount of empty space desired between icons. Values that do not include the width of the icon will result in overlaps.
 
 When defining the icon spacing, <i>cx</i> and <i>cy</i> must set to 4 or larger. Smaller values will not yield the desired layout. You can reset <i>cx</i> and <i>cy</i> to the default spacing by setting both values to -1. This approach only allows you to reset both default settings. You cannot reset only <i>cx</i> or <i>cy</i> to the default setting by setting one of them to -1.
-

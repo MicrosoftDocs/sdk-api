@@ -61,20 +61,20 @@ The <b>TraceQueryInformation</b> function
 ### -param SessionHandle [in]
 
 A handle of the event tracing session that wants to capture the specified information. The 
-      <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
+      <a href="/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
 
 ### -param InformationClass [in]
 
 The information class to query. The information that the class captures is included in the extended data 
       section of the event. For a list of information classes that you can query, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a> enumeration.
+      <a href="/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a> enumeration.
 
 ### -param TraceInformation [out]
 
 A pointer to a buffer to receive the returned information class specific data. The information class 
       determines the contents of this parameter. For example, for the <b>TraceStackTracingInfo</b> 
       information class, this parameter is an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/ETW/classic-event-id">CLASSIC_EVENT_ID</a> structures. The structures specify 
+      <a href="/windows/desktop/ETW/classic-event-id">CLASSIC_EVENT_ID</a> structures. The structures specify 
       the event GUIDs for which stack tracing is enabled. The array is limited to 256 elements.
 
 ### -param InformationLength [in]
@@ -140,7 +140,7 @@ The request is not supported.
 </dl>
 </td>
 <td width="60%">
-Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string 
+Use <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string 
         for the returned error.
 
 </td>
@@ -151,13 +151,12 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 
 The <b>TraceQueryInformation</b> function queries 
      event tracing session settings for the specified information class. Call this function after calling 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>.
+     <a href="/windows/desktop/ETW/starttrace">StartTrace</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a>
+<a href="/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>
-
+<a href="/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>

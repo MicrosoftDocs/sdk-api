@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Loads the application policies set with the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slpersistapplicationpolicies">SLPersistApplicationPolicies</a> function   
-	for use by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function.
+Loads the application policies set with the <a href="/windows/desktop/api/slpublic/nf-slpublic-slpersistapplicationpolicies">SLPersistApplicationPolicies</a> function   
+	for use by the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function.
 
 ## -parameters
 
@@ -77,8 +77,8 @@ Additional flags.
 
 Type: <b>HSLP*</b>
 
-A pointer to a policy context for use in the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function and    
-		the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slunloadapplicationpolicies">SLUnloadApplicationPolicies</a> function.
+A pointer to a policy context for use in the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function and    
+		the <a href="/windows/desktop/api/slpublic/nf-slpublic-slunloadapplicationpolicies">SLUnloadApplicationPolicies</a> function.
 
 ## -returns
 
@@ -116,4 +116,3 @@ The license policies for fast query could not be found.
 </td>
 </tr>
 </table>
-

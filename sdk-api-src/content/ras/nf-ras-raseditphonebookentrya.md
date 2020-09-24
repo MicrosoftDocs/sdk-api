@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function has been deprecated as of Windows Vista and its functionality has been replaced by <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>.]
+<p class="CCE_Message">[This function has been deprecated as of Windows Vista and its functionality has been replaced by <a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>.]
 
 The 
 <b>RasEditPhonebookEntry</b> function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information.
@@ -75,7 +75,7 @@ Pointer to a null-terminated string that specifies the name of an existing entry
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -119,10 +119,10 @@ The phone-book entry does not exist.
 
 ## -remarks
 
-When calling <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>, set each member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure passed to <i>lpinfo</i> to zero except:
+When calling <a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>, set each member of the <a href="/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure passed to <i>lpinfo</i> to zero except:
 
 <ul>
-<li><i>dwSize</i> = sizeof(<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a>)</li>
+<li><i>dwSize</i> = sizeof(<a href="/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a>)</li>
 <li><i>hwndOwner</i>  = the <i>hwnd</i> parameter above</li>
 </ul>
 
@@ -134,25 +134,24 @@ When calling <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
+<a href="/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>
+<a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa">RasGetEntryDialParams</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa">RasGetEntryDialParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

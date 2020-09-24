@@ -58,7 +58,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device for which to set configuration information. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwOperation [in]
 
@@ -98,13 +98,13 @@ Sets the tape-specific information specified by the <i>lpTapeInformation</i> par
 ### -param lpTapeInformation [in]
 
 Pointer to a structure that contains the information to set. If the <i>dwOperation</i> parameter is SET_TAPE_MEDIA_INFORMATION, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
 
 
 
 
 If <i>dwOperation</i> is SET_TAPE_DRIVE_INFORMATION, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a> structure.
 
 ## -returns
 
@@ -301,13 +301,12 @@ The media is write protected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>

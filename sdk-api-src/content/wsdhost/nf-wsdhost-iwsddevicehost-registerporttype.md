@@ -56,7 +56,7 @@ Registers a port type for incoming messages.  All port types listed in the servi
 
 ### -param pPortType [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a> structure that describes the port type.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a> structure that describes the port type.
 
 ## -returns
 
@@ -104,5 +104,4 @@ The port type specified by   <i>pPortType</i> has already been registered.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

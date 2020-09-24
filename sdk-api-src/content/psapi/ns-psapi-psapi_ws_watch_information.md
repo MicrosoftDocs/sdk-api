@@ -68,5 +68,4 @@ A pointer to the page that was added to the working set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getwschanges">GetWsChanges</a>
-
+<a href="/windows/desktop/api/psapi/nf-psapi-getwschanges">GetWsChanges</a>

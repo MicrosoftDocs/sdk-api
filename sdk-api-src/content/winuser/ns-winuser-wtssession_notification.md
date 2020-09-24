@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Provides information about the session change notification. A service receives this structure in its 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> function in response to a session change event.
+    <a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> function in response to a session change event.
 
 ## -struct-fields
 
@@ -69,5 +69,4 @@ Session identifier that triggered the session change event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
-
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>

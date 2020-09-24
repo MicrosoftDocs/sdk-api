@@ -54,7 +54,7 @@ Provides events related platform work queue.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqPlatformEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqPlatformEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqPlatformEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqPlatformEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRtwqPlatformEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-initializationcomplete">InitializationComplete</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-initializationcomplete">InitializationComplete</a>
 </td>
 <td align="left" width="63%">
 Called after the platform has been initialized.  
@@ -78,7 +78,7 @@ Called after the platform has been initialized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdowncomplete">ShutdownComplete</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdowncomplete">ShutdownComplete</a>
 </td>
 <td align="left" width="63%">
 Called after the platform has  shutdown. 
@@ -87,7 +87,7 @@ Called after the platform has  shutdown.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdownstart">ShutdownStart</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdownstart">ShutdownStart</a>
 </td>
 <td align="left" width="63%">
 Called before the platform is about to shutdown. 
@@ -95,4 +95,3 @@ Called before the platform is about to shutdown.
 </td>
 </tr>
 </table>
-

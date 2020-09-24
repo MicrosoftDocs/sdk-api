@@ -70,12 +70,12 @@ Namespace of the assertion to be retrieved as an extension.
 
 ### -field out
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     fields of this structure will be filled out as follows:
 
 ### -field out.assertionValue
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR and if the specified assertion is found in the policy alternative, <b>assertionValue</b> returns the read-only content. Returned buffer should not be modified or freed. If not found, it is set to NULL.
+When <a href="/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR and if the specified assertion is found in the policy alternative, <b>assertionValue</b> returns the read-only content. Returned buffer should not be modified or freed. If not found, it is set to NULL.
 
 ## -remarks
 
@@ -95,4 +95,3 @@ The following assertions are not allowed as policy extension because they might 
 &lt;wsa10p:UsingAddressing.../&gt;
 &lt;binp:BinaryEncoding.../&gt;
 &lt;mtomp:OptimizedMimeSerialization.../&gt;</code></pre>
-

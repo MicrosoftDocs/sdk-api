@@ -58,7 +58,7 @@ Specifies the type of external connection existing on an embedded object.
 
 ### -field EXTCONN_STRONG
 
-The external connection is a link. If this value is specified, the external connection must keep the object alive until all strong external connections are cleared through <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection">IExternalConnection::ReleaseConnection</a>.
+The external connection is a link. If this value is specified, the external connection must keep the object alive until all strong external connections are cleared through <a href="/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection">IExternalConnection::ReleaseConnection</a>.
 
 ### -field EXTCONN_WEAK
 
@@ -70,9 +70,8 @@ This value is not used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iexternalconnection-addconnection">IExternalConnection::AddConnection</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iexternalconnection-addconnection">IExternalConnection::AddConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection">IExternalConnection::ReleaseConnection</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection">IExternalConnection::ReleaseConnection</a>

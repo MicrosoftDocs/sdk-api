@@ -69,7 +69,7 @@ Address of a <b>ULONG</b>. On input, the value indicates the number of elements 
 ### -param Items [out]
 
 Address of a buffer to be filled with the <b>GUID</b>s representing the metadata. The 
-      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-getvirtualdiskmetadata">GetVirtualDiskMetadata</a> function can be used 
+      <a href="/windows/desktop/api/virtdisk/nf-virtdisk-getvirtualdiskmetadata">GetVirtualDiskMetadata</a> function can be used 
       to retrieve the data represented by each <b>GUID</b>.
 
 ## -returns
@@ -82,9 +82,8 @@ If the buffer pointed to by the <i>Items</i> parameter was too small, the return
        <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>

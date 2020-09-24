@@ -68,5 +68,4 @@ The resource was found, but does not match the property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservicecallback2-onelementstatechanged">OnElementStateChanged</a>
-
+<a href="/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservicecallback2-onelementstatechanged">OnElementStateChanged</a>

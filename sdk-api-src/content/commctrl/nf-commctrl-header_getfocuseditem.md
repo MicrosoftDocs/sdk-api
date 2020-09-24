@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the item in a header control that has the focus. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getfocuseditem">HDM_GETFOCUSEDITEM</a> message explicitly.
+Gets the item in a header control that has the focus. Use this macro or send the <a href="/windows/desktop/Controls/hdm-getfocuseditem">HDM_GETFOCUSEDITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/header-controls">About Header Controls</a>
-
+<a href="/windows/desktop/Controls/header-controls">About Header Controls</a>

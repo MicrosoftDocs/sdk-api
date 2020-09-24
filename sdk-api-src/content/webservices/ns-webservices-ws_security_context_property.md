@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines a property of a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-security-context">WS_SECURITY_CONTEXT</a>
+Defines a property of a <a href="/windows/desktop/wsw/ws-security-context">WS_SECURITY_CONTEXT</a>
 
 ## -struct-fields
 
@@ -67,4 +67,3 @@ The property value.
 ### -field valueSize
 
 The size of the property value
-

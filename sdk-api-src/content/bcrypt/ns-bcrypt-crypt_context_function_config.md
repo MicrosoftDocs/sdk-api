@@ -83,5 +83,4 @@ Restricts the set of usable providers for this function to only those that this 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontextfunction">BCryptConfigureContextFunction</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontextfunction">BCryptConfigureContextFunction</a>

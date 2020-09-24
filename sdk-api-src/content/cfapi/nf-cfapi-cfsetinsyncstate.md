@@ -60,11 +60,11 @@ A handle to the placeholder.	The caller must have WRITE_DATA or WRITE_DAC access
 
 ### -param InSyncState [in]
 
-The in-sync state. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_in_sync_state">CF_IN_SYNC_STATE</a> for more details.
+The in-sync state. See <a href="/windows/desktop/api/cfapi/ne-cfapi-cf_in_sync_state">CF_IN_SYNC_STATE</a> for more details.
 
 ### -param InSyncFlags [in]
 
-The in-sync state flags. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_set_in_sync_flags">CF_SET_IN_SYNC_FLAGS</a> for more details.
+The in-sync state flags. See <a href="/windows/desktop/api/cfapi/ne-cfapi-cf_set_in_sync_flags">CF_SET_IN_SYNC_FLAGS</a> for more details.
 
 ### -param InSyncUsn [in, out, optional]
 
@@ -73,4 +73,3 @@ When specified, this instructs the platform to only perform in-sync setting if t
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

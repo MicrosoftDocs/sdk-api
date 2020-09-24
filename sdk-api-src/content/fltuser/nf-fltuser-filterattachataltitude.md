@@ -90,7 +90,7 @@ Pointer to a null-terminated wide-character string that contains a numeric value
 
 ### -param lpInstanceName [in, optional]
 
-Pointer to a null-terminated wide-character string containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the new instance receives the minifilter's default instance name as described in the Remarks section for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>.
+Pointer to a null-terminated wide-character string containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the new instance receives the minifilter's default instance name as described in the Remarks section for <a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>.
 
 ### -param dwCreatedInstanceNameLength [in, optional]
 
@@ -137,7 +137,7 @@ An instance already exists with this name on the volume specified.
 
 An application should only use <b>FilterAttachAtAltitude</b> for debugging. It should not call this function in a retail version of the application. 
 
-<b>FilterAttachAtAltitude</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolumeataltitude">FltAttachVolumeAtAltitude</a>. 
+<b>FilterAttachAtAltitude</b> is the Win32 equivalent of <a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolumeataltitude">FltAttachVolumeAtAltitude</a>. 
 
 The term "altitude" refers to the position that an instance occupies (or should occupy) in the minifilter instance stack for a volume. The higher the altitude, the farther the instance is from the base file system in the stack. Only one instance can be attached at a given altitude on a given volume. 
 
@@ -147,17 +147,16 @@ The string "03333" represents a higher altitude than "100.123456". (Leading and 
 
 The instance name returned in <i>lpCreatedInstanceName</i> is unique across the system. 
 
-To detach a minifilter instance from a volume, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>.
+To detach a minifilter instance from a volume, call <a href="/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolumeataltitude">FltAttachVolumeAtAltitude</a>
-
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolumeataltitude">FltAttachVolumeAtAltitude</a>

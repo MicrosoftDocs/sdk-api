@@ -104,5 +104,4 @@ This is a combination of the following flags:
 
 ## -remarks
 
-If this function was successful, <a href="https://docs.microsoft.com/windows/desktop/api/msctfmonitorapi/nf-msctfmonitorapi-uninitlocalmsctfmonitor">UninitLocalMsCtfMonitor</a> needs to be called before the caller thread is terminated or the desktop is switched.
-
+If this function was successful, <a href="/windows/desktop/api/msctfmonitorapi/nf-msctfmonitorapi-uninitlocalmsctfmonitor">UninitLocalMsCtfMonitor</a> needs to be called before the caller thread is terminated or the desktop is switched.

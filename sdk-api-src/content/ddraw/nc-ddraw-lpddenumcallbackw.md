@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-The <i>DDEnumCallback</i> function is an application-defined callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawenumeratew">DirectDrawEnumerate</a> function.
+The <i>DDEnumCallback</i> function is an application-defined callback function for the <a href="/windows/desktop/api/ddraw/nf-ddraw-directdrawenumeratew">DirectDrawEnumerate</a> function.
 
 ## -parameters
 
@@ -86,4 +86,3 @@ If UNICODE is defined, the string values are returned as type LPWSTR, rather tha
 
 > [!NOTE]
 > The ddraw.h header defines LPDDENUMCALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

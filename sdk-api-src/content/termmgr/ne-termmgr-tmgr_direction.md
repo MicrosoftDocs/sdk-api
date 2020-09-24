@@ -71,9 +71,8 @@ The terminal can handle both directions of a media stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_direction">ITPluggableTerminalClassRegistration::get_Direction</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_direction">ITPluggableTerminalClassRegistration::get_Direction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_direction">ITPluggableTerminalClassRegistration::put_Direction</a>
-
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_direction">ITPluggableTerminalClassRegistration::put_Direction</a>

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC</b> callback function is called by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfoex">CryptExportPublicKeyInfoEx</a> to export a public key BLOB and encode it.
+The <b>PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC</b> callback function is called by <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfoex">CryptExportPublicKeyInfoEx</a> to export a public key BLOB and encode it.
 
 ## -parameters
 
 ### -param hNCryptKey [in]
 
-A handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use when exporting the public key information. This handle must be an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
+A handle of the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use when exporting the public key information. This handle must be an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
 
 ### -param dwCertEncodingType [in]
 
-A value that specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+A value that specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -73,7 +73,7 @@ Currently defined encoding types are:
 
 ### -param pszPublicKeyObjId [in]
 
-A pointer to a string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a>.
+A pointer to a string that contains the <a href="/windows/desktop/SecGloss/p-gly">public key algorithm</a>.
 
 ### -param dwFlags [in]
 
@@ -86,10 +86,10 @@ This parameter is reserved for future use and  must be set to <b>NULL</b>.
 ### -param pInfo [out, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>  structure to receive the public key information to be exported.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>  structure to receive the public key information to be exported.
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param *pcbInfo [in, out]
 
@@ -103,13 +103,13 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If this callback function does not support the signature algorithm, it must return <b>FALSE</b> and call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with <b>ERROR_NOT_SUPPORTED</b>.
+If this callback function does not support the signature algorithm, it must return <b>FALSE</b> and call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with <b>ERROR_NOT_SUPPORTED</b>.
 
 ## -remarks
 
-You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>
@@ -121,4 +121,3 @@ You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/crypto
 <td>"CryptDllExportPublicKeyInfoEx2"</td>
 </tr>
 </table>
-

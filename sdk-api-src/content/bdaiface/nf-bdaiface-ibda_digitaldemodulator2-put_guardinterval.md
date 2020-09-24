@@ -56,7 +56,7 @@ Sets the demodulator's guard interval.
 
 ### -param pGuardInterval [in]
 
-Pointer to a variable that contains the guard interval, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/guardinterval">GuardInterval</a> enumeration.
+Pointer to a variable that contains the guard interval, specified as a member of the <a href="/previous-versions/windows/desktop/mstv/guardinterval">GuardInterval</a> enumeration.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator2">IBDA_DigitalDemodulator2</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator2">IBDA_DigitalDemodulator2</a>

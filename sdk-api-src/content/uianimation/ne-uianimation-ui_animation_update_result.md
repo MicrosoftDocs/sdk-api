@@ -66,9 +66,8 @@ One or more animation variables has changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-update">IUIAnimationManager::Update</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-update">IUIAnimationManager::Update</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimerupdatehandler-onupdate">IUIAnimationTimerUpdateHandler::OnUpdate</a>
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimerupdatehandler-onupdate">IUIAnimationTimerUpdateHandler::OnUpdate</a>

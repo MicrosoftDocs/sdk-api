@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>SYSTEM_MANDATORY_LABEL_ACE</b> structure defines an  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) that specifies the mandatory access level and policy for a securable object.
+The <b>SYSTEM_MANDATORY_LABEL_ACE</b> structure defines an  <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) for the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) that specifies the mandatory access level and policy for a securable object.
 
 ## -struct-fields
 
 ### -field Header
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of the ACE. The structure also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure must be set to <b>SYSTEM_MANDATORY_LABEL_ACE_TYPE</b>, and the <b>AceSize</b> member must be set to the total number of bytes allocated for the <b>SYSTEM_MANDATORY_LABEL_ACE</b> structure.
+An <a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of the ACE. The structure also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure must be set to <b>SYSTEM_MANDATORY_LABEL_ACE_TYPE</b>, and the <b>AceSize</b> member must be set to the total number of bytes allocated for the <b>SYSTEM_MANDATORY_LABEL_ACE</b> structure.
 
 ### -field Mask
 
@@ -108,7 +108,7 @@ A principal with a lower mandatory level than the object cannot execute the obje
 
 ### -field SidStart
 
-Specifies the first <b>DWORD</b> of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>. The remaining bytes of the <b>SID</b>  are stored in contiguous memory after the <b>SidStart</b> member. The identifier authority of the <b>SID</b> must be <b>SECURITY_MANDATORY_LABEL_AUTHORITY</b>. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RID</a> of the <b>SID</b> specifies the mandatory integrity level of the object associated with the SACL that contains this ACE. The <i>RID</i> must be one of the following values.
+Specifies the first <b>DWORD</b> of a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>. The remaining bytes of the <b>SID</b>  are stored in contiguous memory after the <b>SidStart</b> member. The identifier authority of the <b>SID</b> must be <b>SECURITY_MANDATORY_LABEL_AUTHORITY</b>. The <a href="/windows/desktop/SecGloss/r-gly">RID</a> of the <b>SID</b> specifies the mandatory integrity level of the object associated with the SACL that contains this ACE. The <i>RID</i> must be one of the following values.
 
 <table>
 <tr>
@@ -152,5 +152,4 @@ High integrity level.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>

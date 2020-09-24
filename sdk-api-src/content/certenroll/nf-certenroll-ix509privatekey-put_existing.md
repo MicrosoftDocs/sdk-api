@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Existing</b> property specifies or retrieves a Boolean value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> has been created or imported. This property is web enabled for both input and output.
+The <b>Existing</b> property specifies or retrieves a Boolean value that indicates whether the <a href="/windows/desktop/SecGloss/p-gly">private key</a> has been created or imported. This property is web enabled for both input and output.
 
 This property is read/write.
 
@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a> method to create a new private key. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-open">Open</a> method to open an existing key.
+Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a> method to create a new private key. Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-open">Open</a> method to open an existing key.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

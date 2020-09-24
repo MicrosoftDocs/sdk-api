@@ -52,29 +52,28 @@ api_name:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.]
 
-The <b>CM_Get_Version</b> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> (<i>Cfgmgr32.dll</i>) for a local machine.
+The <b>CM_Get_Version</b> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<i>Cfgmgr32.dll</i>) for a local machine.
 
 ## -parameters
 
 ## -returns
 
-If the function succeeds, it returns the major revision number in the high-order byte, and the minor revision number in the low-order byte. Version 4.0 is returned as 0x0400. By default, version 4.0 is supported by Microsoft Windows 2000 and later versions of Windows. If an internal error occurs, the function returns 0x0000. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> to obtain the error code for the failure.
+If the function succeeds, it returns the major revision number in the high-order byte, and the minor revision number in the low-order byte. Version 4.0 is returned as 0x0400. By default, version 4.0 is supported by Microsoft Windows 2000 and later versions of Windows. If an internal error occurs, the function returns 0x0000. Call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain the error code for the failure.
 
 ## -remarks
 
 This function returns version 4.0 of the configuration manager to ensure compatibility with version 4.0 and all later versions of the configuration manager, and to ensure compatibility with all applications that require version 4.0 of the configuration manager.
 
-To determine if a specific version of the configuration manager is available on a machine, use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a> or <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex">CM_Is_Version_Available_Ex</a>.
+To determine if a specific version of the configuration manager is available on a machine, use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a> or <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex">CM_Is_Version_Available_Ex</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_version_ex">CM_Get_Version_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_version_ex">CM_Get_Version_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex">CM_Is_Version_Available_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex">CM_Is_Version_Available_Ex</a>

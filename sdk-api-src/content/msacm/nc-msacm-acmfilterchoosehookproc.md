@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>acmFilterChooseHookProc</b> function specifies a user-defined function that hooks the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> dialog box.
+The <b>acmFilterChooseHookProc</b> function specifies a user-defined function that hooks the <a href="/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> dialog box.
 
 ## -parameters
 
@@ -78,9 +78,8 @@ You should use this function the same way as you use the Common Dialog hook func
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

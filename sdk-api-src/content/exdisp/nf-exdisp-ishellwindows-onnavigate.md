@@ -65,7 +65,7 @@ The cookie that identifies the window.
 
 Type: <b>VARIANT*</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarLoc</i> to an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the new location.
+A <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarLoc</i> to an absolute <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the new location.
 
 ## -returns
 
@@ -75,17 +75,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-A window is granted a cookie when it is registered as a Shell window. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">IShellWindows::Register</a>.
+A window is granted a cookie when it is registered as a Shell window. For more information, see <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">IShellWindows::Register</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
+<a href="/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-onactivated">IShellWindows::OnActivated</a>
+<a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-onactivated">IShellWindows::OnActivated</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-oncreated">IShellWindows::OnCreated</a>
-
+<a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-oncreated">IShellWindows::OnCreated</a>

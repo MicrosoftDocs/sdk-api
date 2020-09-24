@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets an instance of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface for the specified window.
+Gets an instance of the <a href="/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface for the specified window.
 
 ## -parameters
 
 ### -param appWindow
 
-The top-level app window for which the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface is retrieved.
+The top-level app window for which the <a href="/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface is retrieved.
 
 ### -param riid
 
@@ -64,7 +64,7 @@ A reference to the IID of the interface to retrieve.
 
 ### -param mediaTransportControl [out]
 
-The top-level app window for which the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface is retrieved.
+The top-level app window for which the <a href="/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface is retrieved.
 
 ## -returns
 
@@ -72,5 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop">ISystemMediaTransportControlsInterop</a>
-
+<a href="/previous-versions/windows/desktop/api/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop">ISystemMediaTransportControlsInterop</a>

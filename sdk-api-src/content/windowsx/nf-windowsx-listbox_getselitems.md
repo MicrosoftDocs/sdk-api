@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the indexes of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getselitems">LB_GETSELITEMS</a> message explicitly.
+Gets the indexes of selected items in a multiple-selection list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-getselitems">LB_GETSELITEMS</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -71,4 +71,3 @@ The maximum number of selected items whose item numbers are to be placed in the 
 Type: <b>int*</b>
 
 A pointer to a buffer large enough for the number of integers specified by <i>cItems</i>.
-

@@ -56,7 +56,7 @@ api_name:
 
 The <b>CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY</b> structure contains information representing the Netscape certificate sequence of certificates.
 
-A Netscape certificate sequence of certificates can be created by setting the <b>pszObjId</b> member to szOID_NETSCAPE_CERT_SEQUENCE and supplying <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DER</a>-encoded certificates in <b>rgValue</b>.
+A Netscape certificate sequence of certificates can be created by setting the <b>pszObjId</b> member to szOID_NETSCAPE_CERT_SEQUENCE and supplying <a href="/windows/desktop/SecGloss/d-gly">DER</a>-encoded certificates in <b>rgValue</b>.
 
 ## -struct-fields
 
@@ -70,6 +70,5 @@ Number of elements in the <b>rgValue</b> array.
 
 ### -field rgValue
 
-Array of pointers to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structures. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>.
-
+Array of pointers to <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structures. For more information, see 
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>.

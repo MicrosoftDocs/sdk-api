@@ -92,9 +92,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
-
+<a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>

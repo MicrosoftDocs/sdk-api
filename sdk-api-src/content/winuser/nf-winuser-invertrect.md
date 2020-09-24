@@ -78,19 +78,18 @@ On monochrome screens, <b>InvertRect</b> makes white pixels black and black pixe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-fillrect">FillRect
+<a href="/windows/desktop/api/winuser/nf-winuser-fillrect">FillRect
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
+<a href="/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
+<a href="/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT
       </a>
-

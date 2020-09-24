@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Creates a drop-down menu, submenu, or shortcut menu. The menu is initially empty. You can insert or append menu items by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a> function. You can also use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> function to insert menu items and the <a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a> function to append menu items.
+Creates a drop-down menu, submenu, or shortcut menu. The menu is initially empty. You can insert or append menu items by using the <a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a> function. You can also use the <a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> function to insert menu items and the <a href="/windows/desktop/menurc/u">AppendMenu</a> function to append menu items.
 
 ## -parameters
 
@@ -64,24 +64,24 @@ Type: <b>HMENU</b>
 
 If the function succeeds, the return value is a handle to the newly created menu.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The application can add the new menu to an existing menu, or it can display a shortcut menu by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> functions. 
+The application can add the new menu to an existing menu, or it can display a shortcut menu by calling the <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> or <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> functions. 
 
-Resources associated with a menu that is assigned to a window are freed automatically. If the menu is not assigned to a window, an application must free system resources associated with the menu before closing. An application frees menu resources by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a> function. 
+Resources associated with a menu that is assigned to a window are freed automatically. If the menu is not assigned to a window, an application must free system resources associated with the menu before closing. An application frees menu resources by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Adding Lines and Graphs to a Menu</a>.
+For an example, see <a href="/windows/desktop/menurc/using-menus">Adding Lines and Graphs to a Menu</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a>
+<a href="/windows/desktop/menurc/u">AppendMenu</a>
 
 
 
@@ -89,23 +89,23 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createmenu">CreateMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createmenu">CreateMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -113,13 +113,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenu">SetMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenu">SetMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>

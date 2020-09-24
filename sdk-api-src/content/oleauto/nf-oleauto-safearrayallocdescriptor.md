@@ -108,12 +108,12 @@ The array could not be locked.
 
 ## -remarks
 
-This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdata">SafeArrayAllocData</a> to allocate memory for the array elements.
+This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdata">SafeArrayAllocData</a> to allocate memory for the array elements.
 
 
 #### Examples
 
-The following example creates a safe array using the <b>SafeArrayAllocDescriptor</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdata">SafeArrayAllocData</a> functions.
+The following example creates a safe array using the <b>SafeArrayAllocDescriptor</b> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdata">SafeArrayAllocData</a> functions.
 
 
 ```cpp
@@ -135,13 +135,12 @@ if( FAILED( hresult ) ) {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdata">SafeArrayAllocData</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdata">SafeArrayAllocData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydata">SafeArrayDestroyData</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydata">SafeArrayDestroyData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydescriptor">SafeArrayDestroyDescriptor</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydescriptor">SafeArrayDestroyDescriptor</a>

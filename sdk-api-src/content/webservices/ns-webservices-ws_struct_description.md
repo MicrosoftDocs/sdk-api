@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Information about C struct type, and how it maps to an XML element.
-                This is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>.
+                This is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>.
 
 ## -struct-fields
 
@@ -111,7 +111,7 @@ The number of types in the subTypes array.  This is only used when
 
 The following is the grammar describing the order of the fields
                 within a structure.  The order is defined based on the
-                mapping field of each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                mapping field of each <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -142,7 +142,7 @@ The deserialization process is also restrictive. All the content must be deseria
                 ignored and discarded when <b>WS_STRUCT_IGNORE_UNHANDLED_ATTRIBUTES</b> flag is set.
             
 
-Note that since the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> structures determine the location
+Note that since the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> structures determine the location
                 of the actual field within the structure using an offset, there is no restriction
                 as to the actual order of the fields within the structure.
             
@@ -177,4 +177,3 @@ struct DerivedStructure
 //    WS_ATTRIBUTE_FIELD_MAPPING            // derivedAttribute
 //    WS_ELEMENT_FIELD_MAPPING              // baseElement
 //    WS_ELEMENT_FIELD_MAPPING              // derivedElement</code></pre>
-

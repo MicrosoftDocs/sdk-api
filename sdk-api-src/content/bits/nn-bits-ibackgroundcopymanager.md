@@ -53,11 +53,11 @@ api_name:
 Creates transfer jobs, retrieves an enumerator object that contains the jobs in the queue, and retrieves individual jobs from the queue.
 
 For information on how to create an instance of this interface, see 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/connecting-to-the-bits-service">Connecting to the BITS Service</a>.
+<a href="/windows/desktop/Bits/connecting-to-the-bits-service">Connecting to the BITS Service</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IBackgroundCopyManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">CreateJob</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">CreateJob</a>
 </td>
 <td align="left" width="63%">
 Creates a transfer job.
@@ -81,7 +81,7 @@ Creates a transfer job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs">EnumJobs</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs">EnumJobs</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator object that you use to enumerate jobs in the queue.
@@ -90,7 +90,7 @@ Retrieves an enumerator object that you use to enumerate jobs in the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">GetErrorDescription</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">GetErrorDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description for the specified error code.
@@ -99,7 +99,7 @@ Retrieves a description for the specified error code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">GetJob</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">GetJob</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified job from the queue.
@@ -110,13 +110,12 @@ Retrieves a specified job from the queue.
 
 ## -remarks
 
-<b>Windows Vista and later:  </b>When an ActiveX control tries to instantiate this interface from an Internet Explorer process, the call will fail with access denied. This is because COM does not allow lower-integrity clients to bind to class instances at higher integrity levels. For details, see <a href="https://msdn.microsoft.com/library/Bb250462.aspx">Understanding and Working in Protected Mode Internet Explorer</a> and <a href="https://msdn.microsoft.com/library/bb625962.aspx">How the Integrity Mechanism Is Implemented in Windows Vista</a>. A user can workaround the issue by adding the website to the Trusted site zone.
+<b>Windows Vista and later:  </b>When an ActiveX control tries to instantiate this interface from an Internet Explorer process, the call will fail with access denied. This is because COM does not allow lower-integrity clients to bind to class instances at higher integrity levels. For details, see <a href="/previous-versions/windows/internet-explorer/ie-developer/">Understanding and Working in Protected Mode Internet Explorer</a> and <a href="/previous-versions/dotnet/articles/bb625962(v=msdn.10)">How the Integrity Mechanism Is Implemented in Windows Vista</a>. A user can workaround the issue by adding the website to the Trusted site zone.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
-
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>

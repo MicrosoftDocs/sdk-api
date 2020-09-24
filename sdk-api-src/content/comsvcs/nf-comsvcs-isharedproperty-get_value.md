@@ -64,9 +64,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/sharedproperty">SharedProperty</a>
-
+<a href="/windows/desktop/cossdk/sharedproperty">SharedProperty</a>

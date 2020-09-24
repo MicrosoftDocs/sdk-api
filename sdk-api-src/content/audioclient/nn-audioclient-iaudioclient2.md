@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IAudioClient2</b> interface is derived from the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to do the following: opt in for offloading, query stream properties, and get information from the hardware that handles offloading.The audio client can be successful in creating an offloaded stream if the underlying endpoint supports the hardware audio engine, the endpoint has been enumerated and discovered by the audio system, and there are still offload pin instances available on the endpoint.</p>
+The <b>IAudioClient2</b> interface is derived from the <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to do the following: opt in for offloading, query stream properties, and get information from the hardware that handles offloading.The audio client can be successful in creating an offloaded stream if the underlying endpoint supports the hardware audio engine, the endpoint has been enumerated and discovered by the audio system, and there are still offload pin instances available on the endpoint.</p>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient2</b> interface inherits from the <a href="https://docs.microsoft.com/en-us/windows/win32/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. <b>IAudioClient2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient2</b> interface inherits from the <a href="/windows/win32/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. <b>IAudioClient2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioClient2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-getbuffersizelimits">GetBufferSizeLimits</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-getbuffersizelimits">GetBufferSizeLimits</a>
 </td>
 <td align="left" width="63%">
 Retrieves the buffer size limits of the hardware audio engine in 100-nanosecond units.
@@ -78,7 +78,7 @@ Retrieves the buffer size limits of the hardware audio engine in 100-nanosecond 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-isoffloadcapable">IsOffloadCapable</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-isoffloadcapable">IsOffloadCapable</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about whether or not the endpoint on which a stream is created is capable of supporting an offloaded stream.
@@ -87,7 +87,7 @@ Retrieves information about whether or not the endpoint on which a stream is cre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">SetClientProperties</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">SetClientProperties</a>
 </td>
 <td align="left" width="63%">
 Sets the properties of the audio stream by populating an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> structure.
@@ -102,9 +102,8 @@ Sets the properties of the audio stream by populating an <a href="/windows/win32
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a>
-
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a>

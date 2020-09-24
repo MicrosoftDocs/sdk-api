@@ -82,9 +82,9 @@ The contents of the file specified in the
 To reset the stream to its beginning you must pass in a Null pointer for <i>szFilePath</i>. Do not pass a pointer to an empty string, "", to reset the stream.
 
 See also 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/ole-limitations-on-streams">OLE Limitations on Streams</a>.
+<a href="/windows/desktop/Msi/ole-limitations-on-streams">OLE Limitations on Streams</a>.
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -95,5 +95,4 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Record Processing Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Record Processing Functions</a>

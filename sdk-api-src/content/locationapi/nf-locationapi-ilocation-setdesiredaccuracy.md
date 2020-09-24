@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Specifies the accuracy to be used.
@@ -63,7 +63,7 @@ Specifies the accuracy to be used.
 
 ### -param arg2 [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> value that specifies the accuracy to be used.
+<a href="/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> value that specifies the accuracy to be used.
 
 ## -returns
 
@@ -103,7 +103,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value of <i>desiredAccuracy</i> is not supported in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> enumerated type.
+The value of <i>desiredAccuracy</i> is not supported in the <a href="/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> enumerated type.
 
 </td>
 </tr>
@@ -111,5 +111,4 @@ The value of <i>desiredAccuracy</i> is not supported in the <a href="https://doc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves an enumeration of <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> objects, one for each relationship this entity has.
+Retrieves an enumeration of <a href="/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> objects, one for each relationship this entity has.
 
 ## -parameters
 
@@ -64,11 +64,10 @@ The desired IID of the result, either IID_IEnumUnknown or IID_IEnumVARIANT.
 
 Type: <b>void**</b>
 
-Receives the address of a pointer to the enumeration of the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> objects.
+Receives the address of a pointer to the enumeration of the <a href="/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> objects.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

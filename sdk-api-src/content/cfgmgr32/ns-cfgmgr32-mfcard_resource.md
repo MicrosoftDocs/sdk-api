@@ -54,15 +54,14 @@ api_name:
 
 ## -description
 
-The MFCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <i>one</i> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The MFCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <i>one</i> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
 ### -field MfCard_Header
 
-A [MFCARD_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des) structure.
+A [MFCARD_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des) structure.
 
 ## -see-also
 
-[MFCARD_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des)
-
+[MFCARD_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des)

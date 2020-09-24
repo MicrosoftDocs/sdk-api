@@ -99,7 +99,7 @@ Returns ERROR_SUCCESS if successful, or a Windows error code otherwise.
 
 ## -remarks
 
-For Windows 2000, <b>SHRegSetPath</b> uses <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> to convert folder names to their corresponding environment string. If any environment variables were substituted, the registry value will be set with the <b>REG_EXPAND_SZ</b> data type. Otherwise, it will be set with the <b>REG_SZ</b> data type.
+For Windows 2000, <b>SHRegSetPath</b> uses <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> to convert folder names to their corresponding environment string. If any environment variables were substituted, the registry value will be set with the <b>REG_EXPAND_SZ</b> data type. Otherwise, it will be set with the <b>REG_SZ</b> data type.
 
 The following folder paths will be replaced by their equivalent environment string.
 
@@ -145,4 +145,3 @@ The environment variables listed in the above table might not all be set on any 
 
 > [!NOTE]
 > The shlwapi.h header defines SHRegSetPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

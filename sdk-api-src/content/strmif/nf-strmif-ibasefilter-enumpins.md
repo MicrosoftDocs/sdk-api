@@ -57,7 +57,7 @@ The <code>EnumPins</code> method enumerates the pins on this filter.
 
 ### -param ppEnum [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins</a> interface.
+Address of a variable that receives a pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins</a> interface.
 
 ## -returns
 
@@ -105,15 +105,14 @@ Insufficient memory
 
 ## -remarks
 
-This method returns an enumerator that supports the <b>IEnumPins</b> interface, which works like a standard COM enumerator. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enumerating-pins">Enumerating Pins</a>.
+This method returns an enumerator that supports the <b>IEnumPins</b> interface, which works like a standard COM enumerator. For more information, see <a href="/windows/desktop/DirectShow/enumerating-pins">Enumerating Pins</a>.
 
 If the method succeeds, the <b>IEnumPins</b> interface has an outstanding reference count. Be sure to release the interface when you are done.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>

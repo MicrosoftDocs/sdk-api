@@ -56,7 +56,7 @@ The <b>PeerGroupIssueCredentials</b> function issues credentials, including a GM
 
 ### -param hGroup [in]
 
-Handle to a peer group  for which a peer will issue credentials to potential invited peers. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
+Handle to a peer group  for which a peer will issue credentials to potential invited peers. This handle is returned by the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 ### -param pwzSubjectIdentity [in]
 
@@ -64,9 +64,9 @@ Specifies the identity of a peer to whom credentials will be issued. This parame
 
 ### -param pCredentialInfo [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a> structure that contains information about the credentials  of a peer whose identity is specified in <i>pwzSubjectIdentity</i>. If this parameter is <b>NULL</b>, the information stored in the peer database is used, instead. This parameter is optional.
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a> structure that contains information about the credentials  of a peer whose identity is specified in <i>pwzSubjectIdentity</i>. If this parameter is <b>NULL</b>, the information stored in the peer database is used, instead. This parameter is optional.
 
-If this parameter is provided, the following fields in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a> are ignored:<ul>
+If this parameter is provided, the following fields in <a href="/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a> are ignored:<ul>
 <li><b>pwzIssuerPeerName</b></li>
 <li><b>pwzIssuerFriendlyName</b></li>
 </ul>
@@ -94,7 +94,7 @@ Publish the subject identity's newly-created GMC in the group database.  The GMC
 
 ### -param ppwzInvitation [out]
 
-Pointer to an invitation XML string returned by the function call. This invitation is passed out-of-band to the invited peer who uses it in a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>. This parameter is optional.
+Pointer to an invitation XML string returned by the function call. This invitation is passed out-of-band to the invited peer who uses it in a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>. This parameter is optional.
 
 ## -returns
 
@@ -164,11 +164,10 @@ Access to the identity or group keys is denied. Typically, this is  caused by an
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
 This function can only be called successfully by an administrator.
 
-The credentials for a member (<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a>) are obtained  by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>. The credentials are located in  the <b>pCredentialInfo</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a> structure for a specific member.
-
+The credentials for a member (<a href="/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a>) are obtained  by calling <a href="/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>. The credentials are located in  the <b>pCredentialInfo</b> field of the <a href="/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a> structure for a specific member.

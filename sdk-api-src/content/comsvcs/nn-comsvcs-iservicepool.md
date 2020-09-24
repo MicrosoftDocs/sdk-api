@@ -54,7 +54,7 @@ Used to manage a COM+ object pool.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServicePool</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServicePool</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServicePool</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServicePool</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IServicePool</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicepool-getobject">GetObject</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicepool-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object from the object pool.
@@ -78,7 +78,7 @@ Retrieves an object from the object pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicepool-initialize">Initialize</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicepool-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object pool.
@@ -88,7 +88,7 @@ Initializes an object pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicepool-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicepool-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down an object pool.
@@ -100,5 +100,4 @@ Shuts down an object pool.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepoolconfig">IServicePoolConfig</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicepoolconfig">IServicePoolConfig</a>

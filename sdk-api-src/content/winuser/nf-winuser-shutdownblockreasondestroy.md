@@ -70,19 +70,18 @@ A handle to the main window of the application.
 If the call succeeds, the return value is nonzero.
 
 If the call fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 This function can only be called from the thread that created the window specified by the <i>hWnd</i> parameter. Otherwise, the function fails and the last error code is ERROR_ACCESS_DENIED.
 
-If system shutdown has been previously blocked by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a> function, this function frees the reason string. Otherwise, this function is a no-op.
+If system shutdown has been previously blocked by the <a href="/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a> function, this function frees the reason string. Otherwise, this function is a no-op.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
-
+<a href="/windows/desktop/Shutdown/shutting-down">Shutting Down</a>

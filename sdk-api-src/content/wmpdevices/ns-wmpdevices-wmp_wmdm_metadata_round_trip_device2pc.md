@@ -122,5 +122,4 @@ The Windows Media Device Manager service provider should return as many object p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/windows-media-device-manager-device-extensions-for-metadata-transfer">Windows Media Device Manager Device Extensions for Metadata Transfer</a>
-
+<a href="/windows/desktop/WMP/windows-media-device-manager-device-extensions-for-metadata-transfer">Windows Media Device Manager Device Extensions for Metadata Transfer</a>

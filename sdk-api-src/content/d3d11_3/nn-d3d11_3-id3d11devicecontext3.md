@@ -52,11 +52,11 @@ api_name:
 ## -description
 
 The device context interface represents a device context; it is used to render commands. 
-        <b>ID3D11DeviceContext3</b> adds new methods to those in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>.
+        <b>ID3D11DeviceContext3</b> adds new methods to those in <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>. <b>ID3D11DeviceContext3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext3</b> interface inherits from <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>. <b>ID3D11DeviceContext3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D11DeviceContext3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11devicecontext3-flush1">Flush1</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11devicecontext3-flush1">Flush1</a>
 </td>
 <td align="left" width="63%">
 Sends queued-up commands in the command buffer to the graphics processing unit (GPU), with a specified context type and an optional event handle to create an event query.
@@ -81,7 +81,7 @@ Sends queued-up commands in the command buffer to the graphics processing unit (
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11devicecontext3-gethardwareprotectionstate">GetHardwareProtectionState</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11devicecontext3-gethardwareprotectionstate">GetHardwareProtectionState</a>
 </td>
 <td align="left" width="63%">
 Gets whether hardware protection is enabled.
@@ -91,7 +91,7 @@ Gets whether hardware protection is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11devicecontext3-sethardwareprotectionstate">SetHardwareProtectionState</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11devicecontext3-sethardwareprotectionstate">SetHardwareProtectionState</a>
 </td>
 <td align="left" width="63%">
 Sets the hardware protection state.
@@ -103,17 +103,16 @@ Sets the hardware protection state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>
-
+<a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>

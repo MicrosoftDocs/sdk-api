@@ -56,13 +56,13 @@ Sets the geographic location for the current user to the specified two-letter In
 
 ### -param geoName [in]
 
-The two-letter ISO 3166-1 or numeric UN M.49 code for the geographic location to set for the current user. To get the codes that are available on the operating system, call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>.
+The two-letter ISO 3166-1 or numeric UN M.49 code for the geographic location to set for the current user. To get the codes that are available on the operating system, call <a href="/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>.
 
 ## -returns
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
-If this function does not succeed, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+If this function does not succeed, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <table>
 <tr>
@@ -114,21 +114,20 @@ For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultgeoname">GetUserDefaultGeoName</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultgeoname">GetUserDefaultGeoName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setusergeoid">SetUserGeoID</a>
-
+<a href="/windows/desktop/api/winnls/nf-winnls-setusergeoid">SetUserGeoID</a>

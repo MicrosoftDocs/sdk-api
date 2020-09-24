@@ -60,15 +60,14 @@ A constant that specifies the enumeration should continue.
 
 ### -field HeapEnumerationStop
 
-A constant that specifies to the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function when the enumeration operation should stop.
+A constant that specifies to the <a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function when the enumeration operation should stop.
 
 Codes from 0x1 to 0xFFFFFFE are reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
+<a href="/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
-
+<a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>

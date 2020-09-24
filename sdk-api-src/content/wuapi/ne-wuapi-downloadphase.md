@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines the progress of the download of the current update that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_currentupdatedownloadphase">CurrentUpdateDownloadPhase</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a> interface.
+Defines the progress of the download of the current update that is returned by the <a href="/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_currentupdatedownloadphase">CurrentUpdateDownloadPhase</a> property of the <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a> interface.
 
 ## -enum-fields
 
@@ -67,4 +67,3 @@ Downloading the current update.
 ### -field dphVerifying
 
 Verifying the download of the current update.
-

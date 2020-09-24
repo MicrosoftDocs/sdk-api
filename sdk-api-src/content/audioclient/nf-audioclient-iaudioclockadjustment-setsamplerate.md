@@ -102,9 +102,8 @@ The new sample rate will take effect after the current frame is done processing 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a>
+<a href="/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclockadjustment">IAudioClockAdjustment</a>
-
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclockadjustment">IAudioClockAdjustment</a>

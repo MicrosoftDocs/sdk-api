@@ -62,15 +62,15 @@ A handle to the parent window.
 
 ### -param prompt [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_prompt">ATTACHMENT_PROMPT</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_prompt">ATTACHMENT_PROMPT</a></b>
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_prompt">ATTACHMENT_PROMPT</a> enumeration that indicates what type of prompt UI to display to the user.
+A member of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_prompt">ATTACHMENT_PROMPT</a> enumeration that indicates what type of prompt UI to display to the user.
 
 ### -param paction [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_action">ATTACHMENT_ACTION</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_action">ATTACHMENT_ACTION</a>*</b>
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_action">ATTACHMENT_ACTION</a> enumeration that indicates the action to be performed upon user confirmation.
+A member of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_action">ATTACHMENT_ACTION</a> enumeration that indicates the action to be performed upon user confirmation.
 
 ## -returns
 
@@ -80,7 +80,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a> before calling <b>IAttachmentExecute::Prompt</b>.
+You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a> before calling <b>IAttachmentExecute::Prompt</b>.
 
 <b>IAttachmentExecute::Prompt</b> can be called by the application to force UI presentation before the file has been copied to disk.
-

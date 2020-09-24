@@ -54,7 +54,7 @@ Supports setting COM+ context properties.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icontext-enumcontextprops">EnumContextProps</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-icontext-enumcontextprops">EnumContextProps</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumcontextprops">IEnumContextProps</a> interface pointer that can be used to enumerate the context properties in this context.
+Returns an <a href="/windows/desktop/api/objidl/nn-objidl-ienumcontextprops">IEnumContextProps</a> interface pointer that can be used to enumerate the context properties in this context.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icontext-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-icontext-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified context property from the context.
@@ -87,7 +87,7 @@ Retrieves the specified context property from the context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icontext-removeproperty">RemoveProperty</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-icontext-removeproperty">RemoveProperty</a>
 </td>
 <td align="left" width="63%">
 Removes the specified context property from the context.
@@ -96,7 +96,7 @@ Removes the specified context property from the context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icontext-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-icontext-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Adds the specified context property to the object context.
@@ -107,5 +107,4 @@ Adds the specified context property to the object context.
 
 ## -remarks
 
- An instance of this interface for the current context can be obtained using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>.
-
+ An instance of this interface for the current context can be obtained using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>.

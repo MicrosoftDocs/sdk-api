@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>MS_ADDINFO_BLOB</b> structure provides additional information for in-memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> subject types.
+The <b>MS_ADDINFO_BLOB</b> structure provides additional information for in-memory <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> subject types.
 
 ## -struct-fields
 
@@ -77,4 +77,3 @@ The size, in bytes, of the data in the <i>pbMemSignedMsg</i> member.
 ### -field pbMemSignedMsg
 
 A pointer to the signed message.
-

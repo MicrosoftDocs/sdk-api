@@ -56,9 +56,9 @@ A user-implemented method for closing a shader #include file.
 
 ### -param pData
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
 
-Pointer to the buffer that contains the include directives. This is the pointer that was returned by the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">ID3DInclude::Open</a> call.
+Pointer to the buffer that contains the include directives. This is the pointer that was returned by the corresponding <a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">ID3DInclude::Open</a> call.
 
 ## -returns
 
@@ -76,13 +76,12 @@ The user-implemented <b>Close</b> method should return S_OK. If <b>Close</b> fai
 
 ## -remarks
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">ID3DInclude::Open</a> was successful, <b>Close</b> is guaranteed to be called before the API using the <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a> interface returns.
+If <a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">ID3DInclude::Open</a> was successful, <b>Close</b> is guaranteed to be called before the API using the <a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a> interface returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a>
+<a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">ID3DInclude::Open</a>
-
+<a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">ID3DInclude::Open</a>

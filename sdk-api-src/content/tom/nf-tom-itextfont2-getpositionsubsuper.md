@@ -62,7 +62,7 @@ The subscript or superscript position relative to the baseline.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -70,13 +70,12 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 The subscript or superscript position is relative to the baseline as a percent of the font height.
 
-Subscripts and superscripts in math zones are handled using the <a href="/windows/win32/api/tom/ne-tom-objecttype">tomSubscript</a>, <a href="/windows/win32/api/tom/ne-tom-objecttype">tomSuperscript</a>, <a href="/windows/win32/api/tom/ne-tom-objecttype">tomSubSup</a>, and <a href="/windows/win32/api/tom/ne-tom-objecttype">tomLeftSubSup</a> mathematical objects. See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>.
+Subscripts and superscripts in math zones are handled using the <a href="/windows/win32/api/tom/ne-tom-objecttype">tomSubscript</a>, <a href="/windows/win32/api/tom/ne-tom-objecttype">tomSuperscript</a>, <a href="/windows/win32/api/tom/ne-tom-objecttype">tomSubSup</a>, and <a href="/windows/win32/api/tom/ne-tom-objecttype">tomLeftSubSup</a> mathematical objects. See <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-setpositionsubsuper">ITextFont2::SetPositionSubSuper</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextfont2-setpositionsubsuper">ITextFont2::SetPositionSubSuper</a>

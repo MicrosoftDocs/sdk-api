@@ -112,7 +112,7 @@ COM will wait for this many milliseconds and then retry the call.
 
 ## -remarks
 
-COM calls <b>RetryRejectedCall</b> on the caller's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface immediately after receiving SERVERCALL_RETRYLATER or SERVERCALL_REJECTED from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a> method on the callee's <b>IMessageFilter</b> interface.
+COM calls <b>RetryRejectedCall</b> on the caller's <a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface immediately after receiving SERVERCALL_RETRYLATER or SERVERCALL_REJECTED from the <a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a> method on the callee's <b>IMessageFilter</b> interface.
 
 If a called task rejects a call, the application is probably in a state where it cannot handle such calls, possibly only temporarily. When this occurs, COM returns to the caller and issues <b>RetryRejectedCall</b> to determine whether it should retry the rejected call.
 
@@ -120,12 +120,11 @@ Applications should silently retry calls that have returned with SERVERCALL_RETR
 
 If, after a dialog box is displayed, the user chooses to cancel, <b>RetryRejectedCall</b> returns -1 and the call will appear to fail with RPC_E_CALL_REJECTED.
 
-If a client implements <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> and calls a server method on a remote machine, <b>RetryRejectedCall</b> will not be called.
+If a client implements <a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> and calls a server method on a remote machine, <b>RetryRejectedCall</b> will not be called.
 
-<div class="alert"><b>Note</b>  Although the <i>htaskCallee</i> parameter is typed as an HTASK, it  contains the thread id of the called thread. When you implement the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to get the thread handle from the <i>htaskCallee</i> parameter,  and you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread">GetProcessIdOfThread</a> function to get the process id.</div>
+<div class="alert"><b>Note</b>  Although the <i>htaskCallee</i> parameter is typed as an HTASK, it  contains the thread id of the called thread. When you implement the <a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface, you can call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to get the thread handle from the <i>htaskCallee</i> parameter,  and you can call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread">GetProcessIdOfThread</a> function to get the process id.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>

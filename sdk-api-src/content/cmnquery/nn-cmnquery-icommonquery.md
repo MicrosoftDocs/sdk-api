@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICommonQuery</b> interface is used to programmatically display the system-supplied directory service query dialog box.To create an  instance of this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_CommonQuery</b> class identifier as shown in the following code example.
+The <b>ICommonQuery</b> interface is used to programmatically display the system-supplied directory service query dialog box.To create an  instance of this interface, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_CommonQuery</b> class identifier as shown in the following code example.
 
 ```cpp
 HRESULT hr;
@@ -65,7 +65,7 @@ hr = CoCreateInstance(CLSID_CommonQuery,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommonQuery</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommonQuery</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommonQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommonQuery</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>ICommonQuery</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">OpenQueryWindow</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">OpenQueryWindow</a>
 </td>
 <td align="left" width="63%">
 Displays the directory service query dialog box.
@@ -91,6 +91,5 @@ Displays the directory service query dialog box.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active
+<a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active
     Directory Domain Services</a>
-

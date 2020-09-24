@@ -55,16 +55,16 @@ provides similar functionality.]
 
 The 
 <b>RequestAddress</b> method obtains a new lease for one or more multicast addresses. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-enumeratescopes">EnumerateScopes</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-get_scopes">get_Scopes</a> method must be called first.
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-enumeratescopes">EnumerateScopes</a> or 
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-get_scopes">get_Scopes</a> method must be called first.
 
 ## -parameters
 
 ### -param pScope [in]
 
 Identifies the multicast scope from which the application needs an address. The application first calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-get_scopes">get_Scopes</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-enumeratescopes">EnumerateScopes</a> to obtain a list of available scopes.
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-get_scopes">get_Scopes</a> or 
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-enumeratescopes">EnumerateScopes</a> to obtain a list of available scopes.
 
 ### -param LeaseStartTime [in]
 
@@ -81,8 +81,8 @@ The number of addresses requested. Fewer addresses may actually be granted.
 ### -param ppLeaseResponse [out]
 
 Pointer to an interface pointer that will be set to point to a new 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a> object. This interface can then be used to discover the actual attributes of the granted lease. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> for more information.
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a> object. This interface can then be used to discover the actual attributes of the granted lease. See 
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> for more information.
 
 ## -returns
 
@@ -144,10 +144,9 @@ Requested stop time is prior to requested stop time.
 Although these COM interfaces and their implementation support allocation of multiple addresses at a time, multiple allocation is not currently supported by the underlying function calls. You may need to use a loop for multiple address allocation.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a> interface returned by <b>IMcastAddressAllocation::RequestAddress</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a> interface returned by <b>IMcastAddressAllocation::RequestAddress</b>. The application must call <b>Release</b> on the 
 <b>IMcastLeaseInfo</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
-
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>

@@ -58,7 +58,7 @@ Converts colors from RGB to hue-luminance-saturation (HLS) format.
 
 ### -param clrRGB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 The original RGB color.
 
@@ -79,4 +79,3 @@ A pointer to a value that, when this method returns successfully, receives the H
 Type: <b>WORD*</b>
 
 A pointer to a value that, when this method returns successfully, receives the HLS saturation value.
-

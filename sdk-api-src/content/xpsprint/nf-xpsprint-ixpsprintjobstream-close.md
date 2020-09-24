@@ -66,13 +66,12 @@ After <b>Close</b> has been called, all subsequent attempts to write data to the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
+<a href="/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a>
+<a href="/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a>
 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-

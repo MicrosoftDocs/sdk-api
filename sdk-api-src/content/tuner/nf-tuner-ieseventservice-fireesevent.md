@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Raises an event derived from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface. Media Transform Devices in a  Protected Broadcast Driver Architecture (PBDA) graph can use this method to raise these types of events for Media Sink Devices that have registered to handle specific event types.
+Raises an event derived from the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface. Media Transform Devices in a  Protected Broadcast Driver Architecture (PBDA) graph can use this method to raise these types of events for Media Sink Devices that have registered to handle specific event types.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> object is processed in a multithreaded apartment and finally sent to clients from this apartment.  Make sure the object runs either using the multithreaded threading model or using the single-threaded with proper marshaling interfaces.
+The <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> object is processed in a multithreaded apartment and finally sent to clients from this apartment.  Make sure the object runs either using the multithreaded threading model or using the single-threaded with proper marshaling interfaces.
 
 ## -parameters
 
 ### -param pESEvent [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface for the event being raised.
+Pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface for the event being raised.
 
 ## -returns
 
@@ -66,5 +66,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>

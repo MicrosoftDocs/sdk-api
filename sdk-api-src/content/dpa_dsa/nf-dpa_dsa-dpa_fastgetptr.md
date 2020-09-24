@@ -64,5 +64,4 @@ The index of the DPA item.
 
 ## -remarks
 
- Unlike function <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_getptr">DPA_GetPtr</a>, the macro <b>DPA_FastGetPtr</b> does no parameter validation. If the index specified in <b>DPA_FastGetPtr</b> is out of range, the behavior is undefined.
-
+ Unlike function <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_getptr">DPA_GetPtr</a>, the macro <b>DPA_FastGetPtr</b> does no parameter validation. If the index specified in <b>DPA_FastGetPtr</b> is out of range, the behavior is undefined.

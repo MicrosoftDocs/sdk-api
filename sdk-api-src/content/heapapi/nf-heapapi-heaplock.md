@@ -62,54 +62,53 @@ Attempts to acquire the critical section object, or lock, that is associated wit
 ### -param hHeap [in]
 
 A handle to the heap to be locked. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If the function succeeds, the calling thread owns the heap lock. Only the calling thread will be able to allocate or release memory from the heap. The execution of any other thread of the calling process will be blocked if that thread attempts to allocate or release memory from the heap. Such threads will remain blocked until the thread that owns the heap lock calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> function.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> function.
 
 The 
 <b>HeapLock</b> function is primarily useful for preventing the allocation and release of heap memory by other threads while the calling thread uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> function.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> function.
 
-If the <b>HeapLock</b> function is called on a heap created with the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HEAP_NO_SERIALIZE</a> flag, the results are undefined.
+If the <b>HeapLock</b> function is called on a heap created with the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HEAP_NO_SERIALIZE</a> flag, the results are undefined.
 
 Each successful call to 
-<b>HeapLock</b> must be matched by a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>. Failure to call 
+<b>HeapLock</b> must be matched by a corresponding call to <a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>. Failure to call 
 <b>HeapUnlock</b> will block the execution of any other threads of the calling process that attempt to access the heap.
 
 
 #### Examples
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
+<a href="/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
 
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
+<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
-

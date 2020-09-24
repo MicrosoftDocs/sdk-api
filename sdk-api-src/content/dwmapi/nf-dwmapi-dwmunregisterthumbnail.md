@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Removes a Desktop Window Manager (DWM) thumbnail relationship created by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmregisterthumbnail">DwmRegisterThumbnail</a> function.
+Removes a Desktop Window Manager (DWM) thumbnail relationship created by the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmregisterthumbnail">DwmRegisterThumbnail</a> function.
 
 ## -parameters
 
@@ -68,17 +68,16 @@ Unregistering DWM thumbnail relationships must be done within the process that r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dwm/thumbnail-ovw">DWM Thumbnail Overview</a>
+<a href="/windows/desktop/dwm/thumbnail-ovw">DWM Thumbnail Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-overview">Desktop Window Manager Overview</a>
+<a href="/windows/desktop/dwm/dwm-overview">Desktop Window Manager Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize">DwmQueryThumbnailSourceSize</a>
+<a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize">DwmQueryThumbnailSourceSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmupdatethumbnailproperties">DwmUpdateThumbnailProperties</a>
-
+<a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmupdatethumbnailproperties">DwmUpdateThumbnailProperties</a>

@@ -94,9 +94,8 @@ This method is used to get the ID format schema from the two providers that are 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
+<a href="/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>

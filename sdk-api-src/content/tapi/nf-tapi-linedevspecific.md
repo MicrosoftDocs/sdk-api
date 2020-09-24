@@ -78,7 +78,7 @@ Size of the parameter block area, in bytes.
 ## -returns
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds, or it is a negative error number if an error occurs. Possible return values are:
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds, or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALADDRESSID, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALLINEHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_UNINITIALIZED, LINEERR_NOMEM.
 
@@ -89,7 +89,7 @@ Additional return values are device specific.
 This operation is part of the Extended Telephony services. It provides access to a device-specific feature without defining its meaning. This operation is only available if the application has successfully negotiated a device-specific extension version.
 
 This function provides a generic parameter profile. The interpretation of the parameter structure is device specific. Whether <i>dwAddressID</i> and/or <i>hCall</i> are expected to be valid is device specific. If specified, they must belong to <i>hLine</i>. Indications and replies sent back the application that are device specific should use the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-devspecific">LINE_DEVSPECIFIC</a> message.
+<a href="/windows/desktop/Tapi/line-devspecific">LINE_DEVSPECIFIC</a> message.
 
 A service provider can provide access to device-specific functions by defining parameters for use with this function. Applications that want to make use of these device-specific extensions should consult the device-specific (in this case, vendor-specific) documentation that describes what extensions are defined. Typically, an application that relies on these device-specific extensions is not able to work with other service provider environments.
 
@@ -98,17 +98,16 @@ A service provider can provide access to device-specific functions by defining p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/extended-telephony-services-reference">Extended Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/extended-telephony-services-reference">Extended Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-devspecific">LINE_DEVSPECIFIC</a>
+<a href="/windows/desktop/Tapi/line-devspecific">LINE_DEVSPECIFIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The type of the security binding, used as a selector for subtypes of
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding">WS_SECURITY_BINDING</a>.  In general, the type name of the
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_security_binding">WS_SECURITY_BINDING</a>.  In general, the type name of the
 security binding (one of the values defined here) specifies how the
 security token used with that security binding is obtained and used.
 
@@ -59,23 +59,23 @@ security token used with that security binding is obtained and used.
 
 ### -field WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
+Type id for the security binding <a href="/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
 
 ### -field WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+Type id for the security binding <a href="/windows/desktop/api/webservices/ns-webservices-ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
 
 ### -field WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
+Type id for the security binding <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
 
 ### -field WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="/windows/desktop/api/webservices/ns-webservices-ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.
 
 ### -field WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
 
 ### -field WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE
 
@@ -87,10 +87,9 @@ Type id for the security binding <a href="/windows/win32/api/webservices/ns-webs
 
 ### -field WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>.
 
 ### -field WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE
 
 Windows 8 or later:
 Type id for the security binding <a href="/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
-

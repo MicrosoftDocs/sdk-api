@@ -57,7 +57,7 @@ The <code>QueryPinInfo</code> method retrieves information about the pin.
 
 ### -param pInfo [out]
 
-Pointer to a [PIN_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-pin_info) structure that receives the pin information.
+Pointer to a [PIN_INFO](/windows/desktop/api/strmif/ns-strmif-pin_info) structure that receives the pin information.
 
 ## -returns
 
@@ -98,13 +98,12 @@ When the method returns, if the <b>pFilter</b> member of the PIN_INFO structure 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

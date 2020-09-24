@@ -52,21 +52,21 @@ api_name:
 
 Creates a new moniker based on the common prefix that this moniker (the one comprising the data of this moniker object) shares with another moniker.
 
-This function is intended to be called only in implementations of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-commonprefixwith">IMoniker::CommonPrefixWith</a>.
+This function is intended to be called only in implementations of <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-commonprefixwith">IMoniker::CommonPrefixWith</a>.
 
 ## -parameters
 
 ### -param pmkThis [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on one of the monikers for which a common prefix is sought; usually the moniker in which this call is used to implement <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-commonprefixwith">IMoniker::CommonPrefixWith</a>.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on one of the monikers for which a common prefix is sought; usually the moniker in which this call is used to implement <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-commonprefixwith">IMoniker::CommonPrefixWith</a>.
 
 ### -param pmkOther [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to be compared with the first moniker.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to be compared with the first moniker.
 
 ### -param ppmkCommon [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the moniker based on the common prefix of <i>pmkThis</i> and <i>pmkOther</i>. When successful, the function has called <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the moniker and the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the supplied interface pointer value is <b>NULL</b>.
+The address of an <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the moniker based on the common prefix of <i>pmkThis</i> and <i>pmkOther</i>. When successful, the function has called <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the moniker and the caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the supplied interface pointer value is <b>NULL</b>.
 
 ## -returns
 
@@ -147,7 +147,7 @@ This function was called on a relative moniker. It is not meaningful to take the
 
 ## -remarks
 
-Your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-commonprefixwith">IMoniker::CommonPrefixWith</a> should first check whether the other moniker is of a type that you recognize and handle in a special way. If not, you should call <b>MonikerCommonPrefixWith</b>, passing itself as <i>pmkThis</i> and the other moniker as <i>pmkOther</i>. <b>MonikerCommonPrefixWith</b> correctly handles the cases where either moniker is a generic composite. 
+Your implementation of <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-commonprefixwith">IMoniker::CommonPrefixWith</a> should first check whether the other moniker is of a type that you recognize and handle in a special way. If not, you should call <b>MonikerCommonPrefixWith</b>, passing itself as <i>pmkThis</i> and the other moniker as <i>pmkOther</i>. <b>MonikerCommonPrefixWith</b> correctly handles the cases where either moniker is a generic composite. 
 
 
 
@@ -155,5 +155,4 @@ You should call this function only if <i>pmkThis</i> and <i>pmkOther</i> are bot
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-commonprefixwith">IMoniker::CommonPrefixWith</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-commonprefixwith">IMoniker::CommonPrefixWith</a>

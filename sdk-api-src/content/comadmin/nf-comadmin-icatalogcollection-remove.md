@@ -64,13 +64,12 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_removeenabled">RemoveEnabled</a> property indicates whether the collection supports this method.
+The <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_removeenabled">RemoveEnabled</a> property indicates whether the collection supports this method.
 
-When an object is removed, the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_count">Count</a> property is decremented to reflect the change.
+When an object is removed, the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_count">Count</a> property is decremented to reflect the change.
 
-These changes are not reflected in the COM+ catalog data store until you call <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a>.
+These changes are not reflected in the COM+ catalog data store until you call <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>

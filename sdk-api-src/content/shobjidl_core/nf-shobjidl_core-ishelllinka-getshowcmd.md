@@ -88,15 +88,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The show command is used to set the initial show state of the corresponding object. This is one of the SW_xxx values described in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>.
+The show command is used to set the initial show state of the corresponding object. This is one of the SW_xxx values described in <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setshowcmd">IShellLink::SetShowCmd</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setshowcmd">IShellLink::SetShowCmd</a>
 
 
 
@@ -105,4 +105,3 @@ The show command is used to set the initial show state of the corresponding obje
 
 
 <b>IShellLinkW</b>
-

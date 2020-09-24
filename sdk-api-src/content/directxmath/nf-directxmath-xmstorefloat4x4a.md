@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stores an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a>.
+Stores an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in an <a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a>.
 
 ## -parameters
 
@@ -68,8 +68,8 @@ None.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be transposed 
-   via <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmmatrixtranspose">XMMatrixTranpose</a> before calling the store function.
+<a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be transposed 
+   via <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrixtranspose">XMMatrixTranpose</a> before calling the store function.
 
 The following pseudocode demonstrates the operation of the function.
 
@@ -105,5 +105,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>

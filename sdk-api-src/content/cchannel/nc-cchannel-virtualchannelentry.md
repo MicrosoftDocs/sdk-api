@@ -52,14 +52,14 @@ api_name:
 
 An application-defined entry point for the client-side DLL of an application that uses Remote Desktop Services virtual channels. Remote Desktop Services calls this entry point to pass a set of function pointers to the client DLL. The client calls these functions to work with virtual channels. Your 
 <b>VirtualChannelEntry</b> implementation must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function to initialize access to virtual channels.
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function to initialize access to virtual channels.
 
 ## -parameters
 
 ### -param pEntryPoints [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a> structure that contains pointers to the client-side virtual channel functions.
+<a href="/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a> structure that contains pointers to the client-side virtual channel functions.
 
 This pointer is no longer valid after the 
 <b>VirtualChannelEntry</b> function returns. You must make a copy of this structure in extension-allocated memory for later use.
@@ -72,9 +72,8 @@ Return <b>FALSE</b> if an error occurs. In this case, Remote Desktop Services un
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a>
+<a href="/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a>
-
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a>

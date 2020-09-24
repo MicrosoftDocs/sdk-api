@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>GetOpenFileNamePreview</b> function selects a file by using the Open dialog box. The dialog box also allows the user to preview the currently specified AVI file. This function augments the capability found in the <a href="https://msdn.microsoft.com/library/ms646927.aspx">GetOpenFileName</a> function.
+The <b>GetOpenFileNamePreview</b> function selects a file by using the Open dialog box. The dialog box also allows the user to preview the currently specified AVI file. This function augments the capability found in the <a href="/windows/win32/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a> function.
 
 ## -parameters
 
@@ -68,4 +68,3 @@ Returns a handle to the selected file.
 
 > [!NOTE]
 > The vfw.h header defines GetOpenFileNamePreview as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

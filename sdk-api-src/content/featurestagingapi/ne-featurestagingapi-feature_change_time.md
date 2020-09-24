@@ -45,9 +45,6 @@ api_name:
  - FEATURE_CHANGE_TIME
 ---
 
-# FEATURE_CHANGE_TIME enumeration
-
-
 ## -description
 
 This enumeration is intended for infrastructure use only. Do not use this enumeration.
@@ -56,11 +53,16 @@ This enumeration is intended for infrastructure use only. Do not use this enumer
 
 ### -field FEATURE_CHANGE_TIME_READ
 
+TBD
+
 ### -field FEATURE_CHANGE_TIME_MODULE_RELOAD
+
+TBD
 
 ### -field FEATURE_CHANGE_TIME_SESSION
 
+TBD
+
 ### -field FEATURE_CHANGE_TIME_REBOOT
 
-#### - FEATURE_CHANGE_TIME_USER_FLAG
-
+TBD

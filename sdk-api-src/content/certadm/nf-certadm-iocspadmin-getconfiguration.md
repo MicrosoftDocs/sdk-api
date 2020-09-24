@@ -82,7 +82,7 @@ A string that contains the responder-server name.
 <h3>VB</h3>
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 If the method returns <b>HRESULT_FROM_WIN32(ERROR_INVALID_STATE)</b>, the configuration is already initialized.
 
@@ -174,5 +174,4 @@ The method fails if you try to call it more than once for a given <b>OCSPAdmin</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>

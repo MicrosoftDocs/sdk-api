@@ -56,7 +56,7 @@ Specifies how to access a resource used in a depth-stencil view.
 
 ### -field D3D11_DSV_DIMENSION_UNKNOWN
 
-<i>D3D11_DSV_DIMENSION_UNKNOWN</i> is not a valid value for <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_view_desc">D3D11_DEPTH_STENCIL_VIEW_DESC</a> and is not used.
+<i>D3D11_DSV_DIMENSION_UNKNOWN</i> is not a valid value for <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_view_desc">D3D11_DEPTH_STENCIL_VIEW_DESC</a> and is not used.
 
 ### -field D3D11_DSV_DIMENSION_TEXTURE1D
 
@@ -84,9 +84,8 @@ The resource will be accessed as an array of 2D textures with multisampling.
 
 ## -remarks
 
-This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_view_desc">D3D11_DEPTH_STENCIL_VIEW_DESC</a> to create a depth-stencil view.
+This enumeration is used in <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_view_desc">D3D11_DEPTH_STENCIL_VIEW_DESC</a> to create a depth-stencil view.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>

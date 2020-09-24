@@ -56,13 +56,12 @@ Gets the client object.
 
 ### -param ppunkClient [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
-The address of a pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that receives the client used by the desk bar.
+The address of a pointer to a variable of type <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that receives the client used by the desk bar.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if the client object is returned, or an error value otherwise.
-

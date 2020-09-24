@@ -57,7 +57,7 @@ The <code>GetFormat</code> method retrieves the current or preferred output form
 
 ### -param ppmt [out]
 
-Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
+Address of a pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
 
 ## -returns
 
@@ -116,9 +116,9 @@ The input pin is not connected.
 
 ## -remarks
 
-If the pin is connected, this method returns the format that the pin is currently using. Otherwise, the method returns the pin's preferred format for the next pin connection. If you have already called the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">IAMStreamConfig::SetFormat</a> method to set the format, <code>GetFormat</code> returns the same format. If not, it returns the first format in the pin's list of preferred formats, as determined by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-enummediatypes">IPin::EnumMediaTypes</a> method.
+If the pin is connected, this method returns the format that the pin is currently using. Otherwise, the method returns the pin's preferred format for the next pin connection. If you have already called the <a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">IAMStreamConfig::SetFormat</a> method to set the format, <code>GetFormat</code> returns the same format. If not, it returns the first format in the pin's list of preferred formats, as determined by the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-enummediatypes">IPin::EnumMediaTypes</a> method.
 
-The method allocates the memory for the <b>AM_MEDIA_TYPE</b> structure, fills in the structure, and returns it in the <i>pmt</i> parameter. The caller must release the memory, including the format block. You can use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> helper function in the base class library.
+The method allocates the memory for the <b>AM_MEDIA_TYPE</b> structure, fills in the structure, and returns it in the <i>pmt</i> parameter. The caller must release the memory, including the format block. You can use the <a href="/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> helper function in the base class library.
 
 On some compression filters, the method fails if the filter's input pin is not connected.
 
@@ -149,9 +149,8 @@ pConfig-&gt;Release();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>

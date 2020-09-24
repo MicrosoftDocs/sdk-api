@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_DSA_KEY_BLOB</b> structure is used as a header for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> in memory.
+The <b>BCRYPT_DSA_KEY_BLOB</b> structure is used as a header for a <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) <a href="/windows/desktop/SecGloss/p-gly">public key</a> or <a href="/windows/desktop/SecGloss/p-gly">private key</a> <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> in memory.
 
 ## -struct-fields
 
@@ -111,7 +111,7 @@ The 160-bit prime factor, in big-endian format.
 
 The structure applies to DSA keys that equal or exceed 512 bits in length but are less  than or equal to 1024 bits.
 
-This structure is used as a header for a larger buffer. A DSA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_DSA_PUBLIC_BLOB) has the following format in contiguous memory. The Modulus, Generator, and Public numbers are in big-endian format.
+This structure is used as a header for a larger buffer. A DSA <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_DSA_PUBLIC_BLOB) has the following format in contiguous memory. The Modulus, Generator, and Public numbers are in big-endian format.
 
 <pre class="syntax" xml:space="preserve"><code>
 BCRYPT_DSA_KEY_BLOB
@@ -119,7 +119,7 @@ Modulus[cbKey]    // Big-endian.
 Generator[cbKey]  // Big-endian.
 Public[cbKey]     // Big-endian.
 </code></pre>
-A DSA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_DSA_PRIVATE_BLOB) has the following format in contiguous memory. The Modulus, Generator, Public, and PrivateExponent numbers are in big-endian format.
+A DSA <a href="/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_DSA_PRIVATE_BLOB) has the following format in contiguous memory. The Modulus, Generator, Public, and PrivateExponent numbers are in big-endian format.
 
 <pre class="syntax" xml:space="preserve"><code>
 BCRYPT_DSA_KEY_BLOB
@@ -131,9 +131,8 @@ PrivateExponent[20]   // Big-endian.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>

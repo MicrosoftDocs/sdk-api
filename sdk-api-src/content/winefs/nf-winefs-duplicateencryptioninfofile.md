@@ -111,14 +111,14 @@ The file attributes of the destination file or directory. The <b>FILE_READ_ONLY<
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the destination file or directory, if it does not already exist. If you specify <b>NULL</b>, the file or directory gets a default security descriptor. The ACLs in the default security descriptor for a file or directory are inherited from its parent directory.
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the destination file or directory, if it does not already exist. If you specify <b>NULL</b>, the file or directory gets a default security descriptor. The ACLs in the default security descriptor for a file or directory are inherited from its parent directory.
 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is a system error code. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 ## -remarks
 
@@ -192,13 +192,12 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>

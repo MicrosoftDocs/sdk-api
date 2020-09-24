@@ -52,7 +52,7 @@ api_name:
 
 You can use the 
 <b>IEnumWbemClassObject::Skip</b> method to move the current position in an enumeration ahead by a specified number of objects. Also, this affects subsequent calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-nextasync">NextAsync</a>, but it does not affect pending deliveries begun with 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-nextasync">NextAsync</a>, but it does not affect pending deliveries begun with 
 <b>NextAsync</b>.
 
 ## -parameters
@@ -74,4 +74,3 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 ## -remarks
 
 COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
-

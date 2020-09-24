@@ -67,9 +67,8 @@ If the method fails, the return value is one of the following error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-get__newenum">ISdoCollection::get__NewEnum</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-get__newenum">ISdoCollection::get__NewEnum</a>

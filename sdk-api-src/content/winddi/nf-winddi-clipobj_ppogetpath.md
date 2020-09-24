@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CLIPOBJ_ppoGetPath</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure that contains the outline of the specified clip region.
+The <b>CLIPOBJ_ppoGetPath</b> function creates a <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure that contains the outline of the specified clip region.
 
 ## -parameters
 
 ### -param pco [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that defines the specified clip region.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that defines the specified clip region.
 
 ## -returns
 
@@ -64,19 +64,18 @@ The return value is a pointer to a PATHOBJ structure if the function is successf
 
 ## -remarks
 
-The returned PATHOBJ structure should be deleted using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a> when the driver no longer needs it.
+The returned PATHOBJ structure should be deleted using <a href="/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a> when the driver no longer needs it.
 
 A driver for a device that can download a clipping path might prefer this function for defining complex regions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>

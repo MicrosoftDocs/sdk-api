@@ -55,7 +55,7 @@ The <code>IStreamBuilder</code> interface enables an output pin to notify the fi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBuilder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBuilder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBuilder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IStreamBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-istreambuilder-backout">Backout</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-istreambuilder-backout">Backout</a>
 </td>
 <td align="left" width="63%">
 Undoes steps taken in <b>Render</b>. This includes disconnecting and removing any filters that were added inside <b>Render</b>.
@@ -79,7 +79,7 @@ Undoes steps taken in <b>Render</b>. This includes disconnecting and removing an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-istreambuilder-render">Render</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-istreambuilder-render">Render</a>
 </td>
 <td align="left" width="63%">
 Completes rendering of the stream originating with this pin. This can involve adding filters to the filter graph and connecting them.
@@ -87,4 +87,3 @@ Completes rendering of the stream originating with this pin. This can involve ad
 </td>
 </tr>
 </table>
-

@@ -64,9 +64,8 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservicedocumentaccess">IUPnPServiceDocumentAccess</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservicedocumentaccess">IUPnPServiceDocumentAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservicedocumentaccess-getdocument">IUPnPServiceDocumentAccess:GetDocument</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservicedocumentaccess-getdocument">IUPnPServiceDocumentAccess:GetDocument</a>

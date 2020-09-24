@@ -56,7 +56,7 @@ Gets the raw XML document without any preprocessing.
 
 ### -param manifestStream [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
 The read-only stream that represents the XML content of the manifest.
 
@@ -72,5 +72,4 @@ The raw XML stream is the entire source stream and might contain elements and at
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestreader">IAppxBundleManifestReader</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestreader">IAppxBundleManifestReader</a>

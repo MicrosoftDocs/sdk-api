@@ -56,7 +56,7 @@ Obtains the description string of the display attribute.
 
 ### -param pbstrDesc [out]
 
-Pointer to a BSTR value that receives the description string. This value must be allocated using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>. The caller must free this memory using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
+Pointer to a BSTR value that receives the description string. This value must be allocated using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>. The caller must free this memory using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 ## -returns
 
@@ -94,4 +94,3 @@ The method was successful.
 ## -see-also
 
 [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [SysAllocString function](../oleauto/nf-oleauto-sysallocstring.md), [SysFreeString function](../oleauto/nf-oleauto-sysfreestring.md)
-

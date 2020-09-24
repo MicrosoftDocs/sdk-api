@@ -52,11 +52,11 @@ api_name:
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-This interface is accessible to the provider through <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-getpropertyconstraints">IFunctionDiscoveryProviderQuery::GetPropertyConstraints</a>.
+This interface is accessible to the provider through <a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-getpropertyconstraints">IFunctionDiscoveryProviderQuery::GetPropertyConstraints</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderPropertyConstraintCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderPropertyConstraintCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderPropertyConstraintCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderPropertyConstraintCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IProviderPropertyConstraintCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-get">Get</a>
+<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the specified property constraint, by property key.
@@ -80,7 +80,7 @@ Gets the name and value of the specified property constraint, by property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-getcount">GetCount</a>
+<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of items in the collection.
@@ -89,7 +89,7 @@ Gets the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-item">Item</a>
+<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-item">Item</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the specified property constraint, by index.
@@ -98,7 +98,7 @@ Gets the name and value of the specified property constraint, by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-next">Next</a>
+<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the next property constraint in the collection.
@@ -107,7 +107,7 @@ Gets the name and value of the next property constraint in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-reset">Reset</a>
+<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current index to the start of the collection.
@@ -116,7 +116,7 @@ Resets the current index to the start of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-skip">Skip</a>
+<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the next item in the collection.
@@ -124,4 +124,3 @@ Skips the next item in the collection.
 </td>
 </tr>
 </table>
-

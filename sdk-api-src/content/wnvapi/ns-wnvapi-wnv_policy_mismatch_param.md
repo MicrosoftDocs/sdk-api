@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies the parameters of an event (typically an incoming packet) that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvPolicyMismatchType</b> notification. As a result, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function call.
+Specifies the parameters of an event (typically an incoming packet) that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvPolicyMismatchType</b> notification. As a result, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <a href="/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function call.
 
 ## -struct-fields
 
@@ -78,21 +78,20 @@ The identifier of a customer virtual subnet. This value ranges from 4096 (0x0000
 
 ### -field CA
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the customer address, which is the IP address configured on the virtual machine for network virtualization.
 
 ### -field PA
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the provider address, which is the matching IP address used on the physical network for the customer address.
 
 ## -remarks
 
-For a detailed description of network virtualization concepts and terminology, see <a href="https://technet.microsoft.com/library/jj134230(l=en-us,v=WS.11).aspx">Hyper-V Network Virtualization Overview</a>.
+For a detailed description of network virtualization concepts and terminology, see <a href="/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj134230(v=ws.11)">Hyper-V Network Virtualization Overview</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
-
+<a href="/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>

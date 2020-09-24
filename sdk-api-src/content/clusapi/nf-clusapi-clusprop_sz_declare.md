@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 Creates a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a> structure with the <b>sz</b> 
+    <a href="/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a> structure with the <b>sz</b> 
     member set to a size determined by the caller.
 
 ## -parameters
 
 ### -param name
 
-Name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a> structure to be 
+Name of the <a href="/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a> structure to be 
       created.
 
 ### -param cch
@@ -94,5 +94,4 @@ StringCbCopy( NameValue.sz, NameValue.cbLength, szNameData );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a>

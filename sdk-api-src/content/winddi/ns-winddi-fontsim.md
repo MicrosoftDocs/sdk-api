@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The FONTSIM structure contains offsets to one or more <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontdiff">FONTDIFF</a> structures describing bold, italic, and bold italic font simulations.
+The FONTSIM structure contains offsets to one or more <a href="/windows/desktop/api/winddi/ns-winddi-fontdiff">FONTDIFF</a> structures describing bold, italic, and bold italic font simulations.
 
 ## -struct-fields
 
@@ -70,13 +70,12 @@ If nonzero, specifies the offset from the beginning of this structure to the FON
 
 ## -remarks
 
-If the <b>dpFontSim</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure is nonzero, it holds the offset from the beginning of that structure to the beginning of a FONTSIM structure.
+If the <b>dpFontSim</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure is nonzero, it holds the offset from the beginning of that structure to the beginning of a FONTSIM structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontdiff">FONTDIFF</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fontdiff">FONTDIFF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>

@@ -54,7 +54,7 @@ Allows the Windows Store to install a Windows product that the user purchased, t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEditionUpgradeHelper</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEditionUpgradeHelper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEditionUpgradeHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEditionUpgradeHelper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEditionUpgradeHelper</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-canupgrade">CanUpgrade</a>
+<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-canupgrade">CanUpgrade</a>
 </td>
 <td align="left" width="63%">
 Checks if the user has sufficient permissions to upgrade the operating system, and prompts the user to run as an administrator if needed.
@@ -78,7 +78,7 @@ Checks if the user has sufficient permissions to upgrade the operating system, a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getgenuinelocalstatus">GetGenuineLocalStatus</a>
+<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getgenuinelocalstatus">GetGenuineLocalStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether the currently installed operating system is activated.
@@ -87,7 +87,7 @@ Retrieves whether the currently installed operating system is activated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getosproductcontentid">GetOsProductContentId</a>
+<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getosproductcontentid">GetOsProductContentId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the content identifier that corresponds to the current installation of the operating system. The content identifier is used to look up the operating system product in the store catalog.
@@ -96,7 +96,7 @@ Retrieves the content identifier that corresponds to the current installation of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-showproductkeyui">ShowProductKeyUI</a>
+<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-showproductkeyui">ShowProductKeyUI</a>
 </td>
 <td align="left" width="63%">
 Displays the user interface through which the user  can provide a product key to upgrade or get a genuine copy of the operating system.
@@ -105,7 +105,7 @@ Displays the user interface through which the user  can provide a product key to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-updateoperatingsystem">UpdateOperatingSystem</a>
+<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-updateoperatingsystem">UpdateOperatingSystem</a>
 </td>
 <td align="left" width="63%">
 Upgrades the installed edition of the operating system to the edition that the user purchased in the Windows Store, or gets a genuine copy of the operating system.
@@ -117,4 +117,3 @@ Upgrades the installed edition of the operating system to the edition that the u
 ## -remarks
 
 The methods of this interface do not download the binaries or bits necessary to perform the upgrade.
-

@@ -55,7 +55,7 @@ The <b>GetJackDescription2</b> method gets the description of a specified audio 
 
 ### -param nJack [in]
 
-The index of the jack to get a description for. If the connection consists of <i>n</i> jacks, the jacks are numbered from 0 to <i>n</i>– 1. To get the number of jacks, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription2-getjackcount">IKsJackDescription::GetJackCount</a> method.
+The index of the jack to get a description for. If the connection consists of <i>n</i> jacks, the jacks are numbered from 0 to <i>n</i>– 1. To get the number of jacks, call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription2-getjackcount">IKsJackDescription::GetJackCount</a> method.
 
 ### -param pDescription2 [out]
 
@@ -96,5 +96,4 @@ Pointer <i>pDescription</i> is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>

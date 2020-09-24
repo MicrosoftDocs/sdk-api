@@ -56,19 +56,19 @@ Draws text that has a shadow.
 
 ### -param hdc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 HDC.
 
 ### -param pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A pointer to a string that contains the text to be drawn.
 
 ### -param cch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A <b>UINT</b> that specifies the number of characters in the string that is to be drawn.
 
@@ -80,21 +80,21 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-A <b>DWORD</b> that specifies how the text is to be drawn. See <a href="https://docs.microsoft.com/windows/desktop/Controls/theme-format-values">Format Values</a> for possible parameter values.
+A <b>DWORD</b> that specifies how the text is to be drawn. See <a href="/windows/desktop/Controls/theme-format-values">Format Values</a> for possible parameter values.
 
 ### -param crText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> structure that contains the color of the text.
+A <a href="/windows/desktop/gdi/colorref">COLORREF</a> structure that contains the color of the text.
 
 ### -param crShadow
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> structure that contains the color of the text shadow.
+A <a href="/windows/desktop/gdi/colorref">COLORREF</a> structure that contains the color of the text shadow.
 
 ### -param ixOffset
 
@@ -116,5 +116,4 @@ Returns the height of the text in logical units if the function succeeds, otherw
 
 ## -remarks
 
-To use <b>DrawShadowText</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>DrawShadowText</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

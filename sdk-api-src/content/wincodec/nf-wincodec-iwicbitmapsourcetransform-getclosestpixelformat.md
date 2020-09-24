@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the closest pixel format to which the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a> can natively copy pixels, given a desired format.
+Retrieves the closest pixel format to which the implementation of <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a> can natively copy pixels, given a desired format.
 
 ## -parameters
 
@@ -72,7 +72,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The Windows provided codecs provide the following support:
 
 <ul>
-<li>BMP, ICO, GIF, TIFF: No implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a>.</li>
-<li>JPEG, PNG, JPEG-XR: Trivial support (always returns the same value as <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getpixelformat">IWICBitmapFrameDecode::GetPixelFormat</a>).</li>
+<li>BMP, ICO, GIF, TIFF: No implementation of <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a>.</li>
+<li>JPEG, PNG, JPEG-XR: Trivial support (always returns the same value as <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getpixelformat">IWICBitmapFrameDecode::GetPixelFormat</a>).</li>
 </ul>
-

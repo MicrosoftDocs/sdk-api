@@ -78,16 +78,16 @@ Receives the count of OUs returned in the list of joinable OUs.
 ### -param OUs [out]
 
 Pointer to an array that receives the list of joinable OUs. This array is allocated by the system and must be freed using a single call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ## -returns
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value can be one of the following error codes or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -124,19 +124,18 @@ No special group membership is required to successfully execute the
 <b>NetGetJoinableOUs</b> function.
 
 For more information about organizational units, see 
-<a href="https://docs.microsoft.com/windows/desktop/AD/managing-users">Managing Users</a> in the Active Directory documentation.
+<a href="/windows/desktop/AD/managing-users">Managing Users</a> in the Active Directory documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoininformation">NetGetJoinInformation</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoininformation">NetGetJoinInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

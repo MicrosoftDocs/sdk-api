@@ -51,7 +51,7 @@ api_name:
 ## -description
 
  
-Used in a <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_operation_info">CF_OPERATION_INFO</a> structure  to describe the status of a specified sync root.
+Used in a <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_operation_info">CF_OPERATION_INFO</a> structure  to describe the status of a specified sync root.
 
 ## -struct-fields
 
@@ -84,5 +84,4 @@ The size of the description string, in bytes, that includes the null terminator.
 
 ## -remarks
 
-If a null pointer is set in the <b>SyncStatus</b> field of a  <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_operation_info">CF_OPERATION_INFO</a> structure, the platform will clear the previously set sync status, if there is one.
-
+If a null pointer is set in the <b>SyncStatus</b> field of a  <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_operation_info">CF_OPERATION_INFO</a> structure, the platform will clear the previously set sync status, if there is one.

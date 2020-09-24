@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Refresh</b> method updates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object information for the associated parent <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> object.
+The <b>Refresh</b> method updates <a href="/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object information for the associated parent <a href="/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> object.
 
 ## -parameters
 
@@ -63,11 +63,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Call the <b>IFaxStatus::Refresh</b> method to update the information for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object. An application must call this method to poll a fax port for new status information. After you successfully call <b>IFaxStatus::Refresh</b>, you must call the appropriate <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxstatus">IFaxStatus</a> interface method to retrieve new attribute values that are valid.
+Call the <b>IFaxStatus::Refresh</b> method to update the information for a <a href="/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object. An application must call this method to poll a fax port for new status information. After you successfully call <b>IFaxStatus::Refresh</b>, you must call the appropriate <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxstatus">IFaxStatus</a> interface method to retrieve new attribute values that are valid.
 
 It is recommended that you limit calls to this method because frequent calls to <b>IFaxStatus::Refresh</b> can affect system performance.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxstatus">IFaxStatus</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxstatus">IFaxStatus</a>

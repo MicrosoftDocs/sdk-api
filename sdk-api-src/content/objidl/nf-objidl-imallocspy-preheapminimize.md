@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
+Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ This method is included for completeness; it is not anticipated that developers 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postheapminimize">IMallocSpy::PostHeapMinimize</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postheapminimize">IMallocSpy::PostHeapMinimize</a>

@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Allows a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> to discontinue the impersonation of the caller and restore its own <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
+Allows a <a href="/windows/desktop/SecGloss/s-gly">security package</a> to discontinue the impersonation of the caller and restore its own <a href="/windows/desktop/SecGloss/s-gly">security context</a>.
 
 ## -parameters
 
 ### -param phContext [in]
 
-Handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> being impersonated. This handle must have been obtained in the call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function and used in the call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a> function.
+Handle of the <a href="/windows/desktop/SecGloss/s-gly">security context</a> being impersonated. This handle must have been obtained in the call to the 
+<a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function and used in the call to the 
+<a href="/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a> function.
 
 ## -returns
 
@@ -86,18 +86,17 @@ The handle passed to the function is not valid.
 
 ## -remarks
 
-<b>RevertSecurityContext</b> is not available with all <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security packages</a> on all platforms. Typically, it is implemented only on platforms and with security packages for which a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritypackageinfoa">QuerySecurityPackageInfo</a> function indicates impersonation support.
+<b>RevertSecurityContext</b> is not available with all <a href="/windows/desktop/SecGloss/s-gly">security packages</a> on all platforms. Typically, it is implemented only on platforms and with security packages for which a call to the 
+<a href="/windows/desktop/api/sspi/nf-sspi-querysecuritypackageinfoa">QuerySecurityPackageInfo</a> function indicates impersonation support.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
-
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>

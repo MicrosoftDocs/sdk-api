@@ -60,11 +60,11 @@ Determines whether the folder actions and resource policies are applied and how 
 
 ### -param bstrFolder [in]
 
-The folder under the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">IDataCollectorSet::RootPath</a> property that contains the files used to generate the report. If <b>NULL</b>, PLA uses all the files in the collection. This folder is used only if the <i>Steps</i> parameter includes <b>plaCreateReport</b> or <b>plaRunRules</b>.
+The folder under the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">IDataCollectorSet::RootPath</a> property that contains the files used to generate the report. If <b>NULL</b>, PLA uses all the files in the collection. This folder is used only if the <i>Steps</i> parameter includes <b>plaCreateReport</b> or <b>plaRunRules</b>.
 
 ### -param Errors [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that you use to retrieve any errors that occurred. The value map can contain the list of directories where errors were encountered, along with the error codes. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">IValueMap::Count</a> property is zero if there were no errors.
+An <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that you use to retrieve any errors that occurred. The value map can contain the list of directories where errors were encountered, along with the error codes. The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">IValueMap::Count</a> property is zero if there were no errors.
 
 ## -returns
 
@@ -74,9 +74,8 @@ Returns S_OK if successful.
 
 Data management runs in the current process and blocks until the data management steps complete.
 
-To automatically run the data manager when the data collector set finishes running, set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_enabled">IDataManager::Enabled</a> property to VARIANT_TRUE.
+To automatically run the data manager when the data collector set finishes running, set the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_enabled">IDataManager::Enabled</a> property to VARIANT_TRUE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>

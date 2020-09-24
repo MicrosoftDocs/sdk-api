@@ -54,7 +54,7 @@ api_name:
 
 The 
 MMC_SCOPE_ITEM_STATE enumeration is used to specify the <b>nState</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure.
+<a href="/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure.
 
 ## -enum-fields
 
@@ -69,4 +69,3 @@ Not currently used.
 ### -field MMC_SCOPE_ITEM_STATE_EXPANDEDONCE
 
 Set if the item has been expanded at least once or 0 (zero) if the item has not been expanded.
-

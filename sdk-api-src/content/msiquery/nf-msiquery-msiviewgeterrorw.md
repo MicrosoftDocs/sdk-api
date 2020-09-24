@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>MsiViewGetError</b> function returns the error that occurred in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewmodify">MsiViewModify</a> function.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msiviewmodify">MsiViewModify</a> function.
 
 ## -parameters
 
@@ -318,7 +318,7 @@ An invalid template string was supplied.
 </td>
 <td width="60%">
 An invalid string was supplied in the DefaultDir column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/directory-table">Directory</a> table.
+<a href="/windows/desktop/Msi/directory-table">Directory</a> table.
 
 </td>
 </tr>
@@ -341,7 +341,7 @@ An invalid registry path string was supplied.
 </td>
 <td width="60%">
 An invalid string was supplied in the CustomSource column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/customaction-table">CustomAction</a> table.
+<a href="/windows/desktop/Msi/customaction-table">CustomAction</a> table.
 
 </td>
 </tr>
@@ -364,7 +364,7 @@ An invalid property string was supplied.
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/-validation-table">_Validation</a> table is missing a reference to a column.
+<a href="/windows/desktop/Msi/-validation-table">_Validation</a> table is missing a reference to a column.
 
 </td>
 </tr>
@@ -375,7 +375,7 @@ The
 </dl>
 </td>
 <td width="60%">
-The category column of the <a href="https://docs.microsoft.com/windows/desktop/Msi/-validation-table">_Validation</a> table for the column is invalid.
+The category column of the <a href="/windows/desktop/Msi/-validation-table">_Validation</a> table for the column is invalid.
 
 </td>
 </tr>
@@ -397,7 +397,7 @@ An invalid cabinet name was supplied.
 </dl>
 </td>
 <td width="60%">
-The table in the Keytable column of the <a href="https://docs.microsoft.com/windows/desktop/Msi/-validation-table">_Validation</a> table was not found or loaded.
+The table in the Keytable column of the <a href="/windows/desktop/Msi/-validation-table">_Validation</a> table was not found or loaded.
 
 </td>
 </tr>
@@ -408,7 +408,7 @@ The table in the Keytable column of the <a href="https://docs.microsoft.com/wind
 </dl>
 </td>
 <td width="60%">
-The value in the MaxValue column of the <a href="https://docs.microsoft.com/windows/desktop/Msi/-validation-table">_Validation</a> table is less than the value in the MinValue column.
+The value in the MaxValue column of the <a href="/windows/desktop/Msi/-validation-table">_Validation</a> table is less than the value in the MinValue column.
 
 </td>
 </tr>
@@ -458,7 +458,7 @@ Note that in low memory situations, this function can raise a STATUS_NO_MEMORY e
 
 You should only call the 
 <b>MsiViewGetError</b> function when 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewmodify">MsiViewModify</a> returns ERROR_INVALID_DATA, indicating that the data is invalid. Errors are only recorded for MSIMODIFY_VALIDATE, MSIMODIFY_VALIDATE_NEW, and MSIMODIFY_VALIDATEFIELD.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msiviewmodify">MsiViewModify</a> returns ERROR_INVALID_DATA, indicating that the data is invalid. Errors are only recorded for MSIMODIFY_VALIDATE, MSIMODIFY_VALIDATE_NEW, and MSIMODIFY_VALIDATEFIELD.
 
 If ERROR_MORE_DATA is returned, the parameter that  is a pointer gives the size of the buffer required to hold the string. Upon success, it gives the number of characters written to the string buffer. Therefore you can get the required size of the buffer by passing a small buffer (one character minimum) and examining the value at <i>pcchPathBuf</i> when the function returns MSIDBERROR_MOREDATA. Do not attempt to determine the size of the buffer by passing in null as <i>szColumnNameBuffer</i> or a buffer size of 0 in the <b>DWORD</b> referenced by <i>pcchBuf</i>.
 
@@ -473,9 +473,8 @@ Once MSIDBERROR_NOERROR is returned, no more validation errors remain. The MSIDB
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
+<a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
-
+<a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>

@@ -58,7 +58,7 @@ Specifies the color to use for special text attributes.
 
 Type: <b>long</b>
 
-The index of the color to retrieve. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-geteffectcolor">GetEffectColor</a>.
+The index of the color to retrieve. For a list of values, see <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-geteffectcolor">GetEffectColor</a>.
 
 ### -param Value [in]
 
@@ -68,7 +68,7 @@ The new color for the specified index.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -78,9 +78,8 @@ The first 16 index values are for special underline colors. If an index between 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-geteffectcolor">ITextDocument2::GetEffectColor</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-geteffectcolor">ITextDocument2::GetEffectColor</a>

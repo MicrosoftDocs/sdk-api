@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetRepeat</b> macro determines if continuous playback has been activated. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getrepeat">MCIWNDM_GETREPEAT</a> message.
+The <b>MCIWndGetRepeat</b> macro determines if continuous playback has been activated. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-getrepeat">MCIWNDM_GETREPEAT</a> message.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getrepeat">MCIWNDM_GETREPEAT</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-getrepeat">MCIWNDM_GETREPEAT</a>

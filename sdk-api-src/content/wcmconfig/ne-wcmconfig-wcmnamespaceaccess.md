@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes the options passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-getnamespace">ISettingsEngine::GetNamespace</a> method to choose how the namespace must be accessed. Read and write access must be used if the intent is to change settings and read-only access must be used if the intent is only to inspect the settings.
+Describes the options passed to the <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-getnamespace">ISettingsEngine::GetNamespace</a> method to choose how the namespace must be accessed. Read and write access must be used if the intent is to change settings and read-only access must be used if the intent is only to inspect the settings.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ Request read-only access.
 ### -field ReadWriteAccess
 
 Request read and write access.
-

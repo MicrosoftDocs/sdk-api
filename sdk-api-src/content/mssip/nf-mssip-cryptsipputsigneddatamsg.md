@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CryptSIPPutSignedDataMsg</b> function stores an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> signature in the target file.
+The <b>CryptSIPPutSignedDataMsg</b> function stores an <a href="/windows/desktop/SecGloss/a-gly">Authenticode</a> signature in the target file.
 
 ## -parameters
 
 ### -param pSubjectInfo [in]
 
-Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
+Pointer to a [SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
 
 ### -param dwEncodingType [in]
 
@@ -74,7 +74,7 @@ The encoding type of the message. This can be a combination of one or more of th
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> message encoding.
+Specifies <a href="/windows/desktop/SecGloss/p-gly">PKCS #7</a> message encoding.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PK
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
+Specifies <a href="/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Pointer to the buffer that contains the message.
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
+If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 
 
@@ -123,7 +123,7 @@ If the function fails, it returns  <b>FALSE</b>. For extended error information,
 </dl>
 </td>
 <td width="60%">
-The specified data or file format of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) is not valid.
+The specified data or file format of the <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) is not valid.
 
 </td>
 </tr>
@@ -141,8 +141,8 @@ This code can be returned for the following reasons:
 <li>The <i>pdwIndex</i> is <b>NULL</b>.</li>
 <li>The <i>pbSignedDataMsg</i> is <b>NULL</b>.</li>
 <li>The value of the <i>cbSignedDataMsg</i> parameter is less than one.</li>
-[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure.</li>
-[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure.</li>
+[SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure.</li>
+[SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure.</li>
 </ul>
 </td>
 </tr>
@@ -165,9 +165,8 @@ Each subject type uses a different subset of its data for hash calculation and r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>
-
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>

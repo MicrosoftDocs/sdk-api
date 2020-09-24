@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SpGetCredentials</b> function retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a> from the user object.
+The <b>SpGetCredentials</b> function retrieves the <a href="/windows/desktop/SecGloss/p-gly">primary</a> and <a href="/windows/desktop/SecGloss/s-gly">supplemental credentials</a> from the user object.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ A handle to the credentials to be retrieved.
 ### -param Credentials [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives the credentials.
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives the credentials.
 
 ## -returns
 
@@ -103,14 +103,13 @@ The handle is not valid.
 SSP/APs must implement the <b>SpGetCredentials</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpGetCredentials</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>

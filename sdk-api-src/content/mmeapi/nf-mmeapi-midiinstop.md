@@ -84,11 +84,10 @@ The specified device handle is invalid.
 
 ## -remarks
 
-If there are any system-exclusive messages or stream buffers in the queue, the current buffer is marked as done (the <b>dwBytesRecorded</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure will contain the actual length of data), but any empty buffers in the queue remain there and are not marked as done.
+If there are any system-exclusive messages or stream buffers in the queue, the current buffer is marked as done (the <b>dwBytesRecorded</b> member of the <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure will contain the actual length of data), but any empty buffers in the queue remain there and are not marked as done.
 
 Calling this function when input is not started has no effect, and the function returns zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

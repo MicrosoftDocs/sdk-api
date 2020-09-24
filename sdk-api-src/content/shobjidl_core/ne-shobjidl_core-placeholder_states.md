@@ -68,7 +68,7 @@ The primary stream has been made fully available.
 
 ### -field PS_CREATE_FILE_ACCESSIBLE
 
-The file is accessible through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, without requesting the opening of reparse points.
+The file is accessible through a call to the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, without requesting the opening of reparse points.
 
 ### -field PS_CLOUDFILE_PLACEHOLDER
 
@@ -77,4 +77,3 @@ The file is accessible through a call to the <a href="https://docs.microsoft.com
 ### -field PS_ALL
 
 A bitmask value for all valid PLACEHOLDER_STATES flags.
-

@@ -60,11 +60,11 @@ The <b>DHCP_BOOTP_IP_RANGE</b> structure defines a suite of IPs for lease to BOO
 
 ### -field StartAddress
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the start of the IP range used for BOOTP service.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the start of the IP range used for BOOTP service.
 
 ### -field EndAddress
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the end of the IP range used for BOOTP service.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the end of the IP range used for BOOTP service.
 
 ### -field BootpAllocated
 
@@ -73,4 +73,3 @@ Specifies the number of BOOTP clients with addresses served from this range.
 ### -field MaxBootpAllowed
 
 Specifies the maximum number of BOOTP clients this range is allowed to serve.
-

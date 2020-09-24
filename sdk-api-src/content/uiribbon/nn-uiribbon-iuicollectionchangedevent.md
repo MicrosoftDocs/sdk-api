@@ -56,7 +56,7 @@ The <b>IUICollectionChangedEvent</b> interface is
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUICollectionChangedEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUICollectionChangedEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUICollectionChangedEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUICollectionChangedEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,10 +71,10 @@ The <b>IUICollectionChangedEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged">OnChanged</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged">OnChanged</a>
 </td>
 <td align="left" width="63%">
-Called when an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a> changes.
+Called when an <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a> changes.
 
 </td>
 </tr>
@@ -82,25 +82,24 @@ Called when an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/
 
 ## -remarks
 
-The Windows Ribbon framework incorporates the standard Component Object Model (COM)  client-server mechanism of <a href="https://msdn.microsoft.com/library/ms694379.aspx">connectable objects</a> to listen for and handle collection changed events at run time.
+The Windows Ribbon framework incorporates the standard Component Object Model (COM)  client-server mechanism of <a href="/windows/win32/com/events-in-com-and-connectable-objects">connectable objects</a> to listen for and handle collection changed events at run time.
 
 The Ribbon acts as the COM server connectable object that defines both incoming and outgoing notification interfaces for the client, which is the Ribbon host application. The incoming interfaces are implemented by the Ribbon. The  outgoing interfaces are implemented by the application in a dedicated object that is created by the application and  referred to as the client connection sink. This sink is used to establish a connection to the connectable object.
 
-In addition to defining the incoming and outgoing interfaces, the Ribbon must also implement the <a href="https://msdn.microsoft.com/library/ms683857.aspx">IConnectionPointContainer</a> interface and  create at least one connection point object that implements the <a href="https://msdn.microsoft.com/library/ms694318.aspx">IConnectionPoint</a> interface and manages the connection with the client sink.
+In addition to defining the incoming and outgoing interfaces, the Ribbon must also implement the <a href="/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a> interface and  create at least one connection point object that implements the <a href="/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface and manages the connection with the client sink.
 
-<div class="alert"><b>Note</b>  The client must query the connectable object for <a href="https://msdn.microsoft.com/library/ms683857.aspx">IConnectionPointContainer</a> to determine whether the object is connectable before the client attempts to create a sink object.</div>
+<div class="alert"><b>Note</b>  The client must query the connectable object for <a href="/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a> to determine whether the object is connectable before the client attempts to create a sink object.</div>
 <div> </div>
-In the case of the Ribbon,  <b>IUICollectionChangedEvent</b> is the outgoing interface defined by the framework and implemented by the application. The Ribbon triggers the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged">IUICollectionChangedEvent::OnChanged</a> event in the client by sending an outgoing notification when a collection changes, for example, adding a Command to the Quick Access Toolbar (QAT).
+In the case of the Ribbon,  <b>IUICollectionChangedEvent</b> is the outgoing interface defined by the framework and implemented by the application. The Ribbon triggers the <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged">IUICollectionChangedEvent::OnChanged</a> event in the client by sending an outgoing notification when a collection changes, for example, adding a Command to the Quick Access Toolbar (QAT).
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms694379.aspx">Events in COM and Connectable Objects</a>
+<a href="/windows/win32/com/events-in-com-and-connectable-objects">Events in COM and Connectable Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-gallerysample">Gallery Sample</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-gallerysample">Gallery Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>
-
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>

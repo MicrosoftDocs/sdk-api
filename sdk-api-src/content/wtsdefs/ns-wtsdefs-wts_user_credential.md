@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains credential information for a user. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getusercredentials">GetUserCredentials</a> method.
+Contains credential information for a user. This structure is used by the <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getusercredentials">GetUserCredentials</a> method.
 
 ## -struct-fields
 
@@ -73,4 +73,3 @@ A string that contains the domain name for the user.
 ## -remarks
 
 The user name and password are plaintext.
-

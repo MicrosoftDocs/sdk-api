@@ -87,9 +87,8 @@ The following example shows how to return the DockPosition property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

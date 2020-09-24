@@ -57,11 +57,11 @@ Gets a stream sink, specified by index.
 
 ### -param dwIndex [in]
 
-Zero-based index of the stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkcount">IMFMediaSink::GetStreamSinkCount</a>.
+Zero-based index of the stream. To get the number of streams, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkcount">IMFMediaSink::GetStreamSinkCount</a>.
 
 ### -param ppStreamSink [out]
 
-Receives a pointer to the stream's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> interface. The caller must release the interface.
+Receives a pointer to the stream's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -101,7 +101,7 @@ Invalid index.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
+The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -113,9 +113,8 @@ Enumerating stream sinks is not a thread-safe operation, because stream sinks ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

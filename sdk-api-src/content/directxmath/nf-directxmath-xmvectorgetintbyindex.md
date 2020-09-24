@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieve the value of one of the four components of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data by index.
+Retrieve the value of one of the four components of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data by index.
 
 ## -parameters
 
 ### -param V
 
-A <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data.
+A <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data.
 
 ### -param i
 
@@ -71,7 +71,7 @@ The integer value of the selected component.
 The value of <i>i</i> must be positive and less than or equal to three ( <i>0 </i> &lt;= <i> i </i> &lt;=
    <i> 3</i> ).
 
-The indexes have the following correspondence with <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> vector components:
+The indexes have the following correspondence with <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> vector components:
 
 <table>
 <tr>
@@ -126,13 +126,12 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorgetintbyindexptr">XMVectorGetIntByIndexPtr</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorgetintbyindexptr">XMVectorGetIntByIndexPtr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh404813(v=vs.85)">XMVectorSetIntByIndex</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh404813(v=vs.85)">XMVectorSetIntByIndex</a>

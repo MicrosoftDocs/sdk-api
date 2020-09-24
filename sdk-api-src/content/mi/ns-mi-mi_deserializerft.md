@@ -47,54 +47,46 @@ api_name:
  - MI_DeserializerFT
 ---
 
-# MI_DeserializerFT structure
-
-
 ## -description
 
 A support structure used in the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_clientft_v1">MI_ClientFT_V1</a> structure. Use the functions with the 
+     <a href="/windows/desktop/api/mi/ns-mi-mi_clientft_v1">MI_ClientFT_V1</a> structure. Use the functions with the 
      name prefix "MI_Deserializer_" to manipulate these structures.
 
 ## -struct-fields
 
-### -field MI_Result
-
-TBD
-
 ### -field Class_GetClassName
 
 Gets the class name from a serialized class buffer. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_class_getclassname">MI_Deserializer_Class_GetClassName</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_class_getclassname">MI_Deserializer_Class_GetClassName</a>.
 
 ### -field Class_GetParentClassName
 
 Gets the parent class name from a serialized class buffer. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_class_getparentclassname">MI_Deserializer_Class_GetParentClassName</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_class_getparentclassname">MI_Deserializer_Class_GetParentClassName</a>.
 
 ### -field Close
 
 Deletes the deserializer object and its associated memory. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_close">MI_Deserializer_Close</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_close">MI_Deserializer_Close</a>.
 
 ### -field DeserializeClass
 
-Deserializes a serialized buffer into an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> 
+Deserializes a serialized buffer into an <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> 
        object. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeclass">MI_Deserializer_DeserializeClass</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeclass">MI_Deserializer_DeserializeClass</a>.
 
 ### -field DeserializeInstance
 
 Deserializes a serialized buffer into a 
-       <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> object. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeinstance">MI_Deserializer_DeserializeInstance</a>.
+       <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> object. See 
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeinstance">MI_Deserializer_DeserializeInstance</a>.
 
 ### -field Instance_GetClassName
 
 Gets the class name of the specified instance. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_getclassname">MI_Instance_GetClassName</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_getclassname">MI_Instance_GetClassName</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nc-mi-mi_deserializer_classobjectneeded">MI_Deserializer_ClassObjectNeeded</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nc-mi-mi_deserializer_classobjectneeded">MI_Deserializer_ClassObjectNeeded</a>

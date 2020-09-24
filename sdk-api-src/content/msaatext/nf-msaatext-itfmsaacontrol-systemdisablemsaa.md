@@ -89,9 +89,8 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nn-msaatext-itfmsaacontrol">ITfMSAAControl</a>
+<a href="/windows/desktop/api/msaatext/nn-msaatext-itfmsaacontrol">ITfMSAAControl</a>
 
 
 
 <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a>
-

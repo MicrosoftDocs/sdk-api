@@ -50,12 +50,12 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpStrToContext</b> function returns a handle to SNMP context information that is specific to the Microsoft WinSNMP implementation. The handle is a valid value that a WinSNMP application can use as the <i>context</i> parameter in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpregister">SnmpRegister</a> functions.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a> and 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpregister">SnmpRegister</a> functions.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ Handle to the WinSNMP session.
 ### -param string [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure that contains a string to interpret. The string can identify a collection of managed objects, or it can be a community string. 
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure that contains a string to interpret. The string can identify a collection of managed objects, or it can be a community string. 
 
 
 
@@ -116,7 +116,7 @@ The implementation interprets the <i>string</i> parameter as a literal SNMP comm
 If the function succeeds, the return value is a handle to the context of interest.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -132,7 +132,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ The <i>session</i> parameter is invalid.
 </td>
 <td width="60%">
 The <i>string</i> parameter format is invalid. For example, the <b>len</b> member or the <b>ptr</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure pointed to by the <i>string</i> parameter is <b>NULL</b>.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure pointed to by the <i>string</i> parameter is <b>NULL</b>.
 
 </td>
 </tr>
@@ -198,45 +198,44 @@ An unknown or undefined error occurred.
 
 The current setting of the entity and context translation mode determines the manner in which 
 <b>SnmpStrToContext</b> interprets the input string structure. For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/setting-the-entity-and-context-translation-mode">Setting the Entity and Context Translation Mode</a>.
+<a href="/windows/desktop/SNMP/setting-the-entity-and-context-translation-mode">Setting the Entity and Context Translation Mode</a>.
 
 The WinSNMP application must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreecontext">SnmpFreeContext</a> function to release the context handle allocated by the 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreecontext">SnmpFreeContext</a> function to release the context handle allocated by the 
 <b>SnmpStrToContext</b> function. For additional information about releasing resources, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
+<a href="/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
 
 The WinSNMP application should free the memory associated with the <b>ptr</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure pointed to by the <i>string</i> parameter. This is because the application defines and allocates the resources. For example, if the application allocated resources with a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function, it should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function to deallocate the resources. For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/freeing-winsnmp-descriptors">Freeing WinSNMP Descriptors</a>.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure pointed to by the <i>string</i> parameter. This is because the application defines and allocates the resources. For example, if the application allocated resources with a call to the 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function, it should use the 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function to deallocate the resources. For additional information, see 
+<a href="/windows/desktop/SNMP/freeing-winsnmp-descriptors">Freeing WinSNMP Descriptors</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreecontext">SnmpFreeContext</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreecontext">SnmpFreeContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpregister">SnmpRegister</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpregister">SnmpRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
+<a href="/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a>
-
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a>

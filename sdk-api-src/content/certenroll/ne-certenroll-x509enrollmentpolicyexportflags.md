@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X509EnrollmentPolicyExportFlags</b> enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-export">Export</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface to specify what items to export from the policy server.
+The <b>X509EnrollmentPolicyExportFlags</b> enumeration is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-export">Export</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface to specify what items to export from the policy server.
 
 ## -enum-fields
 
@@ -72,5 +72,4 @@ To export both templates and object identifiers, specify a bitwise <b>OR</b> of 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-export">Export</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-export">Export</a>

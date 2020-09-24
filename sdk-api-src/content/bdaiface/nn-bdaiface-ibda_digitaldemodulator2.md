@@ -54,7 +54,7 @@ Controls a Broadcast Driver Architecture (BDA) demodulator filter. Demodulation 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DigitalDemodulator2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator</a>. <b>IBDA_DigitalDemodulator2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DigitalDemodulator2</b> interface inherits from <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator</a>. <b>IBDA_DigitalDemodulator2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_DigitalDemodulator2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-get_guardinterval">get_GuardInterval</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-get_guardinterval">get_GuardInterval</a>
 </td>
 <td align="left" width="63%">
 Gets the demodulator's guard interval.
@@ -79,7 +79,7 @@ Gets the demodulator's guard interval.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/pilot">get_Pilot</a>
+<a href="/previous-versions/windows/desktop/mstv/pilot">get_Pilot</a>
 </td>
 <td align="left" width="63%">
 Gets the current pilot mode for Digital Video Broadcasting-S2 (DVB-S2).
@@ -89,7 +89,7 @@ Gets the current pilot mode for Digital Video Broadcasting-S2 (DVB-S2).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/rolloff">get_RollOff</a>
+<a href="/previous-versions/windows/desktop/mstv/rolloff">get_RollOff</a>
 </td>
 <td align="left" width="63%">
 Gets the demodulator's roll-off factor.
@@ -99,7 +99,7 @@ Gets the demodulator's roll-off factor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/transmissionmode">get_TransmissionMode</a>
+<a href="/previous-versions/windows/desktop/mstv/transmissionmode">get_TransmissionMode</a>
 </td>
 <td align="left" width="63%">
 Gets the demodulator's transmission mode.
@@ -109,7 +109,7 @@ Gets the demodulator's transmission mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-put_guardinterval">put_GuardInterval</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-put_guardinterval">put_GuardInterval</a>
 </td>
 <td align="left" width="63%">
 Sets the demodulator's guard interval.
@@ -119,7 +119,7 @@ Sets the demodulator's guard interval.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-put_pilot">put_Pilot</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-put_pilot">put_Pilot</a>
 </td>
 <td align="left" width="63%">
 Sets the current pilot mode for DVB-S2.
@@ -129,7 +129,7 @@ Sets the current pilot mode for DVB-S2.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-put_rolloff">put_RollOff</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-put_rolloff">put_RollOff</a>
 </td>
 <td align="left" width="63%">
 Sets the demodulator's roll-off factor.
@@ -139,7 +139,7 @@ Sets the demodulator's roll-off factor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-put_transmissionmode">put_TransmissionMode</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator2-put_transmissionmode">put_TransmissionMode</a>
 </td>
 <td align="left" width="63%">
 Sets the demodulator's transmission mode.
@@ -152,4 +152,3 @@ Sets the demodulator's transmission mode.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_DigitalDemodulator2)</code>.
-

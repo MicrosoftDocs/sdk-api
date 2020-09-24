@@ -82,7 +82,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies information about the user account. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structure. 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structure. 
 
 
 
@@ -98,7 +98,7 @@ When you specify this level, the call initializes certain attributes to their de
 </td>
 <td width="60%">
 Specifies level one information and additional attributes about the user account. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -109,8 +109,8 @@ Specifies level one information and additional attributes about the user account
 </td>
 <td width="60%">
 Specifies level two information and additional attributes about the user account. This level is valid only on servers. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> structure. Note that  it is recommended that you use 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> instead.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> structure. Note that  it is recommended that you use 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> instead.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Specifies level two information and additional attributes about the user account
 </td>
 <td width="60%">
  Specifies level two information and additional attributes about the user account. This level is valid only on servers. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> structure.
 
 <b>Windows 2000:  </b>This level is not supported.
 
@@ -132,12 +132,12 @@ Specifies level two information and additional attributes about the user account
 ### -param buf [in]
 
 Pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 ### -param parm_err [out]
 
 Pointer to a value that receives the index of the first member of the user information structure that causes ERROR_INVALID_PARAMETER. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 ## -returns
 
@@ -221,26 +221,26 @@ The password is shorter than required. (The password could also be too long, be 
 ## -remarks
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
+<a href="/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
+<a href="/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The security descriptor of the user container is used to perform the access check for this function. The caller must be able to create child objects of the user class.
 
 Server users must use a system in which the server creates a system account for the new user. The creation of this account is controlled by several parameters in the server's LanMan.ini file.
 
 If the newly added user already exists as a system user, the <b>usri1_home_dir</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structure is ignored.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structure is ignored.
 
 When you call the 
 <b>NetUserAdd</b> function and specify information level 1, the call initializes the additional members in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> structures to their default values. You can change the default values by making subsequent calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function. The default values supplied are listed following. (The prefix usriX indicates that the member can begin with multiple prefixes, for example, usri2_ or usri4_.)
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a>, 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a>, and 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> structures to their default values. You can change the default values by making subsequent calls to the 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function. The default values supplied are listed following. (The prefix usriX indicates that the member can begin with multiple prefixes, for example, usri2_ or usri4_.)
 
 <table>
 <tr>
@@ -301,7 +301,7 @@ User account names are limited to 20 characters and group names are limited to 2
 
 The following code sample demonstrates how to add a user account and assign a privilege level using a call to the 
 <b>NetUserAdd</b> function. The code sample fills in the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structure and calls 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structure and calls 
 <b>NetUserAdd</b>, specifying information level 1.
 
 
@@ -366,39 +366,38 @@ int wmain(int argc, wchar_t *argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuserdel">NetUserDel</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netuserdel">NetUserDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuserenum">NetUserEnum</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netuserenum">NetUserEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
-
+<a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>

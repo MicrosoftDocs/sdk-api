@@ -64,5 +64,4 @@ The texture associated with the visual and its children should be rendered.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservice2-rendertargetbitmap">RenderTargetBitmap</a>
-
+<a href="/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservice2-rendertargetbitmap">RenderTargetBitmap</a>

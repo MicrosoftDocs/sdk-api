@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Receives notifications about channel state changes or data received. This interface is implemented by the user. Each instance of this interface is associated with one instance of <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannel">IWTSVirtualChannel</a>.
+Receives notifications about channel state changes or data received. This interface is implemented by the user. Each instance of this interface is associated with one instance of <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannel">IWTSVirtualChannel</a>.
 
-Implementation of this interface should not block these calls, because this may suppress other callbacks. It is not guaranteed that these calls will always arrive on the same thread, even for in-process COM implementation of the plug-in. Calls to the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-write">Write</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">Close</a> methods of <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannel">IWTSVirtualChannel</a> are permitted within these callbacks.
+Implementation of this interface should not block these calls, because this may suppress other callbacks. It is not guaranteed that these calls will always arrive on the same thread, even for in-process COM implementation of the plug-in. Calls to the <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-write">Write</a> and <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">Close</a> methods of <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannel">IWTSVirtualChannel</a> are permitted within these callbacks.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSVirtualChannelCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSVirtualChannelCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSVirtualChannelCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSVirtualChannelCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWTSVirtualChannelCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannelcallback-onclose">OnClose</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannelcallback-onclose">OnClose</a>
 </td>
 <td align="left" width="63%">
 Notifies the user that the channel has been closed.
@@ -80,7 +80,7 @@ Notifies the user that the channel has been closed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannelcallback-ondatareceived">OnDataReceived</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannelcallback-ondatareceived">OnDataReceived</a>
 </td>
 <td align="left" width="63%">
 Notifies the user about data that is being received.
@@ -88,4 +88,3 @@ Notifies the user about data that is being received.
 </td>
 </tr>
 </table>
-

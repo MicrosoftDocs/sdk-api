@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IBaseFilter</code> interface is the primary interface for DirectShow filters. All DirectShow filters must expose this interface. The Filter Graph Manager uses this interface to control filters. Applications can use this interface to enumerate pins and query for filter information, but should not use it to change the state of a filter. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl</a> interface on the Filter Graph Manager.
+The <code>IBaseFilter</code> interface is the primary interface for DirectShow filters. All DirectShow filters must expose this interface. The Filter Graph Manager uses this interface to control filters. Applications can use this interface to enumerate pins and query for filter information, but should not use it to change the state of a filter. Instead, use the <a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl</a> interface on the Filter Graph Manager.
 
-<b>Filter developers</b>: Implement this interface on every DirectShow filter. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasefilter">CBaseFilter</a> base class implements this interface.
+<b>Filter developers</b>: Implement this interface on every DirectShow filter. The <a href="/windows/desktop/DirectShow/cbasefilter">CBaseFilter</a> base class implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBaseFilter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter</a>. <b>IBaseFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBaseFilter</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter</a>. <b>IBaseFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IBaseFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">EnumPins</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">EnumPins</a>
 </td>
 <td align="left" width="63%">
 Enumerates the pins on this filter.
@@ -81,7 +81,7 @@ Enumerates the pins on this filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-findpin">FindPin</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-findpin">FindPin</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pin with the specified identifier.
@@ -90,7 +90,7 @@ Retrieves the pin with the specified identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-joinfiltergraph">JoinFilterGraph</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-joinfiltergraph">JoinFilterGraph</a>
 </td>
 <td align="left" width="63%">
 Notifies the filter that it has joined or left the filter graph.
@@ -99,7 +99,7 @@ Notifies the filter that it has joined or left the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-queryfilterinfo">QueryFilterInfo</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-queryfilterinfo">QueryFilterInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the filter.
@@ -108,7 +108,7 @@ Retrieves information about the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-queryvendorinfo">QueryVendorInfo</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-queryvendorinfo">QueryVendorInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string containing vendor information.
@@ -119,5 +119,4 @@ Retrieves a string containing vendor information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter</a>

@@ -60,15 +60,15 @@ api_name:
 Unlocks a region in an open file. Unlocking a region enables other processes to access the region.
 
 For an alternate way to specify the region, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a> function.
 
 ## -parameters
 
 ### -param hFile [in]
 
 A handle to the file that contains a region locked with 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>. The file handle must have been created with either the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>. The file handle must have been created with either the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
+<a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ### -param dwFileOffsetLow [in]
 
@@ -91,7 +91,7 @@ The high-order word of the length of the byte range to be unlocked.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -162,17 +162,16 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>

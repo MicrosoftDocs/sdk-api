@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Unloads the manifest that was loaded by the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a> function.
+Unloads the manifest that was loaded by the <a href="/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a> function.
 
 ## -parameters
 
@@ -106,9 +106,8 @@ The manifest did not pass validation. To determine the validation errors, run th
 
 ## -remarks
 
-You must call this function after processing all the events. For example, you can call this function after calling <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a>.
+You must call this function after processing all the events. For example, you can call this function after calling <a href="/windows/desktop/ETW/closetrace">CloseTrace</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a>

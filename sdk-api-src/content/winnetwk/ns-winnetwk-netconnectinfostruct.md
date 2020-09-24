@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>NETCONNECTINFOSTRUCT</b> structure contains information about the performance of a network. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetconnectionperformance">NPGetConnectionPerformance</a> function.
+<a href="/windows/desktop/api/npapi/nf-npapi-npgetconnectionperformance">NPGetConnectionPerformance</a> function.
 
 ## -struct-fields
 
@@ -140,4 +140,3 @@ The delay introduced by the network when sending information, in milliseconds. I
 ### -field dwOptDataSize
 
 A recommendation for the size of data, in bytes, that is most efficiently sent through the network when an application makes a single request to the network resource. For example, for a disk network resource, this value might be 2048 or 512 when writing a block of data.
-

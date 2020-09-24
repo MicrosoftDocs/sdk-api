@@ -64,9 +64,9 @@ TBD
 
 ### -param samDesired [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/messages">REGSAM</a></b>
+Type: <b><a href="/windows/desktop/shell/messages">REGSAM</a></b>
 
-The desired security access. For more information on security access, see <a href="https://docs.microsoft.com/windows/desktop/shell/messages">REGSAM</a>.
+The desired security access. For more information on security access, see <a href="/windows/desktop/shell/messages">REGSAM</a>.
 
 ### -param hRelativeUSKey [in, optional]
 
@@ -147,15 +147,14 @@ A pointer to a null-terminated string that contains the subkey to be created or 
 
 Type: <b>LSTATUS</b>
 
-Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
+Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
 
 ## -remarks
 
-If you want to write values to the new key, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregwriteusvaluea">SHRegWriteUSValue</a> to write each value, passing the <b>HUSKEY</b> handle that is returned through <i>phNewUSKey</i>. When you have finished, close the user-specific registry key with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregcloseuskey">SHRegCloseUSKey</a>.
+If you want to write values to the new key, use <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shregwriteusvaluea">SHRegWriteUSValue</a> to write each value, passing the <b>HUSKEY</b> handle that is returned through <i>phNewUSKey</i>. When you have finished, close the user-specific registry key with <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shregcloseuskey">SHRegCloseUSKey</a>.
 
 
 
 
 > [!NOTE]
 > The shlwapi.h header defines SHRegCreateUSKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

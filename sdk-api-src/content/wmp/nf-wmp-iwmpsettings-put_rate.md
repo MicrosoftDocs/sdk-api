@@ -110,25 +110,24 @@ The playback rate of some digital media formats cannot be altered. Use the <b>IW
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastforward">IWMPControls::fastForward</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastforward">IWMPControls::fastForward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastreverse">IWMPControls::fastReverse</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastreverse">IWMPControls::fastReverse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_isavailable">IWMPSettings::get_isAvailable</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_isavailable">IWMPSettings::get_isAvailable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_rate">IWMPSettings::get_rate</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_rate">IWMPSettings::get_rate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute">IWMPSettings::put_mute</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute">IWMPSettings::put_mute</a>

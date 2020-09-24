@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>get_Language</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-language">Language</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object. This method returns the <b>LANGID</b> of the required module.
+<a href="/windows/desktop/Msi/dependency-language">Language</a> property of the 
+<a href="/windows/desktop/Msi/dependency-object">Dependency</a> object. This method returns the <b>LANGID</b> of the required module.
 
 ## -parameters
 
@@ -96,9 +96,8 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmdependency">IMsmDependency</a>
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmdependency">IMsmDependency</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

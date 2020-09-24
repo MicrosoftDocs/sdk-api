@@ -132,7 +132,7 @@ If the function fails in some other way, the return value should be an appropria
 
 The DLL that implements 
 <b>RasEapInvokeConfigUI</b> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies for which protocol to invoke the configuration UI.
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies for which protocol to invoke the configuration UI.
 
 RAS stores the connection data returned by 
 <b>RasEapInvokeConfigUI</b> in the phone-book entry for the connection on the client computer.
@@ -151,13 +151,12 @@ RAS stores the connection data returned by
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>
-
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>

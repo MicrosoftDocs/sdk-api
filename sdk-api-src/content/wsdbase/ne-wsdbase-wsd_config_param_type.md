@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Specifies the kind of data stored in a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structure.
+    <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structure.
 
 ## -enum-fields
 
@@ -73,25 +73,25 @@ The <i>dwConfigDataSize</i> member is 4.
 
 Used to pass in the client certificate that WSDAPI will use for client authentication in an SSL connection.
 
-The <i>pConfigData</i> member is a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the client certificate.  The caller needs to have read access to the private key of the certificate.
+The <i>pConfigData</i> member is a pointer to a  <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the client certificate.  The caller needs to have read access to the private key of the certificate.
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 ### -field WSD_SECURITY_SSL_SERVER_CERT_VALIDATION
 
-Used to pass in the SSL server certificate validation information into WSDAPI.  When establishing the SSL connection, WSDAPI will accept only a server certificate that matches the criteria specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
+Used to pass in the SSL server certificate validation information into WSDAPI.  When establishing the SSL connection, WSDAPI will accept only a server certificate that matches the criteria specified by the <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
 
-The <i>pConfigData</i> member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
+The <i>pConfigData</i> member is a pointer to a <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
 
 ### -field WSD_SECURITY_SSL_CLIENT_CERT_VALIDATION
 
-Used to pass in the SSL client certificate validation information into WSDAPI.  On incoming SSL connections, if a client certificate is available, WSDAPI will reject the connection if the client certificate doesn't match the validation criteria specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
+Used to pass in the SSL client certificate validation information into WSDAPI.  On incoming SSL connections, if a client certificate is available, WSDAPI will reject the connection if the client certificate doesn't match the validation criteria specified by the <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
 
-The <i>pConfigData</i> member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
+The <i>pConfigData</i> member is a pointer to a <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
 
 ### -field WSD_SECURITY_SSL_NEGOTIATE_CLIENT_CERT
 
@@ -105,33 +105,33 @@ The <i>dwConfigDataSize</i> member is 0.
 
 Used to specify which certificate is to be used by WSDAPI to sign outbound WS_Discovery UDP messages.
 
-The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure  that represents the signing certificate.  The caller needs to have read access to the certificate's private key..
+The <i>pConfigData</i> member is a                                            pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure  that represents the signing certificate.  The caller needs to have read access to the certificate's private key..
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 ### -field WSD_SECURITY_COMPACTSIG_VALIDATION
 
 This is used to specify the parameters used to verify inbound signed WS_Discovery UDP message.
 
-The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
+The <i>pConfigData</i> member is a                                            pointer to a <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
 
 ### -field WSD_CONFIG_HOSTING_ADDRESSES
 
-This applies only to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost2">WSDCreateDeviceHost2</a> function.  It is used to specify an array of addresses on which the device host should be hosted on.  The equivalent is functionality provided through the <i>ppHostAddresses</i> and <i>dwHostAddressCount</i> parameters of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehostadvanced">WSDCreateDeviceHostAdvanced</a> function.
+This applies only to the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost2">WSDCreateDeviceHost2</a> function.  It is used to specify an array of addresses on which the device host should be hosted on.  The equivalent is functionality provided through the <i>ppHostAddresses</i> and <i>dwHostAddressCount</i> parameters of the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehostadvanced">WSDCreateDeviceHostAdvanced</a> function.
 
-The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.  The <b>addresses</b> member of this structure points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> objects, each of which is an address on which the device host will listen on.
+The <i>pConfigData</i> member is a                                            pointer to a <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.  The <b>addresses</b> member of this structure points to an array of <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> objects, each of which is an address on which the device host will listen on.
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.
 
 ### -field WSD_CONFIG_DEVICE_ADDRESSES
 
-This applies only to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxy2">WSDCreateDeviceProxy2</a> function.  It is used to specify an address for the device for which the proxy is created.  The equivalent is functionality provided through the <i>deviceConfig</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxyadvanced">WSDCreateDeviceProxyAdvanced</a> function.
+This applies only to the <a href="/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxy2">WSDCreateDeviceProxy2</a> function.  It is used to specify an address for the device for which the proxy is created.  The equivalent is functionality provided through the <i>deviceConfig</i> parameter of the <a href="/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxyadvanced">WSDCreateDeviceProxyAdvanced</a> function.
 
-The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.  The <b>addresses</b> member of this structure points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> objects, each of which is an address of the device to which the proxy is created.  Currently only one such address is allowed.
+The <i>pConfigData</i> member is a                                            pointer to a <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.  The <b>addresses</b> member of this structure points to an array of <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> objects, each of which is an address of the device to which the proxy is created.  Currently only one such address is allowed.
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.
 
 ### -field WSD_SECURITY_REQUIRE_HTTP_CLIENT_AUTH
 
@@ -139,7 +139,7 @@ Indicates a requirement for HTTP Authentication using one of the auth schemes sp
 
 <ul>
 <li>
-When specified during a <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> operation, DPWS clients will be required to authenticate messages sent to the Hosted Services of the WSDAPI device host using HTTP Authentication.
+When specified during a <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> operation, DPWS clients will be required to authenticate messages sent to the Hosted Services of the WSDAPI device host using HTTP Authentication.
 
 </li>
 <li>
@@ -154,7 +154,7 @@ When this  value is specified, WSDAPI will request HTTP clients to send a client
 
 <ul>
 <li>
-When specified during a <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> operation, this behavior will apply to web service messages from DPWS clients.
+When specified during a <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> operation, this behavior will apply to web service messages from DPWS clients.
 
 </li>
 </ul>
@@ -167,7 +167,7 @@ If the server requires authentication, WSDAPI will authenticate using HTTP authe
 
 <ul>
 <li>
-When specified during a <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> operation, this behavior will apply to web service messages from DPWS clients.
+When specified during a <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> operation, this behavior will apply to web service messages from DPWS clients.
 
 </li>
 <li>
@@ -175,4 +175,3 @@ If this value is expressed in conjunction with WSD_SECURITY_SSL_CERT_FOR_CLIENT_
 
 </li>
 </ul>
-

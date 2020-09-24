@@ -57,7 +57,7 @@ The <code>put_TVFormat</code> method sets the analog video format.
 
 ### -param lAnalogVideoStandard [in]
 
-Specifies the video format as a member of the [AnalogVideoStandard](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration.
+Specifies the video format as a member of the [AnalogVideoStandard](/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Returns S_OK if successful, or an error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>

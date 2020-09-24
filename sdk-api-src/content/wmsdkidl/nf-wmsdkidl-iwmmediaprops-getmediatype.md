@@ -59,7 +59,7 @@ The <b>GetMediaType</b> method retrieves a structure describing the media type.
 
 ### -param pType [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure. If this parameter is set to <b>NULL</b>, this method returns the size of the buffer required in the <i>pcbType</i> parameter.
+Pointer to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure. If this parameter is set to <b>NULL</b>, this method returns the size of the buffer required in the <i>pcbType</i> parameter.
 
 ### -param pcbType [in, out]
 
@@ -115,13 +115,12 @@ You must make two calls to <b>GetMediaType</b>. On the first call, pass <b>NULL<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-setmediatype">IWMMediaProps::SetMediaType</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-setmediatype">IWMMediaProps::SetMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/media-types">Media Types</a>
-
+<a href="/windows/desktop/wmformat/media-types">Media Types</a>

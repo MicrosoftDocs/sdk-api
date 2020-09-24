@@ -62,8 +62,8 @@ Returns  the size of the largest committed free block in the specified heap.   I
 ### -param hHeap [in]
 
 A handle to the heap. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ### -param dwFlags [in]
 
@@ -88,7 +88,7 @@ Serialized access will not be used.
 
 For more information, see Remarks.
 
-To ensure that serialized access is disabled for all calls to this function, specify <b>HEAP_NO_SERIALIZE</b> in the call to <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>. In this case, it is not necessary to additionally specify <b>HEAP_NO_SERIALIZE</b> in this function call.
+To ensure that serialized access is disabled for all calls to this function, specify <b>HEAP_NO_SERIALIZE</b> in the call to <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>. In this case, it is not necessary to additionally specify <b>HEAP_NO_SERIALIZE</b> in this function call.
 
 Do not specify this value when accessing the process heap. The system may create additional threads within the application's process, such as a CTRL+C handler, that simultaneously access the process heap.
 
@@ -101,13 +101,13 @@ Do not specify this value when accessing the process heap. The system may create
 If the function succeeds, the return value is the size of the largest committed free block in the heap, in bytes.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-In the unlikely case that there is absolutely no space available in the heap, the function return value is zero, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the value NO_ERROR.
+In the unlikely case that there is absolutely no space available in the heap, the function return value is zero, and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the value NO_ERROR.
 
 ## -remarks
 
-The <b>HeapCompact</b> function is primarily useful for debugging. Ordinarily, the system compacts the heap whenever the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function is called, and the <b>HeapCompact</b> function returns the size of the largest free block in the heap but does not compact the heap any further. If the <a href="https://msdn.microsoft.com/library/cc265897.aspx">Disable heap coalesce on free</a> global flag is set during debugging, the system does not compact the heap and calling the <b>HeapCompact</b> function does compact the heap.  For more information about global flags, see the <a href="https://msdn.microsoft.com/library/cc265942.aspx">GFlags</a> documentation.
+The <b>HeapCompact</b> function is primarily useful for debugging. Ordinarily, the system compacts the heap whenever the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function is called, and the <b>HeapCompact</b> function returns the size of the largest free block in the heap but does not compact the heap any further. If the <a href="https://msdn.microsoft.com/library/cc265897.aspx">Disable heap coalesce on free</a> global flag is set during debugging, the system does not compact the heap and calling the <b>HeapCompact</b> function does compact the heap.  For more information about global flags, see the <a href="https://msdn.microsoft.com/library/cc265942.aspx">GFlags</a> documentation.
 
 There is no guarantee that an application can successfully allocate a memory block of the size returned by 
 <b>HeapCompact</b>. Other threads or the commit threshold might prevent such an allocation.
@@ -122,18 +122,17 @@ Serialization ensures mutual exclusion when two or more threads attempt to simul
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
+<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapvalidate">HeapValidate</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapvalidate">HeapValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
-

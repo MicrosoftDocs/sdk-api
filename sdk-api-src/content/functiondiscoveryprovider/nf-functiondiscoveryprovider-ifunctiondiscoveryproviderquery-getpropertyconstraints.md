@@ -58,7 +58,7 @@ Retrieves the current property constraints.
 
 ### -param ppIProviderPropertyConstraints [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpropertyconstraintcollection">IProviderPropertyConstraintCollection</a> interface pointer that receives the collection of property constraints.
+A pointer to an <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpropertyconstraintcollection">IProviderPropertyConstraintCollection</a> interface pointer that receives the collection of property constraints.
 
 ## -returns
 
@@ -72,5 +72,4 @@ Function Discovery will apply all property constraints to the results returned b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderquery">IFunctionDiscoveryProviderQuery</a>
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderquery">IFunctionDiscoveryProviderQuery</a>

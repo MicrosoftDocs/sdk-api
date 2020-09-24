@@ -73,19 +73,19 @@ The size, in bytes, of the array pointed to by the <i>pbData</i> parameter.
 ### -param hAdditionalStore [in, optional]
 
 The handle of an additional store to search for supporting
-Time Stamping Authority (TSA) signing certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs).
+Time Stamping Authority (TSA) signing certificates and <a href="/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs).
     This parameter can be <b>NULL</b> if no additional store is to be searched.
 
 ### -param ppTsContext [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_context">PCRYPT_TIMESTAMP_CONTEXT</a> structure. When you have finished using the context, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_context">PCRYPT_TIMESTAMP_CONTEXT</a> structure. When you have finished using the context, you must free it by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
 
 ### -param ppTsSigner [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCERT_CONTEXT</a> that
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCERT_CONTEXT</a> that
 receives the certificate of the signer.
      When you have finished using this structure, you must free it by passing this
-pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
+pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 Set this parameter to <b>NULL</b> if the TSA signer's certificate is not needed.
 
@@ -93,18 +93,17 @@ Set this parameter to <b>NULL</b> if the TSA signer's certificate is not needed.
 
 A pointer to a handle that receives the certificate store opened  on CMS to search for supporting certificates.
 
-This parameter can be <b>NULL</b> if the TSA supporting certificates are not needed. When you have finished using this handle,  you  must release it by passing it to  the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
+This parameter can be <b>NULL</b> if the TSA supporting certificates are not needed. When you have finished using this handle,  you  must release it by passing it to  the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 ## -returns
 
-If the function succeeds, the function returns <b>TRUE</b>. For extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function succeeds, the function returns <b>TRUE</b>. For extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-The caller should validate the <b>pszTSAPolicyId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_info">CRYPT_TIMESTAMP_INFO</a> structure when it is returned by the   <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrievetimestamp">CryptRetrieveTimeStamp</a> function. If a TSA policy was specified in the request 
+The caller should validate the <b>pszTSAPolicyId</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_info">CRYPT_TIMESTAMP_INFO</a> structure when it is returned by the   <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrievetimestamp">CryptRetrieveTimeStamp</a> function. If a TSA policy was specified in the request 
      and the <b>ftTime</b> member contains a valid value, the caller should build a certificate context chain with which to populate the <i>ppTsSigner</i> parameter and validate the trust.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrievetimestamp">CryptRetrieveTimeStamp</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrievetimestamp">CryptRetrieveTimeStamp</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>ObjectId</b> property retrieves the  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), if any, associated with the name.
+The <b>ObjectId</b> property retrieves the  <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), if any, associated with the name.
 
 This property is read-only.
 
@@ -59,15 +59,14 @@ This property is read-only.
 
 ## -remarks
 
-You can retrieve a value for this property if you initialized the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a> object in any of the following ways:
+You can retrieve a value for this property if you initialized the <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a> object in any of the following ways:
 
 <ul>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromothername">InitializeFromOtherName</a> and supply an OID.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromrawdata">InitializeFromRawData</a> and specify the XCN_CERT_ALT_NAME_GUID type.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromstring">InitializeFromString</a> and specify the XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME type.</li>
+<li>Call <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromothername">InitializeFromOtherName</a> and supply an OID.</li>
+<li>Call <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromrawdata">InitializeFromRawData</a> and specify the XCN_CERT_ALT_NAME_GUID type.</li>
+<li>Call <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromstring">InitializeFromString</a> and specify the XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME type.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>

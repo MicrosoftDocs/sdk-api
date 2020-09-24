@@ -375,7 +375,7 @@ The color of the menu bar.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBRUSH</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBRUSH</a></b>
 
 Handle to brush data.
 
@@ -384,5 +384,4 @@ Handle to brush data.
 If the theme data handle is not a <b>NULL</b> handle, <b>GetThemeSysColorBrush</b> returns the brush that matches the specified color from the SysMetrics section of the visual style. If the theme data handle is <b>NULL</b>, the function returns the brush matching the global system color.
 
 
-The brush handle that is returned by this function should be released when it is no longer needed using <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>.
-
+The brush handle that is returned by this function should be released when it is no longer needed using <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>.

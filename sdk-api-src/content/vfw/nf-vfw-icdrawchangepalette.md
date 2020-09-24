@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDrawChangePalette</b> macro notifies a rendering driver that the movie palette is changing. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-changepalette">ICM_DRAW_CHANGEPALETTE</a> message.
+The <b>ICDrawChangePalette</b> macro notifies a rendering driver that the movie palette is changing. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-draw-changepalette">ICM_DRAW_CHANGEPALETTE</a> message.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle to a rendering driver.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the new format and optional color table.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the new format and optional color table.
 
 ## -remarks
 
@@ -68,9 +68,8 @@ This message should be supported by installable rendering handlers that draw DIB
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

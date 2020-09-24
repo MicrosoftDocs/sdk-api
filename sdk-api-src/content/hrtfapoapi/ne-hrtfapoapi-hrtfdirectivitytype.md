@@ -68,5 +68,4 @@ The sound emission is a cone.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/enumerations">Enumerations</a>
-
+<a href="/windows/desktop/xaudio2/enumerations">Enumerations</a>

@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Describes the animation effects associated with user actions. This structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETANIMATION or SPI_SETANIMATION action value is specified.
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETANIMATION or SPI_SETANIMATION action value is specified.
 
 ## -struct-fields
 
@@ -69,5 +69,4 @@ If this member is nonzero, minimize and restore animation is enabled; otherwise 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

@@ -91,15 +91,14 @@ One of the parameters contains an invalid argument.
 
 ## -remarks
 
-This method is called by Function Discovery to indicate to a provider that no further query notifications will be sent to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> callback interface. Implementers should try to ensure that no further query notifications are sent to Function Discovery after the call to <b>EndQuery</b> returns. If a provider implementation sends a notification after <b>EndQuery</b>  returns, Function Discovery returns an error to the provider and the notification is not forwarded to the client. 
+This method is called by Function Discovery to indicate to a provider that no further query notifications will be sent to the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> callback interface. Implementers should try to ensure that no further query notifications are sent to Function Discovery after the call to <b>EndQuery</b> returns. If a provider implementation sends a notification after <b>EndQuery</b>  returns, Function Discovery returns an error to the provider and the notification is not forwarded to the client. 
 
-<b>EndQuery</b> is only called when a client passed an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface passed to the provider's <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-initialize">Initialize</a> method.
+<b>EndQuery</b> is only called when a client passed an <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface passed to the provider's <a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-initialize">Initialize</a> method.
 
-Any data structures associated with the query can be deleted in the implementation of <b>EndQuery</b>. Any private context memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-query">Query</a> method should also be deleted.
+Any data structures associated with the query can be deleted in the implementation of <b>EndQuery</b>. Any private context memory allocated by the <a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-query">Query</a> method should also be deleted.
 
-Note that <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-query">Query</a> can be invoked again once <b>EndQuery</b> has returned.
+Note that <a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-query">Query</a> can be invoked again once <b>EndQuery</b> has returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>

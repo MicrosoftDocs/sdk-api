@@ -105,13 +105,12 @@ The audio renderer was removed from the pipeline.
 
 ## -remarks
 
-Calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmastervolume">IMFSimpleAudioVolume::SetMasterVolume</a> to set the volume does not change whether the audio is muted.
+Calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmastervolume">IMFSimpleAudioVolume::SetMasterVolume</a> to set the volume does not change whether the audio is muted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume">IMFSimpleAudioVolume</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume">IMFSimpleAudioVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
-
+<a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>

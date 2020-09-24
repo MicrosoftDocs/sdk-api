@@ -58,7 +58,7 @@ The <b>midiStreamClose</b> function closes an open MIDI stream.
 
 ### -param hms
 
-Handle to a MIDI stream, as retrieved by using the <a href="https://docs.microsoft.com/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function.
+Handle to a MIDI stream, as retrieved by using the <a href="/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function.
 
 ## -returns
 
@@ -84,5 +84,4 @@ The specified device handle is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

@@ -52,11 +52,11 @@ api_name:
 
 ## -description
 
-The <b>SECPKG_EXTENDED_INFORMATION_CLASS</b> enumeration describes the type of information to set or get for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+The <b>SECPKG_EXTENDED_INFORMATION_CLASS</b> enumeration describes the type of information to set or get for a <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
 
 This enumeration is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 ## -enum-fields
 
@@ -67,12 +67,12 @@ GSS OID information used to identify the security package in GSS-compatible nego
 ### -field SecpkgContextThunks
 
 Identifies the calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function that are handled in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) process space (LSA mode) rather than being handled in the client process space (user mode).
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function that are handled in the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) process space (LSA mode) rather than being handled in the client process space (user mode).
 
 ### -field SecpkgMutualAuthLevel
 
 The mutual authentication level used in the system. This value is valid for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> function only.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> function only.
 
 ### -field SecpkgWowClientDll
 
@@ -91,4 +91,3 @@ The end value for the enumeration. This value is not a valid parameter value.
 Identifies the SPNego information for the security package.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This constant is not available.
-

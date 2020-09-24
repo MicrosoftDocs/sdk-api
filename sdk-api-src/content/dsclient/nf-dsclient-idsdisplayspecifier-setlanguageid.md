@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>IDsDisplaySpecifier::SetLanguageID</b> method  changes the locale used by the  <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object to a specified language.
+The <b>IDsDisplaySpecifier::SetLanguageID</b> method  changes the locale used by the  <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object to a specified language.
 
 ## -parameters
 
 ### -param langid [in]
 
-Contains the language identifier used by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object. If this parameter is zero, this method calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a> function to retrieve the current user language identifier and uses that locale.
+Contains the language identifier used by the <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object. If this parameter is zero, this method calls the 
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a> function to retrieve the current user language identifier and uses that locale.
 
 ## -returns
 
@@ -65,17 +65,16 @@ This method always returns <b>S_OK</b>.
 
 ## -remarks
 
-During object creation, the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object obtains the locale by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a>. This method enables the object user to change the locale used with the display specifiers.
+During object creation, the <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object obtains the locale by calling <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a>. This method enables the object user to change the locale used with the display specifiers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
-
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>

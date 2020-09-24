@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Queries the decoder for the time stamp of the upcoming output sample. Use this method if you need to know the time of the sample before calling <b>IMediaObject::ProcessOutput</b> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> to get the sample.
+Queries the decoder for the time stamp of the upcoming output sample. Use this method if you need to know the time of the sample before calling <b>IMediaObject::ProcessOutput</b> or <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> to get the sample.
 
 ## -parameters
 
@@ -86,5 +86,4 @@ This method is important when decoding video using frame interpolation, because 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecoutputtimestamp">IWMCodecOutputTimestamp Interface</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecoutputtimestamp">IWMCodecOutputTimestamp Interface</a>

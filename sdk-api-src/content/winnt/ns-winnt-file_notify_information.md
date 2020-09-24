@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Describes the changes found by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a> function.
 
 ## -struct-fields
 
@@ -146,5 +146,4 @@ If there is both a short and long name for the file, the function will return on
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>

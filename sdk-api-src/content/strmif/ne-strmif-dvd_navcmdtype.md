@@ -74,9 +74,8 @@ Button command.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-beginnavigationcommands">EC_DVD_BeginNavigationCommands</a>
-
+<a href="/windows/desktop/DirectShow/ec-dvd-beginnavigationcommands">EC_DVD_BeginNavigationCommands</a>

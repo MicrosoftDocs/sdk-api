@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_CallTreatments</b> method gets 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecalltreatment--constants">call treatments</a>. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
+<a href="/windows/desktop/Tapi/linecalltreatment--constants">call treatments</a>. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 
 ## -parameters
 
 ### -param pVariant [out]
 
 Pointer to a <b>VARIANT</b> containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of call treatments.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of call treatments.
 
 ## -returns
 
@@ -89,7 +89,7 @@ Method succeeded.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">Call state</a> must be CS_IDLE.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_state">Call state</a> must be CS_IDLE.
 
 </td>
 </tr>
@@ -120,18 +120,17 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface returned by <b>ITAddressCapabilities::get_CallTreatments</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface returned by <b>ITAddressCapabilities::get_CallTreatments</b>. The application must call <b>Release</b> on the 
 <b>ITCallInfo</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>

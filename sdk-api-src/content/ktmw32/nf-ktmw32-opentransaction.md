@@ -56,7 +56,7 @@ Opens an existing transaction.
 
 ### -param dwDesiredAccess [in]
 
-The access to the transaction object. You must have read and write access to work with a transaction. See <a href="https://docs.microsoft.com/windows/desktop/Ktm/transaction-access-masks">Transaction Access Masks</a> for a list of valid values.
+The access to the transaction object. You must have read and write access to work with a transaction. See <a href="/windows/desktop/Ktm/transaction-access-masks">Transaction Access Masks</a> for a list of valid values.
 
 ### -param TransactionId [in]
 
@@ -66,31 +66,30 @@ The GUID that identifies the transaction to be opened. This is commonly referred
 
 If the function succeeds, the return value is a handle to the transaction.
 
-If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the  possible error codes:
 
 ## -remarks
 
-Clients close the transaction handle by using the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function. If the last transaction handle is closed without anyone calling the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-committransaction">CommitTransaction</a> function on the transaction, then the KTM implicitly rolls back the transaction.
+Clients close the transaction handle by using the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function. If the last transaction handle is closed without anyone calling the <a href="/windows/desktop/api/ktmw32/nf-ktmw32-committransaction">CommitTransaction</a> function on the transaction, then the KTM implicitly rolls back the transaction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-committransaction">CommitTransaction</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-committransaction">CommitTransaction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-rollbacktransaction">RollbackTransaction</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-rollbacktransaction">RollbackTransaction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/transaction-access-masks">Transaction Access Masks</a>
-
+<a href="/windows/desktop/Ktm/transaction-access-masks">Transaction Access Masks</a>

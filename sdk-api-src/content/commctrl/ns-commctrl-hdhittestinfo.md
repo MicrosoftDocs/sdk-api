@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-Contains information about a hit test. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-hittest">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure.
+Contains information about a hit test. This structure is used with the <a href="/windows/desktop/Controls/hdm-hittest">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure.
 
 ## -struct-fields
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the point to be hit test, in client coordinates.
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the point to be hit test, in client coordinates.
 
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The variable that receives information about the results of a hit test. This member can be one or more of the values listed below. Two of these values can be combined, such as when the position is above and to the left of the client area.
 
@@ -142,7 +142,7 @@ The point is inside the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> The point is over the filter area.
+<a href="/windows/desktop/Controls/common-control-versions">Version 5.80</a> The point is over the filter area.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ The point is inside the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> The point is on the filter button.
+<a href="/windows/desktop/Controls/common-control-versions">Version 5.80</a> The point is on the filter button.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista. </b> The point is within the state icon of the item.  If style <a href="https://docs.microsoft.com/windows/desktop/Controls/header-control-styles">HDS_CHECKBOXES</a> is specified, the point is within the checkbox of the item.
+<a href="/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista. </b> The point is within the state icon of the item.  If style <a href="/windows/desktop/Controls/header-control-styles">HDS_CHECKBOXES</a> is specified, the point is within the checkbox of the item.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b> The point is within the split button of the item.  The style HDF_SPLITBUTTON must be set on the item.
+<a href="/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b> The point is within the split button of the item.  The style HDF_SPLITBUTTON must be set on the item.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b> The point is within the overflow button of the header control.  The style <a href="https://docs.microsoft.com/windows/desktop/Controls/header-control-styles">HDS_OVERFLOW</a> must be set on the header control.
+<a href="/windows/desktop/Controls/common-control-versions">Version 6.00</a> and <b>Windows Vista.</b> The point is within the overflow button of the header control.  The style <a href="/windows/desktop/Controls/header-control-styles">HDS_OVERFLOW</a> must be set on the header control.
 
 </td>
 </tr>
@@ -217,4 +217,3 @@ The point is to the right of the header control's bounding rectangle.
 Type: <b>int</b>
 
 If the hit test is successful, contains the index of the item at the hit test point.
-

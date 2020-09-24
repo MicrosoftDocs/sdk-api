@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Opens an existing  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
+Opens an existing  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ Pointer to a null-terminated Unicode string specifying the name of the subkey to
 <li>Must not begin with the backslash character ( \ ).</li>
 <li>Must not be <b>NULL</b>.</li>
 </ul>
-The <i>lpszSubKey</i> parameter can point to an empty string, causing  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatekey">ClusterRegCreateKey</a> to return a handle to the database key represented by <i>hKey</i>.
+The <i>lpszSubKey</i> parameter can point to an empty string, causing  <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatekey">ClusterRegCreateKey</a> to return a handle to the database key represented by <i>hKey</i>.
 
 ### -param samDesired [in]
 
@@ -85,17 +85,16 @@ Pointer to a handle to the opened or created key.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-Callers should call  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a> to close the key handle opened by  <b>ClusterRegOpenKey</b> when they are done with it.
+Callers should call  <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a> to close the key handle opened by  <b>ClusterRegOpenKey</b> when they are done with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatekey">ClusterRegCreateKey</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatekey">ClusterRegCreateKey</a>

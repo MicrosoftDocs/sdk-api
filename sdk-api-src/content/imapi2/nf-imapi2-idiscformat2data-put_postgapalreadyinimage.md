@@ -88,9 +88,8 @@ Note that writing to CD-R/RW media will automatically append a post-gap of 150 s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_postgapalreadyinimage">IDiscFormat2Data::get_PostgapAlreadyInImage</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_postgapalreadyinimage">IDiscFormat2Data::get_PostgapAlreadyInImage</a>

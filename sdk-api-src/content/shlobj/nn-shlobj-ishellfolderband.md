@@ -56,7 +56,7 @@ Exposes methods that manage folder bands. The Quick Launch bar is an example of 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderBand</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellFolderBand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderBand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellFolderBand</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,16 +71,16 @@ The <b>IShellFolderBand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb">GetBandInfoSFB</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb">GetBandInfoSFB</a>
 </td>
 <td align="left" width="63%">
-Gets information concerning an <b>IShellFolderBand</b> object and places it in a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure.
+Gets information concerning an <b>IShellFolderBand</b> object and places it in a <a href="/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-initializesfb">InitializeSFB</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-initializesfb">InitializeSFB</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IShellFolderBand</b> object.
@@ -89,12 +89,11 @@ Initializes an <b>IShellFolderBand</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb">SetBandInfoSFB</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb">SetBandInfoSFB</a>
 </td>
 <td align="left" width="63%">
-Uses the information in a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure to set the band information for a <b>IShellFolderBand</b> object.
+Uses the information in a <a href="/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure to set the band information for a <b>IShellFolderBand</b> object.
 
 </td>
 </tr>
 </table>
-

@@ -56,15 +56,15 @@ Sets the value of the property for a range of text using a property store object
 
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit context. This is obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that contains the range that the property value is set for. This parameter cannot be <b>NULL</b>. This method fails if <i>pRange</i> is empty.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that contains the range that the property value is set for. This parameter cannot be <b>NULL</b>. This method fails if <i>pRange</i> is empty.
 
 ### -param pPropStore [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> interface that obtains the property data.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> interface that obtains the property data.
 
 ## -returns
 
@@ -123,7 +123,7 @@ The edit context identified by <i>ec</i> does not have a read/write lock.
 
 ## -remarks
 
-Property values set with <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-setvalue">ITfProperty::SetValue</a> will be discarded when the text that the property value covers is modified. To gain control over what happens to a property value when the text is modified, use <b>ITfProperty::SetValueStore</b> .
+Property values set with <a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvalue">ITfProperty::SetValue</a> will be discarded when the text that the property value covers is modified. To gain control over what happens to a property value when the text is modified, use <b>ITfProperty::SetValueStore</b> .
 
 Values set with <b>ITfProperty::SetValue</b> will be serialized, except for values of type VT_UNKNOWN, which are not serialized. If a property value of type VT_UNKNOWN must be serialized, use <b>ITfProperty::SetValueStore</b> instead.
 
@@ -131,30 +131,29 @@ Overlapping property values of the same type are unsupported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-setvalue">ITfProperty::SetValue
+<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvalue">ITfProperty::SetValue
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
+<a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

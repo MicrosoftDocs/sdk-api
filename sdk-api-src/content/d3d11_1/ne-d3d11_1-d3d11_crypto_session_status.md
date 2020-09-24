@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Represents the status of an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> interface.
+Represents the status of an <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> interface.
 
 ## -enum-fields
 
 ### -field D3D11_CRYPTO_SESSION_STATUS_OK
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> is in a functional state.
+The <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> is in a functional state.
 
 ### -field D3D11_CRYPTO_SESSION_STATUS_KEY_LOST
 
-The underlying hardware key for the specified <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> has become lost.
+The underlying hardware key for the specified <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> has become lost.
 
 ### -field D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST
 
-The underlying hardware key for the specified <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> has become lost and protected content has become corrupted.
+The underlying hardware key for the specified <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> has become lost and protected content has become corrupted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
-
+<a href="/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies a file's perceived type. This set of constants is used in the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assocgetperceivedtype">AssocGetPerceivedType</a> function.
+Specifies a file's perceived type. This set of constants is used in the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-assocgetperceivedtype">AssocGetPerceivedType</a> function.
 
 ## -enum-fields
 
@@ -72,7 +72,7 @@ Not used.
 
 ### -field PERCEIVED_TYPE_UNKNOWN
 
-The file's perceived type hasn't yet been requested. This is the cached type of the object when it is created. This value is never returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assocgetperceivedtype">AssocGetPerceivedType</a>.
+The file's perceived type hasn't yet been requested. This is the cached type of the object when it is created. This value is never returned by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-assocgetperceivedtype">AssocGetPerceivedType</a>.
 
 ### -field PERCEIVED_TYPE_TEXT
 
@@ -119,4 +119,3 @@ The file's perceived type is "application".
 ## -remarks
 
 Prior to Windows Vista, this enumeration was declared in Shlwapi.h.
-

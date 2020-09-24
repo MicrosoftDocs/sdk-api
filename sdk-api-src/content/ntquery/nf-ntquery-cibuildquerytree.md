@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Builds a query restriction tree for a Command object.
 
@@ -62,12 +62,12 @@ Builds a query restriction tree for a Command object.
 
 ### -param pExistingTree
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure representing the tree. This parameter can be <b>NULL</b>.
+A pointer to a <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure representing the tree. This parameter can be <b>NULL</b>.
 
 
 ### -param dbBoolOp
 
-The operation to be performed on the node. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandop">DBCOMMANDOP</a>.
+The operation to be performed on the node. See <a href="/previous-versions/windows/desktop/indexsrv/dbcommandop">DBCOMMANDOP</a>.
 
 
 ### -param cSiblings
@@ -77,12 +77,12 @@ The number of sibling nodes for this node.
 
 ### -param ppSibsToCombine
 
-A pointer to the address that contains the array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structures for the siblings to be combined with this node using the operation in <i>dbBoolOp</i>.
+A pointer to the address that contains the array of <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structures for the siblings to be combined with this node using the operation in <i>dbBoolOp</i>.
 
 
 ### -param ppTree
 
-The address of the location to receive a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure for the tree structure.
+The address of the location to receive a pointer to the <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure for the tree structure.
 
 
 ## -returns
@@ -173,32 +173,31 @@ An unknown error has occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-cibuildquerynode">CIBuildQueryNode</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-cibuildquerynode">CIBuildQueryNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttofulltree">CITextToFullTree</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttofulltree">CITextToFullTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttofulltreeex">CITextToFullTreeEx</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttofulltreeex">CITextToFullTreeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttree">CITextToSelectTree</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttree">CITextToSelectTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttreeex">CITextToSelectTreeEx</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttreeex">CITextToSelectTreeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandop">DBCOMMANDOP</a>
+<a href="/previous-versions/windows/desktop/indexsrv/dbcommandop">DBCOMMANDOP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a>
+<a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a>
  
 
  
-

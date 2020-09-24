@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies attributes of a picture object as returned through the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_attributes">IPicture::get_Attributes</a> method.
+Specifies attributes of a picture object as returned through the <a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_attributes">IPicture::get_Attributes</a> method.
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ The picture object contains an image that has transparent areas, such that drawi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_attributes">IPicture::get_Attributes</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_attributes">IPicture::get_Attributes</a>

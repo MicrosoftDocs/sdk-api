@@ -70,5 +70,4 @@ If you haven't initialized the stream yet, the retrieved pointer will be <b>NULL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
-
+<a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>

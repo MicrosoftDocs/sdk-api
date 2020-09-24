@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Arranges items in icon view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-arrange">LVM_ARRANGE</a> message explicitly.
+Arranges items in icon view. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-arrange">LVM_ARRANGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param code
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 One of the following values that specifies alignment:
 
@@ -79,7 +79,7 @@ One of the following values that specifies alignment:
 </dl>
 </td>
 <td width="60%">
-Not implemented. Apply the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_ALIGNLEFT</a> style instead.
+Not implemented. Apply the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_ALIGNLEFT</a> style instead.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Not implemented. Apply the <a href="https://docs.microsoft.com/windows/desktop/C
 </dl>
 </td>
 <td width="60%">
-Not implemented. Apply the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_ALIGNTOP</a> style instead.
+Not implemented. Apply the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_ALIGNTOP</a> style instead.
 
 </td>
 </tr>
@@ -114,4 +114,3 @@ Snaps all icons to the nearest grid position.
 </td>
 </tr>
 </table>
-

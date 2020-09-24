@@ -54,15 +54,15 @@ api_name:
 
 ## -description
 
-Contains trigger event information for a service. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a> functions.
+Contains trigger event information for a service. This structure is used by the <a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a> and <a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a> functions.
 
 ## -struct-fields
 
 ### -field cTriggers
 
-The number of triggers in the array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structures pointed to by the <b>pTriggers</b> member.  
+The number of triggers in the array of <a href="/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structures pointed to by the <b>pTriggers</b> member.  
 
-If this member is 0 in a <b>SERVICE_TRIGGER_INFO</b> structure passed to  <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>, all previously configured triggers are removed from the service. If the service has no triggers configured, <b>ChangeServiceConfig2</b>  fails with ERROR_INVALID_PARAMETER.
+If this member is 0 in a <b>SERVICE_TRIGGER_INFO</b> structure passed to  <a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>, all previously configured triggers are removed from the service. If the service has no triggers configured, <b>ChangeServiceConfig2</b>  fails with ERROR_INVALID_PARAMETER.
 
 ### -field cTriggers.range
 
@@ -72,7 +72,7 @@ If this member is 0 in a <b>SERVICE_TRIGGER_INFO</b> structure passed to  <a hre
 
 ### -field pTriggers
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structures that specify the trigger events for the service. If the <b>cTriggers</b> member is 0, this member is not used.
+A pointer to an array of <a href="/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structures that specify the trigger events for the service. If the <b>cTriggers</b> member is 0, this member is not used.
 
 ### -field pTriggers.size_is
 
@@ -84,17 +84,16 @@ This member is reserved and must be NULL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>
-
+<a href="/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>

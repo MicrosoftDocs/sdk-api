@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-approximateviewrect">LVM_APPROXIMATEVIEWRECT</a> message explicitly.
+Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-approximateviewrect">LVM_APPROXIMATEVIEWRECT</a> message explicitly.
 
 ## -parameters
 
@@ -77,4 +77,3 @@ The proposed y-dimension of the control, in pixels. This parameter can be -1 to 
 Type: <b>int</b>
 
 The number of items to be displayed in the control. If this parameter is -1, the message uses the total number of items in the control.
-

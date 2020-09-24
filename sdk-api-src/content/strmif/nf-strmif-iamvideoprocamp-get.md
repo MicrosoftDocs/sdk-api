@@ -57,7 +57,7 @@ The <code>Get</code> method gets the current setting of a video property.
 
 ### -param Property [in]
 
-Specifies the property to retrieve, as a value from the [VideoProcAmpProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampproperty) enumeration.
+Specifies the property to retrieve, as a value from the [VideoProcAmpProperty](/windows/desktop/api/strmif/ne-strmif-videoprocampproperty) enumeration.
 
 ### -param lValue [out]
 
@@ -65,7 +65,7 @@ Receives the value of the property.
 
 ### -param Flags [out]
 
-Receives a member of the [VideoProcAmpFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration. The returned value indicates whether the setting is controlled manually or automatically.
+Receives a member of the [VideoProcAmpFlags](/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration. The returned value indicates whether the setting is controlled manually or automatically.
 
 ## -returns
 
@@ -73,17 +73,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
+<a href="/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-set">IAMVideoProcAmp::Set</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-set">IAMVideoProcAmp::Set</a>

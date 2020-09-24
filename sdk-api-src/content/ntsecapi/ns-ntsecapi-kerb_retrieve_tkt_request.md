@@ -57,21 +57,21 @@ api_name:
 The <b>KERB_RETRIEVE_TKT_REQUEST</b> structure contains information used to retrieve a ticket.
 
 It is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>.
 
 ## -struct-fields
 
 ### -field MessageType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value indicating the type of request being made. This member must be set to <b>KerbRetrieveEncodedTicketMessage</b>.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value indicating the type of request being made. This member must be set to <b>KerbRetrieveEncodedTicketMessage</b>.
 
 ### -field LogonId
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to STATUS_ACCESS_DENIED.
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the <a href="/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to STATUS_ACCESS_DENIED.
 
 ### -field TargetName
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the target service.
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the target service.
 
 ### -field TicketFlags
 
@@ -110,7 +110,7 @@ Always request a new ticket; do not search the cache.
 
 
 
-If a ticket is obtained, the Kerberos authentication package returns STATUS_SUCCESS in the <i>ProtocolStatus</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
+If a ticket is obtained, the Kerberos authentication package returns STATUS_SUCCESS in the <i>ProtocolStatus</i> parameter of the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Return only a previously cached ticket.
 
 
 
-If such a ticket is not found, the Kerberos authentication package returns STATUS_OBJECT_NAME_NOT_FOUND in the <i>ProtocolStatus</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
+If such a ticket is not found, the Kerberos authentication package returns STATUS_OBJECT_NAME_NOT_FOUND in the <i>ProtocolStatus</i> parameter of the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ This member can have one of the following values.
 </dl>
 </td>
 <td width="60%">
-Use <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DES</a> encryption in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher-block-chaining</a> mode with a CRC-32 checksum.
+Use <a href="/windows/desktop/SecGloss/d-gly">DES</a> encryption in <a href="/windows/desktop/SecGloss/c-gly">cipher-block-chaining</a> mode with a CRC-32 checksum.
 
 </td>
 </tr>
@@ -263,7 +263,7 @@ Use no encryption.
 </dl>
 </td>
 <td width="60%">
-Use the RC4 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">stream cipher</a> with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>-based <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC), as used by Windows.
+Use the RC4 <a href="/windows/desktop/SecGloss/s-gly">stream cipher</a> with a <a href="/windows/desktop/SecGloss/h-gly">hash</a>-based <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC), as used by Windows.
 
 </td>
 </tr>
@@ -292,4 +292,3 @@ Values greater than 127 are reserved for local values and may change without not
 ### -field CredentialsHandle
 
 An SSPI credentials handle used in place of a logon session identifier.
-

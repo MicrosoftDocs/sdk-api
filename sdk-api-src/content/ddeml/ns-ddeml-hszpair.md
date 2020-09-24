@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains a DDE service name and topic name. A DDE server application can use this structure during an <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a> transaction to enumerate the service-topic pairs that it supports.
+Contains a DDE service name and topic name. A DDE server application can use this structure during an <a href="/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a> transaction to enumerate the service-topic pairs that it supports.
 
 ## -struct-fields
 
@@ -72,5 +72,4 @@ A handle to the topic name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
-
+<a href="/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>

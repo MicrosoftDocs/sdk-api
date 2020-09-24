@@ -60,7 +60,7 @@ Contains extended information about a page added to a process working set.
 
 ### -field BasicInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a> structure.
+A <a href="/windows/desktop/api/psapi/ns-psapi-psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a> structure.
 
 ### -field FaultingThreadId
 
@@ -72,9 +72,8 @@ This member is reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getwschangesex">GetWsChangesEx</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getwschangesex">GetWsChangesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a>
-
+<a href="/windows/desktop/api/psapi/ns-psapi-psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a>

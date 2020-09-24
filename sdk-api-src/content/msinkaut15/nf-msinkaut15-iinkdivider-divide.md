@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains the results of the layout analysis of strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
+Returns a <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains the results of the layout analysis of strokes in the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
 
 ## -parameters
 
 ### -param InkDivisionResult [out, retval]
 
-When this method returns, contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains structural information about the strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
+When this method returns, contains a pointer to an <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains structural information about the strokes in the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
 
 ## -returns
 
@@ -138,7 +138,7 @@ An exception occurred inside the method.
 
 ## -remarks
 
-This method returns a new <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object each time this method is called.
+This method returns a new <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object each time this method is called.
 
 ## -see-also
 
@@ -146,9 +146,8 @@ This method returns a new <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult Interface</a>
+<a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider Class</a>
-
+<a href="/windows/desktop/tablet/inkdivider-class">InkDivider Class</a>

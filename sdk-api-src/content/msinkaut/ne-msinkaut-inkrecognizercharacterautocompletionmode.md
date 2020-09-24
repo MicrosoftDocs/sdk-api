@@ -68,9 +68,8 @@ Recognition occurs on partial input. The order of the strokes can be arbitrary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_characterautocompletionmode">CharacterAutoCompletion Property [InkRecognizerContext Class]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_characterautocompletionmode">CharacterAutoCompletion Property [InkRecognizerContext Class]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
-
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>

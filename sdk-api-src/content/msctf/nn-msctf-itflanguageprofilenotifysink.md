@@ -52,11 +52,11 @@ api_name:
 
 The <b>ITfLanguageProfileNotifySink</b> interface is implemented by an application to receive notifications when the language profile changes.
 
-To install this advise sink, obtain an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a> object by calling <b>ITfInputProcessorProfiles::QueryInterface</b> with <b>IID_ITfSource</b>. Then call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with <b>IID_ITfLanguageProfileNotifySink</b>.
+To install this advise sink, obtain an <a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object from an <a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a> object by calling <b>ITfInputProcessorProfiles::QueryInterface</b> with <b>IID_ITfSource</b>. Then call <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with <b>IID_ITfLanguageProfileNotifySink</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLanguageProfileNotifySink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLanguageProfileNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLanguageProfileNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLanguageProfileNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfLanguageProfileNotifySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itflanguageprofilenotifysink-onlanguagechange">OnLanguageChange</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itflanguageprofilenotifysink-onlanguagechange">OnLanguageChange</a>
 </td>
 <td align="left" width="63%">
 Called when the language profile is about to change.
@@ -80,7 +80,7 @@ Called when the language profile is about to change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itflanguageprofilenotifysink-onlanguagechanged">OnLanguageChanged</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itflanguageprofilenotifysink-onlanguagechanged">OnLanguageChanged</a>
 </td>
 <td align="left" width="63%">
 Called after the language profile has changed.
@@ -91,20 +91,19 @@ Called after the language profile has changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource
+<a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

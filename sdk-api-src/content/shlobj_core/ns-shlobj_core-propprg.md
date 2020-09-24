@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure contains information from a .pif file. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>.
+This structure contains information from a .pif file. It is used by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>.
 
 ## -struct-fields
 
@@ -239,4 +239,3 @@ A null-terminated string that contains the name of the "other" file in the direc
 Type: <b>__wchar_t</b>
 
 A null-terminated string that contains the name of the .pif file in the directory.
-

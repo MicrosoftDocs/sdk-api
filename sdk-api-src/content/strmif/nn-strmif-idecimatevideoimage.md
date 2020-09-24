@@ -53,13 +53,13 @@ api_name:
 
 The <code>IDecimateVideoImage</code> interface specifies decimation on a decoder filter. The term <i>decimation</i> refers to scaling the video output down to a size smaller than the native size of the video.
 
-Applications must not call methods on this interface. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter uses this interface to decimate video at the video decoder.
+Applications must not call methods on this interface. The <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter uses this interface to decimate video at the video decoder.
 
 Decoder filters that can decimate their video output should support this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDecimateVideoImage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDecimateVideoImage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDecimateVideoImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDecimateVideoImage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDecimateVideoImage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idecimatevideoimage-resetdecimationimagesize">ResetDecimationImageSize</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idecimatevideoimage-resetdecimationimagesize">ResetDecimationImageSize</a>
 </td>
 <td align="left" width="63%">
 Specifies that the decoder should no longer decimate its output image.
@@ -83,7 +83,7 @@ Specifies that the decoder should no longer decimate its output image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idecimatevideoimage-setdecimationimagesize">SetDecimationImageSize</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idecimatevideoimage-setdecimationimagesize">SetDecimationImageSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the dimensions to which the decoder should decimate its output image.
@@ -91,4 +91,3 @@ Specifies the dimensions to which the decoder should decimate its output image.
 </td>
 </tr>
 </table>
-

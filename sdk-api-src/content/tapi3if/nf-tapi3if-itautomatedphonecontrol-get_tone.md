@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>get_Tone</b> method returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_tone">PHONE_TONE</a> enum value indicating the type of tone, if any, that the phone is currently playing. If no tone is currently being played, the 
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-phone_tone">PHONE_TONE</a> enum value indicating the type of tone, if any, that the phone is currently playing. If no tone is currently being played, the 
 <b>PHONE_TONE</b> value returned is PT_SILENCE. This method has knowledge only of tones initiated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">StartTone</a> method on this interface.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">StartTone</a> method on this interface.
 
 ## -parameters
 
 ### -param pTone [out]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_tone">PHONE_TONE</a> descriptor of tone being played.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-phone_tone">PHONE_TONE</a> descriptor of tone being played.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">StartTone</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">StartTone</a>

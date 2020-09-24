@@ -56,7 +56,7 @@ The <b>TF_GetThreadMgr</b> function obtains a copy of a thread manager object pr
 
 ### -param pptim [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> interface pointer that receives the thread manager object. This receives <b>NULL</b> if no thread manager is created within the calling thread.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> interface pointer that receives the thread manager object. This receives <b>NULL</b> if no thread manager is created within the calling thread.
 
 ## -returns
 
@@ -82,7 +82,7 @@ If no thread manager is created within the calling thread, this function will se
 
 #### Examples
 
-There is no import library available that defines this function, so it is necessary to manually obtain a pointer to this function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. The following code example demonstrates how to accomplish this.
+There is no import library available that defines this function, so it is necessary to manually obtain a pointer to this function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. The following code example demonstrates how to accomplish this.
 
 The following example demonstrates a function that will attempt to obtain a copy of a previously created thread manager object. If no thread manager object exists within the calling thread, the function will create one.
 
@@ -141,14 +141,13 @@ HRESULT GetThreadMgr(ITfThreadMgr **pptm)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
-
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>

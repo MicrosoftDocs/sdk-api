@@ -53,7 +53,7 @@ api_name:
 
 The <code>IAMLine21Decoder</code> interface sets and retrieves information about closed captions.
 
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter exposes this interface. Applications can use this interface to enable or disable closed captions, select the closed captioning service, and set other closed captioning properties.
+The <a href="/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter exposes this interface. Applications can use this interface to enable or disable closed captions, select the closed captioning service, and set other closed captioning properties.
 
 Closed-captioned information is transmitted on line 21 of field 1 in the vertical blanking interval (VBI) of television signals. Video cassette recorders record this information on video tape, and you can use the Line21 Decoder and other DirectShow filters to capture the line 21 data and save it on disk in a media file format such as Audio-Video Interleaved (AVI). The closed-captioned information appears as a separate stream within the media file.
 
@@ -61,7 +61,7 @@ Closed-captioned text is used in television programming and DVD movies. DVD movi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMLine21Decoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMLine21Decoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMLine21Decoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMLine21Decoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IAMLine21Decoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getbackgroundcolor">GetBackgroundColor</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getbackgroundcolor">GetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the background color used by the Line 21 Decoder filter for overlay.
@@ -85,7 +85,7 @@ Retrieves the background color used by the Line 21 Decoder filter for overlay.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getcurrentservice">GetCurrentService</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getcurrentservice">GetCurrentService</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current closed captioning service.
@@ -94,7 +94,7 @@ Retrieves the current closed captioning service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getdecoderlevel">GetDecoderLevel</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getdecoderlevel">GetDecoderLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the closed-captioned decoder level.
@@ -103,7 +103,7 @@ Retrieves the closed-captioned decoder level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getdrawbackgroundmode">GetDrawBackgroundMode</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getdrawbackgroundmode">GetDrawBackgroundMode</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the filter draws the captions on a transparent background or an opaque background.
@@ -112,7 +112,7 @@ Indicates whether the filter draws the captions on a transparent background or a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getoutputformat">GetOutputFormat</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getoutputformat">GetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Line 21 Decoder filter's output format.
@@ -121,7 +121,7 @@ Retrieves the Line 21 Decoder filter's output format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getredrawalways">GetRedrawAlways</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getredrawalways">GetRedrawAlways</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the filter redraws the entire output bitmap for each sample.
@@ -130,7 +130,7 @@ Indicates whether the filter redraws the entire output bitmap for each sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">GetServiceState</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">GetServiceState</a>
 </td>
 <td align="left" width="63%">
 Indicates whether closed captioning is on or off.
@@ -139,7 +139,7 @@ Indicates whether closed captioning is on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setbackgroundcolor">SetBackgroundColor</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setbackgroundcolor">SetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Sets the background color that the filter uses for overlay.
@@ -148,7 +148,7 @@ Sets the background color that the filter uses for overlay.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setcurrentservice">SetCurrentService</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setcurrentservice">SetCurrentService</a>
 </td>
 <td align="left" width="63%">
 Sets the closed captioning service.
@@ -157,7 +157,7 @@ Sets the closed captioning service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setdrawbackgroundmode">SetDrawBackgroundMode</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setdrawbackgroundmode">SetDrawBackgroundMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the filter draws the captions on a transparent background or an opaque background.
@@ -166,7 +166,7 @@ Specifies whether the filter draws the captions on a transparent background or a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setoutputformat">SetOutputFormat</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setoutputformat">SetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the filter's output format. (Not implemented)
@@ -175,7 +175,7 @@ Sets the filter's output format. (Not implemented)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setredrawalways">SetRedrawAlways</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setredrawalways">SetRedrawAlways</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the filter redraws the entire output bitmap for each sample.
@@ -184,7 +184,7 @@ Specifies whether the filter redraws the entire output bitmap for each sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate">SetServiceState</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate">SetServiceState</a>
 </td>
 <td align="left" width="63%">
 Enables or disables closed captions.
@@ -192,4 +192,3 @@ Enables or disables closed captions.
 </td>
 </tr>
 </table>
-

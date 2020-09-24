@@ -53,11 +53,11 @@ api_name:
 
 ## -description
 
-Represents a group of sensor devices from which an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> can be created. The term "device" in this context could refer to a physical device, a custom media source, or a frame provider. A sensor group may actually contain multiple sensor devices, or it could contain only a single device, but it still behaves as a sensor group.
+Represents a group of sensor devices from which an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> can be created. The term "device" in this context could refer to a physical device, a custom media source, or a frame provider. A sensor group may actually contain multiple sensor devices, or it could contain only a single device, but it still behaves as a sensor group.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorGroup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,16 +72,16 @@ The <b>IMFSensorGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-createmediasource">CreateMediaSource</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-createmediasource">CreateMediaSource</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> that virtualizes the sensor group. The term "device" in this context could refer to a physical device or a software media source. The source can represent a sensor group that actually contains multiple sensor devices, or it could contain only a single device, but still behaves as a sensor group.
+Creates an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> that virtualizes the sensor group. The term "device" in this context could refer to a physical device or a software media source. The source can represent a sensor group that actually contains multiple sensor devices, or it could contain only a single device, but still behaves as a sensor group.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getdefaultsensordeviceindex">GetDefaultSensorDeviceIndex</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getdefaultsensordeviceindex">GetDefaultSensorDeviceIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the index of the default device in the sensor group.
@@ -90,7 +90,7 @@ Retrieves the index of the default device in the sensor group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getflags">GetFlags</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the flags set for the sensor group.
@@ -99,16 +99,16 @@ Gets the flags set for the sensor group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevice">GetSensorDevice</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevice">GetSensorDevice</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> corresponding to a device in the sensor group.
+Gets the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> corresponding to a device in the sensor group.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of devices that are virtualized by the sensor group.
@@ -117,16 +117,16 @@ Gets the number of devices that are virtualized by the sensor group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensorgroupattributes">GetSensorGroupAttributes</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensorgroupattributes">GetSensorGroupAttributes</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the sensor group. The returned object is a live reference to the internal attribute store.
+Gets the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the sensor group. The returned object is a live reference to the internal attribute store.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsymboliclink">GetSymbolicLink</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsymboliclink">GetSymbolicLink</a>
 </td>
 <td align="left" width="63%">
 Gets the symbolic link name of the sensor group.
@@ -135,7 +135,7 @@ Gets the symbolic link name of the sensor group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-setdefaultsensordeviceindex">SetDefaultSensorDeviceIndex</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-setdefaultsensordeviceindex">SetDefaultSensorDeviceIndex</a>
 </td>
 <td align="left" width="63%">
 Configures one of the devices in the sensor group as the default device.
@@ -143,4 +143,3 @@ Configures one of the devices in the sensor group as the default device.
 </td>
 </tr>
 </table>
-

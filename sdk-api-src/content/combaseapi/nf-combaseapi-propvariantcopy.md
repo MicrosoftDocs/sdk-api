@@ -58,19 +58,19 @@ api_name:
 The 
 <b>PropVariantCopy</b> function
 			copies the contents of one 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure to another.
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure to another.
 
 ## -parameters
 
 ### -param pvarDest [in, out]
 
 Pointer to an uninitialized 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that receives the copy.
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that receives the copy.
 
 ### -param pvarSrc [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure to be copied.
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure to be copied.
 
 ## -returns
 
@@ -79,12 +79,11 @@ This function returns HRESULT.
 ## -remarks
 
 Copies a 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure by value so the original <i>pvarSrc</i> and new <i>pvarDest</i> parameters may be freed independently with calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>. 
-<b>PropVariantCopy</b> does not free the destination as the <a href="https://msdn.microsoft.com/library/ms221697.aspx">VariantCopy</a> function does. For nonsimple 
-<b>PROPVARIANT</b> types such as VT_STREAM, VT_STORAGE, and so forth, which require a subobject, the copy is made by reference. The pointer is copied, and [IUnknown::AddRef](/en-us/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) is called on it. It is illegal to pass <b>NULL</b> for either <i>pvarDest</i> or <i>pvarSrc</i>.
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure by value so the original <i>pvarSrc</i> and new <i>pvarDest</i> parameters may be freed independently with calls to 
+<a href="/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>. 
+<b>PropVariantCopy</b> does not free the destination as the <a href="/windows/win32/api/oleauto/nf-oleauto-variantcopy">VariantCopy</a> function does. For nonsimple 
+<b>PROPVARIANT</b> types such as VT_STREAM, VT_STORAGE, and so forth, which require a subobject, the copy is made by reference. The pointer is copied, and [IUnknown::AddRef](../unknwn/nf-unknwn-iunknown-addref.md) is called on it. It is illegal to pass <b>NULL</b> for either <i>pvarDest</i> or <i>pvarSrc</i>.
 
 ## -see-also
 
 [PROPVARIANT](/windows/desktop/api/propidl/ns-propidl-propvariant), [PropVariantClear](/windows/desktop/api/propidl/nf-propidl-propvariantclear)
-

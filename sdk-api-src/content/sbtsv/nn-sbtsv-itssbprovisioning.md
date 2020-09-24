@@ -54,7 +54,7 @@ Exposes methods that create and maintain virtual machines.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbProvisioning</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>. <b>ITsSbProvisioning</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbProvisioning</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>. <b>ITsSbProvisioning</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITsSbProvisioning</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-canceljob">CancelJob</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-canceljob">CancelJob</a>
 </td>
 <td align="left" width="63%">
 Cancels a provisioning job.
@@ -78,7 +78,7 @@ Cancels a provisioning job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-createvirtualmachines">CreateVirtualMachines</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-createvirtualmachines">CreateVirtualMachines</a>
 </td>
 <td align="left" width="63%">
 Creates a virtual machine asynchronously.
@@ -87,7 +87,7 @@ Creates a virtual machine asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-deletevirtualmachines">DeleteVirtualMachines</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-deletevirtualmachines">DeleteVirtualMachines</a>
 </td>
 <td align="left" width="63%">
 Deletes a virtual machine asynchronously.
@@ -96,7 +96,7 @@ Deletes a virtual machine asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-patchvirtualmachines">PatchVirtualMachines</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-patchvirtualmachines">PatchVirtualMachines</a>
 </td>
 <td align="left" width="63%">
 Patches a virtual machine asynchronously.
@@ -107,9 +107,8 @@ Patches a virtual machine asynchronously.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

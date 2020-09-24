@@ -69,7 +69,7 @@ The <b>IUpdateInstaller4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller4-commit">Commit</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller4-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Finalizes updates that were previously staged or installed.
@@ -81,4 +81,3 @@ Finalizes updates that were previously staged or installed.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>
-

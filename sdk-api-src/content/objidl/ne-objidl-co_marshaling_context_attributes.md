@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifies one of the marshaling context attributes that you can query by using the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute">GetMarshalingContextAttribute</a> method.
+Identifies one of the marshaling context attributes that you can query by using the <a href="/windows/desktop/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute">GetMarshalingContextAttribute</a> method.
 
 ## -enum-fields
 
@@ -88,9 +88,8 @@ The source of the marshaling data is an app container process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute">GetMarshalingContextAttribute</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute">GetMarshalingContextAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Enables access to the members of the <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class in a desktop app.
+Enables access to the members of the <a href="/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class in a desktop app.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputPaneInterop</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IInputPaneInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputPaneInterop</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IInputPaneInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IInputPaneInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/inputpaneinterop/nf-inputpaneinterop-iinputpaneinterop-getforwindow">GetForWindow</a>
+<a href="/windows/desktop/api/inputpaneinterop/nf-inputpaneinterop-iinputpaneinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of an <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object for the specified window.
+Gets an instance of an <a href="/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object for the specified window.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getiids">GetIids</a>
+<a href="/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getiids">GetIids</a>
 </td>
 <td align="left" width="63%">
 Gets the interfaces that are implemented by the current Windows Runtime class.
@@ -87,7 +87,7 @@ Gets the interfaces that are implemented by the current Windows Runtime class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getruntimeclassname">GetRuntimeClassName</a>
+<a href="/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getruntimeclassname">GetRuntimeClassName</a>
 </td>
 <td align="left" width="63%">
 Gets the fully qualified name of the current Windows Runtime object.
@@ -96,7 +96,7 @@ Gets the fully qualified name of the current Windows Runtime object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-gettrustlevel">GetTrustLevel</a>
+<a href="/windows/desktop/api/inspectable/nf-inspectable-iinspectable-gettrustlevel">GetTrustLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the trust level of the current Windows Runtime object.
@@ -107,7 +107,7 @@ Gets the trust level of the current Windows Runtime object.
 
 ## -remarks
 
-You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class.
+You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class.
 
  
 
@@ -127,17 +127,16 @@ interface IInputPaneInterop : IInspectable
         [out, retval, iid_is(riid)] void** inputPane);
 }
 </code></pre>
-For store apps, use the <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane.getforcurrentview">InputPane.GetForCurrentView</a> method to get an <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object.
+For store apps, use the <a href="/uwp/api/windows.ui.viewmanagement.inputpane.getforcurrentview">InputPane.GetForCurrentView</a> method to get an <a href="/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a>
+<a href="/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a>
 
 
 
-<a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.windowsruntime.windowsruntimemarshal.getactivationfactory?redirectedfrom=MSDN#System_Runtime_InteropServices_WindowsRuntime_WindowsRuntimeMarshal_GetActivationFactory_System_Type_">WindowsRuntimeMarshal.GetActivationFactory</a>
-
+<a href="/dotnet/api/system.runtime.interopservices.windowsruntime.windowsruntimemarshal.getactivationfactory#System_Runtime_InteropServices_WindowsRuntime_WindowsRuntimeMarshal_GetActivationFactory_System_Type_">WindowsRuntimeMarshal.GetActivationFactory</a>

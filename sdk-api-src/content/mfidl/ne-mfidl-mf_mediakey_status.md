@@ -72,7 +72,7 @@ There are output restrictions associated with the key that cannot currently be m
 
 ## -remarks
 
-This enumeration is with the [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus) structure used as the output parameter for the [IMFContentDecryptionModuleSession::GetKeyStatuses](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses) method.
+This enumeration is with the [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus) structure used as the output parameter for the [IMFContentDecryptionModuleSession::GetKeyStatuses](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses.md) method.
 
 
 **MF_MEDIAKEY_STATUS** is based on the Encrypted Media Extension specification's [MediaKeyStatus](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeystatus) enumeration.
@@ -80,5 +80,4 @@ This enumeration is with the [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus) struc
 ## -see-also
 
 * [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus)
-* [IMFContentDecryptionModuleSession::GetKeyStatuses](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses)
-
+* [IMFContentDecryptionModuleSession::GetKeyStatuses](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses.md)

@@ -64,11 +64,11 @@ The name of the method to be retrieved.
 
 ### -param qualifierSet [out, optional]
 
-A pointer to the variable to receive the returned method qualifier set.   This parameter is optional. The memory associated with the qualifier set is valid until the class object is deleted. When you have finished using the class qualifier set, delete the class object by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function. If this information is not needed, pass <b>NULL</b> for this parameter.
+A pointer to the variable to receive the returned method qualifier set.   This parameter is optional. The memory associated with the qualifier set is valid until the class object is deleted. When you have finished using the class qualifier set, delete the class object by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function. If this information is not needed, pass <b>NULL</b> for this parameter.
 
 ### -param parameterSet [out, optional]
 
-A pointer to a variable to receive the returned parameter set. The parameter set also contains the return type and return type qualifier set.   This parameter is optional. The memory associated with the parameter set is valid until the class object is deleted. When you have finished using the parameter set, delete the class object by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function. If this information is not needed, pass <b>NULL</b> for this parameter.
+A pointer to a variable to receive the returned parameter set. The parameter set also contains the return type and return type qualifier set.   This parameter is optional. The memory associated with the parameter set is valid until the class object is deleted. When you have finished using the parameter set, delete the class object by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function. If this information is not needed, pass <b>NULL</b> for this parameter.
 
 ### -param index [out, optional]
 
@@ -77,4 +77,3 @@ A pointer to a variable to receive the returned index of the specified method. T
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

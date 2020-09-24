@@ -64,13 +64,13 @@ You cannot set this property for the Application, System, and Security channels.
 
 ### -field EvtChannelConfigIsolation
 
-Identifies the <b>isolation</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_isolation_type">EVT_CHANNEL_ISOLATION_TYPE</a> enumeration.
+Identifies the <b>isolation</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_channel_isolation_type">EVT_CHANNEL_ISOLATION_TYPE</a> enumeration.
 
 You cannot set this property for the Application, System, and Security channels.
 
 ### -field EvtChannelConfigType
 
-Identifies the <b>type</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_type">EVT_CHANNEL_TYPE</a> enumeration. 
+Identifies the <b>type</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_channel_type">EVT_CHANNEL_TYPE</a> enumeration. 
 
 You cannot set this property.
 
@@ -150,13 +150,13 @@ You cannot set this property.
 
 ### -field EvtChannelPublishingConfigClockType
 
-Identifies the <b>clockType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible clock type values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_clock_type">EVT_CHANNEL_CLOCK_TYPE</a> enumeration. 
+Identifies the <b>clockType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible clock type values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_channel_clock_type">EVT_CHANNEL_CLOCK_TYPE</a> enumeration. 
 
 You cannot set this property.
 
 ### -field EvtChannelPublishingConfigSidType
 
-Identifies the <b>sidType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible SID type values, see the  <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_sid_type">EVT_CHANNEL_SID_TYPE</a> enumeration. 
+Identifies the <b>sidType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible SID type values, see the  <a href="/windows/desktop/api/winevt/ne-winevt-evt_channel_sid_type">EVT_CHANNEL_SID_TYPE</a> enumeration. 
 
 You cannot set this property.
 
@@ -176,21 +176,20 @@ This enumeration value marks the end of the enumeration values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channelloggingtype-complextype">ChannelLoggingType Complex Type</a>
+<a href="/windows/desktop/WES/eventmanifestschema-channelloggingtype-complextype">ChannelLoggingType Complex Type</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channelpublishingtype-complextype">ChannelPublishingType Complex Type</a>
+<a href="/windows/desktop/WES/eventmanifestschema-channelpublishingtype-complextype">ChannelPublishingType Complex Type</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType Complex Type</a>
+<a href="/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType Complex Type</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>

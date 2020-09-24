@@ -64,7 +64,7 @@ This method supports the standard return values, including the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
@@ -72,5 +72,4 @@ This method supports the standard return values, including the following:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>

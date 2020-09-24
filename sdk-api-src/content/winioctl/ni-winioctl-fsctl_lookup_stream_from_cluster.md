@@ -89,7 +89,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -105,9 +105,9 @@ Cluster Shared Volume File System (CsvFS) | Yes
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
-* [Defragmentation](https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files)
+* [Defragmentation](/windows/desktop/FileIO/defragmenting-files)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)
 * [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md)
 * [GetOverlappedResult](../ioapiset/nf-ioapiset-getoverlappedresult.md)
 * [GetQueuedCompletionStatus](../ioapiset/nf-ioapiset-getqueuedcompletionstatus.md)
@@ -115,4 +115,3 @@ Cluster Shared Volume File System (CsvFS) | Yes
 * [LOOKUP_STREAM_FROM_CLUSTER_INPUT](ns-winioctl-lookup_stream_from_cluster_input.md)
 * [LOOKUP_STREAM_FROM_CLUSTER_OUTPUT](ns-winioctl-lookup_stream_from_cluster_output.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
-

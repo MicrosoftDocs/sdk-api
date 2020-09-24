@@ -87,21 +87,21 @@ The maximum number of characters that can be stored in the buffer pointed to by 
 If the function succeeds, the return value is the number of <b>TCHARs</b> stored in the destination buffer, including the terminating null character. If the destination buffer is too small to hold the expanded string, the return value is the required buffer size, in characters.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The size of the <i>lpSrc</i> and <i>lpDst</i> buffers is limited to 32K.
 
-To replace folder names in a fully qualified path with their associated environment-variable strings, use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> function.
+To replace folder names in a fully qualified path with their associated environment-variable strings, use the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> function.
 
-To retrieve the list of environment variables for a process, use the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.
+To retrieve the list of environment variables for a process, use the <a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-system-information">Getting System Information</a>.
+<a href="/windows/desktop/SysInfo/getting-system-information">Getting System Information</a>.
 
 <div class="code"></div>
 
@@ -113,10 +113,9 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
+<a href="/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
+<a href="/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
-

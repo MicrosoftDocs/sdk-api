@@ -56,7 +56,7 @@ Obtains the data for a compartment.
 
 ### -param pvarValue [out]
 
-Pointer to a <b>VARIANT</b> structure that receives the data. This receives VT_EMPTY if the compartment has no value. The caller must free this data when it is no longer required by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
+Pointer to a <b>VARIANT</b> structure that receives the data. This receives VT_EMPTY if the compartment has no value. The caller must free this data when it is no longer required by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 
 ## -returns
 
@@ -96,7 +96,7 @@ The compartment has no value. <i>pvarValue</i> receives VT_EMPTY.
 </dl>
 </td>
 <td width="60%">
-The compartment has been cleared by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ITfCompartmentMgr::ClearCompartment</a>.
+The compartment has been cleared by a call to <a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ITfCompartmentMgr::ClearCompartment</a>.
 
 </td>
 </tr>
@@ -120,4 +120,3 @@ The caller must recognize the supplied data format in order to use the data. The
 ## -see-also
 
 [ITfCompartment interface](nn-msctf-itfcompartment.md), [ITfCompartment::SetValue](nf-msctf-itfcompartment-setvalue.md), [ITfCompartmentMgr::ClearCompartment](nf-msctf-itfcompartmentmgr-clearcompartment.md), [VariantClear function](../oleauto/nf-oleauto-variantclear.md)
-

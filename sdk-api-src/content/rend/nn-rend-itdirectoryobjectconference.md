@@ -56,11 +56,11 @@ provides similar functionality.]
 The 
 <b>ITDirectoryObjectConference</b> interface provides methods that allow an application to set and get conference details. The 
 <b>ITDirectoryObjectConference</b> interface is created by calling <b>QueryInterface</b> on 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>.
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectoryObjectConference</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDirectoryObjectConference</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectoryObjectConference</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDirectoryObjectConference</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ITDirectoryObjectConference</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_advertisingscope">get_AdvertisingScope</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_advertisingscope">get_AdvertisingScope</a>
 </td>
 <td align="left" width="63%">
 Gets advertising scope.
@@ -84,7 +84,7 @@ Gets advertising scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_description">get_Description</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_description">get_Description</a>
 </td>
 <td align="left" width="63%">
 Gets description of conference.
@@ -93,7 +93,7 @@ Gets description of conference.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_isencrypted">get_IsEncrypted</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_isencrypted">get_IsEncrypted</a>
 </td>
 <td align="left" width="63%">
 Gets whether conference is encrypted.
@@ -102,7 +102,7 @@ Gets whether conference is encrypted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_originator">get_Originator</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_originator">get_Originator</a>
 </td>
 <td align="left" width="63%">
 Gets conference originator.
@@ -111,7 +111,7 @@ Gets conference originator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_protocol">get_Protocol</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_protocol">get_Protocol</a>
 </td>
 <td align="left" width="63%">
 Gets protocol identification.
@@ -120,7 +120,7 @@ Gets protocol identification.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_starttime">get_StartTime</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_starttime">get_StartTime</a>
 </td>
 <td align="left" width="63%">
 Gets start time of conference.
@@ -129,7 +129,7 @@ Gets start time of conference.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_stoptime">get_StopTime</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_stoptime">get_StopTime</a>
 </td>
 <td align="left" width="63%">
 Gets stop time of conference.
@@ -138,7 +138,7 @@ Gets stop time of conference.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_url">get_Url</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_url">get_Url</a>
 </td>
 <td align="left" width="63%">
 Gets URL.
@@ -147,7 +147,7 @@ Gets URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_advertisingscope">put_AdvertisingScope</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_advertisingscope">put_AdvertisingScope</a>
 </td>
 <td align="left" width="63%">
 Sets advertising scope.
@@ -156,7 +156,7 @@ Sets advertising scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_description">put_Description</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_description">put_Description</a>
 </td>
 <td align="left" width="63%">
 Sets description of conference.
@@ -165,7 +165,7 @@ Sets description of conference.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_isencrypted">put_IsEncrypted</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_isencrypted">put_IsEncrypted</a>
 </td>
 <td align="left" width="63%">
 Sets whether conference is encrypted.
@@ -174,7 +174,7 @@ Sets whether conference is encrypted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_originator">put_Originator</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_originator">put_Originator</a>
 </td>
 <td align="left" width="63%">
 Sets originator.
@@ -183,7 +183,7 @@ Sets originator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_starttime">put_StartTime</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_starttime">put_StartTime</a>
 </td>
 <td align="left" width="63%">
 Sets start time of conference.
@@ -192,7 +192,7 @@ Sets start time of conference.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_stoptime">put_StopTime</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_stoptime">put_StopTime</a>
 </td>
 <td align="left" width="63%">
 Sets stop time of conference.
@@ -201,7 +201,7 @@ Sets stop time of conference.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_url">put_Url</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_url">put_Url</a>
 </td>
 <td align="left" width="63%">
 Sets URL.
@@ -209,4 +209,3 @@ Sets URL.
 </td>
 </tr>
 </table>
-

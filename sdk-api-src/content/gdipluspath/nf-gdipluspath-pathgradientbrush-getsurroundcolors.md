@@ -57,7 +57,7 @@ The <b>PathGradientBrush::GetSurroundColors</b> method gets the surround colors 
 
 ### -param colors [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>*</b>
 
 Pointer to an array that receives the surround colors.
 
@@ -69,13 +69,13 @@ Pointer to an integer that, on input, specifies the number of colors requested. 
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
@@ -87,8 +87,8 @@ A path gradient brush has a boundary path and a center point. The center point i
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on a triangular path that is defined by an array of three points. The code calls the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setsurroundcolors">PathGradientBrush::SetSurroundColors</a> method of the 
-						<b>PathGradientBrush</b>object to specify a color for each of the points that define the triangle. The <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolorcount">PathGradientBrush::GetSurroundColorCount</a> method determines the current number of surround colors (the colors specified for the brush's boundary path). Next, the code allocates a buffer large enough to receive the array of surround colors and calls <b>PathGradientBrush::GetSurroundColors</b> to fill that buffer. Finally the code fills a small square with each of the brush's surround colors.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on a triangular path that is defined by an array of three points. The code calls the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setsurroundcolors">PathGradientBrush::SetSurroundColors</a> method of the 
+						<b>PathGradientBrush</b>object to specify a color for each of the points that define the triangle. The <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolorcount">PathGradientBrush::GetSurroundColorCount</a> method determines the current number of surround colors (the colors specified for the brush's boundary path). Next, the code allocates a buffer large enough to receive the array of surround colors and calls <b>PathGradientBrush::GetSurroundColors</b> to fill that buffer. Finally the code fills a small square with each of the brush's surround colors.
 
 
 ```cpp
@@ -131,29 +131,28 @@ VOID Example_GetSurColors(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-filling-a-shape-with-a-color-gradient-use">Filling a Shape with a Color Gradient</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-filling-a-shape-with-a-color-gradient-use">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolorcount">PathGradientBrush::GetSurroundColorCount</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolorcount">PathGradientBrush::GetSurroundColorCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setsurroundcolors">PathGradientBrush::SetSurroundColors</a>
-
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setsurroundcolors">PathGradientBrush::SetSurroundColors</a>

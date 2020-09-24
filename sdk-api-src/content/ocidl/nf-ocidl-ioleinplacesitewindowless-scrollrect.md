@@ -83,15 +83,15 @@ Containers can implement this method in a variety of ways. However, all of them 
 
 The simplest way to implement this method consists in simply redrawing the rectangle to scroll.
 
-An added refinement to this simple implementation is to use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a> function when the object requesting the scroll is opaque, the object has a solid background, and there are no overlapping objects.
+An added refinement to this simple implementation is to use the <a href="/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a> function when the object requesting the scroll is opaque, the object has a solid background, and there are no overlapping objects.
 
 More sophisticated implementations can use the following procedure:
 
 <ul>
-<li>Check whether the object is opaque and has a solid background, using <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>. If not, simply invalidate the rectangle to scroll. An added refinement is to check whether the scrolling rectangle is entirely in the opaque region of a partially transparent object.</li>
+<li>Check whether the object is opaque and has a solid background, using <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>. If not, simply invalidate the rectangle to scroll. An added refinement is to check whether the scrolling rectangle is entirely in the opaque region of a partially transparent object.</li>
 <li>Get the window device context.</li>
-<li>Clip out the opaque parts of any overlapping object returned by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">IViewObjectEx::GetRect</a>.</li>
-<li>Finally, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a> function.</li>
+<li>Clip out the opaque parts of any overlapping object returned by <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">IViewObjectEx::GetRect</a>.</li>
+<li>Finally, call the <a href="/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a> function.</li>
 <li>Redraw the previously invalidated transparent parts of any overlapping object.</li>
 </ul>
 Regardless of the scrolling and clipping rectangle, only pixels contained in the object's site rectangle will be painted. The area uncovered by the scrolling operation is invalidated and redrawn immediately, before this method returns.
@@ -102,13 +102,12 @@ This method should automatically hide the caret during the scrolling operation a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">IViewObjectEx::GetRect</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">IViewObjectEx::GetRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>

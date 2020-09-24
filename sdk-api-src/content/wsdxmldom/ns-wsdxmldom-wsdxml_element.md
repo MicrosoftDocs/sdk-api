@@ -58,25 +58,24 @@ Describes an XML element.
 
 ### -field Node
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structure that specifies the parent element, next sibling and type of the node.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structure that specifies the parent element, next sibling and type of the node.
 
 ### -field Name
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies name.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies name.
 
 ### -field FirstAttribute
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_attribute">WSDXML_ATTRIBUTE</a> structure that specifies the first attribute.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_attribute">WSDXML_ATTRIBUTE</a> structure that specifies the first attribute.
 
 ### -field FirstChild
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structure that specifies the first child.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structure that specifies the first child.
 
 ### -field PrefixMappings
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_prefix_mapping">WSDXML_PREFIX_MAPPING</a> structure that specifies the prefix mappings.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_prefix_mapping">WSDXML_PREFIX_MAPPING</a> structure that specifies the prefix mappings.
 
 ## -remarks
 
 <b>WSDXML_ELEMENT</b> represents an XML element in the DOM tree. The <b>Name</b> member can be used to determine the name and namespace of this element. <b>FirstAttribute</b> points to any attributes, and <b>FirstChild</b> points to anything contained within the element.
-

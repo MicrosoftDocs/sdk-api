@@ -74,9 +74,8 @@ An item is said to be ghosted in the offline files cache if, when the item is of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesghostinfo">IOfflineFilesGhostInfo</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesghostinfo">IOfflineFilesGhostInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo2-ispartlypinned">IOfflineFilesPinInfo2::IsPartlyPinned</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo2-ispartlypinned">IOfflineFilesPinInfo2::IsPartlyPinned</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Allows client objects of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3">IContextMenu3</a> interface to handle messages associated with owner-drawn menu items.
+Allows client objects of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3">IContextMenu3</a> interface to handle messages associated with owner-drawn menu items.
 
 ## -parameters
 
@@ -86,8 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<b>IContextMenu3::HandleMenuMsg2</b> generally replaces <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu2-handlemenumsg">IContextMenu2::HandleMenuMsg</a>, and is called when <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> determines that <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3">IContextMenu3</a> is supported and one of the supported messages (see <i>uMsg</i>) has been received. However, in some cases, <b>IContextMenu2::HandleMenuMsg</b> is still called. Context menu hosts may dispatch menu messages through either or both methods. Consequently, if a Shell extension implements both <b>IContextMenu2::HandleMenuMsg</b> and <b>IContextMenu3::HandleMenuMsg2</b>, it must be prepared for menu messages to arrive through either method.
+<b>IContextMenu3::HandleMenuMsg2</b> generally replaces <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu2-handlemenumsg">IContextMenu2::HandleMenuMsg</a>, and is called when <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> determines that <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3">IContextMenu3</a> is supported and one of the supported messages (see <i>uMsg</i>) has been received. However, in some cases, <b>IContextMenu2::HandleMenuMsg</b> is still called. Context menu hosts may dispatch menu messages through either or both methods. Consequently, if a Shell extension implements both <b>IContextMenu2::HandleMenuMsg</b> and <b>IContextMenu3::HandleMenuMsg2</b>, it must be prepared for menu messages to arrive through either method.
 
-<div class="alert"><b>Note</b>  If <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3">IContextMenu3</a> is not implemented, there is no guarantee that <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2">IContextMenu2</a> will be called in its place. In some cases, the absence of <b>IContextMenu3</b> is determined and then the process is halted.</div>
+<div class="alert"><b>Note</b>  If <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3">IContextMenu3</a> is not implemented, there is no guarantee that <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2">IContextMenu2</a> will be called in its place. In some cases, the absence of <b>IContextMenu3</b> is determined and then the process is halted.</div>
 <div> </div>
-

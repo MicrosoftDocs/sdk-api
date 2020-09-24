@@ -69,7 +69,7 @@ Indicates that one of the arguments passed to the method was not valid.
 
 ### -field OutOfMemory
 
-Indicates that the operating system is out of memory and could not allocate memory to process the method call. For an explanation of how constructors use the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">OutOfMemory</a> status, see the Remarks section at the end of this topic.
+Indicates that the operating system is out of memory and could not allocate memory to process the method call. For an explanation of how constructors use the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">OutOfMemory</a> status, see the Remarks section at the end of this topic.
 
 ### -field ObjectBusy
 
@@ -90,7 +90,7 @@ Indicates that the method generated a Win32 error.
 ### -field WrongState
 
 Indicates that the object is in an invalid state to satisfy the API call. For example, calling 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getcolor">Pen::GetColor</a> from a pen that is not a single, solid color results in a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">WrongState</a> status.
+				<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getcolor">Pen::GetColor</a> from a pen that is not a single, solid color results in a <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">WrongState</a> status.
 
 ### -field Aborted
 
@@ -133,7 +133,7 @@ Indicates that the version of GDI+ that is installed on the system is incompatib
 ### -field GdiplusNotInitialized
 
 Indicates that the GDI+API is not in an initialized state. To function, all GDI+ objects require that GDI+ be in an initialized state. Initialize GDI+ by calling 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>.
+				<a href="/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>.
 
 ### -field PropertyNotFound
 
@@ -152,4 +152,3 @@ Indicates that the color profile required to save an image in CMYK format was no
 If you construct a GDI+ object and then immediately call the 
 				<b>GetLastStatus</b> method of that object, you can determine whether the constructor succeeded or failed. In such cases, 
 				<b>GetLastStatus</b> might return <b><b>OutOfMemory</b></b> even though there was plenty of memory available to create the object. Several GDI+ constructors set the status to <b><b>OutOfMemory</b></b> when they fail regardless of the reason for failure.
-

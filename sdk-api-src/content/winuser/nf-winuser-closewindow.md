@@ -66,15 +66,15 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-To destroy a window, an application must use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a> function.
+To destroy a window, an application must use the <a href="/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-arrangeiconicwindows">ArrangeIconicWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-arrangeiconicwindows">ArrangeIconicWindows</a>
 
 
 
@@ -82,15 +82,15 @@ To destroy a window, an application must use the <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isiconic">IsIconic</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-isiconic">IsIconic</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openicon">OpenIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-openicon">OpenIcon</a>
 
 
 
@@ -98,5 +98,4 @@ To destroy a window, an application must use the <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

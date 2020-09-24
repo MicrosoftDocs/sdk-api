@@ -57,11 +57,11 @@ The <b>BatteryClassSystemControl</b> routine processes WMI IRPs on behalf of a b
 
 ### -param ClassData [in]
 
-Pointer to a battery class handle that was previously received from <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>.
+Pointer to a battery class handle that was previously received from <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>.
 
 ### -param WmiLibContext [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure.  The structure provides WMI registration information, and dispatch routines for driver-specific WMI request processing.
+Pointer to a <a href="/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure.  The structure provides WMI registration information, and dispatch routines for driver-specific WMI request processing.
 
 ### -param DeviceObject [in]
 
@@ -73,7 +73,7 @@ Pointer to the IRP that contains the WMI request.
 
 ### -param Disposition [out]
 
-Pointer to a memory location that the routine uses to return information about how it handled the IRP.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a> for a description of the possible values returned.
+Pointer to a memory location that the routine uses to return information about how it handled the IRP.  See <a href="/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a> for a description of the possible values returned.
 
 ## -returns
 
@@ -81,19 +81,18 @@ Pointer to a memory location that the routine uses to return information about h
 
 ## -remarks
 
-Battery miniclass drivers must call this routine instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.  It provides the same functionality as <b>WmiSystemControl</b>, but it also ensures that the driver registers the WMI classes that the battery class driver handles on behalf of the miniclass driver.
+Battery miniclass drivers must call this routine instead of <a href="/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.  It provides the same functionality as <b>WmiSystemControl</b>, but it also ensures that the driver registers the WMI classes that the battery class driver handles on behalf of the miniclass driver.
 
-A battery miniclass driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine, which is specified by the <b>QueryWmiDataBlock</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>, must call the <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a> routine to allow the battery class driver to process the query for the WMI classes it handles on behalf of the miniclass driver.
+A battery miniclass driver's <a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine, which is specified by the <b>QueryWmiDataBlock</b> member of <a href="/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>, must call the <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a> routine to allow the battery class driver to process the query for the WMI classes it handles on behalf of the miniclass driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
+<a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a>
+<a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>
-
+<a href="/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>

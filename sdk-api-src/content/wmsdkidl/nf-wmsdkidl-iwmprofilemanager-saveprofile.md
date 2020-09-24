@@ -59,7 +59,7 @@ The <b>SaveProfile</b> method saves a profile into an XML-formatted string.
 
 ### -param pIWMProfile [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the object containing the profile data to be saved.
+Pointer to the <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the object containing the profile data to be saved.
 
 ### -param pwszProfile [in]
 
@@ -119,11 +119,10 @@ You should make two calls to <b>SaveProfile</b>. On the first call, pass <b>NULL
 
 This string contains all the profile information. It must not be displayed to users, and should not be altered. To change the settings in a saved profile, load it using the profile manager and change the settings using the profile object and related objects.
 
-To save a custom profile for later use, you must save the content of the returned string in a .prx file. For more information on .prx files, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/profiles">Profiles</a>.
+To save a custom profile for later use, you must save the content of the returned string in a .prx file. For more information on .prx files, see <a href="/windows/desktop/wmformat/profiles">Profiles</a>.
 
-To load a saved custom profile, copy the contents of the profile from the .prx file to a string and use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebydata">IWMProfileManager::LoadProfileByData</a>.
+To load a saved custom profile, copy the contents of the profile from the .prx file to a string and use <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebydata">IWMProfileManager::LoadProfileByData</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>

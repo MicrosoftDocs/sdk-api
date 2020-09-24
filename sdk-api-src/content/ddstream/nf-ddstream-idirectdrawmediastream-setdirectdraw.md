@@ -72,5 +72,4 @@ If this stream has no allocated samples, you can set <i>pDirectDraw</i> to <b>NU
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
-
+<a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>

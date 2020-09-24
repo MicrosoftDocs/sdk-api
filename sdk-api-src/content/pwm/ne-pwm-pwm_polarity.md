@@ -66,17 +66,16 @@ Active Low.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a>
+<a href="/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_pin_set_polarity_input">PWM_PIN_SET_POLARITY_INPUT</a>
-
+<a href="/windows/desktop/api/pwm/ns-pwm-pwm_pin_set_polarity_input">PWM_PIN_SET_POLARITY_INPUT</a>

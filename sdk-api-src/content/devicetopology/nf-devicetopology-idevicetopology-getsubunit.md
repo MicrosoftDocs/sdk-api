@@ -56,11 +56,11 @@ The <b>GetSubunit</b> method gets the subunit that is specified by a subunit num
 
 ### -param nIndex [in]
 
-The subunit number. If a device topology contains <i>n</i> subunits, the subunits are numbered from 0 to <i>n</i>– 1. To get the number of subunits in the device topology, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsubunitcount">IDeviceTopology::GetSubunitCount</a> method.
+The subunit number. If a device topology contains <i>n</i> subunits, the subunits are numbered from 0 to <i>n</i>– 1. To get the number of subunits in the device topology, call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsubunitcount">IDeviceTopology::GetSubunitCount</a> method.
 
 ### -param ppSubunit [out]
 
-Pointer to a pointer variable into which the method writes the address of the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit</a> interface of the subunit object. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetSubunit</b> call fails,  <i>*ppSubunit</i> is <b>NULL</b>.
+Pointer to a pointer variable into which the method writes the address of the <a href="/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit</a> interface of the subunit object. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetSubunit</b> call fails,  <i>*ppSubunit</i> is <b>NULL</b>.
 
 ## -returns
 
@@ -97,13 +97,12 @@ Pointer <i>ppSubunit</i> is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsubunitcount">IDeviceTopology::GetSubunitCount</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsubunitcount">IDeviceTopology::GetSubunitCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit Interface</a>

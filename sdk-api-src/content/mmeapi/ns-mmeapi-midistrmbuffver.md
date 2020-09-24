@@ -70,9 +70,8 @@ OEM version of the stream. Original equipment manufacturers can use this field t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
+<a href="/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
-
+<a href="/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>

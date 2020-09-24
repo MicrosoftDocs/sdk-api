@@ -57,7 +57,7 @@ Deprecated. Duplicates the contents of the current travel log.
 
 ### -param pptl [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>**</b>
+Type: <b><a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>**</b>
 
 The address of a pointer to the interface representing the cloned travel log.
 
@@ -66,4 +66,3 @@ The address of a pointer to the interface representing the cloned travel log.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

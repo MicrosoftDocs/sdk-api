@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Sets folder logical view mode. The default settings are based on the <code>FolderTypeID</code> which is set by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setfoldertypeid">ISearchFolderItemFactory::SetFolderTypeID</a> method.
+Sets folder logical view mode. The default settings are based on the <code>FolderTypeID</code> which is set by the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setfoldertypeid">ISearchFolderItemFactory::SetFolderTypeID</a> method.
 
 ## -parameters
 
 ### -param flvm [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderlogicalviewmode">FOLDERLOGICALVIEWMODE</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderlogicalviewmode">FOLDERLOGICALVIEWMODE</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderlogicalviewmode">FOLDERLOGICALVIEWMODE</a> value.
+The <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderlogicalviewmode">FOLDERLOGICALVIEWMODE</a> value.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
-

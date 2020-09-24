@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WMVIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">interlace</a>, copy protection, and aspect ratio.
+The <b>WMVIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including <a href="/windows/desktop/wmformat/wmformat-glossary">interlace</a>, copy protection, and aspect ratio.
 
 ## -struct-fields
 
@@ -110,5 +110,4 @@ This structure is identical to the <b>VIDEOINFOHEADER2</b> structure defined in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

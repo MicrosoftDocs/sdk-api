@@ -60,17 +60,16 @@ The <b>IPSEC_SA_ENUM_TEMPLATE0</b> structure specifies a  template used for rest
 
 Direction of the SA.
 
-See [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction) for more information.
+See [FWP_DIRECTION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction) for more information.
 
 ## -remarks
 
-<b>IPSEC_SA_ENUM_TEMPLATE0</b> is a specific implementation of IPSEC_SA_ENUM_TEMPLATE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_SA_ENUM_TEMPLATE0</b> is a specific implementation of IPSEC_SA_ENUM_TEMPLATE. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)
+[FWP_DIRECTION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

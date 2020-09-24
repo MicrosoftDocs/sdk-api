@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
+Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 
 
@@ -69,5 +69,4 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
-
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>

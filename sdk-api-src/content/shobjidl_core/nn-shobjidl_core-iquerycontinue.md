@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes a method that provides a simple, standard mechanism for objects to query a client for permission to continue an operation. Clients of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification">IUserNotification</a>, for example, must pass an implementation of <b>IQueryContinue</b> to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show">IUserNotification::Show</a> method.
+Exposes a method that provides a simple, standard mechanism for objects to query a client for permission to continue an operation. Clients of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification">IUserNotification</a>, for example, must pass an implementation of <b>IQueryContinue</b> to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show">IUserNotification::Show</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryContinue</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryContinue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryContinue</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryContinue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IQueryContinue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iquerycontinue-querycontinue">QueryContinue</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iquerycontinue-querycontinue">QueryContinue</a>
 </td>
 <td align="left" width="63%">
 Returns S_OK if the operation associated with the current instance of this interface should continue.
@@ -80,5 +80,4 @@ Returns S_OK if the operation associated with the current instance of this inter
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification">IUserNotification</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification">IUserNotification</a>

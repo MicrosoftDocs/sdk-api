@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Do not use. Enumerates the contacts known by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a>.
+Do not use. Enumerates the contacts known by the <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IContactCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-getcurrent">GetCurrent</a>
+<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-getcurrent">GetCurrent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current contact in the enumeration. 
@@ -78,7 +78,7 @@ Retrieves the current contact in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">Next</a>
+<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next contact.
@@ -87,7 +87,7 @@ Moves to the next contact.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-reset">Reset</a>
+<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to before the logical first element.
@@ -99,4 +99,3 @@ Resets the enumerator to before the logical first element.
 ## -remarks
 
 This interface does not support deletion of contacts during an enumeration. Adding or removing contacts by other means during an enumeration results in undefined behavior. Modifying contact properties during enumeration is allowed.
-

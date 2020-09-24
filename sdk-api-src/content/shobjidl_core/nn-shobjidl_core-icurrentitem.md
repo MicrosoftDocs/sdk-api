@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-Obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a> for an item. If the item represents a snapshot of an item at a previous time, this interface will obtain the current version of the item.
+Obtained by calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a> for an item. If the item represents a snapshot of an item at a previous time, this interface will obtain the current version of the item.
 
 ## -remarks
 
-This interface provides only the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem">IRelatedItem</a> interface, from which it inherits.
-
+This interface provides only the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem">IRelatedItem</a> interface, from which it inherits.

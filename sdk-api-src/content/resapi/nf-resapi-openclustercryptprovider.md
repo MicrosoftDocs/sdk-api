@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Opens a handle to a Cryptographic Service Provider (CSP) in order to manage the encryption of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/checkpointing">Checkpointing</a> data for a cluster resource. The <b>POPEN_CLUSTER_CRYPT_PROVIDER</b> type defines a pointer to this function.
+Opens a handle to a Cryptographic Service Provider (CSP) in order to manage the encryption of <a href="/previous-versions/windows/desktop/mscs/checkpointing">Checkpointing</a> data for a cluster resource. The <b>POPEN_CLUSTER_CRYPT_PROVIDER</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param lpszResource [in]
 
-A pointer to a null-terminated Unicode string that contains the name of the cluster resource that is associated with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/checkpointing">Checkpointing</a> data.
+A pointer to a null-terminated Unicode string that contains the name of the cluster resource that is associated with the <a href="/previous-versions/windows/desktop/mscs/checkpointing">Checkpointing</a> data.
 
 ### -param lpszProvider [in]
 
@@ -149,13 +149,12 @@ The flags that specify the settings for the operation. This parameter can be set
 
 ## -returns
 
-If the operation completes successfully, this function returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn823545(v=vs.85)">HCLUSCRYPTPROVIDER</a> structure containing a handle to the CSP.
+If the operation completes successfully, this function returns a <a href="/previous-versions/windows/desktop/legacy/dn823545(v=vs.85)">HCLUSCRYPTPROVIDER</a> structure containing a handle to the CSP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-closeclustercryptprovider">CloseClusterCryptProvider</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-closeclustercryptprovider">CloseClusterCryptProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>

@@ -50,33 +50,33 @@ api_name:
 
 ## -description
 
-Sets information for a specified split button control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-setsplitinfo">BCM_SETSPLITINFO</a> message explicitly.
+Sets information for a specified split button control. Use this macro or send the <a href="/windows/desktop/Controls/bcm-setsplitinfo">BCM_SETSPLITINFO</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 ### -param pInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_splitinfo">BUTTON_SPLITINFO</a>*</b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-button_splitinfo">BUTTON_SPLITINFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_splitinfo">BUTTON_SPLITINFO</a> structure. The calling application is responsible for allocating the memory for this structure and initializing it. Set the <b>mask</b> member of this structure to determine what information to set for the button specified by <i>hwnd</i>.
+A pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-button_splitinfo">BUTTON_SPLITINFO</a> structure. The calling application is responsible for allocating the memory for this structure and initializing it. Set the <b>mask</b> member of this structure to determine what information to set for the button specified by <i>hwnd</i>.
 
 ## -remarks
 
-Use this macro only with the <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a> button styles.
+Use this macro only with the <a href="/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> and <a href="/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a> button styles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">Button Styles</a>
+<a href="/windows/desktop/Controls/button-styles">Button Styles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/button-types-and-styles">Button Types</a>
+<a href="/windows/desktop/Controls/button-types-and-styles">Button Types</a>
 
 
 
@@ -85,4 +85,3 @@ Use this macro only with the <a href="https://docs.microsoft.com/windows/desktop
 
 
 <b>Reference</b>
-

@@ -51,9 +51,9 @@ api_name:
 
 ## -description
 
-Returns the error that occurred during the GPMC operation. If the operation was interacting with another system component, the error code is typically one returned by that component. Usually this is the first error GPMC hits while executing the operation. This error code is internally mapped to the operation error code returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmessage-operationcode">OperationCode</a> method.
+Returns the error that occurred during the GPMC operation. If the operation was interacting with another system component, the error code is typically one returned by that component. Usually this is the first error GPMC hits while executing the operation. This error code is internally mapped to the operation error code returned by the <a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmessage-operationcode">OperationCode</a> method.
 
-For example, if GPMC calls <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a> while resolving the destination of a security group in a GPO import operation, and <b>LookupAccountSid</b> returns <b>E_ACCESSDENIED</b>, then the error code for the message will be <b>E_ACCESSDENIED</b> and the operation code of the message will be STATUS_ENTRY_DEST_UNRESOLVED.
+For example, if GPMC calls <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a> while resolving the destination of a security group in a GPO import operation, and <b>LookupAccountSid</b> returns <b>E_ACCESSDENIED</b>, then the error code for the message will be <b>E_ACCESSDENIED</b> and the operation code of the message will be STATUS_ENTRY_DEST_UNRESOLVED.
 
 ## -parameters
 
@@ -67,9 +67,8 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>

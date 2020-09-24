@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Brings an offline or failed  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> online.
+Brings an offline or failed  <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> online.
 
 ## -parameters
 
@@ -110,7 +110,7 @@ The size of <i>lpInBuffer</i>, in bytes.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug
 </dl>
 </td>
 <td width="60%">
-The resource or one of the resources that  it depends on has returned <b>ERROR_IO_PENDING</b> from its  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> entry point function.
+The resource or one of the resources that  it depends on has returned <b>ERROR_IO_PENDING</b> from its  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> entry point function.
 
 </td>
 </tr>
@@ -132,5 +132,4 @@ The resource or one of the resources that  it depends on has returned <b>ERROR_I
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>

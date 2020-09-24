@@ -57,8 +57,8 @@ api_name:
 The <b>SECPKG_EXTENDED_INFORMATION</b> structure is used to hold information about optional package capabilities.
 
 This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 ## -struct-fields
 
@@ -74,31 +74,30 @@ Structure that contains the information.
 ### -field Info.GssInfo
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_gss_info">SECPKG_GSS_INFO</a> structure that contains information used for GSS-compatible negotiations.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_gss_info">SECPKG_GSS_INFO</a> structure that contains information used for GSS-compatible negotiations.
 
 ### -field Info.ContextThunks
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_context_thunks">SECPKG_CONTEXT_THUNKS</a> structure that contains information about 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> calls to be executed in LSA mode.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_context_thunks">SECPKG_CONTEXT_THUNKS</a> structure that contains information about 
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> calls to be executed in LSA mode.
 
 ### -field Info.MutualAuthLevel
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_mutual_auth_level">SECPKG_MUTUAL_AUTH_LEVEL</a> structure that contains the authentication level used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_mutual_auth_level">SECPKG_MUTUAL_AUTH_LEVEL</a> structure that contains the authentication level used by a <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
 
 ### -field Info.WowClientDll
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_wow_client_dll">SECPKG_WOW_CLIENT_DLL</a> structure that contains the path to the  WOW client's 32-bit version of the DLL used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. LSA operations are done by the 64-bit version. When the security context is handed back to the client,  the 32-bit WOW-aware version is loaded and hands it any information from the 64-bit version.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_wow_client_dll">SECPKG_WOW_CLIENT_DLL</a> structure that contains the path to the  WOW client's 32-bit version of the DLL used by a <a href="/windows/desktop/SecGloss/s-gly">security package</a>. LSA operations are done by the 64-bit version. When the security context is handed back to the client,  the 32-bit WOW-aware version is loaded and hands it any information from the 64-bit version.
 
 ### -field Info.ExtraOids
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_extra_oids">SECPKG_EXTRA_OIDS</a> structure that contains the extra object identifiers (OIDs) used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_extra_oids">SECPKG_EXTRA_OIDS</a> structure that contains the extra object identifiers (OIDs) used by a <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
 
 ### -field Info.Nego2Info
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_nego2_info">SECPKG_NEGO2_INFO</a> structure that contains the Nego2 information used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_nego2_info">SECPKG_NEGO2_INFO</a> structure that contains the Nego2 information used by a <a href="/windows/desktop/SecGloss/s-gly">security package</a>.

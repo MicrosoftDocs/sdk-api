@@ -57,7 +57,7 @@ Selects a stream in the presentation.
 
 ### -param dwDescriptorIndex [in]
 
-The stream number to select, indexed from zero. To find the number of streams in the presentation, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount">IMFPresentationDescriptor::GetStreamDescriptorCount</a>.
+The stream number to select, indexed from zero. To find the number of streams in the presentation, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount">IMFPresentationDescriptor::GetStreamDescriptorCount</a>.
 
 ## -returns
 
@@ -94,10 +94,10 @@ The method succeeded.
 
 ## -remarks
 
-If a stream is selected, the media source will generate data for that stream. The media source will not generated data for deselected streams. To deselect a stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-deselectstream">IMFPresentationDescriptor::DeselectStream</a>.
+If a stream is selected, the media source will generate data for that stream. The media source will not generated data for deselected streams. To deselect a stream, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-deselectstream">IMFPresentationDescriptor::DeselectStream</a>.
       
 
-To query whether a stream is selected, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
+To query whether a stream is selected, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -109,9 +109,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>
-
+<a href="/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>

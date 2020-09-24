@@ -244,19 +244,18 @@ Mix modes define how GDI combines source and destination colors when drawing wit
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-rectangles">Using Rectangles</a>.
+For an example, see <a href="/windows/desktop/gdi/using-rectangles">Using Rectangles</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getrop2">GetROP2</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getrop2">GetROP2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>

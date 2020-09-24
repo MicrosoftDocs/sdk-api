@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FLOATOBJ_GetLong</b> function calculates and returns the LONG-equivalent value of the specified <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>.
+The <b>FLOATOBJ_GetLong</b> function calculates and returns the LONG-equivalent value of the specified <a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ The FLOATOBJ<b>_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>

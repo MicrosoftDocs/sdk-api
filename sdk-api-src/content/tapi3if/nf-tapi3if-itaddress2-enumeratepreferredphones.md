@@ -54,7 +54,7 @@ The
 <b>EnumeratePreferredPhones</b> method enumerates the preferred phone objects for this address.
 
 This method is intended for C/C++ applications. Visual Basic and scripting applications must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-get_preferredphones">get_PreferredPhones</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-get_preferredphones">get_PreferredPhones</a> method.
 
 ## -parameters
 
@@ -109,17 +109,16 @@ There is not enough memory to allocate the enumeration object.
 ## -remarks
 
 A phone device declares itself as being preferred to an address or set of addresses by returning address/line IDs using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> with device class tapi/line. If no phones are available for use with the address, this method produces an empty enumeration and returns S_OK.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> with device class tapi/line. If no phones are available for use with the address, this method produces an empty enumeration and returns S_OK.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone">IEnumPhone</a> interface returned by <b>ITAddress2::EnumeratePreferredPhones</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone">IEnumPhone</a> interface returned by <b>ITAddress2::EnumeratePreferredPhones</b>. The application must call <b>Release</b> on the 
 <b>IEnumPhone</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone">IEnumPhone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone">IEnumPhone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress2">ITAddress2</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress2">ITAddress2</a>

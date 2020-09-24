@@ -56,7 +56,7 @@ The <b>STROBJ_bEnum</b> function enumerates glyph identities and positions.
 
 ### -param pstro
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a> information.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a> structure containing the <a href="/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a> information.
 
 ### -param pc
 
@@ -74,37 +74,36 @@ The return value is <b>TRUE</b> if more glyphs remain to be enumerated, or <b>FA
 
 A driver should download only the glyph handles if it caches fonts itself.
 
-The information returned depends on the driver's return value for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>. 
+The information returned depends on the driver's return value for <a href="/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>. 
 
-Bitmaps or outlines can also be obtained from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structures.
+Bitmaps or outlines can also be obtained from <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structures.
 
-Printer drivers should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benumpositionsonly">STROBJ_bEnumPositionsOnly</a> instead of <b>STROBJ_bEnum</b> if printer hardware provides internal rendering of TrueType fonts.
+Printer drivers should call <a href="/windows/desktop/api/winddi/nf-winddi-strobj_benumpositionsonly">STROBJ_bEnumPositionsOnly</a> instead of <b>STROBJ_bEnum</b> if printer hardware provides internal rendering of TrueType fonts.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_cgetglyphs">FONTOBJ_cGetGlyphs</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-fontobj_cgetglyphs">FONTOBJ_cGetGlyphs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benumpositionsonly">STROBJ_bEnumPositionsOnly</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-strobj_benumpositionsonly">STROBJ_bEnumPositionsOnly</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_venumstart">STROBJ_vEnumStart</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-strobj_venumstart">STROBJ_vEnumStart</a>

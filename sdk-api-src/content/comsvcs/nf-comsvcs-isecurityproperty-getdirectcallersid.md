@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Retrieves the security identifier of the external process that called the currently executing method.
- You can also obtain this information using <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>.
+ You can also obtain this information using <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>.
 
 ## -parameters
 
@@ -104,9 +104,8 @@ The following scenarios illustrate the functionality of the <b>GetDirectCallerSI
 <li>A base process, running on Server A as user A, calls into Object X on Server B, running as user B. Then Object X calls into Object Y, running in the same process as Object X, also on Server B. When Object Y calls <b>GetDirectCallerSID</b>, the security ID of user A is returned, not the security ID of user B.
 </li>
 </ul>
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-releasesid">ISecurityProperty::ReleaseSID</a> on a security ID when you finish using it.
+You must call <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-releasesid">ISecurityProperty::ReleaseSID</a> on a security ID when you finish using it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>

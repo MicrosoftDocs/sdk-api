@@ -60,7 +60,7 @@ The DDTRANSFERININFO structure contains the transfer information for the surface
 
 ### -field lpSurfaceData
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that represents the surface that contains the information to be transferred. The information in this structure is supplied by DirectDraw.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that represents the surface that contains the information to be transferred. The information in this structure is supplied by DirectDraw.
 
 ### -field dwStartLine
 
@@ -72,7 +72,7 @@ Indicates the last line in the surface from which data is transferred, inclusive
 
 ### -field dwTransferID
 
-Specifies an identification for the transfer supplied by DirectDraw. This transfer ID is used by the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a> structure.
+Specifies an identification for the transfer supplied by DirectDraw. This transfer ID is used by the driver in the <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a> structure.
 
 ### -field dwTransferFlags
 
@@ -137,17 +137,16 @@ The transfer is from display memory to system memory.
 
 ### -field lpDestMDL
 
-Points to a destination <a href="https://docs.microsoft.com/windows-hardware/drivers/">memory descriptor list (MDL)</a> structure.
+Points to a destination <a href="/windows-hardware/drivers/">memory descriptor list (MDL)</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_transfer">DxTransfer</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_transfer">DxTransfer</a>

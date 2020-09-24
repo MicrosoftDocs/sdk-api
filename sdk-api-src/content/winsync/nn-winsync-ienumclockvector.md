@@ -54,7 +54,7 @@ Enumerates the clock vector elements that are stored in a clock vector.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumClockVector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumClockVector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumClockVector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumClockVector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumClockVector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-clone">Clone</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
@@ -79,7 +79,7 @@ Clones the enumerator and returns a new enumerator that is in the same state as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-next">Next</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-next">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next elements in the clock vector, if they are available.
@@ -89,7 +89,7 @@ Returns the next elements in the clock vector, if they are available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-reset">Reset</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the clock vector.
@@ -99,7 +99,7 @@ Resets the enumerator to the beginning of the clock vector.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-skip">Skip</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of clock vector elements.
@@ -111,5 +111,4 @@ Skips the specified number of clock vector elements.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

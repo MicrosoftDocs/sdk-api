@@ -60,17 +60,16 @@ Pointer to a pointer to a security descriptor object.
 
 ## -returns
 
-This method returns the standard return values, including <b>E_INVALIDARG</b>, <b>E_OUTOFMEMORY</b>, <b>E_UNEXPECTED</b>, and <b>E_FAIL</b>, as well as <b>S_OK</b>. For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method returns the standard return values, including <b>E_INVALIDARG</b>, <b>E_OUTOFMEMORY</b>, <b>E_UNEXPECTED</b>, and <b>E_FAIL</b>, as well as <b>S_OK</b>. For more information about other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>

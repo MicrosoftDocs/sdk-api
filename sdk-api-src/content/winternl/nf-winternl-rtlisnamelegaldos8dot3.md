@@ -86,11 +86,10 @@ If the specified name forms a valid 8.3 FAT file system name in the current OEM 
 ## -remarks
 
 This function does not have an associated import library. You must use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to
     NtDll.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-checknamelegaldos8dot3a">CheckNameLegalDOS8Dot3</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-checknamelegaldos8dot3a">CheckNameLegalDOS8Dot3</a>

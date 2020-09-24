@@ -69,58 +69,57 @@ The color of the text.
 
 ## -returns
 
-If the function succeeds, the return value is a color reference for the previous text color as a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value.
+If the function succeeds, the return value is a color reference for the previous text color as a <a href="/windows/desktop/gdi/colorref">COLORREF</a> value.
 
 If the function fails, the return value is CLR_INVALID.
 
 ## -remarks
 
-The text color is used to draw the face of each character written by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> functions. The text color is also used in converting bitmaps from color to monochrome and vice versa.
+The text color is used to draw the face of each character written by the <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> functions. The text color is also used in converting bitmaps from color to monochrome and vice versa.
 
 
 #### Examples
 
-For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
+For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcolor">GetTextColor</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextcolor">GetTextColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>

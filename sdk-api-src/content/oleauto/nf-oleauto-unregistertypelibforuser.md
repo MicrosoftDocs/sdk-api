@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Removes type library information that was registered by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a>.
+Removes type library information that was registered by using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a>.
 
 ## -parameters
 
@@ -162,5 +162,4 @@ The type library could not be opened.
 
 ## -remarks
 
-Use <b>UnRegisterTypeLibForUser</b> to remove type library information for type libraries that were registered using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a> function.
-
+Use <b>UnRegisterTypeLibForUser</b> to remove type library information for type libraries that were registered using the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a> function.

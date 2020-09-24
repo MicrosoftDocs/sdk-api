@@ -57,8 +57,8 @@ The
 
 The 
 <b>MMC_FILTER_CHANGE_CODE</b> enumeration specifies the filter change codes that can be sent as the <i>arg</i> parameter of an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a> notification in calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>.
+<a href="/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a> notification in calls to 
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>.
 
 ## -enum-fields
 
@@ -73,13 +73,12 @@ The filter view has been turned on.
 ### -field MFCC_VALUE_CHANGE
 
 The filter value of a column in a result view filter list has changed. The <i>param</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method contains the column ID.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method contains the column ID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-filtered-views">Adding Filtered Views</a>
+<a href="/previous-versions/windows/desktop/mmc/adding-filtered-views">Adding Filtered Views</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>
-
+<a href="/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>

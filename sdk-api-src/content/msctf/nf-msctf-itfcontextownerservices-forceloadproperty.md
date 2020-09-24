@@ -56,7 +56,7 @@ Forces a property load.
 
 ### -param pProp [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that specifies the property to load.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that specifies the property to load.
 
 ## -returns
 
@@ -109,4 +109,3 @@ The application must be able to grant a synchronous read-only lock before callin
 ## -see-also
 
 [ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md), [ITfContextOwnerServices::Unserialize](nf-msctf-itfcontextownerservices-unserialize.md), [ITfProperty interface](nn-msctf-itfproperty.md)
-

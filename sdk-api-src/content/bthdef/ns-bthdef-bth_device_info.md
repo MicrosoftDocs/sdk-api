@@ -282,21 +282,20 @@ Service hints: retrieved using the GET_COD_SERVICE(<b>classOfDevice</b>). Provid
 ### -field name
 
 Name of the remote Bluetooth device, as reported by the device, encoded in UTF8.  The user may have locally provided a display name for the remote Bluetooth device; that name is overridden, and does not appear in this member; it is accessible only with a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothgetdeviceinfo">BluetoothGetDeviceInfo</a> function.
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothgetdeviceinfo">BluetoothGetDeviceInfo</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_device">BTH_QUERY_DEVICE</a>
+<a href="/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_device">BTH_QUERY_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
+<a href="/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_set_service">BTH_SET_SERVICE</a>
+<a href="/windows/desktop/api/ws2bth/ns-ws2bth-bth_set_service">BTH_SET_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothgetdeviceinfo">BluetoothGetDeviceInfo</a>
-
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothgetdeviceinfo">BluetoothGetDeviceInfo</a>

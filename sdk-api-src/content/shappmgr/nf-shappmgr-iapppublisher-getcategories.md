@@ -56,9 +56,9 @@ Retrieves a structure listing the categories provided by an application publishe
 
 ### -param pAppCategoryList [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a>*</b>
+Type: <b><a href="/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a> structure. This structure's <b>cCategory</b> member returns the count of supported categories. The <b>pCategoryInfo</b> member returns a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfo">APPCATEGORYINFO</a> structures. This array contains all the categories an application publisher supports and must be allocated using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to an <a href="/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a> structure. This structure's <b>cCategory</b> member returns the count of supported categories. The <b>pCategoryInfo</b> member returns a pointer to an array of <a href="/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfo">APPCATEGORYINFO</a> structures. This array contains all the categories an application publisher supports and must be allocated using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and freed using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -68,12 +68,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The Add/Remove Programs Control Panel Application passes the ID returned for a category to the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-enumapps">IAppPublisher::EnumApps</a> method to identify which category is to be enumerated.
+The Add/Remove Programs Control Panel Application passes the ID returned for a category to the <a href="/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-enumapps">IAppPublisher::EnumApps</a> method to identify which category is to be enumerated.
 
 
 #### Examples
 
-The following example shows how to calculate the size of the array of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfo">APPCATEGORYINFO</a> structures that is returned by <b>IAppPublisher::GetCategories</b>.
+The following example shows how to calculate the size of the array of <a href="/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfo">APPCATEGORYINFO</a> structures that is returned by <b>IAppPublisher::GetCategories</b>.
 
 
 ```cpp
@@ -82,13 +82,12 @@ size_t CategoryListArraySize = sizeof(APPCATEGORYINFO) * pInfoList->cCategory;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfo">APPCATEGORYINFO</a>
+<a href="/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfo">APPCATEGORYINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a>
+<a href="/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
-
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>

@@ -90,17 +90,16 @@ A custom TIF extension might or might not have need for this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-addpids">IMPEG2_TIF_CONTROL::AddPIDs</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-addpids">IMPEG2_TIF_CONTROL::AddPIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpidcount">IMPEG2_TIF_CONTROL::GetPIDCount</a>
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpidcount">IMPEG2_TIF_CONTROL::GetPIDCount</a>

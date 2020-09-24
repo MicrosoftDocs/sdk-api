@@ -54,7 +54,7 @@ Creates an instance of the media sharing engine.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSharingEngineClassFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSharingEngineClassFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSharingEngineClassFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSharingEngineClassFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFSharingEngineClassFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfsharingengineclassfactory-createinstance">CreateInstance</a>
+<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfsharingengineclassfactory-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates an instance of the media sharing engine.
@@ -80,5 +80,4 @@ Creates an instance of the media sharing engine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

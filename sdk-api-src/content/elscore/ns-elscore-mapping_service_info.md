@@ -230,13 +230,12 @@ Reserved for future use.
 
 ## -remarks
 
-Structures of this type are created in an application call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>.
+Structures of this type are created in an application call to <a href="/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-structures">Extended Linguistic Services Structures</a>
+<a href="/windows/desktop/Intl/extended-linguistic-services-structures">Extended Linguistic Services Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>
-
+<a href="/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>

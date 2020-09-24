@@ -57,7 +57,7 @@ The <b>NPCloseEnum</b> function closes an enumeration.
 ### -param hEnum [in]
 
 Handle obtained from an 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> call.
+<a href="/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> call.
 
 ## -returns
 
@@ -91,4 +91,3 @@ The network is not present. This condition is checked  before <i>hEnum</i> is te
 </td>
 </tr>
 </table>
-

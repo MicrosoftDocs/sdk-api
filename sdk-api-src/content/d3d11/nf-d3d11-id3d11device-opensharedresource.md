@@ -57,7 +57,7 @@ Give a device access to a shared resource created on a different device.
 
 ### -param hResource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HANDLE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HANDLE</a></b>
 
 A resource handle. See remarks.
 
@@ -77,7 +77,7 @@ Address of a pointer to the resource we are gaining access to.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 ## -remarks
 
@@ -86,13 +86,13 @@ The REFIID, or GUID, of the interface to the resource can be obtained by using t
 The unique handle of the resource is obtained differently depending on the type of device that originally created the resource.
 
 To share a resource between two Direct3D 11 devices the resource must have been created with the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED</a> flag, if it was created using the ID3D11Device interface. 
+      <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED</a> flag, if it was created using the ID3D11Device interface. 
       If it was created using a DXGI device interface, then the resource is always shared.
 
 The REFIID, or GUID, of the interface to the resource can be obtained by using the __uuidof() macro. 
       For example, __uuidof(ID3D11Buffer) will get the GUID of the interface to a buffer resource.
 
-When sharing a resource between two Direct3D 10/11 devices the unique handle of the resource can be obtained by querying the resource for the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> interface and then calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiresource-getsharedhandle">GetSharedHandle</a>.
+When sharing a resource between two Direct3D 10/11 devices the unique handle of the resource can be obtained by querying the resource for the <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> interface and then calling <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiresource-getsharedhandle">GetSharedHandle</a>.
 
 
 ```
@@ -108,7 +108,7 @@ pOtherResource->GetSharedHandle(&sharedHandle);
 The only resources that can be shared are 2D non-mipmapped textures.
 
 To share a resource between a Direct3D 9 device and a Direct3D 11 device the texture must have been created using 
-      the <i>pSharedHandle</i> argument of <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">CreateTexture</a>.  
+      the <i>pSharedHandle</i> argument of <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">CreateTexture</a>.  
       The shared Direct3D 9 handle is then passed to OpenSharedResource in the <i>hResource</i> argument.
 
 The following code illustrates the method calls involved.
@@ -138,9 +138,8 @@ Textures being shared from D3D9 to D3D11 have the following restrictions.
 <li>Bind flags must have SHADER_RESOURCE and RENDER_TARGET set</li>
 <li>Only R10G10B10A2_UNORM, R16G16B16A16_FLOAT and R8G8B8A8_UNORM formats are allowed</li>
 </ul>
-If a shared texture is updated on one device <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush">ID3D11DeviceContext::Flush</a> must be called on that device.
+If a shared texture is updated on one device <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush">ID3D11DeviceContext::Flush</a> must be called on that device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>

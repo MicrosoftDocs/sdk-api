@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfDisplayAttributeNotifySink</b> interface is implemented by an application to receive a notification when display attribute information is updated. This advise sink is installed by calling the TSF manager's <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfDisplayAttributeNotifySink.
+The <b>ITfDisplayAttributeNotifySink</b> interface is implemented by an application to receive a notification when display attribute information is updated. This advise sink is installed by calling the TSF manager's <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfDisplayAttributeNotifySink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeNotifySink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfDisplayAttributeNotifySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributenotifysink-onupdateinfo">OnUpdateInfo</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributenotifysink-onupdateinfo">OnUpdateInfo</a>
 </td>
 <td align="left" width="63%">
 Called when display attribute information is updated.
@@ -80,10 +80,9 @@ Called when display attribute information is updated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

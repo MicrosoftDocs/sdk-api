@@ -147,5 +147,4 @@ When adding rules, note that there may be a small time lag before the newly-adde
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>
-
+<a href="/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>

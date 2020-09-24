@@ -76,13 +76,12 @@ The distance at which output is silent. Applies to natural decay only. This valu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfapoinit">HrtfApoInit</a>
+<a href="/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfapoinit">HrtfApoInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ne-hrtfapoapi-hrtfdistancedecaytype">HrtfDistanceDecayType</a>
+<a href="/windows/desktop/api/hrtfapoapi/ne-hrtfapoapi-hrtfdistancedecaytype">HrtfDistanceDecayType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

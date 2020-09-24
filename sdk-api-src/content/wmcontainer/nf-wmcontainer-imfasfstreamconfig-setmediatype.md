@@ -57,7 +57,7 @@ Sets the media type for the Advanced Systems Format (ASF) stream configuration o
 
 ### -param pIMediaType [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of a configured media type object.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of a configured media type object.
 
 ## -returns
 
@@ -87,13 +87,12 @@ Some validation of the media type is performed by this method. However, a media 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getmediatype">IMFASFStreamConfig::GetMediaType</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getmediatype">IMFASFStreamConfig::GetMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>

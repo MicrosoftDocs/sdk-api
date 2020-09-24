@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a> from a two-element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a> from a two-element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMBYTEN2** from a two-element <code>float</code> array argument.
 
@@ -83,7 +83,6 @@ instance.y = (int8_t)_y1;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyten2-ctor">XMBYTEN2 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmbyten2-ctor">XMBYTEN2 Constructors</a>

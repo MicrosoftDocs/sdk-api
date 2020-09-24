@@ -70,8 +70,8 @@ If successful, the return value is S_OK. Other return values indicate an error c
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-immcversioninfo">IMMCVersionInfo</a> interface is introduced in MMC 2.0. For instructions on how to determine the MMC version if MMC 1.x is installed, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/detecting-the-mmc-version-number">Detecting the MMC Version Number</a>.
+<a href="/windows/desktop/api/mmc/nn-mmc-immcversioninfo">IMMCVersionInfo</a> interface is introduced in MMC 2.0. For instructions on how to determine the MMC version if MMC 1.x is installed, see 
+<a href="/previous-versions/windows/desktop/mmc/detecting-the-mmc-version-number">Detecting the MMC Version Number</a>.
 
 
 #### Examples
@@ -120,4 +120,3 @@ if (NULL != pVersionInfo)
     pVersionInfo = NULL;
 }
 ```
-

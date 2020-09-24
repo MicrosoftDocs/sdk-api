@@ -127,7 +127,7 @@ landingContent:
           - text: Human Interface Devices reference
             url: _hid/index.md
           - text: Print DDI reference
-            url: https://docs.microsoft.com/windows-hardware/drivers/print/
+            url: /windows-hardware/drivers/print/
 
 # Card
   - title: Networking and internet
@@ -216,4 +216,3 @@ landingContent:
             url: /windows/win32/midl
           - text: Compression API
             url: _cmpapi/index.md
-

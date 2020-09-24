@@ -117,5 +117,4 @@ There are no more single-item exceptions to retrieve.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsingleitemexceptions">IEnumSingleItemExceptions Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsingleitemexceptions">IEnumSingleItemExceptions Interface</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Applies the current values to the underlying objects associated with the property page as previously passed to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>.
+    <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>.
 
 ## -parameters
 
@@ -93,14 +93,14 @@ Changes were applied, but the property page cannot determine if its state is cur
 ## -remarks
 
 The objects to be changed are provided through a previous call to 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>. By calling 
+     <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>. By calling 
      <b>IPropertyPage::SetObjects</b> prior to calling this 
      method, the caller ensures that all underlying objects have the correct interfaces through which to communicate 
      changes. Therefore, this method should not fail because of non-existent interfaces.
 
 After applying its values, the property page should determine if its state is now current with the objects in 
      order to properly implement 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-ispagedirty">IPropertyPage::IsPageDirty</a> and to provide both 
+     <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-ispagedirty">IPropertyPage::IsPageDirty</a> and to provide both 
      <b>S_OK</b> and <b>S_FALSE</b> return values.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
@@ -108,5 +108,4 @@ E_NOTIMPL is not a valid return value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>

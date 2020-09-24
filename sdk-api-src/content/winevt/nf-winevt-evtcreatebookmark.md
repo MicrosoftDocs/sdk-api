@@ -60,24 +60,23 @@ Creates a bookmark that identifies an event in a channel.
 
 ## -returns
 
-A handle to the bookmark if the call succeeds; otherwise, <b>NULL</b>. If <b>NULL</b>, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
+A handle to the bookmark if the call succeeds; otherwise, <b>NULL</b>. If <b>NULL</b>, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 ## -remarks
 
-  To create a bookmark, set the <i>BookmarkXml</i> parameter to <b>NULL</b>. Before you exit, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtupdatebookmark">EvtUpdateBookmark</a> function to update the bookmark. Pass the bookmark handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtrender">EvtRender</a> function to render the bookmark as an XML string. You can then persist the string for use later. To begin consuming events from where you left off the last time, set  <i>BookmarkXml</i> to the XML string that you persisted. For a subscription, pass the bookmark handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> function. For a query, pass the bookmark handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a> function to seek to a specific event in the query result.
+  To create a bookmark, set the <i>BookmarkXml</i> parameter to <b>NULL</b>. Before you exit, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtupdatebookmark">EvtUpdateBookmark</a> function to update the bookmark. Pass the bookmark handle to the <a href="/windows/desktop/api/winevt/nf-winevt-evtrender">EvtRender</a> function to render the bookmark as an XML string. You can then persist the string for use later. To begin consuming events from where you left off the last time, set  <i>BookmarkXml</i> to the XML string that you persisted. For a subscription, pass the bookmark handle to the <a href="/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> function. For a query, pass the bookmark handle to the <a href="/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a> function to seek to a specific event in the query result.
 
 If the query is against multiple channels, the bookmark handle will contain bookmarks for each channel. You cannot create a bookmark for a log file.
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function to close the handle when done.
+You must call the <a href="/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function to close the handle when done.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/bookmarking-events">Bookmarking Events</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/bookmarking-events">Bookmarking Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtupdatebookmark">EvtUpdateBookmark</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtupdatebookmark">EvtUpdateBookmark</a>

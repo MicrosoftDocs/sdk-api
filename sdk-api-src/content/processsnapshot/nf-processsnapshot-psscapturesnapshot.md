@@ -62,7 +62,7 @@ A handle to the target process.
 
 ### -param CaptureFlags [in]
 
-Flags that specify what to capture. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_capture_flags">PSS_CAPTURE_FLAGS</a>.
+Flags that specify what to capture. For more information, see <a href="/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_capture_flags">PSS_CAPTURE_FLAGS</a>.
 
 ### -param ThreadContextFlags [in, optional]
 
@@ -76,5 +76,4 @@ A handle to the snapshot that this function captures.
 
 This function returns <b>ERROR_SUCCESS</b> on success.
 
-All error codes are defined in winerror.h. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
-
+All error codes are defined in winerror.h. Use <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.

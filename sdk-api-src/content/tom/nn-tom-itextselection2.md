@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-Currently, this interface contains no methods other than those inherited from <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>.
-
+Currently, this interface contains no methods other than those inherited from <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>.

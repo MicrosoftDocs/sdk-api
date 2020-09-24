@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>MsiExtractPatchXMLData</b> function extracts information from a patch  that can be used to determine if the patch applies to a target system. The function returns an XML string that can be provided to <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a> instead of the full patch file. The returned information  can be used to determine whether the patch is applicable.
+The <b>MsiExtractPatchXMLData</b> function extracts information from a patch  that can be used to determine if the patch applies to a target system. The function returns an XML string that can be provided to <a href="/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a> and <a href="/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a> instead of the full patch file. The returned information  can be used to determine whether the patch is applicable.
 
 ## -parameters
 
@@ -168,7 +168,7 @@ This error can be returned  if MSXML 3.0 is not installed.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-extractpatchxmldata">ExtractPatchXMLData</a> method of the <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-object">Installer</a> object uses the <b>MsiExtractPatchXMLData</b> function.
+The <a href="/windows/desktop/Msi/installer-extractpatchxmldata">ExtractPatchXMLData</a> method of the <a href="/windows/desktop/Msi/installer-object">Installer</a> object uses the <b>MsiExtractPatchXMLData</b> function.
 
 
 
@@ -179,13 +179,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-extractpat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches </a>
+<a href="/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a>
+<a href="/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
-
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>

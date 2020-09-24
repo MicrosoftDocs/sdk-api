@@ -62,9 +62,9 @@ The locale to localize for.
 
 ### -param pSchemaLocalizerSupport [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a>*</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a> object.
+Pointer to an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a> object.
 
 ## -returns
 
@@ -74,7 +74,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Before this method is called, the loaded schema should typically be a schema that is not localized, such as the one in %SYSTEMROOT%\System32\StructuredQuerySchema.bin. This method makes the loaded schema suitable for parsing queries in the specified locale, using the object specified in the <i>pSchemaLocalizerSupport</i> parameter. The localized schema can then be saved into a schema binary by calling the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-savebinary">ISchemaProvider::SaveBinary</a> method.
+Before this method is called, the loaded schema should typically be a schema that is not localized, such as the one in %SYSTEMROOT%\System32\StructuredQuerySchema.bin. This method makes the loaded schema suitable for parsing queries in the specified locale, using the object specified in the <i>pSchemaLocalizerSupport</i> parameter. The localized schema can then be saved into a schema binary by calling the <a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-savebinary">ISchemaProvider::SaveBinary</a> method.
 
-Most applications should use <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">CreateLoadedParser</a> to obtain a query parser loaded with a localized schema, instead of using this method explicitly.
-
+Most applications should use <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">CreateLoadedParser</a> to obtain a query parser loaded with a localized schema, instead of using this method explicitly.

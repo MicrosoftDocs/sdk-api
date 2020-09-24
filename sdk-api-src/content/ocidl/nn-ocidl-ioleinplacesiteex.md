@@ -52,7 +52,7 @@ api_name:
 
 Provides an additional set of activation and deactivation notification methods that enable an object to avoid unnecessary flashing on the screen when the object is activated and deactivated.
 
-When an object is activated, it does not know if its visual display is already correct. When the object is deactivated, the container does not know if the visual display is correct. To avoid a redraw and the associated screen flicker in both cases, the container can provide this extension to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>.
+When an object is activated, it does not know if its visual display is already correct. When the object is deactivated, the container does not know if the visual display is correct. To avoid a redraw and the associated screen flicker in both cases, the container can provide this extension to <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>.
 
 ## -inheritance
 
@@ -71,7 +71,7 @@ The <b>IOleInPlaceSiteEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesiteex-oninplaceactivateex">OnInPlaceActivateEx</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesiteex-oninplaceactivateex">OnInPlaceActivateEx</a>
 </td>
 <td align="left" width="63%">
 Called by the embedded object to determine whether it needs to redraw itself upon activation.
@@ -80,7 +80,7 @@ Called by the embedded object to determine whether it needs to redraw itself upo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesiteex-oninplacedeactivateex">OnInPlaceDeactivateEx</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesiteex-oninplacedeactivateex">OnInPlaceDeactivateEx</a>
 </td>
 <td align="left" width="63%">
 Notifies the container whether the object needs to be redrawn upon deactivation.
@@ -89,7 +89,7 @@ Notifies the container whether the object needs to be redrawn upon deactivation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesiteex-requestuiactivate">RequestUIActivate</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesiteex-requestuiactivate">RequestUIActivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the container that the object is about to enter the UI-active state.
@@ -100,5 +100,4 @@ Notifies the container that the object is about to enter the UI-active state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>

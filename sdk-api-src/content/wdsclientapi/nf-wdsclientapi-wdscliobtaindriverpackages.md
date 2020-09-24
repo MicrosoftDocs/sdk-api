@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This function obtains from a WDS image, the driver packages (INF files) that can be used on this computer. The <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclifreestringarray">WdsCliFreeStringArray</a> function can be used to free the array of string values allocated by this function.
+This function obtains from a WDS image, the driver packages (INF files) that can be used on this computer. The <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclifreestringarray">WdsCliFreeStringArray</a> function can be used to free the array of string values allocated by this function.
 
 ## -parameters
 
@@ -78,5 +78,4 @@ If the function succeeds, the return is <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-client-functions">Windows Deployment Services Client Functions</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-client-functions">Windows Deployment Services Client Functions</a>

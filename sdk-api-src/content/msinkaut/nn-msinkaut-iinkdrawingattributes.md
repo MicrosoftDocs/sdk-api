@@ -54,7 +54,7 @@ Represents the attributes applied to ink when drawn.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkDrawingAttributes</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkDrawingAttributes</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkDrawingAttributes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkDrawingAttributes</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IInkDrawingAttributes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-clone">Clone</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-clone">Clone</a>
 </td>
 <td align="left" width="63%">
-Creates a duplicate <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
+Creates a duplicate <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Creates a duplicate <a href="https://docs.microsoft.com/windows/desktop/tablet/i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_antialiased">AntiAliased</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_antialiased">AntiAliased</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Gets or sets the value that indicates whether a stroke is antialiased.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_color">Color</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_color">Color</a>
 
 
 </td>
@@ -113,14 +113,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the color of the ink that is drawn with this <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
+Gets or sets the color of the ink that is drawn with this <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_extendedproperties">ExtendedProperties</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_extendedproperties">ExtendedProperties</a>
 
 
 </td>
@@ -137,7 +137,7 @@ Gets the collection of application-defined data that are stored in an object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_fittocurve">FitToCurve</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_fittocurve">FitToCurve</a>
 
 
 </td>
@@ -153,7 +153,7 @@ Gets or sets the value that specifies whether Bezier smoothing is used to render
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height">Height</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height">Height</a>
 
 
 </td>
@@ -162,14 +162,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the height of the pen when drawing ink with the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
+Gets or sets the height of the pen when drawing ink with the <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_ignorepressure">IgnorePressure</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_ignorepressure">IgnorePressure</a>
 
 
 </td>
@@ -185,7 +185,7 @@ Gets or sets the value that specifies whether drawn ink automatically gets wider
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_pentip">PenTip</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_pentip">PenTip</a>
 
 
 </td>
@@ -194,14 +194,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets a value that indicates which pen tip to use when drawing ink that is associated with this <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
+Gets or sets a value that indicates which pen tip to use when drawing ink that is associated with this <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation">RasterOperation</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation">RasterOperation</a>
 
 
 </td>
@@ -217,7 +217,7 @@ Gets or sets a value that defines how the colors of the pen and background inter
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_transparency">Transparency</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_transparency">Transparency</a>
 
 
 </td>
@@ -233,7 +233,7 @@ Gets or sets a value that indicates the transparency value of ink.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width</a>
 
 
 </td>
@@ -251,4 +251,3 @@ Gets or sets the y-axis dimension, or width, of the pen tip when drawing ink.
 ## -see-also
 
 [InkDrawingAttributes class](/windows/win32/tablet/inkdrawingattributes-class)
-

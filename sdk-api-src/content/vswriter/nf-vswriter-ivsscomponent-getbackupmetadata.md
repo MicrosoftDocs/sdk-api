@@ -53,9 +53,9 @@ api_name:
 
 The <b>GetBackupMetadata</b> method retrieves 
     private, writer-specific backup metadata that might have been set during a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">PrepareForBackup</a> event by 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a> using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">PrepareForBackup</a> event by 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a> using 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>.
    
 
 Only a writer can call this method.
@@ -65,7 +65,7 @@ Only a writer can call this method.
 ### -param pbstrData [out]
 
 The address of a caller-allocated variable that receives a string containing the backup metadata that was added during an 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">OnPrepareBackup</a> event.
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">OnPrepareBackup</a> event.
 
 ## -returns
 
@@ -129,7 +129,7 @@ The caller is out of memory or other system resources.
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more
         information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -144,13 +144,12 @@ If no backup metadata has been set,
     <b>GetBackupMetadata</b> returns S_FALSE.
    
 
-If the call to <b>GetBackupMetadata</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrMetadata</i> parameter by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+If the call to <b>GetBackupMetadata</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrMetadata</i> parameter by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>

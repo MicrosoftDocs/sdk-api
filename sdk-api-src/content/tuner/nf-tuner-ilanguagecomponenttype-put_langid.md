@@ -64,13 +64,12 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-The <i>LangID</i> parameter is a Win32 LCID. Use this method to set the language of an audio stream, for example when creating a new entry for the Guide Store database. Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_desclangid">IComponent::put_DescLangID</a> method to specify the language of the text description of the stream.
+The <i>LangID</i> parameter is a Win32 LCID. Use this method to set the language of an audio stream, for example when creating a new entry for the Guide Store database. Use the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_desclangid">IComponent::put_DescLangID</a> method to specify the language of the text description of the stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilanguagecomponenttype">ILanguageComponentType Interface</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilanguagecomponenttype">ILanguageComponentType Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-get_langid">ILanguageComponentType::get_LangID</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-get_langid">ILanguageComponentType::get_LangID</a>

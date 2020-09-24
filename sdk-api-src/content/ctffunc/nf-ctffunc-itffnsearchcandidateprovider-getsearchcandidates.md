@@ -64,7 +64,7 @@ App-specified string that enables a text service to optionally provide different
 
 ### -param pplist [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a> that receives the requested candidate data.
+An <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a> that receives the requested candidate data.
 
 ## -returns
 
@@ -101,13 +101,12 @@ No candidates could be returned for the input string, <i>pplist</i> may be <b>NU
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnsearchcandidateprovider">ITfFnSearchCandidateProvider</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnsearchcandidateprovider">ITfFnSearchCandidateProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.search.searchpanequerylinguisticdetails">SearchPaneQueryLinguisticDetails</a>
+<a href="/uwp/api/windows.applicationmodel.search.searchpanequerylinguisticdetails">SearchPaneQueryLinguisticDetails</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">SetResult</a>
-
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">SetResult</a>

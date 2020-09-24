@@ -72,7 +72,7 @@ Flags describing the data offered to the secure content provider for making deci
 </tr>
 <tr>
 <td>WMDM_MODE_TRANSFER_PROTECTED</td>
-<td>The output object data from the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange</a> interface must be protected. If Windows Media Device Manager sets neither or both mode flags, DRM decides whether the output object data from the <b>ISCPSecureExchange</b> interface must be protected or unprotected.</td>
+<td>The output object data from the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange</a> interface must be protected. If Windows Media Device Manager sets neither or both mode flags, DRM decides whether the output object data from the <b>ISCPSecureExchange</b> interface must be protected or unprotected.</td>
 </tr>
 <tr>
 <td>WMDM_MODE_TRANSFER_UNPROTECTED</td>
@@ -102,7 +102,7 @@ Length of the byte array to which <i>pbSPSessionKey</i> points. This parameter m
 
 ### -param pStorageGlobals [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> interface on the root storage of the media or device to or from which the file is being transferred. This parameter must be included in the input message authentication code.
+Pointer to the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> interface on the root storage of the media or device to or from which the file is being transferred. This parameter must be included in the input message authentication code.
 
 ### -param ppExchange [out]
 
@@ -150,7 +150,7 @@ The message authentication code is not valid.
 </dl>
 </td>
 <td width="60%">
-Windows Media Device Manager must call this method again with another packet of data. The size of the packet is determined by the <i>pdwMinDecisionData</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">ISCPSecureQuery::GetDataDemands</a> method.
+Windows Media Device Manager must call this method again with another packet of data. The size of the packet is determined by the <i>pdwMinDecisionData</i> parameter in the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">ISCPSecureQuery::GetDataDemands</a> method.
 
 </td>
 </tr>
@@ -191,21 +191,20 @@ An unspecified error occurred.
 
 ## -remarks
 
-This method is called after the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ISCPSecureQuery::ExamineData</a> method, and makes the final decision whether access to the content is allowed.
+This method is called after the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ISCPSecureQuery::ExamineData</a> method, and makes the final decision whether access to the content is allowed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery2-makedecision2">ISCPSecureQuery2::MakeDecision2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery2-makedecision2">ISCPSecureQuery2::MakeDecision2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>

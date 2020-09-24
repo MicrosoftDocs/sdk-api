@@ -57,7 +57,7 @@ The <b>WcmSetProfileList</b> function reorders a profile list or a subset of a p
 
 ### -param pProfileList [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_profile_info_list">WCM_PROFILE_INFO_LIST</a>*</b>
+Type: <b><a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_profile_info_list">WCM_PROFILE_INFO_LIST</a>*</b>
 
 The list of profiles to be reordered, provided in the preferred order (descending from the most preferred to the least preferred).
 
@@ -87,5 +87,4 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_profile_info_list">WCM_PROFILE_INFO_LIST</a>
-
+<a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_profile_info_list">WCM_PROFILE_INFO_LIST</a>

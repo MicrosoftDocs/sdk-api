@@ -60,7 +60,7 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">D
 
 ### -field DWMWA_NCRENDERING_POLICY
 
-Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a>. Sets the non-client rendering policy. The <i>pvAttribute</i> parameter points to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ne-dwmapi-dwmncrenderingpolicy">DWMNCRENDERINGPOLICY</a> enumeration.
+Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a>. Sets the non-client rendering policy. The <i>pvAttribute</i> parameter points to a value from the <a href="/windows/desktop/api/dwmapi/ne-dwmapi-dwmncrenderingpolicy">DWMNCRENDERINGPOLICY</a> enumeration.
 
 ### -field DWMWA_TRANSITIONS_FORCEDISABLED
 
@@ -143,4 +143,3 @@ The maximum recognized <b>DWMWINDOWATTRIBUTE</b> value, used for validation purp
 * [DwmGetWindowAttribute function](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute)
 * [DwmSetWindowAttribute function](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute)
 * [Enable and control DWM composition](/windows/desktop/dwm/composition-ovw)
-

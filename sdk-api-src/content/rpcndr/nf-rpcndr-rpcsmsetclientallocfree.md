@@ -96,21 +96,20 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 By overriding the default routines used by the client stub to manage memory, 
-<b>RpcSmSetClientAllocFree</b> establishes the memory allocation and memory-freeing mechanisms. Note that the default routines are <a href="https://docs.microsoft.com/windows/desktop/Rpc/pointers-and-memory-allocation">free</a> and <b>malloc</b>, unless the remote call occurs within manager code. In this case, the default memory–management functions are 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>.
+<b>RpcSmSetClientAllocFree</b> establishes the memory allocation and memory-freeing mechanisms. Note that the default routines are <a href="/windows/desktop/Rpc/pointers-and-memory-allocation">free</a> and <b>malloc</b>, unless the remote call occurs within manager code. In this case, the default memory–management functions are 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a> and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a>
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a>

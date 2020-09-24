@@ -62,7 +62,7 @@ Specifies the ID of an existing property.
 ### -param pValue [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that contains the value of the property.
+<a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that contains the value of the property.
 
 ## -returns
 
@@ -72,17 +72,16 @@ If the method fails, the return value is one of the following error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::SetProperty</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::SetProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
-
+<a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>

@@ -82,7 +82,7 @@ An array of gesture configuration structures that specify the gesture configurat
 
 ### -param cbSize [in]
 
-The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
+The size of the gesture configuration (<a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
 
 ## -returns
 
@@ -91,13 +91,13 @@ If the function succeeds, the return value is nonzero.
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
 Passing a value other than <code>sizeof(GESTURECONFIG)</code> for the 
       <i>cbSize</i> parameter will cause calls to this function to fail and 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will 
       return <b>ERROR_INVALID_PARAMETER</b> (87 in decimal).    
       
 
@@ -139,13 +139,12 @@ The following table lists the gesture configuration values:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtgfunctions">Functions</a>
+<a href="/windows/desktop/wintouch/mtgfunctions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>
-
+<a href="/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>

@@ -55,7 +55,7 @@ Callback interface to get media data from the sample-grabber sink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSampleGrabberSinkCallback</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>. <b>IMFSampleGrabberSinkCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSampleGrabberSinkCallback</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>. <b>IMFSampleGrabberSinkCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFSampleGrabberSinkCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback-onprocesssample">OnProcessSample</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback-onprocesssample">OnProcessSample</a>
 </td>
 <td align="left" width="63%">
 Called when the sample-grabber sink receives a new media sample.
@@ -79,7 +79,7 @@ Called when the sample-grabber sink receives a new media sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback-onsetpresentationclock">OnSetPresentationClock</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback-onsetpresentationclock">OnSetPresentationClock</a>
 </td>
 <td align="left" width="63%">
 Called when the presentation clock is set on the sample-grabber sink.
@@ -88,7 +88,7 @@ Called when the presentation clock is set on the sample-grabber sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback-onshutdown">OnShutdown</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback-onshutdown">OnShutdown</a>
 </td>
 <td align="left" width="63%">
 Called when the sample-grabber sink is shut down.
@@ -107,11 +107,11 @@ Implement the <b>IMFSampleGrabberSinkCallback</b> interface.
 
 </li>
 <li>
-Call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesamplegrabbersinkactivate">MFCreateSampleGrabberSinkActivate</a>, passing in the <b>IMFSampleGrabberSinkCallback</b> interface pointer. This function returns an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> object.
+Call <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatesamplegrabbersinkactivate">MFCreateSampleGrabberSinkActivate</a>, passing in the <b>IMFSampleGrabberSinkCallback</b> interface pointer. This function returns an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> object.
 
 </li>
 <li>
-Create a topology that includes an output node with the sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> object.
+Create a topology that includes an output node with the sink's <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> object.
 
 </li>
 <li>
@@ -125,9 +125,8 @@ You cannot use the sample-grabber sink to get protected content.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

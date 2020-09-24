@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This interface is derived from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> to provide extensions for notifying the sink of changes in an object's view status.
+This interface is derived from <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> to provide extensions for notifying the sink of changes in an object's view status.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>IAdviseSinkEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iadvisesinkex-onviewstatuschange">OnViewStatusChange</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iadvisesinkex-onviewstatuschange">OnViewStatusChange</a>
 </td>
 <td align="left" width="63%">
 Notifies the sink that a view status of an object has changed.
@@ -80,9 +80,8 @@ Notifies the sink that a view status of an object has changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>

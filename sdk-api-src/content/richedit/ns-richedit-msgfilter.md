@@ -64,20 +64,20 @@ The <b>code</b> member of the <a href="https://msdn.microsoft.com/0c8b116b-82ad-
 
 ### -field msg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Keyboard or mouse message identifier.
 
 ### -field wParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
 The 
 					<b>wParam</b> parameter of the message.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The 
 					<b>lParam</b> parameter of the message.
@@ -85,4 +85,3 @@ The
 ## -see-also
 
 <a href="https://msdn.microsoft.com/96cf0047-baae-46cd-82e8-ab6f3f353260">EN_MSGFILTER</a>
-

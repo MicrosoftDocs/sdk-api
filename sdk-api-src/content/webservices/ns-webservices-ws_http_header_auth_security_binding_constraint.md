@@ -53,11 +53,10 @@ api_name:
 ## -description
 
 A security binding constraint that corresponds to the
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
+                <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
 
 ## -struct-fields
 
 ### -field bindingConstraint
 
 The base binding constraint that this binding constraint derives from.
-

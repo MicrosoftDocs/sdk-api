@@ -62,7 +62,7 @@ The process identifier of the VDM. This should be the process identifier that th
 
 ### -param fp [in]
 
-A pointer to a callback function. The function is called for each enumerated task. For details, see the <a href="https://docs.microsoft.com/previous-versions/bb963828(v=vs.85)">ProcessTask</a> callback function.
+A pointer to a callback function. The function is called for each enumerated task. For details, see the <a href="/previous-versions/bb963828(v=vs.85)">ProcessTask</a> callback function.
 
 ### -param lparam [in]
 
@@ -79,7 +79,6 @@ VdmDbg.dll contains many functions that are useful for working with 16-bit appli
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/vdmdbg/nf-vdmdbg-vdmenumprocesswow">VDMEnumProcessWOW</a>.
+For an example, see <a href="/windows/desktop/api/vdmdbg/nf-vdmdbg-vdmenumprocesswow">VDMEnumProcessWOW</a>.
 
 <div class="code"></div>
-

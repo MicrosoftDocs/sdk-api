@@ -50,29 +50,28 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a> structure.
+Creates a <a href="/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a> structure.
 
 ## -parameters
 
 ### -param nibShape
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_ink_nib_shape">D2D1_INK_NIB_SHAPE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_ink_nib_shape">D2D1_INK_NIB_SHAPE</a></b>
 
 The pre-transform shape of the nib (pen tip) used to draw a given ink object.
 
 ### -param nibTransform [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 The transform applied to the nib. Note that the translation components of the transform matrix are ignored for the purposes of rendering.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a></b>
 
-Returns the created <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a> structure.
+Returns the created <a href="/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a>
-
+<a href="/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a>

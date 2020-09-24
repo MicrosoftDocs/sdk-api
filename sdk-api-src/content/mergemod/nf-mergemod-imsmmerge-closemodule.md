@@ -52,11 +52,11 @@ api_name:
 
 The 
 <b>CloseModule</b> method closes the currently open Windows Installer merge module. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-closemodule">CloseModule</a> method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge object</a>. 
+<a href="/windows/desktop/Msi/merge-closemodule">CloseModule</a> method of the 
+<a href="/windows/desktop/Msi/merge-object">Merge object</a>. 
 
 <b>IMsmMerge2::CloseDatabase</b>    Mergemod.dll version 2.0 or later.<div> </div>
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase">IMsmMerge::CloseDatabase</a>      All Mergemod.dll versions.
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase">IMsmMerge::CloseDatabase</a>      All Mergemod.dll versions.
 
 ## -parameters
 
@@ -77,8 +77,8 @@ The <b>CloseModule</b> function returns the following values.
 </td>
 <td width="60%">
 There was an error closing the module. The state of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmmerge">IMsmMerge</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmmerge2">IMsmMerge2</a> interface is now undefined.
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmmerge">IMsmMerge</a> or 
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmmerge2">IMsmMerge2</a> interface is now undefined.
 
 </td>
 </tr>
@@ -112,5 +112,4 @@ Closing a merge module does not affect any errors that have not been retrieved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

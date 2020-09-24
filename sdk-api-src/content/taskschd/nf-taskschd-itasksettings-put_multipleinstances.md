@@ -60,17 +60,16 @@ This property is read/write.
 
 ## -remarks
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-multipleinstancespolicy-settingstype-element">MultipleInstancesPolicy</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-multipleinstancespolicy-settingstype-element">MultipleInstancesPolicy</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_instances_policy">TASK_INSTANCES_POLICY</a>
+<a href="/windows/desktop/api/taskschd/ne-taskschd-task_instances_policy">TASK_INSTANCES_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

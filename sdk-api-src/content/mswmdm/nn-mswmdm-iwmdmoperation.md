@@ -54,7 +54,7 @@ This optional, application-implemented <b>IWMDMOperation</b> interface allows th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMOperation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMOperation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMOperation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMOperation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDMOperation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginread">BeginRead</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginread">BeginRead</a>
 </td>
 <td align="left" width="63%">
 Indicates that a "read from device" action is beginning.
@@ -78,7 +78,7 @@ Indicates that a "read from device" action is beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite">BeginWrite</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite">BeginWrite</a>
 </td>
 <td align="left" width="63%">
 Indicates that a "write to device" action is beginning.
@@ -87,7 +87,7 @@ Indicates that a "write to device" action is beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-end">End</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-end">End</a>
 </td>
 <td align="left" width="63%">
 Indicates that a read or write operation is finished.
@@ -96,7 +96,7 @@ Indicates that a read or write operation is finished.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectattributes">GetObjectAttributes</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectattributes">GetObjectAttributes</a>
 </td>
 <td align="left" width="63%">
 Allows the application to specify attributes for an object being written to a device.
@@ -105,7 +105,7 @@ Allows the application to specify attributes for an object being written to a de
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectname">GetObjectName</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectname">GetObjectName</a>
 </td>
 <td align="left" width="63%">
 Allows the application to specify the name of an object being written to the device.
@@ -114,7 +114,7 @@ Allows the application to specify the name of an object being written to the dev
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjecttotalsize">GetObjectTotalSize</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjecttotalsize">GetObjectTotalSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total size of an object, in bytes.
@@ -123,7 +123,7 @@ Retrieves the total size of an object, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectattributes">SetObjectAttributes</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectattributes">SetObjectAttributes</a>
 </td>
 <td align="left" width="63%">
 Assigns the content attributes. This method is currently not called by Windows Media Device Manager.
@@ -132,7 +132,7 @@ Assigns the content attributes. This method is currently not called by Windows M
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectname">SetObjectName</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectname">SetObjectName</a>
 </td>
 <td align="left" width="63%">
 Assigns a name to the content being read or written. This method is currently not called by Windows Media Device Manager.
@@ -141,7 +141,7 @@ Assigns a name to the content being read or written. This method is currently no
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjecttotalsize">SetObjectTotalSize</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjecttotalsize">SetObjectTotalSize</a>
 </td>
 <td align="left" width="63%">
 Assigns the total size of an object, in bytes. This method is currently not called by Windows Media Device Manager.
@@ -150,7 +150,7 @@ Assigns the total size of an object, in bytes. This method is currently not call
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">TransferObjectData</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">TransferObjectData</a>
 </td>
 <td align="left" width="63%">
 Transfers a block of data to or from the computer.
@@ -161,17 +161,16 @@ Transfers a block of data to or from the computer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
+<a href="/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2">IWMDMOperation2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2">IWMDMOperation2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation3">IWMDMOperation3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation3">IWMDMOperation3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

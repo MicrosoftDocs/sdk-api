@@ -95,11 +95,10 @@ NULL pointer argument.
 
 The device category is identified by a <b>GUID</b>. This method returns a string representation of the <b>GUID</b>.
 
-This method is provided for Automation clients. C++ applications can use the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get__category">IMSVidDevice::get__Category</a> method, which returns a <b>GUID</b> rather than a <b>BSTR</b>.
+This method is provided for Automation clients. C++ applications can use the <a href="/windows/desktop/api/segment/nf-segment-imsviddevice-get__category">IMSVidDevice::get__Category</a> method, which returns a <b>GUID</b> rather than a <b>BSTR</b>.
 
 The caller must free the returned string, using the <b>SysFreeString</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>

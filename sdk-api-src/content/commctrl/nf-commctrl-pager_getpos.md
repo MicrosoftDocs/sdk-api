@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Retrieves the current scroll position of the pager control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-getpos">PGM_GETPOS</a> message explicitly.
+Retrieves the current scroll position of the pager control. You can use this macro or send the <a href="/windows/desktop/Controls/pgm-getpos">PGM_GETPOS</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the pager control.
-

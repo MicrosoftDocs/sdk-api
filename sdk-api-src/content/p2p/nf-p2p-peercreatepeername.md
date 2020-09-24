@@ -68,7 +68,7 @@ This parameter can only be <b>NULL</b> if <i>pwzIdentity</i> is not <b>NULL</b>.
 
 ### -param ppwzPeerName [out]
 
-Pointer that receives a pointer to the new peer name. When this string is not required anymore, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Pointer that receives a pointer to the new peer name. When this string is not required anymore, free it by calling <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -returns
 
@@ -109,5 +109,4 @@ The parameter  <i>ppwzPeername</i> must be set to null before the <b>PeerCreateP
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>

@@ -56,8 +56,8 @@ A <b>BlurParams</b> structure contains members that specify the nature of a Gaus
  You can apply a Gaussian blur effect to a bitmap by following these steps. 
 <ol>
 <li>Create and initialize a <b>BlurParams</b> structure.</li>
-<li>Pass the address of the <b>BlurParams</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-blur-setparameters">Blur::SetParameters</a> method of a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object.</li>
-<li>Pass the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object to the <a href="https://docs.microsoft.com/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>BlurParams</b> structure to the <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-blur-setparameters">Blur::SetParameters</a> method of a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object.</li>
+<li>Pass the address of the <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object to the <a href="/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields
@@ -76,5 +76,4 @@ Boolean value that specifies whether the bitmap expands by an amount equal to th
 
 ## -remarks
 
-One of the two <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> methods blurs a bitmap in place. That particular <a href="https://docs.microsoft.com/previous-versions/ms536321(v=vs.85)">Bitmap::ApplyEffect</a> method ignores the <b>expandEdge</b> parameter.
-
+One of the two <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> methods blurs a bitmap in place. That particular <a href="/previous-versions/ms536321(v=vs.85)">Bitmap::ApplyEffect</a> method ignores the <b>expandEdge</b> parameter.

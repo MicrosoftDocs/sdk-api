@@ -50,31 +50,30 @@ api_name:
 
 ## -description
 
-Sets the state of a specified list-view item. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemindexstate">LVM_SETITEMINDEXSTATE</a> message explicitly.
+Sets the state of a specified list-view item. Use this macro or send the <a href="/windows/desktop/Controls/lvm-setitemindexstate">LVM_SETITEMINDEXSTATE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param plvii [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a>*</b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a> structure for the item. The caller is responsible for allocating this structure and setting the members.
+A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a> structure for the item. The caller is responsible for allocating this structure and setting the members.
 
 ### -param data [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The state to set on the item as one or more (as a bitwise combination) of the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">List-View Item States</a> flags.
+The state to set on the item as one or more (as a bitwise combination) of the <a href="/windows/desktop/Controls/list-view-item-states">List-View Item States</a> flags.
 
 ### -param mask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The valid bits of the state specified by parameter <i>data</i>. For more information, see the <i>stateMask</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a>) structure.
-
+The valid bits of the state specified by parameter <i>data</i>. For more information, see the <i>stateMask</i> member of the <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a>) structure.

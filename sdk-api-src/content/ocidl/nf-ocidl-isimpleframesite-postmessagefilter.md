@@ -76,7 +76,7 @@ The <b>LPARAM</b> of the message.
 
 ### -param dwCookie [in]
 
-The value that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-isimpleframesite-premessagefilter">ISimpleFrameSite::PreMessageFilter</a> through its <i>pdwCookie</i> parameter.
+The value that was returned by <a href="/windows/desktop/api/ocidl/nf-ocidl-isimpleframesite-premessagefilter">ISimpleFrameSite::PreMessageFilter</a> through its <i>pdwCookie</i> parameter.
 
 ## -returns
 
@@ -124,5 +124,4 @@ The site does not filter any messages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-isimpleframesite">ISimpleFrameSite</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-isimpleframesite">ISimpleFrameSite</a>

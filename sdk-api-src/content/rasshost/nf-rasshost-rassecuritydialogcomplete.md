@@ -56,7 +56,7 @@ The
 
 The RAS server passes a pointer to the 
 <b>RasSecurityDialogComplete</b> function when the server calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> entry point of the security DLL.
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> entry point of the security DLL.
 <div class="alert"><b>Note</b>  Windows Server 2008, 
   Windows Server 2003,
   Windows 2000 Server, and
@@ -67,31 +67,30 @@ The RAS server passes a pointer to the
 ### -param pSecMsg [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-security_message">SECURITY_MESSAGE</a> structure that specifies the results of the authentication transaction.
+<a href="/windows/desktop/api/rasshost/ns-rasshost-security_message">SECURITY_MESSAGE</a> structure that specifies the results of the authentication transaction.
 
 ## -remarks
 
 When a security DLL has finished authenticating the remote user, it calls the 
 <b>RasSecurityDialogComplete</b> function to report the results. The RAS server then performs a cleanup sequence. As part of this cleanup sequence, the RAS server calls the security DLL's 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogend">RasSecurityDialogEnd</a> function to give the DLL an opportunity to perform its own cleanup, if necessary.
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogend">RasSecurityDialogEnd</a> function to give the DLL an opportunity to perform its own cleanup, if necessary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-server-administration-functions">RAS Server Administration Functions</a>
+<a href="/windows/desktop/RRAS/ras-server-administration-functions">RAS Server Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a>
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogend">RasSecurityDialogEnd</a>
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogend">RasSecurityDialogEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-security_message">SECURITY_MESSAGE</a>
-
+<a href="/windows/desktop/api/rasshost/ns-rasshost-security_message">SECURITY_MESSAGE</a>

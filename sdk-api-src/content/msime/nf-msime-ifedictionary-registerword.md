@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Registers a new word or deletes an existing word in the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>.
+Registers a new word or deletes an existing word in the <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>.
 
 ## -parameters
 
@@ -97,7 +97,7 @@ Delete the word from the dictionary.
 
 ### -param pwrd [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure specifying the word to register or delete.
+An <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure specifying the word to register or delete.
 
 ## -returns
 
@@ -126,7 +126,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-This <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object is not a user dictionary.
+This <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object is not a user dictionary.
 
 </td>
 </tr>
@@ -178,9 +178,8 @@ An unexpected error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
-
+<a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>

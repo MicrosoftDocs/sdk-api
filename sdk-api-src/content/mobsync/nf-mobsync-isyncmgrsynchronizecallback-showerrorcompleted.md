@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called by the registered application's handler before or after its <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> operation has been completed.
+Called by the registered application's handler before or after its <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> operation has been completed.
 
 ## -parameters
 
@@ -58,8 +58,8 @@ Called by the registered application's handler before or after its <a href="http
 
 Type: <b>HRESULT</b>
 
-Whether <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> was successful. This value is S_SYNCMGR_RETRYSYNC if the registered application's handler requires SyncMgr to retry the synchronization. When this value is returned to SyncMgr both the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> methods are called again.
+Whether <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> was successful. This value is S_SYNCMGR_RETRYSYNC if the registered application's handler requires SyncMgr to retry the synchronization. When this value is returned to SyncMgr both the 
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> and <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> methods are called again.
 
 ### -param cItems [in]
 
@@ -72,7 +72,7 @@ The number of items in the array pointed to by the <i>pItemIDs</i> parameter. Th
 Type: <b>const GUID*</b>
 
 A pointer to the array of item IDs to pass to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> in the event of a retry. This parameter is ignored unless <i>hrResult</i> is S_SYNCMGR_RETRYSYNC.
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> in the event of a retry. This parameter is ignored unless <i>hrResult</i> is S_SYNCMGR_RETRYSYNC.
 
 ## -returns
 
@@ -102,18 +102,17 @@ The operation completed successfully.
 
 The <i>pItemIDs</i> parameter is an [in] parameter and the calling function owns the memory pointed to by it. SyncMgr makes a copy of the array before returning.
 
-The registered application's handler should return from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> method as soon as possible and then call this method to notify SyncMgr that it has completed processing the <b>ShowError</b> call.
+The registered application's handler should return from the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> method as soon as possible and then call this method to notify SyncMgr that it has completed processing the <b>ShowError</b> call.
 
 It is acceptable for the registered application's handler to call this method 
-before returning from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> method.
+before returning from the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> method.
 
-The registered application's handler should not call this method unless a success code is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> method.
+The registered application's handler should not call this method unless a success code is returned from the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a>
-
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a>

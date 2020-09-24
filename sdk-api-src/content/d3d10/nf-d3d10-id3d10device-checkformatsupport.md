@@ -57,15 +57,15 @@ Get the support of a given format on the installed video device.
 
 ### -param Format [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
+Type: <b><a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> enumeration that describes a format for which to check for support.
+A <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> enumeration that describes a format for which to check for support.
 
 ### -param pFormatSupport [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
-A bitfield of <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_format_support">D3D10_FORMAT_SUPPORT</a> enumeration values describing how the specified format is supported on the installed device. 
+A bitfield of <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_format_support">D3D10_FORMAT_SUPPORT</a> enumeration values describing how the specified format is supported on the installed device. 
         The values are ORed together.
 
 ## -returns
@@ -78,10 +78,9 @@ Returns S_OK if successful; otherwise, returns E_INVALIDARG if the <i>Format</i>
 ## -remarks
 
 Most format support is based on the Direct3D feature level. Only a few specific use cases require checking for support. 
-      See <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/format-support-for-direct3d-feature-level-10-0-hardware">Hardware Support for Direct3D 10 Formats</a> 
-      and <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/format-support-for-direct3d-feature-level-10-1-hardware">Hardware Support for Direct3D 10.1 Formats</a> for additional information.
+      See <a href="/windows/desktop/direct3ddxgi/format-support-for-direct3d-feature-level-10-0-hardware">Hardware Support for Direct3D 10 Formats</a> 
+      and <a href="/windows/desktop/direct3ddxgi/format-support-for-direct3d-feature-level-10-1-hardware">Hardware Support for Direct3D 10.1 Formats</a> for additional information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>

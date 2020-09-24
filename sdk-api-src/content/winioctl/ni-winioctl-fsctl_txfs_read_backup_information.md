@@ -50,7 +50,7 @@ api_name:
 ## -description
 
 > [!NOTE]
-> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf).
+> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](/windows/desktop/FileIO/deprecation-of-txf).
 
 Returns  Transactional NTFS (TxF) specific information for the specified file.
 
@@ -89,13 +89,13 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 **FSCTL_TXFS_READ_BACKUP_INFORMATION** is a synchronous operation.
 
-This control code can be used by backup functions and applications, such as Win32 [BackupRead](../winbase/nf-winbase-backupread.md), and by Volume Shadow Copy Service (VSS) writers that support secondary resource managers. For more information, see [Volume Shadow Copy Service](https://docs.microsoft.com/windows-server/storage/file-server/volume-shadow-copy-service).
+This control code can be used by backup functions and applications, such as Win32 [BackupRead](../winbase/nf-winbase-backupread.md), and by Volume Shadow Copy Service (VSS) writers that support secondary resource managers. For more information, see [Volume Shadow Copy Service](/windows-server/storage/file-server/volume-shadow-copy-service).
 
 **ReFS:**  This code is not supported.
 
@@ -103,5 +103,4 @@ This control code can be used by backup functions and applications, such as Win3
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [TXFS_READ_BACKUP_INFORMATION_OUT](ns-winioctl-txfs_read_backup_information_out.md)
-* [Volume Shadow Copy Service](https://docs.microsoft.com/windows-server/storage/file-server/volume-shadow-copy-service)
-
+* [Volume Shadow Copy Service](/windows-server/storage/file-server/volume-shadow-copy-service)

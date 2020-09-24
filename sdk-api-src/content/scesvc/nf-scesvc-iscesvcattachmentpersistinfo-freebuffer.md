@@ -65,13 +65,12 @@ The return value is an HRESULT. A value of S_OK indicates the method was success
 ## -remarks
 
 You should call this method to free the data buffer returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save">ISceSvcAttachmentPersistInfo::Save</a>.
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save">ISceSvcAttachmentPersistInfo::Save</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a>
+<a href="/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save">ISceSvcAttachmentPersistInfo::Save</a>
-
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save">ISceSvcAttachmentPersistInfo::Save</a>

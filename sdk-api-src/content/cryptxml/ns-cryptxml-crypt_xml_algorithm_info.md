@@ -121,15 +121,15 @@ A pointer to a null-terminated Unicode string that contains an extra algorithm s
 
 ### -field dwSignFlags
 
-A <b>DWORD</b> value that contains flag values to be  passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> function.
+A <b>DWORD</b> value that contains flag values to be  passed to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> function.
 
 ### -field dwVerifyFlags
 
-A <b>DWORD</b> value that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function.
+A <b>DWORD</b> value that is passed to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function.
 
 ### -field pvPaddingInfo
 
-A pointer to a structure that contains padding information to be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function. The actual type of structure this member points to depends on the value of the <b>dwGroupId</b> member.
+A pointer to a structure that contains padding information to be passed to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> or <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function. The actual type of structure this member points to depends on the value of the <b>dwGroupId</b> member.
 
 ### -field pvExtraInfo
 
@@ -145,5 +145,4 @@ Optional. A pointer to a structure that contains extra information that can be p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>
-
+<a href="/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>

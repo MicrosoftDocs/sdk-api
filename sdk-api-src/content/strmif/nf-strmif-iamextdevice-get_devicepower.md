@@ -103,20 +103,19 @@ In Windows XP Service Pack 2 and later, the following additional power mode is d
 To use this constant, include the header file Xprtdefs.h.
 
 <h3><a id="DV_and_MPEG_Camcorder_Implementation"></a><a id="dv_and_mpeg_camcorder_implementation"></a><a id="DV_AND_MPEG_CAMCORDER_IMPLEMENTATION"></a>DV and MPEG Camcorder Implementation</h3>
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> and UVC drivers return ED_POWER_ON when the camcorder is on. If the camcorder is off or in standby mode, the DV driver is not loaded, so this method is not available. If the camcorder is removed unexpectedly, the method can return ERROR_GEN_FAILURE.
+The <a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> and UVC drivers return ED_POWER_ON when the camcorder is on. If the camcorder is off or in standby mode, the DV driver is not loaded, so this method is not available. If the camcorder is removed unexpectedly, the method can return ERROR_GEN_FAILURE.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> supports both ED_POWER_OFF and ED_POWER_ON, but not ED_POWER_STANDBY.
+<a href="/windows/desktop/DirectShow/mstape-driver">MSTape</a> supports both ED_POWER_OFF and ED_POWER_ON, but not ED_POWER_STANDBY.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-put_devicepower">IAMExtDevice::put_DevicePower</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamextdevice-put_devicepower">IAMExtDevice::put_DevicePower</a>

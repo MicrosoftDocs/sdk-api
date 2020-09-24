@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Pen::SetCompoundArray</b> method sets the compound array for this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
+			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 ## -parameters
 
@@ -71,22 +71,22 @@ Positive even integer that specifies the number of elements in the
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
 Suppose you want a pen to draw two parallel lines where the width of the first line is 20 percent of the pen's width, the width of the space that separates the two lines is 50 percent of the pen' s width, and the width of the second line is 30 percent of the pen's width. Start by creating a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object and an array of real numbers. You can then set the compound array by passing the array with the values 0.0, 0.2, 0.7, and 1.0 to the <b>Pen::SetCompoundArray</b> method of the 
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object and an array of real numbers. You can then set the compound array by passing the array with the values 0.0, 0.2, 0.7, and 1.0 to the <b>Pen::SetCompoundArray</b> method of the 
 				<b>Pen</b> object.
 
 If you set the alignment of a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw compound lines.
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw compound lines.
 
 
 #### Examples
@@ -94,7 +94,7 @@ If you set the alignment of a
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object and sets the compound array for the pen. The code then draws a line using the 
+						<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object and sets the compound array for the pen. The code then draws a line using the 
 						<b>Pen</b> object.
 
 
@@ -117,21 +117,20 @@ VOID Example_SetCompoundArray(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-drawing-a-custom-dashed-line-use">Drawing a Custom Dashed Line</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-drawing-a-custom-dashed-line-use">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
+<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getcompoundarray">Pen::GetCompoundArray</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getcompoundarray">Pen::GetCompoundArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getcompoundarraycount">Pen::GetCompoundArrayCount</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getcompoundarraycount">Pen::GetCompoundArrayCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>

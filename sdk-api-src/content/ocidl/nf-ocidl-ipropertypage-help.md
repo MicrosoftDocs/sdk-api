@@ -56,7 +56,7 @@ Invokes the property page help in response to an end-user request.
 
 ### -param pszHelpDir [in]
 
-A pointer to the string under the <b>HelpDir</b> key in the property page's CLSID information in the registry. If <b>HelpDir</b> does not exist, this will be the path found in the <b><a href="https://docs.microsoft.com/windows/desktop/com/inprocserver32">InprocServer32</a></b> entry minus the server file name. (Note that <b><a href="https://docs.microsoft.com/windows/desktop/com/localserver32">LocalServer32</a></b> is not checked, because local property pages are not supported).
+A pointer to the string under the <b>HelpDir</b> key in the property page's CLSID information in the registry. If <b>HelpDir</b> does not exist, this will be the path found in the <b><a href="/windows/desktop/com/inprocserver32">InprocServer32</a></b> entry minus the server file name. (Note that <b><a href="/windows/desktop/com/localserver32">LocalServer32</a></b> is not checked, because local property pages are not supported).
 
 ## -returns
 
@@ -85,7 +85,7 @@ The page displayed its own help.
 </dl>
 </td>
 <td width="60%">
-Help is either not provided or is provided only through the information is <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>.
+Help is either not provided or is provided only through the information is <a href="/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>.
 
 </td>
 </tr>
@@ -94,16 +94,15 @@ Help is either not provided or is provided only through the information is <a hr
 ## -remarks
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Calls to this method must occur between calls to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-activate">IPropertyPage::Activate</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-deactivate">IPropertyPage::Deactivate</a>.
+Calls to this method must occur between calls to <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-activate">IPropertyPage::Activate</a> and <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-deactivate">IPropertyPage::Deactivate</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If the page fails this method (such as E_NOTIMPL), then the frame will attempt to use the <b>pszHelpFile</b> and <b>dwHelpContext</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a> structure obtained through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-getpageinfo">IPropertyPage::GetPageInfo</a>. Therefore, the page should either implement <b>IPropertyPage::Help</b> or return help information through <b>IPropertyPage::GetPageInfo</b>.
+If the page fails this method (such as E_NOTIMPL), then the frame will attempt to use the <b>pszHelpFile</b> and <b>dwHelpContext</b> members of the <a href="/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a> structure obtained through <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-getpageinfo">IPropertyPage::GetPageInfo</a>. Therefore, the page should either implement <b>IPropertyPage::Help</b> or return help information through <b>IPropertyPage::GetPageInfo</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>
-
+<a href="/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>

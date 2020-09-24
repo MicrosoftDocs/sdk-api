@@ -57,7 +57,7 @@ Retrieves a list of portable devices connected to the computer.
 
 ### -param pPnPDeviceIDs [in, out]
 
-A caller-allocated array of string pointers that holds the Plug and Play names of all of the connected devices. To learn the required size for this parameter, first call this method with this parameter set to <b>NULL</b> and <i>pcPnPDeviceIDs</i> set to zero, and then allocate a buffer according to the value retrieved by <i>pcPnPDeviceIDs</i>. These names can be used by <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">IPortableDevice::Open</a> to create a connection to a device.
+A caller-allocated array of string pointers that holds the Plug and Play names of all of the connected devices. To learn the required size for this parameter, first call this method with this parameter set to <b>NULL</b> and <i>pcPnPDeviceIDs</i> set to zero, and then allocate a buffer according to the value retrieved by <i>pcPnPDeviceIDs</i>. These names can be used by <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">IPortableDevice::Open</a> to create a connection to a device.
 
 ### -param pcPnPDeviceIDs [in, out]
 
@@ -109,26 +109,25 @@ The <i>pPnPDeviceIDs</i> buffer is too small to hold all the values requested, b
 
 ## -remarks
 
-The list of devices is generated when the device manager is instantiated; it does not refresh as devices connect and disconnect. To refresh the list of connected devices, call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-refreshdevicelist">RefreshDeviceList</a>.
+The list of devices is generated when the device manager is instantiated; it does not refresh as devices connect and disconnect. To refresh the list of connected devices, call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-refreshdevicelist">RefreshDeviceList</a>.
 
 The API allocates the memory for each string pointed to by the <i>pPnPDeviceIDs</i> array. Once your application no longer needs these strings, it must iterate through this array and free the associated memory by calling the <b>CoTaskMemFree</b> function.
 
 
 #### Examples
 
-For an example of how to use this method to enumerate devices, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-devices">Enumerating Devices</a>. For an example of how to use this method to enumerate Services, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-services">Enumerating Services</a>.
+For an example of how to use this method to enumerate devices, see <a href="/windows/desktop/wpd_sdk/enumerating-devices">Enumerating Devices</a>. For an example of how to use this method to enumerate Services, see <a href="/windows/desktop/wpd_sdk/enumerating-services">Enumerating Services</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-devices">Enumerating Devices</a>
+<a href="/windows/desktop/wpd_sdk/enumerating-devices">Enumerating Devices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-services">Enumerating Services</a>
+<a href="/windows/desktop/wpd_sdk/enumerating-services">Enumerating Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>

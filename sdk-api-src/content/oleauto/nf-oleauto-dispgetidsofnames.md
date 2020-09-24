@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Low-level helper for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> that provides machine independence for customized <b>Invoke</b>.
+Low-level helper for <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> that provides machine independence for customized <b>Invoke</b>.
 
 ## -parameters
 
@@ -116,4 +116,3 @@ One or more of the specified names were not known. The returned array of DISPIDs
  
 
 Any of the <b>ITypeInfo::Invoke</b> errors can also be returned.
-

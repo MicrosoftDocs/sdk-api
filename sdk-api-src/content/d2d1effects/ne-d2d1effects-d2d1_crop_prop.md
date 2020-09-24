@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/crop">Crop effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/crop">Crop effect</a>.
 
 ## -enum-fields
 
@@ -61,7 +61,7 @@ The region to be cropped specified as a vector in the form (left, top, width, he
 
 <div class="alert"><b>Note</b>  The rectangle will be truncated if it overlaps the edge boundaries of the input image.</div>
 <div> </div>
-Type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a>
+Type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a>
 
 
 Default value is {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}
@@ -71,9 +71,8 @@ Default value is {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}
 Indicates how the effect handles the crop rectangle falling on fractional pixel coordinates.
           
 
-Type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
+Type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
 
 Default value is D2D1_BORDER_MODE_SOFT.
 
 ### -field D2D1_CROP_PROP_FORCE_DWORD
-

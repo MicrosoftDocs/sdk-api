@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <code>STREAM_ID_MAP</code> structure describes an elementary stream within an MPEG-2 program stream. Used with the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumstreamidmap">IEnumStreamIdMap</a> interface methods.
+The <code>STREAM_ID_MAP</code> structure describes an elementary stream within an MPEG-2 program stream. Used with the <a href="/windows/desktop/api/strmif/nn-strmif-ienumstreamidmap">IEnumStreamIdMap</a> interface methods.
 
 ## -struct-fields
 
@@ -96,5 +96,4 @@ Specifies the offset in bytes for the substream. If no filtering is required, sp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

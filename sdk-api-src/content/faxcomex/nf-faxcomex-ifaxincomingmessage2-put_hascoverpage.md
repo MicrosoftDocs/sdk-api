@@ -63,15 +63,14 @@ A flag that indicates whether the fax has a cover page.
 
 ## -remarks
 
-A received message has a VARIANT_FALSE value when it arrives. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary">routing assistant</a> application can set this to VARIANT_TRUE when it is reassigned. 
+A received message has a VARIANT_FALSE value when it arrives. A <a href="/previous-versions/windows/desktop/fax/-mfax-glossary">routing assistant</a> application can set this to VARIANT_TRUE when it is reassigned. 
 
-A change to this value is not committed to the server until <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-save-vb">IFaxIncomingMessage2::Save</a> is called.
+A change to this value is not committed to the server until <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-save-vb">IFaxIncomingMessage2::Save</a> is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>

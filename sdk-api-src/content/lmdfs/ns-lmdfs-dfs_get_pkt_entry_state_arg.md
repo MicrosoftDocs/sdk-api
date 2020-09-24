@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Input buffer used with the 
-    <a href="https://docs.microsoft.com/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
+    <a href="/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
     code.
 
 ## -struct-fields
@@ -82,24 +82,24 @@ Length of the Level string in bytes.
 #### 1
 
 Return the DFS root or DFS link name. On return the output buffer for the 
-        <a href="https://docs.microsoft.com/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
-        code contains a <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_1">DFS_INFO_1</a> structure.
+        <a href="/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
+        code contains a <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_1">DFS_INFO_1</a> structure.
 
 
 
 #### 2
 
 Return the DFS root or DFS link name, status, and the number of DFS targets. On return the output buffer 
-        for the <a href="https://docs.microsoft.com/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> 
-        control code contains a <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a> structure.
+        for the <a href="/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> 
+        control code contains a <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a> structure.
 
 
 
 #### 3
 
 Return the DFS root or DFS link name, status, and  target information. On return output buffer for the 
-        <a href="https://docs.microsoft.com/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
-        code contains a <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a> structure.
+        <a href="/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
+        code contains a <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a> structure.
 
 
 
@@ -107,8 +107,8 @@ Return the DFS root or DFS link name, status, and  target information. On return
 
 Return the DFS root or DFS link name, status, <b>GUID</b>, time-out, and target 
         information. On return the output buffer for the 
-        <a href="https://docs.microsoft.com/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
-        code contains a <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_4">DFS_INFO_4</a> structure.
+        <a href="/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
+        code contains a <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_4">DFS_INFO_4</a> structure.
 
 
 
@@ -116,8 +116,8 @@ Return the DFS root or DFS link name, status, <b>GUID</b>, time-out, and target
 
 Set the storage state associated with the DFS root or link specified in the DFS Entry Path string. On the 
         return output buffer for the 
-        <a href="https://docs.microsoft.com/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
-        code contains a <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_101">DFS_INFO_101</a> structure.
+        <a href="/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
+        code contains a <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_101">DFS_INFO_101</a> structure.
 
 ### -field Buffer
 
@@ -126,13 +126,12 @@ On input this contains the three Unicode strings in order. The Unicode strings a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-structures">Distributed File System Structures</a>
+<a href="/previous-versions/windows/desktop/dfs/distributed-file-system-structures">Distributed File System Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a>
+<a href="/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>

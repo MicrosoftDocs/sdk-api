@@ -62,11 +62,11 @@ The handle of the catalog that contains the members to enumerate. This value can
 
 ### -param pPrevMember [in]
 
-A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that identifies which member of the catalog was last retrieved. If this parameter is <b>NULL</b>, this function will retrieve the first member of the catalog.
+A pointer to a [CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that identifies which member of the catalog was last retrieved. If this parameter is <b>NULL</b>, this function will retrieve the first member of the catalog.
 
 ## -returns
 
-This function returns a pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that represents the next member of the catalog. If there are no more members in the catalog to enumerate, this function returns <b>NULL</b>.
+This function returns a pointer to a [CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that represents the next member of the catalog. If there are no more members in the catalog to enumerate, this function returns <b>NULL</b>.
 
 ## -remarks
 
@@ -91,5 +91,4 @@ for(pMember = CryptCATEnumerateMember(hCatalog, pMember);
 
 ## -see-also
 
-[CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)
-
+[CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember)

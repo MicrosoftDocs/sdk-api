@@ -54,7 +54,7 @@ The <b>ITfInputProcessorProfileMgr</b> interface is implemented by the TSF manag
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputProcessorProfileMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInputProcessorProfileMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputProcessorProfileMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInputProcessorProfileMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfInputProcessorProfileMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-activateprofile">ActivateProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-activateprofile">ActivateProfile</a>
 </td>
 <td align="left" width="63%">
 Activates the specified text service or keyboard layout.
@@ -78,7 +78,7 @@ Activates the specified text service or keyboard layout.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-deactivateprofile">DeactivateProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-deactivateprofile">DeactivateProfile</a>
 </td>
 <td align="left" width="63%">
 Deactivates the specified text service or keyboard layout.
@@ -87,7 +87,7 @@ Deactivates the specified text service or keyboard layout.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-enumprofiles">EnumProfiles</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-enumprofiles">EnumProfiles</a>
 </td>
 <td align="left" width="63%">
 Enumerates input processor profiles.
@@ -96,7 +96,7 @@ Enumerates input processor profiles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-getactiveprofile">GetActiveProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-getactiveprofile">GetActiveProfile</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current active profile for the category.
@@ -105,7 +105,7 @@ Retrieves the current active profile for the category.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-getprofile">GetProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-getprofile">GetProfile</a>
 </td>
 <td align="left" width="63%">
 Get the profile information of the text service.
@@ -114,7 +114,7 @@ Get the profile information of the text service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-registerprofile">RegisterProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-registerprofile">RegisterProfile</a>
 </td>
 <td align="left" width="63%">
 Registers the text service and adds the profiles.
@@ -123,7 +123,7 @@ Registers the text service and adds the profiles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-releaseinputprocessor">ReleaseInputProcessor</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-releaseinputprocessor">ReleaseInputProcessor</a>
 </td>
 <td align="left" width="63%">
 Releases the input processor.
@@ -132,7 +132,7 @@ Releases the input processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-unregisterprofile">UnregisterProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-unregisterprofile">UnregisterProfile</a>
 </td>
 <td align="left" width="63%">
 Unregisters the text service and associated profiles.
@@ -143,7 +143,7 @@ Unregisters the text service and associated profiles.
 
 ## -remarks
 
-Unlike <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>, ITfInputProcessorProfileMgr
+Unlike <a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>, ITfInputProcessorProfileMgr
  can manage both keyboard layout and text services seamlessly. In Windows Vista, it is recommended to use this interface instead of using the following methods:
 
 <ul>
@@ -159,5 +159,4 @@ Unlike <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-it
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>

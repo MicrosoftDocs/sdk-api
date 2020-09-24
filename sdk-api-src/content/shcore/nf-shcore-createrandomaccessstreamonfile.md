@@ -61,7 +61,7 @@ The fully qualified path of the file to encapsulate.
 
 ### -param accessMode [in]
 
-An <a href="https://docs.microsoft.com/uwp/api/Windows.Storage.FileAccessMode">AccessMode</a> value that specifies the behavior of the <a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates the file.
+An <a href="/uwp/api/Windows.Storage.FileAccessMode">AccessMode</a> value that specifies the behavior of the <a href="/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates the file.
 
 ### -param riid [in]
 
@@ -69,7 +69,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 ### -param ppv [out]
 
-When this method returns successfully, contains the interface pointer requested in <i>riid</i>, typically the <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> that encapsulates the file.
+When this method returns successfully, contains the interface pointer requested in <i>riid</i>, typically the <a href="/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> that encapsulates the file.
 
 ## -returns
 
@@ -77,19 +77,18 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-Use the <b>CreateRandomAccessStreamOnFile</b> function to create a <a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates a file.
+Use the <b>CreateRandomAccessStreamOnFile</b> function to create a <a href="/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a> that encapsulates a file.
 
-We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
+We recommend that you use the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamoverstream">CreateRandomAccessStreamOverStream</a>
+<a href="/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamoverstream">CreateRandomAccessStreamOverStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream">CreateStreamOverRandomAccessStream</a>
+<a href="/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream">CreateStreamOverRandomAccessStream</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a>
-
+<a href="/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>AsnOctetString</b> structure contains octet quantities, usually bytes. This structure is used by multiple SNMP functions. This structure is not used by the 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API</a> functions.
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API</a> functions.
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ The number of octets in the data stream.
 ### -field dynamic
 
 Flag that specifies whether the data stream has been dynamically allocated with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a> function.
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a> function.
 
 ## -remarks
 
@@ -77,21 +77,20 @@ Use the
 <b>AsnOctetString</b> structure to transfer string values. For example, use it to transfer the string that represents a computer name as a MIB object value.
 
 You must check the flag specified in the <b>dynamic</b> member before you release the data stream of an octet string. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a> function only if the <b>dynamic</b> member is set to <b>TRUE</b>.
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a> function only if the <b>dynamic</b> member is set to <b>TRUE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-structures">SNMP Structures</a>
+<a href="/windows/desktop/SNMP/snmp-structures">SNMP Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a>
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a>

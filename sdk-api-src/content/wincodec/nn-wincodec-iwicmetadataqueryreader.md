@@ -54,7 +54,7 @@ Exposes methods for retrieving metadata blocks and items from a decoder or its i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataQueryReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataQueryReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataQueryReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataQueryReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICMetadataQueryReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getcontainerformat">GetContainerFormat</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getcontainerformat">GetContainerFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata query readers container format.
@@ -78,7 +78,7 @@ Gets the metadata query readers container format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getenumerator">GetEnumerator</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getenumerator">GetEnumerator</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator of all metadata items at the current relative location within the metadata hierarchy.
@@ -87,7 +87,7 @@ Gets an enumerator of all metadata items at the current relative location within
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getlocation">GetLocation</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getlocation">GetLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current path relative to the root metadata block.
@@ -96,7 +96,7 @@ Retrieves the current path relative to the root metadata block.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getmetadatabyname">GetMetadataByName</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getmetadatabyname">GetMetadataByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the metadata block or item identified by a metadata query expression. 
@@ -107,13 +107,13 @@ Retrieves the metadata block or item identified by a metadata query expression.
 
 ## -remarks
 
-A metadata query reader uses metadata query expressions to access embedded metadata. For more information on the metadata query language, see the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>.
+A metadata query reader uses metadata query expressions to access embedded metadata. For more information on the metadata query language, see the <a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>.
 
 The benefit of the query reader is the ability to access a metadata item in a single step.
 
 
-The query reader also provides the way to traverse the whole set of metadata hierarchy with the help of the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getenumerator">GetEnumerator</a> method.
-However, it is not recommended to use this method since <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader">IWICMetadataBlockReader</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a> provide a more convenient and cheaper way.
+The query reader also provides the way to traverse the whole set of metadata hierarchy with the help of the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getenumerator">GetEnumerator</a> method.
+However, it is not recommended to use this method since <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader">IWICMetadataBlockReader</a> and <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a> provide a more convenient and cheaper way.
 
 
 
@@ -165,13 +165,12 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
+<a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
+<a href="/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
-
+<a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>

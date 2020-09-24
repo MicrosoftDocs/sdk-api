@@ -53,7 +53,7 @@ api_name:
 Reads a qualified name and separates it into its prefix, localName 
         and namespace based on the current namespace scope of the XML_READER. 
         If the ns parameter is specified, then the namespace that the prefix 
-        is bound to will be returned, or <b>WS_E_INVALID_FORMAT</b>will be returned. (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.) The strings are placed in the specified heap.
+        is bound to will be returned, or <b>WS_E_INVALID_FORMAT</b>will be returned. (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.) The strings are placed in the specified heap.
 
 ## -parameters
 
@@ -104,4 +104,3 @@ The input data was not in the expected format or did not have the expected value
 </td>
 </tr>
 </table>
-

@@ -57,7 +57,7 @@ The <b>IDsObjectPicker::Initialize</b> method initializes the object picker dial
 ### -param pInitInfo
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> structure that contains the initialization data.
+<a href="/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> structure that contains the initialization data.
 
 ## -returns
 
@@ -65,17 +65,16 @@ Returns a standard error code or one of the following values.
 
 ## -remarks
 
-<b>IDsObjectPicker::Initialize</b> can be called more than once and the last call takes precedence. The <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nn-objsel-idsobjectpicker">IDsObjectPicker</a> object will completely re-initialize itself in response  to this method.
+<b>IDsObjectPicker::Initialize</b> can be called more than once and the last call takes precedence. The <a href="/windows/desktop/api/objsel/nn-objsel-idsobjectpicker">IDsObjectPicker</a> object will completely re-initialize itself in response  to this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a>
+<a href="/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
+<a href="/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nn-objsel-idsobjectpicker">IDsObjectPicker</a>
-
+<a href="/windows/desktop/api/objsel/nn-objsel-idsobjectpicker">IDsObjectPicker</a>
