@@ -75,18 +75,18 @@ The following code example shows how to use this method:
 <pre class="syntax" xml:space="preserve"><code> 
 D3D12_MESSAGE_CATEGORY cats[] = { ..., ..., ... };
 D3D12_MESSAGE_SEVERITY sevs[] = { ..., ..., ... };
-UINT ids[] = { ..., ..., ... };
+D3D12_MESSAGE_ID ids[] = { ..., ..., ... };
 
 D3D12_INFO_QUEUE_FILTER filter;
 memset( &amp;filter, 0, sizeof(filter) );
 
 // To set the type of messages to allow, 
 // set filter.AllowList as follows:
-filter.AllowList.NumCategories = sizeof(cats / sizeof(D3D12_MESSAGE_CATEGORY)); 
+filter.AllowList.NumCategories = _countof(cats);
 filter.AllowList.pCategoryList = cats;
-filter.AllowList.NumSeverities = sizeof(sevs / sizeof(D3D12_MESSAGE_SEVERITY)); 
+filter.AllowList.NumSeverities = _countof(sevs);
 filter.AllowList.pSeverityList = sevs;
-filter.AllowList.NumIDs = sizeof(ids) / sizeof(UINT);
+filter.AllowList.NumIDs = _countof(ids);
 filter.AllowList.pIDList = ids;
 
 // To set the type of messages to deny, set filter.DenyList 
