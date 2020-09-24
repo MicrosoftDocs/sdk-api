@@ -64,24 +64,24 @@ Retrieves a pointer to the specified resource in memory.
 
 ### -param hResData [in]
 
-Type: <b>HGLOBAL</b>
+Type: **HGLOBAL**
 
-A handle to the resource to be accessed. The <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a> function returns this handle. Note that this parameter is listed as an <b>HGLOBAL</b> variable only for backward compatibility. Do not pass any value as a parameter other than a successful return value from the <b>LoadResource</b> function.
+A handle to the resource to be accessed. The [LoadResource function](nf-libloaderapi-loadresource.md) returns this handle. Note that this parameter is listed as an **HGLOBAL** variable only for backward compatibility. Do not pass any value as a parameter other than a successful return value from the **LoadResource** function.
 
 ## -returns
 
-Type: <b>LPVOID</b>
+Type: **LPVOID**
 
-If the loaded resource is available, the return value is a pointer to the first byte of the resource; otherwise, it is <b>NULL</b>.
+If the loaded resource is available, the return value is a pointer to the first byte of the resource; otherwise, it is **NULL**.
 
 ## -remarks
 
-The pointer returned by <b>LockResource</b> is valid until the module containing the resource is unloaded. It is not necessary to unlock resources because the system automatically deletes them when the process that created them terminates.
+The pointer returned by **LockResource** is valid until the module containing the resource is unloaded. It is not necessary to unlock resources because the system automatically deletes them when the process that created them terminates.
 
-Do not try to lock a resource by using the handle returned by the <a href="https://msdn.microsoft.com/00f14551-5381-4499-a13a-86f15dd4e618">FindResource</a> or <a href="https://msdn.microsoft.com/3a9bfcca-68d8-4705-914b-dae844b5e0c3">FindResourceEx</a> function. Such a handle points to random data. 
+Do not try to lock a resource by using the handle returned by the [FindResourceA function](/windows/win32/api/winbase/nf-winbase-findresourcea) or [FindResourceExA function](/windows/win32/api/winbase/nf-winbase-findresourceexa) function. Such a handle points to random data. 
 
 > [!Note]
-> **LockResource** does not actually lock memory; it is just used to obtain a pointer to the memory containing the resource data. The name of the function comes from versions prior to Windows XP, when it was used to lock a global memory block allocated by [**LoadResource**](nf-libloaderapi-loadresource.md).
+> **LockResource** does not actually lock memory; it is just used to obtain a pointer to the memory containing the resource data. The name of the function comes from versions prior to Windows XP, when it was used to lock a global memory block allocated by [LoadResource](nf-libloaderapi-loadresource.md).
 
 #### Examples
 
@@ -89,14 +89,14 @@ For an example, see [Updating Resources](/windows/win32/menurc/using-resources#u
 
 ## -see-also
 
-<b>Conceptual</b>
+### Conceptual
 
-<a href="https://msdn.microsoft.com/00f14551-5381-4499-a13a-86f15dd4e618">FindResource</a>
+- [Resources](/windows/win32/menurc/resources)
 
-<a href="https://msdn.microsoft.com/3a9bfcca-68d8-4705-914b-dae844b5e0c3">FindResourceEx</a>
+### Reference
 
-<a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>
+- [Menus and Other Resources](/windows/win32/api/_menurc/)
+- [FindResourceA function](/windows/win32/api/winbase/nf-winbase-findresourcea)
+= [FindResourceExA function](/windows/win32/api/winbase/nf-winbase-findresourceexa)
+- [LoadResource function](nf-libloaderapi-loadresource.md)
 
-<b>Reference</b>
-
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
