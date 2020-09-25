@@ -55,14 +55,14 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> for the system default UI language of the operating system, also known as the "install language" on Windows Vista and later. For more information, see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
+Retrieves the [language identifier](/windows/desktop/Intl/language-identifiers) for the system default UI language of the operating system (also known as the "install language" on Windows Vista and later). For more information, see [User Interface Language Management](/windows/desktop/Intl/user-interface-language-management).
 
 > [!Important]
-> Use of this function is not recommended. We recommend using the User language settings for the following reasons.
+> Use of this function is not recommended. Instead, we recommend using the [User language settings](/windows/win32/intl/setting-application-language-preferences) for the following reasons.
 >
 > - "Install language" is only set during the Out of Box Experience (OOBE) and then never changes. If the system language is changed, this function returns an incorrect value.
 > - WCOS SKUs always return an incorrect value.
-> - Deprecated LANGIDs are used.
+> - This function uses deprecated LANGIDs.
 
 ## -parameters
 
@@ -72,11 +72,11 @@ Returns the language identifier for the system default UI language of the operat
 
 ## -remarks
 
-This function never returns a language identifier for a Language Interface Pack (LIP). It also never returns a language identifier corresponding to the locale identifier <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a> or <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>.
+This function never returns a language identifier for a Language Interface Pack (LIP). It also never returns a language identifier corresponding to the locale identifier [LOCALE_CUSTOM_UNSPECIFIED](/windows/desktop/Intl/locale-custom-constants) or [LOCALE_CUSTOM_UI_DEFAULT](/windows/desktop/Intl/locale-custom-constants).
 
-Note that this function does not necessarily return the identifier for the first language in the system preferred UI languages list. Therefore the return might not match the first element retrieved by <a href="/windows/desktop/api/winnls/nf-winnls-getsystempreferreduilanguages">GetSystemPreferredUILanguages</a>.
+Note that this function does not necessarily return the identifier for the first language in the system preferred UI languages list. Therefore the return might not match the first element retrieved by [GetSystemPreferredUILanguages](/windows/desktop/api/winnls/nf-winnls-getsystempreferreduilanguages).
 
-<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
+### C# Signature
 
 ```cpp
 [DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
@@ -86,20 +86,4 @@ Note that this function does not necessarily return the identifier for the first
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
-
-
-
-<a href="/windows/desktop/api/winnls/nf-winnls-getsystempreferreduilanguages">GetSystemPreferredUILanguages</a>
-
-
-
-<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a>
-
-
-
-<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
-
-
-
-<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
+[EnumUILanguages](/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa), [GetSystemPreferredUILanguages](/windows/desktop/api/winnls/nf-winnls-getsystempreferreduilanguages), [GetUserDefaultUILanguage](/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage), [Multilingual User Interface](/windows/desktop/Intl/multilingual-user-interface), [Multilingual User Interface Functions](/windows/desktop/Intl/multilingual-user-interface-functions)
