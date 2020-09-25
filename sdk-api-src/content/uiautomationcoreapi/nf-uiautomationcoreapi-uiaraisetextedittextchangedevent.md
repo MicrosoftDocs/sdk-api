@@ -6,7 +6,7 @@ helpviewer_keywords: ["UiaRaiseTextEditTextChangedEvent","UiaRaiseTextEditTextCh
 old-location: winauto\uiauto_UiaRaiseTextEditTextChangedEventFunction.htm
 tech.root: WinAuto
 ms.assetid: 19E7C2C1-D0D5-672F-FC6F-8E1B8CC19819
-ms.date: 12/05/2018
+ms.date: 09/24/2020
 ms.keywords: UiaRaiseTextEditTextChangedEvent, UiaRaiseTextEditTextChangedEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseTextEditTextChangedEvent, winauto.uiauto_UiaRaiseTextEditTextChangedEventFunction
 req.header: uiautomationcoreapi.h
 req.include-header: 
@@ -48,7 +48,6 @@ api_name:
 ---
 
 # UiaRaiseTextEditTextChangedEvent function
-
 
 ## -description
 
