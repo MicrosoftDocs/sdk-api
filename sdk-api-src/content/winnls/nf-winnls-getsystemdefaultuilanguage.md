@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetSystemDefaultUILanguage","GetSystemDefaultUILanguage f
 old-location: intl\getsystemdefaultuilanguage.htm
 tech.root: Intl
 ms.assetid: 34fc125d-0f0b-43d0-aa2b-91501bd6cd26
-ms.date: 12/05/2018
+ms.date: 09/24/2020
 ms.keywords: GetSystemDefaultUILanguage, GetSystemDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetSystemDefaultUILanguage, intl.getsystemdefaultuilanguage, winnls/GetSystemDefaultUILanguage
 req.header: winnls.h
 req.include-header: Windows.h
@@ -53,10 +53,16 @@ api_name:
 
 # GetSystemDefaultUILanguage function
 
-
 ## -description
 
 Retrieves the <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> for the system default UI language of the operating system, also known as the "install language" on Windows Vista and later. For more information, see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
+
+> [!Important]
+> Use of this function is not recommended. We recommend using the User language settings for the following reasons.
+>
+> - "Install language" is only set during the Out of Box Experience (OOBE) and then never changes. If the system language is changed, this function returns an incorrect value.
+> - WCOS SKUs always return an incorrect value.
+> - Deprecated LANGIDs are used.
 
 ## -parameters
 
