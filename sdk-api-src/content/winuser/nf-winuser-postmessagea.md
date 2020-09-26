@@ -149,7 +149,7 @@ Do not post the <a href="/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message us
 
  An accessibility application can use <b>PostMessage</b> to post <a href="/windows/desktop/inputdev/wm-appcommand">WM_APPCOMMAND</a> messages  to the shell to launch applications. This  functionality is not guaranteed to work for other types of applications.
 
-There is a limit of 10,000 posted messages per message queue. This limit should be sufficiently large.  If your application exceeds the limit, it should be redesigned to avoid consuming so many system resources. To adjust this limit, modify the following registry key.
+A message queue can contain at most 10,000 messages. This limit should be sufficiently large.  If your application exceeds the limit, it should be redesigned to avoid consuming so many system resources. To adjust this limit, modify the following registry key.
 				
 				
 
