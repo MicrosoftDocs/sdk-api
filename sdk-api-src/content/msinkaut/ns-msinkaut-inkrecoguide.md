@@ -58,35 +58,24 @@ Deprecated. Represents information about the <b>recognition guide</b>. Use the <
 
 ### -field rectWritingBox
 
+Deprecated.
+
 ### -field rectDrawnBox
+
+Deprecated.
 
 ### -field cRows
 
+Deprecated.
+
 ### -field cColumns
+
+Deprecated.
 
 ### -field midline
 
- 
+Deprecated.
 
-
-
-
-#### - DISPID_IRGColumns
-
-
-#### - DISPID_IRGDrawnBox
-
-
-#### - DISPID_IRGGuideData
-
-
-#### - DISPID_IRGMidline
-
-
-#### - DISPID_IRGRows
-
-
-#### - DISPID_IRGWritingBox
 
 ## -see-also
 

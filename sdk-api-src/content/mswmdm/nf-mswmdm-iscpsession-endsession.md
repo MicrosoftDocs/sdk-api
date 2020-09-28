@@ -64,10 +64,6 @@ Pointer to the context.
 <b>DWORD</b> containing the size of context.
 
 
-#### - pIDevice [in]
-
-Pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> object.
-
 ## -returns
 
 If the method succeeds, it returns S_OK. If the method fails, it returns an <b>HRESULT</b> error code.

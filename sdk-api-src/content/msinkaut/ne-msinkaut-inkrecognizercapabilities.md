@@ -56,6 +56,8 @@ Specifies the attributes of a recognizer. You also use this enumeration to deter
 
 ### -field IRC_DontCare
 
+Ignores all other flags that are set.
+
 ### -field IRC_Object
 
 The recognizer performs object recognition; otherwise, the recognizer performs text recognition.
@@ -126,9 +128,8 @@ The recognizer supports personalization.
 
 ### -field IRC_Beta
 
-#### - [Hidden] IRC_DontCare
 
-Ignores all other flags that are set.
+
 
 ## -remarks
 

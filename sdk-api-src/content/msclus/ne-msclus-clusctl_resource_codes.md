@@ -544,41 +544,6 @@ See <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-state-
 
 ### -field CLUSCTL_RESOURCE_SCALEOUT_GET_CLUSTERS
 
-#### - CLUSCTL_RESOURCE_FILESERVER_SHARE_ADD
-
-See 
-       <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-fileserver-share-add">CLUSCTL_RESOURCE_FILESERVER_SHARE_ADD</a>.
-
-
-#### - CLUSCTL_RESOURCE_FILESERVER_SHARE_DEL
-
-See 
-       <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-fileserver-share-del">CLUSCTL_RESOURCE_FILESERVER_SHARE_DEL</a>.
-
-
-#### - CLUSCTL_RESOURCE_FILESERVER_SHARE_MODIFY
-
-See 
-       <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-fileserver-share-modify">CLUSCTL_RESOURCE_FILESERVER_SHARE_MODIFY</a>.
-
-
-#### - CLUSCTL_RESOURCE_FILESERVER_SHARE_REPORT
-
-See 
-       <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-fileserver-share-report">CLUSCTL_RESOURCE_FILESERVER_SHARE_REPORT</a>.
-
-
-#### - CLUSCTL_RESOURCE_NETNAME_CREDS_UPDATED
-
-See 
-       <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-netname-creds-updated">CLUSCTL_RESOURCE_NETNAME_CREDS_UPDATED</a>.
-
-
-#### - CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK
-
-See 
-       <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-storage-cluster-disk">CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK</a>.
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

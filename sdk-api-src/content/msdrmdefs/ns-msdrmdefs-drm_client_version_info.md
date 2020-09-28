@@ -103,6 +103,8 @@ Array of type <b>WCHAR</b> that receives the hierarchy information, such as Prod
 
 ### -field wszProductId
 
+Array of type <b>WCHAR</b> that receives the product ID. This member  is not currently filled by the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
+
 ### -field wszProductDescription
 
 Array of type <b>WCHAR</b> that receives the product description. This member is not currently filled by the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
@@ -111,9 +113,6 @@ Array of type <b>WCHAR</b> that receives the product description. This member is
 
 TBD
 
-### -field wszProductID
-
-Array of type <b>WCHAR</b> that receives the product ID. This member  is not currently filled by the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
 
 ## -see-also
 

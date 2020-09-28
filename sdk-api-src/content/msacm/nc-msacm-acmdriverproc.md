@@ -56,37 +56,24 @@ The <b>acmDriverProc</b> function specifies a callback function used with the AC
 
 ### -param Arg1
 
-### -param Arg2
-
-### -param Arg3
-
-### -param Arg4
-
-### -param Arg5
-
-#### - dwID
-
 Identifier of the installable ACM driver.
 
-
-#### - hdrvr
+### -param Arg2
 
 Handle to the installable ACM driver. This parameter is a unique handle the ACM assigns to the driver.
 
-
-#### - lParam1
-
-Message parameter.
-
-
-#### - lParam2
-
-Message parameter.
-
-
-#### - uMsg
+### -param Arg3
 
 ACM driver message.
+
+### -param Arg4
+
+Message parameter.
+
+### -param Arg5
+
+Message parameter.
+
 
 ## -returns
 

@@ -56,6 +56,8 @@ Defines values that specify the state of a cursor button.
 
 ### -field ICBS_Unavailable
 
+The cursor button is unavailable. A cursor button may become unavailable, for example, when a cursor leaves the range of Tablet PC.
+
 ### -field ICBS_Up
 
 The cursor button is up. A button on a pen tip is up when the pen is not pressed against the digitizer. A button on a pen barrel is up when the button is not depressed.
@@ -64,10 +66,6 @@ The cursor button is up. A button on a pen tip is up when the pen is not pressed
 
 The cursor button is down. A button on a pen tip is down when the user lowers the pen to the digitizer and draws a stroke. For a button on a barrel, the button is down when the button is depressed.
 
-
-#### - ICBS_CursorUnavailable
-
-The cursor button is unavailable. A cursor button may become unavailable, for example, when a cursor leaves the range of Tablet PC.
 
 ## -remarks
 

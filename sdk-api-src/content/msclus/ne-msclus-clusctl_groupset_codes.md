@@ -89,6 +89,7 @@ See <a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-provider-
 
 ### -field CLUSCTL_GROUPSET_GET_ID
 
-#### - CLUSCTL_GROUP_GET_ID
-
 See CLCTL_GET_ID.
+
+
+
