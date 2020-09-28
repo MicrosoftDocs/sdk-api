@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about character formatting in a rich edit control.<b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages.
+Contains information about character formatting in a rich edit control. <b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages.
 
 ## -struct-fields
 
@@ -69,11 +69,7 @@ Specifies the size, in bytes, of the structure. Before passing this structure to
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Specifies the parts of the <b>CHARFORMAT2</b> structure that contain valid information. The 
-					<b>dwMask</b> member can be a combination of the values from two sets of bit flags. One set indicates the structure members that are valid. Another set indicates the valid attributes in the 
-					<b>dwEffects</b> member. 
-                    
-
+Specifies the parts of the <b>CHARFORMAT2</b> structure that contain valid information. The <b>dwMask</b> member can be a combination of the values from two sets of bit flags. One set indicates the structure members that are valid. Another set indicates the valid attributes in the <b>dwEffects</b> member. 
 
 Set the following values to indicate the valid attributes of the <b>dwEffects</b> member.
 
@@ -1161,7 +1157,24 @@ An index that identifies the author making a revision. The rich edit control use
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-Underline color.
+Underline color:
+
+* UnderlineColor_Black = 0x00;
+* UnderlineColor_Blue = 0x01;
+* UnderlineColor_Aqua = 0x02;
+* UnderlineColor_Lime = 0x03;
+* UnderlineColor_Fuchsia = 0x04;
+* UnderlineColor_Red = 0x05;
+* UnderlineColor_Yellow = 0x06;
+* UnderlineColor_White = 0x07;
+* UnderlineColor_Navy = 0x08;
+* UnderlineColor_Teal = 0x09;
+* UnderlineColor_Green = 0x0A;
+* UnderlineColor_Purple = 0x0B;
+* UnderlineColor_Maroon = 0x0C;
+* UnderlineColor_Olive = 0x0D;
+* UnderlineColor_DkGray = 0x0E;
+* UnderlineColor_LtGray = 0x0F;
 
 ## -remarks
 

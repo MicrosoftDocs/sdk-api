@@ -305,9 +305,7 @@ Text color. This member is ignored if the CFE_AUTOCOLOR character effect is spec
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-Character set value. The 
-					<b>bCharSet</b> member can be one of the values specified for the 
-					<b>lfCharSet</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. Microsoft Rich Edit 3.0 may override this value if it is invalid for the target characters.
+Character set value. The <b>bCharSet</b> member can be one of the values specified for the <b>lfCharSet</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. Microsoft Rich Edit 3.0 may override this value if it is invalid for the target characters.
 
 ### -field bPitchAndFamily
 
