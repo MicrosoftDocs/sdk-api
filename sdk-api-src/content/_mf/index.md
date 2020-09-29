@@ -21,6 +21,7 @@ To develop Microsoft Media Foundation, you need these headers:
  * [dxvahd.h](../dxvahd/index.md)
  * [evr.h](../evr/index.md)
  * [evr9.h](../evr9/index.md)
+ * [icodecapi.h](../icodecapi/index.md)
  * [ksopmapi.h](../ksopmapi/index.md)
  * [mfapi.h](../mfapi/index.md)
  * [mfcaptureengine.h](../mfcaptureengine/index.md)
