@@ -102,7 +102,7 @@ The last 4 bits (bits 12-15) of <b>Packed</b> assigned to the <b>w</b>member of 
 
 
 
-<a href="https://msdn.microsoft.com/12807b12-3f95-49fd-949c-f29eee2f44c3">XMUNIBBLE4</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
 
 

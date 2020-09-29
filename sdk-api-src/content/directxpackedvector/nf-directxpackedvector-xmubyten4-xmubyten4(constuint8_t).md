@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/552002c1-0000-44a6-9f43-9c958a8d1aa3">XMUBYTEN4</a> from a four element <code>uint8_t</code> array argument.
+Initializes a new instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a> from a four element <code>uint8_t</code> array argument.
 
 This constructor initializes a new instance of **XMUBYTEN4** from a four element <code>uint8_t</code> array argument.
 

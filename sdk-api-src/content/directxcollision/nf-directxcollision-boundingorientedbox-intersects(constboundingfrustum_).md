@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Tests the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> for intersection with a [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
+Tests the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> for intersection with a [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -parameters
 
@@ -59,7 +59,7 @@ The [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) to test for inte
 
 ## -returns
 
-A boolean value indicating whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> intersects the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
+A boolean value indicating whether the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> intersects the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>
 
 
 

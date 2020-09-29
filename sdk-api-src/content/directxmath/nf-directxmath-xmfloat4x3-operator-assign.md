@@ -65,6 +65,6 @@ The current instance of <code>XMFLOAT4X3</code> whose vector component data has 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/56bf0a03-e3ea-43ed-a57e-b53f41348ffa">XMFLOAT4X3</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>
 
 <a href="https://msdn.microsoft.com/bcf2420c-cd66-4a50-9222-d74039867871">XMFLOAT4X3 Operators</a>

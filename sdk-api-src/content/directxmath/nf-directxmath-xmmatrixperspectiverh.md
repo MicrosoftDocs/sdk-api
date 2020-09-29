@@ -87,4 +87,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/00b349d9-4c79-4962-8b4c-c590e80350c2">XMMatrixPerspectiveLH</a>
+<a href="/windows/win32/api/directxmath/nf-directxmath-xmmatrixperspectivelh">XMMatrixPerspectiveLH</a>

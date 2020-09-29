@@ -58,7 +58,7 @@ Contains information about the result of hyphenation in a Microsoft Rich Edit co
 
 ### -field khyph
 
-Type: <b><a href="https://msdn.microsoft.com/900cae36-d2e3-4a30-97ca-1cc832fd2687">KHYPH</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ne-richedit-khyph">KHYPH</a></b>
 
 The type of hyphenation.
 
@@ -76,15 +76,15 @@ The character used when hyphenation requires a replacement or an addition or a c
 
 ## -remarks
 
-This structure is used with the <a href="https://msdn.microsoft.com/2463189e-98cf-4545-a435-474df74e1a22">HYPHENATEINFO</a> structure.
+This structure is used with the <a href="/windows/win32/api/richedit/ns-richedit-hyphenateinfo">HYPHENATEINFO</a> structure.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/2463189e-98cf-4545-a435-474df74e1a22">HYPHENATEINFO</a>
+<a href="/windows/win32/api/richedit/ns-richedit-hyphenateinfo">HYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/900cae36-d2e3-4a30-97ca-1cc832fd2687">KHYPH</a>
+<a href="/windows/win32/api/richedit/ne-richedit-khyph">KHYPH</a>
 
 
 

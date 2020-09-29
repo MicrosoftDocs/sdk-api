@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMUBYTEN4</code>
 
-A constructor for <a href="https://msdn.microsoft.com/552002c1-0000-44a6-9f43-9c958a8d1aa3">XMUBYTEN4</a>
+A constructor for <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 

@@ -69,4 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6E8A32CF-99F6-4C4D-A6EE-A05A1E601793">IBackgroundCopyJobHttpOptions2</a>
+<a href="/windows/win32/api/bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2">IBackgroundCopyJobHttpOptions2</a>

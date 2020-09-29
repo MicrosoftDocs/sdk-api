@@ -70,7 +70,7 @@ The <b>ID3D10BlendState1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/edddc555-47f2-4baa-8312-8ececafca07a">GetDesc1</a>
+<a href="/windows/win32/api/d3d10_1/nf-d3d10_1-id3d10blendstate1-getdesc1">GetDesc1</a>
 </td>
 <td align="left" width="63%">
 Get the blend state.

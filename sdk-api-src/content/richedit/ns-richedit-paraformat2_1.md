@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages.
+Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-paraformat">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Contains information about paragraph formatting attributes in a rich edit contro
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
+Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="/windows/win32/api/richedit/ns-richedit-paraformat">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
 
 
 #### - dwMask
@@ -1841,4 +1841,4 @@ Light gray
 
 
 
-<a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>

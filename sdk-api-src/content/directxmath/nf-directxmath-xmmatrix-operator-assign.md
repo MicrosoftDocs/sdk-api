@@ -53,7 +53,7 @@ Assigns the matrix data of one instance of <code>XMMATRIX</code> to the current 
 	<code>XMMATRIX</code> and returns a <code>reference</code> to the current instance.  
     
 
-This operator assigns the matrix data of one instance of <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>to the current instance of <code>XMMATRIX</code> and returns a <code>reference</code> to the current
+This operator assigns the matrix data of one instance of <a href="/windows/win32/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>to the current instance of <code>XMMATRIX</code> and returns a <code>reference</code> to the current
 	instance.
 <div class="alert"><b>Note</b>  This operator is only available when developing with C++.</div><div> </div>
 
@@ -99,7 +99,7 @@ The following pseudocode demonstrates the operation of this operator:
 
 
 
-<a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
 
 

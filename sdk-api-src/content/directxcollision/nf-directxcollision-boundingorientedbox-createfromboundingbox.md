@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> from a [BoundingBox](./ns-directxcollision-boundingbox.md).
+Creates a <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> from a [BoundingBox](./ns-directxcollision-boundingbox.md).
 
 ## -parameters
 
 ### -param Out [out, ref]
 
-The new <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+The new <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ### -param box [in, ref]
 
-The [BoundingBox](./ns-directxcollision-boundingbox.md) the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> should contain.
+The [BoundingBox](./ns-directxcollision-boundingbox.md) the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> should contain.
 
 ## -remarks
 
@@ -69,7 +69,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>
 
 
 

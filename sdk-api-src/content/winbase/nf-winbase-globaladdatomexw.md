@@ -58,9 +58,9 @@ Adds a character string to the global atom table and returns a unique value (an 
 
 ### -param lpString [in, optional]
 
-The null-terminated string to be added. The string can have a maximum size of 255 bytes. Strings that differ only in case are considered identical. The case of the first string of this name added to the table is preserved and returned by the <a href="https://msdn.microsoft.com/7ba8ea4d-7efe-4eb3-afea-c84ab6cacaea">GlobalGetAtomName</a> function.
+The null-terminated string to be added. The string can have a maximum size of 255 bytes. Strings that differ only in case are considered identical. The case of the first string of this name added to the table is preserved and returned by the <a href="/windows/win32/api/winbase/nf-winbase-globalgetatomnamea">GlobalGetAtomName</a> function.
 
-Alternatively, you can use an integer atom that has been converted using the <a href="https://msdn.microsoft.com/11270568-ef0e-4bed-9e07-cb62773178ff">MAKEINTATOM</a> macro. See the Remarks for more information.
+Alternatively, you can use an integer atom that has been converted using the <a href="/windows/win32/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a> macro. See the Remarks for more information.
 
 ### -param Flags [in]
 
@@ -72,7 +72,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/890c8c69-5a8e-42be-9eaf-84f9ccaa7e3d">GlobalAddAtom</a>
+<a href="/windows/win32/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a>
 
 ## -remarks
 

@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Tests whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> contains a [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
+Tests whether the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> contains a [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -parameters
 
@@ -59,7 +59,7 @@ The [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) to test against.
 
 ## -returns
 
-A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> indicating whether the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) is contained in the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+A <a href="/windows/win32/api/directxcollision/ne-directxcollision-containmenttype">ContainmentType</a> indicating whether the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) is contained in the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>
 
 
 

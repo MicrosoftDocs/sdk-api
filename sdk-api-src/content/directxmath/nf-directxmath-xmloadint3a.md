@@ -54,7 +54,7 @@ Loads 16-byte aligned data into the <b>x</b>, <b>y</b>, and <b>z</b> components 
   <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>, without type checking.
 <div class="alert"><b>Note</b>  This function is provided for backward compatibility with the Xbox Math library. You should use
   <b>XMLoadInt3A</b> when you load integer data, and
-  <a href="https://msdn.microsoft.com/009681d9-8e9b-4436-bd76-0c38c9035d10">XMLoadFloat3A</a> when you load floating point data.</div><div> </div>
+  <a href="/windows/win32/api/directxmath/nf-directxmath-xmloadfloat3a">XMLoadFloat3A</a> when you load floating point data.</div><div> </div>
 
 ## -parameters
 

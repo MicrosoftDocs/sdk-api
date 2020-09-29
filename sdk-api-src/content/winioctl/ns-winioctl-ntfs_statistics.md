@@ -357,4 +357,4 @@ For additional statistics that are only available with Windows 10, use <a href=
 
 
 
-<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
+<a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a>

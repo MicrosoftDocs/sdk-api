@@ -73,11 +73,11 @@ Color of background. To generate a <a href="/windows/desktop/gdi/colorref">COLOR
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Character effect values as described for the 
-					<b>dwEffects</b> member in the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> structure.
+					<b>dwEffects</b> member in the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> structure.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
 
 
 

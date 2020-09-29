@@ -52,7 +52,7 @@ api_name:
 Returns a <code>reference</code> to a matrix element of an instance <code>XMMATRIX</code> as specified by row and column
   arguments.
 
-This operator returns a <code>reference</code> to a matrix element of an instance <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a> as
+This operator returns a <code>reference</code> to a matrix element of an instance <a href="/windows/win32/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> as
   specified by row and column arguments.
 <div class="alert"><b>Note</b>  This operator is only available when developing with C++.</div><div> </div>
 
@@ -99,7 +99,7 @@ will set the value of the <i>mat.m[1][2]</i> to 42.0.
 
 
 
-<a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
 
 

@@ -55,7 +55,7 @@ Assigns the vector component data packed in an instance of <code>uint16_t</code>
     
 
 Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current
-	instance of <a href="https://msdn.microsoft.com/58c9ee71-d038-4664-9fac-5a074b60e9c3">XMU565</a>.
+	instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
@@ -100,7 +100,7 @@ The third 5 bits (bits 11-15) of <b>Packed</b> assigned to the <b>z</b>member of
 
 
 
-<a href="https://msdn.microsoft.com/58c9ee71-d038-4664-9fac-5a074b60e9c3">XMU565</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
 
 

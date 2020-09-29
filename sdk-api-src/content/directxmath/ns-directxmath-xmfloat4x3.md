@@ -58,7 +58,7 @@ For a list of additional functionality such as constructors and operators that a
   are programming in C++, see <a href="https://msdn.microsoft.com/6745ae3e-a0b5-4b3d-99d3-b6b024e1bea4">XMFLOAT4X3 Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type Equivalences</a> for information about
   equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and
-  <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.</div><div> </div>
+  <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.</div><div> </div>
 
 ## -struct-fields
 
@@ -138,10 +138,10 @@ The two dimensional 4*3 array member of <code>XMFLOAT4X3</code>, <b>m</b>, provi
    matrix. When accessing <code>XMFLOAT4X3</code><b>m[</b><i>Row</i><b>,</b><i>Col</i><b>]</b>, <i>Row</i> can run from 0 to 3 and <i>Col</i> can run from 0 to 2.
 
 <code>XMFLOAT4X3</code> can be loaded into instances of <a href="/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by using
-   <a href="https://msdn.microsoft.com/92a8a98c-1937-4da7-9360-c97663c8df76">XMLoadFloat4x3</a>.
+   <a href="/windows/win32/api/directxmath/nf-directxmath-xmloadfloat4x3">XMLoadFloat4x3</a>.
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT4X3</code> with
-   <a href="https://msdn.microsoft.com/bff9f139-206d-4104-b1e7-bb8353d5e379">XMStoreFloat4x3</a>.
+   <a href="/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4x3">XMStoreFloat4x3</a>.
 
 <b>Namespace:</b> Use DirectX
 

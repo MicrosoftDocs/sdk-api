@@ -343,7 +343,7 @@ The number of volume level trim operations issued.
 
 ### -field VolumeTrimTime
 
-The total time elapsed during all volume level trim operations.  This value, divided by the frequency value from <a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a> or <a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>,  will give the time in seconds.
+The total time elapsed during all volume level trim operations.  This value, divided by the frequency value from <a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a> or <a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>,  will give the time in seconds.
 
 ### -field VolumeTrimByteCount
 
@@ -355,7 +355,7 @@ The number of file level trim operations issued.
 
 ### -field FileLevelTrimTime
 
-The total time elapsed during all file level trim operations. This value, divided by the frequency value from <a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a> or <a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>, will give the time in seconds.
+The total time elapsed during all file level trim operations. This value, divided by the frequency value from <a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a> or <a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>, will give the time in seconds.
 
 ### -field FileLevelTrimByteCount
 
@@ -392,4 +392,4 @@ The number of read and write operations measured is the number of paging operati
 
 
 
-<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
+<a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a>

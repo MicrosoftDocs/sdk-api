@@ -60,7 +60,7 @@ Contains information about a search operation in a rich edit control. This struc
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
 The range of characters to search.
 
@@ -72,7 +72,7 @@ The null-terminated string used in the find operation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
 
 

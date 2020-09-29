@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about character formatting in a rich edit control. <b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages. 
+Contains information about character formatting in a rich edit control. <b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages. 
 
 
 ## -struct-fields
@@ -137,7 +137,7 @@ Specifies the underline type. To use this member, set the <b>CFM_UNDERLINETYPE</
 </dl>
 </td>
 <td width="60%">
-The structure maps <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>'s bit underline to <b>CHARFORMAT2</b>, (that is, it performs a <b>CHARFORMAT</b> type of underline on this text). 
+The structure maps <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>'s bit underline to <b>CHARFORMAT2</b>, (that is, it performs a <b>CHARFORMAT</b> type of underline on this text). 
 
 </td>
 </tr>
@@ -415,7 +415,7 @@ Specifies the font family and pitch. This member is the same as the <b>lfPitchAn
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
+Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
 
 
 ### -field crTextColor
@@ -1217,7 +1217,7 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
 
 
 

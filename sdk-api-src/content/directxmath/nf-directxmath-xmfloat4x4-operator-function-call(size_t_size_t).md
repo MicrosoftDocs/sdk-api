@@ -96,7 +96,7 @@ will set the value of the <i>mat.m[2,3]</i> (or equivalently mat._34) to 42.0.
 
 
 
-<a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a>
 
 
 

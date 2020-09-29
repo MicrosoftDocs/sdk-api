@@ -75,9 +75,9 @@ Index of the character in the passed string that exceeds the line width.
 
 ### -param phyphresult [out]
 
-Type: <b><a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a>*</b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-hyphresult">HYPHRESULT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a> structure that <i>HyphenateProc</i> fills in with the result of the hyphenation.
+Pointer to a <a href="/windows/win32/api/richedit/ns-richedit-hyphresult">HYPHRESULT</a> structure that <i>HyphenateProc</i> fills in with the result of the hyphenation.
 
 ## -remarks
 
@@ -91,11 +91,11 @@ An application must install the callback function by specifying the address of t
 
 
 
-<a href="https://msdn.microsoft.com/2463189e-98cf-4545-a435-474df74e1a22">HYPHENATEINFO</a>
+<a href="/windows/win32/api/richedit/ns-richedit-hyphenateinfo">HYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-hyphresult">HYPHRESULT</a>
 
 
 

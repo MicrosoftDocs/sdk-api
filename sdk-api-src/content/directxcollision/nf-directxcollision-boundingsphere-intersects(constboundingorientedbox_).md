@@ -49,17 +49,17 @@ api_name:
 
 ## -description
 
-Test the [BoundingSphere](./ns-directxcollision-boundingsphere.md) for intersection with a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Test the [BoundingSphere](./ns-directxcollision-boundingsphere.md) for intersection with a <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -parameters
 
 ### -param box [in, ref]
 
-The <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> to test for intersection.
+The <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> to test for intersection.
 
 ## -returns
 
-A boolean value indicating whether the [BoundingSphere](./ns-directxcollision-boundingsphere.md) intersects the specified <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+A boolean value indicating whether the [BoundingSphere](./ns-directxcollision-boundingsphere.md) intersects the specified <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -remarks
 
