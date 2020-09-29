@@ -86,6 +86,7 @@ This method returns one of the
 
 The data stored in the device child is set by calling <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-setprivatedata">ID3D11DeviceChild::SetPrivateData</a>.
         
+If the data returned is a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or one of its derivative classes, which was previously set by SetPrivateDataInterface, that interface will have its reference count incremented before the private data is returned.
 
 <b>Windows Phone 8:
         </b> This API is supported.

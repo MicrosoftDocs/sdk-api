@@ -78,6 +78,10 @@ Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></
 
 This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
 
+## -remarks
+
+If the data returned is a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or one of its derivative classes, which was previously set by SetPrivateDataInterface, that interface will have its reference count incremented before the private data is returned.
+
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>
